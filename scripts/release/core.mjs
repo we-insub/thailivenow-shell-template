@@ -11,6 +11,7 @@ export function verifyCache(cache) {
   return meta;
 }
 export function planChanges(changed,graph) {
+  if(!Array.isArray(graph.routes)||!graph.routes.length||graph.routes.some(r=>typeof r.pattern!=='string'||typeof r.component!=='string')||!graph.modules)throw Error('Invalid resolved dependency graph');
   const reasons=[],affected=new Set();
   const global=changed.filter(f=>!f.startsWith('docs/')&&!f.endsWith('.md')&&!f.startsWith('tests/')&&!f.startsWith('public/')&&!f.startsWith('src/'));
   // Global scripts, dependency locks, Functions, config and date preparation are full-build gates.
