@@ -1,0 +1,7 @@
+---
+import {validDate,formatSiteDate} from '../lib/site-dates-runtime.mjs';
+const {kind='deployment',fallback=null,locale='en',cameraId,pagePath=Astro.url.pathname,format='iso',unknown='—'}=Astro.props;
+const text=fallback?formatSiteDate(fallback,kind,locale,format):null;
+---
+<time data-site-date={kind} data-camera-id={cameraId} data-page-path={pagePath} data-date-locale={locale} data-date-format={format} datetime={text?fallback:undefined}>{text||unknown}</time>
+<script is:inline type="module" src="/site-dates-client.mjs"></script>
