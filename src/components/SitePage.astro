@@ -9,7 +9,7 @@ const active=locales.find(item=>item.code===locale)!;
 const ui=getUI(locale);
 const regionTitle=locale==='en-in' ? 'Thailand travel for Indian travellers' : locale==='en-gb' ? 'Thailand travel for UK travellers' : locale==='en-us' ? 'Thailand travel for US travelers' : ui.explore;
 const koreanTopics:Record<string,[string,string]>={
- destinations:['태국 여행 · 입국 준비와 도시별 여행지','한국 일반여권으로 관광하러 가는 분을 위한 태국 입국 준비와 TDAC 작성, 비자 안내를 살펴보세요. 방콕·치앙마이·푸켓 등 도시별 여행지와 공개 카메라도 지도에서 찾아볼 수 있어요.'],
+ destinations:['태국 여행 · 입국 준비와 도시별 여행지','방콕 호캉스부터 치앙마이의 사원·카페, 태국 섬의 해변 휴가까지 도시별 여행 매력을 살펴보세요. 한국 일반여권 여행자의 입국·TDAC·비자 준비와 여행 시기, 지도 안내도 함께 볼 수 있어요.'],
  coupons:['태국 배달 할인쿠폰 · 공식 혜택 확인','Grab과 LINE MAN의 공식 혜택 페이지에서 태국 음식배달 할인 정보를 찾아보세요. 주문 전 앱에서 적용 조건과 최종 결제금액을 확인하는 방법을 안내해요.'],
 };
 const topicMetadata=locale==='ko'&&section?koreanTopics[section]:undefined;
