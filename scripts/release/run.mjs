@@ -3,7 +3,7 @@ import path from 'node:path';
 import os from 'node:os';
 import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
-import {files,hashes,verifyCache,planChanges,overlay,assertScope} from './core.mjs';
+import {files,hashes,verifyCache,planChanges,overlay,assertScope,assertAssetReferences} from './core.mjs';
 import {checkRuntime} from './runtime-check.mjs';
 const args=process.argv.slice(2),value=k=>{const i=args.indexOf(k);return i<0?null:args[i+1];};
 const root=process.cwd(),git=(...a)=>execFileSync('git',a,{cwd:root,encoding:'utf8'}).trim();
@@ -45,12 +45,13 @@ for(const f of removed)fs.rmSync(path.join(candidate,f),{force:true});
 run(process.execPath,['scripts/prepare-site-dates.mjs',candidate]);
 // All existing release gates inspect the COMPLETE merged site, not only changed HTML.
 run(process.execPath,['scripts/audit-seo.mjs',candidate]);run(process.execPath,['scripts/audit-site-dates.mjs',candidate]);
+const assetReferences=assertAssetReferences(candidate,removed);
 const finalHashes=hashes(candidate);
 if(plan.mode==='partial')assertScope(baseline.hashes,finalHashes,delta,removed);
 fs.cpSync(path.join(source,'functions'),path.join(out,'functions'),{recursive:true});
 fs.copyFileSync(path.join(work,'graph.json'),path.join(out,'graph.json'));
 const runtime=await checkRuntime(source,candidate,commit);
-const report={schemaVersion:1,runtime,commit,baselineCommit:baseline?.commit||null,plan,renderedHTML:rendered.length,totalHTML:Object.keys(finalHashes).filter(f=>f.endsWith('.html')).length,seconds:(Date.now()-started)/1000,hashes:finalHashes,graphHash:createHash('sha256').update(fs.readFileSync(path.join(out,'graph.json'))).digest('hex'),verifiedProduction:false,sourceDirectory:source};
+const report={schemaVersion:1,runtime,assetReferences,commit,baselineCommit:baseline?.commit||null,plan,renderedHTML:rendered.length,totalHTML:Object.keys(finalHashes).filter(f=>f.endsWith('.html')).length,seconds:(Date.now()-started)/1000,hashes:finalHashes,graphHash:createHash('sha256').update(fs.readFileSync(path.join(out,'graph.json'))).digest('hex'),verifiedProduction:false,sourceDirectory:source};
 fs.writeFileSync(path.join(out,'release.json'),JSON.stringify(report,null,2));
 console.log(JSON.stringify({mode:plan.mode,rendered:rendered.length,total:report.totalHTML,seconds:report.seconds,output:out}));
 // Deploy only the exact audited candidate. The uploader uses this snapshot's Functions.

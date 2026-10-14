@@ -31,3 +31,16 @@ export function assertScope(before,after,delta,removed=[]) {
   const allowed=new Set([...Object.keys(delta),...removed,'data/site-dates.json','sitemap.xml','robots.txt']);
   for(const [f,hash] of Object.entries(before))if(after[f]!==hash&&!allowed.has(f))throw Error('Unexpected output mutation: '+f);
 }
+
+export function assertAssetReferences(root,removed=[]) {
+  let references=0;
+  for(const file of files(root).filter(f=>f.endsWith('.html'))) {
+    const html=fs.readFileSync(file,'utf8');
+    for(const m of html.matchAll(/(?:src|href)=["'](\/_astro\/[^"']+)["']/g)) {
+      const asset=decodeURIComponent(m[1].split(/[?#]/)[0]);references++;
+      if(!fs.existsSync(path.join(root,asset.slice(1))))throw Error('Missing compiled asset: '+asset+' in '+file);
+    }
+    for(const asset of removed)if(html.includes('"/'+asset+'"')||html.includes("'/"+asset+"'"))throw Error('Deleted public asset is still referenced: '+asset);
+  }
+  return references;
+}
