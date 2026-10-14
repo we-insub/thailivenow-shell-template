@@ -26,4 +26,15 @@
 - 기존 1,816개 HTML은 승인한 공통 푸터·통계 모듈·연관 CSS 외 본문/메타 변경이 없는지 대조한다. 원본 카메라와 기존 페이지 날짜 기록은 동일하다.
 - 기술 근거: https://developers.google.com/tag-platform/security/concepts/consent-mode 및 https://developers.google.com/analytics/devguides/collection/ga4/reference/config. 실제 동작은 별도 테스트한다. 법적 적합성 심사 완료를 주장하지 않는다.
 
-최종 커밋·푸시·정식 운영 배포·PC/모바일 운영 확인은 실행 후 결과를 기록한다. 일반 콘텐츠 부분 배포 workflow는 이번 작업으로 활성화하지 않는다.
+## 완료 기록
+
+- 문서·구현: 승인된 안내·약관 5개, 푸터 연결, 통계 동의 연결과 버튼 순서를 구현했다.
+- 로컬 검증: 21개 테스트 통과, 1,821개 페이지 빌드 및 SEO 오류 0. 기존 1,816개 HTML의 승인 범위 외 본문·메타 변경 없음.
+- Git: 운영 소스 정리 813527768badc9e43cb23829e7564c3575f34aaf, 배포 코드 b1ccfc3e9ab5cc6ce5ed71b431c3792d35ac7024. GitHub main 및 codex/site-dates에 푸시했다. 주 작업 디렉터리의 Git 기준도 맞췄으며 다른 작업의 AGENTS.md·조사·QA 파일은 보존했다.
+- 정식 운영 배포: Cloudflare Pages main, https://c3a96177.thai-live-now.pages.dev → https://thailivenow.com. Wrangler 변경 자산 1,825개 업로드, 기존 107개 재사용, Functions 포함 성공.
+- 실제 운영 확인: 전체 1,821개 HTTP 응답의 상태·본문·메타·서버 날짜 릴리스 일치, 최종 차이 0. 일시적 DNS 실패 1개 재시도 성공. 비교기의 날짜 형식 판정을 실제 런타임과 맞췄다. 기존 timestamp형 sourceCheckedOn은 원본 그대로이며 날짜로 유효하지 않아 기존 미확인 표시를 보존한다.
+- 실제 PC·모바일: 안내 5개 × 2 화면에서 H1·푸터 연결·가로 넘침 확인. 통계 버튼은 모두 허용 → 거부 → 닫기. 선택 전 태그 없음, 닫기 선택 유지, 허용 태그 로딩, 거부·철회 후 재로딩과 태그 제거를 확인했다.
+- 운영 데이터·API·robots·사이트맵 일치 및 미리보기 noindex 확인. 기존 29개 카메라 및 1,351개 페이지 날짜 기록을 보존했다.
+- 증거: artifacts/production-git-reconcile-20261015/production-verification.json, policy-production-browser.json, consent-production-checks.json, consent-production-pc.png, consent-production-mobile.png.
+
+이 완료 기록은 배포 이후 문서 커밋으로 저장하며 문서만을 위해 재배포하지 않는다. 일반 콘텐츠 부분 배포 workflow는 이번 작업으로 활성화하지 않는다.
