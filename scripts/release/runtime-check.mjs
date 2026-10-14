@@ -3,7 +3,7 @@ export async function checkRuntime(source,candidate,commit) {
  const server=net.createServer();await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const port=server.address().port;await new Promise(resolve=>server.close(resolve));
  fs.cpSync(candidate,path.join(source,'release-runtime'),{recursive:true});
  const log=fs.openSync(path.join(source,'artifacts/release-runtime.log'),'a');
- const child=spawn('npx',['wrangler','pages','dev','release-runtime','--port',String(port),'--ip','127.0.0.1','--compatibility-date','2026-10-12'],{cwd:source,stdio:['ignore',log,log],detached:true});
+ const child=spawn('npx',['--yes','wrangler@4.151.0','pages','dev','release-runtime','--port',String(port),'--ip','127.0.0.1','--compatibility-date','2026-10-12'],{cwd:source,stdio:['ignore',log,log],detached:true});
  const base='http://127.0.0.1:'+port,checks=[];
  try {
   let ready=false;for(let i=0;i<120;i++){try{const r=await fetch(base+'/data/site-dates.json',{signal:AbortSignal.timeout(500)});if(r.ok){ready=true;break;}}catch{}await new Promise(r=>setTimeout(r,500));}
