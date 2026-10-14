@@ -1,4 +1,4 @@
-import fs from 'node:fs';import path from 'node:path';import net from 'node:net';import {spawn} from 'node:child_process';
+import fs from 'node:fs';import path from 'node:path';import net from 'node:net';import {request as httpRequest} from 'node:http';import {spawn} from 'node:child_process';
 export async function checkRuntime(source,candidate,commit) {
  const server=net.createServer();await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const port=server.address().port;await new Promise(resolve=>server.close(resolve));
  fs.cpSync(candidate,path.join(source,'release-runtime'),{recursive:true});
@@ -14,7 +14,7 @@ export async function checkRuntime(source,candidate,commit) {
    const url='/'+lang+'/';const r=await fetch(base+url),html=await r.text();if(!r.ok||!html.includes('id="site-dates-response"')||!html.includes(commit))throw Error('Runtime HTML failure: '+url);checks.push(url);
   }
   for(const file of ['data/cameras.json','analytics-consent.mjs','sitemap.xml','robots.txt']){const r=await fetch(base+'/'+file);if(!r.ok||Buffer.compare(Buffer.from(await r.arrayBuffer()),fs.readFileSync(path.join(candidate,file))))throw Error('Runtime asset changed: '+file);checks.push(file);}
-  const preview=await fetch(base+'/ko/',{headers:{host:'release-check.thai-live-now.pages.dev'}});const html=await preview.text();if(!preview.headers.get('x-robots-tag')?.includes('noindex')&&!html.includes('noindex'))throw Error('Preview noindex missing');
+  const preview=await new Promise((resolve,reject)=>{const req=httpRequest(base+'/ko/',{headers:{Host:'release-check.thai-live-now.pages.dev'}},res=>{let html='';res.on('data',chunk=>html+=chunk);res.on('end',()=>resolve({headers:res.headers,html}));});req.on('error',reject);req.end();});if(!preview.headers['x-robots-tag']?.includes('noindex')&&!preview.html.includes('noindex'))throw Error('Preview noindex missing');
   return {passed:true,checks};
  }finally{try{process.kill(-child.pid,'SIGTERM');}catch{}fs.closeSync(log);}
 }
