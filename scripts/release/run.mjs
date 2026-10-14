@@ -58,8 +58,7 @@ console.log(JSON.stringify({mode:plan.mode,rendered:rendered.length,total:report
 if(args.includes('--deploy')){
  // Repeat race check immediately before upload.
  if(baseline){const live=await fetch('https://thailivenow.com/data/site-dates.json',{cache:'no-store'}).then(r=>r.json());if(live.release?.commit!==baseline.commit)throw Error('Production changed before deploy');}
- fs.cpSync(candidate,path.join(source,'release-dist'),{recursive:true});
- const result=execFileSync('npx',['--yes','wrangler@4.151.0','pages','deploy','release-dist','--project-name','thai-live-now','--branch','main','--commit-hash',commit,'--commit-dirty=false'],{cwd:source,env,encoding:'utf8',maxBuffer:8*1024*1024});process.stdout.write(result);
+ const result=execFileSync('npx',['--yes','wrangler@4.151.0','pages','deploy',candidate,'--project-name','thai-live-now','--branch','main','--commit-hash',commit,'--commit-dirty=false'],{cwd:source,env,encoding:'utf8',maxBuffer:8*1024*1024});process.stdout.write(result);
  const deploymentURL=result.match(/https:\/\/[a-f0-9]+\.thai-live-now\.pages\.dev/)?.[0];if(!deploymentURL)throw Error('Deployment URL missing; do not mark baseline verified');
  report.deploymentURL=deploymentURL;fs.writeFileSync(path.join(out,'release.json'),JSON.stringify(report,null,2));
  console.log('Verify production, then run release:verify to promote this exact artifact.');
