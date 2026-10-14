@@ -11,7 +11,10 @@
     "audit:seo": "node scripts/audit-seo.mjs",
     "postbuild": "node scripts/postbuild-site-dates.mjs",
     "test:site-dates": "node --test tests/site-dates-runtime.test.mjs",
-    "audit:site-dates": "node scripts/audit-site-dates.mjs"
+    "audit:site-dates": "node scripts/audit-site-dates.mjs",
+    "release": "node scripts/release/run.mjs",
+    "release:verify": "node scripts/release/verify.mjs",
+    "test:release": "node --test tests/partial-release.test.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0",
