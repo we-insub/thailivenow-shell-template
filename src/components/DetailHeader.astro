@@ -6,7 +6,7 @@ import LanguagePicker from './LanguagePicker.astro';
 import {getUI} from '../i18n/ui';
 import {airportUI} from '../i18n/airport-ui';
 import {headerIcons} from '../design/header-icons';
-const {locale='ko', home=false, brand='ThaiLiveNow'}=Astro.props;
+const {locale='ko', home=false, brand='ThaiLiveNow', activeHref}=Astro.props;
 const design=getDesignUI(locale);
 const ui=getUI(locale);
 const koreanItems = [
@@ -19,7 +19,7 @@ const koreanItems = [
 ];
 const items=locale==='ko'?koreanItems:[...['map','destinations','food','transport','cameras','coupons','flights'].map((id,i)=>[ui[id],ui[id],['compass','pin','food','train','grid','coupon','plane'][i],id==='map'?`/${locale}/`:id==='cameras'?`/${locale}/directory/`:id==='flights'?`/${airportUI[locale]?.[0]?locale:'ko'}/airport-assistance/`:`/${locale}/${id}/`])];
 if(locale!=='ko')items.splice(5,0,[design.saved,design.saved,'heart',`/${locale}/saved/`]);
-const active=(href:string)=>href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
+const active=(href:string)=>activeHref ? href===activeHref : href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
 const topicHub=/^\/[^/]+\/(destinations|coupons|food|transport)\/$/.test(Astro.url.pathname);
 ---
 <SiteDesign />
