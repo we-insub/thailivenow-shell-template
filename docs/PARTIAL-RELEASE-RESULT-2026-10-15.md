@@ -20,3 +20,12 @@
 이 기록을 포함한 커밋으로 실제 부분 모드 운영 배포를 실행하고, 최종 한 페이지 시험·미커밋 파일 제외·운영 PC/모바일 및 새 배포 ID를 확인한 뒤 완료 기록을 추가한다. 시험용 원고 커밋은 GitHub 푸시와 운영 배포에서 제외한다.
 
 검증 중 구형 전역 Wrangler 선택과 fetch의 Host 처리 차이는 고정 버전 및 실제 HTTP Host 요청으로 수정했다. 저장 공간 부족은 이번 작업이 만든 임시 의존성/컴파일/런타임 사본만 정리해 해결했다. 업로드와 로컬 서버는 이제 감사한 결과물을 직접 사용하며 불필요한 추가 복사를 하지 않는다. QA와 다른 작업 변경은 보존했다.
+
+## 최종 완료
+
+- 최종 코드의 한 페이지 시험: 33.628초, 1개 재생성·1,820개 해시 보존. 29개 테스트·전체 SEO 오류 0·날짜 감사 오류 0·참조 자산 6,804개 확인·Pages 로컬 서버 검사 모두 통과했다. 미커밋 시험 파일은 로컬 후보와 운영 후보 모두에 포함되지 않았다. 시험 커밋은 푸시·배포하지 않았다.
+- 실제 부분 모드 운영 실행: d06964fcf87440489c79d71961acdee0f9ea5ee5, https://fbc97a5e.thai-live-now.pages.dev → https://thailivenow.com. 문서 변경 릴리스여서 HTML 재생성 0개, 기존 1,821개를 모두 재사용했다. 로컬 관문 31.222초, 업로드는 JSON 1개/나머지 1,931개 재사용 2.00초. Functions와 _routes도 정식 업로드했다.
+- 성공 후 실제 운영 11개 언어 대표 HTML·주요 데이터/API·robots/sitemap/analytics 자산·배포 JSON·미리보기 noindex 확인 18개를 통과하고 재사용 기준으로 승격했다. PC·모바일은 H1 1개, 가로 넘침 없음, 서버 릴리스 d06964fc와 날짜 일치, 콘솔 오류 없음이다.
+- 다음 기준 디렉터리: /Users/matowe/.codex/worktrees/thai-site-dates/thai_live_now/artifacts/partial-release-production. release.json/graph.json/dist를 함께 보존한다. 새 커밋 배포에 --baseline으로 지정한다. 작업 디렉터리 없이 새로운 환경에서는 전체 빌드로 기준을 먼저 만든다.
+- 기본 작업 디렉터리에도 이번 변경 파일과 규칙만 반영한다. 기존 미커밋 AGENTS.md 문구 및 다른 조사·QA 파일은 보존한다.
+- 스크린샷과 요약: /Users/matowe/Desktop/thai_live_now/artifacts/partial-release-20261015/. 완료 기록 문서만을 위해 다시 운영 배포하지 않는다.
