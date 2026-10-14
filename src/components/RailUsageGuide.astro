@@ -1,0 +1,13 @@
+---
+import AirportRailSummary from './AirportRailSummary.astro';
+import html from '../data/transit-pilot/guides/rail/index.html?raw';
+const start = html.indexOf('<section data-rail-guide-lines="bts-sukhumvit bts-silom"');
+const content = html.slice(start, html.indexOf('</main>')).replace('<!--AIRPORT_RAIL_GUIDE-->', '');
+---
+<div class="rail-usage-guide" aria-label="선택한 노선 이용 안내">
+  <Fragment set:html={content} />
+  <AirportRailSummary filterByLine={true} />
+</div>
+<style>
+.rail-usage-guide :global(section){margin-top:32px}.rail-usage-guide :global(h2){font-size:24px}.rail-usage-guide :global(p),.rail-usage-guide :global(li){font-size:15px;line-height:1.8}.rail-usage-guide :global(.note){color:#61717e;font-size:13px}.rail-usage-guide :global(table){width:100%;border-collapse:collapse;font-size:14px}.rail-usage-guide :global(th),.rail-usage-guide :global(td){border:1px solid #e4eaee;padding:12px;text-align:left}.rail-usage-guide :global(.sources){font-size:12px;overflow-wrap:anywhere}:global([data-rail-guide-lines][hidden]){display:none!important}@media(max-width:760px){.rail-usage-guide :global(table){display:block;overflow:auto}}
+</style>

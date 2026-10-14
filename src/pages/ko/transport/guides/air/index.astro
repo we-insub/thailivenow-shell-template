@@ -1,0 +1,6 @@
+---
+import TransportGuidePage from '../../../../../components/TransportGuidePage.astro';
+import DomesticAirNetwork from '../../../../../components/DomesticAirNetwork.astro';
+import guide from '../../../../../data/transport/guides/air.json';
+---
+<TransportGuidePage guide={guide}><DomesticAirNetwork slot="before-map"/></TransportGuidePage>

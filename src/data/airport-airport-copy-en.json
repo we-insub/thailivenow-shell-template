@@ -1,0 +1,77 @@
+{
+  "en-in": {
+    "language": "en",
+    "humanNativeReviewed": false,
+    "faqTitle": "Frequently asked questions",
+    "counterQ": "Which airline counter should I use?",
+    "counterA": "Check the actual operating airline and distinguish check-in, ticketing and arrival baggage services. Confirm the counter on your travel date with the departure screens and the airline.",
+    "routeQ": "How do I find routes at this airport?",
+    "routeA": "Open a listed route to check its operating dates and schedule validity. Airport-pair links show information for the relevant departure and arrival airports.",
+    "statusQ": "Does the timetable show today’s flight status?",
+    "statusA": "Scheduled departure and arrival times are separate from flight status on your travel date. Check your flight number and travel date through the airline’s official flight-status link.",
+    "intro": "At {name}, check routes between India and Thailand and airline counter information.",
+    "koreanReview": {
+      "Frequently asked questions": "자주 묻는 질문",
+      "Which airline counter should I use?": "어느 항공사 창구로 가야 하나요?",
+      "How do I find routes at this airport?": "이 공항의 노선을 어떻게 확인하나요?",
+      "Does the timetable show today’s flight status?": "시간표가 오늘의 운항 상태를 알려 주나요?",
+      "Check the actual operating airline and distinguish check-in, ticketing and arrival baggage services.": "실제 운항사를 확인하고 체크인·발권·도착 수하물 업무를 구분하세요.",
+      "Confirm the counter on your travel date with the departure screens and the airline.": "여행 당일 카운터는 출발 안내 화면과 항공사에서 확인하세요.",
+      "Open a listed route to check its operating dates and schedule validity.": "등록된 노선의 상세를 열어 운항 날짜와 시간표 유효기간을 확인하세요.",
+      "Airport-pair links show information for the relevant departure and arrival airports.": "공항쌍 링크에서 해당 출발·도착 공항의 정보를 볼 수 있어요.",
+      "Scheduled departure and arrival times are separate from flight status on your travel date.": "예정 출발·도착 시각과 여행 당일의 운항 상태는 구분해서 확인하세요.",
+      "Check your flight number and travel date through the airline’s official flight-status link.": "항공사의 공식 운항 조회 링크에서 편명과 여행 날짜를 확인하세요.",
+      "At {name}, check routes between India and Thailand and airline counter information.": "{name}에서 인도와 태국 사이의 노선 및 항공사 창구 정보를 확인하세요."
+    }
+  },
+  "en-gb": {
+    "language": "en",
+    "humanNativeReviewed": false,
+    "faqTitle": "Frequently asked questions",
+    "counterQ": "Which airline counter should I use?",
+    "counterA": "Check the actual operating airline and distinguish check-in, ticketing and arrival baggage services. Confirm the counter on your travel date with the departure screens and the airline.",
+    "routeQ": "How do I find routes at this airport?",
+    "routeA": "Open a listed route to check its operating dates and schedule validity. Airport-pair links show information for the relevant departure and arrival airports.",
+    "statusQ": "Does the timetable show today’s flight status?",
+    "statusA": "Scheduled departure and arrival times are separate from flight status on your travel date. Check your flight number and travel date through the airline’s official flight-status link.",
+    "intro": "At {name}, check routes between the United Kingdom and Thailand and airline counter information.",
+    "koreanReview": {
+      "Frequently asked questions": "자주 묻는 질문",
+      "Which airline counter should I use?": "어느 항공사 창구로 가야 하나요?",
+      "How do I find routes at this airport?": "이 공항의 노선을 어떻게 확인하나요?",
+      "Does the timetable show today’s flight status?": "시간표가 오늘의 운항 상태를 알려 주나요?",
+      "Check the actual operating airline and distinguish check-in, ticketing and arrival baggage services.": "실제 운항사를 확인하고 체크인·발권·도착 수하물 업무를 구분하세요.",
+      "Confirm the counter on your travel date with the departure screens and the airline.": "여행 당일 카운터는 출발 안내 화면과 항공사에서 확인하세요.",
+      "Open a listed route to check its operating dates and schedule validity.": "등록된 노선의 상세를 열어 운항 날짜와 시간표 유효기간을 확인하세요.",
+      "Airport-pair links show information for the relevant departure and arrival airports.": "공항쌍 링크에서 해당 출발·도착 공항의 정보를 볼 수 있어요.",
+      "Scheduled departure and arrival times are separate from flight status on your travel date.": "예정 출발·도착 시각과 여행 당일의 운항 상태는 구분해서 확인하세요.",
+      "Check your flight number and travel date through the airline’s official flight-status link.": "항공사의 공식 운항 조회 링크에서 편명과 여행 날짜를 확인하세요.",
+      "At {name}, check routes between the United Kingdom and Thailand and airline counter information.": "{name}에서 영국와 태국 사이의 노선 및 항공사 창구 정보를 확인하세요."
+    }
+  },
+  "en-us": {
+    "language": "en",
+    "humanNativeReviewed": false,
+    "faqTitle": "Frequently asked questions",
+    "counterQ": "Which airline counter should I use?",
+    "counterA": "Check the actual operating airline and distinguish check-in, ticketing and arrival baggage services. Confirm the counter on your travel date with the departure screens and the airline.",
+    "routeQ": "How do I find routes at this airport?",
+    "routeA": "Open a listed route to check its operating dates and schedule validity. Airport-pair links show information for the relevant departure and arrival airports.",
+    "statusQ": "Does the timetable show today’s flight status?",
+    "statusA": "Scheduled departure and arrival times are separate from flight status on your travel date. Check your flight number and travel date through the airline’s official flight-status link.",
+    "intro": "At {name}, check routes between the United States and Thailand and airline counter information.",
+    "koreanReview": {
+      "Frequently asked questions": "자주 묻는 질문",
+      "Which airline counter should I use?": "어느 항공사 창구로 가야 하나요?",
+      "How do I find routes at this airport?": "이 공항의 노선을 어떻게 확인하나요?",
+      "Does the timetable show today’s flight status?": "시간표가 오늘의 운항 상태를 알려 주나요?",
+      "Check the actual operating airline and distinguish check-in, ticketing and arrival baggage services.": "실제 운항사를 확인하고 체크인·발권·도착 수하물 업무를 구분하세요.",
+      "Confirm the counter on your travel date with the departure screens and the airline.": "여행 당일 카운터는 출발 안내 화면과 항공사에서 확인하세요.",
+      "Open a listed route to check its operating dates and schedule validity.": "등록된 노선의 상세를 열어 운항 날짜와 시간표 유효기간을 확인하세요.",
+      "Airport-pair links show information for the relevant departure and arrival airports.": "공항쌍 링크에서 해당 출발·도착 공항의 정보를 볼 수 있어요.",
+      "Scheduled departure and arrival times are separate from flight status on your travel date.": "예정 출발·도착 시각과 여행 당일의 운항 상태는 구분해서 확인하세요.",
+      "Check your flight number and travel date through the airline’s official flight-status link.": "항공사의 공식 운항 조회 링크에서 편명과 여행 날짜를 확인하세요.",
+      "At {name}, check routes between the United States and Thailand and airline counter information.": "{name}에서 미국와 태국 사이의 노선 및 항공사 창구 정보를 확인하세요."
+    }
+  }
+}

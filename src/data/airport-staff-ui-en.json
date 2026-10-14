@@ -1,0 +1,128 @@
+{
+  "en-in": {
+    "title": "Thai phrases to show airport staff",
+    "intro": "Choose the male or female form to match the speaker, then show the Thai sentence you need to the staff member or copy it to send.",
+    "speaker": "Speaker form",
+    "male": "Male speaker",
+    "female": "Female speaker",
+    "copy": "Copy Thai sentence",
+    "copied": "Copied",
+    "copyFallback": "Select the Thai sentence and copy it manually.",
+    "phrases": {
+      "SP-01": {
+        "label": "Request delay confirmation",
+        "situation": "At the counter or gate, ask about confirmation for a delayed flight.",
+        "meaning": "My booked flight has been delayed. Could I get a flight delay confirmation document?"
+      },
+      "SP-02": {
+        "label": "Request cancellation confirmation",
+        "situation": "At the airline counter, ask about confirmation for your cancelled flight.",
+        "meaning": "My booked flight has been cancelled. Could I get a flight cancellation confirmation document?"
+      },
+      "SP-03": {
+        "label": "Ask about another flight",
+        "situation": "After a cancellation or delay, ask the airline counter about changing flights.",
+        "meaning": "Could you change me to another flight?"
+      },
+      "SP-04": {
+        "label": "Ask how to request a refund",
+        "situation": "At the airline or ticketing counter, ask about the ticket refund procedure.",
+        "meaning": "I would like a refund for my flight ticket. What should I do?"
+      },
+      "SP-05": {
+        "label": "Ask about meals or accommodation",
+        "situation": "During a long delay, ask airline staff whether meals or accommodation are provided.",
+        "meaning": "The flight has been delayed for a long time. Does the airline provide meals or accommodation for passengers?"
+      },
+      "SP-06": {
+        "label": "Ask where to report baggage damage",
+        "situation": "After finding damage to your arriving bag, ask baggage staff where to report it and request a PIR.",
+        "meaning": "My suitcase has been damaged. Where should I go to report the problem and request a PIR document?"
+      }
+    }
+  },
+  "en-gb": {
+    "title": "Thai phrases to show airport staff",
+    "intro": "Choose the male or female form to match the speaker, then show the Thai sentence you need to the staff member or copy it to send.",
+    "speaker": "Speaker form",
+    "male": "Male speaker",
+    "female": "Female speaker",
+    "copy": "Copy Thai sentence",
+    "copied": "Copied",
+    "copyFallback": "Select the Thai sentence and copy it manually.",
+    "phrases": {
+      "SP-01": {
+        "label": "Request delay confirmation",
+        "situation": "At the counter or gate, ask about confirmation for a delayed flight.",
+        "meaning": "My booked flight has been delayed. Could I get a flight delay confirmation document?"
+      },
+      "SP-02": {
+        "label": "Request cancellation confirmation",
+        "situation": "At the airline counter, ask about confirmation for your cancelled flight.",
+        "meaning": "My booked flight has been cancelled. Could I get a flight cancellation confirmation document?"
+      },
+      "SP-03": {
+        "label": "Ask about another flight",
+        "situation": "After a cancellation or delay, ask the airline counter about changing flights.",
+        "meaning": "Could you change me to another flight?"
+      },
+      "SP-04": {
+        "label": "Ask how to request a refund",
+        "situation": "At the airline or ticketing counter, ask about the ticket refund procedure.",
+        "meaning": "I would like a refund for my flight ticket. What should I do?"
+      },
+      "SP-05": {
+        "label": "Ask about meals or accommodation",
+        "situation": "During a long delay, ask airline staff whether meals or accommodation are provided.",
+        "meaning": "The flight has been delayed for a long time. Does the airline provide meals or accommodation for passengers?"
+      },
+      "SP-06": {
+        "label": "Ask where to report baggage damage",
+        "situation": "After finding damage to your arriving bag, ask baggage staff where to report it and request a PIR.",
+        "meaning": "My suitcase has been damaged. Where should I go to report the problem and request a PIR document?"
+      }
+    }
+  },
+  "en-us": {
+    "title": "Thai phrases to show airport staff",
+    "intro": "Choose the male or female form to match the speaker, then show the Thai sentence you need to the staff member or copy it to send.",
+    "speaker": "Speaker form",
+    "male": "Male speaker",
+    "female": "Female speaker",
+    "copy": "Copy Thai sentence",
+    "copied": "Copied",
+    "copyFallback": "Select the Thai sentence and copy it manually.",
+    "phrases": {
+      "SP-01": {
+        "label": "Request delay confirmation",
+        "situation": "At the counter or gate, ask about confirmation for a delayed flight.",
+        "meaning": "My booked flight has been delayed. Could I get a flight delay confirmation document?"
+      },
+      "SP-02": {
+        "label": "Request cancellation confirmation",
+        "situation": "At the airline counter, ask about confirmation for your cancelled flight.",
+        "meaning": "My booked flight has been cancelled. Could I get a flight cancellation confirmation document?"
+      },
+      "SP-03": {
+        "label": "Ask about another flight",
+        "situation": "After a cancellation or delay, ask the airline counter about changing flights.",
+        "meaning": "Could you change me to another flight?"
+      },
+      "SP-04": {
+        "label": "Ask how to request a refund",
+        "situation": "At the airline or ticketing counter, ask about the ticket refund procedure.",
+        "meaning": "I would like a refund for my flight ticket. What should I do?"
+      },
+      "SP-05": {
+        "label": "Ask about meals or accommodation",
+        "situation": "During a long delay, ask airline staff whether meals or accommodation are provided.",
+        "meaning": "The flight has been delayed for a long time. Does the airline provide meals or accommodation for passengers?"
+      },
+      "SP-06": {
+        "label": "Ask where to report baggage damage",
+        "situation": "After finding damage to your arriving bag, ask baggage staff where to report it and request a PIR.",
+        "meaning": "My suitcase has been damaged. Where should I go to report the problem and request a PIR document?"
+      }
+    }
+  }
+}

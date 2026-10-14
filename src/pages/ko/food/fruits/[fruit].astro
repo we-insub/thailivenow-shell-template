@@ -1,0 +1,19 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FoodPhoto from '../../../../components/FoodPhoto.astro';
+import FruitPrices from '../../../../components/FruitPrices.astro';
+import food from '../../../../data/food.json';
+export function getStaticPaths(){return food.fruits.map(fruit=>({params:{fruit:fruit.id},props:{fruit}}))}
+const {fruit:f}=Astro.props;
+const faq=[['제철이 아니면 살 수 없나요?',f.months.length===12?'연중 출하하는 과일로 안내돼요. 다만 가게마다 실제로 파는 품종과 재고는 달라요. 통과일과 손질한 제품을 나눠 살펴보세요.':`${f.seasonLabel}로 안내돼요. ${f.availability==='연중 출하 안내'?'연중 출하하는 과일이지만 제철과 품종에 따라 물량과 가격이 달라질 수 있어요.':'산지와 품종에 따라 출하시기가 달라질 수 있어요.'} 달력은 날짜마다 판매를 보장하는 안내가 아니에요.`],['kg 가격과 한 팩 가격은 어떻게 비교하나요?',f.buying]];
+---
+<FoodLayout title={`${f.name} · 태국에서 먹는 제철과 맛`} description={f.intro} breadcrumbs={[["음식","/ko/food/"],["과일","/ko/food/fruits/"]]} sourceIds={[...f.sources,...(food.fruitPrices.some(p=>p.fruit===f.id)?['fruit-prices']:[])]} faq={faq}>
+<div class="food-detail"><header class="food-hero"><span class="food-eyebrow">태국 과일 · {f.seasonLabel}</span><h1>{f.name}</h1><p class="food-subtitle"><span lang="en">{f.english}</span> · <span lang="th">{f.thai}</span></p><p class="food-intro">{f.intro}</p></header><FoodPhoto dish={f}/>
+<section><h2>언제 먹으면 좋을까요?</h2><div class="food-note"><p><strong>{f.seasonLabel}</strong><br/>{f.availability}{f.regional&&<><br/>{f.regional}</>}</p></div><p>주출하기나 지역 과일의 출하시기를 참고해서 골라보세요. 실제 출하는 산지·품종·날씨에 따라 달라질 수 있어요.</p></section>
+<section><h2>어떤 맛인가요?</h2><p>{f.taste}</p></section><section><h2>태국에서 이 과일이 알려진 이유</h2><p>{f.why}</p></section>
+<section><h2>살 때 알아둘 기본 정보</h2><dl><div><dt>태국어 이름</dt><dd lang="th">{f.thai}</dd></div><div><dt>출하시기</dt><dd>{f.seasonLabel}</dd></div>{f.regional&&<div><dt>지역별 과일</dt><dd>{f.regional}</dd></div>}<div><dt>사는 방법</dt><dd>{f.buying}</dd></div></dl></section>
+<section><h2>손질해서 먹는 방법</h2><ol class="food-steps">{f.steps.map(step=><li><span>{step}</span></li>)}</ol></section>
+{food.fruitPrices.some(p=>p.fruit===f.id)&&<section><h2>가격을 참고해보세요</h2><FruitPrices fruitId={f.id}/></section>}
+<section class="food-faq"><h2>자주 묻는 질문</h2>{faq.map(([q,a])=><article><h3>{q}</h3><p>{a}</p></article>)}</section>
+<section><h2>이어서 살펴보기</h2><div class="food-related"><a href="/ko/food/fruits/">1–12월 과일 달력 →</a><a href="/ko/food/fruit-prices/">도시별 구매 안내·가격 →</a><a href="/ko/food/street-food/">길거리 간식과 음료 →</a><a href="/ko/food/">태국 음식 전체 →</a></div></section></div>
+</FoodLayout>

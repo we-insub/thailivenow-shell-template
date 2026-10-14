@@ -1,0 +1,16 @@
+---
+import PilotPage from "../../../components/PilotPage.astro";
+import { getOperationalDeployDate } from '../../../lib/operational-date';
+
+export const prerender = true;
+export function getStaticPaths() {
+  const pages = import.meta.glob('../../../data/transit-pilot/**/*.html', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+  return Object.entries(pages).filter(([file]) => !['taxi','local','motorcycle','air','bus'].some(id=>file.endsWith(`/guides/${id}/index.html`)) && !file.endsWith('/transit-pilot/index.html') && !file.endsWith('/transit-pilot/bangkok/index.html')).map(([file, html]) => ({
+    params: { path: file.split('transit-pilot/')[1].replace(/index\.html$/, '').replace(/\.html$/, '') || undefined },
+    props: { html },
+  }));
+}
+const { html: draft } = Astro.props;
+const html = draft.replaceAll('<span data-deploy-date></span>', `<span data-deploy-date>${getOperationalDeployDate()}</span>`);
+---
+<PilotPage html={html} />

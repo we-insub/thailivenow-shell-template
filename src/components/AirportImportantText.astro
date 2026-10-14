@@ -1,0 +1,9 @@
+---
+import ImportantText from './ImportantText.astro';
+import {airportKoreanReviewEnabled,airportReviewDictionary} from '../lib/airport-review';
+const {text='',phrases=[],locale='ko'}=Astro.props;
+const enabled=airportKoreanReviewEnabled&&locale!=='ko';
+const dictionary=enabled?airportReviewDictionary(locale):{};
+const sentences=Array.from(new Intl.Segmenter(locale,{granularity:'sentence'}).segment(text),(s:any)=>s.segment);
+---
+{phrases.length?sentences.map((sentence:string)=><span data-airport-sentence={enabled&&dictionary[sentence.trim()]?'true':undefined}><ImportantText text={sentence} phrases={phrases}/>{enabled&&dictionary[sentence.trim()]&&<span lang="ko" data-korean-review="true" class="airport-korean-review"> ({dictionary[sentence.trim()]}) </span>}</span>):text}

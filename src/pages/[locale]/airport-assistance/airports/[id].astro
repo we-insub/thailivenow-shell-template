@@ -1,0 +1,40 @@
+---
+import hktFacilities from '../../../../data/airport-facilities-hkt-reviewed.json';
+import dmkFacilities from '../../../../data/airport-facilities-dmk-reviewed.json';
+import bkkFacilities from '../../../../data/airport-facilities-bkk-reviewed.json';
+import AirportFacilityIntro from '../../../../components/AirportFacilityIntro.astro';
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportImportantText from '../../../../components/AirportImportantText.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import AirportEmail from '../../../../components/AirportEmail.astro';
+import AirportAirportCopy from '../../../../components/AirportAirportCopy.astro';
+import {airportAirportDescription} from '../../../../lib/airport-airport-copy';
+import AirportPhone from '../../../../components/AirportPhone.astro';
+import {airportMarkets,airportMarketData,airportPairs} from '../../../../lib/airport-markets';
+import {airportUI} from '../../../../i18n/airport-ui';
+import AirportMarketDetail from '../../../../components/AirportMarketDetail.astro';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').flatMap(m=>{
+ const data=airportMarketData(m.locale);const codes=[...new Set(['CNX',...((bkkFacilities.locales as any)[m.locale]?['BKK']:[]),...((dmkFacilities.locales as any)[m.locale]?['DMK']:[]),...((hktFacilities.locales as any)[m.locale]?['HKT']:[])].concat(data.routes.flatMap((r:any)=>[r.originIata,r.destinationIata]).concat(data.services.map((s:any)=>s.airportIata).filter(Boolean))))];
+ return codes.map(code=>({params:{locale:m.locale,id:String(code).toLowerCase()},props:{market:m,code}}));
+});}
+const {market,code}=Astro.props;const data=airportMarketData(market.locale),t=airportUI[market.locale];
+const routes=data.routes.filter((r:any)=>r.originIata===code||r.destinationIata===code);
+const statusLinks=[...new Map(routes.filter((r:any)=>r.flightStatusUrl).map((r:any)=>[r.airlineId,{airline:r.airline,url:r.flightStatusUrl}])).values()] as any[];
+const pairs=airportPairs(data).filter((pair:any)=>[pair.other,pair.thai].includes(code));
+const name=routes.find((r:any)=>r.airportNames?.[code])?.airportNames?.[code]||data.airportNames?.[code]||routes.find((r:any)=>r.originIata===code)?.origin||routes.find((r:any)=>r.destinationIata===code)?.destination||data.services.find((s:any)=>s.airportIata===code)?.airport||code;
+const services=data.services.filter((s:any)=>s.airportIata===code||s.airport?.includes(code));
+const carrierIds=new Set([...routes.map((r:any)=>r.airlineId),...services.map((s:any)=>s.airlineId)]);
+const guides=data.guides.filter((g:any)=>(!g.airportIata||g.airportIata===code)&&(!g.airlineIds?.length||g.airlineIds.some((id:string)=>carrierIds.has(id))));
+const pageSources=[...new Set([...services.flatMap((item:any)=>item.sources||[]),...routes.flatMap((item:any)=>item.sources||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportMarketDetail market={market} title={`${name} (${code}) · ${t[15]}`} description={airportAirportDescription(market.locale,name)}>
+<AirportFacilityIntro code={code} locale={market.locale}/>
+{routes.length>0&&<AirportAirportCopy locale={market.locale} name={name} part="intro" slot="description"/>}
+{services.length>0&&<section><h2>{t[5]}</h2>{services.map((s:any)=><article><h3>{s.airline} · {s.type}</h3>{s.location&&<p><AirportImportantText text={s.location} phrases={s.location.length<=70?[s.location]:[]} locale={market.locale}/></p>}{s.hours&&<p><AirportImportantText text={s.hours} phrases={s.hours.length<=70?[s.hours]:[]} locale={market.locale}/></p>}{s.phone&&<AirportPhone phone={s.phone} />}{s.email&&<AirportEmail email={s.email} />}{s.text&&<p><AirportImportantText text={s.text} phrases={s.highlights||[]} locale={market.locale}/></p>}{s.airlineId&&data.airlines.some((a:any)=>a.id===s.airlineId)&&<a href={`/${market.locale}/airport-assistance/airlines/${s.airlineId}/`}>{t[6]} →</a>}{s.checkedAt&&<p>{t[14]}: {s.checkedAt}</p>}<AirportSourceReferences sources={s.sources||[]} pageSources={pageSources} locale={market.locale}/></article>)}</section>}
+{routes.length>0&&<section><h2>{t[13]}</h2><div class="links">{routes.map((r:any)=><a href={`/${market.locale}/airport-assistance/routes/${r.id}/`}>{r.originIata} → {r.destinationIata} {r.flightNumber||r.airline}</a>)}</div></section>}
+{statusLinks.length>0&&<section><h2>{t[20]}</h2><div class="links">{statusLinks.map((item:any)=><a href={item.url} target="_blank" rel="noopener noreferrer">{item.airline} · {t[20]} ↗</a>)}</div></section>}
+{pairs.length>0&&<section><h2>{t[13]}</h2><div class="links">{pairs.map((pair:any)=><a href={`/${market.locale}/airport-assistance/pairs/${pair.id}/`}>{pair.other} ↔ {pair.thai} →</a>)}</div></section>}
+<AirportAirportCopy locale={market.locale} name={name} services={services.length>0} routes={routes.length>0} status={statusLinks.length>0}/>
+{guides.length>0&&<section><h2>{t[0]}</h2><div class="links">{guides.map((g:any)=><a href={`/${market.locale}/airport-assistance/guides/${g.id}/`}>{g.title} →</a>)}</div></section>}
+<AirportSources locale={market.locale} sources={pageSources} checkedAt={undefined}/>
+</AirportMarketDetail>

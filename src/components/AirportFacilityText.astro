@@ -1,0 +1,6 @@
+---
+import ImportantText from './ImportantText.astro';
+const {value,locale='ko',showReview=false,phrases=[]}=Astro.props;
+const plain=(text:string)=>text.trim().replace(/^\(/,'').replace(/\)$/,'').trim();
+---
+{value.sentences.map((pair:any)=><span data-facility-sentence><ImportantText text={locale==='ko'?plain(pair.koReview):pair.text} phrases={[...phrases,...(pair.highlights||[])]}/>{showReview&&<span class="facility-ko-review" lang="ko" data-facility-review> ({plain(pair.koReview)}) </span>}</span>)}

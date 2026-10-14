@@ -1,0 +1,33 @@
+---
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportImportantText from '../../../../components/AirportImportantText.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import AirportEmail from '../../../../components/AirportEmail.astro';
+import AirportPhone from '../../../../components/AirportPhone.astro';
+import AirportScheduleDates from '../../../../components/AirportScheduleDates.astro';
+import {counterSeasonalNotice,needsCounterNotice} from '../../../../i18n/airport-counter-review';
+import data from '../../../../../public/data/airport-assistance.json';
+import AirportAssistanceDetail from '../../../../components/AirportAssistanceDetail.astro';
+export function getStaticPaths(){return data.airlines.map(airline=>({params:{id:airline.id},props:{airline}}));}
+const {airline:a}=Astro.props as {airline:any};
+const routes=data.routes.filter(r=>r.airlineId===a.id);
+const services=data.services.filter(s=>s.airlineId===a.id).map((s:any)=>({...s,code:s.airportIata||s.airport?.match(/\b[A-Z]{3}\b/)?.[0]}));
+const airports=new Set([...routes.flatMap(r=>[r.originIata,r.destinationIata]),...services.map(s=>s.code)].filter(Boolean));
+const linkedGuideUrls=new Set([...(a.actions?.map((action:any)=>action.url)||[]),...(a.sections?.flatMap((section:any)=>section.actions?.map((action:any)=>action.url)||[])||[])]);
+const otherGuides=data.guides.filter((g:any)=>(!g.airlineIds?.length||g.airlineIds.includes(a.id))&&(!g.airportIata||airports.has(g.airportIata))&&!linkedGuideUrls.has(`/ko/airport-assistance/guides/${g.id}/`)&&g.id!=='caat-passenger-rights');
+const pageSources=[...new Set([...(a.sources||[]),...(a.sections||[]).flatMap((item:any)=>item.sources||[]),...services.flatMap((item:any)=>item.sources||[]),...routes.flatMap((item:any)=>item.sources||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportAssistanceDetail title={`${a.name} 카운터·지연·결항 안내`} description={`${a.name} (${a.officialName})의 태국 취항 노선과 공항에서 필요한 안내입니다.`}>
+{needsCounterNotice(a,data.services.filter(s=>s.airlineId===a.id))&&<section><h2>카운터 위치 확인</h2><p>{counterSeasonalNotice.ko}</p></section>}
+{routes.length>0 && <section><h2>확인된 태국 노선</h2><div class="airline-routes">{routes.map(r=><div><a href={`/ko/airport-assistance/routes/${r.id}/`}>{r.originIata} → {r.destinationIata} {r.flightNumber || r.airline} →</a><AirportScheduleDates route={r} compact/></div>)}</div><p>공식 노선 안내 확인일: {a.checkedAt}. 날짜별 편명과 운항 여부는 각 노선의 유효기간과 공식 조회에서 확인하세요.</p><AirportSourceReferences sources={a.sources||[]} pageSources={pageSources} locale={"ko"}/></section>}
+
+{services.length>0&&<section><h2>공항별 카운터·사무실·문의처</h2><p>이용할 공항과 창구 종류를 함께 확인하세요. 체크인 카운터, 발권 사무실, 수하물 접수처는 서로 다를 수 있어요.</p>{services.map((s:any)=><article><h3>{s.airport||s.code} · {s.type}</h3>{s.location&&<p><AirportImportantText text={s.location} phrases={s.location.length<=70?[s.location]:[]} locale={"ko"}/></p>}{s.hours&&<p><AirportImportantText text={s.hours} phrases={s.hours.length<=70?[s.hours]:[]} locale={"ko"}/></p>}{s.phone&&<AirportPhone phone={s.phone} />}{s.email&&<AirportEmail email={s.email} />}{s.text&&<p>{s.text}</p>}{s.code&&<p><a href={`/ko/airport-assistance/airports/${s.code.toLowerCase()}/`}>이 공항의 항공사별 창구 보기 →</a></p>}<p>자료 확인일: {s.checkedAt}</p><AirportSourceReferences sources={s.sources||[]} pageSources={pageSources} locale={"ko"}/></article>)}</section>}
+{a.sections?.map((section:any)=><section><h2>{section.title}</h2>{section.text?.split('\n').filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={section.highlights||[]} locale="ko"/></p>)}{section.location&&<p>{section.location}</p>}{section.hours&&<p>{section.hours}</p>}{section.phone&&<AirportPhone phone={section.phone}/>}{section.email&&<AirportEmail email={section.email}/>}{section.actions?.map((action:any)=><p><a href={action.url}>{action.label} →</a></p>)}<AirportSourceReferences sources={section.sources||[]} pageSources={pageSources} locale={"ko"}/></section>)}
+{a.actions?.length>0&&<section><h2>항공사별 접수·확인서 바로 보기</h2><div class="links">{a.actions.map((action:any)=><a href={action.url}>{action.label} →</a>)}</div></section>}
+<section><h2>태국에서 출발하는 정기 국제선 승객 권리</h2><a href="/ko/airport-assistance/guides/caat-passenger-rights/">CAAT 지연·결항 지원·보상과 공식 신고 방법 →</a></section>
+{a.faq?.length>0 && <section><h2>자주 묻는 질문</h2>{a.faq.map((item:any)=><details><summary>{item.q}</summary><p>{item.a}</p></details>)}</section>}
+{a.faq?.length>0 && <script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:a.faq.map((item:any)=>({'@type':'Question',name:item.q,acceptedAnswer:{'@type':'Answer',text:item.a}}))}).replaceAll('<','\\u003c')}/>}
+{otherGuides.length>0&&<section><h2>항공편·수하물 문제를 해결하려면</h2><div class="links">{otherGuides.map(g=><a href={`/ko/airport-assistance/guides/${g.id}/`}>{g.title} →</a>)}</div></section>}
+<AirportSources locale={"ko"} sources={pageSources} checkedAt={a.checkedAt}/>
+</AirportAssistanceDetail>
+<style>.airline-routes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}.airline-routes>div{padding:12px;border-bottom:1px solid #e4eaee}</style>

@@ -1,0 +1,23 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FoodCards from '../../../../components/FoodCards.astro';
+import FoodFilter from '../../../../components/FoodFilter.astro';
+import FruitCards from '../../../../components/FruitCards.astro';
+import FruitPrices from '../../../../components/FruitPrices.astro';
+import food from '../../../../data/food.json';
+export function getStaticPaths(){return food.cities.map(city=>({params:{city:city.id},props:{city}}))}
+const {city}=Astro.props;
+const region=food.regions.find(r=>r.id===city.region);
+const categoryNames={noodles:'밥·면',soup:'국·커리',side:'반찬·구이',dessert:'디저트',drinks:'음료'};
+const categories=[...new Set(city.dishes.map(id=>food.dishes.find(d=>d.id===id)?.category).filter(Boolean))];
+const faq=[['이 음식들은 이 도시에서만 먹을 수 있나요?',city.note],['처음 먹는 음식은 어떻게 고르면 좋을까요?',city.pairing]];
+---
+<FoodLayout title={`${city.name} 음식 · 대표 음식과 지역의 맛`} description={city.intro} breadcrumbs={[["음식","/ko/food/"]]} sourceIds={[...city.sources,...(city.id==='bangkok'?['fruit-prices']:[])]} faq={faq}>
+<header class="food-hero"><span class="food-eyebrow">{region.name} · {city.english}</span><h1>{city.name} 음식</h1><p class="food-subtitle">{city.tag}</p><p class="food-intro">{city.intro}</p></header>
+<div class="food-note"><p><strong>{city.name}에서 식사를 고를 때</strong><br/>{city.pairing}</p></div>
+<section><h2>이 도시에서 만나는 식문화</h2><p>{city.culture}</p><p>{city.note}</p></section>
+<section><div class="food-section-head"><div><h2>{city.name}에서 맛볼 음식</h2><p>먹고 싶은 음식을 골라보세요. 어떤 맛인지, 무엇과 함께 먹으면 좋은지 알려드려요.</p></div></div><FoodFilter type="dish" options={categories.map(id=>[id,categoryNames[id]])} count={city.dishes.length}/><FoodCards ids={city.dishes} filterable/></section>
+<section><div class="food-section-head"><div><h2>{city.name} 여행에서 과일도 맛보세요</h2><p>과일의 유명 산지와 지금 구매하는 도시는 다를 수 있어요. 제철과 맛을 알아보고 먹고 싶은 과일을 골라보세요.</p></div><a href="/ko/food/fruits/">월별 과일 달력 →</a></div><FruitCards ids={city.fruitGuide}/>{city.id==='bangkok'&&<FruitPrices city="bangkok"/>}<div class="food-related"><a href="/ko/food/fruit-prices/">도시별 구매 안내·가격 →</a><a href="/ko/food/street-food/">길거리 간식과 음료 →</a></div></section>
+<section class="food-faq"><h2>자주 묻는 질문</h2>{faq.map(([q,a])=><article><h3>{q}</h3><p>{a}</p></article>)}</section>
+<section><h2>다른 도시의 맛도 알아보세요</h2><div class="food-related">{food.cities.filter(c=>c.id!==city.id).map(c=><a href={`/ko/food/cities/${c.id}/`}>{c.name} →</a>)}<a href="/ko/food/traditions/">태국 전통음식·식문화 →</a></div></section>
+</FoodLayout>

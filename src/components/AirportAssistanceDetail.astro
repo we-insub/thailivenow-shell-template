@@ -1,0 +1,11 @@
+---
+import SiteFooter from './SiteFooter.astro';
+import AirportPageMetadata from './AirportPageMetadata.astro';
+import DetailHeader from './DetailHeader.astro';
+const { title, description, editorial = false } = Astro.props;
+---
+<!doctype html><html lang="ko"><head><link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48" /><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any" /><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="index,follow"/><title>{title} | ThaiLiveNow</title><meta name="description" content={description}/><AirportPageMetadata title={title} description={description}/></head><body><DetailHeader/><main class:list={["thai-detail", {"caat-editorial": editorial}]}><a href="/ko/airport-assistance/">← 태국 공항·항공편 안내</a><h1>{title}</h1><p>{description}</p><slot/></main><SiteFooter/></body></html>
+<style>
+:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,sans-serif;line-height:1.8}:global(*){box-sizing:border-box}main{max-width:1000px;margin:auto;padding:32px 24px 60px}h1{font-size:32px;line-height:1.4}:global(main section){margin:34px 0}:global(main a){color:#2e7c89;font-weight:700}:global(main p),:global(main li){color:#61717e}:global(main h2){font-size:24px}:global(main .links){display:flex;gap:18px;flex-wrap:wrap}@media(max-width:600px){main{padding:24px 16px}h1{font-size:27px}}
+:global(main article){padding:20px;background:white;border:1px solid #dce5e8;border-radius:12px;margin:12px 0}:global(main details:not(.source-fold)){padding:18px 20px;background:white;border:1px solid #dce5e8;border-radius:12px;margin:12px 0}:global(main summary){cursor:pointer;font-weight:600}:global(main p){overflow-wrap:anywhere}
+</style>

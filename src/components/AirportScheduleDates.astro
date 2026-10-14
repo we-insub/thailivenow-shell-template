@@ -1,0 +1,14 @@
+---
+import {airportUI} from '../i18n/airport-ui';
+const {route,locale='ko',compact=false}=Astro.props;
+const t=airportUI[locale];
+const dates=Array.isArray(route.operatingDates)?route.operatingDates:[];
+const arrivalLabels:Record<string,string>={ko:'확인한 도착일',ms:'Tarikh ketibaan yang disahkan','zh-cn':'已核实的到达日期','zh-tw':'已確認的抵達日期',ja:'確認できた到着日',ru:'Подтверждённая дата прибытия',es:'Fecha de llegada confirmada','en-in':'Confirmed arrival date','en-gb':'Confirmed arrival date','en-us':'Confirmed arrival date'};
+const arrivalOnly=route.dateBasis==='arrival-airport-date';
+const departureDate=route.departureDate||route.departureDateLocal;
+const arrivalDate=route.arrivalDate||route.arrivalDateLocal;
+const displayDates=compact&&dates.length>3?[dates[0],dates[1],'…',dates[dates.length-1]]:dates;
+---
+{arrivalOnly&&arrivalDate?<p class="schedule-dates" data-korean-review>{arrivalLabels[locale]}{locale!=='ko'&&' (확인한 도착일)'}: {arrivalDate}</p>:dates.length>0?<p class="schedule-dates">{t[21]}: {displayDates.join(' · ')}</p>:route.validFrom&&<p class="schedule-dates">{t[22]}: {route.validTo?(route.validFrom===route.validTo?route.validFrom:`${route.validFrom} – ${route.validTo}`):`${route.validFrom} →`}</p>}
+{!arrivalOnly&&departureDate&&arrivalDate&&arrivalDate!==departureDate&&<p class="schedule-dates" data-korean-review>{arrivalLabels[locale]}{locale!=='ko'&&' (확인한 도착일)'}: {arrivalDate}</p>}
+<style>.schedule-dates{overflow-wrap:anywhere}</style>

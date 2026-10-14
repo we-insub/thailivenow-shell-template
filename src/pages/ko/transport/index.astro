@@ -1,0 +1,23 @@
+---
+import SiteFooter from '../../../components/SiteFooter.astro';
+import DetailHeader from '../../../components/DetailHeader.astro';
+const modes = [
+['전철·지하철','도시 안에서 이동할 때','노선·역과 표 구매·환승 방법을 살펴보세요.','rail'],
+['도시 간 기차','여러 도시를 여행할 때','출발역과 도착역, 열차 종류에 맞춰 이동을 준비해요.','train'],
+['버스','시내와 도시 사이를 이동할 때','에어컨 버스와 일반 버스, 요금 지불·하차 방법을 알아보세요.','bus'],
+['보트·페리','강변 명소나 섬으로 이동할 때','강을 따라가는 보트와 횡단페리, 섬으로 가는 배를 구분해요.','boat'],
+['택시·차량 호출','목적지까지 바로 이동하고 싶을 때','승차·호출 방법과 요금 확인, 추가 비용을 살펴보세요.','taxi'],
+['오토바이 택시','가까운 거리를 이동할 때','승차대·호출 방법, 요금과 헬멧 이용을 알아보세요.','motorcycle'],
+['툭툭·쏭태우 등 지역 교통','지역에서 이용하는 교통을 찾을 때','도시마다 다른 이용 방식과 목적지·가격 확인 방법을 살펴보세요.','local'],
+['국내선·공항 이동','먼 도시나 공항으로 이동할 때','국내선과 공항·시내를 연결하는 교통을 함께 알아보세요.','air'],
+];
+---
+<!doctype html><html lang="ko"><head><link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48" /><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any" /><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>태국 교통 안내 | 교통수단·도시별 노선 | ThaiLiveNow</title><meta name="description" content="태국의 전철·버스·보트·택시 등 교통수단과 도시별 노선을 찾아보세요."/></head><body><DetailHeader />
+<main><span class="eyebrow">TRAVEL AROUND THAILAND</span><h1>태국, 어떻게 이동할까요?</h1><p class="intro">도시 안에서 이동할지, 다른 도시나 섬으로 떠날지에 따라 이용할 교통이 달라져요. 교통수단별 이용 방법과 도시별 노선을 나눠 살펴보세요.</p>
+<nav class="jump" aria-label="교통 안내 바로가기"><a href="#airports">공항에서 방콕 시내 가는 법</a><a href="#modes">교통수단별 안내</a><a href="#cities">도시별 노선·역 찾기</a></nav>
+<section id="modes"><h2>교통수단별 안내</h2><div class="grid">{modes.map(([title,when,text,id])=><article><span class="when">{when}</span><h3>{title}</h3><p>{text}</p><a href={`/ko/transport/guides/${id}/`}>이용 방법 자세히 보기 →</a></article>)}</div></section>
+<section id="airports"><h2>공항에서 방콕 시내 가는 법·공항 간 환승</h2><div class="grid"><article><h3>수완나품 → 방콕 시내</h3><p>층별 승차 위치·공항철도 요금·MRT/BTS 환승·택시 추가 비용</p><a href="/ko/transport/airports/suvarnabhumi-to-bangkok/">공항에서 시내로 이동하기 →</a></article><article><h3>수완나품 공항철도 이용 안내</h3><p>B1 승차 위치·운행 시간·거리별 요금·마카산/MRT·파야타이/BTS 환승과 노선 지도</p><a href="/ko/transport/airports/airport-rail-link/">공항철도 타는 방법 자세히 보기 →</a></article><article><h3>수완나품 ↔ 돈므앙</h3><p>양방향 무료 셔틀 위치·필요 서류·시간·수하물과 다음 편 수속</p><a href="/ko/transport/airports/suvarnabhumi-don-mueang/">공항 간 환승 상세 →</a></article></div></section><section id="cities"><h2>도시별 노선·역 찾기</h2><p>이용할 도시를 선택하면 노선과 역·선착장 정보를 볼 수 있어요.</p><a class="city" href="/ko/transport/bangkok/"><div><span class="when">BANGKOK</span><h3>방콕</h3><p>BTS · MRT · 모노레일 · 공항철도 · 레드라인 · 보트</p></div><span aria-hidden="true">→</span></a></section>
+<section class="help"><h2>명소에서 교통 찾기</h2><p>명소 상세페이지에서는 가까운 역과 선착장 위치, 마지막 도보 이동을 함께 볼 수 있어요.</p><a href="/ko/attractions/wat-arun/">왓아룬 가는 방법 보기 →</a></section></main><SiteFooter/></body></html>
+<style>
+:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,"Apple SD Gothic Neo",sans-serif;line-height:1.75}:global(*){box-sizing:border-box}main{max-width:1160px;margin:auto;padding:48px 28px 72px}.eyebrow,.when{font-size:11px;font-weight:700;color:#2e7c89}.eyebrow{letter-spacing:2px;color:#e84d47}h1{font-size:36px;line-height:1.35;margin:10px 0 18px}.intro{max-width:760px;color:#61717e}a{color:#2e7c89;text-decoration:none;font-weight:700}.jump{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 40px}.jump a{border:1px solid #dce5e8;background:white;border-radius:24px;padding:9px 17px;font-size:13px}section{margin-top:38px;scroll-margin-top:100px}h2{font-size:24px}h3{margin:6px 0;font-size:21px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}article,.city,.help{border:1px solid #e4eaee;border-radius:14px;background:white;padding:24px}article p,.city p,section>p{font-size:14px;color:#61717e}article a{font-size:13px}.city{display:flex;align-items:center;justify-content:space-between}.city p{margin-bottom:0}.help{background:#eff6f7}@media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){main{padding:30px 18px 48px}h1{font-size:28px}.grid{grid-template-columns:1fr}article,.city,.help{padding:20px}section{scroll-margin-top:120px}}
+</style>

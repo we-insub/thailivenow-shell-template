@@ -1,0 +1,473 @@
+{
+  "airports": {
+    "BKK": {
+      "name": "수완나품",
+      "lng": 100.75,
+      "lat": 13.69
+    },
+    "DMK": {
+      "name": "돈므앙",
+      "lng": 100.6,
+      "lat": 13.91
+    },
+    "CNX": {
+      "name": "치앙마이",
+      "lng": 98.96,
+      "lat": 18.77
+    },
+    "CEI": {
+      "name": "치앙라이",
+      "lng": 99.88,
+      "lat": 19.95
+    },
+    "HKT": {
+      "name": "푸켓",
+      "lng": 98.32,
+      "lat": 8.11
+    },
+    "KBV": {
+      "name": "끄라비",
+      "lng": 98.99,
+      "lat": 8.1
+    },
+    "HDY": {
+      "name": "핫야이",
+      "lng": 100.39,
+      "lat": 6.93
+    },
+    "UTH": {
+      "name": "우돈타니",
+      "lng": 102.79,
+      "lat": 17.39
+    },
+    "KKC": {
+      "name": "콘깬",
+      "lng": 102.78,
+      "lat": 16.47
+    },
+    "UBP": {
+      "name": "우본랏차타니",
+      "lng": 104.87,
+      "lat": 15.25
+    },
+    "URT": {
+      "name": "수랏타니",
+      "lng": 99.14,
+      "lat": 9.13
+    },
+    "NST": {
+      "name": "나콘시탐마랏",
+      "lng": 99.94,
+      "lat": 8.54
+    },
+    "TST": {
+      "name": "뜨랑",
+      "lng": 99.62,
+      "lat": 7.51
+    },
+    "PHS": {
+      "name": "핏사눌록",
+      "lng": 100.28,
+      "lat": 16.78
+    },
+    "NNT": {
+      "name": "난",
+      "lng": 100.79,
+      "lat": 18.81
+    },
+    "SNO": {
+      "name": "사콘나콘",
+      "lng": 104.12,
+      "lat": 17.2
+    },
+    "BFV": {
+      "name": "부리람",
+      "lng": 103.25,
+      "lat": 15.23
+    },
+    "USM": {
+      "name": "코사무이",
+      "lng": 100.06,
+      "lat": 9.55
+    },
+    "THS": {
+      "name": "수코타이",
+      "lng": 99.82,
+      "lat": 17.24
+    },
+    "LPT": {
+      "name": "람빵",
+      "lng": 99.5,
+      "lat": 18.27
+    },
+    "TDX": {
+      "name": "뜨랏",
+      "lng": 102.32,
+      "lat": 12.27
+    },
+    "UTP": {
+      "name": "우타파오",
+      "lng": 101.01,
+      "lat": 12.68
+    },
+    "HHQ": {
+      "name": "후아힌",
+      "lng": 99.95,
+      "lat": 12.64
+    }
+  },
+  "airlines": [
+    {
+      "code": "TG",
+      "name": "타이항공",
+      "english": "Thai Airways International",
+      "color": "#7555bc",
+      "base": "BKK",
+      "routes": [
+        [
+          "BKK",
+          "CNX"
+        ],
+        [
+          "BKK",
+          "HKT"
+        ],
+        [
+          "BKK",
+          "KBV"
+        ],
+        [
+          "BKK",
+          "HDY"
+        ],
+        [
+          "BKK",
+          "CEI"
+        ],
+        [
+          "BKK",
+          "KKC"
+        ],
+        [
+          "BKK",
+          "UTH"
+        ],
+        [
+          "BKK",
+          "UBP"
+        ]
+      ],
+      "note": "수완나품에서 북부·이산·남부 주요 도시를 연결해요.",
+      "url": "https://www.thaiairways.com/",
+      "source": "https://www.thaiairways.com/en-ca/content/where-we-fly/thailand/"
+    },
+    {
+      "code": "PG",
+      "name": "방콕에어웨이즈",
+      "english": "Bangkok Airways",
+      "color": "#147c8a",
+      "base": "BKK",
+      "routes": [
+        [
+          "BKK",
+          "CNX"
+        ],
+        [
+          "BKK",
+          "THS"
+        ],
+        [
+          "BKK",
+          "LPT"
+        ],
+        [
+          "BKK",
+          "TDX"
+        ],
+        [
+          "BKK",
+          "HKT"
+        ],
+        [
+          "BKK",
+          "USM"
+        ],
+        [
+          "BKK",
+          "KBV"
+        ],
+        [
+          "USM",
+          "CNX"
+        ],
+        [
+          "USM",
+          "HKT"
+        ],
+        [
+          "USM",
+          "KBV"
+        ],
+        [
+          "USM",
+          "UTP"
+        ]
+      ],
+      "note": "코사무이·수코타이·뜨랏 여행에서 먼저 비교해 볼 항공사예요.",
+      "url": "https://www.bangkokair.com/",
+      "source": "https://www.bangkokair.com/flight/route-network"
+    },
+    {
+      "code": "FD",
+      "name": "타이 에어아시아",
+      "english": "Thai AirAsia",
+      "color": "#d64045",
+      "base": "DMK",
+      "routes": [
+        [
+          "DMK",
+          "CNX"
+        ],
+        [
+          "DMK",
+          "HKT"
+        ],
+        [
+          "DMK",
+          "KBV"
+        ],
+        [
+          "BKK",
+          "CNX"
+        ],
+        [
+          "BKK",
+          "HKT"
+        ],
+        [
+          "BKK",
+          "KBV"
+        ],
+        [
+          "CNX",
+          "UTH"
+        ],
+        [
+          "CNX",
+          "KKC"
+        ],
+        [
+          "CNX",
+          "HHQ"
+        ],
+        [
+          "CNX",
+          "HDY"
+        ],
+        [
+          "CNX",
+          "HKT"
+        ],
+        [
+          "CNX",
+          "KBV"
+        ],
+        [
+          "CNX",
+          "URT"
+        ],
+        [
+          "HKT",
+          "KKC"
+        ]
+      ],
+      "note": "돈므앙이 주요 거점이며 수완나품에서도 치앙마이·푸켓·끄라비로 운항해요. 치앙마이와 푸켓 출발 지방 간 직항도 비교해 보세요. 돈므앙 국내 취항지는 22곳이며 아래 지도에는 대표 노선을 표시했어요.",
+      "url": "https://www.airasia.com",
+      "source": "https://newsroom.airasia.com/news/airasia-is-back-at-suvarnabhumi-direct-flights-resume-oct-1-to-chiang-mai-krabi-and-phuket"
+    },
+    {
+      "code": "SL",
+      "name": "타이 라이온에어",
+      "english": "Thai Lion Air",
+      "color": "#b35c20",
+      "base": "DMK",
+      "routes": [
+        [
+          "DMK",
+          "CNX"
+        ],
+        [
+          "DMK",
+          "HDY"
+        ],
+        [
+          "DMK",
+          "UBP"
+        ],
+        [
+          "DMK",
+          "UTH"
+        ],
+        [
+          "DMK",
+          "KBV"
+        ],
+        [
+          "DMK",
+          "URT"
+        ],
+        [
+          "DMK",
+          "NST"
+        ],
+        [
+          "DMK",
+          "KKC"
+        ],
+        [
+          "DMK",
+          "TST"
+        ],
+        [
+          "DMK",
+          "PHS"
+        ],
+        [
+          "DMK",
+          "NNT"
+        ],
+        [
+          "DMK",
+          "CEI"
+        ]
+      ],
+      "note": "돈므앙 출발 국내선을 비교할 수 있어요. 아래는 공식 공개 안내에 등장하는 대표 노선이며, 일부 자료는 이전 시즌 기준이에요.",
+      "url": "https://www.lionairthai.com",
+      "source": "https://www.lionairthai.com/my/Extra-Services/Lion-Connect"
+    },
+    {
+      "code": "VZ",
+      "name": "타이 비엣젯",
+      "english": "Thai VietJet Air",
+      "color": "#177f49",
+      "base": "BKK",
+      "routes": [
+        [
+          "BKK",
+          "CNX"
+        ],
+        [
+          "BKK",
+          "CEI"
+        ],
+        [
+          "BKK",
+          "HKT"
+        ],
+        [
+          "BKK",
+          "KBV"
+        ],
+        [
+          "BKK",
+          "URT"
+        ],
+        [
+          "BKK",
+          "HDY"
+        ],
+        [
+          "BKK",
+          "NST"
+        ],
+        [
+          "BKK",
+          "KKC"
+        ],
+        [
+          "BKK",
+          "UBP"
+        ],
+        [
+          "BKK",
+          "UTH"
+        ]
+      ],
+      "note": "수완나품 출발 국내선과 북부·남부 여행을 비교해 보세요.",
+      "url": "https://th.vietjetair.com",
+      "source": "https://th.vietjetair.com/gift/power-pack-domestic"
+    },
+    {
+      "code": "DD",
+      "name": "녹에어",
+      "english": "Nok Air",
+      "color": "#967000",
+      "base": "DMK",
+      "routes": [
+        [
+          "DMK",
+          "HKT"
+        ],
+        [
+          "DMK",
+          "TST"
+        ],
+        [
+          "DMK",
+          "UTH"
+        ],
+        [
+          "DMK",
+          "UBP"
+        ],
+        [
+          "DMK",
+          "PHS"
+        ],
+        [
+          "DMK",
+          "CNX"
+        ],
+        [
+          "DMK",
+          "CEI"
+        ],
+        [
+          "DMK",
+          "SNO"
+        ],
+        [
+          "DMK",
+          "URT"
+        ],
+        [
+          "DMK",
+          "HDY"
+        ],
+        [
+          "DMK",
+          "NNT"
+        ],
+        [
+          "DMK",
+          "NST"
+        ],
+        [
+          "DMK",
+          "BFV"
+        ],
+        [
+          "CNX",
+          "UTH"
+        ],
+        [
+          "CNX",
+          "UBP"
+        ]
+      ],
+      "note": "돈므앙 출발편과 난·사콘나콘·부리람 등 지방 도시 노선을 살펴보세요.",
+      "url": "https://www.nokair.com/",
+      "source": "https://www.nokair.com/"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+---
+import { locales } from '../i18n/locales';
+---
+<script is:inline define:vars={{supportedLocaleCodes:locales.map(item=>item.code)}}>
+(() => {
+  let target;
+  try { const saved=localStorage.getItem('thailivenow.locale'); if(supportedLocaleCodes.includes(saved)) target=saved; } catch {}
+  if(!target) {
+    for(const language of navigator.languages?.length ? navigator.languages : [navigator.language || 'en']) {
+      const tag=language.toLowerCase().replaceAll('_','-'), base=tag.split('-')[0];
+      if(base==='zh') target=/(?:^|-)(?:hant|tw|hk|mo)(?:-|$)/.test(tag)?'zh-tw':'zh-cn';
+      else if(base==='en') target=/(?:^|-)in(?:-|$)/.test(tag)?'en-in':/(?:^|-)gb(?:-|$)/.test(tag)?'en-gb':/(?:^|-)us(?:-|$)/.test(tag)?'en-us':'en';
+      else if(['ko','ms','ru','ja','es'].includes(base)) target=base;
+      else if(base==='hi'||tag.endsWith('-in')) target='en-in';
+      if(target) break;
+    }
+  }
+  target=target||'en';
+  location.replace('/'+target+location.pathname+location.search+location.hash);
+})();
+</script>

@@ -1,0 +1,7 @@
+---
+import TravelSeasonPage from '../../../components/TravelSeasonPage.astro';
+import data from '../../../data/travel-seasons-ko.json';
+export function getStaticPaths(){return [...data.regions.map(region=>({params:{id:region.id},props:{region}})),{params:{id:'rainy-dry'},props:{seasonGuide:true}}];}
+const {region,seasonGuide}=Astro.props;
+---
+<TravelSeasonPage region={region} seasonGuide={seasonGuide}/>

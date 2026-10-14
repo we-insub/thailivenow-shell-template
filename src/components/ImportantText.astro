@@ -1,0 +1,7 @@
+---
+const {text, phrases = []} = Astro.props as {text:string; phrases:string[]};
+const escaped = [...new Set(phrases)].filter(Boolean).sort((a,b)=>b.length-a.length).map(value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+const parts=escaped.length?text.split(new RegExp(`(${escaped.join('|')})`,'g')):[text];
+const important=new Set(phrases);
+---
+{parts.map(part=>important.has(part)?<strong>{part}</strong>:part)}

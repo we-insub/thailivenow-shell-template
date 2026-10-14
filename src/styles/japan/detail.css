@@ -1,0 +1,143 @@
+/* Template declarations intentionally outrank legacy Astro-scoped per-page styles. */
+/* Fixed airport detail reading template. Keep map controls and route coordinates untouched. */
+.thai-detail.thai-detail{--airport-block-gap:28px;--airport-card-gap:24px;--airport-card-padding:28px;max-width:1120px!important;padding:32px 28px 64px!important;margin-inline:auto!important;font-size:18px!important;line-height:1.8!important;color:#203743!important;overflow-wrap:break-word!important;word-break:keep-all!important}
+.thai-detail.thai-detail>header{max-width:820px!important;margin-bottom:32px!important}
+.thai-detail.thai-detail h1{font-size:clamp(28px,3vw,38px)!important;line-height:1.45!important;letter-spacing:-.025em!important;margin:12px 0 24px!important;word-break:keep-all!important;overflow-wrap:anywhere!important}
+.thai-detail.thai-detail h2{font-size:clamp(25px,2.3vw,30px)!important;line-height:1.5!important;margin:0 0 24px!important;word-break:keep-all!important;overflow-wrap:anywhere!important}
+.thai-detail.thai-detail h3{font-size:22px!important;line-height:1.55!important;margin:0 0 16px!important;word-break:keep-all!important;overflow-wrap:anywhere!important}
+.thai-detail.thai-detail p{word-break:keep-all!important;overflow-wrap:anywhere!important;margin:0 0 20px!important;max-width:76ch!important;font-size:18px!important;line-height:1.8!important}
+.thai-detail.thai-detail .lead{font-size:20px!important;line-height:1.8!important;margin:20px 0 24px!important;font-weight:400!important}
+.thai-detail.thai-detail .eyebrow{font-size:16px!important;line-height:1.6!important;margin-bottom:12px!important}
+.thai-detail.thai-detail .names,.thai-detail.thai-detail .airport-place-info{font-size:18px!important;line-height:1.7!important;color:#49606b!important;background:#edf3f6!important;border-radius:12px!important;padding:16px 20px!important;margin-bottom:20px!important}
+.thai-detail.thai-detail>section,.thai-detail.thai-detail>footer{margin:56px 0!important;scroll-margin-top:150px!important}
+.thai-detail.thai-detail section>p,.thai-detail.thai-detail section>ul,.thai-detail.thai-detail section>ol{max-width:76ch!important}
+.thai-detail.thai-detail li{margin-block:12px!important;padding-left:4px!important;line-height:1.8!important}
+.thai-detail.thai-detail .jump{gap:10px!important;margin:24px 0 36px!important}
+.thai-detail.thai-detail .jump a{font-size:18px!important;min-height:48px!important;padding:10px 16px!important;line-height:1.5!important;text-decoration:none!important}
+/* Keep content groups separate from adjacent paragraphs and notices. */
+/* ARIA row groups are layout containers; each row remains the readable card. */
+.thai-detail.thai-detail .comparison>[role="rowgroup"]{gap:var(--airport-card-gap)!important;padding:0!important;border:0!important;background:transparent!important;margin:0!important}
+.thai-detail.thai-detail :is(div.comparison,div.late-grid,div.cards,div.route-cards,div.tak-cards,div.hours,div.two){
+  gap:var(--airport-card-gap)!important;
+  align-items:stretch!important;
+  margin-block:var(--airport-block-gap)!important;
+}
+.thai-detail.thai-detail :is(.comparison>article,.comparison>[role="rowgroup"]>article,.comparison>a.choice,.late-grid>article,.cards>article,.route-cards>article,.tak-cards>article,.hours>article,.two>.panel,.purchase-links>article,section>article,section>.panel,section>aside:not(.note):not(.notice)){
+  padding:var(--airport-card-padding)!important;
+  border:1px solid #c9d9e0!important;
+  background:#fff!important;
+  border-radius:16px!important;
+  min-width:0;
+}
+.thai-detail.thai-detail :is(section>article,section>.panel,section>aside){margin-block:var(--airport-block-gap)!important}
+/* Destination IDs must use the same padding even alongside older cached template CSS. */
+.thai-detail.thai-detail #destinations>article{padding:var(--airport-card-padding)!important}
+.thai-detail.thai-detail :is(.comparison>article,.comparison>[role="rowgroup"]>article,.comparison>a.choice,.late-grid>article,.cards>article,.route-cards>article,.tak-cards>article,.hours>article,.two>.panel,.purchase-links>article,section>article,.flow,.route-flow,.mobile-flow,.note,.notice,section>aside)>:last-child{margin-bottom:0!important}
+.thai-detail.thai-detail :is(.comparison>article,.comparison>[role="rowgroup"]>article,.cards>article,.route-cards>article,.tak-cards>article,.hours>article,.late-grid>article,section>article)>a{
+  display:inline-flex;
+  align-items:center;
+  min-height:44px;
+  max-width:100%;
+  line-height:1.7;
+}
+.thai-detail.thai-detail section>:is(div,figure,article,aside,table)+:is(p,ul,ol){margin-top:var(--airport-block-gap)!important}
+.thai-detail.thai-detail section>:is(p,ul,ol,div,figure,article,aside,table)+h3{margin-top:32px!important}
+.thai-detail.thai-detail :is(.flow,.route-flow,.mobile-flow,.table-scroll,.table-wrap,.tak-table,.purchase-links,.official-links,.actions,.buttons,.links,.link-list,.purchase,.walk-links){margin-block:var(--airport-block-gap)!important}
+.thai-detail.thai-detail .flow{padding:26px!important;background:#e8f1f5!important;border-radius:16px!important;line-height:1.8!important}
+.thai-detail.thai-detail .flow a{margin:18px 0!important;padding:18px 22px!important;border-left:4px dashed #44718a!important;background:#fff!important;border-radius:10px!important;font-size:18px!important;line-height:1.8!important}
+.thai-detail.thai-detail .note,.thai-detail.thai-detail .notice{padding:20px 24px!important;line-height:1.8!important}
+.thai-detail.thai-detail :is(.note,.notice):not(section){margin-block:var(--airport-block-gap)!important;max-width:none!important}
+.thai-detail.thai-detail :is(p.note,p.notice){margin-bottom:var(--airport-block-gap)!important}
+.thai-detail.thai-detail details{padding:20px 24px!important;margin:16px 0!important}
+.thai-detail.thai-detail summary{font-size:20px!important;line-height:1.65!important;min-height:44px!important}
+.thai-detail.thai-detail details p{margin-top:18px!important;margin-bottom:0!important}
+.thai-detail.thai-detail th,.thai-detail.thai-detail td{padding:16px!important;font-size:18px!important;line-height:1.7!important;vertical-align:top!important}
+.thai-detail.thai-detail .purchase-links a,.thai-detail.thai-detail .official-buy,.thai-detail.thai-detail .action{min-height:48px!important;line-height:1.6!important;font-size:18px!important}
+.thai-detail.thai-detail :is(.purchase-links,.official-links,.buttons,.links,.link-list,.purchase,.actions,.walk-links)>a{
+  display:flex!important;
+  align-items:center;
+  min-height:48px!important;
+  font-size:18px!important;
+  line-height:1.7!important;
+  overflow-wrap:anywhere;
+}
+@media(max-width:680px){.thai-detail.thai-detail{--airport-block-gap:24px;--airport-card-gap:20px;--airport-card-padding:22px;padding:24px 16px 40px!important}.thai-detail.thai-detail .lead{font-size:19px!important}.thai-detail.thai-detail>section,.thai-detail.thai-detail>footer{margin:40px 0!important}.thai-detail.thai-detail :is(div.comparison,div.late-grid,div.cards,div.route-cards,div.tak-cards,div.hours,div.two){grid-template-columns:1fr!important}.thai-detail.thai-detail .flow{padding:18px!important}.thai-detail.thai-detail .flow a{padding:16px!important;margin:14px 0!important}.thai-detail.thai-detail .note,.thai-detail.thai-detail .notice,.thai-detail.thai-detail details{padding:18px!important}.thai-detail.thai-detail h1{font-size:28px!important}.thai-detail.thai-detail h2{font-size:25px!important}.thai-detail.thai-detail h3{font-size:21px!important}}
+
+.thai-detail.thai-detail .airport-destination-names{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px 24px!important}.thai-detail.thai-detail .airport-destination-names p{margin:0!important}@media(max-width:680px){.thai-detail.thai-detail .airport-destination-names{grid-template-columns:1fr!important}}
+
+@media(min-width:1000px){.thai-detail.thai-detail table{width:100%!important;min-width:0!important;table-layout:fixed!important}}
+@media(min-width:1000px){.thai-detail.thai-detail .table-scroll table{min-width:1200px!important;table-layout:auto!important}}
+/* Reserve room for currency ranges so prices do not split in the middle of a number. */
+@media(min-width:1000px){.thai-detail.thai-detail #compare table tr>:nth-child(3){width:18%!important}}
+
+/* Shared Korean/English map controls meet the same touch-target requirement. */
+.thai-detail .maplibregl-ctrl-group button{width:44px!important;height:44px!important}
+
+@media(max-width:680px){.thai-detail.thai-detail section>:is(p,ul,ol,div,figure,article,aside,table)+h3{margin-top:28px!important}}
+
+@media(max-width:680px){.thai-detail.thai-detail .comparison>[role="rowgroup"]{grid-template-columns:1fr!important}}
+
+/* English summary tables reuse the detail template's typography and spacing. */
+.thai-detail .en-airport-comparison{max-width:100%;overflow-x:auto;border:1px solid #a4bfcb;border-radius:12px}
+.thai-detail .en-airport-comparison table{width:100%;border-collapse:collapse;text-align:left}
+.thai-detail .en-airport-comparison caption{text-align:left;padding:16px;font-weight:700;font-size:18px}
+.thai-detail .en-airport-comparison thead{background:#e8f1f5}
+.thai-detail .en-airport-comparison :is(th,td){border-bottom:1px solid #b5cbd4}
+.thai-detail .en-airport-comparison:focus-visible{outline:3px solid #a5295a;outline-offset:3px}
+@media(max-width:999px){.thai-detail .en-airport-comparison table{min-width:700px}}
+
+@media(min-width:1000px){.thai-detail.thai-detail #compare .en-airport-comparison table tr>:nth-child(1){width:32%!important}.thai-detail.thai-detail #compare .en-airport-comparison table tr>:nth-child(2){width:34%!important}.thai-detail.thai-detail #compare .en-airport-comparison table tr>:nth-child(3){width:34%!important}}
+/* Keep route comparison tables inside their shared reading column on small screens. */
+.thai-detail.thai-detail .table-wrap,.thai-detail.thai-detail .table-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+.thai-detail.thai-detail .comparison>article,.thai-detail.thai-detail .late-grid>article,.thai-detail.thai-detail .cards>article{min-width:0}
+.thai-detail.thai-detail #purchase a[data-analytics-event],.thai-detail.thai-detail .buttons a,.thai-detail.thai-detail .jump a,.thai-detail.thai-detail .button,.thai-detail.thai-detail .action,.thai-detail.thai-detail .official-buy,.thai-detail.thai-detail .purchase-links a,.thai-detail.thai-detail .official-links a,.thai-detail.thai-detail .quick a,.thai-detail.thai-detail .tak-jump a{display:inline-flex;align-items:center;box-sizing:border-box;min-height:48px!important;padding:10px 16px!important;font-size:18px!important;line-height:1.5!important}
+.thai-detail.thai-detail .purchase-links{display:grid;gap:14px}
+.thai-detail.thai-detail .purchase-links a{background:#204c5e;color:#fff;border-radius:12px;text-decoration:none;font-weight:700}
+
+/* Comparison summaries share the airport template; keep horizontal scrolling inside the table. */
+.thai-detail.thai-detail .airport-comparison-table table{width:100%;border-collapse:collapse;table-layout:fixed;min-width:760px}
+.thai-detail.thai-detail .airport-comparison-table caption{text-align:left;font-size:18px;font-weight:700;padding:12px 0}
+.thai-detail.thai-detail .airport-comparison-table th,.thai-detail.thai-detail .airport-comparison-table td{border:1px solid #c9d9e0;overflow-wrap:anywhere;word-break:normal}
+.thai-detail.thai-detail .airport-comparison-table thead{background:#e8f1f5}
+.thai-detail.thai-detail .airport-comparison-table tr>:last-child{width:34%}
+.thai-detail.thai-detail .airport-comparison-table:focus-visible{outline:3px solid #125c79;outline-offset:4px}
+
+/* Typed guides use the same shared airport layout alongside existing locale guides. */
+.airport-template{max-width:1080px;margin:auto;padding:28px 20px;color:#203743;font-size:18px;line-height:1.8;overflow-wrap:anywhere}
+.airport-template h1{font-size:clamp(28px,4vw,42px);line-height:1.35}
+.airport-template h2{font-size:clamp(25px,2.8vw,30px);line-height:1.4}
+.airport-template h3{font-size:21px;line-height:1.45}
+.airport-template .lead{font-size:20px}
+.airport-template section{margin:48px 0;scroll-margin-top:160px}
+.airport-template a{color:#125c79;text-underline-offset:4px}
+.airport-template-jump,.airport-template-actions,.airport-template-map-places{display:flex;flex-wrap:wrap;gap:10px}
+.airport-template-jump{margin:24px 0}
+.airport-template-jump a,.airport-template-actions a,.airport-template-purchase-grid a,.airport-template-map-places button,.airport-template-map-selection a{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;min-height:44px;padding:10px 14px;border:1px solid #a4bfcb;border-radius:10px;font-weight:700}
+.airport-template-jump a,.airport-template-map-places button{background:#e9f2f5;color:#173f52}
+.airport-template-map-places button{font:inherit;cursor:pointer}
+.airport-template-map-places button.is-selected{background:#204c5e;color:#fff}
+.airport-template-terminal-grid,.airport-template-mode-grid,.airport-template-late-grid,.airport-template-purchase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--airport-card-gap,24px);margin-block:var(--airport-block-gap,28px)}
+.airport-template-terminal-grid article,.airport-template-mode-grid article,.airport-template-late-grid article,.airport-template-purchase-grid article{min-width:0;border:1px solid #b5cbd4;background:#fff;border-radius:16px;padding:var(--airport-card-padding,28px)}
+.airport-template-terminal-grid article>a{display:flex;align-items:center;min-height:44px;max-width:100%;line-height:1.7}
+.airport-template :is(.airport-template-terminal-grid,.airport-template-mode-grid,.airport-template-late-grid,.airport-template-purchase-grid) article>:last-child{margin-bottom:0!important}
+.airport-template-terminal-grid ol{padding-left:1.4em}
+.airport-template-mode-dot,.airport-template-legend span{display:inline-block;width:16px;height:16px;border-radius:50%;margin-right:9px;vertical-align:middle}
+.airport-template-mode dl{display:grid;grid-template-columns:minmax(110px,1fr) 3fr;gap:6px 12px}
+.airport-template-mode dt{font-weight:800}.airport-template-mode dd{margin:0}
+.airport-template-table{overflow-x:auto;max-width:100%;margin:var(--airport-block-gap,28px) 0}
+.airport-template-table table{width:100%;min-width:620px;border-collapse:collapse}
+.airport-template-table caption{text-align:left;font-weight:800;padding-bottom:8px}
+.airport-template-table td,.airport-template-table th{border:1px solid #bfd0d8;padding:9px;text-align:left;vertical-align:top;white-space:normal}
+.airport-template-table thead{background:#e7f1f5}
+.airport-template-actions{margin-top:var(--airport-block-gap,28px)}
+.airport-template-actions a:first-child,.airport-template-purchase-grid a{background:#204c5e;color:#fff;text-decoration:none}
+.airport-template-map-canvas{height:500px;max-width:100%;border:1px solid #aec6d2;border-radius:16px;overflow:hidden}
+.airport-template-map-places{margin:16px 0}
+.airport-template-map-selection{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:16px;background:#eaf3f6;border-radius:12px}
+.airport-template-legend{padding-left:1.2em}
+.airport-template #faq details{border:1px solid #b5cbd4;border-radius:12px;padding:18px;margin:12px 0;background:#fff}
+.airport-template #faq summary{cursor:pointer;font-size:20px;font-weight:800}
+.airport-template :is(a,button,summary):focus-visible{outline:3px solid #b43763;outline-offset:4px}
+@media(max-width:700px){.airport-template{padding:20px 16px}.airport-template .lead{font-size:19px}.airport-template-terminal-grid,.airport-template-mode-grid,.airport-template-late-grid,.airport-template-purchase-grid{grid-template-columns:1fr}.airport-template section{margin:40px 0}.airport-template-map-canvas{height:430px}}
+
+.thai-detail.thai-detail .airport-table{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}

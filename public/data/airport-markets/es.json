@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "status": "researching",
+  "checkedAt": "2026-10-13",
+  "countries": [
+    "España"
+  ],
+  "routes": [
+    {
+      "id": "mad-bkk",
+      "country": "España",
+      "origin": "Madrid-Barajas (MAD)",
+      "originIata": "MAD",
+      "destination": "Suvarnabhumi, Bangkok (BKK)",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "airline": "Iberojet",
+      "airlineId": "iberojet",
+      "flightNumber": "E9845",
+      "durationMinutes": null,
+      "durationType": null,
+      "direction": "to-thailand",
+      "status": "Consulta oficial por fecha",
+      "sources": [
+        "https://www.iberojet.com/en/flights-from-madrid-barajas-airport-to-bangkok",
+        "https://www.iberojet.com/es/estado",
+        "https://www.aena.es/es/infovuelos.html"
+      ],
+      "checkedAt": "2026-10-13",
+      "description": "Vuelo E9 mostrado para la fecha indicada; compruebe la compañía operadora al viajar.",
+      "airportNames": {
+        "MAD": "Madrid-Barajas",
+        "BKK": "Suvarnabhumi, Bangkok"
+      },
+      "market": "ES",
+      "durationNote": "Horario publicado por Iberojet; confirme la referencia horaria con la aerolínea.",
+      "schedule": "Salida 2026-10-15 22:15; llegada 2026-10-16 15:35.",
+      "validFrom": "2026-10-15",
+      "validTo": "2026-10-15",
+      "operatingDates": [
+        "2026-10-15"
+      ],
+      "departureDateLocal": "2026-10-15",
+      "arrivalDateLocal": "2026-10-16",
+      "departurePublished": "22:15",
+      "arrivalPublished": "15:35",
+      "arrivalDayOffset": 1,
+      "flightStatusUrl": "https://www.iberojet.com/es/estado",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": false,
+      "timeBasisVerified": false,
+      "departureTimeBasisVerified": true,
+      "departureTimeBasis": "airport-local",
+      "departureTime": "22:15",
+      "terminalByAirport": {
+        "MAD": "T1"
+      }
+    },
+    {
+      "id": "e9846-bkk-mad-20261016",
+      "country": "España",
+      "origin": "Suvarnabhumi, Bangkok (BKK)",
+      "originIata": "BKK",
+      "destination": "Madrid-Barajas (MAD)",
+      "destinationIata": "MAD",
+      "thaiAirport": "BKK",
+      "airline": "Iberojet",
+      "airlineId": "iberojet",
+      "flightNumber": "E9846",
+      "durationMinutes": null,
+      "durationType": null,
+      "direction": "from-thailand",
+      "status": "Consulta oficial por fecha",
+      "sources": [
+        "https://www.iberojet.com/es/estado",
+        "https://www.aena.es/es/infovuelos.html"
+      ],
+      "checkedAt": "2026-10-13",
+      "description": "Vuelo E9 mostrado para la fecha indicada; compruebe la compañía operadora al viajar.",
+      "airportNames": {
+        "MAD": "Madrid-Barajas",
+        "BKK": "Suvarnabhumi, Bangkok"
+      },
+      "market": "ES",
+      "durationNote": "Horario publicado por Iberojet; confirme la referencia horaria con la aerolínea.",
+      "schedule": "Salida 2026-10-16 18:35; llegada 2026-10-17 02:45.",
+      "validFrom": "2026-10-16",
+      "validTo": "2026-10-16",
+      "operatingDates": [
+        "2026-10-16"
+      ],
+      "departureDateLocal": "2026-10-16",
+      "arrivalDateLocal": "2026-10-17",
+      "departurePublished": "18:35",
+      "arrivalPublished": "02:45",
+      "arrivalDayOffset": 1,
+      "flightStatusUrl": "https://www.iberojet.com/es/estado",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": false,
+      "timeBasisVerified": false,
+      "terminalByAirport": {
+        "MAD": "T1"
+      },
+      "arrivalTimeBasisVerified": true,
+      "arrivalTimeBasis": "airport-local",
+      "arrivalTime": "02:45"
+    }
+  ],
+  "services": [
+    {
+      "id": "iberojet-mad-checkin",
+      "airline": "Iberojet",
+      "airlineId": "iberojet",
+      "airportIata": "MAD",
+      "type": "Facturación",
+      "location": "Terminal T1, planta 1, salidas: mostradores 120–136.",
+      "text": "Aena advierte que los mostradores pueden cambiar. Consulte las pantallas del terminal para su vuelo antes de ponerse en la cola.",
+      "sources": [
+        "https://www.aena.es/es/madrid-barajas-adolfo-suarez/aerolineas/evelop.html"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "iberojet-mad-passenger-support",
+      "airline": "Iberojet",
+      "airlineId": "iberojet",
+      "airportIata": "MAD",
+      "type": "Atención al pasajero",
+      "phone": "+34 971 448 082",
+      "text": "Teléfono de atención al pasajero que Aena publica para Iberojet. Consulte la información oficial para su caso.",
+      "sources": [
+        "https://www.aena.es/es/madrid-barajas-adolfo-suarez/aerolineas/evelop.html"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "iberojet-bkk-checkin",
+      "airline": "Iberojet",
+      "airlineId": "iberojet",
+      "airportIata": "BKK",
+      "type": "Facturación en aeropuerto",
+      "hours": "Abre 4 horas antes de la salida y cierra 60 minutos antes. El embarque cierra 30 minutos antes.",
+      "text": "La ubicación del mostrador puede cambiar según la temporada; confírmela con Iberojet y en las pantallas del aeropuerto. En conexiones, compruebe los horarios de cada trayecto.",
+      "sources": [
+        "https://www.iberojet.com/es/check-in-iberojet"
+      ],
+      "checkedAt": "2026-10-13"
+    }
+  ],
+  "guides": [
+    {
+      "id": "find-counters",
+      "title": "Dónde facturar con Iberojet en Madrid-Barajas",
+      "description": "Diríjase a la Terminal T1 y confirme el mostrador de su vuelo en las pantallas.",
+      "text": "Aena sitúa la facturación de Iberojet en la Terminal T1, planta 1 de salidas, mostradores 120–136. La asignación puede modificarse: compruebe la información de su vuelo en las pantallas del terminal.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.aena.es/es/madrid-barajas-adolfo-suarez/aerolineas/evelop.html",
+        "https://suvarnabhumi.airportthai.co.th/",
+        "https://www.thaiairways.com/en-th/content/airport-information/"
+      ],
+      "sections": [
+        {
+          "title": "Empiece por la compañía operadora real",
+          "text": "Compruebe en su reserva la compañía operadora real, el número de vuelo y la fecha de salida en hora local. En vuelos de código compartido, consulte también la información de la compañía que realiza el vuelo.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "Consulte las pantallas de salidas",
+          "text": "Busque el número de vuelo en las pantallas de salidas del aeropuerto y consulte la guía aeroportuaria oficial de la aerolínea. Confirme la terminal y el mostrador asignados ese día antes de ponerse en la cola.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "Distinga el trámite de cada mostrador",
+          "text": "Para facturar y entregar equipaje, diríjase a facturación; para consultas sobre billetes, acuda al canal de venta o a la oficina de la aerolínea. Si el problema es con el equipaje tras la llegada, busque el servicio de equipaje de llegada de la compañía operadora.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "Confirme el mostrador y los plazos vigentes",
+          "text": "La asignación de mostradores y los horarios pueden cambiar según el vuelo o la temporada. Vuelva a confirmar con la aerolínea la información de su fecha, incluidos los cierres de facturación y entrega de equipaje. No suponga que un aviso de retraso amplía automáticamente esos plazos.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Ficha oficial de Iberojet en Aena",
+          "url": "https://www.aena.es/es/madrid-barajas-adolfo-suarez/aerolineas/evelop.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué terminal usa Iberojet en Barajas?",
+          "a": "Aena indica la Terminal T1. Su ficha sitúa la facturación en la planta 1 de salidas; confirme el mostrador en las pantallas."
+        },
+        {
+          "q": "¿Los mostradores 120–136 son siempre los mismos?",
+          "a": "La ficha de Aena incluye ese intervalo, pero advierte de posibles cambios. La asignación de su vuelo debe consultarse el día de viaje."
+        },
+        {
+          "q": "¿Se puede resolver todo en el mostrador de facturación?",
+          "a": "La facturación, la venta de billetes y los problemas de equipaje de llegada tienen canales distintos. Explique qué necesita y pida al personal que le indique el mostrador adecuado."
+        },
+        {
+          "q": "¿Puedo usar la información del mostrador de un viaje anterior?",
+          "a": "Las asignaciones pueden cambiar, así que use la información antigua solo como referencia. El día del viaje confirme el mostrador en las pantallas de salidas y los plazos de cierre con la aerolínea."
+        }
+      ]
+    },
+    {
+      "id": "caat-passenger-rights",
+      "title": "Compensación por retrasos y cancelaciones desde Tailandia y reclamación ante CAAT",
+      "description": "Consulte la asistencia, las condiciones de compensación y el canal oficial de reclamación de CAAT si su vuelo internacional regular de regreso desde Tailandia a España se retrasa o cancela.",
+      "text": "Si su vuelo internacional regular sale de un aeropuerto tailandés, como Suvarnabhumi o Don Mueang, hacia España, se aplica la protección de pasajeros de la norma CAB n.º 101 que explica CAAT (Autoridad de Aviación Civil de Tailandia). Se incluyen tanto las aerolíneas tailandesas como las extranjeras. Este criterio de lugar de salida no se aplica directamente a los vuelos de España a Tailandia.\nLa norma entró en vigor el 20 de mayo de 2025. Lo siguiente se refiere a vuelos internacionales regulares que salen de Tailandia; los vuelos nacionales y chárter requieren consultar criterios separados. Las reclamaciones al seguro y la asistencia o compensación legal de la aerolínea se tramitan por canales distintos.",
+      "checkedAt": "2026-10-13",
+      "effectiveFrom": "2025-05-20",
+      "sources": [
+        "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/",
+        "https://www.caat.or.th/en/publication/179240/",
+        "https://www.caat.or.th/en/publication/179245/",
+        "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+      ],
+      "sections": [
+        {
+          "title": "Compruebe también las condiciones de facturación",
+          "text": "El artículo 10 de CAB n.º 101 protege, entre otros, a los pasajeros que facturen dentro del plazo comunicado previamente por la aerolínea. Si no se ha comunicado un horario específico para la facturación internacional, el criterio es hasta una hora antes de la salida prevista; la norma también incluye los casos en que la aerolínea acepta la facturación a otra hora.\nLos pasajeros trasladados a otro vuelo, cuyo horario se modifica en más de cinco horas respecto a la salida prevista o cuyo vuelo reservado se cancela también están regulados por separado. No suponga que un aviso de retraso amplía automáticamente el cierre de facturación; confírmelo con la aerolínea.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "¿Desde qué momento se calcula el retraso?",
+          "text": "El retraso general de la guía CAAT se calcula con respecto a la salida. Se cuenta desde la hora de salida prevista aprobada o la comunicada al comprar hasta que se cierran las puertas del avión. Si se comunica un cambio de horario con al menos 24 horas de antelación, existen condiciones para tomar como referencia la nueva hora, por lo que conviene conservar el horario original y el aviso de cambio.\nLa espera en tierra después del cierre de puertas debe comprobarse conforme a criterios separados de retraso a bordo en tierra. No confunda la hora real de despegue, el retraso de llegada o las condiciones de emisión del certificado de la aerolínea con este cálculo del retraso general.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Asistencia que puede solicitar según el retraso",
+          "text": "Todos los plazos siguientes significan “más de”, no exactamente el tiempo indicado. Pida primero comida, bebida y medios de comunicación; si debe esperar mucho tiempo, confirme el alojamiento, los desplazamientos y la opción de reembolso si no continúa el viaje. La compensación económica tiene excepciones específicas.",
+          "sources": [
+            "https://www.caat.or.th/en/publication/179240/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "Compensación por distancia para retrasos superiores a 10 horas y cancelaciones internacionales",
+          "text": "La norma fija una compensación económica de 2.000 baht para distancias de hasta 1.500 km, 3.500 baht para más de 1.500 km y hasta 3.500 km, y 4.500 baht para más de 3.500 km. Las cancelaciones internacionales usan los mismos tramos de distancia, pero deben comprobarse primero las excepciones. No sume automáticamente los 1.500 baht del retraso superior a cinco horas; confirme con la aerolínea el tramo aplicable y el importe.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "Elegir reembolso o vuelo alternativo tras una cancelación",
+          "text": "Solicite a la aerolínea el reembolso de la tarifa y los cargos del trayecto no utilizado o un vuelo alternativo. Compruebe también la asistencia de comida y comunicación. Si el vuelo alternativo sale más de un día después de la salida original, la norma incluye el alojamiento necesario y el transporte entre el aeropuerto y el alojamiento. Si acepta un vale, deben explicarle las condiciones de uso y debe dar su consentimiento.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "Hay casos sin derecho a compensación económica",
+          "text": "Las circunstancias extraordinarias que pueda demostrar la aerolínea pueden ser una excepción a la compensación económica por retraso o cancelación. En cancelaciones internacionales también hay excepciones si se avisa con al menos siete días de antelación y se ofrecen otras opciones de viaje, o si se avisa más tarde pero el vuelo alternativo llega al destino con no más de tres horas de adelanto o retraso respecto al horario original. Esta disposición es una excepción a la compensación económica; no interprete que también desaparecen la comida, el vuelo alternativo o el reembolso, y compruebe cada derecho por separado.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Qué confirmar primero con la aerolínea en el aeropuerto",
+          "text": "Compruebe la compañía operadora real, la fecha y el número de vuelo del billete, y solicite por escrito el motivo del retraso o cancelación y la información sobre sus derechos. Preguntar concretamente por los vales de comida, el alojamiento, el reembolso o el vuelo alternativo que necesita facilita la tramitación. Conserve los avisos de retraso, el horario original y el modificado, el número de referencia y los recibos. Solicite por separado la compensación económica, el reintegro de gastos y el reembolso del billete.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Reunir documentación para la aerolínea y la reclamación",
+          "text": "Compruebe la compañía operadora real, el número de vuelo, la fecha y la hora de salida original en la confirmación de reserva, el billete electrónico y la tarjeta de embarque. Conservar los avisos de retraso o cancelación, el nuevo horario y los certificados correspondientes ayuda a explicar lo ocurrido.\nAnote las solicitudes de comida, alojamiento, reembolso, vuelo alternativo y compensación, junto con las respuestas y los números de referencia. Si ha pagado gastos por su cuenta, conserve los recibos de cada concepto. Esta es una guía para preparar documentación, que no sustituye la lista de documentos obligatorios del formulario CAAT o de la aerolínea. Para el seguro, compruebe por separado las condiciones de su póliza y los documentos que pide su aseguradora.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ],
+          "actions": []
+        },
+        {
+          "title": "Acceder al sitio oficial de reclamaciones de CAAT",
+          "text": "Si la aerolínea no le ofrece los derechos previstos, acceda al sitio oficial de reclamaciones de CAAT. Actualmente redirige a la pantalla de inicio de sesión de autenticación CAAT. Si elige English en el menú de idiomas superior, podrá ver Email / User Name, Password y Sign In en inglés. Si no tiene cuenta, elija Sign Up; si ha olvidado la contraseña, elija Forgot password? Siga las instrucciones del sistema oficial sobre los datos y documentos de la reclamación después de iniciar sesión.",
+          "sources": [
+            "https://complaint.caat.or.th/",
+            "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+          ]
+        },
+        {
+          "title": "Distinguir el plazo de reembolso del plazo de compensación",
+          "text": "El plazo de reembolso de la tarifa comienza cuando se recibe la solicitud completa con los documentos correspondientes. La norma indica 14 días para compras en efectivo directamente a la aerolínea, 45 días para compras con tarjeta y 60 días desde la recepción completa por la aerolínea o el agente en compras a través de un agente. La compensación económica por retrasos internacionales superiores a cinco o diez horas tiene un plazo de 14 días desde la fecha del vuelo retrasado, distinto del plazo de reembolso.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Texto original y fecha de comprobación",
+          "text": "La información se comprobó el 13 de octubre de 2026. Las fuentes son CAB n.º 101 y la guía oficial de derechos de los pasajeros de CAAT. Las traducciones inglesas y explicaciones publicadas por CAAT sirven de referencia; en una disputa, consulte el texto normativo tailandés junto con los hechos del vuelo.",
+          "sources": [
+            "https://www.caat.or.th/laws-regulations/132372/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Desembarque en tierra",
+          "text": "Artículo 13: se permite desembarcar tras más de tres horas a bordo en tierra con despegue indeterminado, salvo seguridad operacional, protección o gestión del tráfico aéreo.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "title": "Reembolso no monetario",
+          "text": "Artículo 18.4: vales o crédito requieren explicar condiciones y consentimiento; siete días desde solicitud y documentación completas, distintos de los 14 días de compensación alternativa no monetaria.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "title": "Cambio de clase por la aerolínea",
+          "text": "El artículo 9 exige consentimiento cuando la aerolínea cambia la clase; subirla no admite recargo. Bajándola, devuelve de la tarifa pagada: 30% hasta 1.500 km, 50% para >1.500 y ≤3.500 km y 75% para >3.500 km, según los artículos 18–19.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 9",
+            "Articles 18–19"
+          ]
+        },
+        {
+          "title": "Servicios adicionales y otros derechos",
+          "text": "Artículos 7–8: informar del operador efectivo y precio total; extras de pago con aceptación previa. El equipaje sigue legislación internacional de transporte aéreo separada (artículo 6). Los artículos 24–25 preservan protección más favorable y otras reclamaciones legales por daños.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 6",
+            "Articles 7–8",
+            "Articles 24–25"
+          ]
+        }
+      ],
+      "thresholds": [
+        {
+          "label": "Más de 2 horas",
+          "text": "Comida, bebida o vales de comida acordes con la espera y los medios de comunicación necesarios.",
+          "article": "Artículo 12 (1)"
+        },
+        {
+          "label": "Más de 5 horas",
+          "text": "Además de comida y comunicación, compensación económica de 1.500 baht, alojamiento de al menos una noche según la necesidad y transporte al aeropuerto. Opción de reembolso del trayecto no utilizado si no continúa el viaje.",
+          "article": "Artículo 12 (2)"
+        },
+        {
+          "label": "Más de 10 horas",
+          "text": "Compensación económica de 2.000, 3.500 o 4.500 baht según la distancia, comida, comunicación, alojamiento y transporte necesarios. Opción de reembolso del trayecto no utilizado o transporte alternativo.",
+          "article": "Artículo 12 (3)"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Sitio oficial de reclamaciones de CAAT",
+          "url": "https://complaint.caat.or.th/"
+        },
+        {
+          "label": "Guía oficial de derechos de los pasajeros de CAAT",
+          "url": "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+        },
+        {
+          "label": "Consulta oficial CAAT de compensación por distancia",
+          "url": "https://app.powerbi.com/view?r=eyJrIjoiZDUyNTM0ZjctYjk4ZC00YjIxLWI3YzMtOTYzYjYwYzM4MmM2IiwidCI6ImFmM2E4M2I2LTEzYWEtNDMwMC1hNWFlLWIxOWM4YzQyM2E1YSIsImMiOjEwfQ%3D%3D"
+        },
+        {
+          "label": "Página del texto original de CAB n.º 101",
+          "url": "https://www.caat.or.th/laws-regulations/132372/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Se aplica CAAT al regresar de Bangkok a España con una aerolínea extranjera?",
+          "a": "Los vuelos internacionales regulares que salen de Tailandia incluyen tanto aerolíneas tailandesas como extranjeras. Compruebe la operadora real de su vuelo reservado y las condiciones de protección del pasajero."
+        },
+        {
+          "q": "¿Se aplican los mismos criterios a un vuelo de España a Bangkok?",
+          "a": "Los criterios internacionales de esta página se aplican a salidas desde Tailandia. Para vuelos desde España, compruebe por separado la normativa del país de salida y la información de la aerolínea y del punto de compra."
+        },
+        {
+          "q": "¿Un retraso de cinco horas garantiza 1.500 baht?",
+          "a": "La norma establece 1.500 baht para retrasos internacionales superiores a cinco horas. Existen excepciones, como las circunstancias extraordinarias, por lo que un retraso de exactamente cinco horas o un caso exceptuado no puede evaluarse igual."
+        },
+        {
+          "q": "¿Una cancelación por el tiempo elimina toda asistencia?",
+          "a": "La disposición sobre circunstancias extraordinarias es una excepción a la compensación económica. Compruébela con la aerolínea por separado de otras ayudas, como comida, reembolso y vuelo alternativo."
+        },
+        {
+          "q": "¿Cómo reclamo ante CAAT?",
+          "a": "Acceda al sitio oficial complaint.caat.or.th e inicie sesión con su cuenta CAAT. Puede elegir English en el menú de idiomas y usar Sign Up si no tiene cuenta. Prepare lo que pidió a la aerolínea y los justificantes del vuelo y de los gastos."
+        },
+        {
+          "q": "¿Bastan tres horas para desembarcar?",
+          "a": "Deben superarse y seguir indeterminado el despegue; rigen las excepciones del artículo 13.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "q": "¿Reembolso y compensación tienen igual plazo?",
+          "a": "No: siete días desde documentación completa para reembolso no monetario consentido, frente a 14 de compensación.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "contributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "CAAT-PROOFREAD-01:es",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/ru-es-current-caat-proofread-current/ru-es-caat-official-proofread.json",
+              "scope": "Native sentence edit of exact current source-preserving fields; no new legal fact."
+            }
+          ],
+          "checkedAt": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "late-arrival-suvarnabhumi",
+      "title": "Si llega tarde a Suvarnabhumi por un retraso",
+      "description": "Compruebe el horario del tren del aeropuerto y la ubicación de los taxis y del punto de recogida Grab, disponibles las 24 horas, para llegar a su alojamiento.",
+      "text": "Tras pasar inmigración y recoger el equipaje, compruebe a qué hora puede empezar realmente el traslado. A última hora de la noche puede usar los puntos de recogida de taxis y Grab de la terminal principal de Suvarnabhumi.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+      ],
+      "sections": [
+        {
+          "title": "Compruebe primero el horario del tren del aeropuerto",
+          "text": "La guía oficial del aeropuerto indica que Airport Rail Link funciona de 05:30 a 24:00 y que la estación está en la planta subterránea 1 de la terminal principal. No interprete este horario como la hora de salida del último tren de cada estación; consulte la información del lugar para confirmar qué tren puede tomar hasta su destino.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+          ]
+        },
+        {
+          "title": "Cómo llegar a los taxis normales de la planta 1",
+          "text": "Los taxis normales funcionan las 24 horas en la vía interior entre las puertas 4 y 7 de la planta 1 de la terminal principal. Obtenga un turno en la máquina y diríjase al vehículo indicado. Compruebe el coste teniendo en cuenta el suplemento aeroportuario de 50 baht y los peajes a cargo del pasajero. El teléfono de información del mostrador del servicio de taxis es +66 2 132 0360.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304"
+          ]
+        },
+        {
+          "title": "Suba a Grab en el punto de recogida designado",
+          "text": "El punto de recogida Grab está en la vía exterior de la puerta 4, planta 1 de la terminal principal, y funciona las 24 horas. Tras solicitarlo en la aplicación, compruebe el vehículo mostrado y el punto designado antes de dirigirse allí.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+          ]
+        },
+        {
+          "title": "Informe también al alojamiento y al servicio de recogida reservado del cambio de llegada",
+          "text": "Confirme con el alojamiento si permite llegar tarde para registrarse e informe de la nueva hora de llegada al servicio de recogida que haya reservado. Conserve los recibos del transporte que pague por su cuenta, pero compruebe por separado las condiciones del vuelo y de su póliza para saber si los asume la aerolínea o los cubre el seguro.",
+          "sources": []
+        }
+      ],
+      "actions": [
+        {
+          "label": "Guía oficial de transporte de Suvarnabhumi",
+          "url": "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo tomar Grab si llego a Suvarnabhumi después de medianoche?",
+          "a": "La guía oficial del aeropuerto indica que el punto de recogida Grab en la vía exterior de la puerta 4, planta 1 de la terminal principal, funciona las 24 horas. Compruebe los vehículos disponibles y la espera en la aplicación y en el lugar."
+        }
+      ],
+      "airportIata": "BKK"
+    },
+    {
+      "id": "baggage-damage",
+      "title": "Equipaje dañado o retrasado con Iberojet",
+      "description": "Reporte la incidencia y compruebe los plazos de reclamación.",
+      "text": "Si su maleta no aparece o llega dañada, acuda al servicio de equipajes antes de salir de llegadas y solicite el PIR. Guarde ese parte para la reclamación; el seguimiento de la maleta y el plazo para reclamar son trámites distintos.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.iberojet.com/es/incidencias-equipaje"
+      ],
+      "sections": [
+        {
+          "title": "Antes de salir de llegadas",
+          "text": "Si falta equipaje o está dañado, comuníquelo en Lost & Found/Equipajes antes de salir. Le emitirán un PIR, necesario para reclamar a la aerolínea.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ]
+        },
+        {
+          "title": "Plazos de reclamación",
+          "text": "Daños: 7 días desde la recepción. Retraso: 21 días desde que el equipaje queda a su disposición.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ]
+        },
+        {
+          "title": "Seguimiento y contacto central",
+          "text": "Durante los primeros 5 días, consulte al servicio de equipajes del aeropuerto; desde el quinto día, al seguimiento central. Contactos: evelop-equipajes@aircomp.aero y baggage.services@iberojet.com. Dirección postal, no mostrador aeroportuario: AIRCOMP S.L., Baggage Claims Department, apartado 5366, 07011 Palma de Mallorca, Baleares, España.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tramitar en la página oficial",
+          "url": "https://www.iberojet.com/es/incidencias-equipaje"
+        },
+        {
+          "label": "Seguro de viaje Intermundial: tramitar un siniestro",
+          "url": "/es/airport-assistance/guides/insurance-claim/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Los cinco días son el plazo para reclamar?",
+          "a": "No, indican el cambio de servicio de seguimiento."
+        },
+        {
+          "q": "¿Cualquier daño está cubierto?",
+          "a": "La política excluye desgaste ordinario: marcas, manchas, pequeñas abolladuras o daños de uso en asas y ruedas. Confirme su caso; esto no elimina todos los derechos del pasajero."
+        },
+        {
+          "q": "¿Dónde reclamo un problema de equipaje con Iberojet?",
+          "a": "Antes de salir de llegadas, acuda al mostrador de Lost & Found o Equipajes y solicite el PIR. Iberojet exige ese parte para tramitar la reclamación.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ]
+        },
+        {
+          "q": "Mi equipaje llegó dañado. ¿Qué hago antes de salir del aeropuerto?",
+          "a": "Informe en el mostrador de equipajes de la aerolínea en la sala de llegadas antes de salir del aeropuerto. Rellene el PIR (parte de irregularidad) y haga fotos del daño. Conserve la etiqueta del equipaje, la tarjeta de embarque y la copia del PIR.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ],
+          "manuscriptContribution": {
+            "originThreadKey": "AP-L10N-WEST-01",
+            "sourceRecordId": "es:BAG-FAQ-02:es-bag-faq-01",
+            "verificationEvidence": [
+              "https://www.iberojet.com/es/incidencias-equipaje"
+            ],
+            "reconciliation": "Muse r2 copy checked against current carrier-specific official facts; no new operational value inferred."
+          }
+        },
+        {
+          "q": "¿Es lo mismo informar a la aerolínea que reclamar al seguro de viaje?",
+          "a": "No. El informe a la aerolínea (PIR) documenta el incidente con el transportista. La reclamación al seguro de viaje es un proceso aparte, con sus propios formularios y aprobación. Informar a la aerolínea no inicia automáticamente la reclamación al seguro.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ],
+          "manuscriptContribution": {
+            "originThreadKey": "AP-L10N-WEST-01",
+            "sourceRecordId": "es:BAG-FAQ-02:es-bag-faq-02",
+            "verificationEvidence": [
+              "https://www.iberojet.com/es/incidencias-equipaje"
+            ],
+            "reconciliation": "Muse r2 copy checked against current carrier-specific official facts; no new operational value inferred."
+          }
+        },
+        {
+          "q": "¿Cuánto tiempo tengo para reclamar por equipaje dañado o retrasado?",
+          "a": "Para equipaje dañado: presente la reclamación dentro de los 7 días desde que recibe el equipaje. Para equipaje retrasado: el plazo es de 21 días desde que el equipaje está disponible. Estos son los plazos de Iberojet según su página oficial de incidencias. Su producto de seguro de viaje tiene sus propios plazos separados — no los confunda con los de la aerolínea.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ],
+          "manuscriptContribution": {
+            "originThreadKey": "AP-L10N-WEST-01",
+            "sourceRecordId": "es:BAG-FAQ-02:es-bag-faq-03",
+            "verificationEvidence": [
+              "https://www.iberojet.com/es/incidencias-equipaje"
+            ],
+            "reconciliation": "Muse r2 copy checked against current carrier-specific official facts; no new operational value inferred."
+          }
+        }
+      ],
+      "airlineIds": [
+        "iberojet"
+      ],
+      "manuscriptContribution": {
+        "originThreadKey": "AP-L10N-WEST-01",
+        "sourceRecordId": "ap-l10n-west-es-manuscript:faq:baggage:0",
+        "verificationEvidence": [
+          "ES-EV-0005"
+        ],
+        "reconciliation": "PIR guidance reconciled with current Iberojet procedure; discarded unsourced airport-agent extension."
+      }
+    },
+    {
+      "id": "insurance-claim",
+      "title": "Seguro de viaje Intermundial: tramitar un siniestro",
+      "description": "Guía española de tramitación y documentos de equipaje. Su contrato determina la cobertura.",
+      "text": "",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.intermundial.es/contacto",
+        "https://www.intermundial.es/equipajes"
+      ],
+      "sections": [
+        {
+          "title": "Declare desde su cuenta",
+          "text": "Use la app o el Área de cliente de Intermundial para tramitar siniestros. Para asistencia en viaje, llame al número de su certificado. Consultas generales: 911 680 680, lunes a viernes, 9–19 h; no es un teléfono aeroportuario.",
+          "sources": [
+            "https://www.intermundial.es/contacto"
+          ]
+        },
+        {
+          "title": "Documentos comunes de equipaje",
+          "text": "La guía pide reserva con precios, fechas y condiciones, tarjeta de embarque o billete electrónico y etiqueta de facturación o resguardo. Consulte en su cuenta los documentos específicos del caso.",
+          "sources": [
+            "https://www.intermundial.es/equipajes"
+          ]
+        },
+        {
+          "title": "Distinga daño y demora",
+          "text": "Para daños, indica PIR, tasación o informe de reparación y resolución de la aerolínea sobre indemnización. Para demora, PIR, facturas de compras esenciales y justificante de entrega con fecha y hora. Estos documentos no garantizan el pago; confirme su póliza y los plazos aplicables.",
+          "sources": [
+            "https://www.intermundial.es/equipajes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Tramitación y contacto oficial",
+          "url": "https://www.intermundial.es/contacto"
+        },
+        {
+          "label": "Documentos oficiales de equipaje",
+          "url": "https://www.intermundial.es/equipajes"
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Sirve para cualquier seguro español?",
+          "a": "No, es la guía de Intermundial España; prevalece su contrato."
+        },
+        {
+          "q": "¿El teléfono general sustituye la asistencia?",
+          "a": "Para asistencia, use el teléfono del certificado de su seguro."
+        },
+        {
+          "q": "¿Cómo declaro un siniestro con Intermundial?",
+          "a": "Puede declarar el siniestro desde la app o el Área de cliente de Intermundial. Para asistencia en viaje, llame al número indicado en su certificado de seguro."
+        },
+        {
+          "q": "¿Qué documentos necesito para incidencias de equipaje?",
+          "a": "Prepare la reserva con precios, fechas y condiciones, la tarjeta de embarque o el billete electrónico y la etiqueta del equipaje o el resguardo de facturación. En caso de daño, la guía pide el PIR, una valoración o informe de reparación y la resolución de la aerolínea sobre la indemnización. En caso de retraso, pide el PIR, las facturas de compras esenciales y el justificante de entrega con fecha y hora. Consulte en su cuenta los documentos específicos de su caso."
+        },
+        {
+          "q": "¿El seguro garantiza el pago?",
+          "a": "No. El pago depende de la cobertura, los plazos y las condiciones de su póliza. El teléfono 911 680 680 atiende consultas generales de lunes a viernes, de 9 a 19 h; no es un teléfono de aeropuerto ni sustituye la asistencia en viaje indicada en su certificado."
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "ES-INTERMUNDIAL:FAQ01",
+          "verificationEvidence": [
+            "https://www.intermundial.es/contacto",
+            "https://www.intermundial.es/equipajes"
+          ],
+          "artifact": "artifacts/airport-research/ru-es-targeted-faq-current/written/es-intermundial-faq.json",
+          "reconciliation": "Existing canonical scope preserved; internal testing/unknown-field commentary removed; general inquiry and insured travel assistance roles separated."
+        }
+      ],
+      "highlights": [
+        "Área de cliente",
+        "número de su certificado",
+        "lunes a viernes, 9–19 h",
+        "consultas generales de lunes a viernes, de 9 a 19 h",
+        "PIR",
+        "justificante de entrega con fecha y hora",
+        "no garantizan el pago",
+        "depende de la cobertura",
+        "condiciones de su póliza"
+      ]
+    },
+    {
+      "id": "allianz-spain-claim",
+      "title": "Reclamar al seguro de viaje Allianz España",
+      "description": "Canales y documentos publicados actualmente por Allianz España.",
+      "text": "Comprueba las condiciones de tu póliza antes de presentar la reclamación.",
+      "sources": [
+        "https://www.allianz-assistance.es/informacion/declarar-siniestro.html",
+        "https://www.allianz-assistance.es/informacion/preguntas-frecuentes.html",
+        "https://www.allianz-assistance.es/seguro-de-viaje/trotamundos.html",
+        "https://www.allianz-assistance.es/seguro-de-viaje/cobertura-equipaje.html"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [
+        {
+          "title": "Comunica el siniestro",
+          "text": "La FAQ indica comunicarlo cuanto antes, dentro de los siete días siguientes, salvo fuerza mayor. Puedes usar Allianz Protection o travel.es@allianz.com; la tramitación online requiere correo electrónico o número de póliza y fecha de salida o contratación.",
+          "sources": [
+            "https://www.allianz-assistance.es/informacion/declarar-siniestro.html",
+            "https://www.allianz-assistance.es/informacion/preguntas-frecuentes.html"
+          ]
+        },
+        {
+          "title": "Prepara los justificantes",
+          "text": "Allianz enviará un formulario e indicará los documentos necesarios. Su FAQ solicita originales que acrediten el incidente y los gastos, y remite su envío postal al Departamento de Siniestros, Ramírez de Arellano 35, 3.ª planta, 28043 Madrid.",
+          "sources": [
+            "https://www.allianz-assistance.es/informacion/preguntas-frecuentes.html"
+          ]
+        },
+        {
+          "title": "Si hay problemas con el equipaje",
+          "text": "La guía recomienda pedir el PIR al transportista, detallar el contenido o daños y reclamar formalmente. Conserva su certificado de compensación; en caso de robo, presenta denuncia policial.",
+          "sources": [
+            "https://www.allianz-assistance.es/seguro-de-viaje/cobertura-equipaje.html"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Es la misma cobertura que Trotamundos Estándar?",
+          "a": "Estos son canales generales actuales. La página Trotamundos anuncia viajes de 93 a 365 días para residentes en España; límites y coberturas dependen de la póliza contratada."
+        },
+        {
+          "q": "¿Dónde consulto el estado?",
+          "a": "En Allianz Protection si declaraste online; si usaste otro canal, continúa por ese mismo canal."
+        }
+      ],
+      "actions": [
+        {
+          "label": "Declaración oficial de siniestros",
+          "url": "https://www.allianz-assistance.es/informacion/declarar-siniestro.html"
+        },
+        {
+          "label": "FAQ oficial y documentos",
+          "url": "https://www.allianz-assistance.es/informacion/preguntas-frecuentes.html"
+        }
+      ]
+    }
+  ],
+  "coverage": [],
+  "airlines": [
+    {
+      "id": "iberojet",
+      "name": "Iberojet",
+      "officialName": "Iberojet",
+      "sources": [
+        "https://www.iberojet.com/en/flights-from-madrid-barajas-airport-to-bangkok",
+        "https://www.iberojet.com/es/incidencias-equipaje",
+        "https://www.iberojet.com/es/reclamaciones",
+        "https://www.iberojet.com/es/contacto"
+      ],
+      "checkedAt": "2026-10-13",
+      "note": "Conexión directa entre Madrid y Bangkok.",
+      "sections": [
+        {
+          "title": "Volar de Madrid a Bangkok",
+          "text": "Iberojet presenta una conexión directa entre Madrid-Barajas y Bangkok. La página oficial describe un viaje de unas 12–13 horas. Para elegir una salida concreta, consulte la disponibilidad de la aerolínea: la descripción de la ruta no sustituye el horario del día de viaje.",
+          "sources": [
+            "https://www.iberojet.com/en/flights-from-madrid-barajas-airport-to-bangkok"
+          ]
+        },
+        {
+          "title": "Ayuda con el equipaje",
+          "text": "Consulte el procedimiento de daños o retraso.",
+          "sources": [
+            "https://www.iberojet.com/es/incidencias-equipaje"
+          ],
+          "actions": [
+            {
+              "label": "Ver el procedimiento",
+              "url": "/es/airport-assistance/guides/baggage-damage/"
+            }
+          ]
+        },
+        {
+          "title": "Presentar una reclamación",
+          "text": "Iberojet recibe las reclamaciones a través de su página oficial de reclamaciones. Para empezar, la página pide el localizador de la reserva y el apellido del pasajero; ambos campos son obligatorios. Después de introducir estos datos, se pulsa el botón «Realizar Reclamación».",
+          "sources": [
+            "https://www.iberojet.com/es/reclamaciones"
+          ],
+          "actions": [
+            {
+              "label": "Presentar una reclamación",
+              "url": "https://www.iberojet.com/es/reclamaciones"
+            }
+          ],
+          "highlights": [
+            "localizador de la reserva",
+            "apellido del pasajero",
+            "ambos campos son obligatorios",
+            "Realizar Reclamación"
+          ]
+        },
+        {
+          "title": "Contacto oficial",
+          "text": "La página oficial de contacto ofrece un chat con el asistente virtual Eli y un número de teléfono para España: 911.589.494. Este canal es de atención general al cliente y no es una línea directa de PIR del aeropuerto.",
+          "sources": [
+            "https://www.iberojet.com/es/contacto"
+          ],
+          "actions": [
+            {
+              "label": "Contactar con Iberojet",
+              "url": "https://www.iberojet.com/es/contacto"
+            }
+          ],
+          "highlights": [
+            "para España",
+            "atención general al cliente",
+            "no es una línea directa de PIR"
+          ]
+        },
+        {
+          "title": "Solicitar un documento",
+          "text": "Si necesita un documento para su seguro u otro trámite, explique el motivo de su solicitud a través de los canales oficiales de contacto. Guarde todos los registros de su solicitud y las respuestas que reciba de la aerolínea. Los documentos que pida cada seguro dependen de su propio contrato; consulte las condiciones de su póliza.",
+          "sources": [
+            "https://www.iberojet.com/es/contacto"
+          ],
+          "actions": [
+            {
+              "label": "Contactar con Iberojet",
+              "url": "https://www.iberojet.com/es/contacto"
+            },
+            {
+              "label": "Seguro de viaje Intermundial: tramitar un siniestro",
+              "url": "/es/airport-assistance/guides/insurance-claim/"
+            }
+          ],
+          "highlights": [
+            "motivo de su solicitud",
+            "Guarde todos los registros",
+            "su propio contrato"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Iberojet anuncia un vuelo directo de Madrid a Bangkok?",
+          "a": "Sí. Su página oficial presenta una conexión directa entre Madrid-Barajas y Bangkok."
+        },
+        {
+          "q": "¿Cuánto dura el viaje?",
+          "a": "La descripción oficial indica unas 12–13 horas. Consulte la duración prevista para su fecha en el horario de la aerolínea."
+        },
+        {
+          "q": "¿Qué información debo pedir a la aerolínea?",
+          "a": "Pida confirmación escrita con número de vuelo, horarios programados y reales, y motivo si se indica. Conserve su confirmación de reserva y tarjetas de embarque. Esta documentación de la aerolínea es independiente de lo que exija su producto de seguro — consulte su póliza.",
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "es-cert-faq-02",
+          "contentScope": "Reader preparation question; does not verify a certificate channel, required documents, automatic issuance or deadline."
+        },
+        {
+          "q": "¿Cómo presento una reclamación ante Iberojet?",
+          "a": "En la página oficial de reclamaciones, introduzca el localizador de su reserva y su apellido — ambos son obligatorios — y pulse «Realizar Reclamación».",
+          "highlights": [
+            "localizador de su reserva",
+            "apellido",
+            "ambos son obligatorios",
+            "Realizar Reclamación"
+          ]
+        },
+        {
+          "q": "Necesito un documento para mi seguro. ¿Cómo lo solicito?",
+          "a": "Explique el motivo de su solicitud a través de los canales oficiales de contacto de Iberojet. Guarde los registros de su solicitud y las respuestas de la aerolínea. Los documentos necesarios dependen de su propio contrato de seguro.",
+          "highlights": [
+            "motivo de su solicitud",
+            "propio contrato de seguro"
+          ]
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-WORLD-WEST-01",
+          "sourceRecordId": "AP-WORLD-WEST-01-44",
+          "verificationEvidence": [
+            {
+              "id": "APW-CERT-E9-0010",
+              "url": "https://www.iberojet.com/es/reclamaciones",
+              "checkedAt": "2026-10-14",
+              "quote": "Localizador de reserva — \"El localizador es obligatorio.\" / Apellido — \"El apellido es obligatorio.\" / Realizar Reclamación"
+            },
+            {
+              "id": "APW-CERT-E9-0011",
+              "url": "https://www.iberojet.com/es/contacto",
+              "checkedAt": "2026-10-14",
+              "quote": "¿Necesitas contactar con Iberojet? Descubre las formas más rápidas de resolver tus dudas. — España 911.589.494"
+            }
+          ],
+          "artifact": "artifacts/airport-research/iberojet-spanish-supplement-current/apw-e9-supplement-es.json",
+          "scope": "Official initial claim fields and Spain general contact only; dedicated certificate, postlookup flow and counter roles unproven"
+        },
+        {
+          "originThreadKey": "AP-WORLD-WEST-01",
+          "sourceRecordId": "AP-WORLD-WEST-01-44:r2",
+          "artifact": "artifacts/airport-research/iberojet-spanish-r2-current/apw-e9-supplement-es-r2.json",
+          "verificationEvidence": [
+            {
+              "id": "APW-CERT-E9-0010",
+              "url": "https://www.iberojet.com/es/reclamaciones",
+              "checkedAt": "2026-10-14",
+              "quote": "Localizador de reserva — \"El localizador es obligatorio.\" / Apellido — \"El apellido es obligatorio.\" / Realizar Reclamación"
+            },
+            {
+              "id": "APW-CERT-E9-0011",
+              "url": "https://www.iberojet.com/es/contacto",
+              "checkedAt": "2026-10-14",
+              "quote": "¿Necesitas contactar con Iberojet? Descubre las formas más rápidas de resolver tus dudas. — España 911.589.494"
+            }
+          ],
+          "scope": "Reader document request purpose/record keeping/insurance own policy only; no dedicated certificate channel or issuance policy inferred"
+        }
+      ]
+    }
+  ],
+  "market": "ES",
+  "airportNames": {
+    "DMK": "Aeropuerto Don Mueang",
+    "HKT": "Aeropuerto Internacional de Phuket"
+  }
+}

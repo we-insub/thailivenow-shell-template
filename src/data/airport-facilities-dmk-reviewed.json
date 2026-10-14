@@ -1,0 +1,3879 @@
+{
+  "checkedAt": "2026-10-14",
+  "locales": {
+    "ko": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Don Mueang departure guide",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Check-in",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Regular check-in counters, self check-in and baggage drop, and online check-in are available.",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departures",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Passport control is for international passengers only.",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Boarding gate",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "You are advised to arrive at the boarding gate at least 45 minutes before the scheduled departure time.",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Carry-on baggage",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Size and weight allowances differ by airline.",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "Check your airline's official rules.",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "S&P 식당",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "제1터미널 3층"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank 공식 ATM 찾기 · 태국어 페이지",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "은행과 ATM 위치",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "터미널 1",
+                      "1층",
+                      "터미널 2",
+                      "4층"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "터미널 2",
+                      "1층",
+                      "3층",
+                      "터미널 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "터미널 2",
+                      "3층"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "S&P는 어디에 있나요?",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "제1터미널 3층에 있어요.",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "돈므앙공항 ATM은 어디서 확인하나요?",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "KBank 공식 ATM 찾기에서 확인할 수 있어요.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "en-gb": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Don Mueang departure guide",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Check-in",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Regular check-in counters, self check-in and baggage drop, and online check-in are available.",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-gb:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-gb.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departures",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Passport control is for international passengers only.",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "international passengers"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-gb:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-gb.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Boarding gate",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "You are advised to arrive at the boarding gate at least 45 minutes before the scheduled departure time.",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "at least 45 minutes before"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-gb:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-gb.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Carry-on baggage",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Size and weight allowances differ by airline.",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "Check your airline's official rules.",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-gb:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-gb.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "S&P restaurant",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The S&P restaurant at Don Mueang Airport is on the 3rd floor of Terminal 1.",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "3rd floor, Terminal 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for Don Mueang Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai-language page",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Bank and ATM locations",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "At Don Mueang, Bangkok Bank is on Level 1 of Terminal 1, while KBank is on Level 4 in the domestic departures area of Terminal 2.",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "Level 1",
+                      "Terminal 1",
+                      "Level 4",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "SCB ATMs are on Levels 1 and 3 of Terminal 2, and a Krungsri ATM is on Level 3 of Terminal 1.",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "Levels 1 and 3",
+                      "Terminal 2",
+                      "Level 3",
+                      "Terminal 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "A Krungthai ATM is in the departures area on Level 3 of Terminal 2, and a Government Savings Bank ATM is also on Level 3 of Terminal 2.",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "Level 3",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where is S&P?",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "It's on the 3rd floor of Terminal 1.",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Don Mueang Airport?",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "fb2b5e21fe2e15af7c3a62ecc77a1202b2b479c19a87fd55729ae5e009ced438"
+    },
+    "en-us": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Don Mueang departure guide",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Check-in",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Regular check-in counters, self check-in and baggage drop, and online check-in are available.",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-us:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-us.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departures",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Passport control is for international passengers only.",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "international passengers"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-us:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-us.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Boarding gate",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "You are advised to arrive at the boarding gate at least 45 minutes before the scheduled departure time.",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "at least 45 minutes before"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-us:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-us.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Carry-on baggage",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Size and weight allowances differ by airline.",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "Check your airline's official rules.",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-us:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-us.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "S&P restaurant",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The S&P restaurant at Don Mueang Airport is on the 3rd floor of Terminal 1.",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "3rd floor, Terminal 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for Don Mueang Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai-language page",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Bank and ATM locations",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "At Don Mueang, Bangkok Bank is on Level 1 of Terminal 1, while KBank is on Level 4 in the domestic departures area of Terminal 2.",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "Level 1",
+                      "Terminal 1",
+                      "Level 4",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "SCB ATMs are on Levels 1 and 3 of Terminal 2, and a Krungsri ATM is on Level 3 of Terminal 1.",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "Levels 1 and 3",
+                      "Terminal 2",
+                      "Level 3",
+                      "Terminal 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "A Krungthai ATM is in the departures area on Level 3 of Terminal 2, and a Government Savings Bank ATM is also on Level 3 of Terminal 2.",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "Level 3",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where is S&P?",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "It's on the 3rd floor of Terminal 1.",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Don Mueang Airport?",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "d5cfced1341cf00266a586e05b79ec0efc11921003d016fec31072423749807a"
+    },
+    "en-in": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Don Mueang departure guide",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Check-in",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Regular check-in counters, self check-in and baggage drop, and online check-in are available.",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-in:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-in.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departures",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Passport control is for international passengers only.",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "international passengers"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-in:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-in.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Boarding gate",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "You are advised to arrive at the boarding gate at least 45 minutes before the scheduled departure time.",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "at least 45 minutes before"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-in:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-in.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Carry-on baggage",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Size and weight allowances differ by airline.",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "Check your airline's official rules.",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:en-in:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/en-in.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "S&P restaurant",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The S&P restaurant at Don Mueang Airport is on the 3rd floor of Terminal 1.",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "3rd floor, Terminal 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for Don Mueang Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai-language page",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Bank and ATM locations",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "At Don Mueang, Bangkok Bank is on Level 1 of Terminal 1, while KBank is on Level 4 in the domestic departures area of Terminal 2.",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "Level 1",
+                      "Terminal 1",
+                      "Level 4",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "SCB ATMs are on Levels 1 and 3 of Terminal 2, and a Krungsri ATM is on Level 3 of Terminal 1.",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "Levels 1 and 3",
+                      "Terminal 2",
+                      "Level 3",
+                      "Terminal 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "A Krungthai ATM is in the departures area on Level 3 of Terminal 2, and a Government Savings Bank ATM is also on Level 3 of Terminal 2.",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "Level 3",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where is S&P?",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "It's on the 3rd floor of Terminal 1.",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Don Mueang Airport?",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "938aa0166e845fa309c96f1e75f5adeab99f144c7ea54247180cf34e9f20adb5"
+    },
+    "ms": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Panduan berlepas Don Mueang",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Daftar masuk",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Kaunter daftar masuk biasa, daftar masuk sendiri dan serahan bagasi, serta daftar masuk dalam talian tersedia.",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ms:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ms.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Perlepasan antarabangsa",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Kawalan pasport hanya untuk penumpang antarabangsa.",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "penumpang antarabangsa"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ms:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ms.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Pintu perlepasan",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Anda dinasihatkan tiba di pintu perlepasan sekurang-kurangnya 45 minit sebelum waktu berlepas yang dijadualkan.",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "sekurang-kurangnya 45 minit"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ms:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ms.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Bagasi kabin",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Had saiz dan berat berbeza mengikut syarikat penerbangan.",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "Semak peraturan rasmi syarikat penerbangan anda.",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ms:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ms.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Restoran S&P",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Restoran S&P di Lapangan Terbang Don Mueang terletak di Aras 3, Terminal 1.",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "Aras 3, Terminal 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Pencari ATM rasmi KBank menyenaraikan entri ATM untuk Lapangan Terbang Don Mueang.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Pencari ATM rasmi KBank · Laman bahasa Thai",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Lokasi bank dan ATM",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Di Don Mueang, Bangkok Bank terletak di Aras 1 Terminal 1, manakala KBank terletak di Aras 4 kawasan pelepasan domestik Terminal 2.",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "Aras 1",
+                      "Terminal 1",
+                      "Aras 4",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "ATM SCB terletak di Aras 1 dan 3 Terminal 2, dan ATM Krungsri terletak di Aras 3 Terminal 1.",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "Aras 1",
+                      "Terminal 2",
+                      "Aras 3",
+                      "Terminal 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "ATM Krungthai terletak di Aras 3 kawasan pelepasan Terminal 2, dan ATM Government Savings Bank juga terletak di Aras 3 Terminal 2.",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "Aras 3",
+                      "Terminal 2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Di manakah S&P?",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Di Aras 3, Terminal 1.",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Di manakah saya boleh menyemak ATM di Lapangan Terbang Don Mueang?",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Anda boleh menyemak di pencari ATM rasmi KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "2a8ea27a03b62b942ea7f5c6a32e3418f55cb994c4d4c46f638a1d3d662a95c2"
+    },
+    "zh-cn": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "廊曼机场出发指南",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "值机",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "提供人工值机柜台、自助值机和行李托运以及在线值机。",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-cn:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-cn.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "国际出发",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "护照检查仅针对国际旅客。",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "国际旅客"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-cn:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-cn.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "登机口",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "建议您在计划起飞时间至少45分钟前到达登机口。",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "至少45分钟前"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-cn:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-cn.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "随身行李",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "尺寸和重量限额因航空公司而异。",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "请查看您所乘航空公司的官方规定。",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-cn:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-cn.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "S&P餐厅",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "廊曼机场的S&P餐厅在1号航站楼3层。",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "1号航站楼3层"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查询中登记了廊曼机场的ATM条目。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查询 · 泰语页面",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "银行与ATM位置",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "廊曼机场的Bangkok Bank位于1号航站楼1楼，KBank位于2号航站楼国内出发区域4楼。",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "1号航站",
+                      "1楼",
+                      "2号航站",
+                      "4楼"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "SCB的ATM位于2号航站楼1楼和3楼，Krungsri的ATM位于1号航站楼3楼。",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "2号航站",
+                      "1楼",
+                      "3楼",
+                      "1号航站"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Krungthai的ATM位于2号航站楼出发区域3楼，Government Savings Bank的ATM也位于2号航站楼3楼。",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "2号航站",
+                      "3楼"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "S&P在哪里？",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "在1号航站楼3层。",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "在哪里可以查询廊曼机场的ATM？",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "可以在KBank官方ATM查询中确认。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "60dd5a79584db58123dec40fb68ac87b41d7ec3a253f65231b4f3f0319aa2c7e"
+    },
+    "zh-tw": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "廊曼機場出發指南",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "報到",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "提供人工報到櫃檯、自助報到和行李託運以及線上報到。",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-tw:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-tw.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "國際出發",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "護照查驗僅針對國際旅客。",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "國際旅客"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-tw:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-tw.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "登機門",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "建議您在表定起飛時間至少45分鐘前到達登機門。",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "至少45分鐘前"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-tw:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-tw.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "隨身行李",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "尺寸和重量限額因航空公司而異。",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "請查看您搭乘航空公司的官方規定。",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:zh-tw:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/zh-tw.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "S&P餐廳",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "廊曼機場的S&P餐廳在1號航廈3樓。",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "1號航廈3樓"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查詢中登記了廊曼機場的ATM條目。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查詢 · 泰語頁面",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "銀行與ATM位置",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "廊曼機場的Bangkok Bank位於第1航廈1樓，KBank位於第2航廈國內出發區域4樓。",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "第1航廈",
+                      "1樓",
+                      "第2航廈",
+                      "4樓"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "SCB的ATM位於第2航廈1樓和3樓，Krungsri的ATM位於第1航廈3樓。",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "第2航廈",
+                      "1樓",
+                      "3樓",
+                      "第1航廈"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Krungthai的ATM位於第2航廈出發區域3樓，Government Savings Bank的ATM也位於第2航廈3樓。",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "第2航廈",
+                      "3樓"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "S&P在哪裡？",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "在1號航廈3樓。",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "在哪裡可以查詢廊曼機場的ATM？",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "可以在KBank官方ATM查詢中確認。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "c61fa3b357e3e756b4766bd52c6d10612d5573229bba28ddbc43fb55a1e96a97"
+    },
+    "ja": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "ドンムアン出発ガイド",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "チェックイン",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "通常のチェックインカウンター、セルフチェックイン・手荷物預け、オンラインチェックインが利用できます。",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ja:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ja.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "国際線出発",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "パスポートコントロールは国際線のお客様のみ対象です。",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "国際線のお客様"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ja:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ja.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "搭乗ゲート",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "空港では、出発予定時刻の少なくとも45分前までに搭乗ゲートへお越しいただくことを推奨しています。",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "45分前"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ja:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ja.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "機内持込手荷物",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "サイズと重量の許容量は航空会社により異なります。",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "ご利用の航空会社の公式ルールをご確認ください。",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ja:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ja.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "S&Pレストラン",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "ドンムアン空港のS&Pレストランは第1ターミナル3階にあります。",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "第1ターミナル3階"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank公式ATM検索には、ドンムアン空港のATMが登録されています。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank公式ATM検索 · タイ語ページ",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "銀行とATMの場所",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "ドンムアン空港のBangkok Bankはターミナル1の1階、KBankはターミナル2の国内線出発エリア4階にあります。",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "1階",
+                      "4階"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "SCBのATMはターミナル2の1階と3階、KrungsriのATMはターミナル1の3階にあります。",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "1階",
+                      "3階"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "KrungthaiのATMはターミナル2の出発エリア3階、Government Savings BankのATMはターミナル2の3階にあります。",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "3階"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "S&Pはどこにありますか？",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "第1ターミナル3階にあります。",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "ドンムアン空港のATMはどこで確認できますか？",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "KBank公式ATM検索で確認できます。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "67b0b489ce67380386bcf2ac18dfb9f40ca9d5c6b8bb470842d827c8aa1996a0"
+    },
+    "ru": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Гид по вылету из Донмыанга",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Регистрация",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Доступны обычные стойки регистрации, самостоятельная регистрация и сдача багажа, а также онлайн-регистрация.",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ru:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ru.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Международные вылеты",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Паспортный контроль — только для пассажиров международных рейсов.",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "пассажиров международных рейсов"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ru:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ru.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Выход на посадку",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Рекомендуется прибыть к выходу на посадку не менее чем за 45 минут до запланированного времени вылета.",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "не менее чем за 45 минут"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ru:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ru.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Ручная кладь",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Нормы размера и веса различаются в зависимости от авиакомпании.",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "Ознакомьтесь с официальными правилами вашей авиакомпании.",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:ru:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/ru.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Ресторан S&P",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Ресторан S&P в аэропорту Донмыанг находится на 3-м этаже терминала 1.",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "3-й этаж, терминал 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Банкомат",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "В официальном поиске банкоматов KBank зарегистрирована запись о банкомате в аэропорту Донмыанг.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Официальный поиск банкоматов KBank · Страница на тайском языке",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Расположение банков и банкоматов",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "В аэропорту Донмыанг Bangkok Bank расположен на 1-м этаже терминала 1, а KBank — на 4-м этаже зоны внутренних вылетов терминала 2.",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "1-м этаже",
+                      "4-м этаже"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Банкоматы SCB находятся на 1-м и 3-м этажах терминала 2, а банкомат Krungsri — на 3-м этаже терминала 1.",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "3-м этаже"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Банкомат Krungthai находится в зоне вылетов на 3-м этаже терминала 2, а банкомат Government Savings Bank — также на 3-м этаже терминала 2.",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "3-м этаже"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Где находится S&P?",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "На 3-м этаже терминала 1.",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Где можно проверить банкоматы в аэропорту Донмыанг?",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Можно проверить в официальном поиске банкоматов KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "6818d980887b7a06df7ae01503667efe0992976636d9dbd1f0f0f4e30a033b9c"
+    },
+    "es": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Guía de salidas de Don Mueang",
+              "koReview": "돈므앙공항 출발 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Facturación",
+                  "koReview": "체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Hay mostradores de facturación normales, autofacturación y entrega de equipaje, y facturación en línea.",
+                    "koReview": "출발 수속은 항공사 카운터, 셀프 체크인·수하물 위탁, 온라인 체크인으로 할 수 있어요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:es:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/es.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Salidas internacionales",
+                  "koReview": "국제선 출국심사"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "El control de pasaportes es solo para pasajeros internacionales.",
+                    "koReview": "국제선 승객은 출국심사를 거쳐야 해요.",
+                    "highlights": [
+                      "pasajeros internacionales"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:es:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/es.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Puerta de embarque",
+                  "koReview": "탑승게이트"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Se recomienda llegar a la puerta de embarque al menos 45 minutos antes de la hora de salida programada.",
+                    "koReview": "공항은 출발 예정 시각 최소 45분 전까지 탑승게이트에 도착하도록 권고하고 있어요.",
+                    "highlights": [
+                      "al menos 45 minutos antes"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:es:2",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/es.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Equipaje de mano",
+                  "koReview": "기내 반입 수하물"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Las medidas y el peso permitidos varían según la aerolínea.",
+                    "koReview": "기내에 가져갈 수 있는 수하물의 크기와 무게는 항공사마다 달라요.",
+                    "highlights": []
+                  },
+                  {
+                    "text": "Consulte las normas oficiales de su aerolínea.",
+                    "koReview": "예약한 항공사의 공식 규정을 확인해 주세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-nine-locales-20261014:es:3",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/es.json",
+                "correctionArtifact": "artifacts/airport-research/facilities-20261014/dmk-nine-locale-batch/sentence-delta.json",
+                "sources": [
+                  "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing verified four departure fields only; no I-D transfer or new airport facts"
+              }
+            ]
+          },
+          {
+            "id": "DMK-DIN-SP",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Restaurante S&P",
+                  "koReview": "(S&P 식당)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "El restaurante S&P del aeropuerto Don Mueang está en la planta 3 de la terminal 1.",
+                    "koReview": "(돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요.)",
+                    "highlights": [
+                      "Planta 3, terminal 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-DINING-SP",
+            "verificationEvidence": "S&P 공식 지점 페이지(snpfood.com) 태국어·영어 카드 원문 — S&P สนามบินดอนเมือง / S&P Don Muang Airport, 제1터미널 3층"
+          },
+          {
+            "id": "DMK-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Cajero automático",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "El localizador oficial de cajeros de KBank incluye una entrada de cajero para el aeropuerto Don Mueang.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 돈므앙공항의 ATM 항목이 등록되어 있어요.)"
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Localizador oficial de cajeros de KBank · Página en tailandés",
+                    "koReview": "KBank 공식 ATM 찾기 · 태국어 페이지"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "DMK-ATM-KBANK",
+            "verificationEvidence": "KASIKORNBANK 공식 KBank Locator — RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), 주소에 돈므앙공항 명시"
+          },
+          {
+            "id": "DMK-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Ubicación de bancos y cajeros",
+                  "koReview": "은행과 ATM 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "En Don Mueang, Bangkok Bank está en la planta 1 de la terminal 1 y KBank en la planta 4 de la zona de salidas nacionales de la terminal 2.",
+                    "koReview": "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+                    "highlights": [
+                      "planta 1",
+                      "planta 4"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Los cajeros SCB están en las plantas 1 y 3 de la terminal 2, y el cajero Krungsri en la planta 3 de la terminal 1.",
+                    "koReview": "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+                    "highlights": [
+                      "SCB",
+                      "Krungsri",
+                      "planta 3"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "El cajero Krungthai está en la zona de salidas de la planta 3 de la terminal 2, y el cajero Government Savings Bank también está en la planta 3 de la terminal 2.",
+                    "koReview": "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요.",
+                    "highlights": [
+                      "Krungthai",
+                      "Government Savings Bank",
+                      "planta 3"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+                  "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+                }
+              ],
+              "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+              "fields": [
+                {
+                  "id": "DMK-BANK-BBL",
+                  "floor": 1,
+                  "terminal": "1",
+                  "kind": "bank"
+                },
+                {
+                  "id": "DMK-BANK-KBANK",
+                  "floor": 4,
+                  "terminal": "2",
+                  "kind": "bank",
+                  "zone": "Domestic departure"
+                },
+                {
+                  "id": "DMK-ATM-SCB",
+                  "floors": [
+                    1,
+                    3
+                  ],
+                  "terminal": "2",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGSRI",
+                  "floor": 3,
+                  "terminal": "1",
+                  "kind": "ATM"
+                },
+                {
+                  "id": "DMK-ATM-KRUNGTHAI",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM",
+                  "zone": "Departure"
+                },
+                {
+                  "id": "DMK-ATM-GSB",
+                  "floor": 3,
+                  "terminal": "2",
+                  "kind": "ATM"
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "¿Dónde está S&P?",
+                  "koReview": "(S&P는 어디에 있나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "En la planta 3 de la terminal 1.",
+                  "koReview": "(제1터미널 3층에 있어요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "¿Dónde puedo consultar los cajeros del aeropuerto Don Mueang?",
+                  "koReview": "(돈므앙공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Puede consultarlos en el localizador oficial de cajeros de KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "da02f8498c45e5a6b2faa6a280d35a1f4860b88c9186428d5ecee4dbaf280c52"
+    }
+  },
+  "sources": [
+    "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK",
+    "https://www.snpfood.com/th/branches",
+    "https://www.snpfood.com/en/branches",
+    "https://mapservice.kasikornbank.com/th/app",
+    "https://mapservice.kasikornbank.com/",
+    "https://donmueang.airportthai.co.th/service/facility/detail/218"
+  ],
+  "scope": [
+    "DMK-DEP-CI",
+    "DMK-DEP-PASS",
+    "DMK-DEP-GATE",
+    "DMK-DEP-CARRY"
+  ],
+  "rawSha256": "ba14a8b6d8ce3245d7a8053407fee3ec1727f909c2ad15b4ea80047c5458114e",
+  "evidence": [
+    {
+      "accessNote": "일반 카운터 / 셀프 체크인·수하물 위탁(CUSS/CUBD) / Sawasdee by AOT 앱 온라인 체크인.",
+      "door": null,
+      "evidence": {
+        "checkedAt": "2026-10-14",
+        "quote": "Regular Check-in Counter; Self Check-in and Baggage Drop Systems; Online Check-in",
+        "url": "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+      },
+      "floor": "3층",
+      "hours": null,
+      "id": "DMK-DEP-CI",
+      "koReview": "(확인됨: 체크인 3층, 일반·셀프·온라인 3가지 방법)",
+      "nameEn": "Departure check-in (3rd floor)",
+      "nameKo": "출발 체크인 (3층)",
+      "paid": null,
+      "phone": null,
+      "status": "verified",
+      "terminal": "T1/T2",
+      "zone": "일반구역"
+    },
+    {
+      "accessNote": "출국 스탬프, 재입국 허가, 오버스테이 처리.",
+      "door": null,
+      "evidence": {
+        "checkedAt": "2026-10-14",
+        "quote": "Passport Control (For International Passengers Only)",
+        "url": "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+      },
+      "floor": null,
+      "hours": null,
+      "id": "DMK-DEP-PASS",
+      "koReview": "(확인됨: 국제선 출국심사 절차)",
+      "nameEn": "Passport control (international)",
+      "nameKo": "출국심사 (국제선)",
+      "paid": null,
+      "phone": null,
+      "status": "verified",
+      "terminal": "T1",
+      "zone": "보안구역"
+    },
+    {
+      "accessNote": "출발 45분 전까지 게이트 도착 권고. 게이트는 전광판·안내데스크에서 확인.",
+      "door": null,
+      "evidence": {
+        "checkedAt": "2026-10-14",
+        "quote": "at least 45 minutes before the scheduled departure time",
+        "url": "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK"
+      },
+      "floor": null,
+      "hours": null,
+      "id": "DMK-DEP-GATE",
+      "koReview": "(확인됨: 출발 45분 전 게이트 도착 권고)",
+      "nameEn": "Boarding gate advisory",
+      "nameKo": "탑승게이트 도착 권고",
+      "paid": null,
+      "phone": null,
+      "status": "verified",
+      "terminal": "T1/T2",
+      "zone": "보안구역"
+    }
+  ],
+  "carryOnCorrectionArtifact": "artifacts/airport-research/facilities-20261014/corrections-r3-r4/DMK-r4-carryon-sync.json",
+  "verifiedDining": [
+    {
+      "id": "DMK-DINING-SP",
+      "airportCode": "DMK",
+      "category": "dining",
+      "nameEn": "S&P Don Muang Airport",
+      "nameTh": "S&P สนามบินดอนเมือง",
+      "terminal": "T1",
+      "floor": "3",
+      "hours": null,
+      "zone": null,
+      "phone": null,
+      "originThreadKey": "AIRPORT-ORCH-01",
+      "sourceRecordId": "DMK-DINING-SP",
+      "verificationEvidence": {
+        "checkedAt": "2026-10-14",
+        "quoteEn": "S&P Don Muang Airport\n222, 3 Fl., Vibhavadi Rangsit Airport Road , Don Muang District Bangkok 10210\n02-635-5566",
+        "quoteTh": "S&P สนามบินดอนเมือง\nอาคารผู้โดยสาร อาคาร 1 ท่าอากาศยานดอนเมือง ชั้นที่ 3 เลขที่ 222 ถ.วิภาวดีรังสิต แขวงสนามบิน เขตดอนเมือง กรุงเทพมหานคร 10210\n02-635-5566",
+        "sourceUrlEn": "https://www.snpfood.com/en/branches",
+        "sourceUrlTh": "https://www.snpfood.com/th/branches"
+      },
+      "checkedAt": "2026-10-14",
+      "status": "verified-location",
+      "phoneReviewStatus": "branch-specific role pending; excluded from reader"
+    }
+  ],
+  "directoryEvidence": {
+    "originThreadKey": "AIRPORT-ORCH-01",
+    "sourceRecordId": "DMK-ATM-KBANK",
+    "verificationEvidence": {
+      "checkedAt": "2026-10-14",
+      "locatorHref": "https://mapservice.kasikornbank.com/",
+      "quoteTh": "บริการ : ฝากเงิน, ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812)\nที่อยู่ : RCM New K Lobby Cash Hub ท่าอากาศยานดอนเมือง (812), ดอนเมือง, กรุงเทพมหานคร\nเวลาทำการ : -\nติดต่อ : -",
+      "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+    },
+    "scope": "공식 ATM 디렉터리 항목으로 한정 — Cash Hub 명칭만으로 일반승객 접근가능·터미널/층/보안구역/24시간 단정 없음"
+  },
+  "directResearchEvidence": {
+    "researcher": "Codex",
+    "originThreadKey": "CODEX-DIRECT-20261014",
+    "sourceRecordId": "DMK-DIRECT-FACILITIES-20261014",
+    "checkedAt": "2026-10-14",
+    "validity": "Official directory at check date; no fixed validity end stated",
+    "sources": [
+      {
+        "url": "https://donmueang.airportthai.co.th/service/facility/detail/218",
+        "quote": "Bangkok Bank: Floor 1, Terminal 1; Kasikorn Bank: Floor 4, Terminal 2, Domestic flight, Departure zone; Siam Commercial Bank ATM: Floor 1 and 3, Terminal 2, Domestic flight; Krungsri ATM: Floor 3, Terminal 1, International flight; Krungthai Bank ATM: Floor 3, Terminal 2, Domestic flight, Departure zone; Government Savings Bank ATM: Floor 3, Terminal 2"
+      }
+    ],
+    "scopeNote": "Bank branch is not ATM. Four ATM entries retain specific terminals/floors. No security-access boundary, hours or phone inferred.",
+    "fields": [
+      {
+        "id": "DMK-BANK-BBL",
+        "floor": 1,
+        "terminal": "1",
+        "kind": "bank"
+      },
+      {
+        "id": "DMK-BANK-KBANK",
+        "floor": 4,
+        "terminal": "2",
+        "kind": "bank",
+        "zone": "Domestic departure"
+      },
+      {
+        "id": "DMK-ATM-SCB",
+        "floors": [
+          1,
+          3
+        ],
+        "terminal": "2",
+        "kind": "ATM"
+      },
+      {
+        "id": "DMK-ATM-KRUNGSRI",
+        "floor": 3,
+        "terminal": "1",
+        "kind": "ATM"
+      },
+      {
+        "id": "DMK-ATM-KRUNGTHAI",
+        "floor": 3,
+        "terminal": "2",
+        "kind": "ATM",
+        "zone": "Departure"
+      },
+      {
+        "id": "DMK-ATM-GSB",
+        "floor": 3,
+        "terminal": "2",
+        "kind": "ATM"
+      }
+    ]
+  }
+}

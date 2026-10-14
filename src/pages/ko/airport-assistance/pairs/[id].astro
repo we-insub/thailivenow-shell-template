@@ -1,0 +1,32 @@
+---
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportImportantText from '../../../../components/AirportImportantText.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import AirportEmail from '../../../../components/AirportEmail.astro';
+import AirportPhone from '../../../../components/AirportPhone.astro';
+import AirportScheduleDates from '../../../../components/AirportScheduleDates.astro';
+import data from '../../../../../public/data/airport-assistance.json';
+import {airportPairs} from '../../../../lib/airport-markets';
+import AirportAssistanceDetail from '../../../../components/AirportAssistanceDetail.astro';
+export function getStaticPaths(){return airportPairs(data).map(pair=>({params:{id:pair.id},props:{pair}}));}
+const {pair}=Astro.props;
+const name=(code:string)=>pair.routes.find((r:any)=>r.originIata===code)?.origin||pair.routes.find((r:any)=>r.destinationIata===code)?.destination||code;
+const carriers=[...new Set(pair.routes.map((r:any)=>r.airlineId))];
+const services=data.services.filter(s=>carriers.includes(s.airlineId)&&[pair.other,pair.thai].some(code=>s.airportIata===code||s.airport?.includes(code)));
+const faq=[
+ {q:`${name(pair.other)}와 ${name(pair.thai)} 사이 항공편은 어떻게 찾나요?`,a:'출국과 귀국 방향을 나눠 편명과 출발일을 확인하세요. 각 편명을 누르면 해당 항공편의 확인된 일정과 공식 조회 링크를 볼 수 있습니다. 시간표 적용 기간이 여행 날짜와 맞는지 함께 확인하세요.'},
+ {q:'공항의 체크인 카운터와 수하물 접수처는 같은 곳인가요?',a:'체크인은 출발 수속, 발권 창구는 항공권 업무, 도착 수하물 창구는 파손·미도착 신고를 받습니다. 아래 항공사별 창구의 역할과 위치를 확인하고, 출발 수속은 당일 공항 전광판의 편명으로 카운터를 확인하세요.'},
+ {q:'지연이나 결항 후 보험 청구는 어디서 시작하나요?',a:'실제 운항 항공사의 확인서 발급 안내와 가입한 보험사의 서류 목록을 확인하세요. 항공권·탑승권·항공사 안내와 지출 영수증을 보관하고 상황에 맞는 상세 안내에서 접수 절차를 확인하세요.'},
+];
+const pageSources=[...new Set([...pair.routes.flatMap((item:any)=>item.sources||[]),...services.flatMap((item:any)=>item.sources||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportAssistanceDetail title={`${name(pair.other)} ↔ ${name(pair.thai)}`} description={`${name(pair.other)}와 ${name(pair.thai)} 사이를 오가는 항공편의 편명과 예정시간을 살펴보세요. 출국·귀국 방향과 운항 날짜를 구분하고, 해당 항공사의 공항 수속 안내로 연결해요.`}>
+{['to-thailand','from-thailand'].map(direction=>{const routes=pair.routes.filter((r:any)=>r.direction===direction);return routes.length>0&&<section><h2>{direction==='to-thailand'?'한국에서 태국으로 출발':'태국에서 한국으로 귀국'}</h2>{routes.map((r:any)=><article><h3><a href={`/ko/airport-assistance/routes/${r.id}/`}>{r.flightNumber||r.airline} · {r.originIata} → {r.destinationIata}</a></h3><p>{r.airline}</p>{r.observedStatusText&&<p>{r.observedStatusText}</p>}{r.observedChange&&<p>{r.observedChange}</p>}{r.schedule&&<p>{r.schedule}</p>}{r.durationMinutes&&<p>{r.durationType==='airborne'?'실제 이륙~착륙 시간':'예정 운항시간'}: {Math.floor(r.durationMinutes/60)}시간 {r.durationMinutes%60}분</p>}{r.durationNote&&<p>{r.durationNote}</p>}<p>확인일 {r.checkedAt}</p><AirportScheduleDates route={r}/></article>)}</section>;})}
+{services.length>0&&<section><h2>이 노선 항공사의 공항 창구</h2>{services.map(s=><article><h3>{s.airportIata?name(s.airportIata):s.airport} · {s.airline} · {s.type}</h3>{s.location&&<p><AirportImportantText text={s.location} phrases={s.location.length<=70?[s.location]:[]} locale={"ko"}/></p>}{s.phone&&<AirportPhone phone={s.phone} />}{s.email&&<AirportEmail email={s.email} />}{s.hours&&<p><AirportImportantText text={s.hours} phrases={s.hours.length<=70?[s.hours]:[]} locale={"ko"}/></p>}{s.text&&<p>{s.text}</p>}{s.checkedAt&&<p>자료 확인일: {s.checkedAt}</p>}<a href={`/ko/airport-assistance/airlines/${s.airlineId}/`}>항공사 상세 →</a><AirportSourceReferences sources={s.sources||[]} pageSources={pageSources} locale={"ko"}/></article>)}</section>}
+{pair.routes.some((r:any)=>r.flightStatusUrl)&&<section><h2>공식 당일 운항 조회</h2>{Array.from(new Map(pair.routes.filter((r:any)=>r.flightStatusUrl).map((r:any)=>[r.airlineId,r])).values()).map((r:any)=><p><a href={r.flightStatusUrl} target="_blank" rel="noopener noreferrer">{r.airline} 당일 운항 상황 확인 ↗</a></p>)}</section>}
+<section><h2>당일 운항과 공항 안내</h2><p>시간표는 당일 지연·결항 상태를 뜻하지 않습니다. 항공권의 실제 운항사와 출발일·편명으로 공식 조회를 다시 확인하세요.</p><div class="links">{[pair.other,pair.thai].map(code=><a href={`/ko/airport-assistance/airports/${code.toLowerCase()}/`}>{name(code)} →</a>)}</div><AirportSourceReferences sources={pair.routes.flatMap((r:any)=>r.sources||[])||[]} pageSources={pageSources} locale={"ko"}/></section>
+<section><h2>지연·결항·수하물 사고가 생겼다면</h2><div class="links">{data.guides.filter((g:any)=>(!g.airportIata||[pair.other,pair.thai].includes(g.airportIata))&&(!g.airlineIds||pair.routes.some((r:any)=>g.airlineIds.includes(r.airlineId)))).map(g=><a href={`/ko/airport-assistance/guides/${g.id}/`}>{g.title} →</a>)}</div></section>
+<section><h2>이 공항쌍을 이용할 때 자주 묻는 질문</h2>{faq.map(item=><details><summary>{item.q}</summary><p>{item.a}</p></details>)}</section>
+<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(item=>({'@type':'Question',name:item.q,acceptedAnswer:{'@type':'Answer',text:item.a}}))}).replaceAll('<','\\u003c')}/>
+<AirportSources locale={"ko"} sources={pageSources} checkedAt={undefined}/>
+</AirportAssistanceDetail>

@@ -1,0 +1,11 @@
+---
+import DetailHeader from './DetailHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import CameraActions from './CameraActions.astro';
+import {locales} from '../i18n/locales';
+import {cameras} from '../data/cameras';
+import {getUI,cameraTitle,cameraStatus,previewLabel,sourceText} from '../i18n/ui';
+const {locale='ko'}=Astro.props;
+const ui=getUI(locale),active=locales.find(v=>v.code===locale)!,ko=locale==='ko';
+---
+<!doctype html><html lang={active.tag} data-locale={locale}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><link rel="icon" href="/favicon.svg"/><title>{ko?'카메라 비교':'Camera comparison'} | ThaiLiveNow</title></head><body><DetailHeader locale={locale} home/><main class="content-container"><header class="page-heading"><nav class="breadcrumbs"><a href={`/${locale}/saved/`}>{ko?'저장한 카메라':'Saved cameras'}</a> › {ko?'카메라 비교':'Camera comparison'}</nav><h1>{ko?'카메라 비교':'Camera comparison'}</h1><p>{ko?'최대 4개 카메라의 풍경·원본·촬영 위치 안내를 함께 비교하세요.':'Compare the views, sources and location notes of up to four cameras.'}</p></header><p id="comparison-empty">{ko?'목록이나 상세페이지에서 비교에 추가를 눌러주세요.':'Select Add to compare in the directory or camera details.'}</p><div class="comparison-grid">{cameras.map(camera=><article class="comparison-card" data-comparison-card={camera.id} hidden><div class="thumbnail"><img src={camera.preview?.url} alt={cameraTitle(camera,locale)} loading="lazy" referrerpolicy="no-referrer"/></div><div class="tile-copy"><h2>{cameraTitle(camera,locale)}</h2><p>{locale==='ko'?camera.description:ui.cameraIntro}</p><p>{cameraStatus(camera,locale)}</p><p>{locale==='ko'?camera.locationNote:ui.locationNote}</p><a href={camera.sourceUrl} target="_blank" rel="noopener noreferrer">{sourceText(camera.sourceName,locale)} ↗</a><CameraActions id={camera.id} locale={locale}/><a class="secondary-link" href={`/${locale}/cameras/${camera.id}/`}>{ui.details} →</a></div></article>)}</div></main><SiteFooter locale={locale}/></body></html>

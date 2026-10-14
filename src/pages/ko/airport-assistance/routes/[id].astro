@@ -1,0 +1,37 @@
+---
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import {routeSEOSuffix} from '../../../../lib/route-seo';
+import AirportScheduleDates from '../../../../components/AirportScheduleDates.astro';
+import AirportRouteTerminals from '../../../../components/AirportRouteTerminals.astro';
+import {airportPairId} from '../../../../lib/airport-markets';
+import data from '../../../../../public/data/airport-assistance.json';
+import AirportAssistanceDetail from '../../../../components/AirportAssistanceDetail.astro';
+export function getStaticPaths(){return data.routes.map(route=>({params:{id:route.id},props:{route}}));}
+const {route:r}=Astro.props;
+const returnRoutes=data.routes.filter(x=>x.airlineId===r.airlineId&&x.originIata===r.destinationIata&&x.destinationIata===r.originIata);
+const fromThailand=r.direction==='from-thailand';
+const flightLabel=r.flightNumber||r.airline;
+const routeFaq=[
+ {q:`${flightLabel}의 출발 시간과 지연 여부는 어디서 확인하나요?`,a:`${r.origin}에서 ${r.destination}으로 가는 항공권의 출발 날짜와 편명을 확인한 뒤, 항공사 공식 운항 조회에서 같은 날짜의 결과를 확인하세요. 이 페이지의 예정 운항시간은 시간표 기준이며 실제 지연 시간이나 이륙부터 착륙까지 걸린 시간과 다릅니다.`},
+ {q:`${flightLabel} 체크인 카운터는 어디서 찾나요?`,a:`${r.origin} 공항 전광판에서 출발 날짜와 편명을 찾아 터미널·체크인 카운터를 확인하세요. 아래 공항별 안내와 ${r.airline} 상세에서 확인된 위치와 시간을 볼 수 있습니다. 카운터 위치는 시즌별로 바뀔 수 있으니 해당 항공사에서 확인 바랍니다.`},
+ {q:`${flightLabel} 지연·결항 확인서를 보험사에 제출하려면 어떻게 하나요?`,a:`${r.airline} 상세에서 확인서 발급 방법을 확인하고 항공권, 탑승권, 지연·결항 안내와 접수 기록을 보관하세요. 필요한 서류와 보장 조건은 가입한 보험 상품에 따라 달라지므로 보험사에 해당 편명과 날짜를 알려 확인하세요.`},
+];
+const pageSources=[...new Set(r.sources||[])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportAssistanceDetail title={`${r.origin} → ${r.destination} · ${r.flightNumber || r.airline}${routeSEOSuffix(r)}`} description={`${r.origin}에서 ${r.destination}으로 가는 ${r.airline} 항공편${r.flightNumber?` ${r.flightNumber}`:""}의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간${routeSEOSuffix(r)}을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.`}>
+{r.observedStatusText&&<p>{r.observedStatusText}</p>}{r.observedChange&&<p>{r.observedChange}</p>}
+<AirportRouteTerminals route={r}/>
+<p><a href={`/ko/airport-assistance/pairs/${airportPairId(r)}/`}>이 공항쌍의 양방향 편명·항공사 보기 →</a></p>
+<section><h2>공식 노선 안내</h2><p>{r.status}</p>{r.durationMinutes&&<p>{r.durationType==='airborne'?'실제 이륙~착륙 시간':'예정 운항시간'}: {Math.floor(r.durationMinutes/60)}시간 {r.durationMinutes%60}분</p>}{r.durationNote&&<p>{r.durationNote}</p>}{r.flightNumber && <p>편명: {r.flightNumber}</p>}{r.marketingNotice&&<p>{r.marketingNotice}</p>}{r.schedule&&<p>{r.schedule}</p>}<p>자료 확인일: {r.checkedAt}</p><AirportScheduleDates route={r}/><AirportSourceReferences sources={r.sources||[]} pageSources={pageSources} locale={"ko"}/></section>
+{r.flightStatusUrl&&<section><h2>당일 운항 상황 확인</h2><p>예약편의 출발 날짜와 실제 운항사·편명으로 조회하세요. 예정 시간표와 당일 지연·결항 상태는 구분해서 확인할 수 있습니다.</p><a href={r.flightStatusUrl} target="_blank" rel="noopener noreferrer">{r.airline} 공식 당일 운항 조회 ↗</a></section>}
+<section><h2>{fromThailand?'태국에서 돌아오는 날':'태국으로 출발하는 날'}</h2><p>출발공항: {r.origin}<br/>도착공항: {r.destination}</p><p>항공권의 날짜·실제 운항사·편명으로 항공사 운항 정보를 확인하세요. 공항 전광판에서 날짜별 체크인 터미널·카운터와 마감 시각을 함께 확인하세요.</p></section>
+{fromThailand&&<section><h2>이 태국 출발편의 지연·결항 권리</h2><p>태국에서 출발하는 정기 국제선에는 실제 운항사가 태국 항공사인지 외국 항공사인지와 관계없이 CAAT 승객 보호 규정의 적용 조건을 확인할 수 있습니다.</p><a href="/ko/airport-assistance/guides/caat-passenger-rights/">지원·보상 기준과 CAAT 공식 신고 방법 →</a></section>}
+{returnRoutes.length>0&&<section><h2>반대 방향 항공편</h2><p>출국편과 귀국편은 별도 편명입니다. 여행 날짜에 맞는 운항표를 확인하세요.</p><div class="links">{returnRoutes.map(x=><div><a href={`/ko/airport-assistance/routes/${x.id}/`}>{x.originIata} → {x.destinationIata} {x.flightNumber || x.airline}</a><AirportScheduleDates route={x} compact/></div>)}</div></section>}
+<section><h2>항공사 카운터·지연·결항 확인서</h2><a href={`/ko/airport-assistance/airlines/${r.airlineId}/`}>{r.airline} 상세 안내 →</a><div class="links">{[r.originIata,r.destinationIata].map(code=><a href={`/ko/airport-assistance/airports/${code.toLowerCase()}/`}>{code} 카운터 보기 →</a>)}</div></section>
+<section><h2>지연·결항 안내를 받았다면</h2><ol><li>항공권에 표시된 실제 운항사와 편명을 확인하세요.</li><li>항공사에 새 출발 시각과 대체편·변경·환불 접수처를 확인하세요.</li><li>지연·결항 안내문과 접수 기록을 보관하세요.</li><li>위탁수하물 처리와 확인서 발급 방법을 각각 확인하세요.</li></ol><p>보험 제출 서류와 지급 기준은 가입한 상품의 약관·보험사 안내를 확인하세요. 아래 항공사 상세와 상황별 안내에서 접수처와 확인서 발급 방법을 확인하세요.</p></section>
+<section><h2>상황별 대응 안내</h2><div class="links">{data.guides.filter((g:any)=>(!g.airportIata||[r.originIata,r.destinationIata].includes(g.airportIata))&&(!g.airlineIds||g.airlineIds.includes(r.airlineId))).map(g=><a href={`/ko/airport-assistance/guides/${g.id}/`}>{g.title} →</a>)}</div></section>
+<section><h2>이 항공편을 이용할 때 자주 묻는 질문</h2>{routeFaq.map(item=><details><summary>{item.q}</summary><p>{item.a}</p></details>)}</section>
+<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:routeFaq.map(item=>({'@type':'Question',name:item.q,acceptedAnswer:{'@type':'Answer',text:item.a}}))}).replaceAll('<','\u003c')}/>
+<AirportSources locale={"ko"} sources={pageSources} checkedAt={r.checkedAt}/>
+</AirportAssistanceDetail>

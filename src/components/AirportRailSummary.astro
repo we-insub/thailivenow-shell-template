@@ -1,0 +1,25 @@
+---
+import rail from '../data/transport/airport-guides/airport-rail-link.json';
+import AirportRailAccessMap from './AirportRailAccessMap.astro';
+const { filterByLine = false, showMap = false } = Astro.props;
+const fareTable = rail.sections.find(s => s.id === 'rail')!.table!;
+const stations = rail.sections.find(s => s.id === 'stations');
+---
+<section id="airport-rail-guide" data-rail-guide-lines={filterByLine ? 'arl' : undefined} data-rail-guide-section={filterByLine ? 'arl' : undefined}>
+  <h2>수완나폼 공항철도 (Airport Rail Link) 이용 안내</h2>
+  <p>메인 터미널 <strong>지하 1층(B1)</strong>에서 타요. 도착장에서는 Airport Rail Link 표지판을 따라 내려가세요. 시내 방향 종착역은 <strong>Phaya Thai(파야타이)</strong>예요.</p>
+  <dl class="rail-facts"><dt>운행 시간</dt><dd>매일 05:30–24:00 · 역별 마지막 출발시각은 당일 안내 확인</dd><dt>요금</dt><dd>거리별 15–45바트 · 파야타이까지 45바트</dd><dt>시내까지</dt><dd>파야타이까지 열차 이동 약 26–30분 · 대기·환승·도보는 별도</dd></dl>
+  <h3>공항에서 타는 순서</h3>
+  <ol><li>입국·수하물 수령 후 메인 터미널 B1 공항철도역으로 내려가요.</li><li>숙소 위치에 맞춰 마카산·라차쁘라롭·파야타이 중 하차역을 고르고, 발매기 또는 매표소에서 승차권을 구매해요. 결제수단은 현장 기기 안내를 확인하세요.</li><li>Phaya Thai 방면 열차를 타고 목적지 역에서 내려요.</li><li>MRT·BTS로 갈아탈 때는 ARL 개찰구를 나온 뒤 해당 운영사의 승차권이나 지원 결제수단을 이용해요. 환승 운임은 별도예요.</li></ol>
+  <div class="arl-table"><table><thead><tr>{fareTable.headers.map(h => <th scope="col">{h}</th>)}</tr></thead><tbody>{fareTable.rows.map(row => <tr>{row.map(cell => <td>{cell}</td>)}</tr>)}</tbody></table></div>
+  <h3>정차역과 환승</h3>
+  <p>Suvarnabhumi → Lat Krabang → Ban Thap Chang → Hua Mak → Ramkhamhaeng → Makkasan → Ratchaprarop → Phaya Thai</p>
+  <p><strong>마카산:</strong> 연결 통로로 MRT Phetchaburi(펫차부리)역에 걸어가 블루라인으로 환승해요. <strong>파야타이:</strong> BTS 수쿰윗선으로 갈아탈 수 있어요. 라차쁘라롭은 쁘라뚜남 지역 숙소로 이동할 때 비교해 보세요.</p>
+  <p>밤늦게 도착하면 입국 심사·수하물 수령 후 열차 이용이 가능한지 먼저 확인하세요. 운행이 끝났다면 공항 택시나 차량 호출을 비교하세요.</p>
+  {showMap && <AirportRailAccessMap />}
+  <div class="arl-links"><a href="/ko/transport/airports/airport-rail-link/">공항철도·환승 상세 안내 →</a><a href="/ko/transport/airports/suvarnabhumi-to-bangkok/">공항에서 방콕 시내 이동 비교 →</a><a href="/ko/transport/bangkok/?line=arl">지도에서 공항철도 8개 역 보기 →</a></div>
+  <p class="arl-source">출처: <a href="https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK" target="_blank" rel="noopener noreferrer">AOT 공항 교통 안내</a> · <a href="https://qa.thailand.go.th/issue-focus-detail/001_01_107-2" target="_blank" rel="noopener noreferrer">태국 정부 ARL 역·요금 안내</a></p>
+</section>
+<style>
+.rail-facts{display:grid;grid-template-columns:95px 1fr;gap:10px;padding:16px;background:#eef4f5;border-radius:10px;font-size:14px}.rail-facts dt{font-weight:700}.rail-facts dd{margin:0}.arl-table{overflow:auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:12px;border:1px solid #e4eaee;text-align:left}.arl-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:18px}a{color:#2e7c89}.arl-source{font-size:12px;color:#61717e}section[hidden]{display:none!important}@media(max-width:600px){.rail-facts{grid-template-columns:75px 1fr}th,td{min-width:130px}}
+</style>

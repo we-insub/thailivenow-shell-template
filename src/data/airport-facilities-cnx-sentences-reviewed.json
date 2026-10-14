@@ -1,0 +1,3343 @@
+{
+  "checkedAt": "2026-10-14",
+  "locales": {
+    "en": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "What are the airport operating hours?",
+              "sentences": [
+                {
+                  "text": "What are the airport operating hours?",
+                  "koReview": "(공항 운영 시간은 어떻게 되나요?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "The passenger terminal is officially open 06:00–24:00. The Grab service center is listed as 24 hours.",
+              "sentences": [
+                {
+                  "text": "The passenger terminal is officially open 06:00–24:00.",
+                  "koReview": "(여객터미널 공식 운영 시간은 06:00–24:00입니다."
+                },
+                {
+                  "text": " The Grab service center is listed as 24 hours.",
+                  "koReview": " Grab 서비스센터는 24시간으로 안내되어 있습니다.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "text": "Which number should I call for airport inquiries?",
+              "sentences": [
+                {
+                  "text": "Which number should I call for airport inquiries?",
+                  "koReview": "(공항 문의는 어디로 하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "Call the airport at +66-5-392-2000, or the AOT Call Center at 1722.",
+              "sentences": [
+                {
+                  "text": "Call the airport at +66-5-392-2000, or the AOT Call Center at 1722.",
+                  "koReview": "(공항 대표 +66-5-392-2000 또는 AOT 콜센터 1722로 문의하세요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "text": "How do I get to the city after an international arrival?",
+              "sentences": [
+                {
+                  "text": "How do I get to the city after an international arrival?",
+                  "koReview": "(국제선 도착 후 시내로 이동하는 방법은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "Take the airport shuttle bus from Door 12 of the International Terminal: lines A1/A2 cost 40 THB, line A3 costs 60 THB.",
+              "sentences": [
+                {
+                  "text": "Take the airport shuttle bus from Door 12 of the International Terminal:",
+                  "koReview": "(국제선 터미널 12번 문의 공항 셔틀버스를 타세요."
+                },
+                {
+                  "text": " lines A1/A2 cost 40 THB, line A3 costs 60 THB.",
+                  "koReview": " A1/A2는 40바트, A3은 60바트입니다.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "text": "Where do I board a Grab car?",
+              "sentences": [
+                {
+                  "text": "Where do I board a Grab car?",
+                  "koReview": "(Grab은 어디서 타나요?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "You can request a ride anywhere in the airport, but you must board at the designated pick-up points. For help, visit the Grab Service Center on Floor 1 of the Domestic Terminal (24 hours, 02-0212530).",
+              "sentences": [
+                {
+                  "text": "You can request a ride anywhere in the airport, but you must board at the designated pick-up points.",
+                  "koReview": "(공항 어디서든 호출할 수 있지만 지정 픽업 지점에서만 탑승해야 합니다."
+                },
+                {
+                  "text": " For help, visit the Grab Service Center on Floor 1 of the Domestic Terminal (24 hours, 02-0212530).",
+                  "koReview": " 국내선 터미널 1층 Grab 서비스센터(24시간, 02-0212530)에 문의하세요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Chiang Mai Airport?",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "Chiang Mai International Airport has two passenger terminal buildings: one for domestic flights and one for international flights, with a total area of 31,301 sqm.",
+                "sentences": [
+                  {
+                    "text": "Chiang Mai International Airport has two passenger terminal buildings: one for domestic flights and one for international flights, with a total area of 31,301 sqm.",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 여객터미널 2개 동으로 이루어져 있으며 총 면적은 31,301㎡입니다.)"
+                  }
+                ]
+              },
+              {
+                "text": "Official service hours are 06:00–24:00. The airport contact number is +66-5-392-2000, and the AOT Call Center is 1722.",
+                "sentences": [
+                  {
+                    "text": "Official service hours are 06:00–24:00.",
+                    "koReview": "(공식 서비스 시간은 06:00–24:00입니다."
+                  },
+                  {
+                    "text": " The airport contact number is +66-5-392-2000, and the AOT Call Center is 1722.",
+                    "koReview": " 공항 연락처는 +66-5-392-2000, AOT 콜센터는 1722입니다.)"
+                  }
+                ]
+              }
+            ],
+            "ko": "ko-sec-1",
+            "title": {
+              "text": "Overview",
+              "sentences": [
+                {
+                  "text": "Overview",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "After landing, follow the signs to your terminal's arrival hall.",
+                "sentences": [
+                  {
+                    "text": "After landing, follow the signs to your terminal's arrival hall.",
+                    "koReview": "(착륙 후 표지판을 따라 해당 터미널 도착홀로 이동하세요.)"
+                  }
+                ]
+              },
+              {
+                "text": "To reach the city, use the airport shuttle bus at Door 12 of the International Terminal: A1 (40 THB) runs via Nimmanhaemin, Huay Kaew and the old-city moat; A2 (40 THB) runs via Mahidol Road, the Night Bazaar and the Chang Klan hotel area; A3 (60 THB) runs via Ring Road 2 to the 700th Anniversary Stadium.",
+                "sentences": [
+                  {
+                    "text": "To reach the city, use the airport shuttle bus at Door 12 of the International Terminal:",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문의 공항 셔틀버스를 이용하세요."
+                  },
+                  {
+                    "text": " A1 (40 THB) runs via Nimmanhaemin, Huay Kaew and the old-city moat; A2 (40 THB) runs via Mahidol Road, the Night Bazaar and the Chang Klan hotel area; A3 (60 THB) runs via Ring Road 2 to the 700th Anniversary Stadium.",
+                    "koReview": " A1(40바트)은 님만해민·후아이깨우·구시가지 해자 경유, A2(40바트)는 마히돈·나이트바자·창클란 호텔가 경유, A3(60바트)은 2번 순환도로 경유 700주년 경기장 방면입니다.)"
+                  }
+                ]
+              },
+              {
+                "text": "The Chiang Mai City Bus (RTC R3 red/yellow loops) costs 30 THB per trip (official detail page); hours are unclear on the official page — verify before travel.",
+                "sentences": [
+                  {
+                    "text": "The Chiang Mai City Bus (RTC R3 red/yellow loops) costs 30 THB per trip (official detail page);",
+                    "koReview": "(치앙마이 시티버스(RTC R3 빨강·노랑)는 1회 30바트(공식 세부 페이지)."
+                  },
+                  {
+                    "text": " hours are unclear on the official page — verify before travel.",
+                    "koReview": " 운행 시간은 공식 페이지 표기가 모호해 출발 전 확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "For Grab (Grab Taxi, Grab Car, Just Grab), request a ride in the app and board only at the designated pick-up points. The Grab Service Center is on Floor 1 of the Domestic Terminal, public area, open 24 hours, phone 02-0212530.",
+                "sentences": [
+                  {
+                    "text": "For Grab (Grab Taxi, Grab Car, Just Grab), request a ride in the app and board only at the designated pick-up points.",
+                    "koReview": "(Grab(Grab Taxi·Grab Car·Just Grab)은 앱에서 호출하고 지정 픽업 지점에서만 탑승하세요."
+                  },
+                  {
+                    "text": " The Grab Service Center is on Floor 1 of the Domestic Terminal, public area, open 24 hours, phone 02-0212530.",
+                    "koReview": " Grab 서비스센터는 국내선 터미널 1층 일반구역, 24시간, 전화 02-0212530입니다.)"
+                  }
+                ]
+              },
+              {
+                "text": "Car rental counters are on the first floor of the airport.",
+                "sentences": [
+                  {
+                    "text": "Car rental counters are on the first floor of the airport.",
+                    "koReview": "(렌터카 카운터는 공항 1층에 있습니다.)"
+                  }
+                ]
+              }
+            ],
+            "ko": "ko-sec-2",
+            "title": {
+              "text": "Arrivals — from the gate to the city",
+              "sentences": [
+                {
+                  "text": "Arrivals — from the gate to the city",
+                  "koReview": "(도착 — 게이트에서 시내까지)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Self check-in (CUSS) machines are available in the Domestic Terminal in front of the Thai VietJet counters (3), the Bangkok Airways office (7), Amazon Café (8) and Wawee Coffee (3), and in the International Terminal near Gates 8–9 (9).",
+                "sentences": [
+                  {
+                    "text": "Self check-in (CUSS) machines are available in the Domestic Terminal in front of the Thai VietJet counters (3), the Bangkok Airways office (7), Amazon Café (8) and Wawee Coffee (3), and in the International Terminal near Gates 8–9 (9).",
+                    "koReview": "(셀프 체크인(CUSS) 기기는 국내선 터미널의 타이 비엣젯 카운터 앞(3대)·방콕항공 사무실 앞(7대)·Amazon Café 근처(8대)·Wawee Coffee 근처(3대), 국제선 터미널 8–9번 게이트 근처(9대)에 있습니다.)"
+                  }
+                ]
+              },
+              {
+                "text": "Self bag drop (CUBD) machines are in the Domestic Terminal in front of the Thai VietJet counters (3) and near Wawee Coffee (3), and in the International Terminal near Gates 8–9 (4).",
+                "sentences": [
+                  {
+                    "text": "Self bag drop (CUBD) machines are in the Domestic Terminal in front of the Thai VietJet counters (3) and near Wawee Coffee (3), and in the International Terminal near Gates 8–9 (4).",
+                    "koReview": "(셀프 수하물 위탁(CUBD) 기기는 국내선 터미널의 타이 비엣젯 카운터 앞(3대)·Wawee Coffee 근처(3대), 국제선 터미널 8–9번 게이트 근처(4대)에 있습니다.)"
+                  }
+                ]
+              },
+              {
+                "text": "Self check-in is supported by Thai Airways, Thai Lion Air, Bangkok Airways, Thai AirAsia, Thai VietJet, AirAsia, Starlux and Cebu Pacific. Self bag drop is supported by Bangkok Airways, AirAsia and Thai AirAsia; other airlines are still preparing the service.",
+                "sentences": [
+                  {
+                    "text": "Self check-in is supported by Thai Airways, Thai Lion Air, Bangkok Airways, Thai AirAsia, Thai VietJet, AirAsia, Starlux and Cebu Pacific.",
+                    "koReview": "(셀프 체크인은 타이항공·타이 라이언·방콕항공·타이 에어아시아·타이 비엣젯·에어아시아·스타룩스·세부퍼시픽이 지원하고, 셀프 수하물 위탁은 방콕항공·에어아시아·타이 에어아시아가 지원합니다."
+                  },
+                  {
+                    "text": " Self bag drop is supported by Bangkok Airways, AirAsia and Thai AirAsia; other airlines are still preparing the service.",
+                    "koReview": " 그 외 항공사는 준비 중입니다.)"
+                  }
+                ]
+              }
+            ],
+            "ko": "ko-sec-3",
+            "title": {
+              "text": "Departures — check-in and bag drop",
+              "sentences": [
+                {
+                  "text": "Departures — check-in and bag drop",
+                  "koReview": "(출발 — 체크인과 수하물 위탁)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for Chiang Mai Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai page",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Convenience store location",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Chiang Mai Airport’s Mini Market is in the public arrivals area on Level 1 of the domestic terminal.",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+          "sentences": [
+            {
+              "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        },
+        "title_ko": "ko-title"
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(여객터미널 공식 운영 시간은 06:00–24:00입니다. Grab 서비스센터는 24시간으로 안내되어 있습니다.)",
+            "q": "(공항 운영 시간은 어떻게 되나요?)"
+          },
+          {
+            "a": "(공항 대표 +66-5-392-2000 또는 AOT 콜센터 1722로 문의하세요.)",
+            "q": "(공항 문의는 어디로 하나요?)"
+          },
+          {
+            "a": "(국제선 터미널 12번 문의 공항 셔틀버스를 타세요. A1/A2는 40바트, A3은 60바트입니다.)",
+            "q": "(국제선 도착 후 시내로 이동하는 방법은?)"
+          },
+          {
+            "a": "(공항 어디서든 호출할 수 있지만 지정 픽업 지점에서만 탑승해야 합니다. 국내선 터미널 1층 Grab 서비스센터(24시간, 02-0212530)에 문의하세요.)",
+            "q": "(Grab은 어디서 타나요?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 여객터미널 2개 동으로 이루어져 있으며 총 면적은 31,301㎡입니다.)",
+              "(공식 서비스 시간은 06:00–24:00입니다. 공항 연락처는 +66-5-392-2000, AOT 콜센터는 1722입니다.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(착륙 후 표지판을 따라 해당 터미널 도착홀로 이동하세요.)",
+              "(시내 이동은 국제선 터미널 12번 문의 공항 셔틀버스를 이용하세요. A1(40바트)은 님만해민·후아이깨우·구시가지 해자 경유, A2(40바트)는 마히돈·나이트바자·창클란 호텔가 경유, A3(60바트)은 2번 순환도로 경유 700주년 경기장 방면입니다.)",
+              "(치앙마이 시티버스(RTC R3 빨강·노랑)는 1회 30바트(공식 세부 페이지). 운행 시간은 공식 페이지 표기가 모호해 출발 전 확인.)",
+              "(Grab(Grab Taxi·Grab Car·Just Grab)은 앱에서 호출하고 지정 픽업 지점에서만 탑승하세요. Grab 서비스센터는 국내선 터미널 1층 일반구역, 24시간, 전화 02-0212530입니다.)",
+              "(렌터카 카운터는 공항 1층에 있습니다.)"
+            ],
+            "title": "(도착 — 게이트에서 시내까지)"
+          },
+          {
+            "body": [
+              "(셀프 체크인(CUSS) 기기는 국내선 터미널의 타이 비엣젯 카운터 앞(3대)·방콕항공 사무실 앞(7대)·Amazon Café 근처(8대)·Wawee Coffee 근처(3대), 국제선 터미널 8–9번 게이트 근처(9대)에 있습니다.)",
+              "(셀프 수하물 위탁(CUBD) 기기는 국내선 터미널의 타이 비엣젯 카운터 앞(3대)·Wawee Coffee 근처(3대), 국제선 터미널 8–9번 게이트 근처(4대)에 있습니다.)",
+              "(셀프 체크인은 타이항공·타이 라이언·방콕항공·타이 에어아시아·타이 비엣젯·에어아시아·스타룩스·세부퍼시픽이 지원하고, 셀프 수하물 위탁은 방콕항공·에어아시아·타이 에어아시아가 지원합니다. 그 외 항공사는 준비 중입니다.)"
+            ],
+            "title": "(출발 — 체크인과 수하물 위탁)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "en"
+    },
+    "en-gb": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "What are the airport opening hours?",
+              "sentences": [
+                {
+                  "text": "What are the airport opening hours?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "The passenger terminal is officially open 06:00–24:00. The Grab service centre is listed as 24 hours.",
+              "sentences": [
+                {
+                  "text": "The passenger terminal is officially open 06:00–24:00.",
+                  "koReview": "(여객터미널 공식 운영 시간은 06:00–24:00입니다."
+                },
+                {
+                  "text": " The Grab service centre is listed as 24 hours.",
+                  "koReview": " Grab 서비스센터는 24시간으로 안내되어 있습니다.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "text": "Which number should I ring for airport enquiries?",
+              "sentences": [
+                {
+                  "text": "Which number should I ring for airport enquiries?",
+                  "koReview": "(공항 문의 전화번호는?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "Call the airport on +66-5-392-2000, or the AOT Call Centre on 1722.",
+              "sentences": [
+                {
+                  "text": "Call the airport on +66-5-392-2000, or the AOT Call Centre on 1722.",
+                  "koReview": "(공항 대표 +66-5-392-2000 또는 AOT 콜센터 1722로 문의하세요.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Chiang Mai Airport?",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "Chiang Mai International Airport has two passenger terminal buildings — domestic and international — with a total area of 31,301 sqm.",
+                "sentences": [
+                  {
+                    "text": "Chiang Mai International Airport has two passenger terminal buildings — domestic and international — with a total area of 31,301 sqm.",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 여객터미널 2개 동, 총 31,301㎡입니다.)"
+                  }
+                ]
+              },
+              {
+                "text": "Official service hours are 06:00–24:00. The airport contact number is +66-5-392-2000, and the AOT Call Centre is 1722.",
+                "sentences": [
+                  {
+                    "text": "Official service hours are 06:00–24:00.",
+                    "koReview": "(공식 서비스 시간은 06:00–24:00,"
+                  },
+                  {
+                    "text": " The airport contact number is +66-5-392-2000, and the AOT Call Centre is 1722.",
+                    "koReview": " 공항 연락처 +66-5-392-2000, AOT 콜센터 1722입니다.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Overview",
+              "sentences": [
+                {
+                  "text": "Overview",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "To reach the city, use the airport shuttle bus at Door 12 of the International Terminal: A1 (40 THB) via Nimmanhaemin, Huay Kaew and the old-city moat; A2 (40 THB) via Mahidol Road, the Night Bazaar and Chang Klan; A3 (60 THB) via Ring Road 2 to the 700th Anniversary Stadium.",
+                "sentences": [
+                  {
+                    "text": "To reach the city, use the airport shuttle bus at Door 12 of the International Terminal:",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문의 셔틀버스를 이용하세요."
+                  },
+                  {
+                    "text": " A1 (40 THB) via Nimmanhaemin, Huay Kaew and the old-city moat; A2 (40 THB) via Mahidol Road, the Night Bazaar and Chang Klan; A3 (60 THB) via Ring Road 2 to the 700th Anniversary Stadium.",
+                    "koReview": " A1(40바트) 님만해민·후아이깨우·구시가지 해자, A2(40바트) 마히돈·나이트바자·창클란, A3(60바트) 2번 순환도로·700주년 경기장.)"
+                  }
+                ]
+              },
+              {
+                "text": "The City Bus (RTC R3 red/yellow loops) costs 30 THB per trip (official detail page); hours are unclear on the official page — verify before travel.",
+                "sentences": [
+                  {
+                    "text": "The City Bus (RTC R3 red/yellow loops) costs 30 THB per trip (official detail page);",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑)는 1회 30바트."
+                  },
+                  {
+                    "text": " hours are unclear on the official page — verify before travel.",
+                    "koReview": " 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "For Grab (Grab Taxi, Grab Car, Just Grab), request in the app and board only at the designated pick-up points. The Grab Service Centre is on Floor 1 of the Domestic Terminal, public area, 24 hours, 02-0212530.",
+                "sentences": [
+                  {
+                    "text": "For Grab (Grab Taxi, Grab Car, Just Grab), request in the app and board only at the designated pick-up points.",
+                    "koReview": "(Grab은 앱 호출 후 지정 픽업 지점에서만 탑승."
+                  },
+                  {
+                    "text": " The Grab Service Centre is on Floor 1 of the Domestic Terminal, public area, 24 hours, 02-0212530.",
+                    "koReview": " Grab 서비스센터는 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "Car hire counters are on the first floor.",
+                "sentences": [
+                  {
+                    "text": "Car hire counters are on the first floor.",
+                    "koReview": "(렌터카 카운터는 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Arrivals",
+              "sentences": [
+                {
+                  "text": "Arrivals",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Self check-in (CUSS): Domestic Terminal — Thai VietJet counters (3), Bangkok Airways office (7), Amazon Café (8), Wawee Coffee (3); International Terminal — near Gates 8–9 (9).",
+                "sentences": [
+                  {
+                    "text": "Self check-in (CUSS): Domestic Terminal — Thai VietJet counters (3), Bangkok Airways office (7), Amazon Café (8), Wawee Coffee (3); International Terminal — near Gates 8–9 (9).",
+                    "koReview": "(셀프 체크인: 국내선 — 타이 비엣젯 카운터 앞 3대·방콕항공 사무실 앞 7대·Amazon Café 근처 8대·Wawee Coffee 근처 3대, 국제선 — 8–9번 게이트 근처 9대.)"
+                  }
+                ]
+              },
+              {
+                "text": "Self bag drop (CUBD): Domestic Terminal — Thai VietJet counters (3), Wawee Coffee (3); International Terminal — near Gates 8–9 (4).",
+                "sentences": [
+                  {
+                    "text": "Self bag drop (CUBD): Domestic Terminal — Thai VietJet counters (3), Wawee Coffee (3); International Terminal — near Gates 8–9 (4).",
+                    "koReview": "(셀프 수하물 위탁: 국내선 — 타이 비엣젯 카운터 앞 3대·Wawee Coffee 근처 3대, 국제선 — 8–9번 게이트 근처 4대.)"
+                  }
+                ]
+              },
+              {
+                "text": "Supported airlines for self check-in: TG, SL, PG, FD, VZ, AK, JX, 5J. For self bag drop: PG, AK, FD; others are preparing the service.",
+                "sentences": [
+                  {
+                    "text": "Supported airlines for self check-in: TG, SL, PG, FD, VZ, AK, JX, 5J.",
+                    "koReview": "(셀프 체크인은 타이항공·타이 라이언·방콕항공·타이 에어아시아·타이 비엣젯·에어아시아·스타룩스·세부퍼시픽이 지원하고, 셀프 수하물 위탁은 방콕항공·에어아시아·타이 에어아시아가 지원합니다."
+                  },
+                  {
+                    "text": " For self bag drop: PG, AK, FD; others are preparing the service.",
+                    "koReview": " 그 외 항공사는 준비 중입니다.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Departures",
+              "sentences": [
+                {
+                  "text": "Departures",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for Chiang Mai Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai page",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Convenience store location",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Chiang Mai Airport’s Mini Market is in the public arrivals area on Level 1 of the domestic terminal.",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+          "sentences": [
+            {
+              "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(여객터미널 공식 운영 시간은 06:00–24:00입니다. Grab 서비스센터는 24시간으로 안내되어 있습니다.)",
+            "q": "(공항 운영 시간은?)"
+          },
+          {
+            "a": "(공항 대표 +66-5-392-2000 또는 AOT 콜센터 1722로 문의하세요.)",
+            "q": "(공항 문의 전화번호는?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 여객터미널 2개 동, 총 31,301㎡입니다.)",
+              "(공식 서비스 시간은 06:00–24:00, 공항 연락처 +66-5-392-2000, AOT 콜센터 1722입니다.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 문의 셔틀버스를 이용하세요. A1(40바트) 님만해민·후아이깨우·구시가지 해자, A2(40바트) 마히돈·나이트바자·창클란, A3(60바트) 2번 순환도로·700주년 경기장.)",
+              "(시티버스(RTC R3 빨강·노랑)는 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 픽업 지점에서만 탑승. Grab 서비스센터는 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카 카운터는 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인: 국내선 — 타이 비엣젯 카운터 앞 3대·방콕항공 사무실 앞 7대·Amazon Café 근처 8대·Wawee Coffee 근처 3대, 국제선 — 8–9번 게이트 근처 9대.)",
+              "(셀프 수하물 위탁: 국내선 — 타이 비엣젯 카운터 앞 3대·Wawee Coffee 근처 3대, 국제선 — 8–9번 게이트 근처 4대.)",
+              "(셀프 체크인은 타이항공·타이 라이언·방콕항공·타이 에어아시아·타이 비엣젯·에어아시아·스타룩스·세부퍼시픽이 지원하고, 셀프 수하물 위탁은 방콕항공·에어아시아·타이 에어아시아가 지원합니다. 그 외 항공사는 준비 중입니다.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "en-gb"
+    },
+    "en-in": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "What are the airport timings?",
+              "sentences": [
+                {
+                  "text": "What are the airport timings?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "The terminal is officially open 06:00–24:00. The Grab service center operates 24 hours.",
+              "sentences": [
+                {
+                  "text": "The terminal is officially open 06:00–24:00.",
+                  "koReview": "(터미널 공식 운영 시간은 06:00–24:00,"
+                },
+                {
+                  "text": " The Grab service center operates 24 hours.",
+                  "koReview": " Grab 서비스센터는 24시간입니다.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Chiang Mai Airport?",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "Chiang Mai International Airport has domestic and international terminal buildings (31,301 sqm total).",
+                "sentences": [
+                  {
+                    "text": "Chiang Mai International Airport has domestic and international terminal buildings (31,301 sqm total).",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널(총 31,301㎡)로 구성됩니다.)"
+                  }
+                ]
+              },
+              {
+                "text": "Official service hours: 06:00–24:00. Airport contact: +66-5-392-2000; AOT Call Center: 1722.",
+                "sentences": [
+                  {
+                    "text": "Official service hours: 06:00–24:00.",
+                    "koReview": "(공식 서비스 시간 06:00–24:00,"
+                  },
+                  {
+                    "text": " Airport contact: +66-5-392-2000; AOT Call Center: 1722.",
+                    "koReview": " 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Overview",
+              "sentences": [
+                {
+                  "text": "Overview",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Shuttle bus at Door 12, International Terminal: A1/A2 at 40 THB, A3 at 60 THB — to the city.",
+                "sentences": [
+                  {
+                    "text": "Shuttle bus at Door 12, International Terminal: A1/A2 at 40 THB, A3 at 60 THB — to the city.",
+                    "koReview": "(셔틀버스: 국제선 터미널 12번 문, A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "City Bus (RTC R3 red/yellow) 30 THB per trip; hours unverified.",
+                "sentences": [
+                  {
+                    "text": "City Bus (RTC R3 red/yellow) 30 THB per trip;",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트."
+                  },
+                  {
+                    "text": " hours unverified.",
+                    "koReview": " 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "Grab: book in the app, board only at designated pick-up points. Service center: Domestic Terminal Floor 1, public area, 24 hours, 02-0212530.",
+                "sentences": [
+                  {
+                    "text": "Grab: book in the app, board only at designated pick-up points.",
+                    "koReview": "(Grab: 앱 호출, 지정 픽업 지점 탑승."
+                  },
+                  {
+                    "text": " Service center: Domestic Terminal Floor 1, public area, 24 hours, 02-0212530.",
+                    "koReview": " 서비스센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "Car rental: first floor.",
+                "sentences": [
+                  {
+                    "text": "Car rental: first floor.",
+                    "koReview": "(렌터카: 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Arrivals",
+              "sentences": [
+                {
+                  "text": "Arrivals",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Self check-in (CUSS) and self bag drop (CUBD) machines are placed across both terminals; supported airlines include TG, SL, PG, FD, VZ, AK, JX, 5J for check-in and PG, AK, FD for bag drop.",
+                "sentences": [
+                  {
+                    "text": "Self check-in (CUSS) and self bag drop (CUBD) machines are placed across both terminals;",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치."
+                  },
+                  {
+                    "text": " supported airlines include TG, SL, PG, FD, VZ, AK, JX, 5J for check-in and PG, AK, FD for bag drop.",
+                    "koReview": " 체크인 지원 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 지원 PG·AK·FD.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Departures",
+              "sentences": [
+                {
+                  "text": "Departures",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for Chiang Mai Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai page",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Convenience store location",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Chiang Mai Airport’s Mini Market is in the public arrivals area on Level 1 of the domestic terminal.",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+          "sentences": [
+            {
+              "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(터미널 공식 운영 시간은 06:00–24:00, Grab 서비스센터는 24시간입니다.)",
+            "q": "(공항 운영 시간은?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널(총 31,301㎡)로 구성됩니다.)",
+              "(공식 서비스 시간 06:00–24:00, 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(셔틀버스: 국제선 터미널 12번 문, A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab: 앱 호출, 지정 픽업 지점 탑승. 서비스센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카: 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치. 체크인 지원 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 지원 PG·AK·FD.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "en-in"
+    },
+    "en-us": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "What are the airport hours?",
+              "sentences": [
+                {
+                  "text": "What are the airport hours?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "The passenger terminal is officially open 06:00–24:00. The Grab service center is listed as 24 hours.",
+              "sentences": [
+                {
+                  "text": "The passenger terminal is officially open 06:00–24:00.",
+                  "koReview": "(여객터미널 공식 운영 시간은 06:00–24:00,"
+                },
+                {
+                  "text": " The Grab service center is listed as 24 hours.",
+                  "koReview": " Grab 서비스센터는 24시간입니다.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Chiang Mai Airport?",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "Chiang Mai International Airport has two terminal buildings — domestic and international — totaling 31,301 sqm.",
+                "sentences": [
+                  {
+                    "text": "Chiang Mai International Airport has two terminal buildings — domestic and international — totaling 31,301 sqm.",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)"
+                  }
+                ]
+              },
+              {
+                "text": "Official service hours are 06:00–24:00. Airport phone: +66-5-392-2000; AOT Call Center: 1722.",
+                "sentences": [
+                  {
+                    "text": "Official service hours are 06:00–24:00.",
+                    "koReview": "(공식 서비스 시간 06:00–24:00,"
+                  },
+                  {
+                    "text": " Airport phone: +66-5-392-2000; AOT Call Center: 1722.",
+                    "koReview": " 공항 전화 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Overview",
+              "sentences": [
+                {
+                  "text": "Overview",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "For the city, take the shuttle bus at Door 12 of the International Terminal: A1/A2 at 40 THB, A3 at 60 THB.",
+                "sentences": [
+                  {
+                    "text": "For the city, take the shuttle bus at Door 12 of the International Terminal: A1/A2 at 40 THB, A3 at 60 THB.",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문 셔틀버스: A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "The City Bus (RTC R3 red/yellow loops) costs 30 THB per trip (official detail page); hours are unclear on the official page — verify before travel.",
+                "sentences": [
+                  {
+                    "text": "The City Bus (RTC R3 red/yellow loops) costs 30 THB per trip (official detail page);",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트."
+                  },
+                  {
+                    "text": " hours are unclear on the official page — verify before travel.",
+                    "koReview": " 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "For Grab, request in the app and board only at designated pickup points. The Grab Service Center is on Floor 1 of the Domestic Terminal (public area), 24 hours, 02-0212530.",
+                "sentences": [
+                  {
+                    "text": "For Grab, request in the app and board only at designated pickup points.",
+                    "koReview": "(Grab은 앱 호출 후 지정 픽업 지점 탑승."
+                  },
+                  {
+                    "text": " The Grab Service Center is on Floor 1 of the Domestic Terminal (public area), 24 hours, 02-0212530.",
+                    "koReview": " 서비스센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "Rental car counters are on the first floor.",
+                "sentences": [
+                  {
+                    "text": "Rental car counters are on the first floor.",
+                    "koReview": "(렌터카 카운터 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Arrivals",
+              "sentences": [
+                {
+                  "text": "Arrivals",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Self check-in (CUSS) and self bag drop (CUBD) kiosks are available in both terminals; check-in supports TG, SL, PG, FD, VZ, AK, JX, 5J, and bag drop supports PG, AK, FD.",
+                "sentences": [
+                  {
+                    "text": "Self check-in (CUSS) and self bag drop (CUBD) kiosks are available in both terminals;",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 키오스크는 양 터미널에 배치."
+                  },
+                  {
+                    "text": " check-in supports TG, SL, PG, FD, VZ, AK, JX, 5J, and bag drop supports PG, AK, FD.",
+                    "koReview": " 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD 지원.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Departures",
+              "sentences": [
+                {
+                  "text": "Departures",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for Chiang Mai Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai page",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Convenience store location",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Chiang Mai Airport’s Mini Market is in the public arrivals area on Level 1 of the domestic terminal.",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+          "sentences": [
+            {
+              "text": "Chiang Mai International Airport (CNX) — Passenger Guide",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(여객터미널 공식 운영 시간은 06:00–24:00, Grab 서비스센터는 24시간입니다.)",
+            "q": "(공항 운영 시간은?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)",
+              "(공식 서비스 시간 06:00–24:00, 공항 전화 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 문 셔틀버스: A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 픽업 지점 탑승. 서비스센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카 카운터 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 키오스크는 양 터미널에 배치. 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD 지원.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "en-us"
+    },
+    "es": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "¿Cuál es el horario del aeropuerto?",
+              "sentences": [
+                {
+                  "text": "¿Cuál es el horario del aeropuerto?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "La terminal opera oficialmente de 06:00 a 24:00. El centro de Grab figura como 24 horas.",
+              "sentences": [
+                {
+                  "text": "La terminal opera oficialmente de 06:00 a 24:00.",
+                  "koReview": "(터미널 공식 운영 시간은 06:00–24:00,"
+                },
+                {
+                  "text": " El centro de Grab figura como 24 horas.",
+                  "koReview": " Grab 센터는 24시간입니다.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "¿Dónde puedo consultar los cajeros del aeropuerto de Chiang Mai?",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Puede consultarlos en el localizador oficial de cajeros de KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "El Aeropuerto Internacional de Chiang Mai tiene dos terminales (nacional e internacional), con 31.301 m² en total.",
+                "sentences": [
+                  {
+                    "text": "El Aeropuerto Internacional de Chiang Mai tiene dos terminales (nacional e internacional), con 31.301 m² en total.",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)"
+                  }
+                ]
+              },
+              {
+                "text": "Horario oficial: 06:00–24:00. Contacto: +66-5-392-2000; centro de llamadas AOT: 1722.",
+                "sentences": [
+                  {
+                    "text": "Horario oficial: 06:00–24:00.",
+                    "koReview": "(공식 시간 06:00–24:00,"
+                  },
+                  {
+                    "text": " Contacto: +66-5-392-2000; centro de llamadas AOT: 1722.",
+                    "koReview": " 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Resumen",
+              "sentences": [
+                {
+                  "text": "Resumen",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "La opción más económica al centro es el autobús lanzadera en la Puerta 12 de la Terminal Internacional: A1/A2 por 40 THB, A3 por 60 THB.",
+                "sentences": [
+                  {
+                    "text": "La opción más económica al centro es el autobús lanzadera en la Puerta 12 de la Terminal Internacional: A1/A2 por 40 THB, A3 por 60 THB.",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문 셔틀버스: A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "El autobús urbano (RTC R3 rojo/amarillo) cuesta 30 THB por trayecto; horario sin confirmar.",
+                "sentences": [
+                  {
+                    "text": "El autobús urbano (RTC R3 rojo/amarillo) cuesta 30 THB por trayecto; horario sin confirmar.",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "Para Grab, pida el viaje en la app y suba solo en los puntos designados. Centro de Grab: Terminal Nacional, planta 1, zona pública, 24 horas, 02-0212530.",
+                "sentences": [
+                  {
+                    "text": "Para Grab, pida el viaje en la app y suba solo en los puntos designados.",
+                    "koReview": "(Grab은 앱 호출 후 지정 지점 탑승."
+                  },
+                  {
+                    "text": " Centro de Grab: Terminal Nacional, planta 1, zona pública, 24 horas, 02-0212530.",
+                    "koReview": " Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "Alquiler de coches: primera planta.",
+                "sentences": [
+                  {
+                    "text": "Alquiler de coches: primera planta.",
+                    "koReview": "(렌터카 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Llegadas",
+              "sentences": [
+                {
+                  "text": "Llegadas",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Hay quioscos de autofacturación (CUSS) y de entrega de equipaje (CUBD) en ambas terminales; la autofacturación admite TG, SL, PG, FD, VZ, AK, JX y 5J, y la entrega de equipaje admite PG, AK y FD.",
+                "sentences": [
+                  {
+                    "text": "Hay quioscos de autofacturación (CUSS) y de entrega de equipaje (CUBD) en ambas terminales;",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 키오스크는 양 터미널에 배치."
+                  },
+                  {
+                    "text": " la autofacturación admite TG, SL, PG, FD, VZ, AK, JX y 5J, y la entrega de equipaje admite PG, AK y FD.",
+                    "koReview": " 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Salidas",
+              "sentences": [
+                {
+                  "text": "Salidas",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "El localizador oficial de cajeros de KBank incluye una entrada de cajero para el aeropuerto de Chiang Mai.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Localizador oficial de cajeros de KBank · página en tailandés",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Ubicación de la tienda",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Mini Market del aeropuerto de Chiang Mai está en la zona pública de llegadas de la planta 1 de la terminal nacional.",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "planta 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "Aeropuerto Internacional de Chiang Mai (CNX) — Guía del pasajero",
+          "sentences": [
+            {
+              "text": "Aeropuerto Internacional de Chiang Mai (CNX) — Guía del pasajero",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(터미널 공식 운영 시간은 06:00–24:00, Grab 센터는 24시간입니다.)",
+            "q": "(공항 운영 시간은?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)",
+              "(공식 시간 06:00–24:00, 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 문 셔틀버스: A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 지점 탑승. Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 키오스크는 양 터미널에 배치. 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "es"
+    },
+    "ja": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "空港の営業時間は?",
+              "sentences": [
+                {
+                  "text": "空港の営業時間は?",
+                  "koReview": "(공항 영업 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "旅客ターミナルの公式サービス時間は06:00–24:00です。Grabサービスセンターは24時間と案内されています。",
+              "sentences": [
+                {
+                  "text": "旅客ターミナルの公式サービス時間は06:00–24:00です。",
+                  "koReview": "(여객터미널 공식 서비스 시간은 06:00–24:00,"
+                },
+                {
+                  "text": "Grabサービスセンターは24時間と案内されています。",
+                  "koReview": " Grab 서비스센터는 24시간 안내.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "チェンマイ空港のATMはどこで確認できますか？",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "KBank公式ATM検索で確認できます。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "チェンマイ国際空港は国内線・国際線の2つの旅客ターミナル(合計31,301㎡)で構成されています。",
+                "sentences": [
+                  {
+                    "text": "チェンマイ国際空港は国内線・国際線の2つの旅客ターミナル(合計31,301㎡)で構成されています。",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동(총 31,301㎡)으로 구성.)"
+                  }
+                ]
+              },
+              {
+                "text": "公式サービス時間は06:00–24:00、空港連絡先は+66-5-392-2000、AOTコールセンターは1722です。",
+                "sentences": [
+                  {
+                    "text": "公式サービス時間は06:00–24:00、空港連絡先は+66-5-392-2000、AOTコールセンターは1722です。",
+                    "koReview": "(공식 서비스 시간 06:00–24:00, 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "概要",
+              "sentences": [
+                {
+                  "text": "概要",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "市内へは国際線ターミナル12番ドア前のシャトルバスをご利用ください。A1/A2は40バーツ、A3は60バーツです。",
+                "sentences": [
+                  {
+                    "text": "市内へは国際線ターミナル12番ドア前のシャトルバスをご利用ください。",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문 앞 셔틀버스."
+                  },
+                  {
+                    "text": "A1/A2は40バーツ、A3は60バーツです。",
+                    "koReview": " A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "シティバス(RTC R3赤・黄)は1回30バーツ(公式)。運行時間は公式表記が不明瞭のため事前確認。",
+                "sentences": [
+                  {
+                    "text": "シティバス(RTC R3赤・黄)は1回30バーツ(公式)。",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트."
+                  },
+                  {
+                    "text": "運行時間は公式表記が不明瞭のため事前確認。",
+                    "koReview": " 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "Grabはアプリで配車し、指定乗車地点でのみ乗車してください。Grabサービスセンターは国内線ターミナル1階一般エリア、24時間、02-0212530です。",
+                "sentences": [
+                  {
+                    "text": "Grabはアプリで配車し、指定乗車地点でのみ乗車してください。",
+                    "koReview": "(Grab은 앱 호출 후 지정 승차 지점에서만 탑승."
+                  },
+                  {
+                    "text": "Grabサービスセンターは国内線ターミナル1階一般エリア、24時間、02-0212530です。",
+                    "koReview": " Grab 서비스센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "レンタカーは空港1階にあります。",
+                "sentences": [
+                  {
+                    "text": "レンタカーは空港1階にあります。",
+                    "koReview": "(렌터카는 공항 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "到着",
+              "sentences": [
+                {
+                  "text": "到着",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "セルフチェックイン(CUSS)・セルフバゲージドロップ(CUBD)機は両ターミナルに設置されています。チェックイン対応はTG・SL・PG・FD・VZ・AK・JX・5J、バゲージドロップ対応はPG・AK・FDです。",
+                "sentences": [
+                  {
+                    "text": "セルフチェックイン(CUSS)・セルフバゲージドロップ(CUBD)機は両ターミナルに設置されています。",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 설치."
+                  },
+                  {
+                    "text": "チェックイン対応はTG・SL・PG・FD・VZ・AK・JX・5J、バゲージドロップ対応はPG・AK・FDです。",
+                    "koReview": " 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD 지원.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "出発",
+              "sentences": [
+                {
+                  "text": "出発",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank公式ATM検索には、チェンマイ空港のATMが登録されています。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank公式ATM検索 · タイ語ページ",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "コンビニの場所",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "チェンマイ空港のMini Marketは国内線ターミナル1階の到着ロビー一般エリアにあります。",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "1階"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "チェンマイ国際空港(CNX)利用ガイド",
+          "sentences": [
+            {
+              "text": "チェンマイ国際空港(CNX)利用ガイド",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(여객터미널 공식 서비스 시간은 06:00–24:00, Grab 서비스센터는 24시간 안내.)",
+            "q": "(공항 영업 시간은?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동(총 31,301㎡)으로 구성.)",
+              "(공식 서비스 시간 06:00–24:00, 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 문 앞 셔틀버스. A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 승차 지점에서만 탑승. Grab 서비스센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카는 공항 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 설치. 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD 지원.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "ja"
+    },
+    "ms": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "Apakah waktu operasi lapangan terbang?",
+              "sentences": [
+                {
+                  "text": "Apakah waktu operasi lapangan terbang?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "Terminal penumpang beroperasi secara rasmi 06:00–24:00. Pusat perkhidmatan Grab disenaraikan sebagai 24 jam.",
+              "sentences": [
+                {
+                  "text": "Terminal penumpang beroperasi secara rasmi 06:00–24:00.",
+                  "koReview": "(여객터미널 공식 운영 시간은 06:00–24:00,"
+                },
+                {
+                  "text": " Pusat perkhidmatan Grab disenaraikan sebagai 24 jam.",
+                  "koReview": " Grab 서비스센터는 24시간.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Di manakah saya boleh menyemak ATM di Lapangan Terbang Chiang Mai?",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Anda boleh menyemak di pencari ATM rasmi KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "Lapangan Terbang Antarabangsa Chiang Mai mempunyai dua bangunan terminal (domestik dan antarabangsa), seluas 31,301 meter persegi.",
+                "sentences": [
+                  {
+                    "text": "Lapangan Terbang Antarabangsa Chiang Mai mempunyai dua bangunan terminal (domestik dan antarabangsa), seluas 31,301 meter persegi.",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 31,301㎡.)"
+                  }
+                ]
+              },
+              {
+                "text": "Waktu perkhidmatan rasmi: 06:00–24:00. Hubungi lapangan terbang: +66-5-392-2000; Pusat Panggilan AOT: 1722.",
+                "sentences": [
+                  {
+                    "text": "Waktu perkhidmatan rasmi: 06:00–24:00.",
+                    "koReview": "(공식 서비스 시간 06:00–24:00,"
+                  },
+                  {
+                    "text": " Hubungi lapangan terbang: +66-5-392-2000; Pusat Panggilan AOT: 1722.",
+                    "koReview": " 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Gambaran keseluruhan",
+              "sentences": [
+                {
+                  "text": "Gambaran keseluruhan",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Untuk ke bandar, gunakan bas ulang-alik di Pintu 12 Terminal Antarabangsa: A1/A2 40 THB, A3 60 THB.",
+                "sentences": [
+                  {
+                    "text": "Untuk ke bandar, gunakan bas ulang-alik di Pintu 12 Terminal Antarabangsa: A1/A2 40 THB, A3 60 THB.",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문 셔틀버스: A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "Bas Bandar (RTC R3 merah/kuning) 30 THB sehala (laman rasmi); waktu tidak jelas — sahkan sebelum perjalanan.",
+                "sentences": [
+                  {
+                    "text": "Bas Bandar (RTC R3 merah/kuning) 30 THB sehala (laman rasmi);",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트."
+                  },
+                  {
+                    "text": " waktu tidak jelas — sahkan sebelum perjalanan.",
+                    "koReview": " 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "Untuk Grab, tempah dalam aplikasi dan naik hanya di titik pengambilan yang ditetapkan. Pusat Grab: Terminal Domestik Tingkat 1, kawasan awam, 24 jam, 02-0212530.",
+                "sentences": [
+                  {
+                    "text": "Untuk Grab, tempah dalam aplikasi dan naik hanya di titik pengambilan yang ditetapkan.",
+                    "koReview": "(Grab은 앱 호출 후 지정 픽업 지점 탑승."
+                  },
+                  {
+                    "text": " Pusat Grab: Terminal Domestik Tingkat 1, kawasan awam, 24 jam, 02-0212530.",
+                    "koReview": " Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "Kereta sewa: tingkat satu.",
+                "sentences": [
+                  {
+                    "text": "Kereta sewa: tingkat satu.",
+                    "koReview": "(렌터카 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Ketibaan",
+              "sentences": [
+                {
+                  "text": "Ketibaan",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Mesin daftar masuk kendiri (CUSS) dan serahan bagasi kendiri (CUBD) terdapat di kedua-dua terminal; daftar masuk menyokong TG, SL, PG, FD, VZ, AK, JX, 5J, dan serahan bagasi menyokong PG, AK, FD.",
+                "sentences": [
+                  {
+                    "text": "Mesin daftar masuk kendiri (CUSS) dan serahan bagasi kendiri (CUBD) terdapat di kedua-dua terminal;",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치."
+                  },
+                  {
+                    "text": " daftar masuk menyokong TG, SL, PG, FD, VZ, AK, JX, 5J, dan serahan bagasi menyokong PG, AK, FD.",
+                    "koReview": " 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Perlepasan",
+              "sentences": [
+                {
+                  "text": "Perlepasan",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Pencari ATM rasmi KBank menyenaraikan entri ATM untuk Lapangan Terbang Chiang Mai.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Pencari ATM rasmi KBank · laman bahasa Thai",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Lokasi kedai serbaneka",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Mini Market di Lapangan Terbang Chiang Mai terletak di kawasan awam balai ketibaan di Aras 1 terminal domestik.",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "Aras 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "Lapangan Terbang Antarabangsa Chiang Mai (CNX) — Panduan Penumpang",
+          "sentences": [
+            {
+              "text": "Lapangan Terbang Antarabangsa Chiang Mai (CNX) — Panduan Penumpang",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(여객터미널 공식 운영 시간은 06:00–24:00, Grab 서비스센터는 24시간.)",
+            "q": "(공항 운영 시간은?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 31,301㎡.)",
+              "(공식 서비스 시간 06:00–24:00, 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 문 셔틀버스: A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 픽업 지점 탑승. Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치. 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "ms"
+    },
+    "ru": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "Каковы часы работы аэропорта?",
+              "sentences": [
+                {
+                  "text": "Каковы часы работы аэропорта?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "Терминал официально работает с 06:00 до 24:00. Сервисный центр Grab указан как круглосуточный.",
+              "sentences": [
+                {
+                  "text": "Терминал официально работает с 06:00 до 24:00.",
+                  "koReview": "(터미널 공식 운영 시간은 06:00–24:00,"
+                },
+                {
+                  "text": " Сервисный центр Grab указан как круглосуточный.",
+                  "koReview": " Grab 서비스센터는 24시간.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Где можно проверить банкоматы в аэропорту Чиангмай?",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Можно проверить в официальном поиске банкоматов KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "Международный аэропорт Чиангмай состоит из двух терминалов (внутреннего и международного) общей площадью 31 301 кв. м.",
+                "sentences": [
+                  {
+                    "text": "Международный аэропорт Чиангмай состоит из двух терминалов (внутреннего и международного) общей площадью 31 301 кв. м.",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)"
+                  }
+                ]
+              },
+              {
+                "text": "Официальные часы работы: 06:00–24:00. Телефон аэропорта: +66-5-392-2000; колл-центр AOT: 1722.",
+                "sentences": [
+                  {
+                    "text": "Официальные часы работы: 06:00–24:00.",
+                    "koReview": "(공식 시간 06:00–24:00,"
+                  },
+                  {
+                    "text": " Телефон аэропорта: +66-5-392-2000; колл-центр AOT: 1722.",
+                    "koReview": " 공항 전화 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Обзор",
+              "sentences": [
+                {
+                  "text": "Обзор",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Самый дешёвый способ добраться до города — шаттл-бас у выхода 12 международного терминала: A1/A2 — 40 батов, A3 — 60 батов.",
+                "sentences": [
+                  {
+                    "text": "Самый дешёвый способ добраться до города — шаттл-бас у выхода 12 международного терминала: A1/A2 — 40 батов, A3 — 60 батов.",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 출구 앞 셔틀버스: A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "Городской автобус (RTC R3, жёлтая/красная линии) — 30 THB за поездку; часы работы не подтверждены.",
+                "sentences": [
+                  {
+                    "text": "Городской автобус (RTC R3, жёлтая/красная линии) — 30 THB за поездку; часы работы не подтверждены.",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "Grab заказывайте в приложении и садитесь только в обозначенных точках посадки. Сервисный центр Grab: внутренний терминал, 1-й этаж, общественная зона, круглосуточно, 02-0212530.",
+                "sentences": [
+                  {
+                    "text": "Grab заказывайте в приложении и садитесь только в обозначенных точках посадки.",
+                    "koReview": "(Grab은 앱 호출 후 지정 승차 지점 탑승."
+                  },
+                  {
+                    "text": " Сервисный центр Grab: внутренний терминал, 1-й этаж, общественная зона, круглосуточно, 02-0212530.",
+                    "koReview": " Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "Аренда автомобилей: первый этаж.",
+                "sentences": [
+                  {
+                    "text": "Аренда автомобилей: первый этаж.",
+                    "koReview": "(렌터카 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Прибытие",
+              "sentences": [
+                {
+                  "text": "Прибытие",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "Киоски самостоятельной регистрации (CUSS) и сдачи багажа (CUBD) есть в обоих терминалах; регистрация поддерживает TG, SL, PG, FD, VZ, AK, JX, 5J, сдача багажа — PG, AK, FD.",
+                "sentences": [
+                  {
+                    "text": "Киоски самостоятельной регистрации (CUSS) и сдачи багажа (CUBD) есть в обоих терминалах;",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 키오스크는 양 터미널에 배치."
+                  },
+                  {
+                    "text": " регистрация поддерживает TG, SL, PG, FD, VZ, AK, JX, 5J, сдача багажа — PG, AK, FD.",
+                    "koReview": " 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "Вылет",
+              "sentences": [
+                {
+                  "text": "Вылет",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "В официальном поиске банкоматов KBank зарегистрирована запись о банкомате в аэропорту Чиангмай.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Официальный поиск банкоматов KBank · страница на тайском языке",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Где находится магазин",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Mini Market аэропорта Чиангмая находится в общедоступной зоне прилёта на 1-м этаже внутреннего терминала.",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "1-м этаже"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "Международный аэропорт Чиангмай (CNX) — гид для пассажиров",
+          "sentences": [
+            {
+              "text": "Международный аэропорт Чиангмай (CNX) — гид для пассажиров",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(터미널 공식 운영 시간은 06:00–24:00, Grab 서비스센터는 24시간.)",
+            "q": "(공항 운영 시간은?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)",
+              "(공식 시간 06:00–24:00, 공항 전화 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 출구 앞 셔틀버스: A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 승차 지점 탑승. Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 키오스크는 양 터미널에 배치. 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "ru"
+    },
+    "zh-cn": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "机场运营时间是?",
+              "sentences": [
+                {
+                  "text": "机场运营时间是?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "航站楼官方服务时间为06:00–24:00。Grab服务中心标注为24小时。",
+              "sentences": [
+                {
+                  "text": "航站楼官方服务时间为06:00–24:00。",
+                  "koReview": "(여객터미널 공식 서비스 시간은 06:00–24:00,"
+                },
+                {
+                  "text": "Grab服务中心标注为24小时。",
+                  "koReview": " Grab 서비스센터는 24시간.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "text": "机场咨询电话是?",
+              "sentences": [
+                {
+                  "text": "机场咨询电话是?",
+                  "koReview": "(공항 문의 전화는?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "机场总机 +66-5-392-2000,AOT客服中心 1722。",
+              "sentences": [
+                {
+                  "text": "机场总机 +66-5-392-2000,AOT客服中心 1722。",
+                  "koReview": "(공항 대표 +66-5-392-2000, AOT 콜센터 1722.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "在哪里可以查询清迈机场的ATM？",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "可以在KBank官方ATM查询中确认。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "清迈国际机场由国内、国际两座航站楼组成,总面积31,301平方米。",
+                "sentences": [
+                  {
+                    "text": "清迈国际机场由国内、国际两座航站楼组成,总面积31,301平方米。",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)"
+                  }
+                ]
+              },
+              {
+                "text": "官方服务时间06:00–24:00。机场联系电话+66-5-392-2000,AOT客服中心1722。",
+                "sentences": [
+                  {
+                    "text": "官方服务时间06:00–24:00。",
+                    "koReview": "(공식 서비스 시간 06:00–24:00,"
+                  },
+                  {
+                    "text": "机场联系电话+66-5-392-2000,AOT客服中心1722。",
+                    "koReview": " 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "概况",
+              "sentences": [
+                {
+                  "text": "概况",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "前往市区可乘坐国际航站楼12号门前的机场穿梭巴士:A1/A2 40泰铢,A3 60泰铢。",
+                "sentences": [
+                  {
+                    "text": "前往市区可乘坐国际航站楼12号门前的机场穿梭巴士:A1/A2 40泰铢,A3 60泰铢。",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문 앞 공항 셔틀버스: A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "城市巴士(RTC R3红/黄线)单程30泰铢(官网);运营时间官网标注不明,请行前确认。",
+                "sentences": [
+                  {
+                    "text": "城市巴士(RTC R3红/黄线)单程30泰铢(官网);",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트."
+                  },
+                  {
+                    "text": "运营时间官网标注不明,请行前确认。",
+                    "koReview": " 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "Grab请在App叫车,仅在指定上车点乘车。Grab服务中心:国内航站楼1层公共区,24小时,电话02-0212530。",
+                "sentences": [
+                  {
+                    "text": "Grab请在App叫车,仅在指定上车点乘车。",
+                    "koReview": "(Grab은 앱 호출 후 지정 승차 지점 탑승."
+                  },
+                  {
+                    "text": "Grab服务中心:国内航站楼1层公共区,24小时,电话02-0212530。",
+                    "koReview": " Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "租车柜台位于机场1层。",
+                "sentences": [
+                  {
+                    "text": "租车柜台位于机场1层。",
+                    "koReview": "(렌터카 카운터 공항 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "到达",
+              "sentences": [
+                {
+                  "text": "到达",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "自助值机(CUSS)与自助行李托运(CUBD)设备分布于两座航站楼;值机支持TG、SL、PG、FD、VZ、AK、JX、5J,行李托运支持PG、AK、FD。",
+                "sentences": [
+                  {
+                    "text": "自助值机(CUSS)与自助行李托运(CUBD)设备分布于两座航站楼;",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치."
+                  },
+                  {
+                    "text": "值机支持TG、SL、PG、FD、VZ、AK、JX、5J,行李托运支持PG、AK、FD。",
+                    "koReview": " 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "出发",
+              "sentences": [
+                {
+                  "text": "出发",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查询中登记了清迈机场的ATM条目。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查询 · 泰语页面",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "便利店位置",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "清迈机场Mini Market位于国内航站楼1楼到达大厅的公共区域。",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "1楼"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "清迈国际机场(CNX)旅客指南",
+          "sentences": [
+            {
+              "text": "清迈国际机场(CNX)旅客指南",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(여객터미널 공식 서비스 시간은 06:00–24:00, Grab 서비스센터는 24시간.)",
+            "q": "(공항 운영 시간은?)"
+          },
+          {
+            "a": "(공항 대표 +66-5-392-2000, AOT 콜센터 1722.)",
+            "q": "(공항 문의 전화는?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)",
+              "(공식 서비스 시간 06:00–24:00, 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 문 앞 공항 셔틀버스: A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 승차 지점 탑승. Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카 카운터 공항 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치. 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "zh-cn"
+    },
+    "zh-tw": {
+      "content": {
+        "faq": [
+          {
+            "q": {
+              "text": "機場營運時間是?",
+              "sentences": [
+                {
+                  "text": "機場營運時間是?",
+                  "koReview": "(공항 운영 시간은?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "航廈官方服務時間為06:00–24:00。Grab服務中心標示為24小時。",
+              "sentences": [
+                {
+                  "text": "航廈官方服務時間為06:00–24:00。",
+                  "koReview": "(여객터미널 공식 서비스 시간은 06:00–24:00,"
+                },
+                {
+                  "text": "Grab服務中心標示為24小時。",
+                  "koReview": " Grab 서비스센터는 24시간.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "text": "機場諮詢電話是?",
+              "sentences": [
+                {
+                  "text": "機場諮詢電話是?",
+                  "koReview": "(공항 문의 전화는?)"
+                }
+              ]
+            },
+            "a": {
+              "text": "機場總機 +66-5-392-2000,AOT客服中心 1722。",
+              "sentences": [
+                {
+                  "text": "機場總機 +66-5-392-2000,AOT客服中心 1722。",
+                  "koReview": "(공항 대표 +66-5-392-2000, AOT 콜센터 1722.)"
+                }
+              ]
+            }
+          },
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "在哪裡可以查詢清邁機場的ATM？",
+                  "koReview": "(치앙마이공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "可以在KBank官方ATM查詢中確認。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              {
+                "text": "清邁國際機場由國內、國際兩座航廈組成,總面積31,301平方公尺。",
+                "sentences": [
+                  {
+                    "text": "清邁國際機場由國內、國際兩座航廈組成,總面積31,301平方公尺。",
+                    "koReview": "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)"
+                  }
+                ]
+              },
+              {
+                "text": "官方服務時間06:00–24:00。機場聯絡電話+66-5-392-2000,AOT客服中心1722。",
+                "sentences": [
+                  {
+                    "text": "官方服務時間06:00–24:00。",
+                    "koReview": "(공식 서비스 시간 06:00–24:00,"
+                  },
+                  {
+                    "text": "機場聯絡電話+66-5-392-2000,AOT客服中心1722。",
+                    "koReview": " 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "概況",
+              "sentences": [
+                {
+                  "text": "概況",
+                  "koReview": "(개요)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "前往市區可乘坐國際航廈12號門前的機場接駁巴士:A1/A2 40泰銖,A3 60泰銖。",
+                "sentences": [
+                  {
+                    "text": "前往市區可乘坐國際航廈12號門前的機場接駁巴士:A1/A2 40泰銖,A3 60泰銖。",
+                    "koReview": "(시내 이동은 국제선 터미널 12번 문 앞 공항 셔틀버스: A1/A2 40바트·A3 60바트.)"
+                  }
+                ]
+              },
+              {
+                "text": "市區巴士(RTC R3紅/黃線)單程30泰銖(官網);營運時間官網標示不明,請行前確認。",
+                "sentences": [
+                  {
+                    "text": "市區巴士(RTC R3紅/黃線)單程30泰銖(官網);",
+                    "koReview": "(시티버스(RTC R3 빨강·노랑) 1회 30바트."
+                  },
+                  {
+                    "text": "營運時間官網標示不明,請行前確認。",
+                    "koReview": " 시간 미확인.)"
+                  }
+                ]
+              },
+              {
+                "text": "Grab請在App叫車,僅在指定上車點乘車。Grab服務中心:國內航廈1樓公共區,24小時,電話02-0212530。",
+                "sentences": [
+                  {
+                    "text": "Grab請在App叫車,僅在指定上車點乘車。",
+                    "koReview": "(Grab은 앱 호출 후 지정 승차 지점 탑승."
+                  },
+                  {
+                    "text": "Grab服務中心:國內航廈1樓公共區,24小時,電話02-0212530。",
+                    "koReview": " Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)"
+                  }
+                ]
+              },
+              {
+                "text": "租車櫃檯位於機場1樓。",
+                "sentences": [
+                  {
+                    "text": "租車櫃檯位於機場1樓。",
+                    "koReview": "(렌터카 카운터 공항 1층.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "抵達",
+              "sentences": [
+                {
+                  "text": "抵達",
+                  "koReview": "(도착)"
+                }
+              ]
+            }
+          },
+          {
+            "body": [
+              {
+                "text": "自助報到(CUSS)與自助行李託運(CUBD)設備分佈於兩座航廈;報到支援TG、SL、PG、FD、VZ、AK、JX、5J,行李託運支援PG、AK、FD。",
+                "sentences": [
+                  {
+                    "text": "自助報到(CUSS)與自助行李託運(CUBD)設備分佈於兩座航廈;",
+                    "koReview": "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치."
+                  },
+                  {
+                    "text": "報到支援TG、SL、PG、FD、VZ、AK、JX、5J,行李託運支援PG、AK、FD。",
+                    "koReview": " 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+                  }
+                ]
+              }
+            ],
+            "title": {
+              "text": "出發",
+              "sentences": [
+                {
+                  "text": "出發",
+                  "koReview": "(출발)"
+                }
+              ]
+            }
+          },
+          {
+            "id": "CNX-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查詢中登記了清邁機場的ATM條目。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 치앙마이공항의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查詢 · 泰語頁面",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "CNX-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+              "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+              "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "CNX-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "便利商店位置",
+                  "koReview": "편의점 위치",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "清邁機場Mini Market位於國內航廈1樓抵達大廳的公共區域。",
+                    "koReview": "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요.",
+                    "highlights": [
+                      "Mini Market",
+                      "1樓"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+                  "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+                }
+              ],
+              "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+              "fields": [
+                {
+                  "id": "CNX-MINI-MARKET",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "zone": "Arrival",
+                  "area": "Public",
+                  "hours": null,
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "title": {
+          "text": "清邁國際機場(CNX)旅客指南",
+          "sentences": [
+            {
+              "text": "清邁國際機場(CNX)旅客指南",
+              "koReview": "(치앙마이 국제공항(CNX) 이용 안내)"
+            }
+          ]
+        }
+      },
+      "koReview": {
+        "faq": [
+          {
+            "a": "(여객터미널 공식 서비스 시간은 06:00–24:00, Grab 서비스센터는 24시간.)",
+            "q": "(공항 운영 시간은?)"
+          },
+          {
+            "a": "(공항 대표 +66-5-392-2000, AOT 콜센터 1722.)",
+            "q": "(공항 문의 전화는?)"
+          }
+        ],
+        "sections": [
+          {
+            "body": [
+              "(치앙마이 국제공항은 국내선·국제선 터미널 2개 동, 총 31,301㎡.)",
+              "(공식 서비스 시간 06:00–24:00, 공항 연락처 +66-5-392-2000, AOT 콜센터 1722.)"
+            ],
+            "title": "(개요)"
+          },
+          {
+            "body": [
+              "(시내 이동은 국제선 터미널 12번 문 앞 공항 셔틀버스: A1/A2 40바트·A3 60바트.)",
+              "(시티버스(RTC R3 빨강·노랑) 1회 30바트. 시간 미확인.)",
+              "(Grab은 앱 호출 후 지정 승차 지점 탑승. Grab 센터 국내선 터미널 1층 일반구역, 24시간, 02-0212530.)",
+              "(렌터카 카운터 공항 1층.)"
+            ],
+            "title": "(도착)"
+          },
+          {
+            "body": [
+              "(셀프 체크인·셀프 수하물 위탁 기기는 양 터미널에 배치. 체크인 TG·SL·PG·FD·VZ·AK·JX·5J, 위탁 PG·AK·FD.)"
+            ],
+            "title": "(출발)"
+          }
+        ],
+        "title": "(치앙마이 국제공항(CNX) 이용 안내)"
+      },
+      "locale": "zh-tw"
+    }
+  },
+  "note": "Each locale: content fields restructured to {text, sentences:[{text,koReview}]}. Sentence segmentation only; no re-research. Based on officially verified facts (AOT CNX site, 2026-10-14). Native review not done. es/ru sec[1].body[1] kept 1:1 (original claims 06:00-23:30 vs koReview 30THB/unverified - flagged).",
+  "revision": "r7 (로컬 교정 반영: es/ru 시간단정 제거, ja/ms/zh-cn/zh-tw 최저가 삭제)",
+  "sources": [
+    "https://mapservice.kasikornbank.com/th/app",
+    "https://mapservice.kasikornbank.com/",
+    "https://chiangmai.airportthai.co.th/service/facility/detail/358"
+  ],
+  "atmEvidence": {
+    "originThreadKey": "AIRPORT-ORCH-01",
+    "sourceRecordId": "CNX-ATM-KBANK",
+    "verificationEvidence": {
+      "checkedAt": "2026-10-14",
+      "excluded": "Central Airport 쇼핑몰 지점·일반 인근 ATM — 제외",
+      "note": "명칭에 'สำนักงานแลกเปลี่ยนเงิน'(환전소) 포함되나 채널은 ATM. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시로 단정하지 않음.",
+      "quoteTh": "บริการ :\nถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง :\nATM\nชื่อ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ)\nที่อยู่ :\nสำนักงานแลกเปลี่ยนเงินท่าอากาศยานเชียงใหม่ 2 (ศูนย์ฯ), เมืองเชียงใหม่, เชียงใหม่\nเวลาทำการ :\n-\nติดต่อ :\n-",
+      "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+    },
+    "scope": "카드 원문 명시값만 — 층/터미널/전화/시간/승객 접근(public/secure)·외국인 본인확인 가능 단정 없음",
+    "missing": [
+      "terminal",
+      "floor",
+      "zone",
+      "hours",
+      "phone",
+      "foreignIdentityEligibility"
+    ]
+  },
+  "directResearchEvidence": {
+    "researcher": "Codex",
+    "originThreadKey": "CODEX-DIRECT-20261014",
+    "sourceRecordId": "CNX-DIRECT-FACILITIES-20261014",
+    "checkedAt": "2026-10-14",
+    "validity": "Official directory at check date; no fixed validity end stated",
+    "sources": [
+      {
+        "url": "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+        "quote": "Mini Market; Domestic , Floor: 1 , Zone: Arrival , Area: Public"
+      }
+    ],
+    "scopeNote": "Weekly06–21 schedule only in search excerpt, absent from opened detail; dynamic closes21 not sufficient for all-days schedule. Hours excluded. Store is Mini Market, not assumed 7-Eleven.",
+    "fields": [
+      {
+        "id": "CNX-MINI-MARKET",
+        "terminal": "Domestic",
+        "floor": 1,
+        "zone": "Arrival",
+        "area": "Public",
+        "hours": null,
+        "phone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+---
+import stations from '../../../../../data/transport/bangkok-stations.json';
+import StationDetail from '../../../../../components/StationDetail.astro';
+export function getStaticPaths(){return stations.map(station=>({params:{id:station.properties.station_id},props:{station}}));}
+const { station }=Astro.props;
+---
+<StationDetail station={station}/>

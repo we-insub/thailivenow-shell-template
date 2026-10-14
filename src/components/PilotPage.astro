@@ -1,0 +1,38 @@
+---
+import SiteFooter from './SiteFooter.astro';
+import AirportRailSummary from './AirportRailSummary.astro';
+import DetailHeader from './DetailHeader.astro';
+import AttractionAccessMap from './AttractionAccessMap.astro';
+import BangkokTransport from './BangkokTransport.astro';
+import BoatNetwork from './BoatNetwork.astro';
+import RailDestinations from './RailDestinations.astro';
+const { html } = Astro.props;
+const clean = html
+  .replace(/<head\b[^>]*>/i, (head: string) => `${head}<link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48"><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any"><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013">`)
+  .replace(/<header\b[^>]*>[\s\S]*?<\/header>/, '')
+  .replace(/<tr\b[^>]*>[\s\S]*?<\/tr>/g, (row: string) => {
+    const value = row.match(/<td\b[^>]*>([\s\S]*?)<\/td>/i)?.[1]
+      .replace(/<[^>]*>/g, '').trim();
+    return value && /^미확인(?:\s|\(|$)/.test(value) ? '' : row;
+  })
+  .replace(/<table\b([^>]*)>([\s\S]*?)<\/table>/gi, (table: string, attributes: string, body: string) => {
+    const firstRow = body.match(/<tr\b[^>]*>([\s\S]*?)<\/tr>/i)?.[1] || '';
+    const labels = [...firstRow.matchAll(/<th\b[^>]*>([\s\S]*?)<\/th>/gi)]
+      .map(match => match[1].replace(/<[^>]*>/g, '').trim());
+    if (labels.length < 2) return table;
+    const escape = (value: string) => value.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    const rows = body.replace(/<tr\b([^>]*)>([\s\S]*?)<\/tr>/gi, (_: string, attrs: string, cells: string) => {
+      if (!/<td\b/i.test(cells)) return `<tr${attrs} class="comparison-head">${cells}</tr>`;
+      let index = 0;
+      return `<tr${attrs}>${cells.replace(/<td\b([^>]*)>/gi, (_: string, cellAttrs: string) => `<td${cellAttrs} data-label="${escape(labels[index++] || '')}">`)}</tr>`;
+    });
+    return `<div class="comparison-table"><table${attributes}>${rows}</table></div>`;
+  });
+const themed = clean.replace(/<main([^>]*)>/, (_:string,attrs:string)=>attrs.includes('class=')?'<main'+attrs.replace('class="','class="thai-detail ')+'>':'<main'+attrs+' class="thai-detail">');
+const withFooter = themed.replace(/<footer\b[^>]*class="[^"]*site-footer[^"]*"[\s\S]*?<\/footer>/g,'').replace('</body>', '<!--SITE_FOOTER--></body>');
+const position = withFooter.indexOf('<body>') + '<body>'.length;
+const segments = withFooter.slice(position).split(/(<!--(?:ATTRACTION_ACCESS_MAP|BANGKOK_RAIL_MAP|RAIL_DESTINATIONS|BOAT_NETWORK_MAP|AIRPORT_RAIL_GUIDE|SITE_FOOTER)-->)/);
+---
+<Fragment set:html={withFooter.slice(0,position)} />
+<DetailHeader />
+{segments.map(segment => segment === '<!--SITE_FOOTER-->' ? <SiteFooter /> : segment === '<!--AIRPORT_RAIL_GUIDE-->' ? <AirportRailSummary filterByLine={true} /> : segment === '<!--ATTRACTION_ACCESS_MAP-->' ? <AttractionAccessMap /> : segment === '<!--RAIL_DESTINATIONS-->' ? <RailDestinations /> : segment === '<!--BANGKOK_RAIL_MAP-->' ? <BangkokTransport /> : segment === '<!--BOAT_NETWORK_MAP-->' ? <BoatNetwork /> : <Fragment set:html={segment} />)}

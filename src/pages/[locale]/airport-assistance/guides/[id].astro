@@ -1,0 +1,28 @@
+---
+import {airportMarkets,airportMarketData} from '../../../../lib/airport-markets';
+import {airportUI} from '../../../../i18n/airport-ui';
+import AirportStaffPhrases from '../../../../components/AirportStaffPhrases.astro';
+import AirportGuideAirlines from '../../../../components/AirportGuideAirlines.astro';
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import AirportImportantText from '../../../../components/AirportImportantText.astro';
+import AirportMarketDetail from '../../../../components/AirportMarketDetail.astro';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').flatMap(m=>airportMarketData(m.locale).guides.map((guide:any)=>({params:{locale:m.locale,id:guide.id},props:{market:m,guide}})));}
+const {market,guide:g}=Astro.props;const t=airportUI[market.locale];
+const insuranceGuide=airportMarketData(market.locale).guides.find((item:any)=>item.id==='insurance-claim');
+const showInsurance=g.id==='caat-passenger-rights'&&insuranceGuide&&!g.actions?.some((action:any)=>action.url?.includes('/guides/insurance-claim/'));
+const staffCategories=g.id==='caat-passenger-rights'?undefined:g.id==='flight-delayed'?['delay-certificate','rebooking','refund-inquiry','meal-accommodation']:g.id==='flight-cancelled'?['cancellation-certificate','rebooking','refund-inquiry']:/disruption|flight-certificate/.test(g.id)?['delay-certificate','cancellation-certificate']:/damaged-baggage|baggage-damage|baggage-claim|baggage-notice|baggage-report/.test(g.id)?['baggage-damage-pir']:[];
+const guideSources=[...new Set([...(g.sources||[]),...(g.sections?.flatMap((section:any)=>section.sources||[])||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportMarketDetail market={market} title={g.title} description={g.description}>
+{g.text&&g.text.trim()!==g.description?.trim()&&<section>{g.text.split('\n').filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale={market.locale}/></p>)}</section>}
+{g.thresholds?.length>0&&<section>{g.thresholds.map((row:any)=><article><h2>{row.label}</h2><p>{row.text}</p></article>)}</section>}
+{g.sections?.filter((s:any)=>s.text).map((s:any)=><section><h2>{s.title}</h2>{s.text.split("\n").filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale={market.locale}/></p>)}{s.actions?.map((action:any)=><p><a href={action.url}>{action.label} →</a></p>)}<AirportSourceReferences sources={s.sources||[]} pageSources={guideSources} locale={market.locale}/></section>)}
+{g.actions?.length>0&&<section><div class="links">{g.actions.map((a:any)=><a href={a.url}>{a.label} →</a>)}</div></section>}
+{showInsurance&&<section><h2>{t[9]}</h2><a href={`/${market.locale}/airport-assistance/guides/${insuranceGuide.id}/`}>{insuranceGuide.title} →</a></section>}
+<AirportGuideAirlines locale={market.locale} guide={g}/>
+{g.faq?.map((f:any)=><details><summary>{f.q}</summary><p><AirportImportantText text={f.a} phrases={g.highlights||[]} locale={market.locale}/></p></details>)}
+{(g.id==='caat-passenger-rights'||staffCategories?.length>0)&&<AirportStaffPhrases locale={market.locale} categories={staffCategories}/>}
+{g.faq?.length>0&&<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:g.faq.map((f:any)=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}).replaceAll('<','\u003c')}/>}
+<AirportSources locale={market.locale} sources={guideSources} checkedAt={g.checkedAt}/>
+</AirportMarketDetail>

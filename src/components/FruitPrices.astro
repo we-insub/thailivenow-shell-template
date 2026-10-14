@@ -1,0 +1,8 @@
+---
+import food from '../data/food.json';
+const {fruitId,city,compact=false}=Astro.props;
+const rows=food.fruitPrices.filter(p=>(!fruitId||p.fruit===fruitId)&&(!city||p.city===city));
+const amount=n=>Number.isInteger(n)?String(n):n.toFixed(2);
+---
+{rows.length>0&&<div class="fruit-price-block"><p class="fruit-price-context"><strong>방콕 지역 소매가격 · 2026년 10월 14일</strong><br/>태국 국내무역국이 조사한 품종·등급별 가격이에요. 길거리의 모든 판매점에 같은 가격이 적용되는 것은 아니에요.</p><div class="fruit-price-scroll" tabindex="0" role="region" aria-label="방콕 과일 소매가격 표"><table class="fruit-price-table"><caption>통과일 소매가격 참고 · 태국 바트(THB)</caption><thead><tr><th scope="col">과일·품종</th><th scope="col">가격</th><th scope="col">단위</th></tr></thead><tbody>{rows.map(p=><tr><th scope="row"><a href={`/ko/food/fruits/${p.fruit}/`}>{p.label}</a></th><td>{amount(p.min)}–{amount(p.max)}바트</td><td>1{p.unit}</td></tr>)}</tbody></table></div><p class="fruit-price-context">잘라 담은 과일 한 봉지·한 팩 가격과 통과일 kg 가격은 나눠 살펴보세요. <strong>바나나는 이 자료에서 한 송이 가격</strong>이에요.</p></div>}
+<style>.fruit-price-context{font-size:14px;line-height:1.85;color:#627068}.fruit-price-scroll{overflow-x:auto;border:1px solid #dce5de;border-radius:12px;background:#fff}.fruit-price-table{border-collapse:collapse;width:100%;min-width:0;font-size:14px}.fruit-price-table caption{text-align:left;padding:15px;font-weight:650;color:#405b49}.fruit-price-table th,.fruit-price-table td{text-align:left;padding:14px 16px;border-top:1px solid #e1e9e3;vertical-align:top}.fruit-price-table thead{background:#eef4ef}.fruit-price-table tbody th{font-weight:500}.fruit-price-table td:nth-child(2),.fruit-price-table td:nth-child(3){white-space:nowrap}</style>

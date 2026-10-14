@@ -1,0 +1,22 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FoodText from '../../../../components/FoodText.astro';
+import FoodPhoto from '../../../../components/FoodPhoto.astro';
+import food from '../../../../data/food.json';
+export function getStaticPaths(){return food.dishes.map(dish=>({params:{dish:dish.id},props:{dish}}))}
+const {dish:d}=Astro.props;
+const region=food.regions.find(r=>r.id===d.region);
+const cities=food.cities.filter(c=>c.dishes.includes(d.id));
+const categoryNames={noodles:'밥·면',soup:'국·커리',side:'반찬·구이',dessert:'디저트',drinks:'음료'};
+const related=[...new Set(cities.flatMap(c=>c.dishes))].filter(id=>id!==d.id).slice(0,3).map(id=>food.dishes.find(item=>item.id===id));
+---
+<FoodLayout title={`${d.name} · 맛과 먹는 방법`} description={d.intro} breadcrumbs={[["음식","/ko/food/"]]} sourceIds={d.sources} faq={d.faq}>
+<div class="food-detail"><header class="food-hero"><span class="food-eyebrow">{d.scope} · {categoryNames[d.category]}</span><h1>{d.name}</h1><p class="food-subtitle"><span lang="en">{d.english}</span>{d.thai&&<> · <span lang="th">{d.thai}</span></>}</p><p class="food-intro">{d.intro}</p></header>
+<FoodPhoto dish={d}/>
+<section><h2>어떤 맛인가요?</h2><p>{d.flavor}</p><div class="food-note"><p><FoodText text={d.tip} emphasis={d.emphasis}/></p></div></section>
+<section><h2>음식의 기본 정보</h2><dl><div><dt>음식 이름</dt><dd>{d.name} · {d.english}</dd></div>{d.thai&&<div><dt>태국어 이름</dt><dd lang="th">{d.thai}</dd></div>}<div><dt>종류</dt><dd>{categoryNames[d.category]}</dd></div><div><dt>지역 연결</dt><dd>{region.name} · {d.scope}</dd></div><div><dt>대표 재료</dt><dd><FoodText text={d.ingredients} emphasis={d.emphasis}/></dd></div></dl></section>
+<section><h2>음식과 지역의 이야기</h2><p>{d.story}</p></section>
+<section><h2>주문해서 먹는 방법</h2><ol class="food-steps">{d.steps.map(step=><li><span><FoodText text={step} emphasis={d.emphasis}/></span></li>)}</ol></section>
+<section class="food-faq"><h2>자주 묻는 질문</h2>{d.faq.map(([q,a])=><article><h3>{q}</h3><p>{a}</p></article>)}</section>
+<section><h2>함께 살펴볼 음식과 도시</h2><div class="food-related">{related.map(item=><a href={`/ko/food/dishes/${item.id}/`}>{item.name} →</a>)}{cities.map(city=><a href={`/ko/food/cities/${city.id}/`}>{city.name} 음식 전체 →</a>)}{food.streetFood.includes(d.id)&&<a href="/ko/food/street-food/">길거리 간식과 음료 →</a>}{d.id==='watermelon-shake'&&<a href="/ko/food/fruits/watermelon/">수박 제철·구매 안내 →</a>}{d.id==='roti'&&<a href="/ko/food/fruits/banana/">바나나 구매 안내 →</a>}<a href="/ko/food/traditions/">태국 전통음식·식문화 →</a><a href="/ko/food/">태국 음식 전체 →</a></div></section></div>
+</FoodLayout>

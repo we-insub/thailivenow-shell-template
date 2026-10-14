@@ -1,0 +1,5 @@
+---
+import RooftopHub from '../../../../components/RooftopHub.astro';
+export function getStaticPaths(){return ['bangkok','chiang-mai','pattaya','phi-phi','phuket','samui'].map(city=>({params:{city}}));}
+---
+<RooftopHub initialCity={Astro.params.city}/>

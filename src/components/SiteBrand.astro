@@ -1,0 +1,7 @@
+---
+const { href = '/ko/#map', name = 'ThaiLiveNow', label } = Astro.props;
+---
+<a class="brand site-brand" href={href} aria-label={label || name}>
+  <img src="/favicon.svg" width="31" height="31" alt="" />
+  <span>{name}</span><span class="brand-live">LIVE</span>
+</a>

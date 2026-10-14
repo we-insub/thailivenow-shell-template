@@ -1,0 +1,7 @@
+---
+import EntryGuideLayout from '../../../components/EntryGuideLayout.astro';
+import guides from '../../../data/entry-guides-ko.json';
+export function getStaticPaths(){return guides.filter(g=>g.id!=='entry').map(guide=>({params:{id:guide.id},props:{guide}}));}
+const {guide}=Astro.props;
+---
+<EntryGuideLayout guide={guide}/>

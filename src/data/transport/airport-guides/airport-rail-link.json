@@ -1,0 +1,278 @@
+{
+  "id": "airport-rail-link",
+  "name": "수완나품 공항철도 타는 법",
+  "english": "Airport Rail Link",
+  "title": "수완나품 공항철도 ARL | 요금·소요시간·마카산 MRT·파야타이 BTS 환승",
+  "intro": "수완나품에서 방콕 시내로 들어오는 ARL은 지하 1층에서 탈 수 있어요. 숙소가 MRT 가까이에 있으면 마카산, BTS 가까이에 있으면 파야타이 환승을 비교하세요. 역 이름과 별도 승차권을 구분하면 처음 타는 분도 이동 순서를 잡기 쉬워요.",
+  "sections": [
+    {
+      "id": "rail",
+      "title": "지하 1층 공항철도: 요금과 소요시간",
+      "paragraphs": [
+        "ARL은 도로 정체를 피하고 싶을 때 살펴볼 수 있는 선택이에요. 시내의 마지막 정류장인 파야타이까지 열차 이동은 약 26~30분이에요. 표 구매·열차 대기·환승·호텔까지의 도보시간은 따로 더해야 해요.",
+        "공항 안내의 운행시간은 05:30~24:00예요. 이 시간대가 모든 역의 마지막 열차 출발시각을 뜻하지는 않아요."
+      ],
+      "table": {
+        "headers": [
+          "공항에서 내릴 역",
+          "참고 요금 · 1인",
+          "열차 이동시간",
+          "다음 이동"
+        ],
+        "rows": [
+          [
+            "마카산 (Makkasan)",
+            "35바트",
+            "약 22~25분",
+            "연결 통로 → MRT 펫차부리 (Phetchaburi)"
+          ],
+          [
+            "라차쁘라롭 (Ratchaprarop)",
+            "40바트",
+            "약 25분",
+            "쁘라뚜남 지역 · 숙소까지 도보/차량 이동"
+          ],
+          [
+            "파야타이 (Phaya Thai)",
+            "45바트",
+            "약 26~30분",
+            "BTS 수쿰윗선으로 환승"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "공항철도 8개 역·탑승 상세",
+          "/ko/transport/airports/airport-rail-link/"
+        ]
+      ]
+    },
+    {
+      "id": "map",
+      "title": "ARL·MRT·BTS 실제 노선·환승 지도",
+      "paragraphs": [],
+      "map": "rail"
+    },
+    {
+      "id": "destinations",
+      "title": "숙소·목적지별 어느 역에서 환승하나요?",
+      "paragraphs": [
+        "마카산은 MRT역 이름이 아니에요. ARL 마카산역에서 내려 MRT 펫차부리역으로 걸어 이동한 뒤 블루라인 승차권을 이용하세요. 파야타이에서는 ARL에서 나와 BTS로 이동해요. 다음 교통의 요금은 ARL 요금과 별도예요.",
+        "MRT 구간은 운영사 BEM 계산기의 성인 1회권·짧은 경로 기준이에요. 표의 시간 합계는 열차 안에서 이동하는 시간이며 마카산↔펫차부리 도보·열차 대기·호텔까지 이동은 빠져 있어요."
+      ],
+      "table": {
+        "headers": [
+          "목적지",
+          "환승 경로",
+          "구간별 성인 요금",
+          "합계",
+          "열차 이동시간 · 대기·도보 제외"
+        ],
+        "rows": [
+          [
+            "아속·터미널21",
+            "ARL 마카산 → MRT 펫차부리 → 수쿰윗",
+            "ARL 35 + MRT 17바트",
+            "52바트",
+            "ARL 약 22~25분 + MRT 약 2분 = 약 24~27분"
+          ],
+          [
+            "실롬",
+            "ARL 마카산 → MRT 펫차부리 → 실롬",
+            "ARL 35 + MRT 27바트",
+            "62바트",
+            "ARL 약 22~25분 + MRT 약 10분 = 약 32~35분"
+          ],
+          [
+            "왓포·왕궁 주변",
+            "ARL 마카산 → MRT 펫차부리 → 사남차이",
+            "ARL 35 + MRT 39바트",
+            "74바트",
+            "ARL 약 22~25분 + MRT 약 19분 = 약 41~44분"
+          ],
+          [
+            "시암",
+            "ARL 파야타이 → BTS 수쿰윗선 케하 방면 → 시암",
+            "ARL 45바트 + BTS 별도",
+            "BTS 발매기·공식 계산기 요금 추가",
+            "ARL 약 26~30분 + BTS 2개 역 이동"
+          ],
+          [
+            "카오산",
+            "S1 또는 택시·차량 호출 비교",
+            "선택한 수단에 따라 달라짐",
+            "승차 전 최종 금액 확인",
+            "ARL 직결역 없음"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "방콕 전체 노선·역 상세",
+          "/ko/transport/bangkok/"
+        ],
+        [
+          "MRT 공식 요금·열차시간 계산기",
+          "https://metro.bemplc.co.th/Fare-Calculation?lang=EN"
+        ],
+        [
+          "BTS 공식 요금·시간 계산기",
+          "https://www.bts.co.th/eng/routemap.html"
+        ]
+      ]
+    },
+    {
+      "id": "stations",
+      "title": "공항에서 시내 방향으로 정차하는 8개 역",
+      "paragraphs": [],
+      "table": {
+        "headers": [
+          "정차 순서",
+          "역",
+          "공항 출발 참고 요금"
+        ],
+        "rows": [
+          [
+            "1",
+            "수완나품 (Suvarnabhumi)",
+            "출발역"
+          ],
+          [
+            "2",
+            "랏끄라방 (Lat Krabang)",
+            "15바트"
+          ],
+          [
+            "3",
+            "반탑창 (Ban Thap Chang)",
+            "20바트"
+          ],
+          [
+            "4",
+            "후아막 (Hua Mak)",
+            "25바트"
+          ],
+          [
+            "5",
+            "람캄행 (Ramkhamhaeng)",
+            "30바트"
+          ],
+          [
+            "6",
+            "마카산 (Makkasan)",
+            "35바트"
+          ],
+          [
+            "7",
+            "라차쁘라롭 (Ratchaprarop)",
+            "40바트"
+          ],
+          [
+            "8",
+            "파야타이 (Phaya Thai)",
+            "45바트"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "boarding",
+      "title": "공항에서 표를 사고 열차에 타는 순서",
+      "paragraphs": [],
+      "steps": [
+        [
+          "지하 1층으로 내려가기",
+          "도착장에서 Airport Rail Link 표지판을 따라 엘리베이터·에스컬레이터로 B1에 내려가세요."
+        ],
+        [
+          "목적지 역을 정하기",
+          "MRT 환승은 Makkasan, BTS 환승은 Phaya Thai를 선택하세요. 호텔이 Ratchaprarop 가까이에 있다면 도보 경로도 비교하세요."
+        ],
+        [
+          "발매기·매표소에서 승차권 구매",
+          "내릴 역과 표시된 요금을 확인해 승차권을 구매하세요. 발매기의 결제 안내를 따르고 인원별 표를 준비하세요."
+        ],
+        [
+          "승강장에서 시내 방면 확인",
+          "Phaya Thai 방면 표지판을 확인하고 열차에 타세요. 짐을 통로·출입문에 두지 않도록 정리하세요."
+        ],
+        [
+          "환승역 하차·다음 표 구매",
+          "Makkasan에서는 Phetchaburi MRT, Phaya Thai에서는 BTS 연결 표지판을 따라 이동해요. ARL 표가 다음 교통 표까지 포함한다고 생각하지 마세요."
+        ]
+      ]
+    },
+    {
+      "id": "makkasan",
+      "title": "마카산에서 MRT 펫차부리로 환승하기",
+      "paragraphs": [
+        "마카산에서 내린 뒤 MRT 연결 표지판을 따라 펫차부리역으로 이동하세요. 같은 이름의 MRT 마카산역을 찾으면 헷갈려요. 공항철도역과 지하철역의 이름이 달라요.",
+        "수쿰윗·실롬·사남차이 쪽으로 갈 때는 MRT 블루라인의 목적지 방향을 확인하세요. 환승통로 도보와 다음 열차 대기·마지막 숙소 도보를 열차시간에 더하세요."
+      ],
+      "links": [
+        [
+          "마카산 → 펫차부리 실제 도보 경로",
+          "https://www.google.com/maps/dir/?api=1&origin=Makkasan+Airport+Rail+Link+Station&destination=Phetchaburi+MRT+Station&travelmode=walking"
+        ]
+      ]
+    },
+    {
+      "id": "phayathai",
+      "title": "파야타이에서 BTS로 환승하기",
+      "paragraphs": [
+        "ARL 종점 파야타이에서 내려 BTS 연결 표지판을 따라가세요. 시암으로 갈 때는 수쿰윗선 케하 방면을 이용해 라차테위 다음 시암에서 내리면 돼요. BTS 요금은 별도예요."
+      ]
+    },
+    {
+      "id": "other",
+      "title": "함께 비교할 공항 교통",
+      "paragraphs": [],
+      "links": [
+        [
+          "수완나품 층별 택시·Grab·픽업",
+          "/ko/transport/airports/suvarnabhumi-to-bangkok/"
+        ],
+        [
+          "수완나품↔돈므앙 공항 환승",
+          "/ko/transport/airports/suvarnabhumi-don-mueang/"
+        ]
+      ]
+    }
+  ],
+  "faq": [
+    [
+      "공항철도는 어느 층에서 타나요?",
+      "수완나품 메인 터미널 지하 1층(B1)에서 타요. 마카산에서 MRT, 파야타이에서 BTS로 환승할 수 있어요."
+    ],
+    [
+      "마카산에서 MRT로 바로 갈아탈 수 있나요?",
+      "ARL에서 내려 연결 통로로 MRT 펫차부리역에 이동해요. MRT 승차권·요금은 별도예요."
+    ],
+    [
+      "마카산까지 35바트에 MRT 요금도 포함되나요?",
+      "아니요. ARL 구간 요금이에요. 펫차부리에서 다음 MRT 구간의 승차권·결제수단을 별도로 이용하세요."
+    ],
+    [
+      "공항에서 시내까지 30분이면 호텔에 도착하나요?",
+      "약 26~30분은 파야타이까지 열차 이동 안내예요. 대기·환승·호텔까지 이동시간을 더해야 해요."
+    ]
+  ],
+  "sources": [
+    [
+      "AOT 공항철도 위치·운행시간",
+      "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+    ],
+    [
+      "태국 관광청 ARL 역별 시간·환승",
+      "https://www.thailandtravel.or.jp/bkk-city-transfer/"
+    ],
+    [
+      "SRT 공개 ARL 요금표",
+      "https://railway.co.th/RailwayMiddleFile/NewsAndActImg/63/G08.pdf"
+    ],
+    [
+      "BEM 공식 계산기: BL21→BL22·BL26·BL31 성인요금/짧은경로",
+      "https://metro.bemplc.co.th/Fare-Calculation?lang=EN"
+    ]
+  ]
+}

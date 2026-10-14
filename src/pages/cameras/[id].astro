@@ -1,0 +1,7 @@
+---
+import { cameras } from '../../data/cameras';
+import CameraDetail from '../../components/CameraDetail.astro';
+export function getStaticPaths() { return cameras.map(camera=>({params:{id:camera.id},props:{camera}})); }
+const {camera}=Astro.props;
+---
+<CameraDetail camera={camera} autoDetect />

@@ -1,0 +1,8 @@
+---
+import CameraDetail from '../../../components/CameraDetail.astro';
+import { locales } from '../../../i18n/locales';
+import { cameras } from '../../../data/cameras';
+export function getStaticPaths() { return locales.flatMap(locale=>cameras.map(camera=>({params:{locale:locale.code,id:camera.id},props:{locale:locale.code,camera}}))); }
+const {locale,camera}=Astro.props;
+---
+<CameraDetail locale={locale} camera={camera} />

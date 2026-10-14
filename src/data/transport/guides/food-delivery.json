@@ -1,0 +1,207 @@
+{
+  "id": "food-delivery",
+  "parentUrl": "/ko/#food",
+  "parentName": "맛집·음식배달",
+  "title": "태국 음식배달 앱 | GrabFood·LINE MAN·ShopeeFood·Robinhood 이용 안내",
+  "name": "태국 음식배달",
+  "english": "Food Delivery in Thailand",
+  "intro": "호텔에서 쉬면서 식사를 해결하고 싶다면 음식배달을 살펴보세요. 배달받을 위치를 지정한 뒤 주문 가능한 가게와 배달비·예상시간을 확인하면 돼요. 호텔에서는 음식 수령 장소를 프런트에 확인해 두세요.",
+  "summary": [
+    [
+      "GrabFood",
+      "앱의 배달 주소 기준",
+      "Grab 앱에서 Food 선택",
+      "앱에서 최종 금액 확인"
+    ],
+    [
+      "LINE MAN",
+      "태국 내 지정 주소",
+      "LINE MAN 음식배달 메뉴 선택",
+      "앱에서 최종 금액 확인"
+    ],
+    [
+      "ShopeeFood",
+      "앱에서 지정한 배달 주소",
+      "ShopeeFood 음식배달 메뉴 선택",
+      "앱에서 최종 금액 확인"
+    ],
+    [
+      "Robinhood",
+      "방콕 및 인근 지역",
+      "Robinhood 음식배달 메뉴 선택",
+      "앱에서 최종 금액 확인"
+    ]
+  ],
+  "sections": [
+    {
+      "id": "platform",
+      "title": "태국에서 GrabFood 이용하기",
+      "paragraphs": [
+        "GrabFood 태국 공식 서비스는 음식·음료 배달과 매장 픽업을 안내하고 있어요. 주문 가능한 가게는 지정한 배달 위치에 따라 달라져요."
+      ],
+      "links": [
+        [
+          "GrabFood 가입·결제·호텔 배달·취소 상세 안내",
+          "/ko/food-delivery/grabfood/"
+        ],
+        [
+          "GrabFood 공식 서비스",
+          "https://www.grab.com/th/en/food/"
+        ]
+      ]
+    },
+    {
+      "id": "order",
+      "title": "호텔로 음식 주문하는 순서",
+      "steps": [
+        [
+          "주소와 지도 핀 확인",
+          "호텔 이름·주소와 지도 핀이 맞는지 확인하고 프런트에 수령 장소를 물어보세요."
+        ],
+        [
+          "메뉴와 주문 방식 선택",
+          "음식과 옵션을 고르고 배달인지 매장 픽업인지 확인하세요."
+        ],
+        [
+          "총금액·결제수단 확인",
+          "메뉴 금액과 배달비 등 최종 금액을 확인한 뒤 결제수단을 선택하세요."
+        ],
+        [
+          "약속한 장소에서 수령",
+          "앱 안내를 확인하고 수령 장소로 이동하세요. 현금 주문이라면 필요한 금액을 준비하세요."
+        ]
+      ]
+    },
+    {
+      "id": "fees",
+      "title": "배달비와 결제수단",
+      "paragraphs": [
+        "GrabFood 공식 FAQ는 메뉴 금액과 배달비를 구분하고, 배달비가 음식점과 배달 위치 사이 거리에 따라 계산된다고 안내해요. 최종 금액은 주문 화면에서 확인하세요.",
+        "현금·신용카드·체크카드·GrabPay가 안내돼 있어요. 계정에서 실제 사용 가능한 수단을 확인하세요. 큰 지폐로 현금 결제할 계획이라면 앱 채팅으로 기사에게 알려 주세요."
+      ]
+    },
+    {
+      "id": "hours",
+      "title": "밤늦게 주문할 때",
+      "paragraphs": [
+        "서비스 운영과 음식점 영업시간은 달라요. 닫힌 가게는 앱에서 주문할 수 없으니 현재 위치에서 주문 가능한 곳과 예상 배달시간을 확인하세요."
+      ]
+    },
+    {
+      "id": "help",
+      "title": "주문 문의와 환불 확인",
+      "paragraphs": [
+        "주문 내역을 보관하고 해당 주문의 고객지원에서 문의하세요. 취소·환불 조건은 주문 상태와 서비스에 따라 달라요."
+      ],
+      "links": [
+        [
+          "Grab 고객지원",
+          "https://help.grab.com/"
+        ]
+      ]
+    },
+    {
+      "id": "line-man",
+      "title": "라인맨 음식배달",
+      "paragraphs": [
+        "태국 내 지정 주소에서 LINE MAN의 음식배달을 살펴보세요. 호텔 주소를 지정한 뒤 주문 가능한 음식점과 배달비를 확인하면 돼요.",
+        "음식배달·차량호출·생활용품 주문 기능이 함께 있는 앱이에요. LINE ID를 준비하고 음식배달 메뉴를 선택하세요."
+      ],
+      "links": [
+        [
+          "주문·이용 안내",
+          "/ko/food-delivery/line-man/"
+        ]
+      ]
+    },
+    {
+      "id": "shopeefood",
+      "title": "쇼피푸드 음식배달",
+      "paragraphs": [
+        "앱에서 지정한 배달 주소에서 ShopeeFood의 음식배달을 살펴보세요. 호텔 주소를 지정한 뒤 주문 가능한 음식점과 배달비를 확인하면 돼요.",
+        "태국 Shopee 앱 안의 ShopeeFood 메뉴에서 음식을 주문해요. 일반 쇼핑 상품 배송과 음식배달을 구분하세요. 태국 Shopee 앱은 태국어·영어·미얀마어 지원을 안내해요."
+      ],
+      "links": [
+        [
+          "주문·이용 안내",
+          "/ko/food-delivery/shopeefood/"
+        ]
+      ]
+    },
+    {
+      "id": "robinhood",
+      "title": "로빈후드 음식배달",
+      "paragraphs": [
+        "방콕 및 인근 지역에서 Robinhood의 음식배달을 살펴보세요. 호텔 주소를 지정한 뒤 주문 가능한 음식점과 배달비를 확인하면 돼요.",
+        "운영사 공식 앱 설명은 방콕과 인근 지역의 음식점을 안내하고 있어요. 배달 가능한 가게는 현재 위치에 따라 확인하세요."
+      ],
+      "links": [
+        [
+          "주문·이용 안내",
+          "/ko/food-delivery/robinhood/"
+        ]
+      ]
+    }
+  ],
+  "faq": [
+    [
+      "호텔 방까지 배달받을 수 있나요?",
+      "호텔의 수령 규정에 따라 달라요. 프런트에 수령 장소를 확인하세요."
+    ],
+    [
+      "현금 주문이 가능한가요?",
+      "공식 FAQ에 현금 결제가 안내돼 있어요. 주문 화면의 실제 사용 가능한 수단을 확인하세요."
+    ],
+    [
+      "배달과 픽업은 다른가요?",
+      "배달은 지정한 주소로 받고 픽업은 선택한 음식점에서 직접 수령해요."
+    ]
+  ],
+  "links": [
+    [
+      "택시·Grab 이용 안내",
+      "/ko/transport/guides/taxi/"
+    ],
+    [
+      "도시별 루프탑",
+      "/ko/rooftops/"
+    ],
+    [
+      "라인맨 이용 안내",
+      "/ko/food-delivery/line-man/"
+    ],
+    [
+      "쇼피푸드 이용 안내",
+      "/ko/food-delivery/shopeefood/"
+    ],
+    [
+      "로빈후드 이용 안내",
+      "/ko/food-delivery/robinhood/"
+    ]
+  ],
+  "sources": [
+    [
+      "GrabFood 공식 서비스와 FAQ",
+      "https://www.grab.com/th/en/food/"
+    ],
+    [
+      "운영사 LINE MAN 앱 안내",
+      "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+    ],
+    [
+      "운영사 ShopeeFood 앱 안내",
+      "https://play.google.com/store/apps/details?id=com.shopee.th"
+    ],
+    [
+      "운영사 Robinhood 앱 안내",
+      "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+    ]
+  ],
+  "eyebrow": "THAILAND FOOD DELIVERY",
+  "summaryTitle": "음식배달 앱 고르기",
+  "summaryLabels": [
+    "이용 지역",
+    "주문 방법",
+    "비용 확인"
+  ]
+}

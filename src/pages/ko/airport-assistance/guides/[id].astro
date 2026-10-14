@@ -1,0 +1,27 @@
+---
+import CaatGuideContent from '../../../../components/CaatGuideContent.astro';
+import AirportStaffPhrases from '../../../../components/AirportStaffPhrases.astro';
+import AirportGuideAirlines from '../../../../components/AirportGuideAirlines.astro';
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import AirportImportantText from '../../../../components/AirportImportantText.astro';
+import data from '../../../../../public/data/airport-assistance.json';
+import AirportAssistanceDetail from '../../../../components/AirportAssistanceDetail.astro';
+export function getStaticPaths(){return data.guides.map(guide=>({params:{id:guide.id},props:{guide}}));}
+const {guide:g}=Astro.props as {guide:any};
+const staffCategories=g.id==='flight-delayed'?['delay-certificate','rebooking','refund-inquiry','meal-accommodation']:g.id==='flight-cancelled'?['cancellation-certificate','rebooking','refund-inquiry']:/certificate|confirmation|flight-evidence/.test(g.id)?['delay-certificate','cancellation-certificate']:/damaged-baggage|baggage-damage|baggage-claim|baggage-notice|baggage-report/.test(g.id)?['baggage-damage-pir']:[];
+const guideSources=[...new Set([...(g.sources||[]),...(g.sections?.flatMap((section:any)=>section.sources||[])||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportAssistanceDetail editorial={g.id==='caat-passenger-rights'} title={g.title} description={g.description || "한국과 태국 사이를 여행하다 생긴 항공편·수하물 문제를 공항에서 접수하고 필요한 자료를 챙기는 방법입니다."}>
+{g.id==='caat-passenger-rights'?<CaatGuideContent guide={g}/>:<>
+<section>{g.text.split('\n').filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale={"ko"}/></p>)}</section>
+{g.thresholds?.length>0&&<section><h2>태국 출발 정기 국제선: 지연 시간별 지원</h2>{g.thresholds.map((row:any)=><article><h3>{row.label}</h3><p>{row.text}</p><small>CAB 제101호 {row.article} · 금전 보상 예외는 아래에서 확인하세요.</small></article>)}</section>}
+{g.sections?.filter((section:any)=>section.text).map((section:any)=><section><h2>{section.title}</h2>{section.text.split('\n').filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale={"ko"}/></p>)}{section.actions?.map((action:any)=><p><a href={action.url}>{action.label} →</a></p>)}<AirportSourceReferences sources={section.sources||[]} pageSources={guideSources} locale={"ko"}/></section>)}
+{g.actions?.length>0&&<section><h2>바로 확인하기</h2><div class="links">{g.actions.map((action:any)=><a href={action.url}>{action.label} →</a>)}</div></section>}
+<AirportGuideAirlines locale="ko" guide={g}/>
+{g.faq?.length>0&&<section><h2>자주 묻는 질문</h2>{g.faq.map((item:any)=><details><summary>{item.q}</summary><p><AirportImportantText text={item.a} phrases={g.highlights||[]} locale={"ko"}/></p></details>)}</section>}
+{g.faq?.length>0&&<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:g.faq.map((item:any)=>({'@type':'Question',name:item.q,acceptedAnswer:{'@type':'Answer',text:item.a}}))}).replaceAll('<','\\u003c')}/>}
+{staffCategories.length>0&&<AirportStaffPhrases categories={staffCategories}/> }
+<AirportSources sources={guideSources} checkedAt={g.checkedAt}/>
+</>}
+</AirportAssistanceDetail>

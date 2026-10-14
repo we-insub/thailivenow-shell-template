@@ -1,0 +1,128 @@
+{
+  "ms": {
+    "title": "Ayat bahasa Thai untuk ditunjukkan kepada petugas",
+    "intro": "Pilih gaya bahasa lelaki atau perempuan mengikut orang yang bercakap, kemudian tunjukkan ayat bahasa Thai yang diperlukan kepada petugas atau salin untuk disampaikan.",
+    "speaker": "Orang yang bercakap",
+    "male": "Lelaki",
+    "female": "Perempuan",
+    "copy": "Salin ayat",
+    "copied": "Ayat disalin",
+    "copyFallback": "Ayat tidak dapat disalin. Pilih teks dan salin sendiri.",
+    "phrases": {
+      "SP-01": {
+        "label": "Minta surat pengesahan kelewatan",
+        "situation": "Apabila bertanya tentang surat pengesahan di kaunter atau pintu pelepasan bagi penerbangan yang lewat",
+        "meaning": "Penerbangan yang saya tempah telah lewat. Bolehkah saya mendapatkan surat pengesahan kelewatan penerbangan?"
+      },
+      "SP-02": {
+        "label": "Minta surat pengesahan pembatalan",
+        "situation": "Apabila penerbangan tempahan dibatalkan dan anda bertanya tentang surat pengesahan di kaunter syarikat penerbangan",
+        "meaning": "Penerbangan yang saya tempah telah dibatalkan. Bolehkah saya mendapatkan surat pengesahan pembatalan penerbangan?"
+      },
+      "SP-03": {
+        "label": "Tanya tentang penerbangan lain",
+        "situation": "Apabila bertanya di kaunter syarikat penerbangan sama ada boleh menukar kepada penerbangan lain selepas pembatalan atau kelewatan",
+        "meaning": "Bolehkah saya ditukarkan kepada penerbangan lain?"
+      },
+      "SP-04": {
+        "label": "Tanya cara mendapatkan bayaran balik",
+        "situation": "Apabila ingin mendapatkan bayaran balik tiket dan bertanya tentang prosedurnya di kaunter syarikat penerbangan atau kaunter tiket",
+        "meaning": "Saya ingin mendapatkan bayaran balik tiket penerbangan. Bagaimanakah caranya?"
+      },
+      "SP-05": {
+        "label": "Tanya tentang bantuan makanan dan penginapan",
+        "situation": "Apabila penerbangan lewat lama dan anda bertanya kepada petugas syarikat penerbangan tentang bantuan makanan atau penginapan",
+        "meaning": "Penerbangan ini sudah lama lewat. Adakah syarikat penerbangan menyediakan makanan atau penginapan untuk penumpang?"
+      },
+      "SP-06": {
+        "label": "Tanya tempat melaporkan bagasi rosak",
+        "situation": "Apabila mendapati bagasi rosak selepas ketibaan dan bertanya kepada petugas bagasi tentang tempat membuat laporan serta meminta dokumen PIR",
+        "meaning": "Beg perjalanan saya rosak. Di manakah saya boleh melaporkannya dan meminta dokumen PIR?"
+      }
+    }
+  },
+  "zh-cn": {
+    "title": "向工作人员出示的泰语句子",
+    "intro": "请按说话者选择男性或女性表达，再将需要的泰语句子出示给工作人员，或复制后转交。",
+    "speaker": "说话者",
+    "male": "男性",
+    "female": "女性",
+    "copy": "复制句子",
+    "copied": "已复制句子",
+    "copyFallback": "无法复制，请选中文本后手动复制。",
+    "phrases": {
+      "SP-01": {
+        "label": "请求延误证明",
+        "situation": "在延误航班的柜台或登机口询问是否可以开具证明时",
+        "meaning": "我预订的航班延误了，可以开具航班延误证明吗？"
+      },
+      "SP-02": {
+        "label": "请求取消证明",
+        "situation": "预订航班取消后，在航空公司柜台询问是否可以开具证明时",
+        "meaning": "我预订的航班取消了，可以开具航班取消证明吗？"
+      },
+      "SP-03": {
+        "label": "询问其他航班",
+        "situation": "航班取消或延误时，在航空公司柜台询问能否改到其他航班",
+        "meaning": "可以帮我改到其他航班吗？"
+      },
+      "SP-04": {
+        "label": "询问退款手续",
+        "situation": "希望退还机票费用，在航空公司柜台或售票窗口询问办理手续时",
+        "meaning": "我想退还机票费用，请问该怎么办理？"
+      },
+      "SP-05": {
+        "label": "询问餐饮和住宿支持",
+        "situation": "航班长时间延误时，向航空公司工作人员询问是否提供餐饮或住宿",
+        "meaning": "航班已经延误很久了，航空公司会为乘客提供餐饮或住宿吗？"
+      },
+      "SP-06": {
+        "label": "询问行李损坏申报窗口",
+        "situation": "到达后发现行李损坏，向行李工作人员询问报告问题及申请PIR的窗口时",
+        "meaning": "我的行李箱损坏了，应该去哪里报告并申请PIR文件？"
+      }
+    }
+  },
+  "es": {
+    "title": "Frases en tailandés para mostrar al personal",
+    "intro": "Seleccione la forma masculina o femenina según quién hable y después muestre al personal la frase en tailandés que necesite o cópiela para enviársela.",
+    "speaker": "Quién habla",
+    "male": "Hombre",
+    "female": "Mujer",
+    "copy": "Copiar frase",
+    "copied": "Frase copiada",
+    "copyFallback": "No se pudo copiar. Seleccione el texto y cópielo manualmente.",
+    "phrases": {
+      "SP-01": {
+        "label": "Pedir un certificado de retraso",
+        "situation": "Al preguntar por un certificado en el mostrador o la puerta de embarque de un vuelo retrasado",
+        "meaning": "El vuelo que reservé se ha retrasado. ¿Podría obtener un certificado del retraso del vuelo?"
+      },
+      "SP-02": {
+        "label": "Pedir un certificado de cancelación",
+        "situation": "Al preguntar por un certificado en el mostrador de la aerolínea después de que se cancele el vuelo reservado",
+        "meaning": "El vuelo que reservé se ha cancelado. ¿Podría obtener un certificado de cancelación del vuelo?"
+      },
+      "SP-03": {
+        "label": "Preguntar por otro vuelo",
+        "situation": "Al preguntar en el mostrador de la aerolínea si puede cambiar a otro vuelo tras una cancelación o un retraso",
+        "meaning": "¿Podría cambiarme a otro vuelo?"
+      },
+      "SP-04": {
+        "label": "Preguntar cómo solicitar un reembolso",
+        "situation": "Al preguntar por el procedimiento en el mostrador de la aerolínea o de venta de billetes porque quiere un reembolso",
+        "meaning": "Quisiera que me reembolsaran el billete de avión. ¿Cómo puedo solicitarlo?"
+      },
+      "SP-05": {
+        "label": "Preguntar por comida y alojamiento",
+        "situation": "Al preguntar al personal de la aerolínea por comida o alojamiento después de un retraso prolongado",
+        "meaning": "El vuelo lleva mucho tiempo de retraso. ¿La aerolínea ofrece comida o alojamiento a los pasajeros?"
+      },
+      "SP-06": {
+        "label": "Preguntar dónde comunicar daños en el equipaje",
+        "situation": "Al encontrar daños en el equipaje a la llegada y preguntar al personal dónde comunicarlo y solicitar un PIR",
+        "meaning": "Mi maleta está dañada. ¿Dónde puedo comunicarlo y solicitar un documento PIR?"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+---
+import DetailHeader from './DetailHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import AirportSources from './AirportSources.astro';
+import food from '../data/food.json';
+import '../styles/food.css';
+const {title,description,breadcrumbs=[],sourceIds=[],faq=[]}=Astro.props;
+const sourceRows=[...new Set(sourceIds)].map((id)=>food.sources[id]).filter(Boolean);
+const schema={'@context':'https://schema.org','@graph':[{'@type':'Article',headline:title,description,inLanguage:'ko'},...(faq.length?[{'@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}]:[])]};
+---
+<!doctype html><html lang="ko"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title} | ThaiLiveNow</title><meta name="description" content={description}/><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013"/><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013"/><script type="application/ld+json" set:html={JSON.stringify(schema)}/></head><body><a class="food-skip" href="#food-main">본문으로 이동</a><DetailHeader/><main class="thai-detail food-page" id="food-main"><nav class="food-breadcrumb" aria-label="현재 위치"><a href="/ko/">홈</a><span aria-hidden="true">/</span>{breadcrumbs.map(([label,url])=><><a href={url}>{label}</a><span aria-hidden="true">/</span></>)}<span aria-current="page">{title}</span></nav><slot/><section class="food-sources"><h2>공식 자료와 출처</h2><p>음식과 지역의 이야기가 궁금하시면 아래 자료도 함께 읽어보세요. 재료와 조리법은 가게마다 다를 수 있어요.</p><AirportSources sources={sourceRows.map(row=>row[1])} idPrefix="food-source" labeler={(url)=>sourceRows.find(row=>row[1]===url)?.[0]||new URL(url).hostname}/></section></main><SiteFooter/></body></html>

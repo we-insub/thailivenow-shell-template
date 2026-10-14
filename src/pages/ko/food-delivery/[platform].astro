@@ -1,0 +1,10 @@
+---
+import TransportGuidePage from '../../../components/TransportGuidePage.astro';
+import grabfood from '../../../data/transport/guides/grabfood.json';
+import lineMan from '../../../data/transport/guides/line-man.json';
+import shopeefood from '../../../data/transport/guides/shopeefood.json';
+import robinhood from '../../../data/transport/guides/robinhood.json';
+export function getStaticPaths(){return [grabfood,lineMan,shopeefood,robinhood].map(guide=>({params:{platform:guide.id},props:{guide}}));}
+const {guide}=Astro.props;
+---
+<TransportGuidePage guide={guide}/>

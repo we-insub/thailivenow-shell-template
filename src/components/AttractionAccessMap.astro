@@ -1,0 +1,49 @@
+---
+import transit from '../data/transit-pilot/transit-data.json';
+const access = transit.attractionAccess[0].links;
+const places = [
+  {id:'A',name:'MRT Itsaraphap역',lng:100.485306,lat:13.738417,url:'/ko/transport/stations/itsaraphap/',text:'Itsaraphap역에서 왓아룬까지는 도보로 약 15분(1.1km)이 걸려요. 이싸라팝 로드에서 왕덤 로드로 이어지는 길을 따라 걸어가요. 역과 사원이 같은 강 서쪽에 있어 배를 탈 필요는 없어요.'},
+  {id:'B',name:'Wat Arun 선착장',lng:100.4890067,lat:13.7449384,url:'/ko/transport/piers/wat-arun/',text:'Wat Arun 선착장에서 왓아룬까지는 도보로 약 3분(260m)이 걸려요. 배에서 내린 뒤 왕덤 로드를 따라 사원 쪽으로 걸어가면 돼요.'},
+  {id:'C',name:'Tha Tien 선착장',lng:100.49039,lat:13.74578,url:'/ko/transport/piers/tha-tien/',text:'Tha Tien 선착장에서 횡단페리로 강을 건너는 데 약 3분, 왓아룬 쪽 선착장에서 사원까지 걷는 데 약 3분(260m)이 걸려요. 배를 기다리는 시간은 별도이므로 여유를 두고 이동해 주세요.'},
+];
+---
+<section class="access-section" aria-labelledby="access-title">
+  <h2 id="access-title">왓아룬 가는 방법 · 역과 선착장 지도</h2>
+  <p>왓아룬 (Wat Arun)과 주변 역·선착장 이름을 지도에서 확인해 보세요. 핀을 누르면 해당 이동 안내를 볼 수 있어요.</p>
+  <div id="attraction-access-map" data-points={JSON.stringify(places)} aria-label="왓아룬과 주변 MRT역·선착장 지도"></div>
+  <p id="access-map-status" role="status"></p>
+  <div class="access-cards">{places.map(p => <article id={`access-${p.id}`}><h3><button data-access-point={p.id}>{p.name}</button></h3><p>{p.text}</p><div class="access-links"><a href={p.url}>{p.id === 'A' ? '역 안내 →' : '선착장 안내 →'}</a><a target="_blank" rel="noopener noreferrer" href={access.find(item => item.node_id === (p.id === 'A' ? 'itsaraphap' : p.id === 'B' ? 'wat-arun' : 'tha-tien'))?.route_url}>{p.id === 'C' ? '하선 후 도보 경로 ↗' : '도보 길찾기 ↗'}</a></div></article>)}</div>
+  <p class="access-note">도보 시간은 Google 지도의 사원 위치 기준 예상치예요. 이용 출구와 실제 입장 지점, 걷는 속도에 따라 달라질 수 있어요. 페리 약 3분은 Wat-Arun.com 방문 안내 기준이며 대기시간은 제외했어요.</p>
+  <details><summary>지도 위치 출처</summary><a href="https://en.wikipedia.org/wiki/Wat_Arun">왓아룬</a> · <a href="https://en.wikipedia.org/wiki/Itsaraphap_MRT_station">Itsaraphap역</a> · <a href="https://mapcarta.com/N3493488226">Wat Arun 선착장(OSM)</a> · <a href="https://mapcarta.com/W1020887825">Tha Tien 선착장(OSM)</a></details>
+  <p><a href="https://www.wat-arun.com/gettingthere" target="_blank" rel="noopener noreferrer">페리 이동시간 출처 ↗</a></p><p><a href="/ko/transport/">방콕 철도·보트 노선 보기 →</a></p>
+</section>
+<script>
+import { Map } from '../scripts/resilient-map';
+  import { Marker, NavigationControl, setWorkerUrl } from 'maplibre-gl';
+  import workerUrl from 'maplibre-gl/dist/maplibre-gl-csp-worker.js?url';
+  import 'maplibre-gl/dist/maplibre-gl.css';
+  setWorkerUrl(workerUrl);
+  const container = document.getElementById('attraction-access-map');
+  if (container) {
+    const map = new Map({container,center:[100.488,13.742],zoom:14.8,scrollZoom:false});
+    map.addControl(new NavigationControl(),'top-right');
+    map.fitBounds([[100.4847,13.7379],[100.4910,13.7463]],{padding:{top:52,bottom:52,left:90,right:90},duration:0});
+    const points = JSON.parse(container.dataset.points!);
+    function select(id: string) {
+      const point = points.find((p: {id:string})=>p.id===id);
+      if (!point) return;
+      map.flyTo({center:[point.lng,point.lat],zoom:16});
+      document.querySelectorAll('.access-cards article').forEach(el=>el.classList.toggle('selected',el.id===`access-${id}`));
+      document.getElementById('access-map-status')!.textContent = point.name;
+    }
+    for (const p of [...points,{id:'명소',name:'왓아룬 (Wat Arun)',lng:100.48889,lat:13.74361}]) {
+      const button=document.createElement('button'); button.className=`access-marker ${p.id==='명소' ? 'attraction' : ''}`; button.textContent=p.name;button.setAttribute('aria-label',p.name); button.addEventListener('click',()=>select(p.id));
+      new Marker({element:button}).setLngLat([p.lng,p.lat]).addTo(map);
+    }
+    document.querySelectorAll<HTMLButtonElement>('[data-access-point]').forEach(button=>button.addEventListener('click',()=>select(button.dataset.accessPoint!)));
+    map.on('error',()=>{document.getElementById('access-map-status')!.textContent='지도 연결을 확인해 주세요. 아래 경로별 길찾기를 이용할 수 있어요.';});
+  }
+</script>
+<style>
+#attraction-access-map{height:420px;width:100%;border:1px solid #e4eaee;border-radius:14px;overflow:hidden}.access-cards{display:grid;gap:12px;margin-top:18px}.access-cards article{padding:18px;border:1px solid #e4eaee;border-radius:12px;background:#f7f9fc}.access-cards article.selected{border-color:#0b5fa5;background:#edf5ff}.access-cards h3{margin:0}.access-cards h3 button{display:flex;align-items:center;gap:12px;border:0;background:none;font:inherit;color:#253545;text-align:left;cursor:pointer;padding:0}.access-cards b{display:grid;place-items:center;background:#0b5fa5;color:#fff;border-radius:50%;width:32px;height:32px;flex-shrink:0}.access-links{display:flex;gap:20px;flex-wrap:wrap}.access-note,details,#access-map-status{font-size:13px;color:#5a6478}.access-section :global(.access-marker){width:auto;min-height:36px;padding:6px 10px;white-space:nowrap;border-radius:8px;border:3px solid #fff;background:#0b5fa5;color:#fff;font-size:12px;font-weight:800;box-shadow:0 2px 8px #0004;cursor:pointer}.access-section :global(.access-marker.attraction){width:auto;border-radius:8px;background:#e84d47;font-size:12px}@media(max-width:560px){#attraction-access-map{height:360px}.access-cards article{padding:14px}}
+</style>

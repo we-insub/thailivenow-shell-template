@@ -1,0 +1,2553 @@
+{
+  "checkedAt": "2026-10-14",
+  "sources": [
+    "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+    "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT",
+    "https://mapservice.kasikornbank.com/th/app",
+    "https://mapservice.kasikornbank.com/",
+    "https://phuket.airportthai.co.th/service/facility/detail/239"
+  ],
+  "locales": {
+    "ko": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "International arrivals",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Arrival hall and baggage claim",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The international arrival hall is on the first floor of the international terminal.",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "first floor of the international terminal"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "International baggage claim uses belts 1–5.",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "belts 1–5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Check the belt assigned to your flight on the day's information displays.",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departure self check-in",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Self check-in kiosks are in the international departure hall on the third floor.",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "국내선 터미널 2층(출발)"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank 공식 ATM 찾기 · 태국어 페이지",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "의료실과 응급처치실",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "국제선 터미널",
+                      "1층",
+                      "일반구역",
+                      "24시간"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "국내선 터미널",
+                      "1층"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "푸켓공항 ATM은 어디서 확인하나요?",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "KBank 공식 ATM 찾기에서 확인할 수 있어요.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "en-gb": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Phuket Airport international arrivals and self check-in",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Arrival hall and baggage claim",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The international arrival hall is on the first floor of the international terminal.",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "first floor of the international terminal"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "International baggage claim uses belts 1–5.",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "belts 1–5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Check the belt assigned to your flight on the day's information displays.",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:en-gb:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/en-gb.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departure self check-in",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Self check-in kiosks are in the international departure hall on the third floor.",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "third floor"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:en-gb:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/en-gb.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for the 2nd floor (departures), Domestic Terminal, Phuket Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "2nd floor (departures), Domestic Terminal"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai page",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Medical clinic and first aid",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Phuket Airport’s medical clinic is in the public area at Entrance 7 on Level 1 of the international terminal and operates 24 hours a day.",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "Entrance 7",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "The first aid room on Level 1 of the domestic terminal operates Monday to Friday, 08:00–17:00.",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Phuket Airport?",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "15c8e15d0fda1b081a871db939309e2f55580afed44000363b66cf511c3d60e0"
+    },
+    "en-us": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Phuket Airport international arrivals and self check-in",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Arrival hall and baggage claim",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The international arrival hall is on the first floor of the international terminal.",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "first floor of the international terminal"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "International baggage claim uses belts 1–5.",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "belts 1–5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Check the belt assigned to your flight on the day's information displays.",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:en-us:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/en-us.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departure self check-in",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Self check-in kiosks are in the international departure hall on the third floor.",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "third floor"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:en-us:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/en-us.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for the 2nd floor (departures), Domestic Terminal, Phuket Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "2nd floor (departures), Domestic Terminal"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai page",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Medical clinic and first aid",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Phuket Airport’s medical clinic is in the public area at Entrance 7 on Level 1 of the international terminal and operates 24 hours a day.",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "Entrance 7",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "The first aid room on Level 1 of the domestic terminal operates Monday to Friday, 08:00–17:00.",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Phuket Airport?",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "29ccf9ba33d231160b9c4e1181fddb9c23cf97a05f6ece50e27c707bccf50059"
+    },
+    "en-in": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Phuket Airport international arrivals and self check-in",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Arrival hall and baggage claim",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The international arrival hall is on the first floor of the international terminal.",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "first floor of the international terminal"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "International baggage claim uses belts 1–5.",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "belts 1–5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Check the belt assigned to your flight on the day's information displays.",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:en-in:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/en-in.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "International departure self check-in",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Self check-in kiosks are in the international departure hall on the third floor.",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "third floor"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:en-in:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/en-in.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "The KBank official ATM locator lists an ATM entry for the 2nd floor (departures), Domestic Terminal, Phuket Airport.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "2nd floor (departures), Domestic Terminal"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank official ATM locator · Thai page",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Medical clinic and first aid",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Phuket Airport’s medical clinic is in the public area at Entrance 7 on Level 1 of the international terminal and operates 24 hours a day.",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "Entrance 7",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "The first aid room on Level 1 of the domestic terminal operates Monday to Friday, 08:00–17:00.",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "Level 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Where can I check ATMs at Phuket Airport?",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "You can check on the KBank official ATM locator.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "517ec9e405b1f4d3b85c3e7a8b1727aa2ca33ede62051bdde3d8cfd00dabd006"
+    },
+    "ms": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Ketibaan antarabangsa dan daftar masuk sendiri Lapangan Terbang Phuket",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Dewan ketibaan dan tuntutan bagasi",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Dewan ketibaan antarabangsa terletak di tingkat satu terminal antarabangsa.",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "tingkat satu"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Tuntutan bagasi antarabangsa menggunakan tali sawat 1–5.",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "tali sawat 1–5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Semak tali sawat yang diperuntukkan untuk penerbangan anda pada paparan maklumat hari tersebut.",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:ms:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/ms.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Daftar masuk sendiri perlepasan antarabangsa",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Kios daftar masuk sendiri terletak di dewan perlepasan antarabangsa di tingkat tiga.",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "tingkat tiga"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:ms:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/ms.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Pencari ATM rasmi KBank menyenaraikan entri ATM untuk Aras 2 (pelepasan), Terminal Domestik, Lapangan Terbang Phuket.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "Aras 2 (pelepasan), Terminal Domestik"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Pencari ATM rasmi KBank · laman bahasa Thai",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Klinik dan bilik pertolongan cemas",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Klinik Lapangan Terbang Phuket terletak di kawasan awam berhampiran Pintu Masuk 7, Aras 1 terminal antarabangsa, dan beroperasi 24 jam sehari.",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "Aras 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Bilik pertolongan cemas di Aras 1 terminal domestik beroperasi Isnin hingga Jumaat, 08:00–17:00.",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "Aras 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Di manakah saya boleh menyemak ATM di Lapangan Terbang Phuket?",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Anda boleh menyemak di pencari ATM rasmi KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "efe0cba3b288e8ee62020fe0532efc06f62f28c9ce8d0c96bfaa1984d3690546"
+    },
+    "zh-cn": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "普吉机场国际到达与自助值机指南",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "到达厅与行李提取",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "国际到达厅位于国际航站楼一层。",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "国际航站楼一层"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "国际行李提取使用1–5号转盘。",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "1–5号转盘"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "请在当天的显示屏上确认分配给您航班的转盘。",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:zh-cn:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/zh-cn.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "国际出发自助值机",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "自助值机设备在三层国际出发厅。",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "三层国际出发厅"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:zh-cn:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/zh-cn.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查询中登记了普吉机场国内航站楼2层（出发）的ATM条目。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "国内航站楼2层（出发）"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查询 · 泰语页面",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "诊所与急救室",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "普吉机场诊所位于国际航站楼1楼7号入口的公共区域，全天24小时开放。",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "1楼"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "国内航站楼1楼的急救室开放时间为周一至周五08:00–17:00。",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "1楼"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "在哪里可以查询普吉机场的ATM？",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "可以在KBank官方ATM查询中确认。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "e26e12d33fb653ea7a884b252852ca619bc091737878b1e7bdca6811e2d83373"
+    },
+    "zh-tw": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "普吉機場國際到達與自助報到指南",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "到達廳與行李提領",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "國際到達廳位於國際航廈一樓。",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "國際航廈一樓"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "國際行李提領使用1–5號轉盤。",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "1–5號轉盤"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "請在當天的顯示螢幕上確認分配給您航班的轉盤。",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:zh-tw:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/zh-tw.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "國際出發自助報到",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "自助報到設備在三樓國際出發廳。",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "三樓國際出發廳"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:zh-tw:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/zh-tw.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查詢中登記了普吉機場國內航廈2樓（出發）的ATM條目。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "國內航廈2樓（出發）"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank官方ATM查詢 · 泰語頁面",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "診所與急救室",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "普吉機場診所位於國際航廈1樓7號入口的公共區域，全天24小時開放。",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "1樓"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "國內航廈1樓的急救室開放時間為週一至週五08:00–17:00。",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "1樓"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "在哪裡可以查詢普吉機場的ATM？",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "可以在KBank官方ATM查詢中確認。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "255bb443733536ec8827fe041a04667f4022267b844208e36c24ca369e90591b"
+    },
+    "ja": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "プーケット空港 国際線到着・セルフチェックイン案内",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "到着ホールと手荷物受取",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "国際線到着ホールは国際線ターミナル1階にあります。",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "国際線ターミナル1階"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "国際線の手荷物受取はベルト1～5番です。",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "ベルト1～5番"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "当日の案内表示でご自身の便に割り当てられたベルトをご確認ください。",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:ja:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/ja.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "国際線出発セルフチェックイン",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "セルフチェックイン機は3階国際線出発ホールにあります。",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "3階国際線出発ホール"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:ja:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/ja.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "KBank公式ATM検索には、プーケット空港国内線ターミナル2階（出発）のATMが登録されています。",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "国内線ターミナル2階（出発）"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "KBank公式ATM検索 · タイ語ページ",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "診療所と応急処置室",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "プーケット空港の診療所は、国際線ターミナル1階の入口7付近の一般エリアで24時間営業しています。",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "1階"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "国内線ターミナル1階の応急処置室は、月曜から金曜の08:00–17:00に営業しています。",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "1階"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "プーケット空港のATMはどこで確認できますか？",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "KBank公式ATM検索で確認できます。",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "3afd91b992235cdff98e02a4dfe17e28fb1081b9b450ed65a45d689d686c405f"
+    },
+    "ru": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Прилёт международных рейсов и самостоятельная регистрация в аэропорту Пхукета",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Зал прилёта и выдача багажа",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Зал прилёта международных рейсов находится на первом этаже международного терминала.",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "первом этаже международного терминала"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Выдача багажа международных рейсов — ленты 1–5.",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "ленты 1–5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Уточните ленту, назначенную вашему рейсу, на информационных табло в день прилёта.",
+                    "koReview": "도착 당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:ru:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/ru.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Самостоятельная регистрация на международные вылеты",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Киоски самостоятельной регистрации находятся в зале вылета международных рейсов на третьем этаже.",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "третьем этаже"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:ru:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/ru.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "В официальном поиске банкоматов KBank зарегистрирована запись о банкомате на 2-м этаже (зона вылета) внутреннего терминала аэропорта Пхукет.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "2-м этаже (зона вылета) внутреннего терминала"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Официальный поиск банкоматов KBank · страница на тайском языке",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Медицинская клиника и пункт первой помощи",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Клиника аэропорта Пхукета находится в общедоступной зоне у входа 7 на 1-м этаже международного терминала и работает круглосуточно.",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "1-м этаже"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Пункт первой помощи на 1-м этаже внутреннего терминала работает с понедельника по пятницу, 08:00–17:00.",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "08:00–17:00",
+                      "1-м этаже"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "Где можно проверить банкоматы в аэропорту Пхукет?",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Можно проверить в официальном поиске банкоматов KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "7f210ff37bf4aeaa9be2cd3a05b559106abae855e8011f5b0a41fc3f3e8e21ff"
+    },
+    "es": {
+      "content": {
+        "title": {
+          "sentences": [
+            {
+              "text": "Llegadas internacionales y autofacturación del Aeropuerto de Phuket",
+              "koReview": "푸껫공항 국제선 도착과 셀프 체크인 안내"
+            }
+          ]
+        },
+        "sections": [
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Sala de llegadas y recogida de equipaje",
+                  "koReview": "도착홀과 수하물 찾기"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "La sala de llegadas internacionales está en la primera planta de la terminal internacional.",
+                    "koReview": "국제선 도착홀은 국제선 터미널 1층에 있어요.",
+                    "highlights": [
+                      "primera planta de la terminal internacional"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "La recogida de equipaje internacional utiliza las cintas 1–5.",
+                    "koReview": "국제선 수하물은 1–5번 벨트에서 찾아요.",
+                    "highlights": [
+                      "cintas 1–5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "Compruebe en las pantallas de información del día la cinta asignada a su vuelo.",
+                    "koReview": "당일 전광판에서 자신의 편명에 배정된 벨트를 확인하세요.",
+                    "highlights": []
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:es:0",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/es.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "title": {
+              "sentences": [
+                {
+                  "text": "Autofacturación de salidas internacionales",
+                  "koReview": "국제선 출발 셀프 체크인"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "Los quioscos de autofacturación están en la sala de salidas internacionales de la tercera planta.",
+                    "koReview": "셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요.",
+                    "highlights": [
+                      "tercera planta"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-nine-locales-20261014:es:1",
+            "verificationEvidence": [
+              {
+                "artifact": "artifacts/airport-research/facilities-20261014/hkt-nine-locale-batch/es.json",
+                "sources": [
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+                  "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+                ],
+                "checkedAt": "2026-10-14",
+                "scope": "Existing three facility facts. Display-check sentence is visitor action, not a new official facility claim."
+              }
+            ]
+          },
+          {
+            "id": "HKT-ATM-KBANK",
+            "title": {
+              "sentences": [
+                {
+                  "text": "ATM",
+                  "koReview": "(ATM)"
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "El localizador oficial de cajeros de KBank incluye una entrada de cajero para la planta 2 (salidas) de la terminal doméstica del aeropuerto de Phuket.",
+                    "koReview": "(KBank 공식 ATM 찾기에는 푸켓공항 국내선 터미널 2층(출발)의 ATM 항목이 등록되어 있어요.)",
+                    "highlights": [
+                      "KBank",
+                      "planta 2 (salidas) de la terminal doméstica"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "link": {
+              "url": "https://mapservice.kasikornbank.com/th/app",
+              "label": {
+                "sentences": [
+                  {
+                    "text": "Localizador oficial de cajeros de KBank · página en tailandés",
+                    "koReview": "(KBank 공식 ATM 찾기 · 태국어 페이지)"
+                  }
+                ]
+              }
+            },
+            "originThreadKey": "AIRPORT-ORCH-01",
+            "sourceRecordId": "HKT-ATM-KBANK",
+            "verificationEvidence": {
+              "checkedAt": "2026-10-14",
+              "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+              "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+              "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+            }
+          },
+          {
+            "id": "HKT-DIRECT-FACILITIES-20261014",
+            "title": {
+              "sentences": [
+                {
+                  "text": "Clínica y sala de primeros auxilios",
+                  "koReview": "의료실과 응급처치실",
+                  "highlights": []
+                }
+              ]
+            },
+            "body": [
+              {
+                "sentences": [
+                  {
+                    "text": "La clínica del aeropuerto de Phuket está en la zona pública junto a la entrada 7, en la planta 1 de la terminal internacional, y abre las 24 horas.",
+                    "koReview": "푸켓공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+                    "highlights": [
+                      "24",
+                      "planta 1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "sentences": [
+                  {
+                    "text": "La sala de primeros auxilios de la planta 1 de la terminal nacional abre de lunes a viernes, de 08:00 a 17:00.",
+                    "koReview": "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요.",
+                    "highlights": [
+                      "planta 1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "originThreadKey": "CODEX-DIRECT-20261014",
+            "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+            "verificationEvidence": {
+              "researcher": "Codex",
+              "originThreadKey": "CODEX-DIRECT-20261014",
+              "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+              "checkedAt": "2026-10-14",
+              "validity": "Official directory at check date; no fixed validity end stated",
+              "sources": [
+                {
+                  "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+                  "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+                }
+              ],
+              "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+              "fields": [
+                {
+                  "id": "HKT-MED-INTL",
+                  "terminal": "International",
+                  "floor": 1,
+                  "entrance": "7",
+                  "area": "Public",
+                  "hours": "24 hours",
+                  "phone": null
+                },
+                {
+                  "id": "HKT-FIRST-AID-DOM",
+                  "terminal": "Domestic",
+                  "floor": 1,
+                  "hours": "Mon–Fri 08:00–17:00",
+                  "phone": null
+                }
+              ]
+            }
+          }
+        ],
+        "faq": [
+          {
+            "q": {
+              "sentences": [
+                {
+                  "text": "¿Dónde puedo consultar los cajeros del aeropuerto de Phuket?",
+                  "koReview": "(푸켓공항 ATM은 어디서 확인하나요?)"
+                }
+              ]
+            },
+            "a": {
+              "sentences": [
+                {
+                  "text": "Puede consultarlos en el localizador oficial de cajeros de KBank.",
+                  "koReview": "(KBank 공식 ATM 찾기에서 확인할 수 있어요.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullAirportFacilitiesComplete": false,
+      "artifactSha256": "754e204d7ff5d7728c1c53084d25b278ad6a59927cea8acd18ffde0410a4c316"
+    }
+  },
+  "scope": [
+    "HKT-ARR-INTL.terminalFloor",
+    "HKT-ARR-INTL.baggageBelts",
+    "HKT-DEP-INTL.CUSS-floor"
+  ],
+  "evidence": [
+    {
+      "label": "터미널",
+      "quote": "International Terminal: Thai Airways International PLC near Reclaim Baggage No. 5, International Arrival Hall 1st Floor; AOTGA near Reclaim Baggage No. 1.",
+      "status": "quote-verified",
+      "value": "International Terminal"
+    },
+    {
+      "label": "층",
+      "quote": "International Arrival Hall 1st Floor",
+      "status": "quote-verified",
+      "value": "1층 (국제선 도착홀)"
+    },
+    {
+      "label": "수하물 벨트",
+      "quote": "Baggage Claim: No. 1 – 5 for International; No. 6 – 10 for Domestic.",
+      "status": "quote-verified",
+      "value": "1–5번 (국제선)"
+    }
+  ],
+  "rawSha256": "1edd0bc022648ee07c70178bf2a84c915c349b5ddf079a2419142ba9a33e6f4f",
+  "departureEvidence": {
+    "airportCode": "HKT",
+    "checkedAt": "2026-10-14",
+    "facts": [
+      {
+        "label": "출발 체크인 층",
+        "quote": "International Departure Hall on the third Floor",
+        "status": "quote-verified",
+        "value": "3층 (국제선 출발홀)"
+      },
+      {
+        "label": "터미널",
+        "quote": null,
+        "status": "cache-context",
+        "value": "국제선 터미널 (원문 quote는 'International Departure Hall'까지)"
+      },
+      {
+        "label": "셀프 체크인 기기",
+        "quote": "CUSS: Domestic Departure Hall on the second Floor: 30 machines; International Departure Hall on the third Floor: 50 machines.",
+        "status": "quote-verified",
+        "value": "국제선 출발홀 3층 CUSS 50대"
+      }
+    ],
+    "gaps": [
+      "항공사 카운터/연락처·수하물 한도·출발 마감시간은 다른 담당 범위 — 제외."
+    ],
+    "item": {
+      "id": "HKT-DEP-INTL",
+      "nameEn": "International departure check-in floor",
+      "nameKo": "국제선 출발 체크인층",
+      "source": "HKT 시설 패키지 원문 캐시 회수 (새 조사 없음)",
+      "status": "partial"
+    },
+    "sentences": [
+      {
+        "koReview": "국제선 체크인은 3층 국제선 출발홀에서 합니다.",
+        "text": "Check in at the International Departure Hall on the third Floor."
+      },
+      {
+        "koReview": "셀프 체크인 키오스크 50대가 국제선 출발홀 3층에 있습니다.",
+        "text": "CUSS: 50 machines at the International Departure Hall on the third Floor."
+      }
+    ],
+    "source": {
+      "checkedAt": "2026-10-14",
+      "evidenceId": "SRC-CUSS",
+      "publisher": "AOT / Phuket International Airport",
+      "title": "CUSS + CUBD (self check-in / self bag drop)",
+      "url": "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT"
+    }
+  },
+  "departureRawSha256": "13e55dc8acb1de382c4094e9ce9190c94da04c4db8a4fed42a1cadec485d1bca",
+  "atmEvidence": {
+    "originThreadKey": "AIRPORT-ORCH-01",
+    "sourceRecordId": "HKT-ATM-KBANK",
+    "verificationEvidence": {
+      "checkedAt": "2026-10-14",
+      "note": "(ศูนย์ฯ) 표기는 Cash Hub 성격 가능하나 카드가 풀어쓰지 않아 단정하지 않음. 'Domestic Terminal ชั้น 2 (ขาอออก)'는 원문 인용이며 이를 근거로 승객 접근 가능 여부 단정하지 않음. 본인확인(ยืนยันตัวตน) 외국인 이용 가능 여부는 카드 미명시.",
+      "quoteTh": "บริการ : ถอนเงิน, จ่ายบิล, ยืนยันตัวตน\nช่องทาง : ATM\nชื่อ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ)\nที่อยู่ : ท่าอากาศยานภูเก็ต Domestic Terminal ชั้น 2 (ขาออก) (ศูนย์ฯ), ถลาง, ภูเก็ต\nเวลาทำการ : -\nติดต่อ : -",
+      "sourceUrl": "https://mapservice.kasikornbank.com/th/app"
+    },
+    "scope": "카드 원문 명시값만 — 승객 접근 가능(public/secure)·24시간·외국인 본인확인 가능 단정 없음",
+    "missing": [
+      "hours",
+      "phone",
+      "publicOrSecureZone",
+      "foreignIdentityEligibility"
+    ]
+  },
+  "directResearchEvidence": {
+    "researcher": "Codex",
+    "originThreadKey": "CODEX-DIRECT-20261014",
+    "sourceRecordId": "HKT-DIRECT-FACILITIES-20261014",
+    "checkedAt": "2026-10-14",
+    "validity": "Official directory at check date; no fixed validity end stated",
+    "sources": [
+      {
+        "url": "https://phuket.airportthai.co.th/service/facility/detail/239",
+        "quote": "Medical Clinic is located on 1st floor at International Terminal open 24 hours; First Aid is located on 1st floor at Domestic Terminal open during 8.00-17.00 hrs. (Mon-Fri); Entrance 7; International , Floor: 1 , Area: Public"
+      }
+    ],
+    "scopeNote": "Hours explicitly in static body and international public entrance7 metadata. No fees or phone inferred.",
+    "fields": [
+      {
+        "id": "HKT-MED-INTL",
+        "terminal": "International",
+        "floor": 1,
+        "entrance": "7",
+        "area": "Public",
+        "hours": "24 hours",
+        "phone": null
+      },
+      {
+        "id": "HKT-FIRST-AID-DOM",
+        "terminal": "Domestic",
+        "floor": 1,
+        "hours": "Mon–Fri 08:00–17:00",
+        "phone": null
+      }
+    ]
+  }
+}

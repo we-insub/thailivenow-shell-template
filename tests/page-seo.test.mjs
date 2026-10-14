@@ -1,0 +1,78 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {parse} from 'parse5';
+import {applyPageSEO} from '../src/lib/page-seo.mjs';
+const nodes=n=>[n,...(n.childNodes||[]).flatMap(nodes)];
+const attr=(n,k)=>n.attrs?.find(a=>a.name===k)?.value;
+const content=(html,name)=>attr(nodes(parse(html)).find(n=>n.nodeName==='meta'&&(attr(n,'name')===name||attr(n,'property')===name)),'content');
+const make=(head='',body='')=>`<!doctype html><html lang="ko"><head><title>태국 입국 · TDAC 준비 | ThaiLiveNow</title>${head}</head><body><main><h1>태국 입국 준비</h1>${body}</main></body></html>`;
+test('authored conditions stay complete; no title prefix or hard character cut',()=>{
+ const description='한국 여권으로 태국에 입국하기 전에 준비할 서류를 안내해요. '+ '적용 조건과 예외를 함께 읽어주세요. '.repeat(15);
+ const out=applyPageSEO(make(`<meta name="description" content="${description.trim()}">`),'/ko/entry/');
+ assert.equal(content(out,'description'),description.trim());
+ assert.equal(content(out,'og:description'),description.trim());
+ assert.equal(applyPageSEO(out,'/ko/entry/'),out);
+});
+test('explicit indexing opt-out and personal pages remain excluded',()=>{
+ assert.match(content(applyPageSEO(make('<meta name="tln:indexing" content="noindex">'),'/ko/draft/'),'robots'),/^noindex/);
+ assert.match(content(applyPageSEO(make(),'/ko/saved/'),'robots'),/^noindex/);
+ assert.match(content(applyPageSEO(make(),'/ko/entry/'),'robots'),/^index/);
+});
+test('legacy canonical alias and root language redirect remain excluded',()=>{
+ const out=applyPageSEO(make(),'/ko/transport/stations/itsaraphap/');
+ assert.match(content(out,'robots'),/^noindex/);
+ assert.equal(content(out,'og:url'),'https://thailivenow.com/ko/transport/bangkok/stations/itsaraphap/');
+ assert.match(content(applyPageSEO(make(),'/'),'robots'),/^noindex/);
+});
+test('page-specific configured sharing image survives reprocessing',()=>{
+ const out=applyPageSEO(make('<meta property="og:image" content="/images/food/roti.jpg"><meta property="og:image:alt" content="태국 로띠">'),'/ko/food/dishes/roti/');
+ assert.equal(content(out,'og:image'),'https://thailivenow.com/images/food/roti.jpg');
+ assert.equal(content(out,'og:image:alt'),'태국 로띠');
+ assert.equal(applyPageSEO(out,'/ko/food/dishes/roti/'),out);
+});
+test('body and existing FAQ facts are not rewritten by metadata generation',()=>{
+ const faq='<script type="application/ld+json">{"@type":"FAQPage","mainEntity":[]}</script>';
+ const input=make(faq,'<p>도착일을 포함한 3일 이내에 작성해요.</p>');
+ const out=applyPageSEO(input,'/ko/entry/tdac/');
+ assert.ok(out.includes(faq));
+ assert.equal(out.slice(out.indexOf('<body>')),input.slice(input.indexOf('<body>')));
+});
+test('existing WebPage metadata stays aligned without changing FAQ evidence',()=>{
+ const input=make('<script type="application/ld+json">{"@type":"WebPage","url":"https://example.invalid/","name":"old","description":"old"}</script><meta name="description" content="한국 여권 기준으로 입국을 준비해요.">');
+ const out=applyPageSEO(input,'/ko/entry/');
+ const scripts=nodes(parse(out)).filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json');
+ const obj=JSON.parse(scripts[0].childNodes[0].value);
+ assert.equal(obj.url,'https://thailivenow.com/ko/entry/');
+ assert.equal(obj.description,content(out,'description'));
+ assert.equal(applyPageSEO(out,'/ko/entry/'),out);
+});
+test('site audit rejects duplicated indexable metadata instead of only reporting it',async()=>{
+ const {mkdtemp,mkdir,writeFile,readFile,rm}=await import('node:fs/promises');
+ const {tmpdir}=await import('node:os');
+ const {join}=await import('node:path');
+ const {fileURLToPath}=await import('node:url');
+ const {spawnSync}=await import('node:child_process');
+ const temp=await mkdtemp(join(tmpdir(),'tln-seo-test-'));
+ try{
+  const root=join(temp,'site');await mkdir(join(temp,'artifacts'));
+  for(const topic of ['a','b']){
+   const path=`/ko/${topic}/`;
+   await mkdir(join(root,'ko',topic),{recursive:true});
+   await writeFile(join(root,'ko',topic,'index.html'),applyPageSEO(make('<meta name="description" content="한국 여권으로 입국을 준비해요.">'),path));
+  }
+  const result=spawnSync(process.execPath,[fileURLToPath(new URL('../scripts/audit-seo.mjs',import.meta.url)),root],{cwd:temp,encoding:'utf8'});
+  assert.equal(result.status,1);
+  const report=JSON.parse(await readFile(join(temp,'artifacts','seo-audit.json'),'utf8'));
+  assert.ok(report.errors.some(error=>error.startsWith('Duplicate indexable title')));
+  assert.ok(report.errors.some(error=>error.startsWith('Duplicate indexable description')));
+ }finally{await rm(temp,{recursive:true,force:true});}
+});
+test('production verification and analytics survive repeated metadata application',()=>{
+ const once=applyPageSEO(make(),'/ko/entry/');
+ const twice=applyPageSEO(once,'/ko/entry/');
+ assert.equal(twice,once);
+ const all=nodes(parse(twice));
+ for(const name of ['naver-site-verification','google-site-verification','msvalidate.01'])assert.equal(all.filter(n=>n.nodeName==='meta'&&attr(n,'name')===name).length,1);
+ assert.equal(all.filter(n=>n.nodeName==='script'&&attr(n,'data-tln-analytics')!==undefined).length,1);
+ assert.match(twice,/thailivenow\.com/);
+});

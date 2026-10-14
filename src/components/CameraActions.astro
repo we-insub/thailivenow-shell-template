@@ -1,0 +1,12 @@
+---
+import {getDesignUI} from '../i18n/design-ui';
+import {headerIcons} from '../design/header-icons';
+const {id='',locale='ko',compact=false}=Astro.props;
+const t=getDesignUI(locale),ko=locale==='ko';
+---
+<div class:list={['camera-actions',compact&&'camera-actions-compact']}>
+ <button type="button" data-save-camera={id} aria-pressed="false"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" set:html={headerIcons.heart}/><span data-action-label>{ko?'저장':locale.startsWith('en')?'Save':t.save}</span></button>
+ <button type="button" data-compare-camera={id} aria-pressed="false"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="4" width="7" height="16" rx="1"/><rect x="14" y="4" width="7" height="16" rx="1"/></svg><span>{ko?'비교에 추가':'Add to compare'}</span></button>
+ <button type="button" data-share-camera={id}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.5 10.5 7-4m-7 7 7 4"/></svg><span>{ko?'공유':'Share'}</span></button>
+ <span class="camera-action-notice" role="status" hidden></span>
+</div>

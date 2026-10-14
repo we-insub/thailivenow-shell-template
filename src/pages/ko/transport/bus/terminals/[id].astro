@@ -1,0 +1,10 @@
+---
+import TransportGuidePage from '../../../../../components/TransportGuidePage.astro';
+import BusRouteExplorer from '../../../../../components/BusRouteExplorer.astro';
+import BusTerminalFacilities from '../../../../../components/BusTerminalFacilities.astro';
+import {terminals,routes,terminalGuide} from '../../../../../lib/bus-guides';
+export function getStaticPaths(){return terminals.map(terminal=>({params:{id:terminal.id},props:{terminal}}));}
+const {terminal}=Astro.props;
+const points=[{name:terminal.name,lat:terminal.lat,lng:terminal.lng,text:terminal.access,url:'#terminal-access'}];
+---
+<TransportGuidePage guide={terminalGuide(terminal)} points={points} mapTitle={`${terminal.name} 실제 위치`} mapNote="핀은 터미널 시설 위치예요. 매표창구·승차홈은 예약표와 현장 안내에서 확인하세요."><div slot="after-map"><BusTerminalFacilities terminal={terminal}/><section id="terminal-routes"><h2>{terminal.name}에서 어디로 갈 수 있나요?</h2><BusRouteExplorer showTerminal={false} routes={routes.filter(r=>r.terminalId===terminal.id)} terminals={terminals}/></section></div></TransportGuidePage>

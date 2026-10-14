@@ -1,0 +1,33 @@
+---
+import destinations from '../data/transport/rail-destinations.json';
+import stations from '../data/transport/bangkok-stations.json';
+import data from '../data/transport/bangkok.json';
+import metadata from '../data/transport/station-official-metadata.json';
+const { stationId } = Astro.props;
+const places = stationId ? destinations.filter(d=>d.stationIds.includes(stationId)) : destinations;
+const stationNames: Record<string,string> = {Asok:'아속',Sukhumvit:'수쿰윗',Siam:'시암','National Stadium':'내셔널 스타디움',Nana:'나나','Sanam Chai':'사남차이'};
+const getStation=(id:string)=>stations.find(s=>s.properties.station_id===id)!;
+const stationLabel=(id:string)=>{const p=getStation(id).properties;return `${stationNames[p.name]||p.name} (${p.name})`;};
+const nearbyStations=[...new Set(places.flatMap(d=>d.stationIds))];
+---
+{places.length>0&&<section class="rail-places" id="rail-places">
+<span class="eyebrow">DESTINATIONS & HOTELS</span><h2>{stationId?'이 역에서 가는 명소·호텔':'명소·호텔로 내릴 역 찾기'}</h2>
+<p>목적지를 고르면 이용할 노선과 하차역, 역에서 이어지는 이동 방법을 확인할 수 있어요.</p>
+{!stationId&&<div class="place-controls"><label for="rail-place-search">명소·호텔·역 검색<input id="rail-place-search" type="search" placeholder="터미널21, 아속, 시암, 하얏트…"/></label><label for="rail-place-category">종류<select id="rail-place-category"><option value="">전체</option>{['쇼핑','명소','호텔'].map(c=><option>{c}</option>)}</select></label></div>}
+<div class="place-grid">{places.map(d=><article data-rail-place data-category={d.category} data-search={`${d.name} ${d.english} ${d.stationIds.map(stationLabel).join(' ')}`}>
+<span class="category">{d.category}</span><h3>{d.name}</h3><p class="english">{d.english}</p>
+<div class="station-options">{d.stationIds.map(id=><div><strong>{stationLabel(id)}</strong><span>{getStation(id).properties.lines.map(line=>`${data.bangkok_lines.find(l=>l.id===line)?.name_ko} ${metadata[id]?.find(m=>m.lineId===line)?.code||''}`).join(' · ')}</span><div class="actions"><a href={`/ko/transport/bangkok/stations/${id}/`}>역 이용 안내 →</a>{!stationId&&<button data-focus-rail-station={id}>지도에서 역 보기</button>}</div></div>)}</div>
+<p class="access">{d.access}</p><a class="source" href={d.sourceUrl} target="_blank" rel="noopener noreferrer">공식 가는 방법 ↗</a>
+</article>)}</div><p id="rail-place-empty" hidden>검색 조건에 맞는 명소·호텔이 없어요.</p>
+{!stationId&&<details class="station-directory"><summary>역별로 명소·호텔 보기</summary><div class="station-grid">{nearbyStations.map(id=><article><h3><a href={`/ko/transport/bangkok/stations/${id}/`}>{stationLabel(id)} →</a></h3>{places.filter(d=>d.stationIds.includes(id)).map(d=><p><strong>{d.name}</strong> · {d.category}</p>)}</article>)}</div></details>}
+<p class="note">시설·호텔 공식 안내와 관광청 자료 기준 · 확인일 2026-10-13. 연결 통로와 출입구는 현장 표지판도 함께 확인하세요.</p>
+</section>}
+<script>
+const search=document.querySelector<HTMLInputElement>('#rail-place-search');
+const category=document.querySelector<HTMLSelectElement>('#rail-place-category');
+function filterPlaces(){let count=0;const q=(search?.value||'').trim().toLowerCase().replace(/\s+/g,'');document.querySelectorAll<HTMLElement>('[data-rail-place]').forEach(card=>{card.hidden=!!category?.value&&card.dataset.category!==category.value||!(card.dataset.search||'').toLowerCase().replace(/\s+/g,'').includes(q);if(!card.hidden)count++;});const empty=document.getElementById('rail-place-empty');if(empty)empty.hidden=count>0;}
+search?.addEventListener('input',filterPlaces);category?.addEventListener('change',filterPlaces);
+</script>
+<style>
+.rail-places{margin:36px 0;padding:28px;border:1px solid #dce5e8;border-radius:16px;background:#f5f9fa}.eyebrow{font-size:11px;letter-spacing:1px;color:#267e89;font-weight:700}.rail-places h2{font-size:25px;margin:8px 0 12px;line-height:1.4}.rail-places>p{color:#61717e;font-size:14px}.place-controls{display:grid;grid-template-columns:1fr 180px;gap:16px;margin:24px 0}.place-controls label{font-size:13px;font-weight:700}.place-controls input,.place-controls select{display:block;width:100%;padding:12px;border:1px solid #cbdce1;border-radius:8px;background:white;font:inherit;margin-top:6px}.place-grid,.station-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.place-grid article,.station-grid article{padding:22px;border:1px solid #dce5e8;border-radius:12px;background:white}.place-grid article[hidden]{display:none}.category{font-size:11px;color:#267e89;font-weight:700}.place-grid h3{margin:6px 0;font-size:19px;line-height:1.5}.english{font-size:12px;color:#71818e;margin:0 0 18px}.station-options>div{padding:12px 0;border-top:1px solid #e6edef}.station-options strong,.station-options span{display:block;font-size:14px}.station-options span{font-size:12px;color:#61717e;margin:4px 0 10px}.actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}.actions a,.source{color:#267e89;font-size:12px}.actions button{border:1px solid #cbdce1;border-radius:6px;background:#f5f9fa;color:#267e89;padding:6px 10px;cursor:pointer;font:inherit;font-size:12px}.access{font-size:14px;line-height:1.8;margin:14px 0}.station-directory{margin-top:24px;border-top:1px solid #dce5e8;padding-top:18px}.station-directory summary{font-weight:700;cursor:pointer}.station-grid{margin-top:16px}.station-grid h3{font-size:16px;margin:0 0 12px}.station-grid a{color:#267e89}.station-grid p{font-size:13px}.note{font-size:12px!important;margin-top:22px}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid #267e89;outline-offset:3px}@media(max-width:600px){.rail-places{padding:20px 16px}.rail-places h2{font-size:22px}.place-grid,.station-grid,.place-controls{grid-template-columns:1fr}.place-grid article{padding:20px}}
+</style>

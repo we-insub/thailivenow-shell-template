@@ -1,0 +1,31 @@
+export const airportUI:Record<string, string[]>={
+ ko:['공항 지연 결항','한국↔태국 항공편','편명·공항 검색','태국으로 출발','태국에서 귀국','공항 카운터','항공사별 안내','수하물 파손','지연·결항 확인서','보험 청구','공식 안내','목록으로','항공사','노선','자료 확인일'],
+ ms:['Penerbangan lewat atau dibatalkan','Penerbangan Malaysia–Thailand','Cari nombor penerbangan atau lapangan terbang','Ke Thailand','Dari Thailand','Kaunter lapangan terbang','Maklumat syarikat penerbangan','Bagasi rosak','Sijil kelewatan atau pembatalan','Tuntutan insurans','Maklumat rasmi','Kembali','Syarikat penerbangan','Laluan','Tarikh semakan'],
+ 'zh-cn':['航班延误与取消','中国大陆与泰国之间的航班','搜索航班号或机场','前往泰国','从泰国返回','机场柜台','航空公司信息','行李损坏','延误或取消证明','保险理赔','官方信息','返回','航空公司','航线','核实日期'],
+ 'zh-tw':['航班延誤與取消','台灣與泰國之間的航班','搜尋航班號碼或機場','前往泰國','從泰國返回','機場櫃檯','航空公司資訊','行李損壞','延誤或取消證明','保險理賠','官方資訊','返回','航空公司','航線','查核日期'],
+ ja:['欠航・遅延','日本とタイの航空便','便名・空港を検索','タイへ出発','タイから帰国','空港カウンター','航空会社別の案内','手荷物の破損','遅延・欠航証明書','旅行保険の請求','公式案内','戻る','航空会社','路線','確認日'],
+ ru:['Задержки и отмены рейсов','Рейсы между Россией и Таиландом','Поиск рейса или аэропорта','В Таиланд','Из Таиланда','Стойки в аэропорту','Информация об авиакомпаниях','Повреждение багажа','Справки о задержке и отмене','Страховая выплата','Официальная информация','Назад','Авиакомпания','Маршрут','Дата проверки'],
+ es:['Retrasos y cancelaciones','Vuelos entre España y Tailandia','Buscar vuelo o aeropuerto','Hacia Tailandia','Desde Tailandia','Mostradores del aeropuerto','Información por aerolínea','Equipaje dañado','Certificados de retraso o cancelación','Reclamación al seguro','Información oficial','Volver','Aerolínea','Ruta','Fecha de revisión'],
+};
+const english=['Flight delays & cancellations','','Search flight or airport','To Thailand','From Thailand','Airport counters','Airline information','Damaged baggage','Delay or cancellation certificates','Insurance claims','Official information','Back','Airline','Route','Checked on'];
+for(const [locale,country] of [['en-in','India'],['en-gb','the UK'],['en-us','the USA']])airportUI[locale]=english.map((s,i)=>i===1?`Flights between ${country} and Thailand`:s);
+
+const airportLabels:Record<string,string>={ko:'공항별 안내',ms:'Maklumat lapangan terbang','zh-cn':'机场信息','zh-tw':'機場資訊',ja:'空港別の案内',ru:'Информация об аэропортах',es:'Información del aeropuerto','en-in':'Airport information','en-gb':'Airport information','en-us':'Airport information'};
+for(const [locale,label] of Object.entries(airportLabels))airportUI[locale][15]=label;
+
+const timingLabels:Record<string,string[]>={ko:['예정 운항시간','실제 이륙~착륙 시간','등록 목록에 검색 결과가 없습니다.'],ms:['Tempoh mengikut jadual','Tempoh sebenar dari berlepas hingga mendarat','Tiada hasil yang sepadan dalam senarai ini.'],'zh-cn':['计划飞行时长','实际起飞至着陆时长','已登记列表中没有匹配结果。'],'zh-tw':['預定飛行時間','實際起飛至降落時間','已登錄清單中沒有符合的結果。'],ja:['予定所要時間','実際の離陸から着陸までの時間','登録済みの一覧に一致する結果がありません。'],ru:['Время по расписанию','Фактическое время от взлёта до посадки','В опубликованном списке нет подходящих результатов.'],es:['Duración prevista','Tiempo real entre despegue y aterrizaje','No hay resultados coincidentes en la lista publicada.']};
+for(const m of ['en-in','en-gb','en-us'])timingLabels[m]=['Scheduled duration','Actual take-off to landing time','No matching results in the published list.'];
+for(const [locale,labels] of Object.entries(timingLabels))labels.forEach((label,i)=>airportUI[locale][16+i]=label);
+
+const reviewNotes:Record<string,string>={ko:'로컬 검토본입니다. 확인된 자료를 순차적으로 반영하며, 미등록 노선이 직항이 없다는 뜻은 아닙니다.',ms:'Versi semakan tempatan. Maklumat yang disahkan ditambah secara berperingkat. Laluan yang belum disenaraikan tidak semestinya tiada penerbangan terus.','zh-cn':'本地审核版。已核实资料将陆续加入；尚未列出的航线不代表没有直飞。','zh-tw':'本機審閱版。已查核資料將陸續加入；尚未列出的航線不代表沒有直飛。',ja:'ローカル確認用です。確認できた情報から順次追加しています。未掲載の路線に直行便がないという意味ではありません。',ru:'Локальная версия для проверки. Проверенные сведения добавляются постепенно. Отсутствие маршрута в списке не означает, что прямых рейсов нет.',es:'Versión local para revisión. Los datos verificados se añaden de forma gradual. Una ruta que no aparece en la lista puede tener vuelos directos.'};
+for(const m of ['en-in','en-gb','en-us'])reviewNotes[m]='Local review version. Verified information is added gradually. An unlisted route may still have direct flights.';
+for(const [locale,note] of Object.entries(reviewNotes))airportUI[locale][19]=note;
+
+const flightStatusLabels:Record<string,string>={ko:'당일 운항 상황 확인',ms:'Semak status penerbangan hari ini','zh-cn':'查询当日航班动态','zh-tw':'查詢當日航班動態',ja:'当日の運航状況を確認',ru:'Проверить статус рейса на сегодня',es:'Consultar el estado del vuelo de hoy','en-in':'Check today’s flight status','en-gb':'Check today’s flight status','en-us':'Check today’s flight status'};
+for(const [locale,label] of Object.entries(flightStatusLabels))airportUI[locale][20]=label;
+
+const scheduleDateLabels:Record<string,string[]>={ko:['확인한 출발일','시간표 적용 기간'],ms:['Tarikh berlepas yang disahkan','Tempoh jadual'],'zh-cn':['已核实的出发日期','时刻表适用期间'],'zh-tw':['已查核的出發日期','時刻表適用期間'],ja:['確認できた出発日','時刻表の適用期間'],ru:['Подтверждённые даты вылета','Период действия расписания'],es:['Fechas de salida verificadas','Periodo del horario'],'en-in':['Verified departure dates','Schedule validity period'],'en-gb':['Verified departure dates','Schedule validity period'],'en-us':['Verified departure dates','Schedule validity period']};
+for(const [locale,labels] of Object.entries(scheduleDateLabels))labels.forEach((label,i)=>airportUI[locale][21+i]=label);
+
+const airportFilterLabels:Record<string,string[]>={ko:['태국 공항 선택','상대국 공항 선택','전체 공항'],ms:['Pilih lapangan terbang di Thailand','Pilih lapangan terbang di Malaysia','Semua lapangan terbang'],'zh-cn':['选择泰国机场','选择中国大陆机场','所有机场'],'zh-tw':['選擇泰國機場','選擇台灣機場','所有機場'],ja:['タイの空港を選択','日本の空港を選択','すべての空港'],ru:['Выберите аэропорт Таиланда','Выберите аэропорт России','Все аэропорты'],es:['Elegir aeropuerto de Tailandia','Elegir aeropuerto de España','Todos los aeropuertos'],'en-in':['Choose an airport in Thailand','Choose an airport in India','All airports'],'en-gb':['Choose an airport in Thailand','Choose an airport in the UK','All airports'],'en-us':['Choose an airport in Thailand','Choose an airport in the USA','All airports']};
+for(const [locale,labels] of Object.entries(airportFilterLabels))labels.forEach((label,i)=>airportUI[locale][23+i]=label);

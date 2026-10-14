@@ -1,0 +1,29 @@
+---
+import SiteFooter from './SiteFooter.astro';
+import DetailHeader from './DetailHeader.astro';
+const {initialCity='bangkok'}=Astro.props;
+const cities=[['all','전체'],['bangkok','방콕'],['chiang-mai','치앙마이'],['pattaya','파타야'],['phi-phi','피피섬'],['phuket','푸켓'],['samui','코사무이']];
+import allVenues from '../data/rooftops.json';
+const venues=allVenues.filter(v=>v.publicationStatus !== 'held');
+import RooftopMap from './RooftopMap.astro';
+const cityName=initialCity==='all'?'태국':cities.find(([id])=>id===initialCity)?.[1]||'태국';
+---
+<!doctype html><html lang="ko"><head><link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48" /><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any" /><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>{cityName} 루프탑·전망대 | 예약·입장·가는 방법 | ThaiLiveNow</title><meta name="description" content={`${cityName}의 루프탑과 전망대를 지도에서 찾아보세요. 시설별 전망, 예약·입장 조건, 드레스코드와 가까운 대중교통을 비교할 수 있습니다.`}/></head><body><DetailHeader/><main><span class="eyebrow">THAILAND ROOFTOPS</span><h1>도시별 루프탑·전망대 찾기</h1><p>방콕 도심의 야경부터 해변 도시의 전망까지, 방문할 도시를 고르고 루프탑과 전망대를 나누어 살펴보세요. 호텔 이름과 시설 이름을 함께 확인하고 예약·입장 조건을 비교하면 좋아요.</p><nav aria-label="도시 선택">{cities.map(([id,name])=><a class="city-link" href={id==='all'?'/ko/rooftops/':`/ko/rooftops/cities/${id}/`} aria-current={id===initialCity?'page':undefined}>{name}</a>)}</nav><nav aria-label="시설 유형" class="type-filter"><button type="button" data-facility-filter="all" aria-pressed="true">전체 시설</button><button type="button" data-facility-filter="rooftop" aria-pressed="false">루프탑</button><button type="button" data-facility-filter="viewpoint" aria-pressed="false">전망대</button></nav><RooftopMap venues={venues} initialCity={initialCity}/><p id="venue-count" role="status">전망 시설 {venues.filter(v=>initialCity==='all'||v.city===initialCity).length}곳</p><div class="grid">{venues.map(v=><article data-venue-city={v.city} data-venue-kind={v.facilityCategory||'rooftop'} data-rooftop-id={v.id} hidden={initialCity!=='all'&&v.city!==initialCity}><span>{cities.find(([id])=>id===v.city)?.[1]} · {v.facilityKind||'루프탑'}</span><h2>{v.name} ({v.english})</h2><p class="place">{v.building}</p><p>{v.intro}</p>{v.facts.hours&&<p><strong>운영시간</strong> {v.facts.hours}</p>}<a href={`/ko/rooftops/${v.id}/`}>방문 정보·상세페이지 →</a></article>)}</div><p id="rooftop-empty" hidden={venues.some(v=>initialCity==='all'||v.city===initialCity)}>선택한 도시의 시설 목록과 방문 조건을 공식 자료로 검증 중이에요. 운영과 위치가 확인된 시설만 지도와 상세페이지에 연결합니다.</p><section><h2>방문 전에 함께 확인하세요</h2><p>호텔 투숙객만 이용하는 공간인지, 외부 방문객도 입장할 수 있는지 확인하세요. 예약·입장권·최소 주문금액과 드레스코드, 어린이 입장 조건은 시설마다 달라요. 야외 공간은 우천 시 운영 안내도 확인해 주세요.</p></section></main><SiteFooter/></body></html>
+<script>
+const cards=[...document.querySelectorAll<HTMLElement>('[data-venue-city]')];
+const city=document.getElementById('rooftop-map')!.dataset.city!;
+const query=new URLSearchParams(location.search);
+let kind=['rooftop','viewpoint'].includes(query.get('type')||'')?query.get('type')!:'all';
+function filterFacilities(value:string){
+  kind=value;let count=0;
+  for(const card of cards){card.hidden=(city!=='all'&&card.dataset.venueCity!==city)||(kind!=='all'&&card.dataset.venueKind!==kind);if(!card.hidden)count++;}
+  for(const button of document.querySelectorAll<HTMLElement>('[data-facility-filter]'))button.setAttribute('aria-pressed',String(button.dataset.facilityFilter===kind));
+  document.getElementById('venue-count')!.textContent=`${kind==='viewpoint'?'전망대':kind==='rooftop'?'루프탑':'전망 시설'} ${count}곳`;
+  (document.getElementById('rooftop-empty') as HTMLElement).hidden=count>0;
+  for(const link of document.querySelectorAll<HTMLAnchorElement>('.city-link')){const u=new URL(link.href);if(kind==='all')u.searchParams.delete('type');else u.searchParams.set('type',kind);link.href=u.pathname+u.search;}
+  document.dispatchEvent(new CustomEvent('rooftop:filter',{detail:{kind}}));
+}
+filterFacilities(kind);
+for(const button of document.querySelectorAll<HTMLElement>('[data-facility-filter]'))button.addEventListener('click',()=>{filterFacilities(button.dataset.facilityFilter!);const u=new URL(location.href);if(kind==='all')u.searchParams.delete('type');else u.searchParams.set('type',kind);history.replaceState(null,'',u);});
+</script>
+<style>:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,"Apple SD Gothic Neo",sans-serif;line-height:1.8}:global(*){box-sizing:border-box}main{max-width:1100px;margin:auto;padding:40px 24px 70px}h1{font-size:34px}.eyebrow{font-size:11px;color:#e84d47;letter-spacing:2px}nav{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.city-link{padding:10px 16px;border:1px solid #dce5e8;border-radius:24px;background:white;color:#267e89;cursor:pointer}.city-link[aria-current=page]{background:#267e89;color:white}.type-filter button{font:inherit;padding:10px 16px;border:1px solid #dce5e8;border-radius:24px;background:white;color:#267e89;cursor:pointer}.type-filter button[aria-pressed=true]{background:#267e89;color:white}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}article{padding:24px;border:1px solid #dce5e8;border-radius:14px;background:white}article[hidden]{display:none}article>span,.place,#venue-count{font-size:13px;color:#61717e}h2{font-size:23px}a{color:#267e89;text-decoration:none;font-weight:700}section{margin-top:36px}article.selected{border-color:#267e89;box-shadow:0 0 0 2px #267e8933}@media(max-width:600px){main{padding:28px 16px}.grid{grid-template-columns:1fr}h1{font-size:28px}}</style>

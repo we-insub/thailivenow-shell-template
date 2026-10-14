@@ -1,0 +1,7 @@
+---
+const {text='',emphasis=[]}=Astro.props;
+const terms=emphasis.filter(term=>term&&text.includes(term)).sort((a,b)=>b.length-a.length);
+const escape=(term)=>term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const parts=terms.length?text.split(new RegExp(`(${terms.map(escape).join('|')})`,'g')):[text];
+---
+{parts.map(part=>terms.includes(part)?<strong>{part}</strong>:part)}

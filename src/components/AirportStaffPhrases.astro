@@ -1,0 +1,49 @@
+---
+import data from '../data/airport-staff-phrases.json';
+import en from '../data/airport-staff-ui-en.json';
+import northeast from '../data/airport-staff-ui-ja-tw-ru.json';
+import southeast from '../data/airport-staff-ui-ms-cn-es.json';
+const {categories,locale='ko'}=Astro.props;
+const ko={title:'태국어로 직원에게 요청하기',intro:'말하는 사람에 맞게 남성·여성 말투를 선택한 뒤, 필요한 태국어 문장을 직원에게 보여주거나 복사해 전달하세요.',speaker:'말투 선택',male:'남성',female:'여성',copy:'문장 복사',copied:'복사했습니다.',copyFallback:'문장을 선택해 직접 복사하세요.'};
+const translations:any={...en,...northeast,...southeast};
+const ui=translations[locale]||ko;
+const review=(text:string,meaning:string)=>locale==='ko'?text:`${text} (${meaning})`;
+const meaningParts:any={'SP-01':['예약한 항공편이 지연됐습니다.','지연 확인서를 받을 수 있을까요?'],'SP-02':['예약한 항공편이 결항됐습니다.','결항 확인서를 받을 수 있을까요?'],'SP-04':['항공권을 환불받고 싶습니다.','어떻게 신청하면 될까요?'],'SP-05':['항공편이 오래 지연되고 있습니다.','항공사에서 승객에게 식사나 숙소를 제공하나요?'],'SP-06':['캐리어가 파손됐습니다.','신고하고 PIR 서류를 요청하려면 어디로 가면 될까요?']};
+const reviewedMeaning=(p:any)=>{
+ if(locale==='ko')return `(${p.koNatural})`;
+ const text=ui.phrases[p.id].meaning;
+ const sentences=Array.from(new Intl.Segmenter(locale,{granularity:'sentence'}).segment(text),item=>item.segment.trim()).filter(Boolean);
+ const parts=meaningParts[p.id];
+ return parts&&sentences.length===parts.length?sentences.map((sentence,i)=>review(sentence,parts[i])).join(' '):review(text,p.koNatural);
+};
+const phrases=data.phrases.filter(p=>!categories||categories.includes(p.category));
+---
+<section class="staff-phrases" data-staff-phrases data-korean-review data-copied={review(ui.copied,ko.copied)} data-fallback={review(ui.copyFallback,ko.copyFallback)}>
+  <h2>{review(ui.title,ko.title)}</h2>
+  <p>{review(ui.intro,ko.intro)}</p>
+  <label>{review(ui.speaker,ko.speaker)} <select data-speaker><option value="male">{review(ui.male,ko.male)}</option><option value="female">{review(ui.female,ko.female)}</option></select></label>
+  {phrases.map(p=><article>
+    <h3>{review(ui.phrases?.[p.id]?.label||p.labelKo,p.labelKo)}</h3><p>{review(ui.phrases?.[p.id]?.situation||p.situationKo,p.situationKo)}</p>
+    <p class="thai" lang="th" data-thai data-male={p.thaiMale} data-female={p.thaiFemale}>{p.thaiMale}</p>
+    <p>{reviewedMeaning(p)}</p>
+    <button type="button" data-copy>{review(ui.copy,ko.copy)}</button>
+    <span data-copy-status role="status" aria-live="polite"></span>
+  </article>)}
+</section>
+<script>
+document.querySelectorAll<HTMLElement>('[data-staff-phrases]').forEach(root=>{
+ const select=root.querySelector<HTMLSelectElement>('[data-speaker]')!;
+ select.addEventListener('change',()=>{
+  root.querySelectorAll<HTMLElement>('[data-thai]').forEach(el=>{el.textContent=select.value==='female'?el.dataset.female!:el.dataset.male!;});
+  root.querySelectorAll<HTMLElement>('[data-copy-status]').forEach(el=>el.textContent='');
+ });
+ root.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{
+  const article=button.closest('article')!,text=article.querySelector<HTMLElement>('[data-thai]')!.textContent!.trim();
+  const status=article.querySelector<HTMLElement>('[data-copy-status]')!;
+  try{await navigator.clipboard.writeText(text);status.textContent=root.dataset.copied!;}catch{status.textContent=root.dataset.fallback!;}
+ }));
+});
+</script>
+<style>
+.staff-phrases article{margin:20px 0;border-top:1px solid #e4eaee;padding-top:18px}.thai{font-size:21px!important;color:#253545!important;line-height:1.8;overflow-wrap:anywhere}select,button{font:inherit;border:1px solid #cfdee2;border-radius:8px;padding:8px 12px;background:#f2f8f9;color:#2e7c89}button{cursor:pointer}label{display:flex;align-items:center;gap:12px}[data-copy-status]{display:block;font-size:13px;margin-top:6px}
+</style>

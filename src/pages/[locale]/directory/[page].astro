@@ -1,0 +1,8 @@
+---
+import CameraDirectory from '../../../components/CameraDirectory.astro';
+import {locales} from '../../../i18n/locales';
+import {cameras} from '../../../data/cameras';
+export function getStaticPaths(){return locales.flatMap(v=>Array.from({length:Math.max(0,Math.ceil(cameras.length/24)-1)},(_,i)=>({params:{locale:v.code,page:String(i+2)},props:{locale:v.code,page:i+2}})));}
+const {locale,page}=Astro.props;
+---
+<CameraDirectory locale={locale} page={page}/>

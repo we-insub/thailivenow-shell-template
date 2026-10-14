@@ -1,0 +1,9 @@
+---
+import AirportTransportDetail from '../../../../components/AirportTransportDetail.astro';
+import city from '../../../../data/transport/airport-guides/suvarnabhumi-to-bangkok.json';
+import shuttle from '../../../../data/transport/airport-guides/suvarnabhumi-don-mueang.json';
+import rail from '../../../../data/transport/airport-guides/airport-rail-link.json';
+export function getStaticPaths(){return [city,shuttle,rail].map(guide=>({params:{guide:guide.id},props:{guide}}));}
+const {guide}=Astro.props;
+---
+<AirportTransportDetail guide={guide}/>

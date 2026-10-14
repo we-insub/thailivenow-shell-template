@@ -1,0 +1,33 @@
+---
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import {routeSEOSuffix} from '../../../../lib/route-seo';
+import AirportScheduleDates from '../../../../components/AirportScheduleDates.astro';
+import AirportRouteTerminals from '../../../../components/AirportRouteTerminals.astro';
+import {airportMarkets,airportMarketData,airportPairId} from '../../../../lib/airport-markets';
+import {airportUI} from '../../../../i18n/airport-ui';
+import AirportRouteCopy from '../../../../components/AirportRouteCopy.astro';
+import {airportRouteCopy} from '../../../../lib/airport-route-copy';
+import AirportMarketDetail from '../../../../components/AirportMarketDetail.astro';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').flatMap(m=>airportMarketData(m.locale).routes.map((route:any)=>({params:{locale:m.locale,id:route.id},props:{market:m,route}})));}
+const {market,route:r}=Astro.props;const t=airportUI[market.locale];const data=airportMarketData(market.locale);
+const name=(code:string)=>r.airportNames?.[code]||data.airportNames?.[code]||(r.originIata===code?r.origin:r.destinationIata===code?r.destination:null)||code;
+const copyRoute={...r,airportNames:{...r.airportNames,[r.originIata]:name(r.originIata),[r.destinationIata]:name(r.destinationIata)}};
+const authoredSummary=r.description||airportRouteCopy[market.locale]?.intro.replaceAll('{origin}',name(r.originIata)).replaceAll('{destination}',name(r.destinationIata));
+const summary=r.description||(market.locale==='ms'?'Semak tarikh operasi dan panduan kaunter lapangan terbang untuk penerbangan ini.':[...new Intl.Segmenter(market.lang,{granularity:'sentence'}).segment(authoredSummary||'')][0]?.segment);
+const description=`${r.airline} ${r.flightNumber||''}: ${name(r.originIata)} → ${name(r.destinationIata)}${routeSEOSuffix(r)}. ${summary||''}`;
+const pageSources=[...new Set(r.sources||[])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportMarketDetail market={market} title={`${name(r.originIata)} → ${name(r.destinationIata)} · ${r.flightNumber || r.airline}${routeSEOSuffix(r)}`} description={description}>
+{airportRouteCopy[market.locale]&&<div slot="description">{r.description&&<p>{r.description}</p>}<AirportRouteCopy locale={market.locale} route={copyRoute} part="intro"/></div>}
+{r.observedStatusText&&<p class="observed-status">{r.observedStatusText}</p>}{r.observedChange&&<p class="observed-change">{r.observedChange}</p>}
+<AirportRouteTerminals route={r} locale={market.locale}/>
+<section><h2>{t[13]}</h2><p>{r.airline}</p>{r.flightNumber&&<p>{r.flightNumber}</p>}{r.marketingNotice&&<p>{r.marketingNotice}</p>}{r.durationMinutes&&<p>{r.durationType==='airborne'?t[17]:t[16]}: {Math.floor(r.durationMinutes/60)} h {r.durationMinutes%60} min</p>}{r.durationNote&&<p>{r.durationNote}</p>}{r.schedule&&<p>{r.schedule}</p>}<p>{t[14]}: {r.checkedAt}</p><AirportScheduleDates route={r} locale={market.locale}/><AirportSourceReferences sources={r.sources||[]} pageSources={pageSources} locale={market.locale}/></section>
+{r.flightStatusUrl&&<section><h2>{t[20]}</h2><a href={r.flightStatusUrl} target="_blank" rel="noopener noreferrer">{r.airline} · {t[20]} ↗</a></section>}
+<section><h2>{t[6]}</h2><a href={`/${market.locale}/airport-assistance/airlines/${r.airlineId}/`}>{r.airline} →</a></section>
+<section><h2>{t[5]}</h2><div class="links">{[r.originIata,r.destinationIata].map(code=><a href={`/${market.locale}/airport-assistance/airports/${code.toLowerCase()}/`}>{name(code)} →</a>)}</div></section>
+<p><a href={`/${market.locale}/airport-assistance/pairs/${airportPairId(r)}/`}>{r.originIata} ↔ {r.destinationIata} →</a></p>
+{data.guides?.length>0&&<section><h2>{t[0]}</h2><div class="links">{data.guides.filter((g:any)=>(!g.airportIata||[r.originIata,r.destinationIata].includes(g.airportIata))&&(!g.airlineIds?.length||g.airlineIds.includes(r.airlineId))).map((g:any)=><a href={`/${market.locale}/airport-assistance/guides/${g.id}/`}>{g.title} →</a>)}</div></section>
+<AirportRouteCopy locale={market.locale} route={copyRoute}/>
+<AirportSources locale={market.locale} sources={pageSources} checkedAt={r.checkedAt}/>
+</AirportMarketDetail>

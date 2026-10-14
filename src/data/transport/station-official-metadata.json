@@ -1,0 +1,1350 @@
+{
+  "node-12886086387": [
+    {
+      "code": "N24",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "คูคต",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885876726": [
+    {
+      "code": "N23",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "แยก คปอ.",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885902287": [
+    {
+      "code": "N22",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "พิพิธภัณฑ์กองทัพอากาศ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885902274": [
+    {
+      "code": "N21",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "โรงพยาบาลภูมิพลอดุลยเดช",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885902270": [
+    {
+      "code": "N20",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "สะพานใหม่",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885893669": [
+    {
+      "code": "N19",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "สายหยุด",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885893661": [
+    {
+      "code": "N18",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "พหลโยธิน 59",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-7613336660": [
+    {
+      "code": "N17",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "วัดพระศรีมหาธาตุ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885893602": [
+    {
+      "code": "N16",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "กรมทหารราบที่ 11",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885878000": [
+    {
+      "code": "N15",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "บางบัว",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885877971": [
+    {
+      "code": "N14",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "กรมป่าไม้",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885877970": [
+    {
+      "code": "N13",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "มหาวิทยาลัยเกษตรศาสตร์",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885877922": [
+    {
+      "code": "N12",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "เสนานิคม",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885877901": [
+    {
+      "code": "N11",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "รัชโยธิน",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885877878": [
+    {
+      "code": "N10",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "พหลโยธิน 24",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-7947412031": [
+    {
+      "code": "N9",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ห้าแยกลาดพร้าว",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-270666806": [
+    {
+      "code": "N7",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "สะพานควาย",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-270666804": [
+    {
+      "code": "N5",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "อารีย์",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-270666802": [
+    {
+      "code": "N4",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "สนามเป้า",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-270666791": [
+    {
+      "code": "N3",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "อนุสาวรีย์ชัยสมรภูมิ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12885877616": [
+    {
+      "code": "N2",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "พญาไท",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-270666787": [
+    {
+      "code": "N1",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ราชเทวี",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-1697004538": [
+    {
+      "code": "CEN",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    },
+    {
+      "code": "CEN",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "สยาม",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-270668232": [
+    {
+      "code": "E1",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ชิดลม",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888241906": [
+    {
+      "code": "E2",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "เพลินจิต",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-270668230": [
+    {
+      "code": "E3",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "นานา",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888241968": [
+    {
+      "code": "E4",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "อโศก",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-275514306": [
+    {
+      "code": "E5",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "พร้อมพงษ์",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-277360712": [
+    {
+      "code": "E6",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ทองหล่อ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-277360862": [
+    {
+      "code": "E7",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "เอกมัย",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888242069": [
+    {
+      "code": "E8",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "พระโขนง",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888242117": [
+    {
+      "code": "E9",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "อ่อนนุช",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888242136": [
+    {
+      "code": "E10",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "บางจาก",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888242158": [
+    {
+      "code": "E11",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ปุณณวิถี",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-1726175401": [
+    {
+      "code": "E12",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "อุดมสุข",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-1726177803": [
+    {
+      "code": "E13",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "บางนา",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888242301": [
+    {
+      "code": "E14",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "แบริ่ง",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-4774928037": [
+    {
+      "code": "E15",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "สำโรง",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-12888242344": [
+    {
+      "code": "E16",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ปู่เจ้า",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-6123597368": [
+    {
+      "code": "E17",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ช้างเอราวัณ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-6123597369": [
+    {
+      "code": "E18",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "โรงเรียนนายเรือ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-6123597370": [
+    {
+      "code": "E19",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ปากน้ำ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-6123597371": [
+    {
+      "code": "E20",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "ศรีนครินทร์",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-6123597372": [
+    {
+      "code": "E21",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "แพรกษา",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-6123597373": [
+    {
+      "code": "E22",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "สายลวด",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-6123597374": [
+    {
+      "code": "E23",
+      "lineId": "bts-sukhumvit",
+      "nameTH": "เคหะฯ",
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-8446348865": [
+    {
+      "code": "BL01",
+      "lineId": "mrt-blue",
+      "nameTH": "ท่าพระ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800399154": [
+    {
+      "code": "BL03",
+      "lineId": "mrt-blue",
+      "nameTH": "ไฟฉาย",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442507": [
+    {
+      "code": "BL04",
+      "lineId": "mrt-blue",
+      "nameTH": "บางขุนนนท์",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442510": [
+    {
+      "code": "BL05",
+      "lineId": "mrt-blue",
+      "nameTH": "บางยี่ขัน",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442536": [
+    {
+      "code": "BL06",
+      "lineId": "mrt-blue",
+      "nameTH": "สิรินธร",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442590": [
+    {
+      "code": "BL07",
+      "lineId": "mrt-blue",
+      "nameTH": "บางพลัด",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442598": [
+    {
+      "code": "BL08",
+      "lineId": "mrt-blue",
+      "nameTH": "บางอ้อ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12803915083": [
+    {
+      "code": "BL09",
+      "lineId": "mrt-blue",
+      "nameTH": "บางโพ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442665": [
+    {
+      "code": "BL10",
+      "lineId": "mrt-blue",
+      "nameTH": "เตาปูน",
+      "source": "https://metro.bemplc.co.th/"
+    },
+    {
+      "code": "PP16",
+      "lineId": "mrt-purple",
+      "nameTH": "เตาปูน",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442678": [
+    {
+      "code": "BL11",
+      "lineId": "mrt-blue",
+      "nameTH": "บางซื่อ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280240589": [
+    {
+      "code": "BL12",
+      "lineId": "mrt-blue",
+      "nameTH": "กำแพงเพชร",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280240585": [
+    {
+      "code": "BL13",
+      "lineId": "mrt-blue",
+      "nameTH": "สวนจตุจักร",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280240580": [
+    {
+      "code": "BL14",
+      "lineId": "mrt-blue",
+      "nameTH": "พหลโยธิน",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280240577": [
+    {
+      "code": "BL15",
+      "lineId": "mrt-blue",
+      "nameTH": "ลาดพร้าว",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280239363": [
+    {
+      "code": "BL16",
+      "lineId": "mrt-blue",
+      "nameTH": "รัชดาภิเษก",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280239362": [
+    {
+      "code": "BL17",
+      "lineId": "mrt-blue",
+      "nameTH": "สุทธิสาร",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280239009": [
+    {
+      "code": "BL18",
+      "lineId": "mrt-blue",
+      "nameTH": "ห้วยขวาง",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-13980371099": [
+    {
+      "code": "BL19",
+      "lineId": "mrt-blue",
+      "nameTH": "ศูนย์วัฒนธรรมแห่งประเทศไทย",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280179427": [
+    {
+      "code": "BL20",
+      "lineId": "mrt-blue",
+      "nameTH": "พระราม 9",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12805950166": [
+    {
+      "code": "BL21",
+      "lineId": "mrt-blue",
+      "nameTH": "เพชรบุรี",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442805": [
+    {
+      "code": "BL22",
+      "lineId": "mrt-blue",
+      "nameTH": "สุขุมวิท",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12803915069": [
+    {
+      "code": "BL23",
+      "lineId": "mrt-blue",
+      "nameTH": "ศูนย์การประชุมแห่งชาติสิริกิติ์",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800442843": [
+    {
+      "code": "BL24",
+      "lineId": "mrt-blue",
+      "nameTH": "คลองเตย",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12803915070": [
+    {
+      "code": "BL25",
+      "lineId": "mrt-blue",
+      "nameTH": "ลุมพินี",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280179442": [
+    {
+      "code": "BL26",
+      "lineId": "mrt-blue",
+      "nameTH": "สีลม",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-280222869": [
+    {
+      "code": "BL27",
+      "lineId": "mrt-blue",
+      "nameTH": "สามย่าน",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800326775": [
+    {
+      "code": "BL28",
+      "lineId": "mrt-blue",
+      "nameTH": "หัวลำโพง",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3801040563": [
+    {
+      "code": "BL29",
+      "lineId": "mrt-blue",
+      "nameTH": "วัดมังกร",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-2324802007": [
+    {
+      "code": "BL30",
+      "lineId": "mrt-blue",
+      "nameTH": "สามยอด",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3801040560": [
+    {
+      "code": "BL31",
+      "lineId": "mrt-blue",
+      "nameTH": "สนามไชย",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3801040562": [
+    {
+      "code": "BL32",
+      "lineId": "mrt-blue",
+      "nameTH": "อิสรภาพ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800326949": [
+    {
+      "code": "BL33",
+      "lineId": "mrt-blue",
+      "nameTH": "บางไผ่",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3801037854": [
+    {
+      "code": "BL34",
+      "lineId": "mrt-blue",
+      "nameTH": "บางหว้า",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800326904": [
+    {
+      "code": "BL35",
+      "lineId": "mrt-blue",
+      "nameTH": "เพชรเกษม 48",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800326879": [
+    {
+      "code": "BL36",
+      "lineId": "mrt-blue",
+      "nameTH": "ภาษีเจริญ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800326860": [
+    {
+      "code": "BL37",
+      "lineId": "mrt-blue",
+      "nameTH": "บางแค",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-12800326821": [
+    {
+      "code": "BL38",
+      "lineId": "mrt-blue",
+      "nameTH": "หลักสอง",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-257066819": [
+    {
+      "code": "W1",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-257066809": [
+    {
+      "code": "S1",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-451697335": [
+    {
+      "code": "S2",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-257066790": [
+    {
+      "code": "S3",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-7781158247": [
+    {
+      "code": "S4",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-257066779": [
+    {
+      "code": "S5",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-257067085": [
+    {
+      "code": "S6",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-443815144": [
+    {
+      "code": "S7",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-443815142": [
+    {
+      "code": "S8",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-305693940": [
+    {
+      "code": "S9",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-340133002": [
+    {
+      "code": "S10",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-1113055052": [
+    {
+      "code": "S11",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-1672566455": [
+    {
+      "code": "S12",
+      "lineId": "bts-silom",
+      "nameTH": null,
+      "source": "https://www.bts.co.th/eng/"
+    }
+  ],
+  "node-3487511748": [
+    {
+      "code": "PP01",
+      "lineId": "mrt-purple",
+      "nameTH": "คลองบางไผ่",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511734": [
+    {
+      "code": "PP02",
+      "lineId": "mrt-purple",
+      "nameTH": "ตลาดบางใหญ่",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511435": [
+    {
+      "code": "PP03",
+      "lineId": "mrt-purple",
+      "nameTH": "สามแยกบางใหญ่",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511468": [
+    {
+      "code": "PP04",
+      "lineId": "mrt-purple",
+      "nameTH": "บางพลู",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511701": [
+    {
+      "code": "PP05",
+      "lineId": "mrt-purple",
+      "nameTH": "บางรักใหญ่",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511444": [
+    {
+      "code": "PP06",
+      "lineId": "mrt-purple",
+      "nameTH": "บางรักน้อยท่าอิฐ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511288": [
+    {
+      "code": "PP07",
+      "lineId": "mrt-purple",
+      "nameTH": "ไทรม้า",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511268": [
+    {
+      "code": "PP08",
+      "lineId": "mrt-purple",
+      "nameTH": "สะพานพระนั่งเกล้า",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511212": [
+    {
+      "code": "PP09",
+      "lineId": "mrt-purple",
+      "nameTH": "แยกนนทบุรี 1",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511084": [
+    {
+      "code": "PP10",
+      "lineId": "mrt-purple",
+      "nameTH": "บางกระสอ",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511061": [
+    {
+      "code": "PP11",
+      "lineId": "mrt-purple",
+      "nameTH": "ศูนย์ราชการนนทบุรี",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487511003": [
+    {
+      "code": "PP12",
+      "lineId": "mrt-purple",
+      "nameTH": "กระทรวงสาธารณสุข",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487510858": [
+    {
+      "code": "PP13",
+      "lineId": "mrt-purple",
+      "nameTH": "แยกติวานนท์",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487510834": [
+    {
+      "code": "PP14",
+      "lineId": "mrt-purple",
+      "nameTH": "วงศ์สว่าง",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-3487510793": [
+    {
+      "code": "PP15",
+      "lineId": "mrt-purple",
+      "nameTH": "บางซ่อน",
+      "source": "https://metro.bemplc.co.th/"
+    }
+  ],
+  "node-7781133227": [
+    {
+      "code": "G1",
+      "lineId": "gold",
+      "nameTH": "กรุงธนบุรี",
+      "source": "https://www.bts.co.th"
+    }
+  ],
+  "node-11012357573": [
+    {
+      "code": "G2",
+      "lineId": "gold",
+      "nameTH": "เจริญนคร",
+      "source": "https://www.bts.co.th"
+    }
+  ],
+  "node-11012357562": [
+    {
+      "code": "G3",
+      "lineId": "gold",
+      "nameTH": "คลองสาน",
+      "source": "https://www.bts.co.th"
+    }
+  ],
+  "node-8717933837": [
+    {
+      "code": "YL01",
+      "lineId": "yellow",
+      "nameTH": "ลาดพร้าว",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717933835": [
+    {
+      "code": "YL02",
+      "lineId": "yellow",
+      "nameTH": "ภาวนา",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-6695196338": [
+    {
+      "code": "YL03",
+      "lineId": "yellow",
+      "nameTH": "โชคชัย 4",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717933834": [
+    {
+      "code": "YL04",
+      "lineId": "yellow",
+      "nameTH": "ลาดพร้าว 71",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717933833": [
+    {
+      "code": "YL05",
+      "lineId": "yellow",
+      "nameTH": "ลาดพร้าว 83",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-6695196331": [
+    {
+      "code": "YL06",
+      "lineId": "yellow",
+      "nameTH": "มหาดไทย",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717933832": [
+    {
+      "code": "YL07",
+      "lineId": "yellow",
+      "nameTH": "ลาดพร้าว 101",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717933831": [
+    {
+      "code": "YL08",
+      "lineId": "yellow",
+      "nameTH": "บางกะปิ",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717933829": [
+    {
+      "code": "YL09",
+      "lineId": "yellow",
+      "nameTH": "แยกลำสาลี",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-7271108084": [
+    {
+      "code": "YL10",
+      "lineId": "yellow",
+      "nameTH": "ศรีกรีฑา",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-10867419324": [
+    {
+      "code": "YL11",
+      "lineId": "yellow",
+      "nameTH": "หัวหมาก",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717841725": [
+    {
+      "code": "YL12",
+      "lineId": "yellow",
+      "nameTH": "กลันตัน",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-6563254035": [
+    {
+      "code": "YL13",
+      "lineId": "yellow",
+      "nameTH": "ศรีนุช",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717841716": [
+    {
+      "code": "YL14",
+      "lineId": "yellow",
+      "nameTH": "ศรีนครินทร์ 38",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-10867419320": [
+    {
+      "code": "YL15",
+      "lineId": "yellow",
+      "nameTH": "สวนหลวง ร.9",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-10867419319": [
+    {
+      "code": "YL16",
+      "lineId": "yellow",
+      "nameTH": "ศรีอุดม",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717828065": [
+    {
+      "code": "YL17",
+      "lineId": "yellow",
+      "nameTH": "ศรีเอี่ยม",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-8717828067": [
+    {
+      "code": "YL18",
+      "lineId": "yellow",
+      "nameTH": "ศรีลาซาล",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-6703032843": [
+    {
+      "code": "YL19",
+      "lineId": "yellow",
+      "nameTH": "ศรีแบริ่ง",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-6703032848": [
+    {
+      "code": "YL20",
+      "lineId": "yellow",
+      "nameTH": "ศรีด่าน",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-6703032861": [
+    {
+      "code": "YL21",
+      "lineId": "yellow",
+      "nameTH": "ศรีเทพา",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-7781234528": [
+    {
+      "code": "YL22",
+      "lineId": "yellow",
+      "nameTH": "ทิพวัล",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-6703032849": [
+    {
+      "code": "YL23",
+      "lineId": "yellow",
+      "nameTH": "สำโรง",
+      "source": "https://ebm.co.th/en/"
+    }
+  ],
+  "node-11364308558": [
+    {
+      "code": "PK01",
+      "lineId": "pink",
+      "nameTH": "ศูนย์ราชการนนทบุรี",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-11364361870": [
+    {
+      "code": "PK02",
+      "lineId": "pink",
+      "nameTH": "แคราย",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-7647114250": [
+    {
+      "code": "PK03",
+      "lineId": "pink",
+      "nameTH": "สนามบินน้ำ",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-7647114249": [
+    {
+      "code": "PK04",
+      "lineId": "pink",
+      "nameTH": "สามัคคี",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-10147872913": [
+    {
+      "code": "PK05",
+      "lineId": "pink",
+      "nameTH": "กรมชลประทาน",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-10867419311": [
+    {
+      "code": "PK06",
+      "lineId": "pink",
+      "nameTH": "แยกปากเกร็ด",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-10867419318": [
+    {
+      "code": "PK07",
+      "lineId": "pink",
+      "nameTH": "เลี่ยงเมืองปากเกร็ด",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-10867419312": [
+    {
+      "code": "PK08",
+      "lineId": "pink",
+      "nameTH": "แจ้งวัฒนะ-ปากเกร็ด 28",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-11364361909": [
+    {
+      "code": "PK09",
+      "lineId": "pink",
+      "nameTH": "ศรีรัช",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-11364361936": [
+    {
+      "code": "PK10",
+      "lineId": "pink",
+      "nameTH": "เมืองทองธานี",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-11364361948": [
+    {
+      "code": "PK11",
+      "lineId": "pink",
+      "nameTH": "แจ้งวัฒนะ 14",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-11364465362": [
+    {
+      "code": "PK12",
+      "lineId": "pink",
+      "nameTH": "ศูนย์ราชการเฉลิมพระเกียรติ",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-11364501869": [
+    {
+      "code": "PK13",
+      "lineId": "pink",
+      "nameTH": "โทรคมนาคมแห่งชาติ",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9913078093": [
+    {
+      "code": "PK14",
+      "lineId": "pink",
+      "nameTH": "หลักสี่",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9733987641": [
+    {
+      "code": "PK15",
+      "lineId": "pink",
+      "nameTH": "ราชภัฏพระนคร",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9733987646": [
+    {
+      "code": "PK16",
+      "lineId": "pink",
+      "nameTH": "วัดพระศรีมหาธาตุ",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9734277455": [
+    {
+      "code": "PK17",
+      "lineId": "pink",
+      "nameTH": "รามอินทรา 3",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9734277456": [
+    {
+      "code": "PK18",
+      "lineId": "pink",
+      "nameTH": "ลาดปลาเค้า",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9734277457": [
+    {
+      "code": "PK19",
+      "lineId": "pink",
+      "nameTH": "รามอินทรา กม.4",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9734277458": [
+    {
+      "code": "PK20",
+      "lineId": "pink",
+      "nameTH": "มัยลาภ",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9734277459": [
+    {
+      "code": "PK21",
+      "lineId": "pink",
+      "nameTH": "วัชรพล",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9734277460": [
+    {
+      "code": "PK22",
+      "lineId": "pink",
+      "nameTH": "รามอินทรา กม.6",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9734277461": [
+    {
+      "code": "PK23",
+      "lineId": "pink",
+      "nameTH": "คู้บอน",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9697341538": [
+    {
+      "code": "PK24",
+      "lineId": "pink",
+      "nameTH": "รามอินทรา กม.9",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-9697341535": [
+    {
+      "code": "PK25",
+      "lineId": "pink",
+      "nameTH": "วงแหวนรามอินทรา",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-8730802246": [
+    {
+      "code": "PK26",
+      "lineId": "pink",
+      "nameTH": "นพรัตน์",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-8730802242": [
+    {
+      "code": "PK27",
+      "lineId": "pink",
+      "nameTH": "บางชัน",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-8730802243": [
+    {
+      "code": "PK28",
+      "lineId": "pink",
+      "nameTH": "เศรษฐบุตรบำเพ็ญ",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-8730802232": [
+    {
+      "code": "PK29",
+      "lineId": "pink",
+      "nameTH": "ตลาดมีนบุรี",
+      "source": "https://nbm.co.th/en/"
+    }
+  ],
+  "node-8730762308": [
+    {
+      "code": "PK30",
+      "lineId": "pink",
+      "nameTH": "มีนบุรี",
+      "source": "https://nbm.co.th/en/"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+---
+import SiteFooter from '../../../components/SiteFooter.astro';
+import AirportScheduleDates from '../../../components/AirportScheduleDates.astro';
+import AirportPageMetadata from '../../../components/AirportPageMetadata.astro';
+import AirportEmail from '../../../components/AirportEmail.astro';
+import AirportPhone from '../../../components/AirportPhone.astro';
+import {airportMarkets, airportMarketData} from '../../../lib/airport-markets';
+import DetailHeader from '../../../components/DetailHeader.astro';
+import data from '../../../../public/data/airport-assistance.json';
+const airlines = (data.airlines || []) as Record<string, any>[];
+const routes = data.routes as Record<string, any>[];
+const services = data.services as Record<string, any>[];
+const guides = data.guides as Record<string, any>[];
+const verified = (item: Record<string, any>) => item.sources?.length && item.checkedAt;
+const shownRoutes = routes.filter(verified);
+const countryNames: Record<string, string> = {KR:'대한민국',MY:'말레이시아',CN:'중국',IN:'인도',RU:'러시아',JP:'일본',GB:'영국',US:'미국',ES:'스페인',TW:'대만'};
+const airportGroups = [{country:'TH', name:'태국', airports:new Map<string, {name:string, locale:string}>()}, ...airportMarkets.filter(m=>m.locale==='ko').map(m=>({country:m.country, name:countryNames[m.country], airports:new Map<string, {name:string, locale:string}>()}))];
+for (const market of airportMarkets.filter(m=>m.locale==='ko')) {
+  const marketData = airportMarketData(market.locale);
+  for (const route of marketData.routes.filter(verified)) {
+    for (const code of [route.originIata, route.destinationIata]) {
+      if (!code) continue;
+      const group = airportGroups.find(g=>g.country===(code===route.thaiAirport?'TH':market.country))!;
+      const name = route.airportNames?.[code] || marketData.airportNames?.[code] || (code===route.originIata?route.origin:route.destination) || code;
+      if (!group.airports.has(code)) group.airports.set(code, {name, locale:market.locale});
+    }
+  }
+  for (const service of marketData.services.filter(verified)) {
+    const code = service.airportIata;
+    if (!code) continue;
+    // Services without a route are currently registered for these Thai airports.
+    const group = airportGroups.find(g=>g.country===(['BKK','DMK','HKT','CNX','CEI','USM','KBV','UTP','HDY'].includes(code)?'TH':market.country))!;
+    if (!group.airports.has(code)) group.airports.set(code, {name:marketData.airportNames?.[code] || service.airport || code, locale:market.locale});
+  }
+}
+const shownAirportGroups = airportGroups.filter(group=>group.airports.size);
+const shownServices = services.filter(verified);
+const shownGuides = guides.filter(verified);
+const marketLinks = airportMarkets.filter(m=>m.locale!=='ko').map(market=>{
+  const marketData=airportMarketData(market.locale);
+  const verifiedRoutes=marketData.routes.filter(verified).length;
+  const verifiedServices=marketData.services.filter(verified).length;
+  return {...market, koreanName:countryNames[market.country] || market.name, verifiedRoutes, verifiedServices};
+});
+---
+<!doctype html><html lang="ko"><head><link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48" /><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any" /><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="index,follow"/><title>공항 지연 결항 | 태국 직항·항공사 카운터 | ThaiLiveNow</title><meta name="description" content="한국·태국 직항편의 항공사 카운터, 지연·결항 확인서, 수하물 접수 및 보험 청구 안내를 확인하세요."/><AirportPageMetadata title="공항 지연 결항 · 한국과 태국 직항" description="한국·태국 직항편의 항공사 카운터, 지연·결항 확인서, 수하물 접수 및 보험 청구 안내를 확인하세요."/></head><body><DetailHeader/><main>
+<span class="eyebrow">THAILAND AIRPORTS & FLIGHTS</span><h1>태국 공항·항공편 안내</h1><p class="intro">태국 국제공항을 살펴보고, 지연·결항·수하물 문제 안내와 국가별 항공사·직항 노선을 찾아보세요.</p>
+<section id="thai-airports"><h2>태국 국제공항 소개</h2><p>이용할 공항을 선택하고 공항별 항공사·카운터·연결 노선을 확인하세요.</p><div class="market-grid">{[...airportGroups[0].airports].map(([code,airport])=><a class="market-card" href={`/${airport.locale}/airport-assistance/airports/${code.toLowerCase()}/`}><strong>{airport.name.includes(code)?airport.name:`${airport.name} (${code})`}</strong><small>공항 소개·항공사 안내 →</small></a>)}</div></section>
+<section id="airport-problems"><h2>태국 공항에서 문제가 생겼을 때</h2><p>지금 겪는 상황을 선택하세요. 태국 출발편과 도착편에 적용되는 조건은 상세 안내에서 구분해 확인하세요.</p><div class="market-grid"><a class="market-card" href="/ko/airport-assistance/guides/flight-delayed/"><strong>태국 공항에서 항공편 지연</strong><span>항공사 문의·지연 확인서·준비할 서류</span><small>지연 대응 안내 →</small></a><a class="market-card" href="/ko/airport-assistance/guides/flight-cancelled/"><strong>태국 공항에서 항공편 결항</strong><span>대체편·환불 요청·결항 증빙</span><small>결항 대응 안내 →</small></a><a class="market-card" href="/ko/airport-assistance/guides/damaged-baggage/"><strong>태국 공항에서 수하물 파손</strong><span>현장 신고·파손 사진·접수증과 청구 절차</span><small>수하물 파손 안내 →</small></a><a class="market-card" href="/ko/airport-assistance/guides/delayed-baggage/"><strong>태국 공항에서 수하물 미도착</strong><span>수하물 접수처·미도착 신고·배송 확인</span><small>수하물 미도착 안내 →</small></a></div><p class="problem-followup"><a href="/ko/airport-assistance/guides/caat-passenger-rights/">태국 출발편의 승객 권리·CAAT 신고 안내 →</a></p><p><a href="/ko/airport-assistance/guides/insurance-claim/">여행보험 청구 안내 →</a></p></section>
+<section class="market-switcher" aria-labelledby="market-switcher-title"><h2 id="market-switcher-title">국가별 항공 허브</h2><p>출발 국가를 선택하고 해당 국가와 태국을 오가는 항공사·직항 노선을 확인하세요.</p><div class="market-grid"><a class="market-card is-current" href="#airlines"><strong>대한민국</strong><span>한국↔태국 · 노선 {shownRoutes.length}건</span><small>항공사 안내 보기 →</small></a>{marketLinks.map(market=><a class="market-card" href={`/${market.locale}/airport-assistance/`}><strong>{market.koreanName}</strong><span>{market.name} ↔ 태국 · 노선 {market.verifiedRoutes}건 · 서비스 {market.verifiedServices}건</span><small>{market.verifiedRoutes>0?'공항·노선 안내 보기 →':'조사 중인 국가 안내 보기 →'}</small></a>)}</div></section>
+<div class="status" role="status"><strong>{data.status === 'researching' ? '공식 자료 조사·검수 중' : '검수된 자료'}</strong><p>확인된 자료부터 순차적으로 반영합니다. 아직 등록되지 않은 노선은 직항이 없다는 뜻이 아닙니다.</p><span>노선·편명 안내 {shownRoutes.length}건 · 공항 서비스 {shownServices.length}건 · 대응 안내 {shownGuides.length}건</span></div>
+<nav class="jump" aria-label="공항 안내"><a href="#routes">한국↔태국 직항</a><a href="#airports">한국·태국 공항 선택</a><a href="#airlines">항공사별 안내</a><a href="#services">카운터·연락처</a>{shownGuides.length>0 && <a href="#guides">지연·결항·수하물·보험</a>}</nav>
+<section aria-labelledby="caat-rights"><h2 id="caat-rights">태국 출발편이 지연·결항됐다면</h2><p>CAAT(태국 민간항공청) 승객 보호 규정에 따른 지원·보상 조건과 항공사에 요청할 사항을 확인하세요.</p><a href="/ko/airport-assistance/guides/caat-passenger-rights/">태국 출발 지연·결항 권리와 공식 신고 상세 보기 →</a></section>
+<section id="routes"><h2>한국↔태국 직항 노선</h2><input id="country" type="hidden" value="대한민국"/><label for="direction">여행 방향</label><select id="direction"><option value="">전체 방향</option><option value="to-thailand">태국으로 출발</option><option value="from-thailand">태국에서 귀국</option></select><label for="thai-airport">태국 공항 선택</label><select id="thai-airport"><option value="">태국 전체 공항</option>{[...new Set(shownRoutes.map(r=>r.thaiAirport))].map(code=><option value={code}>{shownRoutes.find(r=>r.originIata===code)?.origin||shownRoutes.find(r=>r.destinationIata===code)?.destination||code}</option>)}</select><label for="other-airport">한국 공항 선택</label><select id="other-airport"><option value="">한국 전체 공항</option>{[...new Set(shownRoutes.map(r=>r.originIata===r.thaiAirport?r.destinationIata:r.originIata))].map(code=><option value={code}>{shownRoutes.find(r=>r.originIata===code)?.origin||shownRoutes.find(r=>r.destinationIata===code)?.destination||code}</option>)}</select><label for="search">공항·항공사·편명 검색</label><input id="search" type="search" placeholder="인천, 수완나폼, 제주항공…"/><p class="hint">예정 운항시간과 실제 이륙부터 착륙까지의 시간은 구분해 표시합니다. 운항 일정과 편명에는 확인일·유효기간을 함께 제공합니다.</p>
+{!shownRoutes.length && <p class="empty">직항 노선의 항공사·편명·소요시간을 조사하고 있습니다.</p>}
+<div id="route-list">{shownRoutes.map(route=><article class="route" data-flight-number={route.flightNumber || ''} data-country={route.country} data-direction={route.direction} data-thai-airport={route.thaiAirport} data-other-airport={route.originIata===route.thaiAirport?route.destinationIata:route.originIata} data-search={[route.origin,route.destination,route.airline,route.flightNumber].join(' ').toLowerCase()}><span>{route.country} · {route.status}</span><h3>{route.origin} → {route.destination}</h3><p><a href={`/ko/airport-assistance/airlines/${route.airlineId}/`}>{route.airline}</a> · {route.flightNumber || ''}</p>{route.durationMinutes && <p>{route.durationType === 'airborne' ? '이륙~착륙' : '예정 운항시간'} 약 {Math.floor(route.durationMinutes/60)}시간 {route.durationMinutes%60}분</p>}{route.observedStatusText&&<p>{route.observedStatusText}</p>}{route.observedChange&&<p>{route.observedChange}</p>}{route.durationNote&&<p>{route.durationNote}</p>}{route.schedule&&<p>{route.schedule}</p>}<a href={`/ko/airport-assistance/routes/${route.id}/`}>공항·노선 상세 보기 →</a><small>확인일 {route.checkedAt}</small><AirportScheduleDates route={route}/><div>{route.sources.map((url:string,index:number)=><a href={url} target="_blank" rel="noopener noreferrer">공식 출처 {index+1} ↗</a>)}</div></article>)}</div><p id="no-results" hidden>검색 조건에 맞는 등록 노선이 없습니다.</p></section>
+<section id="airports"><h2>한국·태국 공항 선택</h2><p>한국과 태국 공항을 선택해 항공사 카운터·연락처와 연결 노선을 확인하세요.</p><label for="airport-search">국가·공항 검색</label><input type="search" id="airport-search" placeholder="대한민국, 태국, 인천, BKK…"/>
+<div class="country-links">{shownAirportGroups.map(group=><a href={`#airport-country-${group.country.toLowerCase()}`}>{group.name} · {group.airports.size}</a>)}</div>
+{shownAirportGroups.map(group=><div class="airport-country" id={`airport-country-${group.country.toLowerCase()}`}><h3>{group.name} <span>{group.airports.size}개 공항</span></h3><div class="grid">{[...group.airports].sort(([a],[b])=>a.localeCompare(b)).map(([code, airport])=><article class="airport" data-search={`${group.name} ${airport.name} ${code}`}><h4>{airport.name.includes(code)?airport.name:`${airport.name} (${code})`}</h4><a href={`/${airport.locale}/airport-assistance/airports/${code.toLowerCase()}/`}>공항별 카운터·노선 보기 →</a></article>)}</div></div>)}<p id="no-airport-results" hidden>검색 조건에 맞는 공항이 없습니다.</p></section><section id="airlines"><h2>항공사별 카운터·확인서 안내</h2><div class="grid">{airlines.map(a=><article><h3>{a.name}</h3><p>{a.note}</p><a href={`/ko/airport-assistance/airlines/${a.id}/`}>항공사 상세 보기 →</a></article>)}</div></section><section id="services"><h2>공항 카운터·전화번호·위치</h2><p>항공권을 바꾸는 발권 창구, 출발 수속을 하는 체크인 창구, 도착 수하물 접수처는 다릅니다. 연락할 때에는 공항 사무실과 예약 문의 번호의 용도를 확인하세요.</p>{!shownServices.length && <p class="empty">항공사별 카운터 위치와 연락처를 공식 자료로 확인하고 있습니다.</p>}<div class="grid">{shownServices.map(service=><article><span>{service.airport||service.airportIata} · {service.type}</span><h3>{service.airline}</h3>{service.location && <p>{service.location}</p>}{service.phone && <AirportPhone phone={service.phone} />}{service.email && <AirportEmail email={service.email} />}{service.hours && <p>{service.hours}</p>}{service.text && <p class="service-context">{service.text}</p>}<small>확인일 {service.checkedAt}</small><div>{service.sources.map((url:string)=><a href={url} target="_blank" rel="noopener noreferrer">공식 안내 ↗</a>)}</div></article>)}</div></section>
+{shownGuides.length>0 && <section id="guides"><h2>지연·결항·수하물 파손·보험 신청</h2>{shownGuides.map(guide=><article><h3><a href={`/ko/airport-assistance/guides/${guide.id}/`}>{guide.title}</a></h3><p class="guide-text">{guide.text.split("\n")[0]}</p><small>확인일 {guide.checkedAt}</small>{guide.sources.map((url:string)=><a href={url}>공식 안내 ↗</a>)}</article>)}</section>}
+</main><script>
+import {flightNumberKey} from '../../../lib/airport-flight-search';
+const country = document.querySelector<HTMLSelectElement>('#country')!;
+const direction = document.querySelector<HTMLSelectElement>('#direction')!;
+const search = document.querySelector<HTMLInputElement>('#search')!;
+const thaiAirport=document.querySelector<HTMLSelectElement>('#thai-airport')!;
+const otherAirport=document.querySelector<HTMLSelectElement>('#other-airport')!;
+function filter(){let count=0;document.querySelectorAll<HTMLElement>('.route').forEach(row=>{row.hidden=!!((country.value && row.dataset.country!==country.value)||(direction.value && row.dataset.direction!==direction.value)||(thaiAirport.value && row.dataset.thaiAirport!==thaiAirport.value)||(otherAirport.value && row.dataset.otherAirport!==otherAirport.value)||!(row.dataset.search?.replace(/\s+/g,'').includes(search.value.trim().toLowerCase().replace(/\s+/g,'')) || (flightNumberKey(search.value)!==null && flightNumberKey(search.value)===flightNumberKey(row.dataset.flightNumber||''))));if(!row.hidden)count++;});document.querySelector<HTMLElement>('#no-results')!.hidden=count>0||(!country.value&&!search.value&&!direction.value);}
+thaiAirport.addEventListener('change',()=>{otherAirport.value='';const rows=[...document.querySelectorAll<HTMLElement>('.route')];for(const option of otherAirport.options){option.disabled=!!option.value&&!!thaiAirport.value&&!rows.some(row=>row.dataset.thaiAirport===thaiAirport.value&&row.dataset.otherAirport===option.value);}filter();});otherAirport.addEventListener('change',filter);
+direction.addEventListener('change',filter);country.addEventListener('change',filter);search.addEventListener('input',filter);
+document.querySelector<HTMLInputElement>('#airport-search')!.addEventListener('input',event=>{
+  const q=(event.target as HTMLInputElement).value.trim().toLowerCase().replace(/\s+/g,'');
+  let count=0;
+  document.querySelectorAll<HTMLElement>('.airport-country').forEach(group=>{
+    let visible=0;
+    group.querySelectorAll<HTMLElement>('.airport').forEach(row=>{row.hidden=!(row.dataset.search||'').toLowerCase().replace(/\s+/g,'').includes(q);if(!row.hidden)visible++;});
+    group.hidden=visible===0;count+=visible;
+  });
+  document.querySelector<HTMLElement>('#no-airport-results')!.hidden=count>0;
+});
+</script><SiteFooter/></body></html>
+<style>
+.problem-followup{margin-top:24px}
+
+:global(*){box-sizing:border-box}:global(body){margin:0;color:#253545;background:#fafbfc;font-family:system-ui,"Apple SD Gothic Neo",sans-serif;line-height:1.75}main{max-width:1160px;margin:auto;padding:48px 28px 72px}.eyebrow{font-size:11px;color:#e84d47;font-weight:700;letter-spacing:1px}h1{font-size:36px;line-height:1.3;margin:10px 0 20px}h2{font-size:24px}h3{font-size:19px;margin:7px 0}.intro{max-width:760px}p{color:#61717e}.market-switcher{margin:30px 0}.market-switcher h2{margin-bottom:6px}.market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}.market-card{display:flex;min-height:102px;flex-direction:column;align-items:flex-start;border:1px solid #dce5e8;border-radius:14px;background:#fff;padding:17px;color:#253545}.market-card:hover,.market-card:focus-visible{border-color:#2e7c89;background:#f2f8f9}.market-card strong{color:#2e7c89;font-size:16px}.market-card span{font-size:13px;color:#61717e;margin-top:4px}.market-card small{margin-top:auto;padding-top:7px}.market-card.is-current{background:#eaf4f5;border-color:#cfe3e6}.status{background:#eaf4f5;border:1px solid #cfE3e6;border-radius:14px;padding:22px;margin:28px 0}.status p{margin:5px 0}.status span,.hint,small{font-size:12px;color:#61717e}.jump{display:flex;gap:12px;flex-wrap:wrap}.jump a{border:1px solid #dce5e8;border-radius:24px;background:white;padding:9px 17px;font-size:13px}a{color:#2e7c89;font-weight:700;text-decoration:none}section{margin-top:40px;scroll-margin-top:140px}label{display:block;font-size:13px;font-weight:700;margin:12px 0 5px}select,input{width:100%;max-width:520px;border:1px solid #cfDbe0;border-radius:8px;padding:11px;background:white;color:#253545;font:inherit}input:focus,select:focus{outline:2px solid #2e7c89}.empty{border:1px dashed #bdcfd4;border-radius:12px;padding:22px;background:white}.grid,#route-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}article{border:1px solid #e4eaee;border-radius:14px;background:white;padding:22px;margin-bottom:16px}article span{font-size:12px;color:#2e7c89}article a{display:inline-block;font-size:12px;margin-right:15px}.country-links{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.country-links a{border:1px solid #dce5e8;border-radius:24px;padding:7px 14px;background:white;font-size:13px}.airport-country{margin-top:28px;scroll-margin-top:140px}.airport-country[hidden]{display:none}.airport-country h3 span{font-size:13px;color:#61717e;font-weight:400;margin-left:8px}.airport h4{margin:0 0 12px;font-size:17px}.guide-text{white-space:pre-line}.pending{background:#f1f5f7;border-radius:5px;padding:4px 8px}article[hidden]{display:none}@media(max-width:650px){main{padding:30px 18px 48px}h1{font-size:28px}.market-grid,.grid,#route-list{grid-template-columns:1fr}.jump{gap:8px}.jump a{padding:8px 12px}}
+</style>

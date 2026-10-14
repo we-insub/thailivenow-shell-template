@@ -1,0 +1,55 @@
+---
+import AirportGuideAirlines from './AirportGuideAirlines.astro';
+import AirportStaffPhrases from './AirportStaffPhrases.astro';
+import ImportantText from './ImportantText.astro';
+import AirportSources from './AirportSources.astro';
+const important=[
+ '태국 공항에서 한국으로 출발하는 정기 국제선','태국에서 출발하는 정기 국제선','태국 출발 정기 국제선','한국에서 태국으로 출발하는 편에는 이 출발지 기준을 그대로 적용하지 않습니다.',
+ '체크인한 승객','예정 출발 1시간 전까지','출발 기준','항공기 문이 닫힌 시각까지','최소 24시간 전에','3시간을 초과하고 이륙 시각도 정해지지 않았다면','안전·보안','항공교통 관리 사유',
+ '2시간 초과','5시간 초과','10시간 초과','5시간을 초과','10시간을 초과','1,500바트','2,000바트','3,500바트','4,500바트','2,000·3,500·4,500바트','자동 합산하지 말고','금전 보상 예외','특별한 사정(extraordinary circumstances)','최소 7일 전 통지',
+ '미사용 여정 환불','최소 1박 숙소·공항 이동','환불과 대체편 선택','승객의 사전 동의','실제 운항사와 날짜·편명','서면으로 요청','접수번호와 영수증','예약 확인서·전자항공권과 탑승권','항공사의 지연·결항 알림과 변경 일정','항목별 영수증','필수 제출 서류 목록을 대신하지 않습니다.',
+ 'CAAT 공식 신고 사이트','CAAT 계정으로 로그인','English','Sign Up','완전한 신청서·관련 서류를 접수한 날','14일','45일','60일','7일 이내','태국어 규정 원문'
+];
+const {guide:g}=Astro.props;
+const sources=[...new Set<string>([...(g.sources||[]),...(g.sections||[]).flatMap((s:any)=>s.sources||[])])];
+const label=(url:string)=>url.includes('complaint.caat')?'CAAT 공식 신고 사이트':url.includes('2024/11')?'CAB 제101호 · 태국어 규정 원문':url.includes('Guidance-Material')?'CAAT 승객 권리 해설':url.includes('.pdf')?'CAB 제101호 · 영문 번역':url.includes('132372')?'CAB 제101호 공식 게시 페이지':url.includes('179240')?'CAAT 지연편 승객 권리 안내':url.includes('179245')?'CAAT 결항편 승객 권리 안내':'CAAT 공식 승객 권리 안내';
+---
+<div class="caat-content">
+ <section class="caat-overview"><h2>먼저 적용 대상을 확인하세요</h2>{g.text.split('\n').filter(Boolean).map((text:string)=><p><ImportantText text={text} phrases={important}/></p>)}<dl><div><dt>출발지</dt><dd>태국에서 출발하는 정기 국제선</dd></div><div><dt>항공사</dt><dd>태국 항공사·외국 항공사 모두</dd></div><div><dt>시행일</dt><dd>{g.effectiveFrom}</dd></div><div><dt>구분할 항목</dt><dd>항공사의 지원·금전 보상·운임 환불·여행보험 청구</dd></div></dl></section>
+ <section class="caat-thresholds"><h2>지연 시간별로 요청할 수 있는 지원</h2><p>아래는 모두 해당 시간을 <strong>초과한 경우</strong>의 기준입니다. 금전 보상의 예외와 체크인 조건은 이어지는 안내를 함께 확인하세요.</p><div class="caat-threshold-grid">{g.thresholds.map((row:any)=><article><span class="caat-time">{row.label}</span><p><ImportantText text={row.text} phrases={important}/></p><small>CAB 제101호 {row.article}</small></article>)}</div></section>
+ {g.sections.filter((s:any)=>s.text).map((s:any)=><section class="caat-body-section"><h2>{s.title}</h2>{s.text.split('\n').filter(Boolean).map((text:string)=><p><ImportantText text={text} phrases={important}/></p>)}{s.actions?.length>0&&<div class="caat-actions">{s.actions.map((a:any)=><a href={a.url}>{a.label} →</a>)}</div>}</section>)}
+ <section><h2>신고·보상 조회와 서류 준비</h2><div class="caat-actions">{g.actions.map((a:any)=><a href={a.url} target={a.url.startsWith('https:')?'_blank':undefined} rel={a.url.startsWith('https:')?'noopener noreferrer':undefined}>{a.label} {a.url.startsWith('https:')?'↗':'→'}</a>)}</div></section>
+ <section class="caat-faq"><h2>자주 묻는 질문</h2>{g.faq.map((item:any)=><article><h3>{item.q}</h3><p><ImportantText text={item.a} phrases={important}/></p></article>)}</section>
+ <AirportStaffPhrases categories={['delay-certificate','cancellation-certificate','rebooking','refund-inquiry','meal-accommodation']}/>
+ <AirportGuideAirlines locale="ko" guide={g}/>
+ <AirportSources sources={sources} checkedAt={g.checkedAt} idPrefix="caat-source" labeler={label}/>
+</div>
+<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:g.faq.map((item:any)=>({'@type':'Question',name:item.q,acceptedAnswer:{'@type':'Answer',text:item.a}}))}).replaceAll('<','\\u003c')}/>
+<style is:global>
+main.caat-editorial{max-width:1000px;padding:32px 24px 60px;line-height:1.8}
+main.caat-editorial>h1{margin:12px 0 16px;letter-spacing:-.7px}
+main.caat-editorial>p{font-size:18px;max-width:800px;margin:0 0 30px}
+main.caat-editorial .caat-content section{background:none;border:0;border-radius:0;padding:0;margin:34px 0;scroll-margin-top:140px}
+main.caat-editorial .caat-content h2{font-size:24px;line-height:1.45;margin:0 0 16px;letter-spacing:-.5px}
+main.caat-editorial .caat-content h3{font-size:19px;line-height:1.55;margin:0 0 10px}
+main.caat-editorial .caat-content p{margin:12px 0;overflow-wrap:anywhere}
+main.caat-editorial .caat-content p strong{font-weight:750;color:#253545}
+main.caat-editorial .caat-content article{background:#fff;border:1px solid #dce5e8;border-radius:12px;padding:20px;margin:12px 0}
+main.caat-editorial .caat-content article p:last-child{margin-bottom:0}
+main.caat-editorial dl{background:#fff;border:1px solid #dce5e8;border-radius:12px;overflow:hidden;margin:22px 0 0}
+main.caat-editorial dl>div{display:grid;grid-template-columns:160px minmax(0,1fr);border-bottom:1px solid #e7edef}
+main.caat-editorial dl>div:last-child{border:0}
+main.caat-editorial dt,main.caat-editorial dd{padding:14px 18px;margin:0;overflow-wrap:anywhere}
+main.caat-editorial dt{background:#eff5f6;font-weight:700}
+main.caat-editorial .caat-threshold-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+main.caat-editorial .caat-time{display:block;font-size:22px;font-weight:800;color:#267e89}
+main.caat-editorial .caat-threshold-grid small{display:block;font-size:12px;color:#61717e;margin-top:16px}
+main.caat-editorial .caat-citations{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;font-size:12px}
+main.caat-editorial .caat-citations a{font-weight:400;border-bottom:1px solid #c8dce0}
+main.caat-editorial .caat-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+main.caat-editorial .caat-actions a{border:1px solid #dce5e8;border-radius:12px;background:#fff;padding:16px 18px;overflow-wrap:anywhere}
+main.caat-editorial .caat-sources{font-size:13px;border-top:1px solid #dce5e8!important;padding-top:26px!important}
+main.caat-editorial .caat-sources li{margin:10px 0;scroll-margin-top:140px}
+main.caat-editorial .staff-phrases article{margin:12px 0}
+@media(max-width:650px){main.caat-editorial{padding:24px 16px 48px}main.caat-editorial>h1{font-size:27px}main.caat-editorial>p{font-size:16px}main.caat-editorial .caat-content h2{font-size:22px}main.caat-editorial .caat-content section{margin:30px 0}main.caat-editorial .caat-threshold-grid,main.caat-editorial .caat-actions{grid-template-columns:1fr}main.caat-editorial dl>div{grid-template-columns:110px minmax(0,1fr)}main.caat-editorial dt,main.caat-editorial dd{padding:12px;font-size:14px}}
+</style>

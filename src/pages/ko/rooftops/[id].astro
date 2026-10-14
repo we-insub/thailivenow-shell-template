@@ -1,0 +1,9 @@
+---
+import RooftopDetail from '../../../components/RooftopDetail.astro';
+import rooftops from '../../../data/rooftops.json';
+export function getStaticPaths() {
+  return rooftops.filter(venue=>venue.publicationStatus !== 'held').map(venue => ({params: {id: venue.id}, props: {venue}}));
+}
+const {venue} = Astro.props;
+---
+<RooftopDetail venue={venue}/>

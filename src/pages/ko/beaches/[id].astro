@@ -1,0 +1,7 @@
+---
+import BeachDetail from '../../../components/BeachDetail.astro';
+import beaches from '../../../data/beaches.json';
+export function getStaticPaths(){return beaches.filter(b=>b.pilot).map(beach=>({params:{id:beach.id},props:{beach}}));}
+const {beach}=Astro.props;
+---
+<BeachDetail beach={beach}/>

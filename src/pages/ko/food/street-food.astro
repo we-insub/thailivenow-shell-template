@@ -1,0 +1,12 @@
+---
+import FoodLayout from '../../../components/FoodLayout.astro';
+import FoodCards from '../../../components/FoodCards.astro';
+import food from '../../../data/food.json';
+---
+<FoodLayout title="태국 길거리 음식 · 로띠와 땡모반, 간식과 음료" description="태국의 길거리에서 맛볼 로띠와 땡모반, 로띠 사이마이, 발효 소시지와 핫야이 닭튀김을 알아보세요. 맛과 주문할 때 알아둘 점을 소개해요." breadcrumbs={[["음식","/ko/food/"]]} sourceIds={['street-intro','street-catalog','regional','roti','hatyai-tat']}>
+<header class="food-hero"><span class="food-eyebrow">STREET FOOD · SNACKS & DRINKS</span><h1>길을 걷다 생각나는<br/>태국의 간식과 음료</h1><p class="food-intro">따뜻하게 구운 로띠 한 조각과 차가운 땡모반 한 컵을 즐겨보세요. 태국에서는 식사 사이에 먹는 간식과 과일 음료도 여행의 재미예요. 달콤한 간식부터 소시지와 닭튀김까지, 먹고 싶은 음식의 맛과 먹는 방법을 알아보세요.</p></header>
+<section><h2>달콤한 로띠와 시원한 땡모반</h2><FoodCards ids={['roti','watermelon-shake','roti-sai-mai']}/></section>
+<section><h2>짭짤한 간식과 함께 먹을 한 끼</h2><FoodCards ids={['sai-krok-isan','hat-yai-chicken']}/></section>
+<section><h2>주문할 때는 이렇게 골라보세요</h2><ol class="food-steps"><li><span>로띠는 기본 메뉴와 바나나·달걀 등 토핑을 넣는 메뉴의 가격을 나눠 보세요.</span></li><li><span>음료는 컵 크기와 추가하는 재료를 보고, 단맛을 줄이고 싶다면 만들기 전에 말씀해주세요.</span></li><li><span>가게의 메뉴와 표시 가격을 보고 필요한 양만 주문하세요. 음식 이름만으로 같은 가격이나 재료를 기대할 필요는 없어요.</span></li></ol></section>
+<section><h2>과일과 함께 알아보기</h2><div class="food-related"><a href="/ko/food/fruits/">1–12월 태국 과일 →</a><a href="/ko/food/fruit-prices/">과일 판매 단위·가격 →</a><a href="/ko/food/">태국 음식 전체 →</a></div></section>
+</FoodLayout>

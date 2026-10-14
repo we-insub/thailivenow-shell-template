@@ -1,0 +1,2177 @@
+{
+  "schemaVersion": 1,
+  "market": "RU",
+  "status": "researching",
+  "checkedAt": "2026-10-13",
+  "routes": [
+    {
+      "id": "su270-svo-bkk",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "SVO",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU270",
+      "airportNames": {
+        "SVO": "Москва — Шереметьево",
+        "BKK": "Бангкок — Суварнабхуми"
+      },
+      "description": "Прямой рейс Аэрофлота из Шереметьево в Бангкок.",
+      "schedule": "Вылет 13 октября 2026 года в 18:45, прилёт 14 октября в 08:30 по местному времени.",
+      "durationMinutes": 585,
+      "durationType": "block",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0270-20261013",
+        "https://flights.aeroflot.ru/ru-ru/schedule"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard"
+    },
+    {
+      "id": "su271-bkk-svo",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "BKK",
+      "destinationIata": "SVO",
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU271",
+      "airportNames": {
+        "SVO": "Москва — Шереметьево",
+        "BKK": "Бангкок — Суварнабхуми"
+      },
+      "description": "Прямой рейс Аэрофлота из Бангкока в Шереметьево.",
+      "schedule": "Вылет 14 октября 2026 года в 10:15, прилёт в Шереметьево в 16:00 по местному времени.",
+      "durationMinutes": 585,
+      "durationType": "block",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0271-20261014",
+        "https://flights.aeroflot.ru/ru-ru/schedule"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard"
+    },
+    {
+      "id": "su272-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "origin": "Москва — Шереметьево (SVO)",
+      "destination": "Бангкок — Суварнабхуми (BKK)",
+      "originIata": "SVO",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU272",
+      "airportNames": {
+        "SVO": "Москва — Шереметьево",
+        "BKK": "Бангкок — Суварнабхуми"
+      },
+      "description": "Прямой рейс по официальному расписанию.",
+      "schedule": "22:25 → 11:45 (+1)",
+      "durationMinutes": 560,
+      "durationType": "block",
+      "status": "Официальное расписание.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0272-20261013"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "departureLocal": "22:25",
+      "arrivalLocal": "11:45",
+      "arrivalDayOffset": 1,
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-14",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": false,
+      "originTerminal": "C"
+    },
+    {
+      "id": "su273-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "origin": "Бангкок — Суварнабхуми (BKK)",
+      "destination": "Москва — Шереметьево (SVO)",
+      "originIata": "BKK",
+      "destinationIata": "SVO",
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU273",
+      "airportNames": {
+        "BKK": "Бангкок — Суварнабхуми",
+        "SVO": "Москва — Шереметьево"
+      },
+      "description": "Прямой рейс по официальному расписанию.",
+      "schedule": "13:20 → 19:00",
+      "durationMinutes": 580,
+      "durationType": "block",
+      "status": "Официальное расписание.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0273-20261013"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "departureLocal": "13:20",
+      "arrivalLocal": "19:00",
+      "arrivalDayOffset": 0,
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-13",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": false,
+      "destinationTerminal": "C"
+    },
+    {
+      "id": "su284-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "origin": "Москва — Шереметьево (SVO)",
+      "destination": "Международный аэропорт Пхукет (HKT)",
+      "originIata": "SVO",
+      "destinationIata": "HKT",
+      "thaiAirport": "HKT",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU284",
+      "airportNames": {
+        "SVO": "Москва — Шереметьево",
+        "HKT": "Международный аэропорт Пхукет"
+      },
+      "description": "Прямой рейс по официальному расписанию.",
+      "schedule": "19:10 → 08:30 (+1)",
+      "durationMinutes": 560,
+      "durationType": "block",
+      "status": "Официальное расписание.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0284-20261013"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "departureLocal": "19:10",
+      "arrivalLocal": "08:30",
+      "arrivalDayOffset": 1,
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-14",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": false,
+      "originTerminal": "C",
+      "destinationTerminal": "I"
+    },
+    {
+      "id": "su285-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "origin": "Международный аэропорт Пхукет (HKT)",
+      "destination": "Москва — Шереметьево (SVO)",
+      "originIata": "HKT",
+      "destinationIata": "SVO",
+      "thaiAirport": "HKT",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU285",
+      "airportNames": {
+        "HKT": "Международный аэропорт Пхукет",
+        "SVO": "Москва — Шереметьево"
+      },
+      "description": "Прямой рейс по официальному расписанию.",
+      "schedule": "10:35 → 16:35",
+      "durationMinutes": 600,
+      "durationType": "block",
+      "status": "Официальное расписание.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0285-20261013"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "departureLocal": "10:35",
+      "arrivalLocal": "16:35",
+      "arrivalDayOffset": 0,
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-13",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": false,
+      "destinationTerminal": "C",
+      "originTerminal": "I"
+    },
+    {
+      "id": "su277-20261014",
+      "market": "RU",
+      "country": "Россия",
+      "origin": "Международный аэропорт Пхукет (HKT)",
+      "destination": "Москва — Шереметьево (SVO)",
+      "originIata": "HKT",
+      "destinationIata": "SVO",
+      "thaiAirport": "HKT",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU277",
+      "airportNames": {
+        "HKT": "Международный аэропорт Пхукет",
+        "SVO": "Москва — Шереметьево"
+      },
+      "description": "Прямой рейс по официальному расписанию.",
+      "schedule": "15:15 → 20:55",
+      "durationMinutes": 580,
+      "durationType": "block",
+      "status": "Официальное расписание.",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0277-20261014"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "departureLocal": "15:15",
+      "arrivalLocal": "20:55",
+      "arrivalDayOffset": 0,
+      "departureDateLocal": "2026-10-14",
+      "arrivalDateLocal": "2026-10-14",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": false,
+      "destinationTerminal": "C",
+      "originTerminal": "I"
+    },
+    {
+      "id": "su276-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "origin": "Москва — Шереметьево (SVO)",
+      "destination": "Международный аэропорт Пхукет (HKT)",
+      "originIata": "SVO",
+      "destinationIata": "HKT",
+      "thaiAirport": "HKT",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU276",
+      "airportNames": {
+        "SVO": "Москва — Шереметьево",
+        "HKT": "Международный аэропорт Пхукет"
+      },
+      "description": "Прямой рейс по официальному расписанию.",
+      "schedule": "23:35 → 13:20 (+1)",
+      "durationMinutes": 585,
+      "durationType": "block",
+      "status": "Официальное расписание.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "departureLocal": "23:35",
+      "arrivalLocal": "13:20",
+      "arrivalDayOffset": 1,
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-14",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": false,
+      "originTerminal": "C",
+      "destinationTerminal": "I"
+    },
+    {
+      "id": "su628-led-hkt-20261014",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "LED",
+      "destinationIata": "HKT",
+      "origin": "Санкт-Петербург — Пулково",
+      "destination": "Пхукет",
+      "airportNames": {
+        "LED": "Санкт-Петербург — Пулково",
+        "HKT": "Пхукет"
+      },
+      "thaiAirport": "HKT",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU628",
+      "departureLocal": "21:00",
+      "arrivalLocal": "11:45",
+      "departureDateLocal": "2026-10-14",
+      "arrivalDateLocal": "2026-10-15",
+      "arrivalDayOffset": 1,
+      "timeBasisVerified": true,
+      "durationMinutes": 645,
+      "durationType": "block",
+      "schedule": "21:00 → 11:45.",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "originTerminal": "1",
+      "destinationTerminal": "I",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/LED/SU0628-20261014/HKT?request=schedule-route-LED-HKT-20261012-20261018-C0-HKT-LED-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su629-hkt-led-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "HKT",
+      "destinationIata": "LED",
+      "origin": "Пхукет",
+      "destination": "Санкт-Петербург — Пулково",
+      "airportNames": {
+        "LED": "Санкт-Петербург — Пулково",
+        "HKT": "Пхукет"
+      },
+      "thaiAirport": "HKT",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU629",
+      "departureLocal": "11:45",
+      "arrivalLocal": "19:05",
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-13",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 680,
+      "durationType": "block",
+      "schedule": "11:45 → 19:05.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "originTerminal": "I",
+      "destinationTerminal": "1",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/HKT/SU0629-20261013/LED?request=schedule-route-LED-HKT-20261012-20261018-C0-HKT-LED-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su639-hkt-vvo-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "HKT",
+      "destinationIata": "VVO",
+      "origin": "Пхукет",
+      "destination": "Владивосток",
+      "airportNames": {
+        "LED": "Санкт-Петербург — Пулково",
+        "HKT": "Пхукет",
+        "VVO": "Владивосток"
+      },
+      "thaiAirport": "HKT",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU639",
+      "departureLocal": "17:05",
+      "arrivalLocal": "03:30",
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-14",
+      "arrivalDayOffset": 1,
+      "timeBasisVerified": true,
+      "durationMinutes": 445,
+      "durationType": "block",
+      "schedule": "17:05 → 03:30.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "originTerminal": "I",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/HKT/SU0639-20261013/VVO?request=schedule-route-VVO-HKT-20261012-20261018-C0-HKT-VVO-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su638-vvo-hkt-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "VVO",
+      "destinationIata": "HKT",
+      "origin": "Владивосток",
+      "destination": "Пхукет",
+      "airportNames": {
+        "LED": "Санкт-Петербург — Пулково",
+        "HKT": "Пхукет",
+        "VVO": "Владивосток"
+      },
+      "thaiAirport": "HKT",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU638",
+      "departureLocal": "11:00",
+      "arrivalLocal": "15:15",
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-13",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 435,
+      "durationType": "block",
+      "schedule": "11:00 → 15:15.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "destinationTerminal": "I",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/VVO/SU0638-20261013/HKT?request=schedule-route-VVO-HKT-20261012-20261018-C0-HKT-VVO-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su634-kja-hkt-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "KJA",
+      "destinationIata": "HKT",
+      "origin": "Красноярск — Емельяново",
+      "destination": "Пхукет",
+      "airportNames": {
+        "LED": "Санкт-Петербург — Пулково",
+        "HKT": "Пхукет",
+        "VVO": "Владивосток",
+        "KJA": "Красноярск — Емельяново"
+      },
+      "thaiAirport": "HKT",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU634",
+      "departureLocal": "00:05",
+      "arrivalLocal": "07:40",
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-13",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 455,
+      "durationType": "block",
+      "schedule": "00:05 → 07:40.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "originTerminal": "1",
+      "destinationTerminal": "I",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/KJA/SU0634-20261013/HKT?request=schedule-route-KJA-HKT-20261012-20261018-C0-HKT-KJA-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su650-ovb-bkk-20261015",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "OVB",
+      "destinationIata": "BKK",
+      "origin": "Новосибирск — Толмачево",
+      "destination": "Бангкок — Суварнабхуми",
+      "airportNames": {
+        "LED": "Санкт-Петербург — Пулково",
+        "HKT": "Пхукет",
+        "VVO": "Владивосток",
+        "KJA": "Красноярск — Емельяново",
+        "OVB": "Новосибирск — Толмачево",
+        "BKK": "Бангкок — Суварнабхуми"
+      },
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU650",
+      "departureLocal": "06:40",
+      "arrivalLocal": "14:20",
+      "departureDateLocal": "2026-10-15",
+      "arrivalDateLocal": "2026-10-15",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 460,
+      "durationType": "block",
+      "schedule": "06:40 → 14:20.",
+      "operatingDates": [
+        "2026-10-15"
+      ],
+      "validFrom": "2026-10-15",
+      "validTo": "2026-10-15",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/OVB/SU0650-20261015/BKK?request=schedule-route-OVB-BKK-20261012-20261018-C0-BKK-OVB-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su650-ovb-bkk-20261018",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "OVB",
+      "destinationIata": "BKK",
+      "origin": "Новосибирск — Толмачево",
+      "destination": "Бангкок — Суварнабхуми",
+      "airportNames": {
+        "LED": "Санкт-Петербург — Пулково",
+        "HKT": "Пхукет",
+        "VVO": "Владивосток",
+        "KJA": "Красноярск — Емельяново",
+        "OVB": "Новосибирск — Толмачево",
+        "BKK": "Бангкок — Суварнабхуми"
+      },
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU650",
+      "departureLocal": "09:35",
+      "arrivalLocal": "17:00",
+      "departureDateLocal": "2026-10-18",
+      "arrivalDateLocal": "2026-10-18",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 445,
+      "durationType": "block",
+      "schedule": "09:35 → 17:00.",
+      "operatingDates": [
+        "2026-10-18"
+      ],
+      "validFrom": "2026-10-18",
+      "validTo": "2026-10-18",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/OVB/SU0650-20261018/BKK?request=schedule-route-OVB-BKK-20261012-20261018-C0-BKK-OVB-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su651-bkk-ovb-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "BKK",
+      "destinationIata": "OVB",
+      "origin": "Бангкок — Суварнабхуми",
+      "destination": "Новосибирск — Толмачево",
+      "airportNames": {
+        "BKK": "Бангкок — Суварнабхуми",
+        "OVB": "Новосибирск — Толмачево"
+      },
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU651",
+      "departureLocal": "06:40",
+      "arrivalLocal": "14:00",
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-13",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 440,
+      "durationType": "block",
+      "schedule": "06:40 → 14:00.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/BKK/SU0651-20261013/OVB?request=schedule-route-OVB-BKK-20261012-20261018-C0-BKK-OVB-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su651-bkk-ovb-20261016",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "BKK",
+      "destinationIata": "OVB",
+      "origin": "Бангкок — Суварнабхуми",
+      "destination": "Новосибирск — Толмачево",
+      "airportNames": {
+        "BKK": "Бангкок — Суварнабхуми",
+        "OVB": "Новосибирск — Толмачево"
+      },
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU651",
+      "departureLocal": "10:20",
+      "arrivalLocal": "17:30",
+      "departureDateLocal": "2026-10-16",
+      "arrivalDateLocal": "2026-10-16",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 430,
+      "durationType": "block",
+      "schedule": "10:20 → 17:30.",
+      "operatingDates": [
+        "2026-10-16"
+      ],
+      "validFrom": "2026-10-16",
+      "validTo": "2026-10-16",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/BKK/SU0651-20261016/OVB?request=schedule-route-OVB-BKK-20261012-20261018-C0-BKK-OVB-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su644-vvo-bkk-20261013",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "VVO",
+      "destinationIata": "BKK",
+      "origin": "Владивосток",
+      "destination": "Бангкок — Суварнабхуми",
+      "airportNames": {
+        "VVO": "Владивосток",
+        "BKK": "Бангкок — Суварнабхуми"
+      },
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU644",
+      "departureLocal": "11:50",
+      "arrivalLocal": "15:45",
+      "departureDateLocal": "2026-10-13",
+      "arrivalDateLocal": "2026-10-13",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 415,
+      "durationType": "block",
+      "schedule": "11:50 → 15:45.",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/VVO/SU0644-20261013/BKK?request=schedule-route-VVO-BKK-20261012-20261018-C0-BKK-VVO-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su644-vvo-bkk-20261018",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "VVO",
+      "destinationIata": "BKK",
+      "origin": "Владивосток",
+      "destination": "Бангкок — Суварнабхуми",
+      "airportNames": {
+        "VVO": "Владивосток",
+        "BKK": "Бангкок — Суварнабхуми"
+      },
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU644",
+      "departureLocal": "11:00",
+      "arrivalLocal": "14:55",
+      "departureDateLocal": "2026-10-18",
+      "arrivalDateLocal": "2026-10-18",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 415,
+      "durationType": "block",
+      "schedule": "11:00 → 14:55.",
+      "operatingDates": [
+        "2026-10-18"
+      ],
+      "validFrom": "2026-10-18",
+      "validTo": "2026-10-18",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/VVO/SU0644-20261018/BKK?request=schedule-route-VVO-BKK-20261012-20261018-C0-BKK-VVO-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su645-bkk-vvo-20261014",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "BKK",
+      "destinationIata": "VVO",
+      "origin": "Бангкок — Суварнабхуми",
+      "destination": "Владивосток",
+      "airportNames": {
+        "BKK": "Бангкок — Суварнабхуми",
+        "VVO": "Владивосток"
+      },
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU645",
+      "departureLocal": "12:05",
+      "arrivalLocal": "21:45",
+      "departureDateLocal": "2026-10-14",
+      "arrivalDateLocal": "2026-10-14",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 400,
+      "durationType": "block",
+      "schedule": "12:05 → 21:45.",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/BKK/SU0645-20261014/VVO?request=schedule-route-VVO-BKK-20261012-20261018-C0-BKK-VVO-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su645-bkk-vvo-20261017",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "BKK",
+      "destinationIata": "VVO",
+      "origin": "Бангкок — Суварнабхуми",
+      "destination": "Владивосток",
+      "airportNames": {
+        "BKK": "Бангкок — Суварнабхуми",
+        "VVO": "Владивосток"
+      },
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU645",
+      "departureLocal": "14:55",
+      "arrivalLocal": "00:30",
+      "departureDateLocal": "2026-10-17",
+      "arrivalDateLocal": "2026-10-18",
+      "arrivalDayOffset": 1,
+      "timeBasisVerified": true,
+      "durationMinutes": 395,
+      "durationType": "block",
+      "schedule": "14:55 → 00:30.",
+      "operatingDates": [
+        "2026-10-17"
+      ],
+      "validFrom": "2026-10-17",
+      "validTo": "2026-10-17",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/BKK/SU0645-20261017/VVO?request=schedule-route-VVO-BKK-20261012-20261018-C0-BKK-VVO-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su635-hkt-kja-20261015",
+      "market": "RU",
+      "country": "Россия",
+      "originIata": "HKT",
+      "destinationIata": "KJA",
+      "origin": "Пхукет",
+      "destination": "Красноярск — Емельяново",
+      "airportNames": {
+        "HKT": "Пхукет",
+        "KJA": "Красноярск — Емельяново"
+      },
+      "thaiAirport": "HKT",
+      "direction": "from-thailand",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "flightNumber": "SU635",
+      "departureLocal": "14:00",
+      "arrivalLocal": "22:00",
+      "departureDateLocal": "2026-10-15",
+      "arrivalDateLocal": "2026-10-15",
+      "arrivalDayOffset": 0,
+      "timeBasisVerified": true,
+      "durationMinutes": 480,
+      "durationType": "block",
+      "schedule": "14:00 → 22:00.",
+      "operatingDates": [
+        "2026-10-15"
+      ],
+      "validFrom": "2026-10-15",
+      "validTo": "2026-10-15",
+      "originTerminal": "I",
+      "destinationTerminal": "1",
+      "legalOperatingCarrier": null,
+      "operatingCarrierVerified": false,
+      "nonstopVerified": true,
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://flights.aeroflot.ru/ru-ru/schedule/HKT/SU0635-20261015/KJA?request=schedule-route-KJA-HKT-20261012-20261018-C0-HKT-KJA-20261012-20261018-C0"
+      ],
+      "flightStatusUrl": "https://flights.aeroflot.ru/ru-ru/onlineboard",
+      "checkedAt": "2026-10-13"
+    }
+  ],
+  "airlines": [
+    {
+      "id": "aeroflot",
+      "name": "Аэрофлот",
+      "officialName": "Aeroflot",
+      "note": "Прямой рейс Аэрофлота из Шереметьево в Бангкок.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://flights.aeroflot.ru/ru-ru/onlineboard/flight/SU0270-20261013",
+        "https://flights.aeroflot.ru/ru-ru/schedule",
+        "https://www.aeroflot.ru/additional-service/flight-documents/",
+        "https://www.aeroflot.ru/online_services/documents_about_the_flight/flight_cancellation_delay",
+        "https://www.svo.aero/en/passengers/help/lost-and-found",
+        "https://phuket.airportthai.co.th/service/airport-guide/detail/Airlineinformation_HKT"
+      ],
+      "sections": [
+        {
+          "title": "Время",
+          "text": "Время по расписанию включает разницу часовых поясов и не является фактическим временем в воздухе.",
+          "sources": [
+            "https://flights.aeroflot.ru/ru-ru/schedule"
+          ],
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "title": "Багаж в Бангкоке",
+          "text": "По вещам, оставленным в самолёте, и багажу, не полученному на выдаче, аэропорт направляет пассажира в свою авиакомпанию. Аэропортовая служба Lost and Found хранит забытые вещи, переданные на хранение.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/facility/detail/914"
+          ],
+          "checkedAt": "2026-10-13",
+          "actions": [
+            {
+              "label": "Официальное разделение служб",
+              "url": "https://suvarnabhumi.airportthai.co.th/service/facility/detail/914"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Где находятся кассы Аэрофлота в Шереметьево?",
+          "a": "В терминале C, на третьем этаже, в конце зала вылета. Кассы работают круглосуточно; регистрация на рейс имеет отдельные сроки."
+        },
+        {
+          "q": "Как получить бесплатную справку об отмене или задержке рейса Аэрофлота?",
+          "a": "Откройте раздел бесплатных справок и выберите «Отмена или задержка рейса», затем закажите справку. Заполните форму: номер рейса, дата вылета, электронная почта и телефон. По официальному описанию сервиса готовый PDF-документ с цифровой подписью придёт на электронную почту.",
+          "highlights": [
+            "бесплатных справок",
+            "номер рейса",
+            "дата вылета",
+            "электронная почта и телефон",
+            "цифровой подписью"
+          ]
+        },
+        {
+          "q": "Справка гарантирует страховую выплату?",
+          "a": "Нет. Справка подтверждает факт отмены или задержки. Страховая выплата одобряется отдельно — проверьте условия вашего полиса.",
+          "highlights": [
+            "одобряется отдельно",
+            "условия вашего полиса"
+          ]
+        },
+        {
+          "q": "Куда обращаться по багажу в Шереметьево и на Пхукете?",
+          "a": "Телефон +7 495 544-33-25 — это Lost & Found зоны прилёта Шереметьево, его нельзя использовать для Пхукета. На Пхукете офис Аэрофлота указан в помещении PB104 в здании парковки аэропорта. Проверяйте актуальные контакты на официальных страницах аэропортов.",
+          "highlights": [
+            "зоны прилёта Шереметьево",
+            "PB104"
+          ]
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-WORLD-WEST-01",
+          "sourceRecordId": "AP-WORLD-WEST-01-40:ticketing-faq",
+          "verificationEvidence": [
+            "https://www.aeroflot.ru/offices/ru/mow",
+            "https://www.aeroflot.ru/info/checkin/"
+          ]
+        },
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "APW-CERT-SU0001:FAQ01",
+          "verificationEvidence": [
+            "https://www.aeroflot.ru/additional-service/flight-documents/",
+            "https://www.aeroflot.ru/online_services/documents_about_the_flight/flight_cancellation_delay",
+            "https://www.svo.aero/en/passengers/help/lost-and-found",
+            "https://phuket.airportthai.co.th/service/airport-guide/detail/Airlineinformation_HKT"
+          ],
+          "artifact": "artifacts/airport-research/ru-es-targeted-faq-current/written/ru-aeroflot-faq.json",
+          "reconciliation": "Existing canonical scope preserved; internal testing/unknown-field commentary removed; general inquiry and insured travel assistance roles separated."
+        }
+      ]
+    },
+    {
+      "id": "azur-air",
+      "name": "AZUR air",
+      "officialName": "ООО «АЗУР эйр»",
+      "note": "Оформление справок о задержке и отмене рейса.",
+      "sources": [
+        "https://www.azurair.ru/services/enquiry"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [
+        {
+          "title": "Справка о сбое рейса",
+          "text": "Запросите документ через форму AZUR air.",
+          "sources": [
+            "https://www.azurair.ru/services/enquiry"
+          ],
+          "actions": [
+            {
+              "label": "Как оформить справку",
+              "url": "/ru/airport-assistance/guides/azur-air-disruption-certificate/"
+            }
+          ]
+        },
+        {
+          "title": "Горячая линия",
+          "text": "Общая поддержка: +7 495 374-55-14, не телефон аэропортовой стойки.",
+          "sources": [
+            "https://www.azurair.ru/services/enquiry"
+          ]
+        }
+      ],
+      "faq": []
+    }
+  ],
+  "services": [
+    {
+      "id": "su-svo-international-baggage",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "airportIata": "SVO",
+      "type": "Служба багажа",
+      "location": "Стойки Lost and Found в зале прилёта",
+      "phone": "+7 (495) 544 33 25",
+      "text": "При утрате или повреждении багажа обратитесь к стойке в зале прилёта. Телефон службы для международных рейсов Аэрофлота: +7 (495) 544 33 25.",
+      "sources": [
+        "https://www.svo.aero/en/passengers/help/lost-and-found"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su-hkt-airport-office",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "airportIata": "HKT",
+      "type": "Офис авиакомпании",
+      "location": "Помещение PB104 в здании автомобильной парковки",
+      "text": "Это офис авиакомпании, а не стойка регистрации. Во время обслуживания рейсов обращайтесь к сотруднику компании на стойке G01 в зале.",
+      "sources": [
+        "https://phuket.airportthai.co.th/service/airport-guide/detail/Airlineinformation_HKT",
+        "https://www.aeroflot.ru/offices/th/hkt"
+      ],
+      "checkedAt": "2026-10-13",
+      "fieldContributions": [
+        {
+          "field": "text",
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "53services-proofread",
+          "verificationEvidence": [
+            "artifacts/airport-research/native-current-service-results-20261014/west/response-0.json"
+          ],
+          "kind": "native-copy-review"
+        },
+        {
+          "field": "phone",
+          "originThreadKey": "AP-WORLD-WEST-01",
+          "sourceRecordId": "AP-WORLD-WEST-01-53",
+          "checkedAt": "2026-10-14",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/su-hkt-office-current/response-1.json",
+              "evidenceId": "APW-HKT-OFF-0001",
+              "source": "https://www.aeroflot.ru/offices/th/hkt",
+              "quote": "Phuket International Airport, Parking Building 1st Floor PB104 / +66 76-352359 / Пн. - Пт.: 09:00 – 15:00; Выходные - Сб., ВС., праздничные дни",
+              "addressIdentity": "Same observed PB104 office block; office phone, not PIR-specific"
+            }
+          ]
+        },
+        {
+          "field": "hours",
+          "originThreadKey": "AP-WORLD-WEST-01",
+          "sourceRecordId": "AP-WORLD-WEST-01-53",
+          "checkedAt": "2026-10-14",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/su-hkt-office-current/response-1.json",
+              "evidenceId": "APW-HKT-OFF-0001",
+              "source": "https://www.aeroflot.ru/offices/th/hkt",
+              "quote": "Phuket International Airport, Parking Building 1st Floor PB104 / +66 76-352359 / Пн. - Пт.: 09:00 – 15:00; Выходные - Сб., ВС., праздничные дни",
+              "addressIdentity": "Same observed PB104 office block; office phone, not PIR-specific"
+            }
+          ]
+        },
+        {
+          "field": "text",
+          "originThreadKey": "AP-WORLD-WEST-01",
+          "sourceRecordId": "AP-WORLD-WEST-01-53",
+          "checkedAt": "2026-10-14",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/su-hkt-office-current/response-1.json",
+              "evidenceId": "APW-HKT-OFF-0001",
+              "source": "https://www.aeroflot.ru/offices/th/hkt",
+              "quote": "Внимание! В период обслуживания рейсов просьба обращаться к работнику компании на стойке G01 в зале",
+              "addressIdentity": "Same observed PB104 office block; office phone, not PIR-specific"
+            }
+          ]
+        }
+      ],
+      "phone": "+66 76-352359",
+      "hours": "Часы работы: понедельник — пятница, с 09:00 до 15:00; суббота, воскресенье и праздничные дни — выходные.",
+      "highlights": [
+        "Во время обслуживания рейсов",
+        "G01"
+      ]
+    },
+    {
+      "id": "su-hkt-checkin-20261013-su629",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "airportIata": "HKT",
+      "type": "Регистрация на рейс",
+      "location": "Стойки G2–12, H2–6",
+      "text": "13 октября 2026 года табло аэропорта показывает стойки G2–12, H2–6 для SU629 в Санкт-Петербург. Это назначение на указанную дату; для другой даты уточните стойки у авиакомпании и на табло.",
+      "sources": [
+        "https://phuket.airportthai.co.th/flight?type=d"
+      ],
+      "checkedAt": "2026-10-13",
+      "flightNumbers": [
+        "SU629"
+      ],
+      "observedDate": "2026-10-13"
+    },
+    {
+      "id": "su-bkk-checkin-20261013-su273",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "airportIata": "BKK",
+      "type": "Регистрация на рейс",
+      "location": "Ряд U",
+      "text": "13 октября 2026 года табло Суварнабхуми показывает ряд U для SU273 в Шереметьево. Это назначение на указанную дату; для другой даты уточните стойки у авиакомпании и на табло.",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/flight?type=d"
+      ],
+      "checkedAt": "2026-10-13",
+      "flightNumbers": [
+        "SU273"
+      ],
+      "observedDate": "2026-10-13"
+    },
+    {
+      "id": "su-led-checkin-area",
+      "airportIata": "LED",
+      "type": "Регистрация на рейс",
+      "location": "3-й этаж терминала",
+      "text": "Это общая зона регистрации Пулково. Номер стойки и сроки для вашего рейса уточните у авиакомпании и на табло.",
+      "sources": [
+        "https://pulkovoairport.ru/passengers/passenger_registration/counters/"
+      ],
+      "scope": "airport-common-checkin-area",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su-led-airport-baggage-service",
+      "airportIata": "LED",
+      "type": "Служба аэропорта по багажу и забытым вещам",
+      "phone": "+7 (812) 337-38-22",
+      "hours": "08:00–20:00",
+      "text": "Это контакт аэропорта Пулково по неприбывшему багажу и забытым вещам, а не прямой телефон Аэрофлота.",
+      "sources": [
+        "https://pulkovoairport.ru/passengers/passenger_registration/counters/"
+      ],
+      "scope": "shared-airport-baggage-lostproperty-service",
+      "serviceProvider": "Pulkovo Airport",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su-ovb-representation",
+      "airportIata": "OVB",
+      "type": "Представительство авиакомпании",
+      "location": "Сектор C, 1-й этаж",
+      "phone": "+7 (383) 216-98-99",
+      "text": "Аэропорт указывает эти телефоны представительства. Для багажа и регистрации уточните нужную службу.",
+      "sources": [
+        "https://tolmachevo.ru/passengers/information/aviacompany/"
+      ],
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su-ovb-international-checkin-area",
+      "airportIata": "OVB",
+      "type": "Международная регистрация: правила аэропорта",
+      "location": "Сектор Б, правое крыло 1-го этажа",
+      "text": "По общим правилам аэропорта Толмачёво регистрация начинается за 2 часа 30 минут и заканчивается за 40 минут до вылета; для рейсов в Бангкок — за 1 час до вылета. Точные сроки вашего рейса уточните у перевозчика.",
+      "sources": [
+        "https://tolmachevo.ru/passengers/information/departure/"
+      ],
+      "scope": "airport-common-international-checkin-rule",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "checkedAt": "2026-10-13",
+      "fieldContributions": [
+        {
+          "field": "text",
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "53services-proofread",
+          "verificationEvidence": [
+            "artifacts/airport-research/native-current-service-results-20261014/west/response-0.json"
+          ],
+          "kind": "native-copy-review"
+        }
+      ]
+    },
+    {
+      "id": "su-vvo-international-checkin-area",
+      "airportIata": "VVO",
+      "type": "Регистрация на рейс",
+      "location": "Терминал А, слева от центрального эскалатора",
+      "text": "Международная зона аэропорта — стойки 1–13. Назначенную стойку и время окончания регистрации уточните для своей даты и рейса.",
+      "sources": [
+        "https://aerovlad.ru/ru/passengers/registracia"
+      ],
+      "scope": "airport-common-international-checkin-area",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "checkedAt": "2026-10-13",
+      "fieldContributions": [
+        {
+          "field": "text",
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "53services-proofread",
+          "verificationEvidence": [
+            "artifacts/airport-research/native-current-service-results-20261014/west/response-0.json"
+          ],
+          "kind": "native-copy-review"
+        }
+      ]
+    },
+    {
+      "id": "su-vvo-self-service",
+      "airportIata": "VVO",
+      "type": "Самостоятельная регистрация и оформление багажа",
+      "text": "По информации аэропорта, этот сервис доступен для рейсов SU и совместных рейсов с Аэрофлотом. Уточните доступность для своего международного рейса; бумажный посадочный талон нужен для международного вылета.",
+      "sources": [
+        "https://aerovlad.ru/ru/passengers/stoiki-samostoiatelnoi-registracii-i-oformleniia-bagaza",
+        "https://aerovlad.ru/ru/passengers/registracia"
+      ],
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "checkedAt": "2026-10-13",
+      "fieldContributions": [
+        {
+          "field": "text",
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "53services-5corrections-r2",
+          "verificationEvidence": [
+            "artifacts/airport-research/native-current-service-results-20261014/west/response-1.json"
+          ],
+          "kind": "native-copy-review"
+        }
+      ]
+    },
+    {
+      "id": "su-kja-counter-confirmation",
+      "airportIata": "KJA",
+      "type": "Уточнение стойки регистрации",
+      "text": "Расположение стоек может меняться по сезону; уточните его у авиакомпании перед поездкой.",
+      "sources": [],
+      "scope": "user-authorised-seasonal-counter-confirmation",
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "su-kja-remote-contact-center",
+      "airportIata": "KJA",
+      "airlineId": "aeroflot",
+      "airline": "Аэрофлот",
+      "type": "Общий контактный центр авиакомпании",
+      "phone": "+7 (495) 223-55-55",
+      "text": "Это общий контактный центр Аэрофлота, а не прямой телефон стойки аэропорта или службы оформления PIR. Для международных звонков используйте +7 (495) 223-55-55. В России также указан бесплатный номер 8 (800) 444-55-55.",
+      "sources": [
+        "https://www.aeroflot.ru/ru-en"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "sourceRecordId": "apw-phone-gaps-r3:APW-PH-0002:KJA",
+      "verificationEvidence": [
+        "APW-PH-0002"
+      ],
+      "serviceRole": "remote-airline-contact-center"
+    },
+    {
+      "id": "su-vvo-remote-contact-center",
+      "airportIata": "VVO",
+      "airlineId": "aeroflot",
+      "airline": "Аэрофлот",
+      "type": "Общий контактный центр авиакомпании",
+      "phone": "+7 (495) 223-55-55",
+      "text": "Это общий контактный центр Аэрофлота, а не прямой телефон стойки аэропорта или службы оформления PIR. Для международных звонков используйте +7 (495) 223-55-55. В России также указан бесплатный номер 8 (800) 444-55-55.",
+      "sources": [
+        "https://www.aeroflot.ru/ru-en"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "sourceRecordId": "apw-phone-gaps-r3:APW-PH-0002:VVO",
+      "verificationEvidence": [
+        "APW-PH-0002"
+      ],
+      "serviceRole": "remote-airline-contact-center"
+    },
+    {
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "airportIata": "SVO",
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "id": "su-svo-ticket-office",
+      "type": "Кассы Аэрофлота",
+      "location": "Терминал C, третий этаж, в конце зала вылета.",
+      "hours": "Круглосуточно.",
+      "text": "Здесь находится касса Аэрофлота. Перед посещением уточните, можно ли решить ваш вопрос в этой кассе.",
+      "sources": [
+        "https://www.aeroflot.ru/offices/ru/mow"
+      ],
+      "verificationEvidence": [
+        {
+          "id": "APW-SVO-0001",
+          "checkedAt": "2026-10-14",
+          "claim": "Aeroflot SVO 국제선 발권 사무소: Terminal C 3층 출발홀 끝 (Кассы в аэропорту), круглосуточно (24시간). SVO 개별 전화번호 미게재.",
+          "source": "Aeroflot (airline-official, 직접 열람)",
+          "url": "https://www.aeroflot.ru/offices/ru/mow",
+          "quote": "Аэропорт Шереметьево, терминал C, 3 этаж зона вылета в конце зала — Кассы в аэропорту — круглосуточно",
+          "note": "Terminal B(국내선)는 별도 기재. 근무시간은 발권 사무소 자체 운영시간이며 공항 전체 개방시간과 구분됨."
+        }
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-40:su-svo-ticket-office"
+    },
+    {
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "airportIata": "SVO",
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "id": "su-svo-international-checkin",
+      "type": "Регистрация на международный рейс",
+      "location": "Терминал C.",
+      "hours": "От 6 часов до вылета до 40 минут перед вылетом.",
+      "text": "Аэрофлот указывает эти сроки регистрации в Шереметьево. Проверьте условия вашего рейса и назначенную стойку на табло аэропорта.",
+      "sources": [
+        "https://www.aeroflot.ru/info/checkin/"
+      ],
+      "verificationEvidence": [
+        {
+          "id": "APW-SVO-0002",
+          "checkedAt": "2026-10-14",
+          "claim": "Aeroflot SVO 국제선(터미널 C) 체크인: 출발 6시간 전부터, 40분 전 마감 (편별 기준). 수하물 위탁 카운터 № 425·426. 셀프 키오스크 8대 (카운터 № 415·416 맞은편 출발홀 중앙).",
+          "source": "Aeroflot (airline-official, 직접 열람)",
+          "url": "https://www.aeroflot.ru/info/checkin/",
+          "quote": "Регистрация на стойке в аэропорту доступна за 6 часов до вылета в Шереметьево... Заканчивается регистрация за 40 минут до вылета рейса. Стойки для сдачи багажа в Шереметьево: в терминале C — № 425 и 426.",
+          "note": "국제선 체크인 카운터 전체 번호 범위 미게재 (국내선 B № 319–348만 안내). 일일 고정 운영시간 미게재."
+        }
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-40:su-svo-international-checkin"
+    },
+    {
+      "airline": "Аэрофлот",
+      "airlineId": "aeroflot",
+      "airportIata": "SVO",
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "id": "su-svo-bag-drop",
+      "type": "Сдача зарегистрированного багажа",
+      "location": "Терминал C, стойки № 425 и 426.",
+      "text": "Эти стойки предназначены для сдачи багажа перед вылетом. Если чемодан повреждён или не прибыл, обратитесь в службу багажа в зале прилёта.",
+      "sources": [
+        "https://www.aeroflot.ru/info/checkin/",
+        "https://www.svo.aero/en/passengers/help/lost-and-found"
+      ],
+      "verificationEvidence": [
+        {
+          "id": "APW-SVO-0002",
+          "checkedAt": "2026-10-14",
+          "claim": "Aeroflot SVO 국제선(터미널 C) 체크인: 출발 6시간 전부터, 40분 전 마감 (편별 기준). 수하물 위탁 카운터 № 425·426. 셀프 키오스크 8대 (카운터 № 415·416 맞은편 출발홀 중앙).",
+          "source": "Aeroflot (airline-official, 직접 열람)",
+          "url": "https://www.aeroflot.ru/info/checkin/",
+          "quote": "Регистрация на стойке в аэропорту доступна за 6 часов до вылета в Шереметьево... Заканчивается регистрация за 40 минут до вылета рейса. Стойки для сдачи багажа в Шереметьево: в терминале C — № 425 и 426.",
+          "note": "국제선 체크인 카운터 전체 번호 범위 미게재 (국내선 B № 319–348만 안내). 일일 고정 운영시간 미게재."
+        }
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-40:su-svo-bag-drop"
+    },
+    {
+      "id": "su-svo-self-checkin-kiosks",
+      "airlineId": "aeroflot",
+      "airline": "Аэрофлот",
+      "airportIata": "SVO",
+      "type": "Киоски самостоятельной регистрации",
+      "location": "Терминал C, центр зала вылета, напротив стоек № 415 и 416.",
+      "text": "В терминале C установлено 8 киосков самостоятельной регистрации.",
+      "sources": [
+        "https://www.aeroflot.ru/info/checkin/"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "sourceRecordId": "AP-WORLD-WEST-01-40:su-svo-self-checkin-kiosks",
+      "verificationEvidence": [
+        {
+          "target": "APW-SVO-0002",
+          "quote": "Шереметьево, Терминал C — 8 киосков самостоятельной регистрации расположены в центре зала вылета напротив стоек регистрации № 415 и 416.",
+          "source": "https://www.aeroflot.ru/info/checkin/",
+          "provenance": "2026-10-14 browser task session report (aeroflot.ru/info/checkin/, 확인일 2026-10-14) — 직접 페이지 재검증 아님",
+          "reconciliation": "Actual cached handoff JSON recovered; independent re-query not performed. No new hours/phone inferred."
+        }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "caat-passenger-rights",
+      "title": "Компенсация за задержку и отмену рейсов из Таиланда и обращение в CAAT",
+      "description": "Если регулярный международный рейс из Таиланда в Россию задержан или отменён, ознакомьтесь с доступной помощью, условиями компенсации и официальным порядком обращения в CAAT.",
+      "text": "Для регулярных международных рейсов из аэропортов Таиланда, включая Суварнабхуми и Донмыанг, в Россию действуют правила защиты пассажиров CAB № 101, о которых информирует CAAT — Управление гражданской авиации Таиланда. Правила распространяются как на тайские, так и на иностранные авиакомпании. Этот критерий страны отправления нельзя напрямую применять к рейсам из России в Таиланд.\nПравила действуют с 20 мая 2025 года. Ниже — положения для регулярных международных рейсов из Таиланда; для внутренних и чартерных рейсов правила уточняйте отдельно. Страховые заявления и предусмотренные законом помощь и компенсация от авиакомпании подаются в разные организации.",
+      "checkedAt": "2026-10-13",
+      "effectiveFrom": "2025-05-20",
+      "sources": [
+        "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/",
+        "https://www.caat.or.th/en/publication/179240/",
+        "https://www.caat.or.th/en/publication/179245/",
+        "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+      ],
+      "sections": [
+        {
+          "title": "Проверьте также условия регистрации",
+          "text": "Статья 10 правил CAB № 101 относит к защищаемым пассажирам, в частности, тех, кто зарегистрировался в пределах времени, заранее указанного авиакомпанией. Если отдельное время регистрации на международный рейс не указано, ориентир — не позднее чем за 1 час до запланированного вылета; правила также охватывают случаи, когда авиакомпания приняла регистрацию в другое время.\nОтдельно предусмотрены пассажиры, переведённые на другой рейс, пассажиры с изменением расписания более чем на 5 часов относительно запланированного вылета и пассажиры отменённого забронированного рейса. Уведомление о задержке не означает автоматического переноса окончания регистрации — уточните это у авиакомпании.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "Как рассчитывается продолжительность задержки?",
+          "text": "Обычная задержка в руководстве CAAT рассчитывается по отправлению. Отсчёт ведётся от утверждённого запланированного времени вылета или времени, сообщённого при покупке, до закрытия дверей самолёта. Если об изменении расписания сообщили не менее чем за 24 часа, существуют также условия расчёта по изменённому времени, поэтому сохраняйте исходное расписание и уведомление об изменении вместе.\nДля ожидания на земле после закрытия дверей необходимо отдельно проверять правила задержки на борту на земле. Не смешивайте фактическое время взлёта, задержку прибытия и условия выдачи справки авиакомпанией с расчётом обычной задержки на этой странице.\nСтатья 13: при ожидании в самолёте на земле более трёх часов и неопределённом времени взлёта разрешается выход, кроме причин безопасности, авиационной безопасности или управления воздушным движением.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 13"
+          ]
+        },
+        {
+          "title": "Какую помощь можно запросить в зависимости от задержки",
+          "text": "Все пороги ниже означают «более», а не ровно указанное время. Сначала запросите питание, напитки и средства связи, а при длительном ожидании уточните проживание, транспорт и возможность возврата денег, если решите не продолжать поездку. Для денежной компенсации предусмотрены отдельные исключения.",
+          "sources": [
+            "https://www.caat.or.th/en/publication/179240/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "Компенсация по расстоянию при задержке более 10 часов и отмене международного рейса",
+          "text": "Правила устанавливают денежную компенсацию 2 000 бат при расстоянии до 1 500 км включительно, 3 500 бат при расстоянии более 1 500 км и до 3 500 км включительно и 4 500 бат при расстоянии более 3 500 км. Для отмены международного рейса применяются те же интервалы расстояния, но сначала необходимо проверить исключения. Не прибавляйте автоматически 1 500 бат за задержку более 5 часов — уточните у авиакомпании применимый этап и сумму выплаты.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "Возврат денег или альтернативный рейс при отмене",
+          "text": "Запросите у авиакомпании возврат тарифа и сборов за неиспользованный маршрут и варианты альтернативного рейса. Уточните также питание и средства связи. Если альтернативный рейс отправляется более чем на сутки позже исходного времени вылета, правила предусматривают необходимые проживание и транспорт между аэропортом и местом проживания. Если вам предлагают ваучер, вам должны объяснить условия использования и получить ваше согласие.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "В некоторых случаях денежная компенсация не выплачивается",
+          "text": "Чрезвычайные обстоятельства (extraordinary circumstances), доказанные авиакомпанией, могут быть исключением из денежной компенсации за задержку или отмену. Для отмены международного рейса исключения также предусмотрены, если уведомление и другие варианты поездки предоставлены не менее чем за 7 дней либо уведомление получено позднее, но альтернативный рейс прибывает в пункт назначения не более чем на 3 часа раньше или позже исходного времени. Это исключения из денежной компенсации, поэтому не считайте, что питание, альтернативный рейс и возврат денег также полностью исключены — уточняйте каждую меру отдельно.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Что сначала уточнить у авиакомпании в аэропорту",
+          "text": "Проверьте фактического перевозчика, дату и номер рейса в билете и попросите письменно указать причину задержки или отмены и права пассажиров. Для оформления обращения проще конкретно указать, нужны ли вам талоны на питание, проживание, возврат денег или альтернативный рейс. Сохраняйте уведомление о задержке, исходное и изменённое расписание, номер обращения и чеки. Запрашивайте денежную компенсацию, возмещение расходов и возврат стоимости билета отдельно.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Соберите материалы для запроса авиакомпании и жалобы",
+          "text": "По подтверждению бронирования, электронному билету и посадочному талону проверьте фактического перевозчика, номер рейса, дату вылета и исходное время отправления. Сохранённые вместе уведомления авиакомпании о задержке или отмене, изменённое расписание и справки о задержке или отмене помогут объяснить обстоятельства.\nЗапишите, какие питание, проживание, возврат денег, альтернативный рейс и компенсацию вы запросили, а также ответ и номер обращения. Если вы оплатили расходы сами, сохраните чеки по каждой статье. Это рекомендации по подготовке обращения, а не замена перечня обязательных документов на экране подачи жалобы CAAT или у авиакомпании. Для страхового заявления отдельно проверьте условия вашего страховщика и его требования к документам.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ],
+          "actions": []
+        },
+        {
+          "title": "Откройте официальный сайт жалоб CAAT",
+          "text": "Если авиакомпания не обеспечила предусмотренные правилами права, перейдите на официальный сайт жалоб CAAT. Сейчас он перенаправляет на страницу входа системы аутентификации CAAT. Выбрав English в верхнем меню языка, вы увидите поля Email / User Name, Password и Sign In на английском. Если у вас нет учётной записи, выберите Sign Up, а если забыли пароль — Forgot password?. После входа следуйте указаниям официальной системы о пунктах заявления и необходимых материалах.",
+          "sources": [
+            "https://complaint.caat.or.th/",
+            "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+          ]
+        },
+        {
+          "title": "Различайте срок возврата денег и срок выплаты компенсации",
+          "text": "Срок возврата тарифа отсчитывается со дня получения полного заявления и соответствующих документов. В правилах указаны 14 дней при покупке непосредственно у авиакомпании за наличные, 45 дней при оплате кредитной картой и 60 дней при покупке через посредника, начиная с получения полного заявления соответствующей авиакомпанией или посредником. Денежная компенсация за задержку международного рейса более 5 или 10 часов имеет срок 14 дней с даты задержанного рейса, поэтому отличается от срока возврата тарифа.\nСтатья 18(4): ваучеры требуют разъяснения условий и согласия; возврат в течение семи дней после полного заявления и документов, отдельно от 14 дней альтернативной неденежной компенсации.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 18(4)"
+          ]
+        },
+        {
+          "title": "Оригинал правил и дата проверки",
+          "text": "Материалы проверены 13 октября 2026 года. Основание — правила CAB № 101 и официальная информация CAAT о правах пассажиров. Опубликованные CAAT английский перевод и пояснения имеют справочный характер; при споре проверяйте оригинал правил на тайском языке вместе с фактическими обстоятельствами конкретного рейса.",
+          "sources": [
+            "https://www.caat.or.th/laws-regulations/132372/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Изменение класса авиакомпанией",
+          "text": "Статья 9 требует согласия при изменении класса авиакомпанией; повышение без доплаты. При понижении возвращают оплаченный тариф: 30% ≤1500 км, 50% при >1500 и ≤3500 км, 75% при >3500 км, по процедурам статей 18–19.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 9",
+            "Articles 18–19"
+          ]
+        },
+        {
+          "title": "Дополнительные услуги и другие права",
+          "text": "Статьи 7–8: раскрыть фактического перевозчика и полную цену; платные услуги — с предварительным согласием. Багаж регулирует отдельное международное право воздушных перевозок (статья 6). Статьи 24–25 сохраняют более благоприятную защиту и другие законные требования возмещения ущерба.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 6",
+            "Articles 7–8",
+            "Articles 24–25"
+          ]
+        }
+      ],
+      "thresholds": [
+        {
+          "label": "Более 2 часов",
+          "text": "Питание и напитки либо талоны на питание с учётом времени ожидания, необходимые средства связи.",
+          "article": "Статья 12 (1)"
+        },
+        {
+          "label": "Более 5 часов",
+          "text": "Помимо питания и средств связи — денежная компенсация 1 500 бат, необходимое проживание как минимум на 1 ночь и транспорт в аэропорт. При отказе от продолжения поездки — возможность возврата денег за неиспользованный маршрут.",
+          "article": "Статья 12 (2)"
+        },
+        {
+          "label": "Более 10 часов",
+          "text": "Денежная компенсация 2 000, 3 500 или 4 500 бат в зависимости от расстояния, питание, связь, необходимые проживание и транспорт. Возможность возврата денег за неиспользованный маршрут или альтернативной поездки.",
+          "article": "Статья 12 (3)"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Официальный сайт жалоб CAAT",
+          "url": "https://complaint.caat.or.th/"
+        },
+        {
+          "label": "Официальная информация CAAT о правах пассажиров",
+          "url": "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+        },
+        {
+          "label": "Официальный расчёт компенсации CAAT по расстоянию",
+          "url": "https://app.powerbi.com/view?r=eyJrIjoiZDUyNTM0ZjctYjk4ZC00YjIxLWI3YzMtOTYzYjYwYzM4MmM2IiwidCI6ImFmM2E4M2I2LTEzYWEtNDMwMC1hNWFlLWIxOWM4YzQyM2E1YSIsImMiOjEwfQ%3D%3D"
+        },
+        {
+          "label": "Страница оригинала правил CAB № 101",
+          "url": "https://www.caat.or.th/laws-regulations/132372/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Применяются ли правила CAAT при возвращении из Таиланда в Россию иностранной авиакомпанией?",
+          "a": "Регулярные международные рейсы из Таиланда подпадают под правила как для тайских, так и для иностранных авиакомпаний. Проверьте фактического перевозчика вашего забронированного рейса и условия защиты пассажиров."
+        },
+        {
+          "q": "Действуют ли те же правила для рейса из России в Таиланд?",
+          "a": "Критерии международных рейсов на этой странице относятся к вылетам из Таиланда. Для рейсов из России отдельно проверьте правила страны отправления и информацию авиакомпании и продавца билета."
+        },
+        {
+          "q": "Всегда ли выплачивают 1 500 бат при задержке на 5 часов?",
+          "a": "Правила предусматривают 1 500 бат при задержке международного рейса более чем на 5 часов. Из-за исключений, включая чрезвычайные обстоятельства, для задержки ровно на 5 часов или случая, подпадающего под исключение, нельзя сделать тот же вывод."
+        },
+        {
+          "q": "При отмене из-за погоды отменяется вся помощь?",
+          "a": "Положение о чрезвычайных обстоятельствах относится к исключениям из денежной компенсации. Уточняйте у авиакомпании отдельно другие меры, включая питание, возврат денег и альтернативный рейс."
+        },
+        {
+          "q": "Как подать жалобу в CAAT?",
+          "a": "Откройте официальный сайт complaint.caat.or.th и войдите с учётной записью CAAT. В меню языка можно выбрать English, а при отсутствии учётной записи доступен Sign Up. Для подачи подготовьте содержание ваших запросов авиакомпании и подтверждения обстоятельств рейса и расходов."
+        },
+        {
+          "q": "Можно выйти после трёх часов?",
+          "a": "Нужно превышение трёх часов и неопределённое время взлёта; действуют исключения статьи 13.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "article": "Article 13",
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "q": "Возврат и компенсация имеют одинаковые сроки?",
+          "a": "Нет: согласованный неденежный возврат — семь дней после полных документов, компенсация — 14.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "article": "Article 18(4); Article 12(2)(c), 12(3)(c)",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "contributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "CAAT-PROOFREAD-01:ru",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/ru-es-current-caat-proofread-current/ru-es-caat-official-proofread.json",
+              "scope": "Native sentence edit of exact current source-preserving fields; no new legal fact."
+            }
+          ],
+          "checkedAt": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "late-arrival-suvarnabhumi",
+      "title": "Если из-за задержки вы поздно прибыли в Суварнабхуми",
+      "description": "Проверьте время работы аэропортовой железной дороги и расположение круглосуточных зон посадки в такси и Grab, чтобы добраться до места проживания.",
+      "text": "После прохождения паспортного контроля и получения багажа уточните, в какое время вы фактически сможете отправиться из аэропорта. Поздно ночью можно воспользоваться зонами посадки в такси и Grab у главного терминала Суварнабхуми.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+      ],
+      "sections": [
+        {
+          "title": "Сначала проверьте время работы аэропортовой железной дороги",
+          "text": "По официальной информации аэропорта Airport Rail Link работает с 05:30 до 24:00, а станция находится на подземном уровне B1 главного терминала. Это не время отправления последнего поезда с каждой станции — уточните на месте, каким поездом можно доехать до вашей цели.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+          ]
+        },
+        {
+          "title": "Как пройти к обычным такси на первом этаже",
+          "text": "Обычные такси работают круглосуточно на внутренней дороге между выходами 4–7 первого этажа главного терминала. Получите талон очереди в автомате и пройдите к указанному автомобилю. При проверке стоимости учитывайте аэропортовую доплату 50 бат и дорожные сборы, которые оплачивает пассажир. Телефон стойки обслуживания такси: +66 2 132 0360.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304"
+          ]
+        },
+        {
+          "title": "Садитесь в Grab в специально отведённой зоне",
+          "text": "Зона посадки в Grab находится на внешней дороге у выхода 4 первого этажа главного терминала и работает круглосуточно. Заказав машину в приложении, проверьте указанный автомобиль и место посадки, прежде чем идти к ним.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+          ]
+        },
+        {
+          "title": "Сообщите об изменении прибытия месту проживания и заказанному трансферу",
+          "text": "Уточните в месте проживания возможность позднего заселения и сообщите изменённое время прибытия компании, у которой заказали трансфер. Сохраните чеки за транспорт, оплаченный самостоятельно, но отдельно проверьте условия конкретного рейса и вашего страхового полиса, чтобы узнать, оплачивает ли расходы авиакомпания или страховщик.",
+          "sources": []
+        }
+      ],
+      "actions": [
+        {
+          "label": "Официальная информация Суварнабхуми о транспорте",
+          "url": "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Можно ли воспользоваться Grab, прибыв в Суварнабхуми после полуночи?",
+          "a": "По официальной информации аэропорта зона посадки в Grab на внешней дороге у выхода 4 первого этажа главного терминала работает круглосуточно. Доступные для заказа автомобили и ожидание проверяйте в приложении и на месте."
+        }
+      ],
+      "airportIata": "BKK",
+      "contributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "5LOCALE-PROOFREAD-01:ru:late-arrival-suvarnabhumi",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/five-market-counter-arrival-proofread-current/5locale-guides-proofread.json",
+              "scope": "Exact existing native sentence edit; existing airport contact and timetable warning unchanged"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "find-airline-counter",
+      "title": "Как найти стойку авиакомпании в аэропорту",
+      "description": "Проверьте фактического перевозчика и дату вылета, различайте стойки регистрации, оформления билетов и службы багажа по прибытии, чтобы найти нужную стойку.",
+      "text": "Сначала проверьте в бронировании фактического перевозчика, дату по местному времени аэропорта отправления и номер рейса. В аэропорту сверьтесь с табло на этаже вылета и официальной информацией авиакомпании об аэропорте, затем пройдите к стойке, соответствующей нужной услуге.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/",
+        "https://www.thaiairways.com/en-th/content/airport-information/"
+      ],
+      "sections": [
+        {
+          "title": "Проверьте номер забронированного рейса и фактического перевозчика",
+          "text": "Проверьте фактического перевозчика и номер рейса в билете или бронировании. На код-шеринговом рейсе продающая и выполняющая рейс авиакомпании могут различаться, поэтому не выбирайте стойку только по названию продавца. Проверяйте дату вылета по местной дате аэропорта отправления.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "Сверьтесь с табло аэропорта и официальной информацией",
+          "text": "Найдите свой номер рейса на табло этажа вылета и проверьте указанную стойку регистрации. Также сверьтесь с официальной информацией авиакомпании об аэропорте; если стойка в день вылета отличается, уточните информацию на месте. Различайте выход на посадку и стойку регистрации.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "Различайте регистрацию, оформление билетов и службу багажа по прибытии",
+          "text": "Регистрацией, оформлением или изменением билетов и проблемами с багажом по прибытии могут заниматься разные стойки. Если багаж задержан или повреждён, уточните стойку службы багажа по прибытии. При звонке также проверьте, относится ли номер к центру бронирования или стойке аэропорта, и объясните нужную услугу.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "Проверьте стойку и окончание регистрации на дату поездки",
+          "text": "Расписание и информация о стойках могут меняться в зависимости от сезона. На дату поездки повторно проверьте официальную информацию авиакомпании и табло аэропорта, а также время окончания регистрации. Не считайте, что уведомление о задержке автоматически переносит окончание регистрации — уточните это у авиакомпании.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Официальная информация аэропорта Суварнабхуми",
+          "url": "https://suvarnabhumi.airportthai.co.th/"
+        },
+        {
+          "label": "Официальная информация Thai Airways об аэропортах",
+          "url": "https://www.thaiairways.com/en-th/content/airport-information/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Нужно ли идти к стойке авиакомпании, указанной в билете?",
+          "a": "Сначала проверьте фактического перевозчика. На код-шеринговом рейсе продающая и выполняющая рейс авиакомпании могут различаться, поэтому сверьтесь с официальной информацией об аэропорте для своего номера рейса и табло в день вылета."
+        },
+        {
+          "q": "Нужно ли обращаться с повреждённым багажом на стойку регистрации?",
+          "a": "При проблемах с багажом по прибытии сначала уточните стойку соответствующей багажной службы. Её задачи могут отличаться от задач стоек регистрации и оформления билетов."
+        }
+      ]
+    },
+    {
+      "id": "insurance-claim",
+      "title": "РЕСО-Гарантия: заявление по утраченному багажу",
+      "description": "Проверьте покрытие багажа в полисе для поездки в Таиланд и подготовьте документы для РЕСО-Гарантия.",
+      "text": "Инструкция относится к утрате багажа при включённом покрытии, а не ко всем полисам или компенсации задержки рейса.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://reso.ru/individual/travel/",
+        "https://reso.ru/incase/travel/"
+      ],
+      "sections": [
+        {
+          "title": "Документы",
+          "text": "Нужны заявление, полис, удостоверение личности, оригиналы билета или посадочного талона и багажных квитанций. Подготовьте документ об инциденте и полученном возмещении перевозчика; возможны дополнительные документы.",
+          "sources": [
+            "https://reso.ru/incase/travel/"
+          ]
+        },
+        {
+          "title": "Язык документов",
+          "text": "Для документов не на русском или английском нужен нотариально удостоверенный перевод на русский.",
+          "sources": [
+            "https://reso.ru/incase/travel/"
+          ]
+        },
+        {
+          "title": "Куда подать после возвращения",
+          "text": "Обратитесь в местный офис или центр выплат: Москва, Нагорный проезд, 6. Почтовый адрес: 117105, Москва, Нагорный проезд, 6, РЕСО-Гарантия, Управление выплат по имуществу, Департамент выплат по имуществу.",
+          "sources": [
+            "https://reso.ru/incase/travel/"
+          ]
+        },
+        {
+          "title": "Вопросы страховщику",
+          "text": "+7 (495) 730-30-00 — номер для вопросов РЕСО-Гарантия, не телефон аэропортовой службы багажа.",
+          "sources": [
+            "https://reso.ru/incase/travel/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Документы и подача: РЕСО-Гарантия",
+          "url": "https://reso.ru/incase/travel/"
+        },
+        {
+          "label": "Проверьте опцию страхования багажа",
+          "url": "https://reso.ru/individual/travel/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Обязателен только PIR?",
+          "a": "Нет: официальная инструкция допускает и другие формы документа об инциденте. Сверьте форму со страховщиком."
+        },
+        {
+          "q": "Оригинал удостоверения нужен при отправке почтой?",
+          "a": "Для почтового обращения официальная инструкция указывает скан-копию удостоверения личности."
+        },
+        {
+          "q": "Входит ли потеря багажа в мою страховку РЕСО?",
+          "a": "Только если в ваш полис включено покрытие потери багажа — оно есть не во всех полисах. Это отдельное покрытие, оно не связано с денежной компенсацией за задержку рейса. Проверьте условия вашего полиса перед поездкой."
+        },
+        {
+          "q": "На каком языке подавать документы в РЕСО?",
+          "a": "Документы на русском или английском языках принимаются без перевода. Документы на других языках нужно перевести на русский и заверить перевод у нотариуса."
+        },
+        {
+          "q": "К кому обращаться — в авиакомпанию или в страховую?",
+          "a": "Телефон страховщика: +7 (495) 730-30-00. Это не телефон для PIR в аэропорту. Нужны заявление, полис, удостоверение личности, оригиналы билета или посадочного талона и багажных квитанций. Подготовьте документ об инциденте и полученном возмещении перевозчика; возможны дополнительные документы."
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "RU-INS-FAQ-01:ru-ins-faq-01",
+          "verificationEvidence": [
+            "https://reso.ru/incase/travel/",
+            "https://reso.ru/individual/travel/"
+          ],
+          "reconciliation": "Reconciled with existing RESO loss-only policy/document scope; all-document and mailing extensions excluded."
+        },
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "RU-INS-FAQ-01:ru-ins-faq-02",
+          "verificationEvidence": [
+            "https://reso.ru/incase/travel/",
+            "https://reso.ru/individual/travel/"
+          ],
+          "reconciliation": "Reconciled with existing RESO loss-only policy/document scope; all-document and mailing extensions excluded."
+        },
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "RU-INS-FAQ-01:ru-ins-faq-03",
+          "verificationEvidence": [
+            "https://reso.ru/incase/travel/",
+            "https://reso.ru/individual/travel/"
+          ],
+          "reconciliation": "Reconciled with existing RESO loss-only policy/document scope; all-document and mailing extensions excluded."
+        }
+      ]
+    },
+    {
+      "id": "late-arrival-phuket",
+      "airportIata": "HKT",
+      "title": "Позднее прибытие на Пхукет из-за задержки",
+      "description": "Проверьте место посадки у международного терминала и поездку до отеля.",
+      "text": "Планируйте трансфер с учётом паспортного контроля и получения багажа. Сообщите заранее заказанному трансферу о задержке и новом времени прибытия.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+      ],
+      "sections": [
+        {
+          "title": "Место посадки в приложении",
+          "text": "Grab указывает специальные места посадки у международной зоны прибытия. Проверьте аэропорт и адрес отеля в приложении, следуйте указаниям и сверьте машину с водителем перед посадкой.",
+          "sources": [
+            "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+          ]
+        },
+        {
+          "title": "Доступность ночью",
+          "text": "Проверьте доступные машины и время ожидания в приложении. Для заказанного трансфера уточните, сможет ли водитель дождаться нового времени прибытия с учётом пограничных процедур и багажа.",
+          "sources": []
+        },
+        {
+          "title": "Стоимость и квитанции",
+          "text": "Grab показывает цену до заказа, кроме GrabTaxi. Проверьте тип машины и место для багажа. Сохраните квитанции и уведомление о задержке; возмещение зависит от условий авиакомпании и страховки.",
+          "sources": [
+            "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Официальная схема посадки Grab в HKT",
+          "url": "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Как найти место посадки?",
+          "a": "Выберите международную зону прибытия HKT в приложении и следуйте указаниям."
+        },
+        {
+          "q": "Можно ли сразу уехать ночью?",
+          "a": "Уточните фактическую доступность и ожидание в приложении, а заказанному трансферу сообщите о задержке."
+        }
+      ]
+    },
+    {
+      "id": "aeroflot-svo-baggage",
+      "airlineIds": [
+        "aeroflot"
+      ],
+      "airportIatas": [
+        "SVO"
+      ],
+      "title": "Багаж Аэрофлота по прилёте в Шереметьево",
+      "description": "Порядок обращения по информации аэропорта Шереметьево.",
+      "text": "Эта инструкция относится к обращению в Шереметьево.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.svo.aero/en/passengers/help/lost-and-found",
+        "https://phuket.airportthai.co.th/service/airport-guide/detail/Airlineinformation_HKT"
+      ],
+      "sections": [
+        {
+          "title": "Сообщите о проблеме в зале прилёта",
+          "text": "При утрате или повреждении багажа обратитесь к стойке в зале прилёта. Телефон службы для международных рейсов Аэрофлота: +7 (495) 544 33 25.",
+          "sources": [
+            "https://www.svo.aero/en/passengers/help/lost-and-found"
+          ]
+        },
+        {
+          "title": "Повреждение: не откладывайте обращение",
+          "text": "Аэропорт рекомендует незамедлительно направить претензию авиакомпании через Lost and Found. Для международных рейсов он указывает срок семь дней со дня получения багажа.",
+          "sources": [
+            "https://www.svo.aero/en/passengers/help/lost-and-found"
+          ]
+        },
+        {
+          "title": "Если багаж не прибыл",
+          "text": "Подайте заявление на розыск в Lost and Found. При обнаружении перевозчик должен уведомить вас и бесплатно доставить багаж по указанному адресу.",
+          "sources": [
+            "https://www.svo.aero/en/passengers/help/lost-and-found"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Куда звонить по международному рейсу Аэрофлота?",
+          "a": "В службу Lost and Found: +7 (495) 544 33 25. Это контакт по багажу, а не касса или регистрация."
+        },
+        {
+          "q": "Можно ли использовать этот телефон в Пхукете?",
+          "a": "Нет, он относится к Шереметьево. Аэропорт Пхукета указывает офис PB104 в здании парковки без телефона и часов работы."
+        }
+      ],
+      "actions": [
+        {
+          "label": "Официальная информация о багаже в Шереметьево",
+          "url": "https://www.svo.aero/en/passengers/help/lost-and-found"
+        },
+        {
+          "label": "Справочник авиакомпаний аэропорта Пхукета",
+          "url": "https://phuket.airportthai.co.th/service/airport-guide/detail/Airlineinformation_HKT"
+        }
+      ],
+      "airportIata": "SVO"
+    },
+    {
+      "id": "azur-air-disruption-certificate",
+      "airlineIds": [
+        "azur-air"
+      ],
+      "title": "Справка AZUR air о задержке или отмене",
+      "description": "Подайте заявление через официальный раздел оформления справок.",
+      "text": "Справка о задержке или отмене указана как бесплатная.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.azurair.ru/services/enquiry"
+      ],
+      "sections": [
+        {
+          "title": "Выберите нужную справку",
+          "text": "В форме выберите задержку или отмену, а не платное подтверждение перелёта.",
+          "sources": [
+            "https://www.azurair.ru/services/enquiry"
+          ]
+        },
+        {
+          "title": "Заполните заявление",
+          "text": "Самостоятельно внесите имя, паспортные данные, номер рейса, маршрут, даты и email. После отправки сохраните регистрационный номер из ответного письма.",
+          "sources": [
+            "https://www.azurair.ru/services/enquiry"
+          ]
+        },
+        {
+          "title": "Получите документ",
+          "text": "После оформления скан направят на email. Для оригинала выберите также отправку почтой и укажите адрес. При отсутствии подтверждения заявки обратитесь на spravka@azurair.ru.",
+          "sources": [
+            "https://www.azurair.ru/services/enquiry"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Нужно платить за справку о задержке?",
+          "a": "Нет: этот вид, включая отмену, отмечен как бесплатный."
+        },
+        {
+          "q": "Как получить бумажный оригинал?",
+          "a": "Выберите email и оригинал почтой в заявлении."
+        }
+      ],
+      "actions": [
+        {
+          "label": "Открыть официальную форму",
+          "url": "https://www.azurair.ru/services/enquiry"
+        }
+      ]
+    },
+    {
+      "id": "aeroflot-flight-certificate",
+      "airlineIds": [
+        "aeroflot"
+      ],
+      "title": "Аэрофлот: справка об отмене или задержке рейса",
+      "description": "Как заказать бесплатную справку об отмене или задержке рейса Аэрофлота.",
+      "text": "Для подтверждения отмены или задержки рейса закажите бесплатную справку через официальный сервис Аэрофлота.",
+      "sections": [
+        {
+          "title": "Выберите бесплатный тип справки",
+          "text": "Откройте раздел бесплатных справок и выберите «Отмена или задержка рейса», затем закажите справку. Это бесплатная категория, отдельная от платных типов справок.",
+          "sources": [
+            "https://www.aeroflot.ru/additional-service/flight-documents/"
+          ]
+        },
+        {
+          "title": "Заполните форму",
+          "text": "В форме «Справка об отмене или задержке рейса» укажите номер рейса, дату вылета, электронную почту и телефон, затем нажмите «Найти рейс». В поле телефона отображается +7.",
+          "sources": [
+            "https://www.aeroflot.ru/online_services/documents_about_the_flight/flight_cancellation_delay"
+          ]
+        },
+        {
+          "title": "Получение и дальнейшие шаги",
+          "text": "По официальному описанию сервиса, готовый PDF-документ с цифровой подписью моментально придёт на электронную почту. Страховую претензию подавайте отдельно: получение справки не означает автоматического одобрения выплаты. Условия страхования проверяйте по вашему полису.",
+          "sources": [
+            "https://www.aeroflot.ru/additional-service/flight-documents/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Бесплатные справки",
+          "url": "https://www.aeroflot.ru/additional-service/flight-documents/"
+        },
+        {
+          "label": "Форма справки",
+          "url": "https://www.aeroflot.ru/online_services/documents_about_the_flight/flight_cancellation_delay"
+        },
+        {
+          "label": "Страхование багажа: документы для РЕСО",
+          "url": "/ru/airport-assistance/guides/insurance-claim/"
+        },
+        {
+          "label": "Права при вылете из Таиланда: CAAT",
+          "url": "/ru/airport-assistance/guides/caat-passenger-rights/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Справка бесплатная?",
+          "a": "Да, справка об отмене или задержке рейса входит в категорию бесплатных справок."
+        },
+        {
+          "q": "Какие данные нужны?",
+          "a": "Номер рейса, дата вылета, электронная почта и телефон."
+        },
+        {
+          "q": "Что делать после получения справки?",
+          "a": "Подайте её в страховую отдельно. Выплата зависит от условий вашего полиса."
+        },
+        {
+          "q": "Справка гарантирует страховую выплату?",
+          "a": "Нет. Условия выплаты проверяйте по вашему полису отдельно."
+        }
+      ],
+      "sources": [
+        "https://www.aeroflot.ru/additional-service/flight-documents/",
+        "https://www.aeroflot.ru/online_services/documents_about_the_flight/flight_cancellation_delay"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-L10N-WEST-01",
+      "sourceRecordId": "AP-L10N-WEST-01-SU-CERT-02",
+      "verificationEvidence": [
+        {
+          "evidenceId": "APW-CERT-SU-0001",
+          "url": "https://www.aeroflot.ru/additional-service/flight-documents/",
+          "checkedAt": "2026-10-14",
+          "sourceArtifact": "artifacts/airport-research/aeroflot-certificate-official-current/apw-su-cert-evidence.json"
+        },
+        {
+          "evidenceId": "APW-CERT-SU-0002",
+          "url": "https://www.aeroflot.ru/online_services/documents_about_the_flight/flight_cancellation_delay",
+          "checkedAt": "2026-10-14",
+          "sourceArtifact": "artifacts/airport-research/aeroflot-certificate-official-current/apw-su-cert-evidence.json"
+        }
+      ],
+      "nativeReviewDone": false,
+      "revision": "r2",
+      "highlights": [
+        "бесплатных справок",
+        "номер рейса",
+        "дату вылета",
+        "электронную почту и телефон",
+        "цифровой подписью",
+        "не означает автоматического одобрения выплаты"
+      ]
+    }
+  ],
+  "coverage": [],
+  "airportNames": {
+    "SVO": "Москва — Шереметьево",
+    "BKK": "Бангкок — Суварнабхуми"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "en-in": {
+    "intro": "Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "faqTitle": "Before you travel",
+    "faq": [
+      {
+        "q": "How do I check this flight for my travel date?",
+        "a": "Use the airline’s or airport’s official flight lookup with your flight number and the departure airport’s local date. Compare the airports and operating airline with your ticket; a schedule verified for one date does not confirm every departure."
+      },
+      {
+        "q": "Where should I go for check-in or baggage help?",
+        "a": "Open the airport and airline details for the relevant stop, then check your flight on the departure screens. Check-in, ticketing offices and arrival baggage desks serve different purposes; use the contact that matches your issue."
+      },
+      {
+        "q": "What evidence should I keep after a delay or cancellation?",
+        "a": "Keep your ticket, boarding pass, airline notices and relevant receipts. Follow the operating airline’s certificate procedure and your insurer’s document requirements; a certificate request does not by itself establish entitlement to payment."
+      }
+    ]
+  },
+  "en-gb": {
+    "intro": "Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "faqTitle": "Before you travel",
+    "faq": [
+      {
+        "q": "How do I check this flight for my travel date?",
+        "a": "Use the airline’s or airport’s official flight lookup with your flight number and the departure airport’s local date. Compare the airports and operating airline with your ticket; a schedule verified for one date does not confirm every departure."
+      },
+      {
+        "q": "Where should I go for check-in or baggage help?",
+        "a": "Open the airport and airline details for the relevant stop, then check your flight on the departure screens. Check-in, ticketing offices and arrival baggage desks serve different purposes; use the contact that matches your issue."
+      },
+      {
+        "q": "What evidence should I keep after a delay or cancellation?",
+        "a": "Keep your ticket, boarding pass, airline notices and relevant receipts. Follow the operating airline’s certificate procedure and your insurer’s document requirements; a certificate request does not by itself establish entitlement to payment."
+      }
+    ]
+  },
+  "en-us": {
+    "intro": "Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "faqTitle": "Before you travel",
+    "faq": [
+      {
+        "q": "How do I check this flight for my travel date?",
+        "a": "Use the airline’s or airport’s official flight lookup with your flight number and the departure airport’s local date. Compare the airports and operating airline with your ticket; a schedule verified for one date does not confirm every departure."
+      },
+      {
+        "q": "Where should I go for check-in or baggage help?",
+        "a": "Open the airport and airline details for the relevant stop, then check your flight on the departure screens. Check-in, ticketing offices and arrival baggage desks serve different purposes; use the contact that matches your issue."
+      },
+      {
+        "q": "What evidence should I keep after a delay or cancellation?",
+        "a": "Keep your ticket, boarding pass, airline notices and relevant receipts. Follow the operating airline’s certificate procedure and your insurer’s document requirements; a certificate request does not by itself establish entitlement to payment."
+      }
+    ]
+  },
+  "koreanReview": {
+    "Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.": "출발공항·도착공항·편명·여행 날짜를 함께 확인한 뒤 아래 공식 링크에서 본인 여정을 확인하세요.",
+    "Before you travel": "여행 전 확인사항",
+    "How do I check this flight for my travel date?": "내 여행 날짜의 이 항공편은 어떻게 확인하나요?",
+    "Use the airline’s or airport’s official flight lookup with your flight number and the departure airport’s local date. Compare the airports and operating airline with your ticket; a schedule verified for one date does not confirm every departure.": "항공사나 공항의 공식 운항 조회에 편명과 출발공항 현지 날짜를 입력하세요. 공항과 실제 운항사를 항공권과 대조하세요. 하루의 시간표를 확인했다고 모든 출발일의 운항이 확인된 것은 아닙니다.",
+    "Where should I go for check-in or baggage help?": "체크인이나 수하물 문제는 어디로 가야 하나요?",
+    "Open the airport and airline details for the relevant stop, then check your flight on the departure screens. Check-in, ticketing offices and arrival baggage desks serve different purposes; use the contact that matches your issue.": "해당 공항과 항공사 상세를 열고 출발 전광판에서 본인 항공편을 확인하세요. 체크인·발권 사무소·도착 수하물 창구는 용도가 다르므로 문제에 맞는 연락처를 이용하세요.",
+    "What evidence should I keep after a delay or cancellation?": "지연이나 결항 후 어떤 증빙을 보관해야 하나요?",
+    "Keep your ticket, boarding pass, airline notices and relevant receipts. Follow the operating airline’s certificate procedure and your insurer’s document requirements; a certificate request does not by itself establish entitlement to payment.": "항공권·탑승권·항공사 안내·관련 영수증을 보관하세요. 실제 운항사의 확인서 절차와 보험사의 요구 서류를 확인하세요. 확인서를 요청했다는 사실만으로 지급 대상이 되는 것은 아닙니다.",
+    "Use the airline’s or airport’s official flight lookup with your flight number and the departure airport’s local date.": "항공사나 공항의 공식 운항 조회에 편명과 출발공항 현지 날짜를 입력하세요.",
+    "Compare the airports and operating airline with your ticket; a schedule verified for one date does not confirm every departure.": "공항과 실제 운항사를 항공권과 대조하세요. 하루의 시간표를 확인했다고 모든 출발일의 운항이 확인된 것은 아닙니다.",
+    "Open the airport and airline details for the relevant stop, then check your flight on the departure screens.": "해당 공항과 항공사 상세를 열고 출발 전광판에서 본인 항공편을 확인하세요.",
+    "Check-in, ticketing offices and arrival baggage desks serve different purposes; use the contact that matches your issue.": "체크인·발권 사무소·도착 수하물 창구는 용도가 다르므로 문제에 맞는 연락처를 이용하세요.",
+    "Keep your ticket, boarding pass, airline notices and relevant receipts.": "항공권·탑승권·항공사 안내·관련 영수증을 보관하세요.",
+    "Follow the operating airline’s certificate procedure and your insurer’s document requirements; a certificate request does not by itself establish entitlement to payment.": "실제 운항사의 확인서 절차와 보험사의 요구 서류를 확인하세요. 확인서를 요청했다는 사실만으로 지급 대상이 되는 것은 아닙니다."
+  }
+}

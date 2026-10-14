@@ -1,0 +1,10 @@
+---
+import {getUI} from '../i18n/ui';
+const {locale='ko'}=Astro.props;
+const ui=getUI(locale);
+---
+<footer class="site-footer tln-footer" data-site-footer>
+ <div><a class="footer-brand" href={`/${locale}/`}>ThaiLiveNow</a><p>{ui.footer}</p></div>
+ <nav aria-label={ui.explore}><a href={`/${locale}/`}>{ui.map}</a><a href={`/${locale}/directory/`}>{ui.cameras}</a><a href="/ko/transport/">{ui.transport}</a>{locale==='ko'&&<><a href="/ko/food/">음식</a><a href="/ko/food-delivery/">음식배달</a><a href="/ko/rooftops/">루프탑</a><a href="/ko/beaches/">해변</a></>}</nav>
+ <small>© 2026 ThaiLiveNow</small>
+</footer>

@@ -1,0 +1,32 @@
+---
+import AirportSources from '../../../../components/AirportSources.astro';
+import AirportImportantText from '../../../../components/AirportImportantText.astro';
+import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
+import AirportEmail from '../../../../components/AirportEmail.astro';
+import AirportPhone from '../../../../components/AirportPhone.astro';
+import {counterSeasonalNotice,needsCounterNotice} from '../../../../i18n/airport-counter-review';
+import {airportMarkets,airportMarketData} from '../../../../lib/airport-markets';
+import {airportUI} from '../../../../i18n/airport-ui';
+import AirportMarketDetail from '../../../../components/AirportMarketDetail.astro';
+import AirportRouteCopy from '../../../../components/AirportRouteCopy.astro';
+import AirportScheduleDates from '../../../../components/AirportScheduleDates.astro';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').flatMap(m=>airportMarketData(m.locale).airlines.map((airline:any)=>({params:{locale:m.locale,id:airline.id},props:{market:m,airline}})));}
+const {market,airline:a}=Astro.props;const t=airportUI[market.locale];const data=airportMarketData(market.locale);const routes=data.routes.filter((r:any)=>r.airlineId===a.id);const services=data.services.filter((s:any)=>s.airlineId===a.id);
+const linkedGuideUrls=new Set([...(a.actions?.map((action:any)=>action.url)||[]),...(a.sections?.flatMap((section:any)=>section.actions?.map((action:any)=>action.url)||[])||[])]);
+const airports=new Set([...routes.flatMap((r:any)=>[r.originIata,r.destinationIata]),...services.map((s:any)=>s.airportIata)].filter(Boolean));
+const otherGuides=data.guides.filter((g:any)=>(!g.airlineIds?.length||g.airlineIds.includes(a.id))&&(!g.airportIata||airports.has(g.airportIata))&&!linkedGuideUrls.has(`/${market.locale}/airport-assistance/guides/${g.id}/`));
+const pageSources=[...new Set([...(a.sources||[]),...(a.sections||[]).flatMap((item:any)=>item.sources||[]),...services.flatMap((item:any)=>item.sources||[]),...routes.flatMap((item:any)=>item.sources||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportMarketDetail market={market} title={`${a.name} · ${t[6]}`} description={a.note}>
+{routes.length>0&&<section><h2>{t[13]}</h2><div class="airline-routes">{routes.map((r:any)=><div><a href={`/${market.locale}/airport-assistance/routes/${r.id}/`}>{r.originIata} → {r.destinationIata} {r.flightNumber||r.airline}</a><AirportScheduleDates route={r} locale={market.locale} compact/></div>)}</div></section>}
+{needsCounterNotice(a,services)&&<section><h2>{t[5]}</h2><p>{counterSeasonalNotice[market.locale]}</p><AirportSourceReferences sources={a.sources||[]} pageSources={pageSources} locale={market.locale}/></section>}
+{services.length>0&&<section><h2>{t[5]}</h2>{services.map((s:any)=><article><h3>{s.airportIata} · {s.type}</h3>{s.location&&<p><AirportImportantText text={s.location} phrases={s.location.length<=70?[s.location]:[]} locale={market.locale}/></p>}{s.hours&&<p><AirportImportantText text={s.hours} phrases={s.hours.length<=70?[s.hours]:[]} locale={market.locale}/></p>}{s.phone&&<AirportPhone phone={s.phone} />}{s.email&&<AirportEmail email={s.email} />}{s.text&&<p><AirportImportantText text={s.text} phrases={s.highlights||[]} locale={market.locale}/></p>}{s.checkedAt&&<p>{t[14]}: {s.checkedAt}</p>}{s.airportIata&&<p><a href={`/${market.locale}/airport-assistance/airports/${s.airportIata.toLowerCase()}/`}>{t[15]} →</a></p>}<AirportSourceReferences sources={s.sources||[]} pageSources={pageSources} locale={market.locale}/></article>)}</section>}
+{a.sections?.map((s:any)=><section><h2>{s.title}</h2>{s.text?.split("\n").filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={s.highlights||[]} locale={market.locale}/></p>)}{s.location&&<p>{s.location}</p>}{s.hours&&<p>{s.hours}</p>}{s.phone&&<AirportPhone phone={s.phone}/>}{s.email&&<AirportEmail email={s.email}/>}{s.actions?.map((action:any)=><p><a href={action.url}>{action.label} →</a></p>)}<AirportSourceReferences sources={s.sources||[]} pageSources={pageSources} locale={market.locale}/></section>)}
+{a.actions?.length>0&&<section><h2>{t[6]}</h2><div class="links">{a.actions.map((action:any)=><a href={action.url}>{action.label} →</a>)}</div></section>}
+{a.faq?.map((f:any)=><details><summary>{f.q}</summary><p><AirportImportantText text={f.a} phrases={f.highlights||[]} locale={market.locale}/></p></details>)}
+{a.faq?.length>0&&<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:a.faq.map((f:any)=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}).replaceAll('<','\u003c')}/>}
+{!a.faq?.length&&<AirportRouteCopy locale={market.locale} faqIndices={[1,2]}/>}
+{otherGuides.length>0&&<section><h2>{t[0]}</h2><div class="links">{otherGuides.map((g:any)=><a href={`/${market.locale}/airport-assistance/guides/${g.id}/`}>{g.title} →</a>)}</div></section>
+<AirportSources locale={market.locale} sources={pageSources} checkedAt={a.checkedAt}/>
+</AirportMarketDetail>
+<style>.airline-routes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}.airline-routes>div{padding:12px;border-bottom:1px solid #e4eaee}</style>

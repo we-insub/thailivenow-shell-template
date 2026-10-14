@@ -1,0 +1,12 @@
+---
+import FoodLayout from '../../../components/FoodLayout.astro';
+import FruitPrices from '../../../components/FruitPrices.astro';
+import food from '../../../data/food.json';
+const cityGuides={bangkok:'방콕에서는 통과일 kg 가격과 잘라 담은 과일 한 팩 가격을 나눠 보세요. 아래에는 같은 날 조사한 품종·등급별 공식 소매가격을 넣었어요. 관광지의 개별 가게 가격과는 다를 수 있어요.','chiang-mai':'치앙마이에서는 북부와 연결된 롱안·리치도 살펴보세요. 송이로 파는 과일은 가지를 포함해 무게를 재는지 물어보시면 좋아요. 말린 롱안과 생과일은 상품과 포장 무게를 나눠 보세요.',phuket:'푸켓에서는 해변에서 바로 먹을 손질 과일이나 음료와 통과일을 나눠 골라보세요. 한 봉지·한 컵 가격을 통과일 kg 가격으로 바꾸어 비교하면 실제 먹는 양이 달라질 수 있어요.',ayutthaya:'아유타야에서 유적을 둘러보는 날에는 바로 먹을 과일의 양을 먼저 정해보세요. 바나나는 한 송이, 통수박은 kg으로 파는 등 과일마다 단위가 달라요. 손질해 담은 제품은 봉지나 팩의 양과 가격을 함께 보세요.','khon-kaen':'콘깬에서는 과일로 먹는 익은 파파야와 쏨땀에 쓰는 그린 파파야를 구분해보세요. 통과일을 살 때는 kg과 전체 무게를, 손질한 과일은 한 팩의 양을 보고 고르시면 돼요.','hat-yai':'핫야이에서는 남부 과일의 산지별 출하시기도 함께 살펴보세요. 같은 람부탄·망고스틴이라도 지역에 따라 출하가 달라요. 한 봉지로 살 때는 담아주는 무게와 전체 금액을 함께 물어보세요.'};
+---
+<FoodLayout title="태국 과일 가격 · 도시별 구매 안내와 판매 단위" description="태국 과일을 kg·송이·한 개·팩으로 살 때 무엇을 비교해야 할까요? 6개 도시의 구매 안내와 확인된 방콕 공식 소매가격을 소개해요." breadcrumbs={[["음식","/ko/food/"],["과일","/ko/food/fruits/"]]} sourceIds={['fruit-prices','fruit-longan','fruit-rambutan','fruit-mangosteen','fruit-papaya']}>
+<header class="food-hero"><span class="food-eyebrow">FRUIT PRICES · UNITS & CITIES</span><h1>과일값은 단위부터<br/>보고 골라주세요</h1><p class="food-intro">과일은 종류만 같다고 같은 가격으로 비교하기 어려워요. 통과일 kg, 바나나 한 송이, 코코넛 한 개, 손질한 과일 한 팩을 구분해보세요. 도시별로 살 때 알아둘 점과 날짜·품종·단위가 확인된 가격을 함께 살펴보세요.</p></header>
+<section><h2>확인된 방콕 소매가격</h2><FruitPrices/></section>
+<section><h2>도시별로 과일 살 때 알아둘 점</h2><p>아래는 각 도시 여행에서 과일을 고르는 안내예요. <strong>숫자로 표시한 가격은 방콕 소매 조사값</strong>이며 다른 도시의 일반 길거리 시세로 사용하지 않아요.</p><div class="food-region-grid">{food.cities.map(c=><article class="food-region"><h3>{c.name}</h3><p>{cityGuides[c.id]}</p><div class="food-related"><a href={`/ko/food/cities/${c.id}/`}>{c.name} 음식 →</a><a href="/ko/food/fruits/">과일 달력 →</a></div></article>)}</div></section>
+<section><h2>같은 가격표에서 비교하려면</h2><div class="food-detail"><dl><div><dt>통과일 kg</dt><dd>품종과 크기·등급을 같은 조건으로 보세요. 두리안처럼 껍질이 두꺼운 과일은 껍질 포함 kg인지 과육 kg인지 물어보세요.</dd></div><div><dt>한 개·한 송이</dt><dd>한 개의 크기나 한 송이의 개수가 달라질 수 있어요. kg 가격으로 임의 환산하지 말고 실제로 사는 양을 보세요.</dd></div><div><dt>손질 과일</dt><dd>한 봉지·한 팩에 담아주는 과육의 양을 살펴보세요. 껍질이 포함된 통과일 무게와는 달라요.</dd></div><div><dt>음료</dt><dd>컵 크기와 재료, 얼음과 시럽을 쓰는 방식이 달라요. 수박 kg 가격과 땡모반 한 컵을 같은 상품처럼 비교하지 않으시면 돼요.</dd></div></dl></div></section>
+</FoodLayout>

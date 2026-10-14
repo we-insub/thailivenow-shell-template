@@ -1,0 +1,7 @@
+---
+import SitePage from '../../components/SitePage.astro';
+import { locales } from '../../i18n/locales';
+export function getStaticPaths() { return locales.map(item=>({params:{locale:item.code},props:{locale:item.code}})); }
+const {locale}=Astro.props;
+---
+<SitePage locale={locale} />

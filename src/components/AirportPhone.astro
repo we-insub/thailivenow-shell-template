@@ -1,0 +1,13 @@
+---
+const { phone } = Astro.props;
+const text = typeof phone === 'string' ? phone.trim() : '';
+// Preserve the published label; an optional domestic trunk prefix is not dialled after +country.
+const dialText = text.replace(/（/g, '(').replace(/）/g, ')')
+  .replace(/^(\+\d{1,3})\s*\(0\)/, '$1');
+// Keep ranges and multiple contacts as text; do not guess a single number.
+const match = dialText.match(/^(\+?[\d][\d\s()-]*)(?:\s*(?:#|ext\.?|內線|分機)\s*(\d+))?(?:\s*\([^\d]*\))?$/i);
+const isRange = /\d{3,}\s*[-–]\s*\d{1,2}(?:\s|$)/.test(dialText);
+const number = !isRange ? match?.[1]?.replace(/[^\d+]/g, '') : undefined;
+const href = number ? `tel:${number}${match?.[2] ? `;ext=${match[2]}` : ''}` : undefined;
+---
+{text && <p>{href ? <a href={href}>{text}</a> : text}</p>}

@@ -1,0 +1,151 @@
+---
+import data from '../data/transport/boats.json';
+import travelDestinations from '../data/transport/boat-destinations.json';
+import {boatRouteNames,boatRouteColors,boatDestinationPath} from '../lib/boat-guide';
+const names=boatRouteNames;
+const colors=boatRouteColors;
+const points=data.piers.filter(p=>p.coordinates);
+const destinationOrder=['pier-i','pier-a','pier-n5','pier-n10','pier-n9','pier-n13','pier-n7','pier-m','pier-sathorn'];
+const destinations=destinationOrder.map(id=>points.find(p=>p.id===id)).filter(Boolean);
+const connections=(pierId)=>travelDestinations.filter(d=>d.pierId===pierId||d.alternative?.pierId===pierId);
+const destinationPiers=(d)=>[d.pierId,...(d.alternative?[d.alternative.pierId]:[])];
+const routeStops=(route)=>route.stops.slice().sort((a,b)=>a.sequence-b.sequence).map(stop=>({...data.piers.find(p=>p.id===stop.pierId),condition_ko:stop.condition_ko}));
+---
+<section class="boat-network" id="boat-network">
+<h2>방콕 보트 노선·선착장 지도</h2>
+<p>노선을 고르면 내릴 선착장과 연결되는 호텔·쇼핑몰·시장이 함께 나와요. 힐튼·샹그릴라·쉐라톤은 하선 후 도보 경로를, 페닌슐라·아난타라·카펠라 등은 호텔 셔틀 환승 경로를 확인하세요.</p>
+<section class="boat-planner" id="boat-planner" aria-labelledby="boat-planner-title"><h3 id="boat-planner-title">어디에서 타고, 어디로 갈까요?</h3><div class="planner-fields"><label>출발 선착장<select id="boat-origin" aria-label="출발 선착장">{points.map(p=><option value={p.id} selected={p.id==='pier-sathorn'}>{p.name_ko} {p.code&&`(${p.code})`}</option>)}</select></label><label>목적지<select id="boat-destination" aria-label="목적지">{travelDestinations.map(d=><option value={d.id}>{d.name}{d.category==='hotel'?' · 호텔':''}</option>)}</select></label></div><div id="boat-trip-results" aria-live="polite"></div><p class="note">일반 정차 노선 기준이에요. 시간대·방향·공휴일 운행은 아래 운영사 안내와 함께 확인하세요.</p></section>
+<nav aria-label="보트 서비스 선택"><button data-boat-filter="all" aria-controls="boat-map" aria-pressed="true">전체 노선</button>{data.routes.map(r=><button data-boat-filter={r.id} aria-controls="boat-map" aria-pressed="false" style={`--route-color:${colors[r.id]}`}><span class="route-dot" aria-hidden="true"></span>{names[r.id]}</button>)}</nav>
+
+<div id="boat-route-answer" class="route-answer" aria-live="polite"></div><div class="destination-shortcuts" aria-label="주요 목적지 선착장">{destinations.map(p=><button data-focus-pier={p.id}>{p.destination_ko} <small>{p.name_ko}</small></button>)}</div>
+<div id="boat-map" data-piers={JSON.stringify(points)} data-routes={JSON.stringify(data.routes)} data-destinations={JSON.stringify(travelDestinations)}></div>
+<p id="boat-coverage" role="status"></p>{data.serviceNotices.map(n=><aside class="service-notice"><strong>{n.title}</strong><p>{n.text}</p><a href={n.sourceUrl} target="_blank" rel="noopener noreferrer">특별 운행표 확인 ↗</a></aside>)}
+
+<details class="boat-fold"><summary>대표 선착장과 주변 목적지</summary><section class="route-highlights" aria-label="선택한 노선의 대표 선착장"><h3>이 배로 갈 수 있는 대표 선착장</h3><div class="highlight-grid">{points.filter(p=>p.major||p.id==='pier-n3'||p.id==='pier-nonthaburi'||p.id==='pier-pakkret'||p.id==='pier-phra-nang-klao-bridge').map(p=><article data-highlight-pier={p.id}><button data-focus-pier={p.id}>{p.name_ko} {p.code&&`(${p.code})`}</button>{connections(p.id).map(d=><a href={boatDestinationPath(d.id)}>{d.name} <small>{d.pierId===p.id&&d.mode==='walk'?'하선 후 도보':'호텔 셔틀 환승'}</small></a>)}{connections(p.id).length===0&&<a href={`/ko/transport/boat/piers/${p.id}/`}>{p.id==='pier-phra-nang-klao-bridge'?'MRT 퍼플라인 연결':'선착장 이용 안내'} →</a>}</article>)}</div></section>
+</details><details class="boat-fold"><summary>목적지별 타야 할 배·내릴 선착장</summary><section class="destination-guide" aria-labelledby="boat-destination-guide-title"><div class="diagram-heading"><h3 id="boat-destination-guide-title">목적지별 타야 할 배·내릴 선착장</h3><span>선택한 노선으로 연결되는 곳</span></div><div class="destination-grid">{travelDestinations.map(d=><article data-boat-destination-card={d.id} data-destination-piers={JSON.stringify(destinationPiers(d))}><span class="destination-type">{d.category==='hotel'?'강변 호텔':d.category==='market'?'시장':d.category==='shopping'?'쇼핑·강변 공간':'관광지'}</span><h4>{d.name}</h4><p class="destination-boat" data-card-boat>{d.boatAdvice}</p><div data-card-connection><p><strong>하선:</strong> {points.find(p=>p.id===d.pierId)?.name_ko} {points.find(p=>p.id===d.pierId)?.code}</p><p><strong>마지막 이동:</strong> {d.mode==='walk'?'도보로 목적지 입구':'호텔 전용 셔틀로 환승'}</p></div>{d.alternative&&<p class="note">대안: {d.alternative.text}</p>}<a href={boatDestinationPath(d.id)}>가는 배·이용 순서·FAQ →</a></article>)}</div></section>
+</details><details class="boat-fold"><summary>노선별 전체 정차 선착장 <small>북쪽 → 남쪽 순서</small></summary>
+<p class="note">익스프레스 보트는 운영사 게시 노선도(2025년 5월 5일 갱신)를 판독하고, 2026년 10월 6일 시간표로 운행 구간·시간대를 대조했어요. 오리엔탈(N1)은 공사 휴장으로 제외했어요. 일부 시간대만 정차하는 곳은 별도로 표시했어요.</p>
+<div class="route-diagram">{data.routes.map(r=><details class="route-lane" data-route-lane={r.id} style={`--route-color:${colors[r.id]}`}>
+<summary><span class="route-dot" aria-hidden="true"></span>{names[r.id]} <small>{r.stops.length}곳</small></summary><p class="lane-description">{r.displayNote}</p><p class="stop-count">{r.stops.length}곳{r.stops.some(s=>s.condition_ko)&&' · 일부 시간대 정차 포함'}</p>
+<ol>{routeStops(r).map(p=><li class:list={{'conditional-stop':!!p.condition_ko}}><button class="stop-button" data-focus-pier={p.id}><strong>{p.name_ko||p.name_en}</strong><small>{p.code ? `${p.code} · ` : ''}{p.name_en}</small></button>{p.destination_ko&&<span class="destination-tag">{p.destination_ko}</span>}{connections(p.id).map(d=><a class="stop-destination" href={boatDestinationPath(d.id)}>{d.name} · {d.pierId===p.id&&d.mode==='walk'?'도보':'호텔 셔틀'} →</a>)}{p.condition_ko&&<span class="stop-note">{p.condition_ko}</span>}<a class="pier-detail" href={`/ko/transport/boat/piers/${p.id}/`}>선착장 안내 →</a></li>)}</ol>
+<a class="route-source" href={r.stopSourceUrl} target="_blank" rel="noopener noreferrer">운영사 노선도·시간표 ↗</a>
+</details>)}</div>
+</details><details class="pier-directory boat-fold"><summary>선착장별 이용 안내 보기 ({points.length}곳)</summary><div class="piers">{points.map(p=><article data-pier-id={p.id} data-services={JSON.stringify(p.servedBy)}><h3>{p.name_ko} ({p.name_en}) 선착장</h3>{p.destinationNote_ko&&<p>{p.destinationNote_ko}</p>}<p>{p.servedBy.map(id=>names[id]).filter(Boolean).join(' · ')}</p><a href={`/ko/transport/boat/piers/${p.id}/`}>선착장 이용 안내 →</a></article>)}</div></details>
+<p class="note">선착장 좌표: OpenStreetMap 실제 시설 객체 · 노선 선은 강 중심선을 따라 표시한 운행 구간 안내예요. 실제 접안 경로는 다를 수 있어요. 아이콘시암은 여러 부두가 있으므로 탑승 부두를 현장에서 확인하세요.</p>
+</section>
+<script>
+import { Map } from '../scripts/resilient-map';
+import {boatRouteNames,boatRouteColors,boatDestinationPath} from '../lib/boat-guide';
+import {Marker,Popup,NavigationControl,LngLatBounds,setWorkerUrl} from 'maplibre-gl';
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-csp-worker.js?url';
+import 'maplibre-gl/dist/maplibre-gl.css';setWorkerUrl(workerUrl);
+const el=document.getElementById('boat-map')!;
+const piers=JSON.parse(el.dataset.piers!);const routes=JSON.parse(el.dataset.routes!);const travelDestinations=JSON.parse(el.dataset.destinations!);
+const routeColors=boatRouteColors;
+let selectedRoute=new URLSearchParams(location.search).get('route')||'all';if(!routes.some(r=>r.id===selectedRoute))selectedRoute='all';
+const map=new Map({container:el,center:[100.495,13.765],zoom:11,scrollZoom:false});map.addControl(new NavigationControl());
+map.on('load',()=>{
+ map.addSource('boat-corridors',{type:'geojson',data:{type:'FeatureCollection',features:routes.filter(r=>r.geometry).map((r,i)=>({type:'Feature',properties:{id:r.id,color:routeColors[r.id],offset:(i-2.5)*4},geometry:{type:r.geometry.type,coordinates:r.geometry.coordinates}}))}});
+ map.addLayer({id:'boat-corridor-lines',type:'line',source:'boat-corridors',paint:{'line-color':['get','color'],'line-width':4,'line-opacity':0.9,'line-offset':['get','offset']}});filter(selectedRoute);
+});
+map.on('zoom',()=>el.classList.toggle('show-pier-labels',map.getZoom()>=13));
+const pins=piers.map(p=>{
+ const button=document.createElement('button');button.className='boat-pin';button.classList.toggle('major-pier',!!p.major);button.classList.toggle('label-left',['pier-n13','pier-n10','pier-n9','pier-i','pier-a'].includes(p.id));
+ const symbol=document.createElement('span');symbol.textContent=p.code||'●';
+ const label=document.createElement('span');label.className='boat-label';label.textContent=p.mapLabel|| (p.destination_ko&&p.destination_ko!==p.name_ko?`${p.destination_ko} · ${p.name_ko}`:p.name_ko||p.name_en);
+ button.append(symbol,label);button.setAttribute('aria-label',`${p.name_ko} (${p.name_en}) 선착장${p.destination_ko?' · '+p.destination_ko:''}`);
+ const content=document.createElement('div');const name=document.createElement('strong');name.textContent=p.name_ko+' ('+p.name_en+')';content.append(name);
+ const connected=travelDestinations.filter(d=>d.pierId===p.id||d.alternative?.pierId===p.id);
+ for(const d of connected){const a=document.createElement('a');a.href=boatDestinationPath(d.id);a.textContent=d.name+' · '+(d.pierId===p.id&&d.mode==='walk'?'하선 후 도보':'호텔 셔틀 환승')+' →';a.className='boat-popup-destination';content.append(a);}
+ if(p.destinationNote_ko){const detail=document.createElement('p');detail.textContent=p.destinationNote_ko;content.append(detail);}
+ const services=document.createElement('p');services.textContent=routes.filter(r=>p.servedBy.includes(r.id)).map(r=>boatRouteNames[r.id]).join(' · ');content.append(services);
+ const conditions=routes.flatMap(r=>r.stops.filter(s=>s.pierId===p.id&&s.condition_ko).map(s=>s.condition_ko));
+ for(const condition of new Set(conditions)){const note=document.createElement('p');note.textContent=String(condition);content.append(note);}
+ const link=document.createElement('a');link.href='/ko/transport/boat/piers/'+p.id+'/';link.textContent='선착장 이용 안내 →';content.append(link);
+ const marker=new Marker({element:button}).setLngLat([p.coordinates.lng,p.coordinates.lat]).setPopup(new Popup({offset:18}).setDOMContent(content)).addTo(map);return{p,button,marker};
+});
+function filter(id:string){
+ selectedRoute=id;el.dataset.selectedRoute=id;
+ const route=routes.find(r=>r.id===id);const stopIds=new Set(route?.stops.map(s=>s.pierId)||piers.map(p=>p.id));
+ const visible=pins.filter(x=>stopIds.has(x.p.id));
+ const answer=document.getElementById('boat-route-answer')!;answer.replaceChildren();
+ const answerTitle=document.createElement('strong');answerTitle.textContent=id==='all'?'배 선택 → 내릴 선착장 → 호텔·시장까지 이동':boatRouteNames[id]+'로 갈 수 있는 곳';answer.append(answerTitle);
+ for(const pierId of ['pier-i','pier-n3','pier-n5','pier-sathorn','pier-n9','pier-n13','pier-a'].filter(p=>stopIds.has(p))){
+ const pier=piers.find(p=>p.id===pierId);const row=document.createElement('p');const button=document.createElement('button');button.textContent=pier.name_ko+(pier.code?' ('+pier.code+')':'');button.addEventListener('click',()=>focusPier(pierId));row.append(button,document.createTextNode(' → '));
+ const connected=travelDestinations.filter(d=>d.pierId===pierId||d.alternative?.pierId===pierId).slice(0,2);
+ for(const [i,d] of connected.entries()){if(i)row.append(document.createTextNode(' · '));const link=document.createElement('a');link.href=boatDestinationPath(d.id);link.textContent=d.name+' ('+(d.pierId===pierId&&d.mode==='walk'?'도보':'호텔 셔틀')+')';row.append(link);}answer.append(row);
+ }
+ const more=document.createElement('a');more.href='#boat-destination-guide-title';more.textContent='대표 선착장·모든 연결 목적지 보기 ↓';more.addEventListener('click',()=>{const fold=document.getElementById('boat-destination-guide-title')?.closest('details');if(fold)fold.open=true;});answer.append(more);
+
+ for(const lane of document.querySelectorAll<HTMLElement>('[data-route-lane]'))lane.hidden=id!=='all'&&lane.dataset.routeLane!==id;
+ for(const x of pins){x.button.hidden=!stopIds.has(x.p.id);x.button.style.background=routeColors[id]||routeColors[x.p.servedBy[0]]||'#267e89';x.marker.getPopup()?.remove();}
+ if(map.getLayer('boat-corridor-lines')){map.setFilter('boat-corridor-lines',id==='all'?['has','id']:['==',['get','id'],id]);map.setPaintProperty('boat-corridor-lines','line-offset',id==='all'?['get','offset']:0);}
+ const bounds=new LngLatBounds();visible.forEach(x=>bounds.extend([x.p.coordinates.lng,x.p.coordinates.lat]));
+ for(const r of routes.filter(r=>r.geometry&&(id==='all'||r.id===id))){const lines=r.geometry.type==='MultiLineString'?r.geometry.coordinates:[r.geometry.coordinates];for(const line of lines)for(const c of line)bounds.extend(c);}
+ if(!bounds.isEmpty())map.fitBounds(bounds,{padding:{top:45,bottom:45,left:100,right:100},maxZoom:14,duration:0});
+ for(const card of document.querySelectorAll<HTMLElement>('[data-boat-destination-card]')){
+ const d=travelDestinations.find(d=>d.id===card.dataset.boatDestinationCard);
+ card.hidden=id!=='all'&&!JSON.parse(card.dataset.destinationPiers!).some(p=>stopIds.has(p));
+ const option=id==='all'||stopIds.has(d.pierId)?{pierId:d.pierId,mode:d.mode}:d.alternative;
+ const pier=piers.find(p=>p.id===option?.pierId);
+ card.querySelector('[data-card-boat]')!.textContent=id==='all'?d.boatAdvice:pier?boatRouteNames[id]+' → '+pier.name_ko+' 하선 → '+(option.mode==='walk'?'도보로 '+d.name:'호텔 셔틀로 '+d.name):d.boatAdvice;
+ const connection=card.querySelector('[data-card-connection]')!;connection.textContent=pier?'하선: '+pier.name_ko+(pier.code?' ('+pier.code+')':'')+' · 마지막 이동: '+(option.mode==='walk'?'도보':'호텔 셔틀 환승'):'';
+ }
+ for(const card of document.querySelectorAll<HTMLElement>('[data-highlight-pier]'))card.hidden=!stopIds.has(card.dataset.highlightPier);
+ for(const card of document.querySelectorAll<HTMLElement>('[data-pier-id]'))card.hidden=!stopIds.has(card.dataset.pierId);
+ for(const b of document.querySelectorAll<HTMLElement>('[data-boat-filter]'))b.setAttribute('aria-pressed',String(b.dataset.boatFilter===id));
+ document.getElementById('boat-coverage')!.textContent=id==='all'?`전체 ${piers.length}곳 · 주요 목적지는 이름을 항상 표시해요. 노선을 선택하면 정차 순서와 해당 선착장만 볼 수 있어요.`:`${boatRouteNames[id]} · 정차 ${route.stops.length}곳 · ${route.displayNote}`;
+}
+function focusPier(id:string){const x=pins.find(x=>x.p.id===id);if(!x)return;if(x.button.hidden)filter('all');for(const other of pins)if(other!==x)other.marker.getPopup()?.remove();map.flyTo({center:[x.p.coordinates.lng,x.p.coordinates.lat],zoom:14,duration:0});if(!x.marker.getPopup()?.isOpen())x.marker.togglePopup();el.scrollIntoView({behavior:'smooth',block:'center'});}
+const query=new URLSearchParams(location.search);
+filter(routes.some(r=>r.id===query.get('route'))?query.get('route')!:'all');
+for(const b of document.querySelectorAll<HTMLElement>('[data-boat-filter]'))b.addEventListener('click',()=>{filter(b.dataset.boatFilter!);const fold=document.querySelector('.route-highlights')?.closest('details');if(fold&&b.dataset.boatFilter!=='all')fold.open=true;});
+for(const b of document.querySelectorAll<HTMLElement>('[data-focus-pier]'))b.addEventListener('click',()=>focusPier(b.dataset.focusPier!));
+
+const originSelect=document.getElementById('boat-origin') as HTMLSelectElement;
+const destinationSelect=document.getElementById('boat-destination') as HTMLSelectElement;
+if(travelDestinations.some(d=>d.id===query.get('destination')))destinationSelect.value=query.get('destination')!;
+function renderTrips(){
+ const destination=travelDestinations.find(d=>d.id===destinationSelect.value);const origin=piers.find(p=>p.id===originSelect.value);
+ const container=document.getElementById('boat-trip-results')!;container.replaceChildren();
+ const options=[{pierId:destination.pierId,mode:destination.mode,text:destination.afterAlighting},...(destination.alternative?[destination.alternative]:[])];
+ const choices:any[]=[];
+ for(const option of options){const pier=piers.find(p=>p.id===option.pierId);
+  if(pier.id===origin.id){choices.push({pier,option,route:null});continue;}
+  for(const route of routes){const a=route.stops.findIndex(s=>s.pierId===origin.id),b=route.stops.findIndex(s=>s.pierId===pier.id);if(a<0||b<0)continue;if(route.id==='ceb-red'&&a>b)continue;choices.push({pier,option,route,direction:a<b?'남쪽 방향':'북쪽 방향'});}
+ }
+ choices.sort((a,b)=>(a.route? a.route.id==='cptb-tourist'?1:2:0)-(b.route?b.route.id==='cptb-tourist'?1:2:0));
+ const title=document.createElement('strong');title.textContent=origin.name_ko+' → '+destination.name;container.append(title);
+ if(!choices.length){const p=document.createElement('p');p.textContent='현재 표시 노선에서 바로 연결되는 배가 없어요. 사톤이나 아이콘시암 출발을 선택해 환승 경로를 확인하세요.';container.append(p);return;}
+ const more=document.createElement('details');more.className='trip-alternatives';const summary=document.createElement('summary');summary.textContent='다른 배·환승 경로 '+(choices.length-1)+'가지';more.append(summary);
+ for(const [index,choice] of choices.entries()){const card=document.createElement('article');card.className='trip-choice';
+  const heading=document.createElement('h4');heading.textContent=choice.route?boatRouteNames[choice.route.id]+' · '+choice.direction:choice.option.mode==='walk'?'공공 보트 추가 승선 없이 도보':'여기서 호텔 셔틀로 환승';card.append(heading);
+  const path=document.createElement('p');path.textContent=(choice.route?origin.name_ko+'에서 승선 → '+choice.pier.name_ko+'에서 하선 → ':'')+(choice.option.mode==='walk'?destination.name+'까지 도보':'호텔 전용 셔틀 → '+destination.name);card.append(path);
+  if(choice.route){const p=document.createElement('p');p.className='note';p.textContent=choice.route.displayNote;card.append(p);}
+  const details=document.createElement('a');details.href=boatDestinationPath(destination.id);details.textContent='승선·도착 방법과 FAQ →';card.append(details);
+  const button=document.createElement('button');button.textContent='이 경로 지도 보기';button.addEventListener('click',()=>{filter(choice.route?.id||'all');const pin=pins.find(x=>x.p.id===choice.pier.id);if(pin){for(const x of pins)x.marker.getPopup()?.remove();pin.marker.togglePopup();}el.scrollIntoView({behavior:'smooth',block:'center'});});card.append(button);(index===0?container:more).append(card);
+ }
+ if(choices.length>1)container.append(more);
+}
+originSelect.addEventListener('change',renderTrips);destinationSelect.addEventListener('change',renderTrips);renderTrips();
+</script>
+<style>
+.boat-network{margin:40px 0}.boat-network>h2{font-size:25px;margin:0 0 12px}.boat-network>p{max-width:760px;line-height:1.8}.boat-fold{border:1px solid #dce5e8;border-radius:14px;margin:18px 0;background:#fff;padding:0 22px}.boat-fold>summary{padding:20px 0;cursor:pointer;font-size:17px;font-weight:700;line-height:1.6}.boat-fold>summary small{font-size:12px;font-weight:400;color:#61717e;margin-left:10px}.boat-fold[open]{padding-bottom:20px}.route-lane>summary{font-size:15px;font-weight:700;cursor:pointer}.route-lane>summary small{display:inline;margin-left:8px}.boat-fold .diagram-heading{margin-top:12px}.boat-fold .route-diagram{grid-template-columns:1fr}.boat-fold .route-lane ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}.boat-planner{margin-top:24px!important;padding:24px!important}.boat-network .destination-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.boat-network .destination-grid p{line-height:1.8}.boat-network .destination-grid a{display:inline-block;margin-top:10px;font-size:13px}.boat-network .destination-grid article{padding:22px}.boat-network .service-notice{margin:16px 0}.boat-network .service-notice a{display:inline-block;margin-top:8px}@media(max-width:600px){.boat-fold{padding:0 16px}.boat-fold .route-lane ol,.boat-network .destination-grid{grid-template-columns:1fr}.boat-fold>summary small{display:block;margin:4px 0}.boat-planner{padding:18px!important}}
+
+.diagram-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:24px 0 12px}.diagram-heading h3{margin:0;font-size:18px}.diagram-heading span{font-size:12px;color:#61717e}.route-diagram{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}.route-lane{border:1px solid #dce5e8;border-top:5px solid var(--route-color);border-radius:12px;background:#fff;padding:16px 12px}.route-lane[hidden]{display:none}.route-lane header{display:flex;gap:8px;align-items:center}.route-lane h4{margin:0;font-size:15px}.route-dot{display:inline-block;flex-shrink:0;width:10px;height:10px;border-radius:50%;background:var(--route-color);margin-right:4px}.lane-description,.partial-note{font-size:12px;color:#61717e;line-height:1.6}.route-lane ol{list-style:none;padding:0;margin:20px 0 12px}.route-lane li{position:relative;padding:0 0 24px 20px;margin-left:5px;border-left:4px solid var(--route-color)}.route-lane li:last-child{border-left-color:transparent;padding-bottom:0}.route-lane li:before{content:'';position:absolute;width:12px;height:12px;border:3px solid var(--route-color);background:white;border-radius:50%;left:-11px;top:3px}.route-lane a{text-decoration:none;color:#233646;display:block}.route-lane a:hover strong{text-decoration:underline}.route-lane small{display:block;color:#61717e;font-size:11px;margin-top:3px;overflow-wrap:anywhere}.stop-note{display:block;font-size:11px;color:#2466c5;margin-top:5px}.conditional-stop:before{border-style:dashed!important}.partial-note{background:#f5f7f9;padding:8px;border-radius:6px}.route-diagram:has(.route-lane[hidden]){grid-template-columns:minmax(220px,650px)}@media(max-width:1000px){.route-diagram{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.route-diagram{grid-template-columns:1fr}.diagram-heading{display:block}.diagram-heading span{display:block;margin-top:6px}}
+#boat-map{height:560px;border-radius:14px;overflow:hidden;border:1px solid #dce5e8}nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}button[data-boat-filter]{padding:9px 12px;background:white;border:1px solid #dce5e8;border-radius:20px;color:#267e89;cursor:pointer}button[data-boat-filter][aria-pressed=true]{background:var(--route-color,#267e89);border-color:var(--route-color,#267e89);color:white}button[data-boat-filter]:focus-visible{outline:3px solid #2466c5;outline-offset:3px}button[data-boat-filter][aria-pressed=true] .route-dot{background:white}.piers{display:grid;grid-template-columns:1fr 1fr;gap:12px}.piers article{padding:18px;background:white;border:1px solid #dce5e8;border-radius:12px}.piers article[hidden]{display:none}.piers h3{margin:0}.piers p,.note,#boat-coverage{font-size:13px;color:#61717e}a{color:#267e89}:global(.boat-pin){color:white;background:#267e89;border:2px solid white;border-radius:20px;padding:6px 10px;font-weight:700;cursor:pointer}:global(.boat-pin){width:28px;height:28px;padding:0;font-size:10px;box-shadow:0 2px 5px #0003}:global(.boat-label){display:none;position:absolute;top:30px;left:50%;transform:translateX(-50%);font-size:11px;white-space:nowrap;background:#fff;color:#253545;padding:2px 5px;border-radius:4px}:global(.show-pier-labels .boat-label),:global(.major-pier .boat-label){display:block}:global(.boat-pin[hidden]){display:none}:global(.major-pier){z-index:2}:global(.major-pier .boat-label){font-weight:700;border:1px solid #b9cbd4;box-shadow:0 1px 4px #0002;top:3px;left:34px;transform:none}:global(.major-pier.label-left .boat-label){left:auto;right:34px}@media(max-width:600px){#boat-map{height:360px}.piers{grid-template-columns:1fr}}.destination-shortcuts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}.destination-shortcuts button{border:1px solid #dce5e8;border-radius:8px;background:#f2f7fa;padding:8px 12px;color:#253545;font-weight:700;cursor:pointer}.destination-shortcuts small{display:block;font-weight:400;font-size:11px;color:#61717e}.stop-button{background:transparent;border:0;text-align:left;padding:0;color:#233646;cursor:pointer;font:inherit}.stop-button:hover strong{text-decoration:underline}.stop-count{font-size:12px;color:#267e89}.destination-tag{font-size:11px;color:#267e89;background:#edf5f6;padding:2px 5px;border-radius:4px;display:inline-block;margin:5px 0}.pier-detail,.route-source{font-size:11px}.pier-detail{display:block;margin-top:3px}.pier-directory{margin-top:24px}.pier-directory summary{cursor:pointer;font-weight:700;margin-bottom:14px}button:focus-visible{outline:3px solid #2466c5;outline-offset:3px}#boat-map{scroll-margin-top:90px}@media(max-width:600px){#boat-map{height:480px}}
+.service-notice{padding:12px 16px;background:#fff8e8;border:1px solid #efdfb8;border-radius:10px;font-size:13px}.service-notice p{margin:5px 0}.boat-planner{padding:18px;background:#eef5f6;border:1px solid #d2e2e6;border-radius:12px;margin:18px 0}.boat-planner h3,.route-highlights h3{margin:0 0 12px}.planner-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.planner-fields label{font-size:13px;font-weight:700}.planner-fields select{display:block;width:100%;font:inherit;padding:10px;border:1px solid #b9cbd4;border-radius:8px;background:white;margin:5px 0 12px}.trip-choice{padding:12px 14px;background:white;border:1px solid #dce5e8;border-radius:9px;margin:8px 0}.trip-choice h4{margin:0}.trip-choice p{font-size:14px;margin:4px 0}.trip-choice a{font-size:13px}.trip-choice button{margin-left:14px;padding:6px 10px;border:1px solid #267e89;color:#267e89;background:white;border-radius:7px;cursor:pointer}.route-highlights{margin:20px 0}.highlight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.highlight-grid article{padding:14px;border:1px solid #dce5e8;border-radius:10px;background:white}.highlight-grid button{border:0;background:none;color:#267e89;font:inherit;font-weight:700;padding:0;cursor:pointer}.highlight-grid a{display:block;font-size:13px;margin-top:7px}.highlight-grid small{display:inline-block;background:#eef5f6;color:#61717e;padding:1px 4px;font-size:11px}.destination-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.destination-grid article{border:1px solid #dce5e8;border-radius:12px;padding:18px;background:white}.destination-grid h4{font-size:18px;margin:8px 0}.destination-grid p{font-size:13px}.destination-type{font-size:11px;color:#267e89;font-weight:700}.stop-destination{font-size:11px;display:block;margin:4px 0}.highlight-grid article[hidden],.destination-grid article[hidden]{display:none}:global(.boat-popup-destination){display:block;margin:7px 0;font-size:12px;color:#267e89}@media(max-width:800px){.destination-grid,.highlight-grid{grid-template-columns:1fr 1fr}}@media(max-width:600px){.planner-fields,.destination-grid,.highlight-grid{grid-template-columns:1fr}.trip-choice button{display:block;margin:8px 0 0}}#boat-planner{scroll-margin-top:90px}
+.trip-alternatives summary{cursor:pointer;font-size:13px;color:#267e89;padding:8px 0}.route-answer{padding:14px 16px;background:#eef5f6;border-left:4px solid #267e89;border-radius:8px;font-size:13px;margin:14px 0}.route-answer p{margin:5px 0}.route-answer button{font:inherit;font-weight:700;border:0;background:none;color:#267e89;padding:0;cursor:pointer}.route-answer a{font-size:12px}#boat-destination-guide-title{scroll-margin-top:100px}</style>
+<style is:global>
+#boat-trip-results .trip-choice{padding:12px 14px;background:white;border:1px solid #dce5e8;border-radius:9px;margin:8px 0}
+#boat-trip-results .trip-choice h4{font-size:15px;margin:0}
+#boat-trip-results .trip-choice p{font-size:14px;margin:4px 0}
+#boat-trip-results .trip-choice .note{font-size:12px;color:#61717e}
+#boat-trip-results .trip-choice a{font-size:13px}
+#boat-trip-results .trip-choice button{font:inherit;font-size:13px;margin-left:14px;padding:6px 10px;border:1px solid #267e89;color:#267e89;background:white;border-radius:7px;cursor:pointer}
+#boat-trip-results .trip-alternatives summary{cursor:pointer;font-size:13px;color:#267e89;padding:8px 0}
+#boat-route-answer p{margin:5px 0}
+#boat-route-answer button{font:inherit;font-weight:700;border:0;background:none;color:#267e89;padding:0;cursor:pointer}
+#boat-route-answer a{font-size:12px}
+@media(max-width:600px){#boat-trip-results .trip-choice button{display:block;margin:8px 0 0}}
+</style>

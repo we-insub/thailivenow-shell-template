@@ -1,0 +1,14 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FruitCalendar from '../../../../components/FruitCalendar.astro';
+import FruitCards from '../../../../components/FruitCards.astro';
+import FruitPrices from '../../../../components/FruitPrices.astro';
+import food from '../../../../data/food.json';
+---
+<FoodLayout title="태국 과일 · 1월부터 12월까지 제철과 가격" description="태국 대표 과일 16종의 제철과 맛, 먹는 방법을 알아보세요. 1–12월 과일 달력과 품종·판매 단위를 구분한 방콕 소매가격을 함께 소개해요." breadcrumbs={[["음식","/ko/food/"]]} sourceIds={['fruit-gi','fruit-mango','fruit-durian','fruit-mangosteen','fruit-rambutan','fruit-longan','fruit-lychee','fruit-longkong','fruit-pomelo','fruit-pineapple','fruit-tamarind','fruit-mandarin','fruit-prices']}>
+<header class="food-hero"><span class="food-eyebrow">THAI FRUIT · MONTH BY MONTH</span><h1>태국 과일,<br/>여행하는 달에 맞춰 골라보세요</h1><p class="food-intro">봄에는 향긋한 망고, 여름에는 롱안, 연말에는 포멜로와 만다린 오렌지를 살펴보세요. 태국에서는 익숙한 과일도 품종과 먹는 방식이 달라요. 여행하는 달을 고르고, 어떤 맛인지와 껍질을 벗겨 먹는 방법부터 알아보세요.</p></header>
+<section><div class="food-section-head"><div><h2>1월부터 12월까지 과일 달력</h2><p>주출하기와 공식 자료의 출하시기를 모았어요. 같은 과일도 산지에 따라 달라서 상세 페이지에서는 지역별 시기도 따로 설명해요.</p></div></div><FruitCalendar/></section>
+<section><h2>태국에서 맛볼 대표 과일</h2><FruitCards/></section>
+<section><h2>과일은 어느 단위로 얼마에 파나요?</h2><p>통과일은 kg으로 팔기도 하고 바나나는 한 송이, 코코넛은 한 개씩 팔기도 해요. 손질한 과일 한 팩이나 땡모반 한 컵은 통과일 가격과 나눠 보시면 좋아요.</p><FruitPrices/><div class="food-related"><a href="/ko/food/fruit-prices/">도시별로 과일 살 때 알아둘 점 →</a></div></section>
+<section><h2>과일로 즐기는 길거리 간식과 음료</h2><div class="food-related"><a href="/ko/food/dishes/roti/">바나나를 넣는 로띠 →</a><a href="/ko/food/dishes/watermelon-shake/">땡모반 · 수박 셰이크 →</a><a href="/ko/food/dishes/mango-sticky-rice/">망고 찹쌀밥 →</a><a href="/ko/food/street-food/">길거리 음식 전체 →</a></div></section>
+</FoodLayout>

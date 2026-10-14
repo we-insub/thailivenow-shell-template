@@ -1,0 +1,6 @@
+---
+import EntryGuideLayout from '../../../components/EntryGuideLayout.astro';
+import guides from '../../../data/entry-guides-ko.json';
+const guide=guides.find(g=>g.id==='entry');
+---
+<EntryGuideLayout guide={guide}/>

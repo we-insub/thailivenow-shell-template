@@ -1,0 +1,6 @@
+---
+const { email } = Astro.props;
+const value = typeof email === 'string' ? email.trim() : '';
+const valid = /^[A-Za-z0-9._+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/i.test(value);
+---
+{value && <p>{valid ? <a href={`mailto:${value}`}>{value}</a> : value}</p>}

@@ -1,0 +1,5251 @@
+{
+  "schemaVersion": 1,
+  "market": "TW",
+  "status": "researching",
+  "checkedAt": "2026-10-13",
+  "countries": [
+    "台灣"
+  ],
+  "airportNames": {
+    "TPE": "臺灣桃園國際機場",
+    "BKK": "曼谷蘇凡納布機場",
+    "CNX": "清邁國際機場",
+    "KHH": "高雄國際機場",
+    "HKT": "普吉國際機場"
+  },
+  "routes": [
+    {
+      "id": "br75-0715",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR75",
+      "direction": "to-thailand",
+      "durationMinutes": 240,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "07:15 → 10:15",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-16",
+      "validTo": "2026-10-16",
+      "operatingDates": [
+        "2026-10-16"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br75",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR75",
+      "direction": "to-thailand",
+      "durationMinutes": 235,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "07:30 → 10:25",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-17",
+      "operatingDates": [
+        "2026-10-13",
+        "2026-10-15",
+        "2026-10-17"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br67",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR67",
+      "direction": "to-thailand",
+      "durationMinutes": 235,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "08:00 → 10:55",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-19",
+      "operatingDates": [
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br211",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR211",
+      "direction": "to-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "08:20 → 11:10",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-19",
+      "operatingDates": [
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br201",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR201",
+      "direction": "to-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "10:20 → 13:05",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-19",
+      "operatingDates": [
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-17",
+        "2026-10-19"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br205",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR205",
+      "direction": "to-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "20:45 → 23:30",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-19",
+      "operatingDates": [
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br61",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR61",
+      "direction": "to-thailand",
+      "durationMinutes": 220,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "22:40 → 01:20（翌日）",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-19",
+      "operatingDates": [
+        "2026-10-13",
+        "2026-10-15",
+        "2026-10-17",
+        "2026-10-19"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br206",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR206",
+      "direction": "from-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "01:35 → 06:20",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-17",
+      "validTo": "2026-10-23",
+      "operatingDates": [
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br62",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR62",
+      "direction": "from-thailand",
+      "durationMinutes": 235,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "08:30 → 13:25",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-17",
+      "validTo": "2026-10-22",
+      "operatingDates": [
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-21",
+        "2026-10-22"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br212",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR212",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "12:25 → 17:15",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-17",
+      "validTo": "2026-10-23",
+      "operatingDates": [
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br202",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR202",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "15:10 → 20:00",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-17",
+      "validTo": "2026-10-22",
+      "operatingDates": [
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-21",
+        "2026-10-22"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br76",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR76",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "15:20 → 20:10",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-17",
+      "validTo": "2026-10-23",
+      "operatingDates": [
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-21",
+        "2026-10-23"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "br68",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR68",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "16:45 → 21:35",
+      "description": "長榮執飛。",
+      "status": "預定班表",
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-17",
+      "validTo": "2026-10-23",
+      "operatingDates": [
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw"
+    },
+    {
+      "id": "jx0741",
+      "market": "TW",
+      "country": "TW",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "originTerminal": "2",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "flightNumber": "JX0741",
+      "direction": "to-thailand",
+      "durationMinutes": 240,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "09:00 → 12:00",
+      "description": "星宇執飛的直飛航班。",
+      "status": "官方日期別預定班表",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/timetable"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-11",
+      "validTo": "2026-10-16",
+      "operatingDates": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16"
+      ],
+      "flightStatusUrl": "https://www.starlux-airlines.com/zh-TW/flight-status"
+    },
+    {
+      "id": "jx0745",
+      "market": "TW",
+      "country": "TW",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "originTerminal": "2",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "flightNumber": "JX0745",
+      "direction": "to-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "13:55 → 16:40",
+      "description": "星宇執飛的直飛航班。",
+      "status": "官方日期別預定班表",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/timetable"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-11",
+      "validTo": "2026-10-16",
+      "operatingDates": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16"
+      ],
+      "flightStatusUrl": "https://www.starlux-airlines.com/zh-TW/flight-status"
+    },
+    {
+      "id": "jx0742",
+      "market": "TW",
+      "country": "TW",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "destinationTerminal": "2",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "flightNumber": "JX0742",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "13:10 → 18:00",
+      "description": "星宇執飛的直飛航班。",
+      "status": "官方日期別預定班表",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/timetable"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-11",
+      "validTo": "2026-10-17",
+      "operatingDates": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "flightStatusUrl": "https://www.starlux-airlines.com/zh-TW/flight-status"
+    },
+    {
+      "id": "jx0746",
+      "market": "TW",
+      "country": "TW",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "destinationTerminal": "2",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "flightNumber": "JX0746",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "17:50 → 22:40",
+      "description": "星宇執飛的直飛航班。",
+      "status": "官方日期別預定班表",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/timetable"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-11",
+      "validTo": "2026-10-17",
+      "operatingDates": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "flightStatusUrl": "https://www.starlux-airlines.com/zh-TW/flight-status"
+    },
+    {
+      "id": "ci833-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI833",
+      "direction": "to-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "07:00 → 09:45，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "07:00",
+      "arrivalTime": "09:45",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci831-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI831",
+      "direction": "to-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "09:25 → 12:10，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "09:25",
+      "arrivalTime": "12:10",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci835-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI835",
+      "direction": "to-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "13:30 → 16:20，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "13:30",
+      "arrivalTime": "16:20",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci837-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI837",
+      "direction": "to-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "22:40 → 01:25（翌日），各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "22:40",
+      "arrivalTime": "01:25",
+      "arrivalDayOffset": 1,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci838-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "BKK": "曼谷蘇凡納布機場",
+        "TPE": "臺灣桃園國際機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI838",
+      "direction": "from-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "02:40 → 07:25，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "02:40",
+      "arrivalTime": "07:25",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci834-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "BKK": "曼谷蘇凡納布機場",
+        "TPE": "臺灣桃園國際機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI834",
+      "direction": "from-thailand",
+      "durationMinutes": 220,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "10:50 → 15:30，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "10:50",
+      "arrivalTime": "15:30",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci832-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "BKK": "曼谷蘇凡納布機場",
+        "TPE": "臺灣桃園國際機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI832",
+      "direction": "from-thailand",
+      "durationMinutes": 220,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "13:20 → 18:00，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "13:20",
+      "arrivalTime": "18:00",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci836-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "BKK": "曼谷蘇凡納布機場",
+        "TPE": "臺灣桃園國際機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI836",
+      "direction": "from-thailand",
+      "durationMinutes": 215,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "17:30 → 22:05，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "17:30",
+      "arrivalTime": "22:05",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci851-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "清邁國際機場 (CNX)",
+      "originIata": "TPE",
+      "destinationIata": "CNX",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "CNX": "清邁國際機場"
+      },
+      "thaiAirport": "CNX",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI851",
+      "direction": "to-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "07:30 → 10:20，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "07:30",
+      "arrivalTime": "10:20",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci852-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "清邁國際機場 (CNX)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "CNX",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "CNX": "清邁國際機場",
+        "TPE": "臺灣桃園國際機場"
+      },
+      "thaiAirport": "CNX",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI852",
+      "direction": "from-thailand",
+      "durationMinutes": 220,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "11:20 → 16:00，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "11:20",
+      "arrivalTime": "16:00",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci839-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "高雄國際機場 (KHH)",
+      "destination": "曼谷蘇凡納布機場 (BKK)",
+      "originIata": "KHH",
+      "destinationIata": "BKK",
+      "airportNames": {
+        "KHH": "高雄國際機場",
+        "BKK": "曼谷蘇凡納布機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI839",
+      "direction": "to-thailand",
+      "durationMinutes": 220,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "14:40 → 17:20，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "14:40",
+      "arrivalTime": "17:20",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "ci840-summer-2026",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "曼谷蘇凡納布機場 (BKK)",
+      "destination": "高雄國際機場 (KHH)",
+      "originIata": "BKK",
+      "destinationIata": "KHH",
+      "airportNames": {
+        "BKK": "曼谷蘇凡納布機場",
+        "KHH": "高雄國際機場"
+      },
+      "thaiAirport": "BKK",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "flightNumber": "CI840",
+      "direction": "from-thailand",
+      "durationMinutes": 210,
+      "durationType": "block",
+      "durationNote": "依官方時刻與臺灣、泰國時差1小時計算的預定所需時間，並非實際離陸至降落時間。",
+      "schedule": "18:20 → 22:50，各機場當地時間；2026年7月1日至10月24日每日運航。出發前請重新查詢當日航班。",
+      "description": "中華航空官方電子班表所列的直飛航班。請依旅行日期確認最新航班與報到資訊。",
+      "status": "官方現行季節班表",
+      "sources": [
+        "https://cms-externalcontent-prod.s3.ap-northeast-1.amazonaws.com/ci/Prepare%20for%20the%20fly/CI-timetable.pdf"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-07-01",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "departureTime": "18:20",
+      "arrivalTime": "22:50",
+      "arrivalDayOffset": 0,
+      "flightStatusUrl": "https://booking.china-airlines.com/FlightStatus/?country=tw&locale=zh"
+    },
+    {
+      "id": "it503-2026-summer-6",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "普吉國際機場 (HKT)",
+      "originIata": "TPE",
+      "destinationIata": "HKT",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "HKT": "普吉國際機場"
+      },
+      "thaiAirport": "HKT",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "flightNumber": "IT503",
+      "direction": "to-thailand",
+      "durationMinutes": 265,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "13:50 → 17:15，週六。",
+      "description": "官方時刻表所列的單一航班區間；直飛條件另待確認。",
+      "status": "官方季節預定班表",
+      "sources": [
+        "https://www.tigerairtw.com/th-TH/ready-to-go/flight-schedule"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-06-02",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        6
+      ],
+      "departureLocal": "13:50",
+      "arrivalLocal": "17:15",
+      "arrivalDayOffset": 0,
+      "nonstopVerified": false,
+      "actualOperatingCarrierConfirmed": false
+    },
+    {
+      "id": "it503-2026-summer-2",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "普吉國際機場 (HKT)",
+      "originIata": "TPE",
+      "destinationIata": "HKT",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "HKT": "普吉國際機場"
+      },
+      "thaiAirport": "HKT",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "flightNumber": "IT503",
+      "direction": "to-thailand",
+      "durationMinutes": 265,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "13:55 → 17:20，週二。",
+      "description": "官方時刻表所列的單一航班區間；直飛條件另待確認。",
+      "status": "官方季節預定班表",
+      "sources": [
+        "https://www.tigerairtw.com/th-TH/ready-to-go/flight-schedule",
+        "https://booking.tigerairtw.com/?outbound=TPE-HKT&departureDate=2026-10-13&adult=1&type=oneWay&language=th-TH&currencyCode=USD"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-06-02",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        2
+      ],
+      "departureLocal": "13:55",
+      "arrivalLocal": "17:20",
+      "arrivalDayOffset": 0,
+      "nonstopVerified": false,
+      "actualOperatingCarrierConfirmed": false,
+      "condition": "官方訂位查詢註明須經政府核准。"
+    },
+    {
+      "id": "it504-2026-summer-6",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "普吉國際機場 (HKT)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "HKT",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "HKT": "普吉國際機場"
+      },
+      "thaiAirport": "HKT",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "flightNumber": "IT504",
+      "direction": "from-thailand",
+      "durationMinutes": 255,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "18:05 → 23:20，週六。",
+      "description": "官方時刻表所列的單一航班區間；直飛條件另待確認。",
+      "status": "官方季節預定班表",
+      "sources": [
+        "https://www.tigerairtw.com/th-TH/ready-to-go/flight-schedule"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-06-02",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        6
+      ],
+      "departureLocal": "18:05",
+      "arrivalLocal": "23:20",
+      "arrivalDayOffset": 0,
+      "nonstopVerified": false,
+      "actualOperatingCarrierConfirmed": false
+    },
+    {
+      "id": "it504-2026-summer-2",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "普吉國際機場 (HKT)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "HKT",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "HKT": "普吉國際機場"
+      },
+      "thaiAirport": "HKT",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "flightNumber": "IT504",
+      "direction": "from-thailand",
+      "durationMinutes": 255,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "18:10 → 23:25，週二。",
+      "description": "官方時刻表所列的單一航班區間；直飛條件另待確認。",
+      "status": "官方季節預定班表",
+      "sources": [
+        "https://www.tigerairtw.com/th-TH/ready-to-go/flight-schedule"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-06-02",
+      "validTo": "2026-10-24",
+      "daysOfWeek": [
+        2
+      ],
+      "departureLocal": "18:10",
+      "arrivalLocal": "23:25",
+      "arrivalDayOffset": 0,
+      "nonstopVerified": false,
+      "actualOperatingCarrierConfirmed": false
+    },
+    {
+      "id": "jx0751",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "清邁國際機場 (CNX)",
+      "originIata": "TPE",
+      "destinationIata": "CNX",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "CNX": "清邁國際機場"
+      },
+      "thaiAirport": "CNX",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "flightNumber": "JX0751",
+      "direction": "to-thailand",
+      "durationMinutes": 240,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "13:05 → 16:05",
+      "description": "星宇執飛的直飛航班。",
+      "status": "官方日期別預定班表",
+      "departureLocal": "13:05",
+      "arrivalLocal": "16:05",
+      "arrivalDayOffset": 0,
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/timetable"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-17",
+      "operatingDates": [
+        "2026-10-13",
+        "2026-10-15",
+        "2026-10-17"
+      ],
+      "flightStatusUrl": "https://www.starlux-airlines.com/zh-TW/flight-status",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": true
+    },
+    {
+      "id": "jx0752",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "清邁國際機場 (CNX)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "CNX",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "CNX": "清邁國際機場"
+      },
+      "thaiAirport": "CNX",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "flightNumber": "JX0752",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "預定所需時間，非實際離陸至降落時間。",
+      "schedule": "17:20 → 22:10",
+      "description": "星宇執飛的直飛航班。",
+      "status": "官方日期別預定班表",
+      "departureLocal": "17:20",
+      "arrivalLocal": "22:10",
+      "arrivalDayOffset": 0,
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/timetable"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-17",
+      "operatingDates": [
+        "2026-10-13",
+        "2026-10-15",
+        "2026-10-17"
+      ],
+      "flightStatusUrl": "https://www.starlux-airlines.com/zh-TW/flight-status",
+      "nonstopVerified": true,
+      "actualOperatingCarrierConfirmed": true
+    },
+    {
+      "id": "br257-20261013",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "臺灣桃園國際機場 (TPE)",
+      "destination": "清邁國際機場 (CNX)",
+      "originIata": "TPE",
+      "destinationIata": "CNX",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "CNX": "清邁國際機場"
+      },
+      "thaiAirport": "CNX",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR257",
+      "direction": "to-thailand",
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "07:40 → 10:25",
+      "description": "長榮執飛，直飛條件待確認。",
+      "status": "預定班表",
+      "departureLocal": "07:40",
+      "arrivalLocal": "10:25",
+      "arrivalDayOffset": 0,
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-details.aspx?Data=3A8E201B732B4BC4320084A98C43E144CF21C33F924853ED4EB10332BE13DDA0&Week_DT=10/13/2026&PostData=FD4295FF105C390ACC786E09C1CB4A483C6AD589D53A1A7F92C1DA04377C04FC",
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw",
+      "nonstopVerified": false,
+      "actualOperatingCarrierConfirmed": true,
+      "originTerminal": "2"
+    },
+    {
+      "id": "br258-20261020",
+      "market": "TW",
+      "country": "台灣",
+      "origin": "清邁國際機場 (CNX)",
+      "destination": "臺灣桃園國際機場 (TPE)",
+      "originIata": "CNX",
+      "destinationIata": "TPE",
+      "airportNames": {
+        "TPE": "臺灣桃園國際機場",
+        "CNX": "清邁國際機場"
+      },
+      "thaiAirport": "CNX",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "flightNumber": "BR258",
+      "direction": "from-thailand",
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "",
+      "schedule": "11:35 → 16:25",
+      "description": "長榮執飛，直飛條件待確認。",
+      "status": "預定班表",
+      "departureLocal": "11:35",
+      "arrivalLocal": "16:25",
+      "arrivalDayOffset": 0,
+      "sources": [
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-details.aspx?Data=C8E63548283B9F76902C2722254B7BFE42A54B1C90494CAE65DEB0C69FCF16CB&Week_DT=10/20/2026&PostData=428958687D98F3ED4E19CBA0F5C0D003D8A97C3D6C87FB739A0F25305A82C40A",
+        "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+      ],
+      "checkedAt": "2026-10-13",
+      "validFrom": "2026-10-20",
+      "validTo": "2026-10-20",
+      "operatingDates": [
+        "2026-10-20"
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw",
+      "nonstopVerified": false,
+      "actualOperatingCarrierConfirmed": true,
+      "destinationTerminal": "2"
+    },
+    {
+      "id": "tg632-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "素萬那普國際機場（BKK）",
+      "destination": "臺灣桃園國際機場（TPE）",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "thaiAirport": "BKK",
+      "airline": "泰國航空",
+      "airlineId": "thai-airways",
+      "flightNumber": "TG632",
+      "direction": "from-thailand",
+      "schedule": "2026年10月13日 08:15 → 13:05，兩地當地時間。",
+      "status": "官方日期別時刻確認",
+      "sources": [
+        "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": true,
+      "operatingCarrierVerified": true,
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "08:15",
+      "scheduledArrival": "13:05",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時50分鐘，並非實際起飛至降落時間。",
+      "originTerminal": null,
+      "destinationTerminal": "1"
+    },
+    {
+      "id": "tg634-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "素萬那普國際機場（BKK）",
+      "destination": "臺灣桃園國際機場（TPE）",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "thaiAirport": "BKK",
+      "airline": "泰國航空",
+      "airlineId": "thai-airways",
+      "flightNumber": "TG634",
+      "direction": "from-thailand",
+      "schedule": "2026年10月13日 12:40 → 17:20，兩地當地時間。",
+      "status": "官方日期別時刻確認",
+      "sources": [
+        "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": true,
+      "operatingCarrierVerified": true,
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "12:40",
+      "scheduledArrival": "17:20",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 220,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時40分鐘，並非實際起飛至降落時間。",
+      "originTerminal": null,
+      "destinationTerminal": "1"
+    },
+    {
+      "id": "tg636-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "素萬那普國際機場（BKK）",
+      "destination": "臺灣桃園國際機場（TPE）",
+      "originIata": "BKK",
+      "destinationIata": "TPE",
+      "thaiAirport": "BKK",
+      "airline": "泰國航空",
+      "airlineId": "thai-airways",
+      "flightNumber": "TG636",
+      "direction": "from-thailand",
+      "schedule": "2026年10月13日 17:15 → 22:10，兩地當地時間。",
+      "status": "官方日期別時刻確認",
+      "sources": [
+        "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": true,
+      "operatingCarrierVerified": true,
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "17:15",
+      "scheduledArrival": "22:10",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 235,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時55分鐘，並非實際起飛至降落時間。",
+      "originTerminal": null,
+      "destinationTerminal": "1"
+    },
+    {
+      "id": "tg637-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "臺灣桃園國際機場（TPE）",
+      "destination": "素萬那普國際機場（BKK）",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "airline": "泰國航空",
+      "airlineId": "thai-airways",
+      "flightNumber": "TG637",
+      "direction": "to-thailand",
+      "schedule": "2026年10月13日 07:55 → 10:40，兩地當地時間。",
+      "status": "官方日期別時刻確認",
+      "sources": [
+        "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": true,
+      "operatingCarrierVerified": true,
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "07:55",
+      "scheduledArrival": "10:40",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時45分鐘，並非實際起飛至降落時間。",
+      "originTerminal": "1",
+      "destinationTerminal": null
+    },
+    {
+      "id": "tg633-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "臺灣桃園國際機場（TPE）",
+      "destination": "素萬那普國際機場（BKK）",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "airline": "泰國航空",
+      "airlineId": "thai-airways",
+      "flightNumber": "TG633",
+      "direction": "to-thailand",
+      "schedule": "2026年10月13日 14:05 → 16:50，兩地當地時間。",
+      "status": "官方日期別時刻確認",
+      "sources": [
+        "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": true,
+      "operatingCarrierVerified": true,
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "14:05",
+      "scheduledArrival": "16:50",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時45分鐘，並非實際起飛至降落時間。",
+      "originTerminal": "1",
+      "destinationTerminal": null
+    },
+    {
+      "id": "tg635-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "臺灣桃園國際機場（TPE）",
+      "destination": "素萬那普國際機場（BKK）",
+      "originIata": "TPE",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "airline": "泰國航空",
+      "airlineId": "thai-airways",
+      "flightNumber": "TG635",
+      "direction": "to-thailand",
+      "schedule": "2026年10月13日 18:50 → 21:35，兩地當地時間。",
+      "status": "官方日期別時刻確認",
+      "sources": [
+        "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": true,
+      "operatingCarrierVerified": true,
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "18:50",
+      "scheduledArrival": "21:35",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 225,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時45分鐘，並非實際起飛至降落時間。",
+      "originTerminal": "1",
+      "destinationTerminal": null
+    },
+    {
+      "id": "fd231-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "臺灣桃園國際機場（TPE）",
+      "destination": "廊曼國際機場（DMK）",
+      "originIata": "TPE",
+      "destinationIata": "DMK",
+      "thaiAirport": "DMK",
+      "airline": "泰國亞洲航空",
+      "airlineId": "thai-airasia",
+      "flightNumber": "FD231",
+      "direction": "to-thailand",
+      "schedule": "2026年10月13日 18:30 → 21:20，各機場當地時間。",
+      "description": "官方當日查詢確認區間與實際執飛者，直飛條件另行核對。",
+      "status": "官方當日予定時刻確認",
+      "sources": [
+        "https://www.airasia.com/flightstatus/en/GB"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": false,
+      "operatingCarrierVerified": true,
+      "flightStatusUrl": "https://www.airasia.com/flightstatus/en/GB",
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "18:30",
+      "scheduledArrival": "21:20",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時50分鐘，並非實際飛行時間。",
+      "originTerminal": "1",
+      "destinationTerminal": null
+    },
+    {
+      "id": "fd230-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "廊曼國際機場（DMK）",
+      "destination": "臺灣桃園國際機場（TPE）",
+      "originIata": "DMK",
+      "destinationIata": "TPE",
+      "thaiAirport": "DMK",
+      "airline": "泰國亞洲航空",
+      "airlineId": "thai-airasia",
+      "flightNumber": "FD230",
+      "direction": "from-thailand",
+      "schedule": "2026年10月13日 07:25 → 12:20，各機場當地時間。",
+      "description": "官方當日查詢確認區間與實際執飛者，直飛條件另行核對。",
+      "status": "官方當日予定時刻確認",
+      "sources": [
+        "https://www.airasia.com/flightstatus/en/GB"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": false,
+      "operatingCarrierVerified": true,
+      "flightStatusUrl": "https://www.airasia.com/flightstatus/en/GB",
+      "departureDate": "2026-10-13",
+      "arrivalDate": "2026-10-13",
+      "scheduledDeparture": "07:25",
+      "scheduledArrival": "12:20",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "durationMinutes": 235,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時55分鐘，並非實際飛行時間。",
+      "originTerminal": null,
+      "destinationTerminal": "1"
+    },
+    {
+      "id": "fd243-20261014",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "臺灣桃園國際機場（TPE）",
+      "destination": "清邁國際機場（CNX）",
+      "originIata": "TPE",
+      "destinationIata": "CNX",
+      "thaiAirport": "CNX",
+      "airline": "泰國亞洲航空",
+      "airlineId": "thai-airasia",
+      "flightNumber": "FD243",
+      "direction": "to-thailand",
+      "schedule": "2026年10月14日 18:55 → 21:45，各機場當地時間。",
+      "description": "此筆僅記錄桃園與清邁之間的區間；同號續航的札幌區間不包含在內。",
+      "status": "官方當日予定時刻確認",
+      "sources": [
+        "https://www.airasia.com/flightstatus/en/GB"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": false,
+      "operatingCarrierVerified": true,
+      "flightStatusUrl": "https://www.airasia.com/flightstatus/en/GB",
+      "departureDate": "2026-10-14",
+      "arrivalDate": "2026-10-14",
+      "scheduledDeparture": "18:55",
+      "scheduledArrival": "21:45",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時50分鐘，並非實際飛行時間。",
+      "originTerminal": "1",
+      "destinationTerminal": null
+    },
+    {
+      "id": "fd242-20261014",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "清邁國際機場（CNX）",
+      "destination": "臺灣桃園國際機場（TPE）",
+      "originIata": "CNX",
+      "destinationIata": "TPE",
+      "thaiAirport": "CNX",
+      "airline": "泰國亞洲航空",
+      "airlineId": "thai-airasia",
+      "flightNumber": "FD242",
+      "direction": "from-thailand",
+      "schedule": "2026年10月14日 01:50 → 06:40，各機場當地時間。",
+      "description": "此筆僅記錄桃園與清邁之間的區間；同號續航的札幌區間不包含在內。",
+      "status": "官方當日予定時刻確認",
+      "sources": [
+        "https://www.airasia.com/flightstatus/en/GB"
+      ],
+      "checkedAt": "2026-10-13",
+      "nonstopVerified": false,
+      "operatingCarrierVerified": true,
+      "flightStatusUrl": "https://www.airasia.com/flightstatus/en/GB",
+      "departureDate": "2026-10-14",
+      "arrivalDate": "2026-10-14",
+      "scheduledDeparture": "01:50",
+      "scheduledArrival": "06:40",
+      "arrivalDayOffset": 0,
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "durationMinutes": 230,
+      "durationType": "block",
+      "durationNote": "預定機場出發至抵達為3小時50分鐘，並非實際飛行時間。",
+      "originTerminal": null,
+      "destinationTerminal": "1"
+    },
+    {
+      "id": "sl390-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "廊曼國際機場（DMK）",
+      "destination": "高雄國際機場（KHH）",
+      "originIata": "DMK",
+      "destinationIata": "KHH",
+      "thaiAirport": "DMK",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "flightNumber": "SL390",
+      "direction": "from-thailand",
+      "schedule": "2026-10-13 預定出發 02:45 → 抵達 07:15。",
+      "status": "官方機場時刻表確認",
+      "description": "官方機場日期別區間表。",
+      "sources": [
+        "https://www.kia.gov.tw/EN/FLIPLAN.html",
+        "https://www.kia.gov.tw/EN/FIDS.html"
+      ],
+      "flightStatusUrl": "https://www.kia.gov.tw/EN/FIDS.html",
+      "checkedAt": "2026-10-13",
+      "departureDate": "2026-10-13",
+      "scheduledDeparture": "02:45",
+      "scheduledArrival": "07:15",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "nonstopVerified": false,
+      "operatingCarrierVerified": false,
+      "durationMinutes": null,
+      "durationType": null,
+      "durationNote": null,
+      "timeBasisVerified": false,
+      "timeBasis": "published-clock-unverified-timezone"
+    },
+    {
+      "id": "sl391-20261013",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "高雄國際機場（KHH）",
+      "destination": "廊曼國際機場（DMK）",
+      "originIata": "KHH",
+      "destinationIata": "DMK",
+      "thaiAirport": "DMK",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "flightNumber": "SL391",
+      "direction": "to-thailand",
+      "schedule": "2026-10-13 預定出發 13:40 → 抵達 16:05。",
+      "status": "官方機場時刻表確認",
+      "description": "官方機場日期別區間表。",
+      "sources": [
+        "https://www.kia.gov.tw/EN/FLIPLAN.html",
+        "https://www.kia.gov.tw/EN/FIDS.html"
+      ],
+      "flightStatusUrl": "https://www.kia.gov.tw/EN/FIDS.html",
+      "checkedAt": "2026-10-13",
+      "departureDate": "2026-10-13",
+      "scheduledDeparture": "13:40",
+      "scheduledArrival": "16:05",
+      "validFrom": "2026-10-13",
+      "validTo": "2026-10-13",
+      "operatingDates": [
+        "2026-10-13"
+      ],
+      "nonstopVerified": false,
+      "operatingCarrierVerified": false,
+      "durationMinutes": null,
+      "durationType": null,
+      "durationNote": null,
+      "timeBasisVerified": false,
+      "timeBasis": "published-clock-unverified-timezone"
+    },
+    {
+      "id": "sl392-20261014",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "廊曼國際機場（DMK）",
+      "destination": "高雄國際機場（KHH）",
+      "originIata": "DMK",
+      "destinationIata": "KHH",
+      "thaiAirport": "DMK",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "flightNumber": "SL392",
+      "direction": "from-thailand",
+      "schedule": "2026-10-14 預定出發 05:10 → 抵達 09:40。",
+      "status": "官方機場時刻表確認",
+      "description": "官方機場日期別區間表。",
+      "sources": [
+        "https://www.kia.gov.tw/EN/FLIPLAN.html",
+        "https://www.kia.gov.tw/EN/FIDS.html"
+      ],
+      "flightStatusUrl": "https://www.kia.gov.tw/EN/FIDS.html",
+      "checkedAt": "2026-10-13",
+      "departureDate": "2026-10-14",
+      "scheduledDeparture": "05:10",
+      "scheduledArrival": "09:40",
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "nonstopVerified": false,
+      "operatingCarrierVerified": false,
+      "durationMinutes": null,
+      "durationType": null,
+      "durationNote": null,
+      "timeBasisVerified": false,
+      "timeBasis": "published-clock-unverified-timezone"
+    },
+    {
+      "id": "sl393-20261014",
+      "market": "TW",
+      "country": "臺灣",
+      "origin": "高雄國際機場（KHH）",
+      "destination": "廊曼國際機場（DMK）",
+      "originIata": "KHH",
+      "destinationIata": "DMK",
+      "thaiAirport": "DMK",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "flightNumber": "SL393",
+      "direction": "to-thailand",
+      "schedule": "2026-10-14 預定出發 21:55。",
+      "status": "官方機場時刻表確認",
+      "description": "官方機場日期別區間表。",
+      "sources": [
+        "https://www.kia.gov.tw/EN/FLIPLAN.html",
+        "https://www.kia.gov.tw/EN/FIDS.html"
+      ],
+      "flightStatusUrl": "https://www.kia.gov.tw/EN/FIDS.html",
+      "checkedAt": "2026-10-13",
+      "departureDate": "2026-10-14",
+      "scheduledDeparture": "21:55",
+      "scheduledArrival": null,
+      "validFrom": "2026-10-14",
+      "validTo": "2026-10-14",
+      "operatingDates": [
+        "2026-10-14"
+      ],
+      "nonstopVerified": false,
+      "operatingCarrierVerified": false,
+      "durationMinutes": null,
+      "durationType": null,
+      "durationNote": null,
+      "timeBasisVerified": false,
+      "timeBasis": "published-clock-unverified-timezone"
+    }
+  ],
+  "airlines": [
+    {
+      "id": "eva-air",
+      "name": "長榮航空",
+      "officialName": "EVA Air",
+      "note": "桃園與曼谷的行李託運，以及航班證明、破損和延誤行李的辦理資訊。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.evaair.com/en-cn/fly-prepare/at-the-airport/check-in/self-service-baggage-drop/",
+        "https://booking.evaair.com/flyeva/eva/b2c/flight-status-file-inqury.aspx?lang=en-cn",
+        "https://www.evaair.com/en-cn/fly-prepare/baggage/delayed-missing-damaged-baggage-and-restrictions/",
+        "https://www.evaair.com/en-global/customer-services/contact-us/contact/?countryCode=Bangkok"
+      ],
+      "sections": [
+        {
+          "title": "先分清報到與託運",
+          "text": "自助行李託運需先取得登機證。其營業時間與人工報到、開票或服務辦公室不同，出發當天請確認自己的航班與櫃檯。",
+          "sources": [
+            "https://www.evaair.com/en-cn/fly-prepare/at-the-airport/check-in/self-service-baggage-drop/"
+          ]
+        },
+        {
+          "title": "曼谷市區開票與聯絡",
+          "text": "市區開票處：725 S-METRO大樓17樓1700室，週一至週五08:30–17:30；辦公室電話+66-2-3027300。訂位／開票一般專線+66-2-4609188提供中文、英文24小時服務。這些是市區與一般聯絡資訊，並非蘇凡納布機場櫃檯或行李服務。",
+          "sources": [
+            "https://www.evaair.com/en-global/customer-services/contact-us/contact/?countryCode=Bangkok"
+          ],
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "title": "班表確認範圍",
+          "text": "運航日依各航班列出的已確認日期；時間為當地預定時刻，含時差計算的所需時間不是實際離陸至降落時間。",
+          "sources": [
+            "https://booking.evaair.com/flyeva/EVA/B2C/flight-schedules.aspx?lang=en-my"
+          ],
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "faq": [
+        {
+          "q": "如何申請延誤／取消證明？",
+          "a": "長榮航空的航班離／到場證明可透過官方網站的線上系統申請。線上申請與列印以航班抵達日為基準，限180天內；超過期限須向櫃檯申請。由其他航空公司實際營運的共掛航班或包機，不適用此線上申請。"
+        },
+        {
+          "q": "行李破損的申報期限為何？",
+          "a": "若發現託運行李破損，請於領取行李翌日起7天內向長榮航空提出書面申報。此期限以領取日翌日起算，與延誤行李的起算日不同，請勿混淆。"
+        },
+        {
+          "q": "行李延誤的申報期限為何？",
+          "a": "若託運行李延誤未隨班機到達，請於行李預定抵達日翌日起21天內提出書面申報。此期限以行李預定抵達日翌日起算，與破損行李的起算日不同。抵達後請立即向當地機場辦公室或地勤代理申報；若已離開機場，可透過官方申報入口或聯絡長榮行李服務辦公室。"
+        }
+      ],
+      "flightStatusUrl": "https://booking.evaair.com/flyeva/eva/b2c/flight-status.aspx?lang=zh-tw",
+      "fieldContributions": [
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-BR-001",
+          "verificationEvidence": [
+            "https://booking.evaair.com/flyeva/eva/b2c/flight-status-file-inqury.aspx?lang=en-gb"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-BR-002",
+          "verificationEvidence": [
+            "https://www.evaair.com/en-us/fly-prepare/baggage/delayed-missing-damaged-baggage-and-restrictions/"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-BR-003",
+          "verificationEvidence": [
+            "https://www.evaair.com/en-us/fly-prepare/baggage/delayed-missing-damaged-baggage-and-restrictions/"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        }
+      ]
+    },
+    {
+      "id": "starlux-airlines",
+      "name": "星宇航空",
+      "officialName": "STARLUX Airlines",
+      "note": "查看曼谷蘇凡納布與清邁的報到、自助行李託運及機場辦公室聯絡資訊。",
+      "sections": [
+        {
+          "title": "曼谷報到與自助行李託運分開確認",
+          "text": "蘇凡納布的報到位於國際航廈4樓，櫃檯依出發當日機場安排。自助行李託運位於出境大廳R排，服務時間與報到不同，請分別確認。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand"
+          ]
+        },
+        {
+          "title": "清邁以當日機場安排為準",
+          "text": "清邁報到位於國際航廈1樓，官方列出1–9及18–26號櫃檯，但實際櫃檯須依出發當日機場安排確認。機場辦公室電話與報到櫃檯應分開辨識。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand"
+          ]
+        },
+        {
+          "title": "申請延誤、取消證明",
+          "text": "限星宇實際執飛的國際線，運航日起1年內申請。申請書簽名須與本人護照簽名相同，並上傳護照照片頁與簽名頁影本。附件可用jpeg、jpg、png、doc、docx或pdf，上限20MB。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate"
+          ],
+          "actions": [
+            {
+              "label": "星宇官方證明申請",
+              "url": "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate"
+            }
+          ]
+        },
+        {
+          "title": "另查航班實際出發、抵達證明",
+          "text": "此查詢與上傳個人資料的延誤、取消申請不同。可查過去1年的航班及未來1個月預定取消的航班，其他範圍請洽客服。選出發、抵達機場，輸入出發日（YYYY/MM/DD）與航班號碼；時間均為當地時間。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/support/certification/statement-of-flight-status"
+          ],
+          "actions": [
+            {
+              "label": "星宇官方出發、抵達證明查詢",
+              "url": "https://www.starlux-airlines.com/zh-TW/support/certification/statement-of-flight-status"
+            }
+          ]
+        },
+        {
+          "title": "抵達時立即申報行李問題",
+          "text": "抵達時請立即向航空公司申報。若已離開機場，可透過官方意見回饋，或備妥證明聯絡行李服務。多家航空公司的行程，官方指示在最終目的地向最後承運航空公司申報。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity"
+          ],
+          "actions": [
+            {
+              "label": "星宇官方意見回饋",
+              "url": "https://www.starlux-airlines.com/zh-TW/support/feedback/feedback"
+            }
+          ]
+        },
+        {
+          "title": "確認申訴期限的起算日",
+          "text": "破損或內容物短少：收到行李次日起7天內。延誤或遺失：預定航班抵達次日起21天內，並非收到延誤行李後才起算。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity"
+          ]
+        },
+        {
+          "title": "桃園第二航廈服務分工",
+          "text": "請依航班與旅客資格確認報到櫃檯，並以出發當日機場安排為準。自助行李託運、開票、抵達行李服務及機場辦公室各有不同用途，聯絡前先確認需要辦理的事項。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation"
+          ]
+        },
+        {
+          "title": "班表日期與時間",
+          "text": "以各航班列出的已確認運航日為限，勿推定其他日期；時間均為機場當地預定時刻，依主管機關核定，出發前再查詢。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/timetable"
+          ],
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "faq": [
+        {
+          "q": "曼谷自助行李託運與報到的開放時間相同嗎？",
+          "a": "不同。曼谷報到於起飛前3小時開放、1小時前截止；自助行李託運於起飛前6小時至1小時提供服務，時間可能因航班運作調整。"
+        },
+        {
+          "q": "機場辦公室電話就是報到櫃檯直撥電話嗎？",
+          "a": "這些號碼在官方頁面列為機場辦公室電話。請勿當作報到櫃檯直撥電話，詢問時先說明需要辦理的事項。"
+        },
+        {
+          "q": "搭機證明與延誤、取消證明一樣嗎？",
+          "a": "不同，請選所需種類，不要把搭機證明費用直接套用於延誤、取消證明。"
+        },
+        {
+          "q": "離開機場後還能反映行李問題嗎？",
+          "a": "可以使用官方意見回饋，或備妥相關證明聯絡行李服務；仍須留意申訴期限。"
+        },
+        {
+          "q": "桃園的報到、開票與行李辦公室是同一個櫃檯嗎？",
+          "a": "不同。請依所需服務選擇對應位置與聯絡方式，不要將辦公室電話或時間直接套用於報到櫃檯。"
+        }
+      ],
+      "flightStatusUrl": "https://www.starlux-airlines.com/zh-TW/flight-status",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand",
+        "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate",
+        "https://www.starlux-airlines.com/zh-TW/support/certification/statement-of-flight-status",
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity",
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation"
+      ]
+    },
+    {
+      "id": "china-airlines",
+      "name": "中華航空",
+      "officialName": "China Airlines",
+      "note": "確認機場服務、行李申報與航班證明。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge",
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab",
+        "https://airportservice.china-airlines.com/Baggage/lost-damages-apply.aspx?country=tw&locale=zh",
+        "https://calec.china-airlines.com/FlightStatus/",
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/contact-us/offices"
+      ],
+      "sections": [
+        {
+          "title": "行李損壞",
+          "text": "查看損壞申報。",
+          "sources": [
+            "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab"
+          ],
+          "actions": [
+            {
+              "label": "損壞申報詳情",
+              "url": "/zh-tw/airport-assistance/guides/ci-baggage-damage/"
+            }
+          ]
+        },
+        {
+          "title": "行李延遲",
+          "text": "查看延遲申報。",
+          "sources": [
+            "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab"
+          ],
+          "actions": [
+            {
+              "label": "延遲申報詳情",
+              "url": "/zh-tw/airport-assistance/guides/ci-baggage-delay/"
+            }
+          ]
+        },
+        {
+          "title": "航班證明",
+          "text": "查看離到場證明。",
+          "sources": [
+            "https://calec.china-airlines.com/FlightStatus/"
+          ],
+          "actions": [
+            {
+              "label": "證明詳情",
+              "url": "/zh-tw/airport-assistance/guides/ci-flight-certificate/"
+            }
+          ]
+        },
+        {
+          "title": "曼谷市區營業所",
+          "text": "地址：泰國曼谷10120，Sathorn區Thung Mahamek，South Sathorn Road 1號，Q House Lumpini Building 11樓1103室。\n電話+66-2-210-8999，週一至週五08:30–17:30；信箱bkkrrci@china-airlines.com。 這是市區營業所，不是素萬納普機場內的櫃台。",
+          "sources": [
+            "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/contact-us/offices"
+          ],
+          "actions": [
+            {
+              "label": "聯絡市區營業所",
+              "url": "tel:+6622108999"
+            },
+            {
+              "label": "寄信給營業所",
+              "url": "mailto:bkkrrci@china-airlines.com"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "中華航空桃園機場的聯絡電話是多少？",
+          "a": "官方「分公司資訊」列出 (03) 3988888；抵達行李詢問另有專用電話。請先確認所需業務、辦理地點與服務時間。"
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "EV-AP-TW-P9-012:branch-contact-faq",
+          "verificationEvidence": [
+            "https://calcfec.china-airlines.com/travelcertificate/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tigerair-taiwan",
+      "name": "台灣虎航",
+      "officialName": "Tigerair Taiwan",
+      "iata": "IT",
+      "note": "時刻表為預定當地時間；直飛與實際營運者尚未另行確認。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.tigerairtw.com/th-TH/ready-to-go/flight-schedule",
+        "https://www.tigerairtw.com/en-US/support/contact-us",
+        "https://www.tigerairtw.com/zh-TW/plan/baggage",
+        "https://www.tigerairtw.com/en-US/useful-link/conditions-carriage",
+        "https://www.tigerairtw.com/zh-TW/support/faq"
+      ],
+      "sections": [
+        {
+          "title": "一般客服",
+          "text": "台灣：+886-2-7753-1088，每日09:00–21:00（GMT+8）；泰國：+66-9-9648-9396，週一至週五08:30–17:30（GMT+7），國定假日除外。這些不是機場櫃檯直通電話。",
+          "sources": [
+            "https://www.tigerairtw.com/en-US/support/contact-us"
+          ]
+        },
+        {
+          "id": "tigerair-baggage-reporting-channels",
+          "title": "台灣虎航行李申報：機場、理賠、客服三種管道",
+          "text": "若託運行李發生異常，請於抵達後立即向入境行李提領轉盤區的台灣虎航行李組申報，航空公司將開立「行李異常報告」。 後續理賠追蹤請聯繫航空公司行李理賠代理：TTW@sedgwick.com／＋65 6991 6031（週一至週五上午9點至下午6點，新加坡時間）。 台灣虎航客服中心依語言提供專線服務。中文專線＋886 2 7753 1088／線上客服，每日上午9點至晚上9點（台灣時間）。這些是一般客服管道，不是機場行李櫃檯的直通電話。",
+          "sources": [
+            "https://www.tigerairtw.com/zh-TW/plan/baggage",
+            "https://www.tigerairtw.com/zh-TW/support/contact-us"
+          ],
+          "actions": [
+            {
+              "label": "行李異常申報與後續申請",
+              "url": "/zh-tw/airport-assistance/guides/tigerair-baggage/"
+            }
+          ],
+          "highlights": [
+            "入境行李提領轉盤區",
+            "行李異常報告",
+            "TTW@sedgwick.com"
+          ],
+          "checkedAt": "2026-10-14",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-17:it-tpe-baggage-body:reporting-channels",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/tigerair-tpe-baggage-role-current/it-tpe-baggage-body.json",
+              "scope": "Existing reporting procedure and claim agent from canonical current guide; excludes broad absence and inspection notes. Existing agent phone/hours retained, not new evidence."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "如何申請航班異動證明？",
+          "a": "航班完成起降作業後，若需申請航班異動證明（提早／延誤證明），可於航班執飛日起10天內透過官網連結自行下載。若航班執飛日至今已超過10天，請洽客服中心。各項證明皆須於搭乘日翌日起6個月內完成申請。"
+        },
+        {
+          "q": "行李發生異常時如何申報？",
+          "a": "若託運行李遺失、破損或疑似遭竊，請立即向入境行李提領轉盤區的台灣虎航行李組申報，航空公司將開立「行李異常報告」。破損行李請於申報單開立日起7天內、延誤行李請於抵達目的地21天內，備妥護照影本／登機證／託運行李收據等證明，以電子郵件傳送。受理信箱為 TTW@sedgwick.com（行李延誤／損壞／疑似遭竊申報專用），處理單位為航空公司行李理賠代理 Sedgwick Aviation Services。"
+        },
+        {
+          "q": "客服中心的聯繫方式為何？",
+          "a": "台灣虎航客服中心依語言提供專線服務。中文專線＋886 2 7753 1088／線上客服，每日上午9點至晚上9點（台灣時間）。這些是一般客服管道，不是機場行李櫃檯的直通電話。"
+        }
+      ],
+      "guideIds": [
+        "tigerair-baggage",
+        "tigerair-flight-certificate"
+      ],
+      "fieldContributions": [
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-IT-001",
+          "verificationEvidence": [
+            "https://www.tigerairtw.com/zh-TW/support/contact-us"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-IT-002",
+          "verificationEvidence": [
+            "https://www.tigerairtw.com/zh-TW/welcome-on-board/baggage"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-IT-003",
+          "verificationEvidence": [
+            "https://www.tigerairtw.com/zh-TW/support/contact-us"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        }
+      ]
+    },
+    {
+      "id": "thai-airways",
+      "name": "泰國航空",
+      "officialName": "Thai Airways",
+      "note": "官方查詢確認直飛及泰國航空實際執飛，僅適用已核對日期。",
+      "sources": [
+        "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/",
+        "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/",
+        "https://www.thaiairways.com/en-gb/help/flight-certificate",
+        "https://www.thaiairways.com/en-gb/help/flight-support",
+        "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [
+        {
+          "title": "泰國航空航班證明申請",
+          "text": "僅泰國航空實際承運的航班適用。若實際到達時間比表定時間超過15分鐘（不含剛好15分鐘），可申請泰國航空航班證明。證明可於預定旅行日後第3天起至6個月內提出申請。代碼共享航班請聯繫實際承運的航空公司。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": [
+            {
+              "label": "泰航航班證明申請條件",
+              "url": "/zh-tw/airport-assistance/guides/thai-flight-certificate/"
+            }
+          ],
+          "highlights": [
+            "實際承運",
+            "超過15分鐘",
+            "不含剛好15分鐘",
+            "第3天起至6個月"
+          ],
+          "checkedAt": "2026-10-14"
+        },
+        {
+          "title": "泰國航空行李破損申報",
+          "text": "若託運行李破損，請於抵達後立即向機場泰航行李服務櫃檯申報。機場人員將確認破損狀況並開立行李異常報告（PIR），請務必索取副本。破損申報須於抵達後7天內以書面提出。保險理賠請依您所投保的保險公司指引另行辦理，與航空公司申報為各自獨立程序。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ],
+          "actions": [
+            {
+              "label": "泰航行李毀損：應採取的步驟",
+              "url": "/zh-tw/airport-assistance/guides/thai-damaged-baggage/"
+            }
+          ],
+          "highlights": [
+            "PIR",
+            "抵達後7天內",
+            "以書面",
+            "各自獨立"
+          ],
+          "checkedAt": "2026-10-14"
+        },
+        {
+          "title": "泰國航空行李延誤申索",
+          "text": "若託運行李延誤，請於機場立即申報並開立行李異常報告（PIR），記下參考編號。請於領取行李後21天內，檢附PIR與收據以書面提出申索。保險理賠請依您所投保的保險公司指引另行辦理。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+          ],
+          "actions": [
+            {
+              "label": "泰航行李延誤：應採取的步驟",
+              "url": "/zh-tw/airport-assistance/guides/thai-delayed-baggage/"
+            }
+          ],
+          "highlights": [
+            "PIR",
+            "領取行李後21天內",
+            "以書面"
+          ],
+          "checkedAt": "2026-10-14"
+        }
+      ],
+      "faq": [
+        {
+          "q": "如何申請航班證明？",
+          "a": "泰國航空實際承運的航班若抵達時間比預定時間晚超過15分鐘，可申請航班證明；正好15分鐘不包括在內。證明可於預定旅行日後第3天起至6個月內提出申請。申請管道請見泰航官網航班證明頁面。代碼共享航班請聯繫實際承運的航空公司。"
+        },
+        {
+          "q": "航空公司申報與保險理賠有何不同？",
+          "a": "向泰國航空申報行李異常（開立PIR）與向保險公司申請理賠，是兩個各自獨立的程序。保險理賠請依您所投保的保險公司指引辦理，所需證明文件因保險公司而異，並非由泰航規定。請妥善保存所有書面紀錄（PIR副本、收據、登機證等），以備理賠時使用。"
+        },
+        {
+          "q": "行李破損／延誤時如何申報？",
+          "a": "若託運行李破損，請於抵達後立即向機場泰航行李服務櫃檯申報，由機場人員確認並開立行李異常報告（PIR），請務必索取副本。破損申報須於抵達後7天內以書面提出。若行李延誤，請填寫旅客行李申索表，並於行李交付後21天內檢附PIR與收據以書面提出申索。"
+        }
+      ],
+      "fieldContributions": [
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-TG-002",
+          "verificationEvidence": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-r2:FAQ-TG-001",
+          "verificationEvidence": [
+            "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/",
+            "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/",
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support",
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current/tw-airline-faq.json",
+          "scope": "Existing current TW public canonical facts; no new physical values. Insurance and airline reporting separate, SL contacts are general/town-office not arrival-PIR."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-r2:FAQ-TG-003",
+          "verificationEvidence": [
+            "https://www.thaiairways.com/en-th/plan-trip/flight-schedule/",
+            "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/",
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support",
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current/tw-airline-faq.json",
+          "scope": "Existing current TW public canonical facts; no new physical values. Insurance and airline reporting separate, SL contacts are general/town-office not arrival-PIR."
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-16:SEC-TG-001",
+          "artifact": "artifacts/airport-research/tw-tg-fd-body-current/tg-fd-sections.json",
+          "verificationEvidence": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "scope": "Native section reconciled with existing own-carrier guide; existing routes/services/FAQ preserved, no new physical facts"
+        },
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-16:SEC-TG-002",
+          "artifact": "artifacts/airport-research/tw-tg-fd-body-current/tg-fd-sections.json",
+          "verificationEvidence": [
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ],
+          "scope": "Native section reconciled with existing own-carrier guide; existing routes/services/FAQ preserved, no new physical facts"
+        },
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-16:SEC-TG-003",
+          "artifact": "artifacts/airport-research/tw-tg-fd-body-current/tg-fd-sections.json",
+          "verificationEvidence": [
+            "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+          ],
+          "scope": "Native section reconciled with existing own-carrier guide; existing routes/services/FAQ preserved, no new physical facts"
+        }
+      ]
+    },
+    {
+      "id": "thai-airasia",
+      "name": "泰國亞洲航空",
+      "officialName": "Thai AirAsia",
+      "note": "官方當日查詢確認區間與實際執飛者，直飛條件另行核對。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.airasia.com/flightstatus/en/GB",
+        "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+      ],
+      "flightStatusUrl": "https://www.airasia.com/flightstatus/en/GB",
+      "sections": [
+        {
+          "title": "泰國亞洲航空行李破損申報",
+          "text": "若託運行李破損，請於發現後立即申報。最遲須於收到行李後7天內以書面通知航空公司。",
+          "sources": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "actions": [
+            {
+              "label": "泰國亞洲航空（FD）行李索賠：毀損與延誤",
+              "url": "/zh-tw/airport-assistance/guides/thai-airasia-baggage-claim/"
+            }
+          ],
+          "highlights": [
+            "收到行李後7天內",
+            "以書面"
+          ],
+          "checkedAt": "2026-10-14"
+        },
+        {
+          "title": "泰國亞洲航空行李延誤申索",
+          "text": "若行李延誤，請自可領取行李之日起算21天內以書面通知航空公司。此21天起算日以可領取日為準，與航班抵達日不同。",
+          "sources": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "actions": [
+            {
+              "label": "泰國亞洲航空（FD）行李索賠：毀損與延誤",
+              "url": "/zh-tw/airport-assistance/guides/thai-airasia-baggage-claim/"
+            }
+          ],
+          "highlights": [
+            "可領取行李之日起算21天內",
+            "以書面"
+          ],
+          "checkedAt": "2026-10-14"
+        },
+        {
+          "title": "旅遊保險理賠與一般須知（泰國亞洲航空）",
+          "text": "向航空公司申報行李異常與向保險公司申請理賠，是兩個各自獨立的程序。請妥善保存所有書面紀錄（PIR表單、登機證、行李條、收據等）。保險理賠的申請期限與所需文件，請依您所持保單的條款確認。Thai AirAsia（FD）與Thai AirAsia X（XJ）為不同公司，適用條款各自獨立，請勿混用。報到櫃檯位置可能隨季節調整，出發當日請依機場公告或向航空公司確認。",
+          "sources": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "actions": [
+            {
+              "label": "富邦航班延誤快捷理賠怎麼辦",
+              "url": "/zh-tw/airport-assistance/guides/insurance-claim/"
+            }
+          ],
+          "highlights": [
+            "PIR",
+            "各自獨立",
+            "不同公司",
+            "出發當日"
+          ],
+          "checkedAt": "2026-10-14"
+        }
+      ],
+      "faq": [
+        {
+          "q": "行李異常申報程序為何？",
+          "a": "若託運行李破損，請於離開機場前立即申報。若行李延誤，請於輸送帶停止運轉時立即向客服申報，並提供訂位代號與行李條，航空公司將開立PIR表單及編號。破損請於領受後7天內、延誤請於可領取後21天內以書面通知航空公司。"
+        },
+        {
+          "q": "航空公司申報與保險理賠有何不同？",
+          "a": "向航空公司申報行李異常與向保險公司申請理賠，是兩個各自獨立的程序。請妥善保存所有書面紀錄（PIR表單、登機證、行李條、收據等）。保險理賠的申請期限與所需文件，請依您所持保單的條款確認。"
+        },
+        {
+          "q": "如何確認報到櫃檯號碼？",
+          "a": "報到櫃檯位置可能隨季節調整。出發當日請依機場公告或向航空公司確認。"
+        }
+      ],
+      "fieldContributions": [
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15:FAQ-FD-001",
+          "verificationEvidence": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-current/tw-airline-faq.json",
+          "reconciliation": "Retained current canonical international scope/deadline bases and excluded unverified terms, cross-market contacts and broad absence claims."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-r2:FAQ-FD-002",
+          "verificationEvidence": [
+            "https://www.airasia.com/flightstatus/en/GB",
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current/tw-airline-faq.json",
+          "scope": "Existing current TW public canonical facts; no new physical values. Insurance and airline reporting separate, SL contacts are general/town-office not arrival-PIR."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-r2:FAQ-FD-003",
+          "verificationEvidence": [
+            "https://www.airasia.com/flightstatus/en/GB",
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current/tw-airline-faq.json",
+          "scope": "Existing current TW public canonical facts; no new physical values. Insurance and airline reporting separate, SL contacts are general/town-office not arrival-PIR."
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-16:SEC-FD-001",
+          "artifact": "artifacts/airport-research/tw-tg-fd-body-current/tg-fd-sections.json",
+          "verificationEvidence": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "scope": "Native section reconciled with existing own-carrier guide; existing routes/services/FAQ preserved, no new physical facts"
+        },
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-16:SEC-FD-002",
+          "artifact": "artifacts/airport-research/tw-tg-fd-body-current/tg-fd-sections.json",
+          "verificationEvidence": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "scope": "Native section reconciled with existing own-carrier guide; existing routes/services/FAQ preserved, no new physical facts"
+        },
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-16:SEC-FD-003",
+          "artifact": "artifacts/airport-research/tw-tg-fd-body-current/tg-fd-sections.json",
+          "verificationEvidence": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "scope": "Native section reconciled with existing own-carrier guide; existing routes/services/FAQ preserved, no new physical facts"
+        }
+      ]
+    },
+    {
+      "id": "thai-lion-air",
+      "name": "泰國獅子航空",
+      "officialName": "Thai Lion Air",
+      "note": "官方機場日期別區間表；實際執飛法人及直飛條件尚未獨立確認。",
+      "sources": [
+        "https://www.kia.gov.tw/EN/FLIPLAN.html",
+        "https://www.kia.gov.tw/EN/FIDS.html",
+        "https://www.kia.gov.tw/EN/contact.html",
+        "https://donmueang.airportthai.co.th/service/airport-guide/detail/AirlineInformation_DMK"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [
+        {
+          "title": "臺灣一般聯絡窗口",
+          "text": "機場列示聯絡電話，並非機場服務專線或行李窗口。",
+          "phone": "02-87705008",
+          "sources": [
+            "https://www.kia.gov.tw/EN/contact.html"
+          ]
+        },
+        {
+          "title": "曼谷市區辦公室",
+          "text": "市區聯絡電話為+66 2 529 9999，週一至週五09:00–20:00（GMT+7）（機場名錄來源）。另有航空公司官網一般客服：同一號碼，每日07:00–20:00（SL官方Contact，2026-10-14確認）。兩者服務範圍不同，致電時請先確認事項與辦公室實際營業時間。",
+          "sources": [
+            "https://donmueang.airportthai.co.th/service/airport-guide/detail/AirlineInformation_DMK",
+            "https://www.lionairthai.com/cn/en/Contact"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "台灣的聯繫電話為何？",
+          "a": "泰獅航空台灣一般聯繫電話為02-87705008。此號碼為機場資訊表所列之一般聯絡電話，並非行李異常申報（PIR）專線。"
+        },
+        {
+          "q": "曼谷辦公室的聯繫方式為何？",
+          "a": "市區辦公室聯絡電話為+66 2 529 9999，週一至週五09:00–20:00（GMT+7）（機場名錄來源）。航空公司官網一般客服為同一號碼，每日07:00–20:00（SL官方Contact）。致電時請先說明您的需求，確認適合的服務窗口。",
+          "sources": [
+            "https://donmueang.airportthai.co.th/service/airport-guide/detail/AirlineInformation_DMK",
+            "https://www.lionairthai.com/cn/en/Contact"
+          ]
+        },
+        {
+          "q": "如何確認報到櫃檯位置？",
+          "a": "報到櫃檯位置可能隨季節調整。出發當日請於機場現場向航空公司確認櫃檯位置。"
+        }
+      ],
+      "fieldContributions": [
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-r2:FAQ-SL-001",
+          "verificationEvidence": [
+            "https://www.kia.gov.tw/EN/FLIPLAN.html",
+            "https://www.kia.gov.tw/EN/FIDS.html",
+            "https://www.kia.gov.tw/EN/contact.html",
+            "https://donmueang.airportthai.co.th/service/airport-guide/detail/AirlineInformation_DMK"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current/tw-airline-faq.json",
+          "scope": "Existing current TW public canonical facts; no new physical values. Insurance and airline reporting separate, SL contacts are general/town-office not arrival-PIR."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-r2:FAQ-SL-002",
+          "verificationEvidence": [
+            "https://www.kia.gov.tw/EN/FLIPLAN.html",
+            "https://www.kia.gov.tw/EN/FIDS.html",
+            "https://www.kia.gov.tw/EN/contact.html",
+            "https://donmueang.airportthai.co.th/service/airport-guide/detail/AirlineInformation_DMK"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current/tw-airline-faq.json",
+          "scope": "Existing current TW public canonical facts; no new physical values. Insurance and airline reporting separate, SL contacts are general/town-office not arrival-PIR."
+        },
+        {
+          "field": "faq",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-r2:FAQ-SL-003",
+          "verificationEvidence": [
+            "https://www.kia.gov.tw/EN/FLIPLAN.html",
+            "https://www.kia.gov.tw/EN/FIDS.html",
+            "https://www.kia.gov.tw/EN/contact.html",
+            "https://donmueang.airportthai.co.th/service/airport-guide/detail/AirlineInformation_DMK"
+          ],
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current/tw-airline-faq.json",
+          "scope": "Existing current TW public canonical facts; no new physical values. Insurance and airline reporting separate, SL contacts are general/town-office not arrival-PIR."
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AIRPORT-SERVICE-01",
+          "sourceRecordId": "SL-city-section-rewrite:role-distinction",
+          "artifact": "artifacts/airport-research/thai-lion-city-care-role-reader-current/original.json",
+          "verificationEvidence": [
+            "artifacts/airport-research/thai-lion-dmk-khh-current-service-independent-audit.json",
+            "artifacts/airport-research/thai-lion-role-scoped-phones-current/evidence.json"
+          ],
+          "scope": "Preserve city-office weekdays09–20 versus general customer care daily07–20; no airport-office/PIR role promotion"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "eva-tpe-bagdrop",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "TPE",
+      "type": "自助行李託運",
+      "location": "桃園機場第二航廈第17號櫃檯。第16號櫃檯暫停開放。",
+      "hours": "04:15–14:30／19:00–22:30；須於起飛前1小時完成。",
+      "text": "先完成報到並取得登機證。官方說明第17號櫃檯適用長榮直飛航班；特殊行李或需要協助時請洽人工櫃檯。",
+      "sources": [
+        "https://www.evaair.com/en-cn/fly-prepare/at-the-airport/check-in/self-service-baggage-drop/"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "eva-bkk-bagdrop",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "BKK",
+      "type": "自助行李託運",
+      "hours": "起飛前6至1小時。",
+      "text": "先備妥登機證；人工櫃檯時間另計。",
+      "sources": [
+        "https://www.evaair.com/en-gb/fly-prepare/at-the-airport/worldwide-airports/?countryCode=BKK"
+      ],
+      "checkedAt": "2026-10-13",
+      "location": "主航廈（MTB）：S與R櫃檯間印行李條，R櫃檯託運。"
+    },
+    {
+      "id": "starlux-bkk-checkin",
+      "airportIata": "BKK",
+      "type": "報到",
+      "location": "國際航廈4樓；櫃檯依出發當日機場安排。",
+      "hours": "起飛前3小時開放，起飛前1小時截止。",
+      "text": "請於出發當日確認機場安排的報到櫃檯。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "starlux-bkk-bagdrop",
+      "airportIata": "BKK",
+      "type": "自助行李託運",
+      "location": "出境大廳R排。",
+      "hours": "起飛前6小時至1小時；可能因航班運作調整。",
+      "text": "這是自助行李託運服務，請與報到櫃檯的開放時間分開確認。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "starlux-bkk-office",
+      "airportIata": "BKK",
+      "type": "機場辦公室",
+      "phone": "+66-2-134-1690",
+      "text": "這是星宇航空曼谷機場辦公室的電話，不是報到櫃檯直撥電話。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand"
+      ],
+      "checkedAt": "2026-10-13",
+      "originThreadKey": "AIRPORT-SERVICE-01",
+      "sourceRecordId": "r13/evidence.json#SVCU-JX-0001",
+      "verificationEvidence": "SVCU-JX-0001",
+      "verificationNote": "Existing displayed phone and its service role corroborated against recovered r13 evidence; does not assert original authorship or complete airport-role coverage."
+    },
+    {
+      "id": "starlux-cnx-checkin",
+      "airportIata": "CNX",
+      "type": "報到",
+      "location": "國際航廈1樓，1–9及18–26號櫃檯；以出發當日機場安排為準。",
+      "hours": "起飛前2.5小時開放，起飛前1小時截止。",
+      "text": "官方列出的櫃檯範圍仍須搭配當日機場安排確認。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "starlux-cnx-office",
+      "airportIata": "CNX",
+      "type": "機場辦公室",
+      "phone": "+66-53-270-088",
+      "text": "這是星宇航空清邁機場辦公室的電話，不是報到櫃檯直撥電話。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation/southeast-asia/thailand"
+      ],
+      "checkedAt": "2026-10-13",
+      "originThreadKey": "AIRPORT-SERVICE-01",
+      "sourceRecordId": "r13/evidence.json#SVCU-JX-0001",
+      "verificationEvidence": "SVCU-JX-0001",
+      "verificationNote": "Existing displayed phone and its service role corroborated against recovered r13 evidence; does not assert original authorship or complete airport-role coverage."
+    },
+    {
+      "id": "starlux-tpe-checkin",
+      "airportIata": "TPE",
+      "type": "第二航廈報到",
+      "location": "第二航廈：JX741一般旅客3號櫃檯、商務艙及ADVENTURER／EXPLORER／INSIGHTER會員2號；JX745一般旅客26號、商務艙及上述會員21號。以出發當日機場安排為準。",
+      "hours": "東南亞航班起飛前2.5小時開放，起飛前1小時截止。",
+      "text": "請依自己的航班、艙等與會員資格確認櫃檯，並查看當日機場安排。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "starlux-tpe-bagdrop",
+      "airportIata": "TPE",
+      "type": "自助行李託運",
+      "location": "第二航廈10及16號櫃檯。",
+      "hours": "依航班報到時間提供服務，最晚於起飛前1小時完成。",
+      "text": "自助行李託運與人工報到、開票服務應分開確認。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "starlux-tpe-ticketing",
+      "airportIata": "TPE",
+      "type": "開票服務",
+      "location": "第二航廈出境大廳。",
+      "hours": "依第二航廈出發航班運作時間提供服務。",
+      "text": "這是開票服務的位置與時間說明，請勿當作所有報到櫃檯的服務時間。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "starlux-tpe-baggage-office",
+      "airportIata": "TPE",
+      "type": "抵達行李服務辦公室",
+      "location": "第二航廈入境行李大廳1039-B室，靠近1號行李轉盤。",
+      "hours": "09:30–17:30。",
+      "phone": "+886-3-260-1899 分機2570",
+      "email": "JXLNF@starlux-airlines.com",
+      "text": "這是抵達行李服務聯絡資訊，電子郵件為JXLNF@starlux-airlines.com，與報到或開票櫃檯不同。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "starlux-tpe-airport-office",
+      "airportIata": "TPE",
+      "type": "機場辦公室",
+      "hours": "09:00–17:00。",
+      "phone": "+886-3-260-1899",
+      "text": "這是機場辦公室電話與服務時間，不是報到櫃檯直撥電話。",
+      "airline": "星宇航空",
+      "airlineId": "starlux-airlines",
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/travel-information/airport-and-transportation"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "ci-bkk-checkin",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "airportIata": "BKK",
+      "type": "人工報到",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "location": "主航廈4樓，通常為P櫃台。",
+      "hours": "起飛前3小時開櫃、1小時關櫃。",
+      "text": "以當日電子看板為準。"
+    },
+    {
+      "id": "ci-bkk-self-bagdrop",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "airportIata": "BKK",
+      "type": "自助行李託運",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "location": "P/Q/R前列印行李條，Q1–Q4及R自助交運。",
+      "hours": "起飛前6小時至1小時。"
+    },
+    {
+      "id": "ci-bkk-baggage-contact",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "airportIata": "BKK",
+      "type": "行李服務聯絡",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "hours": "每日08:30–18:30。",
+      "text": "這是行李電話，非訂位或報到；到場位置請先詢問。",
+      "phone": "+66-2-1342042",
+      "originThreadKey": "AIRPORT-SERVICE-01",
+      "sourceRecordId": "r13/evidence.json#SVCU-CI-0003",
+      "verificationEvidence": "SVCU-CI-0003",
+      "verificationNote": "Existing displayed phone and its service role corroborated against recovered r13 evidence; does not assert original authorship or complete airport-role coverage."
+    },
+    {
+      "id": "ci-tpe-t1-web-self-bagdrop",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "airportIata": "TPE",
+      "type": "網路報到交運／自助託運",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "location": "第一航廈：網路報到交運10號；自助託運8、10號。",
+      "hours": "8號05:00–08:00；10號08:00–22:00。",
+      "text": "這裡列的是網路報到交運與自助託運位置；報到於起飛前60分鐘關櫃，當日安排請再確認。"
+    },
+    {
+      "id": "eva-bkk-checkin",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "BKK",
+      "type": "人工報到",
+      "hours": "起飛前3至1小時。",
+      "text": "當日請確認航班與櫃檯公告。",
+      "sources": [
+        "https://www.evaair.com/en-gb/fly-prepare/at-the-airport/worldwide-airports/?countryCode=BKK"
+      ],
+      "checkedAt": "2026-10-13",
+      "location": "主航廈（MTB）S7–S19櫃檯。"
+    },
+    {
+      "id": "eva-bkk-airport-office",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "BKK",
+      "type": "機場辦公室",
+      "hours": "每日08:30–17:30。",
+      "text": "一般機場諮詢；電話範圍依官方原文顯示。",
+      "sources": [
+        "https://www.evaair.com/en-gb/fly-prepare/at-the-airport/worldwide-airports/?countryCode=BKK"
+      ],
+      "checkedAt": "2026-10-13",
+      "phone": "+66 2 134-2521-3"
+    },
+    {
+      "id": "eva-bkk-baggage",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "BKK",
+      "type": "行李服務",
+      "hours": "每日08:00–16:30。",
+      "text": "行動電話：+66-63-2678665；辦公室位置未載明。",
+      "sources": [
+        "https://www.evaair.com/en-gb/fly-prepare/at-the-airport/worldwide-airports/?countryCode=BKK"
+      ],
+      "checkedAt": "2026-10-13",
+      "phone": "+66-2-1342525"
+    },
+    {
+      "id": "tigerair-tpe-checkin",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "airportIata": "TPE",
+      "type": "報到櫃檯",
+      "terminal": "第一航廈",
+      "location": "官方列示7號櫃檯，當日請再確認。",
+      "text": "位置依季節與當日安排可能變動。",
+      "sources": [
+        "https://www.tigerairtw.com/ja-JP/ready-to-go/station-map"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tigerair-hkt-checkin",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "airportIata": "HKT",
+      "type": "報到櫃檯",
+      "terminal": "國際航廈",
+      "location": "當日櫃檯請依出發看板與航空公司確認。",
+      "text": "位置依季節與當日安排可能變動。",
+      "sources": [
+        "https://www.tigerairtw.com/ja-JP/ready-to-go/station-map"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tigerair-khh-checkin",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "airportIata": "KHH",
+      "type": "報到櫃檯",
+      "terminal": "國際航廈",
+      "location": "由機場安排櫃檯，當日請確認。",
+      "text": "位置依季節與當日安排可能變動。",
+      "sources": [
+        "https://www.tigerairtw.com/ja-JP/ready-to-go/station-map"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tigerair-tpe-online-checkin",
+      "airline": "台灣虎航",
+      "airlineId": "tigerair-taiwan",
+      "airportIata": "TPE",
+      "type": "自助報到",
+      "location": "官方線上系統。",
+      "hours": "表定起飛前48至1小時。",
+      "text": "適用台灣虎航營運的桃園赴泰國航班及符合系統資格者。有託運行李或未取得電子登機證時，請於起飛前2.5小時到櫃檯，並於45分鐘前完成報到。",
+      "sources": [
+        "https://sci.tigerairtw.com/"
+      ],
+      "checkedAt": "2026-10-13",
+      "url": "https://sci.tigerairtw.com/"
+    },
+    {
+      "id": "eva-cnx-checkin",
+      "type": "報到櫃檯",
+      "terminal": "國際航廈",
+      "location": "國際線報到區；當日櫃檯依看板確認。",
+      "hours": "08:45當地時間開放，起飛前45分鐘截止。",
+      "text": "櫃檯安排可能依季節與航班變動。",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "CNX",
+      "sources": [
+        "https://www.evaair.com/en-us/fly-prepare/at-the-airport/worldwide-airports/?countryCode=CNX"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "eva-cnx-airport-office",
+      "type": "機場辦公室聯絡",
+      "hours": "每日13:00–15:30。",
+      "phone": "052-135-200",
+      "text": "官方出發資訊列示的電話與辦公時間，請洽此號確認辦公室位置。",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "CNX",
+      "sources": [
+        "https://www.evaair.com/en-us/fly-prepare/at-the-airport/worldwide-airports/?countryCode=CNX"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "eva-cnx-baggage-agent",
+      "type": "行李地勤代理",
+      "hours": "每日07:30–23:00。",
+      "phone": "+66-53-277782",
+      "text": "長榮官方列出的清邁行李服務代理聯絡，抵達時向行李人員確認辦理處。",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "CNX",
+      "sources": [
+        "https://www.evaair.com/en-us/fly-prepare/at-the-airport/worldwide-airports/?countryCode=CNX"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "sl-tw-general-contact",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "airportIata": "KHH",
+      "type": "臺灣一般聯絡窗口",
+      "phone": "02-87705008",
+      "hours": "09:00–18:00（機場聯絡表列示）",
+      "text": "機場列示聯絡電話，並非機場服務專線或行李窗口。",
+      "sources": [
+        "https://www.kia.gov.tw/EN/contact.html"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "sl-dmk-airport-office",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "airportIata": "DMK",
+      "type": "機場航空公司辦公室",
+      "location": "第一航廈4樓4313A室",
+      "phone": "+66 2 529 9911",
+      "text": "機場名錄列出的辦公室是第一航廈4樓4313A室，聯絡電話為+66 2 529 9911；航空公司官網也將這個號碼列為旅行社客服電話。致電時請先說明您的需求，確認適合的服務窗口。",
+      "sources": [
+        "https://donmueang.airportthai.co.th/service/airport-guide/detail/AirlineInformation_DMK",
+        "https://www.lionairthai.com/cn/en/Contact"
+      ],
+      "checkedAt": "2026-10-13",
+      "corroborationEvidence": [
+        {
+          "originThreadKey": "AIRPORT-SERVICE-01",
+          "sourceRecordId": "SVCU-SL-0003:office-number-role-distinction",
+          "artifact": "artifacts/airport-research/thai-lion-role-scoped-phones-current/evidence.json",
+          "quote": "Travel Agent Call Center Please call us at (66) 2-529-9911 Operating Hour 09:00-20:00 (GMT+7) | Monday – Sunday",
+          "scope": "Separate airline travel-agent number from existing airport-directory office listing; no office hours inferred"
+        }
+      ]
+    },
+    {
+      "id": "tg-bkk-checkin",
+      "airportIata": "BKK",
+      "type": "國際線報到",
+      "location": "經濟艙H6–H17；皇家絲綢艙A3–A10",
+      "hours": "起飛前8小時至50分鐘。",
+      "text": "行李須在起飛前60分鐘完成託運，當天按航班與艙等確認櫃台。",
+      "sources": [
+        "https://www.thaiairways.com/en-th/content/airport-information/"
+      ],
+      "airline": "泰國國際航空",
+      "airlineId": "thai-airways",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tg-bkk-office",
+      "airportIata": "BKK",
+      "type": "機場辦公室",
+      "location": "素萬那普機場4樓",
+      "phone": "+66 2 132 1888",
+      "sources": [
+        "https://www.thaiairways.com/en-th/content/airport-information/"
+      ],
+      "airline": "泰國國際航空",
+      "airlineId": "thai-airways",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tg-bkk-baggage",
+      "airportIata": "BKK",
+      "type": "國際線行李服務",
+      "phone": "+66 2 134 5453–5456",
+      "hours": "24小時",
+      "sources": [
+        "https://www.thaiairways.com/en-th/content/airport-information/"
+      ],
+      "airline": "泰國國際航空",
+      "airlineId": "thai-airways",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tg-tpe-checkin",
+      "airportIata": "TPE",
+      "type": "國際線報到",
+      "location": "第一航廈；TG637第2排，TG633／TG635第5排",
+      "hours": "起飛前2小時30分鐘至40分鐘。",
+      "sources": [
+        "https://www.thaiairways.com/en-jp/content/airport-information/"
+      ],
+      "airline": "泰國國際航空",
+      "airlineId": "thai-airways",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tg-tpe-office",
+      "airportIata": "TPE",
+      "type": "機場辦公室",
+      "location": "桃園市大園區航站南路15號",
+      "phone": "+886-3-3833858",
+      "email": "tpekotg@thaiairways.com.tw",
+      "sources": [
+        "https://www.thaiairways.com/en-jp/content/airport-information/"
+      ],
+      "airline": "泰國國際航空",
+      "airlineId": "thai-airways",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tg-tpe-baggage",
+      "airportIata": "TPE",
+      "type": "抵達行李服務（EVA Airways地勤）",
+      "phone": "+886-3-3517771",
+      "sources": [
+        "https://www.thaiairways.com/en-jp/content/airport-information/"
+      ],
+      "airline": "泰國國際航空",
+      "airlineId": "thai-airways",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "ci-khh-checkin",
+      "airportIata": "KHH",
+      "type": "國際線報到",
+      "location": "國際線航廈A／B／C島",
+      "hours": "表訂起飛前60分鐘關櫃。",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "airlineId": "china-airlines",
+      "airline": "中華航空",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "ci-khh-baggage",
+      "airportIata": "KHH",
+      "type": "行李服務",
+      "phone": "+886-7-805-1305",
+      "hours": "每日10:00–21:00",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "airlineId": "china-airlines",
+      "airline": "中華航空",
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "fd-dmk-international-checkin",
+      "airportIata": "DMK",
+      "airline": "泰國亞洲航空",
+      "airlineId": "thai-airasia",
+      "type": "國際線報到",
+      "hours": "FD國際線於起飛前3小時至60分鐘辦理。",
+      "text": "請按航班條件及當天資訊確認航廈與櫃台。",
+      "sources": [
+        "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html",
+        "https://support.airasia.com/s/article/Airports-and-Terminals?language=en_GB"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "fd-cnx-international-checkin",
+      "airportIata": "CNX",
+      "airline": "泰國亞洲航空",
+      "airlineId": "thai-airasia",
+      "type": "國際線報到",
+      "hours": "FD國際線於起飛前3小時至60分鐘辦理。",
+      "text": "請按航班條件及當天資訊確認航廈與櫃台。",
+      "sources": [
+        "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html",
+        "https://support.airasia.com/s/article/Airports-and-Terminals?language=en_GB"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "fd-tpe-international-checkin",
+      "airportIata": "TPE",
+      "airline": "泰國亞洲航空",
+      "airlineId": "thai-airasia",
+      "type": "國際線報到",
+      "hours": "FD國際線於起飛前3小時至60分鐘辦理。",
+      "text": "請按航班條件及當天資訊確認航廈與櫃台。",
+      "sources": [
+        "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html",
+        "https://support.airasia.com/s/article/Airports-and-Terminals?language=en_GB"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "fd-dmk-sales-office",
+      "airportIata": "DMK",
+      "airline": "AirAsia",
+      "airlineId": "thai-airasia",
+      "serviceProvider": "AirAsia sales office",
+      "scope": "shared-brand-sales-service",
+      "sourceUpdatedAt": "2026-08",
+      "type": "AirAsia售票櫃台",
+      "location": "第一航廈3樓3307室",
+      "hours": "每日03:00至翌日01:00，GMT+7。",
+      "text": "2026年8月名單所列AirAsia共用售票服務，與報到櫃台分開。",
+      "sources": [
+        "https://www.airasia.com/aa/pdf/sales-office/list-of-sales-office.pdf"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "fd-cnx-sales-office",
+      "airportIata": "CNX",
+      "airline": "AirAsia",
+      "airlineId": "thai-airasia",
+      "serviceProvider": "AirAsia sales office",
+      "scope": "shared-brand-sales-service",
+      "sourceUpdatedAt": "2026-08",
+      "type": "AirAsia售票櫃台",
+      "location": "清邁國際機場1樓",
+      "hours": "每日04:30–22:30，GMT+7。",
+      "text": "2026年8月名單所列AirAsia共用售票服務，與報到櫃台分開。",
+      "sources": [
+        "https://www.airasia.com/aa/pdf/sales-office/list-of-sales-office.pdf"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "ci-cnx-checkin",
+      "airportIata": "CNX",
+      "airlineId": "china-airlines",
+      "airline": "中華航空",
+      "type": "國際線報到",
+      "location": "國際線1樓",
+      "hours": "表訂起飛前3小時至60分鐘。",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "ci-cnx-baggage",
+      "airportIata": "CNX",
+      "airlineId": "china-airlines",
+      "airline": "中華航空",
+      "type": "行李服務（Thai Airways代理）",
+      "phone": "+66-53-277782",
+      "email": "cnx.passenger@thaiairways.com",
+      "hours": "07:00–23:00",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "sl397-tpe-checkin-20261013",
+      "airportIata": "TPE",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "type": "當日報到櫃台",
+      "location": "第一航廈，第1排",
+      "text": "2026年10月13日SL397的機場報到櫃台。",
+      "flightNumbers": [
+        "SL397"
+      ],
+      "observedDate": "2026-10-13",
+      "sources": [
+        "https://www.taoyuan-airport.com/flight_depart"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "sl395-tpe-checkin-20261013",
+      "airportIata": "TPE",
+      "airline": "泰國獅子航空",
+      "airlineId": "thai-lion-air",
+      "type": "當日報到櫃台",
+      "location": "第一航廈，第3排",
+      "text": "2026年10月13日SL395的機場報到櫃台。",
+      "flightNumbers": [
+        "SL395"
+      ],
+      "observedDate": "2026-10-13",
+      "sources": [
+        "https://www.taoyuan-airport.com/flight_depart"
+      ],
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "eva-bkk-city-office",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "BKK",
+      "type": "曼谷市區售票／訂位辦公室",
+      "location": "725 S-METRO Building 17樓 1700室，Sukhumvit Rd., Klongton Nua, Wattana, Bangkok 10110（非機場航廈內櫃檯）。",
+      "hours": "週一至週五 08:30–17:30。",
+      "phone": "+66-2-3027300",
+      "text": "訂位／開票專線為 +66-2-4609188。此為市區辦公室；請於出發當日確認機場櫃檯與行李服務位置。",
+      "sources": [
+        "https://www.evaair.com/en-global/customer-services/contact-us/contact/?countryCode=Bangkok"
+      ],
+      "checkedAt": "2026-10-14",
+      "verificationEvidence": "SVCU-BR-0004",
+      "originThreadKey": "AIRPORT-SERVICE-01",
+      "sourceRecordId": "r13-br-bkk-city-office"
+    },
+    {
+      "id": "eva-tpe-airport-office",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "TPE",
+      "type": "機場辦公室聯絡",
+      "location": "桃園機場第二航廈。",
+      "phone": "+886-3-3516805",
+      "hours": "每日09:00–17:00。",
+      "text": "這是官方機場指南所列的辦公室電話與開放時間。請先確認辦理事項及現場位置，再前往服務櫃檯。",
+      "sources": [
+        "https://www.evaair.com/en-tw/fly-prepare/at-the-airport/worldwide-airports/?countryCode=TPE"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-TPE-PHONE-BR:office",
+      "verificationEvidence": [
+        "EV-AP-TW-P8-002"
+      ]
+    },
+    {
+      "id": "eva-tpe-baggage-service",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "TPE",
+      "type": "行李服務聯絡",
+      "phone": "+886-3-3517637",
+      "email": "TPELNF@EVAAIR.COM",
+      "hours": "每日08:30–22:00。",
+      "text": "行李延誤或損壞時，請聯絡行李服務人員。這個電話與機場辦公室、訂位服務不同，現場接洽位置請先確認。",
+      "sources": [
+        "https://www.evaair.com/en-tw/fly-prepare/at-the-airport/worldwide-airports/?countryCode=TPE"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-TPE-PHONE-BR:baggage",
+      "verificationEvidence": [
+        "EV-AP-TW-P8-001"
+      ]
+    },
+    {
+      "id": "eva-tpe-ticket-desk-hours",
+      "airline": "長榮航空",
+      "airlineId": "eva-air",
+      "airportIata": "TPE",
+      "type": "開票服務時間",
+      "location": "桃園機場第二航廈。",
+      "hours": "每日05:00–23:00。",
+      "text": "這是開票服務時間，與機場辦公室及報到截止時間不同。請依航班資訊確認當日服務櫃檯。",
+      "sources": [
+        "https://www.evaair.com/en-tw/fly-prepare/at-the-airport/worldwide-airports/?countryCode=TPE"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-TPE-PHONE-BR:ticketDeskHours",
+      "verificationEvidence": [
+        "EV-AP-TW-P8-002"
+      ]
+    },
+    {
+      "id": "ci-taipei-a1-in-town-checkin",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "airportIata": "TPE",
+      "type": "台北車站A1市區預辦登機",
+      "location": "桃園機場捷運台北車站A1，台北市中正區鄭州路8號。",
+      "hours": "06:00–21:30。",
+      "text": "適用當日從桃園機場出發的中華航空旅客，須在起飛前至少3小時辦理。這是市區預辦登機服務，不是機場開票或抵達行李接洽處。",
+      "sources": [
+        "https://www.china-airlines.com/it/en/fly/at-the-airport/in-town-checkin"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-TPE-FIELDS-CI:inTownCheckin",
+      "verificationEvidence": [
+        "EV-AP-TW-P9-004"
+      ]
+    },
+    {
+      "id": "fd-dmk-international-baggage-tracing",
+      "airportIata": "DMK",
+      "airlineId": "thai-airasia",
+      "airline": "泰國亞洲航空",
+      "type": "遺失行李追蹤諮詢",
+      "phone": "+66 2 562 5869",
+      "email": "taa_dmk_cbto@airasia.com",
+      "text": "這是泰國亞洲航空廊曼中央行李追蹤辦公室的國際航班聯絡方式。抵達時先提交行李事故報告，聯絡時準備好報告編號。此聯絡方式僅供遺失行李查詢，不是報到、售票或其他機場現場辦理PIR的櫃檯。",
+      "sources": [
+        "https://aacsm.my.site.com/s/article/My-baggage-is-delayed-missing-or-damaged-en",
+        "https://support.airasia.com/s/article/My-baggage-is-delayed-missing-or-damaged-en?language=en_GB"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-SERVICE-REGIONAL-01",
+      "sourceRecordId": "core19-check-001:EV-FIELD-CNX-003:DMK-international",
+      "verificationEvidence": [
+        "EV-FIELD-CNX-003"
+      ],
+      "serviceRole": "missing-baggage-enquiries",
+      "verificationNote": "Exact contact text observed in registered Muse result; Thai AirAsia Co., Ltd.; international number only. Not a CNX local PIR desk or airport check-in phone.",
+      "location": "廊曼機場中央辦公樓3樓3200室。",
+      "fieldContributions": [
+        {
+          "originThreadKey": "AIRPORT-SERVICE-01",
+          "sourceRecordId": "SVCU-FD-0005:DMK-CBTO-location",
+          "fields": [
+            "location"
+          ],
+          "verificationEvidence": {
+            "sourceUrl": "https://support.airasia.com/s/article/My-baggage-is-delayed-missing-or-damaged-en?language=en_GB",
+            "sourceQuote": "Don Mueang (DMK) Central Baggage Tracing Office, Thai AirAsia Co., Ltd., No.222 Don Mueang International Airport 3rd floor Central Office Building Room No. 3200",
+            "checkedAt": "2026-10-14",
+            "artifact": "artifacts/airport-research/akfd-service-current/evidence.json"
+          },
+          "scope": "Central tracing office address, not airport arrivals PIR desk; international contact retained; no hours inferred"
+        }
+      ]
+    },
+    {
+      "id": "ci-tpe-arrival-baggage-enquiries",
+      "airlineId": "china-airlines",
+      "airline": "中華航空",
+      "airportIata": "TPE",
+      "type": "抵達行李詢問",
+      "phone": "+886 3 383 4678",
+      "hours": "每日08:00–17:00。",
+      "text": "這是中華航空桃園機場的入境行李詢問電話。若在抵達時發現行李未到或破損，先向現場行李人員申報，並保留報告編號。此電話不是售票或機場辦公室的聯絡號碼，也不代表已完成PIR申報。",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/information/airport-and-vip-lounge"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-10:ci-tpe-fields-evidence:EV-AP-TW-P9-008:official-airport-guide",
+      "verificationEvidence": [
+        "EV-AP-TW-P9-008"
+      ],
+      "serviceRole": "arrival-baggage-enquiries"
+    },
+    {
+      "id": "tigerair-hkt-remote-chinese-support",
+      "airlineId": "tigerair-taiwan",
+      "airline": "台灣虎航",
+      "airportIata": "HKT",
+      "type": "航空公司中文客服",
+      "phone": "+886 2 7753 1088",
+      "hours": "每日09:00–21:00，台灣時間。",
+      "text": "這是台灣虎航的中文客服電話，官方也提供線上客服。此電話不是機場報到櫃檯或行李異常申報處的直撥電話。詢問機票、航班證明或行李手續時，請先確認負責處理的服務管道。",
+      "sources": [
+        "https://www.tigerairtw.com/zh-TW/support/contact-us"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-10:it-tpe-fields-evidence:EV-AP-TW-P9-009:chinese-support:HKT",
+      "verificationEvidence": [
+        "EV-AP-TW-P9-009"
+      ],
+      "serviceRole": "remote-airline-customer-support"
+    },
+    {
+      "id": "tigerair-tpe-remote-chinese-support",
+      "airlineId": "tigerair-taiwan",
+      "airline": "台灣虎航",
+      "airportIata": "TPE",
+      "type": "航空公司中文客服",
+      "phone": "+886 2 7753 1088",
+      "hours": "每日09:00–21:00，台灣時間。",
+      "text": "這是台灣虎航的中文客服電話，官方也提供線上客服。此電話不是機場報到櫃檯或行李異常申報處的直撥電話。詢問機票、航班證明或行李手續時，請先確認負責處理的服務管道。",
+      "sources": [
+        "https://www.tigerairtw.com/zh-TW/support/contact-us"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-10:it-tpe-fields-evidence:EV-AP-TW-P9-009:chinese-support:TPE",
+      "verificationEvidence": [
+        "EV-AP-TW-P9-009"
+      ],
+      "serviceRole": "remote-airline-customer-support"
+    },
+    {
+      "id": "ci-tpe-branch-contact",
+      "airline": "中華航空",
+      "airlineId": "china-airlines",
+      "airportIata": "TPE",
+      "type": "桃園機場分公司聯絡電話",
+      "phone": "+886 3 398 8888",
+      "text": "中華航空官方「分公司資訊」表列出桃園機場電話為 (03) 3988888。請先致電確認辦理業務與前往地點；這個號碼與抵達行李詢問電話不同。",
+      "sources": [
+        "https://calcfec.china-airlines.com/travelcertificate/"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-TW-01",
+      "sourceRecordId": "AP-TW-01-TPE-FIELDS-CI:EV-AP-TW-P9-012:branch-contact",
+      "verificationEvidence": [
+        {
+          "evidenceId": "EV-AP-TW-P9-012",
+          "airline": "CI",
+          "kind": "official",
+          "verdict": "confirmed",
+          "url": "https://calcfec.china-airlines.com/travelcertificate/",
+          "accessedAt": "2026-10-14",
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-TPE-FIELDS-CI",
+          "claim": "China Airlines official 搭機證明申請 (Travel Certificate application) page — official china-airlines.com subdomain, found via the site's official search for 機場辦公室. Its 分公司資訊 (branch office information) table lists the 桃園機場 row as 'Tel:(03) 3988888' (address and account cells blank). No operating hours published for 桃園機場 on this page; only the 台北分公司 row lists hours (0830-1230/1330-1730, holidays excluded). Checked 7 official pages with no TPE airport office hours: contact-us (聯繫我們), offices (全球營業所), airport-and-vip-lounge, in-town check-in, lost-damages-baggage, US-English contact/offices versions; site search for '3988888' returns 0 results (number lives only on the calcfec subdomain).",
+          "claimKo": "중화항공 공식 搭機證明申請 (Travel Certificate 신청) 페이지 — china-airlines.com 공식 서브도메인, 공식 사이트 내 '機場辦公室' 검색으로 도달. 分公司資訊 표의 桃園機場 행에 'Tel:(03) 3988888' 기재 (주소·계좌 칸 공백). 桃園機場의 운영시간은 미게재 — 台北分公司 행에만 '上班時間: 0830-1230/1330-1730(例假日除外)' 기재. TPE 공항사무실 운영시간은 공식 7개 페이지 전수에서 미발견: contact-us(聯繫我們)·offices(全球營業所)·airport-and-vip-lounge·in-town check-in·lost-damages-baggage·영문 contact/offices. 사이트 내 '3988888' 검색 0건 (해당 번호는 calcfec 서브도메인에만 존재)."
+        }
+      ]
+    },
+    {
+      "id": "sl-dmk-remote-customer-care",
+      "airlineId": "thai-lion-air",
+      "airline": "泰國獅子航空",
+      "airportIata": "DMK",
+      "type": "一般客戶服務中心",
+      "phone": "+66 2-529-9999",
+      "hours": "每日 07:00–20:00 (GMT+7)",
+      "text": "一般客戶服務中心，泰國時間每日 07:00 至 20:00。 並非機場辦公室、報到櫃檯或抵達行李專用櫃檯。",
+      "serviceRole": "remote-airline-contact-center",
+      "checkedAt": "2026-10-14",
+      "sources": [
+        "https://www.lionairthai.com/cn/en/Contact"
+      ],
+      "originThreadKey": "AIRPORT-SERVICE-01",
+      "sourceRecordId": "SVCU-SL-0002:customer-care:zh-tw",
+      "verificationEvidence": [
+        {
+          "evidenceId": "SVCU-SL-0002",
+          "artifact": "artifacts/airport-research/thai-lion-role-scoped-phones-current/evidence.json",
+          "quote": "Thai Lion Air Customer Care Centre Tel : (+66) 2-529-9999 Operating Hour: 07:00 - 20:00 (GMT+7) | Monday - Sunday"
+        }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "flight-certificate",
+      "title": "長榮出發與抵達證明怎麼申請",
+      "description": "長榮官方提供航班出發／抵達證明線上申請與列印。限抵達後180天內，超過期限須向櫃檯申請。選擇航空公司代碼，輸入航班號碼的數字部分，再選出發或抵達與日期查詢。其他公司執飛的共用班號及包機資料不適用。",
+      "text": "長榮官方提供航班出發／抵達證明線上申請與列印。限抵達後180天內，超過期限須向櫃檯申請。選擇航空公司代碼，輸入航班號碼的數字部分，再選出發或抵達與日期查詢。其他公司執飛的共用班號及包機資料不適用。",
+      "sources": [
+        "https://booking.evaair.com/flyeva/eva/b2c/flight-status-file-inqury.aspx?lang=en-cn"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [],
+      "actions": [
+        {
+          "label": "查看長榮航空官方辦理方式",
+          "url": "https://booking.evaair.com/flyeva/eva/b2c/flight-status-file-inqury.aspx?lang=en-cn"
+        }
+      ],
+      "faq": [
+        {
+          "q": "航班號碼需要輸入BR嗎？",
+          "a": "官方範例說明BR851只輸入851，航空公司代碼另選。"
+        },
+        {
+          "q": "可以把這份證明直接當成保險理賠核准嗎？",
+          "a": "航班證明與保險理賠是不同程序。請依保單與保險公司的要求確認文件種類。"
+        }
+      ],
+      "airlineIds": [
+        "eva-air"
+      ]
+    },
+    {
+      "id": "damaged-baggage",
+      "title": "搭長榮後行李箱破損怎麼辦",
+      "description": "領取行李時先檢查，若發現破損，請立即向行李提領區的機場人員申報。部分遺失或破損的申訴須於收到行李次日起7天內提出。離開機場後可透過官方申報入口或聯絡長榮行李服務辦公室。",
+      "text": "領取行李時先檢查，若發現破損，請立即向行李提領區的機場人員申報。部分遺失或破損的申訴須於收到行李次日起7天內提出。離開機場後可透過官方申報入口或聯絡長榮行李服務辦公室。",
+      "sources": [
+        "https://www.evaair.com/en-cn/fly-prepare/baggage/delayed-missing-damaged-baggage-and-restrictions/"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [],
+      "actions": [
+        {
+          "label": "查看長榮航空官方辦理方式",
+          "url": "https://www.evaair.com/en-cn/fly-prepare/baggage/delayed-missing-damaged-baggage-and-restrictions/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "行李箱破損要在多久內申報？",
+          "a": "應於抵達時立即反映；官方申訴期限為收到行李次日起7天內。"
+        }
+      ],
+      "airlineIds": [
+        "eva-air"
+      ]
+    },
+    {
+      "id": "delayed-baggage",
+      "title": "長榮行李沒到，先留下申報編號",
+      "description": "請於抵達時向當地機場辦公室或地勤代理申報，保留案件編號。線上追蹤需要五個英文字母加五個數字的編號與姓氏。官方規定延誤或全部遺失的申訴，須於行李預定抵達日次日起21天內提出。",
+      "text": "請於抵達時向當地機場辦公室或地勤代理申報，保留案件編號。線上追蹤需要五個英文字母加五個數字的編號與姓氏。官方規定延誤或全部遺失的申訴，須於行李預定抵達日次日起21天內提出。",
+      "sources": [
+        "https://www.evaair.com/en-cn/fly-prepare/baggage/delayed-missing-damaged-baggage-and-restrictions/"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [],
+      "actions": [
+        {
+          "label": "查看長榮航空官方辦理方式",
+          "url": "https://www.evaair.com/en-cn/fly-prepare/baggage/delayed-missing-damaged-baggage-and-restrictions/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "行李追蹤需要什麼資料？",
+          "a": "案件編號與姓氏。案件編號由五個英文字母和五個數字組成。"
+        }
+      ],
+      "airlineIds": [
+        "eva-air"
+      ]
+    },
+    {
+      "id": "caat-passenger-rights",
+      "title": "泰國出發航班延誤、取消補償與CAAT申訴",
+      "description": "從泰國返回臺灣的定期國際航班若延誤或取消，請確認可獲得的協助、補償條件，以及CAAT官方申訴管道。",
+      "text": "若搭乘從蘇凡納布、廊曼等泰國機場出發前往臺灣的定期國際航班，可查閱CAAT（泰國民航局）說明的CAB第101號旅客保護規則。泰國與外國航空公司都在適用範圍內。從臺灣出發前往泰國的航班，不能直接套用這項出發地標準。\n規則自2025年5月20日起生效。以下以泰國出發的定期國際航班為準，國內線與包機須另行確認標準。保險理賠與航空公司的法定協助、補償，受理單位不同。",
+      "checkedAt": "2026-10-13",
+      "effectiveFrom": "2025-05-20",
+      "sources": [
+        "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/",
+        "https://www.caat.or.th/en/publication/179240/",
+        "https://www.caat.or.th/en/publication/179245/",
+        "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+      ],
+      "sections": [
+        {
+          "title": "也請確認報到條件",
+          "text": "CAB第101號第10條將在航空公司事先通知的時間內完成報到的旅客等列為保護對象。國際航班若未另行通知報到時間，標準為預定出發前1小時完成，航空公司接受其他時間報到的情況也在規定內。\n被轉至其他航班、行程變更超過原定出發時間5小時，或預訂航班取消的旅客，也有另行規定。收到延誤通知不代表報到截止時間會自動順延，請向航空公司確認。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "延誤時間以什麼為基準計算？",
+          "text": "CAAT指引的一般延誤以出發為基準。從核准的預定出發時間，或購票時告知的時間，計算至機艙門關閉的時間。若至少提前24小時通知行程變更，另有以變更後時間為基準的條件，因此請一併保留原行程與變更通知。\n艙門關閉後在地面等待的時間，須另行確認機上地面延誤標準。請勿將實際起飛時間、抵達延誤或航空公司證明的核發條件，與本頁的一般延誤計算混淆。\n第13條規定，旅客在機上地面等候超過3小時，且起飛時間仍未確定時，航空公司應允許旅客下機。飛航安全、保安或航管事由屬例外。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 13"
+          ]
+        },
+        {
+          "title": "依延誤時間可要求的協助",
+          "text": "以下時間均以「超過」為條件。先要求餐飲與聯絡方式，若須長時間等待，再確認住宿、交通，以及不繼續旅行時的退款選項。金錢補償另有例外。",
+          "sources": [
+            "https://www.caat.or.th/en/publication/179240/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "超過10小時延誤、國際線取消的距離別補償",
+          "text": "法定金錢補償標準為距離1,500公里以下2,000泰銖、超過1,500公里至3,500公里以下3,500泰銖、超過3,500公里4,500泰銖。國際航班取消也採相同距離區間，但須先確認例外。不應自動加上超過5小時的1,500泰銖，請向航空公司確認適用階段與支付金額。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "航班取消時選擇退款或替代航班",
+          "text": "請向航空公司要求未使用行程的票價、費用退款，以及替代航班選項。也請確認餐飲與聯絡方式的協助。若替代航班比原定出發時間晚超過1天，規定包括必要住宿與機場、住宿地點之間的交通協助。若以代金券領取，須先了解使用條件並同意。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "也有無法獲得金錢補償的情況",
+          "text": "航空公司證明的特殊情況（extraordinary circumstances），可能屬於延誤、取消的金錢補償例外。國際航班取消若至少提前7天通知並提供其他交通選項，或通知較晚但替代航班抵達目的地的時間較原定時間提前或延後不超過3小時，也有例外。這些是金錢補償例外，不代表餐飲、替代航班與退款全部不適用，請逐項確認。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "在機場先向航空公司確認的事項",
+          "text": "確認機票上的實際營運航空公司、日期與航班號碼，並要求書面說明延誤、取消原因及旅客權利。具體詢問所需的餐券、住宿、退款或替代航班項目，有助於受理。保留延誤通知、原行程、變更行程、受理編號與收據。金錢補償、費用償還及機票退款應分別提出。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "整理資料以準備向航空公司提出要求與申訴",
+          "text": "從訂位確認、電子機票及登機證確認實際營運航空公司、航班號碼、出發日期及原定出發時間。一併保留航空公司的延誤、取消通知、變更行程與延誤、取消證明，較容易說明經過。\n記錄向航空公司提出的餐飲、住宿、退款、替代航班及補償要求、回覆與受理編號。若自行支付費用，也請保留各項收據。這是受理準備的資料建議，不能取代CAAT申訴畫面或航空公司要求的必備文件清單。保險理賠須另行查閱投保公司的條款與文件說明。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ],
+          "actions": []
+        },
+        {
+          "title": "前往CAAT官方申訴網站",
+          "text": "若航空公司未提供規定的權利，請前往CAAT官方申訴網站。目前會轉至CAAT身分驗證登入畫面。從上方語言選單選擇English，可用英文查看Email / User Name、Password與Sign In欄位。沒有帳號請選Sign Up，忘記密碼請選Forgot password?。登入後的受理項目與提交資料，請依官方系統說明辦理。",
+          "sources": [
+            "https://complaint.caat.or.th/",
+            "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+          ]
+        },
+        {
+          "title": "區分退款期限與補償支付期限",
+          "text": "票價退款以收到完整申請書與相關文件的日期為基準。規定列出向航空公司直接現金購票為14天、信用卡購票為45天、透過代理購票則自該航空公司或代理收到完整申請之日起60天。國際航班超過5、10小時延誤的金錢補償，以延誤航班日期起14天為準，與退款期限不同。\n第18條第4款的代金券等非現金票款退款，須於完整申請表及文件收件日起7日內辦理，並說明條件、取得事先同意。延誤補償的替代給付則以延誤航班日期起14日為準，請分開確認。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "Article 18(4)"
+          ]
+        },
+        {
+          "title": "規則原文與確認日期",
+          "text": "資料確認日期為2026年10月13日。依據為CAB第101號及CAAT官方旅客權利說明。CAAT刊登的英文翻譯與解說僅供參考，發生爭議時應一併確認泰文規則原文與該航班的實際情況。",
+          "sources": [
+            "https://www.caat.or.th/laws-regulations/132372/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "航空公司變更艙等",
+          "text": "第9條要求旅客同意。升等不得加收費用。降等退還已付票價的30%（1,500公里以下）、50%（超過1,500至3,500公里）、75%（超過3,500公里）；程序與期限依第18、19條。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "articles": [
+            9,
+            18,
+            19
+          ]
+        },
+        {
+          "title": "加購服務與其他權利",
+          "text": "第7、8條要求告知實際營運航空公司、總價，付費加購須事先同意。第6條行李損害依國際航空運送法處理。第24、25條不排除更有利的保護及其他法律求償權。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "articles": [
+            6,
+            7,
+            8,
+            24,
+            25
+          ]
+        }
+      ],
+      "thresholds": [
+        {
+          "label": "超過2小時",
+          "text": "符合等待時間的餐飲或餐券，以及必要的聯絡方式。",
+          "article": "第12條 (1)"
+        },
+        {
+          "label": "超過5小時",
+          "text": "除餐飲、聯絡方式外，提供1,500泰銖金錢補償，以及符合需要的至少1晚住宿與機場交通。若不繼續旅行，可選擇未使用行程退款。",
+          "article": "第12條 (2)"
+        },
+        {
+          "label": "超過10小時",
+          "text": "依距離提供2,000、3,500或4,500泰銖金錢補償，以及餐飲、聯絡方式、必要住宿與交通。可選擇未使用行程退款或替代交通。",
+          "article": "第12條 (3)"
+        }
+      ],
+      "actions": [
+        {
+          "label": "CAAT官方申訴網站",
+          "url": "https://complaint.caat.or.th/"
+        },
+        {
+          "label": "CAAT官方旅客權利說明",
+          "url": "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+        },
+        {
+          "label": "CAAT官方距離別補償查詢",
+          "url": "https://app.powerbi.com/view?r=eyJrIjoiZDUyNTM0ZjctYjk4ZC00YjIxLWI3YzMtOTYzYjYwYzM4MmM2IiwidCI6ImFmM2E4M2I2LTEzYWEtNDMwMC1hNWFlLWIxOWM4YzQyM2E1YSIsImMiOjEwfQ%3D%3D"
+        },
+        {
+          "label": "CAB第101號規則原文頁面",
+          "url": "https://www.caat.or.th/laws-regulations/132372/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "搭乘外國航空公司從泰國返回臺灣，也適用CAAT規則嗎？",
+          "a": "泰國出發的定期國際航班，不僅泰國航空公司適用，外國航空公司也在範圍內。請確認預訂航班的實際營運航空公司與旅客保護條件。"
+        },
+        {
+          "q": "從臺灣前往泰國的航班也是同一標準嗎？",
+          "a": "本頁的國際線標準適用於泰國出發航班。臺灣出發航班的權利，須另行確認出發地規定及航空公司、購票處的說明。"
+        },
+        {
+          "q": "延誤5小時一定能拿到1,500泰銖嗎？",
+          "a": "規定對超過5小時的國際航班延誤列出1,500泰銖補償。因有特殊情況等補償例外，剛好5小時或符合例外時，不能做相同判斷。"
+        },
+        {
+          "q": "因天氣取消航班，所有協助都沒有了嗎？",
+          "a": "特殊情況條款是金錢補償的例外。請與餐飲、退款、替代航班等其他協助分開，向航空公司確認。"
+        },
+        {
+          "q": "如何向CAAT申訴？",
+          "a": "前往官方complaint.caat.or.th，以CAAT帳號登入。語言選單可選English，沒有帳號則有Sign Up入口。受理時請準備向航空公司提出的要求，以及航班、支出的證明。"
+        },
+        {
+          "q": "在機上等了3小時就能下機嗎？",
+          "a": "須超過3小時，且起飛時間仍未確定。飛航安全、保安或航管事由可例外，請向機組人員確認。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "article": "Article 13",
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "q": "退款代金券與補償代金券的給付期限相同嗎？",
+          "a": "不同。非現金票款退款為完整文件收件日起7日內；國際線延誤補償為延誤航班日期起14日。也請確認使用條件及事先同意。",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "article": "Article 18(4); Article 12(2)(c), 12(3)(c)",
+          "checkedAt": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "late-arrival-suvarnabhumi",
+      "title": "因航班延誤而晚抵達蘇凡納布時",
+      "description": "確認機場捷運營運時間，以及24小時計程車、Grab乘車區的位置，再前往住宿地點。",
+      "text": "完成入境查驗與領取行李後，先確認實際可以出發的時間。深夜可使用蘇凡納布主航廈的計程車、Grab乘車區。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+      ],
+      "sections": [
+        {
+          "title": "先確認機場捷運時間",
+          "text": "機場官方說明的Airport Rail Link營運時間為05:30～24:00，車站位於主航廈地下1樓。請勿將這個營運時間視為各站末班車的發車時間，應依現場資訊確認前往目的地的列車。",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+          ]
+        },
+        {
+          "title": "如何前往1樓一般計程車乘車區",
+          "text": "一般計程車在主航廈1樓4～7號門之間的內側道路提供24小時服務。請在取票機領取排隊號碼，再前往指定車輛。確認費用時，請考慮50泰銖機場附加費與由乘客負擔的通行費。計程車服務櫃檯諮詢電話為+66 2 132 0360。",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304"
+          ]
+        },
+        {
+          "title": "請在指定乘車區搭乘Grab",
+          "text": "Grab指定乘車區位於主航廈1樓4號門外側道路，提供24小時服務。透過App叫車後，確認顯示的車輛與指定地點再前往。",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+          ]
+        },
+        {
+          "title": "也請通知住宿與預約接送業者抵達時間變更",
+          "text": "請向住宿確認能否較晚辦理入住，也通知已預約的接送業者變更後的抵達時間。保留自行支付的交通費收據，但是否由航空公司負擔或可獲保險理賠，須另行確認該航班與投保保單的條件。",
+          "sources": []
+        }
+      ],
+      "actions": [
+        {
+          "label": "蘇凡納布官方交通說明",
+          "url": "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+        }
+      ],
+      "faq": [
+        {
+          "q": "午夜後抵達蘇凡納布，仍能搭乘Grab嗎？",
+          "a": "機場官方說明指出，主航廈1樓4號門外側道路的Grab指定乘車區提供24小時服務。可叫到的車輛與等待情況，請透過App及現場確認。"
+        }
+      ],
+      "airportIata": "BKK"
+    },
+    {
+      "id": "find-airline-counter",
+      "title": "在機場尋找航空公司櫃檯",
+      "description": "確認實際營運航空公司與出發日期，區分報到、開票及抵達行李服務櫃檯，再找到所需的櫃檯。",
+      "text": "先在訂位畫面確認實際營運航空公司、出發機場當地日期與航班號碼。在機場查看出發樓層的航班資訊看板與航空公司官方機場說明，再前往對應所需服務的櫃檯。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/",
+        "https://www.thaiairways.com/en-th/content/airport-information/"
+      ],
+      "sections": [
+        {
+          "title": "確認預訂航班號碼與實際營運航空公司",
+          "text": "請從機票或訂位畫面確認實際營運航空公司與航班號碼。共用班號的銷售航空公司與實際營運航空公司可能不同，請勿只看銷售航空公司名稱就選擇櫃檯。出發日期應以出發機場當地日期確認。",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "查看機場航班資訊看板與官方機場說明",
+          "text": "在出發樓層的航班資訊看板找到自己的航班號碼，確認報到櫃檯資訊。也請一併查看航空公司的官方機場說明，若當日櫃檯不同，應再確認現場資訊。請分開確認登機門與報到櫃檯。",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "區分報到、開票與抵達行李服務櫃檯",
+          "text": "報到、機票開票或變更，以及抵達行李問題，可能由不同櫃檯處理。若行李延遲或破損，請確認負責抵達行李的服務櫃檯。電話諮詢也應確認是訂位中心還是機場櫃檯，並說明需要辦理的事項。",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        },
+        {
+          "title": "確認旅行當日的櫃檯與截止時間",
+          "text": "航班計畫與櫃檯資訊可能隨季節變動。請依旅行日期重新確認航空公司官方說明及機場航班資訊看板，也確認報到截止時間。收到延誤通知不代表報到截止時間會自動順延，請向航空公司確認。",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/",
+            "https://www.thaiairways.com/en-th/content/airport-information/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "蘇凡納布官方機場說明",
+          "url": "https://suvarnabhumi.airportthai.co.th/"
+        },
+        {
+          "label": "泰國航空官方機場說明",
+          "url": "https://www.thaiairways.com/en-th/content/airport-information/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "直接前往機票上航空公司的櫃檯就可以嗎？",
+          "a": "請先確認實際營運航空公司。共用班號的銷售航空公司與實際營運航空公司可能不同，應確認對應航班號碼的官方機場說明及當日航班資訊看板。"
+        },
+        {
+          "q": "行李破損也向報到櫃檯詢問嗎？",
+          "a": "抵達行李問題請先確認負責抵達行李的服務櫃檯。其業務可能與報到、開票櫃檯不同。"
+        }
+      ]
+    },
+    {
+      "id": "insurance-claim",
+      "title": "富邦航班延誤快捷理賠怎麼辦",
+      "description": "確認富邦快捷理賠適用條件、延誤或取消所需文件，以及通知失效後的申請方式。",
+      "text": "以下僅說明富邦定額航班延誤快捷理賠，不適用於所有保單或其他理賠。請依投保內容及官方說明辦理。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://b2c.518fb.com/FubonCMS/page/90",
+        "https://b2c.518fb.com/FubonCMS/page/26",
+        "https://www.fubon.com/insurance/info/news/news_20260629.html"
+      ],
+      "sections": [
+        {
+          "title": "先確認已選快捷理賠",
+          "text": "投保時須選擇快捷理賠，並提供航班日期、號碼與地點。符合的延誤或取消事件會觸發電子郵件通知，再依通知線上送件、查詢進度。",
+          "sources": [
+            "https://b2c.518fb.com/FubonCMS/page/90"
+          ]
+        },
+        {
+          "title": "成年人延誤與取消文件不同",
+          "text": "延誤需護照影本、存摺影本及實際搭乘的登機證，此快捷流程不需航空公司延誤證明。取消另需航空公司替代航班證明。",
+          "sources": [
+            "https://b2c.518fb.com/FubonCMS/page/90"
+          ]
+        },
+        {
+          "title": "未滿18歲須補文件",
+          "text": "未滿18歲另需關係證明與理賠申請書，並由法定代理人簽名。",
+          "sources": [
+            "https://b2c.518fb.com/FubonCMS/page/90"
+          ]
+        },
+        {
+          "title": "通知失效與其他理賠",
+          "text": "電子郵件失效後，18歲以上可登入官方小幫手，或聯絡業務員以申請書辦理。通知不等於核准，仍以保險公司審核為準；其他或非定額理賠走一般分公司、郵寄流程。",
+          "sources": [
+            "https://b2c.518fb.com/FubonCMS/page/90",
+            "https://b2c.518fb.com/FubonCMS/page/26"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "富邦官方快捷理賠說明",
+          "url": "https://b2c.518fb.com/FubonCMS/page/90"
+        },
+        {
+          "label": "富邦官方一般理賠流程",
+          "url": "https://b2c.518fb.com/FubonCMS/page/26"
+        }
+      ],
+      "faq": [
+        {
+          "q": "一定要航空公司延誤證明嗎？",
+          "a": "富邦此定額延誤快捷流程不需要；其他保單或流程須另查文件要求。"
+        },
+        {
+          "q": "收到通知就會獲准理賠嗎？",
+          "a": "通知不是核准，仍須送件並由保險公司審核。"
+        }
+      ]
+    },
+    {
+      "id": "ci-baggage-damage",
+      "airlineIds": [
+        "china-airlines"
+      ],
+      "title": "華航行李損壞申報",
+      "description": "分清現場與線上申報。",
+      "text": "",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab",
+        "https://airportservice.china-airlines.com/Baggage/lost-damages-apply.aspx?country=tw&locale=zh"
+      ],
+      "sections": [
+        {
+          "title": "抵達時申報",
+          "text": "到海關前的入境行李服務櫃台申報。",
+          "sources": [
+            "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab"
+          ]
+        },
+        {
+          "title": "一般期限",
+          "text": "損壞或部分內容遺失：領取行李隔日起7天。",
+          "sources": [
+            "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab"
+          ]
+        },
+        {
+          "title": "線上期限與對象",
+          "text": "線上損壞申報限航班抵達目的地後7天，適用華航、華信自營國際線。",
+          "sources": [
+            "https://airportservice.china-airlines.com/Baggage/lost-damages-apply.aspx?country=tw&locale=zh"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "開啟官方申報",
+          "url": "https://airportservice.china-airlines.com/Baggage/lost-damages-apply.aspx?country=tw&locale=zh"
+        }
+      ],
+      "faq": [
+        {
+          "q": "離開機場後怎麼辦？",
+          "a": "備妥證明聯絡行李部門，或依線上規則申報。"
+        },
+        {
+          "q": "行李收據遺失呢？",
+          "a": "線上系統請您改洽當地機場辦公室。"
+        }
+      ]
+    },
+    {
+      "id": "ci-baggage-delay",
+      "airlineIds": [
+        "china-airlines"
+      ],
+      "title": "華航行李延遲申報",
+      "description": "保留案件號碼並確認起算日。",
+      "text": "",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab",
+        "https://airportservice.china-airlines.com/Baggage/lost-damages-apply.aspx?country=tw&locale=zh"
+      ],
+      "sections": [
+        {
+          "title": "找最後承運人",
+          "text": "抵達立即申報；多家航空行程向最後搭乘航空公司申報。",
+          "sources": [
+            "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab"
+          ]
+        },
+        {
+          "title": "一般申報期限",
+          "text": "行李延遲、遺失：應抵達日隔日起21天。",
+          "sources": [
+            "https://www.china-airlines.com/tw/zh/prepare-for-the-fly/support/lost-damages-baggage?tab=BaggageIrregularityHandlingTab"
+          ]
+        },
+        {
+          "title": "線上延遲申報",
+          "text": "線上期限為航班抵達目的地後21天；非華航、華信自營聯營班不適用。",
+          "sources": [
+            "https://airportservice.china-airlines.com/Baggage/lost-damages-apply.aspx?country=tw&locale=zh"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "開啟官方申報",
+          "url": "https://airportservice.china-airlines.com/Baggage/lost-damages-apply.aspx?country=tw&locale=zh"
+        }
+      ],
+      "faq": [
+        {
+          "q": "已有案件還要重報嗎？",
+          "a": "已取得行李意外案件號碼，無須重複線上申報。"
+        },
+        {
+          "q": "如何追蹤？",
+          "a": "官方查找系統使用5碼字母、5碼數字案件號碼及英文姓氏。"
+        }
+      ]
+    },
+    {
+      "id": "ci-flight-certificate",
+      "airlineIds": [
+        "china-airlines"
+      ],
+      "title": "華航航班離到場證明",
+      "description": "透過官方頁面查詢與列印。",
+      "text": "",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://calec.china-airlines.com/FlightStatus/"
+      ],
+      "sections": [
+        {
+          "title": "何時可列印",
+          "text": "表訂抵達時間後，或班機抵達後，可列印。",
+          "sources": [
+            "https://calec.china-airlines.com/FlightStatus/"
+          ]
+        },
+        {
+          "title": "選擇航班",
+          "text": "頁面提供CI、AE選項，依頁面填寫航班資料。",
+          "sources": [
+            "https://calec.china-airlines.com/FlightStatus/"
+          ]
+        },
+        {
+          "title": "需要人工協助",
+          "text": "請洽華航各分公司。",
+          "sources": [
+            "https://calec.china-airlines.com/FlightStatus/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "開啟離到場證明",
+          "url": "https://calec.china-airlines.com/FlightStatus/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "什麼時間才可使用？",
+          "a": "依官方說明，於表訂抵達時間後或班機抵達後使用。"
+        },
+        {
+          "q": "查詢有問題找誰？",
+          "a": "請由官方全球營業所頁面聯絡分公司。"
+        }
+      ]
+    },
+    {
+      "id": "cathay-flight-delay-insurance",
+      "title": "國泰班機延誤快速理賠",
+      "description": "確認適用航班、文件及一般申請方式。",
+      "text": "以下僅說明國泰快速理賠，請核對自己的保單與服務條件。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.cathay-ins.com.tw/cathayins/personal/travel/fastclaim/",
+        "https://www.cathay-ins.com.tw/INSEBWeb/travel-insurance/travel-insurance-oversea/prompt"
+      ],
+      "sections": [
+        {
+          "title": "一般快速理賠",
+          "text": "須由國泰官網投保並登錄臺灣起降航班及所需資料。符合出發延誤4小時以上條件時，收到簡訊後回傳登機證與銀行帳號；通知不等於核准。",
+          "sources": [
+            "https://www.cathay-ins.com.tw/cathayins/personal/travel/fastclaim/"
+          ]
+        },
+        {
+          "title": "升級與例外",
+          "text": "長榮／立榮實際營運國際線符合升級服務條件並確認搭乘後，可免傳登機證；共掛不適用。取消、改搭非原訂班機、查無航班或非官網投保，改以郵寄或臨櫃申請。未收到簡訊仍可走一般流程。",
+          "sources": [
+            "https://www.cathay-ins.com.tw/cathayins/personal/travel/fastclaim/"
+          ]
+        },
+        {
+          "title": "聯絡用途與時間",
+          "text": "商品、投保與理賠諮詢：0800-212-880，每日08:30–21:00。夜間車禍服務與此不同，該號碼也不是機場櫃檯。",
+          "sources": [
+            "https://www.cathay-ins.com.tw/cathayins/personal/travel/fastclaim/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "國泰官方快速理賠說明",
+          "url": "https://www.cathay-ins.com.tw/cathayins/personal/travel/fastclaim/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "收到簡訊就代表一定獲賠嗎？",
+          "a": "不代表，須提交資料並經核對。"
+        },
+        {
+          "q": "取消航班可用快速理賠嗎？",
+          "a": "此服務不適用，請改以郵寄或臨櫃申請。"
+        }
+      ]
+    },
+    {
+      "id": "tigerair-baggage",
+      "title": "台灣虎航行李異常",
+      "description": "依航空公司現行程序申報。",
+      "text": "依航空公司現行程序申報。",
+      "airlineIds": [
+        "tigerair-taiwan"
+      ],
+      "sources": [
+        "https://www.tigerairtw.com/zh-TW/plan/baggage",
+        "https://www.tigerairtw.com/en-US/useful-link/conditions-carriage"
+      ],
+      "checkedAt": "2026-10-13",
+      "sections": [
+        {
+          "title": "抵達時申報",
+          "text": "離開管制區行李提領處前，向地勤申報並取得行李異常報告。"
+        },
+        {
+          "title": "書面申請期限",
+          "text": "破損：報告開立日起7日內；延誤：抵達目的地起21日內。附護照、登機證、行李收據；破損另附照片。"
+        },
+        {
+          "title": "行李理賠代理",
+          "text": "SAS：TTW@sedgwick.com；+65-6991-6031，週一至週五09:00–18:00（新加坡時間）。限行李異常申報，非機場櫃檯。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "7日從起飛日起算嗎？",
+          "a": "現行規定以異常報告開立日計算。"
+        },
+        {
+          "q": "21日從領回行李起算嗎？",
+          "a": "此航空公司現行文字是抵達目的日起算。"
+        }
+      ],
+      "actions": [
+        {
+          "label": "官方行李程序",
+          "url": "https://www.tigerairtw.com/zh-TW/plan/baggage"
+        }
+      ],
+      "corroborationEvidence": [
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-10:EV-AP-TW-P9-009:tigerair-baggage",
+          "verificationEvidence": [
+            "EV-AP-TW-P9-009"
+          ],
+          "sourceUrl": "https://www.tigerairtw.com/zh-TW/support/contact-us",
+          "checkedAt": "2026-10-14",
+          "scope": "Corroborates existing reporting/customer-support procedure only; preserves current certificate 6-month conditions and distinct notice-day bases."
+        }
+      ]
+    },
+    {
+      "id": "tigerair-flight-certificate",
+      "title": "台灣虎航航班異動證明",
+      "description": "依出發日期選擇下載或客服。",
+      "text": "依出發日期選擇下載或客服。",
+      "airlineIds": [
+        "tigerair-taiwan"
+      ],
+      "sources": [
+        "https://www.tigerairtw.com/en-US/support/contact-us",
+        "https://www.tigerairtw.com/zh-TW/support/faq"
+      ],
+      "checkedAt": "2026-10-14",
+      "sections": [
+        {
+          "title": "10日內下載",
+          "text": "出發後10日內，可由官方聯絡頁的證明連結下載。"
+        },
+        {
+          "title": "在下載資料夾找到自己的航班",
+          "text": "官方證明連結會開啟「航班延誤證明」資料夾。先找航班日期，再核對PDF檔名中的航班號碼。公開資料夾不代表每一班航班都有可下載的證明；找不到符合日期與航班號碼的檔案時，請聯絡客服。",
+          "sources": [
+            "https://www.tigerairtw.com/zh-TW/support/faq",
+            "https://drive.google.com/drive/folders/1g-0hewuk-8r-Y4gK7rYJJtskWPZleaDm"
+          ]
+        },
+        {
+          "title": "較早的航班",
+          "text": "超過10日，請聯絡客服中心。各異動證明皆需於航班飛航日翌日起六個月內完成申請。",
+          "sources": [
+            "https://www.tigerairtw.com/zh-TW/support/faq"
+          ]
+        },
+        {
+          "title": "準備理賠文件",
+          "text": "航班證明與保險核准不同，請另依保單確認文件。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "超過10日就不能申請嗎？",
+          "a": "官方仍提供6個月內的客服申請途徑。"
+        },
+        {
+          "q": "證明表示保險會賠付嗎？",
+          "a": "理賠須依保單與保險公司審核。"
+        },
+        {
+          "q": "下載資料夾打開後，要找哪個檔案？",
+          "a": "先選擇航班日期的資料夾，再核對PDF檔名中的航班號碼。不要用其他日期或航班的證明代替；找不到自己的檔案時，請聯絡客服。"
+        }
+      ],
+      "actions": [
+        {
+          "label": "官方證明與客服",
+          "url": "https://www.tigerairtw.com/en-US/support/contact-us"
+        },
+        {
+          "label": "證明下載連結",
+          "url": "https://drive.google.com/drive/folders/1g-0hewuk-8r-Y4gK7rYJJtskWPZleaDm"
+        }
+      ],
+      "corroborationEvidence": [
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-10:EV-AP-TW-P9-009:tigerair-flight-certificate",
+          "verificationEvidence": [
+            "EV-AP-TW-P9-009"
+          ],
+          "sourceUrl": "https://www.tigerairtw.com/zh-TW/support/contact-us",
+          "checkedAt": "2026-10-14",
+          "scope": "Corroborates existing reporting/customer-support procedure only; preserves current certificate 6-month conditions and distinct notice-day bases."
+        },
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-12:F9-IT-TPE-certificate",
+          "verificationEvidence": [
+            "EV-AP-TW-P9-011"
+          ],
+          "sourceUrl": "https://www.tigerairtw.com/zh-TW/support/faq",
+          "checkedAt": "2026-10-14",
+          "scope": "Official FAQ six-month starting point and public dated certificate folder structure; no guarantee every flight has a PDF."
+        }
+      ]
+    },
+    {
+      "id": "late-arrival-phuket",
+      "airportIata": "HKT",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+      ],
+      "title": "延誤後深夜抵達普吉",
+      "description": "確認國際線接機點，再前往住宿。",
+      "text": "以完成入境與領行李的時間安排交通；預約接機請先通知延誤與新抵達時間。",
+      "sections": [
+        {
+          "title": "依App找接機點",
+          "text": "Grab官方指引列出國際線抵達指定接機點，請在App確認上車地點與住宿地址並依指引前往。上車前核對車輛與司機。",
+          "sources": [
+            "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+          ]
+        },
+        {
+          "title": "確認深夜可用車輛",
+          "text": "查詢即時派車與等待時間，並預留入境及領行李時間。預約接機另確認能否按新時間等候。",
+          "sources": []
+        },
+        {
+          "title": "費用與收據",
+          "text": "Grab可於叫車前查價，GrabTaxi除外；確認車型與行李空間。保留交通收據及延誤通知，補償依航空公司與保單條件。",
+          "sources": [
+            "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Grab普吉官方接機指引",
+          "url": "https://www.grab.com/global/airport-rides/phuket-international-airport/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "國際線抵達後如何找Grab？",
+          "a": "App選普吉國際線抵達區，依指定接機點指引前往。"
+        },
+        {
+          "q": "深夜能立刻上車嗎？",
+          "a": "依App實際派車與等待時間；接機預約請通知延誤並確認新時間。"
+        }
+      ]
+    },
+    {
+      "id": "shinkong-travel-claim",
+      "title": "新光產險旅遊不便險理賠",
+      "description": "依投保項目準備證明，向客服確認送件方式。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.skinsurance.com.tw/SKI/Doc.aspx?ST=&sID=4800&uID=37",
+        "https://www.skinsurance.com.tw/ski/Doc.aspx?ST=ST&sID=6244&uID=topNews"
+      ],
+      "sections": [
+        {
+          "title": "班機延誤",
+          "text": "備妥申請書、身分證明、機票及登機證或搭機證明，以及航空業者載明延誤期間的證明。實支實付另備合理交通、膳食及住宿支出正本。",
+          "sources": [
+            "https://www.skinsurance.com.tw/SKI/Doc.aspx?ST=&sID=4800&uID=37"
+          ]
+        },
+        {
+          "title": "行李事故",
+          "text": "延誤須備運輸業者證明及六小時以上延誤證據；實支實付另備必需品支出正本。損失須備警方或運輸業者事故、損失證明，必要時補行李條。",
+          "sources": [
+            "https://www.skinsurance.com.tw/SKI/Doc.aspx?ST=&sID=4800&uID=37"
+          ]
+        },
+        {
+          "title": "確認送件",
+          "text": "24小時免費客服0800-789-999可詢問理賠方式；這不是航空公司或海外救援電話。",
+          "sources": [
+            "https://www.skinsurance.com.tw/ski/Doc.aspx?ST=ST&sID=6244&uID=topNews"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "PIR一定足夠嗎？",
+          "a": "文件表未指定PIR名稱；請確認內容符合事故項目及保單要求。"
+        },
+        {
+          "q": "颱風滯留須留哪些單據？",
+          "a": "2026年4月1日起生效的新版保單公告要求保留原行程、最後一天住宿及滯留交通住宿單據；是否適用依保單事故條件。"
+        }
+      ],
+      "actions": [
+        {
+          "label": "官方文件表",
+          "url": "https://www.skinsurance.com.tw/SKI/Doc.aspx?ST=&sID=4800&uID=37"
+        },
+        {
+          "label": "新版保單公告",
+          "url": "https://www.skinsurance.com.tw/ski/Doc.aspx?ST=ST&sID=6244&uID=topNews"
+        }
+      ]
+    },
+    {
+      "id": "late-arrival-chiang-mai",
+      "airportIatas": [
+        "CNX"
+      ],
+      "title": "延誤後抵達清邁機場的交通",
+      "description": "依機場官方交通資訊確認前往市區的方式。",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://chiangmai.airportthai.co.th/service/transportation/detail/125",
+        "https://chiangmai.airportthai.co.th/service/transportation"
+      ],
+      "sections": [
+        {
+          "title": "前往計程車櫃檯",
+          "text": "官方Airport Taxi位於主航廈1樓公共區域、入口1。"
+        },
+        {
+          "title": "出發前確認",
+          "text": "向工作人員出示目的地，確認當時是否受理、費用及乘車位置。"
+        },
+        {
+          "title": "晚到時聯絡住宿",
+          "text": "通知住宿預計抵達時間，並依機場交通資訊確認可用的接駁方式。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "深夜還有公車嗎？",
+          "a": "請以當日時刻表及現場人員說明確認。"
+        },
+        {
+          "q": "計程車櫃檯在哪裡？",
+          "a": "依官方指引前往入口1、1樓公共區域。"
+        }
+      ],
+      "actions": [
+        {
+          "label": "機場官方計程車資訊",
+          "url": "https://chiangmai.airportthai.co.th/service/transportation/detail/125"
+        },
+        {
+          "label": "機場交通資訊",
+          "url": "https://chiangmai.airportthai.co.th/service/transportation"
+        }
+      ],
+      "airportIata": "CNX"
+    },
+    {
+      "id": "thai-airasia-baggage-claim",
+      "airlineIds": [
+        "thai-airasia"
+      ],
+      "title": "泰國亞洲航空（FD）行李索賠：毀損與延誤",
+      "description": "泰國亞洲航空（FD）行李索賠期限如下。毀損與延誤的截止日期不同。",
+      "text": "泰國亞洲航空（FD）行李索賠期限如下。毀損與延誤的截止日期不同。",
+      "sections": [
+        {
+          "title": "行李毀損",
+          "text": "如發現行李毀損，請在發現後立即以書面通知——自收到行李之日起7天內。",
+          "sources": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ]
+        },
+        {
+          "title": "行李延誤",
+          "text": "行李延誤時，請自可領取行李之日起21天內以書面提出索賠。此期限以行李可領取日期起算，與航班抵達日期不同。",
+          "sources": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "亞航 — 條款與條件（FD）",
+          "url": "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "搭乘FD航班發現行李毀損，何時須通報？",
+          "a": "請在發現毀損後立即以書面通知——自收到行李之日起7天內。"
+        },
+        {
+          "q": "行李延誤的索賠期限為何？",
+          "a": "行李延誤時，請自可領取行李之日起21天內以書面提出索賠。"
+        },
+        {
+          "q": "期限是否自航班抵達日起算？",
+          "a": "不是。此期限自可領取行李之日起算，與航班抵達日不同。"
+        },
+        {
+          "q": "哪裡可以查看完整條款？",
+          "a": "請見下方亞航（FD）官方條款與條件連結。"
+        }
+      ],
+      "sources": [
+        "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-L10N-ASIA-01",
+      "sourceRecordId": "AP-L10N-ASIA-01:09-11:zh-tw:thai-airasia-baggage-claim",
+      "verificationEvidence": "Owner-verified KO source text (2026-10-14 instruction); translation/naturalization only, no new investigation. Official URLs: https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html",
+      "highlights": [
+        "發現後立即",
+        "自收到行李之日起7天內",
+        "可領取行李之日起21天內",
+        "以書面",
+        "與航班抵達日期不同"
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-TW-01",
+          "sourceRecordId": "AP-TW-01-15-faq-r2:FD-001:guide-written-notice-reconciliation",
+          "artifact": "artifacts/airport-research/tw-airline-faq-r2-current",
+          "verificationEvidence": [
+            "https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions-fd.html"
+          ],
+          "scope": "Restore written notice and plain available-for-collection trigger to existing TW guide, as current verified FD FAQ r2 already states; no new deadline"
+        }
+      ]
+    },
+    {
+      "id": "thai-delayed-baggage",
+      "airlineIds": [
+        "thai-airways"
+      ],
+      "title": "泰航行李延誤：應採取的步驟",
+      "description": "如果您的行李未在抵達機場出現，請立即向該機場的泰航地面工作人員報告。",
+      "text": "如果您的行李未在抵達機場出現，請立即向該機場的泰航地面工作人員報告。",
+      "sections": [
+        {
+          "title": "立即在機場通報",
+          "text": "向地面工作人員說明行李特徵，並提供您的聯絡方式和送達地址。請保管報告副本和文件編號（File Reference Number）。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+          ]
+        },
+        {
+          "title": "書面索賠",
+          "text": "收到行李後請儘快提交書面費用索賠——在21天內。請附上PIR、收據及實際損失證明。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+          ]
+        },
+        {
+          "title": "重要事項",
+          "text": "如果您已回家，必需品可能不予賠償。全額給付不予保證。保險理賠為單獨程序。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "泰航 — 行李延誤（官方頁面）",
+          "url": "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "行李沒有出現在轉盤上，我該怎麼辦？",
+          "a": "請立即向抵達機場的泰航地面工作人員報告。說明行李特徵，提供聯絡方式和送達地址，並保管報告副本和文件編號（File Reference Number）。"
+        },
+        {
+          "q": "書面索賠的截止日期是什麼時候？",
+          "a": "收到行李後請儘快提交書面索賠，在21天內。請附上PIR、收據及實際損失證明。"
+        },
+        {
+          "q": "我購買的必需品會全額賠付嗎？",
+          "a": "不一定。如果您已回家，必需品可能不予賠償。全額給付不予保證。"
+        },
+        {
+          "q": "我可以透過旅行保險索賠嗎？",
+          "a": "保險理賠是與向航空公司索賠分開的單獨程序，請查看您的保單條款。"
+        }
+      ],
+      "sources": [
+        "https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-L10N-ASIA-01",
+      "sourceRecordId": "AP-L10N-ASIA-01:09-11:zh-tw:thai-delayed-baggage",
+      "verificationEvidence": "Owner-verified KO source text (2026-10-14 instruction); translation/naturalization only, no new investigation. Official URLs: https://www.thaiairways.com/en-gb/content/baggage/delayed-baggage/"
+    },
+    {
+      "id": "thai-flight-certificate",
+      "airlineIds": [
+        "thai-airways"
+      ],
+      "title": "泰航航班證明申請條件",
+      "description": "泰航航班證明僅針對泰國航空實際承運的航班。申請前請閱讀以下條件。",
+      "text": "泰航航班證明僅針對泰國航空實際承運的航班。申請前請閱讀以下條件。",
+      "sections": [
+        {
+          "title": "適用航班",
+          "text": "僅泰國航空實際承運的航班適用。代碼共享航班請聯繫實際承運的航空公司。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": []
+        },
+        {
+          "title": "延誤條件",
+          "text": "到達比預定時間晚超過15分鐘符合條件——正好15分鐘不包括在內。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": []
+        },
+        {
+          "title": "申請期限",
+          "text": "最早可在預定旅行日期後3天申請，最晚在6個月內申請。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": []
+        },
+        {
+          "title": "申請人資格",
+          "text": "乘客本人或經授權的代理人可以申請。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": []
+        },
+        {
+          "title": "所需文件",
+          "text": "請準備護照、登機牌/行程單等旅行文件，以及表格要求的乘客和航班資訊。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": []
+        },
+        {
+          "title": "本申請不包括的內容",
+          "text": "本證明申請不是更改預訂、退款、CAAT賠償或保險賠付的批准。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": []
+        },
+        {
+          "title": "相關",
+          "text": "本證明可用作保險理賠的支持文件——是否被接受取決於您的保險產品條款。CAAT 101項下的乘客權利請參閱您所用語言的CAAT指南。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/help/flight-certificate",
+            "https://www.thaiairways.com/en-gb/help/flight-support"
+          ],
+          "actions": []
+        }
+      ],
+      "actions": [
+        {
+          "label": "泰航 — 航班證明（官方）",
+          "url": "https://www.thaiairways.com/en-gb/help/flight-certificate"
+        },
+        {
+          "label": "泰航 — 航班支援（官方）",
+          "url": "https://www.thaiairways.com/en-gb/help/flight-support"
+        },
+        {
+          "label": "泰國出發航班延誤、取消補償與CAAT申訴",
+          "url": "/zh-tw/airport-assistance/guides/caat-passenger-rights/"
+        },
+        {
+          "label": "富邦航班延誤快捷理賠怎麼辦",
+          "url": "/zh-tw/airport-assistance/guides/insurance-claim/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "我的航班是與泰航的代碼共享航班，可以申請這個證明嗎？",
+          "a": "僅泰國航空實際承運的航班適用。代碼共享航班請聯繫實際承運的航空公司。"
+        },
+        {
+          "q": "我的航班正好晚到15分鐘到達，符合條件嗎？",
+          "a": "不符合。條件是到達比預定時間晚超過15分鐘——正好15分鐘不包括在內。"
+        },
+        {
+          "q": "我什麼時候可以申請？",
+          "a": "最早在預定旅行日期後3天，最晚在6個月內。"
+        },
+        {
+          "q": "拿到這個證明是否意味著我的預訂會被更改或我會獲得賠償？",
+          "a": "不是。本證明申請不是更改預訂、退款、CAAT賠償或保險賠付的批准。"
+        },
+        {
+          "q": "可以讓別人代替我申請嗎？",
+          "a": "可以，經授權的代理人可以代替乘客申請。"
+        }
+      ],
+      "sources": [
+        "https://www.thaiairways.com/en-gb/help/flight-certificate",
+        "https://www.thaiairways.com/en-gb/help/flight-support"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-L10N-ASIA-01",
+      "sourceRecordId": "AP-L10N-ASIA-01:12-15:zh-tw:thai-flight-certificate",
+      "verificationEvidence": "Owner-verified values from currently-published THAI en-gb official page (2026-10-14 instruction); translation/naturalization only, no new investigation. Official URLs: https://www.thaiairways.com/en-gb/help/flight-certificate; https://www.thaiairways.com/en-gb/help/flight-support"
+    },
+    {
+      "id": "thai-damaged-baggage",
+      "airlineIds": [
+        "thai-airways"
+      ],
+      "title": "泰航行李毀損：應採取的步驟",
+      "description": "如果您在抵達時發現行李毀損，請立即向該機場的泰航行李工作人員出示。",
+      "text": "如果您在抵達時發現行李毀損，請立即向該機場的泰航行李工作人員出示。",
+      "sections": [
+        {
+          "title": "在機場",
+          "text": "抵達後請立即向泰航行李工作人員出示毀損的行李，並取得PIR副本。請提供聯絡方式、航班編號、行李牌資訊和毀損證據。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ]
+        },
+        {
+          "title": "7天內書面索賠",
+          "text": "請依官方頁面指引，在抵達後7天內登記書面索賠。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ]
+        },
+        {
+          "title": "已離開機場",
+          "text": "請迅速聯繫當地泰航辦事處。延遲申報將難以舉證，修理或賠償視審核結果而定。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ]
+        },
+        {
+          "title": "保險與紀錄",
+          "text": "請單獨確認您的保險條款，並妥善保管與航空公司的所有紀錄。保險理賠詳情請參閱您所用語言的保險理賠指南。",
+          "sources": [
+            "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "泰航 — 行李毀損（官方）",
+          "url": "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+        },
+        {
+          "label": "保險理賠",
+          "url": "/zh-tw/airport-assistance/guides/insurance-claim/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "行李毀損了，我首先應該做什麼？",
+          "a": "抵達後請立即向機場的泰航行李工作人員出示毀損的行李，並取得PIR副本。"
+        },
+        {
+          "q": "書面索賠的期限是什麼時候？",
+          "a": "依官方頁面指引，為抵達後7天內。"
+        },
+        {
+          "q": "我已經離開機場，還能申報嗎？",
+          "a": "可以，請迅速聯繫當地泰航辦事處。但延遲申報將難以舉證。"
+        },
+        {
+          "q": "修理或賠償有保證嗎？",
+          "a": "沒有。修理或賠償視審核結果而定。請單獨確認您的保險條款。"
+        }
+      ],
+      "sources": [
+        "https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-L10N-ASIA-01",
+      "sourceRecordId": "AP-L10N-ASIA-01:zh-tw:thai-damaged-baggage:20261014",
+      "verificationEvidence": "Owner-verified scope from currently-published THAI en-gb damaged-baggage page (2026-10-14 instruction); translation/naturalization only, no new investigation. Official URL: https://www.thaiairways.com/en-gb/content/baggage/damaged-baggage/"
+    },
+    {
+      "id": "starlux-baggage-report",
+      "airlineIds": [
+        "starlux-airlines"
+      ],
+      "title": "星宇航空行李異常：申報期限與方式",
+      "description": "抵達時如何申報行李破損、延誤或遺失，以及離開機場後的聯絡方式與申報期限。",
+      "text": "行李發生異常時，請依以下期限向星宇航空申報。",
+      "sections": [
+        {
+          "title": "在機場申報",
+          "text": "抵達後請立即向星宇航空申報行李異常。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity",
+            "https://www.starlux-airlines.com/zh-TW/support/feedback/feedback"
+          ]
+        },
+        {
+          "title": "申報期限",
+          "text": "破損或內容短少：自收到行李次日起7天內。延誤或遺失：自預定航班抵達次日起21天內，起算日不是收到延誤行李的日期。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity",
+            "https://www.starlux-airlines.com/zh-TW/support/feedback/feedback"
+          ]
+        },
+        {
+          "title": "離場後與多航段旅程",
+          "text": "已離開機場者，請透過官方意見回饋頁面申報，或檢附證明聯繫行李服務。多家航空公司旅程，請向最終目的地之最後一家航空公司申報。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity",
+            "https://www.starlux-airlines.com/zh-TW/support/feedback/feedback"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "星宇航空 — 行李異常（官方）",
+          "url": "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity"
+        },
+        {
+          "label": "星宇航空 — 意見回饋（官方）",
+          "url": "https://www.starlux-airlines.com/zh-TW/support/feedback/feedback"
+        },
+        {
+          "label": "保險理賠指南",
+          "url": "/zh-tw/airport-assistance/guides/insurance-claim/"
+        },
+        {
+          "label": "CAAT旅客權益",
+          "url": "/zh-tw/airport-assistance/guides/caat-passenger-rights/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "行李在機場發現破損，該怎麼辦？",
+          "a": "請立即向星宇航空申報。"
+        },
+        {
+          "q": "破損或內容短少的申報期限是多久？",
+          "a": "自收到行李次日起7天內。"
+        },
+        {
+          "q": "行李延誤或遺失的申報期限是多久？",
+          "a": "自預定航班抵達次日起21天內，起算日不是收到延誤行李的日期。"
+        },
+        {
+          "q": "向航空公司申報後，保險會自動理賠嗎？",
+          "a": "不會。保險理賠依各保單條款另行審核，請參閱保險理賠指南。CAAT相關權益請參閱現行CAAT指南。"
+        }
+      ],
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity",
+        "https://www.starlux-airlines.com/zh-TW/support/feedback/feedback"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-L10N-ASIA-01",
+      "sourceRecordId": "AP-L10N-ASIA-01-21:zh-tw:starlux-baggage-report",
+      "verificationEvidence": [
+        {
+          "source": "https://www.starlux-airlines.com/zh-TW/check-in-fly/baggage-information/irregularity",
+          "basis": "Current public starlux-airlines sections reused by Muse; no new operational facts inferred."
+        },
+        {
+          "source": "https://www.starlux-airlines.com/zh-TW/support/feedback/feedback",
+          "basis": "Current public starlux-airlines sections reused by Muse; no new operational facts inferred."
+        }
+      ],
+      "highlights": [
+        "自收到行李次日起7天內",
+        "自預定航班抵達次日起21天內",
+        "抵達後請立即向星宇航空申報行李異常",
+        "最終目的地之最後一家航空公司"
+      ]
+    },
+    {
+      "id": "starlux-flight-certificate",
+      "airlineIds": [
+        "starlux-airlines"
+      ],
+      "title": "星宇航空延誤、取消證明",
+      "description": "根據星宇航空官方資訊的延誤、取消證明申請條件與方式。",
+      "text": "星宇航空延誤、取消證明適用於星宇航空實際執飛之國際線。申請前請閱讀以下條件。",
+      "sections": [
+        {
+          "title": "申請條件",
+          "text": "星宇航空實際執飛之國際線，須於運航日起1年內申請。申請書須由本人親簽，且簽名須與護照相同。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate"
+          ]
+        },
+        {
+          "title": "應備文件",
+          "text": "請檢附護照相片頁及簽名頁影本。檔案格式限 jpeg、jpg、png、doc、docx、pdf，附件上限 20MB。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate"
+          ]
+        },
+        {
+          "title": "出發／抵達證明查詢為另行申請",
+          "text": "出發／抵達證明查詢（過去1年或未來1個月之預定取消）為另行申請。查詢時請備妥出發／抵達機場、出發日（YYYY/MM/DD）、航班編號，並以當地時間為準。其他需求請洽客服。",
+          "sources": [
+            "https://www.starlux-airlines.com/zh-TW/support/certification/statement-of-flight-status"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "星宇航空 — 延誤、取消證明（官方）",
+          "url": "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate"
+        },
+        {
+          "label": "星宇航空 — 出發／抵達證明查詢（官方）",
+          "url": "https://www.starlux-airlines.com/zh-TW/support/certification/statement-of-flight-status"
+        },
+        {
+          "label": "保險理賠指南",
+          "url": "/zh-tw/airport-assistance/guides/insurance-claim/"
+        },
+        {
+          "label": "CAAT旅客權益",
+          "url": "/zh-tw/airport-assistance/guides/caat-passenger-rights/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "哪些航班可以申請延誤、取消證明？",
+          "a": "星宇航空實際執飛之國際線。取消航班亦可申請。"
+        },
+        {
+          "q": "申請期限是多久？",
+          "a": "運航日起1年內。"
+        },
+        {
+          "q": "申請書的簽名有什麼要求？需要準備什麼文件？",
+          "a": "須由本人親簽，且與護照簽名相同。請檢附護照相片頁及簽名頁影本，檔案格式限 jpeg、jpg、png、doc、docx、pdf，附件上限 20MB。"
+        },
+        {
+          "q": "出發／抵達證明查詢和延誤、取消證明可以一起申請嗎？保險會自動理賠嗎？",
+          "a": "出發／抵達證明查詢為另行申請。保險理賠依各保單條款另行審核，請參閱保險理賠指南；CAAT相關權益請參閱現行CAAT指南。"
+        }
+      ],
+      "sources": [
+        "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate",
+        "https://www.starlux-airlines.com/zh-TW/support/certification/statement-of-flight-status"
+      ],
+      "checkedAt": "2026-10-14",
+      "originThreadKey": "AP-L10N-ASIA-01",
+      "sourceRecordId": "AP-L10N-ASIA-01-23:zh-tw:starlux-flight-certificate",
+      "verificationEvidence": [
+        {
+          "source": "https://www.starlux-airlines.com/zh-TW/support/certification/flight-certificate",
+          "basis": "Current starlux-airlines verified certificate sections and Muse23 corrected localization; no fee or new file-limit scope inferred."
+        },
+        {
+          "source": "https://www.starlux-airlines.com/zh-TW/support/certification/statement-of-flight-status",
+          "basis": "Current starlux-airlines verified certificate sections and Muse23 corrected localization; no fee or new file-limit scope inferred."
+        }
+      ],
+      "highlights": [
+        "星宇航空實際執飛之國際線",
+        "運航日起1年內",
+        "簽名須與護照相同",
+        "護照相片頁及簽名頁影本",
+        "附件上限 20MB",
+        "過去1年或未來1個月之預定取消",
+        "當地時間"
+      ]
+    }
+  ],
+  "coverage": []
+}

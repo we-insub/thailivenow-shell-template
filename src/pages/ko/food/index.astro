@@ -1,0 +1,18 @@
+---
+import FoodLayout from '../../../components/FoodLayout.astro';
+import FoodCards from '../../../components/FoodCards.astro';
+import FoodFilter from '../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../components/FoodPhoto.astro';
+import FruitCards from '../../../components/FruitCards.astro';
+import food from '../../../data/food.json';
+const description='태국 전통음식과 도시별 대표 음식을 살펴보세요. 방콕·치앙마이·푸켓·아유타야·콘깬·핫야이의 맛과 식문화, 음식별 먹는 방법을 소개해요.';
+---
+<FoodLayout title="태국 음식 · 전통음식과 도시별 맛" description={description} sourceIds={['central','north','isan','phuket','songkhla','hidden','roti','khantoke']}>
+<header class="food-hero"><span class="food-eyebrow">THAILAND · FOOD & CULTURE</span><h1>태국 음식,<br/>도시마다 다른 맛을 만나요</h1><p class="food-intro">태국 여행에서 무엇을 먹을지 고민이라면 여행할 도시의 음식부터 살펴보세요. 치앙마이에서는 커리 국수, 푸켓에서는 해산물을 넣은 볶음면, 아유타야에서는 로띠에 설탕실을 싸 먹는 간식을 즐길 수 있어요. 친숙한 팟타이부터 도시마다 다른 음식까지 하나씩 만나보세요.</p></header>
+<section><div class="food-section-head"><div><span class="food-eyebrow">먼저 알아보는 태국의 식탁</span><h2>태국 전통음식</h2><p>태국 음식이 처음이라면 팟타이와 똠얌꿍부터 알아보세요. 어떤 재료를 쓰고, 밥이나 면에 어떻게 곁들여 먹는지 음식별로 소개해드려요.</p></div><a href="/ko/food/traditions/">전통음식·식문화 소개 →</a></div><FoodCards ids={food.traditional}/></section>
+<section><div class="food-section-head"><div><span class="food-eyebrow">걷다가 즐기는 간식과 음료</span><h2>길거리 음식</h2><p>따뜻한 로띠와 차가운 땡모반, 식사 사이에 먹을 태국 간식을 알아보세요.</p></div><a href="/ko/food/street-food/">길거리 음식 전체 →</a></div><FoodCards ids={['roti','watermelon-shake','hat-yai-chicken']}/></section>
+<section><div class="food-section-head"><div><span class="food-eyebrow">1월부터 12월까지</span><h2>태국 과일</h2><p>여행하는 달에 어떤 과일을 먹을까요? 대표 과일 16종의 제철과 맛, 사는 단위와 확인된 가격을 알아보세요.</p></div><a href="/ko/food/fruits/">월별 과일 달력 →</a></div><FruitCards ids={['mango','durian','mangosteen']}/><div class="food-related"><a href="/ko/food/fruit-prices/">도시별 과일 구매 안내·가격 →</a></div></section>
+<section><div class="food-section-head"><div><h2>지역이 바뀌면, 식탁도 달라져요</h2><p>지역에 따라 김치 맛이 다른 것처럼 태국에서도 먹는 밥과 양념, 곁들이는 음식이 달라요. 중부·북부·이산·남부의 음식을 나눠 살펴보세요.</p></div></div><div class="food-region-grid">{food.regions.map(r=><article class="food-region"><span class="food-eyebrow">{r.name}</span><h3>{r.subtitle}</h3><p>{r.text}</p></article>)}</div></section>
+<section><div class="food-section-head"><div><span class="food-eyebrow">여행할 곳에서 고르는 한 끼</span><h2>도시별 음식 여행</h2><p>어느 도시로 여행하시나요? 도시를 고르면 그곳에서 맛볼 음식과 먹는 방법을 볼 수 있어요.</p></div></div><FoodFilter type="city" options={food.regions.map(r=>[r.id,r.name])} count={food.cities.length}/><div class="food-grid">{food.cities.map(city=><article class="food-card" data-food-item="city" data-filter-value={city.region}><FoodPhoto dish={food.dishes.find(d=>d.id===city.photoDish)} variant="card"/><span class="food-card-meta">{food.regions.find(r=>r.id===city.region)?.name} · {city.english}</span><h3><a href={`/ko/food/cities/${city.id}/`}>{city.name}</a></h3><span class="food-card-name">{city.tag}</span><p>{city.intro}</p><span class="food-card-count">음식 상세 {city.dishes.length}개</span><a class="food-card-link" href={`/ko/food/cities/${city.id}/`}>{city.name} 음식 둘러보기 →</a></article>)}</div></section>
+<section><h2>식사와 함께 살펴보기</h2><div class="food-related"><a href="/ko/rooftops/">루프탑·전망대 방문 안내 →</a><a href="/ko/food-delivery/">음식배달 앱 이용 안내 →</a><a href="/ko/transport/">태국 교통 안내 →</a></div></section>
+</FoodLayout>

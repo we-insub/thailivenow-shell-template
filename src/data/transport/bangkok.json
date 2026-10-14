@@ -1,0 +1,1607 @@
+{
+ "guides": [
+  {
+   "id": "rail",
+   "card": "전철",
+   "title": "태국 전철 이용 안내 | 방콕 도시철도 타는 법",
+   "path": "/ko/transport/guides/rail/"
+  },
+  {
+   "id": "train",
+   "card": "도시간기차",
+   "title": "태국 기차 이용 안내 | SRT 도시간기차 예매·타는 법",
+   "path": "/ko/transport/guides/train/"
+  },
+  {
+   "id": "bus",
+   "card": "버스",
+   "title": "태국 버스 이용 안내 | BMTA 시내버스·도시간버스",
+   "path": "/ko/transport/guides/bus/"
+  },
+  {
+   "id": "boat",
+   "card": "보트·페리",
+   "title": "태국 보트·페리 이용 안내 | 차오프라야 보트 타는 법",
+   "path": "/ko/transport/guides/boat/"
+  },
+  {
+   "id": "taxi",
+   "card": "택시·차량호출",
+   "title": "태국 택시 이용 안내 | 미터 요금·Grab 타는 법",
+   "path": "/ko/transport/guides/taxi/"
+  },
+  {
+   "id": "motorcycle",
+   "card": "오토바이택시",
+   "title": "태국 오토바이택시 이용 안내 | 공식 요금",
+   "path": "/ko/transport/guides/motorcycle/"
+  },
+  {
+   "id": "local",
+   "card": "툭툭·쏭태우",
+   "title": "태국 지역교통 안내 | 툭툭·쏭태우",
+   "path": "/ko/transport/guides/local/"
+  },
+  {
+   "id": "air",
+   "card": "국내선·항공노선",
+   "title": "태국 국내선 노선도 | 항공사별 공항 간 비행기 노선 안내",
+   "path": "/ko/transport/guides/air/"
+  }
+ ],
+ "bangkok_lines": [
+  {
+   "id": "bts-sukhumvit",
+   "name_ko": "BTS 수쿰윗선",
+   "name_en": "BTS Sukhumvit Line",
+   "color": "#43A047",
+   "operator": "BTS(BTSC)",
+   "owner": "BMA",
+   "mode_ko": "지상철",
+   "termini": "Khu Khot ↔ Kheha",
+   "branch": null,
+   "station_count": 47,
+   "official_url": "https://www.bts.co.th",
+   "verify": "공식 홈페이지 확인, 역 목록 2차",
+   "ticketing": "1회권: TIM(동전 1·2·5·10바트)·TVM(동전·지폐 20·50·100·500바트·QR, 터치스크린 목적지 선택, 1회 최대 10매)·매표소. 1회권은 구매 당일 운행 시간 내 1회 여정에 유효. Rabbit 카드: Adult·Student·Senior 등 (BTSC 공식 발권 조건, 2023-02-01 시행)",
+   "howto": "고객센터 0 2617 6000 (매일 06:00–24:00). 공식 홈페이지 Routes and Fares 메뉴에서 노선·요금 확인. 발권기 운영 06:00–24:00.",
+   "stations": [
+    {
+     "code": "N24",
+     "name_en": "Khu Khot",
+     "transfers": []
+    },
+    {
+     "code": "N23",
+     "name_en": "Yaek Kor Por Aor",
+     "transfers": []
+    },
+    {
+     "code": "N22",
+     "name_en": "Royal Thai Air Force Museum",
+     "transfers": []
+    },
+    {
+     "code": "N21",
+     "name_en": "Bhumibol Adulyadej Hospital",
+     "transfers": []
+    },
+    {
+     "code": "N20",
+     "name_en": "Saphan Mai",
+     "transfers": []
+    },
+    {
+     "code": "N19",
+     "name_en": "Sai Yud",
+     "transfers": []
+    },
+    {
+     "code": "N18",
+     "name_en": "Phahon Yothin 59",
+     "transfers": []
+    },
+    {
+     "code": "N17",
+     "name_en": "Wat Phra Sri Mahathat",
+     "transfers": [
+      "핑크라인"
+     ]
+    },
+    {
+     "code": "N16",
+     "name_en": "11th Infantry Regiment",
+     "transfers": []
+    },
+    {
+     "code": "N15",
+     "name_en": "Bang Bua",
+     "transfers": []
+    },
+    {
+     "code": "N14",
+     "name_en": "Royal Forest Department",
+     "transfers": []
+    },
+    {
+     "code": "N13",
+     "name_en": "Kasetsart University",
+     "transfers": []
+    },
+    {
+     "code": "N12",
+     "name_en": "Sena Nikhom",
+     "transfers": []
+    },
+    {
+     "code": "N11",
+     "name_en": "Ratchayothin",
+     "transfers": []
+    },
+    {
+     "code": "N10",
+     "name_en": "Phahon Yothin 24",
+     "transfers": []
+    },
+    {
+     "code": "N9",
+     "name_en": "Ha Yaek Lat Phrao",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "N8",
+     "name_en": "Mo Chit",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "N7",
+     "name_en": "Saphan Khwai",
+     "transfers": []
+    },
+    {
+     "code": "N5",
+     "name_en": "Ari",
+     "transfers": []
+    },
+    {
+     "code": "N4",
+     "name_en": "Sanam Pao",
+     "transfers": []
+    },
+    {
+     "code": "N3",
+     "name_en": "Victory Monument",
+     "transfers": []
+    },
+    {
+     "code": "N2",
+     "name_en": "Phaya Thai",
+     "transfers": [
+      "Airport Rail Link"
+     ]
+    },
+    {
+     "code": "N1",
+     "name_en": "Ratchathewi",
+     "transfers": []
+    },
+    {
+     "code": "CEN",
+     "name_en": "Siam",
+     "transfers": [
+      "BTS 실롬선"
+     ]
+    },
+    {
+     "code": "E1",
+     "name_en": "Chit Lom",
+     "transfers": []
+    },
+    {
+     "code": "E2",
+     "name_en": "Phloen Chit",
+     "transfers": []
+    },
+    {
+     "code": "E3",
+     "name_en": "Nana",
+     "transfers": []
+    },
+    {
+     "code": "E4",
+     "name_en": "Asok",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "E5",
+     "name_en": "Phrom Phong",
+     "transfers": []
+    },
+    {
+     "code": "E6",
+     "name_en": "Thong Lo",
+     "transfers": []
+    },
+    {
+     "code": "E7",
+     "name_en": "Ekkamai",
+     "transfers": []
+    },
+    {
+     "code": "E8",
+     "name_en": "Phra Khanong",
+     "transfers": []
+    },
+    {
+     "code": "E9",
+     "name_en": "On Nut",
+     "transfers": []
+    },
+    {
+     "code": "E10",
+     "name_en": "Bang Chak",
+     "transfers": []
+    },
+    {
+     "code": "E11",
+     "name_en": "Punnawithi",
+     "transfers": []
+    },
+    {
+     "code": "E12",
+     "name_en": "Udom Suk",
+     "transfers": []
+    },
+    {
+     "code": "E13",
+     "name_en": "Bang Na",
+     "transfers": []
+    },
+    {
+     "code": "E14",
+     "name_en": "Bearing",
+     "transfers": []
+    },
+    {
+     "code": "E15",
+     "name_en": "Samrong",
+     "transfers": [
+      "옐로라인"
+     ]
+    },
+    {
+     "code": "E16",
+     "name_en": "Pu Chao",
+     "transfers": []
+    },
+    {
+     "code": "E17",
+     "name_en": "Chang Erawan",
+     "transfers": []
+    },
+    {
+     "code": "E18",
+     "name_en": "Royal Thai Naval Academy",
+     "transfers": []
+    },
+    {
+     "code": "E19",
+     "name_en": "Pak Nam",
+     "transfers": []
+    },
+    {
+     "code": "E20",
+     "name_en": "Srinagarindra",
+     "transfers": []
+    },
+    {
+     "code": "E21",
+     "name_en": "Phraek Sa",
+     "transfers": []
+    },
+    {
+     "code": "E22",
+     "name_en": "Sai Luat",
+     "transfers": []
+    },
+    {
+     "code": "E23",
+     "name_en": "Kheha",
+     "transfers": []
+    }
+   ]
+  },
+  {
+   "id": "bts-silom",
+   "name_ko": "BTS 실롬선",
+   "name_en": "BTS Silom Line",
+   "color": "#1B5E20",
+   "operator": "BTS(BTSC)",
+   "owner": "BMA",
+   "mode_ko": "지상철",
+   "termini": "National Stadium ↔ Bang Wa",
+   "branch": null,
+   "station_count": 14,
+   "official_url": "https://www.bts.co.th",
+   "verify": "공식 홈페이지 확인, 역 목록 2차",
+   "ticketing": "1회권: TIM(동전 1·2·5·10바트)·TVM(동전·지폐 20·50·100·500바트·QR, 터치스크린 목적지 선택, 1회 최대 10매)·매표소. 1회권은 구매 당일 운행 시간 내 1회 여정에 유효. Rabbit 카드: Adult·Student·Senior 등 (BTSC 공식 발권 조건, 2023-02-01 시행)",
+   "howto": "고객센터 0 2617 6000 (매일 06:00–24:00). 공식 홈페이지 Routes and Fares 메뉴에서 노선·요금 확인. 발권기 운영 06:00–24:00.",
+   "stations": [
+    {
+     "code": "W1",
+     "name_en": "National Stadium",
+     "transfers": []
+    },
+    {
+     "code": "CEN",
+     "name_en": "Siam",
+     "transfers": [
+      "BTS 수쿰윗선"
+     ]
+    },
+    {
+     "code": "S1",
+     "name_en": "Ratchadamri",
+     "transfers": []
+    },
+    {
+     "code": "S2",
+     "name_en": "Sala Daeng",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "S3",
+     "name_en": "Chong Nonsi",
+     "transfers": []
+    },
+    {
+     "code": "S4",
+     "name_en": "Saint Louis",
+     "transfers": []
+    },
+    {
+     "code": "S5",
+     "name_en": "Surasak",
+     "transfers": []
+    },
+    {
+     "code": "S6",
+     "name_en": "Saphan Taksin",
+     "transfers": []
+    },
+    {
+     "code": "S7",
+     "name_en": "Krung Thon Buri",
+     "transfers": [
+      "골드라인"
+     ]
+    },
+    {
+     "code": "S8",
+     "name_en": "Wongwian Yai",
+     "transfers": []
+    },
+    {
+     "code": "S9",
+     "name_en": "Pho Nimit",
+     "transfers": []
+    },
+    {
+     "code": "S10",
+     "name_en": "Talat Phlu",
+     "transfers": []
+    },
+    {
+     "code": "S11",
+     "name_en": "Wutthakat",
+     "transfers": []
+    },
+    {
+     "code": "S12",
+     "name_en": "Bang Wa",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mrt-blue",
+   "name_ko": "MRT 블루라인",
+   "name_en": "MRT Blue Line",
+   "color": "#1E4FA3",
+   "operator": "BEM",
+   "owner": "MRTA",
+   "mode_ko": "지하철+고가",
+   "termini": "Tha Phra ↔ Lak Song",
+   "branch": "순환 연결",
+   "station_count": 38,
+   "official_url": "https://metro.bemplc.co.th",
+   "verify": "역 표 확보(2차+파일럿), 운행시간·배차 공식",
+   "ticketing": null,
+   "howto": null,
+   "stations": [
+    {
+     "code": "BL01",
+     "name_en": "Tha Phra",
+     "transfers": []
+    },
+    {
+     "code": "BL02",
+     "name_en": "Charan 13",
+     "transfers": []
+    },
+    {
+     "code": "BL03",
+     "name_en": "Fai Chai",
+     "transfers": []
+    },
+    {
+     "code": "BL04",
+     "name_en": "Bang Khun Non",
+     "transfers": []
+    },
+    {
+     "code": "BL05",
+     "name_en": "Bang Yi Khan",
+     "transfers": []
+    },
+    {
+     "code": "BL06",
+     "name_en": "Sirindhorn",
+     "transfers": []
+    },
+    {
+     "code": "BL07",
+     "name_en": "Bang Phlat",
+     "transfers": []
+    },
+    {
+     "code": "BL08",
+     "name_en": "Bang O",
+     "transfers": []
+    },
+    {
+     "code": "BL09",
+     "name_en": "Bang Pho",
+     "transfers": []
+    },
+    {
+     "code": "BL10",
+     "name_en": "Tao Poon",
+     "transfers": [
+      "MRT 퍼플라인"
+     ]
+    },
+    {
+     "code": "BL11",
+     "name_en": "Bang Sue",
+     "transfers": [
+      "SRT 다크레드라인",
+      "SRT 라이트레드라인"
+     ]
+    },
+    {
+     "code": "BL12",
+     "name_en": "Kamphaeng Phet",
+     "transfers": []
+    },
+    {
+     "code": "BL13",
+     "name_en": "Chatuchak Park",
+     "transfers": [
+      "BTS 수쿰윗선"
+     ]
+    },
+    {
+     "code": "BL14",
+     "name_en": "Phahon Yothin",
+     "transfers": [
+      "BTS 수쿰윗선"
+     ]
+    },
+    {
+     "code": "BL15",
+     "name_en": "Lat Phrao",
+     "transfers": [
+      "옐로라인"
+     ]
+    },
+    {
+     "code": "BL16",
+     "name_en": "Ratchadaphisek",
+     "transfers": []
+    },
+    {
+     "code": "BL17",
+     "name_en": "Sutthisan",
+     "transfers": []
+    },
+    {
+     "code": "BL18",
+     "name_en": "Huai Khwang",
+     "transfers": []
+    },
+    {
+     "code": "BL19",
+     "name_en": "Thailand Cultural Centre",
+     "transfers": []
+    },
+    {
+     "code": "BL20",
+     "name_en": "Phra Ram 9",
+     "transfers": []
+    },
+    {
+     "code": "BL21",
+     "name_en": "Phetchaburi",
+     "transfers": [
+      "Airport Rail Link"
+     ]
+    },
+    {
+     "code": "BL22",
+     "name_en": "Sukhumvit",
+     "transfers": [
+      "BTS 수쿰윗선"
+     ]
+    },
+    {
+     "code": "BL23",
+     "name_en": "Queen Sirikit National Convention Centre",
+     "transfers": []
+    },
+    {
+     "code": "BL24",
+     "name_en": "Khlong Toei",
+     "transfers": []
+    },
+    {
+     "code": "BL25",
+     "name_en": "Lumphini",
+     "transfers": []
+    },
+    {
+     "code": "BL26",
+     "name_en": "Si Lom",
+     "transfers": [
+      "BTS 실롬선"
+     ]
+    },
+    {
+     "code": "BL27",
+     "name_en": "Sam Yan",
+     "transfers": []
+    },
+    {
+     "code": "BL28",
+     "name_en": "Hua Lamphong",
+     "transfers": []
+    },
+    {
+     "code": "BL29",
+     "name_en": "Wat Mangkon",
+     "transfers": []
+    },
+    {
+     "code": "BL30",
+     "name_en": "Sam Yot",
+     "transfers": []
+    },
+    {
+     "code": "BL31",
+     "name_en": "Sanam Chai",
+     "transfers": []
+    },
+    {
+     "code": "BL32",
+     "name_en": "Itsaraphap",
+     "transfers": []
+    },
+    {
+     "code": "BL33",
+     "name_en": "Bang Phai",
+     "transfers": []
+    },
+    {
+     "code": "BL34",
+     "name_en": "Bang Wa",
+     "transfers": [
+      "BTS 실롬선"
+     ]
+    },
+    {
+     "code": "BL35",
+     "name_en": "Phetkasem 48",
+     "transfers": []
+    },
+    {
+     "code": "BL36",
+     "name_en": "Phasi Charoen",
+     "transfers": []
+    },
+    {
+     "code": "BL37",
+     "name_en": "Bang Khae",
+     "transfers": []
+    },
+    {
+     "code": "BL38",
+     "name_en": "Lak Song",
+     "transfers": []
+    }
+   ]
+  },
+  {
+   "id": "mrt-purple",
+   "name_ko": "MRT 퍼플라인",
+   "name_en": "MRT Purple Line (Chalong Ratchadham Line)",
+   "color": "#7B1FA2",
+   "operator": "BEM",
+   "owner": "MRTA",
+   "mode_ko": "고가+지하",
+   "termini": "Khlong Bang Phai ↔ Tao Poon",
+   "branch": null,
+   "station_count": 16,
+   "official_url": "https://metro.bemplc.co.th",
+   "verify": "역 목록 2차",
+   "ticketing": "EMV Contactless (Visa·Mastercard·UnionPay 신용카드, Krungthai·Krungsri·Kasikorn·SCB·UOB 체크카드). MRT·MRT Plus 카드는 2026-06-01 사용 종료 (BEM 공식)",
+   "howto": "월–금 05:30–24:00, 주말·공휴일 06:00–24:00. 평시 배차 9분 이내, 첨두(06:30–08:30·17:00–19:30) 6분 이내. Tao Poon역에서 블루라인 환승. MRT 정보센터 0-2624-5200 (평일 07:00–20:00, 주말·공휴일 08:00–17:00).",
+   "stations": [
+    {
+     "code": "PP01",
+     "name_en": "Khlong Bang Phai",
+     "transfers": []
+    },
+    {
+     "code": "PP02",
+     "name_en": "Talad Bang Yai",
+     "transfers": []
+    },
+    {
+     "code": "PP03",
+     "name_en": "Sam Yaek Bang Yai",
+     "transfers": []
+    },
+    {
+     "code": "PP04",
+     "name_en": "Bang Phlu",
+     "transfers": []
+    },
+    {
+     "code": "PP05",
+     "name_en": "Bang Rak Yai",
+     "transfers": []
+    },
+    {
+     "code": "PP06",
+     "name_en": "Bang Rak Noi Tha It",
+     "transfers": []
+    },
+    {
+     "code": "PP07",
+     "name_en": "Sai Ma",
+     "transfers": []
+    },
+    {
+     "code": "PP08",
+     "name_en": "Phra Nang Klao Bridge",
+     "transfers": []
+    },
+    {
+     "code": "PP09",
+     "name_en": "Yaek Nonthaburi 1",
+     "transfers": []
+    },
+    {
+     "code": "PP10",
+     "name_en": "Bang Krasor",
+     "transfers": []
+    },
+    {
+     "code": "PP11",
+     "name_en": "Nonthaburi Civic Center",
+     "transfers": [
+      "핑크라인"
+     ]
+    },
+    {
+     "code": "PP12",
+     "name_en": "Ministry of Public Health",
+     "transfers": []
+    },
+    {
+     "code": "PP13",
+     "name_en": "Yaek Tiwanon",
+     "transfers": []
+    },
+    {
+     "code": "PP14",
+     "name_en": "Wong Sawang",
+     "transfers": []
+    },
+    {
+     "code": "PP15",
+     "name_en": "Bang Son",
+     "transfers": [
+      "SRT 라이트레드라인"
+     ]
+    },
+    {
+     "code": "PP16",
+     "name_en": "Tao Poon",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gold",
+   "name_ko": "골드라인",
+   "name_en": "Gold Line",
+   "color": "#C9A227",
+   "operator": "BTS(BTSC)",
+   "owner": "BMA",
+   "mode_ko": "지상철(APM)",
+   "termini": "Krung Thon Buri ↔ Khlong San",
+   "branch": null,
+   "station_count": 3,
+   "official_url": "https://www.bts.co.th",
+   "verify": "역 목록 확보",
+   "ticketing": null,
+   "howto": null,
+   "stations": [
+    {
+     "code": "G1",
+     "name_en": "Krung Thon Buri",
+     "transfers": [
+      "BTS 실롬선"
+     ]
+    },
+    {
+     "code": "G2",
+     "name_en": "Charoen Nakhon",
+     "transfers": []
+    },
+    {
+     "code": "G3",
+     "name_en": "Khlong San",
+     "transfers": []
+    }
+   ]
+  },
+  {
+   "id": "pink",
+   "name_ko": "핑크라인",
+   "name_en": "MRT Pink Line (Wiwat Nakhon Line)",
+   "color": "#EC407A",
+   "operator": "NBM",
+   "owner": "MRTA",
+   "mode_ko": "모노레일",
+   "termini": "Nonthaburi Civic Center ↔ Min Buri",
+   "branch": "Muang Thong Thani 지선 2역",
+   "station_count": 30,
+   "official_url": null,
+   "verify": "역 목록 2차, 공식 사이트 미발견",
+   "ticketing": "1회권 18–45바트 (2025-06-17 시행 공식 요금표), 시니어 반액, 핑크↔퍼플 30분 이내 환승 시 15바트 할인 [NBM 공식]",
+   "howto": null,
+   "stations": [
+    {
+     "code": "PK01",
+     "name_en": "Nonthaburi Civic Center",
+     "transfers": [
+      "MRT 퍼플라인"
+     ]
+    },
+    {
+     "code": "PK02",
+     "name_en": "Khae Rai",
+     "transfers": []
+    },
+    {
+     "code": "PK03",
+     "name_en": "Sanambin Nam",
+     "transfers": []
+    },
+    {
+     "code": "PK04",
+     "name_en": "Samakkhi",
+     "transfers": []
+    },
+    {
+     "code": "PK05",
+     "name_en": "Royal Irrigation Department",
+     "transfers": []
+    },
+    {
+     "code": "PK06",
+     "name_en": "Yaek Pak Kret",
+     "transfers": []
+    },
+    {
+     "code": "PK07",
+     "name_en": "Pak Kret Bypass",
+     "transfers": []
+    },
+    {
+     "code": "PK08",
+     "name_en": "Chaeng Watthana - Pak Kret 28",
+     "transfers": []
+    },
+    {
+     "code": "PK09",
+     "name_en": "Si Rat",
+     "transfers": []
+    },
+    {
+     "code": "PK10",
+     "name_en": "Muang Thong Thani",
+     "transfers": [
+      "핑크라인 지선"
+     ]
+    },
+    {
+     "code": "PK11",
+     "name_en": "Chaeng Watthana 14",
+     "transfers": []
+    },
+    {
+     "code": "PK12",
+     "name_en": "Government Complex",
+     "transfers": []
+    },
+    {
+     "code": "PK13",
+     "name_en": "National Telecom",
+     "transfers": []
+    },
+    {
+     "code": "PK14",
+     "name_en": "Lak Si",
+     "transfers": [
+      "SRT 다크레드라인"
+     ]
+    },
+    {
+     "code": "PK15",
+     "name_en": "Rajabhat Phranakhon",
+     "transfers": []
+    },
+    {
+     "code": "PK16",
+     "name_en": "Wat Phra Sri Mahathat",
+     "transfers": [
+      "BTS 수쿰윗선"
+     ]
+    },
+    {
+     "code": "PK17",
+     "name_en": "Ram Inthra 3",
+     "transfers": []
+    },
+    {
+     "code": "PK18",
+     "name_en": "Lat Pla Khao",
+     "transfers": []
+    },
+    {
+     "code": "PK19",
+     "name_en": "Ram Inthra Kor Mor 4",
+     "transfers": []
+    },
+    {
+     "code": "PK20",
+     "name_en": "Maiyalap",
+     "transfers": []
+    },
+    {
+     "code": "PK21",
+     "name_en": "Vacharaphol",
+     "transfers": []
+    },
+    {
+     "code": "PK22",
+     "name_en": "Ram Inthra Kor Mor 6",
+     "transfers": []
+    },
+    {
+     "code": "PK23",
+     "name_en": "Khu Bon",
+     "transfers": []
+    },
+    {
+     "code": "PK24",
+     "name_en": "Ram Inthra Kor Mor 9",
+     "transfers": []
+    },
+    {
+     "code": "PK25",
+     "name_en": "Outer Ring Road - Ram Inthra",
+     "transfers": []
+    },
+    {
+     "code": "PK26",
+     "name_en": "Nopparat",
+     "transfers": []
+    },
+    {
+     "code": "PK27",
+     "name_en": "Bang Chan",
+     "transfers": []
+    },
+    {
+     "code": "PK28",
+     "name_en": "Setthabutbamphen",
+     "transfers": []
+    },
+    {
+     "code": "PK29",
+     "name_en": "Min Buri Market",
+     "transfers": []
+    },
+    {
+     "code": "PK30",
+     "name_en": "Min Buri",
+     "transfers": []
+    }
+   ]
+  },
+  {
+   "id": "pink-branch",
+   "name_ko": "핑크라인 지선",
+   "name_en": "Muang Thong Thani Line",
+   "color": "#EC407A",
+   "operator": "NBM",
+   "owner": "MRTA",
+   "mode_ko": "모노레일",
+   "termini": "Muang Thong Thani ↔ Lake Muang Thong Thani",
+   "branch": "핑크라인 본선 PK10 연결",
+   "station_count": 3,
+   "official_url": null,
+   "verify": "역 목록 2차",
+   "ticketing": "PK10→MT01 21바트·PK10→MT02 23바트·MT01→MT02 18바트 (2025-06-17 시행 공식 요금표) [NBM 공식]",
+   "howto": null,
+   "stations": [
+    {
+     "code": "PK10",
+     "name_en": "Muang Thong Thani",
+     "transfers": [
+      "핑크라인"
+     ]
+    },
+    {
+     "code": "MT01",
+     "name_en": "Impact Muang Thong Thani",
+     "transfers": []
+    },
+    {
+     "code": "MT02",
+     "name_en": "Lake Muang Thong Thani",
+     "transfers": []
+    }
+   ]
+  },
+  {
+   "id": "yellow",
+   "name_ko": "옐로라인",
+   "name_en": "MRT Yellow Line (Nakkara Phiphat Line)",
+   "color": "#F9A825",
+   "operator": "EBM",
+   "owner": "MRTA",
+   "mode_ko": "모노레일",
+   "termini": "Lat Phrao ↔ Samrong",
+   "branch": null,
+   "station_count": 23,
+   "official_url": "https://mrta-yellowline.com",
+   "verify": "직접 열람 미완료, 역 목록 2차",
+   "ticketing": null,
+   "howto": null,
+   "stations": [
+    {
+     "code": "YL01",
+     "name_en": "Lat Phrao",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "YL02",
+     "name_en": "Phawana",
+     "transfers": []
+    },
+    {
+     "code": "YL03",
+     "name_en": "Chok Chai 4",
+     "transfers": []
+    },
+    {
+     "code": "YL04",
+     "name_en": "Lat Phrao 71",
+     "transfers": []
+    },
+    {
+     "code": "YL05",
+     "name_en": "Lat Phrao 83",
+     "transfers": []
+    },
+    {
+     "code": "YL06",
+     "name_en": "Mahat Thai",
+     "transfers": []
+    },
+    {
+     "code": "YL07",
+     "name_en": "Lat Phrao 101",
+     "transfers": []
+    },
+    {
+     "code": "YL08",
+     "name_en": "Bang Kapi",
+     "transfers": []
+    },
+    {
+     "code": "YL09",
+     "name_en": "Yaek Lam Sali",
+     "transfers": []
+    },
+    {
+     "code": "YL10",
+     "name_en": "Si Kritha",
+     "transfers": []
+    },
+    {
+     "code": "YL11",
+     "name_en": "Hua Mak",
+     "transfers": [
+      "Airport Rail Link"
+     ]
+    },
+    {
+     "code": "YL12",
+     "name_en": "Kalantan",
+     "transfers": []
+    },
+    {
+     "code": "YL13",
+     "name_en": "Si Nut",
+     "transfers": []
+    },
+    {
+     "code": "YL14",
+     "name_en": "Srinagarindra 38",
+     "transfers": []
+    },
+    {
+     "code": "YL15",
+     "name_en": "Suan Luang Rama IX",
+     "transfers": []
+    },
+    {
+     "code": "YL16",
+     "name_en": "Si Udom",
+     "transfers": []
+    },
+    {
+     "code": "YL17",
+     "name_en": "Si Iam",
+     "transfers": []
+    },
+    {
+     "code": "YL18",
+     "name_en": "Si La Salle",
+     "transfers": []
+    },
+    {
+     "code": "YL19",
+     "name_en": "Si Bearing",
+     "transfers": []
+    },
+    {
+     "code": "YL20",
+     "name_en": "Si Dan",
+     "transfers": []
+    },
+    {
+     "code": "YL21",
+     "name_en": "Si Thepha",
+     "transfers": []
+    },
+    {
+     "code": "YL22",
+     "name_en": "Thipphawan",
+     "transfers": []
+    },
+    {
+     "code": "YL23",
+     "name_en": "Samrong",
+     "transfers": [
+      "BTS 수쿰윗선"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arl",
+   "name_ko": "Airport Rail Link",
+   "name_en": "Airport Rail Link",
+   "color": "#C62828",
+   "operator": "Asia Era One",
+   "owner": "SRT",
+   "mode_ko": "공항철도",
+   "termini": "Suvarnabhumi ↔ Phaya Thai",
+   "branch": null,
+   "station_count": 8,
+   "official_url": "https://www.srtet.co.th",
+   "verify": "공식 접속 실패, 역 목록 2차",
+   "ticketing": null,
+   "howto": "수완나품역은 공항 터미널 B1층. 운행 시간 05:30–24:00 (AOT 공식). 문의: Era One Call Center.",
+   "stations": [
+    {
+     "code": "A1",
+     "name_en": "Suvarnabhumi",
+     "transfers": []
+    },
+    {
+     "code": "A2",
+     "name_en": "Lat Krabang",
+     "transfers": []
+    },
+    {
+     "code": "A3",
+     "name_en": "Ban Thap Chang",
+     "transfers": []
+    },
+    {
+     "code": "A4",
+     "name_en": "Hua Mak",
+     "transfers": [
+      "옐로라인"
+     ]
+    },
+    {
+     "code": "A5",
+     "name_en": "Ramkhamhaeng",
+     "transfers": []
+    },
+    {
+     "code": "A6",
+     "name_en": "Makkasan",
+     "transfers": [
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "A7",
+     "name_en": "Ratchaprarop",
+     "transfers": []
+    },
+    {
+     "code": "A8",
+     "name_en": "Phaya Thai",
+     "transfers": [
+      "BTS 수쿰윗선"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "srt-dark-red",
+   "name_ko": "SRT 다크레드라인",
+   "name_en": "SRT Dark Red Line",
+   "color": "#8E1616",
+   "operator": "SRTET",
+   "owner": "SRT",
+   "mode_ko": "근교철도",
+   "termini": "Krung Thep Aphiwat ↔ Rangsit",
+   "branch": null,
+   "station_count": 10,
+   "official_url": "https://www.srtet.co.th",
+   "verify": "공식 접속 실패, 역 목록 2차",
+   "ticketing": null,
+   "howto": "공식 시간표상 05:00–24:00 운행 (SRTET 공식). 요금·결제 안내는 공식 페이지에서 확인하지 못했어요.",
+   "stations": [
+    {
+     "code": "RN01",
+     "name_en": "Krung Thep Aphiwat",
+     "transfers": [
+      "SRT 라이트레드라인",
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "RN02",
+     "name_en": "Chatuchak",
+     "transfers": []
+    },
+    {
+     "code": "RN03",
+     "name_en": "Wat Samian Nari",
+     "transfers": []
+    },
+    {
+     "code": "RN04",
+     "name_en": "Bang Khen",
+     "transfers": []
+    },
+    {
+     "code": "RN05",
+     "name_en": "Thung Song Hong",
+     "transfers": []
+    },
+    {
+     "code": "RN06",
+     "name_en": "Lak Si",
+     "transfers": [
+      "핑크라인"
+     ]
+    },
+    {
+     "code": "RN07",
+     "name_en": "Kan Kheha",
+     "transfers": []
+    },
+    {
+     "code": "RN08",
+     "name_en": "Don Mueang",
+     "transfers": []
+    },
+    {
+     "code": "RN09",
+     "name_en": "Lak Hok",
+     "transfers": []
+    },
+    {
+     "code": "RN10",
+     "name_en": "Rangsit",
+     "transfers": []
+    }
+   ]
+  },
+  {
+   "id": "srt-light-red",
+   "name_ko": "SRT 라이트레드라인",
+   "name_en": "SRT Light Red Line (Nakhon Withi Line)",
+   "color": "#E57373",
+   "operator": "SRTET",
+   "owner": "SRT",
+   "mode_ko": "근교철도",
+   "termini": "Krung Thep Aphiwat ↔ Taling Chan",
+   "branch": null,
+   "station_count": 4,
+   "official_url": "https://www.srtet.co.th",
+   "verify": "공식 접속 실패, 역 목록 2차",
+   "ticketing": null,
+   "howto": "공식 시간표상 05:00–24:00 운행 (SRTET 공식). 요금·결제 안내는 공식 페이지에서 확인하지 못했어요.",
+   "stations": [
+    {
+     "code": "RW01",
+     "name_en": "Krung Thep Aphiwat",
+     "transfers": [
+      "SRT 다크레드라인",
+      "MRT 블루라인"
+     ]
+    },
+    {
+     "code": "RW02",
+     "name_en": "Bang Son",
+     "transfers": [
+      "MRT 퍼플라인"
+     ]
+    },
+    {
+     "code": "RW05",
+     "name_en": "Bang Bamru",
+     "transfers": []
+    },
+    {
+     "code": "RW06",
+     "name_en": "Taling Chan",
+     "transfers": []
+    }
+   ]
+  }
+ ],
+ "under_construction": [
+  "MRT 퍼플라인 남부 연장 (Tao Poon → Kru Nai, 17개 역, 2029년 목표)",
+  "MRT 오렌지라인 동부 구간 (Thailand Cultural Centre → Yaek Rom Klao, 17개 역)"
+ ],
+ "planned": [
+  "MRT 블루라인 서부 연장 (Lak Song → Phutthamonthon Sai 4, 4개 역)",
+  "BTS 실롬선 연장 (Yot Se·Taling Chan 방면)",
+  "SRT 레드라인 Missing Link (Bang Sue → Phaya Thai → Hua Mak, 9개 역)"
+ ],
+ "interchanges": [
+  {
+   "name": "siam",
+   "pairs": [
+    {
+     "line": "bts-sukhumvit",
+     "code": "CEN"
+    },
+    {
+     "line": "bts-silom",
+     "code": "CEN"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "asok",
+   "pairs": [
+    {
+     "line": "bts-sukhumvit",
+     "code": "E4"
+    },
+    {
+     "line": "mrt-blue",
+     "code": "BL22"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "sala-daeng",
+   "pairs": [
+    {
+     "line": "bts-silom",
+     "code": "S2"
+    },
+    {
+     "line": "mrt-blue",
+     "code": "BL26"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "mo-chit",
+   "pairs": [
+    {
+     "line": "bts-sukhumvit",
+     "code": "N8"
+    },
+    {
+     "line": "mrt-blue",
+     "code": "BL13"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "ha-yaek-lat-phrao",
+   "pairs": [
+    {
+     "line": "bts-sukhumvit",
+     "code": "N9"
+    },
+    {
+     "line": "mrt-blue",
+     "code": "BL14"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "samrong",
+   "pairs": [
+    {
+     "line": "bts-sukhumvit",
+     "code": "E15"
+    },
+    {
+     "line": "yellow",
+     "code": "YL23"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "bang-wa",
+   "pairs": [
+    {
+     "line": "bts-silom",
+     "code": "S12"
+    },
+    {
+     "line": "mrt-blue",
+     "code": "BL34"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "tao-poon",
+   "pairs": [
+    {
+     "line": "mrt-blue",
+     "code": "BL10"
+    },
+    {
+     "line": "mrt-purple",
+     "code": "PP16"
+    }
+   ],
+   "verify": "official"
+  },
+  {
+   "name": "lat-phrao",
+   "pairs": [
+    {
+     "line": "mrt-blue",
+     "code": "BL15"
+    },
+    {
+     "line": "yellow",
+     "code": "YL01"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "wat-phra-sri",
+   "pairs": [
+    {
+     "line": "bts-sukhumvit",
+     "code": "N17"
+    },
+    {
+     "line": "pink",
+     "code": "PK16"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "lak-si",
+   "pairs": [
+    {
+     "line": "pink",
+     "code": "PK14"
+    },
+    {
+     "line": "srt-dark-red",
+     "code": "RN06"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "nonthaburi-civic",
+   "pairs": [
+    {
+     "line": "pink",
+     "code": "PK01"
+    },
+    {
+     "line": "mrt-purple",
+     "code": "PP11"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "bang-son",
+   "pairs": [
+    {
+     "line": "mrt-purple",
+     "code": "PP15"
+    },
+    {
+     "line": "srt-light-red",
+     "code": "RW02"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "krung-thep-aphiwat",
+   "pairs": [
+    {
+     "line": "srt-dark-red",
+     "code": "RN01"
+    },
+    {
+     "line": "srt-light-red",
+     "code": "RW01"
+    },
+    {
+     "line": "mrt-blue",
+     "code": "BL11"
+    }
+   ],
+   "verify": "partial"
+  },
+  {
+   "name": "hua-mak",
+   "pairs": [
+    {
+     "line": "yellow",
+     "code": "YL11"
+    },
+    {
+     "line": "arl",
+     "code": "A4"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "makkasan",
+   "pairs": [
+    {
+     "line": "arl",
+     "code": "A6"
+    },
+    {
+     "line": "mrt-blue",
+     "code": "BL21"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "phaya-thai",
+   "pairs": [
+    {
+     "line": "arl",
+     "code": "A8"
+    },
+    {
+     "line": "bts-sukhumvit",
+     "code": "N2"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "krung-thon-buri",
+   "pairs": [
+    {
+     "line": "bts-silom",
+     "code": "S7"
+    },
+    {
+     "line": "gold",
+     "code": "G1"
+    }
+   ],
+   "verify": "secondary"
+  },
+  {
+   "name": "muang-thong",
+   "pairs": [
+    {
+     "line": "pink",
+     "code": "PK10"
+    },
+    {
+     "line": "pink-branch",
+     "code": "PK10"
+    }
+   ],
+   "verify": "secondary"
+  }
+ ],
+ "station_list_verification": {
+  "mrt-blue": "official (BEM 공식 역 목록 38역 전수 대조, Line-Maps)",
+  "mrt-purple": "official (BEM 공식 역 목록 16역 전수 대조, Line-Maps)",
+  "bts-sukhumvit": "official (BTSC 공식 역 목록 47역 전수 대조, routemap)",
+  "bts-silom": "official (BTSC 공식 역 목록 14역 전수 대조, routemap)",
+  "gold": "secondary",
+  "pink": "official (NBM 공식 역 목록 30+2역 전수 대조, routemap)",
+  "pink-branch": "official (NBM 공식 지선 2역 확인)",
+  "yellow": "failed (mrta-yellowline.com 500)",
+  "arl": "failed (공식 역 목록 페이지 미발견)",
+  "srt-dark-red": "partial (SRTET 공식 구간·시간표 확인, 역 목록 미제공)",
+  "srt-light-red": "partial (SRTET 공식 구간·시간표 확인, 역 목록 미제공)"
+ }
+}

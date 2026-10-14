@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "market": "US",
+  "status": "researching",
+  "checkedAt": "2026-10-13",
+  "routes": [],
+  "airlines": [],
+  "services": [],
+  "guides": [
+    {
+      "id": "caat-passenger-rights",
+      "title": "Delay and cancellation rights for flights departing Thailand: CAAT complaints",
+      "description": "Check assistance, compensation conditions and the official CAAT complaint route when a scheduled international flight departing Thailand is delayed or cancelled.",
+      "text": "For a scheduled international flight departing a Thai airport such as Suvarnabhumi or Don Mueang, check the passenger protection rules in CAB Regulation No. 101 described by CAAT, the Civil Aviation Authority of Thailand. Both Thai and foreign airlines fall within this scope. Do not apply this departure-based scope unchanged to flights departing another country.\nThe regulation took effect on 20 May 2025. The guidance below concerns scheduled international flights departing Thailand; check separate rules for domestic and charter flights. Insurance claims and statutory airline assistance or compensation have different points of contact.",
+      "checkedAt": "2026-10-13",
+      "effectiveFrom": "2025-05-20",
+      "sources": [
+        "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/",
+        "https://www.caat.or.th/en/publication/179240/",
+        "https://www.caat.or.th/en/publication/179245/",
+        "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf",
+        "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+      ],
+      "sections": [
+        {
+          "title": "Check the check-in conditions",
+          "text": "Article 10 of CAB Regulation No. 101 covers, among others, passengers who check in within the time notified by the airline. If no separate check-in time is notified for an international flight, the reference is at least one hour before scheduled departure; the regulation also includes cases where the airline accepts check-in at another time.\nPassengers transferred to another flight, whose schedule changes by more than five hours from scheduled departure, or whose booked flight is cancelled are also addressed separately. A delay notification does not automatically extend the check-in deadline; confirm with the airline.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "How is the delay measured?",
+          "text": "CAAT guidance measures an ordinary delay by departure. It runs from the approved scheduled departure time, or the time notified at purchase, until the aircraft doors close. Conditions also allow the revised time to be used when a schedule change is notified at least 24 hours in advance, so keep both the original schedule and the change notification.\nFor waiting on the ground after the doors close, check the separate tarmac delay provisions. Do not confuse actual take-off time, arrival delay or an airline certificate’s issue conditions with this page’s ordinary delay calculation.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Assistance you can request by delay length",
+          "text": "Every threshold below means more than the stated duration. Start by requesting meals, refreshments and communication; for a long wait, check accommodation, transfers and the refund option if you decide not to continue travelling. Separate exceptions apply to financial compensation.",
+          "sources": [
+            "https://www.caat.or.th/en/publication/179240/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf"
+          ]
+        },
+        {
+          "title": "Distance-based compensation for delays over ten hours and international cancellations",
+          "text": "The regulation sets financial compensation at THB 2,000 for distances up to 1,500 km, THB 3,500 for distances over 1,500 km and up to 3,500 km, and THB 4,500 for distances over 3,500 km. The same distance bands apply to international cancellations, subject to exceptions. Do not automatically add the THB 1,500 for a delay over five hours; ask the airline which stage and amount apply.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "Choose a refund or alternative travel after cancellation",
+          "text": "Ask the airline about a refund of fares and fees for the unused journey and the choice of an alternative flight. Check meals and communication assistance too. If the alternative flight departs more than one day after the original departure time, the regulation includes necessary accommodation and transfers between the airport and accommodation. For a voucher, its conditions must be explained and you must agree.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/en/publication/179245/"
+          ]
+        },
+        {
+          "title": "Financial compensation can have exceptions",
+          "text": "Extraordinary circumstances demonstrated by the airline can be an exception to financial compensation for delay or cancellation. International cancellation exceptions also include notice at least seven days in advance with other travel options, or later notice where the alternative flight reaches the destination no more than three hours earlier or later than originally scheduled. These are financial compensation exceptions; check meals, alternative travel and refunds separately rather than assuming that all support is unavailable.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "What to ask the airline at the airport",
+          "text": "Check the operating carrier, date and flight number on your ticket, and ask for the delay or cancellation reason and passenger rights information in writing. Specify the meal vouchers, accommodation, refund or alternative flight you need to make your request easier to process. Keep delay notices, the original and revised schedules, reference numbers and receipts. Request financial compensation, expense reimbursement and ticket refunds separately.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Collect evidence for airline requests and complaints",
+          "text": "Use your booking confirmation, e-ticket and boarding pass to check the operating carrier, flight number, departure date and original departure time. Keeping airline delay or cancellation notices, revised schedules and delay or cancellation certificates helps explain what happened.\nRecord your requests for meals, accommodation, refunds, alternative flights or compensation, together with replies and reference numbers. Keep itemised receipts for anything you paid yourself. This is preparation guidance and does not replace the mandatory document list shown by the CAAT complaint system or requested by the airline. For insurance claims, check your insurer’s policy and document instructions separately.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ],
+          "actions": []
+        },
+        {
+          "title": "Open the official CAAT complaint website",
+          "text": "If the airline has not provided your prescribed rights, use the official CAAT complaint website. It currently redirects to the CAAT authentication login page. Choose English in the language menu at the top to see Email / User Name, Password and Sign In in English. Choose Sign Up if you do not have an account, or Forgot password? if you have forgotten your password. Follow the official system’s instructions for submission fields and evidence after login.",
+          "sources": [
+            "https://complaint.caat.or.th/",
+            "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+          ]
+        },
+        {
+          "title": "Distinguish refund deadlines from compensation payment deadlines",
+          "text": "Fare refund deadlines run from receipt of a complete application and the related documents. The regulation specifies 14 days for cash purchases directly from the airline, 45 days for credit card purchases, and 60 days for agent purchases from complete receipt by the relevant airline or agent. Financial compensation for international delays over five or ten hours uses 14 days from the delayed flight’s date, which differs from the refund deadline.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Original regulation and source check date",
+          "text": "The source check date is 13 October 2026. The basis is CAB Regulation No. 101 and CAAT’s official passenger rights guidance. CAAT’s published English translation and explanations are for reference; for a dispute, check the original Thai regulation together with the facts of the flight.",
+          "sources": [
+            "https://www.caat.or.th/laws-regulations/132372/",
+            "https://www.caat.or.th/wp-content/uploads/2025/10/Reg-CAB-No-101-Measures-to-Protect-Passenger-Rights-on-Domestic-and-International-Scheduled-Flights-.pdf",
+            "https://www.caat.or.th/wp-content/uploads/2025/09/Passenger-Rights-Protection-Guidance-Material.pdf"
+          ]
+        },
+        {
+          "title": "Tarmac waits and leaving the aircraft",
+          "text": "After a tarmac wait exceeding three hours, disembarkation applies if the take-off time remains undetermined, subject to safety, security and air traffic control exceptions.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "title": "Agreed non-cash fare refunds",
+          "text": "An agreed voucher or credit fare refund is due within seven days after receipt of the complete application and documents, with its conditions explained.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "title": "If your cabin class changes",
+          "text": "Article 9 requires your agreement when the airline changes your cabin class. An upgrade by the airline must not incur additional charges. For a downgrade, the fare refund is 30% for flights up to 1,500 km, 50% over 1,500 km and up to 3,500 km, and 75% over 3,500 km. Articles 18 and 19 govern refund procedures and timing.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "제9조"
+          ]
+        },
+        {
+          "title": "Optional extras and other rights",
+          "text": "Check the actual operating airline and total price. Paid extras require prior opt-in consent. Baggage claims under Article 6 follow international air carriage law. Articles 24 and 25 preserve more favourable protection and other legal compensation rights.",
+          "sources": [
+            "https://www.caat.or.th/wp-content/uploads/2024/11/ข้อบังคับของคณะกรรมการการบินพลเรือน-ฉบับที่-๑๐๑.pdf"
+          ],
+          "checkedAt": "2026-10-13",
+          "thaiOriginalArticles": [
+            "제6·7·8·24·25조"
+          ]
+        }
+      ],
+      "thresholds": [
+        {
+          "label": "More than two hours",
+          "text": "Meals, refreshments or meal vouchers appropriate to the waiting time, and necessary means of communication.",
+          "article": "Article 12 (1)"
+        },
+        {
+          "label": "More than five hours",
+          "text": "In addition to meals and communication, THB 1,500 financial compensation, suitable accommodation for at least one night where needed, and airport transfers. Choose a refund of the unused journey if you decide not to continue travelling.",
+          "article": "Article 12 (2)"
+        },
+        {
+          "label": "More than ten hours",
+          "text": "Distance-based financial compensation of THB 2,000, 3,500 or 4,500, meals, communication, necessary accommodation and transfers. Choose a refund of the unused journey or alternative travel.",
+          "article": "Article 12 (3)"
+        }
+      ],
+      "actions": [
+        {
+          "label": "Official CAAT complaint website",
+          "url": "https://complaint.caat.or.th/"
+        },
+        {
+          "label": "CAAT official passenger rights guidance",
+          "url": "https://www.caat.or.th/en/aviation/passenger/passenger-rights-protection/"
+        },
+        {
+          "label": "CAAT official distance-based compensation lookup",
+          "url": "https://app.powerbi.com/view?r=eyJrIjoiZDUyNTM0ZjctYjk4ZC00YjIxLWI3YzMtOTYzYjYwYzM4MmM2IiwidCI6ImFmM2E4M2I2LTEzYWEtNDMwMC1hNWFlLWIxOWM4YzQyM2E1YSIsImMiOjEwfQ%3D%3D"
+        },
+        {
+          "label": "CAB Regulation No. 101 original regulation page",
+          "url": "https://www.caat.or.th/laws-regulations/132372/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can CAAT rules apply to a foreign airline departing Thailand?",
+          "a": "Scheduled international flights departing Thailand fall within the scope whether operated by Thai or foreign airlines. Check the operating carrier and passenger protection conditions for your booked flight."
+        },
+        {
+          "q": "Do the same rules apply to a flight departing another country for Thailand?",
+          "a": "The international flight rules on this page apply to departures from Thailand. For flights departing another country, check that departure country’s rules and the airline or seller’s guidance separately."
+        },
+        {
+          "q": "Does a five-hour delay always mean THB 1,500 compensation?",
+          "a": "The regulation specifies THB 1,500 for international delays of more than five hours. Compensation exceptions, including extraordinary circumstances, mean that exactly five hours or an exception cannot be treated in the same way."
+        },
+        {
+          "q": "Does a weather-related cancellation remove every form of assistance?",
+          "a": "The extraordinary circumstances provisions are exceptions to financial compensation. Ask the airline about meals, refunds, alternative flights and other assistance separately."
+        },
+        {
+          "q": "How do I complain to CAAT?",
+          "a": "Open the official complaint.caat.or.th website and sign in with a CAAT account. You can select English in the language menu, and Sign Up is available if you do not have an account. Prepare your requests to the airline and evidence of the flight and expenses when submitting a complaint."
+        },
+        {
+          "q": "Is this seven-day deadline for delay compensation?",
+          "a": "No. Non-cash fare refunds and alternative compensation payments have separate deadlines; the latter uses 14 days."
+        }
+      ],
+      "contributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "EN-CAAT-PROOFREAD-01:en-us",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/en-current-caat-proofread-current/en-caat-proofread.json",
+              "scope": "Exact current source-preserving native grammar correction, no new legal facts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "late-arrival-suvarnabhumi",
+      "title": "Arriving late at Suvarnabhumi after a flight delay",
+      "description": "Check Airport Rail Link operating hours and the locations of the 24-hour taxi and Grab pick-up areas before travelling to your accommodation.",
+      "text": "After immigration and baggage collection, check when you can actually leave the airport. Late at night, you can use the taxi and Grab pick-up areas at Suvarnabhumi’s main terminal.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304",
+        "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+      ],
+      "sections": [
+        {
+          "title": "Check Airport Rail Link hours first",
+          "text": "The official airport guide lists Airport Rail Link operating hours as 05:30–24:00, with the station on basement level 1 of the main terminal. These operating hours are not the last train departure time at each station; check the information on site for the train you need to reach your destination.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+          ]
+        },
+        {
+          "title": "Finding the public taxi pick-up area on level 1",
+          "text": "Public taxis operate 24 hours on the inner roadway between gates 4 and 7 on level 1 of the main terminal. Take a queue ticket from the machine and go to the vehicle indicated. Check the cost, allowing for the THB 50 airport surcharge and tolls payable by the passenger. The taxi service desk inquiry number is +66 2 132 0360.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304"
+          ]
+        },
+        {
+          "title": "Use the designated Grab pick-up area",
+          "text": "The designated Grab pick-up area is on the outer roadway outside gate 4 on level 1 of the main terminal and operates 24 hours. Book through the app, then check the vehicle shown and the designated location before going there.",
+          "sources": [
+            "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK",
+            "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+          ]
+        },
+        {
+          "title": "Notify your accommodation and pre-booked transfer of the change",
+          "text": "Ask your accommodation whether late check-in is possible and tell your pre-booked transfer provider your revised arrival time. Keep receipts for transport you pay for yourself, but check the flight and insurance policy conditions separately to find out whether the airline or insurer will cover the cost.",
+          "sources": []
+        }
+      ],
+      "actions": [
+        {
+          "label": "Suvarnabhumi official transport guide",
+          "url": "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I take Grab if I arrive at Suvarnabhumi after midnight?",
+          "a": "The official airport guide says the designated Grab pick-up area on the outer roadway outside gate 4 on level 1 of the main terminal operates 24 hours. Check available vehicles and waiting times in the app and on site."
+        }
+      ],
+      "airportIata": "BKK",
+      "contributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "5LOCALE-PROOFREAD-01:en-us:late-arrival-suvarnabhumi",
+          "verificationEvidence": [
+            {
+              "artifact": "artifacts/airport-research/five-market-counter-arrival-proofread-current/5locale-guides-proofread.json",
+              "scope": "Exact existing native sentence edit; existing airport contact and timetable warning unchanged"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "find-airline-counter",
+      "title": "Find the right airline counter at the airport",
+      "description": "Use your operating airline, local departure date and flight number to find the right desk and confirm the day’s check-in arrangements.",
+      "text": "Start with the operating airline shown on your ticket, the departure date in the departure airport’s local time and your flight number. Then check the airport’s departure screens and the operating airline’s official airport guide.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://suvarnabhumi.airportthai.co.th/",
+        "https://www.thaiairways.com/en-th/content/airport-information/"
+      ],
+      "sections": [
+        {
+          "title": "Check the flight before choosing a queue",
+          "text": "Check which airline actually operates your flight, especially if your ticket also shows another airline’s code. Use the local departure date and flight number to match your flight on the departure screens."
+        },
+        {
+          "title": "Find the departure floor and current counter",
+          "text": "Follow the departure screens and the operating airline’s official airport information for the terminal, departure floor and check-in area. Counter allocations can change with the season or on the day, so confirm the counter and check-in deadline before joining the queue."
+        },
+        {
+          "title": "Choose the desk for your request",
+          "text": "Check-in, ticketing and arrivals baggage assistance are different services. For a ticket change or refund request, ask the airline which ticketing or service desk handles it. For a bag that is damaged or has not arrived, ask for the arrivals baggage assistance desk."
+        },
+        {
+          "title": "Confirm the next step with the airline",
+          "text": "Ask the staff whether the desk handles your request and which documents you need. Delay or cancellation certificates and insurance claims have separate procedures. Finding a ticketing counter does not automatically establish compensation entitlement or mean that the desk pays compensation."
+        }
+      ],
+      "actions": [
+        {
+          "label": "Suvarnabhumi official airport information",
+          "url": "https://suvarnabhumi.airportthai.co.th/"
+        },
+        {
+          "label": "Thai Airways official airport information",
+          "url": "https://www.thaiairways.com/en-th/content/airport-information/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I use the ticketing counter for a baggage problem?",
+          "a": "Ticketing and arrivals baggage assistance have different roles. Ask the airline for the desk that handles damaged or missing arrival baggage before joining a queue."
+        },
+        {
+          "q": "Is the counter in the airport guide always the counter for today?",
+          "a": "Counter allocations can change with the season or on the day. Check your operating airline and flight number on the departure screens, and confirm the counter and check-in deadline with the airline."
+        }
+      ]
+    },
+    {
+      "id": "insurance-claim",
+      "title": "Filing a Travel Insurance Claim: What to Prepare",
+      "description": "How to file a travel insurance claim with Allianz US — documents by claim type, the online process, and tracking your claim.",
+      "text": "The Allianz US process below is an example. Coverage varies by plan and state. Gather your documents before you start, and file through the official claims channels.",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        "https://www.allianztravelinsurance.com/claims-center.htm",
+        "https://www.allianztravelinsurance.com/travel/insurance-101/how-to-file-a-travel-insurance-claim-online.htm",
+        "https://www.myallianzinsurance.com/claims/document-checklist"
+      ],
+      "sections": [
+        {
+          "title": "Before you file",
+          "text": "Coverage varies by plan and state, so the exact documents depend on your policy. Generally gather your policy, itinerary, invoices, incident documentation, and receipts. Some claim types need specific documents — a PIR is not always required. The document checklist gives examples, so follow the requirements for your claim and policy.",
+          "sources": [
+            "https://www.allianztravelinsurance.com/claims-center.htm"
+          ],
+          "highlights": [
+            "plan and state",
+            "not always required"
+          ]
+        },
+        {
+          "title": "What you'll enter",
+          "text": "Be ready with the who, what, when, and where of the incident. You'll need purchase and policy dates, your email, incident and travel dates, plus details of expenses, refunds, or credits. Upload your documents and review everything before submitting.",
+          "sources": [
+            "https://www.allianztravelinsurance.com/travel/insurance-101/how-to-file-a-travel-insurance-claim-online.htm"
+          ],
+          "highlights": [
+            "before submitting"
+          ]
+        },
+        {
+          "title": "Baggage delay",
+          "text": "For delayed baggage, provide the carrier's delay report or related evidence, along with receipts for essential purchases you made while waiting.",
+          "sources": [
+            "https://www.myallianzinsurance.com/claims/document-checklist"
+          ],
+          "highlights": [
+            "carrier's delay report",
+            "receipts for essential purchases"
+          ]
+        },
+        {
+          "title": "Travel delay",
+          "text": "For travel delay, provide supplier or incident proof, itemized receipts, and journey details including travelers, costs, and payments.",
+          "sources": [
+            "https://www.myallianzinsurance.com/claims/document-checklist"
+          ],
+          "highlights": [
+            "itemized receipts"
+          ]
+        },
+        {
+          "title": "Baggage loss or damage",
+          "text": "For lost or damaged baggage, first file a claim with the carrier and keep their decision or payment record. Under secondary baggage coverage, the insurer considers the remaining eligible loss under your policy terms. You may also be asked for an applicable authority report, your full itinerary, itemized values, and receipts.",
+          "sources": [
+            "https://www.myallianzinsurance.com/claims/document-checklist"
+          ],
+          "highlights": [
+            "first file a claim with the carrier",
+            "secondary baggage coverage",
+            "remaining eligible loss",
+            "may also be asked",
+            "your policy terms"
+          ]
+        },
+        {
+          "title": "After you file",
+          "text": "Keep your claim number. Check status and add documents through the existing claim page. Filing a claim does not guarantee payment — each claim is reviewed under your policy terms.",
+          "sources": [
+            "https://www.allianztravelinsurance.com/claims-center.htm"
+          ],
+          "highlights": [
+            "claim number",
+            "does not guarantee payment",
+            "your policy terms"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "label": "Start a new Allianz claim",
+          "url": "https://www.myallianzinsurance.com/claims/file-a-claim"
+        },
+        {
+          "label": "Check or update an Allianz claim",
+          "url": "https://www.myallianzinsurance.com/claims/claims-search"
+        },
+        {
+          "label": "Allianz claim document checklist",
+          "url": "https://www.myallianzinsurance.com/claims/document-checklist"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are these instructions for every insurer?",
+          "a": "No. Follow your own policy and insurer’s instructions."
+        },
+        {
+          "q": "Does filing guarantee compensation?",
+          "a": "No. The insurer assesses coverage and evidence. Airline assistance and insurance claims are separate."
+        },
+        {
+          "q": "Do I always need a PIR for a baggage claim?",
+          "a": "No. Document requirements vary by claim type. A PIR is not always required — check the document checklist for your specific claim.",
+          "highlights": [
+            "not always required"
+          ]
+        },
+        {
+          "q": "What if the airline already paid me for damaged baggage?",
+          "a": "Under secondary baggage coverage, the insurer considers the remaining eligible loss under your policy terms. Keep the carrier's decision or payment record.",
+          "highlights": [
+            "secondary baggage coverage",
+            "remaining eligible loss",
+            "your policy terms"
+          ]
+        },
+        {
+          "q": "How do I track my claim?",
+          "a": "Keep your claim number and use the existing claim page to check status or add documents.",
+          "highlights": [
+            "claim number"
+          ]
+        }
+      ],
+      "manuscriptContributions": [
+        {
+          "originThreadKey": "AP-L10N-WEST-01",
+          "sourceRecordId": "AP-L10N-WEST-01-US-INS-CLAIM-01:en-us-insurance-claim",
+          "artifact": "artifacts/airport-research/us-insurance-native-current/en-us-insurance-claim.json",
+          "verificationEvidence": [
+            "https://www.allianztravelinsurance.com/claims-center.htm",
+            "https://www.allianztravelinsurance.com/travel/insurance-101/how-to-file-a-travel-insurance-claim-online.htm",
+            "https://www.myallianzinsurance.com/claims/document-checklist"
+          ],
+          "scope": "Six current US-only claim sections and three FAQ; conditional secondary coverage, original actions and policy variation preserved",
+          "nativeReviewDone": false
+        }
+      ],
+      "highlights": [
+        "Allianz US",
+        "plan and state",
+        "not always required",
+        "checklist gives examples",
+        "existing claim page",
+        "before submitting",
+        "carrier's delay report",
+        "receipts for essential purchases",
+        "itemized receipts",
+        "first file a claim with the carrier",
+        "secondary baggage coverage",
+        "remaining eligible loss",
+        "may also be asked",
+        "your policy terms",
+        "claim number",
+        "does not guarantee payment"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "us-scheduled-nonstop-review-20261013",
+      "title": "Current review of scheduled nonstop United States–Thailand service",
+      "text": "The current review did not identify a verified scheduled nonstop passenger flight between the United States and Thailand. United's Los Angeles–Bangkok service operates via Hong Kong, so it is not a nonstop route. This review does not cover charter flights, and an unlisted route should not be treated as a permanent absence.",
+      "checkedAt": "2026-10-13",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "sourceRecordId": "apw-us-absence",
+      "verificationEvidence": [
+        "APW-EV-039",
+        "APW-EV-040",
+        "APW-EV-041",
+        "APW-EV-042",
+        "APW-EV-043"
+      ],
+      "sources": [
+        "https://www.thaiairways.com/flights/en-au/sitemap/flights-to-countriesregions/page-1",
+        "https://united.mediaroom.com/news-releases?amp%3Bitem=124585&l=25&o=100",
+        "https://www.tatnews.org/2025/10/thailand-welcomes-united-airlines-inaugural-los-angeles-bangkok-flight/",
+        "https://www.aa.com/en-us/where-we-fly",
+        "https://news.alaskaair.com/destinations/alaska-air-group-seattle-nonstop-routes-hawaiian-airlines-to-tokyo-and-seoul/?linkId=12057690"
+      ]
+    }
+  ],
+  "airportNames": {
+    "BKK": "Suvarnabhumi Airport",
+    "DMK": "Don Mueang Airport",
+    "HKT": "Phuket International Airport"
+  }
+}

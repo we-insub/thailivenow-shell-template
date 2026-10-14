@@ -1,0 +1,10 @@
+---
+import TransportGuidePage from '../../../../../components/TransportGuidePage.astro';
+import BusTerminalDirectory from '../../../../../components/BusTerminalDirectory.astro';
+import guide from '../../../../../data/transport/guides/bus.json';
+const points=[
+{name:'모칫2 터미널 (Mo Chit 2)',lat:13.8123644,lng:100.5477552,text:'BTS 모칫역과 다른 위치예요. 예약표의 실제 승차지점을 확인하세요.',url:'/ko/transport/bus/terminals/mo-chit-2/'},
+{name:'사이타이마이 (Sai Tai Mai)',lat:13.7804047,lng:100.4225441,text:'서쪽의 시외버스 터미널이에요. 예약표의 터미널 이름을 확인하세요.',url:'/ko/transport/bus/terminals/sai-tai-mai/'},
+{name:'에까마이 (Ekkamai)',lat:13.7190948,lng:100.5840025,text:'수쿰윗 지역의 시외버스 터미널이에요. 편별 출발 장소를 확인하세요.',url:'/ko/transport/bus/terminals/ekkamai/'}];
+---
+<TransportGuidePage guide={guide} points={points} mapTitle="방콕 주요 시외버스 터미널 위치" mapNote="핀은 OSM의 실제 버스터미널 객체 위치예요. 승차홈·매표소 위치는 예약표와 현장 안내에서 확인하세요."><BusTerminalDirectory slot="before-map"/></TransportGuidePage>

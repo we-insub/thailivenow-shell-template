@@ -1,0 +1,960 @@
+[
+  {
+    "id": "entry",
+    "title": "태국 입국 방법: TDAC·여권·무비자 준비 가이드",
+    "description": "한국 여권으로 태국 여행을 준비하는 분을 위한 입국 안내. TDAC 작성 시기, 무비자 체류, 입국심사와 공항 도착 후 이동을 설명해요.",
+    "intro": "방콕이나 푸켓으로 떠날 날짜를 정하셨나요? 한국 일반여권으로 관광하러 가신다면 무비자 입국 조건을 살펴보고, 태국 도착일에 맞춰 TDAC를 작성해주세요. 여권과 항공권, 호텔 예약증을 곁에 두면 필요한 정보를 하나씩 적을 수 있어요. 출발 전에 챙길 서류부터 공항에 내려 입국심사를 받고 짐을 찾는 순서까지 안내해드릴게요.",
+    "sections": [
+      {
+        "title": "한국 여권으로 관광하러 간다면",
+        "paragraphs": [
+          "한국 일반여권으로 태국에 관광하러 가신다면 한·태 양자협정에 따라 **무비자로 최대 90일** 머물 수 있어요. 2026년 9월 15일에 바뀐 일반 무비자 제도와 한국 여권에 적용되는 양자협정은 서로 달라요. 다른 국적의 가족이나 친구와 함께 가신다면 그분의 여권에 적용되는 기간도 따로 알아보셔야 해요.",
+          "다만 입국할 때 모든 분에게 90일이 자동으로 주어지는 것은 아니에요. 입국심사를 마치면 여권에 적힌 **실제 체류 허가 만료일**을 보고, 그 날짜 안에 출국해주세요. 태국에서 일하거나 공부할 계획이라면 관광 입국 조건으로 준비하지 말고, 취업·학업에 맞는 비자를 준비하셔야 해요. 장기 체류도 목적과 일정에 맞는 비자가 필요해요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "비행기를 타기 전에 챙겨둘 것",
+        "paragraphs": [
+          "여권과 항공권, 호텔 예약증을 함께 꺼내두세요. TDAC를 쓸 때 이름은 **여권의 영문 이름 그대로**, 호텔 이름과 주소는 영문 예약증에 적힌 대로 옮기시면 돼요. 항공권에서는 한국 출발일보다 태국에 도착하는 날짜와 편명을 보시면 실수를 줄일 수 있어요.",
+          "귀국하거나 다음 나라로 이동할 항공권과 숙소 예약정보도 준비해주세요. 입국심사에서 어디에 머물고 언제 출국하는지 물으면 예약한 일정대로 답하시면 돼요. 여행 경비도 설명할 수 있어야 해요. 무비자 관광객에 대한 공식 안내는 **1인 20,000바트 또는 가족 40,000바트 상당의 현금**을 제시할 수 있도록 요구해요. 이 돈은 여행 경비 증빙이며, TDAC를 작성하면서 납부하는 비용은 아니에요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "TDAC는 도착일을 포함한 3일 이내에 작성해요",
+        "paragraphs": [
+          "TDAC는 종이 입국신고서 대신 온라인으로 작성하는 신고서예요. 한국 여권으로 여행하는 분을 포함해 **태국 국적이 아닌 입국자**는 항공·육로·해로로 태국에 들어갈 때 출입국심사 전에 작성해야 해요. 어린 자녀와 함께 가신다면 아이의 신고서도 각각 준비해주세요.",
+          "작성할 수 있는 시기는 **도착일을 포함한 도착 전 3일 이내**예요. 여권과 항공권, 숙소 영문 주소, 이메일을 준비하고 태국 현지 도착일을 보며 입력해주세요. 제출한 뒤 받은 문서는 휴대전화에 내려받아두세요. 공항에서 인터넷이 잘 연결되지 않아도 저장한 문서를 꺼내볼 수 있어요.",
+          "TDAC는 입국신고서이므로 작성했다고 비자가 발급되는 것은 아니에요. **입국신고와 비자 준비는 별개**예요. 방문 목적에 따라 비자가 필요한 분은 TDAC와 비자를 모두 준비하셔야 해요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "공항에 도착한 뒤에는 이렇게 이동해요",
+        "paragraphs": [
+          "비행기에서 내리면 **Immigration / Passport Control** 표지를 따라 입국심사대로 가세요. 여권과 TDAC 확인자료, 필요한 비자를 꺼내기 쉽게 준비해두시면 돼요. 직원이 여행 목적이나 숙소를 물으면 실제로 예약한 일정대로 답해주세요.",
+          "입국심사를 마친 뒤에는 여권에 적힌 체류 허가 만료일을 먼저 봐주세요. 이어서 **Baggage Claim**으로 가서 짐을 찾고 세관을 지나 도착홀로 나오시면 돼요. 신고할 물품이 있다면 세관 신고 절차를 거쳐야 해요. 수완나폼과 돈므앙 등 공항마다 이동 동선이 다르니, 도착할 공항의 안내도 함께 읽어보세요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "환승만 하는 경우와 입국하는 경우를 구분하세요",
+        "paragraphs": [
+          "태국 공항에서 **입국심사 없이 환승만 한다면** TDAC를 작성하지 않아도 돼요. 반면 공항 밖으로 나가거나, 짐을 찾아 다시 수속하기 위해 입국심사를 통과한다면 TDAC가 필요해요.",
+          "항공권을 따로 예약하셨다면 출발 전에 항공사에 짐이 최종 목적지까지 연결되는지, 태국에서 입국심사를 받아야 하는지 물어보세요. 일정에 ‘환승’이라고 적혀 있어도 실제로 입국해야 하는 경우라면 신고서를 준비하셔야 해요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "태국 여행에는 TDAC와 비자가 모두 필요한가요?",
+        "a": "한국 일반여권으로 무비자 관광 입국을 하더라도 TDAC는 작성해야 해요. TDAC는 입국신고서이고, 비자는 방문 목적에 따라 따로 준비하는 절차예요. 무비자 조건에 맞는 관광 여행이라면 비자 없이 입국할 수 있지만, 취업이나 학업 등 비자가 필요한 일정에는 TDAC만으로 입국 준비를 마칠 수 없어요."
+      },
+      {
+        "q": "한국인은 태국에서 무비자로 며칠 머물 수 있나요?",
+        "a": "한국 일반여권으로 관광하러 가신다면 양자협정상 최대 90일이에요. 다만 실제로 허가받은 기간은 입국심사를 마친 뒤 여권에 적힌 만료일로 확인해주세요. 최대 기간만 생각하고 출국일을 정하기보다, 받은 허가가 언제까지인지 먼저 보시면 돼요."
+      },
+      {
+        "q": "방콕에 밤늦게 도착하는데 TDAC 도착일은 무엇을 적나요?",
+        "a": "항공권에 적힌 태국 현지 도착 날짜를 적으시면 돼요. 한국에서 밤에 출발해 태국에는 다음 날 도착하는 일정이라면 다음 날 날짜를 쓰셔야 해요. 항공권의 도착 날짜와 편명을 함께 보며 작성해주세요."
+      }
+    ],
+    "sources": [
+      [
+        "태국 외교부 · 2026년 9월 15일 시행 무비자 개편",
+        "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174"
+      ],
+      [
+        "주카타르 태국대사관 · 2026년 9월 16일 갱신 무비자 안내",
+        "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba"
+      ],
+      [
+        "TDAC 영어 사용자 가이드 · 버전 1.19",
+        "https://tdac.immigration.go.th/manual/en/index.html"
+      ],
+      [
+        "TDAC 공식 FAQ",
+        "https://tdac.immigration.go.th/manual/en/faq.html"
+      ],
+      [
+        "주한 태국대사관 · 관광비자",
+        "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+      ]
+    ],
+    "facts": [
+      [
+        "안내 대상",
+        "한국 일반여권으로 관광 목적으로 태국에 입국하는 여행자"
+      ],
+      [
+        "입국신고",
+        "TDAC · 공식 사이트에서 무료 제출"
+      ],
+      [
+        "무비자 체류",
+        "양자협정상 최대 90일 · 실제 허가 만료일은 입국심사 후 여권 확인"
+      ]
+    ],
+    "checkedAt": "2026-10-14",
+    "locale": "ko",
+    "market": "KR",
+    "editorialReview": {
+      "basis": [
+        "docs/natural-korean-copy.md",
+        "docs/sirocco-user-full-reference-20261014.txt",
+        "docs/detail-template-rules.md"
+      ],
+      "comparison": "소개/예약/대중교통/FAQ의 구체적인 행동·대상·조건 설명과 대조",
+      "record": "docs/entry-korean-editorial-review-20261014.md",
+      "market": "KR"
+    }
+  },
+  {
+    "id": "tdac",
+    "title": "TDAC 작성 방법: 모바일로 태국 입국신고하기",
+    "description": "TDAC 공식 사이트 주소, 무료 작성 시기, 영문 입력 항목, 숙소·편명 작성, 제출 후 저장과 수정 방법을 모바일 화면으로 설명해요.",
+    "intro": "휴대전화로 TDAC를 작성하려는데 영어 항목이 낯설게 느껴지시나요? 여권과 항공권, 호텔 예약증을 곁에 두고 아래 화면을 따라 하나씩 적어보세요. 성과 이름을 어디에 넣는지, 태국 도착일과 숙소 주소는 무엇을 보고 쓰는지 순서대로 설명해드릴게요. 제출을 마친 뒤에는 받은 문서를 휴대전화에 저장해두시면 공항에서도 바로 꺼내볼 수 있어요.",
+    "sections": [
+      {
+        "title": "공식 사이트와 작성 시기부터 알아두세요",
+        "paragraphs": [
+          "먼저 주소창에 **tdac.immigration.go.th**가 적혀 있는지 봐주세요. 태국 이민국의 공식 사이트이며 **TDAC 제출은 무료**예요. 비자를 신청하는 Thai e-Visa 사이트와는 다른 곳이에요.",
+          "**도착일을 포함한 도착 전 3일 이내**에 작성해주세요. 태국에 입국할 때마다 새로 제출해야 하므로, 지난 여행에서 받은 신고서를 다시 사용할 수는 없어요. 작성하기 전에 여권과 입국 편명, 태국 현지 도착일, 숙소 영문 주소, 문서를 받을 이메일을 준비해두세요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "원하는 언어로 화면을 보셔도 돼요",
+        "paragraphs": [
+          "영어 안내가 낯설다면 사이트의 **언어 설정**이나 휴대전화 브라우저의 **페이지 번역 기능**으로 한국어 안내를 읽어보세요. 언어 메뉴와 번역 버튼은 휴대전화와 브라우저에 따라 위치가 달라요.",
+          "다만 화면을 한국어로 바꾸더라도 **입력할 내용은 영어로** 적어야 해요. 성과 이름, 여권번호는 여권에 적힌 대로 쓰고, 호텔 주소는 예약증의 영문 주소를 옮겨주세요. 아래에는 버튼과 항목 이름을 찾기 쉽도록 영어 모바일 화면을 함께 보여드릴게요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "첫 화면에서 Arrival Card를 눌러요",
+        "paragraphs": [
+          "처음 작성하는 분은 첫 화면에서 **Arrival Card**를 눌러주세요. 옆에 있는 **Update Arrival Card**는 이미 제출한 신고서를 수정할 때 쓰는 버튼이에요. 처음 제출한다면 Arrival Card에서 시작하시면 돼요.",
+          "첫 화면에는 90일 신고와 취업 허가에 관한 안내도 있어요. 이 문구가 TDAC를 90일 동안 쓸 수 있다거나, TDAC만 작성하면 태국에서 일할 수 있다는 뜻은 아니에요. 이번 여행의 입국신고는 Arrival Card에서 진행해주세요."
+        ],
+        "image": "tdac-home-mobile-en.jpg",
+        "caption": "영어 모바일 첫 화면 · 새 신고서 작성은 Arrival Card 버튼",
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "Personal Information: 여권과 개인정보를 적어요",
+        "paragraphs": [
+          "**Family Name에는 성, First Name에는 이름**을 적어요. 여권에 중간이름이 없다면 Middle Name은 억지로 채우지 않으셔도 돼요. 여권의 성과 이름을 각각 맞는 칸에 넣고, Passport No.에는 여권번호를 그대로 적어주세요.",
+          "Nationality/Citizenship은 국적, Date of Birth는 생년월일, Occupation은 직업, Gender는 성별이에요. Country/Territory of Residence에는 현재 거주 국가를, City/State of Residence에는 거주하는 도시나 지역을 적어요. 한국 여권을 갖고 해외에 거주하신다면 국적과 거주 국가를 같은 값으로 맞추지 말고 각각 실제 정보를 선택해주세요.",
+          "Visa No.는 발급받은 비자의 번호를 적는 칸이에요. **무비자로 입국한다면 없는 비자번호를 적지 마세요.** 별표가 있는 필수 항목과 선택 항목을 구분해 채우시면 돼요. Phone No.는 국가번호와 전화번호를 나누어 입력해요. 입력을 마치면 Continue를 눌러 다음 화면으로 넘어가세요.",
+          "아래 캡처에서는 Retrieve with Passport 버튼을 누를 수 없는 상태예요. 공식 가이드에 소개된 여권 MRZ 읽기 기능을 사용할 수 없다면 여권을 보며 직접 적으시면 돼요. 자동으로 읽은 경우에도 성과 이름, 여권번호가 제대로 들어갔는지 여권과 대조해주세요."
+        ],
+        "image": "tdac-personal-mobile-en.jpg",
+        "caption": "영어 모바일 개인정보 입력 화면 · 실제 개인정보를 넣지 않은 빈 양식",
+        "fields": [
+          [
+            "Family Name / First Name",
+            "여권에 적힌 영문 성 / 이름"
+          ],
+          [
+            "Passport No.",
+            "여권번호"
+          ],
+          [
+            "Nationality/Citizenship",
+            "여권 국적"
+          ],
+          [
+            "Country/Territory of Residence",
+            "현재 거주 국가"
+          ],
+          [
+            "City/State of Residence",
+            "현재 거주 도시·지역"
+          ],
+          [
+            "Visa No.",
+            "발급받은 비자가 있는 경우의 비자번호"
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        },
+        "image2": "tdac-personal-details-mobile-en.jpg",
+        "caption2": "영어 모바일 개인정보 화면 아래쪽 · 직업·성별·비자번호·거주 국가·도시"
+      },
+      {
+        "title": "Arrival Information: 태국에 도착하는 편을 적어요",
+        "paragraphs": [
+          "여행정보 단계는 **태국 도착정보와 태국 출국정보**가 따로 나뉘어 있어요. 위쪽 Arrival Information부터 항공권을 보며 작성하세요. 한국에서 출발한 날짜를 옮기기보다는, 태국에 도착하는 항공편의 현지 날짜와 편명을 찾아두시면 돼요.",
+          "한국에서 태국으로 바로 가는 관광 일정이라면 여행 목적은 **HOLIDAY**, 이동 방식은 **AIR**, 일반 여객기를 이용하는 운송 종류는 **COMMERCIAL FLIGHT**로 선택하시면 돼요. 이 선택은 휴가로 항공편을 이용하는 경우의 설명이에요. 업무·학업이나 육로·해로 입국까지 같은 답을 쓰면 안 되겠죠.",
+          "국가 검색칸에서는 영문 국가명이나 세 글자 코드를 입력한 뒤 **나타나는 목록에서 선택**하세요. 한국 탑승이면 KOR로 검색해 KOR : REPUBLIC OF KOREA를 고를 수 있어요. 국가코드를 타이핑하고 끝내기보다 선택한 국가명이 칸에 들어갔는지 살펴봐주세요."
+        ],
+        "image": "tdac-trip-arrival-mobile-en.jpg",
+        "caption": "영어 모바일 도착정보 화면 · Arrival Information",
+        "fields": [
+          [
+            "Date of Arrival · 태국 도착일",
+            "항공권의 태국 현지 도착 날짜를 YYYY/MM/DD 형식으로 적어요. 한국에서 밤에 출발해 태국에 다음 날 도착한다면 다음 날 날짜예요. 달력 버튼으로 고를 수도 있어요."
+          ],
+          [
+            "Country/Territory where you Boarded · 탑승 국가",
+            "태국으로 오는 항공편을 탑승한 국가·지역을 선택해요. 한국에서 바로 탑승했다면 KOR : REPUBLIC OF KOREA예요. 환승해서 다른 나라에서 태국행 항공편에 탔다면 그 편을 탑승한 국가를 기준으로 읽어주세요."
+          ],
+          [
+            "Purpose of Travel · 여행 목적",
+            "관광·휴가라면 HOLIDAY를 선택해요. MEETING·BUSINESS·EDUCATION 등은 실제 목적에 맞을 때 선택하세요. OTHERS (PLEASE SPECIFY)를 선택하면 필요한 추가 설명을 영어로 적어요."
+          ],
+          [
+            "Mode of Travel · 입국 방식",
+            "비행기는 AIR, 육로는 LAND, 배로 들어가면 SEA를 선택해요. 아래 운송 종류의 선택지는 이 항목에 따라 달라져요."
+          ],
+          [
+            "Mode of Transport · 운송 종류",
+            "일반 여객 항공편은 COMMERCIAL FLIGHT를 선택해요. PRIVATE/CARGO AIRLINE이나 OTHERS는 실제 해당하는 경우에만 선택하세요."
+          ],
+          [
+            "Flight No./Vehicle No. · 입국 편명·차량번호",
+            "비행기로 온다면 태국에 도착하는 항공편의 항공사 코드와 숫자를 항공권대로 적어요. 항공권 예약번호나 좌석번호를 적는 칸은 아니에요. 육로·해로 이용자는 해당 이동수단의 정보를 적어요."
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/arrival-card/",
+            "https://tdac.immigration.go.th/manual/en/index.html"
+          ],
+          "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+        },
+        "id": "arrival"
+      },
+      {
+        "title": "Departure Information: 태국에서 나가는 일정을 적어요",
+        "paragraphs": [
+          "도착정보 아래에는 **Departure Information**이 있어요. 여기의 날짜와 편명은 한국을 떠나는 일정이 아니라 **태국을 떠나는 일정**이에요. 왕복 항공권을 갖고 계신다면 돌아오는 편의 태국 현지 출발 날짜와 편명을 보며 적으시면 돼요.",
+          "현재 화면에서 출국정보에는 필수 별표가 붙어 있지 않아요. 출국 일정이 아직 정해지지 않았다면 임의의 날짜나 편명을 만들어 넣지 마세요. 다만 이 칸이 선택 항목이라는 것과 입국심사에서 귀국·다음 여행 일정을 설명할 준비는 별개예요.",
+          "잘못 선택한 출국 이동방식은 **Clear**로 지울 수 있어요. 위쪽 입국 AIR와 아래쪽 출국 AIR를 혼동하지 않도록 제목을 함께 읽어주세요."
+        ],
+        "image": "tdac-trip-departure-mobile-en.jpg",
+        "caption": "영어 모바일 출국정보 화면 · Departure Information",
+        "fields": [
+          [
+            "Date of Departure · 태국 출국일",
+            "태국에서 출발하는 현지 날짜를 적어요. 한국 도착일이 아니라 태국 공항에서 비행기가 출발하는 날짜예요."
+          ],
+          [
+            "Mode of Travel · 출국 방식",
+            "태국에서 나갈 때 비행기라면 AIR, 육로라면 LAND, 배라면 SEA를 선택해요. 입국과 출국 방식이 다를 수 있어요."
+          ],
+          [
+            "Mode of Transport · 출국 운송 종류",
+            "선택한 출국 방식에 맞는 실제 운송 종류를 고르세요. 일반 귀국 여객기라면 COMMERCIAL FLIGHT에 해당해요."
+          ],
+          [
+            "Flight No./Vehicle No. · 출국 편명·차량번호",
+            "태국을 떠나는 항공편의 편명이나 해당 이동수단의 번호를 적어요. 위쪽 도착 편명을 그대로 복사하지 말고 귀국편 항공권과 비교하세요."
+          ],
+          [
+            "Clear · 선택 지우기",
+            "잘못 고른 출국 이동방식을 초기화할 때 사용하는 버튼이에요."
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/arrival-card/",
+            "https://tdac.immigration.go.th/manual/en/index.html"
+          ],
+          "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+        },
+        "id": "departure"
+      },
+      {
+        "title": "Accommodation Information: 예약한 숙소 주소를 옮겨 적어요",
+        "paragraphs": [
+          "숙소 예약증을 열고 **호텔의 영문 주소**를 준비해주세요. 이 단계의 주소는 한국 집 주소가 아니라 태국에서 머무를 곳이에요. 호텔명만 외워 적기보다는 예약증이나 호텔 공식 안내의 주소를 보며 지역과 주소를 맞추시면 편해요.",
+          "숙박 종류를 고르면 필수 항목이 달라질 수 있어요. 현재 화면에서는 **HOTEL 선택 시 District와 Sub-District에 필수 별표가 사라지는 것**을 확인했어요. 다른 숙박 종류에도 그대로 적용하지 말고 본인이 선택한 화면의 별표를 따라 작성해주세요.",
+          "Province → District, Area → Sub-District, Sub-Area 순서로 상위 지역을 먼저 고르면 아래 목록을 사용할 수 있어요. 이름이 비슷해도 호텔 주소의 지역과 맞는 항목을 골라야 해요. 방콕에 숙박하는 경우 Province는 BANGKOK으로 선택할 수 있답니다.",
+          "**I am a transit passenger, I don’t stay in Thailand**는 숙박하지 않는 환승객에 관한 항목이에요. 호텔 예약이 없다는 이유만으로 선택하지 마세요. 실제 선택값에 따라 비활성화될 수 있으며, 태국 여행으로 입국해 머무는 일정은 본인의 숙박정보를 적어야 해요."
+        ],
+        "image": "tdac-accommodation-mobile-en.jpg",
+        "caption": "영어 모바일 숙소 입력 화면 · HOTEL 선택 후 지역별 입력",
+        "fields": [
+          [
+            "Type of Accommodation in Thailand · 숙박 종류",
+            "호텔은 HOTEL, 유스호스텔은 YOUTH HOSTEL, 게스트하우스는 GUEST HOUSE, 친구 집은 FRIEND’S HOUSE, 아파트는 APARTMENT예요. 실제 숙박 형태를 고르고 OTHERS를 선택한 경우에는 필요한 설명을 적어요."
+          ],
+          [
+            "Province · 주·광역 지역",
+            "호텔 주소가 속한 주 또는 방콕 등 광역 지역을 골라요. 공항이 있는 지역이 아니라 숙소 주소를 기준으로 선택하세요."
+          ],
+          [
+            "District, Area · 구·군 지역",
+            "숙소 주소에 적힌 District·Area에 해당하는 구역을 선택해요. Province를 먼저 고른 뒤 해당 지역의 목록에서 찾으시면 돼요. 필수 여부는 선택한 숙박 종류에 따라 달라져요."
+          ],
+          [
+            "Sub-District, Sub-Area · 세부 행정지역",
+            "주소의 Sub-District·Sub-Area에 해당하는 세부 지역을 선택해요. 상위 구역을 먼저 선택해야 목록을 사용할 수 있어요."
+          ],
+          [
+            "Post Code · 우편번호",
+            "숙소의 태국 우편번호예요. 지역 선택 후 자동 표시되면 예약증 주소와 비교하고, 직접 입력한다면 그 숙소의 번호를 사용하세요. 현재 화면에서는 필수 별표가 없는 항목이에요."
+          ],
+          [
+            "Address · 상세 주소",
+            "숙소 이름과 건물·번지·도로 등 실제 영문 주소를 적어요. 지역 선택만으로 상세 주소가 완성되는 것은 아니에요. 현재 입력칸은 215자까지 표시되니 긴 주소는 호텔 이름과 실제 위치 정보가 빠지지 않도록 정리해주세요."
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/arrival-card/",
+            "https://tdac.immigration.go.th/manual/en/index.html"
+          ],
+          "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+        },
+        "id": "accommodation"
+      },
+      {
+        "title": "Health Declaration: 최근 2주 동안 머문 국가를 선택해요",
+        "paragraphs": [
+          "건강신고 화면에는 **입국 전 2주 동안 머문 국가·지역**을 적는 칸이 있어요. 한국에서 생활하다 바로 떠나는 일정이라면 한국을 선택하고, 그 사이 다른 나라에서도 머물렀다면 실제 이력을 함께 반영해주세요. 태국에서 앞으로 방문할 도시나 여행지를 적는 칸은 아니에요.",
+          "영문 국가명이나 코드를 입력한 뒤 검색 결과에서 해당 국가·지역을 선택하세요. 여권 국적, 거주 국가, 태국행 비행기를 탑승한 국가와 최근 체류 국가는 서로 다른 질문이에요. 해외 여행을 이어서 하고 계신다면 각 칸에 같은 국가를 무조건 복사하지 않는 것이 좋아요.",
+          "위쪽에는 태국 보건부 기준에 관한 예방접종 안내문도 표시돼요. 공식 사용자 가이드는 최근 방문국·탑승 국가·국적·항공편에 따라 **필요한 건강정보가 추가로 나타날 수 있다**고 설명해요. 본인에게 나온 질문이나 증빙 요청을 읽고 실제 정보로 답해주세요. 아래는 한국을 선택하는 예시 경로에서 확인한 기본 화면이므로 모든 여행자에게 같은 추가 항목이 나온다고 생각하실 필요는 없어요.",
+          "작성을 마치면 **Preview**로 미리보기를 열어요. Previous는 앞 단계로 돌아가는 버튼이고, Add Other Travelers는 동행자의 신고정보를 추가하는 버튼이에요. 한 사람의 국가 이력을 동행자의 이력으로 대신 작성하지 마세요."
+        ],
+        "image": "tdac-health-mobile-en.jpg",
+        "caption": "영어 모바일 건강신고 기본 화면 · 최근 2주 체류 국가",
+        "fields": [
+          [
+            "Countries/territories where you stayed within two weeks before arrival · 최근 체류 국가",
+            "태국 입국 전 2주 동안 실제로 머문 국가·지역을 목록에서 선택해요. 앞으로 갈 태국 도시나 여권 발급기관을 적는 곳은 아니에요."
+          ],
+          [
+            "추가 건강정보·증빙 항목이 표시되는 경우",
+            "화면에서 요구하는 질문과 대상 조건을 읽고 본인의 실제 건강·여행정보로 답해요. 기본 화면에 없는 항목의 답을 다른 예시에서 복사하지 마세요."
+          ],
+          [
+            "Preview / Previous / Add Other Travelers",
+            "Preview는 입력 검토, Previous는 앞 단계 이동, Add Other Travelers는 다른 동행자 추가예요. 각 동행자의 여권과 실제 여행정보로 작성해야 해요."
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/arrival-card/",
+            "https://tdac.immigration.go.th/manual/en/index.html"
+          ],
+          "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+        },
+        "id": "health"
+      },
+      {
+        "title": "Preview: 이메일을 적고 제출 전에 한 번 더 살펴봐요",
+        "paragraphs": [
+          "미리보기에서는 성·이름·여권번호·국적·생년월일뿐 아니라 **도착일·탑승 국가·입국 편명·숙소 주소**도 다시 읽어보세요. 잘못 적은 항목이 있으면 **Edit**로 돌아가 고치면 돼요. 아래 캡처의 EXAMPLE은 화면 설명을 위한 예시이며 실제 신고로 제출하지 않았어요.",
+          "맨 아래 **이메일 입력칸**에는 완료 문서를 받을 수 있는 본인 이메일을 적어요. 이름을 적는 칸이 아니므로 @ 앞뒤 주소와 철자가 정확한지 살펴봐주세요. 작성에 쓰는 휴대전화에서 그 메일함을 열 수 있으면 제출 후 확인하기 편하겠죠.",
+          "**Terms and conditions**에서 이용 조건을 읽고 본인이 동의한다면 체크한 뒤 **Submit**을 눌러 제출해요. 동의하지 않은 상태에서는 제출 버튼이 비활성화되어 있어요. Preview 화면을 봤다는 것만으로 제출이 끝난 것은 아니에요.",
+          "제출할 때 오류가 나거나 완료 문서가 나타나지 않았다면 작성 성공으로 판단하지 마세요. 실제 완료 안내와 TDAC 문서를 확인한 뒤 보관하시면 돼요."
+        ],
+        "image": "tdac-preview-submit-mobile-en.jpg",
+        "caption": "영어 모바일 미리보기 하단 · 이메일·이용 조건·Submit",
+        "fields": [
+          [
+            "Edit · 수정",
+            "검토 중 잘못 적은 항목을 발견했을 때 입력 단계로 돌아가 고쳐요."
+          ],
+          [
+            "Please specify an email to send Thailand Digital Arrival Card · 수신 이메일",
+            "실제로 메일을 받을 수 있는 이메일 주소를 적어요. 주소를 잘못 적으면 문서를 찾기 어려워지니 제출 전에 다시 읽어보세요."
+          ],
+          [
+            "I have read and accepted the Terms and conditions · 이용 조건 동의",
+            "연결된 이용 조건을 읽고 동의하는 경우에만 본인이 체크해요."
+          ],
+          [
+            "Submit · 최종 제출",
+            "정보 검토와 이메일 입력, 필요한 동의를 마친 뒤 제출해요. 완료 안내와 문서가 표시되는지 이어서 확인해야 해요."
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/arrival-card/",
+            "https://tdac.immigration.go.th/manual/en/index.html"
+          ],
+          "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+        },
+        "imageNote": "화면의 EXAMPLE과 주소는 설명용 가상 예시예요. 이용 조건에 동의하거나 신고서를 실제 제출하지 않았어요.",
+        "id": "preview"
+      },
+      {
+        "title": "제출완료: TDAC 문서를 내려받아 휴대전화에 저장해요",
+        "paragraphs": [
+          "제출이 성공하면 **완료 안내와 TDAC 문서 다운로드**를 확인할 수 있어요. 공식 안내 영상에서는 완료 화면과 내려받는 문서를 함께 보여줘요. 아래 이미지는 그 장면을 모바일 브라우저에서 캡처한 **공식 영상의 완료 예시**예요. 영상 안의 예시 화면은 구버전 데스크톱 화면이므로 현재 모바일 신청 화면과 배치가 다를 수 있어요.",
+          "완료 문서를 내려받은 뒤 이름과 여권정보, 도착 날짜가 본인의 여행과 맞는지 읽어보세요. 신고서 번호와 문서에 표시되는 QR코드 등 확인자료를 함께 보관하고, 이메일로 받은 문서도 찾아두시면 돼요. 영상에 보이는 예시 번호나 QR코드를 자신의 입국자료로 사용하면 안 되겠죠.",
+          "휴대전화에 내려받은 파일을 **인터넷 없이도 열 수 있게 저장**해두세요. 이메일 링크만 남겨두기보다 파일 자체를 보관해두면 도착 공항에서 연결이 불안정할 때도 꺼내볼 수 있어요. 필요하면 인쇄한 사본을 함께 챙기셔도 돼요.",
+          "확인 문서는 입국 시 제시할 수 있도록 준비하고, 체류 중에도 보관하세요. **TDAC 완료 문서는 비자나 입국 허가를 대신하지 않아요.** 무비자 또는 비자 조건과 실제 입국심사는 별도랍니다."
+        ],
+        "image": "tdac-complete-official-video-mobile-en.jpg",
+        "caption": "공식 TDAC 제출 안내 영상 · 2분 45초의 완료·다운로드 예시",
+        "fields": [
+          [
+            "완료 안내",
+            "제출이 성공했다는 안내가 나타났는지 확인해요. 제출 전 미리보기와 구분하세요."
+          ],
+          [
+            "TDAC 문서 다운로드",
+            "완료 문서를 내려받아 휴대전화 파일함에 저장해요. 인터넷을 끈 상태에서도 파일을 열 수 있는지 살펴두시면 편해요."
+          ],
+          [
+            "신고서 번호·여행자 정보·QR코드",
+            "본인 문서의 이름·여권정보·도착일을 확인하고 확인자료를 함께 보관해요. 공식 영상의 샘플 자료를 실제 입국에 사용하지 마세요."
+          ],
+          [
+            "이메일로 받은 문서",
+            "제출 때 입력한 메일함에서도 확인 문서를 찾아 보관해요. 필요하면 내려받거나 인쇄할 수 있어요."
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/arrival-card/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s"
+          ],
+          "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+        },
+        "imageSourceUrl": "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s",
+        "imageCredit": "태국 이민국 공식 가이드에 연결된 제출 안내 영상",
+        "imageNote": "모바일 390px에서 캡처한 공식 영상 예시예요. 영상 안 화면은 안내 버전 1.4의 데스크톱 예시이며 현재 모바일 제출완료 화면을 직접 제출해 촬영한 것은 아니에요.",
+        "id": "complete"
+      },
+      {
+        "title": "제출한 TDAC를 수정하려면",
+        "paragraphs": [
+          "이미 제출한 내용을 고치려면 첫 화면의 **Update Arrival Card**를 눌러주세요. 아래 검색 화면에는 TDAC 번호와 생년월일, 도착일, 국적을 입력하는 칸이 있어요. 받은 문서와 여권을 보며 채운 뒤 **Search**를 누르시면 돼요.",
+          "공식 FAQ에 따르면 **여권상의 이름·여권번호·국적·생년월일은 수정할 수 없어요.** 이 중 잘못 적은 정보가 있다면 올바른 내용으로 새 신고서를 제출해야 해요. 숙소 등 수정할 수 있는 정보는 입국 전에 고친 뒤 다시 제출하고, 새로 받은 문서도 저장해주세요.",
+          "아래 화면은 이미 받은 신고서를 찾는 검색 화면이에요. 아직 제출한 적이 없다면 여기에서 TDAC 번호를 찾으려 하지 말고, 첫 화면의 Arrival Card로 돌아가 새로 작성하시면 돼요."
+        ],
+        "image": "tdac-update-mobile-en.jpg",
+        "caption": "영어 모바일 수정 검색 화면 · 신고서 번호·생년월일·도착일·국적으로 검색",
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://tdac.immigration.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://tdac.immigration.go.th/manual/en/faq.html"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "TDAC는 돈을 내야 하나요?",
+        "a": "아니요. 태국 이민국의 공식 사이트에서 TDAC를 제출하는 데는 수수료가 없어요. 작성하기 전에 주소창이 tdac.immigration.go.th인지 봐주세요."
+      },
+      {
+        "q": "한국어 화면으로 작성할 수 있나요?",
+        "a": "네, 사이트의 언어 설정이나 브라우저 번역으로 한국어 안내를 읽을 수 있어요. 다만 입력은 영어로 해야 하므로 이름과 여권번호는 여권을, 숙소 주소는 영문 예약증을 보며 적어주세요."
+      },
+      {
+        "q": "아이나 무비자 여행자도 TDAC가 필요한가요?",
+        "a": "네. 한국 여권으로 무비자 관광을 하는 분과 어린아이도 각각 TDAC가 필요해요. 태국 국적이 아닌 입국자에게 적용되는 신고예요. 다만 태국에서 입국심사를 받지 않고 환승만 한다면 작성하지 않아도 돼요."
+      },
+      {
+        "q": "TDAC를 작성하면 태국 비자가 발급되나요?",
+        "a": "아니요. TDAC를 제출해도 비자가 발급되지는 않아요. 입국신고서와 비자는 서로 다른 준비예요. 한국 일반여권으로 무비자 관광 입국을 한다면 그 조건을 충족해야 하고, 비자가 필요한 목적으로 방문한다면 해당 비자도 따로 받아야 해요."
+      },
+      {
+        "q": "이름을 잘못 적었는데 수정할 수 있나요?",
+        "a": "이름을 잘못 적었다면 올바른 이름으로 새 신고서를 제출해주세요. 여권상의 이름과 여권번호, 국적, 생년월일은 수정할 수 없어요. 숙소처럼 수정 가능한 정보는 입국 전에 Update Arrival Card에서 고친 뒤 다시 제출하고 저장하시면 돼요."
+      },
+      {
+        "q": "TDAC 편명에는 예약번호를 적나요?",
+        "a": "아니요. Flight No./Vehicle No.에는 태국에 도착하는 항공편의 항공사 코드와 숫자를 항공권대로 적어요. 예약번호나 좌석번호를 적는 칸은 아니에요."
+      },
+      {
+        "q": "TDAC 출국일은 한국 도착 날짜인가요?",
+        "a": "Departure Information의 Date of Departure는 태국에서 출발하는 현지 날짜예요. 한국 도착일과 다를 수 있으니 귀국 항공권의 태국 출발 항목을 보세요."
+      },
+      {
+        "q": "HOTEL을 고르면 구역과 세부 지역도 꼭 적어야 하나요?",
+        "a": "현재 확인한 화면에서는 HOTEL 선택 후 District와 Sub-District의 필수 별표가 사라졌어요. 필수 여부는 숙박 종류에 따라 달라지므로 본인 화면의 별표를 보며 작성하세요."
+      },
+      {
+        "q": "건강신고의 최근 2주 국가는 여행할 태국 도시를 적는 곳인가요?",
+        "a": "아니요. 태국 입국 전 2주 동안 실제 머문 국가·지역을 고르는 칸이에요. 앞으로 방문할 도시나 여행지를 적는 곳은 아니에요."
+      },
+      {
+        "q": "Preview가 열리면 TDAC 작성이 끝난 건가요?",
+        "a": "아니요. Preview는 제출 전 검토 화면이에요. 이메일과 이용 조건을 읽고 제출한 뒤 성공 안내와 TDAC 문서를 확인해야 해요."
+      }
+    ],
+    "sources": [
+      [
+        "태국 이민국 TDAC 공식 사이트",
+        "https://tdac.immigration.go.th/"
+      ],
+      [
+        "TDAC 영어 사용자 가이드 · 버전 1.19",
+        "https://tdac.immigration.go.th/manual/en/index.html"
+      ],
+      [
+        "TDAC 공식 FAQ",
+        "https://tdac.immigration.go.th/manual/en/faq.html"
+      ],
+      [
+        "태국 이민국 공식 제출 안내 영상 · 완료 예시",
+        "https://www.youtube.com/watch?v=eHyYt1eXjOo"
+      ]
+    ],
+    "facts": [
+      [
+        "공식 주소",
+        "https://tdac.immigration.go.th/"
+      ],
+      [
+        "비용",
+        "무료"
+      ],
+      [
+        "제출 시기",
+        "태국 도착일을 포함한 도착 전 3일 이내"
+      ],
+      [
+        "입력 언어",
+        "영어 · 여권 정보는 여권 그대로"
+      ],
+      [
+        "안내 화면",
+        "영어 모바일 · 2026-10-14 캡처"
+      ]
+    ],
+    "checkedAt": "2026-10-14",
+    "locale": "ko",
+    "market": "KR",
+    "editorialReview": {
+      "basis": [
+        "docs/natural-korean-copy.md",
+        "docs/sirocco-user-full-reference-20261014.txt",
+        "docs/detail-template-rules.md"
+      ],
+      "comparison": "소개/예약/대중교통/FAQ의 구체적인 행동·대상·조건 설명과 대조",
+      "record": "docs/entry-korean-editorial-review-20261014.md",
+      "market": "KR"
+    }
+  },
+  {
+    "id": "visa",
+    "title": "태국 비자 종류: 무비자·관광·취업·유학 비자 구분하기",
+    "description": "태국 여행 목적에 맞는 비자 종류를 비교하고, 무비자와 관광비자·DTV·취업·학업·은퇴 비자, Thai e-Visa 신청 순서를 알아보세요.",
+    "intro": "태국으로 휴가를 가는 분과 태국에서 일하거나 공부할 분은 준비해야 할 비자가 달라요. 한국 일반여권으로 관광하러 가신다면 먼저 무비자 입국 조건에 맞는지 살펴보세요. 취업이나 학업이 목적이라면 관광 입국으로 대신할 수 없어요. 무엇을 하러 가는지와 얼마나 머물지 정한 뒤, 그 목적에 맞는 비자를 골라 준비하시면 돼요.",
+    "sections": [
+      {
+        "title": "무비자·TDAC·비자는 각각 역할이 달라요",
+        "paragraphs": [
+          "**무비자**는 정해진 조건을 충족하면 비자를 따로 발급받지 않고 입국하는 제도예요. **TDAC**는 입국할 때 제출하는 온라인 신고서이고, **비자**는 관광이나 학업, 취업 등 방문 목적에 맞춰 신청해요. TDAC를 작성했다고 비자를 받은 것은 아니에요.",
+          "한국 일반여권으로 관광하러 가신다면 양자협정에 따라 무비자로 최대 90일 머물 수 있어요. 이 안내는 한국 여권 기준이에요. 다른 국적의 가족이나 친구와 함께 가신다면 그분의 여권에 적용되는 조건도 따로 알아보셔야 해요. 한국어로 안내를 읽는다고 한국 여권 조건이 적용되는 것은 아니랍니다."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://www.thaievisa.go.th/",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "여행 목적에 따라 어떤 비자를 살펴보면 될까요?",
+        "paragraphs": [
+          "태국에서 무엇을 할 계획인지 정한 뒤, 아래에서 해당하는 비자 종류를 찾아보세요. 태국 전자비자 사이트는 관광과 취업, 학업 등 목적별로 안내를 나누고 있어요. 종류마다 신청 자격과 서류가 다르므로 이름이 비슷하다고 같은 조건으로 신청할 수 있는 것은 아니에요. 본인이 하려는 활동에 맞는 세부 안내를 읽고 준비해주세요."
+        ],
+        "fields": [
+          [
+            "관광비자 · Tourist Visa",
+            "관광·휴가 목적. 단수와 복수 입국 조건을 구분해요."
+          ],
+          [
+            "취업·사업 비자 · Work & Business",
+            "고용 또는 사업 목적. 무비자 관광이나 TDAC로 취업할 수는 없어요."
+          ],
+          [
+            "학업 비자 · Studying / Non-Immigrant ED",
+            "학교·교육기관에서의 학업과 해당 교육·훈련 목적."
+          ],
+          [
+            "은퇴 관련 비자 · Non-Immigrant O / O-A",
+            "연령·재정 등 자격을 갖춘 은퇴자의 체류. 종류별 조건이 달라요."
+          ],
+          [
+            "DTV · Destination Thailand Visa",
+            "Workcation과 태국 소프트파워 관련 활동 등 해당 자격에 맞춘 체류. 관광비자와 다른 분류예요."
+          ],
+          [
+            "경유 비자 · Transit Visa",
+            "경유·스포츠 활동·승무원 등 해당 목적과 자격에 따른 비자."
+          ],
+          [
+            "LTR · Long-Term Resident",
+            "자격 요건을 충족한 신청자를 위한 장기 거주 비자."
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://www.thaievisa.go.th/",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "Thai e-Visa에서 온라인으로 신청해요",
+        "paragraphs": [
+          "**thaievisa.go.th**에서 계정을 만들고 신청서를 작성해주세요. 필요한 서류를 올린 뒤 수수료 절차를 마치고 제출하시면 돼요. 접수 후에는 사이트의 진행상태와 이메일을 보며 추가 서류 요청이 있는지 살펴보세요. 승인을 받으면 이메일로 온 비자 확인서를 저장해두시면 돼요.",
+          "주한 태국대사관에 신청하려면 **신청자 본인이 대한민국에 체류 중**이어야 해요. 한국 국적이라는 이유만으로 해외에서도 주한 공관에 신청할 수 있는 것은 아니에요. 해외에 계신다면 실제로 체류하는 곳을 기준으로 어느 공관에 신청해야 하는지 알아보셔야 해요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://www.thaievisa.go.th/",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "비자 유효기간과 체류 허가기간은 나누어 보세요",
+        "paragraphs": [
+          "비자 유효기간은 그 비자를 사용할 수 있는 기간이고, 체류 허가기간은 입국한 뒤 태국에서 머물 수 있는 기간이에요. 관광 단수비자도 비자의 유효기간과 한 번 입국해 머무는 기간이 다르게 정해져 있어요.",
+          "비자를 받았다고 비자 유효기간의 마지막 날까지 계속 머물 수 있는 것은 아니에요. 입국심사를 마치면 **여권에 적힌 실제 체류 허가 만료일**을 보고 출국일을 정해주세요. 연장이 필요하다면 그 날짜에 맞춰 별도로 신청하고 심사를 받아야 해요. 연장 신청만으로 체류기간이 늘어나는 것은 아니에요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://www.thaievisa.go.th/",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "태국 관광비자를 꼭 받아야 하나요?",
+        "a": "한국 일반여권으로 무비자 관광 입국 조건을 충족한다면 관광비자를 따로 받을 필요는 없어요. 다만 취업이나 학업 등 관광이 아닌 목적이나 장기 체류를 계획하신다면 그 목적에 맞는 자격을 따로 준비해주세요. 다른 국적의 동행에게는 한국 여권 조건을 그대로 적용할 수 없어요."
+      },
+      {
+        "q": "DTV와 관광비자는 같은가요?",
+        "a": "아니요. DTV와 관광비자는 서로 다른 비자예요. DTV는 Workcation이나 태국 소프트파워 관련 활동 등 해당 자격을 갖춘 분을 위한 분류이고, 관광비자는 관광 목적의 비자예요. 본인이 하려는 활동에 맞는 신청 자격과 서류를 각각 살펴보셔야 해요."
+      },
+      {
+        "q": "태국 비자는 대사관에 가서 접수하나요?",
+        "a": "주한 태국대사관에 신청하는 비자는 Thai e-Visa에서 온라인으로 신청하고 수령해요. 먼저 본인이 대한민국에 체류 중인지, 주한 공관에 신청할 수 있는지 살펴본 뒤 공식 사이트에서 진행해주세요."
+      }
+    ],
+    "sources": [
+      [
+        "태국 외교부 전자비자 공식 사이트",
+        "https://www.thaievisa.go.th/"
+      ],
+      [
+        "주한 태국대사관 · 비자 신청 안내 · 2026년 8월 28일",
+        "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내"
+      ],
+      [
+        "태국 외교부 · 2026년 9월 15일 시행 무비자 개편",
+        "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174"
+      ],
+      [
+        "주카타르 태국대사관 · 2026년 9월 16일 갱신 무비자 안내",
+        "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba"
+      ],
+      [
+        "주한 태국대사관 · 관광비자",
+        "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+      ]
+    ],
+    "facts": [],
+    "checkedAt": "2026-10-14",
+    "locale": "ko",
+    "market": "KR",
+    "editorialReview": {
+      "basis": [
+        "docs/natural-korean-copy.md",
+        "docs/sirocco-user-full-reference-20261014.txt",
+        "docs/detail-template-rules.md"
+      ],
+      "comparison": "소개/예약/대중교통/FAQ의 구체적인 행동·대상·조건 설명과 대조",
+      "record": "docs/entry-korean-editorial-review-20261014.md",
+      "market": "KR"
+    }
+  },
+  {
+    "id": "tourist-visa",
+    "title": "태국 관광비자: 단수·복수 조건과 전자비자 신청 방법",
+    "description": "태국 관광비자 단수·복수의 유효기간과 체류기간, 여권·예약증 등 서류 준비, 한국 국적 수수료 면제와 e-Visa 신청 방법을 설명해요.",
+    "intro": "한국 일반여권으로 태국에 관광하러 가신다면 관광비자부터 신청할 필요는 없어요. 먼저 무비자 입국 조건과 여행 기간이 맞는지 살펴보세요. 관광비자가 필요한 일정이라면 태국에 몇 번 입국할지에 따라 단수·복수 조건을 읽어보시면 돼요. 주한 태국대사관의 안내에 따라 준비할 서류와 온라인 신청, 승인서를 받는 순서까지 설명해드릴게요.",
+    "sections": [
+      {
+        "title": "관광비자 단수와 복수는 어떻게 다른가요?",
+        "paragraphs": [
+          "단수와 복수는 비자를 사용할 수 있는 기간과 입국 횟수가 달라요. 주한 태국대사관은 **단수 유효기간 90일·체류기간 60일**, **복수 유효기간 180일·체류기간 60일**로 안내해요. 복수비자에 180일이라고 적혀 있어도 한 번 입국해서 180일을 계속 머물 수 있다는 뜻은 아니에요.",
+          "태국 현지 이민국에 **체류기간 30일 연장 신청**을 할 수 있다는 안내도 있어요. 다만 신청하면 반드시 승인되는 것은 아니에요. 연장을 받을 것으로 생각하고 출국일을 정하기보다, 입국 후 여권에 적힌 허가 만료일을 보고 필요한 절차를 준비해주세요."
+        ],
+        "fields": [
+          [
+            "단수 관광비자",
+            "비자 유효기간 90일 / 체류기간 60일"
+          ],
+          [
+            "복수 관광비자",
+            "비자 유효기간 180일 / 체류기간 60일"
+          ],
+          [
+            "연장",
+            "현지 이민국에 30일 추가 연장 신청 가능 · 심사 필요"
+          ]
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://www.thaievisa.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "누가 신청하고 어떤 서류를 준비하나요?",
+        "paragraphs": [
+          "여권 사본과 사진, 한국 거주·체류 증명, 영문 항공권 일정, 태국 숙소 예약정보를 준비해주세요. 관광비자 신청용 여권은 **유효기간이 6개월 이상** 남아 있어야 하고, 사진은 **6개월 이내에 촬영한 여권용 사진**이어야 해요. 호텔을 예약했다면 영문 예약증도 내려받아두시면 돼요.",
+          "외국 국적자가 한국에서 신청할 때는 체류 자격에 맞는 증빙이 필요해요. 외국인등록증 앞·뒷면과 영문 출입국사실증명서 등을 준비하고, 출입국사실증명서는 최근 1년 기록을 조회해 **신청일 전 2일 이내에 발급**받아야 해요. 그동안 여권을 바꿨다면 신·구여권과 관련 기록도 함께 준비해야 해요. K-ETA로 입국한 분은 별도의 증빙 안내를 따라야 해요. 이 조건은 한국 여권 소지자의 서류와 구분해야 해요.",
+          "외국 국적자의 서류 안내에는 **최근 3개월 영문 은행 거래내역**, 단수 **20,000바트 이상**, 복수 **60,000바트 이상**이라는 조건이 있어요. 거래내역은 접수일 기준 한 달 이내에 발급된 서류여야 해요. 이 내용은 외국 국적자 신청 서류이며 한국 여권에 일괄 적용하지 않아요. 비자 신청 때 내는 은행서류와 입국심사에서 제시하는 현금도 서로 다른 준비예요.",
+          "영문 여행 일정표에는 한국 출발 왕복 항공권을 준비하도록 안내돼 있어요. 숙박은 영문 호텔 예약증이나 주택 계약서 등으로 증명할 수 있어요. 숙박제공 초청장으로 증명한다면 초청인의 여권 또는 태국 신분증 사본과 거주지 증빙도 함께 준비해야 해요. 초청장만 제출하면 서류가 빠질 수 있으니 함께 챙겨주세요.",
+          "신청할 때는 실제 전자비자 화면에서 요구하는 서류도 함께 봐주세요. 접수 후 추가 서류 요청이 오면 해당 서류를 제출해야 해요. 담당자가 심사 과정에서 추가 자료를 요구하거나 적합하지 않은 접수를 거부할 수 있으므로, 서류를 올렸다는 이유만으로 승인이 끝난 것은 아니에요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://www.thaievisa.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        },
+        "paragraphAudiences": [
+          "KR",
+          "foreign",
+          "foreign",
+          "KR",
+          "KR"
+        ],
+        "foreignPassportExceptions": {
+          "ketaOnwardTicket": "K-ETA 입국 여행자는 편도 항공권 제출 허용 (기존 원문 보존)"
+        }
+      },
+      {
+        "title": "온라인 신청부터 승인서 저장까지",
+        "paragraphs": [
+          "**thaievisa.go.th**에서 계정을 만든 뒤 국적과 현재 위치, 여권 종류, 관광 목적을 선택하고 신청서를 작성해주세요. 여권을 자동으로 읽어 입력했다면 성과 이름, 중간이름이 여권과 맞는지도 직접 대조해보세요.",
+          "서류를 올리고 수수료 절차를 마친 뒤 **Submit을 눌러 제출**해야 접수가 진행돼요. 주한 태국대사관은 한국 국적자의 비자 수수료가 면제되더라도 시스템에서 결제 완료 절차를 거쳐야 한다고 안내해요. 여권 종류를 잘못 선택해 낸 수수료는 환불되지 않을 수 있으니 제출 전에 선택한 여권 종류를 다시 봐주세요.",
+          "접수 후에는 진행상태와 이메일을 보면서 추가 서류 요청에 답해주세요. 승인을 받으면 전자비자 확인서를 내려받아 보관하시면 돼요. 서류에 문제가 없다면 약 **7업무일**이 걸린다는 공관 안내가 있지만, 보완 요청이나 심사에 따라 더 걸릴 수 있어요. **그날까지 발급된다는 보장은 아니므로** 출발 직전에 신청하지 말고 여유를 두고 준비해주세요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://www.thaievisa.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      },
+      {
+        "title": "관광비자가 있어도 TDAC는 별도로 작성해요",
+        "paragraphs": [
+          "관광비자 승인서를 받았더라도 **TDAC는 따로 작성**해야 해요. 도착일을 포함한 도착 전 3일 이내에 공식 사이트에서 제출하고, 받은 문서를 휴대전화에 저장해주세요.",
+          "공항에서는 여권과 비자 확인서를 꺼낼 수 있게 준비해두세요. 입국심사를 마치면 여권에 적힌 실제 체류 허가 만료일도 봐주세요. 출국일은 비자 유효기간이 아니라 입국할 때 받은 체류 허가기간에 맞춰 정하셔야 해요."
+        ],
+        "verificationEvidence": {
+          "checkedAt": "2026-10-14",
+          "sourceUrls": [
+            "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4",
+            "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내",
+            "https://www.thaievisa.go.th/",
+            "https://tdac.immigration.go.th/manual/en/index.html",
+            "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174",
+            "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba"
+          ],
+          "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "한국인도 태국 관광비자를 받아야 하나요?",
+        "a": "한국 일반여권으로 무비자 관광 입국 조건을 충족한다면 관광비자를 따로 받지 않아도 돼요. 관광비자가 필요한 일정이라면 본인의 여권과 방문 목적, 체류 조건에 맞는 비자를 신청해주세요."
+      },
+      {
+        "q": "복수 관광비자로 180일을 한 번에 머물 수 있나요?",
+        "a": "아니요. 복수 관광비자의 180일은 비자를 사용할 수 있는 유효기간이에요. 대사관이 안내하는 체류기간은 60일이므로, 한 번 입국해서 180일을 계속 머물 수 있는 것은 아니에요. 실제 출국일은 입국 후 여권에 적힌 허가 만료일을 보고 정해주세요."
+      },
+      {
+        "q": "한국 국적자의 관광비자 수수료는 얼마인가요?",
+        "a": "주한 태국대사관은 한국 국적자의 비자 수수료를 면제한다고 안내해요. 다만 비용이 면제돼도 전자비자 시스템의 수수료 절차는 마쳐야 해요. 여권 종류를 잘못 선택해 결제한 비용은 환불되지 않을 수 있으니 선택한 항목을 다시 살펴봐주세요."
+      },
+      {
+        "q": "관광비자 신청 뒤 바로 여행해도 되나요?",
+        "a": "신청서를 접수했다고 비자를 받은 것은 아니에요. 진행상태와 이메일을 보며 심사가 끝났는지 살펴보고, 승인서를 받은 뒤 준비해주세요. 추가 서류를 요청받으면 심사가 더 걸릴 수 있어요. 안내된 처리기간만 보고 발급일이 확정됐다고 생각하시면 안 돼요."
+      }
+    ],
+    "sources": [
+      [
+        "주한 태국대사관 · 관광비자",
+        "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4"
+      ],
+      [
+        "주한 태국대사관 · 비자 신청 안내 · 2026년 8월 28일",
+        "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내"
+      ],
+      [
+        "태국 외교부 전자비자 공식 사이트",
+        "https://www.thaievisa.go.th/"
+      ],
+      [
+        "TDAC 영어 사용자 가이드 · 버전 1.19",
+        "https://tdac.immigration.go.th/manual/en/index.html"
+      ],
+      [
+        "태국 외교부 · 2026년 9월 15일 시행 무비자 개편",
+        "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174"
+      ],
+      [
+        "주카타르 태국대사관 · 2026년 9월 16일 갱신 무비자 안내",
+        "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba"
+      ]
+    ],
+    "facts": [],
+    "checkedAt": "2026-10-14",
+    "locale": "ko",
+    "market": "KR",
+    "editorialReview": {
+      "basis": [
+        "docs/natural-korean-copy.md",
+        "docs/sirocco-user-full-reference-20261014.txt",
+        "docs/detail-template-rules.md"
+      ],
+      "comparison": "소개/예약/대중교통/FAQ의 구체적인 행동·대상·조건 설명과 대조",
+      "record": "docs/entry-korean-editorial-review-20261014.md",
+      "market": "KR"
+    }
+  }
+]

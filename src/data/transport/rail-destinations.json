@@ -1,0 +1,113 @@
+[
+  {
+    "id": "terminal21",
+    "name": "터미널21 아속",
+    "english": "Terminal 21 Asok",
+    "category": "쇼핑",
+    "stationIds": [
+      "node-12888241968",
+      "node-12800442805"
+    ],
+    "access": "BTS 아속 1번 출구 또는 MRT 수쿰윗 3번 출구로 나와 터미널21 안내를 따라 이동하세요.",
+    "sourceUrl": "https://www.terminal21.co.th/asok/howtogo/en",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "siam-paragon",
+    "name": "시암 파라곤",
+    "english": "Siam Paragon",
+    "category": "쇼핑",
+    "stationIds": [
+      "node-1697004538"
+    ],
+    "access": "BTS 시암 3번 출구의 시암 파라곤 연결 통로를 이용하세요.",
+    "sourceUrl": "https://www.siamparagon.co.th/th/getting-here",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "mbk",
+    "name": "MBK 센터",
+    "english": "MBK Center",
+    "category": "쇼핑",
+    "stationIds": [
+      "node-257066819"
+    ],
+    "access": "BTS 내셔널 스타디움에서 MBK 연결 보행로를 이용하세요.",
+    "sourceUrl": "https://www.mbk-center.co.th/en/howtogo/",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "jim-thompson-art",
+    "name": "짐 톰슨 아트센터",
+    "english": "Jim Thompson Art Center",
+    "category": "명소",
+    "stationIds": [
+      "node-257066819"
+    ],
+    "access": "BTS 내셔널 스타디움 1번 출구에서 도보로 이동하세요.",
+    "sourceUrl": "https://www.jimthompsonartcenter.org/",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "museum-siam",
+    "name": "뮤지엄 시암",
+    "english": "Museum Siam",
+    "category": "명소",
+    "stationIds": [
+      "node-3801040560"
+    ],
+    "access": "MRT 사남차이에서 내려 박물관으로 도보 이동하세요.",
+    "sourceUrl": "https://www.thailandtravel.or.jp/museum-of-siam/",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "sheraton-grande",
+    "name": "쉐라톤 그란데 수쿰윗",
+    "english": "Sheraton Grande Sukhumvit",
+    "category": "호텔",
+    "stationIds": [
+      "node-12888241968",
+      "node-12800442805"
+    ],
+    "access": "BTS 아속 또는 MRT 수쿰윗에서 내려 호텔 방면으로 이동하세요.",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "westin-grande",
+    "name": "웨스틴 그란데 수쿰윗",
+    "english": "The Westin Grande Sukhumvit",
+    "category": "호텔",
+    "stationIds": [
+      "node-12888241968",
+      "node-12800442805"
+    ],
+    "access": "BTS 아속·MRT 수쿰윗 인근 호텔이에요. 하차 후 호텔 입구까지 도보로 이동하세요.",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/bkkwi-the-westin-grande-sukhumvit-bangkok/overview/",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "hyatt-regency",
+    "name": "하얏트 리젠시 방콕 수쿰윗",
+    "english": "Hyatt Regency Bangkok Sukhumvit",
+    "category": "호텔",
+    "stationIds": [
+      "node-270668230"
+    ],
+    "access": "BTS 나나역과 연결된 스카이브리지를 이용해 호텔로 이동하세요.",
+    "sourceUrl": "https://newsroom.hyatt.com/news-releases?item=123772",
+    "checkedAt": "2026-10-13"
+  },
+  {
+    "id": "siam-kempinski",
+    "name": "시암 켐핀스키",
+    "english": "Siam Kempinski Hotel Bangkok",
+    "category": "호텔",
+    "stationIds": [
+      "node-1697004538"
+    ],
+    "access": "BTS 시암에서 시암 파라곤 방면으로 이동한 뒤 호텔 연결 보행로를 이용하세요.",
+    "sourceUrl": "https://www.kempinski.com/en/siam-hotel/overview/hotel-information/our-hotel",
+    "checkedAt": "2026-10-13"
+  }
+]

@@ -1,0 +1,14 @@
+---
+import {cameras} from '../data/cameras';
+import {getUI,cameraTitle,previewLabel} from '../i18n/ui';
+const {locale='ko'}=Astro.props;
+const ui=getUI(locale),ko=locale==='ko';
+---
+<section class="camera-map-results" aria-label={ko?'지도에서 카메라 찾기':'Find cameras on the map'}>
+ <header><h2>{ko?'지도에서 카메라 찾기':'Find cameras on the map'}</h2><span id="map-results-count" role="status" aria-live="polite">{ko?'선택 조건 전체':'All matching cameras'}: {cameras.length}</span></header>
+ <p class="camera-map-hint">{ko?'숫자는 가까운 카메라의 개수예요. 누르면 지도가 확대돼요.':'Numbers show nearby cameras grouped together. Select a number to zoom in.'}</p>
+ <div class="camera-map-scope" role="group" aria-label={ui.cameraList}><button type="button" data-result-scope="view" aria-pressed="false" disabled>{ko?'현재 지도 범위':'Current map area'}</button><button type="button" data-result-scope="all" aria-pressed="true">{ko?'선택 조건 전체':'All matching cameras'}</button></div>
+ <div class="camera-map-result-grid">{cameras.map(camera=><article data-map-result={camera.id} hidden><button class="camera-map-preview" type="button" data-select-camera={camera.id} aria-label={`${ui.viewMap}: ${cameraTitle(camera,locale)}`}><div class="thumbnail"><img src={camera.preview?.url} alt="" loading="lazy" referrerpolicy="no-referrer"/></div></button><div><h3>{cameraTitle(camera,locale)}</h3><small data-result-selected hidden>{ko?'선택한 카메라':'Selected camera'}</small><div class="camera-map-result-actions"><button type="button" data-select-camera={camera.id}>{ko?'지도에서 선택':'Select on map'}</button><a href={`/${locale}/cameras/${camera.id}/`}>{ui.details}</a></div></div></article>)}</div>
+ <p id="map-results-empty" role="status" hidden>{ko?'이 범위에 카메라가 없어요. 지도를 넓히거나 선택 조건 전체를 확인하세요.':'No cameras in this area. Zoom out or view all matching cameras.'}</p>
+ <button type="button" id="map-results-more" class="camera-map-more" hidden>{ko?'더 보기':'Show more'}</button>
+</section>

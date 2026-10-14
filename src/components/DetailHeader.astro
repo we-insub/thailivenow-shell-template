@@ -1,0 +1,35 @@
+---
+import {getDesignUI} from '../i18n/design-ui';
+import SiteDesign from './SiteDesign.astro';
+import SiteBrand from './SiteBrand.astro';
+import LanguagePicker from './LanguagePicker.astro';
+import {getUI} from '../i18n/ui';
+import {airportUI} from '../i18n/airport-ui';
+import {headerIcons} from '../design/header-icons';
+const {locale='ko', home=false, brand='ThaiLiveNow'}=Astro.props;
+const design=getDesignUI(locale);
+const ui=getUI(locale);
+const koreanItems = [
+ ['지도에서 찾기','지도','compass','/ko/'],['태국 여행','태국 여행','pin','/ko/destinations/'],
+ ['음식','음식','food','/ko/food/'],['교통','교통','train','/ko/transport/'],
+ ['카메라 목록','카메라','grid','/ko/directory/'],['저장한 카메라','저장','heart','/ko/saved/'],
+ ['음식배달','배달','food','/ko/food-delivery/'],['루프탑','루프탑','pin','/ko/rooftops/'],
+ ['해변','해변','pin','/ko/beaches/'],['할인쿠폰','쿠폰','coupon','/ko/coupons/'],
+ ['항공편 지연·결항','지연·결항','plane','/ko/airport-assistance/']
+];
+const items=locale==='ko'?koreanItems:[...['map','destinations','food','transport','cameras','coupons','flights'].map((id,i)=>[ui[id],ui[id],['compass','pin','food','train','grid','coupon','plane'][i],id==='map'?`/${locale}/`:id==='cameras'?`/${locale}/directory/`:id==='flights'?`/${airportUI[locale]?.[0]?locale:'ko'}/airport-assistance/`:`/${locale}/${id}/`])];
+if(locale!=='ko')items.splice(5,0,[design.saved,design.saved,'heart',`/${locale}/saved/`]);
+const active=(href:string)=>href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
+const topicHub=/^\/[^/]+\/(destinations|coupons|food|transport)\/$/.test(Astro.url.pathname);
+---
+<SiteDesign />
+<div class="tln-shared-header" data-market={locale}>
+<header class="site-header unified-header" data-site-header data-home={home ? 'true' : undefined}>
+  <SiteBrand href={`/${locale}/`} name={brand}/>
+  <nav class="main-nav" aria-label={ui.explore} style={`--header-nav-count:${items.length}`}>
+    {items.map(([name,short,icon,href]) => <a href={href} class:list={[active(href)&&'active']} aria-current={active(href)?'page':undefined}><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={headerIcons[icon] || headerIcons.pin}/><span class="nav-full-label">{name}</span><span class="nav-short-label">{short}</span></a>)}
+  </nav>
+  <LanguagePicker locale={locale} homeOnly={!home && !topicHub && !Astro.url.pathname.includes('/airport-assistance')} switchPath={Astro.url.pathname.includes('/airport-assistance') ? '/airport-assistance/' : undefined} />
+</header></div><div class="comparison-bar" id="comparison-bar" hidden><span>{locale==='ko'?'비교할 카메라':'Cameras to compare'} <strong data-comparison-count>0</strong>/4</span><a class="comparison-go" href={`/${locale}/compare/`}>{locale==='ko'?'비교 보기':'Compare'}</a><button type="button" class="comparison-clear" data-comparison-clear>{locale==='ko'?'비우기':'Clear'}</button><span id="comparison-notice" role="status" hidden></span></div>
+<script>import '../scripts/saved-cameras';</script>
+<script>import '../scripts/header-navigation';</script>

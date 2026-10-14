@@ -1,0 +1,7 @@
+---
+import CameraComparison from '../../../components/CameraComparison.astro';
+import {locales} from '../../../i18n/locales';
+export function getStaticPaths(){return locales.map(v=>({params:{locale:v.code},props:{locale:v.code}}));}
+const {locale}=Astro.props;
+---
+<CameraComparison locale={locale}/>
