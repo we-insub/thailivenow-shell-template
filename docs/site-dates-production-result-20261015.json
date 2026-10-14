@@ -1,0 +1,37 @@
+{
+  "documentation": "completed",
+  "implementation": "completed",
+  "localValidation": "passed",
+  "codeCommit": "302ecd76de8e0fd52c24ad1cd4571696c7e296e3",
+  "githubMainPush": "completed",
+  "deployment": {
+    "status": "success",
+    "id": "a2e72ca4-47fd-41c3-bacd-a2e228fa2cfa",
+    "url": "https://a2e72ca4.thai-live-now.pages.dev",
+    "production": "https://thailivenow.com",
+    "date": "2026-10-15",
+    "timeZone": "Asia/Bangkok"
+  },
+  "productionValidation": {
+    "pages": 1816,
+    "issues": 0,
+    "localBrowserScreens": 44,
+    "productionBrowserScreens": 44,
+    "commonDateBindings": 3102,
+    "pagesWithDateBindings": 1699,
+    "cameras": 29,
+    "cameraDetailURLs": 348,
+    "sourceRecordPages": 1351,
+    "exactMinuteChecks": 3
+  },
+  "scope": {
+    "baselineDeployment": "2c56ab40-ae6a-49b1-ad5b-6c1fe6cf1c85",
+    "baselineArchiveSHA256": "4475a24300fb4406c81458dd2d0fc3c002cd58b6fbedd5d56a1fa3a42a69dda4",
+    "unrelatedContentChanges": 0,
+    "partialDeploymentWorkflowActivated": false
+  },
+  "screenshots": [
+    "production-pc.png",
+    "production-mobile.png"
+  ]
+}
