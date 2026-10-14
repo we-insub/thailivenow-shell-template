@@ -9,6 +9,6 @@ export function applySiteIntegrations(html) {
   const verification = Object.entries(siteVerification)
     .filter(([name]) => !html.includes(`name="${name}"`))
     .map(([name, content]) => `<meta name="${name}" content="${content}">`).join('');
-  const analytics = html.includes('data-tln-analytics') ? '' : `<script data-tln-analytics>(function(){if(!['thailivenow.com','www.thailivenow.com'].includes(location.hostname))return;window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config','${googleMeasurementId}');var tag=document.createElement('script');tag.async=true;tag.src='https://www.googletagmanager.com/gtag/js?id=${googleMeasurementId}';document.head.appendChild(tag);})();</script>`;
+  const analytics = html.includes('data-tln-analytics') ? '' : '<script data-tln-analytics type="module" src="/analytics-consent.mjs"></script>';
   return html.replace('</head>', `${verification}${analytics}</head>`);
 }

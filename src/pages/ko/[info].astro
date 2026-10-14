@@ -1,0 +1,7 @@
+---
+import ServiceInfoPage from '../../components/ServiceInfoPage.astro';
+import pages from '../../data/service-info-ko.json';
+export function getStaticPaths(){return pages.map(page=>({params:{info:page.id},props:{page}}));}
+const {page}=Astro.props;
+---
+<ServiceInfoPage page={page}/>

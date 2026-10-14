@@ -6211,6 +6211,76 @@
     "/zh-tw/airport-assistance/routes/tg637-20261013/": {
       "sourceCheckedOn": "2026-10-13",
       "contentModifiedOn": null
+    },
+    "/ko/about/": {
+      "sourceCheckedOn": "2026-10-15",
+      "contentModifiedOn": "2026-10-15",
+      "observations": [
+        {
+          "observedDate": "2026-10-15",
+          "kind": "service-policy-review",
+          "evidence": [
+            "User confirmed purpose, Korean scope, operator, Gmail email handling, future CPA and GA4 consent in current chat",
+            "Local source and Google consent documentation reviewed; this is not a field audit of all travel data"
+          ]
+        }
+      ]
+    },
+    "/ko/contact/": {
+      "sourceCheckedOn": "2026-10-15",
+      "contentModifiedOn": "2026-10-15",
+      "observations": [
+        {
+          "observedDate": "2026-10-15",
+          "kind": "service-policy-review",
+          "evidence": [
+            "User confirmed purpose, Korean scope, operator, Gmail email handling, future CPA and GA4 consent in current chat",
+            "Local source and Google consent documentation reviewed; this is not a field audit of all travel data"
+          ]
+        }
+      ]
+    },
+    "/ko/credits/": {
+      "sourceCheckedOn": "2026-10-15",
+      "contentModifiedOn": "2026-10-15",
+      "observations": [
+        {
+          "observedDate": "2026-10-15",
+          "kind": "service-policy-review",
+          "evidence": [
+            "User confirmed purpose, Korean scope, operator, Gmail email handling, future CPA and GA4 consent in current chat",
+            "Local source and Google consent documentation reviewed; this is not a field audit of all travel data"
+          ]
+        }
+      ]
+    },
+    "/ko/terms/": {
+      "sourceCheckedOn": "2026-10-15",
+      "contentModifiedOn": "2026-10-15",
+      "observations": [
+        {
+          "observedDate": "2026-10-15",
+          "kind": "service-policy-review",
+          "evidence": [
+            "User confirmed purpose, Korean scope, operator, Gmail email handling, future CPA and GA4 consent in current chat",
+            "Local source and Google consent documentation reviewed; this is not a field audit of all travel data"
+          ]
+        }
+      ]
+    },
+    "/ko/privacy/": {
+      "sourceCheckedOn": "2026-10-15",
+      "contentModifiedOn": "2026-10-15",
+      "observations": [
+        {
+          "observedDate": "2026-10-15",
+          "kind": "service-policy-review",
+          "evidence": [
+            "User confirmed purpose, Korean scope, operator, Gmail email handling, future CPA and GA4 consent in current chat",
+            "Local source and Google consent documentation reviewed; this is not a field audit of all travel data"
+          ]
+        }
+      ]
     }
   }
 }

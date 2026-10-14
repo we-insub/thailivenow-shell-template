@@ -1,1 +1,20 @@
-{"version":1,"include":["/*"],"exclude":["/_astro/*","/data/*","/images/*","/transit-assets/*","/favicon*","/apple-touch-icon.png","/robots.txt","/sitemap.xml","/site-dates-client.mjs","/content-assets.mjs","/content-modules.mjs"]}
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/_astro/*",
+    "/data/*",
+    "/images/*",
+    "/transit-assets/*",
+    "/favicon*",
+    "/apple-touch-icon.png",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/site-dates-client.mjs",
+    "/content-assets.mjs",
+    "/content-modules.mjs",
+    "/analytics-consent.mjs"
+  ]
+}

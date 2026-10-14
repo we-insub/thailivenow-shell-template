@@ -1,0 +1,17 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+const source=fs.readFileSync(new URL('../public/analytics-consent.mjs',import.meta.url),'utf8');
+function setup(saved){
+ class Element{constructor(tag){this.tagName=tag;this.handlers={};this.nodes=new Map();this.open=false;this.innerHTML='';}setAttribute(k,v){this[k]=v;}querySelector(s){if(!this.nodes.has(s))this.nodes.set(s,new Element('node'));return this.nodes.get(s);}addEventListener(k,f){this.handlers[k]=f;}append(e){appended.push(e);}show(){this.open=true;}showModal(){this.open=true;}close(){this.open=false;}focus(){}remove(){this.removed=true;}}
+ const appended=[],storage=new Map(saved?[['thailivenow.analytics-consent.v1',JSON.stringify(saved)]]:[]);let reloads=0;const events={};const document={documentElement:{lang:'ko'},referrer:'https://example.org/path?q=test#fragment',cookie:'_ga=old; other=keep',createElement:tag=>new Element(tag),head:new Element('head'),body:new Element('body'),getElementById:id=>appended.find(e=>e.id===id),addEventListener:(k,f)=>events[k]=f};
+ const window={addEventListener:(k,f)=>events[k]=f};const location={hostname:'thailivenow.com',href:'https://thailivenow.com/ko/privacy/?q=test#section',pathname:'/ko/privacy/',reload:()=>reloads++};
+ vm.runInNewContext(source,{document,window,location,localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},URL,Date,Number,JSON});
+ const dialog=appended.find(x=>x.id==='analytics-settings');return {dialog,window,storage,appended,reloads:()=>reloads,click:s=>dialog.querySelector(s).handlers.click()};
+}
+const gaTags=s=>s.appended.filter(e=>e.id==='tln-ga4-tag');
+test('allow, deny, close order and no analytics before consent',()=>{const s=setup();assert.deepEqual([...s.dialog.innerHTML.matchAll(/<button[^>]*data-(allow|deny|close)/g)].map(m=>m[1]),['allow','deny','close']);assert.equal(gaTags(s).length,0);s.click('[data-close]');assert.equal(s.dialog.open,false);assert.equal(s.storage.size,0);assert.equal(gaTags(s).length,0);});
+test('allow starts one tag with sanitized initial URL and denied advertising',()=>{const s=setup();s.click('[data-allow]');assert.equal(gaTags(s).length,1);assert.equal(JSON.parse(s.storage.get('thailivenow.analytics-consent.v1')).value,'granted');const config=s.window.dataLayer.find(a=>a[0]==='config')[2];assert.equal(config.page_location,'https://thailivenow.com/ko/privacy/');assert.equal(config.page_referrer,'https://example.org/path');assert.equal(config.allow_google_signals,false);const consent=s.window.dataLayer.find(a=>a[0]==='consent'&&a[1]==='update')[2];assert.equal(consent.ad_storage,'denied');assert.equal(consent.ad_personalization,'denied');s.click('[data-allow]');assert.equal(gaTags(s).length,1);});
+test('deny before load and revoke after allow preserve collection blocking',()=>{const first=setup();first.click('[data-deny]');assert.equal(gaTags(first).length,0);assert.equal(first.window['ga-disable-G-56PNXZ2KKJ'],true);const s=setup();s.click('[data-allow]');s.click('[data-deny]');assert.equal(s.window['ga-disable-G-56PNXZ2KKJ'],true);assert.equal(JSON.parse(s.storage.get('thailivenow.analytics-consent.v1')).value,'denied');assert.equal(s.reloads(),1);assert.equal(gaTags(s)[0].removed,true);});
+test('saved denial or expired consent cannot start analytics',()=>{for(const saved of [{value:'denied',expires:Date.now()+60000},{value:'granted',expires:Date.now()-60000}])assert.equal(gaTags(setup(saved)).length,0);});
