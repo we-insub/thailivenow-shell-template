@@ -8,12 +8,13 @@ const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;'
 export function bindDates(html,pagePath,dates) {
   const locale=pagePath.split('/')[1]||'en';let count=0;
   for(const [label,kind] of dateLabels) {
-    const pattern=new RegExp(`(${label}:\\s*)(?:<span\\b[^>]*>)?((?:\\d{4}-\\d{2}-\\d{2})|[^<\\n]*?(?:로컬 시안|local preview|tempatan|本地预览|локальный просмотр|ローカルプレビュー|vista previa local|本機預覽))(?:<\\/span>)?`,'g');
-    html=html.replace(pattern,(all,prefix,old)=>{
+    const pattern=new RegExp(`(${label}:\\s*)(?:(<span\\b[^>]*>)([^<]*)(<\\/span>)|((?:\\d{4}-\\d{2}-\\d{2})|[^<\\n]*?(?:로컬 시안|local preview|tempatan|本地预览|локальный просмотр|ローカルプレビュー|vista previa local|本機預覽)))`,'g');
+    html=html.replace(pattern,(all,prefix,opening,wrapped,closing,plain)=>{const old=wrapped||plain;
       count++;const value=kind==='deployment'?(validDate(old)?old:null):dates.pages?.[pagePath]?.sourceCheckedOn;
-      return `${prefix}<time data-site-date="${kind}" data-page-path="${escape(pagePath)}" data-date-locale="${locale}"${validDate(value)?` datetime="${value}"`:''}>${validDate(value)?value:unknown[locale]||unknown.en}</time>`;
+      return `${prefix}${opening||''}<time data-site-date="${kind}" data-page-path="${escape(pagePath)}" data-date-locale="${locale}"${validDate(value)?` datetime="${value}"`:''}>${validDate(value)?value:unknown[locale]||unknown.en}</time>${closing||''}`;
     });
   }
+  html=html.replace(/document\.getElementById\("(?:src-date|deploy-date)"\)\.textContent\s*=\s*getOperationalDeployDate\(\);/g,'/* Date controlled by the Pages response snapshot. */');
   const cameraId=html.match(/data-camera-detail="([^"]+)"/)?.[1];
   if(cameraId){
     const checked=dates.cameras?.[cameraId]?.sourceCheckedOn;
