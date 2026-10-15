@@ -19,4 +19,14 @@
 - https://www.tatnews.org/2017/07/ko-phangan-ko-tao-ko-nang-yuan/ (수중 활동 등 지속적인 장소 특성)
 - https://www.tatnews.org/2017/09/thailand-embarks-journey-clean-kingdoms-oceans/ (코사멧 지형/방콕 연계 맥락만 사용)
 
-검증과 배포 성공은 실행 후 기록한다.
+## 실행 결과
+
+- 구현 커밋: `4b8e5564192539ae8541f675702b02d2e3b02805`. GitHub main/codex/site-dates 푸시 완료.
+- 최종 후보: `artifacts/destination-intros-ko-final-retry-20261015`. 기존 테스트 29개, 전체 SEO 오류 0, 날짜/카메라 감사 오류 0, 실제 Pages 로컬 런타임 검사 통과. 54개 관련 HTML을 재생성해 전체 1,821개에 병합. 33.849초.
+- 기존 운영 기준과 해시 비교: 한국어 destinations HTML 1개만 변경, 다른 1,820개 HTML 보존. 모든 사진·라이선스·링크 보존.
+- 정식 배포: https://d38451d7.thai-live-now.pages.dev . 변경 파일 2개 업로드, 기존 1,930개 재사용.
+- 실제 운영 https://thailivenow.com/ko/destinations/ HTTP 200, 소개 13개가 최종 후보와 일치. title/H1/description/OG/canonical 일치. 공식 운영 검증 18개 통과(11개 언어 홈, 날짜/카메라 데이터, 사이트맵/robots/통계 스크립트, 미리보기 noindex 포함).
+- 운영 PC 1440×900 / 모바일 390×844: 소개 13개, 태국 여행 활성 메뉴, 가로 넘침 없음, 브라우저 오류 없음. 사진·본문·사진 출처·지도 버튼 가독성 확인.
+- 화면/추가 감사: 기본 작업 디렉터리 `artifacts/destination-intros-ko-20261015/production-pc.png`, `production-mobile.png`, `production-audit.json`.
+- 저장 공간 부족으로 실패한 중간 시도는 검증 완료로 계산하지 않았다. 이전 자체 빌드 사본 10개를 CRC/파일수 검증 후 dist.zip으로 무손실 보관했으며 소스·QA·현재 운영 기준은 보존했다. 이후 최종 후보를 새로 빌드·검증했다.
+
