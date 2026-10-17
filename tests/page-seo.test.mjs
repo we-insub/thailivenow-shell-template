@@ -54,7 +54,7 @@ test('site audit rejects duplicated indexable metadata instead of only reporting
  const {spawnSync}=await import('node:child_process');
  const temp=await mkdtemp(join(tmpdir(),'tln-seo-test-'));
  try{
-  const root=join(temp,'site');await mkdir(join(temp,'artifacts'));
+  const root=join(temp,'site'); // A fresh checkout has no artifacts directory.
   for(const topic of ['a','b']){
    const path=`/ko/${topic}/`;
    await mkdir(join(root,'ko',topic),{recursive:true});

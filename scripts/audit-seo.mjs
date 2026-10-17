@@ -1,4 +1,4 @@
-import { readdir, readFile, writeFile } from 'node:fs/promises';
+import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { parse } from 'parse5';
 import { applyPageSEO } from '../src/lib/page-seo.mjs';
 const root = process.argv[2] || 'dist';
@@ -70,6 +70,7 @@ for(const page of pages){
  }
 }
 const report={pages:pages.length,indexable:pages.filter(p=>!p.robots.includes('noindex')).length,errors,warnings,duplicateTitles,duplicateDescriptions,metadata:pages};
+await mkdir('artifacts',{recursive:true});
 await writeFile('artifacts/seo-audit.json',JSON.stringify(report,null,2));
 console.log(JSON.stringify({pages:pages.length,indexable:report.indexable,errors:errors.length,warnings:warnings.length,duplicateTitles:duplicateTitles.length,duplicateDescriptions:duplicateDescriptions.length}));
 if(errors.length){console.error(errors.slice(0,10));process.exit(1);}

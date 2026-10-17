@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+const input=process.argv[2]||'src/data/beaches.json';
+const parsed=JSON.parse(fs.readFileSync(input,'utf8'));
+const records=Array.isArray(parsed)?parsed:parsed.records;
+if(!Array.isArray(records))throw new Error('Expected beach array or records array');
+const populated=value=>typeof value==='string'&&value.trim()&&!/^(미확인|미검증|unknown|pending|정보 없음|-)$/i.test(value.trim());
+const result=records.map(record=>{
+ const gaps=[];
+ for(const key of ['id','name','english','city','facilityType','intro','coordinateSource'])if(!populated(record[key]))gaps.push(key);
+ if(!Number.isFinite(record.lat)||!Number.isFinite(record.lng)||record.lat<5||record.lat>21||record.lng<97||record.lng>106)gaps.push('verified Thailand coordinates');
+ for(const key of ['accessConditions','swimming','seasons','facilities'])if(!Array.isArray(record[key])||!record[key].some(row=>populated(row.label)&&populated(row.value)&&populated(row.sourceUrl)))gaps.push(key+' with row evidence');
+ if(!Array.isArray(record.transport)||!record.transport.some(item=>populated(item.instructions)&&populated(item.sourceUrl)))gaps.push('transport with evidence');
+ const photos=(record.photos||[]).filter(photo=>populated(photo.src)&&populated(photo.alt)&&populated(photo.sourceUrl)&&populated(photo.rights));
+ if(photos.length<2||photos.length>3)gaps.push('2–3 rights-cleared photos');
+ if(!record.faq?.some(row=>populated(row[0])&&populated(row[1])))gaps.push('facility FAQ');
+ if(!record.sources?.length)gaps.push('sources');
+ if(!record.verifiedSwimmingConditions)gaps.push('swimming conditions reviewed');
+ return {id:record.id||null,city:record.city||null,ready:gaps.length===0,gaps};
+});
+console.log(JSON.stringify({input,total:result.length,ready:result.filter(r=>r.ready).length,records:result},null,2));

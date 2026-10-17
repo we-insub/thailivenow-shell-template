@@ -2,3 +2,27 @@ node_modules/
 dist/
 .astro/
 .DS_Store
+
+# Credentials and machine-local state (example contains names only)
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+.wrangler/
+artifacts/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.swp
+coverage/
+
+# Generated from tracked observations and release metadata
+/public/data/site-dates.json

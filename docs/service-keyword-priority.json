@@ -1,0 +1,13 @@
+{
+  "decidedAt": "2026-10-14",
+  "decisionSource": "사용자 명시 지시",
+  "primaryTargetKeyword": "태국 여행",
+  "priority": 1,
+  "meaning": "서비스·홈페이지의 최우선 목표 키워드. 모든 국가 Google Trends에서 검색량1위라는 의미는 아님.",
+  "researchStatus": "saved",
+  "implementationStatus": "deferred-until-service-planning-with-user",
+  "nextStep": "사용자와 서비스 계획을 함께 정한 뒤 연관검색어·현지화·콘텐츠 구성을 결정",
+  "researchDirectory": "artifacts/google-trends-20261014",
+  "automaticResearchOrImplementation": false,
+  "deploymentAuthorized": false
+}
