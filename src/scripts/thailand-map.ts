@@ -1,3 +1,4 @@
+import {cameraCardPreview} from '../lib/camera-video-preview.mjs';
 import cameraEditorial from '../data/camera-editorial-ko.json';
 import {cameraViewingCopy} from '../lib/camera-viewing-copy.mjs';
 import {renderCameraWeather} from './camera-weather';
@@ -145,11 +146,12 @@ if (container) {
     selection.hidden=false;
     explorerPanel.classList.add('has-selection');
     const preview=document.querySelector<HTMLImageElement>('#selected-preview')!;
-    preview.hidden=locale==='ko'||!camera.preview?.url;
-    if(camera.preview?.url)preview.src=camera.preview.url;
+    const displayPreview=locale==='ko'?cameraCardPreview(camera):camera.preview;
+    preview.hidden=!displayPreview?.url;
+    if(displayPreview){preview.src=displayPreview.url;preview.alt=cameraTitle(camera,locale)+' · '+displayPreview.label;}
     const credit=document.querySelector<HTMLAnchorElement>('#selected-credit')!;
-    credit.hidden=locale==='ko'||!camera.preview;
-    if(camera.preview){credit.href=camera.preview.sourceUrl;credit.textContent=previewLabel(camera.preview.label,locale)+' · '+sourceText(camera.preview.credit,locale)+' · '+(camera.preview.license || '');}
+    credit.hidden=!displayPreview;
+    if(displayPreview){credit.href=displayPreview.sourceUrl;credit.textContent=previewLabel(displayPreview.label,locale)+' · '+sourceText(displayPreview.credit,locale)+('license' in displayPreview?' · '+displayPreview.license:'');}
 
     const save=document.querySelector<HTMLElement>('#selected-place [data-save-camera]')!;save.dataset.saveCamera=id;
 
