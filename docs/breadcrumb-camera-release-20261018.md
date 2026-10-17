@@ -23,3 +23,16 @@
 배포 후에는 업로드 성공과 운영 커밋/반영 응답만 확인하고 운영 UI 기능 검수는 반복하지 않는다. Search Console에서 수정 결과 확인을 제출한 후 상태를 기록한다. 제출 접수와 Google 검증 완료·수집·색인·노출은 별개다. 실행 결과는 완료 후 이 문서에 추가한다.
 
 첫 격리 전체 감사에서 연결 명소 왓아룬의 동일 상대 item 3개도 검출했다. 해당 BreadcrumbList만 실제 화면의 홈·여행지·방콕 지도 링크와 같은 절대 URL로 수정하고 전체 검사를 재실행한다. 교통 원본 36개와 연결 명소 1개이며 본문·사진·FAQ는 그대로다.
+
+## 실행 완료 결과
+
+- 소스 커밋: e3c26d9(교통 탐색경로·기존 카메라 업데이트), 883f197a5a71d9b2a8bb5c14f37905f0e7172a69(왓아룬 추가 수정). origin/main 푸시 완료.
+- 교통 원본 36개 + 연결 명소 왓아룬 1개는 JSON-LD 이외 본문·사진·FAQ·링크 동일. 실제 교통 출력 29페이지에서 탐색경로 수정. 기존 화면/사진/사실 재작성 없음.
+- 격리 전체 테스트 35개 통과. 전체 빌드 1,821페이지·SEO 오류 0·중복 제목/설명 0. 기존 타 경로 길이 등 경고 134개는 기존 승인 원고를 변경하지 않고 유지. 날짜 감사 3,180바인딩·오류 없음. 디자인 감사 1,821페이지·issues 없음.
+- 전체 831개 BreadcrumbList, 1,678개 item 절대 URL과 실제 로컬 대상/정본 대조 통과. 마지막 item 생략 유지. 원본 37개 JSON-LD 밖 동일.
+- 카메라 상세 29개는 최종 검수 산출물 artifacts/camera-28-rework/dist-reviewed와 main 동일. 비교에서는 릴리스별 배포 날짜와 공통 날짜 스크립트 중복 제거만 정규화했다. 아오낭 출처를 수정하기 전인 dist-final을 최종본으로 사용하지 않았다. 기존 카메라 API 동일. 기존 PC/모바일 검수는 반복하지 않음.
+- 실제 Pages 로컬 런타임: 11개 시장 홈·날짜 스냅샷·카메라 JSON·동의 자산·사이트맵·robots·preview noindex 통과. 관련 자산 참조 7,545개 정상.
+- 검증된 동일 결과물을 공식 Wrangler로 배포: https://e164101a.thai-live-now.pages.dev . 운영 커밋 883f197a5a71d9b2a8bb5c14f37905f0e7172a69 반영 응답·공통 날짜·주요 정적 자산·preview 보호 확인 후 release:verify로 기준 승격. 신고된 두 URL의 실제 HTML에서도 같은 배포 커밋과 절대 탐색경로 item 확인. 운영 UI 기능/원고 검수는 수행하지 않음.
+- 배포 날짜는 운영 Asia/Bangkok 기준 명시값 2026-10-17. 자료 확인일·카메라 확인 이력·본문 실제 수정일에 배포 날짜를 복사하지 않음.
+- 결과물/로그: artifacts/breadcrumb-camera-release-20261018/candidate-v2 (release.json, graph.json, dist, functions), release-build-v2.log, design-audit.json, candidate-checks.json, activation-check.log, deployed-issue-responses.json.
+- Search Console ‘수정 결과 확인’ 제출 완료. 빠른 초기 검사 후 화면에 **유효성 검사 상태: 시작됨 / 시작된 날짜: 26. 10. 18.** 표시를 실제 확인했다. Google의 전체 검증 완료는 아직 대기 중이며 영향 2항목 표시가 남아 있는 것은 재검증 중인 보고서 상태다. 증빙: artifacts/breadcrumb-camera-release-20261018/search-console-started.jpg . 임의의 재색인 제출·자동화는 추가하지 않았다.
