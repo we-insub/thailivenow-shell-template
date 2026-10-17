@@ -1,6 +1,7 @@
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { parse } from 'parse5';
 import { applyPageSEO } from '../src/lib/page-seo.mjs';
+import { breadcrumbUrlErrors } from '../src/lib/breadcrumb-validation.mjs';
 const root = process.argv[2] || 'dist';
 async function files(dir) { return (await Promise.all((await readdir(dir,{withFileTypes:true})).map(async e=>e.isDirectory()?files(`${dir}/${e.name}`):e.name.endsWith('.html')?[`${dir}/${e.name}`]:[]))).flat(); }
 const nodes = n=>[n,...(n.childNodes||[]).flatMap(nodes)];
@@ -36,6 +37,7 @@ for(const file of await files(root)){
  for(const n of parsed.filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json')){
   try{
    const schema=JSON.parse(text(n));
+   errors.push(...breadcrumbUrlErrors(schema).map(error=>`${file}: ${error}`));
    const visit=value=>{
     if(!value||typeof value!=='object')return;
     if(value['@type']==='WebPage'){

@@ -1,7 +1,7 @@
 const cache=new Map<string,Promise<any>>();
 export async function renderCameraWeather(element:HTMLElement,center:[number,number]|null,ko:boolean){
  const identity=center?.join(',');element.dataset.weatherIdentity=identity||'';element.replaceChildren();element.hidden=!center;if(!center)return;
- const title=document.createElement('h3');title.textContent=ko?'지역 날씨':'Local weather';element.append(title);
+ const title=document.createElement('h3');title.textContent=element.dataset.weatherTitle||(ko?'지역 날씨':'Local weather');element.append(title);
  const loading=document.createElement('p');loading.textContent=ko?'날씨 정보를 불러오는 중':'Loading weather';element.append(loading);
  try{
   if(!cache.has(identity!)){const query=new URLSearchParams({latitude:String(center[1]),longitude:String(center[0]),current:'temperature_2m,weather_code,wind_speed_10m',hourly:'temperature_2m,precipitation_probability',forecast_days:'1',timezone:'Asia/Bangkok'});cache.set(identity!,fetch('https://api.open-meteo.com/v1/forecast?'+query,{signal:AbortSignal.timeout(10000)}).then(r=>{if(!r.ok)throw Error();return r.json();}));}

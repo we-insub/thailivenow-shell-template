@@ -1,3 +1,5 @@
+import cameraEditorial from '../data/camera-editorial-ko.json';
+import {cameraViewingCopy} from '../lib/camera-viewing-copy.mjs';
 import {renderCameraWeather} from './camera-weather';
 import { Map } from './resilient-map';
 import { NavigationControl, AttributionControl, Marker, Popup, setWorkerUrl } from 'maplibre-gl';
@@ -143,10 +145,10 @@ if (container) {
     selection.hidden=false;
     explorerPanel.classList.add('has-selection');
     const preview=document.querySelector<HTMLImageElement>('#selected-preview')!;
-    preview.hidden=!camera.preview?.url;
+    preview.hidden=locale==='ko'||!camera.preview?.url;
     if(camera.preview?.url)preview.src=camera.preview.url;
     const credit=document.querySelector<HTMLAnchorElement>('#selected-credit')!;
-    credit.hidden=!camera.preview;
+    credit.hidden=locale==='ko'||!camera.preview;
     if(camera.preview){credit.href=camera.preview.sourceUrl;credit.textContent=previewLabel(camera.preview.label,locale)+' · '+sourceText(camera.preview.credit,locale)+' · '+(camera.preview.license || '');}
 
     const save=document.querySelector<HTMLElement>('#selected-place [data-save-camera]')!;save.dataset.saveCamera=id;
@@ -155,11 +157,11 @@ if (container) {
 
     highlight(provinces.find(p => p.name === camera.province)?.id ?? null);
     paintSelection(id);
-    name.textContent = cameraTitle(camera,locale);
-    description.textContent = locale==='ko'?camera.description:ui.cameraIntro;
+    name.textContent = locale==='ko'?cameraEditorial[camera.id].displayTitle:cameraTitle(camera,locale);
+    description.textContent = locale==='ko'?cameraEditorial[camera.id].preview:ui.cameraIntro;
     document.getElementById('selected-region')!.textContent=placeName(camera.area,locale);
     document.getElementById('selected-location')!.textContent=locale==='ko'?camera.locationNote:ui.locationNote;
-    document.getElementById('selected-status')!.textContent=cameraStatus(camera,locale)+' · '+camera.checked;
+    document.getElementById('selected-status')!.textContent=locale==='ko'?`${cameraViewingCopy(camera).label} · 자료 확인일 ${camera.checked} · 현재 재생은 제공 사이트에서 살펴보세요.`:cameraStatus(camera,locale)+' · '+camera.checked;
     document.getElementById('selected-tags')!.textContent=categoryName(camera.category,locale);
     void renderCameraWeather(document.getElementById('selected-weather')!,camera.center,locale==='ko');
     const access=document.getElementById('selected-access')!;access.hidden=!camera.center;access.replaceChildren();
@@ -168,6 +170,7 @@ if (container) {
     document.querySelectorAll<HTMLElement>('#selected-place [data-compare-camera]').forEach(button=>button.dataset.compareCamera=id);
     document.querySelectorAll<HTMLElement>('#selected-place [data-share-camera]').forEach(button=>button.dataset.shareCamera=id);
 
+    if(locale==='ko'){sourceLink.textContent=cameraViewingCopy(camera).button+' ↗';detailLink.textContent='장소와 풍경 보기 →';}
     sourceLink.href = camera.sourceUrl;
     sourceLink.hidden = false;
     detailLink.href = `/${locale}/cameras/${id}/`;

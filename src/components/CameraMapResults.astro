@@ -1,14 +1,22 @@
 ---
+import editorial from '../data/camera-editorial-ko.json';
 import {cameras} from '../data/cameras';
-import {getUI,cameraTitle,previewLabel} from '../i18n/ui';
+import {getUI,cameraTitle as originalCameraTitle,previewLabel} from '../i18n/ui';
 const {locale='ko'}=Astro.props;
 const ui=getUI(locale),ko=locale==='ko';
+const cameraTitle=(camera,market)=>market==='ko'?editorial[camera.id].displayTitle:originalCameraTitle(camera,market);
 ---
 <section class="camera-map-results" aria-label={ko?'지도에서 카메라 찾기':'Find cameras on the map'}>
  <header><h2>{ko?'지도에서 카메라 찾기':'Find cameras on the map'}</h2><span id="map-results-count" role="status" aria-live="polite">{ko?'선택 조건 전체':'All matching cameras'}: {cameras.length}</span></header>
  <p class="camera-map-hint">{ko?'숫자는 가까운 카메라의 개수예요. 누르면 지도가 확대돼요.':'Numbers show nearby cameras grouped together. Select a number to zoom in.'}</p>
  <div class="camera-map-scope" role="group" aria-label={ui.cameraList}><button type="button" data-result-scope="view" aria-pressed="false" disabled>{ko?'현재 지도 범위':'Current map area'}</button><button type="button" data-result-scope="all" aria-pressed="true">{ko?'선택 조건 전체':'All matching cameras'}</button></div>
- <div class="camera-map-result-grid">{cameras.map(camera=><article data-map-result={camera.id} hidden><button class="camera-map-preview" type="button" data-select-camera={camera.id} aria-label={`${ui.viewMap}: ${cameraTitle(camera,locale)}`}><div class="thumbnail"><img src={camera.preview?.url} alt="" loading="lazy" referrerpolicy="no-referrer"/></div></button><div><h3>{cameraTitle(camera,locale)}</h3><small data-result-selected hidden>{ko?'선택한 카메라':'Selected camera'}</small><div class="camera-map-result-actions"><button type="button" data-select-camera={camera.id}>{ko?'지도에서 선택':'Select on map'}</button><a href={`/${locale}/cameras/${camera.id}/`}>{ui.details}</a></div></div></article>)}</div>
+ <div class="camera-map-result-grid">{cameras.map(camera=><article data-map-result={camera.id} hidden><button class="camera-map-preview" type="button" data-select-camera={camera.id} aria-label={`${ko&&!camera.center?'카메라 선택':ui.viewMap}: ${cameraTitle(camera,locale)}`}><div class="thumbnail">{ko?<span class="map-place-preview">{editorial[camera.id].place}</span>:<img src={camera.preview?.url} alt={ko?`${camera.area} 지역 참고사진 · 카메라 화면 아님`:cameraTitle(camera,locale)} loading="lazy" referrerpolicy="no-referrer"/>}</div></button><div><h3>{cameraTitle(camera,locale)}</h3>{ko&&<><p class="map-camera-intro">{editorial[camera.id].preview}</p>{!ko&&camera.preview&&<p class="map-photo-credit"><a href={camera.preview.sourceUrl} target="_blank" rel="noopener noreferrer">사진: {camera.preview.credit}</a>{camera.preview.licenseUrl&&<> · <a href={camera.preview.licenseUrl} target="_blank" rel="noopener noreferrer">{camera.preview.license}</a></>} · 크기 조정·일부 잘림</p>}</>}<small data-result-selected hidden>{ko?'선택한 카메라':'Selected camera'}</small><div class="camera-map-result-actions"><button type="button" data-select-camera={camera.id}>{ko?(camera.center?'지도에서 선택':'카메라 선택'):'Select on map'}</button><a href={`/${locale}/cameras/${camera.id}/`}>{ko?'장소와 풍경 보기':ui.details}</a></div></div></article>)}</div>
  <p id="map-results-empty" role="status" hidden>{ko?'이 범위에 카메라가 없어요. 지도를 넓히거나 선택 조건 전체를 확인하세요.':'No cameras in this area. Zoom out or view all matching cameras.'}</p>
  <button type="button" id="map-results-more" class="camera-map-more" hidden>{ko?'더 보기':'Show more'}</button>
 </section>
+
+<style>.map-camera-intro{font-size:14px;color:#526b79;line-height:1.8;margin:10px 0}.thumbnail{position:relative}.map-reference-label{position:absolute;left:8px;bottom:8px;right:8px;width:fit-content;max-width:calc(100% - 16px);font-size:11px;padding:4px 7px;border-radius:4px;color:white;background:#203743e6}</style>
+
+<style>.map-photo-credit{font-size:10px;line-height:1.6;color:#61717e}.map-photo-credit a{color:inherit}</style>
+
+<style>.map-place-preview{display:flex;align-items:center;justify-content:center;min-height:120px;padding:20px;background:linear-gradient(135deg,#203b4c,#267e89);color:white;font-size:20px;line-height:1.6;font-weight:700;text-align:center;overflow-wrap:anywhere}</style>
