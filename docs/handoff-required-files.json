@@ -61,5 +61,6 @@
   "tests/page-seo.test.mjs",
   "tests/partial-release.test.mjs",
   "tests/site-dates-runtime.test.mjs",
-  "docs/GIT-HANDOFF-VERIFICATION.md"
+  "docs/GIT-HANDOFF-VERIFICATION.md",
+  "docs/INTERNAL-LINKING-CONTRACT.md"
 ]

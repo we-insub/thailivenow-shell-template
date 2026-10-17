@@ -8,6 +8,8 @@
 
 필수 파일 목록은 [handoff-required-files.json](docs/handoff-required-files.json), 검증 결과와 제외 범위는 [GIT-HANDOFF-VERIFICATION.md](docs/GIT-HANDOFF-VERIFICATION.md)에 있다. 개인 Codex 스킬이나 개인 메모리가 없어도 이 규칙을 사용할 수 있다. 과거 작업 문서의 로컬 절대경로와 QA 산출물은 역사 기록이며 clone으로 제공되는 개발 의존성이 아니다.
 
+연관 페이지·HTML을 생성·수정할 때는 [연관 페이지 연결·생성 검수 계약](docs/INTERNAL-LINKING-CONTRACT.md)을 필수 적용한다. 새 상세와 기존 상위·관련 페이지의 실제 링크를 같은 작업에서 반영·검수한다. 다른 PC에서도 이 저장소의 AGENTS와 계약을 정본으로 사용한다.
+
 ## 새 컴퓨터 설치·실행
 
 Git, Node.js 24.13.0, npm 11.6.2와 npm 레지스트리 인터넷 접근이 필요하다. nvm 사용자는 다음 순서로 실행한다. 다른 Node 설치 도구도 같은 버전을 선택하면 된다.
