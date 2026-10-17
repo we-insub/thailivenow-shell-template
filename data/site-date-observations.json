@@ -2081,20 +2081,28 @@
       "contentModifiedOn": null
     },
     "/ko/airport-assistance/airports/bkk/": {
-      "sourceCheckedOn": "2026-10-13",
-      "contentModifiedOn": null
+      "sourceCheckedOn": "2026-10-14",
+      "contentModifiedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "note": "BKK Korean five-page guide; existing facts and original source dates retained. Restructured locally; no new source investigation. Individual airline service dates remain on each service."
     },
     "/ko/airport-assistance/airports/cnx/": {
-      "sourceCheckedOn": "2026-10-13",
-      "contentModifiedOn": null
+      "sourceCheckedOn": null,
+      "contentModifiedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "note": "Korean airport wording and navigation review; original section and airline source dates retained; no new source investigation."
     },
     "/ko/airport-assistance/airports/dmk/": {
-      "sourceCheckedOn": "2026-10-13",
-      "contentModifiedOn": null
+      "sourceCheckedOn": null,
+      "contentModifiedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "note": "Korean airport wording and navigation review; original section and airline source dates retained; no new source investigation."
     },
     "/ko/airport-assistance/airports/hkt/": {
-      "sourceCheckedOn": "2026-10-13",
-      "contentModifiedOn": null
+      "sourceCheckedOn": null,
+      "contentModifiedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "note": "Korean airport wording and navigation review; original section and airline source dates retained; no new source investigation."
     },
     "/ko/airport-assistance/airports/icn/": {
       "sourceCheckedOn": "2026-10-13",
@@ -2874,7 +2882,7 @@
     },
     "/ko/transport/airports/suvarnabhumi-to-bangkok/": {
       "sourceCheckedOn": null,
-      "contentModifiedOn": null
+      "contentModifiedOn": "2026-10-17"
     },
     "/ko/transport/bangkok/": {
       "sourceCheckedOn": null,
@@ -6417,6 +6425,72 @@
     "/ko/compare/": {
       "sourceCheckedOn": null,
       "contentModifiedOn": "2026-10-17"
+    },
+    "/ko/airport-assistance/airports/bkk/#facility-map": {
+      "sourceCheckedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "contentModifiedOn": "2026-10-17",
+      "observations": [
+        {
+          "observedDate": "2026-10-17",
+          "scope": "Official indoor map floor images and facility directory; existing airline facts not rechecked",
+          "evidence": "artifacts/airport-detail-rewrite-20261018/map-receipt.json"
+        }
+      ]
+    },
+    "/ko/airport-assistance/airports/dmk/#facility-map": {
+      "sourceCheckedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "contentModifiedOn": "2026-10-17",
+      "observations": [
+        {
+          "observedDate": "2026-10-17",
+          "scope": "Official indoor map floor images and facility directory; existing airline facts not rechecked",
+          "evidence": "artifacts/airport-detail-rewrite-20261018/map-receipt.json"
+        }
+      ]
+    },
+    "/ko/airport-assistance/airports/hkt/#facility-map": {
+      "sourceCheckedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "contentModifiedOn": "2026-10-17",
+      "observations": [
+        {
+          "observedDate": "2026-10-17",
+          "scope": "Official indoor map floor images and facility directory; existing airline facts not rechecked",
+          "evidence": "artifacts/airport-detail-rewrite-20261018/map-receipt.json"
+        }
+      ]
+    },
+    "/ko/airport-assistance/airports/cnx/#facility-map": {
+      "sourceCheckedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "contentModifiedOn": "2026-10-17",
+      "observations": [
+        {
+          "observedDate": "2026-10-17",
+          "scope": "Official indoor map floor images and facility directory; existing airline facts not rechecked",
+          "evidence": "artifacts/airport-detail-rewrite-20261018/map-receipt.json"
+        }
+      ]
+    },
+    "/ko/airport-assistance/airports/bkk/map/": {
+      "sourceCheckedOn": "2026-10-17",
+      "contentModifiedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "note": "BKK Korean five-page guide; existing facts and original source dates retained. Restructured locally; no new source investigation. Individual airline service dates remain on each service."
+    },
+    "/ko/airport-assistance/airports/bkk/smoking/": {
+      "sourceCheckedOn": "2026-10-17",
+      "contentModifiedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "note": "BKK Korean five-page guide; existing facts and original source dates retained. Restructured locally; no new source investigation. Individual airline service dates remain on each service."
+    },
+    "/ko/airport-assistance/airports/bkk/airlines/": {
+      "sourceCheckedOn": null,
+      "contentModifiedOn": "2026-10-17",
+      "linkCheckedAt": null,
+      "note": "BKK Korean five-page guide; existing facts and original source dates retained. Restructured locally; no new source investigation. Individual airline service dates remain on each service."
     }
   }
 }

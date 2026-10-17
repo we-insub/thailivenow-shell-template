@@ -76,3 +76,18 @@ test('production verification and analytics survive repeated metadata applicatio
  assert.equal(all.filter(n=>n.nodeName==='script'&&attr(n,'data-tln-analytics')!==undefined).length,1);
  assert.match(twice,/thailivenow\.com/);
 });
+test('breadcrumb root-relative URLs become absolute without changing FAQ, dates, or visible navigation',()=>{
+ const faq={'@type':'FAQPage',mainEntity:[{'@type':'Question',name:'어디에서 타나요?',acceptedAnswer:{'@type':'Answer',text:'1층에서 타요.'}}]};
+ const schema={'@graph':[{'@type':'BreadcrumbList',itemListElement:[{position:1,item:'/ko/airports/'},{position:2,item:{'@id':'/ko/airport-assistance/airports/bkk/'}},{position:3,name:'현재 안내'}]},faq,{'@type':'Article',dateModified:'2026-10-14'}]};
+ const body='<a href="/ko/airports/">태국 공항</a><script type="application/ld+json">'+JSON.stringify(schema)+'</script>';
+ const out=applyPageSEO(make('',body),'/ko/airport-assistance/airports/bkk/');
+ const scripts=nodes(parse(out)).filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json');
+ const normalized=scripts.map(n=>JSON.parse(n.childNodes[0].value)).find(s=>s['@graph']?.some(x=>x['@type']==='BreadcrumbList'));
+ const graph=normalized['@graph'];
+ assert.equal(graph[0].itemListElement[0].item,'https://thailivenow.com/ko/airports/');
+ assert.equal(graph[0].itemListElement[1].item['@id'],'https://thailivenow.com/ko/airport-assistance/airports/bkk/');
+ assert.equal(graph[0].itemListElement[2].item,undefined);
+ assert.deepEqual(graph[1],faq);assert.equal(graph[2].dateModified,'2026-10-14');
+ assert(out.includes('<a href="/ko/airports/">태국 공항</a>'));
+ assert.equal(applyPageSEO(out,'/ko/airport-assistance/airports/bkk/'),out);
+});

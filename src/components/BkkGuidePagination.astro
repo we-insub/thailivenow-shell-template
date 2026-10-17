@@ -1,0 +1,13 @@
+---
+import {bkkGuidePages} from '../data/bkk-guide-pages.mjs';
+const {current,position='top'}=Astro.props;
+const index=bkkGuidePages.findIndex(p=>p.id===current);
+const previous=bkkGuidePages[index-1],next=bkkGuidePages[index+1];
+---
+<nav class="bkk-pages" aria-label={`수완나폼 공항안내 페이지 ${position==='top'?'상단':'하단'}`} data-bkk-pagination>
+ <ol>{bkkGuidePages.map((page,i)=><li><a href={page.url} aria-current={page.id===current?'page':undefined}><span class="page-number">{i+1}</span><span>{page.label}</span></a></li>)}</ol>
+ <div class="page-neighbors">{previous?<a href={previous.url} rel="prev">← 이전 · {previous.label}</a>:<span/>}{next&&<a href={next.url} rel="next">다음 · {next.label} →</a>}</div>
+</nav>
+<style>
+.bkk-pages{margin:28px 0 36px;padding:20px 0;border-block:1px solid #dce5e8}.bkk-pages ol{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.bkk-pages li{min-width:0}.bkk-pages a{color:#287782;text-decoration:none;font-size:14px;line-height:1.6}.bkk-pages li a{display:flex;align-items:flex-start;gap:8px;padding:12px 10px;height:100%;border:1px solid #dce5e8;background:#fff;border-radius:9px;word-break:keep-all;overflow-wrap:anywhere}.bkk-pages li a[aria-current]{background:#e6f2f3;border-color:#287782;color:#183d44}.page-number{flex:none;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#edf3f4;font-size:12px}.bkk-pages [aria-current] .page-number{background:#287782;color:white}.page-neighbors{display:flex;justify-content:space-between;gap:20px;margin-top:16px}.page-neighbors>a{max-width:48%}.page-neighbors>a:last-child{text-align:right}@media(max-width:650px){.bkk-pages ol{grid-template-columns:1fr}.bkk-pages li a{padding:10px 12px;align-items:center}.page-neighbors a{font-size:13px}}
+</style>

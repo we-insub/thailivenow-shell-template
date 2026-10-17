@@ -1,0 +1,37 @@
+---
+import guide from '../data/transport/airport-guides/suvarnabhumi-to-bangkok.json';
+import {getTransferDestinations} from '../lib/airport-transfer-choice.mjs';
+const destinations = getTransferDestinations(guide);
+---
+<section class="transfer-chooser" id="transfer-choice" aria-labelledby="transfer-choice-title" data-transfer-chooser>
+  <span class="chooser-eyebrow">BKK → BANGKOK</span>
+  <h2 id="transfer-choice-title">숙소까지 어떻게 갈까요?</h2>
+  <p class="chooser-intro">숙소가 있는 지역을 고르고, 공항에서 출발하는 시각을 입력해보세요.<br/><strong>타는 곳과 환승 경로, 비용 기준</strong>을 함께 비교할 수 있어요.</p>
+  <form hidden data-transfer-form>
+    <div class="chooser-fields">
+      <label for="transfer-destination">숙소가 있는 지역<select id="transfer-destination" name="destination" required><option value="">지역을 골라주세요</option>{destinations.map(d=><option value={d.id}>{d.name}</option>)}</select></label>
+      <label for="transfer-time">공항에서 출발할 예상 시각<input type="time" id="transfer-time" name="time" required aria-describedby="transfer-time-help"/><small id="transfer-time-help"><strong>태국 현지 시각</strong>이에요. 항공편 도착시각이 아니라 입국심사와 짐 찾기를 마친 뒤 숙소로 출발할 시각을 넣어주세요.</small></label>
+      <label for="transfer-luggage">가지고 가는 짐<select id="transfer-luggage" name="luggage"><option value="light">직접 들고 환승할 수 있어요</option><option value="many">짐이 많거나 큰 캐리어가 있어요</option></select></label>
+      <label for="transfer-preference">어떻게 이동하고 싶으세요?<select id="transfer-preference" name="preference"><option value="compare">철도와 차량을 함께 비교할게요</option><option value="door">환승을 줄이고 숙소 앞까지 갈래요</option></select></label>
+    </div>
+    <div class="chooser-buttons"><button type="submit">이동 방법 비교하기 <span aria-hidden="true">→</span></button><button type="reset" class="chooser-reset">다시 고르기</button></div>
+  </form>
+  <noscript><p>선택 기능을 쓰려면 자바스크립트를 켜주세요. 아래 목적지별 표와 승차 안내는 그대로 읽을 수 있어요.</p></noscript>
+  <p class="chooser-status" role="status" data-transfer-status></p>
+  <div data-transfer-results hidden>
+    <h3 class="result-heading" tabindex="-1" data-transfer-heading></h3>
+    <p data-transfer-reason></p>
+    <p class="chooser-notice"><strong>예약·실시간 배차 결과가 아니에요.</strong> 철도 요금은 성인 1인 기준이며, 열차 이동시간에는 대기·환승 도보와 숙소까지 가는 시간이 포함되지 않아요.</p>
+    <div class="chooser-results" data-transfer-cards>
+      <article class="transfer-card" data-transfer-mode="rail"><span class="mode-label">RAIL</span><h4>공항철도 + MRT·BTS</h4><p class="rail-status" data-transfer-rail-status></p><dl data-transfer-rail-details><div><dt>환승 경로</dt><dd data-transfer-value="route"></dd></div><div><dt>성인 1인 요금</dt><dd><strong data-transfer-value="fare"></strong><br/><span data-transfer-value="fareParts"></span></dd></div><div><dt>열차 이동시간</dt><dd data-transfer-value="duration"></dd></div><div><dt>타는 곳</dt><dd><strong>메인 터미널 지하 1층(B1)</strong> 공항철도역으로 가세요.</dd></div></dl><p data-transfer-rail-advice>역에서 숙소까지 가는 길도 살펴보세요. ARL과 MRT·BTS는 승차권과 요금이 각각 따로예요.</p><a href="/ko/transport/airports/airport-rail-link/">공항철도·환승 안내 →</a></article>
+      <article class="transfer-card" data-transfer-mode="taxi"><span class="mode-label">TAXI</span><h4>일반 공항 택시</h4><dl><div><dt>타는 곳</dt><dd><strong>1층 4~7번 게이트 사이 안쪽 도로</strong>의 Public Taxi 발권기에서 대기표를 받으세요.</dd></div><div><dt>비용 기준</dt><dd>차량의 미터 운임에 <strong>공항 추가요금 50바트</strong>와 실제 이용한 도로의 톨비가 더해져요. 짐 비용이 붙을 수도 있어요.</dd></div></dl><p>인원과 짐이 실리는지 먼저 물어보고, 호텔 주소를 보여주세요. 현금과 작은 지폐를 준비하고, 이미 낸 톨비는 다시 더하지 마세요.</p><a href="#taxi-cost">택시 비용 구성 보기 →</a></article>
+      <article class="transfer-card" data-transfer-mode="grab"><span class="mode-label">GRAB</span><h4>Grab 차량 호출</h4><dl><div><dt>타는 곳</dt><dd><strong>1층 4번 게이트 바깥쪽 도로</strong>의 Grab 지정 승차장으로 가세요.</dd></div><div><dt>비용 기준</dt><dd><strong>호출 화면의 결제금액과 결제수단</strong>을 확인하세요. 일반 공항 택시의 50바트를 모든 앱 차량에 그대로 더하지 않아요.</dd></div></dl><p>숙소를 목적지로 검색하고 위치를 확인한 뒤 호출하세요. 차가 오면 번호판과 기사 정보를 앱과 비교한 다음 타세요.</p><a href="#apps">Grab·Bolt 승차 안내 →</a></article>
+    </div>
+    <p class="chooser-footnote">차량의 실제 요금과 소요시간은 여기서 계산하지 않아요. 도로 정체·차량 종류·목적지에 따라 달라져요. 선택한 지역 안에서도 호텔 위치에 따라 편한 이동 방법이 달라질 수 있어요.</p>
+  </div>
+  <div class="chooser-related"><a href="#destinations">목적지별 환승·요금표 →</a><a href="#pickup">예약한 픽업·리무진 이용 안내 →</a><a href="/ko/transport/airports/suvarnabhumi-don-mueang/">돈므앙 공항으로 환승하시나요? →</a></div>
+</section>
+<script>import '../scripts/airport-transfer-chooser';</script>
+<style>
+.transfer-chooser{margin:28px 0 40px;padding:28px;border:1px solid #c9dedf;border-radius:18px;background:#f0f7f6;scroll-margin-top:calc(var(--site-header-height,114px) + 24px)}.chooser-eyebrow,.mode-label{font-size:11px;letter-spacing:1.6px;color:#267e89;font-weight:750}.transfer-chooser h2{margin:8px 0 14px;font-size:26px;line-height:1.45}.transfer-chooser p{line-height:1.85;color:#52616e}.chooser-intro{margin:0 0 24px}.chooser-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 24px}.chooser-fields label{display:flex;flex-direction:column;gap:9px;font-weight:700;font-size:15px;min-width:0}.chooser-fields select,.chooser-fields input{font:inherit;box-sizing:border-box;min-height:50px;width:100%;max-width:100%;min-width:0;padding:12px;border:1px solid #b7ccce;border-radius:9px;background:#fff;color:#253545}.chooser-fields small{font-size:13px;font-weight:400;line-height:1.7;color:#52616e}.chooser-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:26px}.chooser-buttons button{width:100%;min-width:0;font:inherit;font-weight:700;border:1px solid #267e89;border-radius:9px;padding:12px 20px;background:#267e89;color:#fff;cursor:pointer;min-height:48px}.chooser-buttons .chooser-reset{background:transparent;color:#267e89}.transfer-chooser :is(input,select,button,a):focus-visible,.result-heading:focus{outline:3px solid #d37426;outline-offset:4px}.result-heading{font-size:22px;margin:28px 0 12px;scroll-margin-top:calc(var(--site-header-height,114px) + 24px)}.chooser-notice{padding:16px 18px;border-left:3px solid #267e89;background:#fff}.chooser-results{display:grid;gap:16px;margin-top:22px}.transfer-card{padding:24px;background:white;border:1px solid #d5e2e4;border-radius:12px}.transfer-card h4{font-size:21px;margin:5px 0 16px}.transfer-card dl{margin:16px 0}.transfer-card dl>div{display:grid;grid-template-columns:112px minmax(0,1fr);gap:14px;padding:12px 0;border-bottom:1px solid #e7edef}.transfer-card dt{font-size:14px;color:#61717e}.transfer-card dd{margin:0;overflow-wrap:anywhere}.transfer-card p{margin:12px 0 18px}.transfer-card a,.chooser-related a{font-weight:650;color:#267e89;text-decoration:underline;text-underline-offset:4px}.rail-status{font-weight:650}.chooser-footnote{font-size:14px}.chooser-related{display:flex;gap:14px 24px;flex-wrap:wrap;margin-top:22px;font-size:14px}.chooser-status:empty{display:none}[hidden]{display:none!important}@media(max-width:650px){.transfer-chooser{padding:22px 16px;border-radius:12px}.transfer-chooser h2{font-size:23px}.chooser-fields{grid-template-columns:minmax(0,1fr);gap:20px}.chooser-fields select,.chooser-fields input{font-size:16px}.transfer-card{padding:20px 16px}.transfer-card dl>div{grid-template-columns:minmax(0,1fr);gap:5px}.chooser-related{flex-direction:column}.chooser-buttons{gap:10px}.chooser-buttons button{padding:12px 16px}}
+</style>

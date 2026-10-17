@@ -1,0 +1,21 @@
+---
+const {code}=Astro.props;
+// Exact embedded map URLs recovered from each airport's official /airport-map page.
+const maps:Record<string,{name:string,source:string,embed:string}>={
+ BKK:{name:'수완나품공항',source:'https://suvarnabhumi.airportthai.co.th/airport-map',embed:'https://indoor.gtt-prod.sawasdeebyaot.com/desktop/BKK/en'},
+ DMK:{name:'돈므앙공항',source:'https://donmueang.airportthai.co.th/airport-map',embed:'https://indoor.gtt-prod.sawasdeebyaot.com/desktop/DMK/en'},
+ HKT:{name:'푸껫공항',source:'https://phuket.airportthai.co.th/airport-map',embed:'https://indoor.gtt-prod.sawasdeebyaot.com/desktop/HKT/en'},
+ CNX:{name:'치앙마이공항',source:'https://chiangmai.airportthai.co.th/airport-map',embed:'https://indoor.gtt-prod.sawasdeebyaot.com/desktop/CNX/en'},
+};
+const map=maps[code];
+---
+{map&&<section class="airport-indoor-map" data-airport-indoor-map={code} aria-labelledby={`indoor-map-${code}`}>
+ <h2 id={`indoor-map-${code}`}>{map.name} 실내지도</h2>
+ <p>아래 지도에서 <strong>층을 선택하고 + 버튼으로 확대</strong>해 시설 위치를 살펴보세요. 터미널이나 구역을 바꾸려면 지도 안의 <span lang="en">Area</span>를 누르시면 돼요.</p>
+ <p class="map-key">지도 표기는 영어예요. <span lang="en">Main Terminal</span>은 메인 터미널, <span lang="en">1 Fl.</span>은 1층, <span lang="en">B1 Fl.</span>은 지하 1층을 뜻해요.</p>
+ <div class="map-frame"><iframe src={map.embed} title={`${map.name} 공식 실내지도 · 층별 시설 위치`} loading="eager" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+ <p class="map-credit">지도 제공: 태국공항공사 · <a href={map.source} target="_blank" rel="noopener noreferrer">{map.name} 공식 지도 출처</a></p>
+</section>}
+<style>
+.airport-indoor-map{margin:32px 0 40px}.airport-indoor-map h2{margin:0 0 14px}.airport-indoor-map p{line-height:1.85;margin:10px 0}.airport-indoor-map .map-key{font-size:14px}.map-frame{margin-top:20px;border:1px solid #dce5e8;border-radius:14px;overflow:hidden;background:#eceef2}.map-frame iframe{display:block;width:100%;height:700px;border:0}.airport-indoor-map .map-credit{font-size:12px;color:#61717e;margin-top:10px}.map-credit a{font-weight:400!important;text-decoration:underline}@media(max-width:650px){.map-frame iframe{height:740px}.map-frame{border-radius:10px}}
+</style>

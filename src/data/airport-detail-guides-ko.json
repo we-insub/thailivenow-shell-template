@@ -1,0 +1,558 @@
+{
+  "BKK": {
+    "name": "수완나폼공항",
+    "defaultMap": "3",
+    "intro": [
+      "수완나폼공항에 도착했다면 먼저 입국심사와 짐 찾기를 마친 뒤 시내로 이동해요. 출발편을 타러 오셨다면 체크인과 출국심사를 거쳐 탑승동으로 가시면 돼요. 내부 지도에서는 메인 터미널과 A·B·C, D, E·F·G 탑승동을 나눠 볼 수 있어요.",
+      "건물 밖으로 나가는 출입문은 Door, 비행기를 타는 탑승구는 Gate로 표시돼요. 예를 들어 Door 4와 탑승구 D4는 다른 곳이에요. 흡연실이나 편의점을 찾을 때는 층과 함께 출국심사 전후 어느 구역인지도 살펴보세요."
+    ],
+    "facts": [
+      [
+        "공항 코드",
+        "BKK · Suvarnabhumi Airport"
+      ],
+      [
+        "지도 구역",
+        "메인 터미널 · A–G 탑승동 · 위성 터미널 SAT-1"
+      ],
+      [
+        "도착 후 차량 서비스",
+        "메인 터미널 2층 도착장"
+      ],
+      [
+        "공항철도",
+        "메인 터미널 지하 1층(B1)"
+      ],
+      [
+        "공항 안내",
+        "태국공항공사 콜센터 1722"
+      ]
+    ],
+    "steps": [
+      {
+        "title": "도착해서 시내로 나갈 때",
+        "items": [
+          "입국심사와 수하물 수령을 마친 뒤 일반 도착장으로 나와요. 짐이 나오지 않거나 파손됐다면 일반구역으로 나가기 전에 항공사 수하물 접수처에서 신고하세요.",
+          "리무진은 메인 터미널 2층 국내선·국제선 도착장의 AOT Limousine 카운터에서 안내받을 수 있어요. 렌터카를 예약하셨다면 같은 층 7번 출입구로 가세요.",
+          "공항철도를 탄다면 Airport Rail Link 표지판을 따라 지하 1층으로 내려가세요. 방콕 시내 이동 안내에서 하차역과 환승 방법을 이어 볼 수 있어요."
+        ]
+      },
+      {
+        "title": "출발 수속과 국제선 환승",
+        "items": [
+          "당일 출발 전광판에서 자신의 편명과 실제 운항사를 찾아 체크인 카운터로 가세요. 항공사 창구의 층·운영시간은 항공사별 체크인 카운터·연락처 페이지에 따로 정리돼 있어요.",
+          "국제선으로 환승한다면 3층 동쪽 보안검색대를 거쳐 3층 탑승구로 이동해요. 탑승권에 적힌 탑승구와 현장 Transfer 표지판을 따라가세요.",
+          "출국심사 전 건물 밖의 시설은 출국심사를 마친 뒤 이용하는 시설과 달라요. 일반구역 흡연실을 이용하려고 환승 동선에서 임의로 밖으로 나가지 마세요."
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "흡연 구역",
+        "body": [
+          "수완나폼공항의 지정 흡연 구역은 건물 외부 1층에 4곳 있어요. 공항 경찰서 앞, Magic Food Court 앞 Gate 10, 주차 빌딩 Zone 2, 주차 빌딩 Zone 3이에요."
+        ],
+        "link": {
+          "url": "https://suvarnabhumi.airportthai.co.th/service/facility/detail/822",
+          "label": "AOT 수완나품 공식 흡연 구역 페이지"
+        }
+      },
+      {
+        "title": "편의점·식당·ATM 위치",
+        "body": [
+          "메인 터미널의 7-Eleven은 4층 S53, 3층 S43, 지하 1층 S78에 있고, Lawson은 4층 S56과 2층 S2에 있어요.",
+          "3층에는 S&P Thai Restaurant & Bakery(F16), Burger King(F12), KFC(F10)가 있어요.",
+          "KBank ATM은 메인 터미널 3층 E20에서 찾을 수 있어요."
+        ],
+        "link": null
+      },
+      {
+        "title": "의료시설 찾기",
+        "body": [
+          "메인 터미널 1층 일반구역에 Medical Clinic이 있어요.",
+          "Samitivej 의료서비스는 메인 터미널 3층 3번 문 일반구역과 SAT-1 3층 Gate 117 환승구역에 있어요.",
+          "의료서비스 안내 전화는 02 132 7777이에요."
+        ],
+        "link": null
+      }
+    ],
+    "faq": [
+      {
+        "q": "수완나폼공항 ATM은 어디에 있나요?",
+        "a": "메인 터미널 3층의 KBank ATM은 지도에서 E20으로 표시돼요. 층별 지도와 시설 검색에서 위치를 함께 살펴보세요."
+      }
+    ],
+    "legacyCheckedAt": "2026-10-14",
+    "officialSources": [
+      "https://suvarnabhumi.airportthai.co.th/service/airport-guide/detail/Transportation_BKK",
+      "https://suvarnabhumi.airportthai.co.th/service/airport-guide/detail/TransferProcedureatMTB",
+      "https://www.snpfood.com/en/branches",
+      "https://www.snpfood.com/th/branches",
+      "https://mapservice.kasikornbank.com/th/app",
+      "https://mapservice.kasikornbank.com/",
+      "https://suvarnabhumi.airportthai.co.th/service/facility/detail/822",
+      "https://suvarnabhumi.airportthai.co.th/service/facility/detail/235",
+      "https://suvarnabhumi.airportthai.co.th/service/facility/detail/810",
+      "https://suvarnabhumi.airportthai.co.th/airport-map",
+      "https://suvarnabhumi.airportthai.co.th/about-us",
+      "https://suvarnabhumi.airportthai.co.th/airport-map"
+    ],
+    "smoking": [
+      {
+        "title": "2층·4층, 출입구 Door 1·Door 10 바깥",
+        "access": "일반구역 · 건물 외부",
+        "status": "개장 발표와 현장 기록",
+        "body": [
+          "입국 후 일반 도착장에 있다면 2층, 출발 수속 전이라면 4층의 양끝 출입구 1번·10번 바깥 흡연실을 찾아가세요. Door는 건물 출입문이며 D1·D10 같은 탑승구 번호가 아니에요.",
+          "2025년 6월 개장 발표에는 냉방·공기정화 설비를 갖춘 외부 흡연실 4곳이 안내됐어요. 이미 출국심사를 마쳤다면 이 일반구역 시설로 바로 갈 수 없으므로 면세구역 안내를 따로 보세요."
+        ],
+        "sources": [
+          "https://www.dailynews.co.th/news/4787980/"
+        ],
+        "mapId": null
+      },
+      {
+        "title": "출국심사 후 D구역, 버거킹 옆 화장실 부근",
+        "access": "국제선 출발 · 출국심사 후 구역",
+        "status": "2026년 8–9월 현장 기록 · 운영 변경 가능",
+        "body": [
+          "보안검색과 출국심사를 마친 뒤에는 E·F·G 방향으로 이어지는 D구역의 버거킹 옆 화장실 부근을 찾아보세요. 2026년 8–9월 이용자 사진과 후기에는 이곳의 Smoking Room 표지와 흡연실이 나와요. F구역에도 버거킹이 있으니 D구역 매장인지 먼저 살펴보세요.",
+          "지도에 표시한 곳은 D구역 4층 버거킹 F67이에요. 흡연실 출입문을 표시한 핀은 아니므로, 버거킹에 도착한 뒤 Smoking Room 표지나 직원 안내를 따라가세요. C게이트 부근이라는 설명만으로 찾으면 다른 곳으로 갈 수 있어요."
+        ],
+        "sources": [
+          "https://www.reddit.com/r/thai/comments/1vf01le/suvanabhumi_airport_smoking_room_reopened/",
+          "https://www.airportsmokers.com/airports_of_asia/thailand/smoking_at_bangkok_suvarnabhumi.html"
+        ],
+        "mapId": "11",
+        "pin": "bkk-burger"
+      },
+      {
+        "title": "출국심사 후 미라클 비즈니스 라운지 D구역",
+        "access": "국제선 출발 · 라운지 입장 조건 적용",
+        "status": "라운지 위치 확인 · 흡연공간 운영 안내는 상충",
+        "body": [
+          "미라클 비즈니스 라운지는 D구역 3층, D5 맞은편에 있어요. 지도에서는 미라클 라운지 L16을 찾으시면 돼요. D4 부근이라는 설명만 보고 다른 층이나 옆 퍼스트클래스 라운지로 들어가지 않도록 라운지 이름도 함께 살펴보세요.",
+          "2026년 이용후기에는 비즈니스 라운지의 별도 흡연공간이 나오지만, Priority Pass의 현재 조건에는 금연으로 표시돼 있어요. 흡연공간을 이용하려는 목적이라면 입장권을 결제하기 전에 해당 공간이 열려 있는지 먼저 물어보세요. 미라클 라운지 전체에 같은 조건을 적용하지 않아요."
+        ],
+        "sources": [
+          "https://www.prioritypass.com/en-GB/lounges/thailand/suvarnabhumi/bkk9-miracle-business-class-lounge",
+          "https://pointstoseats.com/2026/01/03/lounge-review-the-miracle-business-class-lounge-at-bangkok-suvarnabhumi-bkk-international-concourse-d/"
+        ],
+        "mapId": "10",
+        "pin": "bkk-lounge"
+      },
+      {
+        "title": "1층 외부의 기존 지정 흡연구역",
+        "access": "일반구역 · 건물 외부",
+        "status": "공항 공식 홈페이지에 등재",
+        "body": [
+          "공항의 기존 공식 안내에는 1층 외부 흡연구역 네 곳이 나와요. 공항 경찰서 앞, Magic Food Court 앞 10번 출입구, 주차 빌딩 Zone 2·Zone 3이에요. 2·4층 외부 흡연실과 출국심사 후 구역의 이용 조건은 위 안내에서 구분해 보세요."
+        ],
+        "sources": [
+          "https://suvarnabhumi.airportthai.co.th/service/facility/detail/822"
+        ],
+        "mapId": null
+      }
+    ],
+    "pins": [
+      {
+        "id": "bkk-burger",
+        "mapId": "11",
+        "x": 85,
+        "y": 18.6,
+        "label": "D구역 버거킹 F67",
+        "detail": "흡연실로 가는 기준점 · 흡연실 출입문 자체의 위치는 아니에요."
+      },
+      {
+        "id": "bkk-lounge",
+        "mapId": "10",
+        "x": 61.3,
+        "y": 40.6,
+        "label": "미라클 라운지 L16",
+        "detail": "라운지 위치 · 별도 흡연공간의 현재 개방 여부는 입장 전 확인하세요."
+      }
+    ]
+  },
+  "DMK": {
+    "name": "돈므앙공항",
+    "defaultMap": "15",
+    "intro": [
+      "돈므앙공항의 제1터미널은 국제선, 제2터미널은 국내선이에요. 한국행 비행기를 탄다면 제1터미널로 가세요. 태국 국내선으로 갈아타는 경우에는 제2터미널의 지도와 출발편 안내를 보시면 돼요.",
+      "지도에서 터미널과 층을 먼저 고르면 필요한 매장·은행·공항시설을 찾기 쉬워요. 같은 은행 이름이 보여도 직원이 있는 지점과 ATM은 다르므로 시설 종류와 위치를 함께 살펴보세요."
+    ],
+    "facts": [
+      [
+        "공항 코드",
+        "DMK · Don Mueang International Airport"
+      ],
+      [
+        "제1터미널",
+        "국제선"
+      ],
+      [
+        "제2터미널",
+        "국내선"
+      ],
+      [
+        "공항 서비스 시간",
+        "24시간 · 개별 매장 영업시간과는 달라요"
+      ],
+      [
+        "공항 대표전화",
+        "+66 2 535 1192"
+      ]
+    ],
+    "steps": [
+      {
+        "title": "도착 터미널과 다음 이동 확인하기",
+        "items": [
+          "국제선으로 도착했다면 제1터미널, 국내선으로 도착했다면 제2터미널을 기준으로 지도를 선택하세요.",
+          "다음 비행기로 갈아탄다면 탑승권에서 터미널과 실제 운항사를 먼저 살펴보세요. 짐을 찾아 다시 부쳐야 하는지는 항공사에 물어보시면 돼요.",
+          "국제선에서 국내선으로 이동할 때는 입국심사·수하물 처리·터미널 이동이 필요한지 환승 직원에게 확인한 뒤 이동하세요."
+        ]
+      },
+      {
+        "title": "출발 수속에서 탑승까지",
+        "items": [
+          "항공사 카운터, 셀프 체크인·수하물 위탁 또는 온라인 체크인 중 예약 항공편에서 이용할 수 있는 방법을 고르세요.",
+          "국제선 승객은 출국심사를 거쳐야 해요. 기내 반입 수하물의 크기·무게는 예약 항공사의 규정을 따르세요.",
+          "탑승구에는 출발 예정 시각보다 최소 45분 일찍 도착하도록 공항에서 권고하고 있어요. 체크인 마감 시각은 항공사 안내를 따로 확인해 주세요."
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "S&P 식당",
+        "body": [
+          "돈므앙공항의 S&P 식당은 제1터미널 3층에 있어요."
+        ],
+        "link": null
+      },
+      {
+        "title": "은행과 ATM 위치",
+        "body": [
+          "돈므앙공항 Bangkok Bank는 터미널 1의 1층, KBank는 터미널 2의 국내선 출발구역 4층에 있어요.",
+          "SCB ATM은 터미널 2의 1층과 3층, Krungsri ATM은 터미널 1의 3층에 있어요.",
+          "Krungthai ATM은 터미널 2의 출발구역 3층, Government Savings Bank ATM은 터미널 2의 3층에 있어요."
+        ],
+        "link": null
+      }
+    ],
+    "faq": [
+      {
+        "q": "돈므앙공항 S&P 식당은 어디에 있나요?",
+        "a": "국제선 제1터미널 3층에 있어요. 국내선 제2터미널과 구분해서 찾아가세요."
+      },
+      {
+        "q": "돈므앙공항 은행과 ATM은 어디에 있나요?",
+        "a": "방콕은행은 제1터미널 1층, KBank는 제2터미널 국내선 출발구역 4층에 있어요. SCB ATM은 제2터미널 1층과 3층에서 찾을 수 있어요. 은행 지점과 ATM은 다른 시설이에요."
+      },
+      {
+        "q": "돈므앙공항에서는 언제까지 탑승구에 도착해야 하나요?",
+        "a": "공항은 출발 예정 시각 최소 45분 전 도착을 권고해요. 항공사별 체크인 마감 시각과는 다르므로 수속과 출국심사에 걸리는 시간도 잡아두세요."
+      }
+    ],
+    "legacyCheckedAt": "2026-10-14",
+    "officialSources": [
+      "https://donmueang.airportthai.co.th/service/airport-guide/detail/DepartureProcedure_DMK",
+      "https://www.snpfood.com/th/branches",
+      "https://www.snpfood.com/en/branches",
+      "https://mapservice.kasikornbank.com/th/app",
+      "https://mapservice.kasikornbank.com/",
+      "https://donmueang.airportthai.co.th/service/facility/detail/218",
+      "https://donmueang.airportthai.co.th/about-us",
+      "https://donmueang.airportthai.co.th/airport-map"
+    ],
+    "smoking": [
+      {
+        "title": "제1터미널 3층, 8번 출입구 바깥",
+        "access": "일반구역 · 국제선 출발층 외부",
+        "status": "2026년 9월 방문 안내·사진",
+        "body": [
+          "국제선 제1터미널 3층 8번 출입구 바깥, 제2터미널과 이어지는 쪽의 외부 흡연구역이 최근 방문 안내와 사진에 나와요. 출국심사나 보안검색을 통과하기 전에 이용하는 장소예요.",
+          "제1터미널 3층 8번 출입구 바깥에서 Smoking Area 표지를 따라가세요. 출국심사 전 일반구역에 있는 외부 시설이므로 실내 라운지나 국제선 탑승구 안의 흡연실과 구분해야 해요."
+        ],
+        "sources": [
+          "https://blog.asakuma-kitchen.com/post-334/"
+        ],
+        "mapId": null
+      },
+      {
+        "title": "제2터미널 1층, 10번 출입구 바깥",
+        "access": "일반구역 · 국내선 도착층 외부",
+        "status": "2026년 9월 방문 안내",
+        "body": [
+          "국내선 제2터미널 1층 10번 출입구에서 밖으로 나와 작은 도로를 건너면 컨테이너 형태의 흡연구역이 있다고 안내돼 있어요. 공항에서 비행기를 타는 Gate 10과 건물 출입문 Door 10을 구분해 주세요.",
+          "출국심사를 마친 국제선 구역에서 바로 갈 수 있는 시설이 아니에요. 현장 위치가 달라졌다면 공항 안내 직원에게 현재 운영 중인 지정 구역을 물어보세요."
+        ],
+        "sources": [
+          "https://blog.asakuma-kitchen.com/post-334/"
+        ],
+        "mapId": null
+      }
+    ],
+    "pins": []
+  },
+  "HKT": {
+    "name": "푸껫공항",
+    "defaultMap": "30",
+    "intro": [
+      "푸껫공항은 국제선과 국내선 터미널이 나뉘어 있어요. 한국에서 바로 도착하거나 한국행 비행기를 탄다면 국제선 터미널을 먼저 선택하고, 방콕 등 태국 안에서 이동하는 항공편은 국내선 터미널 지도를 보시면 돼요.",
+      "국제선 도착홀은 1층, 국제선 셀프 체크인 기기는 3층 출발홀에 있어요. 의료실이나 흡연구역처럼 꼭 필요한 시설은 아래 안내에서 위치를 읽고 해당 층의 지도를 함께 열어보세요."
+    ],
+    "facts": [
+      [
+        "공항 코드",
+        "HKT · Phuket International Airport"
+      ],
+      [
+        "터미널",
+        "국제선 · 국내선"
+      ],
+      [
+        "국제선 도착홀",
+        "국제선 터미널 1층"
+      ],
+      [
+        "국제선 수하물",
+        "벨트 1–5 · 당일 전광판에서 배정 확인"
+      ],
+      [
+        "공항 대표전화",
+        "+66 76 351 111"
+      ]
+    ],
+    "steps": [
+      {
+        "title": "국제선으로 도착했을 때",
+        "items": [
+          "입국 절차를 마친 뒤 1층 국제선 도착홀의 수하물 안내판에서 편명과 벨트 번호를 찾으세요. 국제선은 1–5번 벨트를 이용해요.",
+          "짐이 나오지 않거나 파손됐다면 도착장 밖으로 나가기 전에 항공사 수하물 창구에 문의하세요.",
+          "몸이 좋지 않다면 국제선 터미널 1층 7번 출입구 일반구역의 의료실을 찾을 수 있어요. 아래 의료시설 안내에서 국내선 응급처치실과 운영시간을 구분해 보세요."
+        ]
+      },
+      {
+        "title": "출발하거나 국내선으로 갈아탈 때",
+        "items": [
+          "국제선 셀프 체크인 키오스크는 3층 국제선 출발홀에 있어요. 키오스크가 있다는 이유만으로 모든 항공사와 항공편에서 이용할 수 있는 것은 아니에요.",
+          "체크인 카운터와 수하물 위탁 가능 여부는 실제 운항사를 기준으로 확인하세요. 아래 항공사별 창구에 위치와 수속 시간이 정리돼 있어요.",
+          "국내선 환승은 탑승권에 적힌 터미널을 확인하고 수하물 재수령·재위탁 여부를 항공사에 먼저 물어보세요. 국제선 의료실이나 편의시설 위치를 국내선 터미널 위치로 혼동하지 않도록 해주세요."
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "국내선 ATM 위치",
+        "body": [
+          "국내선 터미널 2층 출발구역에 KBank ATM이 있어요. 국제선 터미널과 구분해서 찾아가세요."
+        ],
+        "link": null
+      },
+      {
+        "title": "의료실과 응급처치실",
+        "body": [
+          "푸껫공항 의료실은 국제선 터미널 1층 7번 출입구 일반구역에서 24시간 운영해요.",
+          "국내선 터미널 1층의 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영해요."
+        ],
+        "link": null
+      }
+    ],
+    "faq": [
+      {
+        "q": "푸껫공항 ATM은 어디에 있나요?",
+        "a": "KBank ATM은 국내선 터미널 2층 출발구역에 있어요. 시설 검색에서 터미널과 층을 고르면 지도와 함께 볼 수 있어요."
+      },
+      {
+        "q": "국제선 터미널 의료실은 밤에도 이용할 수 있나요?",
+        "a": "국제선 터미널 1층 7번 출입구 일반구역의 의료실은 24시간 운영해요. 국내선 1층 응급처치실은 월요일부터 금요일까지 08:00–17:00에 운영하므로 구분해 주세요."
+      },
+      {
+        "q": "지도에서 빨간 흡연구역 핀은 어디를 가리키나요?",
+        "a": "국내선 터미널 1층 지도에 등록된 흡연구역 G9를 표시해요. 국제선 터미널의 탑승구 G9를 뜻하는 것이 아니며, 당일 출입 가능한 동선과 개방 여부는 현장 표지를 따라주세요."
+      }
+    ],
+    "legacyCheckedAt": "2026-10-14",
+    "officialSources": [
+      "https://phuket.airportthai.co.th/service/airport-guide/detail/Arrival_Procedure_HKT",
+      "https://phuket.airportthai.co.th/service/airport-guide/detail/CUSS_CUBD-HKT",
+      "https://mapservice.kasikornbank.com/th/app",
+      "https://mapservice.kasikornbank.com/",
+      "https://phuket.airportthai.co.th/service/facility/detail/239",
+      "https://phuket.airportthai.co.th/about-us",
+      "https://phuket.airportthai.co.th/airport-map",
+      "https://www.airindia.com/in/en/travel-information/airport-information/phuket-international-airport.html"
+    ],
+    "smoking": [
+      {
+        "title": "국내선 터미널 1층 흡연구역 G9",
+        "access": "국내선 터미널 · 1층",
+        "status": "공식 지도 시설 목록 확인",
+        "body": [
+          "국내선 터미널 1층 지도에서 흡연구역은 G9로 표시돼요. 아래 버튼을 누르면 해당 층 지도에서 빨간 핀으로 위치를 볼 수 있어요.",
+          "국제선 터미널에서 같은 G9를 찾거나, 출국심사 후에도 바로 갈 수 있다고 생각하지 않도록 해주세요. 지도 목록은 위치를 알려주는 자료이며 당일 개방 여부와 출입 가능 동선은 현장 표지에 따라주세요."
+        ],
+        "sources": [
+          "https://phuket.airportthai.co.th/airport-map"
+        ],
+        "mapId": "27",
+        "pin": "hkt-smoking"
+      },
+      {
+        "title": "국제선 터미널 출발 전 외부 흡연구역",
+        "access": "일반구역 · 국제선 건물 외부",
+        "status": "외부 지정구역은 항공사 안내 · 출입문 위치는 이용 안내",
+        "body": [
+          "항공사 공식 공항 안내는 흡연 장소를 터미널 건물 바깥의 지정 구역으로 안내해요. 최근 이용 안내에는 국제선 3층 1번 출입구 바깥이 나와 있어, 국제선 출발 전에 현장 Smoking Area 표지를 찾아가시면 돼요.",
+          "국내선 1층 G9와는 다른 장소예요. 국제선 터미널에서는 3층 1번 출입구 바깥의 현장 표지와 직원 안내를 따라가세요. 지도에는 흡연실 출입문을 가리키는 핀이 없어요."
+        ],
+        "sources": [
+          "https://www.airindia.com/in/en/travel-information/airport-information/phuket-international-airport.html",
+          "https://sabaivape.com/guides/airport-smoking-areas-thailand/"
+        ],
+        "mapId": null
+      }
+    ],
+    "pins": [
+      {
+        "id": "hkt-smoking",
+        "mapId": "27",
+        "x": 55.75,
+        "y": 45.75,
+        "label": "흡연구역 G9",
+        "detail": "공식 지도 Smoking Area G9 시설 위치"
+      }
+    ]
+  },
+  "CNX": {
+    "name": "치앙마이공항",
+    "defaultMap": "25",
+    "intro": [
+      "치앙마이공항에서는 국내선·국제선 표시를 먼저 확인하고 이동하시면 돼요. 도착 후 차량을 부를 때는 앱에서 호출한 위치와 실제 지정 승차장이 같은지도 살펴보세요.",
+      "지도에서 매장·의료실·기도실을 찾고, 시내로 나갈 때는 국제선 터미널 12번 출입구의 셔틀이나 국내선 1층 Grab 서비스센터 안내를 살펴보세요. 출발할 때 셀프 체크인과 셀프 수하물 위탁을 이용할 수 있는 항공사는 서로 달라요."
+    ],
+    "facts": [
+      [
+        "공항 코드",
+        "CNX · Chiang Mai International Airport"
+      ],
+      [
+        "공항 공식 서비스 시간",
+        "06:00–24:00"
+      ],
+      [
+        "공항 대표전화",
+        "+66 53 922 000"
+      ],
+      [
+        "Grab 서비스센터",
+        "국내선 터미널 1층 일반구역 · 24시간"
+      ],
+      [
+        "공항 셔틀 승차",
+        "국제선 터미널 12번 문"
+      ]
+    ],
+    "steps": [
+      {
+        "title": "도착 후 시내로 이동하기",
+        "items": [
+          "항공편의 터미널 도착홀로 이동한 뒤 수하물을 찾고 일반구역으로 나와요. 필요한 물건은 국내선 1층 도착장 Mini Market 위치를 참고하세요.",
+          "Grab은 앱에서 호출하되 지정된 픽업 지점에서 탑승해야 해요. 위치가 헷갈린다면 국내선 터미널 1층 일반구역의 Grab 서비스센터로 가세요.",
+          "공항 셔틀은 국제선 터미널 12번 문에서 타요. A1·A2·A3의 이동 구간과 요금은 아래 교통 안내에서 숙소 위치와 비교해 보세요."
+        ]
+      },
+      {
+        "title": "체크인과 수하물 위탁하기",
+        "items": [
+          "셀프 체크인 기기와 셀프 수하물 위탁 기기는 기능이 달라요. 예약 항공사가 각각의 서비스를 지원하는지 먼저 확인하세요.",
+          "국내선 터미널의 항공사 카운터·카페 주변, 국제선 터미널 8–9번 게이트 근처에 기기가 안내돼 있어요. 구체적인 위치와 지원 항공사는 아래 출발 안내에서 볼 수 있어요.",
+          "수하물을 맡긴 뒤에는 당일 전광판과 탑승권에서 게이트를 다시 확인하고, 항공사에서 안내한 탑승 시간에 맞춰 이동하세요."
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "터미널과 공항 운영시간",
+        "body": [
+          "치앙마이공항은 국내선·국제선 여객터미널 2개 동으로 이루어져 있고, 여객터미널 전체 면적은 31,301㎡예요.",
+          "공식 서비스 시간은 06:00–24:00예요. 공항 대표전화는 +66 53 922 000이고, 태국공항공사 콜센터는 1722예요."
+        ],
+        "link": null
+      },
+      {
+        "title": "시내로 가는 셔틀·시내버스·Grab",
+        "body": [
+          "비행기에서 내리면 국내선·국제선 도착홀 표지판을 따라 이동하세요.",
+          "공항 셔틀은 국제선 터미널 12번 문에서 타요. A1은 님만해민·후아이깨우·구시가지 해자를 지나며 40바트, A2는 마히돈·나이트바자·창클란 호텔가를 지나며 40바트예요. A3는 2번 순환도로를 거쳐 700주년 경기장 방향으로 가며 60바트예요.",
+          "RTC R3 빨강·노랑 시내버스는 1회 30바트로 안내돼 있어요. 이른 아침이나 늦은 밤에 이용한다면 현장에서 운행 중인지 먼저 물어보세요.",
+          "Grab Taxi·Grab Car·Just Grab은 앱에서 호출하고 지정된 픽업 지점에서 타세요. 국내선 터미널 1층 일반구역의 Grab 서비스센터는 24시간 운영하며 전화는 02-0212530이에요.",
+          "렌터카 카운터는 공항 1층에서 찾을 수 있어요."
+        ],
+        "link": null
+      },
+      {
+        "title": "셀프 체크인·수하물 위탁 위치와 지원 항공사",
+        "body": [
+          "셀프 체크인(CUSS) 기기는 국내선의 타이 비엣젯 카운터 앞 3대, 방콕항공 사무실 앞 7대, Amazon Café 근처 8대, Wawee Coffee 근처 3대가 안내돼 있어요. 국제선 터미널 8–9번 게이트 근처에는 9대가 있어요.",
+          "셀프 수하물 위탁(CUBD) 기기는 국내선 타이 비엣젯 카운터 앞 3대, Wawee Coffee 근처 3대, 국제선 터미널 8–9번 게이트 근처 4대가 안내돼 있어요.",
+          "셀프 체크인은 타이항공·타이 라이언·방콕항공·타이 에어아시아·타이 비엣젯·에어아시아·스타룩스·세부퍼시픽이 지원해요. 셀프 수하물 위탁은 방콕항공·에어아시아·타이 에어아시아에서 이용할 수 있어요. 나머지 항공사는 준비 중으로 안내되어 있으니, 이용 전에 예약 항공사에 지원 여부를 물어보세요."
+        ],
+        "link": null
+      },
+      {
+        "title": "편의점 위치",
+        "body": [
+          "치앙마이공항 Mini Market은 국내선 터미널 1층 도착장 일반구역에 있어요."
+        ],
+        "link": null
+      }
+    ],
+    "faq": [
+      {
+        "q": "치앙마이공항은 몇 시까지 운영하나요?",
+        "a": "여객터미널의 공식 운영시간은 06:00–24:00예요. 국내선 터미널 1층의 Grab 서비스센터는 24시간 운영해요."
+      },
+      {
+        "q": "치앙마이공항에 문의하려면 어디로 전화하나요?",
+        "a": "공항 대표전화 +66 53 922 000 또는 태국공항공사 콜센터 1722로 전화하시면 돼요."
+      },
+      {
+        "q": "국제선 도착 후 시내로 가는 셔틀은 어디에서 타나요?",
+        "a": "국제선 터미널 12번 출입구에서 타요. A1·A2는 40바트, A3는 60바트이며, 숙소 위치에 맞는 노선을 고르시면 돼요."
+      },
+      {
+        "q": "치앙마이공항에서 Grab은 어디에서 타나요?",
+        "a": "앱에서 차량을 호출한 뒤 지정된 픽업 지점으로 이동해야 해요. 위치를 찾기 어렵다면 국내선 터미널 1층 일반구역의 Grab 서비스센터로 가세요. 24시간 운영하며 전화는 02-0212530이에요."
+      }
+    ],
+    "legacyCheckedAt": "2026-10-14",
+    "officialSources": [
+      "https://mapservice.kasikornbank.com/th/app",
+      "https://mapservice.kasikornbank.com/",
+      "https://chiangmai.airportthai.co.th/service/facility/detail/358",
+      "https://chiangmai.airportthai.co.th/service/transportation/detail/138",
+      "https://chiangmai.airportthai.co.th/service/transportation/detail/145",
+      "https://chiangmai.airportthai.co.th/service/transportation/detail/139",
+      "https://chiangmai.airportthai.co.th/service/airport-guide/detail/CUSS+CUBD_CNX",
+      "https://chiangmai.airportthai.co.th/about-us",
+      "https://chiangmai.airportthai.co.th/airport-map"
+    ],
+    "smoking": [
+      {
+        "title": "1층 9번 출입구 부근 외부 흡연 장소",
+        "access": "현장 Smoking Area 표지 확인",
+        "status": "출입구 9 부근 이용 안내 · 현장 확인 필요",
+        "body": [
+          "최근 공항 이용 안내에는 1층 9번 출입구 부근의 별도 외부 흡연 장소가 나와요. 국제선 탑승구 Gate 9와 건물 출입문 Exit 9를 혼동하지 않도록 해주세요.",
+          "이곳은 출국심사 전 일반구역에서 찾는 장소예요. 흡연실 출입문을 가리키는 지도 핀은 없으므로 현장 Smoking Area 표지나 안내 직원에게 위치를 물어보세요. 출국심사를 마친 뒤에도 바로 갈 수 있는 장소는 아니에요."
+        ],
+        "sources": [
+          "https://www.airportsmokingzones.com/thailand/cnx-smoking-at-chiang-mai-airport/",
+          "https://norththailife.com/cnx-airport-arrival-guide/"
+        ],
+        "mapId": null
+      }
+    ],
+    "pins": []
+  }
+}

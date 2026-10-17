@@ -16,8 +16,11 @@ test('the build SEO audit fails on the actual Search Console relative-item defec
  const temp=mkdtempSync(join(tmpdir(),'tln-breadcrumb-test-'));
  try{
   const root=join(temp,'dist');mkdirSync(join(root,'ko'),{recursive:true});
-  const html=`<!doctype html><html lang="ko"><head><title>선착장 이용 안내 | ThaiLiveNow</title><meta name="description" content="방콕 선착장 위치와 탑승 안내를 살펴보세요."><script type="application/ld+json">${JSON.stringify(crumb('/ko/'))}</script></head><body><main><h1>선착장 이용 안내</h1></main></body></html>`;
-  writeFileSync(join(root,'ko','index.html'),applyPageSEO(html,'/ko/'));
+  const html=`<!doctype html><html lang="ko"><head><title>선착장 이용 안내 | ThaiLiveNow</title><meta name="description" content="방콕 선착장 위치와 탑승 안내를 살펴보세요."><script type="application/ld+json">${JSON.stringify(crumb('https://thailivenow.com/ko/'))}</script></head><body><main><h1>선착장 이용 안내</h1></main></body></html>`;
+  // Inject the defect after metadata preparation so this still tests the
+  // audit boundary even when the normal metadata path repairs relative URLs.
+  const defective=applyPageSEO(html,'/ko/').replace('\"item\":\"https://thailivenow.com/ko/\"','\"item\":\"/ko/\"');
+  writeFileSync(join(root,'ko','index.html'),defective);
   const result=spawnSync(process.execPath,[fileURLToPath(new URL('../scripts/audit-seo.mjs',import.meta.url)),root],{cwd:temp,encoding:'utf8'});
   assert.equal(result.status,1);
   const report=JSON.parse(readFileSync(join(temp,'artifacts','seo-audit.json'),'utf8'));

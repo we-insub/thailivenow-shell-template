@@ -7,6 +7,7 @@ import AirportFacilityText from './AirportFacilityText.astro';
 import {airportKoreanReviewEnabled} from '../lib/airport-review';
 import AirportSources from './AirportSources.astro';
 import ImportantText from './ImportantText.astro';
+import AirportKoreanGuide from './AirportKoreanGuide.astro';
 const {code,locale='ko', reviewEnabled=airportKoreanReviewEnabled}=Astro.props;
 const data=code==='HKT'?hktData:code==='BKK'?bkkData:code==='DMK'?dmkData:cnxData;
 const copy=(data.locales as any)[code!=='CNX'?locale:locale==='ko'?'en':locale]?.content;
@@ -16,9 +17,10 @@ const showReview=reviewEnabled&&locale!=='ko';
 const important=['Level 2','domestic and international arrivals','06:00–24:00','24 hours','24시간','Floor 1','1층','Door 12','12번 문','30 THB','30바트','40 THB','40바트','60 THB','60바트','1722','45 minutes','45분 전','국제선 승객','2층 7번 게이트','국제선 터미널 1층','1–5번 벨트','3층 동쪽','2층 국내선·국제선 도착장'];
 const sources=code==='HKT'?hktData.sources:code==='BKK'?bkkData.sources:code==='DMK'?dmkData.sources:['https://chiangmai.airportthai.co.th/about-us','https://chiangmai.airportthai.co.th/service/transportation/detail/138','https://chiangmai.airportthai.co.th/service/transportation/detail/145','https://chiangmai.airportthai.co.th/service/transportation/detail/139','https://chiangmai.airportthai.co.th/service/airport-guide/detail/CUSS+CUBD_CNX',...((cnxData as any).sources || [])];
 ---
-{enabled&&<div class="facility-intro" data-airport-facilities data-korean-review>
+{enabled&&locale==='ko'&&<AirportKoreanGuide code={code}/>}
+{enabled&&locale!=='ko'&&<div class="facility-intro" data-airport-facilities data-korean-review>
  <section class="facility-heading"><h2><AirportFacilityText value={copy.title} locale={locale} showReview={showReview} phrases={important}/></h2></section>
- {copy.sections.map((s:any,i:number)=><section class="facility-section"><h2><AirportFacilityText value={s.title} locale={locale} showReview={showReview} phrases={important}/></h2>{s.body.map((text:string,j:number)=><p><AirportFacilityText value={text} locale={locale} showReview={showReview} phrases={important}/></p>)}{s.link?.url&&s.link?.label&&<p><a href={s.link.url} target="_blank" rel="noopener noreferrer"><AirportFacilityText value={s.link.label} locale={locale} showReview={showReview} phrases={important}/></a></p>}</section>)}
+ {copy.sections.filter((s:any)=>locale!=='ko'||s.id!=='BKK-OFFICIAL-INDOOR-MAP-LINK').map((s:any,i:number)=><section class="facility-section"><h2><AirportFacilityText value={s.title} locale={locale} showReview={showReview} phrases={important}/></h2>{s.body.map((text:string,j:number)=><p><AirportFacilityText value={text} locale={locale} showReview={showReview} phrases={important}/></p>)}{s.link?.url&&s.link?.label&&<p><a href={s.link.url} target="_blank" rel="noopener noreferrer"><AirportFacilityText value={s.link.label} locale={locale} showReview={showReview} phrases={important}/></a></p>}</section>)}
  <section class="facility-faq">{copy.faq.map((item:any,i:number)=><article><h3><AirportFacilityText value={item.q} locale={locale} showReview={showReview} phrases={important}/></h3><p><AirportFacilityText value={item.a} locale={locale} showReview={showReview} phrases={important}/></p></article>)}</section>
  <AirportSources sources={sources} locale={locale} checkedAt={data.checkedAt} idPrefix="airport-source-facility"/>
 </div>}

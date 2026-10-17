@@ -1,0 +1,7 @@
+---
+import BkkGuidePage from '../../../../../components/BkkGuidePage.astro';
+import {bkkGuidePages} from '../../../../../data/bkk-guide-pages.mjs';
+export function getStaticPaths(){return bkkGuidePages.filter(p=>['map','smoking','airlines'].includes(p.id)).map(p=>({params:{section:p.id},props:{part:p.id}}));}
+const {part}=Astro.props;
+---
+<BkkGuidePage part={part}/>

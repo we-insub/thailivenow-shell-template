@@ -1,8 +1,10 @@
 ---
+import {isKoreanAirportGuide} from '../lib/airport-guide-navigation.mjs';
 const {title,description,locale='ko',lang='ko-KR'}=Astro.props;
 const base=Astro.site||Astro.url;
 const canonical=new URL(Astro.url.pathname,base).href;
-const hub=new URL(`/${locale}/airport-assistance/`,base).href;
+const airportGuide=locale==='ko'&&isKoreanAirportGuide(Astro.url.pathname);
+const hub=new URL(airportGuide?'/ko/airports/':`/${locale}/airport-assistance/`,base).href;
 const schema={
   '@context':'https://schema.org',
   '@type':'WebPage',
@@ -13,7 +15,7 @@ const schema={
   inLanguage:lang,
   isPartOf:{'@type':'WebSite',name:'ThaiLiveNow',url:new URL('/',base).href},
   ...(canonical!==hub?{breadcrumb:{'@type':'BreadcrumbList',itemListElement:[
-    {'@type':'ListItem',position:1,name:'ThaiLiveNow',item:hub},
+    {'@type':'ListItem',position:1,name:airportGuide?'태국 공항':'ThaiLiveNow',item:hub},
     {'@type':'ListItem',position:2,name:title,item:canonical}
   ]}}:{})
 };

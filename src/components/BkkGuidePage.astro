@@ -1,0 +1,38 @@
+---
+import {airportServiceKoreanCopy} from '../lib/airport-service-copy-ko.mjs';
+import AirportAssistanceDetail from './AirportAssistanceDetail.astro';
+import AirportKoreanGuide from './AirportKoreanGuide.astro';
+import BkkGuidePagination from './BkkGuidePagination.astro';
+import BkkAirlineCounters from './BkkAirlineCounters.astro';
+import RuntimeDate from './RuntimeDate.astro';
+import dateObservations from '../../data/site-date-observations.json';
+import {getOperationalDeployDate} from '../lib/operational-date';
+import {airportPairs} from '../lib/airport-markets';
+import {bkkGuidePages} from '../data/bkk-guide-pages.mjs';
+import data from '../../public/data/airport-assistance.json';
+const {part='overview'}=Astro.props;
+const page=bkkGuidePages.find(p=>p.id===part)!;
+const code='BKK',name='수완나폼공항';
+const pageDates=(dateObservations.pages as any)[page.url];
+const services=data.services.filter(s=>s.airportIata===code||s.airport?.includes(code)).map(airportServiceKoreanCopy);
+const routes=data.routes.filter(r=>r.originIata===code || r.destinationIata===code);
+const statusLinks=[...new Map(routes.filter((r:any)=>r.flightStatusUrl).map((r:any)=>[r.airlineId,{airline:r.airline,url:r.flightStatusUrl}])).values()] as any[];
+const pairs=airportPairs(data).filter(pair=>[pair.other,pair.thai].includes(code));
+const carrierIds=new Set([...routes.map(r=>r.airlineId),...services.map(s=>s.airlineId)]);
+const guides=data.guides.filter((g:any)=>(!g.airportIata||g.airportIata===code)&&(!g.airlineIds?.length||g.airlineIds.some((id:string)=>carrierIds.has(id))));
+const pageSources=[...new Set([...services.flatMap((item:any)=>item.sources||[]),...routes.flatMap((item:any)=>item.sources||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
+---
+<AirportAssistanceDetail title={page.title} description={page.description}>
+<BkkGuidePagination current={part}/>
+{part==='smoking'&&<p>출국심사 전에는 <strong>2층·4층 Door 1·Door 10 바깥</strong> 흡연실을 찾아가세요. 면세구역에서는 <strong>D구역 버거킹 옆 화장실 부근</strong>의 이용 기록을 참고하되 현장 표지를 따라가세요. 미라클 라운지의 별도 흡연공간은 안내가 상충하므로 입장료를 내기 전에 개방 여부를 물어보셔야 해요.</p>}
+{part!=='airlines'&&<AirportKoreanGuide code="BKK" part={part} faqItems={page.faq}/>}
+{part==='overview'&&<section><h2>다음으로 필요한 공항 안내</h2><p>도착해서 편의점이나 환전소를 찾는다면 <a href="/ko/airport-assistance/airports/bkk/map/">터미널·층별 지도와 시설 위치</a>를 열어보세요. 담배를 피울 수 있는 곳은 <a href="/ko/airport-assistance/airports/bkk/smoking/">출국심사 전후 흡연실 안내</a>에서 구역별로 구분했어요.</p><p>숙소로 이동할 때는 <a href="/ko/transport/airports/suvarnabhumi-to-bangkok/">공항철도·택시·차량 호출로 방콕 시내 가는 법</a>을 비교해 보세요. 출발편을 이용한다면 <a href="/ko/airport-assistance/airports/bkk/airlines/">항공사별 체크인 카운터와 연락처</a>에서 실제 운항사 안내를 이어 볼 수 있어요.</p></section>}
+{part==='map'&&<section><h2>흡연실과 시내 교통 찾기</h2><p><a href="/ko/airport-assistance/airports/bkk/smoking/">흡연실 안내</a>에는 일반구역과 면세구역의 이용 조건, 버거킹과 미라클 라운지의 지도 기준점을 함께 정리했어요. 지하 1층 공항철도와 차량 승차 위치는 <a href="/ko/transport/airports/suvarnabhumi-to-bangkok/">방콕 시내 이동 안내</a>에서 살펴보세요.</p></section>}
+{part==='smoking'&&<section><h2>다른 시설이나 출발 카운터를 찾는다면</h2><p>편의점·의료실·식당은 <a href="/ko/airport-assistance/airports/bkk/map/">공항 내부 지도와 시설 검색</a>에서 찾을 수 있어요. 일반구역 흡연실을 이용한 뒤 출발 수속을 한다면 <a href="/ko/airport-assistance/airports/bkk/airlines/">항공사별 카운터 안내</a>와 당일 전광판을 함께 살펴보세요.</p></section>}
+{part==='airlines'&&<BkkAirlineCounters services={services} routes={routes} statusLinks={statusLinks} pairs={pairs} guides={guides} sources={pageSources}/>}
+
+<BkkGuidePagination current={part} position="bottom"/>
+<p class="page-dates">최근 수정일: <RuntimeDate kind="modified" fallback={pageDates?.contentModifiedOn} locale="ko" unknown="미확인"/><br/>최근 배포일: <RuntimeDate kind="deployment" fallback={getOperationalDeployDate()} locale="ko"/></p>
+</AirportAssistanceDetail>
+
+<style>.guide-sources{font-size:13px}.guide-sources li{margin:10px 0;overflow-wrap:anywhere}.guide-sources a{font-size:12px;font-weight:400!important}.source-fold{padding:16px;border:1px solid #dce5e8;border-radius:10px}.source-fold summary{cursor:pointer;font-weight:600}.page-dates{font-size:13px}</style>

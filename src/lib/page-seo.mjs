@@ -17,6 +17,27 @@ function attr(n, name) { return n.attrs?.find(a => a.name === name)?.value; }
 function text(n) { return n.nodeName === '#text' ? n.value : (n.childNodes || []).filter(c => !['script','style'].includes(c.nodeName)).map(text).join(' '); }
 function clean(s) { return s.replace(/\s+/g,' ').trim(); }
 function esc(s) { return s.replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function normalizeBreadcrumbURLs(html) {
+ return html.replace(/(<script\b[^>]*type=["']application\/ld\+json["'][^>]*>)([\s\S]*?)(<\/script>)/gi,(tag,start,body,end)=>{
+  try {
+   const data=JSON.parse(body);let changed=false;
+   const absolute=url=>{
+    if(typeof url==='string'&&url.startsWith('/')&&!url.startsWith('//')){changed=true;return new URL(url,origin).href;}
+    return url;
+   };
+   const visit=value=>{
+    if(!value||typeof value!=='object')return;
+    if([value['@type']].flat().includes('BreadcrumbList'))for(const entry of value.itemListElement||[]){
+     if(typeof entry.item==='string')entry.item=absolute(entry.item);
+     else if(entry.item&&typeof entry.item==='object'&&'@id'in entry.item)entry.item['@id']=absolute(entry.item['@id']);
+    }
+    Object.values(value).forEach(child=>Array.isArray(child)?child.forEach(visit):visit(child));
+   };
+   visit(data);
+   return changed?start+JSON.stringify(data).replaceAll('<','\\u003c')+end:tag;
+  }catch{return tag;}
+ });
+}
 function syncWebPageMetadata(head, metadata) {
  return head.replace(/(<script\b[^>]*type=["']application\/ld\+json["'][^>]*>)([\s\S]*?)(<\/script>)/gi, (tag,start,body,end)=>{
   try {
@@ -35,6 +56,7 @@ function syncWebPageMetadata(head, metadata) {
 }
 export function applyPageSEO(html, pathname) {
  if (!/<head\b/i.test(html)) return html;
+ html=normalizeBreadcrumbURLs(html);
  const all = nodes(parse(html));
  const parts = pathname.split('/').filter(Boolean);
  const locale = parts[0] || 'en';

@@ -1,0 +1,23 @@
+---
+const {code,directory,pins=[],defaultMap}=Astro.props;
+const maps=directory.maps;
+const first=maps.find((m:any)=>m.id===defaultMap)||maps[0];
+---
+<section class="guide-map" data-guide-map data-map-options={JSON.stringify(maps.map(({facilities,...m}:any)=>m))} data-map-pins={JSON.stringify(pins)} aria-labelledby={`floor-map-${code}`}>
+ <h2 id={`floor-map-${code}`}>터미널·층별 지도</h2>
+ <p>이용할 터미널과 층을 고르세요. {pins.length>0&&<><strong>빨간 핀을 누르면 시설이나 찾아가는 기준점</strong>을 볼 수 있어요. </>}지도에 적힌 시설번호는 탑승구 번호와 달라요.</p>
+ <div class="map-controls"><label>터미널·층 선택<select data-floor-select>{maps.map((m:any)=><option value={m.id} selected={m.id===first.id}>{m.label}</option>)}</select></label></div>
+ <p class="map-help" id={`map-help-${code}`}>지도 위에서 휠을 움직이면 확대·축소하고, 누른 채 드래그하면 이동해요. 모바일에서는 두 손가락으로 확대·축소할 수 있어요. 키보드는 +/−로 확대·축소, 방향키로 이동, Home으로 처음 위치로 돌아가요.</p>
+ <div class="map-scroll" data-map-viewport tabindex="0" role="region" aria-label={`${code} 층별 지도 · 드래그 이동과 휠 확대`} aria-describedby={`map-help-${code}`}><div class="airport-floor-canvas" data-map-canvas>
+  <img data-floor-image src={first.image} alt={`${code} ${first.label} 공식 층별 지도`} loading="eager" draggable="false"/>
+  <div data-pin-layer>{pins.filter((p:any)=>p.mapId===first.id).map((p:any,i:number)=><button type="button" class="map-pin" style={`left:${p.x}%;top:${p.y}%`} aria-label={`${p.label}: ${p.detail}`} title={p.label} data-pin-id={p.id}>{i+1}</button>)}</div>
+ </div></div>
+ <p class="pin-description" data-pin-description role="status">{first.label} 지도예요. {pins.some((p:any)=>p.mapId===first.id)?'빨간 핀의 시설명을 확인해 보세요.':''}</p>
+ <p class="map-credit">원본 지도: 태국공항공사 · <a href={directory.source} target="_blank" rel="noopener noreferrer">공항 공식 지도 출처</a>. 빨간 핀과 한국어 설명은 ThaiLiveNow에서 추가했어요.</p>
+</section>
+<script>
+import '../scripts/airport-detail-guide';
+</script>
+<style>
+.guide-map{margin:36px 0}.guide-map h2{margin-bottom:16px}.guide-map p{line-height:1.85;margin:12px 0}.map-controls{display:flex;gap:20px;align-items:end;flex-wrap:wrap;margin-top:24px}.map-controls label{font-weight:650;font-size:14px;display:flex;flex-direction:column;gap:8px;min-width:0}.map-controls select{font:inherit;max-width:100%;padding:12px;border:1px solid #b9ccd2;border-radius:8px;background:white;color:#253545}.map-scroll{position:relative;overflow:hidden;height:600px;border:1px solid #dce5e8;border-radius:14px;background:white;overscroll-behavior:contain;touch-action:none;cursor:grab;user-select:none}.map-scroll:active{cursor:grabbing}.airport-floor-canvas{position:absolute;top:0;left:0;width:100%;transform-origin:0 0;will-change:transform}.airport-floor-canvas img{display:block;width:100%;max-width:none;height:auto}.guide-map :global(.map-pin){position:absolute;transform:translate(-50%,-100%);width:34px;height:42px;clip-path:polygon(0 0,100% 0,100% 74%,50% 100%,0 74%);border:0;border-radius:50% 50% 3px 3px;background:#ca3434;color:white;font-size:16px;font-weight:800;cursor:pointer;padding-bottom:9px;filter:drop-shadow(0 2px 2px #0005)}.guide-map :global(.map-pin:focus-visible){outline:3px solid #222;outline-offset:3px;clip-path:none}.map-help,.map-credit{font-size:12px!important}.pin-description{padding:12px 16px;background:#edf5f7;border-radius:8px;font-size:14px}.map-credit a{font-weight:400!important;text-decoration:underline}@media(max-width:650px){.map-controls{display:grid;grid-template-columns:1fr;gap:16px}.map-scroll{height:420px}}
+</style>
