@@ -1,13 +1,14 @@
 ---
+import {hasLocalizedStage,isLocalizedPage} from '../lib/localized-content';
 import {getUI} from '../i18n/ui';
 const {locale='ko'}=Astro.props;
 const ui=getUI(locale);
 ---
 <footer class="site-footer tln-footer" data-site-footer>
  <div><a class="footer-brand" href={`/${locale}/`}>ThaiLiveNow</a><p>{ui.footer}</p></div>
- <nav aria-label={ui.explore}><a href={`/${locale}/`}>{ui.map}</a><a href={`/${locale}/directory/`}>{ui.cameras}</a><a href="/ko/transport/">{ui.transport}</a>{locale==='ko'&&<><a href="/ko/food/">음식</a><a href="/ko/food-delivery/">음식배달</a><a href="/ko/rooftops/">루프탑</a><a href="/ko/beaches/">해변</a></>}</nav>
+ <nav aria-label={ui.explore}><a href={`/${locale}/`}>{ui.map}</a><a href={`/${locale}/directory/`}>{ui.cameras}</a><a href={`/${locale}/transport/`}>{ui.transport}</a>{locale!=='ko'&&hasLocalizedStage(locale,'rooftops')&&<a href={`/${locale}/rooftops/`}>루프탑</a>}{locale==='ko'&&<><a href="/ko/food/">음식</a><a href="/ko/food-delivery/">음식배달</a><a href="/ko/rooftops/">루프탑</a><a href="/ko/beaches/">해변</a></>}</nav>
  <small>© 2026 ThaiLiveNow</small>
  {locale==='ko'&&<nav aria-label="서비스 운영 안내"><a href="/ko/about/">서비스 소개</a><a href="/ko/contact/">문의·오류 신고</a><a href="/ko/credits/">출처 및 이용 안내</a><a href="/ko/terms/">이용약관·제휴 안내</a><a href="/ko/privacy/">개인정보 처리방침</a></nav>}
- <button type="button" data-analytics-settings>{locale==='ko'?'방문 통계 설정':'Analytics settings'}</button>
+ <button type="button" data-analytics-settings>{locale==='ko'||isLocalizedPage(Astro.url.pathname)?'방문 통계 설정':'Analytics settings'}</button>
 </footer>
 <style>.tln-footer button{font:inherit;color:#267e89;background:white;border:1px solid #cddde2;border-radius:8px;padding:8px 12px;cursor:pointer}.tln-footer button:focus-visible{outline:3px solid #66a7cd;outline-offset:3px}</style>

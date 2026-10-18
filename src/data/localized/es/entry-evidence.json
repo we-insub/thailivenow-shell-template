@@ -1,0 +1,76 @@
+{
+  "locale": "es",
+  "market": "ES",
+  "passport": "Spanish ordinary passport",
+  "applicationMission": "Royal Thai Embassy, Madrid; Spain/Andorra jurisdiction only",
+  "checkedAt": "2026-10-18",
+  "officialPagesActuallyRead": [
+    {
+      "url": "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+      "read": "full official body opened with web tool",
+      "scope": "Embajada de Tailandia en Madrid · nuevas condiciones para pasaportes españoles desde el 15 de septiembre de 2026"
+    },
+    {
+      "url": "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+      "read": "full official body opened with web tool",
+      "scope": "Embajada de Tailandia en Madrid · visado de turista de entrada única"
+    },
+    {
+      "url": "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+      "read": "full official body opened with web tool",
+      "scope": "Embajada de Tailandia en Madrid · visado de turista de entrada múltiple"
+    },
+    {
+      "url": "https://madrid.thaiembassy.org/en/page/19412-visa",
+      "read": "full official body opened with web tool",
+      "scope": "Embajada de Tailandia en Madrid · información de visados y jurisdicción"
+    },
+    {
+      "url": "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+      "read": "full official body opened with web tool",
+      "scope": "Embajada de Tailandia en Madrid · tasas consulares"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/index.html",
+      "read": "full official body opened with web tool",
+      "scope": "Inmigración de Tailandia · guía oficial de la TDAC"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "read": "full official body opened with web tool",
+      "scope": "Inmigración de Tailandia · preguntas frecuentes de la TDAC"
+    }
+  ],
+  "changedFields": {
+    "visaExemption": "Korean bilateral 90 days replaced by Spanish maximum 30 days effective 2026-09-15",
+    "singleTourist": "Madrid: validity 90 days, stay 60 days, 35 EUR, passport at least 6 months, photo within 6 months",
+    "multipleTourist": "Madrid: validity 6 months, stay 60 days per entry, 175 EUR, passport expiry more than 12 months from entry; two entries/exits; six-month average balance 200000 THB / 6000 EUR and employment/sponsor evidence",
+    "jurisdiction": "Madrid Spanish/Andorran residence jurisdiction; no Korean ARC/K-ETA conditions",
+    "applicationTiming": "Madrid one or two months before travel, not beyond 3 months; no Seoul 7-business-day promise",
+    "tdac": "Full original mobile stages/fields/images/FAQ preserved; actual passport/nationality/residence/boarding country distinguished"
+  },
+  "exceptionsAndConflicts": [
+    {
+      "issue": "Madrid tourist pages last updated 2024 still say 60-day exemption",
+      "resolution": "Specific Madrid 2026-09-03 notice taking effect 2026-09-15 controls; current Spanish exemption 30 days."
+    },
+    {
+      "issue": "Korean source includes cash 20000/40000 and Seoul fee waiver",
+      "resolution": "No independently read Spain/Madrid primary support for that cash figure; not transplanted. Madrid fees independently confirmed; financial preparedness explained without unverified border-cash amount."
+    },
+    {
+      "issue": "TDAC manual does not list Passport Number in immutable fields; FAQ does",
+      "resolution": "Preserve four fields per explicitly read official FAQ: full name, passport number, nationality, birth date; record discrepancy."
+    },
+    {
+      "issue": "Original screenshots and health country example are Korean-specific demonstration captures",
+      "resolution": "Files and 2026-10-14 capture date preserved; body labels them historical examples, not new Spanish submissions or verified current Spanish health prompts."
+    }
+  ],
+  "holds": [
+    "No real visa or TDAC submission performed.",
+    "No new passport-specific health assessment; follow actual official prompts.",
+    "Generated HTML, canonical, links, PC/mobile and final integration remain parent tasks."
+  ],
+  "researchLimits": "Only entry/visa official research; no translation API, LLM API, or other tourism fact research."
+}

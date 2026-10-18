@@ -1,0 +1,9 @@
+{
+  "locale": "ja",
+  "travel": "complete",
+  "rooftops": "complete",
+  "cameras": "complete",
+  "ui": "complete",
+  "finalHtml": "pending",
+  "review": "src/data/localized/ja/review.md"
+}

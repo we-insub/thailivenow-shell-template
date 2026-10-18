@@ -1,0 +1,98 @@
+{
+  "locale": "ms",
+  "market": "MY",
+  "passport": "Malaysian ordinary passport",
+  "checkedOn": "2026-10-18",
+  "timeZone": "Asia/Bangkok",
+  "scope": "Entry and visa research expressly authorized; no new tourism-place research.",
+  "sources": [
+    {
+      "url": "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+      "read": "Full HTML text; updated 2026-09-02",
+      "facts": [
+        "30-day scheme shown; nationality list embedded images not extracted from this HTML."
+      ]
+    },
+    {
+      "url": "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+      "read": "Full HTML; lines 267-282 include Malaysia at entry36.",
+      "facts": [
+        "Ordinary Malaysian passport included in 30-day tourism exemption effective 2026-09-15."
+      ],
+      "notImported": [
+        "Twice-yearly rule specifically framed for Norwegian/Icelandic passport holders."
+      ]
+    },
+    {
+      "url": "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+      "read": "Full visa-reform section lines206-212",
+      "facts": [
+        "Revised schemes effective 2026-09-15; old 60-day scheme revoked; tourism purpose; actual permission stamp controls."
+      ]
+    },
+    {
+      "url": "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+      "read": "FAQ Q1-Q10 full text",
+      "facts": [
+        "Apply online; physical presence in Malaysia; Malaysia IC evidence; 5-7 working days indicative; extra documents/interview possible; TDAC distinct and required; downloaded QR document can be shown on device."
+      ]
+    },
+    {
+      "url": "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+      "read": "Full tourist-visa text",
+      "facts": [
+        "Single-entry valid3months; stay up to60days; possible30day extension/max90; apply at least15working days; extra docs; translations for documents issued outside Thailand/Malaysia; fee nonrefund."
+      ]
+    },
+    {
+      "url": "https://kualalumpur.thaiembassy.org/en/publicservice/visa-types-fees-requirements",
+      "read": "Full table, tourist TR row174-175 and payment row163",
+      "facts": [
+        "MYR160 single/MYR800 multiple;90days single validity/6months multiple;credit-card e-payment."
+      ]
+    },
+    {
+      "url": "https://image.mfa.go.th/mfa/0/n3gTFT2TOE/Visa_Requirements/e-visa_info/TR1-tourism.png",
+      "read": "Downloaded linked official infographic and visually read all text; retained artifacts/localization-20261018/ms/tr1-evidence.png",
+      "facts": [
+        "Passport biodata;photo within6months;current location;travel booking;accommodation;financial evidence>=20000THB e.g.last3months bank statements/sponsorship;3months single/6months multiple validity;approval/interview/additionaldocs/nonrefund."
+      ]
+    },
+    {
+      "url": "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024?form=MG0AV3",
+      "read": "Full updated2026-09-17 HTML visa exemption section lines281-286",
+      "facts": [
+        "30-day tourism exemption from2026-09-15;general cash requirement20000THB/person or40000THB/family;applies to scheme, not restricted to US-passport readers."
+      ],
+      "notImported": [
+        "Temporary/emergency passport exception not part of ordinary Malaysian passport scope."
+      ]
+    }
+  ],
+  "changesFromKorean": [
+    "90-day bilateral Korean exemption replaced by30day Malaysian scheme",
+    "Seoul jurisdiction replaced Kuala Lumpur and actual presence Malaysia",
+    "Korean visa fee waiver replaced KL MYR160/800",
+    "Foreign-resident Korean paperwork/K-ETA not transplanted",
+    "KL official tourist-visa financial rule20000THB used; no invented60000 multiple rule"
+  ],
+  "preserved": [
+    "TDAC full11sections,10FAQ,all fields and screenshots/copyright retained",
+    "Original common entry20000/40000THB cash rule preserved and independently confirmed against updated2026-09-17 official30day-scheme page; KL visa-application20000THB bank evidence remains distinct.",
+    "Original TDAC screenshot date2026-10-14 retained; source original check date retained for TDAC"
+  ],
+  "holds": [
+    "This is data/source review; rendered HTML, same-language related URL availability, SEO build, runtime and PC/mobile review remain root integration gates.",
+    "KL sources differ in lead time5-7working processing vs15working advance recommendation; both preserved without guarantee."
+  ],
+  "failedReads": [
+    {
+      "url": "https://www.kln.gov.my/web/tha_bangkok/post/notice-revision-of-visa-exemption-period-for-malaysian-passport-holders-travelling-to-thailand",
+      "result": "Search result confirms30day but full open returned502; not used as sole full-text evidence."
+    },
+    {
+      "url": "https://helsinki.thaiembassy.org/en/publicservice/updated-tourist-visa-exemption-scheme-30-days-effective-15-september-2?menu=5d80876d15e39c3354007bb2&page=5d80876d15e39c3354007bb0",
+      "result": "Search result available but open returned PAGE NOT FOUND; substituted full Oslo nationality list."
+    }
+  ]
+}

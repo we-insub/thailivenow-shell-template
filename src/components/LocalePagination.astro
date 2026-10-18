@@ -1,0 +1,6 @@
+---
+const {page=1,pages=1,basePath,segment='page/'}=Astro.props;
+const url=(number:number)=>number===1?basePath:`${basePath}${segment}${number}/`;
+---
+{pages>1&&<nav class="locale-pagination" data-locale-pagination aria-label="페이지 선택">{page>1&&<a href={url(page-1)} data-page-number={page-1} rel="prev">← 이전</a>}{Array.from({length:pages},(_,index)=><a href={url(index+1)} data-page-number={index+1} aria-current={page===index+1?'page':undefined}>{index+1}</a>)}{(page < pages)&&<a href={url(page+1)} data-page-number={page+1} rel="next">다음 →</a>}</nav>}
+<style>.locale-pagination{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:32px 0}.locale-pagination a{display:inline-flex;min-width:44px;min-height:44px;align-items:center;justify-content:center;padding:10px 16px;border:1px solid #c7d7df;border-radius:8px;background:#fff;color:#267e89;font-weight:700;text-decoration:none}.locale-pagination a[aria-current=page]{background:#267e89;color:#fff}.locale-pagination a:focus-visible{outline:3px solid #e49456;outline-offset:3px}</style>

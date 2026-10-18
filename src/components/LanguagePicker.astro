@@ -1,18 +1,22 @@
 ---
 import { locales, localePath, type Locale } from '../i18n/locales';
 import { getUI } from '../i18n/ui';
+import {hasLocalizedStage} from '../lib/localized-content';
 const { locale = 'en', homeOnly = false, switchPath } = Astro.props as { locale?: Locale; homeOnly?: boolean; switchPath?:string };
 const destination = (code:Locale) => localePath(homeOnly || (switchPath === '/airport-assistance/' && code==='en') ? '/' : switchPath || Astro.url.pathname,code);
 const active = locales.find(item => item.code === locale)!;
 const ui = getUI(locale);
+const topic=Astro.url.pathname.split('/')[2];
+const stage=topic==='rooftops'?'rooftops':['entry','travel-seasons'].includes(topic)?'travel':undefined;
+const available=(code:Locale)=>!stage||code==='ko'||hasLocalizedStage(code,stage);
 const codes:Record<string,string>={ko:'KR',ms:'MY','zh-cn':'CN',en:'EN','en-in':'IN',ru:'RU',ja:'JP','en-gb':'UK','en-us':'US',es:'ES','zh-tw':'TW'};
 ---
-<details class="language-switch language-menu language-picker" id="language-picker" data-home-only={homeOnly ? 'true' : undefined} data-switch-path={switchPath}>
+<details class="language-switch language-menu language-picker" id="language-picker" data-home-only={homeOnly ? 'true' : undefined} data-switch-path={switchPath} data-supported-locales={JSON.stringify(locales.filter(item=>available(item.code)).map(item=>item.code))}>
   <summary aria-label={ui.language}><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c4 5 4 13 0 18M12 3c-4 5-4 13 0 18"/></svg><span title={`${active.label} · ${active.region}`}>{codes[locale]}</span><span aria-hidden="true">▾</span></summary>
   <ul aria-label={ui.language}>
     <li class="language-heading">{ui.language}</li>
     {homeOnly && <li class="language-note">이 상세페이지는 한국어로 제공됩니다. 다른 언어는 해당 언어의 홈으로 이동합니다.</li>}
-    {locales.map(item => <li><a href={destination(item.code)} data-locale-choice={item.code} aria-current={item.code === locale ? 'true' : undefined}><strong>{item.code.toUpperCase()}</strong><span>{item.label}<small>{item.region}</small></span><span aria-hidden="true">{item.code === locale ? '✓' : ''}</span></a></li>)}
+    {locales.map(item => <li>{available(item.code)?<a href={destination(item.code)} data-locale-choice={item.code} aria-current={item.code === locale ? 'true' : undefined}><strong>{item.code.toUpperCase()}</strong><span>{item.label}<small>{item.region}</small></span><span aria-hidden="true">{item.code === locale ? '✓' : ''}</span></a>:<span class="language-pending" aria-disabled="true"><strong>{item.code.toUpperCase()}</strong><span>{item.label}<small>{item.region}</small></span></span>}</li>)}
     <li><button type="button" data-locale-auto>{ui.automatic}</button></li>
   </ul>
 </details>

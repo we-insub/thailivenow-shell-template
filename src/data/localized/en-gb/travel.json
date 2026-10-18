@@ -1,0 +1,1758 @@
+{
+  "destinations": {
+    "title": "Thailand travel: destinations, seasons and entry from the UK",
+    "description": "Choose a Thai city or island, compare monthly weather and prepare for arrival with British-passport entry, TDAC and tourist visa guidance.",
+    "h1": "Plan your Thailand holiday",
+    "intro": "Picture the kind of day you would like: relaxing in a good hotel, taking your time around temples and cafés, or enjoying a seaside holiday. Think about how you would spend a day in each city or island and choose somewhere that appeals to you.",
+    "entryHeading": "Entering Thailand",
+    "entryIntro": "Travelling to Thailand for a holiday on a British passport? Before departure, check your passport and visa-exempt entry conditions, then complete the TDAC using your flight and accommodation bookings. If your itinerary requires a visa, read about the visa for your purpose and how to apply.",
+    "seasonsHeading": "When to visit Thailand",
+    "seasonsIntro": "Have you chosen your travel month? Compare the weather according to whether you want to walk around Bangkok’s temples and markets or relax in Phuket or Koh Samui. Monthly temperatures and rainfall help you choose when to go and what to pack.",
+    "areas": {
+      "bangkok": {
+        "name": "Bangkok",
+        "intro": "Relax at a hotel with a swimming pool during the day, then dine beside the river or enjoy rooftop city views in the evening. Bangkok suits a holiday combining time in a five-star hotel with exploring the city."
+      },
+      "chiang-mai": {
+        "name": "Chiang Mai",
+        "intro": "Wander past temples and through old-city lanes, stopping at a café that catches your eye. Chiang Mai suits slow days filled with coffee and walks."
+      },
+      "chiang-rai": {
+        "name": "Chiang Rai",
+        "intro": "Discover striking buildings such as the White Temple and Blue Temple. See the landscapes you have admired in photographs and explore northern mountains and temples."
+      },
+      "pattaya": {
+        "name": "Pattaya",
+        "intro": "Walk along the beach or relax at your hotel during the day, then have dinner with a sea view. Combine a seaside holiday with meals and sightseeing in town."
+      },
+      "hua-hin": {
+        "name": "Hua Hin",
+        "intro": "Stay by the sea with your family, walk on the beach in the morning and explore a market in the evening. Choose Hua Hin when you want time to eat and relax together without filling every day with sightseeing."
+      },
+      "phuket": {
+        "name": "Phuket",
+        "intro": "Plan separate days for relaxing at a resort with sea views and exploring the old town. Enjoy a beach holiday as well as meals and walks through streets lined with colourful buildings."
+      },
+      "krabi": {
+        "name": "Krabi",
+        "intro": "Walk along the beach beneath limestone cliffs rising beside the sea. Combine days relaxing on the coast with boat trips around the islands for a varied seaside holiday."
+      },
+      "samui": {
+        "name": "Koh Samui",
+        "intro": "Stay at a seaside resort, have a late breakfast and take a beach walk before returning to relax. Make time for leisurely meals and rests with your partner or family."
+      },
+      "phi-phi": {
+        "name": "Phi Phi Islands",
+        "intro": "Discover cliffs rising from the sea and views opening between the islands. Explore by boat or look out from a viewpoint to experience the Thai seascapes you have seen in photographs."
+      },
+      "phangan": {
+        "name": "Koh Phangan",
+        "intro": "Consider Koh Phangan if you want both restful beach days and nights with music. Choose your beach and travel dates to enjoy a lively atmosphere or a quieter holiday."
+      },
+      "tao": {
+        "name": "Koh Tao",
+        "intro": "If you are curious about the world beneath the water as well as the beach, consider Koh Tao. Discover the sea while learning to snorkel or dive, then relax on the beach in the evening."
+      },
+      "lanta": {
+        "name": "Koh Lanta",
+        "intro": "Read a book at your seaside accommodation and walk along the beach around sunset. Koh Lanta suits those who would rather linger at a favourite beach than find a new attraction every day."
+      },
+      "samet": {
+        "name": "Koh Samet",
+        "intro": "Consider Koh Samet if you would like to add a short seaside break to a Bangkok trip. Walk on white sand and eat by the sea, with time to unwind after exploring the city."
+      }
+    }
+  },
+  "seasons": {
+    "period": "1991–2020",
+    "checkedAt": "2026-10-14",
+    "source": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+    "regions": [
+      {
+        "id": "bangkok",
+        "name": "Bangkok",
+        "station": "BANGKOK METROPOLIS",
+        "pdfPage": 57,
+        "pattern": "central",
+        "best": "November–February",
+        "intro": "If you want to explore Bangkok’s Grand Palace, temples and riverside on foot, plan your trip for **November–February**. Rainfall drops sharply from November after the wet months of September and October, and December and January have mean temperatures of around 27°C, making them less hot than April. Average daytime highs still exceed 32°C, though. Visit temples in the morning, walk by the river towards sunset, and leave time between them for meals and a break indoors.",
+        "outdoor": "Walks around the Grand Palace and temples",
+        "indoor": "taking the train to cafés and shopping centres",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry",
+            "advantage": "Explore the Grand Palace and temples in the morning, then walk beside the river before sunset. With less rain than in the rainy season, it is a good time to discover Bangkok on foot.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 27.4,
+            "high": 32.7,
+            "low": 23.4,
+            "rain": 23.6,
+            "rainDays": 2.6
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry",
+            "advantage": "Leave time for meals and café breaks between temple visits. Rainfall is relatively low, but the days are hot, so do your walking in the morning.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.6,
+            "high": 33.7,
+            "low": 24.8,
+            "rain": 21.4,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "Visit the Grand Palace and temples in the morning, and take a break in a shopping centre or café during the hot part of the day. Return to the river for a walk as the sun drops.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 29.7,
+            "high": 34.7,
+            "low": 26.4,
+            "rain": 51.0,
+            "rainDays": 4.1
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Finish temple visits in the morning, then have lunch indoors and rest at your accommodation. Spread out the places you want to see so you are not walking for long in the hottest hours.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 30.7,
+            "high": 35.7,
+            "low": 27.2,
+            "rain": 93.3,
+            "rainDays": 6.5
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "When planning temple visits, find a nearby restaurant or café too. If a shower starts, you can rest indoors before carrying on.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 30.3,
+            "high": 35.1,
+            "low": 26.9,
+            "rain": 216.8,
+            "rainDays": 15.0
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Take the train to shopping centres and stop at a café. When the rain eases, explore a nearby neighbourhood on foot and find somewhere to eat.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 29.7,
+            "high": 34.1,
+            "low": 26.4,
+            "rain": 198.5,
+            "rainDays": 16.4
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Rest in a shopping centre or café during heavy rain, then visit a nearby market or the riverside when it eases.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 29.2,
+            "high": 33.5,
+            "low": 26.1,
+            "rain": 189.7,
+            "rainDays": 17.2
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Rather than crossing the city to several distant attractions in a day, enjoy sightseeing and meals in one neighbourhood. It is easier to find shelter nearby when rain starts.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 29.0,
+            "high": 33.3,
+            "low": 25.9,
+            "rain": 227.1,
+            "rainDays": 19.1
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "If you plan to visit markets and temples, include some indoor time too. Wait out heavy rain over a meal nearby.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 28.6,
+            "high": 33.2,
+            "low": 25.4,
+            "rain": 335.9,
+            "rainDays": 21.4
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Spend rainy spells in a café or shopping centre and walk around the neighbourhood when the rain eases. Leave enough space in your day to change the timing of visits.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 28.4,
+            "high": 33.0,
+            "low": 25.2,
+            "rain": 288.7,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Relatively dry",
+            "advantage": "As rainfall decreases, it is a good time to plan temple and market visits. Start in the morning and take a midday break in a shopping centre or café.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.4,
+            "high": 33.1,
+            "low": 24.7,
+            "rain": 44.6,
+            "rainDays": 5.0
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry",
+            "advantage": "Visit temples in the morning and walk beside the river in the evening. Rest during the midday heat while enjoying Bangkok’s different views.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 27.3,
+            "high": 32.3,
+            "low": 23.2,
+            "rain": 11.6,
+            "rainDays": 1.5
+          }
+        ],
+        "cardSummary": "Rainfall falls sharply from November, while December and January average around 27°C and are less hot than April. These months suit temple visits followed by riverside walks, although daytime highs still exceed 32°C.",
+        "bestAnswer": "For walking between temples and markets, November–February is a good choice. December and January average around 27°C, with low monthly rainfall of 11.6mm and 23.6mm respectively. Think of this as a way to avoid April’s intense heat and the wetter rainy months, rather than a cool winter holiday."
+      },
+      {
+        "id": "pattaya",
+        "name": "Pattaya",
+        "station": "PHATTHAYA",
+        "pdfPage": 66,
+        "pattern": "central",
+        "best": "November–February",
+        "intro": "**November–February** suits a Pattaya trip combining beach walks and time in town. Rainfall declines from November after the wet months of September and October, falling to just 11.7mm in December and 16.3mm in January. Walk by the sea in the morning, enjoy lunch and a rest during the day, then return to the beach as the sun drops. Decide whether to swim by the day’s waves and beach notices, rather than the month alone.",
+        "outdoor": "Beach walks",
+        "indoor": "resting at accommodation near the beach and going for a walk when the rain eases",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry",
+            "advantage": "Walk along the beach in the morning and enjoy a seaside dinner. Relatively low rainfall suits a relaxing trip with time to enjoy the sea views.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 26.5,
+            "high": 30.6,
+            "low": 23.5,
+            "rain": 16.3,
+            "rainDays": 2.5
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry",
+            "advantage": "Save beach walks for the morning or around sunset. Have lunch or rest at your accommodation to avoid the midday heat.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 27.3,
+            "high": 31.2,
+            "low": 24.5,
+            "rain": 19.9,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "Take a short beach walk in the morning and rest at your accommodation during the day. Return to the seafront for a meal and a walk as the sun drops.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 28.3,
+            "high": 32.0,
+            "low": 25.5,
+            "rain": 47.3,
+            "rainDays": 4.8
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Visit the beach in the morning and evening, then eat or rest indoors during the hot part of the day. Alternate outings and rests instead of spending the whole day outside.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 29.4,
+            "high": 33.0,
+            "low": 26.4,
+            "rain": 67.9,
+            "rainDays": 6.3
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "Relax at accommodation near the beach and go out for a walk when the rain eases. You can enjoy time by the sea without travelling far.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 29.4,
+            "high": 32.7,
+            "low": 26.6,
+            "rain": 121.1,
+            "rainDays": 11.0
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Eat indoors during heavy rain and walk along a nearby beach when it eases. Choose your walking time around the day’s weather rather than fixing it in advance.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 29.0,
+            "high": 32.0,
+            "low": 26.4,
+            "rain": 132.1,
+            "rainDays": 12.6
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Spend the day eating near the beach and resting at your accommodation. When the rain stops, head to the nearby seafront for the view.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 28.6,
+            "high": 31.6,
+            "low": 26.2,
+            "rain": 103.6,
+            "rainDays": 12.7
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Enjoy meals and rests near your accommodation, with short walks when the rain eases. This avoids repeated journeys to distant places.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 28.5,
+            "high": 31.4,
+            "low": 26.1,
+            "rain": 91.2,
+            "rainDays": 12.9
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Rest indoors during heavy rain and decide when to walk on the beach according to the weather.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 27.9,
+            "high": 31.1,
+            "low": 25.4,
+            "rain": 213.6,
+            "rainDays": 16.3
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "For a relaxing seaside trip, include time at your accommodation too. When the rain eases, head to a nearby beach or restaurant.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 27.2,
+            "high": 30.9,
+            "low": 24.7,
+            "rain": 224.5,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Relatively dry",
+            "advantage": "After the wetter months, it is a good time for seafront walks and meals in town. Make use of mornings and evenings outdoors.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 27.1,
+            "high": 30.8,
+            "low": 24.3,
+            "rain": 56.6,
+            "rainDays": 5.6
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry",
+            "advantage": "Take a beach walk in the morning, then rest indoors during the day. Return to the seafront in the evening to enjoy the view without the hottest hours.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 26.4,
+            "high": 30.2,
+            "low": 23.3,
+            "rain": 11.7,
+            "rainDays": 1.9
+          }
+        ],
+        "cardSummary": "November–February is drier than September and October, with average highs around 30–31°C. It suits seaside walks and meals in town; December and January have particularly little rain.",
+        "bestAnswer": "November–February is a good time for beach walks and outdoor sightseeing. December and January are particularly dry, with average highs around 30°C, so dividing your day between outdoor visits and rests is easier than in hot April and May. Sea conditions still change daily in the dry season: follow that day’s advice for swimming and boat trips."
+      },
+      {
+        "id": "chiang-mai",
+        "name": "Chiang Mai",
+        "station": "CHIANG MAI",
+        "pdfPage": 11,
+        "pattern": "north",
+        "best": "November–January",
+        "intro": "For a Chiang Mai holiday spent exploring old-city temples on foot and lingering in cafés, choose **November–January**. Mean temperatures of around 22–25°C are lower than in April, and there is less rain than during the summer rainy season, making neighbourhood walks more comfortable. December and January mornings and nights can feel noticeably cool, so pack a light layer. If you are heading into the mountains, choose clothing using the forecast for your actual destination rather than the city’s observation figures.",
+        "outdoor": "Old-city and temple walks",
+        "indoor": "visiting cafés and indoor exhibitions, then walking through the old city when the rain eases",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry",
+            "advantage": "Explore Chiang Mai’s old city and temples on foot. Enjoy sightseeing during the day and bring a layer when you go out in the morning or evening.",
+            "caution": "Temperatures drop considerably in the morning and at night. Bring a light layer if you leave early or return late.",
+            "mean": 22.0,
+            "high": 30.0,
+            "low": 15.7,
+            "rain": 11.3,
+            "rainDays": 1.3
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry",
+            "advantage": "Start your old-city walk in the morning and rest in a café during the day. Breaks between temples help you avoid the midday heat.",
+            "caution": "Temperatures drop considerably in the morning and at night. Bring a light layer if you leave early or return late.",
+            "mean": 24.2,
+            "high": 32.9,
+            "low": 16.8,
+            "rain": 9.6,
+            "rainDays": 0.9
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "Visit the old city and temples in the morning, then find a café or indoor exhibition during the hot part of the day. You can go out for another walk as the sun drops.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 27.3,
+            "high": 35.4,
+            "low": 20.1,
+            "rain": 20.4,
+            "rainDays": 2.8
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Finish temple visits early and rest over a meal indoors during the day. Avoid fitting all your longer walks into one day.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 29.5,
+            "high": 36.7,
+            "low": 23.4,
+            "rain": 54.3,
+            "rainDays": 6.8
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "Find cafés or indoor exhibitions near the temples you plan to visit. If it rains, you can rest indoors before continuing.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 28.6,
+            "high": 34.7,
+            "low": 24.2,
+            "rain": 167.5,
+            "rainDays": 14.8
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Relax in a café or visit an indoor exhibition, then walk through the old city when the rain eases.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 28.0,
+            "high": 33.2,
+            "low": 24.5,
+            "rain": 118.2,
+            "rainDays": 16.3
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "If it starts raining during an old-city walk, stop at a nearby café. Adjust your time on foot to the weather.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 27.4,
+            "high": 32.1,
+            "low": 24.3,
+            "rain": 148.6,
+            "rainDays": 18.8
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Enjoy cafés and indoor exhibitions during heavy rain. Continue your temple visits and old-city walks once it eases.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 26.9,
+            "high": 31.6,
+            "low": 24.0,
+            "rain": 223.3,
+            "rainDays": 20.9
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Plan café breaks alongside temple visits. This lets you continue your holiday without travelling far during rain.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 26.9,
+            "high": 32.0,
+            "low": 23.7,
+            "rain": 207.2,
+            "rainDays": 18.1
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Visit an indoor exhibition or relax in a café, then head into the old city when the rain eases. Group nearby sights together to make rainy-day journeys easier.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives, rather than filling the day with outdoor plans.",
+            "mean": 26.4,
+            "high": 31.7,
+            "low": 22.6,
+            "rain": 123.8,
+            "rainDays": 11.8
+          },
+          {
+            "month": 11,
+            "season": "Relatively dry",
+            "advantage": "Visit temples and the old city, then stop at a café. Relatively little rain makes this a good time for sightseeing on foot.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 24.6,
+            "high": 30.8,
+            "low": 19.9,
+            "rain": 40.9,
+            "rainDays": 4.2
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry",
+            "advantage": "Enjoy walking through the old city and visiting temples. Mornings and nights can feel cool compared with the day, so bring a light layer.",
+            "caution": "Temperatures drop considerably in the morning and at night. Bring a light layer if you leave early or return late.",
+            "mean": 22.2,
+            "high": 29.2,
+            "low": 16.9,
+            "rain": 14.1,
+            "rainDays": 1.8
+          }
+        ],
+        "cardSummary": "November–January averages around 22–25°C and suits exploring temples and the old city on foot. Average lows drop to around 16–17°C in December and January, so bring a layer for mornings and evenings.",
+        "bestAnswer": "November–January suits walking through the old city and visiting temples. December and January have mean temperatures of around 22°C, lower than April’s 29.5°C. Wear light clothes during the day and add a layer when you go out in the morning or at night."
+      },
+      {
+        "id": "phuket",
+        "name": "Phuket",
+        "station": "PHUKET",
+        "pdfPage": 88,
+        "pattern": "andaman",
+        "best": "December–March",
+        "intro": "Choose **December–March** if you would like to relax at Phuket’s beaches and explore the old town too. Rainfall is lower than in May–November; February is the driest month at 24.0mm. By March, however, average highs reach 34.4°C, so old-town walks are more comfortable in the morning or late afternoon. Waves and wind can affect island tours and boat journeys even in the dry season, so follow the operator’s advice on the day.",
+        "outdoor": "Beach and old-town walks",
+        "indoor": "having a meal in the old town and resting at your accommodation",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry",
+            "advantage": "Walk along the beach in the morning and have dinner in the old town. You could also plan separate days for beach relaxation and exploring town.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.3,
+            "high": 33.0,
+            "low": 25.0,
+            "rain": 49.9,
+            "rainDays": 5.6
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry",
+            "advantage": "Combine beach walks and old-town sightseeing. Rain is relatively low, but midday is hot, so stop for lunch or a rest indoors.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 29.0,
+            "high": 34.0,
+            "low": 25.4,
+            "rain": 24.0,
+            "rainDays": 3.4
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "Explore the beach and old town in the morning or late afternoon. Avoid the daytime heat over a meal indoors or a rest at your accommodation.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 29.4,
+            "high": 34.4,
+            "low": 25.9,
+            "rain": 80.7,
+            "rainDays": 7.5
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Walk on the beach in the morning and rest at your accommodation during the hottest hours. Explore the old town once the sun drops.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 29.6,
+            "high": 34.2,
+            "low": 26.3,
+            "rain": 135.1,
+            "rainDays": 11.7
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "Have a meal in the old town and relax at your accommodation. Keep beach walks short and save them for when rain eases.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 29.1,
+            "high": 33.2,
+            "low": 26.1,
+            "rain": 236.9,
+            "rainDays": 18.9
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Eat indoors or rest at your accommodation while it rains, then explore nearby when it eases.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 28.7,
+            "high": 32.6,
+            "low": 25.8,
+            "rain": 249.4,
+            "rainDays": 18.6
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Plan time relaxing near the beach alongside meals in the old town. Arrange outdoor visits around that day’s rain forecast.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 28.4,
+            "high": 32.3,
+            "low": 25.6,
+            "rain": 240.2,
+            "rainDays": 19.1
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Rest at your accommodation during heavy rain. When it eases, eat nearby and take a short walk.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 28.3,
+            "high": 32.2,
+            "low": 25.6,
+            "rain": 308.7,
+            "rainDays": 19.5
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Spend a day eating in the old town and relaxing indoors. Choose your outdoor time around the rain forecast.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.8,
+            "high": 31.8,
+            "low": 25.1,
+            "rain": 350.4,
+            "rainDays": 21.7
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Plan to relax and eat near your accommodation rather than making long sightseeing trips. Enjoy a beach walk when the rain eases.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.6,
+            "high": 31.8,
+            "low": 24.9,
+            "rain": 336.0,
+            "rainDays": 22.7
+          },
+          {
+            "month": 11,
+            "season": "Seasonal transition",
+            "advantage": "Have a meal in the old town or rest at your accommodation, then visit the beach when the weather allows. Set outdoor sightseeing times around the day’s forecast.",
+            "caution": "During a seasonal transition, do not expect uninterrupted sunshine. Check the forecast before making outdoor bookings.",
+            "mean": 28.0,
+            "high": 32.1,
+            "low": 25.2,
+            "rain": 178.2,
+            "rainDays": 15.9
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry",
+            "advantage": "Walk beside the sea in the morning and rest at your accommodation during the day. Dinner in the old town lets you enjoy both beach and town.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 27.9,
+            "high": 32.1,
+            "low": 25.0,
+            "rain": 82.0,
+            "rainDays": 10.3
+          }
+        ],
+        "cardSummary": "December–March is drier than the summer and autumn rainy season and suits combining a beach holiday with the old town. February is the driest month at 24.0mm, while March’s average highs exceed 34°C.",
+        "bestAnswer": "December–March works well if you want both beach days and time exploring the old town. If low rainfall is your priority, look at February, with 24.0mm a month. March is also drier than the rainy season but hotter: alternate beach relaxation with short outings rather than spending long periods walking."
+      },
+      {
+        "id": "krabi",
+        "name": "Krabi",
+        "station": "KRABI",
+        "pdfPage": 91,
+        "pattern": "andaman",
+        "best": "December–March",
+        "intro": "**December–March** suits a Krabi holiday spent relaxing on the beach and enjoying limestone cliffs and sea views. Rain eases after September and October, with February the driest month at 35.9mm. Stay near the beach and alternate walks with time to relax. March’s average high rises to 34.7°C, so save longer walks for the morning or late afternoon and arrange boat trips around the operator’s advice.",
+        "outdoor": "Beach walks and sea views",
+        "indoor": "resting at your accommodation and visiting a nearby beach when the rain eases",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry",
+            "advantage": "Walk along the beach in the morning or around sunset to enjoy sea and cliff views. Rest at your accommodation during the day for a leisurely beach holiday.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 27.4,
+            "high": 32.6,
+            "low": 21.5,
+            "rain": 96.8,
+            "rainDays": 7.7
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry",
+            "advantage": "Take a beach walk and enjoy the sea views. Midday is hot, so walk in the morning or go out again in the late afternoon.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.1,
+            "high": 34.1,
+            "low": 21.5,
+            "rain": 35.9,
+            "rainDays": 4.3
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "Walk along the beach in the morning and rest at your accommodation during the day. Return to the seafront in the cooler late afternoon.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 28.7,
+            "high": 34.7,
+            "low": 22.4,
+            "rain": 108.4,
+            "rainDays": 8.3
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Visit the beach in the morning and late afternoon, and rest over a meal indoors during the day. Plan longer walks away from the hottest hours.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 28.8,
+            "high": 34.3,
+            "low": 23.1,
+            "rain": 142.2,
+            "rainDays": 12.7
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "Rest at your accommodation and take a walk on a nearby beach when rain eases. Adjust your outdoor time to the weather.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 28.2,
+            "high": 33.0,
+            "low": 23.5,
+            "rain": 210.1,
+            "rainDays": 17.5
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Rest at your accommodation while it rains, then eat nearby or take a short walk when it eases.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.7,
+            "high": 31.9,
+            "low": 23.1,
+            "rain": 224.8,
+            "rainDays": 17.5
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Enjoy a beach holiday with meals and rests near your accommodation. Decide when to go to the seafront according to that day’s weather.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.4,
+            "high": 31.6,
+            "low": 22.8,
+            "rain": 221.5,
+            "rainDays": 17.6
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Relax indoors during heavy rain. When it eases, enjoy the sea views from a nearby beach.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.2,
+            "high": 31.5,
+            "low": 22.7,
+            "rain": 273.0,
+            "rainDays": 18.2
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Include time at your accommodation in your holiday plans. Enjoy beach walks when the rain eases.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.0,
+            "high": 31.3,
+            "low": 22.5,
+            "rain": 286.2,
+            "rainDays": 19.2
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Eat and relax near your accommodation instead of travelling far. Going to the seafront when rain eases helps keep journeys short.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.1,
+            "rain": 292.9,
+            "rainDays": 20.6
+          },
+          {
+            "month": 11,
+            "season": "Seasonal transition",
+            "advantage": "Take your time resting at your accommodation or eating nearby. Choose when to walk along the beach using the day’s rain forecast.",
+            "caution": "During a seasonal transition, do not expect uninterrupted sunshine. Check the forecast before making outdoor bookings.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.3,
+            "rain": 198.6,
+            "rainDays": 17.5
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry",
+            "advantage": "Rest at your accommodation during the day and walk on the beach in the morning or evening. You can enjoy the sea and cliff views without spending long outside in the heat.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 26.8,
+            "high": 31.5,
+            "low": 21.7,
+            "rain": 90.3,
+            "rainDays": 11.1
+          }
+        ],
+        "cardSummary": "December–March follows the wet months of September and October and suits enjoying beaches and limestone cliffs. February is the driest month. In March, avoid the midday heat by walking in the morning or late afternoon.",
+        "bestAnswer": "December–March is a good time to take your time by the beach and enjoy the sea views. If avoiding rain matters most, start with February, the driest month. December and January are also drier than the autumn rainy season, although showers remain possible. In March, plan breaks around the midday heat rather than focusing only on rainfall."
+      },
+      {
+        "id": "koh-samui",
+        "name": "Koh Samui",
+        "station": "KO SAMUI",
+        "pdfPage": 77,
+        "pattern": "gulf",
+        "best": "February–April",
+        "intro": "For beach walks and a leisurely resort holiday on Koh Samui, choose **February–April**. Unlike Phuket and Krabi, Samui is wet in October–December: November averages 444.6mm, so the same dry-season calendar will not work for both coasts. February is the driest month at 64.3mm, with a mean temperature of 27.4°C. It becomes hotter towards April. Plan beach walks for the morning and evening and rest at your accommodation during the middle of the day.",
+        "outdoor": "Beach walks",
+        "indoor": "resting at your accommodation between meals and short outings",
+        "months": [
+          {
+            "month": 1,
+            "season": "Seasonal transition",
+            "advantage": "Plan both time resting at your accommodation and visits to a nearby beach. Stay indoors while it rains and go out again once it eases.",
+            "caution": "During a seasonal transition, do not expect uninterrupted sunshine. Check the forecast before making outdoor bookings.",
+            "mean": 26.9,
+            "high": 29.0,
+            "low": 24.2,
+            "rain": 126.8,
+            "rainDays": 11.1
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry",
+            "advantage": "Walk beside the sea in the morning and rest at your accommodation during the day. This suits a trip combining beach walks and relaxation.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 27.4,
+            "high": 29.4,
+            "low": 24.9,
+            "rain": 64.3,
+            "rainDays": 5.6
+          },
+          {
+            "month": 3,
+            "season": "Relatively dry",
+            "advantage": "Save seaside walks for the morning or late afternoon, with meals and rests at your accommodation during the day.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.2,
+            "high": 30.4,
+            "low": 25.4,
+            "rain": 115.8,
+            "rainDays": 5.9
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Walk on the beach in the morning or evening and rest at your accommodation during the hot part of the day. Breaks between meals and outings avoid long periods outside at midday.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 29.1,
+            "high": 31.8,
+            "low": 26.0,
+            "rain": 82.9,
+            "rainDays": 8.1
+          },
+          {
+            "month": 5,
+            "season": "Hot season",
+            "advantage": "Enjoy beach walks at the cooler times of day. Eat indoors or rest at your accommodation during the day and go out again as the sun drops.",
+            "caution": "Long walks in the midday heat can be tiring. Carry water and stop in the shade between journeys.",
+            "mean": 29.2,
+            "high": 32.9,
+            "low": 25.7,
+            "rain": 131.6,
+            "rainDays": 14.0
+          },
+          {
+            "month": 6,
+            "season": "Relatively dry",
+            "advantage": "Visit the beach in the morning and rest at your accommodation during the day. You can enjoy the sea views while avoiding the midday heat.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.8,
+            "high": 32.7,
+            "low": 25.3,
+            "rain": 133.6,
+            "rainDays": 13.1
+          },
+          {
+            "month": 7,
+            "season": "Relatively dry",
+            "advantage": "Plan beach walks alongside time to relax at your accommodation. Eat indoors during the hot hours and go out again as the sun drops.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.5,
+            "high": 32.3,
+            "low": 25.1,
+            "rain": 117.0,
+            "rainDays": 14.3
+          },
+          {
+            "month": 8,
+            "season": "Relatively dry",
+            "advantage": "Enjoy a relaxing holiday with time at your accommodation and sea views. If you want to walk, go in the morning or evening rather than the midday heat.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.4,
+            "high": 32.4,
+            "low": 25.1,
+            "rain": 102.2,
+            "rainDays": 14.5
+          },
+          {
+            "month": 9,
+            "season": "Relatively dry",
+            "advantage": "Walk on the beach in the morning, then rest at your accommodation. Returning to the seafront in the evening lets you avoid the midday heat.",
+            "caution": "Even with little rain, midday can be hot and showers are possible. Bring a hat and a light umbrella.",
+            "mean": 28.0,
+            "high": 31.9,
+            "low": 24.8,
+            "rain": 117.5,
+            "rainDays": 15.0
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Rest at your accommodation or eat indoors during heavy rain. Take short walks nearby when it eases.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.4,
+            "high": 30.6,
+            "low": 24.3,
+            "rain": 294.9,
+            "rainDays": 19.3
+          },
+          {
+            "month": 11,
+            "season": "Rainy season",
+            "advantage": "Leave plenty of time to relax at your accommodation and enjoy meals nearby. Arrange outdoor visits around the day’s rain forecast.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 27.1,
+            "high": 29.7,
+            "low": 24.1,
+            "rain": 444.6,
+            "rainDays": 18.7
+          },
+          {
+            "month": 12,
+            "season": "Rainy season",
+            "advantage": "Enjoy leisurely meals indoors and time relaxing at your accommodation. Take a short walk nearby when the rain eases.",
+            "caution": "Check waves and wind as well as rain. Change your plans if boats are not sailing or swimming is prohibited at the beach.",
+            "mean": 26.8,
+            "high": 29.3,
+            "low": 24.0,
+            "rain": 263.1,
+            "rainDays": 14.2
+          }
+        ],
+        "cardSummary": "Unlike Phuket, Koh Samui is wet in October–December, making February–April a better fit for a beach holiday. February is driest at 64.3mm. April becomes hotter, so enjoy outdoor activities in the morning or evening and rest indoors during the day.",
+        "bestAnswer": "February–April suits a beach holiday. Samui is wet towards the end of the year, so do not simply use Phuket’s recommended months. February has the lowest rainfall, while April’s mean temperature rises to 29.1°C. Consider how comfortably you cope with heat as well as rainfall when choosing your dates."
+      }
+    ]
+  },
+  "entry": [
+    {
+      "id": "entry",
+      "title": "Thailand entry for British passport holders: TDAC, documents and visas",
+      "description": "Prepare for Thailand with British-passport visa-exempt conditions, TDAC timing, documents for immigration and the steps after landing.",
+      "intro": "Have you chosen your dates for Bangkok or Phuket? If you are travelling on a full British citizen passport for a holiday, start with the visa-exempt conditions and complete a TDAC for your arrival date. Keep your passport, flight details and hotel booking beside you so you can enter each detail accurately. This guide takes you from documents to prepare before departure through immigration and baggage reclaim after landing.",
+      "sections": [
+        {
+          "title": "Visiting for a holiday on a British passport",
+          "paragraphs": [
+            "The Royal Thai Embassy in London states that, from **15 September 2026, British passport holders can visit visa-free for up to 30 days for tourism only**. Its current guidance also limits visa-exempt entry to twice in a calendar year. This is a British-passport guide: family or friends travelling on another nationality’s passport need to check their own conditions. British-issued refugee or other travel documents require a visa in advance.",
+            "The maximum allowance is not a promise that every visitor will receive it. Before leaving immigration, read the **last permitted day of stay stamped in your passport** and leave by that date. Work, study, retirement and other long stays require the appropriate arrangements for your purpose. The embassy’s entry-frequency guidance differs from the FCDO’s distinction between land and air arrivals; if you plan repeated visits, ask the embassy about your itinerary before relying on an exemption."
+          ]
+        },
+        {
+          "title": "Documents to prepare before your flight",
+          "paragraphs": [
+            "Keep your passport, flights and accommodation bookings together. Your full British citizen passport needs **at least six months’ validity after arrival and one blank page**, according to the FCDO. Copy your **name exactly as it appears in the passport** into the TDAC and use your accommodation’s English booking details for its name and address. Use the Thai local arrival date and inbound flight number rather than simply copying the date you leave the UK.",
+            "Prepare accommodation evidence and a return or onward ticket. London’s current exemption page specifies onward travel within 30 days and says immigration may ask for evidence of funds of **20,000 baht per person** or interview you. The FCDO page gives different lower figures and a family threshold; these are conflicting official accounts, so do not treat the lower amount as settled guidance. Ask the Thai embassy about the evidence for your journey. Proof of travel funds is separate from TDAC: submitting TDAC is free."
+          ]
+        },
+        {
+          "title": "Complete TDAC within three days, including arrival day",
+          "paragraphs": [
+            "TDAC is the online arrival card that replaces the paper form. **Non-Thai nationals entering by air, land or sea** must submit it before immigration. Children and infants need their own details too, including on a family trip.",
+            "Complete it **within the three-day window including your arrival date**. Have your passport, flight details, English accommodation address and email ready, and use the local arrival date in Thailand. Download the document after submission so you can open it at the airport even if the internet connection is unreliable.",
+            "Completing an arrival card does not issue a visa. **TDAC and visa arrangements are separate**. If your purpose requires a visa, prepare both the visa and the arrival card."
+          ]
+        },
+        {
+          "title": "After landing at the airport",
+          "paragraphs": [
+            "Follow the **Immigration / Passport Control** signs after leaving the aircraft. Keep your passport, TDAC document and any required visa readily accessible. If an officer asks about your purpose or accommodation, answer using your actual booked plans.",
+            "After immigration, first read the permitted-stay expiry date in your passport. Continue to **Baggage Claim**, collect your luggage and pass through customs into arrivals. Declare goods where required. Suvarnabhumi, Don Mueang and other airports have different layouts, so read the guide for your arrival airport too."
+          ]
+        },
+        {
+          "title": "Connecting flights and entering Thailand",
+          "paragraphs": [
+            "If you **transit without passing through immigration**, TDAC is not required. If you leave the airport or go through immigration to collect and recheck baggage, you need an arrival card.",
+            "For separately booked flights, ask the airline before departure whether your baggage will be checked through and whether you must enter Thailand. A booking described as a connection can still require immigration clearance and a TDAC."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need both TDAC and a visa?",
+          "a": "You need TDAC even when making an eligible visa-exempt holiday visit on a British passport. TDAC is the arrival declaration; a visa depends on your purpose and eligibility. A qualifying tourist trip can be visa-free, but TDAC alone is insufficient for purposes such as work or study."
+        },
+        {
+          "q": "How long can a British tourist stay without a visa?",
+          "a": "London’s current guidance gives up to 30 days for tourism from 15 September 2026. Read the actual permitted-stay date in your passport after immigration rather than setting your departure only by the maximum allowance. For repeated trips, check the embassy’s current conditions because official sources differ on entry-frequency limits."
+        },
+        {
+          "q": "Which arrival date do I use for a late-night flight?",
+          "a": "Use the Thai local arrival date on your ticket. If you leave the UK on one day and arrive in Thailand the next, enter that next day. Check the inbound flight number and arrival date together."
+        }
+      ],
+      "sources": [
+        [
+          "Royal Thai Embassy, London: visa exemption",
+          "https://london.thaiembassy.org/en/page/exemp-visa"
+        ],
+        [
+          "FCDO: Thailand entry requirements",
+          "https://www.gov.uk/foreign-travel-advice/thailand/entry-requirements"
+        ],
+        [
+          "TDAC user guide",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "TDAC official FAQ",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [
+        [
+          "Who this guide is for",
+          "Holiday visitors travelling on a full British citizen passport"
+        ],
+        [
+          "Arrival card",
+          "TDAC: free submission on the official site"
+        ],
+        [
+          "Visa-exempt stay",
+          "Up to 30 days for tourism; the immigration stamp gives the actual permitted end date"
+        ]
+      ],
+      "checkedAt": "2026-10-18",
+      "locale": "en-gb",
+      "market": "GB",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs, practical actions, conditions and exceptions compared with the Sirocco introduction, access, reservation and FAQ examples. British passport and London application rules researched separately.",
+        "record": "artifacts/localization-20261018/en-gb/review.md",
+        "market": "GB"
+      }
+    },
+    {
+      "id": "tdac",
+      "title": "How to complete TDAC on your phone",
+      "description": "Use the official free TDAC site to enter passport, flight and accommodation details, review your form, save the document and correct eligible details.",
+      "intro": "Completing TDAC on your phone? Keep your passport, flight details and hotel booking beside you and work through the screens below. We explain where to enter your surname and given names, which arrival date to use and how to copy the accommodation address. After submitting, save the document on your phone so it is ready to show at the airport.",
+      "sections": [
+        {
+          "title": "Start with the official site and submission window",
+          "paragraphs": [
+            "First check that the address bar shows **tdac.immigration.go.th**. This is the Thai Immigration Bureau’s official site and **submitting TDAC is free**. It is separate from the Thai e-Visa application website.",
+            "Complete it **within three days before arrival, including arrival day**. You need a new submission for every entry; a card from a previous holiday cannot be reused. Before starting, prepare your passport, inbound flight number, Thai local arrival date, English accommodation address and an email address for the document."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          }
+        },
+        {
+          "title": "Reading the form in your preferred language",
+          "paragraphs": [
+            "The examples below show the English mobile form. If someone travelling with you prefers another supported language, they can use the site’s **language settings** or their browser’s **page translation**. The location of these controls varies by phone and browser.",
+            "However you view the instructions, **enter the details in English**. Copy names and the passport number from the passport and the accommodation address from the English booking confirmation. The English screenshots below help you find the actual buttons and field labels."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          }
+        },
+        {
+          "title": "Tap Arrival Card on the first screen",
+          "paragraphs": [
+            "For a new submission, tap **Arrival Card**. The adjacent **Update Arrival Card** button is for changing an already submitted declaration. Start with Arrival Card if this is your first submission for the trip.",
+            "The home screen also contains notices about 90-day reporting and work permits. These do not mean that TDAC lasts for 90 days or gives permission to work in Thailand. Use Arrival Card to declare your arrival for this journey."
+          ],
+          "image": "tdac-home-mobile-en.jpg",
+          "caption": "English mobile home screen: Arrival Card starts a new declaration",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          }
+        },
+        {
+          "title": "Personal Information: copy your passport details",
+          "paragraphs": [
+            "Enter your **surname in Family Name and given name in First Name**. If your passport has no middle name, do not invent one to fill Middle Name. Match each name to its correct field, and copy the passport number into Passport No.",
+            "Nationality/Citizenship is your nationality; Date of Birth, Occupation and Gender ask for those personal details. Country/Territory of Residence is where you currently live, and City/State of Residence is your town or region. If you hold a British passport but live abroad, give your actual residence rather than automatically copying your nationality.",
+            "Visa No. is for the number of an issued visa. **Do not invent a visa number if entering visa-free**. Follow the required asterisks and distinguish optional fields. Phone No. separates the country code and telephone number. Tap Continue when you have finished.",
+            "Retrieve with Passport is unavailable in the screenshot below. If the passport MRZ-reading feature described in the official guide is not available, enter details manually from your passport. Even after an automatic scan, compare names and the passport number with the document."
+          ],
+          "image": "tdac-personal-mobile-en.jpg",
+          "caption": "English mobile personal information screen: empty form without real personal details",
+          "fields": [
+            [
+              "Family Name / First Name",
+              "Surname / given name exactly as in your passport"
+            ],
+            [
+              "Passport No.",
+              "Passport number"
+            ],
+            [
+              "Nationality/Citizenship",
+              "Passport nationality"
+            ],
+            [
+              "Country/Territory of Residence",
+              "Country where you currently live"
+            ],
+            [
+              "City/State of Residence",
+              "Current town, city or region of residence"
+            ],
+            [
+              "Visa No.",
+              "Issued visa number, if you have a visa"
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          },
+          "image2": "tdac-personal-details-mobile-en.jpg",
+          "caption2": "Lower part of English mobile personal details: occupation, gender, visa number and residence"
+        },
+        {
+          "title": "Arrival Information: enter the journey into Thailand",
+          "paragraphs": [
+            "The travel stage separates **Arrival Information and Departure Information**. Start with Arrival Information and use your ticket. Find the local date and number of the flight landing in Thailand, rather than copying the date you leave the UK.",
+            "For a holiday on a regular passenger flight, choose **HOLIDAY**, **AIR** and **COMMERCIAL FLIGHT**. These choices describe that particular journey. Do not copy them for business, study or an entry by land or sea.",
+            "In a country search field, type the English country name or three-letter code, then **select the matching item in the results**. If boarding in the UK, search for the United Kingdom and choose the matching country. Typing a code alone is not enough: make sure the selected country appears in the field."
+          ],
+          "image": "tdac-trip-arrival-mobile-en.jpg",
+          "caption": "English mobile Arrival Information screen",
+          "fields": [
+            [
+              "Date of Arrival",
+              "Thai local arrival date in YYYY/MM/DD format, using the ticket or calendar button. If arriving the day after departure from the UK, use that next day."
+            ],
+            [
+              "Country/Territory where you Boarded",
+              "The country where you board the flight into Thailand. For a direct flight from the UK, choose the UK; after a connection, use the country where you board the Thailand-bound flight."
+            ],
+            [
+              "Purpose of Travel",
+              "Choose HOLIDAY for a holiday. Use MEETING, BUSINESS or EDUCATION only for the actual purpose. OTHERS (PLEASE SPECIFY) needs the requested explanation in English."
+            ],
+            [
+              "Mode of Travel",
+              "AIR for a flight, LAND for a land entry and SEA for a boat. The transport choices below depend on this answer."
+            ],
+            [
+              "Mode of Transport",
+              "COMMERCIAL FLIGHT for a regular passenger flight. Choose PRIVATE/CARGO AIRLINE or OTHERS only where applicable."
+            ],
+            [
+              "Flight No./Vehicle No.",
+              "The airline code and flight digits on the ticket for arrival in Thailand, not the booking reference or seat number. For land or sea entry, use the details of your actual transport."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          },
+          "id": "arrival"
+        },
+        {
+          "title": "Departure Information: enter your journey out of Thailand",
+          "paragraphs": [
+            "Below the arrival details is **Departure Information**. These dates and flight numbers describe **leaving Thailand**, rather than leaving the UK. For a return flight, copy the Thai local departure date and flight number from the return ticket.",
+            "The captured form does not mark departure details with required asterisks. If you have not fixed these details, do not invent a date or flight number. An optional field is separate from the need to demonstrate return or onward plans at immigration.",
+            "Use **Clear** to remove an incorrectly chosen departure travel mode. Read the section heading so you do not confuse arrival AIR with departure AIR."
+          ],
+          "image": "tdac-trip-departure-mobile-en.jpg",
+          "caption": "English mobile Departure Information screen",
+          "fields": [
+            [
+              "Date of Departure",
+              "The local date you leave Thailand, not the date you reach the UK."
+            ],
+            [
+              "Mode of Travel",
+              "AIR, LAND or SEA for your departure. It can differ from your arrival mode."
+            ],
+            [
+              "Mode of Transport",
+              "The actual transport matching your departure mode. A regular return passenger flight is COMMERCIAL FLIGHT."
+            ],
+            [
+              "Flight No./Vehicle No.",
+              "The flight or vehicle number leaving Thailand. Compare it with your outbound ticket rather than copying the arrival flight."
+            ],
+            [
+              "Clear",
+              "Resets an incorrectly selected departure travel mode."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          },
+          "id": "departure"
+        },
+        {
+          "title": "Accommodation Information: use your booking address",
+          "paragraphs": [
+            "Open your booking confirmation and find the **accommodation’s English address**. This stage asks where you will stay in Thailand, not your home address in the UK. Copy the location and address from the booking or the property’s official details rather than relying on its name alone.",
+            "Required fields may change with the accommodation type. In the captured form, **choosing HOTEL removed the required asterisks from District and Sub-District**. Do not assume every accommodation type behaves the same way: follow the asterisks on your own form.",
+            "Choose Province first, then District, Area, then Sub-District, Sub-Area to make the lower-level lists available. Choose the location matching the property’s address, even where names are similar. For accommodation in Bangkok, select BANGKOK as the province.",
+            "**I am a transit passenger, I don’t stay in Thailand** concerns transit passengers who will not stay in the country. Do not choose it simply because you have no hotel booking. It may be unavailable depending on previous selections; if entering Thailand for a holiday stay, enter your actual accommodation."
+          ],
+          "image": "tdac-accommodation-mobile-en.jpg",
+          "caption": "English mobile accommodation screen after choosing HOTEL",
+          "fields": [
+            [
+              "Type of Accommodation in Thailand",
+              "Choose the real type: HOTEL, YOUTH HOSTEL, GUEST HOUSE, FRIEND’S HOUSE or APARTMENT. If using OTHERS, give the requested explanation."
+            ],
+            [
+              "Province",
+              "The province or Bangkok-level area in the accommodation address, not the airport’s location."
+            ],
+            [
+              "District, Area",
+              "Choose the area in the property’s address after selecting Province. Whether it is required depends on the accommodation type."
+            ],
+            [
+              "Sub-District, Sub-Area",
+              "Choose the smaller administrative area in the address. Select the higher-level area first to enable the list."
+            ],
+            [
+              "Post Code",
+              "The property’s Thai postcode. Compare any automatically filled value with the booking; if entering it manually, use the property’s own code. The captured form has no required asterisk here."
+            ],
+            [
+              "Address",
+              "Enter the property name and actual English building, street number and road address. Selecting a region does not complete the detailed address. The captured field shows a 215-character limit: retain the hotel name and real location information when arranging a long address."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          },
+          "id": "accommodation"
+        },
+        {
+          "title": "Health Declaration: countries visited in the previous two weeks",
+          "paragraphs": [
+            "The health stage asks for **countries or territories where you stayed during the two weeks before arrival**. If travelling directly after staying in the UK, select the UK; if you also stayed elsewhere in that period, include your actual history. This is not a list of Thai cities you intend to visit.",
+            "Type the English country name or code and select the matching result. Passport nationality, residence, the country where you boarded your Thailand flight and recent stays are different questions. Do not automatically copy the same country into every field when travelling through several countries.",
+            "A vaccination notice referring to Ministry of Public Health requirements appears above. The official guide says **additional health information may be requested** depending on recent countries, boarding country, nationality or flight. Answer the questions and document requests actually shown for you. The captured basic screen followed a Korea example and does not establish which extra fields a British traveller will see.",
+            "Tap **Preview** after completing the details. Previous returns to the preceding stage; Add Other Travelers adds another person. Do not substitute one traveller’s country history for another person’s."
+          ],
+          "image": "tdac-health-mobile-en.jpg",
+          "caption": "English mobile basic health declaration: countries stayed in during the previous two weeks",
+          "fields": [
+            [
+              "Countries/territories where you stayed within two weeks before arrival",
+              "Select the countries and territories where you actually stayed in the two weeks before entering Thailand, not future destinations or the passport issuing authority."
+            ],
+            [
+              "Additional health information or documents",
+              "Read the questions and applicable conditions on your screen and give your actual health and travel information. Do not copy answers from a different example."
+            ],
+            [
+              "Preview / Previous / Add Other Travelers",
+              "Review the form, return to the previous stage or add a companion. Use each person’s own passport and travel details."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          },
+          "id": "health"
+        },
+        {
+          "title": "Preview: enter your email and review before submitting",
+          "paragraphs": [
+            "Read the names, passport number, nationality and date of birth again, together with **arrival date, boarding country, inbound flight and accommodation address**. Use **Edit** to correct mistakes. EXAMPLE in the screenshot is a demonstration: it was not submitted as a real arrival declaration.",
+            "Enter an email address you can receive messages at in the **email field at the bottom**. It is not a name field: check the spelling on both sides of @. Using an inbox you can open on that phone makes the document easier to find afterwards.",
+            "Read the **Terms and conditions**. If you agree, tick the box yourself and tap **Submit**. The submit button remains unavailable without the agreement. Opening Preview does not finish your submission.",
+            "If submission returns an error or no completed document appears, do not assume it succeeded. Look for the completion message and actual TDAC document before saving it."
+          ],
+          "image": "tdac-preview-submit-mobile-en.jpg",
+          "caption": "Bottom of English mobile Preview: email, terms and Submit",
+          "fields": [
+            [
+              "Edit",
+              "Return to the relevant entry stage to correct an error found during review."
+            ],
+            [
+              "Please specify an email to send Thailand Digital Arrival Card",
+              "Enter a working email address and read it again before submission so you can find the document."
+            ],
+            [
+              "I have read and accepted the Terms and conditions",
+              "Read the linked terms and tick the box yourself only if you agree."
+            ],
+            [
+              "Submit",
+              "Submit after reviewing the details, adding the email and completing the required agreement. Then look for the completion message and document."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          },
+          "imageNote": "EXAMPLE and the address are fictional demonstration details. No terms were accepted and no arrival declaration was submitted.",
+          "id": "preview"
+        },
+        {
+          "title": "After submission: download TDAC to your phone",
+          "paragraphs": [
+            "A successful submission provides a **completion message and TDAC download**. The official video shows both the completion screen and document. The image below is an **example from that official video**, captured in a mobile browser. The video contains an older desktop example, so its layout may differ from the current mobile form.",
+            "After downloading, compare the name, passport details and arrival date with your own journey. Keep the card number and any QR code shown with your document, and find the emailed copy too. Do not use the example number or QR code from the video as your own entry document.",
+            "Save the downloaded file so you can **open it without an internet connection**. Keeping the actual file rather than just an email link makes it accessible if the airport connection is unreliable. You can carry a printed copy if needed.",
+            "Keep the document ready to show on arrival and retain it during your stay. **A completed TDAC is not a visa or entry permission**. Your visa or exemption conditions and immigration clearance remain separate."
+          ],
+          "image": "tdac-complete-official-video-mobile-en.jpg",
+          "caption": "Official TDAC submission video: completion and download example at 2 minutes 45 seconds",
+          "fields": [
+            [
+              "Completion message",
+              "Look for confirmation of successful submission; a preview alone is insufficient."
+            ],
+            [
+              "TDAC download",
+              "Save the completed document in your phone’s files. Check that it opens with the internet switched off."
+            ],
+            [
+              "Card number, traveller details and QR code",
+              "Check your own name, passport and arrival date and retain the confirmation. Do not use the official video’s sample as a real entry document."
+            ],
+            [
+              "Emailed document",
+              "Find the confirmation in the email address used at submission. Download or print it if needed."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          },
+          "imageSourceUrl": "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s",
+          "imageCredit": "Submission video linked from the Immigration Bureau’s official guide",
+          "imageNote": "Official video example captured at 390px. The embedded screen is the desktop example from guide version 1.4; this was not a direct submission through the current mobile completion screen.",
+          "id": "complete"
+        },
+        {
+          "title": "Changing an already submitted TDAC",
+          "paragraphs": [
+            "Tap **Update Arrival Card** on the first screen. The captured search screen asks for the TDAC number, date of birth, arrival date and nationality. Use your document and passport to fill these in, then tap **Search**.",
+            "The official FAQ says **passport name, passport number, nationality and date of birth cannot be changed**. If one of these is wrong, submit a new form with the correct information. Update eligible details such as accommodation before entering Thailand, resubmit and save the replacement document.",
+            "The screen below searches for an existing submission. If you have not submitted a form, return to Arrival Card and start a new one rather than looking here for a TDAC number."
+          ],
+          "image": "tdac-update-mobile-en.jpg",
+          "caption": "English mobile update search: card number, birth date, arrival date and nationality",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Original English mobile UI evidence retained; official TDAC guide and FAQ reread for this localisation. No live submission made."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is TDAC free?",
+          "a": "Yes. There is no fee to submit TDAC on the Immigration Bureau’s official site. Check that the address is tdac.immigration.go.th before starting."
+        },
+        {
+          "q": "Can I view the form in another language?",
+          "a": "You can use a supported site language or browser translation to read instructions. Enter the details in English, copying passport names and number from the passport and the accommodation address from the English booking."
+        },
+        {
+          "q": "Do children and visa-exempt visitors need TDAC?",
+          "a": "Yes. Children and infants, and British visitors using visa-exempt tourist entry, each need TDAC details. It applies to non-Thai arrivals. Transit without passing through immigration is exempt."
+        },
+        {
+          "q": "Does completing TDAC give me a Thai visa?",
+          "a": "No. Submitting TDAC does not issue a visa. An arrival declaration and a visa are separate. A British traveller using visa-exempt tourist entry must meet those conditions; a purpose requiring a visa needs that visa too."
+        },
+        {
+          "q": "Can I correct a misspelt name?",
+          "a": "Submit a new form with the correct name. Passport name, passport number, nationality and date of birth cannot be changed. Correct eligible details such as accommodation through Update Arrival Card before entering Thailand, then resubmit and save the document."
+        },
+        {
+          "q": "Is the flight number my booking reference?",
+          "a": "No. Flight No./Vehicle No. takes the airline code and flight digits of the flight arriving in Thailand, as shown on your ticket. It is not the booking reference or seat number."
+        },
+        {
+          "q": "Is the departure date the day I arrive back in the UK?",
+          "a": "No. Date of Departure in Departure Information is the local day you leave Thailand. This may differ from arrival in the UK, so use the Thailand departure part of the return ticket."
+        },
+        {
+          "q": "Are District and Sub-District required for HOTEL?",
+          "a": "The captured form removed the required asterisks from District and Sub-District after HOTEL was selected. Requirements depend on accommodation type, so follow the asterisks on your own screen."
+        },
+        {
+          "q": "Does the two-week health field ask for Thai destinations?",
+          "a": "No. Select the countries or territories where you actually stayed during the two weeks before entering Thailand. Do not list the Thai cities you plan to visit."
+        },
+        {
+          "q": "Am I finished when Preview opens?",
+          "a": "No. Preview is a review stage before submission. Enter your email, read and accept the applicable terms, submit and then look for successful completion and the TDAC document."
+        }
+      ],
+      "sources": [
+        [
+          "Immigration Bureau: official TDAC site",
+          "https://tdac.immigration.go.th/"
+        ],
+        [
+          "TDAC English user guide",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "TDAC official FAQ",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ],
+        [
+          "Official TDAC submission video: completion example",
+          "https://www.youtube.com/watch?v=eHyYt1eXjOo"
+        ]
+      ],
+      "facts": [
+        [
+          "Official site",
+          "https://tdac.immigration.go.th/"
+        ],
+        [
+          "Cost",
+          "Free"
+        ],
+        [
+          "Submission window",
+          "Within three days before arrival, including arrival day"
+        ],
+        [
+          "Entry language",
+          "English; passport details must match the passport"
+        ],
+        [
+          "Illustrated screens",
+          "English mobile screenshots captured on 2026-10-14"
+        ]
+      ],
+      "checkedAt": "2026-10-18",
+      "locale": "en-gb",
+      "market": "GB",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs, practical actions, conditions and exceptions compared with the Sirocco introduction, access, reservation and FAQ examples. British passport and London application rules researched separately.",
+        "record": "artifacts/localization-20261018/en-gb/review.md",
+        "market": "GB"
+      }
+    },
+    {
+      "id": "visa",
+      "title": "Thai visa types: tourist, work, study and longer stays",
+      "description": "Understand visa-free tourist entry, tourist visas, DTV, work, study and retirement categories, and the London Thai e-Visa application process.",
+      "intro": "A holiday, a job and a course of study in Thailand need different preparations. If you hold a British passport and are travelling for tourism, first see whether your trip qualifies for visa-exempt entry. Work and study cannot simply use tourist entry instead. Decide what you intend to do and how long you want to stay, then prepare the visa appropriate to that purpose.",
+      "sections": [
+        {
+          "title": "Visa exemption, TDAC and visas serve different purposes",
+          "paragraphs": [
+            "**Visa exemption** allows eligible travellers to enter without obtaining a visa first. **TDAC** is the online arrival declaration. A **visa** is applied for according to your purpose, such as tourism, study or work. Submitting TDAC does not grant a visa.",
+            "London’s current guidance allows British passport holders **up to 30 days for tourism from 15 September 2026**, subject to the exemption conditions. It states a twice-per-calendar-year limit; ask the embassy about repeated visits because FCDO guidance distinguishes land and air arrivals differently. Other nationalities must check their own rules. Reading an English guide or living in the UK does not make British-passport conditions apply to a different passport."
+          ]
+        },
+        {
+          "title": "Choose a category matching your purpose",
+          "paragraphs": [
+            "Start with what you actually plan to do in Thailand, then look for the matching visa category. Thai e-Visa separates tourism, work, study and other purposes. Similar names do not make the eligibility or documents interchangeable. Read the detailed requirements for your intended activity before preparing an application."
+          ],
+          "fields": [
+            [
+              "Tourist Visa",
+              "Tourism and holidays. Read the single-entry and multiple-entry conditions separately."
+            ],
+            [
+              "Work & Business",
+              "Employment or business activities. Tourist exemption and TDAC do not authorise employment."
+            ],
+            [
+              "Studying / Non-Immigrant ED",
+              "Study at a school or educational institution and eligible education or training."
+            ],
+            [
+              "Retirement / Non-Immigrant O or O-A",
+              "Retirement stays for applicants meeting age, financial and other requirements. Conditions differ by category."
+            ],
+            [
+              "Destination Thailand Visa (DTV)",
+              "Eligible workcation or Thai soft-power activities. It is a separate category from a tourist visa. London’s current instructions require permanent-residence evidence and a criminal-record certificate issued within six months."
+            ],
+            [
+              "Transit Visa",
+              "Eligible transit, sports or crew purposes, with conditions specific to the activity."
+            ],
+            [
+              "Long-Term Resident (LTR)",
+              "Long-term residence for applicants who meet the programme’s eligibility requirements."
+            ]
+          ]
+        },
+        {
+          "title": "Apply online through Thai e-Visa",
+          "paragraphs": [
+            "Create an account at **thaievisa.go.th**, complete the form, upload the required documents, pay the applicable fee and submit. Monitor your account and email for further document requests. Once approved, save the visa confirmation sent by email.",
+            "London accepts eligible applicants currently resident in the **UK, Ireland or UK Territories**, with the required immigration status. You must remain physically within its jurisdiction during processing; leaving before a decision can cause cancellation, even though the application is online. British nationality alone does not let someone abroad apply through London. Use the Thai mission responsible for where you are actually staying."
+          ]
+        },
+        {
+          "title": "Visa validity and permitted stay are different",
+          "paragraphs": [
+            "Visa validity is the period during which you can use a visa to enter. Permitted stay is the time you may remain after entry. Even a single-entry tourist visa has separate validity and stay periods.",
+            "Receiving a visa does not allow you to remain until its expiry date regardless of arrival. After immigration, use the **permitted-stay date in your passport** to plan departure. If you need an extension, apply under the relevant procedure before permission expires and await the decision. An application alone does not extend your stay."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does every British visitor need a tourist visa?",
+          "a": "No. A tourist who meets the British-passport visa-exemption conditions can enter without a tourist visa. Work, study and other purposes, or a stay outside the exemption conditions, require the appropriate permission. Companions with another nationality must use their own passport rules."
+        },
+        {
+          "q": "Is DTV the same as a tourist visa?",
+          "a": "No. DTV covers eligible workcation or Thai soft-power activities, while a tourist visa is for tourism. Read each category’s activity, eligibility and document requirements. London’s DTV permanent-residence and criminal-record requirements are specific to that application route."
+        },
+        {
+          "q": "Do I apply at the embassy in person?",
+          "a": "London uses Thai e-Visa for applications and confirmations; it no longer accepts physical applications. You must nevertheless qualify for its jurisdiction and remain there during processing. The embassy can require an in-person interview."
+        }
+      ],
+      "sources": [
+        [
+          "Thai e-Visa",
+          "https://www.thaievisa.go.th/"
+        ],
+        [
+          "Royal Thai Embassy, London: general visa information",
+          "https://london.thaiembassy.org/en/page/visa-general-information?menu=65bb7713d0737318de2bab23"
+        ],
+        [
+          "Royal Thai Embassy, London: visa exemption",
+          "https://london.thaiembassy.org/en/page/exemp-visa"
+        ],
+        [
+          "London: single-entry tourist visa",
+          "https://london.thaiembassy.org/en/page/tourist-single-entry-visa"
+        ],
+        [
+          "London: multiple-entry tourist visa",
+          "https://london.thaiembassy.org/en/page/tourist-multiple-entries-visa"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "en-gb",
+      "market": "GB",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs, practical actions, conditions and exceptions compared with the Sirocco introduction, access, reservation and FAQ examples. British passport and London application rules researched separately.",
+        "record": "artifacts/localization-20261018/en-gb/review.md",
+        "market": "GB"
+      }
+    },
+    {
+      "id": "tourist-visa",
+      "title": "Thai tourist visa from the UK: single or multiple entry and e-Visa",
+      "description": "Compare London tourist-visa validity, permitted stays, required documents, £30 and £150 fees, and the online application and approval process.",
+      "intro": "A British-passport holiday does not automatically require a tourist visa. First compare your plans with the visa-exempt conditions. If you need a tourist visa, read the single-entry or multiple-entry requirements according to how many times you intend to enter. The instructions below cover applications to the Royal Thai Embassy in London, from preparing documents to saving the approval.",
+      "sections": [
+        {
+          "title": "Single entry and multiple entry",
+          "paragraphs": [
+            "London’s single-entry tourist visa is **valid for three months from issue and permits up to 60 days after entry**. Its multiple-entry visa is **valid for six months**, with the stated requirement to make the first entry within the first three months, and allows **up to 60 days per entry**. Six months of visa validity does not mean six months of uninterrupted stay.",
+            "The embassy says a **further 30-day extension may be requested** from immigration in Thailand. Approval is not automatic. Do not set a departure date assuming an extension: read your actual permission after entry and arrange any required application before it expires."
+          ],
+          "fields": [
+            [
+              "Single-entry tourist visa",
+              "Three-month visa validity / up to 60 days’ stay"
+            ],
+            [
+              "Multiple-entry tourist visa",
+              "Six-month validity; first entry within the first three months / up to 60 days per entry"
+            ],
+            [
+              "Extension",
+              "A further 30 days may be requested from Thai immigration; approval required"
+            ]
+          ]
+        },
+        {
+          "title": "Who can apply and what to prepare",
+          "paragraphs": [
+            "Prepare the passport biodata page and a passport-style photograph taken **within the previous six months**, together with proof of current location, flights and accommodation. For entry on a full British citizen passport, the FCDO specifies at least **six months’ validity from arrival and a blank page**. Read the document requests for your actual e-Visa category too.",
+            "For London, current-location evidence can include a utility bill or rental agreement showing your name and address. The applicant must reside in the UK, Ireland or UK Territories and remain physically there during processing. A British passport does not remove this location requirement. If you live elsewhere, identify the responsible Thai mission before applying.",
+            "Prepare airline-issued confirmed e-tickets showing your name, departure date and the full route from the UK, Ireland or UK Territories to Thailand, including onward flights. London’s general instructions reject travel-agency tickets and bookings on hold. Its tourist lists also require Thai accommodation evidence, such as hotel bookings or a family or friend’s invitation.",
+            "Upload clear PDF, JPG or JPEG files of no more than 3MB each. Combine documents in the same category into one PDF if needed. London does not accept screenshots or password-protected files. Documents should be in English or Thai; other languages need the specified certified English translation and legalisation. Do not crop, blur or conceal information.",
+            "Additional requests can include funds evidence, immigration status or an interview. Foreign bank statements need a bank letter with the balance equivalent in GBP, USD or EUR. Non-British and non-Irish applicants have extra status, employment or student evidence requirements, and children under 16 need the specified parental documents. Use the requirements for the actual applicant rather than copying someone else’s checklist. Uploading documents is not approval."
+          ]
+        },
+        {
+          "title": "From the online form to your approved visa",
+          "paragraphs": [
+            "Create your account at **thaievisa.go.th**, choose your nationality, current location, passport type and tourism purpose, then fill in the form. If passport information is read automatically, compare surname, given names and any middle names with your passport yourself.",
+            "Upload the documents, complete the fee payment and **submit the application**. London’s published tourist fees are **£30 for single entry and £150 for multiple entry**, paid online in sterling. Fees are non-refundable and non-transferable, and can change. Check every passport detail before Submit: London says submitted details cannot be corrected. These fees apply to the London application route.",
+            "Monitor the account and email and answer additional requests. London advises applying **six to eight weeks before departure**, no earlier than 90 days before intended arrival. Its current estimate is **about 15 working days**, excluding weekends and embassy holidays. Additional documents or an interview can add 15 working days after everything requested is received; some cases can take four to six weeks. This is not a guaranteed issue date and a late application is not expedited. Stay within London’s jurisdiction until the decision, then save and print the approval when granted."
+          ]
+        },
+        {
+          "title": "You still need a separate TDAC",
+          "paragraphs": [
+            "Even with an approved tourist visa, **complete TDAC separately** within the three-day window including arrival day. Submit it on the official site and save the resulting document on your phone.",
+            "Keep your passport and visa confirmation accessible at the airport. After immigration, read the actual permitted-stay expiry in your passport. Plan departure around that permission rather than the visa’s validity period."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do British tourists always need this visa?",
+          "a": "No. If your holiday meets the British-passport visa-exemption conditions, you do not need a tourist visa. If your itinerary needs one, choose the visa matching your passport, purpose and intended stay."
+        },
+        {
+          "q": "Can a multiple-entry visa give me six months in one stay?",
+          "a": "No. Six months is the visa’s validity period, while the published allowance is up to 60 days per entry. London also states that the first entry must be within three months. Read your actual permitted-stay date after arrival rather than treating validity as a continuous stay."
+        },
+        {
+          "q": "How much does a London tourist visa cost?",
+          "a": "London’s published fees are £30 for single entry and £150 for multiple entry, paid online in sterling. They are non-refundable and non-transferable and may change. These are the fees published for the London application route."
+        },
+        {
+          "q": "Can I travel immediately after applying?",
+          "a": "Submission is not approval. Wait for the decision, monitor your account and email, and save the approval when received. London requires applicants to remain physically in the UK, Ireland or UK Territories during processing; leaving early can cancel the application. Extra documents or an interview can lengthen processing, so the published estimate is not a promised issue date."
+        }
+      ],
+      "sources": [
+        [
+          "London: single-entry tourist visa",
+          "https://london.thaiembassy.org/en/page/tourist-single-entry-visa"
+        ],
+        [
+          "London: multiple-entry tourist visa",
+          "https://london.thaiembassy.org/en/page/tourist-multiple-entries-visa"
+        ],
+        [
+          "London: general application instructions",
+          "https://london.thaiembassy.org/en/page/visa-general-information?menu=65bb7713d0737318de2bab23"
+        ],
+        [
+          "London: published visa fees",
+          "https://london.thaiembassy.org/en/publicservice/81755-visa-fees?menu=5d6636cd15e39c3bd00072de&page=5d6636cd15e39c3bd00072dd"
+        ],
+        [
+          "Thai e-Visa",
+          "https://www.thaievisa.go.th/"
+        ],
+        [
+          "FCDO: entry requirements",
+          "https://www.gov.uk/foreign-travel-advice/thailand/entry-requirements"
+        ],
+        [
+          "TDAC user guide",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "en-gb",
+      "market": "GB",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs, practical actions, conditions and exceptions compared with the Sirocco introduction, access, reservation and FAQ examples. British passport and London application rules researched separately.",
+        "record": "artifacts/localization-20261018/en-gb/review.md",
+        "market": "GB"
+      }
+    }
+  ]
+}

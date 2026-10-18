@@ -1,0 +1,7 @@
+---
+import RooftopDetail from '../../../components/RooftopDetail.astro';
+import rooftops from '../../../data/rooftops.json';
+import {localizedLocales} from '../../../lib/localized-content';
+export function getStaticPaths(){return localizedLocales('rooftops').flatMap(item=>rooftops.filter(v=>v.publicationStatus!=='held').map(venue=>({params:{locale:item.code,id:venue.id},props:{venue}})));}
+---
+<RooftopDetail locale={Astro.params.locale} venue={Astro.props.venue}/>

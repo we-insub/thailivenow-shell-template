@@ -1,0 +1,43 @@
+{
+  "locale": "en-in",
+  "travel": "complete",
+  "rooftops": "complete",
+  "cameras": "complete",
+  "ui": "complete",
+  "finalHtml": "pending",
+  "seo": "pending",
+  "pcMobile": "pending",
+  "deployment": "not_authorized",
+  "uiGapCheck": {
+    "auditPass": "static-176-followup",
+    "input": 176,
+    "remainingHangul": 0,
+    "canonicalSourceFixtures": 134,
+    "canonicalHangulFailures": 0,
+    "canonicalRepeatedDotFailures": 0,
+    "monthCompositionMeaningChecked": 72,
+    "newBuildRequired": true
+  },
+  "dynamicUiGapCheck": {
+    "stage": "complete",
+    "source": "dynamic-audit.json",
+    "input": 40,
+    "auditedTotal": 141,
+    "remainingHangul": 0,
+    "repeatedDotFailures": 0,
+    "additionalFixtures": 5,
+    "fixtureFailures": 0,
+    "placeholderMismatches": 0,
+    "browserRequired": true,
+    "uiSha256": "998704051a2a7d44fe3d21dc485c47d82da3a687fcfc9c8cf6ed01bbbbb39a5c"
+  },
+  "latestStaticObserved": {
+    "input": 176,
+    "remainingHangul": 0,
+    "source": "static176-selfcheck.json",
+    "status": "complete",
+    "actualRenderedHtmlReaudit": "pending",
+    "auditSha256": "97048c8eb51c49f12af8845f93a4fc9eb0ac4ab14b31db4f0feba3ec6ccfa429",
+    "uiSha256": "998704051a2a7d44fe3d21dc485c47d82da3a687fcfc9c8cf6ed01bbbbb39a5c"
+  }
+}

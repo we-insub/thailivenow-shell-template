@@ -1,0 +1,14 @@
+---
+import {travelAreas} from '../data/map';
+import venues from '../data/rooftops.json';
+import {cameras} from '../data/cameras';
+import {getLocalizedPack,hasLocalizedStage} from '../lib/localized-content';
+const {locale='ko',areaId,exclude,heading=true}=Astro.props;
+const area=travelAreas.find(area=>area.id===areaId);
+const areaPage=travelAreas.findIndex(area=>area.id===areaId)>=12?'2/':'';
+const name=locale==='ko'?area?.name:getLocalizedPack(locale)?.travel?.destinations?.areas?.[areaId]?.name;
+const roof=area&&venues.some(v=>v.city===area.id&&v.publicationStatus!=='held')&&(locale==='ko'||hasLocalizedStage(locale,'rooftops'));
+const camera=area&&cameras.some(camera=>({푸껫:'phuket',푸켓:'phuket',코사무이:'samui',코팡안:'phangan',코타오:'tao',파타야:'pattaya',코사멧:'samet',끄라비:'krabi',후아힌:'hua-hin',치앙마이:'chiang-mai',치앙라이:'chiang-rai',코란타:'lanta'})[camera.area]===area.id)&&(locale==='ko'||hasLocalizedStage(locale,'cameras'));
+---
+{area&&<section class="locale-connections">{heading&&<h2>이어서 살펴보기</h2>}<ul><li><a href={`/${locale}/destinations/${areaPage}#city-${area.id}`}>{name} · 태국 여행 →</a></li>{roof&&exclude!=='rooftops'&&<li><a href={`/${locale}/rooftops/cities/${area.id}/`}>{name} · 루프탑·전망대 →</a></li>}{camera&&exclude!=='cameras'&&<li><a href={`/${locale}/?city=${area.id}#map`}>{name} · 카메라 목록 →</a></li>}</ul></section>}
+<style>.locale-connections{margin:36px 0}.locale-connections ul{display:flex;flex-wrap:wrap;gap:14px 24px;padding:0;list-style:none}.locale-connections a{color:#267e89;font-weight:700;line-height:1.7}.locale-connections li{margin:0}</style>

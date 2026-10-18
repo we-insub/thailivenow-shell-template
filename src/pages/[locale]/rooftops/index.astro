@@ -1,0 +1,6 @@
+---
+import RooftopHub from '../../../components/RooftopHub.astro';
+import {localizedLocales} from '../../../lib/localized-content';
+export function getStaticPaths(){return localizedLocales('rooftops').map(item=>({params:{locale:item.code}}));}
+---
+<RooftopHub locale={Astro.params.locale} initialCity="all"/>

@@ -1,0 +1,2023 @@
+{
+  "destinations": {
+    "title": "Thailand Travel: Destinations, Weather and Entry Requirements",
+    "description": "Plan a Thailand vacation with destination ideas, monthly weather, TDAC instructions and entry guidance for U.S. passport holders.",
+    "h1": "Thailand travel",
+    "intro": "Picture the vacation you want: unwinding at a good hotel, wandering between temples and cafés, or spending long days by the sea. Think about how you would spend a day in each city or island, then choose the places that appeal to you.",
+    "entryHeading": "Entering Thailand",
+    "entryIntro": "Traveling to Thailand for a vacation on a U.S. ordinary passport? Start with the passport and visa exemption requirements, then use your flight and hotel reservations to complete your TDAC. If your itinerary requires a visa, find the category that matches your purpose and learn how to apply.",
+    "seasonsHeading": "When to visit Thailand",
+    "seasonsIntro": "Have a month in mind? Compare the weather for walking around Bangkok’s temples and markets with a beach vacation in Phuket or Koh Samui. Monthly temperatures and rainfall can help you choose a time to travel and decide what to pack.",
+    "areas": {
+      "bangkok": {
+        "name": "Bangkok",
+        "intro": "Spend the day relaxing at a hotel with a pool, then head out for dinner by the river or skyline views from a rooftop. Bangkok suits travelers who want to combine a five-star hotel stay with time exploring the city."
+      },
+      "chiang-mai": {
+        "name": "Chiang Mai",
+        "intro": "Wander through the Old City’s temple grounds and side streets, stopping at a café that catches your eye. This is a city for taking your time, with a walk and a cup of coffee shaping an easygoing day."
+      },
+      "chiang-rai": {
+        "name": "Chiang Rai",
+        "intro": "See architecture with striking colors and forms, including the White Temple and Blue Temple. You can experience places you have seen in photographs while exploring northern Thailand’s mountains and temples."
+      },
+      "pattaya": {
+        "name": "Pattaya",
+        "intro": "Walk along the beach or relax at your hotel during the day, then sit down to dinner overlooking the sea. Pattaya combines time by the water with the restaurants and sightseeing of a city vacation."
+      },
+      "hua-hin": {
+        "name": "Hua Hin",
+        "intro": "Stay by the sea with your family, take a morning beach walk and browse the markets in the evening. Choose Hua Hin when you would rather leave time for shared meals and rest than fill every hour with sightseeing."
+      },
+      "phuket": {
+        "name": "Phuket",
+        "intro": "Set aside some days for relaxing at a seaside resort and others for exploring the Old Town. You can enjoy a beach vacation as well as meals and walks along streets lined with colorful buildings."
+      },
+      "krabi": {
+        "name": "Krabi",
+        "intro": "Walk beside the sea with limestone cliffs rising above the coast. Combine days of beachside rest with boat trips to nearby islands for a vacation that brings you different views of the water."
+      },
+      "samui": {
+        "name": "Koh Samui",
+        "intro": "Have a late breakfast at a seaside resort, stroll along the beach and return to your room for a break. Leave plenty of time for unhurried meals and relaxation with your partner or family."
+      },
+      "phi-phi": {
+        "name": "Phi Phi Islands",
+        "intro": "Discover cliffs rising out of the sea and views opening between the islands. Explore by boat or look out from a viewpoint to experience the Thai island scenery you have seen in photographs."
+      },
+      "phangan": {
+        "name": "Koh Phangan",
+        "intro": "If you want both a beach break and nights with music, consider Koh Phangan. Choose your beach and travel dates to plan either a lively stay or a quieter vacation."
+      },
+      "tao": {
+        "name": "Koh Tao",
+        "intro": "Curious about the scenery beneath the water as well as along the shore? Try learning to snorkel or dive on Koh Tao, then wind down on the beach in the evening."
+      },
+      "lanta": {
+        "name": "Koh Lanta",
+        "intro": "Read a book at your seaside accommodation, then walk along the beach as the sun goes down. Koh Lanta suits travelers who want to linger on a favorite stretch of coast rather than seek out a new attraction every day."
+      },
+      "samet": {
+        "name": "Koh Samet",
+        "intro": "Consider Koh Samet if you want to add a short beach break to a Bangkok trip. Walk on white sand and eat by the sea, giving yourself time to relax after exploring the city."
+      }
+    }
+  },
+  "seasons": {
+    "period": "1991–2020",
+    "checkedAt": "2026-10-14",
+    "source": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+    "regions": [
+      {
+        "id": "bangkok",
+        "name": "Bangkok",
+        "station": "BANGKOK METROPOLIS",
+        "pdfPage": 57,
+        "pattern": "central",
+        "best": "November–February",
+        "intro": "If you want to walk around Bangkok’s Grand Palace, temples and riverside, consider **November–February**. Rainfall drops sharply from November after the wetter months of September and October, and average temperatures in December and January are around 27°C, more comfortable than April’s heat. Average daytime highs still exceed 32°C, so visit temples in the morning, walk by the river near sunset and leave time in between for meals and indoor breaks.",
+        "outdoor": "Grand Palace and temple walks",
+        "indoor": "Riding the train between cafés and shopping malls",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry period",
+            "advantage": "Visit the Grand Palace and temples in the morning, then walk by the river before sunset. With less rain than during the wet season, this is a pleasant time to explore Bangkok on foot.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 27.4,
+            "high": 32.7,
+            "low": 23.4,
+            "rain": 23.6,
+            "rainDays": 2.6
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry period",
+            "advantage": "Build meals and café breaks into your temple visits. Rain is relatively light, but the days are hot, so see the places you want to walk around in the morning.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.6,
+            "high": 33.7,
+            "low": 24.8,
+            "rain": 21.4,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "See the Grand Palace and temples early, then take a break in a mall or café during the hot part of the day. Return to the riverside for a walk as the sun drops.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 29.7,
+            "high": 34.7,
+            "low": 26.4,
+            "rain": 51.0,
+            "rainDays": 4.1
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Finish temple visits in the morning, eat indoors at midday and rest at your accommodation. Divide sightseeing into shorter outings so you are not walking for long during the hottest hours.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 30.7,
+            "high": 35.7,
+            "low": 27.2,
+            "rain": 93.3,
+            "rainDays": 6.5
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "On a temple sightseeing day, find a nearby café or restaurant where you can stop. If rain arrives suddenly, wait indoors before continuing your visit.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 30.3,
+            "high": 35.1,
+            "low": 26.9,
+            "rain": 216.8,
+            "rainDays": 15.0
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Ride the train to shopping malls and take a café break. Once the rain eases, walk through a nearby neighborhood and find somewhere to eat.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 29.7,
+            "high": 34.1,
+            "low": 26.4,
+            "rain": 198.5,
+            "rainDays": 16.4
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Spend heavy rain in a mall or café, then visit a nearby market or the riverside when it eases.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 29.2,
+            "high": 33.5,
+            "low": 26.1,
+            "rain": 189.7,
+            "rainDays": 17.2
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Rather than crossing the city between distant attractions, spend the day sightseeing and eating in one neighborhood. It is easier to find a nearby place to rest when rain arrives.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 29.0,
+            "high": 33.3,
+            "low": 25.9,
+            "rain": 227.1,
+            "rainDays": 19.1
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "If you plan to see markets and temples, allow time indoors too. Wait out heavy downpours over a meal somewhere nearby.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 28.6,
+            "high": 33.2,
+            "low": 25.4,
+            "rain": 335.9,
+            "rainDays": 21.4
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Spend rainy spells in a café or mall, then walk around the neighborhood when the rain eases. Keep your day flexible so you can change sightseeing times.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 28.4,
+            "high": 33.0,
+            "low": 25.2,
+            "rain": 288.7,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Relatively dry period",
+            "advantage": "As rain decreases, this is a good time to plan temple and market visits. Start sightseeing in the morning, then take a midday break at a mall or café.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.4,
+            "high": 33.1,
+            "low": 24.7,
+            "rain": 44.6,
+            "rainDays": 5.0
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry period",
+            "advantage": "Visit temples in the morning and walk along the river in the evening. Take a break from the midday heat while enjoying different sides of Bangkok.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 27.3,
+            "high": 32.3,
+            "low": 23.2,
+            "rain": 11.6,
+            "rainDays": 1.5
+          }
+        ],
+        "cardSummary": "Rainfall falls sharply from November. December and January average around 27°C, cooler than April. These months work well for temple visits followed by riverside walks, although daytime temperatures still top 32°C.",
+        "bestAnswer": "For walking between temples and markets, November–February is a good choice. December and January average around 27°C, with relatively little monthly rain: 11.6 mm and 23.6 mm respectively. Think of this as a way to avoid April’s intense heat and the rainy season’s heavier downpours rather than a cool winter."
+      },
+      {
+        "id": "pattaya",
+        "name": "Pattaya",
+        "station": "PHATTHAYA",
+        "pdfPage": 66,
+        "pattern": "central",
+        "best": "November–February",
+        "intro": "For a mix of beach walks and city sightseeing in Pattaya, **November–February** is a good fit. Rain decreases from November after the wetter months of September and October; December and January receive just 11.7 mm and 16.3 mm per month respectively. Walk by the water in the morning, stop for lunch and rest during the day, then return to the beach in the late afternoon. Choose swimming plans according to the day’s waves and beach instructions, rather than the month alone.",
+        "outdoor": "Beach walks",
+        "indoor": "Resting near the beach and walking when the rain eases",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry period",
+            "advantage": "Walk along the beach in the morning and have dinner by the sea in the evening. Relatively low rainfall suits a relaxed trip enjoying coastal views.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 26.5,
+            "high": 30.6,
+            "low": 23.5,
+            "rain": 16.3,
+            "rainDays": 2.5
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry period",
+            "advantage": "Save beach walks for mornings or sunset. Eat or relax at your accommodation during the day to avoid the midday heat.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 27.3,
+            "high": 31.2,
+            "low": 24.5,
+            "rain": 19.9,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "Keep morning beach walks short, then rest at your accommodation during the day. Return to the shore for a meal and a stroll in the late afternoon.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 28.3,
+            "high": 32.0,
+            "low": 25.5,
+            "rain": 47.3,
+            "rainDays": 4.8
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Visit the beach in the morning and evening, with indoor meals and breaks during the hot daytime hours. Alternate outings with rest rather than spending all day outside.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 29.4,
+            "high": 33.0,
+            "low": 26.4,
+            "rain": 67.9,
+            "rainDays": 6.3
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "Relax at accommodation near the beach and step out for a walk when rain eases. You can enjoy time by the sea without traveling far.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 29.4,
+            "high": 32.7,
+            "low": 26.6,
+            "rain": 121.1,
+            "rainDays": 11.0
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Eat indoors during heavy rain, then walk along a nearby beach when it eases. Set your walking time according to the weather instead of fixing it in advance.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 29.0,
+            "high": 32.0,
+            "low": 26.4,
+            "rain": 132.1,
+            "rainDays": 12.6
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Spend the day eating near the beach and relaxing at your accommodation. Once the rain stops, head to the nearby shore for sea views.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 28.6,
+            "high": 31.6,
+            "low": 26.2,
+            "rain": 103.6,
+            "rainDays": 12.7
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Enjoy meals and rest around your accommodation, with a short walk when the rain eases. This reduces the strain of repeated trips to distant places.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 28.5,
+            "high": 31.4,
+            "low": 26.1,
+            "rain": 91.2,
+            "rainDays": 12.9
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Rest indoors during heavy rain and choose the time for your beach walk according to the weather.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 27.9,
+            "high": 31.1,
+            "low": 25.4,
+            "rain": 213.6,
+            "rainDays": 16.3
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "If you are coming to unwind by the sea, plan time at your accommodation too. When the rain eases, head to a nearby beach or restaurant.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 27.2,
+            "high": 30.9,
+            "low": 24.7,
+            "rain": 224.5,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Relatively dry period",
+            "advantage": "After the wetter period, this is a good time for seaside walks and meals in town. Make the most of mornings and evenings outdoors.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 27.1,
+            "high": 30.8,
+            "low": 24.3,
+            "rain": 56.6,
+            "rainDays": 5.6
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry period",
+            "advantage": "Take a morning beach walk and rest indoors during the day. Return to the shore in the evening to enjoy the views outside the hottest hours.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 26.4,
+            "high": 30.2,
+            "low": 23.3,
+            "rain": 11.7,
+            "rainDays": 1.9
+          }
+        ],
+        "cardSummary": "November–February brings less rain than September and October, with average highs around 30–31°C. It suits seaside walks and meals in town; December and January are particularly dry.",
+        "bestAnswer": "November–February works well for beach walks and outdoor sightseeing. December and January have little monthly rainfall and average highs around 30°C, making it easier to break up your outdoor time than in hot April and May. Even in the dry season, sea conditions vary daily, so follow the day’s guidance for swimming and boat trips."
+      },
+      {
+        "id": "chiang-mai",
+        "name": "Chiang Mai",
+        "station": "CHIANG MAI",
+        "pdfPage": 11,
+        "pattern": "north",
+        "best": "November–January",
+        "intro": "For walks through Chiang Mai’s Old City, temple visits and café breaks, try **November–January**. Average temperatures of around 22–25°C are lower than in April, and there is less rain than during the summer rainy season. Mornings and nights feel cooler in December and January, so pack a light layer. If you are heading into the mountains, choose your clothes using the forecast for your actual destination rather than city observations.",
+        "outdoor": "Old City and temple walks",
+        "indoor": "Visiting cafés and indoor exhibitions, then walking in the Old City as rain eases",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry period",
+            "advantage": "Explore Chiang Mai on foot through the Old City and temples. Enjoy daytime sightseeing and bring a layer when you head out in the morning or evening.",
+            "caution": "Mornings and nights are considerably cooler than daytime. Bring a light layer if you head out early or return late.",
+            "mean": 22.0,
+            "high": 30.0,
+            "low": 15.7,
+            "rain": 11.3,
+            "rainDays": 1.3
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry period",
+            "advantage": "Start your Old City walk in the morning and rest in a café at midday. Breaks between temple visits help you avoid the hottest part of the day.",
+            "caution": "Mornings and nights are considerably cooler than daytime. Bring a light layer if you head out early or return late.",
+            "mean": 24.2,
+            "high": 32.9,
+            "low": 16.8,
+            "rain": 9.6,
+            "rainDays": 0.9
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "See the Old City and temples in the morning, then find a café or indoor exhibition during the midday heat. You can head out again for a late afternoon walk.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 27.3,
+            "high": 35.4,
+            "low": 20.1,
+            "rain": 20.4,
+            "rainDays": 2.8
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Finish temple sightseeing early and take a break over an indoor lunch. Avoid putting all your longer walks into a single day.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 29.5,
+            "high": 36.7,
+            "low": 23.4,
+            "rain": 54.3,
+            "rainDays": 6.8
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "On temple days, find nearby cafés or indoor exhibitions as well. When rain starts, rest indoors and resume sightseeing afterward.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 28.6,
+            "high": 34.7,
+            "low": 24.2,
+            "rain": 167.5,
+            "rainDays": 14.8
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Relax in a café or browse an indoor exhibition, then walk around the Old City as the rain eases.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 28.0,
+            "high": 33.2,
+            "low": 24.5,
+            "rain": 118.2,
+            "rainDays": 16.3
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "If rain catches you walking through the Old City, stop at a nearby café. Adjust your walking time to the weather.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 27.4,
+            "high": 32.1,
+            "low": 24.3,
+            "rain": 148.6,
+            "rainDays": 18.8
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Enjoy cafés and indoor exhibitions during heavy rain. Continue temple visits or Old City walks once it eases.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 26.9,
+            "high": 31.6,
+            "low": 24.0,
+            "rain": 223.3,
+            "rainDays": 20.9
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Plan café breaks alongside temple visits. This lets you continue your day without making a long journey during the rain.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 26.9,
+            "high": 32.0,
+            "low": 23.7,
+            "rain": 207.2,
+            "rainDays": 18.1
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Browse an indoor exhibition or relax in a café, then head into the Old City when the rain eases. Group nearby sights together to make rainy journeys easier.",
+            "caution": "Leave time to shelter from rain and keep indoor alternatives instead of packing your day with outdoor plans.",
+            "mean": 26.4,
+            "high": 31.7,
+            "low": 22.6,
+            "rain": 123.8,
+            "rainDays": 11.8
+          },
+          {
+            "month": 11,
+            "season": "Relatively dry period",
+            "advantage": "Visit temples and the Old City, then stop for a café break. Relatively little rain makes this a good time to choose places to see on foot.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 24.6,
+            "high": 30.8,
+            "low": 19.9,
+            "rain": 40.9,
+            "rainDays": 4.2
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry period",
+            "advantage": "Enjoy exploring the Old City’s temples on foot. Mornings and nights can feel cooler than daytime, so pack a light layer.",
+            "caution": "Mornings and nights are considerably cooler than daytime. Bring a light layer if you head out early or return late.",
+            "mean": 22.2,
+            "high": 29.2,
+            "low": 16.9,
+            "rain": 14.1,
+            "rainDays": 1.8
+          }
+        ],
+        "cardSummary": "November–January averages around 22–25°C, comfortable for exploring the Old City and temples on foot. Average lows fall to around 16–17°C in December and January, so bring a layer for mornings and evenings.",
+        "bestAnswer": "November–January is a good fit for exploring the Old City and temples on foot. December and January average around 22°C, below April’s 29.5°C average. Wear light clothes during the day and add a layer when you head out in the morning or at night."
+      },
+      {
+        "id": "phuket",
+        "name": "Phuket",
+        "station": "PHUKET",
+        "pdfPage": 88,
+        "pattern": "andaman",
+        "best": "December–March",
+        "intro": "For a Phuket vacation that combines beachside rest with time in the Old Town, consider **December–March**. Rainfall is lower than from May through November, and February has the lowest monthly total of the year at 24.0 mm. March’s average high reaches 34.4°C, so explore the Old Town in the morning or late afternoon. Even in the dry season, waves and wind can affect island tours and boat transfers; follow the day’s operating advice.",
+        "outdoor": "Beach and Old Town walks",
+        "indoor": "Eating in the Old Town and relaxing at your accommodation",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry period",
+            "advantage": "Walk on the beach in the morning and enjoy dinner in the Old Town. You can also set aside separate days for beachside rest and exploring town.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.3,
+            "high": 33.0,
+            "low": 25.0,
+            "rain": 49.9,
+            "rainDays": 5.6
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry period",
+            "advantage": "Combine beach walks with Old Town sightseeing. Rain is relatively light, but midday is hot, so stop for a meal or indoor break during the day.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 29.0,
+            "high": 34.0,
+            "low": 25.4,
+            "rain": 24.0,
+            "rainDays": 3.4
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "See the beach and Old Town in the morning or late afternoon. Avoid the heat with an indoor meal or time at your accommodation during the day.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 29.4,
+            "high": 34.4,
+            "low": 25.9,
+            "rain": 80.7,
+            "rainDays": 7.5
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Walk along the beach in the morning, then rest at your accommodation during the hottest hours. Visit the Old Town later as the sun drops.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 29.6,
+            "high": 34.2,
+            "low": 26.3,
+            "rain": 135.1,
+            "rainDays": 11.7
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "Eat in the Old Town and relax at your accommodation. Keep beach walks short and fit them into breaks in the rain.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 29.1,
+            "high": 33.2,
+            "low": 26.1,
+            "rain": 236.9,
+            "rainDays": 18.9
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "While it rains, eat indoors or relax at your accommodation, then explore nearby places when it eases.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 28.7,
+            "high": 32.6,
+            "low": 25.8,
+            "rain": 249.4,
+            "rainDays": 18.6
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Spend time eating in the Old Town and relaxing near your accommodation. Choose beach-walking times according to the weather.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 28.4,
+            "high": 32.3,
+            "low": 25.6,
+            "rain": 240.2,
+            "rainDays": 19.1
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Rest at your accommodation during heavy rain. When it eases, eat somewhere nearby and take a short walk.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 28.3,
+            "high": 32.2,
+            "low": 25.6,
+            "rain": 308.7,
+            "rainDays": 19.5
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Spend a day eating in the Old Town and resting indoors. Choose outdoor times according to the rain forecast.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.8,
+            "high": 31.8,
+            "low": 25.1,
+            "rain": 350.4,
+            "rainDays": 21.7
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Plan meals and relaxation near your accommodation rather than trips to distant sights. Enjoy a beach walk when the rain eases.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.6,
+            "high": 31.8,
+            "low": 24.9,
+            "rain": 336.0,
+            "rainDays": 22.7
+          },
+          {
+            "month": 11,
+            "season": "Seasonal transition",
+            "advantage": "Eat in the Old Town or relax at your accommodation, then visit the beach when the weather allows. Set outdoor sightseeing times according to the day’s forecast.",
+            "caution": "During the seasonal transition, do not count on clear skies every day. Read the forecast before booking outdoor activities.",
+            "mean": 28.0,
+            "high": 32.1,
+            "low": 25.2,
+            "rain": 178.2,
+            "rainDays": 15.9
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry period",
+            "advantage": "Walk by the sea in the morning and relax at your accommodation during the day. Head to the Old Town for dinner to enjoy both the beach and the town.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 27.9,
+            "high": 32.1,
+            "low": 25.0,
+            "rain": 82.0,
+            "rainDays": 10.3
+          }
+        ],
+        "cardSummary": "December–March is drier than the summer and fall rainy season, making it easier to combine the beach with the Old Town. February is driest at 24.0 mm, but March’s average high exceeds 34°C.",
+        "bestAnswer": "December–March suits a trip with both beach days and visits to the Old Town. If less rain is your priority, look at February, with a monthly total of 24.0 mm. March is also drier than the rainy season, but the stronger heat favors alternating beachside rest with short outings rather than long sightseeing walks."
+      },
+      {
+        "id": "krabi",
+        "name": "Krabi",
+        "station": "KRABI",
+        "pdfPage": 91,
+        "pattern": "andaman",
+        "best": "December–March",
+        "intro": "To relax on Krabi’s beaches and take in limestone cliffs and sea views, try **December–March**. Rain decreases after the wet months of September and October, and February has the year’s lowest monthly total at 35.9 mm. Stay near the beach and alternate walks with time to rest. March’s average high rises to 34.7°C, so save longer walks for mornings or late afternoons, and plan boat days around operating advice.",
+        "outdoor": "Beach walks and sea views",
+        "indoor": "Relaxing at your accommodation and visiting a nearby beach when rain eases",
+        "months": [
+          {
+            "month": 1,
+            "season": "Relatively dry period",
+            "advantage": "Walk along the beach in the morning or near sunset to enjoy sea and cliff views. Rest at your accommodation during the day for an unhurried beach vacation.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 27.4,
+            "high": 32.6,
+            "low": 21.5,
+            "rain": 96.8,
+            "rainDays": 7.7
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry period",
+            "advantage": "Take a beach walk to enjoy the sea views. Midday gets hot, so walk in the morning or go out again late in the afternoon.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.1,
+            "high": 34.1,
+            "low": 21.5,
+            "rain": 35.9,
+            "rainDays": 4.3
+          },
+          {
+            "month": 3,
+            "season": "Hot season",
+            "advantage": "Enjoy a morning beach walk and relax at your accommodation during the day. You can return to the shore in the cooler late afternoon.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 28.7,
+            "high": 34.7,
+            "low": 22.4,
+            "rain": 108.4,
+            "rainDays": 8.3
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Visit the beach in the morning and late afternoon, with an indoor lunch and rest during the day. Plan longer sightseeing walks outside the hottest hours.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 28.8,
+            "high": 34.3,
+            "low": 23.1,
+            "rain": 142.2,
+            "rainDays": 12.7
+          },
+          {
+            "month": 5,
+            "season": "Rainy season",
+            "advantage": "Relax at your accommodation and walk along a nearby beach as rain eases. Adjust outdoor time to the weather.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 28.2,
+            "high": 33.0,
+            "low": 23.5,
+            "rain": 210.1,
+            "rainDays": 17.5
+          },
+          {
+            "month": 6,
+            "season": "Rainy season",
+            "advantage": "Rest at your accommodation while it rains, then go out for a nearby meal or a short walk as it eases.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.7,
+            "high": 31.9,
+            "low": 23.1,
+            "rain": 224.8,
+            "rainDays": 17.5
+          },
+          {
+            "month": 7,
+            "season": "Rainy season",
+            "advantage": "Spend your beach vacation eating and relaxing near your accommodation. Choose when to visit the shore according to the day’s weather.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.4,
+            "high": 31.6,
+            "low": 22.8,
+            "rain": 221.5,
+            "rainDays": 17.6
+          },
+          {
+            "month": 8,
+            "season": "Rainy season",
+            "advantage": "Rest indoors during heavy rain. Once it eases, enjoy sea views from a nearby beach.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.2,
+            "high": 31.5,
+            "low": 22.7,
+            "rain": 273.0,
+            "rainDays": 18.2
+          },
+          {
+            "month": 9,
+            "season": "Rainy season",
+            "advantage": "Include time at your accommodation in your vacation plans. Save beach walks for breaks in the rain.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.0,
+            "high": 31.3,
+            "low": 22.5,
+            "rain": 286.2,
+            "rainDays": 19.2
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "Eat and relax near your accommodation instead of traveling far. Heading to the shore when rain eases keeps journeys manageable.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.1,
+            "rain": 292.9,
+            "rainDays": 20.6
+          },
+          {
+            "month": 11,
+            "season": "Seasonal transition",
+            "advantage": "Take your time relaxing at your accommodation or eating nearby. Choose beach-walking times according to the day’s rain forecast.",
+            "caution": "During the seasonal transition, do not count on clear skies every day. Read the forecast before booking outdoor activities.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.3,
+            "rain": 198.6,
+            "rainDays": 17.5
+          },
+          {
+            "month": 12,
+            "season": "Relatively dry period",
+            "advantage": "Rest at your accommodation during the day and walk along the beach in the morning or evening. You can enjoy sea and cliff views without long hours outside in the heat.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 26.8,
+            "high": 31.5,
+            "low": 21.7,
+            "rain": 90.3,
+            "rainDays": 11.1
+          }
+        ],
+        "cardSummary": "December–March follows the wetter months of September and October and suits views of beaches and limestone cliffs. February is driest. In March, walk in the morning or late afternoon to avoid the midday heat.",
+        "bestAnswer": "December–March works well for a relaxed trip focused on beaches and sea views. If avoiding rain matters most, start with February, the month with the lowest rainfall. December and January are drier than the fall rainy season but can still have showers. In March, divide up your day around the midday heat as well as the rain."
+      },
+      {
+        "id": "koh-samui",
+        "name": "Koh Samui",
+        "station": "KO SAMUI",
+        "pdfPage": 77,
+        "pattern": "gulf",
+        "best": "February–April",
+        "intro": "For a Koh Samui vacation of beach walks and relaxed days at your accommodation, consider **February–April**. Unlike Phuket and Krabi, Samui gets heavy rain from October through December, with November averaging 444.6 mm, so the same dry-season calendar does not work for both coasts. February is driest at 64.3 mm, with an average temperature of 27.4°C. It gets hotter toward April; plan beach walks in the morning and evening, with time to rest indoors at midday.",
+        "outdoor": "Beach walks",
+        "indoor": "Relaxing at your accommodation between meals and short outings",
+        "months": [
+          {
+            "month": 1,
+            "season": "Seasonal transition",
+            "advantage": "Plan time both to rest at your accommodation and to explore a nearby beach. Wait indoors during rain, then head out again when it eases.",
+            "caution": "During the seasonal transition, do not count on clear skies every day. Read the forecast before booking outdoor activities.",
+            "mean": 26.9,
+            "high": 29.0,
+            "low": 24.2,
+            "rain": 126.8,
+            "rainDays": 11.1
+          },
+          {
+            "month": 2,
+            "season": "Relatively dry period",
+            "advantage": "Walk by the sea in the morning and relax at your accommodation during the day. This suits a trip combining beach walks with plenty of rest.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 27.4,
+            "high": 29.4,
+            "low": 24.9,
+            "rain": 64.3,
+            "rainDays": 5.6
+          },
+          {
+            "month": 3,
+            "season": "Relatively dry period",
+            "advantage": "Walk along the shore in the morning or late afternoon, then eat or relax at your accommodation during the day.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.2,
+            "high": 30.4,
+            "low": 25.4,
+            "rain": 115.8,
+            "rainDays": 5.9
+          },
+          {
+            "month": 4,
+            "season": "Hot season",
+            "advantage": "Walk on the beach in the morning or evening and rest at your accommodation during the hot part of the day. Breaks between meals and outings keep you from spending long hours outside at midday.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 29.1,
+            "high": 31.8,
+            "low": 26.0,
+            "rain": 82.9,
+            "rainDays": 8.1
+          },
+          {
+            "month": 5,
+            "season": "Hot season",
+            "advantage": "Enjoy beach walks during the cooler hours. Eat indoors or rest at your accommodation during the day, then head out again as the sun drops.",
+            "caution": "Long walks at midday can be tiring. Carry water and rest in the shade between outings.",
+            "mean": 29.2,
+            "high": 32.9,
+            "low": 25.7,
+            "rain": 131.6,
+            "rainDays": 14.0
+          },
+          {
+            "month": 6,
+            "season": "Relatively dry period",
+            "advantage": "Visit the beach in the morning and rest at your accommodation during the day. You can enjoy sea views while avoiding the midday heat.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.8,
+            "high": 32.7,
+            "low": 25.3,
+            "rain": 133.6,
+            "rainDays": 13.1
+          },
+          {
+            "month": 7,
+            "season": "Relatively dry period",
+            "advantage": "Divide your plans between beach walks and rest at your accommodation. Eat indoors during the hot hours and head out again later in the afternoon.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.5,
+            "high": 32.3,
+            "low": 25.1,
+            "rain": 117.0,
+            "rainDays": 14.3
+          },
+          {
+            "month": 8,
+            "season": "Relatively dry period",
+            "advantage": "Enjoy a vacation relaxing at your accommodation and looking out to sea. If you want a walk, go in the morning or evening rather than the hot midday hours.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.4,
+            "high": 32.4,
+            "low": 25.1,
+            "rain": 102.2,
+            "rainDays": 14.5
+          },
+          {
+            "month": 9,
+            "season": "Relatively dry period",
+            "advantage": "After a morning beach walk, rest at your accommodation. Return to the shore in the evening to enjoy your trip outside the midday heat.",
+            "caution": "Even with little rain, midday can be hot and showers remain possible. Pack a hat and a lightweight umbrella.",
+            "mean": 28.0,
+            "high": 31.9,
+            "low": 24.8,
+            "rain": 117.5,
+            "rainDays": 15.0
+          },
+          {
+            "month": 10,
+            "season": "Rainy season",
+            "advantage": "During heavy rain, relax at your accommodation or eat indoors. Take a short walk nearby once the rain eases.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.4,
+            "high": 30.6,
+            "low": 24.3,
+            "rain": 294.9,
+            "rainDays": 19.3
+          },
+          {
+            "month": 11,
+            "season": "Rainy season",
+            "advantage": "Leave plenty of time to rest at your accommodation and enjoy meals nearby. Choose outdoor sightseeing times according to the day’s rain forecast.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 27.1,
+            "high": 29.7,
+            "low": 24.1,
+            "rain": 444.6,
+            "rainDays": 18.7
+          },
+          {
+            "month": 12,
+            "season": "Rainy season",
+            "advantage": "Take your time over indoor meals and rest at your accommodation. When the rain eases, enjoy a short walk nearby.",
+            "caution": "Check waves and wind as well as rainfall. Adjust your plans to boat operating decisions and beach swimming restrictions.",
+            "mean": 26.8,
+            "high": 29.3,
+            "low": 24.0,
+            "rain": 263.1,
+            "rainDays": 14.2
+          }
+        ],
+        "cardSummary": "Koh Samui gets more rain in October–December than Phuket, making February–April a better fit for a beach vacation. February is driest at 64.3 mm. April gets hotter, so walk in the morning or evening and rest at your accommodation during the day.",
+        "bestAnswer": "February–April suits a beach vacation. Samui’s wetter end of the year means Phuket’s recommended dates cannot simply be carried over. February has the lowest rainfall, while April’s average rises to 29.1°C. Consider how comfortably you handle heat as well as rain when choosing your dates."
+      }
+    ]
+  },
+  "entry": [
+    {
+      "id": "entry",
+      "title": "Entering Thailand: TDAC and Requirements for U.S. Travelers",
+      "description": "Prepare for Thailand on a U.S. ordinary passport: visa exemption, TDAC timing, documents and the steps from passport control to the arrivals hall.",
+      "intro": "Have you chosen your dates for Bangkok or Phuket? If you are vacationing on a U.S. ordinary passport, read the visa exemption conditions first and complete your TDAC for your arrival date. Keep your passport, flights and hotel reservation beside you so you can enter the details accurately. This guide takes you from preflight documents through passport control and baggage claim.",
+      "sections": [
+        {
+          "title": "Vacationing on a U.S. passport",
+          "paragraphs": [
+            "For tourism on a U.S. ordinary passport, the Royal Thai Embassy in Washington, D.C. states that visa exemption allows **up to 30 days**, effective September 15, 2026. An extension of no more than 30 additional days may be requested, but the immigration officer decides whether to grant it. A companion traveling on another country’s passport must use the rules for that passport.",
+            "The maximum period is not a guarantee that every traveler will receive the same permission. After passport control, read the **actual permitted-stay expiration date** recorded in your passport and leave within that period. If you intend to work or study, prepare the visa for that activity instead of relying on tourism entry. Longer stays also need a category suited to your purpose and itinerary."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "What to have ready before your flight",
+          "paragraphs": [
+            "Keep your passport, flight details and hotel confirmation together. Enter your name on TDAC **exactly as it appears in your passport**, and use the hotel name and English address on your booking. Look at the flight that actually arrives in Thailand: the local arrival date and flight number can differ from the date you leave the United States.",
+            "Have your return or onward travel and accommodation details available. If immigration asks where you are staying and when you will leave, explain your actual reservations. You also need to demonstrate adequate travel funds. The embassy’s exemption guidance requires **cash equivalent to 20,000 baht per person or 40,000 baht per family**. This is evidence of travel funds, separate from TDAC, which has no submission fee."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Complete TDAC within the three-day arrival window",
+          "paragraphs": [
+            "TDAC is the online arrival card that replaces the paper form. **Non-Thai nationals entering Thailand** by air, land or sea must complete it before immigration. Children and infants need their own records too.",
+            "Submit **within the three days before arrival, including the arrival date**. Prepare your passport, flight, Thailand arrival date, accommodation address in English and email address. Download the completed document to your phone so you can open it even if the airport connection is unreliable.",
+            "Completing the arrival card does not issue a visa. **TDAC and visa preparation are separate tasks**. If your purpose of travel requires a visa, prepare both the visa and the arrival card."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "From your aircraft to the arrivals hall",
+          "paragraphs": [
+            "After leaving the aircraft, follow **Immigration / Passport Control** signs. Keep your passport, TDAC confirmation and any required visa easy to reach. Answer questions about your purpose and accommodation using your real travel plans.",
+            "Once you clear immigration, read your permitted-stay expiration date. Continue to **Baggage Claim**, collect your bags and pass through customs to the arrivals hall. Follow the declaration procedure if you have goods to declare. Routes differ between Suvarnabhumi, Don Mueang and other airports, so also read the guide for your arrival airport."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Airside transit and entering Thailand",
+          "paragraphs": [
+            "You do not need TDAC if you **transit without passing through Thai immigration**. If you leave the airport, or pass immigration to collect and recheck baggage, you do need the arrival card.",
+            "If you booked separate tickets, ask your airlines before departure whether your bags will be checked through and whether you must pass immigration in Thailand. An itinerary labeled “transit” may still involve entering the country; prepare TDAC whenever that is the actual route."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need both TDAC and a visa?",
+          "a": "Even when you enter visa-free on a U.S. ordinary passport, you must complete TDAC. TDAC is the arrival declaration; a visa depends on your purpose and eligibility. A qualifying tourism trip can use visa exemption, but a work or study itinerary cannot be prepared using TDAC alone."
+        },
+        {
+          "q": "How long can U.S. citizens stay without a visa?",
+          "a": "The embassy’s tourism exemption guidance effective September 15, 2026 allows up to 30 days. Check the actual permitted-stay expiration date after immigration. Plan your departure around the permission you receive, rather than treating the maximum as an automatic entitlement."
+        },
+        {
+          "q": "What arrival date goes on TDAC if my flight lands late at night?",
+          "a": "Use the local Thailand arrival date on your ticket. A long flight from the United States can cross calendar dates, so do not copy your U.S. departure date. Read the arrival date together with the flight number that brings you into Thailand."
+        }
+      ],
+      "sources": [
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa information",
+          "https://washingtondc.thaiembassy.org/en/page/visa-information"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa exemption",
+          "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa FAQ",
+          "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — multiple-entry tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC user guide",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC FAQ",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [
+        [
+          "For",
+          "Tourists entering Thailand on a U.S. ordinary passport"
+        ],
+        [
+          "Arrival card",
+          "TDAC — free submission on the official site"
+        ],
+        [
+          "Visa exemption",
+          "Up to 30 days under the scheme effective September 15, 2026; actual permission determined at entry"
+        ]
+      ],
+      "checkedAt": "2026-10-18",
+      "locale": "en-us",
+      "market": "US",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs and FAQ compared for concrete actions, exact conditions and exceptions. U.S. entry requirements researched separately.",
+        "record": "src/data/localized/en-us/review.md",
+        "market": "US"
+      }
+    },
+    {
+      "id": "tdac",
+      "title": "How to Complete TDAC: Thailand’s Digital Arrival Card",
+      "description": "Follow the official English mobile TDAC form, from passport and flight fields to accommodation, health declaration, submission, download and corrections.",
+      "intro": "Completing TDAC on your phone? Put your passport, flight ticket and hotel confirmation beside you, then follow the screens below. Each step explains where names go, which Thailand date to use and how to copy your accommodation address. Once you submit successfully, save the document to your phone so it is easy to show at the airport.",
+      "sections": [
+        {
+          "title": "Start with the official site and submission window",
+          "paragraphs": [
+            "Check that your address bar reads **tdac.immigration.go.th**. This is the Thai Immigration Bureau’s official website, and **TDAC submission is free**. It is a separate site from Thai e-Visa.",
+            "Submit **within the three days before arrival, including the arrival date**. You need a new TDAC every time you enter Thailand; a card from a previous trip cannot be reused. Before starting, have your passport, incoming flight number, local Thailand arrival date, accommodation address in English and email ready."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Read the form in the language you prefer",
+          "paragraphs": [
+            "The site provides language settings, and your phone’s browser may also offer page translation. These controls can appear in different places depending on the phone and browser. English-speaking travelers can use the original English form shown below.",
+            "Whichever display language you choose, **enter the details in English**. Copy names and passport numbers from the passport, and use your accommodation’s English booking address. The mobile screenshots below retain the English button and field names so you can find each step."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Choose Arrival Card on the opening screen",
+          "paragraphs": [
+            "For a new submission, select **Arrival Card**. The neighboring **Update Arrival Card** button is for changing a record you have already submitted. Start with Arrival Card when you have not yet submitted this trip.",
+            "The opening screen also mentions 90-day reporting and work permits. This does not mean TDAC lasts for 90 days or gives you permission to work. Complete this trip’s arrival declaration through Arrival Card."
+          ],
+          "image": "tdac-home-mobile-en.jpg",
+          "caption": "English mobile home screen — choose Arrival Card for a new declaration",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Personal Information: use your passport details",
+          "paragraphs": [
+            "Enter your surname under **Family Name** and your given name under **First Name**. If you do not have a middle name in your passport, do not invent one to fill Middle Name. Put each part of the name in its matching field and copy the passport number into Passport No.",
+            "Nationality/Citizenship asks for citizenship; Date of Birth, Occupation and Gender ask for your birth date, occupation and gender. Country/Territory of Residence is where you currently live, and City/State of Residence is your city or state. A U.S. citizen living overseas should enter actual citizenship and residence separately.",
+            "Visa No. is for a visa already issued to you. **If entering visa-free, do not invent a visa number.** Follow the asterisks to distinguish required fields from optional ones. Phone No. separates the country code from your phone number. Select Continue after completing the page.",
+            "In the retained screenshot, Retrieve with Passport is unavailable. If the MRZ-reading feature described in the official guide is not available, enter your details manually. Even when it does read your passport, compare the names and passport number against the document."
+          ],
+          "image": "tdac-personal-mobile-en.jpg",
+          "caption": "English mobile personal information screen — blank form without real personal details",
+          "fields": [
+            [
+              "Family Name / First Name",
+              "Surname and given name exactly as shown in your passport"
+            ],
+            [
+              "Passport No.",
+              "Your passport number"
+            ],
+            [
+              "Nationality/Citizenship",
+              "The nationality of your passport"
+            ],
+            [
+              "Country/Territory of Residence",
+              "Your current country of residence"
+            ],
+            [
+              "City/State of Residence",
+              "Your current city or state"
+            ],
+            [
+              "Visa No.",
+              "The number of your issued visa, if you have one"
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "image2": "tdac-personal-details-mobile-en.jpg",
+          "caption2": "Lower part of the personal information screen — occupation, gender, visa number and residence"
+        },
+        {
+          "title": "Arrival Information: enter the flight arriving in Thailand",
+          "paragraphs": [
+            "The trip stage has separate **arrival and departure information for Thailand**. Start with Arrival Information and look at your ticket. Find the local Thailand arrival date and incoming flight number, rather than copying the date you left the United States.",
+            "For a vacation arriving on a regular passenger flight, choose **HOLIDAY**, **AIR** and **COMMERCIAL FLIGHT**. These answers describe air travel for a holiday; business, study, land and sea arrivals must reflect their actual circumstances.",
+            "Type the English country name or three-letter code, then **select the matching result from the list**. If you boarded the Thailand-bound flight in the United States, search for USA and select USA : THE UNITED STATES OF AMERICA. Typing a code without choosing its list entry may not set the country."
+          ],
+          "image": "tdac-trip-arrival-mobile-en.jpg",
+          "caption": "English mobile Arrival Information screen",
+          "fields": [
+            [
+              "Date of Arrival",
+              "Enter the local Thailand arrival date from your ticket in YYYY/MM/DD format, or use the calendar. It can differ from your U.S. departure date."
+            ],
+            [
+              "Country/Territory where you Boarded",
+              "Select the country where you boarded the flight to Thailand. For a nonstop U.S. departure, choose USA : THE UNITED STATES OF AMERICA. If you connect abroad, use the country where you board that Thailand-bound flight."
+            ],
+            [
+              "Purpose of Travel",
+              "Choose HOLIDAY for a vacation. Use MEETING, BUSINESS or EDUCATION only when they match the trip. OTHERS (PLEASE SPECIFY) requires an explanation in English."
+            ],
+            [
+              "Mode of Travel",
+              "Select AIR for a flight, LAND for a land crossing or SEA for a sea arrival. This choice changes the transport options below."
+            ],
+            [
+              "Mode of Transport",
+              "Choose COMMERCIAL FLIGHT for a regular passenger flight. PRIVATE/CARGO AIRLINE and OTHERS apply only when they describe your actual transport."
+            ],
+            [
+              "Flight No./Vehicle No.",
+              "Copy the airline code and number of the flight arriving in Thailand. This is not a reservation code or seat number. Land and sea travelers enter the relevant transport details."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "id": "arrival"
+        },
+        {
+          "title": "Departure Information: enter your trip out of Thailand",
+          "paragraphs": [
+            "Below the arrival fields is **Departure Information**. Its date and flight number concern **leaving Thailand**, rather than leaving the United States. With a round-trip ticket, copy the local Thailand departure date and flight number of your return flight.",
+            "Departure fields have no required asterisk in the retained screen. If you do not yet have a departure plan, do not make up dates or flight numbers. An optional form field does not remove the need to explain your return or onward plans at immigration.",
+            "Use **Clear** to remove a departure travel mode chosen by mistake. Read the section headings carefully so you do not confuse the arrival AIR option with departure AIR."
+          ],
+          "image": "tdac-trip-departure-mobile-en.jpg",
+          "caption": "English mobile Departure Information screen",
+          "fields": [
+            [
+              "Date of Departure",
+              "The local date you leave Thailand, which may differ from the date you arrive back in the United States."
+            ],
+            [
+              "Mode of Travel",
+              "Choose AIR, LAND or SEA for the way you leave Thailand. Arrival and departure modes can differ."
+            ],
+            [
+              "Mode of Transport",
+              "Choose the actual transport matching your departure mode. A regular return passenger flight is COMMERCIAL FLIGHT."
+            ],
+            [
+              "Flight No./Vehicle No.",
+              "Enter the flight or vehicle number leaving Thailand. Compare it with the return ticket rather than copying the arrival flight."
+            ],
+            [
+              "Clear",
+              "Resets an incorrectly selected departure travel mode."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "id": "departure"
+        },
+        {
+          "title": "Accommodation Information: copy your reservation address",
+          "paragraphs": [
+            "Open your hotel reservation and find the **English accommodation address**. This is where you will stay in Thailand, rather than your U.S. home address. Use the booking or hotel’s official address so the place name and administrative areas match.",
+            "Required fields may change with accommodation type. In the retained screen, **selecting HOTEL removes the required asterisks from District and Sub-District**. Follow the asterisks on your own form rather than assuming every accommodation type works the same way.",
+            "Select Province first, then District, Area, then Sub-District, Sub-Area to make the lower lists available. Choose entries matching the actual hotel address even when names look similar. For accommodation in Bangkok, Province can be BANGKOK.",
+            "**I am a transit passenger, I don’t stay in Thailand** concerns transit without a stay. Do not select it simply because you have not booked a hotel. It may be disabled depending on earlier answers. If you are entering Thailand for a stay, provide the actual accommodation details."
+          ],
+          "image": "tdac-accommodation-mobile-en.jpg",
+          "caption": "English mobile accommodation screen — administrative fields after selecting HOTEL",
+          "fields": [
+            [
+              "Type of Accommodation in Thailand",
+              "Choose HOTEL, YOUTH HOSTEL, GUEST HOUSE, FRIEND’S HOUSE or APARTMENT to match your stay. Give the requested explanation when choosing OTHERS."
+            ],
+            [
+              "Province",
+              "Select the province or Bangkok area containing your accommodation, rather than the location of the airport."
+            ],
+            [
+              "District, Area",
+              "Choose the district in the hotel’s address after selecting Province. Whether it is mandatory depends on the accommodation type."
+            ],
+            [
+              "Sub-District, Sub-Area",
+              "Choose the smaller administrative area shown in the address. Select the parent district before using this list."
+            ],
+            [
+              "Post Code",
+              "Use the accommodation’s Thai postal code. Compare any automatically filled code with the booking. This field has no required asterisk in the retained screen."
+            ],
+            [
+              "Address",
+              "Enter the property name and actual building number, street and English address. Choosing administrative areas does not complete the street address. The retained field shows a 215-character limit, so keep the property name and real location information when arranging a long address."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "id": "accommodation"
+        },
+        {
+          "title": "Health Declaration: countries visited in the past two weeks",
+          "paragraphs": [
+            "The health declaration asks for **countries or territories where you stayed during the two weeks before arrival**. If you have been living in the United States and leave directly, select the United States. Include any other countries where you actually stayed during that period. This field is not for Thai cities you plan to visit.",
+            "Type an English country name or code and choose the matching result. Citizenship, residence, the country of boarding and recent stays are different questions. If you are traveling between countries, do not automatically copy the same country into every field.",
+            "A vaccination notice refers to Thai Ministry of Public Health requirements. The official guide explains that **additional health information may be requested** depending on recent countries, boarding country, nationality or flight. Read and answer the questions shown for your own journey. The retained screenshot illustrates a route using Korea and does not establish that every traveler sees identical extra fields.",
+            "Select **Preview** when you finish. Previous returns to the preceding step, while Add Other Travelers adds another traveler’s record. Use each person’s actual travel history rather than copying one traveler’s countries to everyone."
+          ],
+          "image": "tdac-health-mobile-en.jpg",
+          "caption": "English mobile health declaration — countries stayed in during the preceding two weeks",
+          "fields": [
+            [
+              "Countries/territories where you stayed within two weeks before arrival",
+              "Select the countries and territories where you actually stayed during the two weeks before entering Thailand, not future Thai destinations or the authority issuing your passport."
+            ],
+            [
+              "If additional health questions or evidence are requested",
+              "Read the displayed requirements and provide your own actual health and travel details. Do not copy answers from an example with different eligibility."
+            ],
+            [
+              "Preview / Previous / Add Other Travelers",
+              "Preview reviews entries, Previous returns to the prior step and Add Other Travelers adds another person. Use each traveler’s passport and actual trip details."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "id": "health"
+        },
+        {
+          "title": "Preview: review your details and enter your email",
+          "paragraphs": [
+            "Review your name, passport number, nationality and birth date, plus **arrival date, boarding country, arrival flight and accommodation address**. Use **Edit** to correct anything wrong. EXAMPLE in the screenshot is demonstration data; no actual declaration was submitted.",
+            "Enter an email address you can receive mail at in the **email field** near the bottom. It is not a name field: read the spelling and both sides of the @ sign. Being able to open that inbox on your phone makes it easier to find the completed document.",
+            "Read **Terms and conditions**, check the box if you agree and choose **Submit**. The submission button is disabled without the required agreement. Reaching Preview does not complete submission.",
+            "If an error appears or the completed document does not show, do not treat the declaration as successfully submitted. Look for the actual success notice and TDAC document before saving them."
+          ],
+          "image": "tdac-preview-submit-mobile-en.jpg",
+          "caption": "English mobile preview footer — email, terms and Submit",
+          "fields": [
+            [
+              "Edit",
+              "Return to the entry step to correct an error found during review."
+            ],
+            [
+              "Please specify an email to send Thailand Digital Arrival Card",
+              "Enter a working email address and reread it before submission; a typo can make the document hard to find."
+            ],
+            [
+              "I have read and accepted the Terms and conditions",
+              "Read the linked terms and check the box yourself only if you agree."
+            ],
+            [
+              "Submit",
+              "Submit after review, email entry and the required agreement. Then look for confirmation and the actual document."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "imageNote": "EXAMPLE and the address are fictional demonstration details. The terms were not accepted and no arrival declaration was actually submitted.",
+          "id": "preview"
+        },
+        {
+          "title": "After submission: save the TDAC document to your phone",
+          "paragraphs": [
+            "After successful submission, look for the **success notice and TDAC download**. The official video shows both. The retained image is a **completion example from that official video**, captured in a mobile browser. The video itself uses an older desktop screen, so its layout can differ from the current mobile form.",
+            "Download your document and compare the name, passport information and arrival date with your trip. Keep the declaration number, QR code and other confirmation details, and find the emailed copy too. Never use the sample number or QR code in the video as your own arrival document.",
+            "Save the file on your phone so it **opens without internet access**. Keeping the actual file, rather than just an email link, helps when the arrival airport connection is unreliable. You can also bring a printed copy if useful.",
+            "Have the confirmation available at entry and keep it during your stay. **TDAC confirmation is not a visa or permission to enter.** You still need to satisfy your visa or exemption conditions and pass immigration."
+          ],
+          "image": "tdac-complete-official-video-mobile-en.jpg",
+          "caption": "Official TDAC submission video — completion and download example at 2:45",
+          "fields": [
+            [
+              "Success notice",
+              "Look for an actual successful-submission message, rather than the preview shown before submission."
+            ],
+            [
+              "TDAC document download",
+              "Save the completed file to your phone and make sure you can open it with the internet off."
+            ],
+            [
+              "Declaration number, traveler details and QR code",
+              "Compare your name, passport details and arrival date with your trip. Do not use the video’s sample document for entry."
+            ],
+            [
+              "Document received by email",
+              "Keep the emailed confirmation too. Download or print it if needed."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "imageSourceUrl": "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s",
+          "imageCredit": "Submission video linked from the Thai Immigration Bureau’s official guide",
+          "imageNote": "Official video example captured in a 390 px mobile browser. The video uses a desktop example from guide version 1.4; this is not a newly submitted current mobile completion screen.",
+          "id": "complete"
+        },
+        {
+          "title": "Updating a TDAC you already submitted",
+          "paragraphs": [
+            "Choose **Update Arrival Card** from the opening screen. The retained search screen asks for the TDAC number, birth date, arrival date and nationality. Fill them in using your confirmation and passport, then select **Search**.",
+            "The official FAQ says **passport name, passport number, nationality and birth date cannot be changed** and advises a new form with correct details for those errors. Its release history separately states that passport-number editing was enabled; these statements conflict. For an incorrect passport number, seek clarification from Immigration rather than relying on an assumed editing rule. Correct other editable information, such as accommodation, before entry, resubmit and save the resulting document.",
+            "This screen searches for a declaration already submitted. If you have not submitted one yet, return to Arrival Card and start a new declaration instead of looking for a TDAC number."
+          ],
+          "image": "tdac-update-mobile-en.jpg",
+          "caption": "English mobile update search — declaration number, birth date, arrival date and nationality",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is TDAC free?",
+          "a": "Yes. There is no fee to submit TDAC on the Thai Immigration Bureau’s official site. Check that the address reads tdac.immigration.go.th before starting."
+        },
+        {
+          "q": "Can I use the English form?",
+          "a": "Yes. The screenshots here show the English mobile form. Regardless of your chosen display language, enter details in English using the passport and your accommodation’s English booking address."
+        },
+        {
+          "q": "Do children and visa-exempt travelers need TDAC?",
+          "a": "Yes. U.S. travelers using visa exemption, children and infants each need a TDAC record. The requirement applies to non-Thai entrants. Transit without passing through Thai immigration does not require TDAC."
+        },
+        {
+          "q": "Does completing TDAC issue a Thai visa?",
+          "a": "No. The arrival card and a visa are separate preparations. For visa-free tourism on a U.S. ordinary passport, satisfy the exemption conditions. For a purpose requiring a visa, obtain the appropriate visa as well."
+        },
+        {
+          "q": "Can I correct a misspelled name?",
+          "a": "Submit a new declaration with the correct name. The FAQ excludes passport name, passport number, nationality and birth date from editing, although its passport-number release note conflicts with that list. Ask Immigration about a passport-number error; use Update Arrival Card for other editable details before entry, then resubmit and save the result."
+        },
+        {
+          "q": "Does the flight field mean my reservation code?",
+          "a": "No. Flight No./Vehicle No. needs the airline code and number of the flight arriving in Thailand. It is not the booking reference or seat number."
+        },
+        {
+          "q": "Is the departure date the day I arrive home?",
+          "a": "No. Date of Departure under Departure Information is the local date your flight leaves Thailand. It may differ from the date you arrive in the United States; read the Thailand departure part of your ticket."
+        },
+        {
+          "q": "Are District and Sub-District required after choosing HOTEL?",
+          "a": "The retained screen removes their required asterisks after HOTEL is selected. Requirements can vary with accommodation type, so follow the asterisks on your actual form."
+        },
+        {
+          "q": "Does the two-week health question mean Thai cities I will visit?",
+          "a": "No. Choose countries and territories where you actually stayed during the two weeks before entering Thailand. It is not a list of future destinations."
+        },
+        {
+          "q": "Am I finished when Preview opens?",
+          "a": "No. Preview lets you review the form before submission. Enter your email, read the terms, submit after agreeing and look for the success notice and actual TDAC document."
+        }
+      ],
+      "sources": [
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa information",
+          "https://washingtondc.thaiembassy.org/en/page/visa-information"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa exemption",
+          "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa FAQ",
+          "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — multiple-entry tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC user guide",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC FAQ",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [
+        [
+          "Official website",
+          "https://tdac.immigration.go.th/"
+        ],
+        [
+          "Cost",
+          "Free"
+        ],
+        [
+          "When to submit",
+          "Within three days before Thailand arrival, including the arrival date"
+        ],
+        [
+          "Entry language",
+          "English — passport details exactly as printed"
+        ],
+        [
+          "Screenshots",
+          "English mobile form — captured October 14, 2026"
+        ]
+      ],
+      "checkedAt": "2026-10-18",
+      "locale": "en-us",
+      "market": "US",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs and FAQ compared for concrete actions, exact conditions and exceptions. U.S. entry requirements researched separately.",
+        "record": "src/data/localized/en-us/review.md",
+        "market": "US"
+      }
+    },
+    {
+      "id": "visa",
+      "title": "Thailand Visa Types: Tourism, Work, Study and Longer Stays",
+      "description": "Compare visa exemption with tourist visas, DTV, work, study and retirement categories, and learn the Thai e-Visa application process for U.S. travelers.",
+      "intro": "A vacation, a job and a course of study call for different entry preparations. On a U.S. ordinary passport, start by seeing whether your vacation qualifies for visa exemption. Tourism entry cannot replace the permission needed for work or study. Decide what you will do and how long you will stay, then prepare the category that fits.",
+      "sections": [
+        {
+          "title": "Visa exemption, TDAC and a visa have different roles",
+          "paragraphs": [
+            "**Visa exemption** lets eligible travelers enter without obtaining a visa in advance. **TDAC** is the online arrival declaration. A **visa** is issued for a purpose such as tourism, work or study. Submitting TDAC does not mean you have received a visa.",
+            "For U.S. ordinary passport tourism, the embassy states a maximum visa-exempt stay of 30 days under the scheme effective September 15, 2026. Companions with other passports need their own nationality’s conditions. Reading an American English guide does not make U.S. passport eligibility apply to another nationality."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Choose the category for your actual purpose",
+          "paragraphs": [
+            "First decide what you will do in Thailand, then find the matching category below. Thai e-Visa separates tourism, work, study and other purposes. Each category has its own eligibility and documents; similar names do not make their conditions interchangeable. Read the detailed requirements for your intended activity."
+          ],
+          "fields": [
+            [
+              "Tourist Visa",
+              "For tourism and vacations; distinguish single-entry and multiple-entry conditions."
+            ],
+            [
+              "Work & Business",
+              "For the relevant employment or business purpose. Tourism exemption and TDAC do not give permission to work."
+            ],
+            [
+              "Studying / Non-Immigrant ED",
+              "For study at an educational institution and the applicable education or training purpose."
+            ],
+            [
+              "Retirement / Non-Immigrant O or O-A",
+              "For eligible retirees meeting the relevant age and financial requirements. Conditions differ by category."
+            ],
+            [
+              "DTV / Destination Thailand Visa",
+              "For qualifying workcation and Thai soft-power activities, among the applicable purposes. It is a different category from a tourist visa."
+            ],
+            [
+              "Transit Visa",
+              "For qualifying transit, sports or crew purposes and the relevant eligibility."
+            ],
+            [
+              "LTR / Long-Term Resident",
+              "A long-term residence category for applicants who meet its eligibility requirements."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Apply online through Thai e-Visa",
+          "paragraphs": [
+            "Create an account at **thaievisa.go.th**, complete the application, upload the required documents, finish payment and submit. Monitor the dashboard and your email for requests for more documents. Once approved, save the confirmation sent by email.",
+            "Use the Thai embassy or consulate responsible for where you actually reside and apply. The United States has separate Washington, D.C., Los Angeles, New York and Chicago jurisdictions. U.S. citizenship alone does not make every mission available from anywhere, and the Washington embassy cannot issue a visa to someone already in Thailand. The Los Angeles document examples in this guide apply only to applicants within that consulate’s jurisdiction."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Visa validity and permitted stay are different",
+          "paragraphs": [
+            "Visa validity is the period in which you can use the visa to enter Thailand. Permitted stay is the time immigration allows you to remain after entry. Even a single-entry tourist visa has a validity period separate from its stay allowance.",
+            "A visa does not automatically let you remain until its own final validity date. After immigration, read the **actual permitted-stay expiration date** in your passport and plan departure accordingly. If you need an extension, apply separately before the permission expires and undergo the required assessment. Applying alone does not extend your stay."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do U.S. citizens always need a tourist visa?",
+          "a": "No. A U.S. ordinary passport holder who meets the tourism exemption conditions can travel without a tourist visa. Work, study and a longer itinerary may need a different category and preparation. Companions holding other passports cannot automatically use U.S. eligibility."
+        },
+        {
+          "q": "Is DTV the same as a tourist visa?",
+          "a": "No. DTV and tourist visas are separate categories. DTV includes qualifying workcation and Thai soft-power purposes, while a tourist visa is for tourism. Read the eligibility and documents for the activity you actually intend."
+        },
+        {
+          "q": "Do I submit my passport at the embassy?",
+          "a": "The U.S. Thai missions use Thai e-Visa for online applications and delivery. The Washington embassy says no passport or original supporting documents need to be mailed or submitted in person. First confirm the mission responsible for your residence, then follow its current instructions."
+        }
+      ],
+      "sources": [
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa information",
+          "https://washingtondc.thaiembassy.org/en/page/visa-information"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa exemption",
+          "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa FAQ",
+          "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — multiple-entry tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC user guide",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC FAQ",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "en-us",
+      "market": "US",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs and FAQ compared for concrete actions, exact conditions and exceptions. U.S. entry requirements researched separately.",
+        "record": "src/data/localized/en-us/review.md",
+        "market": "US"
+      }
+    },
+    {
+      "id": "tourist-visa",
+      "title": "Thailand Tourist Visa: Single Entry, Multiple Entry and e-Visa",
+      "description": "Compare tourist visa validity and permitted stay, then prepare the passport, reservations, U.S. mission documents, fees and Thai e-Visa application.",
+      "intro": "You do not need to start by applying for a tourist visa if your vacation on a U.S. ordinary passport qualifies for visa exemption. Compare your trip length with the exemption first. If you need a tourist visa, consider how many times you plan to enter. The document and fee examples below are specifically from the Royal Thai Consulate-General in Los Angeles; travelers in other jurisdictions must follow their own Thai mission.",
+      "sections": [
+        {
+          "title": "Single entry and multiple entry",
+          "paragraphs": [
+            "Single and multiple entry differ in the number of visits and the period in which the visa can be used. The Los Angeles tourism and leisure guidance states **single entry: three months of visa validity; multiple entry: six months**, with **up to 60 days per entry**. Six-month validity does not mean you can stay six uninterrupted months.",
+            "Los Angeles also describes the possibility of an **additional 30-day extension**, bringing a stay to no more than 90 days from entry. Contact Thai Immigration to apply: an extension requires approval and is not granted merely because you submit a request. Read the actual permission recorded in your passport and arrange any necessary extension before it expires."
+          ],
+          "fields": [
+            [
+              "Single-entry tourist visa",
+              "Three months of validity; up to 60 days of stay on entry."
+            ],
+            [
+              "Multiple-entry tourist visa",
+              "Los Angeles guidance: six months of validity; no more than 60 days per stay."
+            ],
+            [
+              "Extension",
+              "An additional 30 days may be requested from Thai Immigration; approval is required."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-tourism-and-leisure-activities",
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "Applicants and supporting documents",
+          "paragraphs": [
+            "For the **Los Angeles consular jurisdiction**, upload a clear passport biodata page, a photograph taken within six months, current-location evidence such as a driver’s license, bank statement or proof of stay, a named flight itinerary into and out of Thailand and accommodation evidence. The passport must be valid for at least six months from travel. Upload large, clear JPEG or PDF files no bigger than 3 MB.",
+            "The Los Angeles tourism and leisure page asks for **the last three months of savings or checking statements, with an ending balance of at least $700 per person or $2,000 per family**, showing the applicant’s name and date. A family or joint statement also needs proof of relationship, such as a birth or marriage certificate. These are visa-application bank documents, separate from cash evidence at entry. Older Los Angeles tourist and METV pages display different financial lists; use the current category and the documents requested for your application, and ask the consulate if those differ.",
+            "Additional documents apply to **non-U.S. citizens and minors under 20**. Non-U.S. citizens provide the permanent resident card or valid U.S. visa and applicable employment or student evidence; an employment letter must be hand-signed by HR or a manager, rather than a pay stub, job offer or acceptance letter. Self-employed applicants provide business registration, license or personal/business tax returns showing income; students provide full-time status evidence (I-20). For minors, the page lists a birth certificate, parents’ marriage certificate or notarized sole-custody order, and both parents’ or guardians’ passports or ID. A minor traveling alone needs notarized consent from both parents or guardians; when traveling with one parent, the other parent must provide consent.",
+            "The flight itinerary must show the applicant’s name, dates, airports and flight number. Accommodation evidence can include bookings or an invitation from family or friends in Thailand. Supporting materials issued outside Thailand and the United States need certified English translations with the consular or Ministry of Foreign Affairs notarization specified by Los Angeles. Read the actual form’s requests instead of replacing them with another country’s document list.",
+            "Consular officers may ask for more documents or reject an application. Uploading documents is not approval, and applying outside the consulate’s jurisdiction is listed as a reason for refusal. Use the mission responsible for your residence; this Los Angeles example does not establish one document list for all four U.S. missions."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-tourism-and-leisure-activities",
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          },
+          "paragraphAudiences": [
+            "US",
+            "US",
+            "US",
+            "US",
+            "US"
+          ]
+        },
+        {
+          "title": "From the online application to your approval document",
+          "paragraphs": [
+            "Create your account at **thaievisa.go.th** and choose the actual nationality, location, passport type and tourism purpose. If passport reading fills the form automatically, compare first, middle and last names and the passport details against your document.",
+            "Upload the required documents, complete the fee procedure and **submit the application**. Los Angeles lists **$40 for single entry and $200 for multiple entry**; these fees apply to Los Angeles applications; follow the fee displayed by your responsible mission. Visa fees are nonrefundable, so check the passport type and all entries before payment and submission.",
+            "After submission, monitor the dashboard and email and respond to requests for additional documents. Save the approved e-Visa confirmation and prepare a printed copy for airline and immigration checks. The Los Angeles tourism and leisure page says processing typically takes **about 15 business days**; its older pages describe a minimum of 15 business days. The current page recommends applying at least 30 days before departure, generally no more than 90 days ahead because many visas run from issue. A status update after additional documents may take 3–5 business days. These are planning instructions, **not a promised issue date**."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-tourism-and-leisure-activities",
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        },
+        {
+          "title": "You still need TDAC with a tourist visa",
+          "paragraphs": [
+            "Even after your tourist visa is approved, **complete TDAC separately**. Submit it on the official site within the three days before arrival, including the arrival date, and save the completed document to your phone.",
+            "At the airport, keep your passport and visa confirmation ready. After passport control, read the actual permitted-stay expiration date. Your departure must fit the stay granted at entry, rather than simply the date the visa itself stops being valid."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-tourism-and-leisure-activities",
+              "https://washingtondc.thaiembassy.org/en/page/visa-information",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+              "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+              "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "U.S. ordinary passport scope; U.S. mission application conditions identified separately. TDAC original screenshot observations retained."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do U.S. citizens need a Thai tourist visa?",
+          "a": "If your U.S. ordinary passport vacation meets the visa exemption conditions, a separate tourist visa is unnecessary. For an itinerary needing a visa, choose the category that matches your passport, purpose and stay conditions."
+        },
+        {
+          "q": "Does a multiple-entry visa let me stay six months at once?",
+          "a": "No. The six months in Los Angeles METV guidance is the period in which the visa can be used. Its stated stay is no more than 60 days per entry, rather than six uninterrupted months. Plan departure using the permission recorded after immigration."
+        },
+        {
+          "q": "What are the tourist visa fees for U.S. applicants?",
+          "a": "The Los Angeles tourist visa page lists $40 for single entry and $200 for multiple entry. The fees are nonrefundable; confirm the fee shown by your responsible mission and the actual e-Visa application before paying. Follow the fee displayed for your actual application and responsible mission."
+        },
+        {
+          "q": "Can I travel as soon as I submit the application?",
+          "a": "Submission is not visa approval. Read your dashboard and email and wait for the approval document if your trip needs a visa. Additional-document requests can extend the process, and a published processing period does not guarantee a particular issue date."
+        }
+      ],
+      "sources": [
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa information",
+          "https://washingtondc.thaiembassy.org/en/page/visa-information"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa exemption",
+          "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024"
+        ],
+        [
+          "Royal Thai Embassy, Washington, D.C. — visa FAQ",
+          "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — tourism and leisure (updated October 2, 2025)",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-tourism-and-leisure-activities"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa"
+        ],
+        [
+          "Royal Thai Consulate-General, Los Angeles — multiple-entry tourist visa",
+          "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC user guide",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Thai Immigration Bureau — TDAC FAQ",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "en-us",
+      "market": "US",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Full source paragraphs and FAQ compared for concrete actions, exact conditions and exceptions. U.S. entry requirements researched separately.",
+        "record": "src/data/localized/en-us/review.md",
+        "market": "US"
+      }
+    }
+  ]
+}

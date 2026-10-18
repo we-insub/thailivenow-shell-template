@@ -1,0 +1,799 @@
+{
+  "phuket-patong-tower": {
+    "place": "Pantai Patong",
+    "preview": "Di Pantai Patong, Phuket, pasir bertemu Laut Andaman. Lihat pesisir, laut dan suasana senja dari tingkat 15 Patong Tower.",
+    "context": "Patong ialah pantai di pulau Phuket, selatan Thailand. Kamera ini melihat pesisir dan laut dari tingkat 15 Patong Tower, bukannya dari paras pantai.",
+    "watch": "Lihat bagaimana pasir bersambung dengan laut dalam bingkai. Pilih panorama ini juga jika ingin melihat laut menjelang senja.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-panorama"
+    ],
+    "location": "Peta menunjukkan sekitar Patong Tower. Maklumat kamera di tingkat 15 mengikut panduan penyedia; pin bukan kedudukan pemasangan kamera yang tepat.",
+    "displayTitle": "Pantai Patong, Phuket · panorama Patong Tower",
+    "intro": [
+      "Pantai Patong di Phuket mempunyai pasir yang menyusuri teluk melengkung luas. Penginapan, kedai dan kemudahan membeli-belah berada di sekitar, bersama tempat hiburan malam. Sesuai jika mahu menggabungkan laut dengan aktiviti bandar.",
+      "Pertimbangkan Patong jika mahu menikmati pantai siang dan meneroka sekitar pada sebelah petang. Kamera ini melihat pesisir serta Laut Andaman dari tingkat 15 Patong Tower. Kenali bentuk pantai dan langit di atas laut sebelum perjalanan."
+    ],
+    "sceneParagraphs": [
+      "Dari tingkat 15 Patong Tower, lihat garis pantai tempat pasir bertemu laut. Berbeza daripada melihat ombak dekat pantai sahaja, panorama ini merangkumi pesisir dan Laut Andaman dalam satu bingkai.",
+      "Awan terbentang di atas laut dan cahaya langit berubah menjelang senja. Jika mempertimbangkan Patong sebagai destinasi, lihat pesisir siang serta laut senja untuk mengenali suasananya."
+    ],
+    "faq": [
+      [
+        "Apa kelihatan daripada kamera Patong Tower?",
+        "Lihat Pantai Patong dan Laut Andaman dari tingkat 15 Patong Tower. Panorama menggabungkan pasir, pesisir laut dan awan di atasnya."
+      ]
+    ],
+    "mapLabel": "Sekitar Patong Tower",
+    "placeSources": [
+      {
+        "label": "Kerajaan Wilayah Phuket · Pantai Patong",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "phuket-cape-panwa": {
+    "place": "Cape Panwa",
+    "preview": "Cape Panwa ialah kawasan pesisir tenggara Phuket. Nikmati laut dan ufuk teluk tenang di hadapan NĀMA Freediving melalui livecam.",
+    "context": "Cape Panwa terletak di pesisir tenggara Phuket. Livecam ini menghadap teluk dan laut sekitar Tang Khen Bay.",
+    "watch": "Jika tertanya-tanya tentang laut sebelum perjalanan Phuket, buka video sebentar dan nikmati suasana setempat.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan kedudukan Cape Panwa dalam Phuket. Pin ialah rujukan sekitar Tang Khen Bay, bukannya kedudukan tepat kamera NĀMA Freediving atau pintu masuk pelawat.",
+    "displayTitle": "Cape Panwa, Phuket · pesisir NĀMA Bay",
+    "faq": [
+      [
+        "Apakah Cape Panwa?",
+        "Kawasan pesisir tenggara Phuket. Halaman ini memperlihatkan teluk di hadapan NĀMA Freediving, laut dan ufuk. Pengendali menamakan teluk yang dirakam sebagai NĀMA Bay."
+      ],
+      [
+        "Mengapa livecam gelap?",
+        "Pantai dan laut boleh kelihatan gelap apabila malam setempat. Buka video pada waktu siang Phuket jika mahu melihat laut, ufuk dan langit bersama."
+      ]
+    ],
+    "intro": [
+      "Cape Panwa ialah kawasan pesisir tenggara Phuket. Di hadapan NĀMA Freediving terdapat teluk tenang, dengan laut dan ufuk dilihat bersama dari pantai. Jika merancang percutian menghadap laut, kenali dahulu panorama pesisir Cape Panwa.",
+      "Di hadapan pantai terdapat sekolah freediving NĀMA Freediving Phuket. Teluk di depannya diperkenalkan sebagai NĀMA Bay. Livecam di bawah memperlihatkan teluk, laut dan langit setempat yang bersambung."
+    ],
+    "sceneParagraphs": [
+      "Dari pantai di hadapan NĀMA Freediving Cape Panwa, pandangan ke laut merentasi teluk hingga ufuk serta langit. Laut dekat pantai dan ufuk jauh masuk dalam satu panorama.",
+      "Jika merancang percutian menghadap laut Phuket, lihat dahulu rupa teluk ini melalui video. Suasana pesisir berubah antara cerah dengan berawan serta siang dengan malam. Namun, cuaca teluk ini tidak semestinya mewakili seluruh Phuket atau laut jauh."
+    ],
+    "mapLabel": "Sekitar Tang Khen Bay",
+    "placeSources": [
+      {
+        "label": "NĀMA Freediving · teluk Cape Panwa",
+        "url": "https://www.namafreediving.com/live-webcam"
+      }
+    ]
+  },
+  "samui-crystal-bay": {
+    "place": "Crystal Bay",
+    "preview": "Crystal Bay di Koh Samui memperlihatkan pasir putih serta ombak yang tiba di pesisir. Lihat panorama laut di hadapan yacht club melalui video.",
+    "context": "Crystal Bay ialah pantai Koh Samui, turut dikenali sebagai Thongtakian Bay. Koh Samui ialah pulau di Teluk Thailand, selatan negara. Kamera ini menunjukkan panorama pantai yacht club.",
+    "watch": "Lihat pasir putih bersama ombak yang datang ke pesisir. Bezakan pilihan panorama seluruh pulau dengan pemandangan dekat pantai.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar pantai Crystal Bay (Thongtakian Bay). Kedudukan tepat pemasangan kamera belum disahkan.",
+    "displayTitle": "Crystal Bay, Koh Samui · pasir putih dan laut",
+    "intro": [
+      "Jika mencari pantai Koh Samui dengan pasir putih dan laut dalam panorama sama, kenali Crystal Bay. Turut dinamakan Thongtakian Bay, pesisir ini menerima ombak di hadapan pantai berpasir.",
+      "Lihat video yang disediakan Crystal Bay Yacht Club jika mahu mengenali pantai sebelum bercuti. Bingkai ini mendekati pasir putih dan laut pantai ini, bukannya seluruh pulau Koh Samui."
+    ],
+    "sceneParagraphs": [
+      "Pasir putih Crystal Bay dan laut di hadapannya masuk dalam bingkai bersama. Ombak yang datang serta surut menawarkan suasana berbeza daripada satu foto.",
+      "Panorama ini sesuai jika ingin melihat laut dekat pantai. Jika merancang menginap di pesisir Koh Samui, lihat dahulu rupa pantai Crystal Bay melalui video."
+    ],
+    "faq": [
+      [
+        "Di manakah Crystal Bay?",
+        "Pantai di Koh Samui yang turut dinamakan Thongtakian Bay. Halaman ini menawarkan video menghadap pasir putih dan laut di hadapan yacht club."
+      ]
+    ],
+    "mapLabel": "Sekitar Crystal Bay"
+  },
+  "samui-baobab": {
+    "place": "Hadapan Baobab di Pantai Lamai",
+    "preview": "Lihat pasir dan laut Pantai Lamai, Koh Samui, dari hadapan restoran Baobab. Ombak dapat dilihat datang dekat pesisir.",
+    "context": "Lamai ialah pantai di Koh Samui. Baobab ialah nama restoran di hadapan pantai yang dirakam; bingkai ini memperlihatkan pasir serta laut di depan restoran.",
+    "watch": "Pilih jika mahu suasana melihat Pantai Lamai dari dekat. Panduan ini untuk panorama pantai, bukannya tempahan atau waktu operasi restoran.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-black-pearl"
+    ],
+    "location": "Peta menunjukkan sekitar hadapan Baobab di Pantai Lamai. Kedudukan tepat kamera belum disahkan.",
+    "displayTitle": "Pantai Lamai, Koh Samui · hadapan Baobab",
+    "intro": [
+      "Lamai ialah pantai Koh Samui yang dikenali dengan teluk melengkung dan deretan pokok kelapa. Sesuai jika mahu mengenali panorama pantai tropika selain pasir serta laut.",
+      "Jika ingin tahu rupa Pantai Lamai, lihat dahulu bingkai dari dekat pesisir. Berbanding panorama pulau dari atas, pandangan ini mendekati pasir dan ombak pantai."
+    ],
+    "sceneParagraphs": [
+      "Ikuti pasir di hadapan Baobab dengan pandangan dan lihat ombak bersambung dengan laut. Bingkai ini menunjukkan panorama ketika menghadap laut di Pantai Lamai.",
+      "Tempat yang diperkenalkan ialah Pantai Lamai; Baobab ialah restoran yang menyediakan video. Pautan di bawah turut menawarkan panorama hadapan Black Pearl di pantai sama."
+    ],
+    "faq": [],
+    "mapLabel": "Pantai Lamai · sekitar Baobab",
+    "placeSources": [
+      {
+        "label": "Direktori Pelancongan Thailand · Pantai Lamai",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-banyan-tree": {
+    "place": "Panorama teluk Banyan Tree Samui",
+    "preview": "Panorama pantai dan teluk dari bukit Resort Banyan Tree Samui. Lihat pesisir Koh Samui bertemu laut dari tempat tinggi.",
+    "context": "Banyan Tree Samui ialah resort Koh Samui; kamera ini memperkenalkan pantai dan teluk dilihat dari bukit resort. Berbeza daripada kamera dekat laut, bentuk pesisir dilihat dari atas.",
+    "watch": "Lihat bagaimana pantai dan teluk masuk dalam satu bingkai. Gunakan panduan kemudahan berasingan untuk syarat penginapan atau akses pantai; jangan menentukannya melalui kamera sahaja.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar Resort Banyan Tree Samui. Kedudukan tepat kamera belum disahkan.",
+    "displayTitle": "Banyan Tree, Koh Samui · teluk dari bukit",
+    "intro": [
+      "Jika mahu melihat pantai Koh Samui dari atas, kenali panorama teluk di sisi Banyan Tree Samui. Dari bukit resort, pantai dan laut terbentang bersama.",
+      "Paras pandangannya berbeza daripada berdiri di hadapan pasir. Semasa merancang perjalanan Koh Samui, gunakan kamera yang disediakan di sini untuk mengenali bentuk teluk serta pantai dengan lebih luas."
+    ],
+    "sceneParagraphs": [
+      "Dari bukit resort, pantai dan teluk masuk dalam satu bingkai. Anda bukan sahaja melihat laut dekat pesisir, malah bagaimana pantai menyusuri teluk.",
+      "Sesuai jika mahu melihat bentuk pantai serta teluk secara luas, berbanding ombak dekat pesisir. Nikmati panorama pesisir dari kawasan resort melalui video."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Banyan Tree Samui"
+  },
+  "samui-bang-rak": {
+    "place": "Pantai Bang Rak",
+    "preview": "Bang Rak terletak di pesisir utara Koh Samui. Lihat pantai dan laut di hadapannya melalui kamera.",
+    "context": "Bang Rak ialah pantai di pesisir utara Koh Samui. Kamera awam ini diperkenalkan sebagai pandangan pantai Bang Rak dan laut di hadapannya.",
+    "watch": "Pilih jika mahu pesisir utara pulau bersama laut. Lihat garis pantai serta langit pada skrin penyedia.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar Pantai Bang Rak. Kedudukan tepat kamera belum disahkan.",
+    "displayTitle": "Pantai Bang Rak, Koh Samui · pesisir utara",
+    "intro": [
+      "Pantai Bang Rak terletak di pesisir utara Koh Samui. Jika ingin mengenali kawasan utara pulau sebelum bercuti, lihat panorama pesisir Bang Rak bersama laut.",
+      "Kamera menghadap Bang Rak disediakan melalui SkylineWebcams. Buka video daripada pautan di bawah jika mahu melihat pantai sebelum perjalanan."
+    ],
+    "sceneParagraphs": [
+      "Kamera menghadap Pantai Bang Rak dan laut di hadapannya. Pemandangan sepanjang pesisir memperlihatkan kawasan utara Koh Samui.",
+      "Pantai yang dirakam berbeza daripada Lamai atau Crystal Bay. Jika sedang memilih pesisir untuk menginap, padankan nama pantai dengan kedudukannya dalam pulau supaya mudah membezakan tempat."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Pantai Bang Rak"
+  },
+  "phuket-karon-marina": {
+    "place": "Pantai Karon",
+    "preview": "Lihat laut dan pesisir dari selatan Pantai Karon, Phuket. Video Marina Phuket Resort memperlihatkan laut serta langit Karon.",
+    "context": "Karon ialah pantai di Phuket. Kamera ini menghadap laut dan pesisir sekitar Marina Phuket Resort di bahagian selatan pantai.",
+    "watch": "Walaupun nama Patong, Kata dan Karon mungkin kedengaran hampir sama, semuanya pantai berbeza. Lihat pesisir serta ombak di sini jika ingin mengenali Karon.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar resort di selatan Pantai Karon. Kedudukan tepat kamera belum disahkan.",
+    "displayTitle": "Pantai Karon, Phuket · panorama pesisir selatan",
+    "intro": [
+      "Karon mempunyai pantai berpasir putih yang panjang di Phuket. Restoran dan kedai sekitar membolehkan anda menggabungkan lawatan pesisir dengan makan atau membeli-belah. Kedudukannya di utara Pantai Kata.",
+      "Kenali panorama Karon jika mahu melihat pasir panjang dan laut. Kamera di bawah memperlihatkan laut, pesisir serta langit dari sekitar Marina Phuket Resort di selatan pantai."
+    ],
+    "sceneParagraphs": [
+      "Kamera menghadap bahagian selatan Pantai Karon. Lihat panorama terbentang ke laut bersama ombak dan langit.",
+      "Phuket mempunyai beberapa pantai berlainan seperti Patong dan Kata. Untuk panorama Karon, buka skrin Karon Beach yang disediakan Marina Phuket Resort."
+    ],
+    "faq": [],
+    "mapLabel": "Selatan Pantai Karon",
+    "placeSources": [
+      {
+        "label": "Kerajaan Wilayah Phuket · Pantai Karon",
+        "url": "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php"
+      }
+    ]
+  },
+  "phuket-kata-surf": {
+    "place": "Pantai Kata",
+    "preview": "Lihat laut serta ombak Pantai Kata, Phuket, melalui foto yang dikemas kini. Kenali pantai dahulu melalui gambar SSS Phuket.",
+    "context": "Kata ialah pantai di Phuket. Paparan awam ini memperkenalkan panorama ombak Kata melalui foto yang berubah berkala, bukannya video berterusan.",
+    "watch": "Lihat masa rakaman pada foto semasa mengenali pantai. Bentuk ombak dalam satu gambar tidak menentukan sama ada selamat masuk laut atau sesuai meluncur.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar Pantai Kata menggunakan pusat peta penyedia yang dibundarkan. Koordinat bukan kedudukan pemasangan kamera atau pintu masuk pelawat.",
+    "displayTitle": "Pantai Kata, Phuket · foto laut dan ombak",
+    "intro": [
+      "Kawasan Kata di Phuket mempunyai dua pantai, Kata Yai dan Kata Noi. Penginapan, kedai serta perkhidmatan perjalanan sekitar membolehkan anda merancang percutian berpusat di pesisir.",
+      "Halaman ini memperlihatkan laut dan ombak Pantai Kata dalam foto SSS Phuket. Foto berubah secara berkala. Jika ingin mengenali Kata, lihat pesisir bersama waktu rakaman gambar."
+    ],
+    "sceneParagraphs": [
+      "Foto memperlihatkan laut di hadapan Pantai Kata dan ombak yang tiba di pesisir. Apabila gambar seterusnya muncul, bandingkan perubahan ombak serta langit.",
+      "Jika mahu berenang atau meluncur, bezakan ombak dalam gambar daripada arahan keselamatan setempat. Tentukan sama ada boleh masuk air berdasarkan bendera pantai dan arahan di lokasi."
+    ],
+    "faq": [
+      [
+        "Adakah kamera Pantai Kata video?",
+        "Paparan ini ialah foto yang berubah berkala. Ia menunjukkan pantai pada masa rakaman yang dinyatakan; ombak tidak bergerak berterusan seperti video."
+      ]
+    ],
+    "mapLabel": "Sekitar Pantai Kata",
+    "placeSources": [
+      {
+        "label": "Kerajaan Wilayah Phuket · Pantai Kata",
+        "url": "https://www.phuket.go.th/eng/Beaches-Kata%20Beach.php"
+      }
+    ]
+  },
+  "phangan-sanskara": {
+    "place": "Pantai Haad Rin",
+    "preview": "Lihat pesisir dan ombak Pantai Haad Rin, Koh Phangan. Video ini menawarkan laut di hadapan House of Sanskara.",
+    "context": "Haad Rin ialah pantai di Koh Phangan. House of Sanskara ialah nama penyedia paparan awam ini; kamera menghadap pesisir dan laut.",
+    "watch": "Lihat jika ingin mengenali pesisir serta ombak Haad Rin. Masa rakaman pada paparan membantu memahami bila panorama dirakam.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar Pantai Haad Rin. Kedudukan tepat kamera belum disahkan.",
+    "displayTitle": "Pantai Haad Rin, Koh Phangan · laut hadapan Sanskara",
+    "intro": [
+      "Haad Rin ialah pantai di Koh Phangan. Jika tertanya-tanya tentang pesisirnya, lihat panorama yang disediakan House of Sanskara.",
+      "Kamera menghadap pesisir Haad Rin serta laut di hadapannya. Sebelum bercuti ke Koh Phangan, lihat ombak dan langit setempat melalui video di bawah."
+    ],
+    "sceneParagraphs": [
+      "Bingkai ini menghadap laut dari Pantai Haad Rin. Ombak yang menyusuri pesisir memperlihatkan pantai Koh Phangan dengan lebih hidup daripada foto.",
+      "Bingkai merangkumi sekitar Pantai Haad Rin. Anggap sebagai pandangan awal sebuah pesisir yang mungkin dikunjungi, bukannya satu panorama mewakili seluruh Koh Phangan."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Pantai Haad Rin"
+  },
+  "samui-two-palms": {
+    "place": "Pantai Bang Po",
+    "preview": "Panorama laut dari Pantai Bang Po, Koh Samui. Lihat pesisir hadapan Two Palms melalui video sebelum perjalanan.",
+    "context": "Bang Po ialah pantai di Koh Samui. Two Palms ialah penyedia panorama laut pantai ini. Lihat nama pulau bersama nama pantai semasa memilih paparan.",
+    "watch": "Pilih kamera ini jika ingin mengenali pesisir Bang Po. Ingat bahawa kamera Koh Samui lain tidak semestinya menghadap pantai sama.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar Bang Po menggunakan pusat peta penyedia yang dibundarkan. Koordinat bukan pemasangan kamera atau pintu masuk pelawat sebenar.",
+    "displayTitle": "Pantai Bang Po, Koh Samui · laut hadapan Two Palms",
+    "intro": [
+      "Bang Po ialah pantai di Koh Samui. Laut dari Two Palms menunjukkan pemandangan dekat pesisir. Tonton video ini jika ingin mengenali kawasan Bang Po.",
+      "Koh Samui mempunyai beberapa pantai; nama pulau sahaja tidak cukup untuk membayangkan kawasan menginap. Padankan nama Bang Po dengan panorama hadapan Two Palms supaya tempat perjalanan lebih mudah dibayangkan."
+    ],
+    "sceneParagraphs": [
+      "Kamera merangkumi laut dan pesisir di hadapan Pantai Bang Po. Pandangan dekat pantai memperlihatkan tempat pesisir bertemu laut.",
+      "Video menyediakan panorama dari sisi Two Palms. Jika berminat dengan Bang Po, kenali dahulu ombak yang datang ke pesisir dan pemandangan laut."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Pantai Bang Po"
+  },
+  "samui-black-pearl": {
+    "place": "Hadapan Black Pearl di Pantai Lamai",
+    "preview": "Laut dilihat dari hadapan restoran Black Pearl di Pantai Lamai. Video memperlihatkan pesisir dan ombak Koh Samui.",
+    "context": "Black Pearl ialah restoran di Pantai Lamai, Koh Samui. Kamera ini menunjukkan laut serta pesisir di hadapannya. Bezakan nama pantai Lamai dengan tempat penyedia Black Pearl supaya mudah mencari paparan.",
+    "watch": "Pilih jika mahu melihat laut Pantai Lamai dari dekat. Panduan paparan Baobab di pantai sama juga tersedia.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-baobab"
+    ],
+    "location": "Peta menunjukkan sekitar hadapan Black Pearl, Lamai, menggunakan pusat peta penyedia yang dibundarkan. Koordinat bukan pemasangan kamera atau pintu masuk pelawat sebenar.",
+    "displayTitle": "Pantai Lamai, Koh Samui · laut hadapan Black Pearl",
+    "intro": [
+      "Lamai ialah pantai Koh Samui yang dikenali dengan teluk melengkung dan deretan pokok kelapa. Sesuai jika mahu mengenali panorama pantai tropika selain pasir serta laut.",
+      "Jika merancang ke Lamai, lihat pesisir dahulu melalui video Black Pearl. Bingkai ini melihat laut dan ombak di hadapan pantai, bukannya pulau dari atas."
+    ],
+    "sceneParagraphs": [
+      "Ombak yang tiba di pesisir hadapan Black Pearl serta laut di seberangnya masuk dalam bingkai. Sesuai jika ingin tahu panorama ketika berhadapan sendiri dengan laut Lamai.",
+      "Kamera di hadapan restoran Baobab juga menghadap Pantai Lamai yang sama. Melalui pautan berkaitan di bawah, lihat juga panorama yang disediakan di sana."
+    ],
+    "faq": [],
+    "mapLabel": "Pantai Lamai · sekitar Black Pearl",
+    "placeSources": [
+      {
+        "label": "Direktori Pelancongan Thailand · Pantai Lamai",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-crystal-beach": {
+    "place": "Silver Beach",
+    "preview": "Panorama laut dan pesisir sekitar Silver Beach, Koh Samui. Lihat pantai melalui paparan bernama Crystal Bay Beachcam.",
+    "context": "Silver Beach ialah pantai Koh Samui. Halaman ini memperkenalkan paparan awam bernama Crystal Bay Beachcam; panduan lokasi tersimpan juga menggunakan sekitar Silver Beach.",
+    "watch": "Bezakan halaman penyedia ini daripada panduan Crystal Bay yang menyebut yacht club. Senarai berasingan tidak menjamin peralatan rakaman atau sudut video berbeza.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Peta menunjukkan sekitar Silver Beach dengan pusat peta penyedia yang dibundarkan. Koordinat bukan pemasangan kamera atau pintu masuk pelawat sebenar.",
+    "displayTitle": "Silver Beach, Koh Samui · panorama Crystal Bay",
+    "intro": [
+      "Silver Beach ialah pantai Koh Samui. Jika ingin mengenali laut serta pesisirnya, lihat paparan yang diperkenalkan sebagai Crystal Bay Beachcam.",
+      "Gunakan panorama ini untuk melihat sekitar Silver Beach sebelum bercuti. Video pantai dibuka melalui halaman Webcamtaxi yang memperkenalkan paparan SamuiWebcam."
+    ],
+    "sceneParagraphs": [
+      "Kamera ini menghadap laut dan pesisir sekitar Silver Beach. Panorama hadapan pantai memperlihatkan rupa pesisir Koh Samui ini.",
+      "Nama Crystal Bay juga digunakan kamera pantai yacht club. Halaman ini menghubungkan paparan “Crystal Bay Beach” di Webcamtaxi. Walaupun senarai berasingan, sudut rakaman yang berbeza belum disahkan."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Silver Beach"
+  },
+  "pattaya-beach-panorama": {
+    "place": "Pantai Pattaya",
+    "preview": "Pattaya ialah bandar pantai Teluk Thailand di timur negara. Kenali pesisirnya melalui panorama luas pantai dan laut.",
+    "context": "Pattaya ialah bandar pantai Teluk Thailand di timur negara. Kamera ini diperkenalkan sebagai panorama luas pantai dan laut. Lokasi tepat rakaman belum disahkan, jadi tiada pin peta.",
+    "watch": "Pilih jika mahu panorama luas pantai dan laut bersama. Jika paparan tidak muncul, lihat status siaran dan masa rakaman di laman penyedia.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Diperkenalkan sebagai panorama Pantai Pattaya, tetapi lokasi tepat belum disahkan; tiada pin dipaparkan.",
+    "displayTitle": "Pantai Pattaya · panorama laut",
+    "intro": [
+      "Pattaya ialah bandar pantai di Teluk Thailand, timur negara. Jika ingin mengenali pesisirnya, lihat panorama luas pantai dan laut ini.",
+      "Berbanding satu sudut dekat pantai, panorama ini menunjukkan pesisir dengan laut terbentang bersama. Buka video jika mahu membayangkan suasana pesisir semasa merancang Pattaya."
+    ],
+    "sceneParagraphs": [
+      "Pantai Pattaya dan laut di hadapannya dirakam dalam bingkai luas. Kenali bandar pantai melalui pesisir yang bersambung di sisi laut.",
+      "Liputannya berbeza daripada kamera yang hanya mendekati ombak di pasir. Untuk melihat pesisir Pattaya secara luas, buka panorama SkylineWebcams di bawah."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Pantai Pattaya"
+  },
+  "samet-cocoon": {
+    "place": "Laut hadapan Jeti Na Dan, Koh Samet",
+    "preview": "Panorama dari sekitar Jeti Na Dan di Koh Samet menghadap tanah besar. Lihat ombak serta langit di hadapan pulau melalui kamera Cocoon Hostel.",
+    "context": "Koh Samet ialah pulau Thailand dan Na Dan ialah nama jeti dalam panduan kamera ini. Pengendali memperkenalkannya sebagai panorama dari sekitar jeti menghadap tanah besar.",
+    "watch": "Lihat jika ingin mengenali panorama dari pulau ke tanah besar. Walaupun merangkumi sekitar jeti, ini bukan perkhidmatan jadual bot masa nyata atau pengesahan boleh menaiki bot.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Penyedia menyatakan panorama sekitar Na Dan Pier. Koordinat tepat pemasangan belum disahkan; tiada pin peta.",
+    "displayTitle": "Sekitar Jeti Na Dan, Koh Samet · laut arah tanah besar",
+    "intro": [
+      "Koh Samet ialah pulau Thailand. Dari sekitar Jeti Na Dan, laut terbentang ke arah tanah besar. Panorama ini memperlihatkan pesisir Koh Samet dari arah berbeza.",
+      "The Cocoon Hostel menyediakan kamera laut dan langit di sini. Sebelum bercuti ke pulau, kenali dahulu laut sekitar Jeti Na Dan."
+    ],
+    "sceneParagraphs": [
+      "Paparan melihat laut arah tanah besar dari sekitar Jeti Na Dan. Ombak di hadapan pulau dan awan di atasnya masuk bersama.",
+      "Paparan ini untuk panorama sekitar jeti, bukannya jadual yang menyatakan pelepasan bot. Bezakan pemandangan laut daripada maklumat bot sebenar semasa merancang Koh Samet."
+    ],
+    "faq": [
+      [
+        "Kamera Koh Samet menghadap arah mana?",
+        "Dari sekitar Jeti Na Dan, kamera melihat laut ke arah tanah besar. Lihat ombak serta langit di hadapan pulau; paparan ini tidak menyediakan jadual bot."
+      ]
+    ],
+    "mapLabel": "Sekitar laut hadapan Jeti Na Dan, Koh Samet"
+  },
+  "tao-island-skyline": {
+    "place": "Pantai dan teluk Koh Tao",
+    "preview": "Panorama dari pantai Koh Tao menggabungkan teluk dan pulau. Kenali pesisirnya dengan pulau di seberang laut.",
+    "context": "Koh Tao ialah nama pulau Thailand. Kamera awam ini memperkenalkan teluk dan pulau dilihat dari pantai. Koordinat tepat pemasangan belum diperoleh; tiada pin peta.",
+    "watch": "Pilih jika ingin teluk dan pulau bersama, bukan ombak dekat pantai sahaja. Lihat waktu paparan sebenar pada laman penyedia.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan berdasarkan kawasan rakaman yang dinyatakan penyedia. Koordinat tepat kamera belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Koh Tao · pantai menghadap teluk dan pulau",
+    "intro": [
+      "Koh Tao ialah pulau Thailand. Dari pantai ini, laut, teluk dan pulau masuk dalam satu panorama. Jika merancang percutian pulau, kenali dahulu rupanya melalui video.",
+      "Halaman ini menghubungkan kamera teluk serta pulau dari pantai Koh Tao. Lihat panorama daripada pesisir dekat hingga seberang laut melalui SkylineWebcams."
+    ],
+    "sceneParagraphs": [
+      "Teluk di hadapan pantai Koh Tao dan pulau di seberang laut masuk bersama. Berbanding pandangan dekat ombak sahaja, panorama ini menggabungkan laut serta pulau.",
+      "Kenali pesisir Koh Tao melalui rupa teluk yang dilihat kamera. Paparan tidak menandakan laluan lawatan atau pintu masuk pantai tertentu; tentukan destinasi perjalanan sebenar secara berasingan."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar pantai dan teluk Koh Tao"
+  },
+  "samui-bophut-beach": {
+    "place": "Pantai Bophut",
+    "preview": "Bophut ialah pantai di utara Koh Samui. Lihat pesisir dan lautnya melalui halaman kamera awam.",
+    "context": "Bophut ialah pantai di utara Koh Samui. Halaman ini memperkenalkan panorama laut pantai, tetapi lokasi tepat peralatan kamera belum disahkan.",
+    "watch": "Cari nama Bophut untuk panorama pantai utara Koh Samui. Main balik semasa belum disahkan; lihat sendiri paparan laman penyedia.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan berdasarkan kawasan rakaman yang dinyatakan penyedia. Koordinat tepat kamera belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Pantai Bophut, Koh Samui · laut utara",
+    "intro": [
+      "Pantai Bophut terletak di utara Koh Samui. Jika merancang ke pesisir utara pulau, kenali dahulu rupa pantainya.",
+      "Pautan di bawah menuju halaman kamera Pantai Bophut. SkylineWebcams memperkenalkan panorama pesisir dan laut; status siaran semasa boleh dilihat pada halaman asal."
+    ],
+    "sceneParagraphs": [
+      "Pantai Bophut dan laut di hadapannya menjadi sasaran rakaman. Paparan diperkenalkan sebagai panorama pesisir utara Koh Samui.",
+      "Walaupun pulau sama, nama pantai seperti Lamai atau Choeng Mon menandakan tempat berbeza. Jika mempertimbangkan Bophut, pilih paparan pantai ini secara khusus."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Pantai Bophut"
+  },
+  "samui-choengmon": {
+    "place": "Pantai Choeng Mon",
+    "preview": "Choeng Mon ialah pantai di timur laut Koh Samui. Kenali laut dan ombak yang tiba di pesisir melalui halaman kamera.",
+    "context": "Choeng Mon ialah pantai di timur laut Koh Samui. Panduan kamera awam ini meliputi ombak dan pesisir pantai. Koordinat pemasangan tepat belum disahkan.",
+    "watch": "Lihat Choeng Mon secara berasingan daripada Bophut atau Bang Rak di utara Koh Samui. Nama pantai berbeza mungkin membawa panorama berbeza.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan berdasarkan kawasan rakaman yang dinyatakan penyedia. Koordinat tepat kamera belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Pantai Choeng Mon, Koh Samui · pesisir timur laut",
+    "intro": [
+      "Pantai Choeng Mon terletak di timur laut Koh Samui. Jika mempertimbangkan pesisir ini, lihat dahulu laut dan pantai melalui video.",
+      "Kamera menghadap pesisir serta ombak Pantai Choeng Mon. Bezakan daripada pantai bernama Bophut atau Bang Rak untuk mengenali kawasan perjalanan dengan lebih khusus."
+    ],
+    "sceneParagraphs": [
+      "Pantai Choeng Mon, laut di hadapannya serta ombak yang tiba di pesisir menjadi sasaran rakaman. Sesuai jika ingin mengenali pantai timur laut Koh Samui.",
+      "Jika mahu menginap sekitar Choeng Mon, padankan nama pantai dengan kedudukan timur laut pulau. Bezakan video pesisir lain supaya panorama yang dilihat sepadan dengan tempat percutian."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Pantai Choeng Mon"
+  },
+  "phuket-patong-panorama": {
+    "place": "Bandar dan laut Teluk Patong",
+    "preview": "Patong ialah kawasan pantai Phuket. Kenali bandar, kehijauan dan laut di kejauhan dalam satu panorama.",
+    "context": "Patong ialah kawasan pantai Phuket. Panorama ini diperkenalkan sebagai bandar, kehijauan dan laut jauh bersama. Panduan awamnya berasingan daripada kamera tingkat 15 Patong Tower.",
+    "watch": "Lihat bagaimana Patong menggabungkan bandar dan laut. Pilih kamera mengikut sama ada mahu pasir sahaja atau bandar serta laut bersama.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-tower"
+    ],
+    "location": "Panduan berdasarkan kawasan rakaman yang dinyatakan penyedia. Koordinat tepat kamera belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Teluk Patong, Phuket · bandar dan laut",
+    "intro": [
+      "Pantai Patong di Phuket mempunyai pasir yang menyusuri teluk melengkung luas. Penginapan, kedai dan kemudahan membeli-belah berada di sekitar, bersama tempat hiburan malam. Sesuai jika mahu menggabungkan laut dengan aktiviti bandar.",
+      "Jika ingin mengenali bandar sekitar selain pantai, lihat panorama Teluk Patong. Laut terbentang di seberang bandar dan kehijauan. Bayangkan percutian antara pesisir dengan bandar."
+    ],
+    "sceneParagraphs": [
+      "Bandar dan kehijauan di hadapan bersambung dengan laut di kejauhan. Kenali sisi bandar Patong yang sukar dibayangkan melalui pantai sahaja.",
+      "Jika mahu melihat pasir dan pesisir lebih dekat, panorama Patong Tower juga tersedia. Melihat bandar serta laut bersama membantu membayangkan kawasan sekitar pantai."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar bandar dan laut Teluk Patong",
+    "placeSources": [
+      {
+        "label": "Kerajaan Wilayah Phuket · Pantai Patong",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "krabi-ao-nang-coast": {
+    "place": "Pesisir Ao Nang",
+    "preview": "Ao Nang berada di pesisir Andaman, Krabi. Kamera GISTDA memperlihatkan laut pantai dan langit.",
+    "context": "Ao Nang terletak di Krabi, pesisir Andaman. Kamera laut ini disediakan agensi awam Thailand GISTDA, dengan label NANG OUT pada asalnya. Ia tidak diperkenalkan sebagai kamera hotel.",
+    "watch": "Lihat jika ingin laut pesisir dan langit daripada pasir pantai. Laut dalam bingkai tidak bermakna bot sedang beroperasi atau aktiviti laut dibenarkan.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan pesisir Ao Nang berdasarkan label NANG OUT pada paparan. Koordinat pemasangan tepat belum disahkan; tiada pin peta.",
+    "displayTitle": "Ao Nang, Krabi · panorama laut pesisir",
+    "intro": [
+      "Ao Nang ialah kawasan Krabi dengan penginapan, restoran dan kedai sepanjang pantai. Ia juga tempat bertolak untuk perjalanan bot ke pulau sekitar atau Railay, sesuai jika mahu menginap di pesisir sambil merancang lawatan pulau.",
+      "Kamera disediakan agensi awam Thailand GISTDA dan asalnya berlabel NANG OUT. Paparan ini melihat laut pesisir serta langit setempat, bukannya dalam hotel atau kemudahan pantai."
+    ],
+    "sceneParagraphs": [
+      "Laut pesisir Ao Nang dan langit di atas menjadi sasaran kamera. Sesuai jika ingin panorama laut berbanding pemandangan dekat pasir.",
+      "Laut boleh dilihat, tetapi paparan tidak menentukan sama ada bot atau aktiviti laut boleh dijalankan. Jika mahu menaiki bot, ikut juga makluman operasi serta cuaca setempat."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar pesisir Ao Nang",
+    "placeSources": [
+      {
+        "label": "Lembaga Pelancongan Thailand · Krabi dan Ao Nang",
+        "url": "https://www.tourismthailand.org/Destinations/Provinces/krabi/344"
+      }
+    ]
+  },
+  "huahin-centara": {
+    "place": "Hadapan Centara Grand di Pantai Hua Hin",
+    "preview": "Hua Hin ialah bandar peranginan pantai di tengah Thailand. Video Centara Grand memperlihatkan pantai dan laut di depan hotel.",
+    "context": "Hua Hin ialah bandar peranginan pantai di tengah Thailand. Paparan ini ialah kamera Pantai Hua Hin yang disediakan Centara Grand Beach Resort. Koordinat pemasangan tepat belum disahkan.",
+    "watch": "Pilih jika mahu melihat laut Hua Hin melalui paparan hotel. Menonton kamera berbeza daripada penginapan atau penggunaan kemudahan hotel.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-kba"
+    ],
+    "location": "Panduan berdasarkan kawasan rakaman yang dinyatakan penyedia. Koordinat tepat kamera belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Pantai Hua Hin · hadapan Centara Grand",
+    "intro": [
+      "Hua Hin ialah bandar peranginan pantai di tengah Thailand. Anda boleh merancang menikmati pasir putih dan laut bersama hidangan makanan laut sekitar. Sesuai juga untuk percutian keluarga di pesisir.",
+      "Lihat Pantai Hua Hin melalui kamera Centara Grand Beach Resort. Buka video di bawah jika ingin mengenali lautnya sebelum bercuti."
+    ],
+    "sceneParagraphs": [
+      "Kamera merakam Pantai Hua Hin dari Centara Grand. Pesisir di hadapan hotel serta laut di seberangnya dilihat bersama.",
+      "Jika ingin panorama Hua Hin lain, KBA Kiteschool juga menyediakan paparan. Dua panduan yang menghadap pantai Hua Hin sama boleh dilawati melalui pautan di bawah."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar hadapan Centara Grand, Pantai Hua Hin",
+    "placeSources": [
+      {
+        "label": "Lembaga Pelancongan Thailand · percutian keluarga Hua Hin",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "huahin-kba": {
+    "place": "Panorama KBA di Pantai Hua Hin",
+    "preview": "Laut dan langit dari Hua Hin, bandar peranginan tengah Thailand. Lihat paparan pantai yang disediakan KBA Kiteschool.",
+    "context": "KBA ialah nama sekolah kitesurf Kiteboarding Asia. Halaman ini memperkenalkan paparan laut serta cuaca Pantai Hua Hin yang disediakan KBA. Hua Hin ialah bandar peranginan pantai tengah Thailand.",
+    "watch": "Gunakan jika mahu laut dan langit Hua Hin bersama. Jangan tentukan operasi kelas atau kesesuaian aktiviti laut melalui video sahaja.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-centara"
+    ],
+    "location": "Panduan berdasarkan kawasan rakaman yang dinyatakan penyedia. Koordinat tepat kamera belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Pantai Hua Hin · laut dan langit hadapan KBA",
+    "intro": [
+      "Hua Hin ialah bandar tengah Thailand untuk percutian pantai serta sukan air. Pertimbangkan jika berminat dengan pasir putih, panorama laut atau mahu memasukkan aktiviti seperti kitesurf dalam percutian.",
+      "KBA ialah singkatan Kiteboarding Asia. Gunakan paparan ini sebelum ke Hua Hin jika ingin melihat laut di hadapan pantai serta langit setempat."
+    ],
+    "sceneParagraphs": [
+      "Kamera menghadap laut di hadapan Pantai Hua Hin. Pesisir dan langit dilihat bersama, sesuai jika ingin mengenali panorama pesisirnya.",
+      "Walaupun disediakan sekolah kitesurf, video tidak mengesahkan kelas sedang berlangsung atau aktiviti laut dibenarkan. Jika mahu menyertai kelas, ikut jadual sebenar serta arahan setempat sekolah."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar panorama KBA, Pantai Hua Hin",
+    "placeSources": [
+      {
+        "label": "Lembaga Pelancongan Thailand · percutian keluarga Hua Hin",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "chaam-thew-talay": {
+    "place": "Panorama Thew Talay di Cha-am",
+    "preview": "Lihat sekitar Thew Talay, Cha-am, melalui foto yang dikemas kini setiap beberapa minit. Kenali suasana dan langit setempat sebelum perjalanan.",
+    "context": "Paparan awam ini memperkenalkan sekitar Thew Talay di Cha-am melalui foto. Ia dikemas kini setiap beberapa minit; gambar tidak bergerak seperti video bukan dengan sendirinya ralat main balik.",
+    "watch": "Lihat waktu dalam gambar serta kemas kini seterusnya. Masa rakaman membantu memahami panorama setempat yang sedang dilihat.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan berdasarkan kawasan rakaman yang dinyatakan penyedia. Koordinat tepat kamera belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Cha-am · sekitar Thew Talay",
+    "intro": [
+      "Jika ingin mengenali sekitar Thew Talay di Cha-am, lihat foto yang disediakan di sini. Paparan ini memberi gambaran awal sebelum perjalanan Cha-am.",
+      "Foto dikemas kini setiap beberapa minit. Ia bukan video berterusan; waktu pada foto menunjukkan bila panorama dirakam."
+    ],
+    "sceneParagraphs": [
+      "Foto sekitar Thew Talay dikemas kini satu demi satu. Berbeza daripada video yang terus dimainkan, ia menunjukkan suasana pada saat rakaman.",
+      "Apabila foto seterusnya muncul, lihat perubahan langit dan pemandangan. Waktu yang ditandakan membantu mengenali bila suasana Cha-am itu dirakam."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar panorama Thew Talay, Cha-am"
+  },
+  "chainat-chao-phraya": {
+    "place": "Sungai Chao Phraya dan empangan di Chai Nat",
+    "preview": "Kenali sekitar Sungai Chao Phraya dan empangan Chai Nat. Halaman kamera awam menawarkan pemandangan sungai Thailand yang berbeza daripada pantai.",
+    "context": "Panduan kamera ini meliputi Sungai Chao Phraya dan empangan sekitar Chai Nat. Ia menghubungkan laman perantara yang menghimpunkan paparan, bukannya pengendali kamera langsung.",
+    "watch": "Lihat jika ingin panorama sungai dan empangan. Pengendali asal serta main balik semasa belum disahkan; label Online sahaja tidak membuktikan siaran langsung sekarang.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan mengikut kawasan rakaman yang dinyatakan halaman perantara. Koordinat pemasangan tepat belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Chai Nat · Sungai Chao Phraya dan empangan",
+    "intro": [
+      "Sekitar Sungai Chao Phraya di Chai Nat menawarkan sisi Thailand yang berbeza daripada laut. Halaman kamera ini memperkenalkan panorama sungai bersama empangan.",
+      "Panorama sungai dan empangan di sini diperkenalkan melalui halaman kamera Webcamera24. Buka paparan kawasan berkenaan melalui pautan di bawah."
+    ],
+    "sceneParagraphs": [
+      "Paparan diperkenalkan sebagai panorama sungai dan empangan sekitar. Jika ingin pemandangan sungai yang berbeza daripada pantai Thailand, lihat kawasan Chao Phraya yang menjadi sasaran rakaman."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Sungai Chao Phraya dan empangan Chai Nat",
+    "sourceNote": "Pautan menuju laman perantara yang menghimpunkan kamera. Pengendali asal dan status siaran semasa belum disahkan."
+  },
+  "pathum-chao-phraya": {
+    "place": "Sungai Chao Phraya, Pathum Thani",
+    "preview": "Panorama Sungai Chao Phraya dan bandar di tepinya di Pathum Thani. Pautan menuju halaman kamera yang memperkenalkan bandar sepanjang sungai.",
+    "context": "Halaman awam ini diperkenalkan sebagai panorama Chao Phraya dan bandar tepi sungai di Pathum Thani. Tufaq ialah laman perantara yang memperkenalkan paparan; pengendali kamera asal belum disahkan.",
+    "watch": "Lihat jika mahu sungai dan bangunan di tepinya bersama. Bezakan foto penerangan daripada kamera sebenar dan baca waktu rakaman pada asal.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan mengikut kawasan rakaman yang dinyatakan halaman perantara. Koordinat pemasangan tepat belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Pathum Thani · Chao Phraya dan bandar pesisir sungai",
+    "intro": [
+      "Sekitar Chao Phraya di Pathum Thani memperlihatkan sungai bersama bandar. Cari panorama ini jika lebih ingin mengenali bandar tepi sungai daripada laut Thailand.",
+      "Panorama sungai dan bandar boleh dicari melalui panduan kamera Tufaq. Tufaq menghimpunkan kamera dari beberapa kawasan."
+    ],
+    "sceneParagraphs": [
+      "Panorama ini merangkumi sungai bersama bangunan di sisinya. Pilih jika ingin mengenali bandar yang terbentuk sepanjang sungai, bukannya bandar pantai."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Sungai Chao Phraya, Pathum Thani",
+    "sourceNote": "Pautan menuju laman perantara yang menghimpunkan kamera. Pengendali asal dan status siaran semasa belum disahkan."
+  },
+  "chiangmai-weather-view": {
+    "place": "Panorama bandar Chiang Mai",
+    "preview": "Chiang Mai ialah bandar utara Thailand. Cari kamera awam dan foto berkala jika ingin mengenali bandar serta langit setempat.",
+    "context": "Chiang Mai ialah bandar utara Thailand. Pautan ini menuju panduan kamera awam serta foto berkala di seluruh kawasan, bukannya satu kamera khusus dalam bangunan tertentu.",
+    "watch": "Selepas memilih, lihat sama ada paparan ialah video atau foto berkala. Gambar tidak bergerak bukan semestinya rosak; baca juga waktu rakaman.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan mengikut kawasan rakaman yang dinyatakan halaman perantara. Koordinat pemasangan tepat belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Chiang Mai · bandar dan langit setempat",
+    "intro": [
+      "Chiang Mai ialah bandar utara Thailand. Jika ingin mengenali suasana serta langit semasa merancang percutian, gunakan halaman yang menghimpunkan kamera dan foto bandar.",
+      "Entri ini bukan paparan langsung satu kamera dalam satu bangunan. Anda memilih kamera atau foto berkala kawasan Chiang Mai melalui EaseWeather."
+    ],
+    "sceneParagraphs": [
+      "Tempat dalam Chiang Mai yang kelihatan berubah mengikut kamera pilihan. Nama tempat yang dipaparkan bersama foto membantu mengenali kawasan bandar yang dilihat.",
+      "Foto berkala menunjukkan saat rakaman, jadi ia tidak bergerak berterusan seperti video. Baca juga waktu pada foto jika ingin mengetahui keadaan langit setempat."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar panorama bandar Chiang Mai"
+  },
+  "chiangrai-mae-yao": {
+    "place": "Ban Mae Yao, Chiang Rai",
+    "preview": "Panorama diperkenalkan sebagai gunung dan kuil Ban Mae Yao di Chiang Rai, utara Thailand. Cari sisi utara yang berbeza daripada pesisir melalui halaman kamera.",
+    "context": "Chiang Rai ialah bandar utara Thailand. Halaman perantara memperkenalkan kamera ini sebagai gunung dan kuil Ban Mae Yao. Pemasangan tepat serta pengendali asal belum disahkan.",
+    "watch": "Rujuk jika ingin gunung dan kuil bersama, berbeza daripada panorama laut. Jangan gunakan sebagai panduan lawatan atau arah ke lokasi tepat yang belum dipastikan.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan mengikut kawasan rakaman yang dinyatakan halaman perantara. Koordinat pemasangan tepat belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Ban Mae Yao, Chiang Rai · gunung dan kuil",
+    "intro": [
+      "Ban Mae Yao diperkenalkan sebagai kawasan rakaman kamera di Chiang Rai, utara Thailand. Cari paparan ini jika ingin gunung dan kuil di utara, bukan laut.",
+      "Webcamera24 memperkenalkan kamera panorama Ban Mae Yao. Pautan di bawah membuka halaman kamera kawasan berkenaan."
+    ],
+    "sceneParagraphs": [
+      "Paparan diperkenalkan sebagai panorama gunung dan kuil. Anda boleh merujuknya untuk suasana utara Chiang Rai, tetapi lokasi tepat kuil tertentu belum disahkan melalui maklumat ini."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Ban Mae Yao, Chiang Rai",
+    "sourceNote": "Pautan menuju laman perantara yang menghimpunkan kamera. Pengendali asal dan status siaran semasa belum disahkan."
+  },
+  "chiangrai-wat-thep": {
+    "place": "Sekitar Wat Thep Bun Yuen, Chiang Rai",
+    "preview": "Paparan diperkenalkan sebagai kuil Wat Thep Bun Yuen dan gunung sekitar Chiang Rai. Cari panorama kuil utara Thailand melalui halaman kamera awam.",
+    "context": "Wat Thep Bun Yuen ialah nama kuil dalam panduan kamera ini. Halaman awam memperkenalkan kuil serta gunung Chiang Rai, tetapi lokasi pemasangan tepat belum disahkan.",
+    "watch": "Rujuk jika ingin kuil dan gunung sekitar bersama. Paparan ini tidak memberikan waktu kemasukan atau laluan lawatan kuil.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan mengikut kawasan rakaman yang dinyatakan halaman perantara. Koordinat pemasangan tepat belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Wat Thep Bun Yuen, Chiang Rai · kuil dan gunung",
+    "intro": [
+      "Wat Thep Bun Yuen ialah kuil yang disebut dalam pengenalan kamera awam Chiang Rai. Paparan diperkenalkan sebagai kuil bersama gunung, sesuai untuk mereka yang ingin mengenali suasana utara Thailand.",
+      "Panorama yang diperkenalkan sebagai kuil dan gunung boleh dicari melalui Webcamera24. Pautan di bawah membuka halaman kamera Wat Thep Bun Yuen, Chiang Rai."
+    ],
+    "sceneParagraphs": [
+      "Paparan diperkenalkan sebagai kuil bersama gunung sekitar. Namun, ia bukan panduan ruang lawatan dalaman atau pintu masuk pelawat kuil."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Wat Thep Bun Yuen, Chiang Rai",
+    "sourceNote": "Pautan menuju laman perantara yang menghimpunkan kamera. Pengendali asal dan status siaran semasa belum disahkan."
+  },
+  "nakhon-cha-uat": {
+    "place": "Sungai Cha Uat, Nakhon Si Thammarat",
+    "preview": "Kamera diperkenalkan sebagai panorama Sungai Cha Uat di Nakhon Si Thammarat. Cari panduan awam ini jika ingin mengenali sekitar sungai Thailand.",
+    "context": "Sungai Cha Uat ialah sasaran rakaman yang dinyatakan halaman kamera ini. Kawasannya diperkenalkan sebagai Nakhon Si Thammarat; pemasangan tepat serta pengendali asal belum disahkan.",
+    "watch": "Rujuk jika mahu panorama sungai daripada pantai. Main balik semasa atau kemas kini foto belum disahkan; lihat masa serta paparan laman penyedia bersama.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan mengikut kawasan rakaman yang dinyatakan halaman perantara. Koordinat pemasangan tepat belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Sungai Cha Uat, Nakhon Si Thammarat · panorama tebing",
+    "intro": [
+      "Cha Uat ialah sungai yang diperkenalkan sebagai sasaran kamera awam Nakhon Si Thammarat. Pautan disediakan untuk mereka yang mencari pemandangan sungai Thailand yang berbeza daripada pantai.",
+      "Kamera yang diperkenalkan sebagai Sungai Cha Uat boleh dicari melalui Webcamera24. Halaman itu dipautkan bagi mereka yang ingin melihat panorama sungai Nakhon Si Thammarat."
+    ],
+    "sceneParagraphs": [
+      "Panorama menghadap sekitar Sungai Cha Uat. Oleh sebab titik rakaman tepat belum disahkan, panduan ini tidak menamakan kemudahan tebing tertentu atau laluan lawatannya."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar Sungai Cha Uat, Nakhon Si Thammarat",
+    "sourceNote": "Pautan menuju laman perantara yang menghimpunkan kamera. Pengendali asal dan status siaran semasa belum disahkan."
+  },
+  "lanta-hat-lant": {
+    "place": "Panorama laut Hat Lant, Koh Lanta",
+    "preview": "Kamera Hat Lant diperkenalkan sebagai panorama laut Koh Lanta. Pautan menuju panduan awam untuk mereka yang ingin melihat laut pulau.",
+    "context": "Koh Lanta ialah pulau Thailand. Halaman ini memperkenalkan kamera awam yang dikelaskan perantara sebagai panorama laut Hat Lant. Nama sahaja tidak mengesahkan pantai tepat atau lokasi peralatan.",
+    "watch": "Rujuk jika ingin panorama laut Koh Lanta. Pengendali asal dan main balik semasa belum disahkan; lihat sama ada paparan bergerak dan baca masa di laman penyedia.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Panduan mengikut kawasan rakaman yang dinyatakan halaman perantara. Koordinat pemasangan tepat belum disahkan, jadi tiada pin dipaparkan pada peta.",
+    "displayTitle": "Koh Lanta · panorama laut Hat Lant",
+    "intro": [
+      "Koh Lanta ialah pulau Thailand. Entri kamera bernama Hat Lant ini diperkenalkan sebagai panorama laut Koh Lanta.",
+      "Cari paparan melalui halaman Webcamera24 yang memperkenalkan panorama laut Koh Lanta. Buka pautan di bawah jika ingin mengenali pulau sebelum perjalanan."
+    ],
+    "sceneParagraphs": [
+      "Panorama laut ini diperkenalkan dengan nama Hat Lant. Pantai rakaman tepat belum disahkan, jadi sukar menentukannya sebagai pemandangan lawatan ke pantai tertentu."
+    ],
+    "faq": [],
+    "mapLabel": "Sekitar panorama laut Hat Lant, Koh Lanta",
+    "sourceNote": "Pautan menuju laman perantara yang menghimpunkan kamera. Pengendali asal dan status siaran semasa belum disahkan."
+  }
+}

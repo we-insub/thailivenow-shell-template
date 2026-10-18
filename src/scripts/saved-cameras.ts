@@ -14,7 +14,7 @@ document.addEventListener('click',event=>{const button=(event.target as Element)
 document.addEventListener('saved-cameras-updated',update);window.addEventListener('storage',update);update();
 const comparisonKey='thailivenow.comparison-cameras';
 function comparison():string[]{try{const v=JSON.parse(localStorage.getItem(comparisonKey)||'[]');return Array.isArray(v)?v.filter(x=>typeof x==='string').slice(0,4):[];}catch{return [];}}
-const ko=document.documentElement.lang.startsWith('ko');
+const ko=document.documentElement.lang.startsWith('ko')||!!document.querySelector('[data-localized-ui]');
 function compareUpdate(){
  const ids=comparison();
  document.querySelectorAll<HTMLButtonElement>('[data-compare-camera]').forEach(btn=>{const on=ids.includes(btn.dataset.compareCamera||'');btn.setAttribute('aria-pressed',String(on));btn.classList.toggle('is-compared',on);const label=btn.querySelector('span')||btn;label.textContent=ko?(on?'비교에서 제거':'비교에 추가'):(on?'Remove from compare':'Add to compare');});

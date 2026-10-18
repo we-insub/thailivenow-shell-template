@@ -1,0 +1,128 @@
+{
+  "locale": "en-us",
+  "market": "US",
+  "passport": "U.S. ordinary passport",
+  "checkedAt": "2026-10-18",
+  "scope": "Fresh official entry/visa research only; other Thai facts use the reviewed Korean source.",
+  "sources": [
+    {
+      "url": "https://washingtondc.thaiembassy.org/en/page/visa-information",
+      "label": "Royal Thai Embassy, Washington, D.C. — visa information",
+      "read": "full relevant article body",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "url": "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024",
+      "label": "Royal Thai Embassy, Washington, D.C. — visa exemption",
+      "read": "full relevant article body",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "url": "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs",
+      "label": "Royal Thai Embassy, Washington, D.C. — visa FAQ",
+      "read": "full relevant article body",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "url": "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+      "label": "Royal Thai Consulate-General, Los Angeles — tourist visa",
+      "read": "full relevant article body",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "url": "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries",
+      "label": "Royal Thai Consulate-General, Los Angeles — multiple-entry tourist visa",
+      "read": "full relevant article body",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/index.html",
+      "label": "Thai Immigration Bureau — TDAC user guide",
+      "read": "full relevant article body",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "label": "Thai Immigration Bureau — TDAC FAQ",
+      "read": "full relevant article body",
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "url": "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-tourism-and-leisure-activities",
+      "read": "entire relevant article body",
+      "checkedAt": "2026-10-18",
+      "publishedUpdated": "2025-10-02"
+    }
+  ],
+  "changes": [
+    {
+      "fields": [
+        "entry.entry",
+        "entry.visa"
+      ],
+      "condition": "Tourist visa exemption up to 30 days effective 2026-09-15; further extension up to 30 days at immigration discretion",
+      "basis": [
+        "https://washingtondc.thaiembassy.org/en/page/visa-information",
+        "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024"
+      ]
+    },
+    {
+      "fields": [
+        "entry.tourist-visa"
+      ],
+      "mission": "Royal Thai Consulate-General, Los Angeles only",
+      "condition": "Single $40 / multiple $200; minimum 15 business days; multiple validity six months, stay no more than 60 days; passport/photos six months; financial examples $700/$1500 single and $2000 each of three months multiple",
+      "basis": [
+        "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa",
+        "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-metv-multiple-entries"
+      ]
+    },
+    {
+      "fields": [
+        "entry.visa",
+        "entry.tourist-visa"
+      ],
+      "mission": "United States missions; jurisdiction is residence based",
+      "condition": "No Seoul fee waiver, seven-business-day estimate, Korean residence proof or Korean foreign-passport bank thresholds copied",
+      "basis": [
+        "https://washingtondc.thaiembassy.org/en/page/visa-information",
+        "https://washingtondc.thaiembassy.org/en/page/common-questions-faqs"
+      ]
+    },
+    {
+      "fields": [
+        "entry.tourist-visa"
+      ],
+      "mission": "Los Angeles",
+      "basis": [
+        "https://thaiconsulatela.thaiembassy.org/en/publicservice/tourist-visa-tourism-and-leisure-activities"
+      ],
+      "condition": "Current category: single validity 3 months, multiple 6 months, 60-day stay; possible 30-day extension; 3 months bank statements $700/person or $2000/family; current location proof; clear JPG/PDF <=3MB; about 15 business days."
+    }
+  ],
+  "conflicts": [
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "field": "TDAC passport-number correction",
+      "faq": "Full Name, Passport Number, Nationality, Date of Birth excluded from updates",
+      "releaseNote": "2025.05.00 says enabled editing of Passport No.",
+      "resolution": "Not resolved by author; public copy identifies discrepancy and directs passport-number errors to Immigration. Other editable fields and new submission procedure preserved."
+    },
+    {
+      "field": "Los Angeles financial list",
+      "olderPages": "2023 tourist single family $1500; METV $2000 each month",
+      "newerCategory": "2025 tourism/leisure $700/person or $2000/family over last three months",
+      "resolution": "Public manuscript uses newer purpose-specific page, explicitly flags older page differences; no false universal eligibility."
+    }
+  ],
+  "retainedObservations": {
+    "screenshotDate": "2026-10-14",
+    "screenshotLocale": "English mobile; some examples use Korea, explicitly described as examples",
+    "noRealSubmission": true,
+    "completionImage": "Official-video example at 2:45, older desktop guide version 1.4"
+  },
+  "holds": [
+    "Actual integrated HTML, responsive UI and same-market link validation belong to parent integration.",
+    "No new TDAC submission or actual visa application was made."
+  ]
+}

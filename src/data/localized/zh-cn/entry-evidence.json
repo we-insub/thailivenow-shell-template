@@ -1,0 +1,69 @@
+{
+  "locale": "zh-cn",
+  "market": "CN",
+  "checkedOn": "2026-10-18",
+  "passport": "中华人民共和国普通护照（中国大陆）",
+  "consularScope": "签证材料为北京使馆；不表示所有中国领区条件相同",
+  "officialSources": [
+    {
+      "url": "https://thaiembbeij.org/th/news/updateofvisaexemption/",
+      "purpose": "exemption"
+    },
+    {
+      "url": "https://mfa.go.th/en/content/thcn280124?cate=5d5bcb4e15e39c306000683e",
+      "purpose": "agreement"
+    },
+    {
+      "url": "https://thaiembbeij.org/cn/purpose_of_visit_rev/tourism-leisure-activities/",
+      "purpose": "single"
+    },
+    {
+      "url": "https://thaiembbeij.org/cn/purpose_of_visit_rev/tourism-leisure-activities-multiple/",
+      "purpose": "multiple"
+    },
+    {
+      "url": "https://thaiembbeij.org/cn/thai-service/visa/",
+      "purpose": "visa"
+    },
+    {
+      "url": "https://thaiembbeij.org/wp-content/uploads/2019/11/METV-ENGLISH-CHINESE.pdf",
+      "purpose": "duration"
+    },
+    {
+      "url": "https://budapest.thaiembassy.org/en/publicservice/tourist-visa-exemption?cate=698497c323290a095267d1c3",
+      "purpose": "原文通用免签资金说明，20000/40000泰铢现金；不采用页面其他陆路次数条件到中国双边协定"
+    }
+  ],
+  "changes": [
+    {
+      "fields": [
+        "entry.intro",
+        "entry.sections",
+        "entry.faq",
+        "visa.intro",
+        "visa.sections",
+        "visa.faq"
+      ],
+      "basis": "以中国单次30天、180天累计90天替换韩国90天；就业、学习、居留、媒体及事先批准活动例外保留。2026-09-15结束60天一般免签，不影响中泰双边30天。"
+    },
+    {
+      "fields": [
+        "tourist-visa.sections",
+        "tourist-visa.faq"
+      ],
+      "basis": "中国北京公馆财务、出入境记录、住宿、机票、未成年条件与多次医疗保险按直接阅读官网写入；删除首尔居留、韩国外登证、K-ETA、韩国费用豁免与7工作日适用性。"
+    },
+    {
+      "fields": [
+        "tdac.sections",
+        "tdac.faq"
+      ],
+      "basis": "通用规则和原英文截图保留；国籍/居住地/登机地/出发与抵达例子改为中国，健康原截图仍明确为旧韩国示例。"
+    }
+  ],
+  "exceptions": [
+    "费用不采用2015年历史公告金额；单次3个月与多次6个月、每次60天用该公告说明。",
+    "未确认中国全领区统一签证处理时间，不复制首尔7工作日。",
+    "照片、URL、图像权利、TDAC原确认日不因翻译更新。"
+  ]
+}

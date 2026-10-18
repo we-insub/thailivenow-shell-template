@@ -1,0 +1,86 @@
+{
+  "locale": "en-in",
+  "passport": "Indian ordinary passport",
+  "checkedOn": "2026-10-18",
+  "scope": "Tourist entry; New Delhi e-Visa application instructions are mission-specific. TDAC non-nationality-dependent facts retain the Korean source check date.",
+  "sources": [
+    {
+      "url": "https://newdelhi.thaiembassy.org/en/content/the-revision-of-thailand-s-visa-exemption-and-voa?cate=614489aad04d1e09fa498c92&menu=61449d3457acc062575f4dc2",
+      "issuedOn": "2026-09-15",
+      "read": "full official HTML",
+      "facts": [
+        "Tourism visa exemption up to 30 days from 15 September 2026; not former60days"
+      ]
+    },
+    {
+      "url": "https://newdelhi.thaiembassy.org/en/page/visa",
+      "updatedOn": "2026-09-16",
+      "read": "full official HTML",
+      "facts": [
+        "Single TR:3months validity/60days stay",
+        "Multiple TR:6months validity/60days each entry",
+        "Current fee table INR3000/13500 conflicts with linked older checklists; exact payable amount held"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/file/d/1cJAO6FtZ46gX5ekvxzAqViXnY88tke6v/view",
+      "issuedOn": "September 2026",
+      "read": "downloaded full PDF; pdftotext all3pages",
+      "localFile": "artifacts/localization-20261018/en-in/india-evisa-faq.pdf",
+      "facts": [
+        "Physically in India throughout entire application process",
+        "Current-location proof and mission jurisdiction",
+        "New Delhi payment procedure; other missions differ",
+        "Approx14workingdays from fee receipt; estimate not guarantee",
+        "Print eVisa; mobile/electronic display not accepted at airline check-in or Thai immigration"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/file/d/15v5tB4qDaGSgyMJt4qJlpByYk9K6ODlo/view",
+      "issuedOn": "September 2026",
+      "read": "downloaded full3page PDF",
+      "facts": [
+        "Indian passport names must match; eVisa middle name left blank",
+        "Jurisdiction and physical presence conditions"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/file/d/11hqJ7GueqcsrorA5_Hz8yJbKft0_SgZ3/view",
+      "read": "downloaded full1page PDF",
+      "conflict": [
+        "Old fee INR2500, normal3workingdays, photo3months; latest page/FAQ differ",
+        "Bank minimum INR500000 throughout6months. Current applicability not confirmed; amount held"
+      ]
+    },
+    {
+      "url": "https://drive.google.com/file/d/1tH3opTOHoVuWAQwy5vCDSMGtZOPZMexD/view",
+      "read": "downloaded full1page PDF",
+      "conflict": [
+        "Old fee INR12000, normal3workingdays, photo3months; latest page/FAQ differ",
+        "INR400000 for6months; current financial applicability not confirmed; amount held"
+      ]
+    }
+  ],
+  "changedFields": [
+    "destinations.entryIntro",
+    "entry title/description/intro/facts/first section/FAQ",
+    "visa intro/eligibility/application jurisdiction/FAQ",
+    "tourist-visa validity/documents/application/FAQ",
+    "TDAC India boarding examples"
+  ],
+  "notImported": [
+    "Korean90day bilateral exemption",
+    "Koreanfee exemption",
+    "Seoul7workingdays",
+    "Korean ARC/KETA documents",
+    "Korean30day tourist extension copied as India entitlement"
+  ],
+  "holds": [
+    "Exact payable tourist fee due current page/linked checklist conflict",
+    "Fixed financial balance amount pending current mission clarification",
+    "Final HTML, SEO, PC/mobile and shared rendering remain unverified"
+  ],
+  "checkedAtUtc": "2026-10-17T17:46:38Z",
+  "checkedAtBangkok": "2026-10-18T00:46:38+07:00",
+  "clockNote": "UTC 17 October17:46 is Bangkok18October00:46; checkedOn uses Asia/Bangkok."
+}

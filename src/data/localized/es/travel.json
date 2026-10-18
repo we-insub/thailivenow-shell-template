@@ -1,0 +1,1962 @@
+{
+  "destinations": {
+    "title": "Viajar a Tailandia: destinos, mejor época y entrada con pasaporte español",
+    "description": "Elige ciudades e islas de Tailandia, compara el tiempo por meses y prepara la TDAC y los requisitos de entrada con pasaporte español.",
+    "h1": "Viajar a Tailandia",
+    "intro": "Piensa si te apetece descansar en un buen hotel, recorrer templos y cafeterías sin prisas o pasar las vacaciones junto al mar. Imagina un día en cada ciudad o isla y elige el destino que más te atraiga.",
+    "areas": {
+      "bangkok": {
+        "name": "Bangkok",
+        "intro": "Descansa durante el día en un hotel con piscina y, por la tarde, cena junto al río o disfruta de las vistas nocturnas desde una azotea. Es una opción para combinar la estancia en un hotel de cinco estrellas con las visitas por la ciudad."
+      },
+      "chiang-mai": {
+        "name": "Chiang Mai",
+        "intro": "Recorre los templos y las callejuelas del casco antiguo y para en una cafetería que te apetezca. Es una ciudad para disfrutar sin prisas de un paseo y un buen café."
+      },
+      "chiang-rai": {
+        "name": "Chiang Rai",
+        "intro": "Descubre una arquitectura de colores y formas singulares, como el Templo Blanco y el Templo Azul. Podrás ver en persona esos paisajes de las fotografías y explorar los templos y las montañas del norte."
+      },
+      "pattaya": {
+        "name": "Pattaya",
+        "intro": "Pasea por la playa o descansa en el hotel durante el día y cena mirando el mar al atardecer. Podrás combinar unas vacaciones de costa con restaurantes y visitas por la ciudad."
+      },
+      "hua-hin": {
+        "name": "Hua Hin",
+        "intro": "Alójate junto al mar con la familia, pasea por la playa por la mañana y recorre el mercado por la tarde. Elige Hua Hin si prefieres comer y descansar juntos sin llenar cada día de visitas."
+      },
+      "phuket": {
+        "name": "Phuket",
+        "intro": "Alterna días de descanso en un resort con vistas al mar y días para conocer el casco antiguo. Además de las vacaciones de playa, podrás caminar entre edificios de colores y parar a comer por sus calles."
+      },
+      "krabi": {
+        "name": "Krabi",
+        "intro": "Pasea por la playa frente a los acantilados de piedra caliza que se alzan junto al mar. Combinar días de descanso en la costa con salidas en barco a las islas dará variedad a tus vacaciones."
+      },
+      "samui": {
+        "name": "Koh Samui",
+        "intro": "Quédate en un resort junto al mar, desayuna sin prisas y pasea por la playa antes de volver a descansar. Disfruta con tu pareja o tu familia de las comidas y de ratos tranquilos juntos."
+      },
+      "phi-phi": {
+        "name": "Islas Phi Phi",
+        "intro": "Descubre los acantilados que emergen del mar y el paisaje que se abre entre las islas. Recorre la costa en barco o contempla las islas desde un mirador para ver en persona esas imágenes del mar tailandés."
+      },
+      "phangan": {
+        "name": "Koh Phangan",
+        "intro": "Si te apetece combinar descanso en la playa y noches con música, echa un vistazo a Koh Phangan. Según la playa donde te alojes y las fechas, puedes buscar un ambiente animado o unas vacaciones tranquilas."
+      },
+      "lanta": {
+        "name": "Koh Lanta",
+        "intro": "Lee en un alojamiento junto al mar y pasea por la playa cuando baje el sol. Es una opción si prefieres quedarte más tiempo en una playa que te guste en lugar de buscar una visita nueva cada día."
+      },
+      "samet": {
+        "name": "Koh Samet",
+        "intro": "Si quieres añadir una escapada corta al mar a tu viaje a Bangkok, mira Koh Samet. Pasea por la arena blanca y come junto a la costa para descansar después de conocer la ciudad."
+      },
+      "tao": {
+        "name": "Koh Tao",
+        "intro": "Si además de las playas te intriga lo que hay bajo el agua, descubre Koh Tao. Puedes acercarte al mar practicando esnórquel o aprendiendo a bucear y terminar el día descansando junto a la playa."
+      }
+    },
+    "entryHeading": "Entrada en Tailandia",
+    "entryIntro": "¿Vas de turismo con un pasaporte ordinario español? Antes de salir, revisa el pasaporte y las condiciones de entrada sin visado y rellena la TDAC mirando los billetes y la reserva del alojamiento. Si tu viaje requiere visado, consulta la categoría adecuada y cómo solicitarla.",
+    "seasonsHeading": "Cuándo viajar a Tailandia",
+    "seasonsIntro": "¿Ya has elegido el mes? Compara el tiempo según prefieras recorrer templos y mercados en Bangkok o descansar en Phuket o Koh Samui. Consulta las temperaturas y lluvias mensuales para elegir la época y preparar el equipaje."
+  },
+  "seasons": {
+    "period": "1991–2020",
+    "checkedAt": "2026-10-14",
+    "source": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+    "regions": [
+      {
+        "id": "bangkok",
+        "name": "Bangkok",
+        "station": "BANGKOK METROPOLIS",
+        "pdfPage": 57,
+        "pattern": "central",
+        "best": "Noviembre–febrero",
+        "intro": "Si quieres recorrer el Gran Palacio, los templos y las orillas del río, viaja a Bangkok entre **noviembre y febrero**. Las abundantes lluvias de septiembre y octubre disminuyen mucho a partir de noviembre, y en diciembre y enero la temperatura media ronda los 27°C, bastante más llevaderos que el calor de abril. Aun así, la media de las máximas diurnas supera los 32°C. Visita los templos por la mañana, pasea junto al río al atardecer y reserva las horas intermedias para comer y descansar a cubierto.",
+        "outdoor": "Pasear por el Gran Palacio y los templos",
+        "indoor": "moverte en tren urbano, visitar centros comerciales y descansar en cafeterías",
+        "months": [
+          {
+            "month": 1,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Por la mañana, visita el Gran Palacio y los templos; antes de que anochezca, pasea junto al río. Es una buena época para recorrer Bangkok a pie con menos preocupación por la lluvia que durante el monzón.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 27.4,
+            "high": 32.7,
+            "low": 23.4,
+            "rain": 23.6,
+            "rainDays": 2.6
+          },
+          {
+            "month": 2,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Intercala las visitas a los templos con una comida tranquila y una pausa en una cafetería. Llueve relativamente poco, pero durante el día hace calor: deja para la mañana los recorridos que quieras hacer andando.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.6,
+            "high": 33.7,
+            "low": 24.8,
+            "rain": 21.4,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Época de calor",
+            "advantage": "Recorre el Gran Palacio y los templos por la mañana y descansa en un centro comercial o una cafetería durante las horas de más calor. Cuando baje el sol, sal a pasear junto al río.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 29.7,
+            "high": 34.7,
+            "low": 26.4,
+            "rain": 51.0,
+            "rainDays": 4.1
+          },
+          {
+            "month": 4,
+            "season": "Época de calor",
+            "advantage": "Termina las visitas a los templos por la mañana y aprovecha el mediodía para comer a cubierto y descansar en el alojamiento. Reparte las visitas para no tener que caminar mucho durante las horas más calurosas.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 30.7,
+            "high": 35.7,
+            "low": 27.2,
+            "rain": 93.3,
+            "rainDays": 6.5
+          },
+          {
+            "month": 5,
+            "season": "Temporada de lluvias",
+            "advantage": "Cuando visites los templos, busca también un restaurante o una cafetería cerca donde puedas parar. Si empieza a llover de repente, podrás descansar a cubierto y retomar después el recorrido.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 30.3,
+            "high": 35.1,
+            "low": 26.9,
+            "rain": 216.8,
+            "rainDays": 15.0
+          },
+          {
+            "month": 6,
+            "season": "Temporada de lluvias",
+            "advantage": "Desplázate en tren urbano para visitar centros comerciales y descansar en cafeterías. Cuando afloje la lluvia, puedes pasear por un barrio cercano y buscar un sitio para comer.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 29.7,
+            "high": 34.1,
+            "low": 26.4,
+            "rain": 198.5,
+            "rainDays": 16.4
+          },
+          {
+            "month": 7,
+            "season": "Temporada de lluvias",
+            "advantage": "Durante los chaparrones fuertes, descansa en un centro comercial o una cafetería. Cuando afloje la lluvia, acércate a un mercado o a la orilla del río.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 29.2,
+            "high": 33.5,
+            "low": 26.1,
+            "rain": 189.7,
+            "rainDays": 17.2
+          },
+          {
+            "month": 8,
+            "season": "Temporada de lluvias",
+            "advantage": "En lugar de intentar visitar varios lugares muy alejados en el mismo día, dedica tiempo a recorrer un barrio y comer allí. Así también te resultará más fácil encontrar dónde esperar cuando llueva.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 29.0,
+            "high": 33.3,
+            "low": 25.9,
+            "rain": 227.1,
+            "rainDays": 19.1
+          },
+          {
+            "month": 9,
+            "season": "Temporada de lluvias",
+            "advantage": "Si vas a visitar mercados y templos, reserva también ratos a cubierto. Cuando llueva mucho, puedes esperar mientras comes en un lugar cercano.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 28.6,
+            "high": 33.2,
+            "low": 25.4,
+            "rain": 335.9,
+            "rainDays": 21.4
+          },
+          {
+            "month": 10,
+            "season": "Temporada de lluvias",
+            "advantage": "Si llueve, pasa un rato en una cafetería o un centro comercial y sal a pasear cuando amaine. Organiza el día con margen para cambiar la hora de las visitas.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 28.4,
+            "high": 33.0,
+            "low": 25.2,
+            "rain": 288.7,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "La disminución de las lluvias facilita preparar un viaje de templos y mercados. Empieza las visitas por la mañana y descansa en un centro comercial o una cafetería a mediodía.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.4,
+            "high": 33.1,
+            "low": 24.7,
+            "rain": 44.6,
+            "rainDays": 5.0
+          },
+          {
+            "month": 12,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Visita templos por la mañana y pasea junto al río por la tarde. Descansar durante las horas de más calor te permitirá disfrutar de los distintos paisajes de Bangkok sin pasar todo el día al sol.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 27.3,
+            "high": 32.3,
+            "low": 23.2,
+            "rain": 11.6,
+            "rainDays": 1.5
+          }
+        ],
+        "cardSummary": "La lluvia disminuye mucho a partir de noviembre. En diciembre y enero la temperatura media ronda los 27°C, menos que en abril. Son buenos meses para visitar el Gran Palacio y los templos y pasear junto al río, aunque durante el día se siguen superando los 32°C.",
+        "bestAnswer": "Para recorrer templos y mercados a pie, recomendamos noviembre–febrero. En diciembre y enero la temperatura media ronda los 27°C y la lluvia mensual es escasa: 11,6 mm y 23,6 mm, respectivamente. Piensa en estos meses como una forma de evitar el calor intenso de abril y las abundantes lluvias del monzón, más que como un invierno fresco."
+      },
+      {
+        "id": "pattaya",
+        "name": "Pattaya",
+        "station": "PHATTHAYA",
+        "pdfPage": 66,
+        "pattern": "central",
+        "best": "Noviembre–febrero",
+        "intro": "Para combinar paseos por la playa y visitas por la ciudad, **noviembre–febrero** encaja bien en Pattaya. Tras las lluvias abundantes de septiembre y octubre, las precipitaciones disminuyen desde noviembre; en diciembre y enero caen solo 11,7 mm y 16,3 mm al mes, respectivamente. Pasea junto al mar por la mañana, dedica el mediodía a comer y descansar y vuelve a la playa cuando baje el sol. Para bañarte, sigue el estado del oleaje y las indicaciones de la playa de ese día, sin decidir únicamente por el mes del viaje.",
+        "outdoor": "Pasear por la playa",
+        "indoor": "descansar en un alojamiento cerca de la playa y salir a pasear cuando afloje la lluvia",
+        "months": [
+          {
+            "month": 1,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Pasea por la playa por la mañana y disfruta de una cena junto al mar al caer la tarde. La lluvia relativamente escasa encaja con unas vacaciones para descansar mirando el paisaje costero.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 26.5,
+            "high": 30.6,
+            "low": 23.5,
+            "rain": 16.3,
+            "rainDays": 2.5
+          },
+          {
+            "month": 2,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Deja los paseos por la playa para la mañana o el atardecer. A mediodía puedes comer o descansar en el alojamiento para evitar las horas de más calor.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 27.3,
+            "high": 31.2,
+            "low": 24.5,
+            "rain": 19.9,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Época de calor",
+            "advantage": "Da un paseo corto por la playa por la mañana y descansa en el alojamiento durante el día. Cuando baje el sol, vuelve a la costa para comer y pasear.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 28.3,
+            "high": 32.0,
+            "low": 25.5,
+            "rain": 47.3,
+            "rainDays": 4.8
+          },
+          {
+            "month": 4,
+            "season": "Época de calor",
+            "advantage": "Acércate a la playa por la mañana y por la tarde; a mediodía, come o descansa a cubierto. Es mejor alternar las salidas y las pausas que pasar todo el día fuera.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 29.4,
+            "high": 33.0,
+            "low": 26.4,
+            "rain": 67.9,
+            "rainDays": 6.3
+          },
+          {
+            "month": 5,
+            "season": "Temporada de lluvias",
+            "advantage": "Descansa en un alojamiento cerca de la playa y sal a pasear cuando amaine. Podrás disfrutar de ratos de descanso junto al mar sin desplazarte muy lejos.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 29.4,
+            "high": 32.7,
+            "low": 26.6,
+            "rain": 121.1,
+            "rainDays": 11.0
+          },
+          {
+            "month": 6,
+            "season": "Temporada de lluvias",
+            "advantage": "Come a cubierto mientras llueve con fuerza y pasea por una playa cercana cuando afloje. En lugar de fijar una hora inamovible, elige cuándo salir según el tiempo del día.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 29.0,
+            "high": 32.0,
+            "low": 26.4,
+            "rain": 132.1,
+            "rainDays": 12.6
+          },
+          {
+            "month": 7,
+            "season": "Temporada de lluvias",
+            "advantage": "Pasa el día comiendo cerca de la playa y descansando en el alojamiento. Si deja de llover, sal un rato a la costa para disfrutar del paisaje.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 28.6,
+            "high": 31.6,
+            "low": 26.2,
+            "rain": 103.6,
+            "rainDays": 12.7
+          },
+          {
+            "month": 8,
+            "season": "Temporada de lluvias",
+            "advantage": "Come y descansa cerca del alojamiento y aprovecha las pausas de la lluvia para dar un paseo corto. Así evitarás ir y venir varias veces a sitios lejanos.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 28.5,
+            "high": 31.4,
+            "low": 26.1,
+            "rain": 91.2,
+            "rainDays": 12.9
+          },
+          {
+            "month": 9,
+            "season": "Temporada de lluvias",
+            "advantage": "Descansa a cubierto durante las lluvias fuertes y decide la hora del paseo por la playa según el tiempo.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 27.9,
+            "high": 31.1,
+            "low": 25.4,
+            "rain": 213.6,
+            "rainDays": 16.3
+          },
+          {
+            "month": 10,
+            "season": "Temporada de lluvias",
+            "advantage": "Si buscas unas vacaciones de descanso junto al mar, incluye también tiempo en el alojamiento. Cuando afloje la lluvia, puedes salir a una playa o un restaurante cercano.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 27.2,
+            "high": 30.9,
+            "low": 24.7,
+            "rain": 224.5,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Tras los meses más lluviosos, llega una época agradable para caminar junto al mar y comer por la ciudad. Aprovecha la mañana y la tarde para estar al aire libre.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 27.1,
+            "high": 30.8,
+            "low": 24.3,
+            "rain": 56.6,
+            "rainDays": 5.6
+          },
+          {
+            "month": 12,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Pasea por la playa por la mañana y descansa a cubierto a mediodía. Al volver a salir a la costa por la tarde, podrás disfrutar del paisaje evitando las horas más calurosas.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 26.4,
+            "high": 30.2,
+            "low": 23.3,
+            "rain": 11.7,
+            "rainDays": 1.9
+          }
+        ],
+        "cardSummary": "De noviembre a febrero llueve menos que en septiembre y octubre, y la media de las máximas ronda los 30–31°C. Es una época adecuada para pasear junto al mar y comer por la ciudad; diciembre y enero destacan por sus escasas lluvias.",
+        "bestAnswer": "Para pasear por la playa y hacer visitas al aire libre, noviembre–febrero es una buena opción. En diciembre y enero llueve poco y la media de las máximas ronda los 30°C, lo que facilita repartir las salidas mejor que en los calurosos abril y mayo. Aun en temporada seca, el estado del mar cambia cada día: adapta el baño y los paseos en barco a las indicaciones del momento."
+      },
+      {
+        "id": "chiang-mai",
+        "name": "Chiang Mai",
+        "station": "CHIANG MAI",
+        "pdfPage": 11,
+        "pattern": "north",
+        "best": "Noviembre–enero",
+        "intro": "Si te apetece recorrer a pie el casco antiguo, visitar templos y parar en cafeterías, recomendamos **noviembre–enero** en Chiang Mai. La temperatura media ronda los 22–25°C, por debajo de la de abril, y llueve menos que en el monzón de verano: es una época adecuada para explorar los barrios andando. En diciembre y enero, sobre todo, las mañanas y las noches son más frescas; lleva una chaqueta ligera. Si vas a subir a la montaña, prepara la ropa según la previsión de tu destino, no solo según los registros de la ciudad.",
+        "outdoor": "Recorrer el casco antiguo y los templos a pie",
+        "indoor": "visitar cafeterías y exposiciones a cubierto y pasear por el casco antiguo cuando amaine",
+        "months": [
+          {
+            "month": 1,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Recorre Chiang Mai caminando por el casco antiguo y sus templos. Aprovecha el día para las visitas y lleva una chaqueta si sales por la mañana o por la noche.",
+            "caution": "Por la mañana y por la noche la temperatura baja bastante respecto al día. Si sales temprano o vuelves tarde, lleva una chaqueta ligera.",
+            "mean": 22.0,
+            "high": 30.0,
+            "low": 15.7,
+            "rain": 11.3,
+            "rainDays": 1.3
+          },
+          {
+            "month": 2,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Empieza el paseo por el casco antiguo por la mañana y descansa en una cafetería a mediodía. Intercalar pausas entre los templos te ayudará a evitar las horas de más calor.",
+            "caution": "Por la mañana y por la noche la temperatura baja bastante respecto al día. Si sales temprano o vuelves tarde, lleva una chaqueta ligera.",
+            "mean": 24.2,
+            "high": 32.9,
+            "low": 16.8,
+            "rain": 9.6,
+            "rainDays": 0.9
+          },
+          {
+            "month": 3,
+            "season": "Época de calor",
+            "advantage": "Visita el casco antiguo y los templos por la mañana; durante el calor del día, busca una cafetería o una exposición a cubierto. Puedes volver a pasear cuando baje el sol.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 27.3,
+            "high": 35.4,
+            "low": 20.1,
+            "rain": 20.4,
+            "rainDays": 2.8
+          },
+          {
+            "month": 4,
+            "season": "Época de calor",
+            "advantage": "Termina temprano las visitas a los templos y dedica el mediodía a comer y descansar a cubierto. Conviene repartir los recorridos largos a pie entre varios días.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 29.5,
+            "high": 36.7,
+            "low": 23.4,
+            "rain": 54.3,
+            "rainDays": 6.8
+          },
+          {
+            "month": 5,
+            "season": "Temporada de lluvias",
+            "advantage": "Cuando organices las visitas a los templos, busca también cafeterías o exposiciones cercanas. Si llueve, podrás parar a cubierto y seguir después.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 28.6,
+            "high": 34.7,
+            "low": 24.2,
+            "rain": 167.5,
+            "rainDays": 14.8
+          },
+          {
+            "month": 6,
+            "season": "Temporada de lluvias",
+            "advantage": "Descansa en una cafetería o visita una exposición a cubierto, y sal a pasear por el casco antiguo cuando afloje la lluvia.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 28.0,
+            "high": 33.2,
+            "low": 24.5,
+            "rain": 118.2,
+            "rainDays": 16.3
+          },
+          {
+            "month": 7,
+            "season": "Temporada de lluvias",
+            "advantage": "Si te sorprende la lluvia mientras paseas por el casco antiguo, haz una pausa en una cafetería cercana. Cambia la hora de los recorridos a pie según el tiempo.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 27.4,
+            "high": 32.1,
+            "low": 24.3,
+            "rain": 148.6,
+            "rainDays": 18.8
+          },
+          {
+            "month": 8,
+            "season": "Temporada de lluvias",
+            "advantage": "Durante las lluvias fuertes, disfruta de cafeterías y exposiciones a cubierto. Retoma las visitas a los templos o el paseo por el casco antiguo cuando amaine.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 26.9,
+            "high": 31.6,
+            "low": 24.0,
+            "rain": 223.3,
+            "rainDays": 20.9
+          },
+          {
+            "month": 9,
+            "season": "Temporada de lluvias",
+            "advantage": "Combina las visitas a los templos con ratos de descanso en cafeterías. Así podrás seguir disfrutando del viaje cuando llueva sin tener que desplazarte lejos.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 26.9,
+            "high": 32.0,
+            "low": 23.7,
+            "rain": 207.2,
+            "rainDays": 18.1
+          },
+          {
+            "month": 10,
+            "season": "Temporada de lluvias",
+            "advantage": "Visita una exposición o descansa en una cafetería y sal al casco antiguo cuando amaine. Agrupar las visitas cercanas facilita los desplazamientos cuando llueve.",
+            "caution": "No llenes el día de visitas al aire libre: deja tiempo para resguardarte de la lluvia y prepara alternativas a cubierto.",
+            "mean": 26.4,
+            "high": 31.7,
+            "low": 22.6,
+            "rain": 123.8,
+            "rainDays": 11.8
+          },
+          {
+            "month": 11,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Después de recorrer los templos y el casco antiguo, para en una cafetería. La lluvia relativamente escasa hace de este mes un buen momento para organizar visitas a pie.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 24.6,
+            "high": 30.8,
+            "low": 19.9,
+            "rain": 40.9,
+            "rainDays": 4.2
+          },
+          {
+            "month": 12,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Disfruta de los templos paseando por el casco antiguo. Las mañanas y las noches pueden ser más frescas que el día: prepara una prenda ligera para abrigarte.",
+            "caution": "Por la mañana y por la noche la temperatura baja bastante respecto al día. Si sales temprano o vuelves tarde, lleva una chaqueta ligera.",
+            "mean": 22.2,
+            "high": 29.2,
+            "low": 16.9,
+            "rain": 14.1,
+            "rainDays": 1.8
+          }
+        ],
+        "cardSummary": "Entre noviembre y enero la temperatura media ronda los 22–25°C, una buena época para recorrer templos y el casco antiguo a pie. En diciembre y enero la media de las mínimas baja hasta unos 16–17°C: lleva algo de abrigo para las salidas por la mañana y por la noche.",
+        "bestAnswer": "Noviembre–enero encaja bien si quieres conocer a pie los templos y el casco antiguo. En diciembre y enero la temperatura media ronda los 22°C, por debajo de los 29,5 °C de abril. Puedes llevar ropa ligera durante el día y añadir una chaqueta cuando salgas por la mañana o por la noche."
+      },
+      {
+        "id": "phuket",
+        "name": "Phuket",
+        "station": "PHUKET",
+        "pdfPage": 88,
+        "pattern": "andaman",
+        "best": "Diciembre–marzo",
+        "intro": "Si quieres descansar junto a la playa y conocer también el casco antiguo de Phuket, organiza el viaje entre **diciembre y marzo**. Llueve menos que entre mayo y noviembre; febrero es el mes con menos precipitación, con 24,0 mm. En marzo, sin embargo, la media de las máximas alcanza los 34,4 °C: deja los paseos por el casco antiguo para la mañana o última hora de la tarde. Incluso en temporada seca, las excursiones a las islas y los traslados en barco pueden variar con el viento y el oleaje; sigue las indicaciones de navegación de ese día.",
+        "outdoor": "Pasear por la playa y el casco antiguo",
+        "indoor": "comer en el casco antiguo y descansar en el alojamiento",
+        "months": [
+          {
+            "month": 1,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Pasea por la playa por la mañana y cena en el casco antiguo. También puedes dedicar unos días al descanso junto al mar y otros a conocer la ciudad.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.3,
+            "high": 33.0,
+            "low": 25.0,
+            "rain": 49.9,
+            "rainDays": 5.6
+          },
+          {
+            "month": 2,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Combina los paseos por la playa con las visitas al casco antiguo. Llueve relativamente poco, pero a mediodía hace calor: aprovecha para comer o descansar a cubierto.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 29.0,
+            "high": 34.0,
+            "low": 25.4,
+            "rain": 24.0,
+            "rainDays": 3.4
+          },
+          {
+            "month": 3,
+            "season": "Época de calor",
+            "advantage": "Recorre la playa y el casco antiguo por la mañana o a última hora de la tarde. A mediodía, come a cubierto o descansa en el alojamiento para evitar el calor.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 29.4,
+            "high": 34.4,
+            "low": 25.9,
+            "rain": 80.7,
+            "rainDays": 7.5
+          },
+          {
+            "month": 4,
+            "season": "Época de calor",
+            "advantage": "Pasea por la playa por la mañana y descansa en el alojamiento durante las horas más calurosas. También puedes visitar el casco antiguo cuando baje el sol.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 29.6,
+            "high": 34.2,
+            "low": 26.3,
+            "rain": 135.1,
+            "rainDays": 11.7
+          },
+          {
+            "month": 5,
+            "season": "Temporada de lluvias",
+            "advantage": "Come en el casco antiguo y descansa en el alojamiento. Aprovecha las pausas de la lluvia para dar paseos cortos por la playa.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 29.1,
+            "high": 33.2,
+            "low": 26.1,
+            "rain": 236.9,
+            "rainDays": 18.9
+          },
+          {
+            "month": 6,
+            "season": "Temporada de lluvias",
+            "advantage": "Mientras llueve, come a cubierto o descansa en el alojamiento. Cuando amaine, sal a conocer los alrededores.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 28.7,
+            "high": 32.6,
+            "low": 25.8,
+            "rain": 249.4,
+            "rainDays": 18.6
+          },
+          {
+            "month": 7,
+            "season": "Temporada de lluvias",
+            "advantage": "Combina ratos de descanso cerca de la playa con una comida en el casco antiguo. Elige la hora de las visitas al aire libre según la previsión de lluvia del día.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 28.4,
+            "high": 32.3,
+            "low": 25.6,
+            "rain": 240.2,
+            "rainDays": 19.1
+          },
+          {
+            "month": 8,
+            "season": "Temporada de lluvias",
+            "advantage": "Descansa en el alojamiento durante las lluvias fuertes. Cuando amaine, puedes salir a comer cerca y dar un paseo corto.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 28.3,
+            "high": 32.2,
+            "low": 25.6,
+            "rain": 308.7,
+            "rainDays": 19.5
+          },
+          {
+            "month": 9,
+            "season": "Temporada de lluvias",
+            "advantage": "Dedica el día a comer en el casco antiguo y descansar a cubierto. Decide cuándo salir al aire libre según la previsión de lluvia.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.8,
+            "high": 31.8,
+            "low": 25.1,
+            "rain": 350.4,
+            "rainDays": 21.7
+          },
+          {
+            "month": 10,
+            "season": "Temporada de lluvias",
+            "advantage": "Organiza unas vacaciones para descansar y comer cerca del alojamiento, con menos desplazamientos largos. Puedes pasear por la playa cuando afloje la lluvia.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.6,
+            "high": 31.8,
+            "low": 24.9,
+            "rain": 336.0,
+            "rainDays": 22.7
+          },
+          {
+            "month": 11,
+            "season": "Cambio de estación",
+            "advantage": "Come en el casco antiguo o descansa en el alojamiento y acércate a la playa cuando el tiempo lo permita. Ajusta la hora de las visitas al aire libre a la previsión del día.",
+            "caution": "En el cambio de estación no conviene dar por hecho que todos los días serán despejados. Mira la previsión antes de reservar actividades al aire libre.",
+            "mean": 28.0,
+            "high": 32.1,
+            "low": 25.2,
+            "rain": 178.2,
+            "rainDays": 15.9
+          },
+          {
+            "month": 12,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Pasea junto al mar por la mañana y descansa en el alojamiento a mediodía. Si sales a cenar al casco antiguo, podrás disfrutar tanto de la playa como de la ciudad.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 27.9,
+            "high": 32.1,
+            "low": 25.0,
+            "rain": 82.0,
+            "rainDays": 10.3
+          }
+        ],
+        "cardSummary": "De diciembre a marzo llueve menos que durante el monzón del verano y el otoño, por lo que resulta más fácil combinar playa y casco antiguo. Febrero es el mes más seco, con 24,0 mm, aunque en marzo la media de las máximas ya supera los 34°C.",
+        "bestAnswer": "Si quieres combinar días de descanso en la playa con visitas al casco antiguo, recomendamos diciembre–marzo. Para priorizar la poca lluvia, empieza por febrero, con 24,0 mm mensuales. En marzo también llueve menos que durante el monzón, pero el calor aumenta: conviene alternar descanso en la playa y salidas cortas en lugar de caminar durante mucho tiempo."
+      },
+      {
+        "id": "krabi",
+        "name": "Krabi",
+        "station": "KRABI",
+        "pdfPage": 91,
+        "pattern": "andaman",
+        "best": "Diciembre–marzo",
+        "intro": "Para descansar en las playas de Krabi y disfrutar de sus acantilados de piedra caliza y del mar, **diciembre–marzo** es una buena opción. La lluvia disminuye tras los meses lluviosos de septiembre y octubre; febrero registra 35,9 mm, el mínimo anual. Alójate cerca de la playa y alterna paseos y descanso. En marzo la media de las máximas sube hasta 34,7 °C: reserva los paseos largos para la mañana o última hora de la tarde y, si vas a coger un barco, organiza el día según las indicaciones del servicio.",
+        "outdoor": "Pasear por la playa y contemplar el mar",
+        "indoor": "descansar en el alojamiento y visitar una playa cercana cuando afloje la lluvia",
+        "months": [
+          {
+            "month": 1,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Pasea por la playa por la mañana o al atardecer y disfruta del mar y los acantilados. Descansar en el alojamiento a mediodía te permitirá pasar unas vacaciones de playa sin prisas.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 27.4,
+            "high": 32.6,
+            "low": 21.5,
+            "rain": 96.8,
+            "rainDays": 7.7
+          },
+          {
+            "month": 2,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Camina por la playa y disfruta del paisaje marino. A mediodía hace calor: sal por la mañana o vuelve a última hora de la tarde.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.1,
+            "high": 34.1,
+            "low": 21.5,
+            "rain": 35.9,
+            "rainDays": 4.3
+          },
+          {
+            "month": 3,
+            "season": "Época de calor",
+            "advantage": "Pasea por la playa por la mañana y descansa en el alojamiento a mediodía. Puedes volver a salir a la costa al final de la tarde, cuando el calor sea menos intenso.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 28.7,
+            "high": 34.7,
+            "low": 22.4,
+            "rain": 108.4,
+            "rainDays": 8.3
+          },
+          {
+            "month": 4,
+            "season": "Época de calor",
+            "advantage": "Visita la playa por la mañana y a última hora de la tarde; a mediodía, come y descansa a cubierto. Organiza los recorridos largos a pie fuera de las horas de más calor.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 28.8,
+            "high": 34.3,
+            "low": 23.1,
+            "rain": 142.2,
+            "rainDays": 12.7
+          },
+          {
+            "month": 5,
+            "season": "Temporada de lluvias",
+            "advantage": "Descansa en el alojamiento y sal a caminar por una playa cercana cuando amaine. Adapta el tiempo que pasas fuera a la evolución del tiempo.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 28.2,
+            "high": 33.0,
+            "low": 23.5,
+            "rain": 210.1,
+            "rainDays": 17.5
+          },
+          {
+            "month": 6,
+            "season": "Temporada de lluvias",
+            "advantage": "Mientras llueve, descansa en el alojamiento. Cuando afloje, puedes salir a comer cerca o dar un paseo corto.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.7,
+            "high": 31.9,
+            "low": 23.1,
+            "rain": 224.8,
+            "rainDays": 17.5
+          },
+          {
+            "month": 7,
+            "season": "Temporada de lluvias",
+            "advantage": "Pasa las vacaciones de playa comiendo y descansando cerca del alojamiento. Decide cuándo salir a la costa según el tiempo de cada día.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.4,
+            "high": 31.6,
+            "low": 22.8,
+            "rain": 221.5,
+            "rainDays": 17.6
+          },
+          {
+            "month": 8,
+            "season": "Temporada de lluvias",
+            "advantage": "Durante las lluvias fuertes, descansa a cubierto. Cuando amaine, puedes acercarte a una playa próxima para contemplar el mar.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.2,
+            "high": 31.5,
+            "low": 22.7,
+            "rain": 273.0,
+            "rainDays": 18.2
+          },
+          {
+            "month": 9,
+            "season": "Temporada de lluvias",
+            "advantage": "Incluye en el viaje ratos para disfrutar del alojamiento. Pasea por la playa durante las pausas de la lluvia.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.0,
+            "high": 31.3,
+            "low": 22.5,
+            "rain": 286.2,
+            "rainDays": 19.2
+          },
+          {
+            "month": 10,
+            "season": "Temporada de lluvias",
+            "advantage": "En lugar de desplazarte lejos, come y descansa cerca del alojamiento. Sal a la costa cuando afloje la lluvia para reducir los desplazamientos.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.1,
+            "rain": 292.9,
+            "rainDays": 20.6
+          },
+          {
+            "month": 11,
+            "season": "Cambio de estación",
+            "advantage": "Tómate el día con calma: descansa en el alojamiento o come cerca. Elige cuándo pasear por la playa según la previsión de lluvia.",
+            "caution": "En el cambio de estación no conviene dar por hecho que todos los días serán despejados. Mira la previsión antes de reservar actividades al aire libre.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.3,
+            "rain": 198.6,
+            "rainDays": 17.5
+          },
+          {
+            "month": 12,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Descansa en el alojamiento durante el día y pasea por la playa por la mañana o por la tarde. Podrás disfrutar del mar y los acantilados sin pasar las horas más calurosas fuera.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 26.8,
+            "high": 31.5,
+            "low": 21.7,
+            "rain": 90.3,
+            "rainDays": 11.1
+          }
+        ],
+        "cardSummary": "De diciembre a marzo, tras las lluvias abundantes de septiembre y octubre, es una buena época para disfrutar de las playas y los acantilados de piedra caliza. Febrero es el mes más seco; en marzo conviene pasear por la mañana o última hora de la tarde para evitar el calor del mediodía.",
+        "bestAnswer": "Para disfrutar sin prisas de la playa y el paisaje marino, diciembre–marzo encaja bien. Si tu prioridad es reducir la lluvia, empieza por febrero, el mes con menor precipitación. En diciembre y enero también llueve menos que durante el monzón de otoño, aunque puede haber chaparrones. En marzo, organiza el día pensando especialmente en el calor del mediodía."
+      },
+      {
+        "id": "koh-samui",
+        "name": "Koh Samui",
+        "station": "KO SAMUI",
+        "pdfPage": 77,
+        "pattern": "gulf",
+        "best": "Febrero–abril",
+        "intro": "Para unas vacaciones en Koh Samui paseando por la playa y descansando sin prisas en el alojamiento, recomendamos **febrero–abril**. A diferencia de Phuket y Krabi, aquí llueve mucho de octubre a diciembre; noviembre alcanza los 444,6 mm, por lo que no sirve aplicar el mismo calendario de temporada seca. Febrero es el mes más seco, con 64,3 mm y una temperatura media de 27,4 °C. El calor aumenta al acercarse abril: deja el mediodía para descansar en el alojamiento y disfruta de la playa por la mañana y por la tarde.",
+        "outdoor": "Pasear por la playa",
+        "indoor": "descansar en el alojamiento y alternar las comidas con salidas cortas",
+        "months": [
+          {
+            "month": 1,
+            "season": "Cambio de estación",
+            "advantage": "Combina ratos de descanso en el alojamiento con visitas a una playa cercana. Si llueve, descansa a cubierto y vuelve a salir cuando amaine.",
+            "caution": "En el cambio de estación no conviene dar por hecho que todos los días serán despejados. Mira la previsión antes de reservar actividades al aire libre.",
+            "mean": 26.9,
+            "high": 29.0,
+            "low": 24.2,
+            "rain": 126.8,
+            "rainDays": 11.1
+          },
+          {
+            "month": 2,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Pasea junto al mar por la mañana y descansa en el alojamiento a mediodía. Es una época adecuada para combinar playa y descanso.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 27.4,
+            "high": 29.4,
+            "low": 24.9,
+            "rain": 64.3,
+            "rainDays": 5.6
+          },
+          {
+            "month": 3,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Deja los paseos junto al mar para la mañana o última hora de la tarde. A mediodía puedes comer o descansar en el alojamiento.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.2,
+            "high": 30.4,
+            "low": 25.4,
+            "rain": 115.8,
+            "rainDays": 5.9
+          },
+          {
+            "month": 4,
+            "season": "Época de calor",
+            "advantage": "Pasea por la playa por la mañana o por la tarde y descansa en el alojamiento durante el calor del día. Intercalar pausas entre las comidas y las salidas evitará pasar mucho tiempo fuera a mediodía.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 29.1,
+            "high": 31.8,
+            "low": 26.0,
+            "rain": 82.9,
+            "rainDays": 8.1
+          },
+          {
+            "month": 5,
+            "season": "Época de calor",
+            "advantage": "Pasea por la playa cuando el calor sea menos intenso. Come a cubierto o descansa en el alojamiento durante el día y vuelve a salir cuando baje el sol.",
+            "caution": "Caminar durante mucho tiempo a mediodía puede resultar agotador. Lleva agua y descansa a la sombra entre desplazamientos.",
+            "mean": 29.2,
+            "high": 32.9,
+            "low": 25.7,
+            "rain": 131.6,
+            "rainDays": 14.0
+          },
+          {
+            "month": 6,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Visita la playa por la mañana y descansa en el alojamiento a mediodía. Podrás disfrutar del mar evitando las horas de más calor.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.8,
+            "high": 32.7,
+            "low": 25.3,
+            "rain": 133.6,
+            "rainDays": 13.1
+          },
+          {
+            "month": 7,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Reparte el día entre paseos por la playa y descanso en el alojamiento. Come a cubierto cuando haga más calor y vuelve a salir cuando baje el sol.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.5,
+            "high": 32.3,
+            "low": 25.1,
+            "rain": 117.0,
+            "rainDays": 14.3
+          },
+          {
+            "month": 8,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Disfruta de unas vacaciones para descansar en el alojamiento y mirar el mar. Si te apetece pasear, sal por la mañana o por la tarde y evita el calor del mediodía.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.4,
+            "high": 32.4,
+            "low": 25.1,
+            "rain": 102.2,
+            "rainDays": 14.5
+          },
+          {
+            "month": 9,
+            "season": "Periodo con relativamente poca lluvia",
+            "advantage": "Pasea por la playa por la mañana y descansa después en el alojamiento. Salir de nuevo a la costa por la tarde te permitirá evitar las horas de más calor.",
+            "caution": "Aunque llueva poco, a mediodía hace calor y puede caer algún chaparrón. Lleva un sombrero y un paraguas ligero.",
+            "mean": 28.0,
+            "high": 31.9,
+            "low": 24.8,
+            "rain": 117.5,
+            "rainDays": 15.0
+          },
+          {
+            "month": 10,
+            "season": "Temporada de lluvias",
+            "advantage": "Si llueve mucho, descansa en el alojamiento o come a cubierto. Cuando amaine, da un paseo corto por los alrededores.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.4,
+            "high": 30.6,
+            "low": 24.3,
+            "rain": 294.9,
+            "rainDays": 19.3
+          },
+          {
+            "month": 11,
+            "season": "Temporada de lluvias",
+            "advantage": "Deja tiempo suficiente para descansar en el alojamiento y disfrutar de las comidas cerca. Decide la hora de las visitas al aire libre según la previsión de lluvia.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 27.1,
+            "high": 29.7,
+            "low": 24.1,
+            "rain": 444.6,
+            "rainDays": 18.7
+          },
+          {
+            "month": 12,
+            "season": "Temporada de lluvias",
+            "advantage": "Dedica tiempo a comer a cubierto y descansar sin prisas en el alojamiento. Cuando afloje la lluvia, puedes dar un paseo corto por los alrededores.",
+            "caution": "Además de la lluvia, ten en cuenta el oleaje y el viento. Adapta tus planes a las salidas de los barcos y a las prohibiciones de baño indicadas en la playa.",
+            "mean": 26.8,
+            "high": 29.3,
+            "low": 24.0,
+            "rain": 263.1,
+            "rainDays": 14.2
+          }
+        ],
+        "cardSummary": "A diferencia de Phuket, en Koh Samui llueve mucho de octubre a diciembre, por lo que febrero–abril encaja mejor para unas vacaciones de playa. Febrero es el mes más seco, con 64,3 mm. En abril aumenta el calor: sal por la mañana o por la tarde y descansa en el alojamiento a mediodía.",
+        "bestAnswer": "Febrero–abril encaja bien para unas vacaciones de playa. En Koh Samui llueve mucho al final del año, así que no conviene aplicar las fechas recomendadas para Phuket. Febrero es el mes con menos lluvia; en abril la temperatura media sube a 29,1 °C. Además de la lluvia, piensa en cómo llevas el calor antes de elegir las fechas."
+      }
+    ]
+  },
+  "entry": [
+    {
+      "id": "entry",
+      "title": "Entrada en Tailandia con pasaporte español: TDAC, documentos y exención de visado",
+      "description": "Prepara tu entrada turística en Tailandia con pasaporte español: exención de visado de hasta 30 días, TDAC, documentos y pasos al llegar al aeropuerto.",
+      "intro": "¿Ya tienes fecha para viajar a Bangkok o Phuket? Si vas de turismo con un pasaporte ordinario español, revisa las condiciones de entrada sin visado y completa la TDAC según tu fecha de llegada a Tailandia. Ten a mano el pasaporte, los billetes y la reserva del hotel para ir introduciendo los datos. Aquí encontrarás qué preparar antes de salir y cómo pasar el control de pasaportes y recoger el equipaje al llegar.",
+      "sections": [
+        {
+          "title": "Si viajas de turismo con un pasaporte español",
+          "paragraphs": [
+            "Desde el **15 de septiembre de 2026**, los titulares de pasaporte ordinario español pueden entrar en Tailandia de turismo **sin visado durante un máximo de 30 días**. La Embajada de Tailandia en Madrid lo confirma en su aviso específico de septiembre. Algunas páginas antiguas de visados todavía mencionan 60 días: esa referencia corresponde al régimen anterior. Quienes ya estaban en Tailandia con el régimen anterior de 60 días o entraron antes del 15 de septiembre de 2026 pueden permanecer hasta que venza la estancia que se les concedió al entrar. Si viajas con familiares o amigos de otra nacionalidad, revisad por separado las condiciones de sus pasaportes.",
+            "El máximo indicado no sustituye la decisión del control fronterizo. Tras pasar inmigración, mira la **fecha real de fin de estancia autorizada** que figure en tu pasaporte y sal del país dentro de ese plazo. Para trabajar, estudiar o permanecer con otro propósito, prepara el visado y las autorizaciones correspondientes; no organices la estancia como si fuera una visita turística."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Qué llevar preparado antes del vuelo",
+          "paragraphs": [
+            "Ten juntos el pasaporte, los billetes y la reserva del hotel. En la TDAC, copia el nombre **tal como aparece en el pasaporte** y toma el nombre y la dirección del alojamiento de su reserva en inglés. Para evitar errores, busca la fecha local de llegada a Tailandia y el número de vuelo, en lugar de copiar simplemente el día de salida de España.",
+            "Prepara también el billete de regreso o de continuación a otro país y los datos del alojamiento. Si te preguntan dónde vas a quedarte y cuándo saldrás, responde según tus reservas reales. Debes poder justificar tus medios para el viaje. La documentación económica de una solicitud de visado y el dinero que pueda comprobar inmigración al entrar son preparativos distintos; ninguno es un pago por presentar la TDAC, que es gratuita."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Completa la TDAC dentro de los 3 días previos, incluido el día de llegada",
+          "paragraphs": [
+            "La TDAC es la declaración de llegada en línea que sustituye al formulario en papel. Las **personas que no tengan nacionalidad tailandesa**, incluidos los viajeros españoles, deben completarla antes del control de inmigración cuando entren por aire, tierra o mar. Si viajas con niños, prepara una declaración para cada uno.",
+            "Puedes presentarla **dentro de los 3 días anteriores a la llegada, contando el propio día de llegada**. Prepara el pasaporte, los billetes, la dirección del alojamiento en inglés y un correo electrónico; introduce la fecha local de llegada a Tailandia. Una vez presentada, descarga el documento en el móvil para poder abrirlo aunque la conexión del aeropuerto falle.",
+            "La TDAC es una declaración de llegada: rellenarla no expide un visado. **La declaración de entrada y el visado son trámites separados**. Si el propósito del viaje requiere visado, debes preparar ambos."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Qué hacer al llegar al aeropuerto",
+          "paragraphs": [
+            "Al bajar del avión, sigue los carteles **Immigration / Passport Control**. Lleva accesibles el pasaporte, el justificante de la TDAC y el visado cuando corresponda. Si el personal pregunta por el propósito de la visita o el alojamiento, contesta según los planes que realmente hayas reservado.",
+            "Después del control, revisa primero la fecha de fin de estancia autorizada en el pasaporte. Continúa hacia **Baggage Claim**, recoge las maletas y pasa por aduanas para salir al vestíbulo de llegadas. Si llevas artículos que deban declararse, sigue el procedimiento de declaración. Los recorridos varían entre aeropuertos, como Suvarnabhumi y Don Mueang; consulta también la guía del aeropuerto al que llegues."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Distingue una conexión sin entrada de una entrada en Tailandia",
+          "paragraphs": [
+            "Si haces una conexión en un aeropuerto tailandés **sin pasar el control de inmigración**, no necesitas la TDAC. En cambio, si sales del aeropuerto o debes pasar inmigración para recoger las maletas y facturarlas de nuevo, sí necesitas presentarla.",
+            "Si has comprado los vuelos por separado, pregunta a la aerolínea antes de viajar si el equipaje se enviará hasta el destino final y si tendrás que pasar inmigración en Tailandia. Aunque el itinerario diga «conexión», si realmente tienes que entrar en el país debes preparar la declaración."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Necesito tanto TDAC como visado para viajar a Tailandia?",
+          "a": "Aunque entres de turismo sin visado con un pasaporte ordinario español, debes presentar la TDAC. La TDAC es la declaración de llegada; el visado depende del propósito de tu visita. Si cumples la exención turística, puedes viajar sin visado, pero la TDAC por sí sola no basta cuando el viaje requiere visado por trabajo, estudios u otro motivo."
+        },
+        {
+          "q": "¿Cuántos días puedo estar sin visado con pasaporte español?",
+          "a": "El aviso de la Embajada de Tailandia en Madrid establece un máximo de 30 días para el pasaporte ordinario español desde el 15 de septiembre de 2026. Tras entrar, comprueba la fecha concreta de fin de estancia autorizada en tu pasaporte. Antes de fijar la salida por el máximo teórico, mira hasta cuándo se te ha permitido permanecer."
+        },
+        {
+          "q": "Llego a Bangkok de madrugada: ¿qué fecha pongo en la TDAC?",
+          "a": "Pon la fecha local de llegada a Tailandia que aparece en el billete. Si sales de España un día y aterrizas en Tailandia al siguiente, corresponde la fecha del día siguiente. Comprueba juntos la fecha de llegada y el número del vuelo."
+        }
+      ],
+      "sources": [
+        [
+          "Embajada de Tailandia en Madrid · nuevas condiciones para pasaportes españoles desde el 15 de septiembre de 2026",
+          "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · visado de turista de entrada única",
+          "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · visado de turista de entrada múltiple",
+          "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · información de visados y jurisdicción",
+          "https://madrid.thaiembassy.org/en/page/19412-visa"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · tasas consulares",
+          "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548"
+        ],
+        [
+          "Inmigración de Tailandia · guía oficial de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Inmigración de Tailandia · preguntas frecuentes de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [
+        [
+          "Destinatarios",
+          "Viajeros con pasaporte ordinario español que entran en Tailandia por turismo"
+        ],
+        [
+          "Declaración de llegada",
+          "TDAC · envío gratuito en el sitio oficial"
+        ],
+        [
+          "Estancia sin visado",
+          "Máximo 30 días desde el 15 de septiembre de 2026 · comprueba la autorización concreta al entrar"
+        ]
+      ],
+      "checkedAt": "2026-10-18",
+      "locale": "es",
+      "market": "ES",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Comparación con la introducción, la reserva, el acceso y las respuestas completas de Sirocco: destinatario, acción concreta, condiciones y excepciones.",
+        "record": "artifacts/localization-20261018/es/review.md",
+        "market": "ES"
+      }
+    },
+    {
+      "id": "tdac",
+      "title": "Cómo rellenar la TDAC: declaración de llegada a Tailandia desde el móvil",
+      "description": "Guía de la TDAC gratuita: web oficial, plazo de envío, datos del pasaporte, vuelos y hotel, campos en inglés, descarga del documento y correcciones.",
+      "intro": "¿Vas a completar la TDAC desde el móvil y no tienes claros los campos en inglés? Ten al lado el pasaporte, los billetes y la reserva del hotel y sigue las pantallas paso a paso. Te explicamos dónde introducir los apellidos y el nombre, qué fecha de llegada utilizar y cómo copiar la dirección del alojamiento. Al terminar el envío, guarda el documento en el móvil para tenerlo a mano en el aeropuerto.",
+      "sections": [
+        {
+          "title": "Empieza por la web oficial y el plazo de presentación",
+          "paragraphs": [
+            "Comprueba que la barra de direcciones muestra **tdac.immigration.go.th**. Es la web oficial de Inmigración de Tailandia y **presentar la TDAC es gratis**. Es un sitio distinto de Thai e-Visa, donde se solicitan los visados.",
+            "Complétala **dentro de los 3 días anteriores a la llegada, incluido el día de llegada**. Debes enviar una nueva declaración cada vez que entres en Tailandia: la de un viaje anterior no sirve para otra entrada. Antes de empezar, prepara el pasaporte, el número de vuelo de entrada, la fecha local de llegada, la dirección del alojamiento en inglés y el correo donde quieras recibir el documento."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Puedes leer la pantalla en el idioma que te resulte más cómodo",
+          "paragraphs": [
+            "Si la interfaz en inglés te cuesta, utiliza los **ajustes de idioma** del sitio o la **traducción de páginas del navegador** para leer las indicaciones. La posición del menú de idioma y del botón de traducción cambia según el móvil y el navegador.",
+            "Aunque leas la página traducida, **los datos deben introducirse en inglés**. Copia los apellidos, el nombre y el número del pasaporte tal como aparecen en él, y toma la dirección en inglés de la reserva del hotel. A continuación conservamos las pantallas móviles en inglés para que puedas localizar los botones y campos originales."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "En la primera pantalla, pulsa Arrival Card",
+          "paragraphs": [
+            "Si vas a hacer un envío nuevo, pulsa **Arrival Card** en la primera pantalla. El botón **Update Arrival Card**, que aparece al lado, sirve para modificar una declaración ya presentada. Para empezar una declaración nueva, elige Arrival Card.",
+            "La primera pantalla incluye también avisos sobre la notificación de 90 días y los permisos de trabajo. No significan que una TDAC sirva durante 90 días ni que permita trabajar en Tailandia. Para declarar la entrada de este viaje, continúa por Arrival Card."
+          ],
+          "image": "tdac-home-mobile-en.jpg",
+          "caption": "Primera pantalla móvil en inglés · Arrival Card inicia una declaración nueva",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Personal Information: datos personales y del pasaporte",
+          "paragraphs": [
+            "En **Family Name van los apellidos; en First Name, el nombre**. Si el pasaporte no distingue un segundo nombre, no inventes uno para rellenar Middle Name. Copia cada parte del nombre en el campo que corresponda al pasaporte y escribe su número en Passport No.",
+            "Nationality/Citizenship es la nacionalidad; Date of Birth, la fecha de nacimiento; Occupation, la profesión; y Gender, el sexo. Country/Territory of Residence pregunta por el país donde resides actualmente, mientras que City/State of Residence pide la ciudad o región de residencia. Si tienes pasaporte español y vives en otro país, indica por separado la nacionalidad y la residencia reales.",
+            "Visa No. pide el número del visado que hayas obtenido. **Si entras sin visado, no inventes un número**. Distingue los campos obligatorios marcados con asterisco de los opcionales. En Phone No., introduce por separado el prefijo internacional y el número de teléfono. Cuando termines, pulsa Continue para avanzar.",
+            "En la captura de abajo, el botón Retrieve with Passport no está disponible. Si no puedes utilizar la lectura de la zona MRZ del pasaporte que explica la guía oficial, introduce los datos manualmente mirando el documento. Incluso si los recuperas automáticamente, compara el nombre, los apellidos y el número con el pasaporte."
+          ],
+          "image": "tdac-personal-mobile-en.jpg",
+          "caption": "Formulario móvil de datos personales en inglés · vacío, sin datos personales reales",
+          "fields": [
+            [
+              "Family Name / First Name",
+              "Apellidos / nombre tal como figuran en el pasaporte"
+            ],
+            [
+              "Passport No.",
+              "Número de pasaporte"
+            ],
+            [
+              "Nationality/Citizenship",
+              "Nacionalidad del pasaporte"
+            ],
+            [
+              "Country/Territory of Residence",
+              "País de residencia actual"
+            ],
+            [
+              "City/State of Residence",
+              "Ciudad o región de residencia actual"
+            ],
+            [
+              "Visa No.",
+              "Número del visado, si tienes uno expedido"
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "image2": "tdac-personal-details-mobile-en.jpg",
+          "caption2": "Parte inferior de datos personales · profesión, sexo, visado, país y ciudad de residencia"
+        },
+        {
+          "title": "Arrival Information: el trayecto con el que llegas a Tailandia",
+          "paragraphs": [
+            "El paso de información del viaje separa **la llegada a Tailandia y la salida de Tailandia**. Empieza arriba, en Arrival Information, mirando los billetes. Busca la fecha local y el número del vuelo que llega a Tailandia, en lugar de copiar sin más la fecha de salida de España.",
+            "Si vuelas a Tailandia de vacaciones en un vuelo regular de pasajeros, selecciona **HOLIDAY** como propósito, **AIR** como forma de entrada y **COMMERCIAL FLIGHT** como tipo de transporte. Este ejemplo corresponde a unas vacaciones en avión. Para trabajo, estudios o entradas por tierra o mar, indica la opción que refleje tu viaje real.",
+            "Para buscar un país, escribe su nombre en inglés o su código de tres letras y **selecciónalo en la lista de resultados**. Si embarcas en España, busca SPAIN y elige la opción correspondiente. No basta con dejar un código escrito: comprueba que el país seleccionado queda incorporado al campo."
+          ],
+          "image": "tdac-trip-arrival-mobile-en.jpg",
+          "caption": "Pantalla móvil en inglés de información de llegada · Arrival Information",
+          "fields": [
+            [
+              "Date of Arrival · fecha de llegada a Tailandia",
+              "Escribe la fecha local de llegada que figura en el billete, con formato YYYY/MM/DD. Si sales un día y llegas al siguiente, utiliza el día de llegada. También puedes seleccionarlo con el botón del calendario."
+            ],
+            [
+              "Country/Territory where you Boarded · país de embarque",
+              "Selecciona el país o territorio donde embarcas en el vuelo con destino a Tailandia. Si vuelas directamente desde España, elige España. Si haces una conexión y coges el vuelo a Tailandia en otro país, corresponde el país donde embarques en ese tramo."
+            ],
+            [
+              "Purpose of Travel · propósito del viaje",
+              "Para turismo o vacaciones, selecciona HOLIDAY. MEETING, BUSINESS o EDUCATION solo corresponden si ese es el propósito real. Si eliges OTHERS (PLEASE SPECIFY), añade la explicación que se solicite en inglés."
+            ],
+            [
+              "Mode of Travel · forma de entrada",
+              "AIR para avión, LAND para tierra y SEA para barco. Las opciones del tipo de transporte cambian según esta elección."
+            ],
+            [
+              "Mode of Transport · tipo de transporte",
+              "Para un vuelo regular de pasajeros, selecciona COMMERCIAL FLIGHT. PRIVATE/CARGO AIRLINE y OTHERS solo deben utilizarse si realmente corresponden a tu trayecto."
+            ],
+            [
+              "Flight No./Vehicle No. · número de vuelo o vehículo de entrada",
+              "Para un vuelo, copia del billete el código de la aerolínea y los números del vuelo que llega a Tailandia. No es el localizador de reserva ni el número de asiento. Si entras por tierra o mar, escribe los datos del transporte que utilices."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "id": "arrival"
+        },
+        {
+          "title": "Departure Information: cuándo y cómo sales de Tailandia",
+          "paragraphs": [
+            "Debajo de la llegada aparece **Departure Information**. La fecha y el número de vuelo de este apartado corresponden a **la salida de Tailandia**, no a la salida de España. Si tienes ida y vuelta, mira la fecha local de despegue en Tailandia y el número del vuelo de regreso.",
+            "En la pantalla conservada, los campos de salida no llevan el asterisco de obligatoriedad. Si todavía no conoces el trayecto, no inventes fechas ni números de vuelo. Que el formulario permita dejar estos campos sin completar es distinto de tener que poder explicar el regreso o el viaje de continuación ante inmigración.",
+            "Puedes borrar una forma de salida elegida por error con **Clear**. Lee el encabezado para distinguir AIR en la entrada de AIR en la salida."
+          ],
+          "image": "tdac-trip-departure-mobile-en.jpg",
+          "caption": "Pantalla móvil en inglés de información de salida · Departure Information",
+          "fields": [
+            [
+              "Date of Departure · fecha de salida de Tailandia",
+              "Introduce la fecha local en la que sales de Tailandia. No es la fecha en que llegas a España, sino aquella en la que despega el avión del aeropuerto tailandés."
+            ],
+            [
+              "Mode of Travel · forma de salida",
+              "Elige AIR si sales en avión, LAND por tierra o SEA por barco. Puedes entrar y salir por medios diferentes."
+            ],
+            [
+              "Mode of Transport · transporte de salida",
+              "Elige el transporte real que corresponda al medio de salida seleccionado. Un vuelo regular de regreso es COMMERCIAL FLIGHT."
+            ],
+            [
+              "Flight No./Vehicle No. · número de vuelo o vehículo de salida",
+              "Escribe el número del vuelo que sale de Tailandia o del transporte correspondiente. Compruébalo en el billete de regreso; no copies automáticamente el vuelo de llegada."
+            ],
+            [
+              "Clear · borrar selección",
+              "Este botón reinicia la forma de salida si has seleccionado una opción incorrecta."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "id": "departure"
+        },
+        {
+          "title": "Accommodation Information: copia la dirección de tu alojamiento",
+          "paragraphs": [
+            "Abre la reserva y prepara **la dirección del hotel en inglés**. Aquí debes indicar dónde vas a alojarte en Tailandia, no tu domicilio en España. En vez de escribir solo el nombre del hotel de memoria, compara sus datos de zona y dirección con la reserva o con la información oficial del alojamiento.",
+            "Los campos obligatorios pueden cambiar según el tipo de alojamiento. En la pantalla conservada, **al seleccionar HOTEL desaparecen los asteriscos de District y Sub-District**. No des por hecho que ocurre lo mismo con otras categorías: sigue los asteriscos que aparezcan en tu formulario.",
+            "Selecciona primero la zona superior en el orden Province → District, Area → Sub-District, Sub-Area para habilitar las listas siguientes. Aunque dos nombres se parezcan, elige la zona que corresponde a la dirección del hotel. Si te alojas en Bangkok, puedes seleccionar BANGKOK como Province.",
+            "**I am a transit passenger, I don’t stay in Thailand** se refiere a pasajeros en tránsito que no se alojan en Tailandia. No lo marques solo porque no tengas una reserva de hotel. Puede quedar deshabilitado según otras selecciones; si entras de viaje y vas a quedarte en el país, introduce los datos reales del alojamiento."
+          ],
+          "image": "tdac-accommodation-mobile-en.jpg",
+          "caption": "Pantalla móvil del alojamiento en inglés · selección de HOTEL y zonas",
+          "fields": [
+            [
+              "Type of Accommodation in Thailand · tipo de alojamiento",
+              "HOTEL es hotel; YOUTH HOSTEL, albergue juvenil; GUEST HOUSE, pensión o casa de huéspedes; FRIEND’S HOUSE, casa de un amigo; y APARTMENT, apartamento. Elige el alojamiento real y, si marcas OTHERS, añade la explicación solicitada."
+            ],
+            [
+              "Province · provincia o zona principal",
+              "Selecciona la provincia o la zona principal, como Bangkok, de la dirección del alojamiento. No utilices automáticamente la provincia del aeropuerto."
+            ],
+            [
+              "District, Area · distrito o área",
+              "Elige el distrito o área que aparece en la dirección del alojamiento. Primero selecciona Province y después busca en la lista de esa zona. La obligatoriedad depende del tipo de alojamiento."
+            ],
+            [
+              "Sub-District, Sub-Area · subdivisión administrativa",
+              "Selecciona la subdivisión que corresponde a Sub-District o Sub-Area en la dirección. La lista se habilita después de escoger la zona superior."
+            ],
+            [
+              "Post Code · código postal",
+              "Es el código postal tailandés del alojamiento. Si se rellena automáticamente después de elegir la zona, compáralo con la reserva; si lo escribes a mano, utiliza el de ese alojamiento. En la pantalla conservada no lleva asterisco obligatorio."
+            ],
+            [
+              "Address · dirección completa",
+              "Escribe el nombre del alojamiento y su dirección real en inglés: edificio, número y calle. Elegir la zona no completa la dirección detallada. El campo conservado admite 215 caracteres: si la dirección es larga, organiza el texto sin omitir el hotel ni los datos de ubicación necesarios."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "id": "accommodation"
+        },
+        {
+          "title": "Health Declaration: países donde has estado en las últimas 2 semanas",
+          "paragraphs": [
+            "La declaración sanitaria pregunta por **los países y territorios donde has estado en las 2 semanas anteriores a la entrada**. Si has permanecido en España y viajas directamente, selecciona España. Si durante esas semanas has estado también en otros países, refleja tu historial real. No se refiere a las ciudades tailandesas que vas a visitar.",
+            "Escribe el nombre en inglés o el código y selecciona el país o territorio entre los resultados. Nacionalidad, residencia, país donde embarcaste hacia Tailandia y países visitados recientemente son preguntas diferentes. Si enlazas varios viajes, no copies automáticamente el mismo país en todos los campos.",
+            "Arriba aparece un aviso de vacunación según los criterios del Ministerio de Salud de Tailandia. La guía oficial explica que **pueden aparecer preguntas sanitarias adicionales** según los países visitados, el país de embarque, la nacionalidad o el vuelo. Lee las preguntas y los justificantes solicitados en tu caso y responde con tus datos reales. La captura original se obtuvo con un ejemplo de Corea del Sur: no muestra todos los posibles requisitos de otros viajeros.",
+            "Cuando termines, abre la revisión con **Preview**. Previous vuelve al paso anterior y Add Other Travelers añade la declaración de un acompañante. No utilices el historial de países de una persona para rellenar el de otra."
+          ],
+          "image": "tdac-health-mobile-en.jpg",
+          "caption": "Pantalla sanitaria básica en inglés · países visitados durante las 2 semanas anteriores",
+          "fields": [
+            [
+              "Countries/territories where you stayed within two weeks before arrival · países visitados recientemente",
+              "Selecciona los países y territorios donde realmente hayas estado en las 2 semanas previas a entrar en Tailandia. No son los futuros destinos tailandeses ni la autoridad que expidió tu pasaporte."
+            ],
+            [
+              "Si aparecen preguntas sanitarias o justificantes adicionales",
+              "Lee los requisitos y a quién se aplican; responde con tus datos sanitarios y de viaje reales. No copies respuestas de otro ejemplo para preguntas que no aparecen en la pantalla básica."
+            ],
+            [
+              "Preview / Previous / Add Other Travelers",
+              "Preview permite revisar los datos; Previous vuelve atrás; Add Other Travelers añade otro viajero. Utiliza el pasaporte y los datos reales de cada acompañante."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "id": "health"
+        },
+        {
+          "title": "Preview: introduce tu correo y revisa los datos antes de enviar",
+          "paragraphs": [
+            "En la vista previa, revisa los apellidos, el nombre, el número de pasaporte, la nacionalidad y la fecha de nacimiento, además de **la fecha de llegada, el país de embarque, el vuelo de entrada y la dirección del alojamiento**. Si detectas un error, vuelve con **Edit** para corregirlo. EXAMPLE en la captura es un ejemplo explicativo; no se presentó una declaración real.",
+            "En el **campo de correo electrónico** al final, escribe una dirección tuya donde puedas recibir el documento. No es un campo para el nombre: comprueba las letras y el texto a ambos lados de @. Poder abrir ese buzón desde el mismo móvil facilitará encontrar el mensaje después del envío.",
+            "Lee las condiciones en **Terms and conditions** y, si estás de acuerdo, marca la casilla y pulsa **Submit**. El botón permanece deshabilitado sin esa aceptación. Haber abierto Preview no significa que la declaración esté enviada.",
+            "Si aparece un error al enviar o no se muestra el documento final, no des el trámite por completado. Comprueba el aviso de éxito y la TDAC real antes de guardarlos."
+          ],
+          "image": "tdac-preview-submit-mobile-en.jpg",
+          "caption": "Parte inferior de Preview en el móvil · correo, condiciones y Submit",
+          "fields": [
+            [
+              "Edit · editar",
+              "Vuelve al paso de introducción para corregir un error detectado al revisar."
+            ],
+            [
+              "Please specify an email to send Thailand Digital Arrival Card · correo receptor",
+              "Escribe una dirección donde puedas recibir correo. Un error dificultaría encontrar el documento: vuelve a leerla antes de enviar."
+            ],
+            [
+              "I have read and accepted the Terms and conditions · aceptación de las condiciones",
+              "Lee las condiciones enlazadas y marca tú mismo la casilla solo si las aceptas."
+            ],
+            [
+              "Submit · envío definitivo",
+              "Envía después de revisar los datos, introducir el correo y completar la aceptación necesaria. A continuación debes comprobar que aparecen el aviso de éxito y el documento."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "imageNote": "EXAMPLE y la dirección de la pantalla son datos ficticios de demostración. No se aceptaron las condiciones ni se presentó una declaración real.",
+          "id": "preview"
+        },
+        {
+          "title": "Envío completado: descarga la TDAC y guárdala en el móvil",
+          "paragraphs": [
+            "Si el envío se completa, podrás ver **el aviso de éxito y la descarga de la TDAC**. El vídeo oficial muestra tanto la pantalla final como el documento descargable. La imagen de abajo es un **ejemplo de finalización del vídeo oficial**, capturado desde un navegador móvil. La interfaz dentro del vídeo corresponde a una versión antigua de escritorio y puede diferir de la solicitud móvil actual.",
+            "Descarga el documento y comprueba que el nombre, los datos del pasaporte y la fecha de llegada corresponden a tu viaje. Conserva el número de declaración y el código QR que aparezcan, y localiza también el documento recibido por correo. Los números y QR del vídeo son muestras y no pueden utilizarse como justificante de tu entrada.",
+            "**Guarda el archivo para abrirlo sin conexión**. Es mejor conservar el propio documento que depender de un enlace del correo: así podrás mostrarlo si la conexión del aeropuerto es inestable. Si lo necesitas, lleva también una copia impresa.",
+            "Ten el justificante disponible al entrar y consérvalo durante la estancia. **El documento TDAC no sustituye al visado ni a la autorización de entrada**. Las condiciones de exención o de visado y el control de inmigración siguen siendo trámites separados."
+          ],
+          "image": "tdac-complete-official-video-mobile-en.jpg",
+          "caption": "Vídeo oficial de presentación de la TDAC · ejemplo de finalización y descarga en el minuto 2:45",
+          "fields": [
+            [
+              "Aviso de finalización",
+              "Comprueba que aparece el mensaje de envío completado. Es distinto de la revisión previa al envío."
+            ],
+            [
+              "Descarga del documento TDAC",
+              "Descarga el documento final y guárdalo en los archivos del móvil. Comprueba que puedes abrirlo incluso con la conexión desactivada."
+            ],
+            [
+              "Número de declaración, datos del viajero y código QR",
+              "Revisa el nombre, los datos del pasaporte y la fecha de llegada de tu documento y conserva sus justificantes. No uses los ejemplos del vídeo como documentos reales."
+            ],
+            [
+              "Documento recibido por correo",
+              "Localiza y conserva el justificante en el buzón indicado durante el envío. Puedes descargarlo o imprimirlo si lo necesitas."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "imageSourceUrl": "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s",
+          "imageCredit": "Vídeo de presentación enlazado por la guía oficial de Inmigración de Tailandia",
+          "imageNote": "Ejemplo del vídeo oficial capturado a 390px. La pantalla del vídeo es un ejemplo de escritorio de la guía 1.4; no se presentó una solicitud real para capturar una pantalla móvil actual de finalización.",
+          "id": "complete"
+        },
+        {
+          "title": "Cómo modificar una TDAC ya enviada",
+          "paragraphs": [
+            "Para corregir una declaración presentada, pulsa **Update Arrival Card** en la primera pantalla. El buscador conservado incluye número TDAC, fecha de nacimiento, fecha de llegada y nacionalidad. Rellénalo mirando el documento recibido y el pasaporte y pulsa **Search**.",
+            "Según las preguntas frecuentes oficiales, **no se pueden modificar el nombre completo del pasaporte, el número de pasaporte, la nacionalidad ni la fecha de nacimiento**. Si uno de estos datos es incorrecto, presenta una declaración nueva con la información correcta. Los datos editables, como el alojamiento, deben corregirse antes de entrar; vuelve a enviarlos y guarda también el documento actualizado.",
+            "La imagen muestra la búsqueda de una declaración ya recibida. Si todavía no has enviado ninguna, no intentes encontrar aquí un número TDAC: vuelve a Arrival Card para empezar una nueva."
+          ],
+          "image": "tdac-update-mobile-en.jpg",
+          "caption": "Buscador móvil de actualización en inglés · número TDAC, nacimiento, llegada y nacionalidad",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Hay que pagar por la TDAC?",
+          "a": "No. Presentar la TDAC en la web oficial de Inmigración de Tailandia no tiene tasa. Antes de empezar, comprueba que la dirección sea tdac.immigration.go.th."
+        },
+        {
+          "q": "¿Puedo leer las indicaciones de la TDAC en español?",
+          "a": "Puedes utilizar los ajustes de idioma disponibles o la traducción del navegador para leer las indicaciones. Los datos deben introducirse en inglés: copia el nombre y el número del pasaporte del documento y la dirección del alojamiento de la reserva en inglés."
+        },
+        {
+          "q": "¿También necesitan TDAC los niños y quienes viajan sin visado?",
+          "a": "Sí. Cada niño y cada viajero español que entre sin visado necesita su propia TDAC. La declaración se aplica a quienes no tienen nacionalidad tailandesa. La excepción es una conexión sin pasar el control de inmigración en Tailandia."
+        },
+        {
+          "q": "¿Al rellenar la TDAC obtengo un visado tailandés?",
+          "a": "No. Presentar la TDAC no expide un visado: la declaración de llegada y el visado son preparativos distintos. Si entras con pasaporte español bajo la exención turística, debes cumplir sus condiciones; si viajas con un propósito que requiere visado, debes obtenerlo por separado."
+        },
+        {
+          "q": "He escrito mal el nombre: ¿puedo corregirlo?",
+          "a": "Si el nombre es incorrecto, envía una declaración nueva con el nombre correcto. No se pueden modificar el nombre completo del pasaporte, su número, la nacionalidad ni la fecha de nacimiento. Los datos editables, como el alojamiento, pueden corregirse antes de entrar desde Update Arrival Card; después vuelve a enviar y guardar el documento."
+        },
+        {
+          "q": "¿Debo poner el localizador de reserva como número de vuelo?",
+          "a": "No. En Flight No./Vehicle No. escribe el código de la aerolínea y los números del vuelo que llega a Tailandia, tal como aparecen en el billete. No es el localizador de la reserva ni el número de asiento."
+        },
+        {
+          "q": "¿La fecha de salida de la TDAC es la llegada a España?",
+          "a": "Date of Departure, dentro de Departure Information, es la fecha local en la que sales de Tailandia. Puede ser distinta de la llegada a España: mira el apartado de salida desde Tailandia del billete de regreso."
+        },
+        {
+          "q": "Si elijo HOTEL, ¿son obligatorios District y Sub-District?",
+          "a": "En la pantalla conservada, al seleccionar HOTEL desaparecen los asteriscos obligatorios de District y Sub-District. La obligatoriedad cambia según el tipo de alojamiento: sigue los asteriscos de tu propio formulario."
+        },
+        {
+          "q": "¿En la declaración sanitaria debo indicar las ciudades tailandesas que visitaré?",
+          "a": "No. Debes seleccionar los países y territorios donde realmente has estado durante las 2 semanas anteriores a entrar en Tailandia. No son los futuros destinos del viaje."
+        },
+        {
+          "q": "¿La TDAC está terminada cuando se abre Preview?",
+          "a": "No. Preview es la revisión previa al envío. Debes revisar el correo y las condiciones, enviar el formulario y comprobar después el aviso de éxito y el documento TDAC."
+        }
+      ],
+      "sources": [
+        [
+          "Inmigración de Tailandia · sitio oficial de la TDAC",
+          "https://tdac.immigration.go.th/"
+        ],
+        [
+          "Inmigración de Tailandia · guía oficial de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Inmigración de Tailandia · preguntas frecuentes de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ],
+        [
+          "Vídeo oficial de Inmigración · ejemplo de envío completado",
+          "https://www.youtube.com/watch?v=eHyYt1eXjOo"
+        ]
+      ],
+      "facts": [
+        [
+          "Web oficial",
+          "https://tdac.immigration.go.th/"
+        ],
+        [
+          "Precio",
+          "Gratuito"
+        ],
+        [
+          "Plazo",
+          "Dentro de los 3 días anteriores a llegar a Tailandia, incluido el día de llegada"
+        ],
+        [
+          "Idioma de los datos",
+          "Inglés · datos del pasaporte tal como figuran en él"
+        ],
+        [
+          "Pantallas de la guía",
+          "Móvil en inglés · capturas originales del 2026-10-14"
+        ]
+      ],
+      "checkedAt": "2026-10-18",
+      "locale": "es",
+      "market": "ES",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Comparación con la introducción, la reserva, el acceso y las respuestas completas de Sirocco: destinatario, acción concreta, condiciones y excepciones.",
+        "record": "artifacts/localization-20261018/es/review.md",
+        "market": "ES"
+      }
+    },
+    {
+      "id": "visa",
+      "title": "Tipos de visado para Tailandia: turismo, trabajo, estudios y otras estancias",
+      "description": "Distingue la exención turística del visado de turista, DTV, trabajo, estudios y jubilación, y conoce los pasos de Thai e-Visa para solicitudes a Madrid.",
+      "intro": "Quien va de vacaciones y quien se traslada a Tailandia para trabajar o estudiar necesita preparar trámites diferentes. Si viajas de turismo con un pasaporte ordinario español, empieza por comprobar si cumples la entrada sin visado. Para trabajar o estudiar, la entrada turística no sustituye las autorizaciones correspondientes. Decide qué vas a hacer y cuánto tiempo quieres quedarte antes de elegir el visado adecuado.",
+      "sections": [
+        {
+          "title": "Exención de visado, TDAC y visado cumplen funciones distintas",
+          "paragraphs": [
+            "La **exención de visado** permite entrar sin obtener previamente un visado si cumples sus condiciones. La **TDAC** es la declaración de llegada en línea, mientras que el **visado** se solicita para un propósito como turismo, estudios o trabajo. Completar la TDAC no equivale a recibir un visado.",
+            "Con pasaporte ordinario español, la exención turística es de un máximo de **30 días desde el 15 de septiembre de 2026**, según el aviso específico de Madrid. Esta guía utiliza las condiciones del pasaporte español. Si viajas con personas de otra nacionalidad, comprobad sus requisitos por separado: leer una guía en español no hace aplicables las condiciones de España."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Qué tipo de visado mirar según el propósito del viaje",
+          "paragraphs": [
+            "Una vez que sepas qué vas a hacer en Tailandia, busca la categoría correspondiente. Thai e-Visa y la Embajada en Madrid separan la información por turismo, trabajo, estudios y otros motivos. Cada categoría tiene sus requisitos y documentos: que dos nombres se parezcan no significa que permitan la misma actividad. Lee los detalles de la actividad concreta que vayas a realizar."
+          ],
+          "fields": [
+            [
+              "Visado de turista · Tourist Visa",
+              "Para turismo y vacaciones. Distingue las condiciones de entrada única y entrada múltiple."
+            ],
+            [
+              "Trabajo y negocios · Work & Business",
+              "Para empleo o actividades empresariales que correspondan a la categoría. La entrada turística sin visado y la TDAC no son un permiso general para trabajar."
+            ],
+            [
+              "Estudios · Studying / Non-Immigrant ED",
+              "Para estudios en escuelas o centros educativos y las modalidades de formación que correspondan."
+            ],
+            [
+              "Jubilación · Non-Immigrant O / O-A",
+              "Para estancias de jubilados que cumplan los requisitos de edad, económicos y demás condiciones. Cambian según la categoría."
+            ],
+            [
+              "DTV · Destination Thailand Visa",
+              "Categoría para Workcation y actividades relacionadas con el denominado soft power tailandés que cumplan sus requisitos. Es distinta del visado de turista."
+            ],
+            [
+              "Tránsito · Transit Visa",
+              "Para tránsito, actividades deportivas o tripulantes, según el motivo y los requisitos de la categoría."
+            ],
+            [
+              "LTR · Long-Term Resident",
+              "Visado de residencia de larga duración para solicitantes que cumplan sus requisitos."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "La solicitud se tramita en Thai e-Visa",
+          "paragraphs": [
+            "Crea una cuenta en **thaievisa.go.th** y completa la solicitud. Sube los documentos requeridos, termina el pago que corresponda y presenta el formulario. Después revisa el estado y el correo por si te piden documentación adicional. Si lo aprueban, guarda la confirmación de visado que recibas.",
+            "La información de Madrid se dirige a las solicitudes bajo su jurisdicción: España y Andorra, con los documentos de residencia que correspondan cuando el solicitante tenga otra nacionalidad. Si resides o te encuentras fuera de esa jurisdicción, comprueba qué misión debe tramitar tu caso antes de seleccionar Madrid. Tener pasaporte español no permite aplicar automáticamente las condiciones de Madrid a una solicitud presentada en otro país."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Distingue la validez del visado de la estancia autorizada",
+          "paragraphs": [
+            "La validez del visado indica cuándo puedes utilizarlo para entrar; la estancia autorizada indica cuánto puedes quedarte en Tailandia después de la entrada. Incluso en un visado turístico de entrada única, estos plazos se fijan por separado.",
+            "Tener un visado no significa que puedas permanecer hasta su último día de validez. Tras el control de entrada, mira **la fecha real de fin de estancia autorizada en el pasaporte** y organiza la salida según ella. Si necesitas una prórroga, solicítala dentro del plazo aplicable y espera su resolución: presentarla no amplía automáticamente la estancia."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Es obligatorio obtener un visado de turista para Tailandia?",
+          "a": "No si viajas con pasaporte ordinario español y cumples todas las condiciones de exención turística. Si vas por trabajo, estudios u otro propósito, o necesitas una estancia diferente, prepara la categoría adecuada. Las condiciones españolas no se pueden aplicar automáticamente a acompañantes de otra nacionalidad."
+        },
+        {
+          "q": "¿Son lo mismo DTV y visado de turista?",
+          "a": "No. Son categorías diferentes. DTV corresponde a actividades como Workcation o determinadas actividades relacionadas con el soft power tailandés que cumplan sus requisitos, mientras que el visado de turista es para turismo. Revisa por separado los requisitos y documentos según lo que vayas a hacer."
+        },
+        {
+          "q": "¿Hay que ir a la embajada para presentar el visado?",
+          "a": "Las solicitudes dirigidas a la Embajada de Tailandia en Madrid se presentan por Thai e-Visa con pago en línea; no es necesario entregar presencialmente el pasaporte y los originales para la presentación ordinaria. Comprueba antes que Madrid sea la misión competente para tu situación y sigue cualquier petición adicional de la embajada."
+        }
+      ],
+      "sources": [
+        [
+          "Embajada de Tailandia en Madrid · nuevas condiciones para pasaportes españoles desde el 15 de septiembre de 2026",
+          "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · visado de turista de entrada única",
+          "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · visado de turista de entrada múltiple",
+          "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · información de visados y jurisdicción",
+          "https://madrid.thaiembassy.org/en/page/19412-visa"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · tasas consulares",
+          "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548"
+        ],
+        [
+          "Inmigración de Tailandia · guía oficial de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Inmigración de Tailandia · preguntas frecuentes de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "es",
+      "market": "ES",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Comparación con la introducción, la reserva, el acceso y las respuestas completas de Sirocco: destinatario, acción concreta, condiciones y excepciones.",
+        "record": "artifacts/localization-20261018/es/review.md",
+        "market": "ES"
+      }
+    },
+    {
+      "id": "tourist-visa",
+      "title": "Visado turístico de Tailandia desde España: entrada única, múltiple y e-Visa",
+      "description": "Consulta las condiciones de Madrid para el visado turístico tailandés: validez, estancia, documentos, tasas de 35 o 175 euros y solicitud por Thai e-Visa.",
+      "intro": "Si vas de turismo con pasaporte ordinario español, no empieces solicitando un visado sin mirar antes si la exención de entrada encaja con tu viaje. Si necesitas visado turístico, compara entrada única y múltiple según cuántas veces vayas a entrar en Tailandia. Esta guía utiliza las instrucciones de la Embajada de Tailandia en Madrid para preparar los documentos, solicitarlo en línea y guardar la aprobación; sus tasas y requisitos no se aplican automáticamente a otras embajadas.",
+      "sections": [
+        {
+          "title": "Qué cambia entre entrada única y entrada múltiple",
+          "paragraphs": [
+            "Cambian el plazo para utilizar el visado y el número de entradas. Madrid indica **90 días de validez y 60 días de estancia para entrada única**, y **6 meses de validez y hasta 60 días consecutivos por entrada para entrada múltiple**. Seis meses de validez no permiten permanecer seis meses seguidos en una sola entrada. El visado de entrada única deja de servir al salir del país.",
+            "La información consular contempla solicitar **hasta 30 días adicionales en Inmigración de Tailandia**. La prórroga requiere solicitud y decisión: no la des por concedida al organizar el regreso. Tras entrar, utiliza la fecha autorizada del pasaporte para preparar cualquier trámite necesario. Si no cumples los requisitos de entrada múltiple y quieres visitar países vecinos, Madrid remite al visado de entrada única y al trámite de reentrada que corresponda; no lo confundas con un nuevo permiso automático."
+          ],
+          "fields": [
+            [
+              "Visado turístico de entrada única",
+              "Validez 90 días desde la expedición / estancia 60 días / deja de ser válido al salir"
+            ],
+            [
+              "Visado turístico de entrada múltiple",
+              "Validez 6 meses desde la expedición / hasta 60 días consecutivos por entrada"
+            ],
+            [
+              "Prórroga",
+              "Posibilidad de solicitar hasta 30 días adicionales ante Inmigración de Tailandia · sujeta a resolución"
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Quién puede solicitarlo en Madrid y qué documentos preparar",
+          "paragraphs": [
+            "Prepara el pasaporte, una fotografía reciente, los billetes y las reservas. Para **entrada única**, Madrid exige un pasaporte biométrico o documento de viaje con **al menos 6 meses de validez**; para **entrada múltiple**, la página pide una caducidad **posterior a 12 meses desde la entrada**. La fotografía debe ser frontal, sin gafas de sol ni la cabeza cubierta, y tomada **en los últimos 6 meses**. Descarga también las reservas de hotel.",
+            "Las solicitudes bajo Madrid deben corresponder a su jurisdicción de España y Andorra. Quienes tengan otra nacionalidad deben presentar la documentación de residencia indicada, como la tarjeta NIE o el permiso de residencia andorrano según el caso. La página de entrada múltiple advierte que, sin residencia legal en España, no puede solicitarse allí ese visado turístico. Estas condiciones de residencia no se sustituyen por estar leyendo la guía en español.",
+            "Para **entrada múltiple**, Madrid pide acreditar medios económicos y un saldo medio mínimo durante los **últimos 6 meses de 200 000 THB (6000 EUR)**. El trabajador por cuenta ajena añade la última nómina firmada o sellada; el autónomo, justificantes de cuotas y de IVA e IRPF, con los modelos indicados por la embajada; el pensionista, un certificado bancario o de la Seguridad Social con la cuantía. Los estudiantes sin ingresos y los menores necesitan una declaración del familiar garante, que debe aportar los documentos correspondientes a su situación laboral. Son documentos para esta solicitud, no un pago por la TDAC, que se presenta gratuitamente.",
+            "Para entrada única, prepara el billete de ida y vuelta o de continuación a un tercer país, o la reserva. Para **entrada múltiple**, debes acreditar **al menos dos entradas y dos salidas** a utilizar en los seis meses de validez. Las reservas confirmadas de alojamiento deben cubrir toda la estancia y coincidir con las fechas de los billetes. Si en la solicitud múltiple te invita alguien, Madrid pide carta de invitación y documento del anfitrión —pasaporte o identificación tailandesa—; si es extranjero residente o trabajador en Tailandia, añade su visado o permiso de trabajo. Para menores también pide copia del libro de familia y del DNI de ambos progenitores.",
+            "Lee además la lista que aparezca en tu solicitud concreta de e-Visa. La embajada puede pedir documentos adicionales, decidir la categoría que corresponda o denegar una solicitud que no reúna los requisitos. Subir archivos no significa que el visado esté aprobado."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          },
+          "paragraphAudiences": [
+            "ES",
+            "ES",
+            "ES",
+            "ES",
+            "ES"
+          ],
+          "foreignPassportExceptions": {
+            "residence": "Solicitantes de otras nacionalidades bajo Madrid: documentación de residencia en España o Andorra según las instrucciones de la misión; no se trasladan requisitos de Corea."
+          }
+        },
+        {
+          "title": "De la solicitud en línea a guardar la aprobación",
+          "paragraphs": [
+            "Crea una cuenta en **thaievisa.go.th**, selecciona la nacionalidad, tu ubicación real, el tipo de pasaporte y el propósito turístico y completa el formulario. Si el sistema lee el pasaporte automáticamente, compara tú mismo los apellidos, el nombre y cualquier otro nombre con el documento.",
+            "Sube la documentación, termina el pago y pulsa **Submit para presentar la solicitud**. Las tasas publicadas por Madrid son **35 EUR para entrada única y 175 EUR para entrada múltiple**. No se aplica a una solicitud española la exención de tasas que pueda existir para otra nacionalidad o misión. Antes del pago, revisa la categoría, el tipo de pasaporte y las condiciones que muestre el trámite.",
+            "Después, revisa el estado y el correo y responde a cualquier petición de documentos adicionales. Cuando se apruebe, descarga y conserva la confirmación e-Visa. Madrid indica presentar la solicitud con uno o dos meses de antelación y **no más de 3 meses antes del viaje**, pues el sistema puede cancelar solicitudes fuera de ese intervalo. La fecha de expedición depende de la revisión del expediente: deja margen para las comprobaciones y las subsanaciones."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        },
+        {
+          "title": "Aunque tengas visado turístico, presenta también la TDAC",
+          "paragraphs": [
+            "Aunque ya tengas la aprobación del visado, debes **presentar la TDAC por separado**. Hazlo en la web oficial dentro de los tres días previos a la llegada, incluido el día de llegada, y guarda el documento recibido en el móvil.",
+            "En el aeropuerto, lleva accesibles el pasaporte y la confirmación del visado. Tras inmigración, comprueba la fecha real de fin de estancia autorizada. La salida debe ajustarse a la autorización concedida al entrar, no simplemente a la fecha de validez del visado."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica",
+              "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple",
+              "https://madrid.thaiembassy.org/en/page/19412-visa",
+              "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Texto oficial leído directamente. Condiciones del pasaporte español y de las solicitudes a Madrid separadas de las condiciones coreanas. Capturas móviles originales conservadas como ejemplos fechados, sin nueva presentación."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿También los españoles necesitan visado turístico?",
+          "a": "Si tienes pasaporte ordinario español y cumples la exención turística, no necesitas solicitar un visado de turista aparte. Desde el 15 de septiembre de 2026, el aviso de Madrid fija un máximo de 30 días sin visado. Si tu viaje requiere otra estancia, solicita el visado correspondiente a tu pasaporte, propósito y condiciones."
+        },
+        {
+          "q": "¿Puedo quedarme 6 meses seguidos con el visado de entrada múltiple?",
+          "a": "No. Los seis meses son la validez para utilizar el visado; Madrid indica hasta 60 días consecutivos por entrada. No equivalen a una estancia continua de seis meses. Después de entrar, organiza la salida según la fecha autorizada que figure en el pasaporte."
+        },
+        {
+          "q": "¿Cuánto cuesta el visado turístico solicitado en Madrid?",
+          "a": "La tabla de tasas de Madrid indica 35 EUR para entrada única y 175 EUR para entrada múltiple. Corresponden a esa misión; no copies exenciones de tasas de otros pasaportes ni precios de otras embajadas. Comprueba la categoría y los datos antes de completar el pago de e-Visa."
+        },
+        {
+          "q": "¿Puedo viajar inmediatamente después de enviar la solicitud?",
+          "a": "Enviar la solicitud no significa haber recibido el visado. Revisa el estado y el correo y espera la aprobación correspondiente. Si solicitan más documentos, el proceso puede alargarse. Una indicación de plazo no garantiza el día de expedición."
+        }
+      ],
+      "sources": [
+        [
+          "Embajada de Tailandia en Madrid · nuevas condiciones para pasaportes españoles desde el 15 de septiembre de 2026",
+          "https://madrid.thaiembassy.org/en/content/visa-exemption-and-voa-scheme-2026?cate=6238915fb179ed21a6777373"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · visado de turista de entrada única",
+          "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-unica"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · visado de turista de entrada múltiple",
+          "https://madrid.thaiembassy.org/en/publicservice/visado-de-turista-entrada-multiple"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · información de visados y jurisdicción",
+          "https://madrid.thaiembassy.org/en/page/19412-visa"
+        ],
+        [
+          "Embajada de Tailandia en Madrid · tasas consulares",
+          "https://madrid.thaiembassy.org/en/publicservice/annoucement-consular-service-fees-15-july-2024?cate=5d7ce71215e39c3e04000548"
+        ],
+        [
+          "Inmigración de Tailandia · guía oficial de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Inmigración de Tailandia · preguntas frecuentes de la TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "es",
+      "market": "ES",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Comparación con la introducción, la reserva, el acceso y las respuestas completas de Sirocco: destinatario, acción concreta, condiciones y excepciones.",
+        "record": "artifacts/localization-20261018/es/review.md",
+        "market": "ES"
+      }
+    }
+  ]
+}

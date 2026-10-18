@@ -1,0 +1,43 @@
+{
+  "locale": "en",
+  "market": "WORLDWIDE",
+  "reviewedOn": "2026-10-18",
+  "sourceCaptureDatePreserved": "2026-10-14",
+  "newResearchScope": "Official immigration and visa applicability only",
+  "officialSources": [
+    {
+      "url": "https://www.thaievisa.go.th/",
+      "applicability": "Official nationality/passport/current-location eligibility lookup; dynamically rendered page exposed no extractable text, therefore no new universal numeric eligibility inferred."
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/index.html",
+      "applicability": "Non-Thai arrivals; English entries; prepare/submit/download steps; guide now1.21/application2026.10.00."
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "applicability": "Three-day window including arrival; new form each entry; children; transit without immigration; uneditable full name/passport number/nationality/birth date."
+    }
+  ],
+  "changedFields": [
+    "All4 guides title/description/intro/sections/FAQ/facts and market labels",
+    "Korean90-day agreement replaced by passport-specific lookup",
+    "Korea-only20000/40000 cash, tourist visa90/180 validity60-day stay30-day extension,6-month documents,bank balances,fee exemption,7-business-day estimate not universalised; originals remain in Korean source",
+    "KOR boarding/recent-country screenshots explicitly labelled examples; no new screenshots",
+    "TDAC screenshot date and assets preserved; newer guide version recorded separately"
+  ],
+  "knownDifferences": [
+    "Main guide omits passport number from its uneditable list while FAQ explicitly includes it; retained FAQ rule.",
+    "Current guide update-search prose omits arrival date but preserved Oct14 screen includes it; labelled as preserved screen, no current UI claim."
+  ],
+  "preservedOriginalSources": {
+    "https://consular.mfa.go.th/th/content/1-9-69-00?cate=5ddbe42115e39c4768007e1d&menu=5d68c88b15e39c160c008174": "태국 외교부 · 2026년 9월 15일 시행 무비자 개편",
+    "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba": "주카타르 태국대사관 · 2026년 9월 16일 갱신 무비자 안내",
+    "https://tdac.immigration.go.th/manual/en/index.html": "TDAC 영어 사용자 가이드 · 버전 1.19",
+    "https://tdac.immigration.go.th/manual/en/faq.html": "TDAC 공식 FAQ",
+    "https://seoul.thaiembassy.org/kr/publicservice/관광비자-tourist-visa?cate=5d661cd515e39c30180049a4": "주한 태국대사관 · 관광비자",
+    "https://tdac.immigration.go.th/": "태국 이민국 TDAC 공식 사이트",
+    "https://www.youtube.com/watch?v=eHyYt1eXjOo": "태국 이민국 공식 제출 안내 영상 · 완료 예시",
+    "https://www.thaievisa.go.th/": "태국 외교부 전자비자 공식 사이트",
+    "https://seoul.thaiembassy.org/kr/publicservice/비자-신청-안내": "주한 태국대사관 · 비자 신청 안내 · 2026년 8월 28일"
+  }
+}

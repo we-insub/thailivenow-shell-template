@@ -1,0 +1,71 @@
+{
+  "set": "D",
+  "locale": "zh-tw",
+  "market": "Taiwan",
+  "travel": "complete",
+  "rooftops": "complete",
+  "cameras": "complete",
+  "ui": "complete",
+  "completionScope": "Full manuscripts and source-content comparison only; final rendered pages not yet accepted",
+  "counts": {
+    "destinations": 13,
+    "seasonRegions": 6,
+    "seasonMonthRows": 72,
+    "climateNumericCellsPreserved": 360,
+    "entryGuides": 4,
+    "rooftops": 44,
+    "cameras": 29,
+    "uiKeys": 1225
+  },
+  "entryEvidence": "complete_official_primary_sources_read_including_images_and_linked_English",
+  "lastOfficialSourceCheckOn": "2026-10-18",
+  "climateSourceCheckedOn": "2026-10-14",
+  "tdacScreenshotsOn": "2026-10-14",
+  "latestHtmlGapReplay": {
+    "pages": 101,
+    "inputGaps": 194,
+    "remaining": 0,
+    "sourceAuditSha256": "87592e53bc2b78cf96aca7d7684ebe2f3e39f6ef1e0e91b15dfc79032269e02d",
+    "note": "Coordinator native44-rooftop/29-camera SSR gaps replay; final actual browser verification and full build remain coordinator-owned"
+  },
+  "dynamicUiDictionaryFixtures": {
+    "cases": 21,
+    "hangulRemaining": 0,
+    "numericMismatches": 0,
+    "scope": "text simulation only; actual DOM/click/weather API not checked here"
+  },
+  "uiVariableMismatches": 0,
+  "contentDataIssues": 0,
+  "sourceNumericFormatDifferencesReviewed": 51,
+  "outputSha256": {
+    "travel": "ae42acb3e4c413af5a4e27b3892cda5ed73f6e8d5b2faf736cd5046228e3cee7",
+    "rooftops": "3cadbea01996beab72c383692c308f0ced18874951ef79822eab637d2e03a81b",
+    "cameras": "5323a33c7c5d022d25e8089b6706f3eaf56e2faca942dbe55fbbaaf5036e5f9b",
+    "ui": "5655a327e67591f65a00f51dea2928cab8ffae2aa30c276d1206e5c55dd8ebed",
+    "entry-evidence": "287c4526b4c5d6ea52e09de186178c095ec816db88da400a82dde2113dc692a1"
+  },
+  "htmlReview": "pending_central_final_build_and_actual_page_audit",
+  "pcMobile": "pending_central_integration",
+  "sameLanguageIncomingOutgoingLinks": "pending_central_actual_initial_HTML_verification",
+  "seoDatePagesRuntime": "pending_central_integration",
+  "build": "not_run_owned_by_coordinator",
+  "commit": "not_performed",
+  "push": "not_performed",
+  "deployment": "not_authorized_not_performed",
+  "indexSubmission": "not_authorized_not_performed",
+  "currentStep": "D source/manuscript/UI review complete; latest native101-page SSR194 gaps and map-selection88 gaps both replay0. UI1225 keys. Ready for coordinator final build/browser checks.",
+  "mapSelectionDynamicGapReplay": {
+    "totalComposedStringsInCoordinatorAudit": 141,
+    "inputGaps": 88,
+    "remaining": 0,
+    "extraFixtures": 9,
+    "numberMismatches": 0,
+    "variableMismatches": 0,
+    "sourceAuditSha256": "726b01f36fcfa51c4b7406d655490d84afdb9453a257ab8d3713b4c210b4d919",
+    "evidence": "artifacts/localization-20261018/zh-tw/dynamic-audit-replay.json",
+    "scope": "Dictionary replay; actual map click/browser verification and full build remain coordinator-owned",
+    "uiKeys": 1225,
+    "uiSha256": "5655a327e67591f65a00f51dea2928cab8ffae2aa30c276d1206e5c55dd8ebed"
+  },
+  "finalComposedUiCheck": "artifacts/localization-20261018/zh-tw/final-composed-ui-check.json"
+}

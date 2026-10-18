@@ -1,0 +1,6 @@
+---
+import EntryGuideLayout from '../../../components/EntryGuideLayout.astro';
+import {localizedLocales,getLocalizedPack} from '../../../lib/localized-content';
+export function getStaticPaths(){return localizedLocales('travel').flatMap(item=>getLocalizedPack(item.code).travel.entry.filter(g=>g.id!=='entry').map(guide=>({params:{locale:item.code,id:guide.id},props:{guide}})));}
+---
+<EntryGuideLayout locale={Astro.params.locale} guide={Astro.props.guide}/>

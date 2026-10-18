@@ -1,0 +1,189 @@
+{
+  "locale": "zh-tw",
+  "checkedOn": "2026-10-18",
+  "scope": "Taiwan ordinary passport; applicants currently in Taiwan and Taipei office only",
+  "researchMethod": "Read official HTML and inspect original official notice images; search snippets not used as final evidence",
+  "sources": [
+    {
+      "url": "https://tteo.thaiembassy.org/th/page/visa-exempt-voa?menu=5d7dc71915e39c072c004ead",
+      "title": "Taipei office 2026 visa exemption notice",
+      "read": "HTML title/update date plus full original infographic",
+      "asset": "artifacts/localization-20261018/zh-tw/visa-exemption-2026.jpg",
+      "assetUrl": "https://image.mfa.go.th/mfa/0/YykHYtRMc8/Visa/2026/VISA_EXEMPTION_2026.jpg",
+      "appliesTo": "Taiwan ordinary passports entering Thailand for tourism",
+      "effectiveOn": "2026-09-15",
+      "changedFields": [
+        "entry.title",
+        "entry.intro",
+        "entry.sections[0]",
+        "entry.faq",
+        "entry.facts",
+        "visa.sections[0]"
+      ],
+      "conditions": [
+        "Taiwan appears in 30-day exemption list",
+        "The yellow 14-day column is privilege for Thai nationals visiting Taiwan; not Taiwan passport stay in Thailand",
+        "Korea 90-day bilateral arrangement and China bilateral arrangement do not apply to Taiwan"
+      ],
+      "checkedOn": "2026-10-18",
+      "assetSha256": "d7e701b27dff876521708585b82c66244d762f95d857c7dce83e93ce10037682"
+    },
+    {
+      "url": "https://tteo.thaiembassy.org/cn/content/申請泰國電子簽證-e-visa?menu=5d7dc71915e39c072c004ef7&page=5d7dc71915e39c072c004ef6",
+      "title": "Taipei e-Visa launch notice",
+      "read": "HTML and full bilingual signed announcement image",
+      "asset": "artifacts/localization-20261018/zh-tw/taipei-evisa-announcement.jpg",
+      "assetUrl": "https://image.mfa.go.th/mfa/0/YykHYtRMc8/Visa/2024/Announcement_e-Visa.jpg",
+      "appliesTo": "All nationalities currently in Taiwan wishing to apply for Thai visa",
+      "effectiveOn": "2025-01-01T11:00:00+08:00",
+      "changedFields": [
+        "visa.sections[2]",
+        "visa.faq",
+        "tourist-visa.sections[1]",
+        "tourist-visa.sections[2]"
+      ],
+      "conditions": [
+        "Apply via thaievisa.go.th",
+        "No in-person passport/original documents submission",
+        "Print confirmation email after approval for airline and Thai immigration",
+        "Does not authorize Taipei filing solely by Taiwanese nationality when applicant is elsewhere"
+      ],
+      "checkedOn": "2026-10-18",
+      "assetSha256": "269124d1c2cec5999d4b35ece5116ee64ae16287890a502a510e309af1d87ee6"
+    },
+    {
+      "url": "https://tteo.thaiembassy.org/cn/publicservice/單次觀光簽證-tourist-visa-tr?cate=5d7dba6715e39c072c00415b",
+      "title": "Taipei single-entry Tourist Visa",
+      "read": "Full document requirements, validity/stay table, notes",
+      "pageUpdatedOn": "2025-05-08",
+      "appliesTo": "Taiwan ordinary passport application to Taipei; separate mainland-passport list excluded",
+      "changedFields": [
+        "tourist-visa.sections[0]",
+        "tourist-visa.sections[1]",
+        "tourist-visa.sections[2]",
+        "tourist-visa.faq"
+      ],
+      "conditions": [
+        "Passport at least 6 months validity",
+        "ID copy or household record for under 18",
+        "Photo within 6 months, 2 inch white background, head 3.2-3.6cm",
+        "Financial proof >=20,000 plus three-month record; Chinese source omits currency for this item",
+        "Fee TWD 1,200",
+        "Single-entry validity 3 months; stay no more than 60 days",
+        "Visa fee nonrefundable; additional documents/approval discretionary",
+        "Paper-style wording retained as requirements reference; application channel uses later online notice"
+      ],
+      "unresolved": [],
+      "checkedOn": "2026-10-18",
+      "resolution": "Linked ENGLISH version read in full: updated 2026-10-14, financial evidence >=20,000 THB confirmed. Latest English supporting requirements applied, Chinese-only under-18 household record retained."
+    },
+    {
+      "url": "https://tteo.thaiembassy.org/cn/publicservice/多次入境觀光簽證-multiple-entry-tourist-visa-metv?cate=5d7dba6715e39c072c00415b",
+      "title": "Taipei Multiple Entry Tourist Visa",
+      "read": "Full applicant eligibility, all nine document items and validity/stay/fee/entry-cash notes",
+      "pageUpdatedOn": "2025-05-13",
+      "appliesTo": "Taiwan residents or foreign nationals holding Taiwan ARC; Taiwanese passport narrative separates foreign-resident conditions",
+      "conditions": [
+        "Validity published as no less than six months, stay <=60 days per entry",
+        "TWD 5,600 fee",
+        "Six months detailed demand-deposit records updated to day before application; TWD200,000 individual, TWD400,000 eligible family",
+        "One-year entry/exit record",
+        "Employment/student proof within one month; company document where applicable",
+        "Round-trip English ticket with ticket number/receipt; first-entry accommodation or host guarantee",
+        "Entry money THB20,000 person / THB40,000 family or foreign equivalent"
+      ],
+      "changedFields": [
+        "tourist-visa.sections[0]",
+        "tourist-visa.sections[1]",
+        "tourist-visa.sections[2]",
+        "tourist-visa.faq"
+      ],
+      "checkedOn": "2026-10-18"
+    },
+    {
+      "url": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+      "title": "Official common visa-exemption conditions (Doha embassy)",
+      "read": "Full exemption lists and conditions, not Doha application procedure",
+      "pageUpdatedOn": "2026-09-16",
+      "appliesTo": "Common Thai entry scheme, Taiwan 30-day listed",
+      "conditions": [
+        "THB20,000 person/THB40,000 family cash or equivalent",
+        "Land/sea exemption entry twice per calendar year; Taiwan not an exception",
+        "Travel Document for Aliens not eligible as ordinary passport",
+        "Extension discretionary before current permission expires"
+      ],
+      "changedFields": [
+        "entry.sections[0]",
+        "entry.sections[1]"
+      ],
+      "checkedOn": "2026-10-18"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "title": "TDAC official FAQ",
+      "read": "Full relevant General/Submitting/Updating and version notes",
+      "appliesTo": "Non-Thai travelers, all nationalities; no immigration transit exempt",
+      "conditions": [
+        "Free, within 3 days including arrival",
+        "New TDAC every entry; infant/child each needs one",
+        "Full name/passport number/nationality/DOB cannot be changed; submit new form",
+        "Download confirmation and retain through stay"
+      ],
+      "changedFields": [
+        "tdac public translation only; canonical steps and screenshots preserved"
+      ],
+      "checkedOn": "2026-10-18"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/index.html",
+      "title": "TDAC official user guide",
+      "read": "Full current guide, including submit/update steps and English input",
+      "guideVersionRead": "1.21 / application 2026.10.00",
+      "canonicalScreenshotGuideVersion": "Original Korean captions and 2026-10-14 screenshots retained; screenshot evidence not recast as newly captured Taiwan submission",
+      "appliesTo": "All non-Thai entrants",
+      "conditions": [
+        "Passport/personal/trip/accommodation/health, Preview/Edit, email/consent/Submit/download",
+        "Additional health fields depend on prior countries/boarding/nationality/flight",
+        "All entered information in English"
+      ],
+      "unresolved": [
+        "Current HOW TO omits passport number from noneditable list and arrival date from search; FAQ and retained screenshot give fuller details. FAQ is used for immutable passport number; screenshot remains dated 2026-10-14, no invented new UI capture."
+      ],
+      "checkedOn": "2026-10-18"
+    },
+    {
+      "url": "https://tteo.thaiembassy.org/th/publicservice/tr-single-2",
+      "title": "Taipei Single Entry Tourist Visa official ENGLISH linked version",
+      "pageUpdatedOn": "2026-10-14",
+      "checkedOn": "2026-10-18",
+      "read": "Full Requirements/Notice/Fee/Validity/Stay/Extension/Additional/Please Note text",
+      "appliesTo": "Taipei single-entry tourist visa application; nationality-specific ticket exception not copied to Taiwanese traveler",
+      "conditions": [
+        "Financial evidence >=20,000 THB; examples last three-month bank statements or sponsorship letter",
+        "Passport >=6 months, at least one completely empty visa page",
+        "Photo 35x45mm, head32-36mm, white background, within six months, no hat/dark glasses",
+        "Visa processing may take up to15 days; not approval guarantee",
+        "Fee TWD1200; no refund",
+        "Validity3months; stay<=60days; extension officer discretion"
+      ],
+      "changedFields": [
+        "tourist-visa.sections[1].paragraphs[0:2]",
+        "tourist-visa.sections[2].paragraphs[2]"
+      ],
+      "resolution": "Supplies explicit THB currency missing from Chinese text; no longer an unresolved public claim"
+    }
+  ],
+  "preserved": {
+    "climateSourceCheckedOn": "2026-10-14",
+    "climatePeriod": "1991–2020",
+    "tdacScreenshotDate": "2026-10-14",
+    "imageFiles": "all Korean canonical image/image2 references preserved",
+    "deploymentDate": "not generated or changed"
+  },
+  "notPerformed": [
+    "No tourist-fact re-research outside authorized entry/visa scope",
+    "No live TDAC submission or visa application",
+    "No new screenshot represented as actual Taiwan submission",
+    "No common renderer/build/deployment/indexing work"
+  ]
+}

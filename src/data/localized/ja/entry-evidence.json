@@ -1,0 +1,54 @@
+{
+  "locale": "ja",
+  "passport": "Japan ordinary passport",
+  "mission": "Royal Thai Consulate-General, Osaka",
+  "checkedOn": "2026-10-18",
+  "originalSourceCheckedAtPreserved": "2026-10-14",
+  "scope": "Japanese passport visa exemption; Kansai/Shikoku applicants to Osaka only for visa application",
+  "sources": [
+    {
+      "url": "https://osaka.thaiembassy.org/jp/publicservice/visa-exemption-and-voa?cate=67d7d9c8c2631c62ad336593",
+      "read": "Full Japanese notice and linked official infographic viewed",
+      "facts": [
+        "Effective 2026-09-15",
+        "Japan in 30-day ordinary passport exemption group"
+      ],
+      "capture": "artifacts/localization-20261018/ja/osaka-visa-exemption.png"
+    },
+    {
+      "url": "https://image.mfa.go.th/mfa/0/RzaiZWKBzF/consular/%E3%83%93%E3%82%B6/2.%E8%A6%B3%E5%85%89%E3%83%93%E3%82%B6_(TR)_.pdf",
+      "read": "Full two-page Japanese PDF",
+      "facts": [
+        "TR stay 60 days",
+        "Single valid 3 months, fee JPY5500",
+        "Multiple valid 6 months, fee JPY26000",
+        "Visa/Mastercard payment nonrefundable",
+        "Photo within6months",
+        "Japan national location proof MyNumber card or driver license; foreign national residence card valid3months",
+        "Tourism bank statements3months >=THB20000",
+        "Minor parent bank >=THB40000 and family relationship document",
+        "Multiple flight booking minimum2entries/exits",
+        "JPEG1/2 PDF3–6 max3MB"
+      ]
+    },
+    {
+      "url": "https://image.mfa.go.th/mfa/0/RzaiZWKBzF/consular/Visa/About_E-Visa.pdf",
+      "read": "Full Japanese and English one-page PDF",
+      "facts": [
+        "Kansai/Shikoku location restriction",
+        "Online evisa; no physical passport submission",
+        "English approximately15businessdays Japanese within15businessdays",
+        "Approval email may be requested by airline and immigration"
+      ]
+    }
+  ],
+  "changes": {
+    "entry.sections.0": "Korean bilateral90days replaced by Japan exemption30days",
+    "visa.sections.2": "Korea applicant location replaced with Osaka Kansai/Shikoku",
+    "tourist-visa": "Korea fees waived and7businessdays replaced by Osaka JPY fees and15businessdays; Korean foreign nationality exception retained only as internal source record; Japanese document conditions substituted"
+  },
+  "holds": [
+    "Osaka TR PDF does not state passport remaining6months or extension30days. These Korean source figures were not promoted to Japan-specific facts; Japanese copy uses actual application requirements and extension review without invented numeric condition.",
+    "Final HTML/SEO/runtime/PC/mobile pending central integration."
+  ]
+}

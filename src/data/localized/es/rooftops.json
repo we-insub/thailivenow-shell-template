@@ -1,0 +1,2807 @@
+{
+  "sky-beach": {
+    "name": "Sky Beach",
+    "building": "The Standard, Bangkok Mahanakhon · King Power Mahanakhon",
+    "intro": "Para terminar el día contemplando Bangkok en todas direcciones, sube a Sky Beach. En el bar al aire libre de la cima de Mahanakhon podrás mirar los edificios y las luces de la ciudad mientras tomas un cóctel y algo de cocina estadounidense informal. Si vas con amigos que disfruten de la música de DJ, tendréis una noche de vistas y música. Llega antes de que anochezca para ver cómo el paisaje urbano de día da paso a las luces de la noche.",
+    "facts": {
+      "children": "Acceso para todas las edades · según las preguntas frecuentes oficiales del hotel",
+      "hours": "Todos los días 10:00–24:00 · última entrada 23:00",
+      "minimumSpend": null,
+      "entryFee": null,
+      "dressCode": null,
+      "closed": "Abierto todos los días",
+      "booking": "Entrada y asientos por orden de llegada · acceso por la entrada principal de King Power Mahanakhon"
+    },
+    "reasons": [
+      {
+        "title": "De los edificios de día a las luces de noche",
+        "text": "Puedes contemplar el centro de Bangkok en todas direcciones. De día, sigue con la mirada los edificios y las calles; de noche, descubre la ciudad iluminada. Es un lugar para hacer fotos con amigos o compartir con la familia una panorámica amplia de Bangkok."
+      },
+      {
+        "title": "Termina el día con cócteles y música de DJ",
+        "text": "Acompaña un cóctel con algo de cocina estadounidense informal y disfruta de la música de DJ. Después de las visitas del día, puedes venir con amigos a comentar el viaje mientras contempláis la noche. La entrada y los asientos se asignan por orden de llegada: no cuentes con tener una mesa reservada."
+      }
+    ],
+    "menu": "Puedes acompañar los cócteles con platos estadounidenses informales. Cada uno puede elegir su bebida y tomarla sin prisas mirando la ciudad. Consulta la carta en el enlace oficial de abajo.",
+    "signature": null,
+    "recommended": "Para amigos que disfruten de la música de DJ y las vistas amplias de la ciudad, o para quienes quieran contemplar Bangkok desde lo alto en familia.",
+    "bestTime": "Llega antes de que se ponga el sol para contemplar la ciudad y el cielo; después de anochecer, disfruta de Bangkok iluminada.",
+    "reservation": "La entrada y los asientos se asignan por orden de llegada. Decide con tus acompañantes cuándo ir y sigue las indicaciones de acceso del lugar.",
+    "entrance": "Entra por la puerta principal de King Power Mahanakhon. Si vas en coche, puedes utilizar el aparcamiento de Mahanakhon Cube.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Es una opción para amigos que disfruten de la música de DJ y las vistas de la ciudad, o para contemplar Bangkok en familia. La panorámica abarca el centro en todas direcciones. De día puedes seguir con la mirada los edificios y las calles, y de noche ver la ciudad iluminada. También puedes hacer fotos con amigos o compartir el paisaje con la familia."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "Sí, no hay límite de edad para ir en familia. Podéis contemplar juntos la ciudad desde lo alto. La entrada y los asientos se asignan por orden de llegada."
+      ],
+      [
+        "¿Se puede ir tarde por la noche?",
+        "Abre todos los días de 10:00 a medianoche, con última entrada a las 23:00. Puedes ir a última hora de la tarde, pero, si quieres disfrutar de las vistas y de la bebida sin prisas, llega con margen antes del cierre de acceso."
+      ],
+      [
+        "¿Por dónde se entra?",
+        "Utiliza la entrada principal de King Power Mahanakhon. Si vas en tren urbano, sal por la salida 3 de BTS Chong Nonsi y camina hacia Mahanakhon. Una vez dentro, sigue las indicaciones de acceso a Sky Beach."
+      ]
+    ],
+    "access": [
+      {
+        "name": "BTS Chong Nonsi",
+        "english": "Chong Nonsi",
+        "line": "Línea Silom de BTS",
+        "exit": "Salida 3",
+        "lat": 13.7237969,
+        "lng": 100.529325,
+        "instructions": "Sal por la salida 3 de Chong Nonsi, en la línea Silom de BTS, y camina hacia King Power Mahanakhon. Al llegar, entra por la puerta principal y sigue las indicaciones de Sky Beach.",
+        "detailUrl": "/ko/transport/bangkok/stations/node-257066790/",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=13.7237969,100.529325&destination=13.72348345,100.52822275&travelmode=walking",
+        "sourceUrl": "https://www.kingpowermahanakhon.co.th/contact"
+      }
+    ],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «King Power Mahanakhon». Si coges un taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Sky Beach.",
+      "english": "Please take me to King Power Mahanakhon. I am going to Sky Beach.",
+      "thai": "ไปคิง เพาเวอร์ มหานคร จะไป Sky Beach",
+      "destination": "King Power Mahanakhon"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Hotel · horarios, edades, asientos y carta",
+        "https://www.standardhotels.com/bangkok/features/skybeach-rooftopbar-bkk"
+      ],
+      [
+        "Operador · información y entradas",
+        "https://www.kingpowermahanakhon.co.th/about-us/mahanakhon-tower"
+      ],
+      [
+        "Operador · estación y salida cercanas",
+        "https://www.kingpowermahanakhon.co.th/contact"
+      ],
+      [
+        "Ubicación del edificio · OpenStreetMap",
+        "https://www.openstreetmap.org/way/444651219"
+      ]
+    ],
+    "skyWalk": "Según la información oficial del hotel, los clientes de Sky Beach pueden acceder al SkyWalk después de las 19:00. Consulta antes de ir las entradas y las condiciones aplicables ese día.",
+    "locationNote": "Punto central del contorno del edificio King Power Mahanakhon en OSM. No son coordenadas medidas de la entrada ni de la azotea."
+  },
+  "hongs-sky-bar": {
+    "name": "HONG’s Sky Bar",
+    "building": "InterContinental Chiang Mai The Mae Ping · azotea",
+    "intro": "Si buscas dónde terminar el día en Chiang Mai, acércate a HONG’s Sky Bar. Desde la terraza al aire libre puedes contemplar Doi Suthep y la ciudad mientras tomas cócteles y pequeños platos para compartir. Sube con tu pareja o amigos antes del atardecer y charla con calma: veréis cómo el paisaje con la montaña al fondo se transforma en las luces nocturnas de la ciudad.",
+    "facts": {
+      "children": null,
+      "hours": "16:00–24:00",
+      "minimumSpend": null,
+      "entryFee": null,
+      "dressCode": "Informal elegante",
+      "closed": null,
+      "booking": "Reserva de mesa en la página oficial del hotel · pueden cancelarla si llegas 15 minutos tarde",
+      "rain": "El bar puede cerrar con lluvia o mal tiempo",
+      "address": "153 Sridonchai Road, Chang Khlan, Chiang Mai 50100, Thailand",
+      "phone": "+66 52 090 998"
+    },
+    "reasons": [
+      {
+        "title": "Del atardecer a las luces de la ciudad",
+        "text": "Si quieres ver Doi Suthep, llega antes de que anochezca. Charla mirando la montaña y la ciudad y, después, disfruta de sus luces. Tras un día de visitas, puedes descansar un rato y descubrir otra cara de Chiang Mai."
+      },
+      {
+        "title": "Una tarde para compartir cocina china y cócteles",
+        "text": "Prueba cócteles con miel tailandesa, hierba limón y té de Chiang Mai junto con pequeños platos chinos. Encaja con una salida en pareja o con amigos para compartir varios platos y tomar algo. Al ser un bar exterior, puede cerrar con lluvia o mal tiempo: ten otra opción para la noche si se prevén lluvias."
+      }
+    ],
+    "menu": "Puedes acompañar los cócteles con miel tailandesa, hierba limón y té de Chiang Mai con pequeños platos chinos para compartir. Un bao y una bebida seleccionada cuestan 550 THB netos, todos los días de 16:00 a 21:00. Entre semana, de 17:00 a 19:00, hay una hora feliz de dos por uno en determinados cócteles y vinos. Al pedir, comprueba si la bebida que quieres está incluida.",
+    "signature": null,
+    "recommended": "Para disfrutar con amigos o en pareja de cócteles y del paisaje de Chiang Mai por la tarde. Puedes mirar Doi Suthep y después las luces de la ciudad: un lugar para conversar con calma tras las visitas del día.",
+    "bestTime": "Si quieres ver tanto Doi Suthep como la ciudad de noche, llega antes del atardecer y deja tiempo para quedarte.",
+    "budget": "El conjunto de un bao y una bebida seleccionada cuesta 550 THB netos. Puedes tenerlo en cuenta para comer algo ligero y tomar una bebida entre las 16:00 y las 21:00. Los platos y bebidas adicionales se piden aparte.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir a HONG’s?",
+        "Encaja con una salida con amigos o en pareja para tomar cócteles y contemplar Chiang Mai por la tarde. Puedes mirar Doi Suthep y después las luces de la ciudad, mientras conversas sin prisas tras las visitas del día."
+      ],
+      [
+        "¿Cuándo puedo ver la montaña y la ciudad de noche?",
+        "Llega antes del atardecer. Con luz podrás ver Doi Suthep y la ciudad; por la noche, sus luces. En vez de subir solo un momento para mirar, acompaña las vistas con un cóctel y algo de comer."
+      ],
+      [
+        "¿Qué ocurre si llego tarde a la reserva?",
+        "La reserva puede cancelarse si llegas 15 minutos después de la hora acordada. Deja margen al terminar las visitas y para el desplazamiento, así podrás empezar la noche sin prisas."
+      ],
+      [
+        "¿Abre cuando llueve?",
+        "Puede cerrar con lluvia o mal tiempo. El principal atractivo es su terraza al aire libre, por lo que un día despejado permite disfrutar mejor de la montaña y la ciudad. Si se prevé lluvia, comprueba si está abierto antes de salir."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «InterContinental Chiang Mai The Mae Ping». Si coges un taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo subir a HONG’s Sky Bar.",
+      "english": "Please take me to HONG’s Sky Bar, InterContinental Chiang Mai The Mae Ping, 153 Sridonchai Road, Chang Khlan, Chiang Mai.",
+      "thai": "ไปโรงแรม InterContinental Chiang Mai The Mae Ping ถนนศรีดอนไชย จะไป HONG’s Sky Bar",
+      "destination": "153 Sridonchai Road, Chang Khlan, Chiang Mai 50100, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Hotel · vistas, carta y horario",
+        "https://chiangmai.intercontinental.com/en/dining/hongs/sky-bar-chiang-mai"
+      ],
+      [
+        "Reserva enlazada por el hotel · vestimenta y lluvia",
+        "https://www.tablecheck.com/en/intercontinental-chiang-mai-hongs-sky-bar/reserve/landing?utm_source=hotelwebsite"
+      ],
+      [
+        "Hotel · diferencia entre restaurante y sky bar",
+        "https://chiangmai.intercontinental.com/en/dining/hongs"
+      ],
+      [
+        "Promoción oficial de bao y bebida",
+        "https://chiangmai.intercontinental.com/en/offers/curated-experiences-hongs-sky-bar"
+      ]
+    ]
+  },
+  "baba-nest": {
+    "name": "Baba Nest",
+    "building": "Sri Panwa Phuket · cabo Panwa",
+    "intro": "Si te apetece pasar el atardecer mirando el mar en Phuket, reserva una visita a Baba Nest. Más allá de la piscina infinita que rodea la plataforma exterior de Sri Panwa se extienden el mar de Andamán y sus islas. Encaja con una celebración en pareja o una tarde de cócteles con amigos. Abre de 17:00 a 20:00 y exige reserva: deja tiempo específico para disfrutar del atardecer en lugar de apretar otras visitas alrededor.",
+    "facts": {
+      "hours": "Todos los días 17:00–20:00",
+      "minimumSpend": "Huéspedes: 1500 THB netos por persona · visitantes: 3000 THB netos por persona; consumo mínimo obligatorio para confirmar la reserva",
+      "booking": "Reserva previa obligatoria · mesa mantenida hasta 15 minutos después de la hora · avisa antes si te retrasas",
+      "rain": "Cierra con lluvia · con mal tiempo, el consumo mínimo de visitantes puede trasladarse a Baba Poolclub o Baba Soul Food",
+      "phone": "076-371-008",
+      "closed": "Abierto todos los días, sin cierre semanal · cierra si llueve",
+      "children": null,
+      "entryFee": null,
+      "dressCode": null,
+      "address": "88 Moo 8, Sakdidej Road, Cape Panwa, Wichit, Phuket 83000, Thailand"
+    },
+    "reasons": [
+      {
+        "title": "Una tarde frente al mar, más allá de la piscina",
+        "text": "Disfruta de la imagen de la piscina infinita alrededor de la plataforma, que parece prolongarse hacia el mar. La vista abarca las islas cercanas y la península del sureste de Phuket. Tomar un cóctel con tus acompañantes mientras cambia el color del cielo puede convertirse en un bonito recuerdo de la isla."
+      },
+      {
+        "title": "Cócteles y tapas para quedarse sin prisas",
+        "text": "Puedes acompañar cócteles, vino o champán con tapas mexicanas. Es una opción para un día en que tengas tiempo de disfrutar de la bebida y el paisaje, más que para cenar deprisa. Elige la carta con tu pareja o amigos y dedica un rato a mirar el mar."
+      },
+      {
+        "title": "Organiza la tarde teniendo en cuenta la reserva y el tiempo",
+        "text": "Es necesario reservar y hay consumo mínimo. Además, abre solo de 17:00 a 20:00: organiza la visita para el atardecer, no como una salida a última hora de la noche. Como cierra si llueve, revisa las condiciones de reserva y el tiempo antes de elegir el día."
+      }
+    ],
+    "menu": "Puedes acompañar cócteles, vino o champán con tapas mexicanas.",
+    "signature": null,
+    "recommended": "Para quienes disfruten de las vistas amplias del mar y las islas al atardecer, o preparen una celebración especial.",
+    "bestTime": "Abre de 17:00 a 20:00. Reserva pensando en disfrutar del mar y del cielo al atardecer.",
+    "budget": "El consumo mínimo es de 1500 THB netos por huésped y 3000 THB netos por visitante. Revisa el pago al reservar para no confundirlo con una entrada aparte.",
+    "reservation": "Es obligatorio reservar. En caso de cancelación o de no presentarte, se carga el importe íntegro de 1500 THB por huésped o 3000 THB por visitante. El consumo mínimo de visitantes no es reembolsable; con mal tiempo puede utilizarse en Baba Poolclub o Baba Soul Food.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Es obligatorio reservar?",
+        "Sí, necesitas reserva previa. Elige el día y los acompañantes antes de reservar. La mesa se mantiene hasta 15 minutos después de la hora, así que termina las visitas con margen. Si vas a llegar tarde, avisa antes."
+      ],
+      [
+        "¿Cuál es el consumo mínimo?",
+        "Son 1500 THB por persona para huéspedes y 3000 THB netos para visitantes. Es el consumo mínimo requerido para confirmar la reserva: inclúyelo en tu presupuesto de cócteles y tapas. No lo confundas con una entrada independiente; revisa las condiciones de pago al reservar."
+      ],
+      [
+        "¿Qué pasa si llueve?",
+        "Baba Nest cierra cuando llueve. Con mal tiempo, el consumo mínimo de los visitantes puede trasladarse a Baba Poolclub o Baba Soul Food. Si vas por el mar y el atardecer, lee también esta condición antes de reservar."
+      ],
+      [
+        "¿Se puede ir de noche, tarde?",
+        "Abre todos los días de 17:00 a 20:00. Planea la visita como una experiencia de atardecer, no como un bar para beber a última hora. Deja tiempo para llegar antes de que se ponga el sol y quedarte sin prisas."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Sri Panwa Phuket",
+        "instructions": "En Grab o Bolt, busca «Sri Panwa Phuket». Al llegar, pide al personal que te indique cómo ir a Baba Nest. Si vas a quedarte hasta la noche, organiza también el regreso.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8012173,98.4113533&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Baba Nest at Sri Panwa Phuket.",
+      "thai": "ไปบาบาเนสต์ที่ศรีพันวา ถนนศักดิเดช แหลมพันวา ภูเก็ต",
+      "destination": "Sri Panwa Phuket"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Baba Nest · horario, reserva, visitantes y carta",
+        "https://www.babaphuket.com/baba-nest-best-exclusive-rooftop-bar/"
+      ]
+    ]
+  },
+  "star-silavadee": {
+    "name": "STAR by Silavadee",
+    "building": "Silavadee Pool Spa Resort · azotea",
+    "intro": "Para pasar una tarde en Koh Samui mirando el mar, acércate a STAR by Silavadee. En la azotea de Silavadee Pool Spa Resort puedes contemplar la bahía de Lamai mientras disfrutas de cocina occidental y cócteles. Sus cuatro mesas hundidas en la piscina infinita son uno de los detalles que merece la pena conocer. Es una opción para cenar en pareja o tomar algo con amigos frente al mar. Llega al principio de la tarde de apertura para ver el paisaje con luz y continuar con la cena sin prisas.",
+    "facts": {
+      "hours": "17:30–23:00 · último pedido de cocina 22:30",
+      "address": "208/66 Moo 4, Maret, Koh Samui 84310, Thailand",
+      "phone": "+66 77 960 555",
+      "booking": "Reserva desde Make a Reservation en la página oficial de la instalación"
+    },
+    "reasons": [
+      {
+        "title": "Empieza la tarde mirando la bahía de Lamai",
+        "text": "Desde la azotea del resort se ve la bahía de Lamai. Si quieres contemplarla con luz, ve al principio de la tarde de apertura. Toma un cóctel o vino y continúa con la cena para compartir un rato frente al mar."
+      },
+      {
+        "title": "Cuatro mesas hundidas en la piscina",
+        "text": "Hay cuatro mesas situadas por debajo del nivel de la piscina infinita. Pueden interesar a una pareja que quiera añadir un asiento especial a las vistas del mar. También hay camas de descanso y taburetes de bar: pregunta por el lugar que prefieras al reservar."
+      }
+    ],
+    "menu": "Ofrece cenas de cocina occidental, cócteles y vinos. Entre los cócteles figuran Espresso Martini, Lychee Martini y Tom Yum Siam.",
+    "signature": null,
+    "recommended": "Para cenar en pareja con vistas al mar o tomar cócteles con amigos mientras comentáis el viaje. Si tienes preferencia de asiento, indícala al reservar.",
+    "bestTime": "Abre a las 17:30. Para ver el mar todavía con luz y continuar con la cena, llega al principio de la tarde de apertura. Deja un rato para tomar un cóctel mirando la bahía de Lamai antes de comer.",
+    "seating": "Hay cuatro mesas hundidas en la piscina, mesas de comedor, camas de descanso y taburetes de bar. La capacidad total es de 42 plazas. Pregunta al reservar por el asiento que prefieras.",
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿Con quién ir a STAR?",
+        "Encaja con una cena en pareja mirando el mar o con amigos para compartir un cóctel y comentar el viaje. Elígelo cuando quieras acompañar la comida con el paisaje de la bahía de Lamai."
+      ],
+      [
+        "¿Puedo sentarme en las mesas dentro de la piscina?",
+        "Hay cuatro mesas hundidas en la piscina. También hay mesas de comedor, camas de descanso y taburetes de bar: consulta el asiento que quieras al reservar. La capacidad total es de 42 plazas."
+      ],
+      [
+        "¿Cuándo conviene ir para ver el mar y cenar?",
+        "Abre a las 17:30. Llega al principio de la tarde de apertura si quieres ver el mar con luz, empezar con un cóctel y continuar con la cena. La cocina cierra pedidos a las 22:30: tenlo en cuenta al reservar si vas tarde."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Puedes reservar desde «Make a Reservation» en la página oficial. Decide el día y los acompañantes y elige la hora. Si te interesan las mesas de la piscina u otro asiento concreto, pregunta al mismo tiempo."
+      ],
+      [
+        "¿Cómo conviene vestirse?",
+        "La reserva oficial indica vestimenta informal elegante. Piensa en ropa arreglada para salir a cenar. Una camisa con cuello y pantalón largo, o un vestido o una blusa, pueden servir de orientación. Estos ejemplos por género son recomendaciones para prepararte, no requisitos adicionales."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Silavadee Pool Spa Resort",
+        "instructions": "El resort está en la playa de Laem Nan, entre Chaweng y Lamai. Si vas en coche, busca «Silavadee Pool Spa Resort». Mostrar juntos el nombre y la dirección facilita indicar el destino. Al llegar, pide al personal que te indique cómo subir a STAR.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=9.4677302,100.07032155&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra la frase en inglés o tailandés de abajo. Al llegar a Silavadee, pide al personal que te indique cómo subir a STAR.",
+      "english": "Please take me to Silavadee Pool Spa Resort, Lamai, Koh Samui. I am going to STAR rooftop bar.",
+      "thai": "ไปศิลาวดี พูล สปา รีสอร์ท ละไม เกาะสมุย จะไปสตาร์",
+      "destination": "Silavadee Pool Spa Resort · 208/66 Moo 4, Maret, Koh Samui 84310, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "STAR · vistas, asientos, horario y reservas",
+        "https://www.silavadeeresort.com/dining/star-romantic-rooftop-chill-out-samui/"
+      ],
+      [
+        "Hotel · ubicación y acceso",
+        "https://www.silavadeeresort.com/lamai-beach-clifftop-samui/"
+      ],
+      [
+        "Hotel · contacto",
+        "https://www.silavadeeresort.com/contact-silavadee-samui/"
+      ]
+    ]
+  },
+  "horizon-pattaya": {
+    "name": "Horizon Rooftop Restaurant & Bar",
+    "building": "Hilton Pattaya · planta 34",
+    "intro": "Si quieres que la cena forme parte de los recuerdos de Pattaya, sube a Horizon. En la planta 34 de Hilton Pattaya, este restaurante en azotea combina cocina y cócteles con vistas a la bahía. Encaja para celebrar una fecha en pareja o invitar a tus padres a una cena con buenas vistas. Si llegas al atardecer y te quedas con calma, verás cambiar los colores del mar y del cielo y encenderse las luces de la ciudad.",
+    "facts": {
+      "address": "333/101 Moo 9, Nong Prue, Bang Lamung, Pattaya, Chonburi 20260, Thailand",
+      "booking": "Reserva desde Horizon Book a Table en la página Dining oficial de Hilton"
+    },
+    "reasons": [
+      {
+        "title": "Termina en la planta 34 un día junto a la playa",
+        "text": "Contempla ahora desde lo alto la playa de Pattaya por la que has paseado durante el día. Desde la terraza se abre la bahía y, de noche, las luces de la ciudad dibujan la costa. Puedes tomar un cóctel con tus acompañantes y comentar los paisajes que habéis visto."
+      },
+      {
+        "title": "Cuando apetece quedarse a cenar además de mirar",
+        "text": "Puedes probar una torre de marisco, un tomahawk o un jarrete de cordero, entre otros platos. Hay comedor interior y terraza al aire libre, una opción para cenar con vistas. Si celebras una fecha especial o vienes con tus padres, deja tiempo suficiente para no tener que salir corriendo después."
+      },
+      {
+        "title": "Vistas nocturnas con música de DJ",
+        "text": "Por la noche también hay sesiones de DJ. Encaja con parejas o amigos que busquen una cena con vistas y música. Si pensabas sentarte en la terraza, ten en cuenta el calor y la lluvia y mira también los asientos interiores."
+      }
+    ],
+    "menu": "La carta incluye torre de marisco, tomahawk de Angus australiano, jarrete de cordero cocinado lentamente y snowfish con salsa de miso.",
+    "signature": null,
+    "recommended": "Para añadir una cena con vistas a unas vacaciones en la playa de Pattaya.",
+    "bestTime": "Ve al atardecer para ver los colores del mar y del cielo, o después de anochecer para contemplar las luces de la ciudad.",
+    "seating": "Hay asientos interiores y terraza al aire libre. Si quieres sentarte mirando al mar, pregunta por la terraza al reservar.",
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Encaja con una cena en pareja o con tus padres para disfrutar de las vistas nocturnas. Desde la planta 34 de Hilton Pattaya se contemplan el mar y la ciudad: una opción para dedicar una parte especial del día a la cena."
+      ],
+      [
+        "¿Cuándo se disfrutan mejor las vistas?",
+        "Si quieres ver cómo cambian los colores del cielo y del mar, llega al atardecer. Si continúas con la cena, también verás encenderse las luces de la ciudad. Si prefieres la terraza, indícalo al reservar."
+      ],
+      [
+        "¿Qué se puede comer?",
+        "Hay torre de marisco, tomahawk de Angus australiano, jarrete de cordero y snowfish con miso, entre otros platos. Mira la carta con tus acompañantes para decidir si queréis cenar o dedicar la visita a los cócteles y las vistas."
+      ],
+      [
+        "¿Dónde se reserva?",
+        "En la página oficial Dining de Hilton, pulsa «Book a Table» en Horizon. Elige con tus acompañantes el día y la hora de la cena."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Hilton Pattaya",
+        "instructions": "En Grab o Bolt, busca «Hilton Pattaya». Al llegar, pide al personal que te indique cómo subir a Horizon Rooftop.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.93499945,100.88297535&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Hilton Pattaya. I am going to Horizon Rooftop Restaurant & Bar.",
+      "thai": "ไปโรงแรมฮิลตัน พัทยา จะไปร้าน Horizon ชั้น 34",
+      "destination": "Hilton Pattaya"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Hilton · planta, vistas, carta, DJ y reservas de Horizon",
+        "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/dining/"
+      ],
+      [
+        "Hilton · ubicación del hotel",
+        "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/hotel-location/"
+      ]
+    ]
+  },
+  "mahanakhon-skywalk": {
+    "name": "Mahanakhon SkyWalk",
+    "building": "King Power Mahanakhon · mirador interior en planta 74 y exterior en planta 78",
+    "intro": "Para contemplar el centro de Bangkok en todas direcciones, sube a Mahanakhon SkyWalk. Puedes recorrer el mirador interior de la planta 74 y el exterior de la 78, y mirar la ciudad bajo tus pies en el suelo de cristal a 310m. También destaca el punto panorámico a 314m. Ven con amigos que disfruten fotografiando paisajes o con la familia para descubrir Bangkok desde lo alto. Deja tiempo para la visita y disfruta de perspectivas distintas desde dentro y al aire libre.",
+    "facts": {
+      "hours": "Todos los días 10:00–24:00",
+      "lastEntry": "23:00",
+      "children": "La entrada infantil corresponde a edades de 8–12 años.",
+      "address": "114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok",
+      "phone": "+66 2 677 8721",
+      "booking": "En la página oficial de entradas, elige fecha, franja horaria y categoría de edad."
+    },
+    "reasons": [
+      {
+        "title": "Bangkok desde dentro y al aire libre",
+        "text": "Puedes contemplar Bangkok desde el mirador interior de la planta 74 y el exterior de la 78. Cambiar de espacio añade otra forma de disfrutar de la misma ciudad. Recorre los miradores con familiares o amigos mientras reconocéis el paisaje urbano."
+      },
+      {
+        "title": "Un suelo de cristal con la ciudad bajo tus pies",
+        "text": "El suelo de cristal a 310m es una de las experiencias especiales del lugar. Mira hacia abajo con quienes disfruten de las alturas. Si te impone, no necesitas forzarte a pisarlo: puedes centrar la visita en las vistas de la ciudad."
+      }
+    ],
+    "recommended": "Para familias y amigos que disfruten de las panorámicas urbanas o quieran fotografiar Bangkok desde lo alto. Si el suelo de cristal incomoda a alguien, cada uno puede visitar el espacio de la forma que le resulte cómoda.",
+    "entrance": "Tras mostrar la entrada en el acceso y taquilla de la planta baja, pasa por la zona de fotos y el pasillo digital y toma el ascensor a la planta 74. La planta 75 es la zona donde se coge el ascensor de cristal hacia los niveles superiores.",
+    "facilityKind": "Mirador",
+    "faq": [
+      [
+        "¿Es la misma instalación que el bar Sky Beach?",
+        "Están en el mismo edificio, pero SkyWalk es la visita a los miradores interior y exterior. Si quieres ver la ciudad y el suelo de cristal, elige una entrada de SkyWalk. Distingue el acceso y el propósito de esta visita de los del bar."
+      ],
+      [
+        "¿Cómo elijo la entrada?",
+        "En la página oficial, selecciona fecha, franja horaria y categoría de edad. La entrada infantil se divide para edades de 8 a 12 años: si vas en familia, elige según la edad de cada niño."
+      ],
+      [
+        "¿Cómo llego en tren urbano?",
+        "Desde la salida 3 de Chong Nonsi, en la línea Silom de BTS, dirígete a la entrada principal de King Power Mahanakhon. Sigue las indicaciones de la taquilla de la planta baja y los ascensores de la visita."
+      ],
+      [
+        "¿Qué plantas se visitan?",
+        "Puedes visitar el mirador interior de la planta 74 y el exterior de la 78. Reserva tiempo para ambos espacios y disfruta de la ciudad desde perspectivas diferentes."
+      ]
+    ],
+    "access": [
+      {
+        "name": "BTS Chong Nonsi",
+        "english": "Chong Nonsi",
+        "line": "Línea Silom de BTS",
+        "exit": "Salida 3",
+        "lat": 13.7237969,
+        "lng": 100.529325,
+        "instructions": "Desde la salida 3 de Chong Nonsi, en la línea Silom de BTS, dirígete a la entrada principal de King Power Mahanakhon. Prepara la entrada en la taquilla de la planta baja y sigue las indicaciones de los ascensores de visita.",
+        "detailUrl": "/ko/transport/bangkok/stations/node-257066790/",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=13.7237969,100.529325&destination=13.72348345,100.52822275&travelmode=walking",
+        "sourceUrl": "https://www.kingpowermahanakhon.co.th/contact"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar al edificio, pide al personal que te indique cómo acceder a Mahanakhon SkyWalk.",
+      "english": "Mahanakhon SkyWalk, 114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok",
+      "thai": "มหานคร สกายวอล์ค คิง เพาเวอร์ มหานคร 114 ถนนนราธิวาสราชนครินทร์ สีลม กรุงเทพฯ",
+      "destination": "114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Operador · visita, entradas y acceso",
+        "https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk"
+      ]
+    ]
+  },
+  "baiyoke-observatory": {
+    "name": "Baiyoke Sky Observatory",
+    "building": "Baiyoke Sky Hotel · mirador en planta 77 y plataforma giratoria en planta 84",
+    "intro": "Después de ir de compras por Pratunam, puedes subir a Baiyoke Sky Observatory para contemplar Bangkok desde lo alto. El hotel ofrece un espacio panorámico en la planta 77 y un mirador giratorio en la 84. Es una forma de continuar el día con amigos tras las compras o con quienes disfruten del paisaje urbano. Si no te apetece volver directamente al alojamiento, añade un rato de mirador al día.",
+    "facts": {
+      "hours": "Todos los días 10:00–22:00 · puede variar en periodos festivos largos",
+      "entryFee": "Promoción especial oficial: 450 THB netos · incluye una bebida en el bar de la azotea de la planta 83",
+      "address": "222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400",
+      "phone": "+66 2 656 3000"
+    },
+    "reasons": [
+      {
+        "title": "El espacio panorámico de la 77 y el mirador giratorio de la 84",
+        "text": "Puedes contemplar el centro de Bangkok recorriendo los dos espacios panorámicos. La plataforma giratoria de la planta 84 es uno de sus rasgos principales. Descubre con tus acompañantes cómo se ve la ciudad desde lo alto."
+      },
+      {
+        "title": "Añade vistas a un día de compras por Pratunam",
+        "text": "Si vas a comprar por Pratunam, puedes incluir el mirador el mismo día. Comenta con tus amigos las compras y termina la jornada contemplando el paisaje urbano."
+      }
+    ],
+    "recommended": "Ven con amigos después de las compras por Pratunam o con quienes disfruten de las vistas de la ciudad. Encaja si quieres añadir un mirador al día de compras.",
+    "facilityKind": "Mirador",
+    "faq": [
+      [
+        "¿En qué plantas están los miradores?",
+        "Puedes recorrer el espacio panorámico de la planta 77 y la plataforma giratoria de la 84. Distingue la visita al mirador de una salida para tomar algo en el bar de la azotea."
+      ],
+      [
+        "¿La entrada incluye una bebida?",
+        "La promoción especial oficial de 450 THB netos recogida en esta guía incluye una bebida en el bar de la planta 83. Al ser una promoción, comprueba antes de comprar que se venda con las mismas condiciones el día de tu visita."
+      ],
+      [
+        "¿Puedo visitarlo después de comprar?",
+        "El horario es de 10:00 a 22:00 todos los días. Puedes organizar la visita después de comprar por Pratunam. En periodos festivos largos, el horario puede cambiar."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Baiyoke Sky Hotel",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Baiyoke Sky Hotel; muestra al conductor tanto el nombre del hotel como su dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7544058,100.5403134"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar al edificio, pide al personal que te indique cómo acceder a Baiyoke Sky Observatory.",
+      "english": "Baiyoke Sky Observatory, 222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400",
+      "thai": "จุดชมวิวโรงแรมใบหยกสกาย 222 ซอยราชปรารภ 3 ถนนราชปรารภ ราชเทวี กรุงเทพฯ",
+      "destination": "222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Hotel · miradores, entradas y horarios",
+        "https://baiyokesky.baiyokehotel.com/things-to-do-in-bangkok-sightseeing-thailand.html"
+      ]
+    ]
+  },
+  "doi-suthep-viewpoint": {
+    "name": "Mirador de Wat Phra That Doi Suthep",
+    "building": "Wat Phra That Doi Suthep · terraza panorámica dentro del templo",
+    "intro": "Si quieres combinar templos y vistas de Chiang Mai, sube a Doi Suthep. En el templo de la montaña puedes descubrir la pagoda dorada y la arquitectura lanna, y desde la terraza contemplar la ciudad. Es un lugar para caminar con calma con tus padres o amigos, hacer fotos y parar un rato frente al paisaje.",
+    "facts": {
+      "address": "Huai Kaeo Road, Suthep, Mueang Chiang Mai, Chiang Mai"
+    },
+    "reasons": [
+      {
+        "title": "De la pagoda dorada a las vistas de la ciudad",
+        "text": "Después de contemplar la pagoda dorada y la arquitectura lanna, acércate a la terraza. Chiang Mai se extiende a tus pies y ofrece un paisaje diferente del que ves al recorrer sus calles. Si viajas con alguien interesado en los templos, podréis combinar arquitectura y vistas."
+      },
+      {
+        "title": "Sube junto a las figuras de naga",
+        "text": "La escalinata de 306 peldaños, flanqueada por figuras de naga, también forma parte de la visita. Sube despacio con tus acompañantes para observarlas. Si los escalones resultan difíciles, puedes utilizar el teleférico. Con padres o niños, elige la subida según las posibilidades de cada uno."
+      }
+    ],
+    "recommended": "Para ir con padres o amigos que disfruten tanto de los templos como de las vistas urbanas. Después de la pagoda dorada, descansa un rato en la terraza mirando Chiang Mai. Es un espacio panorámico dentro de un templo, por lo que la visita se organiza como un recorrido por el recinto.",
+    "entrance": "Desde el acceso puedes subir por la escalinata de 306 peldaños con figuras de naga o utilizar el teleférico. Si quieres observar las esculturas a pie, sube despacio. Una vez en el templo, sigue la señalización hacia el espacio panorámico.",
+    "facilityKind": "Mirador",
+    "faq": [
+      [
+        "¿Con quién visitar Doi Suthep?",
+        "Encaja con padres o amigos que disfruten de la arquitectura religiosa y las vistas de la ciudad. Tras la pagoda dorada, puedes descansar un rato en la terraza mirando Chiang Mai. Es un espacio panorámico del templo, no un bar donde se piden bebidas: organízalo como una visita al recinto."
+      ],
+      [
+        "¿Es obligatorio subir por las escaleras?",
+        "No, también puedes utilizar el teleférico. Si quieres ver las figuras de naga a pie, tienes 306 escalones; si alguien no puede caminar mucho, puedes elegir el teleférico. Una vez arriba, recorre la arquitectura del templo de camino a la terraza."
+      ],
+      [
+        "¿Cómo voy en songthaew?",
+        "Desde Chiang Mai puedes coger un songthaew rojo hasta Doi Suthep. Antes de subir, acuerda si llega al templo, si es un trayecto de ida o ida y vuelta y el precio total. Organizar el regreso te permitirá seguir el día con calma después de disfrutar de las vistas."
+      ],
+      [
+        "¿El marcador del mapa señala la terraza?",
+        "El mapa muestra el recinto del templo. Al llegar, sube por las escaleras o en teleférico y sigue las indicaciones hacia la terraza panorámica. Puedes observar la arquitectura mientras caminas por el recinto."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Songthaew rojo",
+        "english": "Rod Daeng",
+        "instructions": "Antes de subir a un songthaew rojo, acuerda si llega al templo de Doi Suthep, si incluye ida o ida y vuelta y el precio total. Si vas con padres o niños, organiza también el regreso antes de salir. Desde el acceso al templo puedes subir por escaleras o teleférico.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=18.8050094,98.9221843"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. El destino es el templo de Doi Suthep. Una vez en el acceso, sube por las escaleras o utiliza el teleférico.",
+      "english": "Wat Phra That Doi Suthep, please.",
+      "thai": "ไปวัดพระธาตุดอยสุเทพด้วยครับ/ค่ะ",
+      "destination": "Wat Phra That Doi Suthep"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Turismo de Tailandia · templo, vistas y acceso",
+        "https://www.tourismthailand.org/Articles/chiang-mai-lamphun-2"
+      ],
+      [
+        "Turismo de Tailandia · presentación del lugar",
+        "https://www.tourismthailand.org/Attraction/wat-phra-that-doi-suthep/"
+      ]
+    ]
+  },
+  "sky-bar": {
+    "name": "Sky Bar by lebua",
+    "building": "lebua at State Tower · planta 64",
+    "intro": "Para disfrutar de cócteles con las vistas nocturnas de Bangkok, sube a Sky Bar by lebua. Desde el bar al aire libre junto a la cúpula dorada puedes contemplar el río Chao Phraya y las luces del centro. Si vienes con amigos que hayan visto Resacón 2, podéis probar el Hangovertini, vinculado a la película. Es una opción para seguir disfrutando de la noche de Bangkok con tus acompañantes después de cenar.",
+    "facts": {
+      "children": "Los niños de 7 años o más pueden entrar acompañados por un adulto.",
+      "dressCode": "Informal elegante — no se permiten camisetas masculinas sin mangas, ropa deportiva, bañadores ni chanclas",
+      "closed": "Sin día de cierre semanal",
+      "address": "64th Floor, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555",
+      "minimumSpend": "Una bebida por persona",
+      "booking": "Solo acceso sin reserva."
+    },
+    "reasons": [
+      {
+        "title": "El río y la ciudad junto a la cúpula dorada",
+        "text": "Contempla el Chao Phraya y el centro de Bangkok desde el bar al aire libre. Junto a la cúpula dorada, las vistas nocturnas se extienden desde lo alto. Puedes comentar el viaje con amigos o compartir con tu pareja una tarde mirando las luces de la ciudad."
+      },
+      {
+        "title": "Recuerda la película con un Hangovertini",
+        "text": "El Hangovertini es uno de los cócteles del bar y está vinculado a Resacón 2. Si vienes con amigos que hayan visto la película, podéis recordar sus escenas y añadir otro recuerdo al viaje a Bangkok."
+      }
+    ],
+    "recommended": "Para tomar cócteles con amigos que hayan visto Resacón 2 o con una pareja que disfrute de las vistas nocturnas.",
+    "bestTime": "Llega antes de que se ponga el sol para contemplar la ciudad y el cielo; después, disfruta de las luces de Bangkok.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para una noche de cócteles con amigos que hayan visto Resacón 2 o con una pareja que disfrute de las vistas nocturnas. Desde el bar exterior puedes contemplar el Chao Phraya y el centro de Bangkok. Junto a la cúpula dorada se abre la ciudad iluminada: un lugar para comentar el viaje con amigos o compartir el paisaje con tu pareja."
+      ],
+      [
+        "¿Tengo que reservar?",
+        "No, Sky Bar solo admite visitas sin reserva. Organiza con tus acompañantes el plan de la noche y acércate. Debe pedirse una bebida por persona, así que plantéalo como una visita para tomar un cóctel."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "Los niños de 7 años o más pueden entrar acompañados por un adulto. Si viajas con niños pequeños, comprueba primero su edad. Es una condición a tener en cuenta al elegir dónde disfrutar de las vistas en familia."
+      ],
+      [
+        "¿Qué ropa debo preparar?",
+        "Lleva ropa arreglada para salir. No se permiten camisetas masculinas sin mangas, ropa deportiva, bañadores ni chanclas. Si has pasado el día de visitas con ropa informal, puedes volver al alojamiento para cambiarte antes de ir por la noche."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «lebua at State Tower». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Sky Bar.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Sky Bar by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Sky Bar by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "photos": [
+      {
+        "src": "/images/rooftops/sky-bar-2017.webp",
+        "alt": "Bar exterior de Sky Bar y Bangkok al atardecer",
+        "caption": "Bar exterior de Sky Bar y Bangkok al atardecer · fotografía de 2017",
+        "credit": "Ninara",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar,_Bangkok_(33407660291).jpg",
+        "rights": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "changes": "Redimensionado para la web y convertido a WebP"
+      },
+      {
+        "src": "/images/rooftops/sky-bar-2008.webp",
+        "alt": "La cúpula dorada y Bangkok de noche vistas desde Sky Bar",
+        "caption": "La cúpula dorada y Bangkok de noche desde Sky Bar · fotografía de 2008",
+        "credit": "Steve Jurvetson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar_at_State_Tower_Bangkok.jpg",
+        "rights": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "changes": "Redimensionado para la web y convertido a WebP"
+      }
+    ],
+    "sources": [
+      [
+        "Información oficial para visitar el bar",
+        "https://lebua.com/restaurants/sky/"
+      ],
+      [
+        "Preguntas frecuentes oficiales de lebua",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "sirocco": {
+    "name": "Sirocco by lebua",
+    "building": "lebua at State Tower · planta 63",
+    "intro": "Para pasar una noche romántica en Bangkok, reserva una visita a Sirocco. Este restaurante en azotea permite disfrutar de la cocina mediterránea y las vistas nocturnas desde una terraza al aire libre bajo la cúpula dorada de lebua. Encaja para celebrar un aniversario en pareja o invitar a tus padres a una cena especial. Si dejas tiempo para disfrutar sin prisas, podrás cenar mientras se pone el sol y se encienden, una a una, las luces de la ciudad.",
+    "facts": {
+      "hours": "17:30–00:30",
+      "children": "Puedes ir con niños de cualquier edad.",
+      "closed": "Sin día de cierre semanal",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555",
+      "booking": "Conviene reservar con antelación en la web oficial. Revisa al reservar el depósito y las condiciones de cancelación.",
+      "dressCodeMen": "Una camisa o polo con pantalones de vestir es una buena opción. También se permiten pantalones cortos elegantes, mocasines y sandalias de vestir.",
+      "dressCodeWomen": "Puedes elegir un vestido, o una blusa con falda o pantalones de vestir. Se permiten sandalias de vestir y no es obligatorio llevar tacones.",
+      "dressCodeAvoid": "No se permiten ropa deportiva, bañadores, chanclas ni zapatillas de playa. Las camisetas masculinas sin mangas también están prohibidas. Si vas con niños, prepara también su ropa según estas normas.",
+      "smoking": null,
+      "smokingArea": null
+    },
+    "reasons": [
+      {
+        "title": "Una cena romántica del atardecer a la noche",
+        "text": "La cúpula dorada y la terraza al aire libre son las imágenes más características de Sirocco. Cena con tus acompañantes mientras se pone el sol y se encienden, una a una, las luces de Bangkok. Encaja mejor en un día dedicado a disfrutar con calma de la cena que en una jornada de visitas muy apretada. Si vienes en pareja, las vistas nocturnas acompañan una noche romántica."
+      },
+      {
+        "title": "Para ir con una pareja o amigos que disfruten del jazz",
+        "text": "De martes a domingo hay jazz en directo; los lunes se escucha música ambiental. Si tu pareja o amigos disfrutan del jazz, elige uno de los días con actuaciones. Pregunta también la hora al reservar para combinar la cena con la música."
+      },
+      {
+        "title": "Una celebración o una cena especial con tus padres",
+        "text": "Es una opción para celebrar un aniversario en pareja o invitar a tus padres a una cena con ambiente. No se permite entrar con ropa deportiva, así que vuelve al alojamiento para cambiarte después de las visitas. No se permiten grandes bolsas de compras ni maletas y no hay consigna. Deja el equipaje en el alojamiento y cámbiate antes de ir para disfrutar de la noche con más comodidad."
+      }
+    ],
+    "facilityKind": "Restaurante en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir a Sirocco?",
+        "Encaja para celebrar un aniversario en pareja o invitar a tus padres a una cena especial. Bajo la cúpula dorada puedes cenar mirando Bangkok de noche: una opción para compartir una velada que recuerdes con tus acompañantes. Si después no tienes que salir corriendo a otro lugar, podrás disfrutarla con más calma."
+      ],
+      [
+        "¿Cuándo hay jazz en directo?",
+        "Si te gusta el jazz, ve de martes a domingo, los días con actuaciones. La música acompaña la cena y las vistas nocturnas y añade ambiente a la velada. Los lunes hay música ambiental en lugar de actuaciones. Pregunta la hora de los músicos al reservar para elegir bien cuándo cenar."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "Sí, puedes disfrutar de una cena en familia. Sirocco no tiene límite de edad y admite también a los más pequeños. Prepara para ellos ropa arreglada en lugar de prendas deportivas o chanclas. Si después quieres visitar otro bar del mismo edificio, recuerda que cada uno tiene sus propias restricciones de edad."
+      ],
+      [
+        "¿Cómo conviene vestirse?",
+        "Piensa en ropa para una cena con ambiente. Una camisa o polo con pantalones de vestir y mocasines, o un vestido o blusa con falda o pantalón, son buenas opciones. Se permiten pantalones cortos cuidados y sandalias de vestir: no hace falta traje ni tacones. Están prohibidos la ropa deportiva, los bañadores y las chanclas, así como las camisetas masculinas sin mangas."
+      ],
+      [
+        "¿Cómo reservo y qué debo tener en cuenta al cancelar?",
+        "Cuando tengas el día y los acompañantes, elige la hora desde el enlace oficial de reserva de la tabla. El depósito se descuenta de la cuenta y la reserva queda confirmada cuando se verifica su pago. Las reservas ordinarias se pueden cancelar o cambiar sin coste hasta 72 horas antes de la visita. Después de ese límite, si cancelas, cambias o no te presentas, no se devuelve el depósito: conviene reservar cuando el itinerario esté claro. Las fechas especiales y los grupos tienen condiciones de devolución diferentes."
+      ],
+      [
+        "¿Puedo cenar si llego tarde?",
+        "Es posible cenar tarde, pero que el restaurante cierre a las 00:30 no significa que se pueda pedir de todo hasta entonces. Los menús de varios platos cierran pedidos a las 23:00; los platos a la carta, a las 23:30; y los aperitivos, a medianoche. Si quieres cenar un menú con calma, reserva algo antes en lugar de llegar muy tarde para disfrutar tanto de la comida como de las vistas."
+      ],
+      [
+        "¿Puedo llevar una maleta o bolsas grandes de compras?",
+        "No se permiten bolsas grandes, maletas ni bolsas de compras, y tampoco hay consigna. Puedes visitar la ciudad o comprar durante el día, volver al alojamiento para dejar las cosas y cambiarte y después ir a Sirocco. Si ya has hecho la salida del hotel, decide antes dónde guardar el equipaje durante la cena."
+      ]
+    ],
+    "access": [
+      {
+        "name": "BTS Saphan Taksin",
+        "english": "Saphan Taksin",
+        "line": "Línea Silom de BTS",
+        "instructions": "Si vas en tren urbano, baja en Saphan Taksin, en la línea Silom de BTS, y camina hasta lebua. El enlace de indicaciones de abajo muestra el recorrido. Si hace mucho calor o llevas tacones, Grab o Bolt hasta el hotel puede resultar más cómodo. Al llegar, indica al personal que vas a Sirocco.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=Saphan+Taksin+BTS+Station&destination=lebua+at+State+Tower&travelmode=walking"
+      }
+    ],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «lebua at State Tower». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar al hotel, pide al personal que te indique cómo ir a Sirocco.",
+      "english": "Please take me to lebua at State Tower, 1055 Silom Road. I am going to Sirocco restaurant.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไปร้านอาหารซีร็อกโก",
+      "destination": "lebua at State Tower · 1055 Silom Road, Bang Rak, Bangkok"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Sirocco · presentación, vestimenta y reserva",
+        "https://lebua.com/restaurants/sirocco/"
+      ],
+      [
+        "lebua · horarios, música, niños y equipaje",
+        "https://lebua.com/faq/"
+      ],
+      [
+        "lebua · acceso y estación BTS cercana",
+        "https://lebua.com/lebua-bangkok-luxury-travel-guide/"
+      ]
+    ]
+  },
+  "distil-lebua": {
+    "name": "Distil by lebua",
+    "building": "lebua at State Tower · planta 64",
+    "intro": "Para elegir un buen destilado mientras disfrutas de la noche de Bangkok, acércate a Distil. En la planta 64 de lebua, el bar reúne destilados prémium, cócteles y puros con vistas a la ciudad. Encaja con una salida con amigos o en pareja para escoger bebidas según vuestros gustos y quedaros un rato. Solo admite a mayores de 20 años, así que organízalo como un plan entre adultos.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Solo personas de 20 años o más",
+      "dressCode": "Informal elegante",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Una noche para elegir tus bebidas favoritas",
+        "text": "Escoge un destilado prémium o un cóctel y acompáñalo con algo para picar, sin prisas. Si vienes con alguien de gustos parecidos, comentar las bebidas elegidas también puede formar parte de la noche. El bar puede interesar asimismo a quienes disfruten de los puros."
+      },
+      {
+        "title": "Bangkok desde la planta 64",
+        "text": "Comparte la tarde con tus acompañantes con la ciudad de fondo. En lugar de ir con prisas de una visita a otra, deja tiempo para elegir la bebida y contemplar Bangkok de noche. Al admitir solo adultos, no encaja con un plan familiar con niños pequeños."
+      }
+    ],
+    "recommended": "Para adultos que disfruten de los destilados o los cócteles y quieran pasar la noche eligiendo bebidas en pareja o con amigos.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para adultos que disfruten de los destilados o los cócteles, en pareja o con amigos. Elige una bebida prémium y algo para picar y tómala con calma. Si compartís gustos, comentar lo que pide cada uno también puede ser parte de la velada. El bar puede interesar a quienes disfruten de los puros."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "No, solo se permite el acceso a personas de 20 años o más. Organízalo como una salida con amigos o en pareja; si viajas con niños, elige otro lugar donde pueda entrar toda la familia."
+      ],
+      [
+        "¿A qué hora abre?",
+        "Abre de 17:00 a 00:30. Puedes visitar la ciudad durante el día y acercarte por la tarde a elegir una bebida y disfrutar de las vistas."
+      ],
+      [
+        "¿Cómo conviene vestirse?",
+        "La norma es informal elegante. Piensa en ropa arreglada para salir a cenar o tomar algo con tu pareja o amigos. Volver al alojamiento para cambiarte tras las visitas puede ayudarte a disfrutar del ambiente de la noche."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «lebua at State Tower». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Distil.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Distil by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Distil by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Información oficial de lebua para visitantes",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "flute-lebua": {
+    "name": "Flûte by lebua",
+    "building": "lebua at State Tower · planta 64",
+    "intro": "Si te apetece una noche de champán y jazz, acércate a Flûte. Este bar de champán al aire libre de la planta 64 de lebua permite acompañar Bollinger con ostras o caviar mientras contemplas Bangkok. Organiza una ocasión especial con tu pareja o amigos aficionados al champán. Para escuchar también jazz, elige uno de los días con actuaciones, de martes a domingo.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Desde 7 años, acompañados por un adulto",
+      "dressCode": "Informal elegante",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Champán con ostras o caviar",
+        "text": "Puedes acompañar el champán Bollinger con ostras o caviar. Elige la carta con alguien que disfrute del champán y saborea la bebida con calma frente a la ciudad. Encaja con una noche para quedarse en un lugar en vez de recorrer varios con prisas."
+      },
+      {
+        "title": "Para ir con alguien que disfrute del jazz",
+        "text": "Hay jazz en directo desde las 19:00 todos los días salvo los lunes. Si tu pareja o amigos disfrutan de esa música, elige un día con actuación. Podréis disfrutar a la vez del champán, la música y las vistas."
+      }
+    ],
+    "recommended": "Para una noche especial en pareja o con amigos que disfruten del champán y el jazz.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para pasar una noche especial con una pareja o amigos que disfruten del champán y el jazz. Puedes acompañar Bollinger con ostras o caviar, elegir la carta juntos y saborear las bebidas con calma frente a la ciudad. Encaja con una noche para quedarse en un sitio sin recorrer otros con prisas."
+      ],
+      [
+        "¿Cuándo hay jazz?",
+        "Hay jazz en directo desde las 19:00 todos los días excepto los lunes. Si vas con alguien que quiere escuchar música, organiza la visita a esa hora."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "Los niños de 7 años o más pueden entrar con un adulto. Si viajas con menores de 7 años, tendrás que elegir otro lugar. Decide según si queréis salir toda la familia o quedar entre adultos para tomar champán."
+      ],
+      [
+        "¿Cómo conviene vestirse?",
+        "La norma es informal elegante. Prepara ropa arreglada para una noche de champán. No necesitas pensar automáticamente en un traje; elige un conjunto adecuado para disfrutar del ambiente con tus acompañantes."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «lebua at State Tower». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Flûte.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Flûte by lebua, A Champagne Bollinger Bar.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Flûte by lebua, A Champagne Bollinger Bar",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Información oficial de lebua para visitantes",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "alfresco-64": {
+    "name": "Alfresco 64 by lebua",
+    "building": "lebua at State Tower · planta 64",
+    "intro": "Si te apetece disfrutar de la noche de Bangkok con amigos aficionados al whisky y a la música de DJ, acércate a Alfresco 64. Este bar exterior de la planta 64 de lebua permite tomar whisky en un espacio inspirado en un yate con vistas a la ciudad. Tras las visitas del día, queda entre adultos para combinar música y bebidas. Solo pueden entrar personas de 20 años o más.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Solo personas de 20 años o más",
+      "dressCode": "Informal elegante",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Un whisky en un espacio inspirado en un yate",
+        "text": "El diseño exterior inspirado en un yate distingue este bar. Elige un whisky que te guste y disfrútalo con vistas a Bangkok. Puedes pasar la tarde conversando con amigos con gustos parecidos."
+      },
+      {
+        "title": "La noche de Bangkok con música de DJ",
+        "text": "Hay sesiones de DJ todos los días salvo los lunes. Si tus amigos disfrutan de la música, elige un día con actuación. Es un plan entre adultos, no una salida para una familia con niños."
+      }
+    ],
+    "recommended": "Para pasar la tarde con amigos adultos que disfruten del whisky y la música de DJ.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para pasar la tarde con amigos adultos que disfruten del whisky y la música de DJ. El espacio exterior está inspirado en un yate: escoge un whisky que te guste y disfrútalo con vistas a Bangkok. También puedes conversar con amigos que compartan tus gustos."
+      ],
+      [
+        "¿Hay DJ todos los días?",
+        "Hay DJ todos los días excepto los lunes. Si quieres disfrutar también de la música, elige otro día de la semana. Podrás acompañar el whisky y las vistas con una sesión de DJ."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "No, solo entran personas de 20 años o más. Organízalo como una noche con amigos o en pareja que disfruten del whisky y la música."
+      ],
+      [
+        "¿Cuándo se puede visitar?",
+        "Abre de 17:00 a 00:30. Puedes venir después de las visitas del día para disfrutar sin prisas del whisky y las vistas de Bangkok."
+      ],
+      [
+        "¿Qué ropa conviene llevar?",
+        "La norma es informal elegante. Prepara ropa arreglada para salir por la noche con tu pareja o amigos."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «lebua at State Tower». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Alfresco 64.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Alfresco 64 by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Alfresco 64 by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Información oficial de lebua para visitantes",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "lebua-no3": {
+    "name": "lebua No.3",
+    "building": "lebua at State Tower · planta 52",
+    "intro": "Si te gustan la ginebra y el vodka, pasa una tarde en lebua No.3. En su espacio de diseño moderno de la planta 52 puedes disfrutar de bebidas y caviar con vistas a la ciudad. Elige con tu pareja o amigos las bebidas que prefiráis y comentad el viaje mirando las luces de Bangkok. Organízalo como una noche entre adultos y disfruta sin prisas.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Solo personas de 20 años o más",
+      "dressCode": "Informal elegante",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Ginebra o vodka con caviar",
+        "text": "Puedes acompañar ginebra o vodka con caviar. Si durante el viaje has tomado sobre todo cócteles y te apetece otra combinación, elige la carta con alguien de gustos parecidos. Podréis pasar la noche comentando nuevos sabores."
+      },
+      {
+        "title": "Vistas urbanas en un espacio moderno",
+        "text": "En la planta 52 puedes tomar algo mirando Bangkok. Ven con amigos o en pareja si te gusta el diseño moderno. Solo pueden entrar personas de 20 años o más: con niños pequeños tendrás que elegir otro lugar."
+      }
+    ],
+    "recommended": "Para amigos adultos o parejas que quieran disfrutar de ginebra, vodka y caviar con vistas a la ciudad.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para amigos adultos o parejas que quieran disfrutar de ginebra, vodka y caviar con vistas a la ciudad. Puedes acompañar la ginebra o el vodka con caviar. Si durante el viaje has tomado sobre todo cócteles y te apetece otra combinación, elige la carta con alguien de gustos parecidos y comentad los nuevos sabores."
+      ],
+      [
+        "¿Qué acompañantes disfrutarán de la visita?",
+        "Ven con amigos o en pareja si os gustan la ginebra y el vodka. Podréis elegir las bebidas y acompañarlas con caviar mirando la ciudad. Encaja con una noche para pasar tiempo entre adultos."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "No, solo entran personas de 20 años o más. Organízalo como una salida entre adultos con tu pareja o amigos, en lugar de una cena familiar con niños pequeños."
+      ],
+      [
+        "¿A qué hora abre?",
+        "Abre de 17:00 a 00:30. Acércate por la tarde después de las visitas y toma algo mirando las luces de Bangkok."
+      ],
+      [
+        "¿Qué ropa conviene llevar?",
+        "La norma es informal elegante. Prepara ropa arreglada para salir por la noche con tu pareja o amigos."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «lebua at State Tower». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a lebua No.3.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to lebua No.3.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป lebua No.3",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Información oficial de lebua para visitantes",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "octave-rooftop": {
+    "name": "Octave Rooftop Lounge & Bar",
+    "building": "Bangkok Marriott Hotel Sukhumvit",
+    "intro": "Si vas a quedar por Thong Lo por la tarde, sube a Octave. Sobre Bangkok Marriott Hotel Sukhumvit puedes comer y tomar algo con una panorámica completa de la ciudad. Llega con amigos antes de que anochezca y charla mientras cambia el color del cielo y se encienden las luces de Sukhumvit. También encaja con una noche que quieras alargar hasta tarde.",
+    "facts": {
+      "hours": "Todos los días 17:00–02:00 del día siguiente",
+      "closed": "Sin día de cierre semanal",
+      "address": "2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand",
+      "phone": "+66 2-797 0000",
+      "booking": "Se admiten reservas mediante el enlace oficial",
+      "dressCode": "Informal elegante"
+    },
+    "reasons": [
+      {
+        "title": "Del atardecer a las luces de Sukhumvit",
+        "text": "Disfruta de las vistas de 360 grados. Antes del atardecer puedes contemplar la ciudad y el cielo y, por la noche, las luces de Sukhumvit. En vez de subir solo para una foto rápida, acompaña el cambio del paisaje con comida y bebidas junto a tus amigos."
+      },
+      {
+        "title": "Una noche para elegir comida y bebidas",
+        "text": "Puedes comer y tomar algo en un mismo lugar. Queda con amigos después de las visitas del día y comentad lo que habéis visto mientras compartís los platos elegidos. Abre hasta las 02:00, pero, si quieres cenar sin prisas, deja tiempo suficiente al principio de la noche."
+      }
+    ],
+    "recommended": "Para comer y tomar algo con amigos viendo el atardecer y después las luces nocturnas de Sukhumvit.",
+    "bestTime": "Llega antes de que se ponga el sol para contemplar la ciudad y el cielo; después de anochecer, disfruta de Bangkok iluminada.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para disfrutar de comida y bebidas con amigos mientras contempláis el atardecer y la noche de Sukhumvit. Las vistas abarcan 360 grados: primero puedes mirar la ciudad y el cielo y después sus luces. En lugar de una foto rápida, quedaos a comer y tomar algo mientras cambia el paisaje."
+      ],
+      [
+        "¿Cuándo puedo ver el atardecer y la ciudad de noche?",
+        "Llega antes de que se ponga el sol. Primero verás la ciudad y el cielo, y después las luces de Sukhumvit. Si te quedas a comer y tomar algo, podrás disfrutar de ambos paisajes sin prisas."
+      ],
+      [
+        "¿Se puede reservar?",
+        "Sí. Decide con tus acompañantes la hora y utiliza el enlace oficial. Si ya tienes organizada la noche, reservar una mesa facilita ajustar el resto de las visitas."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Abre todos los días de 17:00 a 02:00 del día siguiente. Puedes venir tarde después de las visitas. Si quieres cenar, pregunta al reservar hasta qué hora se admite comida y deja tiempo para disfrutarla con las vistas."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «Bangkok Marriott Hotel Sukhumvit». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Octave Rooftop Lounge & Bar.",
+      "english": "Please take me to Bangkok Marriott Hotel Sukhumvit, 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand. I am going to Octave Rooftop Lounge & Bar.",
+      "thai": "ไปโรงแรมแบงค็อก แมริออท สุขุมวิท ซอยสุขุมวิท 57 จะไป Octave Rooftop Lounge & Bar",
+      "destination": "Bangkok Marriott Hotel Sukhumvit · 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand"
+    },
+    "photos": [
+      {
+        "src": "/images/rooftops/octave-2-2014.webp",
+        "alt": "Bar de Octave Rooftop y vistas de la ciudad",
+        "caption": "Bar de Octave Rooftop y vistas de la ciudad · fotografía de 2014",
+        "credit": "mohigan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(2).jpg",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "Redimensionado para la web y convertido a WebP"
+      },
+      {
+        "src": "/images/rooftops/octave-5-2014.webp",
+        "alt": "La zona de Thong Lo vista desde Octave Rooftop",
+        "caption": "La zona de Thong Lo vista desde Octave Rooftop · fotografía de 2014",
+        "credit": "mohigan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(5).jpg",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "Redimensionado para la web y convertido a WebP"
+      }
+    ],
+    "sources": [
+      [
+        "Marriott · información oficial para visitantes",
+        "https://www.marriott.com/en-us/hotels/bkkms-bangkok-marriott-hotel-sukhumvit/dining/octave-rooftop-lounge-bar/"
+      ]
+    ]
+  },
+  "attic-by-octave": {
+    "name": "ATTIC by Octave",
+    "building": "Bangkok Marriott Hotel Sukhumvit · planta 47",
+    "intro": "Si te gustan los bares con ambiente de local escondido, acércate a ATTIC by Octave. En la planta 47 de Bangkok Marriott Hotel Sukhumvit puedes combinar vistas de Sukhumvit con bebidas y aperitivos de inspiración mexicana. Es un espacio para elegir la carta con tu pareja o amigos y disfrutar de la noche urbana. Inclúyelo en una tarde del viaje en la que te apetezca ver la ciudad y probar bebidas de otro estilo.",
+    "facts": {
+      "address": "2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand",
+      "phone": "+66 2-797 0000",
+      "booking": "Se admiten reservas mediante el enlace oficial",
+      "dressCode": "Informal elegante"
+    },
+    "reasons": [
+      {
+        "title": "Conversaciones en un ambiente de bar escondido",
+        "text": "ATTIC combina una atmósfera de bar escondido con vistas desde lo alto. Elige una bebida con amigos y comenta el viaje mirando Sukhumvit. Encaja si quieres una noche de ambiente diferente en pleno centro urbano."
+      },
+      {
+        "title": "Bebidas y aperitivos de inspiración mexicana",
+        "text": "Puedes combinar bebidas y aperitivos de inspiración mexicana. Si vas con alguien a quien le guste probar cosas nuevas, comentad lo que pide cada uno. Si ya tenéis hora para quedar, podéis reservar una mesa antes de ir."
+      }
+    ],
+    "recommended": "Para ir con amigos o en pareja si os gustan los bares con ambiente de local escondido y las bebidas nuevas.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Con amigos o en pareja si os gustan los bares con ambiente de local escondido y las bebidas nuevas. ATTIC combina esa atmósfera con las vistas desde lo alto. Podéis elegir bebidas y comentar el viaje mirando Sukhumvit: una opción para una noche de ambiente diferente en pleno centro."
+      ],
+      [
+        "¿Qué acompañantes disfrutarán de la visita?",
+        "Amigos o parejas que disfruten de bares con ambiente escondido y de probar bebidas nuevas. Podéis acompañarlas con aperitivos de inspiración mexicana mientras contempláis Sukhumvit."
+      ],
+      [
+        "¿En qué planta está?",
+        "En la planta 47 de Bangkok Marriott Hotel Sukhumvit. Al llegar, indica que vas a ATTIC by Octave. El nombre se parece al de Octave, en el mismo hotel: menciona el bar exacto que quieres visitar."
+      ],
+      [
+        "¿Se puede reservar?",
+        "Sí. Decide con tus acompañantes la fecha y la hora y utiliza el enlace oficial. Ajustar las visitas del día a la hora de la noche permite llegar con más calma."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «Bangkok Marriott Hotel Sukhumvit». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a ATTIC by Octave.",
+      "english": "Please take me to Bangkok Marriott Hotel Sukhumvit, 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand. I am going to ATTIC by Octave.",
+      "thai": "ไปโรงแรมแบงค็อก แมริออท สุขุมวิท ซอยสุขุมวิท 57 จะไป ATTIC by Octave",
+      "destination": "Bangkok Marriott Hotel Sukhumvit · 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Marriott · información oficial para visitantes",
+        "https://www.marriott.com/en-us/hotels/bkkms-bangkok-marriott-hotel-sukhumvit/dining/octave-rooftop-lounge-bar/"
+      ]
+    ]
+  },
+  "red-sky-restaurant": {
+    "name": "Red Sky Restaurant",
+    "building": "Centara Grand at CentralWorld · planta 55",
+    "intro": "Para cenar con las vistas nocturnas de Bangkok, visita Red Sky Restaurant. En la planta 55 de Centara Grand puedes contemplar la ciudad mientras disfrutas de cocina europea, carnes y marisco. Encaja para celebrar un aniversario en pareja o invitar a tus padres a una cena especial. Deja tiempo para conversar y disfrutar de la noche con tus acompañantes sin tener que salir corriendo después.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00 · servicio de cena",
+      "closed": "Sin día de cierre semanal",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255",
+      "booking": "Reserva mediante Reserve a Table en la web oficial"
+    },
+    "reasons": [
+      {
+        "title": "Una cena con vistas a la ciudad",
+        "text": "En la planta 55 puedes cenar con una panorámica de Bangkok en todas direcciones. Elige la carta con tus acompañantes y contempla las luces de la ciudad. Encaja para celebrar un aniversario o cenar con tus padres."
+      },
+      {
+        "title": "Para quienes disfruten de carnes y marisco",
+        "text": "La cena se centra en cocina europea, carnes y marisco. Elige lo que te guste y cena despacio mientras conversas. Red Sky Bar está una planta más arriba y es un establecimiento distinto: si quieres cenar, reserva el restaurante."
+      }
+    ],
+    "recommended": "Para celebrar un aniversario en pareja o invitar a tus padres a una cena con vistas nocturnas.",
+    "facilityKind": "Restaurante en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para celebrar un aniversario en pareja o invitar a tus padres a una cena con vistas nocturnas. En la planta 55 puedes contemplar Bangkok en todas direcciones mientras comes. Elige la carta con tus acompañantes y disfruta de las luces: una opción para una celebración o una cena con tus padres."
+      ],
+      [
+        "¿Es lo mismo que Red Sky Bar?",
+        "Están en el mismo edificio, pero son establecimientos distintos. El restaurante está en la planta 55 y el bar una planta más arriba. Si quieres cenar carnes o marisco, elige el restaurante."
+      ],
+      [
+        "¿En qué ocasión encaja?",
+        "Para un aniversario en pareja o una cena especial con tus padres. Elige la carta mirando la ciudad y deja tiempo para conversar con tus acompañantes; así podréis disfrutar sin prisas."
+      ],
+      [
+        "¿Se puede reservar?",
+        "Sí, desde Reserve a Table en la web oficial. Decide el día y la hora de la cena y reserva una mesa. Si no aprietas demasiado las visitas de antes o después, podrás disfrutar de la comida con calma."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «Centara Grand at CentralWorld». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Red Sky Restaurant.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Red Sky Restaurant.",
+      "thai": "ไปโรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ จะไป Red Sky Restaurant",
+      "destination": "Centara Grand at CentralWorld · 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Centara · información oficial para visitantes",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "red-sky-bar": {
+    "name": "Red Sky Bar",
+    "building": "Centara Grand at CentralWorld · planta 56",
+    "intro": "Después de comprar en CentralWorld, puedes subir a Red Sky Bar para disfrutar de la ciudad de noche. Desde la planta 56 de Centara Grand tendrás vistas abiertas mientras tomas cócteles y aperitivos ligeros. Encaja para comentar con amigos las visitas del día o contemplar con tu pareja las luces de Bangkok. Si llegas antes del atardecer, podrás ver tanto el centro con luz como su paisaje nocturno.",
+    "facts": {
+      "hours": "Todos los días 16:00–01:00",
+      "closed": "Sin día de cierre semanal",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255"
+    },
+    "reasons": [
+      {
+        "title": "Una tarde mirando la ciudad después de las compras",
+        "text": "Queda con amigos después de comprar por CentralWorld. En la planta 56 puedes tomar un cóctel frente a las vistas abiertas y comentar lo que habéis hecho durante el día. Descubre un paisaje diferente del que ves caminando por la ciudad."
+      },
+      {
+        "title": "Espera la noche con cócteles y aperitivos",
+        "text": "Puedes disfrutar de cócteles y aperitivos ligeros. Llega antes del atardecer para ver el paisaje urbano y, después, Bangkok iluminada. Encaja con una tarde para quedarse mirando las vistas con amigos o en pareja."
+      }
+    ],
+    "recommended": "Para disfrutar de cócteles y vistas nocturnas en pareja o con amigos después de las compras.",
+    "bestTime": "Llega antes del atardecer para contemplar la ciudad y el cielo; después, disfruta de Bangkok iluminada.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Para tomar cócteles y ver la ciudad de noche con tu pareja o amigos después de las compras. Queda tras recorrer CentralWorld: desde la planta 56 puedes comentar el día frente a las vistas abiertas. Es un paisaje diferente del que ves caminando por las calles."
+      ],
+      [
+        "¿Está en el mismo lugar que el restaurante?",
+        "Están en plantas diferentes del mismo edificio. Red Sky Restaurant está en la 55 y el bar en la 56. Elige el restaurante para una cena y el bar para cócteles y aperitivos ligeros."
+      ],
+      [
+        "¿Cuándo conviene ir?",
+        "Si llegas antes del atardecer podrás ver la ciudad con luz y después iluminada. Tras las compras con amigos, elige una bebida y dedica la tarde a contemplar el paisaje sin prisas."
+      ],
+      [
+        "¿Hasta qué hora abre?",
+        "Todos los días de 16:00 a 01:00 del día siguiente. Puedes ir tarde, pero deja margen si quieres disfrutar de las vistas con tus acompañantes."
+      ]
+    ],
+    "access": [],
+    "taxi": {
+      "instructions": "En Grab o Bolt, busca «Centara Grand at CentralWorld». Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, indica al personal que vas a Red Sky Bar.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Red Sky Bar.",
+      "thai": "ไปโรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ จะไป Red Sky Bar",
+      "destination": "Centara Grand at CentralWorld · 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand"
+    },
+    "photos": [
+      {
+        "src": "/images/rooftops/red-sky-arch-2024.webp",
+        "alt": "Arco verde de Red Sky Bar",
+        "caption": "Arco verde de Red Sky Bar · fotografía de 2024",
+        "credit": "Welcome to Thailand",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_3.jpg",
+        "rights": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "width": 1400,
+        "height": 1867,
+        "changes": "Redimensionado para la web y convertido a WebP"
+      },
+      {
+        "src": "/images/rooftops/red-sky-view-2024.webp",
+        "alt": "Bangkok de noche desde Red Sky Bar",
+        "caption": "Bangkok de noche desde Red Sky Bar · fotografía de 2024",
+        "credit": "Welcome to Thailand",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_5.jpg",
+        "rights": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "width": 1400,
+        "height": 1050,
+        "changes": "Redimensionado para la web y convertido a WebP"
+      }
+    ],
+    "sources": [
+      [
+        "Centara · información oficial para visitantes",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "cru-champagne-bar": {
+    "name": "CRU Champagne Bar",
+    "building": "Centara Grand at CentralWorld · planta 59",
+    "intro": "Para una noche especial con champán, acércate a CRU Champagne Bar. En la planta 59 de Centara Grand puedes tomar champán y ostras mirando el centro de Bangkok. Es una opción para amigos aficionados al champán o una celebración en pareja. Quédate desde el atardecer para ver encenderse las luces de la ciudad. Solo admite a personas de 20 años o más, así que organízalo como una salida entre adultos.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00",
+      "children": "Solo personas de 20 años o más",
+      "closed": "Sin día de cierre semanal",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255",
+      "booking": "Reserva mediante Reserve a Table en la web oficial"
+    },
+    "reasons": [
+      {
+        "title": "Para compartir con alguien aficionado al champán",
+        "text": "Elige champán con tus acompañantes y acompáñalo con ostras mientras contemplas Bangkok al atardecer. Encaja con un día en el que quieras quedarte disfrutando del champán, más que subir solo para hacer una foto nocturna."
+      },
+      {
+        "title": "La ciudad de noche desde la planta 59",
+        "text": "Puedes contemplar el centro de Bangkok y sus edificios desde lo alto. Para celebrar un aniversario en pareja o una ocasión con amigos, elige una tarde en la que no tengas que salir con prisas hacia el siguiente plan."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Elige champán con tus acompañantes y acompáñalo con ostras mientras contemplas Bangkok al atardecer. Encaja con un día en el que quieras quedarte disfrutando del champán, más que subir solo para hacer una foto nocturna."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "Puedes contemplar el centro de Bangkok y sus edificios desde lo alto. Para celebrar un aniversario en pareja o una ocasión con amigos, elige una tarde en la que no tengas que salir con prisas hacia el siguiente plan."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "Solo pueden entrar personas de 20 años o más. Organízalo como un plan de champán entre adultos en lugar de una cena familiar con niños."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Todos los días de 17:00 a 01:00. Deja tiempo suficiente por la tarde si quieres disfrutar tanto del champán como de las vistas nocturnas."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Desde «Reserve a Table» en la página oficial. Elige con tus acompañantes la fecha y la hora."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Centara Grand at CentralWorld",
+        "instructions": "En Grab o Bolt, busca «Centara Grand at CentralWorld». Al llegar, pide al personal que te indique cómo ir a CRU Champagne Bar. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7465769,100.5390414&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to CRU Champagne Bar.",
+      "thai": "ครู แชมเปญบาร์  โรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ 999/99 ถนนพระราม 1 ปทุมวัน กรุงเทพฯ",
+      "destination": "Centara Grand at CentralWorld"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Centara · información oficial para visitantes",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "cocoa-xo": {
+    "name": "Cocoa XO",
+    "building": "Centara Grand at CentralWorld",
+    "intro": "Si te apetece algo dulce después de cenar en Bangkok, visita Cocoa XO. En Centara Grand at CentralWorld puedes disfrutar de chocolates artesanos y cócteles de coñac con vistas a la ciudad. Encaja para una sobremesa diferente con amigos aficionados al chocolate o al coñac. El bar solo admite a personas de 20 años o más, así que inclúyelo en un plan entre adultos.",
+    "facts": {
+      "hours": "Todos los días 16:00–01:00",
+      "children": "Solo personas de 20 años o más",
+      "closed": "Sin día de cierre semanal",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255"
+    },
+    "reasons": [
+      {
+        "title": "Chocolate acompañado de coñac",
+        "text": "Puedes combinar chocolates artesanos con cócteles de coñac. Elige la bebida con amigos o en pareja si os gusta el chocolate. Encaja con un día en que quieras seguir conversando después de la cena."
+      },
+      {
+        "title": "Postres dulces con vistas a la ciudad",
+        "text": "Disfruta del postre y las bebidas mirando la amplia panorámica del centro de Bangkok. Abre a las 16:00, por lo que también puedes ver la ciudad con luz. Si vienes después de cenar, podrás terminar el día mirando sus luces."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Puedes combinar chocolates artesanos con cócteles de coñac. Elige la bebida con amigos o en pareja si os gusta el chocolate. Encaja con un día en que quieras seguir conversando después de la cena."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "Disfruta del postre y las bebidas mirando la amplia panorámica del centro de Bangkok. Abre a las 16:00, por lo que también puedes ver la ciudad con luz. Si vienes después de cenar, podrás terminar el día mirando sus luces."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "Solo pueden entrar personas de 20 años o más. Organízalo para disfrutar del chocolate y el coñac con acompañantes adultos en lugar de una comida familiar con niños."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Abre todos los días de 16:00 a 01:00. Puedes ir a tomar chocolate y una bebida por la tarde o reservarlo como postre después de cenar."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Centara Grand at CentralWorld",
+        "instructions": "En Grab o Bolt, busca «Centara Grand at CentralWorld». Al llegar, pide al personal que te indique cómo ir a Cocoa XO. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7465769,100.5390414&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Cocoa XO.",
+      "thai": "โกโก้ XO โรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ 999/99 ถนนพระราม 1 ปทุมวัน กรุงเทพฯ",
+      "destination": "Centara Grand at CentralWorld"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Centara · información oficial para visitantes",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "above-eleven": {
+    "name": "Above Eleven",
+    "building": "Fraser Suites Sukhumvit · planta 33",
+    "intro": "Para combinar sabores diferentes y música en Sukhumvit, visita Above Eleven. En la planta 33 de Fraser Suites Sukhumvit puedes probar cocina nikkei, que une Perú y Japón, y pisco sour. Planea una cena con vistas con tu pareja o amigos que disfruten de la comida nueva y continúa la noche con música de DJ. Los miércoles también hay noche de salsa: una opción para ir con alguien aficionado a la música.",
+    "facts": {
+      "hours": "17:00–02:00",
+      "closed": "Sin día de cierre semanal",
+      "address": "33rd Floor, Fraser Suites Sukhumvit, Sukhumvit Soi 11, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "phone": "+66 2 038 5111",
+      "booking": "Reservas por correo: reservations@sohohospitality.com"
+    },
+    "reasons": [
+      {
+        "title": "Empieza la noche probando una cocina diferente",
+        "text": "La cocina nikkei, que combina influencias peruanas y japonesas, y el pisco sour son parte de su atractivo. Elige la carta con amigos a quienes les apetezca probar algo distinto de la cena habitual. Comer mirando Sukhumvit puede ser otra forma de disfrutar del viaje."
+      },
+      {
+        "title": "Cena y música en un mismo lugar",
+        "text": "Hay música de DJ todos los días y noche de salsa los miércoles. Encaja si quieres seguir con música y bebidas en el mismo lugar después de cenar. Si a tus acompañantes les interesa la salsa, considera ir un miércoles."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "La cocina nikkei, que combina influencias peruanas y japonesas, y el pisco sour son parte de su atractivo. Elige la carta con amigos a quienes les apetezca probar algo distinto de la cena habitual. Comer mirando Sukhumvit puede ser otra forma de disfrutar del viaje."
+      ],
+      [
+        "¿Cuándo conviene ir para disfrutar de la música?",
+        "Hay DJ todos los días y noche de salsa los miércoles. Si tus amigos disfrutan de la salsa, considera ir ese día. Deja tiempo suficiente para combinar cena y música."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "De 17:00 a 02:00. Si quieres disfrutar de la cena y del DJ, reserva una parte amplia de la noche en lugar de llegar muy tarde."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Envía la fecha y el número de personas a reservations@sohohospitality.com. Si quieres ir a la salsa del miércoles, pregunta también por la hora del evento de ese día."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Fraser Suites Sukhumvit",
+        "instructions": "En Grab o Bolt, busca «Fraser Suites Sukhumvit». Al llegar, pide al personal que te indique cómo ir a Above Eleven. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7456248,100.5565953&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to Fraser Suites Sukhumvit, Fraser Suites Sukhumvit, Sukhumvit Soi 11, Khlong Toei Nuea, Watthana, Bangkok 10110. I am going to Above Eleven.",
+      "thai": "อะโบฟ อีเลฟเว่น  เฟรเซอร์ สวีทส์ สุขุมวิท ซอยสุขุมวิท 11 กรุงเทพฯ",
+      "destination": "Fraser Suites Sukhumvit"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Información oficial de Above Eleven",
+        "https://aboveeleven.com/bangkok/"
+      ]
+    ]
+  },
+  "yao-rooftop": {
+    "name": "Yao Rooftop Bar",
+    "building": "Bangkok Marriott Hotel The Surawongse",
+    "intro": "Para combinar ambiente de inspiración china y vistas nocturnas en Bangkok, acércate a Yao Rooftop Bar. Desde el espacio exterior de Marriott Hotel The Surawongse puedes ver el centro y la ciudad antigua. Comparte dim sum con cócteles o bebidas sin alcohol y charla con amigos o en pareja. Quienes no beban alcohol también pueden elegir su bebida y disfrutar del paisaje de Surawong por la tarde.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00 del día siguiente",
+      "closed": "Sin día de cierre semanal",
+      "address": "262 Surawong Road, Si Phraya, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 2 088 5666 · extensión 5840",
+      "booking": "Reservas: +66 2-0885666, extensión 5840",
+      "dressCode": "Informal"
+    },
+    "reasons": [
+      {
+        "title": "Vistas nocturnas con dim sum y bebidas",
+        "text": "Puedes compartir dim sum y cócteles en un espacio de inspiración china. Come con amigos o en pareja mirando las luces del centro de Bangkok. También hay bebidas sin alcohol, por lo que pueden elegir algo quienes no beban."
+      },
+      {
+        "title": "Surawong al atardecer desde lo alto",
+        "text": "La panorámica combina el centro moderno y la ciudad antigua. Si te quedas desde el atardecer, verás cómo el paisaje de día se transforma en luces nocturnas. Acércate después de las visitas para descansar un rato y comentar el día."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Puedes compartir dim sum y cócteles en un espacio de inspiración china. Come con amigos o en pareja mirando las luces del centro de Bangkok. También hay bebidas sin alcohol, por lo que pueden elegir algo quienes no beban."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "La panorámica combina el centro moderno y la ciudad antigua. Si te quedas desde el atardecer, verás cómo el paisaje de día se transforma en luces nocturnas. Acércate después de las visitas para descansar un rato y comentar el día."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Abre todos los días de 17:00 a 01:00 del día siguiente. Quédate desde el atardecer para ver cómo la ciudad de día da paso a sus luces."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Llama al +66 2 088 5666, extensión 5840. Decide el día con tus acompañantes e indica la hora a la que te gustaría ir."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Bangkok Marriott Hotel The Surawongse",
+        "instructions": "En Grab o Bolt, busca «Bangkok Marriott Hotel The Surawongse». Al llegar, pide al personal que te indique cómo ir a Yao Rooftop Bar. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7276894,100.522168&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to Bangkok Marriott Hotel The Surawongse, 262 Surawong Road, Si Phraya, Bangrak, Bangkok 10500, Thailand. I am going to Yao Rooftop Bar.",
+      "thai": "เยา รูฟท็อปบาร์ โรงแรมแบงค็อก แมริออท เดอะ สุรวงศ์ 262 ถนนสุรวงศ์ กรุงเทพฯ",
+      "destination": "Bangkok Marriott Hotel The Surawongse"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Marriott · información oficial para visitantes",
+        "https://www.marriott.com/en-us/dining/restaurant-bar/bkkwo-bangkok-marriott-hotel-the-surawongse/6055922-yao-rooftop-bar.mi"
+      ]
+    ]
+  },
+  "abar-rooftop": {
+    "name": "ABar Rooftop",
+    "building": "Bangkok Marriott Marquis Queen's Park",
+    "intro": "Si te gustan la ginebra y los cócteles, pasa una tarde en ABar Rooftop. En el bar exterior de Marriott Marquis Queen’s Park puedes elegir entre distintas ginebras mirando el centro iluminado. Pide con tu pareja o amigos aficionados a los cócteles las bebidas que os apetezcan. Si después de cenar queréis seguir charlando, es un lugar para quedaros con calma frente a las vistas nocturnas.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00 del día siguiente",
+      "closed": "Sin día de cierre semanal",
+      "address": "199 Sukhumvit Soi 22, Klong Ton, Klong Toey, Bangkok 10110, Thailand",
+      "phone": "+66 2-059 5555",
+      "booking": "Reservas: +66 2-0595999",
+      "dressCode": "Informal"
+    },
+    "reasons": [
+      {
+        "title": "Para ir con amigos aficionados a la ginebra",
+        "text": "Su atractivo está en la variedad de ginebras que puedes elegir. Pide con alguien que tenga una favorita o quiera probar un cóctel nuevo. Encaja con una noche para conversar sobre vuestros gustos."
+      },
+      {
+        "title": "Las luces de Bangkok desde un bar exterior",
+        "text": "Después de anochecer, contempla el centro iluminado desde el espacio exterior. En lugar de subir solo un momento para mirar, deja tiempo para disfrutar de un cóctel. Puedes venir después de cenar si quieres seguir conversando con amigos."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Su atractivo está en la variedad de ginebras que puedes elegir. Pide con alguien que tenga una favorita o quiera probar un cóctel nuevo. Encaja con una noche para conversar sobre vuestros gustos."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "Después de anochecer, contempla el centro iluminado desde el espacio exterior. En lugar de subir solo un momento para mirar, deja tiempo para disfrutar de un cóctel. Puedes venir después de cenar si quieres seguir conversando con amigos."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Abre todos los días de 17:00 a 01:00 del día siguiente. Puedes ir después de cenar para disfrutar de cócteles y de las luces de la ciudad."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Llama al teléfono de reservas +66 2 059 5999. Elige el día con tu pareja o amigos e indica la hora a la que quieras ir."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Bangkok Marriott Marquis Queen's Park",
+        "instructions": "En Grab o Bolt, busca «Bangkok Marriott Marquis Queen’s Park». Al llegar, pide al personal que te indique cómo ir a ABar Rooftop. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7302641,100.5657084&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to Bangkok Marriott Marquis Queen's Park, 199 Sukhumvit Soi 22, Klong Ton, Klong Toey, Bangkok 10110, Thailand. I am going to ABar Rooftop.",
+      "thai": "เอบาร์ รูฟท็อป โรงแรมแบงค็อก แมริออท มาร์คีส์ ควีนส์ปาร์ค 199 ซอยสุขุมวิท 22 กรุงเทพฯ",
+      "destination": "Bangkok Marriott Marquis Queen's Park"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Marriott · información oficial para visitantes",
+        "https://www.marriott.com/hotels/hotel-information/restaurant/details-3/bkkqp-bangkok-marriott-marquis-queens-park/"
+      ]
+    ]
+  },
+  "spectrum-lounge-bar": {
+    "name": "Spectrum Lounge & Bar",
+    "building": "Hyatt Regency Bangkok Sukhumvit · plantas 29–30",
+    "intro": "Para combinar cena, música y cócteles en un solo lugar, visita Spectrum. En la planta 29 de Hyatt Regency Bangkok Sukhumvit puedes cenar con música en directo; en el bar exterior de la 30, tomar cócteles con DJ. Decide con tus amigos o pareja qué noche te apetece y elige la planta. Si después de cenar subes al bar, también disfrutarás del cambio de ambiente al pasar de un espacio a otro.",
+    "facts": {
+      "hours": "17:30–01:00",
+      "dressCode": "Informal elegante — no se permiten sandalias, chanclas, calzado abierto por delante, prendas sin mangas ni ropa deportiva",
+      "closed": "Sin día de cierre semanal",
+      "address": "1 Sukhumvit Soi 13, Bangkok 10110, Thailand",
+      "phone": "+66 2 098 1234"
+    },
+    "reasons": [
+      {
+        "title": "Cena con música en directo",
+        "text": "En la planta 29 puedes cenar con una banda en directo. Encaja para compartir una cena con amigos o en pareja si disfrutáis de la música. Consulta la hora de la actuación del día para elegir cuándo comer."
+      },
+      {
+        "title": "Cócteles y vistas nocturnas en la planta 30",
+        "text": "En el bar al aire libre de la planta 30 puedes tomar cócteles con música de DJ. Si después de cenar quieres seguir escuchando música, puedes continuar arriba. Es una forma de organizar una noche para disfrutar de Bangkok con amigos."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Qué diferencia hay entre las plantas 29 y 30?",
+        "En la planta 29 puedes cenar con banda en directo; en el bar exterior de la 30, tomar cócteles con DJ. Elige la 29 para comer escuchando una actuación y la 30 para disfrutar de bebidas y música al aire libre."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "En el bar al aire libre de la planta 30 puedes tomar cócteles con música de DJ. Si después de cenar quieres seguir escuchando música, puedes continuar arriba. Es una forma de organizar una noche para disfrutar de Bangkok con amigos."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "De 17:30 a 01:00. Deja tiempo suficiente por la tarde si quieres disfrutar tanto de la comida como de la música."
+      ],
+      [
+        "¿Cómo conviene vestirse?",
+        "Lleva ropa arreglada para una cena con ambiente. Están prohibidos las sandalias, las chanclas, los zapatos abiertos por delante, las prendas sin mangas y la ropa deportiva. Si durante el día has hecho turismo con ropa deportiva, vuelve al alojamiento para cambiarte antes de ir."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Hyatt Regency Bangkok Sukhumvit",
+        "instructions": "En Grab o Bolt, busca «Hyatt Regency Bangkok Sukhumvit». Al llegar, pide al personal que te indique cómo ir a Spectrum Lounge & Bar. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7399072,100.5571624&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to Hyatt Regency Bangkok Sukhumvit, 1 Sukhumvit Soi 13, Bangkok 10110, Thailand. I am going to Spectrum Lounge & Bar.",
+      "thai": "สเปกตรัม เลาจน์ แอนด์ บาร์ โรงแรมไฮแอท รีเจนซี กรุงเทพฯ สุขุมวิท 1 ซอยสุขุมวิท 13 กรุงเทพฯ",
+      "destination": "Hyatt Regency Bangkok Sukhumvit"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Hyatt · información oficial para visitantes",
+        "https://www.hyatt.com/hyatt-regency/en-US/bkkhr-hyatt-regency-bangkok-sukhumvit/dining/spectrum-lounge-and-bar"
+      ]
+    ]
+  },
+  "tichuca-rooftop": {
+    "name": "Tichuca Rooftop Bar",
+    "building": "T-One Building · planta 46",
+    "intro": "Para disfrutar de la música y la noche de Bangkok con amigos, sube a Tichuca. En la azotea de T-One Building puedes tomar cócteles en un espacio donde se mezclan vegetación y panorámicas urbanas. La música house de los DJ y las luces de la ciudad crean una noche animada. Ven con amigos que disfruten de la música o quieran probar un cóctel nuevo.",
+    "facts": {
+      "address": "Tichuca, 8 Sukhumvit Road, Khwaeng Phra Khanong, 10110, Thailand (T-ONE Building)",
+      "phone": "+66 65 878 5562"
+    },
+    "reasons": [
+      {
+        "title": "La ciudad entre la vegetación",
+        "text": "Toma un cóctel mirando el paisaje que combina vegetación y edificios altos. El espacio evoca una jungla en plena ciudad y encaja con una salida con amigos para disfrutar de un ambiente distinto al habitual."
+      },
+      {
+        "title": "Para ir con amigos aficionados al house",
+        "text": "El grupo residente de DJ Marichuca presenta organic house y música con ritmos de percusión. Ven un día en que te apetezca disfrutar de música y cócteles más que terminar la noche justo después de cenar. Encaja con acompañantes que prefieran compartir la música a mantener una conversación tranquila."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Toma un cóctel mirando el paisaje que combina vegetación y edificios altos. El espacio evoca una jungla en plena ciudad y encaja con una salida con amigos para disfrutar de un ambiente distinto al habitual."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "El grupo residente de DJ Marichuca presenta organic house y música con ritmos de percusión. Ven un día en que te apetezca disfrutar de música y cócteles más que terminar la noche justo después de cenar. Encaja con acompañantes que prefieran compartir la música a mantener una conversación tranquila."
+      ]
+    ],
+    "access": [
+      {
+        "name": "T-ONE Building",
+        "instructions": "En Grab o Bolt, busca «T-ONE Building». Al llegar, pide al personal que te indique cómo ir a Tichuca Rooftop Bar. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7220802,100.5804417&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to T-ONE Building, Tichuca, 8 Sukhumvit Road, Khwaeng Phra Khanong, 10110, Thailand (T-ONE Building). I am going to Tichuca Rooftop Bar.",
+      "thai": "ทิชูก้า รูฟท็อปบาร์ ตึกที-วัน 8 ถนนสุขุมวิท กรุงเทพฯ",
+      "destination": "T-ONE Building"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Información oficial de Tichuca",
+        "https://tichuca.co/"
+      ]
+    ]
+  },
+  "akara-sky-hanuman": {
+    "name": "Akara Sky Hanuman",
+    "building": "Planta 61",
+    "intro": "Si quieres añadir mitología tailandesa a las vistas nocturnas de Bangkok, visita Akara Sky Hanuman. En el espacio dedicado a Hanuman de One City Centre hay un sky bar desde el que contemplar la ciudad desde lo alto. Ven con amigos que disfruten de lugares temáticos o en pareja para disfrutar del paisaje urbano. En el mismo recinto también hay un mirador y un mercado nocturno, con condiciones distintas de las del bar: decide primero qué quieres hacer durante la visita.",
+    "facts": {
+      "hours": "Hanuman Sky Bar 17:00–02:00",
+      "address": "548 One City Centre, 58fl.-61fl. Phloen Chit Rd., Lumphini, Pathum Wan, Bangkok 10330",
+      "booking": "Reserva mediante Book Now en la web oficial"
+    },
+    "reasons": [
+      {
+        "title": "Hanuman y las vistas de Bangkok",
+        "text": "Puedes contemplar la ciudad en un espacio dedicado a Hanuman, personaje de la mitología tailandesa. Recorre el lugar con amigos interesados tanto en las vistas como en los espacios temáticos. Encaja con un día en que quieras ver la amplitud de Bangkok desde lo alto."
+      },
+      {
+        "title": "Elige qué espacio quieres disfrutar",
+        "text": "El recinto reúne un bar, un mirador y un mercado nocturno. Habla con tus acompañantes para decidir si vais a pasar la noche en el sky bar o conocer también otros espacios. Cada zona tiene horarios y condiciones diferentes: no apliques los del bar al resto del recinto."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Puedes contemplar la ciudad en un espacio dedicado a Hanuman, personaje de la mitología tailandesa. Recorre el lugar con amigos interesados tanto en las vistas como en los espacios temáticos. Encaja con un día en que quieras ver la amplitud de Bangkok desde lo alto."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "El recinto reúne un bar, un mirador y un mercado nocturno. Habla con tus acompañantes para decidir si vais a pasar la noche en el sky bar o conocer también otros espacios. Cada zona tiene horarios y condiciones diferentes: no apliques los del bar al resto del recinto."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Hanuman Sky Bar abre de 17:00 a 02:00. El mirador y el mercado nocturno del recinto tienen otros horarios: decide si vas solo al bar o también a otras zonas antes de organizar el día."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Desde «Book Now» en la página oficial. Comprueba que seleccionas el sky bar entre los distintos espacios del recinto y elige la fecha."
+      ]
+    ],
+    "access": [
+      {
+        "name": "One City Centre",
+        "instructions": "En Grab o Bolt, busca «One City Centre». Al llegar, pide al personal que te indique cómo ir a Akara Sky Hanuman. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7420753,100.5463613&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to One City Centre, 548 One City Centre, 58fl.-61fl. Phloen Chit Rd., Lumphini, Pathum Wan, Bangkok 10330. I am going to Akara Sky Hanuman.",
+      "thai": "อาคารา สกาย หนุมาน วัน ซิตี้ เซ็นเตอร์ 548 ถนนเพลินจิต กรุงเทพฯ",
+      "destination": "One City Centre"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Akara · información oficial del espacio",
+        "https://akaraskyhanuman.com/hanuman-garden"
+      ],
+      [
+        "Akara · web oficial",
+        "https://akaraskyhanuman.com/"
+      ]
+    ]
+  },
+  "iris-wild-iris": {
+    "name": "IRIS & WILD IRIS",
+    "building": "SO/ Bangkok · plantas 29–30",
+    "intro": "Para cenar mirando Lumphini Park, acércate a IRIS & WILD IRIS. En el restaurante y bar de las plantas 29 y 30 de SO/ Bangkok se contemplan juntos el parque y el centro de la ciudad. Puedes combinar comida italiana, aperitivos y música de DJ con tu pareja o amigos para pasar una noche sin prisas. Quédate desde el atardecer para ver encenderse las luces más allá del parque.",
+    "facts": {
+      "hours": "Domingo–jueves 17:00–00:00 · viernes–sábado 17:00–01:00",
+      "address": "2 North Sathorn Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 2 624 0000",
+      "booking": "Reserva mediante Book Now en la web oficial"
+    },
+    "reasons": [
+      {
+        "title": "Una cena mirando el parque y el centro",
+        "text": "Disfruta de una panorámica que combina Lumphini Park y los edificios altos. Puedes compartir una cena italiana con tu pareja o amigos y comentar el Bangkok que habéis recorrido durante el día. Elige una noche en la que no tengas que salir corriendo al siguiente plan."
+      },
+      {
+        "title": "Del aperitivo a la música",
+        "text": "Organiza la noche empezando con un aperitivo y continuando con la cena. De 18:00 a medianoche también hay música de DJ. Encaja con un día en el que quieras quedarte un rato más con tus acompañantes después de comer."
+      }
+    ],
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "Disfruta de una panorámica que combina Lumphini Park y los edificios altos. Puedes compartir una cena italiana con tu pareja o amigos y comentar el Bangkok que habéis recorrido durante el día. Elige una noche en la que no tengas que salir corriendo al siguiente plan."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "Organiza la noche empezando con un aperitivo y continuando con la cena. De 18:00 a medianoche también hay música de DJ. Encaja con un día en el que quieras quedarte un rato más con tus acompañantes después de comer."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "De domingo a jueves, de 17:00 a medianoche; viernes y sábados, de 17:00 a 01:00. Organiza la noche con margen para disfrutar de la cena y de la música de DJ."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Desde «Book Now» en la página oficial. Decide con tus acompañantes cuándo cenar y elige el día."
+      ]
+    ],
+    "access": [
+      {
+        "name": "SO/ Bangkok",
+        "instructions": "En Grab o Bolt, busca «SO/ Bangkok». Al llegar, pide al personal que te indique cómo ir a IRIS & WILD IRIS. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7262437,100.543125&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to SO/ Bangkok, 2 North Sathorn Road, Bangrak, Bangkok 10500, Thailand. I am going to IRIS & WILD IRIS.",
+      "thai": "ไอริส โรงแรมโซ แบงค็อก 2 ถนนสาทรเหนือ กรุงเทพฯ",
+      "destination": "SO/ Bangkok"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "SO/ Bangkok · información oficial",
+        "https://my.so-bangkok.com/"
+      ],
+      [
+        "SO/ Bangkok · web del hotel",
+        "https://www.so-bangkok.com/"
+      ]
+    ]
+  },
+  "threesixty-rooftop": {
+    "name": "ThreeSixty Rooftop Bar",
+    "building": "Millennium Hilton Bangkok · planta 31",
+    "intro": "Si quieres ver Bangkok a lo largo del Chao Phraya, sube a ThreeSixty. En la azotea de Millennium Hilton puedes tomar algo con vistas amplias al río y la ciudad. Ven en pareja para contemplar las embarcaciones y el atardecer o con amigos aficionados a fotografiar paisajes. Si te quedas con calma desde el atardecer, también verás encenderse las luces de la ribera y de la ciudad.",
+    "facts": {
+      "hours": "17:00–01:00",
+      "closed": "Sin día de cierre semanal",
+      "address": "123 Charoennakorn Road, Klongsan, Bangkok 10600, Thailand",
+      "phone": "+66-2-442-2062"
+    },
+    "reasons": [
+      {
+        "title": "El río y la ciudad en una misma panorámica",
+        "text": "La panorámica abarca tanto los edificios altos como el río Chao Phraya. Mientras tomas algo y miras las embarcaciones avanzar por el río, descubrirás un paisaje de tarde diferente del de las azoteas del centro."
+      },
+      {
+        "title": "Para disfrutar del atardecer junto al río",
+        "text": "Ven con tu pareja o amigos al atardecer. Puedes tomar algo mientras cambia el color del cielo y se encienden las luces de la ribera. Elige un día en que puedas quedarte sin prisas por el siguiente plan."
+      }
+    ],
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién ir?",
+        "La panorámica abarca tanto los edificios altos como el río Chao Phraya. Mientras tomas algo y miras las embarcaciones avanzar por el río, descubrirás un paisaje de tarde diferente del de las azoteas del centro."
+      ],
+      [
+        "¿Qué paisaje o ambiente puedo disfrutar?",
+        "Ven con tu pareja o amigos al atardecer. Puedes tomar algo mientras cambia el color del cielo y se encienden las luces de la ribera. Elige un día en que puedas quedarte sin prisas por el siguiente plan."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "De 17:00 a 01:00. Para ver tanto el atardecer como las luces nocturnas, sube antes de que se ponga el sol y quédate tomando algo."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Millennium Hilton Bangkok",
+        "instructions": "En Grab o Bolt, busca «Millennium Hilton Bangkok». Al llegar, pide al personal que te indique cómo ir a ThreeSixty Rooftop Bar. Si vas en taxi, muestra al conductor la frase en inglés o tailandés de abajo.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7286821,100.5109677&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista el destino que aparece a continuación.",
+      "english": "Please take me to Millennium Hilton Bangkok, 123 Charoennakorn Road, Klongsan, Bangkok 10600, Thailand. I am going to ThreeSixty Rooftop Bar.",
+      "thai": "ทรีซิกซ์ตี้ รูฟท็อปบาร์ โรงแรมมิลเลนเนียม ฮิลตัน กรุงเทพฯ 123 ถนนเจริญนคร กรุงเทพฯ",
+      "destination": "Millennium Hilton Bangkok"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Hilton · información oficial de ThreeSixty",
+        "https://www.hilton.com/en/hotels/bkkhitw-millennium-hilton-bangkok/dining/threesixty-rooftop-bar/"
+      ]
+    ]
+  },
+  "seen-riverside": {
+    "name": "SEEN Restaurant & Bar",
+    "building": "Avani+ Riverside Bangkok Hotel · plantas 26–27",
+    "intro": "Cuando te apetezca cenar mirando el Chao Phraya, visita SEEN Restaurant & Bar en Avani Riverside. Sus espacios interiores y exteriores de las plantas 26 y 27 permiten comer y tomar algo con vistas al río y al centro de Bangkok. Encaja para empezar la noche con amigos aficionados al DJ o con quienes quieran acompañar la comida con el paisaje de la ribera. Reserva tiempo para la cena y la música y comparte una noche junto al río sin prisas.",
+    "facts": {
+      "address": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "phone": "+66 2 431 9100"
+    },
+    "reasons": [
+      {
+        "title": "Una cena con el paisaje de la ribera",
+        "text": "Puedes contemplar juntos el Chao Phraya y el centro de Bangkok. Después de recorrer la ciudad durante el día, siéntate por la tarde a disfrutar del río. Comparte comida y bebidas y continúa comentando el viaje."
+      },
+      {
+        "title": "Para ir con amigos aficionados al DJ",
+        "text": "Las sesiones de DJ en directo añaden música a la comida y las bebidas. Elígelo para una noche con amigos a quienes les guste ese ambiente. Si lo principal es conversar tranquilamente, ten en cuenta la música al elegir dónde sentaros."
+      }
+    ],
+    "recommended": "Para cenar con vistas al río o ir con amigos aficionados al DJ. Permite organizar una noche que combine paisaje y música.",
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿Es el mismo espacio que SIN Rooftop Bar?",
+        "Están en el mismo Avani Riverside, pero SEEN es un restaurante y bar con espacios interiores y exteriores. Si quieres combinar comida y bebidas, identifica SEEN como el lugar concreto de la visita."
+      ],
+      [
+        "¿Con quién merece la pena ir?",
+        "Encaja con quienes quieran cenar mirando el Chao Phraya o con amigos aficionados a la música de DJ. Organiza una noche que combine comida, paisaje y música."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Avani+ Riverside Bangkok Hotel",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Avani+ Riverside Bangkok Hotel; muestra al conductor el nombre del hotel y la dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7050249,100.491371"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo ir a SEEN Restaurant & Bar.",
+      "english": "SEEN Restaurant & Bar, Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "thai": "ร้านอาหารซีน โรงแรมอวานี พลัส ริเวอร์ไซด์ 257 ถนนเจริญนคร ธนบุรี กรุงเทพฯ",
+      "destination": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Avani · información oficial del hotel",
+        "http://www.avanihotels.com/en/riverside-bangkok"
+      ],
+      [
+        "Avani · información oficial del hotel",
+        "https://www.avanihotels.com/en/riverside-bangkok"
+      ]
+    ]
+  },
+  "sin-rooftop": {
+    "name": "SIN Rooftop Bar",
+    "building": "Avani+ Riverside Bangkok Hotel · planta 27",
+    "intro": "Después de cenar, sube a SIN Rooftop Bar para tomar algo mirando el Chao Phraya. El bar exterior de la planta 27 de Avani Riverside ofrece el paisaje de la ribera y las luces de la ciudad. Es un espacio separado de SEEN Restaurant & Bar, en el mismo hotel. Encaja para seguir charlando con amigos o compartir en pareja una noche mirando el río.",
+    "facts": {
+      "hours": "17:00–01:00",
+      "address": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "phone": "+66 2 431 9100"
+    },
+    "reasons": [
+      {
+        "title": "Las luces de la ribera por la noche",
+        "text": "Desde la azotea al aire libre puedes contemplar el Chao Phraya. Acércate después de cenar si te apetece tomar algo con el paisaje del río. Es una forma de seguir comentando el día de viaje con tus acompañantes."
+      },
+      {
+        "title": "Un bar exterior distinto de SEEN",
+        "text": "SIN es un espacio separado de SEEN, aunque estén en el mismo hotel. Decide el lugar para quedar según busques un restaurante interior y exterior o un bar en azotea al aire libre. Indica a tus acompañantes el nombre SIN para que os encontréis en el mismo espacio."
+      }
+    ],
+    "recommended": "Para seguir conversando con amigos después de cenar o compartir en pareja las vistas nocturnas del río. Piensa la visita como una noche en un bar al aire libre.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Es lo mismo que SEEN?",
+        "Están en el mismo Avani Riverside, pero son espacios separados. Si buscas el bar en azotea al aire libre, queda en SIN."
+      ],
+      [
+        "¿Puedo ir después de una cena tardía?",
+        "Abre de 17:00 a 01:00 del día siguiente. Puedes organizar la visita para tomar algo y disfrutar del río después de cenar. La hora de cierre y la del último pedido pueden ser diferentes."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Avani+ Riverside Bangkok Hotel",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Avani+ Riverside Bangkok Hotel; muestra al conductor el nombre del hotel y la dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7050249,100.491371"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo ir a SIN Rooftop Bar.",
+      "english": "SIN Rooftop Bar, Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "thai": "ซิน รูฟท็อปบาร์ โรงแรมอวานี พลัส ริเวอร์ไซด์ 257 ถนนเจริญนคร ธนบุรี กรุงเทพฯ",
+      "destination": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Avani · información oficial del hotel",
+        "http://www.avanihotels.com/en/riverside-bangkok"
+      ],
+      [
+        "Avani · información oficial del hotel",
+        "https://www.avanihotels.com/en/riverside-bangkok"
+      ]
+    ]
+  },
+  "char-rooftop": {
+    "name": "CHAR Rooftop Bar",
+    "building": "Hotel Indigo Bangkok Wireless Road · planta 26",
+    "intro": "Para disfrutar de música mirando Wireless Road y el centro de Bangkok, visita CHAR Rooftop Bar. En la planta 26 de Hotel Indigo puedes tomar cócteles de la casa y escuchar música en directo. Ven con amigos aficionados a la música o en pareja para una noche con vistas urbanas. Es un espacio distinto del restaurante CHAR de la planta 25: indica el bar en azotea como el lugar para quedar.",
+    "facts": {
+      "address": "Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330",
+      "phone": "+66 2 207 4999"
+    },
+    "reasons": [
+      {
+        "title": "Cócteles sobre Wireless Road",
+        "text": "Desde el bar de la planta 26 puedes contemplar Wireless Road y el centro de Bangkok. Elige un cóctel de la casa y disfruta del paisaje urbano con tus acompañantes."
+      },
+      {
+        "title": "Para ir con alguien que disfrute de la música en directo",
+        "text": "Encaja si quieres una noche acompañada por música en directo. Queda con amigos aficionados a la música y combina bebidas y vistas desde la azotea."
+      }
+    ],
+    "recommended": "Para amigos que disfruten de música en directo y cócteles o parejas que quieran una noche con vistas del centro. El destino es el bar en azotea, distinto del restaurante CHAR.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Es el mismo espacio que el restaurante CHAR?",
+        "El restaurante CHAR de la planta 25 y el bar en azotea CHAR de la 26 son espacios separados. Para cócteles de la casa y música en directo, queda en el bar de la azotea."
+      ],
+      [
+        "¿Con quién ir?",
+        "Con amigos aficionados a la música en directo o con quienes quieran disfrutar de un cóctel y del paisaje urbano. Piensa la visita como una noche en el bar en azotea más que como una cena."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Hotel Indigo Bangkok Wireless Road",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Hotel Indigo Bangkok Wireless Road; muestra al conductor el nombre del hotel y la dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7400311,100.5471023"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo ir a CHAR Rooftop Bar.",
+      "english": "CHAR Rooftop Bar, Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330",
+      "thai": "ชาร์ รูฟท็อปบาร์ โรงแรมโฮเทลอินดิโก้ 81 ถนนวิทยุ ลุมพินี กรุงเทพฯ",
+      "destination": "Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Hotel · información oficial del bar y su planta",
+        "https://www.ihg.com/hotelindigo/hotels/us/en/bangkok/bkkin/hoteldetail/events-facilities"
+      ]
+    ]
+  },
+  "brewski-rooftop": {
+    "name": "Brewski Rooftop Bar",
+    "building": "Radisson Blu Plaza Bangkok · plantas 29–30",
+    "intro": "Si viajas con amigos aficionados a la cerveza artesanal, visita Brewski Rooftop Bar. En las plantas 29 y 30 de Radisson Blu Plaza puedes disfrutar de cerveza y algo para picar mirando Sukhumvit. Si llegas al principio de la tarde de apertura, podrás quedarte desde el atardecer hasta las luces de la noche. Elige las cervezas con tus acompañantes y dedica un rato a comentar el viaje.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00",
+      "closed": "Sin día de cierre semanal",
+      "address": "Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110",
+      "phone": "+66 2 302 3333"
+    },
+    "reasons": [
+      {
+        "title": "Cerveza artesanal con vistas urbanas",
+        "text": "Es un bar en azotea para disfrutar de cerveza artesanal mirando Sukhumvit. Elige las bebidas con amigos aficionados a la cerveza y acompáñalas con algo para picar. La panorámica urbana añade otra parte a la noche."
+      },
+      {
+        "title": "Del atardecer a la ciudad iluminada",
+        "text": "Abre a las 17:00: llega al principio de la tarde para ver cómo cae la noche sobre la ciudad. Encaja tanto para una parada después de cenar como para dedicar un rato específico a la cerveza y las vistas."
+      }
+    ],
+    "recommended": "Para compartir algo de comer con amigos aficionados a la cerveza. Elígelo como una noche de cerveza artesanal y vistas de Sukhumvit.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Encaja si prefiero cerveza a cócteles?",
+        "Es un bar en azotea centrado en la cerveza artesanal. Elige las bebidas con alguien aficionado a la cerveza, pide algo para picar y disfruta del paisaje urbano."
+      ],
+      [
+        "¿Conviene ir temprano o tarde por la noche?",
+        "Para ver el atardecer y las vistas nocturnas, llega antes de que se ponga el sol. Abre todos los días de 17:00 a 01:00 del día siguiente, por lo que también puedes ir con amigos a tomar una cerveza después de cenar. Si vas tarde y quieres comer, pregunta antes hasta qué hora se admiten pedidos de cocina."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Radisson Blu Plaza Bangkok",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Radisson Blu Plaza Bangkok; muestra al conductor el nombre del hotel y la dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7351407,100.5639592"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo ir a Brewski Rooftop Bar.",
+      "english": "Brewski Rooftop Bar, Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110",
+      "thai": "บรูว์สกี รูฟท็อปบาร์ โรงแรมเรดิสัน บลู พลาซ่า 489 ถนนสุขุมวิท กรุงเทพฯ",
+      "destination": "Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Radisson · información oficial de Brewski",
+        "https://www.radissonhotels.com/en-us/hotels/radisson-blu-bangkok/dining/brewski"
+      ]
+    ]
+  },
+  "pastel-rooftop": {
+    "name": "Pastel Rooftop Bar & Mediterranean Dining",
+    "building": "Aira Hotel Bangkok · planta 22",
+    "intro": "Para añadir música a la cena, sube a Pastel Rooftop, en la planta 22 de Aira Hotel. Puedes disfrutar de cocina mediterránea, cócteles y música en directo con vistas a Bangkok. Encaja con amigos aficionados a la música o con quienes quieran combinar cena y actuación. Si te interesa un concierto concreto, elige la fecha y la hora en el programa oficial y organiza la cena alrededor.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00",
+      "closed": "Sin día de cierre semanal",
+      "address": "Aira Hotel, 22nd Floor, 14 Sukhumvit Soi 11, Bangkok 10110",
+      "phone": "+66 95 703 5679"
+    },
+    "reasons": [
+      {
+        "title": "Cocina mediterránea y cócteles",
+        "text": "Puedes disfrutar de una cena mediterránea con vistas a la ciudad. Comparte los platos con amigos y elige un cóctel para continuar la noche."
+      },
+      {
+        "title": "Una noche para acompañantes aficionados a la música",
+        "text": "La música en directo acompaña la cena. Si vas con alguien a quien le guste, busca en la programación oficial la actuación, fecha y hora que os interesen y reserva. Es una forma de combinar la comida y el espectáculo en el mismo plan."
+      }
+    ],
+    "recommended": "Para compartir con amigos o acompañantes una noche de cocina mediterránea, cócteles y música en directo. Si la actuación es el motivo principal, elige la fecha según el programa oficial.",
+    "reservation": "Puedes reservar una mesa en la web oficial. Decide el día con tus acompañantes y elige la hora según la actuación que te interese. Revisa las condiciones aplicables a la fecha de visita.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Cuándo reservo para escuchar música en directo?",
+        "Elige la fecha y la hora de la actuación en la programación oficial y ajusta la cena a ellas. Podrás combinar cocina mediterránea, cócteles y música."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Puedes reservar una mesa en la web oficial. Decide el día con tus acompañantes y ten en cuenta la actuación que quieras escuchar al elegir la hora."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Todos los días de 17:00 a 01:00 del día siguiente. Deja tiempo para disfrutar tanto de la cena como de la música."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Aira Hotel Bangkok",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Aira Hotel Bangkok; muestra al conductor el nombre del hotel y la dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7426494,100.556846"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo ir a Pastel Rooftop Bar & Mediterranean Dining.",
+      "english": "Pastel Rooftop Bar & Mediterranean Dining, Aira Hotel, 14 Sukhumvit Soi 11, Bangkok 10110",
+      "thai": "พาสเทล รูฟท็อปบาร์ โรงแรมไอรา 14 ซอยสุขุมวิท 11 กรุงเทพฯ",
+      "destination": "Aira Hotel, 22nd Floor, 14 Sukhumvit Soi 11, Bangkok 10110"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Pastel · web oficial",
+        "https://www.pastelbangkok.com/"
+      ],
+      [
+        "Pastel · música en directo",
+        "https://www.pastelbangkok.com/live-band/"
+      ]
+    ]
+  },
+  "sky-on-20": {
+    "name": "Sky on 20",
+    "building": "Novotel Bangkok Sukhumvit 20 · planta 26",
+    "intro": "Si quieres acompañar las vistas urbanas con una bebida y algo de comer, acércate a Sky on 20. En la planta 26 de Novotel Sukhumvit 20 puedes tomar cócteles, pizza y bruschetta de cangrejo con mayonesa. Encaja para compartir platos con amigos o pasar la noche mirando las luces de la ciudad. Si a tus acompañantes les gusta el DJ, elige un viernes o un sábado por la tarde.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00",
+      "closed": "Sin día de cierre semanal",
+      "address": "Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110",
+      "phone": "+66 2 009 4999"
+    },
+    "reasons": [
+      {
+        "title": "Comparte comida con vistas al centro",
+        "text": "Puedes acompañar un cóctel con pizza o bruschetta de cangrejo con mayonesa. Elígelo para compartir platos con amigos y disfrutar del paisaje urbano."
+      },
+      {
+        "title": "Viernes y sábados para disfrutar del DJ",
+        "text": "Los viernes y sábados por la tarde hay música de DJ. Queda el fin de semana con alguien aficionado a la música y añade bebidas y vistas urbanas al plan."
+      }
+    ],
+    "recommended": "Para compartir comida y cócteles con amigos o disfrutar el fin de semana de música de DJ y panorámicas urbanas.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Qué día voy para escuchar DJ?",
+        "Ve un viernes o un sábado por la tarde. Podrás disfrutar de cócteles y panorámicas urbanas con música de DJ."
+      ],
+      [
+        "¿Qué comida puedo acompañar con las bebidas?",
+        "Hay pizza y bruschetta de cangrejo con mayonesa. Plantéalo como una noche para compartir algo de comer con amigos mirando la ciudad."
+      ],
+      [
+        "¿Cuál es el horario?",
+        "Todos los días de 17:00 a 01:00 del día siguiente. Deja tiempo para disfrutar de la comida y del paisaje con tus acompañantes."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Novotel Bangkok Sukhumvit 20",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Novotel Bangkok Sukhumvit 20; muestra al conductor el nombre del hotel y la dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7315162,100.5642845"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo ir a Sky on 20.",
+      "english": "Sky on 20, Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110",
+      "thai": "สกาย ออน 20 โรงแรมโนโวเทล สุขุมวิท 20 19/9 ซอยสุขุมวิท 20 กรุงเทพฯ",
+      "destination": "Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Novotel · información oficial de Sky on 20",
+        "https://www.novotelbangkoksukhumvit20.com/bangkok-restaurants/sky-on-20/"
+      ]
+    ]
+  },
+  "spire-rooftop": {
+    "name": "Spire Rooftop Bar",
+    "building": "Dusit Thani Bangkok · planta 39",
+    "intro": "Para contemplar Bangkok de noche bajo la aguja dorada de Dusit Thani, visita Spire Rooftop Bar. En la planta 39 puedes disfrutar de cócteles creados por el equipo de Tropic City y algo de comer con vistas en todas direcciones. Encaja con amigos aficionados a los cócteles o con una pareja que quiera compartir una noche con vistas. Al caer la noche se suma la música de DJ: deja tiempo para las bebidas y la panorámica.",
+    "facts": {
+      "hours": "Todos los días 17:00–01:00 del día siguiente",
+      "children": "Los menores de 20 años pueden estar hasta las 19:00.",
+      "dressCode": "Informal elegante · se aconseja evitar las chanclas y las camisetas de tirantes",
+      "closed": "Sin día de cierre semanal",
+      "rain": "Sensible al tiempo · la distribución de las mesas puede ajustarse según la meteorología",
+      "address": "Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500",
+      "phone": "+66 2 200 9000"
+    },
+    "reasons": [
+      {
+        "title": "Bangkok bajo la aguja dorada",
+        "text": "La panorámica en todas direcciones y la aguja dorada de Dusit Thani distinguen este bar. Elige un cóctel con tus acompañantes y contempla las luces del centro."
+      },
+      {
+        "title": "Cócteles de Tropic City y música de DJ",
+        "text": "Puedes acompañar los cócteles creados por el equipo de Tropic City con algo de comer. Por la noche hay también música de DJ: queda con amigos que disfruten de los cócteles y la música."
+      }
+    ],
+    "recommended": "Para amigos que disfruten de cócteles y DJ o parejas que quieran contemplar Bangkok en todas direcciones. Si alguien tiene menos de 20 años, elige la hora según el límite de las 19:00.",
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Pueden ir acompañantes menores de 20 años?",
+        "Los menores de 20 años pueden estar hasta las 19:00. Si vas con acompañantes jóvenes, organiza una visita al principio de la tarde de apertura para ver la ciudad. Distingue este plan de una salida que continúe después de las 19:00."
+      ],
+      [
+        "¿Qué ropa debo preparar?",
+        "Ve con vestimenta informal elegante. La información aconseja evitar chanclas y camisetas de tirantes. Piensa en ropa arreglada para salir por la noche."
+      ],
+      [
+        "¿Qué pasa si llueve?",
+        "La distribución de las mesas puede modificarse según el tiempo. Si se prevé lluvia, consulta las indicaciones de ese día y la ubicación de tu mesa reservada."
+      ],
+      [
+        "¿Con quién merece la pena ir?",
+        "Con amigos aficionados a los cócteles o en pareja para una noche con vistas. Bajo la aguja dorada puedes combinar bebidas, algo de comer y panorámicas de la ciudad."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Dusit Thani Bangkok",
+        "instructions": "Si vas en coche, consulta la ubicación del edificio en el enlace de indicaciones de abajo. El destino es Dusit Thani Bangkok; muestra al conductor el nombre del hotel y la dirección.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7282549,100.5382186"
+      }
+    ],
+    "taxi": {
+      "instructions": "Si vas en taxi o coche, muestra al conductor la frase en inglés o tailandés de abajo. Al llegar, pide al personal que te indique cómo ir a Spire Rooftop Bar.",
+      "english": "Spire Rooftop Bar, Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500",
+      "thai": "สไปร์ รูฟท็อปบาร์ โรงแรมดุสิตธานี 98 ถนนพระราม 4 สีลม กรุงเทพฯ",
+      "destination": "Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Dusit · información oficial de Spire",
+        "https://www.dusit.com/dusitthani-bangkok/dining/spire-rooftop-bar/"
+      ],
+      [
+        "Reserva oficial · condiciones de visita",
+        "https://www.tablecheck.com/en/dusit-thani-bangkok-spire-rooftop-bar/reserve/message"
+      ]
+    ]
+  },
+  "skybar-summer-club": {
+    "name": "Skybar Summer Club",
+    "building": "Siam@Siam Design Hotel Pattaya · planta 27",
+    "intro": "Para combinar vistas del mar y música con amigos en Pattaya, sube a Skybar Summer Club. El bar en azotea de la planta 27 de Siam@Siam cuenta con vistas al golfo de Tailandia y una piscina distribuida en dos niveles. Los cócteles y la música de DJ en directo acompañan el final de un día de playa. Solo pueden utilizarlo personas de 18 años o más: organízalo como una salida con amigos o en pareja.",
+    "facts": {
+      "children": "Solo personas de 18 años o más.",
+      "address": "390 Moo 9, Pattaya Sai 2 Road, Nongprue, Banglamung, Chonburi 20150, Thailand",
+      "phone": "+66 (0) 38 930 600"
+    },
+    "reasons": [
+      {
+        "title": "Un cóctel mirando el mar",
+        "text": "Desde la planta 27 puedes contemplar el golfo de Tailandia y la ciudad. La piscina de dos niveles y las vistas al mar crean un ambiente que recuerda a un club de playa. Puedes tomar un cóctel con amigos mientras comentáis el día en Pattaya."
+      },
+      {
+        "title": "Para ir con amigos aficionados a la música",
+        "text": "El espacio ofrece DJ en directo y proyecciones de cine al aire libre. Encaja si quieres quedarte disfrutando de la música, más que subir solo para ver la panorámica. Es un espacio para adultos; para cenar en familia con niños, mira BARBU en la planta 24 del mismo hotel."
+      }
+    ],
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Con amigos o en pareja si queréis combinar vistas del mar, cócteles y música. Encaja para pasar una tarde del viaje con DJ en directo."
+      ],
+      [
+        "¿Puedo ir con niños?",
+        "Skybar Summer Club solo admite personas de 18 años o más. Si quieres comer en una azotea con niños, consulta BARBU, en la planta 24 del mismo hotel."
+      ],
+      [
+        "¿Qué paisaje y ambiente puedo disfrutar?",
+        "Desde la planta 27 puedes tomar cócteles y escuchar DJ mirando el golfo de Tailandia. La piscina de dos niveles añade un ambiente de club de playa. Encaja con una noche para compartir música con amigos más que con una cena tranquila."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Siam@Siam Design Hotel Pattaya",
+        "instructions": "En Grab o Bolt, busca «Siam@Siam Design Hotel Pattaya». Al llegar, pide al personal que te indique cómo subir a Skybar Summer Club.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9457203,100.8887009&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Siam@Siam Design Hotel Pattaya. I am going to Skybar Summer Club.",
+      "thai": "ไปโรงแรมสยามแอทสยาม ดีไซน์ พัทยา จะไปสกายบาร์ ซัมเมอร์คลับ ชั้น 27",
+      "destination": "Siam@Siam Design Hotel Pattaya"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Siam@Siam · restaurantes y bares",
+        "https://www.siamatsiam.com/pattaya/restaurants-bars/"
+      ],
+      [
+        "Siam@Siam · ficha oficial de 2026",
+        "https://siamatsiam.b-cdn.net/wp-content/uploads/2026/02/20260214-SSPTY_-Factsheet-Editable-Template.pdf"
+      ],
+      [
+        "Siam@Siam · información oficial de reuniones y eventos",
+        "https://www.siamatsiam.com/wp-content/uploads/2025/07/pty-meeting-events.pdf"
+      ]
+    ]
+  },
+  "barbu-pattaya": {
+    "name": "BARBÙ",
+    "building": "Siam@Siam Design Hotel Pattaya · planta 24",
+    "intro": "Si quieres cenar en una azotea de Pattaya con niños, mira BARBÙ. En el restaurante y bar de la planta 24 de Siam@Siam puedes compartir cocina mediterránea con vistas a la ciudad. Es un lugar para sentarse en familia o con amigos, compartir platos y seguir comentando el viaje. Es distinto del Skybar para adultos de la planta 27, por lo que también permite organizar una cena con los niños.",
+    "facts": {
+      "children": "Admite visitas en familia.",
+      "address": "390 Moo 9, Pattaya Sai 2 Road, Nongprue, Banglamung, Chonburi 20150, Thailand",
+      "phone": "+66 (0) 38 930 600"
+    },
+    "reasons": [
+      {
+        "title": "Una cena para compartir entre varios",
+        "text": "La cocina mediterránea para compartir es uno de los atractivos de BARBÙ. Elige con familiares o amigos lo que os apetezca. Compartir los platos mirando la ciudad puede convertirse en un rato para recordar el día que habéis pasado juntos."
+      },
+      {
+        "title": "Disfruta de una azotea también con niños",
+        "text": "BARBÙ es el espacio de la planta 24 que admite familias. Encaja si viajas con niños y los adultos también quieren cenar con buenas vistas. Distingue el nombre y la planta del Skybar Summer Club de la 27, reservado a adultos."
+      }
+    ],
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿Puedo ir con niños?",
+        "Sí, admite familias. Encaja para comer mirando la ciudad con niños. Skybar Summer Club, en la planta 27 del mismo hotel, es solo para mayores de 18 años: dirígete a BARBÙ, en la planta 24."
+      ],
+      [
+        "¿Qué comida se ofrece?",
+        "Puedes compartir platos mediterráneos. Elige con tu familia o amigos lo que os apetezca, colócalo en el centro y compartid. Encaja con una comida para varios en la que queráis seguir conversando."
+      ],
+      [
+        "¿Es lo mismo que Skybar Summer Club?",
+        "Son instalaciones distintas. BARBÙ es el restaurante y bar de la planta 24 que admite familias; Skybar Summer Club está en la 27 y es solo para personas de 18 años o más. Para cenar con niños, elige BARBÙ."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Siam@Siam Design Hotel Pattaya",
+        "instructions": "En Grab o Bolt, busca «Siam@Siam Design Hotel Pattaya». Al llegar, pide al personal que te indique cómo ir a BARBÙ.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9457203,100.8887009&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Siam@Siam Design Hotel Pattaya. I am going to BARBÙ.",
+      "thai": "ไปโรงแรมสยามแอทสยาม ดีไซน์ พัทยา จะไปบาร์บู ชั้น 24",
+      "destination": "Siam@Siam Design Hotel Pattaya"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Siam@Siam · restaurantes y bares",
+        "https://www.siamatsiam.com/pattaya/restaurants-bars/"
+      ],
+      [
+        "Siam@Siam · ficha oficial de 2026",
+        "https://siamatsiam.b-cdn.net/wp-content/uploads/2026/02/20260214-SSPTY_-Factsheet-Editable-Template.pdf"
+      ]
+    ]
+  },
+  "portrait-voyage-sky-bar": {
+    "name": "The Portrait of Voyage Sky Bar",
+    "building": "Grande Centre Point Voyage Pattaya · planta 33",
+    "intro": "Para descansar un rato mirando el mar de Pattaya, acércate a The Portrait of Voyage Sky Bar. En el bar exterior de la planta 33 de Grande Centre Point Voyage puedes disfrutar de cócteles y vistas al mar. Sube con tu pareja o amigos al atardecer para charlar mientras cambia el cielo y, después, contemplar las luces de la ciudad. Encaja con un día en que prefieras dedicar tiempo a las bebidas y al paisaje más que a una comida.",
+    "facts": {
+      "hours": "Todos los días 11:30–24:00",
+      "address": "808, 908 M.5 Na Kluea, Bang Lamung, Chonburi 20150, Thailand",
+      "phone": "+66 33 268 188"
+    },
+    "reasons": [
+      {
+        "title": "Un descanso mirando el mar y el cielo",
+        "text": "Desde el espacio exterior de la planta 33 puedes contemplar juntos el mar y la ciudad de Pattaya. Si llegas cuando baje el sol, verás primero el paisaje con luz, después el atardecer y por último las luces nocturnas. Elige un día sin prisas por el siguiente plan y quédate con tus acompañantes."
+      },
+      {
+        "title": "Una conversación con un cóctel",
+        "text": "Es un bar centrado en los cócteles. Encaja para comentar con amigos las visitas del día o descansar en pareja mirando el mar. Si también quieres cenar, distingue este espacio de Blue Atlantis, el restaurante situado en la misma planta."
+      }
+    ],
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Cuándo conviene ir?",
+        "Para ver el atardecer y las luces nocturnas, sube antes de que se ponga el sol. Abre todos los días de 11:30 a medianoche, así que también puedes ir durante el día a descansar mirando el mar de Pattaya."
+      ],
+      [
+        "¿Es lo mismo que Blue Atlantis?",
+        "Son establecimientos distintos. The Portrait of Voyage es un bar centrado en cócteles, mientras que Blue Atlantis, en la misma planta, es un restaurante para comer. Decide con tus acompañantes si queréis tomar algo o cenar antes de ir."
+      ],
+      [
+        "¿Qué vistas puedo ver?",
+        "Desde el bar exterior de la planta 33 puedes contemplar el mar y la ciudad de Pattaya. De día, el mar abierto; al atardecer, los cambios de color del cielo; y de noche, las luces de la ciudad."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Grande Centre Point Voyage Pattaya",
+        "instructions": "En Grab o Bolt, busca «Grande Centre Point Voyage Pattaya». Al llegar, pide al personal que te indique cómo ir a The Portrait of Voyage Sky Bar.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9536553,100.8861868&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Grande Centre Point Voyage Pattaya. I am going to The Portrait of Voyage Sky Bar.",
+      "thai": "ไปโรงแรม Grande Centre Point Voyage Pattaya จะไป The Portrait of Voyage Sky Bar ชั้น 33",
+      "destination": "Grande Centre Point Voyage Pattaya"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Grande Centre Point Voyage · información oficial",
+        "https://voyagepattaya.com/"
+      ]
+    ]
+  },
+  "sizzle-rooftop": {
+    "name": "Sizzle Rooftop Restaurant & Bar",
+    "building": "Avista Hideaway Phuket Patong – MGallery",
+    "intro": "Para cenar mirando el mar y el bosque en Phuket, sube a Sizzle Rooftop. Desde la terraza de Avista Hideaway se ven juntos el Andamán y el bosque de las colinas. Encaja para empezar con un cóctel al atardecer en pareja o con amigos y continuar con la cena. El bar abre antes que el restaurante: decide si vas a tomar algo o también a cenar antes de elegir la hora.",
+    "facts": {
+      "hours": "Bar en azotea 17:30–23:30 / restaurante 18:00–23:00, último pedido 22:30 · horario oficial",
+      "rain": "Hay asientos cubiertos disponibles si llueve",
+      "address": "39/9 Muen-Ngern Road, Tri Trang Beach, Patong, Kathu, Phuket 83150, Thailand",
+      "phone": "+66 95 834 0453  / info@sizzlerooftopphuket.com",
+      "booking": "Se admiten reservas"
+    },
+    "reasons": [
+      {
+        "title": "Una terraza con vistas al mar y al bosque",
+        "text": "Desde la terraza de las colinas de Patong se abre una vista amplia del Andamán y del bosque. Sube cuando baje el sol para empezar la noche tomando algo con tus acompañantes. Encaja si quieres ver el mar desde una perspectiva diferente de la playa."
+      },
+      {
+        "title": "De un cóctel a la cena",
+        "text": "El bar abre a las 17:30 y el restaurante a las 18:00. Puedes empezar con un cóctel y continuar con la cena para pasar la noche sin prisas. Ven con tu pareja o amigos si queréis añadir comida a la música y a las vistas."
+      },
+      {
+        "title": "Con previsión de lluvia, asientos bajo techo",
+        "text": "Cuando llueve se pueden utilizar asientos cubiertos. Si lo que más te interesa es el paisaje exterior, ten también en cuenta el tiempo del día. En una jornada lluviosa, pide al personal que te indique dónde sentarte para cenar."
+      }
+    ],
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿El bar y el restaurante tienen horarios distintos?",
+        "Sí. El bar abre de 17:30 a 23:30 y el restaurante de 18:00 a 23:00. Los pedidos de comida terminan a las 22:30: si quieres cenar, llega con suficiente margen antes."
+      ],
+      [
+        "¿Se puede ir si llueve?",
+        "Hay asientos bajo techo para los días de lluvia. Pide al personal que te indique dónde sentarte. Si quieres disfrutar de las vistas del mar y el bosque, ten en cuenta la previsión antes de elegir el día."
+      ],
+      [
+        "¿Con quién merece la pena ir?",
+        "Con una pareja o amigos que quieran combinar bebidas y cena con vistas al mar. Deja tiempo para empezar con un cóctel en el bar y continuar con la comida sin prisas."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Avista Hideaway Phuket Patong",
+        "instructions": "En Grab o Bolt, busca «Avista Hideaway Phuket Patong». Al llegar, pide al personal que te indique cómo ir a Sizzle Rooftop Restaurant & Bar. Si te quedas hasta la noche, organiza también el regreso.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8811027,98.2774545&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Sizzle Rooftop Restaurant & Bar at Avista Hideaway Phuket Patong.",
+      "thai": "ไป Sizzle Rooftop Restaurant & Bar ที่โรงแรม Avista Hideaway Phuket Patong ถนนหมื่นเงิน ป่าตอง ภูเก็ต",
+      "destination": "Avista Hideaway Phuket Patong"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Avista Hideaway · información oficial de la azotea",
+        "https://www.avistahideawayphuketresort.com/best-restaurants-in-phuket-patong/rooftop-bar-in-phuket/"
+      ],
+      [
+        "MGallery · restaurante oficial",
+        "https://mgallery.accor.com/en/hotels/A245/R001.restaurant.html"
+      ]
+    ]
+  },
+  "twilight-sky": {
+    "name": "Twilight Sky Restaurant & Bar",
+    "building": "The SIS Kata Resort (Adult Only)",
+    "intro": "Para empezar la noche mirando el mar desde Kata, visita Twilight Sky. En el restaurante y bar de The SIS Kata puedes contemplar Kata Beach y el mar de Andamán. Encaja para sentarte con tu pareja o amigos al atardecer y disfrutar de una bebida y una cena. Los jueves se anuncia una noche de carnes y música en directo: si a tus acompañantes les gusta la música, mira el plan del jueves.",
+    "facts": {
+      "address": "255 Kok Tanode Road, Karon, Muang, Phuket 83100, Thailand",
+      "phone": "+66 76 609555 / reservas: 076 609 555",
+      "booking": "Reservas por teléfono"
+    },
+    "reasons": [
+      {
+        "title": "Una tarde sobre Kata Beach",
+        "text": "Desde la colina puedes contemplar Kata Beach y el mar de Andamán. Si has pasado el día en la playa, descansa por la tarde mirando el mar desde lo alto. Encaja para compartir una bebida con tus acompañantes mientras disfrutas del atardecer."
+      },
+      {
+        "title": "Un jueves con acompañantes aficionados a la música",
+        "text": "Se anuncia música en directo y una cena de carnes los jueves. Si tu pareja o amigos quieren añadir música a la comida, considera ese día. Pregunta al reservar por el evento y la hora de la actuación para organizar la noche."
+      }
+    ],
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿Cuándo se disfruta más del ambiente?",
+        "Ve al atardecer si quieres ver cambiar el color de Kata Beach y del mar. Deja tiempo para la comida y las bebidas y podrás pasar una tarde tranquila con tus acompañantes."
+      ],
+      [
+        "¿Hay música en directo?",
+        "Se anuncia una noche de música en directo y carnes los jueves. Si vas con alguien aficionado a la música, considera ir ese día. Pregunta al reservar la hora concreta de la actuación."
+      ],
+      [
+        "¿Cómo se reserva?",
+        "Llama al 076 609 555. Elige con tus acompañantes el día e indica la hora a la que quieres cenar. Si te interesa la música del jueves, pregunta también por la actuación para ajustar el plan."
+      ]
+    ],
+    "access": [
+      {
+        "name": "The SIS Kata",
+        "instructions": "En Grab o Bolt, busca «The SIS Kata». Al llegar, pide al personal que te indique cómo ir a Twilight Sky Restaurant & Bar. Si te quedas hasta la noche, organiza también el regreso.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8127379,98.29999&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Twilight Sky Restaurant & Bar at The SIS Kata.",
+      "thai": "ไป Twilight Sky Restaurant & Bar ที่โรงแรม The SIS Kata 255 ถนนโคกโตนด หาดกะตะ ภูเก็ต",
+      "destination": "The SIS Kata"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "The SIS Kata · información oficial de Twilight Sky",
+        "https://www.thesiskata.com/dining-in-style/twilight-sky/"
+      ],
+      [
+        "The SIS Kata · información oficial de Crescent Pool Bar",
+        "https://www.thesiskata.com/dining-in-style/crescent-pool-bar/"
+      ]
+    ]
+  },
+  "vanilla-sky": {
+    "name": "Vanilla Sky Bar & Gastro Pub",
+    "building": "Cape Sienna Phuket Gourmet Hotel & Villas",
+    "intro": "Para tomar un cóctel mirando el mar y el atardecer en Kamala, acércate a Vanilla Sky. Desde el bar de Cape Sienna puedes contemplar Kamala Bay y el paisaje hacia Rayee Beach. Puedes acompañar un Smoky Cinnamon o una cerveza de barril con platos a la parrilla de carbón y compartir la tarde con amigos o en pareja. Elige un día sin prisas por el siguiente plan y quédate desde el atardecer.",
+    "facts": {
+      "address": "18/40 Moo 6, Nakalay Road, Kamala, Kathu, Phuket 83150, Thailand",
+      "phone": "+66 (0) 76 337300  / rsvn@capesienna.com",
+      "booking": "Reservas por correo electrónico",
+      "hours": "Todos los días 17:00–24:00"
+    },
+    "reasons": [
+      {
+        "title": "El mar y el atardecer de Kamala",
+        "text": "Contemplar el atardecer frente al mar es uno de sus atractivos. Si has pasado el día en la playa, acompaña la tarde con un cóctel mientras cambian los colores del agua y del cielo. Puede ser un buen rato para comentar el día con tus acompañantes."
+      },
+      {
+        "title": "Cócteles con platos a la parrilla de carbón",
+        "text": "Puedes elegir un cóctel Smoky Cinnamon, cerveza de barril y platos a la parrilla de carbón. Elige con tus amigos las bebidas que os apetezcan y acompañadlas con comida. Encaja con un día para quedaros comiendo y bebiendo con calma, más que subir solo a mirar."
+      }
+    ],
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar en azotea",
+    "faq": [
+      [
+        "¿Qué bebidas y comida se ofrecen?",
+        "Puedes pedir un Smoky Cinnamon o cerveza de barril y acompañarlos con platos a la parrilla de carbón. Organízalo como una tarde con amigos o en pareja para tomar algo mirando el mar."
+      ],
+      [
+        "¿Cuándo conviene ir?",
+        "Ve al atardecer si quieres ver la puesta de sol. Abre todos los días de 17:00 a medianoche, así que puedes quedarte desde el atardecer disfrutando de la comida y las bebidas."
+      ],
+      [
+        "¿Dónde se reserva?",
+        "Escribe a rsvn@capesienna.com. Elige la fecha, el número de personas y la hora que quieras. Organizarlo antes facilita compartir el atardecer en pareja o una cena con amigos."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Cape Sienna Phuket",
+        "instructions": "En Grab o Bolt, busca «Cape Sienna Phuket». Al llegar, pide al personal que te indique cómo ir a Vanilla Sky Bar & Gastro Pub. Si te quedas hasta la noche, organiza también el regreso.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.9494461,98.2737284&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Vanilla Sky Bar & Gastro Pub at Cape Sienna Phuket.",
+      "thai": "ไป Vanilla Sky Bar & Gastro Pub ที่โรงแรม Cape Sienna Phuket กมลา ภูเก็ต",
+      "destination": "Cape Sienna Phuket"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Cape Sienna · información oficial de Vanilla Sky",
+        "https://www.capesienna.com/restaurants/vanilla-sky-bar-gastro-pub/"
+      ],
+      [
+        "Cape Sienna · folleto oficial de 2025",
+        "https://www.capesienna.com/uploads/files/cms_apps/pdf/bochure/CAPE_SIENNA_BROCHURE_2025-Pressed.pdf"
+      ],
+      [
+        "Vanilla Sky · carta oficial",
+        "https://www.capesienna.com/uploads/files/cms_apps/pdf/vanilathai/VanillaSky_menu2_compressed1.pdf"
+      ]
+    ]
+  },
+  "surface-patong": {
+    "name": "The Surface Restaurant & Bar",
+    "building": "La Flora Resort Patong",
+    "intro": "Para terminar con una cena con vistas un día en Patong Beach, sube a The Surface. En la azotea de La Flora Resort Patong puedes disfrutar de cócteles y comida mirando Patong Bay y el mar de Andamán. Encaja para ver el atardecer en pareja o cenar con amigos comentando el viaje. Contempla ahora sin prisas desde la azotea el mar que has visto desde la playa.",
+    "facts": {
+      "address": "37, 39 Taweewong Road, Patong Beach, Phuket 83150, Thailand"
+    },
+    "reasons": [
+      {
+        "title": "Vuelve a mirar Patong Beach desde la azotea",
+        "text": "Desde la azotea se abren Patong Bay y el mar de Andamán. Si has recorrido la playa durante el día, sube por la tarde para descansar mirando el agua desde lo alto. Es una opción para disfrutar del atardecer con tus acompañantes."
+      },
+      {
+        "title": "Una tarde de viaje entre cócteles y cena",
+        "text": "Puedes combinar cócteles y comida. Elige las bebidas con tu pareja o amigos y comenta las visitas del día mirando el mar. Si dejas tiempo para el paisaje en lugar de salir justo después de comer, podrás quedarte con más calma."
+      }
+    ],
+    "reservation": "Consulta las reservas de mesa y las condiciones del día de visita en la página oficial de reservas.",
+    "facilityKind": "Bar y restaurante en azotea",
+    "faq": [
+      [
+        "¿Qué paisaje puedo ver?",
+        "Puedes contemplar ampliamente Patong Bay y el mar de Andamán. Encaja si quieres volver a ver desde lo alto el paisaje de la playa. Al atardecer, disfruta de las vistas con una bebida."
+      ],
+      [
+        "¿Con quién merece la pena ir?",
+        "Con tu pareja o amigos si queréis disfrutar de cócteles y comida mirando el mar. Puedes terminar con una cena tranquila el día que hayas pasado en Patong Beach."
+      ]
+    ],
+    "access": [
+      {
+        "name": "La Flora Resort Patong",
+        "instructions": "En Grab o Bolt, busca «La Flora Resort Patong». Al llegar, pide al personal que te indique cómo ir a The Surface Restaurant & Bar. Si te quedas hasta la noche, organiza también el regreso.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8955578,98.2954925&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to The Surface Restaurant & Bar at La Flora Resort Patong.",
+      "thai": "ไป The Surface Restaurant & Bar ที่ La Flora Resort Patong ถนนทวีวงศ์ หาดป่าตอง ภูเก็ต",
+      "destination": "La Flora Resort Patong"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "La Flora Patong · información oficial",
+        "https://www.laflorapatong.com/experiences/"
+      ]
+    ]
+  },
+  "phra-tamnak-viewpoint": {
+    "name": "Mirador de Phra Tamnak",
+    "building": "Colina entre el sur de Pattaya y Jomtien · mirador al aire libre",
+    "intro": "Si ya has paseado por Pattaya Beach, contempla ahora la costa desde la colina. El mirador de Phra Tamnak ofrece una panorámica de la curva de la playa y de la ciudad que se extiende detrás. Encaja para hacer fotos con amigos o familiares, o para orientarte en tu primera visita a Pattaya. Si subes al atardecer y te quedas con calma, podrás disfrutar del mar con luz y de la ciudad al encenderse sus luces.",
+    "facts": {
+      "address": "Nong Prue, Bang Lamung, Chon Buri"
+    },
+    "reasons": [
+      {
+        "title": "La costa de Pattaya en una fotografía",
+        "text": "Desde la colina se ven juntos la playa curva y el centro de Pattaya. Es una perspectiva diferente de la de la playa: acércate con familiares o amigos si quieres llevarte una foto del viaje."
+      },
+      {
+        "title": "Una pausa para mirar el mar entre visitas",
+        "text": "Es un mirador exterior, distinto de un bar en azotea para comer o tomar algo. Puedes incluir una parada después de recorrer Pattaya para contemplar el mar. Está en una colina: en días de calor, ir en vehículo reduce el esfuerzo de caminar."
+      },
+      {
+        "title": "Al atardecer, organiza también el regreso",
+        "text": "Si te quedas desde el atardecer, verás cambiar los colores del mar y de la ciudad. Al ser un espacio exterior, en un día lluvioso puedes hacer otra visita y volver cuando despeje. Si piensas bajar después de anochecer, organiza antes el transporte de regreso."
+      }
+    ],
+    "facilityKind": "Mirador",
+    "faq": [
+      [
+        "¿Qué paisaje puedo ver?",
+        "Puedes contemplar la curva de Pattaya Beach y el centro que se extiende detrás. Encaja para fotografiar juntos el mar y la ciudad con un encuadre distinto del de la playa."
+      ],
+      [
+        "¿Es un bar en azotea?",
+        "Es un mirador al aire libre en una colina. Es distinto de una azotea de hotel para cenar o tomar cócteles: la visita consiste en contemplar Pattaya y hacer fotos."
+      ],
+      [
+        "¿Cuándo conviene ir?",
+        "Durante el día para ver con luz el mar y la ciudad, o al final de la tarde para combinar atardecer y vistas nocturnas. Como es exterior, si llueve es más cómodo esperar a que despeje para disfrutar del paisaje."
+      ],
+      [
+        "¿Cómo se llega?",
+        "Busca «Phra Tamnak Mountain Viewpoint» en Grab o Bolt. Subir en vehículo reduce el esfuerzo de caminar por la colina. Si vas al atardecer, organiza también el descenso."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Phra Tamnak Mountain Viewpoint",
+        "instructions": "Busca «Phra Tamnak Mountain Viewpoint» en Grab o Bolt. Subir en vehículo hasta el mirador reduce el esfuerzo de caminar. Si vas al atardecer, organiza también el transporte para bajar.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9278472,100.8632145&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Muestra al taxista la frase en inglés o en tailandés que aparece a continuación.",
+      "english": "Please take me to Phra Tamnak Mountain Viewpoint. I am going to Phra Tamnak Mountain Viewpoint.",
+      "thai": "ไปจุดชมวิวเขาพระตำหนัก พัทยา",
+      "destination": "Phra Tamnak Mountain Viewpoint"
+    },
+    "photos": [],
+    "sources": [
+      [
+        "Turismo de Tailandia · presentación del mirador",
+        "https://www.tourismthailand.org/Attraction/phra-tamnak-mountain-viewpoint"
+      ]
+    ]
+  },
+  "phi-phi-viewpoint-2": {
+    "name": "Mirador 2 de Phi Phi Don",
+    "building": "Ko Phi Phi Don · punto panorámico en una colina",
+    "intro": "Para contemplar juntos el mar y el pueblo de Phi Phi Don, sube al mirador 2. Desde la colina descubrirás una imagen de la isla diferente de la que ves junto a la playa. Encaja con amigos aficionados a la fotografía de paisajes o en un día en que quieras llevarte un recuerdo de la estancia en la isla. Deja tiempo para mirar despacio el mar y el pueblo en lugar de volver nada más llegar; así podrás disfrutar de Phi Phi Don sin prisas.",
+    "facts": {},
+    "reasons": [
+      {
+        "title": "La isla de la playa, ahora desde lo alto",
+        "text": "El atractivo está en subir a la colina y contemplar el mar y el pueblo. Mira de nuevo desde lo alto el agua que has visto en la playa y observa cómo se distribuye el pueblo en la isla. Encaja con un día en que quieras descubrir Phi Phi Don desde otra perspectiva."
+      },
+      {
+        "title": "Para ir con amigos aficionados a la fotografía",
+        "text": "Para quienes quieran llevarse fotos del viaje con el mar y el pueblo de fondo. Haceos fotos entre amigos y, después de guardar la cámara, parad un rato a mirar las vistas. Si no tenéis que apresuraros en el recorrido y la visita, podréis compartir el paisaje con calma."
+      }
+    ],
+    "recommended": "Para quienes quieran contemplar desde lo alto el mar y el pueblo o viajen con amigos aficionados a la fotografía. Está en una colina: ten en cuenta tanto el desplazamiento como el tiempo para disfrutar del paisaje.",
+    "facilityKind": "Mirador",
+    "faq": [
+      [
+        "¿Con quién merece la pena ir?",
+        "Con amigos aficionados a la fotografía de paisajes o con quienes quieran ver la isla desde lo alto. Haceos fotos y compartid un rato mirando el mar y el pueblo."
+      ],
+      [
+        "¿Qué se ve desde el mirador 2?",
+        "El mar y el pueblo de Phi Phi Don. Su atractivo es volver a ver desde lo alto el paisaje de la playa y observar el relieve de la isla."
+      ],
+      [
+        "¿Qué mirador señala el mapa?",
+        "Señala Viewpoint 2 de Phi Phi Don. Entre los distintos puntos panorámicos de la isla, corresponde al número 2: busca también ese nombre al localizar el destino."
+      ],
+      [
+        "¿Se utiliza como un bar en azotea?",
+        "Es un punto panorámico exterior sobre una colina. Su propósito es distinto del de una azotea de hotel para cenar o pedir bebidas. Plantéalo como una visita para mirar el mar y el pueblo y hacer fotos."
+      ]
+    ],
+    "access": [
+      {
+        "name": "Mirador 2 de Phi Phi Don",
+        "english": "Phi Phi Don Viewpoint 2",
+        "instructions": "Busca el destino como Viewpoint 2. El enlace de indicaciones de abajo apunta al mismo mirador del mapa superior. Antes de salir del alojamiento, consulta el recorrido para organizar la visita.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.7458651,98.7780264"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "Turismo de Tailandia · Phi Phi Don y su mirador",
+        "https://www.tourismthailand.org/Attraction/phi-phi-don-island"
+      ]
+    ]
+  }
+}

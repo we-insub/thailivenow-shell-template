@@ -1,0 +1,1985 @@
+{
+  "destinations": {
+    "title": "Percutian ke Thailand: destinasi, waktu sesuai dan persediaan masuk",
+    "description": "Pilih bandar atau pulau untuk percutian Thailand anda. Terokai suasana setiap destinasi, bandingkan cuaca bulanan dan sediakan TDAC serta dokumen perjalanan untuk pemegang pasport Malaysia.",
+    "h1": "Melancong ke Thailand",
+    "intro": "Bayangkan percutian yang anda inginkan: berehat di hotel yang selesa, menyusuri kuil dan kafe, atau menikmati masa lapang di tepi laut. Pilih bandar atau pulau yang menarik hati dengan membayangkan bagaimana anda mahu meluangkan hari di sana.",
+    "entryHeading": "Persediaan masuk ke Thailand",
+    "entryIntro": "Melancong dengan pasport biasa Malaysia? Semak syarat kemasukan tanpa visa dan sediakan pasport sebelum berlepas. Isi TDAC dengan merujuk tiket penerbangan dan tempahan penginapan. Jika tujuan atau tempoh perjalanan memerlukan visa, baca kategori dan cara memohon yang sesuai.",
+    "seasonsHeading": "Bila sesuai melancong ke Thailand?",
+    "seasonsIntro": "Sudah memilih bulan perjalanan? Bandingkan cuaca mengikut rancangan anda, sama ada mahu berjalan melawat kuil dan pasar di Bangkok atau berehat di Phuket dan Koh Samui. Lihat suhu dan hujan bulanan untuk memilih masa perjalanan serta barang yang perlu dibawa.",
+    "areas": {
+      "bangkok": {
+        "name": "Bangkok",
+        "intro": "Berehat di hotel yang mempunyai kolam renang pada siang hari, kemudian makan di tepi sungai atau menikmati panorama malam dari rooftop. Bangkok sesuai jika anda mahu menggabungkan penginapan di hotel lima bintang dengan penerokaan bandar."
+      },
+      "chiang-mai": {
+        "name": "Chiang Mai",
+        "intro": "Susuri kuil dan lorong di Kota Lama, kemudian singgah di kafe yang menarik perhatian anda. Bandar ini sesuai untuk hari yang santai, diisi dengan berjalan kaki dan menikmati secawan kopi."
+      },
+      "chiang-rai": {
+        "name": "Chiang Rai",
+        "intro": "Temui seni bina yang menonjol dengan warna dan bentuk tersendiri, seperti Kuil Putih dan Kuil Biru. Lihat sendiri pemandangan yang pernah anda lihat dalam gambar sambil menerokai gunung dan kuil di utara Thailand."
+      },
+      "pattaya": {
+        "name": "Pattaya",
+        "intro": "Berjalan di pantai atau berehat di hotel pada siang hari, kemudian nikmati makan malam menghadap laut. Anda boleh menggabungkan percutian pantai dengan keseronokan menjamu selera dan bersiar-siar di bandar."
+      },
+      "hua-hin": {
+        "name": "Hua Hin",
+        "intro": "Menginap bersama keluarga di tepi laut, berjalan di pantai pada waktu pagi dan menjelajah pasar pada waktu petang. Pilih Hua Hin jika anda lebih mahu menikmati masa makan dan berehat bersama daripada memenuhi hari dengan lawatan."
+      },
+      "phuket": {
+        "name": "Phuket",
+        "intro": "Asingkan hari untuk berehat menghadap laut di resort dan hari untuk meneroka Kota Lama. Selain percutian pantai, anda boleh menyusuri deretan bangunan berwarna-warni dan singgah menjamu selera."
+      },
+      "krabi": {
+        "name": "Krabi",
+        "intro": "Berjalan di pantai sambil melihat tebing batu kapur yang menjulang di sisi laut. Selang-selikan hari berehat di pesisir dengan hari menaiki bot mengelilingi pulau untuk menikmati lebih banyak suasana laut."
+      },
+      "samui": {
+        "name": "Koh Samui",
+        "intro": "Menginap di resort tepi laut, nikmati sarapan lewat dan berjalan di pantai sebelum kembali berehat. Luangkan masa untuk makan dan bersantai bersama pasangan atau keluarga tanpa tergesa-gesa."
+      },
+      "phi-phi": {
+        "name": "Kepulauan Phi Phi",
+        "intro": "Lihat tebing yang menjulang dari laut dan pemandangan di antara pulau. Naiki bot atau pandang kepulauan dari tempat tinjau untuk menikmati sendiri keindahan laut Thailand yang selama ini anda lihat dalam gambar."
+      },
+      "phangan": {
+        "name": "Koh Phangan",
+        "intro": "Jika anda mahu berehat di pantai dan menikmati muzik pada waktu malam, pertimbangkan Koh Phangan. Pilih pantai penginapan dan tarikh perjalanan mengikut suasana yang diinginkan, sama ada meriah atau tenang."
+      },
+      "tao": {
+        "name": "Koh Tao",
+        "intro": "Ingin mengenali pemandangan di bawah air selain pantai? Di Koh Tao, anda boleh mendekati laut melalui snorkeling atau belajar menyelam, kemudian mengakhiri hari dengan berehat di pantai."
+      },
+      "lanta": {
+        "name": "Koh Lanta",
+        "intro": "Baca buku di penginapan tepi laut dan berjalan menyusuri pantai menjelang matahari terbenam. Koh Lanta sesuai jika anda mahu menikmati pantai kegemaran lebih lama daripada bergegas ke tempat pelancongan baharu setiap hari."
+      },
+      "samet": {
+        "name": "Koh Samet",
+        "intro": "Mahukan percutian pantai singkat selepas meneroka Bangkok? Pertimbangkan Koh Samet untuk berjalan di pasir putih dan makan di tepi laut, lalu berehat selepas beberapa hari menjelajah bandar."
+      }
+    }
+  },
+  "seasons": {
+    "period": "1991–2020",
+    "checkedAt": "2026-10-14",
+    "source": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+    "regions": [
+      {
+        "id": "bangkok",
+        "name": "Bangkok",
+        "station": "BANGKOK METROPOLIS",
+        "pdfPage": 57,
+        "pattern": "central",
+        "best": "November–Februari",
+        "intro": "Jika anda mahu berjalan melawat istana, kuil dan tebing sungai Bangkok, pilih **November–Februari**. Hujan yang banyak pada September dan Oktober berkurang dengan ketara mulai November. Purata suhu pada Disember dan Januari sekitar 27°C, lebih nyaman berbanding April. Namun, purata suhu maksimum pada siang hari masih melebihi 32°C. Lawati kuil pada waktu pagi, berjalan di tepi sungai menjelang senja dan selitkan masa makan serta rehat di dalam bangunan.",
+        "outdoor": "berjalan melawat istana dan kuil",
+        "indoor": "menaiki tren untuk mengunjungi kafe dan pusat beli-belah",
+        "months": [
+          {
+            "month": 1,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Lawati istana dan kuil pada waktu pagi, kemudian berjalan di tepi sungai sebelum matahari terbenam. Anda boleh meneroka Bangkok dengan kurang kebimbangan tentang hujan berbanding musim hujan.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 27.4,
+            "high": 32.7,
+            "low": 23.4,
+            "rain": 23.6,
+            "rainDays": 2.6
+          },
+          {
+            "month": 2,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Selitkan waktu makan dan rehat di kafe antara lawatan kuil. Hujan agak sedikit tetapi siang masih panas; utamakan tempat yang perlu berjalan kaki pada sebelah pagi.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.6,
+            "high": 33.7,
+            "low": 24.8,
+            "rain": 21.4,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Musim panas",
+            "advantage": "Lawati istana dan kuil pada waktu pagi, kemudian berehat di pusat beli-belah atau kafe semasa tengah hari yang panas. Keluar berjalan di tepi sungai apabila matahari mula rendah.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 29.7,
+            "high": 34.7,
+            "low": 26.4,
+            "rain": 51.0,
+            "rainDays": 4.1
+          },
+          {
+            "month": 4,
+            "season": "Musim panas",
+            "advantage": "Selesaikan lawatan kuil pada waktu pagi. Makan di dalam bangunan dan berehat di penginapan pada tengah hari. Bahagikan lawatan supaya tidak berjalan lama pada waktu paling panas.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 30.7,
+            "high": 35.7,
+            "low": 27.2,
+            "rain": 93.3,
+            "rainDays": 6.5
+          },
+          {
+            "month": 5,
+            "season": "Musim hujan",
+            "advantage": "Cari tempat makan atau kafe untuk berehat berhampiran kuil yang mahu dilawati. Jika hujan turun tiba-tiba, anda boleh berteduh sebelum meneruskan lawatan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 30.3,
+            "high": 35.1,
+            "low": 26.9,
+            "rain": 216.8,
+            "rainDays": 15.0
+          },
+          {
+            "month": 6,
+            "season": "Musim hujan",
+            "advantage": "Naiki tren untuk meneroka pusat beli-belah dan berehat di kafe. Apabila hujan reda, berjalan di kawasan berhampiran sambil mencari tempat makan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 29.7,
+            "high": 34.1,
+            "low": 26.4,
+            "rain": 198.5,
+            "rainDays": 16.4
+          },
+          {
+            "month": 7,
+            "season": "Musim hujan",
+            "advantage": "Berehat di pusat beli-belah atau kafe semasa hujan lebat. Apabila reda, terokai pasar atau tebing sungai berdekatan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 29.2,
+            "high": 33.5,
+            "low": 26.1,
+            "rain": 189.7,
+            "rainDays": 17.2
+          },
+          {
+            "month": 8,
+            "season": "Musim hujan",
+            "advantage": "Daripada melawat tempat yang berjauhan dalam sehari, nikmati lawatan dan makanan dalam satu kawasan. Lebih mudah mencari tempat berehat apabila hujan turun.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 29.0,
+            "high": 33.3,
+            "low": 25.9,
+            "rain": 227.1,
+            "rainDays": 19.1
+          },
+          {
+            "month": 9,
+            "season": "Musim hujan",
+            "advantage": "Jika merancang lawatan pasar dan kuil, masukkan juga masa di dalam bangunan. Tunggu hujan lebat reda sambil makan di tempat berdekatan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 28.6,
+            "high": 33.2,
+            "low": 25.4,
+            "rain": 335.9,
+            "rainDays": 21.4
+          },
+          {
+            "month": 10,
+            "season": "Musim hujan",
+            "advantage": "Luangkan masa di kafe atau pusat beli-belah ketika hujan, kemudian berjalan di kawasan sekitar apabila reda. Rancang hari yang longgar supaya waktu lawatan mudah diubah.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 28.4,
+            "high": 33.0,
+            "low": 25.2,
+            "rain": 288.7,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Hujan mula berkurang, sesuai untuk merancang lawatan kuil dan pasar. Mulakan pada waktu pagi dan berehat di pusat beli-belah atau kafe pada tengah hari.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.4,
+            "high": 33.1,
+            "low": 24.7,
+            "rain": 44.6,
+            "rainDays": 5.0
+          },
+          {
+            "month": 12,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Lawati kuil pada waktu pagi dan berjalan di tepi sungai pada sebelah petang. Nikmati suasana Bangkok yang berbeza sambil berehat daripada panas tengah hari.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 27.3,
+            "high": 32.3,
+            "low": 23.2,
+            "rain": 11.6,
+            "rainDays": 1.5
+          }
+        ],
+        "cardSummary": "Hujan berkurang dengan ketara mulai November. Purata suhu Disember dan Januari sekitar 27°C, lebih rendah daripada April. Tempoh ini sesuai untuk melawat istana dan kuil serta berjalan di tepi sungai, tetapi suhu siang masih melebihi 32°C.",
+        "bestAnswer": "Untuk berjalan melawat kuil dan pasar, November–Februari sesuai dipilih. Purata suhu Disember dan Januari sekitar 27°C, dengan hujan bulanan masing-masing 11.6mm dan 23.6mm. Anggap tempoh ini sebagai peluang mengelakkan bahang April dan hujan lebat musim hujan, bukannya musim sejuk yang dingin."
+      },
+      {
+        "id": "pattaya",
+        "name": "Pattaya",
+        "station": "PHATTHAYA",
+        "pdfPage": 66,
+        "pattern": "central",
+        "best": "November–Februari",
+        "intro": "**November–Februari** sesuai untuk menggabungkan jalan-jalan di pantai dengan lawatan bandar Pattaya. Selepas hujan lebat September dan Oktober, hujan mula berkurang pada November. Pada Disember dan Januari, jumlah bulanan masing-masing hanya 11.7mm dan 16.3mm. Berjalan di pesisir pada waktu pagi, makan dan berehat pada tengah hari, kemudian kembali ke pantai apabila matahari mulai rendah. Tentukan aktiviti air berdasarkan ombak dan arahan pantai pada hari berkenaan, bukan bulan perjalanan sahaja.",
+        "outdoor": "berjalan di pantai",
+        "indoor": "berehat di penginapan berhampiran pantai dan berjalan apabila hujan reda",
+        "months": [
+          {
+            "month": 1,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan menyusuri pantai pada waktu pagi, kemudian makan di tepi laut pada sebelah petang. Hujan agak sedikit, sesuai untuk berehat sambil menikmati pemandangan laut.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 26.5,
+            "high": 30.6,
+            "low": 23.5,
+            "rain": 16.3,
+            "rainDays": 2.5
+          },
+          {
+            "month": 2,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di pantai pada waktu pagi atau menjelang senja. Makan atau berehat di penginapan pada siang hari untuk mengelakkan bahang tengah hari.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 27.3,
+            "high": 31.2,
+            "low": 24.5,
+            "rain": 19.9,
+            "rainDays": 2.5
+          },
+          {
+            "month": 3,
+            "season": "Musim panas",
+            "advantage": "Nikmati jalan singkat di pantai pada sebelah pagi dan berehat di penginapan pada tengah hari. Keluar semula untuk makan dan bersiar-siar apabila matahari mulai rendah.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 28.3,
+            "high": 32.0,
+            "low": 25.5,
+            "rain": 47.3,
+            "rainDays": 4.8
+          },
+          {
+            "month": 4,
+            "season": "Musim panas",
+            "advantage": "Kunjungi pantai pada waktu pagi dan petang, kemudian makan atau berehat di dalam bangunan pada tengah hari. Bahagikan masa keluar dan berehat daripada berada di luar sepanjang hari.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 29.4,
+            "high": 33.0,
+            "low": 26.4,
+            "rain": 67.9,
+            "rainDays": 6.3
+          },
+          {
+            "month": 5,
+            "season": "Musim hujan",
+            "advantage": "Berehat di penginapan berhampiran pantai dan keluar berjalan apabila hujan reda. Anda boleh menikmati laut tanpa perlu bergerak jauh.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 29.4,
+            "high": 32.7,
+            "low": 26.6,
+            "rain": 121.1,
+            "rainDays": 11.0
+          },
+          {
+            "month": 6,
+            "season": "Musim hujan",
+            "advantage": "Makan di dalam bangunan ketika hujan lebat, kemudian berjalan di pantai berdekatan apabila reda. Tentukan masa berjalan mengikut cuaca hari itu.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 29.0,
+            "high": 32.0,
+            "low": 26.4,
+            "rain": 132.1,
+            "rainDays": 12.6
+          },
+          {
+            "month": 7,
+            "season": "Musim hujan",
+            "advantage": "Luangkan hari dengan makan berhampiran pantai dan berehat di penginapan. Apabila hujan berhenti, keluar menikmati laut di pesisir berdekatan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 28.6,
+            "high": 31.6,
+            "low": 26.2,
+            "rain": 103.6,
+            "rainDays": 12.7
+          },
+          {
+            "month": 8,
+            "season": "Musim hujan",
+            "advantage": "Makan dan berehat di kawasan penginapan, kemudian keluar berjalan sebentar apabila hujan reda. Ini mengurangkan perjalanan berulang ke tempat jauh.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 28.5,
+            "high": 31.4,
+            "low": 26.1,
+            "rain": 91.2,
+            "rainDays": 12.9
+          },
+          {
+            "month": 9,
+            "season": "Musim hujan",
+            "advantage": "Berehat di dalam bangunan ketika hujan lebat dan tentukan masa berjalan di pantai berdasarkan cuaca.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 27.9,
+            "high": 31.1,
+            "low": 25.4,
+            "rain": 213.6,
+            "rainDays": 16.3
+          },
+          {
+            "month": 10,
+            "season": "Musim hujan",
+            "advantage": "Untuk percutian santai di tepi laut, rancang juga masa di penginapan. Apabila hujan reda, kunjungi pantai atau restoran berdekatan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 27.2,
+            "high": 30.9,
+            "low": 24.7,
+            "rain": 224.5,
+            "rainDays": 17.0
+          },
+          {
+            "month": 11,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Selepas tempoh lebih banyak hujan, inilah masa yang sesuai untuk berjalan di tepi laut dan makan di bandar. Gunakan waktu pagi serta petang untuk aktiviti luar.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 27.1,
+            "high": 30.8,
+            "low": 24.3,
+            "rain": 56.6,
+            "rainDays": 5.6
+          },
+          {
+            "month": 12,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di pantai pada waktu pagi, kemudian berehat di dalam bangunan pada tengah hari. Kembali ke pesisir pada sebelah petang untuk menikmati laut selepas waktu paling panas.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 26.4,
+            "high": 30.2,
+            "low": 23.3,
+            "rain": 11.7,
+            "rainDays": 1.9
+          }
+        ],
+        "cardSummary": "November–Februari menerima kurang hujan berbanding September dan Oktober, dengan purata suhu maksimum sekitar 30–31°C. Sesuai untuk berjalan di pesisir dan menjamu selera di bandar; Disember dan Januari paling kurang hujan.",
+        "bestAnswer": "Untuk berjalan di pantai atau bersiar-siar di luar, November–Februari sesuai. Disember dan Januari menerima sedikit hujan, dengan purata suhu maksimum sekitar 30°C, jadi lebih mudah mengatur masa di luar berbanding April dan Mei yang panas. Namun, keadaan laut tetap berubah setiap hari walaupun pada musim kering. Ikut arahan semasa untuk berenang dan perjalanan bot."
+      },
+      {
+        "id": "chiang-mai",
+        "name": "Chiang Mai",
+        "station": "CHIANG MAI",
+        "pdfPage": 11,
+        "pattern": "north",
+        "best": "November–Januari",
+        "intro": "Untuk menyusuri Kota Lama, melawat kuil dan berehat di kafe Chiang Mai, pilih **November–Januari**. Purata suhu sekitar 22–25°C, lebih rendah daripada April, dan hujan lebih sedikit daripada musim hujan pada pertengahan tahun. Disember dan Januari lebih dingin pada waktu pagi serta malam, jadi bawa jaket nipis. Jika menuju ke gunung, sediakan pakaian berdasarkan ramalan di destinasi sebenar, bukan bacaan stesen bandar sahaja.",
+        "outdoor": "berjalan di Kota Lama dan melawat kuil",
+        "indoor": "mengunjungi kafe dan pameran dalaman sebelum menyusuri Kota Lama apabila hujan reda",
+        "months": [
+          {
+            "month": 1,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Terokai Chiang Mai dengan berjalan di Kota Lama dan kuil. Nikmati lawatan pada siang hari dan bawa jaket apabila keluar pagi atau petang.",
+            "caution": "Suhu pagi dan malam jauh lebih rendah daripada siang. Bawa jaket nipis jika keluar awal atau pulang lewat.",
+            "mean": 22.0,
+            "high": 30.0,
+            "low": 15.7,
+            "rain": 11.3,
+            "rainDays": 1.3
+          },
+          {
+            "month": 2,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Mulakan berjalan di Kota Lama pada waktu pagi dan berehat di kafe pada tengah hari. Selitkan rehat antara lawatan kuil untuk mengelakkan panas tengah hari.",
+            "caution": "Suhu pagi dan malam jauh lebih rendah daripada siang. Bawa jaket nipis jika keluar awal atau pulang lewat.",
+            "mean": 24.2,
+            "high": 32.9,
+            "low": 16.8,
+            "rain": 9.6,
+            "rainDays": 0.9
+          },
+          {
+            "month": 3,
+            "season": "Musim panas",
+            "advantage": "Lawati Kota Lama dan kuil pada waktu pagi. Semasa tengah hari yang panas, cari kafe atau pameran dalaman. Anda boleh keluar berjalan semula lewat petang.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 27.3,
+            "high": 35.4,
+            "low": 20.1,
+            "rain": 20.4,
+            "rainDays": 2.8
+          },
+          {
+            "month": 4,
+            "season": "Musim panas",
+            "advantage": "Selesaikan lawatan kuil lebih awal, kemudian makan dan berehat di dalam bangunan. Jangan himpunkan semua lawatan yang memerlukan banyak berjalan dalam sehari.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 29.5,
+            "high": 36.7,
+            "low": 23.4,
+            "rain": 54.3,
+            "rainDays": 6.8
+          },
+          {
+            "month": 5,
+            "season": "Musim hujan",
+            "advantage": "Cari kafe atau pameran dalaman berhampiran kuil yang mahu dilawati. Anda boleh berehat di dalam semasa hujan sebelum meneruskan perjalanan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 28.6,
+            "high": 34.7,
+            "low": 24.2,
+            "rain": 167.5,
+            "rainDays": 14.8
+          },
+          {
+            "month": 6,
+            "season": "Musim hujan",
+            "advantage": "Berehat di kafe atau kunjungi pameran dalaman, kemudian susuri Kota Lama apabila hujan reda.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 28.0,
+            "high": 33.2,
+            "low": 24.5,
+            "rain": 118.2,
+            "rainDays": 16.3
+          },
+          {
+            "month": 7,
+            "season": "Musim hujan",
+            "advantage": "Jika hujan turun ketika berjalan di Kota Lama, berehat di kafe berdekatan. Ubah waktu berjalan mengikut keadaan cuaca.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 27.4,
+            "high": 32.1,
+            "low": 24.3,
+            "rain": 148.6,
+            "rainDays": 18.8
+          },
+          {
+            "month": 8,
+            "season": "Musim hujan",
+            "advantage": "Nikmati kafe dan pameran dalaman semasa hujan lebat. Sambung lawatan kuil atau jalan-jalan di Kota Lama selepas hujan reda.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 26.9,
+            "high": 31.6,
+            "low": 24.0,
+            "rain": 223.3,
+            "rainDays": 20.9
+          },
+          {
+            "month": 9,
+            "season": "Musim hujan",
+            "advantage": "Rancang lawatan kuil bersama waktu berehat di kafe. Anda boleh meneruskan percutian tanpa bergerak jauh semasa hujan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 26.9,
+            "high": 32.0,
+            "low": 23.7,
+            "rain": 207.2,
+            "rainDays": 18.1
+          },
+          {
+            "month": 10,
+            "season": "Musim hujan",
+            "advantage": "Lihat pameran dalaman atau berehat di kafe, kemudian keluar ke Kota Lama apabila hujan reda. Kelompokkan tempat berdekatan untuk memudahkan pergerakan ketika hujan.",
+            "caution": "Jangan padatkan jadual di luar. Sediakan masa untuk berteduh dan pilihan aktiviti di dalam bangunan.",
+            "mean": 26.4,
+            "high": 31.7,
+            "low": 22.6,
+            "rain": 123.8,
+            "rainDays": 11.8
+          },
+          {
+            "month": 11,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Lawati kuil dan Kota Lama, kemudian singgah berehat di kafe. Hujan agak sedikit, sesuai untuk memilih tempat yang boleh diterokai dengan berjalan kaki.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 24.6,
+            "high": 30.8,
+            "low": 19.9,
+            "rain": 40.9,
+            "rainDays": 4.2
+          },
+          {
+            "month": 12,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Nikmati lawatan kuil sambil berjalan di Kota Lama. Pagi dan malam boleh lebih dingin daripada siang, jadi sediakan jaket ringan.",
+            "caution": "Suhu pagi dan malam jauh lebih rendah daripada siang. Bawa jaket nipis jika keluar awal atau pulang lewat.",
+            "mean": 22.2,
+            "high": 29.2,
+            "low": 16.9,
+            "rain": 14.1,
+            "rainDays": 1.8
+          }
+        ],
+        "cardSummary": "Purata suhu November–Januari sekitar 22–25°C, sesuai untuk menyusuri Kota Lama dan kuil. Pada Disember dan Januari, purata suhu minimum turun hingga sekitar 16–17°C. Bawa jaket untuk keluar pagi dan malam.",
+        "bestAnswer": "November–Januari sesuai untuk meneroka Kota Lama dan kuil dengan berjalan kaki. Purata suhu Disember dan Januari sekitar 22°C, lebih rendah daripada purata April iaitu 29.5°C. Pakai pakaian ringan pada siang hari dan tambah jaket apabila keluar pagi atau malam."
+      },
+      {
+        "id": "phuket",
+        "name": "Phuket",
+        "station": "PHUKET",
+        "pdfPage": 88,
+        "pattern": "andaman",
+        "best": "Disember–Mac",
+        "intro": "Untuk berehat di pantai dan meneroka Kota Lama Phuket, rancang perjalanan pada **Disember–Mac**. Hujan lebih sedikit berbanding Mei–November; Februari mencatat jumlah terendah sepanjang tahun, iaitu 24.0mm. Namun, purata suhu maksimum Mac mencapai 34.4°C. Susuri Kota Lama pada waktu pagi atau lewat petang. Lawatan pulau dan perjalanan bot masih bergantung pada angin serta ombak walaupun musim kering, jadi ikut makluman operasi pada hari perjalanan.",
+        "outdoor": "berjalan di pantai dan Kota Lama",
+        "indoor": "makan di Kota Lama dan berehat di penginapan",
+        "months": [
+          {
+            "month": 1,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di pantai pada waktu pagi dan makan di Kota Lama pada sebelah petang. Anda juga boleh mengasingkan hari berehat di pantai dan hari meneroka bandar.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.3,
+            "high": 33.0,
+            "low": 25.0,
+            "rain": 49.9,
+            "rainDays": 5.6
+          },
+          {
+            "month": 2,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Gabungkan jalan di pantai dengan lawatan Kota Lama. Walaupun hujan agak sedikit, tengah hari tetap panas; makan atau berehat di dalam bangunan pada waktu itu.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 29.0,
+            "high": 34.0,
+            "low": 25.4,
+            "rain": 24.0,
+            "rainDays": 3.4
+          },
+          {
+            "month": 3,
+            "season": "Musim panas",
+            "advantage": "Kunjungi pantai dan Kota Lama pada waktu pagi atau lewat petang. Makan di dalam bangunan atau berehat di penginapan untuk mengelakkan panas tengah hari.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 29.4,
+            "high": 34.4,
+            "low": 25.9,
+            "rain": 80.7,
+            "rainDays": 7.5
+          },
+          {
+            "month": 4,
+            "season": "Musim panas",
+            "advantage": "Berjalan di pantai pada waktu pagi, kemudian berehat di penginapan pada waktu paling panas. Lawatan Kota Lama juga boleh dibuat apabila matahari mula rendah.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 29.6,
+            "high": 34.2,
+            "low": 26.3,
+            "rain": 135.1,
+            "rainDays": 11.7
+          },
+          {
+            "month": 5,
+            "season": "Musim hujan",
+            "advantage": "Makan di Kota Lama dan berehat di penginapan. Nikmati jalan singkat di pantai apabila hujan reda.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 29.1,
+            "high": 33.2,
+            "low": 26.1,
+            "rain": 236.9,
+            "rainDays": 18.9
+          },
+          {
+            "month": 6,
+            "season": "Musim hujan",
+            "advantage": "Makan di dalam bangunan atau berehat di penginapan ketika hujan, kemudian terokai kawasan berdekatan apabila reda.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 28.7,
+            "high": 32.6,
+            "low": 25.8,
+            "rain": 249.4,
+            "rainDays": 18.6
+          },
+          {
+            "month": 7,
+            "season": "Musim hujan",
+            "advantage": "Rancang masa bersantai berhampiran pantai dan masa makan di Kota Lama. Tentukan waktu lawatan luar berdasarkan ramalan hujan hari itu.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 28.4,
+            "high": 32.3,
+            "low": 25.6,
+            "rain": 240.2,
+            "rainDays": 19.1
+          },
+          {
+            "month": 8,
+            "season": "Musim hujan",
+            "advantage": "Berehat di penginapan ketika hujan lebat. Apabila reda, makan di tempat berdekatan dan berjalan sebentar.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 28.3,
+            "high": 32.2,
+            "low": 25.6,
+            "rain": 308.7,
+            "rainDays": 19.5
+          },
+          {
+            "month": 9,
+            "season": "Musim hujan",
+            "advantage": "Luangkan hari dengan makan di Kota Lama dan berehat di dalam bangunan. Tentukan masa di luar berdasarkan ramalan hujan.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.8,
+            "high": 31.8,
+            "low": 25.1,
+            "rain": 350.4,
+            "rainDays": 21.7
+          },
+          {
+            "month": 10,
+            "season": "Musim hujan",
+            "advantage": "Rancang percutian dengan makan dan berehat di sekitar penginapan daripada bergerak jauh. Berjalan di pantai apabila hujan reda.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.6,
+            "high": 31.8,
+            "low": 24.9,
+            "rain": 336.0,
+            "rainDays": 22.7
+          },
+          {
+            "month": 11,
+            "season": "Peralihan musim",
+            "advantage": "Makan di Kota Lama atau berehat di penginapan, kemudian kunjungi pantai apabila cuaca mengizinkan. Tentukan waktu lawatan luar mengikut ramalan hari itu.",
+            "caution": "Dalam tempoh peralihan musim, jangan menjangkakan cuaca cerah setiap hari. Lihat ramalan sebelum menempah aktiviti luar.",
+            "mean": 28.0,
+            "high": 32.1,
+            "low": 25.2,
+            "rain": 178.2,
+            "rainDays": 15.9
+          },
+          {
+            "month": 12,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di pesisir pada waktu pagi dan berehat di penginapan pada siang hari. Keluar makan di Kota Lama pada sebelah petang untuk menikmati pantai dan bandar.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 27.9,
+            "high": 32.1,
+            "low": 25.0,
+            "rain": 82.0,
+            "rainDays": 10.3
+          }
+        ],
+        "cardSummary": "Disember–Mac kurang hujan berbanding musim hujan pertengahan dan akhir tahun, sesuai untuk menggabungkan pantai dengan Kota Lama. Februari paling kurang hujan, 24.0mm sebulan, tetapi purata suhu maksimum Mac melebihi 34°C.",
+        "bestAnswer": "Disember–Mac sesuai untuk membahagikan masa antara pantai dan Kota Lama. Jika kurang hujan menjadi keutamaan, pertimbangkan Februari dengan hujan bulanan 24.0mm. Mac juga kurang hujan berbanding musim hujan, tetapi lebih panas. Selang-selikan rehat di pantai dengan keluar sebentar daripada berjalan jauh."
+      },
+      {
+        "id": "krabi",
+        "name": "Krabi",
+        "station": "KRABI",
+        "pdfPage": 91,
+        "pattern": "andaman",
+        "best": "Disember–Mac",
+        "intro": "**Disember–Mac** sesuai jika anda mahu berehat di pantai Krabi sambil menikmati laut dan tebing batu kapur. Hujan berkurang selepas September dan Oktober; Februari mencatat jumlah terendah, 35.9mm sebulan. Menginap berhampiran pantai dan selang-selikan berjalan dengan berehat. Pada Mac, purata suhu maksimum meningkat kepada 34.7°C. Berjalan lebih lama pada awal pagi atau lewat petang dan sesuaikan perjalanan bot dengan makluman pengendali.",
+        "outdoor": "berjalan di pantai dan menikmati pemandangan laut",
+        "indoor": "berehat di penginapan dan mengunjungi pantai berdekatan apabila hujan reda",
+        "months": [
+          {
+            "month": 1,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di pantai pada waktu pagi atau menjelang senja sambil menikmati laut dan tebing. Berehat di penginapan pada tengah hari untuk percutian pantai yang santai.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 27.4,
+            "high": 32.6,
+            "low": 21.5,
+            "rain": 96.8,
+            "rainDays": 7.7
+          },
+          {
+            "month": 2,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Nikmati laut sambil berjalan di pantai. Tengah hari panas, jadi berjalan pada sebelah pagi atau keluar semula lewat petang.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.1,
+            "high": 34.1,
+            "low": 21.5,
+            "rain": 35.9,
+            "rainDays": 4.3
+          },
+          {
+            "month": 3,
+            "season": "Musim panas",
+            "advantage": "Berjalan di pantai pada waktu pagi dan berehat di penginapan pada tengah hari. Keluar semula ke tepi laut lewat petang apabila kurang panas.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 28.7,
+            "high": 34.7,
+            "low": 22.4,
+            "rain": 108.4,
+            "rainDays": 8.3
+          },
+          {
+            "month": 4,
+            "season": "Musim panas",
+            "advantage": "Kunjungi pantai awal pagi dan lewat petang. Makan serta berehat di dalam bangunan pada tengah hari. Rancang lawatan yang memerlukan berjalan jauh di luar waktu paling panas.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 28.8,
+            "high": 34.3,
+            "low": 23.1,
+            "rain": 142.2,
+            "rainDays": 12.7
+          },
+          {
+            "month": 5,
+            "season": "Musim hujan",
+            "advantage": "Berehat di penginapan dan berjalan di pantai berdekatan apabila hujan reda. Sesuaikan masa di luar mengikut cuaca.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 28.2,
+            "high": 33.0,
+            "low": 23.5,
+            "rain": 210.1,
+            "rainDays": 17.5
+          },
+          {
+            "month": 6,
+            "season": "Musim hujan",
+            "advantage": "Berehat di penginapan ketika hujan. Apabila reda, makan di tempat berdekatan atau berjalan sebentar.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.7,
+            "high": 31.9,
+            "low": 23.1,
+            "rain": 224.8,
+            "rainDays": 17.5
+          },
+          {
+            "month": 7,
+            "season": "Musim hujan",
+            "advantage": "Nikmati percutian pantai dengan makan dan berehat berhampiran penginapan. Tentukan masa keluar ke tepi laut berdasarkan cuaca hari itu.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.4,
+            "high": 31.6,
+            "low": 22.8,
+            "rain": 221.5,
+            "rainDays": 17.6
+          },
+          {
+            "month": 8,
+            "season": "Musim hujan",
+            "advantage": "Berehat di dalam bangunan ketika hujan lebat. Apabila reda, nikmati pemandangan laut di pantai berdekatan.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.2,
+            "high": 31.5,
+            "low": 22.7,
+            "rain": 273.0,
+            "rainDays": 18.2
+          },
+          {
+            "month": 9,
+            "season": "Musim hujan",
+            "advantage": "Masukkan masa bersantai di penginapan dalam rancangan percutian. Berjalan di pantai apabila hujan reda.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.0,
+            "high": 31.3,
+            "low": 22.5,
+            "rain": 286.2,
+            "rainDays": 19.2
+          },
+          {
+            "month": 10,
+            "season": "Musim hujan",
+            "advantage": "Makan dan berehat berhampiran penginapan daripada bergerak jauh. Keluar ke tepi laut apabila hujan reda untuk mengurangkan perjalanan.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.1,
+            "rain": 292.9,
+            "rainDays": 20.6
+          },
+          {
+            "month": 11,
+            "season": "Peralihan musim",
+            "advantage": "Luangkan masa santai dengan berehat di penginapan atau makan berdekatan. Tentukan waktu berjalan di pantai berdasarkan ramalan hujan hari itu.",
+            "caution": "Dalam tempoh peralihan musim, jangan menjangkakan cuaca cerah setiap hari. Lihat ramalan sebelum menempah aktiviti luar.",
+            "mean": 26.8,
+            "high": 31.4,
+            "low": 22.3,
+            "rain": 198.6,
+            "rainDays": 17.5
+          },
+          {
+            "month": 12,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berehat di penginapan pada siang hari, kemudian berjalan di pantai pada waktu pagi atau petang. Anda boleh menikmati laut dan tebing tanpa berada lama di luar ketika paling panas.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 26.8,
+            "high": 31.5,
+            "low": 21.7,
+            "rain": 90.3,
+            "rainDays": 11.1
+          }
+        ],
+        "cardSummary": "Selepas hujan lebat September dan Oktober, Disember–Mac sesuai untuk menikmati pantai serta tebing batu kapur. Februari paling kurang hujan. Pada Mac, berjalan awal pagi atau lewat petang untuk mengelakkan bahang tengah hari.",
+        "bestAnswer": "Disember–Mac sesuai untuk menikmati pantai dan laut tanpa tergesa-gesa. Jika mahu memilih bulan paling kurang hujan, mulakan dengan Februari. Disember dan Januari juga kurang hujan berbanding musim hujan hujung suku ketiga, tetapi hujan singkat masih boleh berlaku. Pada Mac, susun masa rehat untuk menghadapi bahang tengah hari."
+      },
+      {
+        "id": "koh-samui",
+        "name": "Koh Samui",
+        "station": "KO SAMUI",
+        "pdfPage": 77,
+        "pattern": "gulf",
+        "best": "Februari–April",
+        "intro": "Untuk berjalan di pantai dan berehat santai di Koh Samui, pilih **Februari–April**. Berbeza daripada Phuket dan Krabi, Oktober–Disember lebih banyak hujan; jumlah November mencapai 444.6mm. Oleh itu, jangan gunakan kalendar musim kering yang sama. Februari paling kurang hujan, 64.3mm sebulan, dengan purata suhu 27.4°C. Cuaca semakin panas menghampiri April, jadi berehat di penginapan pada tengah hari dan berjalan di pantai pada waktu pagi serta petang.",
+        "outdoor": "berjalan di pantai",
+        "indoor": "berehat di penginapan sambil menyelang-selikan waktu makan dan keluar sebentar",
+        "months": [
+          {
+            "month": 1,
+            "season": "Peralihan musim",
+            "advantage": "Rancang masa berehat di penginapan serta masa mengunjungi pantai berdekatan. Berehat di dalam ketika hujan dan keluar semula apabila reda.",
+            "caution": "Dalam tempoh peralihan musim, jangan menjangkakan cuaca cerah setiap hari. Lihat ramalan sebelum menempah aktiviti luar.",
+            "mean": 26.9,
+            "high": 29.0,
+            "low": 24.2,
+            "rain": 126.8,
+            "rainDays": 11.1
+          },
+          {
+            "month": 2,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di tepi laut pada waktu pagi dan berehat di penginapan pada siang hari. Sesuai untuk menggabungkan jalan-jalan di pantai dengan masa rehat.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 27.4,
+            "high": 29.4,
+            "low": 24.9,
+            "rain": 64.3,
+            "rainDays": 5.6
+          },
+          {
+            "month": 3,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di pesisir pada waktu pagi atau lewat petang. Makan atau berehat di penginapan pada tengah hari.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.2,
+            "high": 30.4,
+            "low": 25.4,
+            "rain": 115.8,
+            "rainDays": 5.9
+          },
+          {
+            "month": 4,
+            "season": "Musim panas",
+            "advantage": "Berjalan di pantai pada waktu pagi atau petang, kemudian berehat di penginapan semasa tengah hari yang panas. Selitkan rehat antara makan dan keluar supaya tidak berada lama di luar.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 29.1,
+            "high": 31.8,
+            "low": 26.0,
+            "rain": 82.9,
+            "rainDays": 8.1
+          },
+          {
+            "month": 5,
+            "season": "Musim panas",
+            "advantage": "Berjalan di pantai pada waktu yang kurang panas. Makan di dalam bangunan atau berehat di penginapan pada siang hari, kemudian keluar semula apabila matahari mulai rendah.",
+            "caution": "Berjalan lama pada tengah hari mungkin memenatkan. Bawa air dan berehat di tempat teduh antara perjalanan.",
+            "mean": 29.2,
+            "high": 32.9,
+            "low": 25.7,
+            "rain": 131.6,
+            "rainDays": 14.0
+          },
+          {
+            "month": 6,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Kunjungi pantai pada waktu pagi dan berehat di penginapan pada tengah hari. Nikmati pemandangan laut sambil mengelakkan panas terik.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.8,
+            "high": 32.7,
+            "low": 25.3,
+            "rain": 133.6,
+            "rainDays": 13.1
+          },
+          {
+            "month": 7,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Bahagikan waktu berjalan di pantai dan waktu berehat di penginapan. Makan di dalam bangunan ketika panas, kemudian keluar semula lewat petang.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.5,
+            "high": 32.3,
+            "low": 25.1,
+            "rain": 117.0,
+            "rainDays": 14.3
+          },
+          {
+            "month": 8,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Nikmati percutian menghadap laut sambil berehat di penginapan. Jika mahu berjalan, keluar pagi atau petang untuk mengelakkan panas tengah hari.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.4,
+            "high": 32.4,
+            "low": 25.1,
+            "rain": 102.2,
+            "rainDays": 14.5
+          },
+          {
+            "month": 9,
+            "season": "Tempoh kurang hujan",
+            "advantage": "Berjalan di pantai pada waktu pagi, kemudian berehat di penginapan. Keluar semula ke pesisir pada sebelah petang selepas bahang tengah hari.",
+            "caution": "Walaupun kurang hujan, tengah hari tetap panas dan hujan singkat boleh berlaku. Bawa topi dan payung ringan.",
+            "mean": 28.0,
+            "high": 31.9,
+            "low": 24.8,
+            "rain": 117.5,
+            "rainDays": 15.0
+          },
+          {
+            "month": 10,
+            "season": "Musim hujan",
+            "advantage": "Berehat di penginapan atau makan di dalam bangunan ketika hujan lebat. Berjalan ke tempat berdekatan apabila hujan reda.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.4,
+            "high": 30.6,
+            "low": 24.3,
+            "rain": 294.9,
+            "rainDays": 19.3
+          },
+          {
+            "month": 11,
+            "season": "Musim hujan",
+            "advantage": "Sediakan masa yang mencukupi untuk berehat di penginapan dan nikmati makanan berdekatan. Tentukan waktu lawatan luar berdasarkan ramalan hujan hari itu.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 27.1,
+            "high": 29.7,
+            "low": 24.1,
+            "rain": 444.6,
+            "rainDays": 18.7
+          },
+          {
+            "month": 12,
+            "season": "Musim hujan",
+            "advantage": "Nikmati masa santai dengan makan di dalam bangunan dan berehat di penginapan. Apabila hujan reda, keluar berjalan sebentar di kawasan berdekatan.",
+            "caution": "Selain hujan, lihat juga ombak dan angin. Ubah rancangan mengikut status perjalanan bot serta larangan berenang di pantai.",
+            "mean": 26.8,
+            "high": 29.3,
+            "low": 24.0,
+            "rain": 263.1,
+            "rainDays": 14.2
+          }
+        ],
+        "cardSummary": "Berbeza daripada Phuket, Koh Samui banyak hujan pada Oktober–Disember. Februari–April lebih sesuai untuk percutian pantai. Februari paling kurang hujan, 64.3mm sebulan. April lebih panas; keluar pagi atau petang dan berehat di penginapan pada tengah hari.",
+        "bestAnswer": "Februari–April sesuai untuk percutian pantai. Koh Samui banyak hujan pada hujung tahun, jadi jangan terus menggunakan waktu cadangan Phuket. Februari paling kurang hujan, manakala purata suhu April meningkat kepada 29.1°C. Fikirkan juga keselesaan anda menghadapi cuaca panas semasa memilih tarikh."
+      }
+    ]
+  },
+  "entry": [
+    {
+      "id": "entry",
+      "title": "Cara masuk ke Thailand: TDAC, pasport dan persediaan tanpa visa",
+      "description": "Panduan masuk ke Thailand untuk pemegang pasport Malaysia: masa mengisi TDAC, pengecualian visa, pemeriksaan imigresen dan langkah selepas tiba di lapangan terbang.",
+      "intro": "Sudah menetapkan tarikh ke Bangkok atau Phuket? Jika melancong dengan pasport biasa Malaysia, semak syarat pengecualian visa dan isi TDAC mengikut tarikh ketibaan di Thailand. Sediakan pasport, tiket dan tempahan hotel supaya mudah mengisi setiap butiran. Berikut ialah persediaan sebelum berlepas serta urutan pemeriksaan imigresen dan pengambilan bagasi selepas mendarat.",
+      "sections": [
+        {
+          "title": "Melancong dengan pasport biasa Malaysia",
+          "paragraphs": [
+            "Pemegang pasport biasa Malaysia boleh masuk untuk pelancongan tanpa visa selama **tidak melebihi 30 hari**, tertakluk pada syarat imigresen. Tempoh ini berkuat kuasa mulai **15 September 2026**; jangan menggunakan maklumat lama tentang pengecualian 60 hari. Jika keluarga atau rakan menggunakan pasport negara lain, semak syarat mereka secara berasingan.",
+            "Tempoh maksimum itu tidak menjamin semua orang akan diberikan 30 hari secara automatik. Selepas pemeriksaan, lihat **tarikh tamat kebenaran tinggal dalam pasport** dan keluar sebelum tarikh itu. Untuk bekerja, belajar atau tinggal lebih lama, sediakan visa yang sesuai dengan tujuan serta tempoh perjalanan."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Dokumen yang perlu disediakan sebelum berlepas",
+          "paragraphs": [
+            "Sediakan pasport, tiket dan tempahan hotel bersama-sama. Untuk TDAC, salin **nama bahasa Inggeris tepat seperti dalam pasport** serta nama dan alamat hotel daripada tempahan berbahasa Inggeris. Lihat tarikh ketibaan di Thailand dan nombor penerbangan, bukan sekadar tarikh berlepas dari Malaysia.",
+            "Sediakan bukti perjalanan pulang atau seterusnya serta tempahan penginapan. Jika pegawai bertanya tempat tinggal dan tarikh keluar, jawab berdasarkan rancangan sebenar. Sediakan juga bukti perbelanjaan perjalanan. Panduan rasmi pengecualian visa menyatakan tunai bersamaan **20,000 baht seorang atau 40,000 baht sekeluarga** untuk pelancong tanpa visa. Wang ini ialah bukti kemampuan perjalanan, bukannya bayaran mengisi TDAC."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html",
+              "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024?form=MG0AV3"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Isi TDAC dalam tempoh 3 hari termasuk hari ketibaan",
+          "paragraphs": [
+            "TDAC ialah borang ketibaan dalam talian yang menggantikan borang kertas. **Pelawat bukan warganegara Thailand**, termasuk pemegang pasport Malaysia, perlu mengisinya sebelum pemeriksaan imigresen apabila masuk melalui udara, darat atau laut. Sediakan borang berasingan untuk setiap anak yang ikut serta.",
+            "Isi dalam **tempoh 3 hari sebelum ketibaan, termasuk hari ketibaan**. Sediakan pasport, tiket, alamat penginapan bahasa Inggeris dan e-mel. Gunakan tarikh ketibaan tempatan Thailand. Selepas menghantar, muat turun dokumen ke telefon supaya boleh dibuka walaupun sambungan internet di lapangan terbang kurang baik.",
+            "TDAC ialah pengisytiharan ketibaan, jadi mengisinya tidak mengeluarkan visa. **TDAC dan persediaan visa ialah urusan berasingan.** Jika tujuan perjalanan memerlukan visa, sediakan kedua-duanya."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Urutan selepas tiba di lapangan terbang",
+          "paragraphs": [
+            "Selepas turun pesawat, ikut papan tanda **Immigration / Passport Control** ke kaunter imigresen. Sediakan pasport, dokumen TDAC dan visa jika diperlukan supaya mudah dikeluarkan. Jawab soalan tujuan perjalanan atau penginapan berdasarkan tempahan sebenar.",
+            "Selepas pemeriksaan, baca tarikh tamat kebenaran tinggal dalam pasport. Kemudian ikut **Baggage Claim** untuk mengambil bagasi dan lalui kastam ke balai ketibaan. Jika membawa barang yang perlu diisytiharkan, ikuti prosedur kastam. Susun atur Suvarnabhumi, Don Mueang dan lapangan terbang lain berbeza; baca juga panduan lapangan terbang ketibaan anda."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Bezakan transit sahaja dengan masuk ke Thailand",
+          "paragraphs": [
+            "Jika anda hanya transit **tanpa melalui pemeriksaan imigresen Thailand**, TDAC tidak diperlukan. Jika keluar lapangan terbang atau perlu melalui imigresen untuk mengambil bagasi dan mendaftar masuk semula, anda memerlukan TDAC.",
+            "Jika tiket ditempah secara berasingan, tanya syarikat penerbangan sebelum berlepas sama ada bagasi dihantar hingga destinasi akhir dan sama ada perlu melalui imigresen Thailand. Walaupun jadual menyebut transit, sediakan borang jika anda sebenarnya perlu masuk ke negara itu."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah perjalanan ke Thailand memerlukan TDAC dan visa?",
+          "a": "Walaupun masuk sebagai pelancong tanpa visa dengan pasport biasa Malaysia, anda tetap perlu mengisi TDAC. TDAC ialah borang ketibaan; visa bergantung pada tujuan lawatan. Jika memenuhi syarat pelancongan tanpa visa, visa berasingan tidak diperlukan. Untuk bekerja, belajar atau tujuan yang memerlukan visa, TDAC sahaja tidak mencukupi."
+        },
+        {
+          "q": "Berapa lama pemegang pasport Malaysia boleh tinggal tanpa visa?",
+          "a": "Untuk pelancongan dengan pasport biasa Malaysia, tempoh maksimum ialah 30 hari di bawah aturan mulai 15 September 2026. Selepas pemeriksaan, lihat tarikh tamat sebenar dalam pasport. Tetapkan tarikh keluar berdasarkan kebenaran yang diterima, bukan tempoh maksimum sahaja."
+        },
+        {
+          "q": "Jika tiba lewat malam, tarikh mana perlu diisi dalam TDAC?",
+          "a": "Gunakan tarikh ketibaan tempatan Thailand pada tiket. Jika berlepas dari Malaysia pada malam hari dan tiba di Thailand pada hari berikutnya, isi tarikh hari berikutnya. Semak tarikh ketibaan bersama nombor penerbangan."
+        }
+      ],
+      "sources": [
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · pengecualian visa",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Oslo · senarai pasport biasa 30 hari mulai 15 September 2026",
+          "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932"
+        ],
+        [
+          "Kementerian Luar Thailand · perubahan berkuat kuasa 15 September 2026",
+          "https://www.mfa.go.th/en/content/pb-summary-03092026-en"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · soalan e-Visa",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · visa pelancong",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883"
+        ],
+        [
+          "Portal rasmi Thai e-Visa",
+          "https://www.thaievisa.go.th/"
+        ],
+        [
+          "Panduan pengguna TDAC bahasa Inggeris · versi 1.19",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Soalan lazim rasmi TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Washington · syarat tunai skim pengecualian visa 30 hari",
+          "https://washingtondc.thaiembassy.org/en/page/visaexempt-voajul2024?form=MG0AV3"
+        ]
+      ],
+      "facts": [
+        [
+          "Untuk siapa",
+          "Pelancong yang masuk ke Thailand dengan pasport biasa Malaysia"
+        ],
+        [
+          "Borang ketibaan",
+          "TDAC · penghantaran percuma melalui laman rasmi"
+        ],
+        [
+          "Pengecualian visa",
+          "Sehingga 30 hari · semak tarikh tamat sebenar dalam pasport selepas imigresen"
+        ]
+      ],
+      "checkedAt": "2026-10-18",
+      "locale": "ms",
+      "market": "MY",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Huraian penuh dikekalkan; tindakan, syarat, pengecualian dan jawapan terus dibandingkan dengan contoh Sirocco.",
+        "record": "src/data/localized/ms/review.md",
+        "market": "MY"
+      }
+    },
+    {
+      "id": "tdac",
+      "title": "Cara isi TDAC: borang ketibaan Thailand melalui telefon",
+      "description": "Panduan bergambar mudah alih untuk mengisi TDAC secara percuma: laman rasmi, masa penghantaran, butiran bahasa Inggeris, penginapan, penerbangan, simpanan dan pembetulan.",
+      "intro": "Mahu mengisi TDAC melalui telefon tetapi kurang biasa dengan nama ruangan bahasa Inggeris? Sediakan pasport, tiket dan tempahan hotel, kemudian ikuti skrin di bawah satu demi satu. Anda akan tahu tempat mengisi nama, tarikh ketibaan Thailand dan alamat penginapan. Selepas menghantar, simpan dokumen di telefon supaya mudah dibuka di lapangan terbang.",
+      "sections": [
+        {
+          "title": "Kenali laman rasmi dan masa untuk mengisi",
+          "paragraphs": [
+            "Pastikan bar alamat menunjukkan **tdac.immigration.go.th**. Inilah laman rasmi Imigresen Thailand dan **penghantaran TDAC adalah percuma**. Ia berbeza daripada portal Thai e-Visa untuk memohon visa.",
+            "Isi dalam **tempoh 3 hari sebelum ketibaan, termasuk hari ketibaan**. Hantar borang baharu setiap kali memasuki Thailand; dokumen perjalanan lama tidak boleh digunakan semula. Sebelum bermula, sediakan pasport, nombor penerbangan masuk, tarikh ketibaan tempatan Thailand, alamat penginapan bahasa Inggeris dan e-mel penerimaan dokumen."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+          }
+        },
+        {
+          "title": "Anda boleh membaca panduan skrin dalam bahasa yang difahami",
+          "paragraphs": [
+            "Jika kurang biasa dengan panduan bahasa Inggeris, gunakan **tetapan bahasa** laman atau **terjemahan halaman** dalam pelayar telefon. Bahasa yang tersedia serta lokasi menu terjemahan bergantung pada laman, telefon dan pelayar anda.",
+            "Walaupun panduan skrin diterjemahkan, **isi maklumat dalam bahasa Inggeris**. Salin nama dan nombor pasport tepat seperti dalam pasport, serta alamat hotel daripada tempahan bahasa Inggeris. Gambar skrin mudah alih bahasa Inggeris di bawah membantu anda mengenali nama butang dan ruangan."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+          }
+        },
+        {
+          "title": "Tekan Arrival Card pada skrin pertama",
+          "paragraphs": [
+            "Jika mengisi buat kali pertama, tekan **Arrival Card**. Butang **Update Arrival Card** di sebelahnya untuk membetulkan borang yang sudah dihantar. Mulakan penghantaran baharu melalui Arrival Card.",
+            "Skrin pertama turut menyebut pelaporan 90 hari dan permit kerja. Maklumat itu tidak bermakna TDAC sah selama 90 hari atau membenarkan anda bekerja di Thailand. Untuk pengisytiharan ketibaan perjalanan ini, teruskan melalui Arrival Card."
+          ],
+          "image": "tdac-home-mobile-en.jpg",
+          "caption": "Skrin pertama mudah alih bahasa Inggeris · Arrival Card untuk borang baharu",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+          }
+        },
+        {
+          "title": "Personal Information: isi butiran pasport dan diri",
+          "paragraphs": [
+            "Isi **nama keluarga dalam Family Name dan nama diberi dalam First Name** mengikut pasport. Jika tiada nama tengah, jangan mereka maklumat untuk Middle Name. Pastikan setiap bahagian nama berada di ruangan yang sepadan dan salin nombor pasport ke Passport No.",
+            "Nationality/Citizenship ialah kewarganegaraan, Date of Birth tarikh lahir, Occupation pekerjaan dan Gender jantina. Country/Territory of Residence ialah negara kediaman semasa, manakala City/State of Residence bandar atau negeri kediaman. Jika mempunyai pasport Malaysia tetapi tinggal di luar negara, isi kewarganegaraan dan kediaman berdasarkan keadaan sebenar.",
+            "Visa No. untuk nombor visa yang telah dikeluarkan. **Jika masuk tanpa visa, jangan mereka nombor visa.** Bezakan ruangan wajib bertanda bintang dengan ruangan pilihan. Untuk Phone No., isi kod negara dan nombor telefon secara berasingan. Tekan Continue selepas selesai.",
+            "Dalam gambar di bawah, butang Retrieve with Passport tidak boleh ditekan. Jika fungsi membaca MRZ pasport yang disebut dalam panduan rasmi tidak tersedia, isi sendiri dengan merujuk pasport. Walaupun menggunakan bacaan automatik, semak nama dan nombor pasport selepas diisi."
+          ],
+          "image": "tdac-personal-mobile-en.jpg",
+          "caption": "Butiran diri mudah alih bahasa Inggeris · borang kosong tanpa data peribadi sebenar",
+          "fields": [
+            [
+              "Family Name / First Name",
+              "Nama keluarga / nama diberi dalam bahasa Inggeris mengikut pasport"
+            ],
+            [
+              "Passport No.",
+              "Nombor pasport"
+            ],
+            [
+              "Nationality/Citizenship",
+              "Kewarganegaraan pasport"
+            ],
+            [
+              "Country/Territory of Residence",
+              "Negara kediaman semasa"
+            ],
+            [
+              "City/State of Residence",
+              "Bandar atau negeri kediaman semasa"
+            ],
+            [
+              "Visa No.",
+              "Nombor visa jika sudah mempunyai visa"
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+          },
+          "image2": "tdac-personal-details-mobile-en.jpg",
+          "caption2": "Bahagian bawah butiran diri bahasa Inggeris · pekerjaan, jantina, nombor visa, negara dan bandar kediaman"
+        },
+        {
+          "title": "Arrival Information: isi perjalanan yang tiba di Thailand",
+          "paragraphs": [
+            "Maklumat perjalanan memisahkan **ketibaan di Thailand dan pelepasan dari Thailand**. Mulakan dengan Arrival Information di bahagian atas sambil merujuk tiket. Cari tarikh tempatan dan nombor penerbangan yang tiba di Thailand, bukan sekadar tarikh keluar dari Malaysia.",
+            "Untuk percutian melalui penerbangan terus dari Malaysia ke Thailand, pilih **HOLIDAY** sebagai tujuan, **AIR** sebagai cara perjalanan dan **COMMERCIAL FLIGHT** untuk pesawat penumpang biasa. Contoh ini untuk percutian melalui udara. Pilih jawapan sebenar jika pergi bekerja, belajar atau masuk melalui darat atau laut.",
+            "Dalam carian negara, taip nama bahasa Inggeris atau kod tiga huruf, kemudian **pilih negara daripada senarai yang muncul**. Jika menaiki pesawat terus dari Malaysia, cari MYS dan pilih MYS : MALAYSIA. Jangan berhenti selepas menaip kod; pastikan nama negara telah dimasukkan sebagai pilihan."
+          ],
+          "image": "tdac-trip-arrival-mobile-en.jpg",
+          "caption": "Maklumat ketibaan mudah alih bahasa Inggeris · Arrival Information",
+          "fields": [
+            [
+              "Date of Arrival · tarikh tiba di Thailand",
+              "Isi tarikh ketibaan tempatan Thailand dalam format YYYY/MM/DD seperti tiket. Jika berlepas malam dan tiba keesokan hari, gunakan hari berikutnya. Anda juga boleh memilih melalui kalendar."
+            ],
+            [
+              "Country/Territory where you Boarded · negara menaiki pengangkutan",
+              "Pilih negara atau wilayah tempat menaiki penerbangan ke Thailand. Jika terus dari Malaysia, pilih MYS : MALAYSIA. Jika transit lalu menaiki penerbangan Thailand dari negara lain, gunakan negara menaiki penerbangan tersebut."
+            ],
+            [
+              "Purpose of Travel · tujuan perjalanan",
+              "Pilih HOLIDAY untuk pelancongan atau percutian. Pilih MEETING, BUSINESS atau EDUCATION hanya jika sepadan dengan tujuan sebenar. Jika memilih OTHERS (PLEASE SPECIFY), isi penerangan tambahan dalam bahasa Inggeris."
+            ],
+            [
+              "Mode of Travel · cara masuk",
+              "Pilih AIR untuk pesawat, LAND untuk darat dan SEA untuk laut. Pilihan jenis pengangkutan di bawah berubah mengikut jawapan ini."
+            ],
+            [
+              "Mode of Transport · jenis pengangkutan",
+              "Pilih COMMERCIAL FLIGHT untuk penerbangan penumpang biasa. PRIVATE/CARGO AIRLINE atau OTHERS hanya jika benar-benar berkenaan."
+            ],
+            [
+              "Flight No./Vehicle No. · nombor penerbangan atau kenderaan masuk",
+              "Untuk pesawat, salin kod syarikat dan nombor penerbangan yang tiba di Thailand daripada tiket. Ini bukan nombor tempahan atau tempat duduk. Untuk darat dan laut, isi butiran pengangkutan berkenaan."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+          },
+          "id": "arrival"
+        },
+        {
+          "title": "Departure Information: isi perjalanan keluar dari Thailand",
+          "paragraphs": [
+            "Di bawah maklumat ketibaan terdapat **Departure Information**. Tarikh dan nombor penerbangan di sini ialah **perjalanan meninggalkan Thailand**, bukannya perjalanan keluar dari Malaysia. Jika mempunyai tiket pergi balik, gunakan tarikh pelepasan tempatan Thailand dan nombor penerbangan pulang.",
+            "Dalam skrin rujukan, butiran pelepasan tidak ditandai bintang wajib. Jika belum menetapkan perjalanan keluar, jangan mereka tarikh atau nombor penerbangan. Namun, ruangan pilihan ini berbeza daripada keperluan bersedia menjelaskan perjalanan pulang atau seterusnya kepada imigresen.",
+            "Gunakan **Clear** untuk memadam pilihan cara keluar yang tersalah pilih. Baca tajuk supaya AIR bagi ketibaan di atas tidak tertukar dengan AIR bagi pelepasan di bawah."
+          ],
+          "image": "tdac-trip-departure-mobile-en.jpg",
+          "caption": "Maklumat pelepasan mudah alih bahasa Inggeris · Departure Information",
+          "fields": [
+            [
+              "Date of Departure · tarikh keluar Thailand",
+              "Isi tarikh tempatan bertolak dari Thailand, bukan tarikh tiba di Malaysia. Gunakan tarikh pesawat berlepas dari lapangan terbang Thailand."
+            ],
+            [
+              "Mode of Travel · cara keluar",
+              "Pilih AIR, LAND atau SEA mengikut perjalanan keluar dari Thailand. Cara masuk dan keluar mungkin berbeza."
+            ],
+            [
+              "Mode of Transport · jenis pengangkutan keluar",
+              "Pilih jenis sebenar yang sepadan dengan cara keluar. Pesawat penumpang pulang biasa ialah COMMERCIAL FLIGHT."
+            ],
+            [
+              "Flight No./Vehicle No. · nombor penerbangan atau kenderaan keluar",
+              "Isi nombor penerbangan keluar Thailand atau nombor pengangkutan berkenaan. Jangan terus menyalin nombor ketibaan di atas; bandingkan tiket pulang."
+            ],
+            [
+              "Clear · padam pilihan",
+              "Gunakan untuk menetapkan semula pilihan cara keluar yang tersalah pilih."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+          },
+          "id": "departure"
+        },
+        {
+          "title": "Accommodation Information: salin alamat penginapan daripada tempahan",
+          "paragraphs": [
+            "Buka tempahan dan sediakan **alamat hotel bahasa Inggeris**. Bahagian ini untuk tempat menginap di Thailand, bukan alamat rumah di Malaysia. Padankan kawasan dan alamat berdasarkan tempahan atau maklumat hotel rasmi, bukan ingatan nama hotel sahaja.",
+            "Ruangan wajib boleh berubah mengikut jenis penginapan. Dalam skrin rujukan, **bintang wajib District dan Sub-District hilang apabila HOTEL dipilih**. Jangan anggap perkara sama bagi semua jenis penginapan; ikut tanda wajib pada skrin pilihan anda.",
+            "Pilih kawasan induk mengikut turutan Province → District, Area → Sub-District, Sub-Area untuk membuka senarai seterusnya. Walaupun namanya hampir sama, pilih yang sepadan dengan alamat hotel. Jika menginap di Bangkok, Province boleh dipilih sebagai BANGKOK.",
+            "**I am a transit passenger, I don’t stay in Thailand** ialah pilihan untuk penumpang transit yang tidak menginap. Jangan memilihnya hanya kerana belum menempah hotel. Pilihan ini mungkin dinyahaktifkan mengikut butiran lain; jika masuk untuk melancong dan tinggal di Thailand, isi penginapan sebenar."
+          ],
+          "image": "tdac-accommodation-mobile-en.jpg",
+          "caption": "Penginapan mudah alih bahasa Inggeris · pilihan kawasan selepas HOTEL",
+          "fields": [
+            [
+              "Type of Accommodation in Thailand · jenis penginapan",
+              "Pilih HOTEL, YOUTH HOSTEL, GUEST HOUSE, FRIEND’S HOUSE atau APARTMENT mengikut penginapan sebenar. Jika memilih OTHERS, isi penerangan yang diminta."
+            ],
+            [
+              "Province · wilayah",
+              "Pilih wilayah atau kawasan seperti Bangkok berdasarkan alamat hotel, bukan lokasi lapangan terbang."
+            ],
+            [
+              "District, Area · daerah atau kawasan",
+              "Pilih daerah dalam alamat penginapan selepas memilih Province. Status wajib bergantung pada jenis penginapan."
+            ],
+            [
+              "Sub-District, Sub-Area · kawasan pentadbiran kecil",
+              "Pilih kawasan kecil dalam alamat. Senarai tersedia selepas kawasan induk dipilih."
+            ],
+            [
+              "Post Code · poskod",
+              "Gunakan poskod penginapan Thailand. Jika muncul secara automatik selepas memilih kawasan, bandingkan dengan tempahan. Jika mengisi sendiri, gunakan poskod penginapan tersebut. Dalam skrin rujukan, tiada bintang wajib."
+            ],
+            [
+              "Address · alamat lengkap",
+              "Isi nama penginapan, bangunan, nombor dan jalan dalam bahasa Inggeris. Memilih kawasan sahaja tidak melengkapkan alamat. Ruangan rujukan memaparkan had 215 aksara; susun alamat panjang tanpa kehilangan nama hotel dan lokasi sebenar."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+          },
+          "id": "accommodation"
+        },
+        {
+          "title": "Health Declaration: pilih negara yang didiami dalam 2 minggu terakhir",
+          "paragraphs": [
+            "Pengisytiharan kesihatan meminta **negara atau wilayah tempat anda tinggal dalam 2 minggu sebelum ketibaan**. Jika berlepas terus selepas berada di Malaysia, pilih Malaysia. Jika turut berada di negara lain, masukkan sejarah sebenar. Ini bukan ruangan bandar Thailand yang akan dilawati.",
+            "Taip nama negara bahasa Inggeris atau kod, kemudian pilih hasil carian. Kewarganegaraan pasport, negara kediaman, negara menaiki penerbangan ke Thailand dan negara yang baru didiami ialah soalan berbeza. Jika sedang menyambung perjalanan antarabangsa, jangan menyalin negara yang sama ke semua ruangan tanpa menyemak.",
+            "Di bahagian atas juga terdapat makluman vaksinasi berdasarkan Kementerian Kesihatan Thailand. Panduan rasmi menyatakan **maklumat kesihatan tambahan mungkin muncul** mengikut negara yang dilawati, negara berlepas, kewarganegaraan dan penerbangan. Baca soalan atau permintaan bukti yang dipaparkan dan jawab berdasarkan keadaan sebenar. Gambar di bawah ialah skrin asas dalam contoh yang memilih Korea; bukan semua pelawat akan melihat ruangan tambahan yang sama.",
+            "Selepas selesai, tekan **Preview**. Previous kembali ke langkah sebelumnya, manakala Add Other Travelers menambah maklumat rakan perjalanan. Jangan menggunakan sejarah negara seorang pelawat sebagai ganti sejarah orang lain."
+          ],
+          "image": "tdac-health-mobile-en.jpg",
+          "caption": "Skrin asas kesihatan bahasa Inggeris · negara dalam 2 minggu terakhir",
+          "fields": [
+            [
+              "Countries/territories where you stayed within two weeks before arrival · negara terkini",
+              "Pilih negara atau wilayah yang benar-benar didiami dalam 2 minggu sebelum masuk Thailand. Ini bukan untuk bandar Thailand yang akan dilawati atau pihak pengeluar pasport."
+            ],
+            [
+              "Jika maklumat atau bukti kesihatan tambahan muncul",
+              "Baca soalan dan syarat pada skrin, kemudian jawab menggunakan maklumat kesihatan serta perjalanan sebenar. Jangan menyalin jawapan ruangan tambahan daripada contoh lain."
+            ],
+            [
+              "Preview / Previous / Add Other Travelers",
+              "Preview untuk menyemak, Previous kembali ke langkah sebelumnya dan Add Other Travelers menambah rakan perjalanan. Gunakan pasport serta perjalanan sebenar setiap orang."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+          },
+          "id": "health"
+        },
+        {
+          "title": "Preview: isi e-mel dan semak sebelum menghantar",
+          "paragraphs": [
+            "Semak semula nama, nombor pasport, kewarganegaraan dan tarikh lahir, serta **tarikh ketibaan, negara berlepas, nombor penerbangan masuk dan alamat penginapan**. Tekan **Edit** untuk membetulkan kesilapan. EXAMPLE dalam gambar hanya contoh penerangan skrin; ia tidak dihantar sebagai pengisytiharan sebenar.",
+            "Di **ruangan e-mel** paling bawah, isi alamat yang boleh menerima dokumen anda. Ruangan ini bukan untuk nama. Semak ejaan di kedua-dua sisi @. Jika peti masuk itu boleh dibuka pada telefon yang sedang digunakan, lebih mudah mencari dokumen selepas menghantar.",
+            "Baca **Terms and conditions**, tandakan sendiri jika bersetuju, kemudian tekan **Submit**. Butang penghantaran tidak aktif selagi persetujuan belum diberi. Membuka Preview sahaja belum menghantar borang.",
+            "Jika ralat berlaku atau dokumen siap tidak muncul, jangan anggap penghantaran berjaya. Simpan dokumen selepas melihat pengesahan kejayaan dan TDAC sebenar."
+          ],
+          "image": "tdac-preview-submit-mobile-en.jpg",
+          "caption": "Bahagian bawah Preview bahasa Inggeris · e-mel, terma dan Submit",
+          "fields": [
+            [
+              "Edit · sunting",
+              "Kembali ke peringkat pengisian untuk membetulkan kesilapan yang ditemui semasa semakan."
+            ],
+            [
+              "Please specify an email to send Thailand Digital Arrival Card · e-mel penerimaan",
+              "Isi alamat e-mel yang benar-benar boleh menerima dokumen. Semak semula sebelum menghantar supaya dokumen mudah dicari."
+            ],
+            [
+              "I have read and accepted the Terms and conditions · persetujuan terma",
+              "Baca terma yang dipautkan dan tandakan sendiri hanya jika bersetuju."
+            ],
+            [
+              "Submit · hantar akhir",
+              "Hantar selepas semakan, e-mel dan persetujuan yang diperlukan selesai. Selepas itu pastikan pengesahan serta dokumen dipaparkan."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html"
+            ],
+            "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+          },
+          "imageNote": "EXAMPLE dan alamat dalam skrin ialah contoh rekaan untuk penerangan. Tiada persetujuan terma atau penghantaran borang sebenar dibuat.",
+          "id": "preview"
+        },
+        {
+          "title": "Selepas berjaya: muat turun TDAC dan simpan di telefon",
+          "paragraphs": [
+            "Apabila berjaya, anda boleh melihat **pengesahan dan pautan muat turun dokumen TDAC**. Video panduan rasmi menunjukkan skrin siap bersama dokumen yang dimuat turun. Gambar di bawah ialah **contoh kejayaan daripada video rasmi** yang ditangkap melalui pelayar telefon. Paparan dalam video ialah versi desktop lama, jadi susunannya mungkin berbeza daripada borang mudah alih semasa.",
+            "Selepas memuat turun, semak nama, butiran pasport dan tarikh ketibaan mengikut perjalanan anda. Simpan nombor borang dan kod QR yang dipaparkan, serta cari dokumen yang dihantar melalui e-mel. Jangan menggunakan nombor contoh atau kod QR dalam video sebagai dokumen masuk anda.",
+            "**Simpan fail supaya boleh dibuka tanpa internet.** Menyimpan fail sebenar, bukan pautan e-mel sahaja, memudahkan anda membukanya jika sambungan di lapangan terbang lemah. Anda juga boleh membawa salinan bercetak jika perlu.",
+            "Sediakan dokumen untuk ditunjukkan semasa masuk dan simpan sepanjang tempoh tinggal. **Pengesahan TDAC tidak menggantikan visa atau kebenaran masuk.** Syarat visa atau pengecualian serta pemeriksaan imigresen tetap berasingan."
+          ],
+          "image": "tdac-complete-official-video-mobile-en.jpg",
+          "caption": "Video panduan TDAC rasmi · contoh kejayaan dan muat turun pada 2 minit 45 saat",
+          "fields": [
+            [
+              "Pengesahan selesai",
+              "Pastikan makluman penghantaran berjaya muncul. Bezakan daripada pratonton sebelum penghantaran."
+            ],
+            [
+              "Muat turun dokumen TDAC",
+              "Muat turun dokumen siap ke simpanan fail telefon. Cuba membukanya tanpa sambungan internet."
+            ],
+            [
+              "Nombor borang, maklumat pelawat dan kod QR",
+              "Semak nama, butiran pasport dan tarikh ketibaan pada dokumen sendiri. Simpan pengesahan; jangan menggunakan sampel video rasmi untuk kemasukan sebenar."
+            ],
+            [
+              "Dokumen melalui e-mel",
+              "Cari dan simpan dokumen dalam peti masuk yang diberikan ketika menghantar. Muat turun atau cetak jika perlu."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/arrival-card/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s"
+            ],
+            "review": "Current official English mobile UI, application 2026.09.00-0543. Demonstration only; no submission."
+          },
+          "imageSourceUrl": "https://www.youtube.com/watch?v=eHyYt1eXjOo&t=165s",
+          "imageCredit": "Video penghantaran yang dipautkan dalam panduan rasmi Imigresen Thailand",
+          "imageNote": "Contoh video rasmi ditangkap pada lebar mudah alih 390px. Paparan video ialah contoh desktop panduan versi 1.4; bukan hasil penghantaran sebenar melalui skrin mudah alih semasa.",
+          "id": "complete"
+        },
+        {
+          "title": "Cara membetulkan TDAC yang sudah dihantar",
+          "paragraphs": [
+            "Untuk mengubah butiran yang telah dihantar, tekan **Update Arrival Card** pada skrin pertama. Skrin carian meminta nombor TDAC, tarikh lahir, tarikh ketibaan dan kewarganegaraan. Isi dengan merujuk dokumen serta pasport, kemudian tekan **Search**.",
+            "Menurut FAQ rasmi, **nama dalam pasport, nombor pasport, kewarganegaraan dan tarikh lahir tidak boleh diubah**. Jika salah satu tersalah isi, hantar borang baharu dengan maklumat betul. Untuk butiran yang boleh diubah seperti penginapan, betulkan sebelum masuk, hantar semula dan simpan dokumen terkini.",
+            "Gambar di bawah ialah carian untuk borang yang sudah diterima. Jika belum pernah menghantar, kembali ke Arrival Card pada skrin pertama untuk mengisi borang baharu; anda belum mempunyai nombor TDAC untuk dicari."
+          ],
+          "image": "tdac-update-mobile-en.jpg",
+          "caption": "Carian pembetulan bahasa Inggeris · nombor borang, tarikh lahir, ketibaan dan kewarganegaraan",
+          "verificationEvidence": {
+            "checkedAt": "2026-10-14",
+            "sourceUrls": [
+              "https://tdac.immigration.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "공식 원문·실제 TDAC 영어 화면에 대조. 2026-09 개편과 양자협정 구분"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah TDAC berbayar?",
+          "a": "Tidak. Tiada yuran untuk menghantar TDAC melalui laman rasmi Imigresen Thailand. Pastikan bar alamat menunjukkan tdac.immigration.go.th sebelum mengisi."
+        },
+        {
+          "q": "Bolehkah membaca skrin dalam bahasa lain?",
+          "a": "Gunakan pilihan bahasa yang tersedia atau terjemahan pelayar untuk membaca panduan. Namun, butiran mesti diisi dalam bahasa Inggeris. Rujuk pasport untuk nama dan nombor pasport serta tempahan bahasa Inggeris untuk alamat penginapan."
+        },
+        {
+          "q": "Adakah kanak-kanak dan pelawat tanpa visa memerlukan TDAC?",
+          "a": "Ya. Pelancong tanpa visa dengan pasport Malaysia dan kanak-kanak memerlukan TDAC masing-masing. Pengisytiharan ini untuk pelawat bukan warganegara Thailand. Jika hanya transit tanpa melalui imigresen Thailand, TDAC tidak diperlukan."
+        },
+        {
+          "q": "Adakah mengisi TDAC mengeluarkan visa Thailand?",
+          "a": "Tidak. Penghantaran TDAC tidak mengeluarkan visa. Borang ketibaan dan visa ialah persediaan berbeza. Pelancong tanpa visa dengan pasport biasa Malaysia mesti memenuhi syaratnya; jika tujuan memerlukan visa, visa itu perlu diperoleh secara berasingan."
+        },
+        {
+          "q": "Bolehkah membetulkan nama yang tersalah isi?",
+          "a": "Hantar borang baharu dengan nama betul. Nama pasport, nombor pasport, kewarganegaraan dan tarikh lahir tidak boleh diubah. Untuk maklumat yang boleh diubah seperti penginapan, gunakan Update Arrival Card sebelum masuk, hantar semula dan simpan dokumen terkini."
+        },
+        {
+          "q": "Adakah nombor tempahan diisi sebagai nombor penerbangan?",
+          "a": "Tidak. Flight No./Vehicle No. meminta kod syarikat dan nombor penerbangan yang tiba di Thailand seperti dalam tiket, bukan nombor tempahan atau tempat duduk."
+        },
+        {
+          "q": "Adakah tarikh pelepasan TDAC tarikh tiba di Malaysia?",
+          "a": "Date of Departure dalam Departure Information ialah tarikh tempatan keluar dari Thailand. Ia mungkin berbeza daripada tarikh ketibaan di Malaysia; lihat bahagian berlepas dari Thailand pada tiket pulang."
+        },
+        {
+          "q": "Jika memilih HOTEL, adakah District dan Sub-District wajib?",
+          "a": "Dalam skrin rujukan, bintang wajib District dan Sub-District hilang selepas HOTEL dipilih. Keperluannya bergantung pada jenis penginapan; ikut tanda bintang pada skrin anda."
+        },
+        {
+          "q": "Adakah ruangan 2 minggu kesihatan untuk bandar Thailand yang akan dilawati?",
+          "a": "Tidak. Pilih negara atau wilayah yang benar-benar didiami dalam 2 minggu sebelum masuk Thailand. Ia bukan ruangan destinasi atau bandar yang akan dilawati."
+        },
+        {
+          "q": "Adakah TDAC selesai apabila Preview terbuka?",
+          "a": "Tidak. Preview ialah semakan sebelum penghantaran. Isi e-mel, baca terma dan hantar, kemudian pastikan pengesahan kejayaan serta dokumen TDAC diterima."
+        }
+      ],
+      "sources": [
+        [
+          "Laman rasmi TDAC Imigresen Thailand",
+          "https://tdac.immigration.go.th/"
+        ],
+        [
+          "Panduan pengguna TDAC bahasa Inggeris · versi 1.19",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Soalan lazim rasmi TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ],
+        [
+          "Video rasmi penghantaran Imigresen Thailand · contoh selesai",
+          "https://www.youtube.com/watch?v=eHyYt1eXjOo"
+        ]
+      ],
+      "facts": [
+        [
+          "Laman rasmi",
+          "https://tdac.immigration.go.th/"
+        ],
+        [
+          "Kos",
+          "Percuma"
+        ],
+        [
+          "Masa menghantar",
+          "Dalam tempoh 3 hari sebelum ketibaan Thailand, termasuk hari ketibaan"
+        ],
+        [
+          "Bahasa pengisian",
+          "Bahasa Inggeris · butiran pasport tepat mengikut pasport"
+        ],
+        [
+          "Skrin panduan",
+          "Mudah alih bahasa Inggeris · tangkapan 2026-10-14"
+        ]
+      ],
+      "checkedAt": "2026-10-14",
+      "locale": "ms",
+      "market": "MY",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Huraian penuh dikekalkan; tindakan, syarat, pengecualian dan jawapan terus dibandingkan dengan contoh Sirocco.",
+        "record": "src/data/localized/ms/review.md",
+        "market": "MY"
+      }
+    },
+    {
+      "id": "visa",
+      "title": "Jenis visa Thailand: bezakan tanpa visa, pelancongan, kerja dan pengajian",
+      "description": "Pilih visa mengikut tujuan ke Thailand. Kenali pengecualian visa, visa pelancong, DTV, kerja, pengajian dan persaraan serta cara memohon Thai e-Visa.",
+      "intro": "Persediaan visa untuk bercuti berbeza daripada bekerja atau belajar di Thailand. Jika melancong dengan pasport biasa Malaysia, semak dahulu sama ada perjalanan memenuhi syarat tanpa visa. Kemasukan pelancongan tidak boleh menggantikan visa kerja atau pengajian. Tentukan tujuan dan tempoh tinggal, kemudian sediakan visa yang sesuai.",
+      "sections": [
+        {
+          "title": "Pengecualian visa, TDAC dan visa mempunyai fungsi berbeza",
+          "paragraphs": [
+            "**Pengecualian visa** membolehkan anda masuk tanpa memohon visa berasingan apabila syarat dipenuhi. **TDAC** ialah pengisytiharan ketibaan dalam talian, manakala **visa** dipohon mengikut tujuan seperti pelancongan, pengajian atau pekerjaan. Mengisi TDAC tidak bermaksud visa sudah dikeluarkan.",
+            "Untuk pelancongan dengan pasport biasa Malaysia, aturan mulai 15 September 2026 membenarkan kemasukan tanpa visa sehingga 30 hari. Panduan ini menggunakan pasport Malaysia. Semak syarat pasport ahli keluarga atau rakan yang berbeza kewarganegaraan secara berasingan. Membaca panduan bahasa Melayu tidak bermakna semua orang tertakluk pada syarat pasport Malaysia."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Visa mana sesuai dengan tujuan perjalanan?",
+          "paragraphs": [
+            "Tentukan aktiviti yang mahu dilakukan di Thailand sebelum memilih kategori di bawah. Portal Thai e-Visa membahagikan maklumat mengikut tujuan seperti pelancongan, kerja dan pengajian. Nama yang hampir sama tidak bermakna kelayakan serta dokumennya sama. Baca syarat khusus untuk aktiviti sebenar anda."
+          ],
+          "fields": [
+            [
+              "Visa pelancong · Tourist Visa",
+              "Untuk pelancongan dan percutian. Bezakan sekali masuk dengan berbilang masuk."
+            ],
+            [
+              "Visa kerja dan perniagaan · Work & Business",
+              "Untuk pekerjaan atau perniagaan. TDAC atau kemasukan pelancongan tanpa visa tidak membenarkan anda bekerja."
+            ],
+            [
+              "Visa pengajian · Studying / Non-Immigrant ED",
+              "Untuk pengajian di institusi serta pendidikan atau latihan yang memenuhi syarat."
+            ],
+            [
+              "Visa persaraan · Non-Immigrant O / O-A",
+              "Untuk pesara yang memenuhi kelayakan umur, kewangan dan syarat kategori masing-masing."
+            ],
+            [
+              "DTV · Destination Thailand Visa",
+              "Untuk Workcation serta aktiviti soft power Thailand yang layak. Kategorinya berbeza daripada visa pelancong."
+            ],
+            [
+              "Visa transit · Transit Visa",
+              "Untuk tujuan dan kelayakan berkenaan seperti transit, aktiviti sukan atau kru."
+            ],
+            [
+              "LTR · Long-Term Resident",
+              "Visa kediaman jangka panjang untuk pemohon yang memenuhi kelayakan."
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Mohon dalam talian melalui Thai e-Visa",
+          "paragraphs": [
+            "Cipta akaun di **thaievisa.go.th**, isi permohonan dan muat naik dokumen. Selesaikan bayaran sebelum menghantar. Selepas itu, semak status serta e-mel untuk permintaan dokumen tambahan. Apabila diluluskan, simpan surat pengesahan visa yang diterima melalui e-mel.",
+            "Untuk memohon melalui Kedutaan Diraja Thailand di Kuala Lumpur, **pemohon mesti berada di Malaysia**. Permohonan yang dihantar ketika berada di Thailand atau negara lain tidak dipertimbangkan, dan bayaran tidak dipulangkan. Warganegara Malaysia boleh menggunakan kad pengenalan Malaysia sebagai bukti lokasi semasa mengikut FAQ kedutaan. Jika berada di luar negara, pilih perwakilan yang mempunyai bidang kuasa atas lokasi sebenar anda."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Bezakan tempoh sah visa dengan tempoh dibenarkan tinggal",
+          "paragraphs": [
+            "Tempoh sah visa ialah tempoh anda boleh menggunakan visa itu untuk masuk. Tempoh tinggal pula ialah kebenaran berada di Thailand selepas masuk. Bagi visa pelancong sekali masuk sekalipun, tempoh sah dan tempoh tinggal bukan perkara yang sama.",
+            "Menerima visa tidak bermakna anda boleh tinggal sehingga hari terakhir tempoh sahnya. Selepas pemeriksaan imigresen, gunakan **tarikh tamat kebenaran tinggal dalam pasport** untuk merancang tarikh keluar. Jika perlu lanjutan, mohon secara berasingan dan tunggu keputusan; menghantar permohonan sahaja tidak memanjangkan tempoh tinggal."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah visa pelancong Thailand wajib?",
+          "a": "Jika pemegang pasport biasa Malaysia memenuhi syarat pelancongan tanpa visa, visa pelancong berasingan tidak diperlukan. Untuk bekerja, belajar, tujuan selain pelancongan atau tinggal lebih lama, sediakan kelayakan yang sesuai. Syarat pasport Malaysia tidak boleh terus digunakan untuk rakan berkewarganegaraan lain."
+        },
+        {
+          "q": "Adakah DTV sama dengan visa pelancong?",
+          "a": "Tidak. DTV dan visa pelancong ialah kategori berbeza. DTV meliputi pemohon yang layak untuk Workcation atau aktiviti soft power Thailand, manakala visa pelancong untuk pelancongan. Semak kelayakan dan dokumen mengikut aktiviti anda."
+        },
+        {
+          "q": "Perlukah pergi ke kedutaan untuk memohon?",
+          "a": "Permohonan melalui Kedutaan Diraja Thailand di Kuala Lumpur dihantar dalam talian melalui Thai e-Visa, termasuk dokumen sokongan. Pastikan anda berada di Malaysia dan layak memohon melalui kedutaan ini sebelum bermula. Permintaan temu duga atau dokumen tambahan masih boleh dibuat mengikut kes."
+        }
+      ],
+      "sources": [
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · pengecualian visa",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Oslo · senarai pasport biasa 30 hari mulai 15 September 2026",
+          "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932"
+        ],
+        [
+          "Kementerian Luar Thailand · perubahan berkuat kuasa 15 September 2026",
+          "https://www.mfa.go.th/en/content/pb-summary-03092026-en"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · soalan e-Visa",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · visa pelancong",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883"
+        ],
+        [
+          "Portal rasmi Thai e-Visa",
+          "https://www.thaievisa.go.th/"
+        ],
+        [
+          "Panduan pengguna TDAC bahasa Inggeris · versi 1.19",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Soalan lazim rasmi TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "ms",
+      "market": "MY",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Huraian penuh dikekalkan; tindakan, syarat, pengecualian dan jawapan terus dibandingkan dengan contoh Sirocco.",
+        "record": "src/data/localized/ms/review.md",
+        "market": "MY"
+      }
+    },
+    {
+      "id": "tourist-visa",
+      "title": "Visa pelancong Thailand: sekali masuk, berbilang masuk dan permohonan e-Visa",
+      "description": "Ketahui perbezaan tempoh sah dan tempoh tinggal visa pelancong Thailand, dokumen pasport serta tempahan, bayaran di Kuala Lumpur dan langkah memohon e-Visa.",
+      "intro": "Jika melancong dengan pasport biasa Malaysia, anda tidak semestinya perlu memohon visa pelancong terlebih dahulu. Semak dahulu sama ada tempoh perjalanan memenuhi syarat tanpa visa. Jika visa diperlukan, bandingkan sekali masuk atau berbilang masuk mengikut berapa kali anda mahu memasuki Thailand. Panduan ini menerangkan dokumen, permohonan dalam talian dan penyimpanan surat kelulusan berdasarkan Kedutaan Diraja Thailand di Kuala Lumpur.",
+      "sections": [
+        {
+          "title": "Apakah perbezaan sekali masuk dengan berbilang masuk?",
+          "paragraphs": [
+            "Kedua-duanya berbeza dari segi tempoh sah dan bilangan kemasukan. Kedutaan Kuala Lumpur menyatakan **visa sekali masuk sah 3 bulan, dengan tinggal sehingga 60 hari**; jadual serta senarai dokumen menyatakan **visa berbilang masuk sah 6 bulan**. Enam bulan ialah tempoh menggunakan visa untuk masuk, bukannya kebenaran tinggal berterusan selama enam bulan. Tempoh tinggal sebenar setiap kemasukan ditentukan imigresen.",
+            "Panduan visa sekali masuk menyebut kemungkinan **memohon lanjutan 30 hari** kepada Imigresen Thailand, sehingga maksimum 90 hari dari ketibaan. Permohonan tidak menjamin kelulusan. Rancang mengikut tarikh tamat kebenaran dalam pasport dan sediakan permohonan yang diperlukan, bukan menganggap lanjutan pasti diberi."
+          ],
+          "fields": [
+            [
+              "Visa pelancong sekali masuk",
+              "Sah 3 bulan / tinggal sehingga 60 hari"
+            ],
+            [
+              "Visa pelancong berbilang masuk",
+              "Sah 6 bulan / tempoh tinggal setiap kemasukan mengikut imigresen"
+            ],
+            [
+              "Lanjutan visa sekali masuk",
+              "Permohonan tambahan 30 hari kepada imigresen tempatan · tertakluk pada kelulusan"
+            ]
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Siapa boleh memohon dan dokumen apa diperlukan?",
+          "paragraphs": [
+            "Sediakan halaman biodata pasport, gambar, bukti lokasi semasa di Malaysia, pengesahan tempahan perjalanan dan bukti penginapan di Thailand. Senarai TR1 meminta gambar yang diambil dalam **6 bulan terakhir**. Muat turun tempahan hotel dalam bahasa Inggeris dan gunakan pasport sebenar untuk mengisi butiran.",
+            "Pemohon melalui Kuala Lumpur mesti berada di Malaysia. FAQ kedutaan menerima **kad pengenalan Malaysia** sebagai bukti lokasi bagi warganegara Malaysia. Bagi warga asing yang berada di Malaysia, bukti yang disenaraikan termasuk cop masuk, visa Malaysia atau kad pemastautin tetap mengikut status masing-masing. Jika melalui autogate, panduan meminta pas masuk atau tiket bersama MDAC sebagai pengesahan ketibaan. Gunakan dokumen mengikut kewarganegaraan serta status semasa anda.",
+            "Senarai TR1 menyatakan **bukti kewangan sekurang-kurangnya 20,000 baht**, contohnya penyata bank tiga bulan terakhir atau surat penajaan. Bukti kewangan permohonan visa berbeza daripada wang tunai yang mungkin diminta semasa pemeriksaan masuk. Rujuk juga senarai dokumen khusus yang muncul bagi kategori permohonan anda.",
+            "Sediakan pengesahan tempahan perjalanan dan bukti penginapan, seperti tempahan penginapan atau surat jemputan keluarga atau rakan di Thailand. Dokumen sokongan yang dikeluarkan di luar Thailand dan Malaysia perlu disertakan terjemahan bahasa Inggeris yang disahkan dan dinotarikan oleh kedutaan atau Kementerian Luar mengikut panduan kedutaan.",
+            "Baca juga senarai dokumen yang diminta dalam permohonan e-Visa sebenar. Pegawai boleh meminta dokumen tambahan atau temu duga mengikut kes. Fail tidak jelas atau dokumen tidak lengkap boleh melambatkan proses; memuat naik dokumen tidak bermakna permohonan telah diluluskan."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "Daripada permohonan dalam talian hingga menyimpan kelulusan",
+          "paragraphs": [
+            "Cipta akaun di **thaievisa.go.th**, pilih kewarganegaraan, lokasi semasa, jenis pasport dan tujuan pelancongan, kemudian isi borang. Jika maklumat pasport dibaca secara automatik, bandingkan nama keluarga, nama diberi dan nama tengah dengan pasport sendiri.",
+            "Muat naik dokumen, selesaikan bayaran dan tekan **Submit** untuk menghantar. Jadual Kuala Lumpur menyenaraikan **MYR160 untuk sekali masuk dan MYR800 untuk berbilang masuk**, dibayar dengan kad kredit melalui sistem e-Visa. Bayaran tidak dipulangkan; semak jenis pasport dan maklumat sebelum membayar.",
+            "Semak status dan e-mel selepas menghantar, serta jawab permintaan dokumen tambahan. Simpan pengesahan e-Visa apabila diluluskan. FAQ menyebut sekitar **5–7 hari bekerja**, tetapi halaman visa pelancong mengesyorkan memohon **sekurang-kurangnya 15 hari bekerja sebelum perjalanan**. Ini bukan jaminan tarikh siap. Permohonan yang perlu dilengkapkan atau dinilai lanjut boleh mengambil masa lebih lama."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        },
+        {
+          "title": "TDAC masih perlu diisi walaupun sudah mempunyai visa pelancong",
+          "paragraphs": [
+            "Walaupun sudah menerima kelulusan visa pelancong, **isi TDAC secara berasingan** dalam tempoh 3 hari sebelum ketibaan, termasuk hari ketibaan, melalui laman rasmi. Simpan dokumen yang diterima pada telefon.",
+            "Di lapangan terbang, sediakan pasport dan pengesahan visa supaya mudah dikeluarkan. Selepas imigresen, lihat tarikh tamat kebenaran tinggal sebenar dalam pasport. Tarikh keluar mesti mengikut kebenaran itu, bukan sekadar tempoh sah visa."
+          ],
+          "verificationEvidence": {
+            "checkedAt": "2026-10-18",
+            "sourceUrls": [
+              "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa",
+              "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932",
+              "https://www.mfa.go.th/en/content/pb-summary-03092026-en",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33",
+              "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883",
+              "https://www.thaievisa.go.th/",
+              "https://tdac.immigration.go.th/manual/en/index.html",
+              "https://tdac.immigration.go.th/manual/en/faq.html"
+            ],
+            "review": "Syarat pasport biasa Malaysia dan permohonan Kuala Lumpur dipisahkan daripada sumber Korea; lihat entry-evidence.json."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": "Adakah rakyat Malaysia perlu memohon visa pelancong Thailand?",
+          "a": "Jika pemegang pasport biasa Malaysia memenuhi syarat pelancongan tanpa visa, visa pelancong berasingan tidak diperlukan. Jika perjalanan memerlukan visa, mohon kategori yang sesuai dengan pasport, tujuan dan tempoh tinggal anda."
+        },
+        {
+          "q": "Bolehkah tinggal enam bulan sekali gus dengan visa berbilang masuk?",
+          "a": "Tidak. Enam bulan ialah tempoh sah untuk menggunakan visa bagi kemasukan, bukannya kebenaran tinggal berterusan selama enam bulan. Ikut tarikh tamat kebenaran tinggal yang diberikan imigresen pada setiap kemasukan."
+        },
+        {
+          "q": "Berapakah bayaran visa pelancong di Kuala Lumpur?",
+          "a": "Jadual Kedutaan Diraja Thailand di Kuala Lumpur menyenaraikan MYR160 untuk sekali masuk dan MYR800 untuk berbilang masuk. Bayar dengan kad kredit melalui sistem e-Visa. Bayaran tidak dipulangkan, jadi baca semula maklumat dan jenis pasport sebelum menghantar."
+        },
+        {
+          "q": "Bolehkah terus melancong selepas menghantar permohonan?",
+          "a": "Menghantar permohonan tidak bermakna visa telah diterima. Semak status dan e-mel, tunggu keputusan serta simpan kelulusan. Permintaan dokumen tambahan boleh memanjangkan proses. Tempoh pemprosesan yang dinyatakan tidak menetapkan tarikh kelulusan."
+        }
+      ],
+      "sources": [
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · pengecualian visa",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/visa-exemption-and-voa"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Oslo · senarai pasport biasa 30 hari mulai 15 September 2026",
+          "https://oslo.thaiembassy.org/en/page/visa-exemption%3Fmenu=60b4c9a7180a9f3d4f28a932"
+        ],
+        [
+          "Kementerian Luar Thailand · perubahan berkuat kuasa 15 September 2026",
+          "https://www.mfa.go.th/en/content/pb-summary-03092026-en"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · soalan e-Visa",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/frequently-ask-questions-faqs-for-e-visa?cate=670f9ac452b05e6abe3d1d33"
+        ],
+        [
+          "Kedutaan Diraja Thailand, Kuala Lumpur · visa pelancong",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/tourist-visa%3Fpage=5d75510e15e39c1e600048dc&menu=5d75510d15e39c1e60004883"
+        ],
+        [
+          "Portal rasmi Thai e-Visa",
+          "https://www.thaievisa.go.th/"
+        ],
+        [
+          "Panduan pengguna TDAC bahasa Inggeris · versi 1.19",
+          "https://tdac.immigration.go.th/manual/en/index.html"
+        ],
+        [
+          "Soalan lazim rasmi TDAC",
+          "https://tdac.immigration.go.th/manual/en/faq.html"
+        ],
+        [
+          "Kedutaan Kuala Lumpur · jadual bayaran dan tempoh sah",
+          "https://kualalumpur.thaiembassy.org/en/publicservice/visa-types-fees-requirements"
+        ],
+        [
+          "Kedutaan Kuala Lumpur · senarai dokumen TR1 pelancongan",
+          "https://image.mfa.go.th/mfa/0/n3gTFT2TOE/Visa_Requirements/e-visa_info/TR1-tourism.png"
+        ]
+      ],
+      "facts": [],
+      "checkedAt": "2026-10-18",
+      "locale": "ms",
+      "market": "MY",
+      "editorialReview": {
+        "basis": [
+          "docs/natural-korean-copy.md",
+          "docs/sirocco-user-full-reference-20261014.txt",
+          "docs/detail-template-rules.md"
+        ],
+        "comparison": "Huraian penuh dikekalkan; tindakan, syarat, pengecualian dan jawapan terus dibandingkan dengan contoh Sirocco.",
+        "record": "src/data/localized/ms/review.md",
+        "market": "MY"
+      }
+    }
+  ]
+}

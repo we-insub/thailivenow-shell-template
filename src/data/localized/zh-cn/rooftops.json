@@ -1,0 +1,2805 @@
+{
+  "sky-beach": {
+    "name": "Sky Beach屋顶酒吧",
+    "building": "The Standard, Bangkok Mahanakhon · King Power Mahanakhon",
+    "intro": "想从高处环看曼谷，为一天收尾，可以去Sky Beach。酒吧位于王权大京都大厦顶层，在露天空间看城市建筑和灯光，搭配鸡尾酒与美式小食。和喜欢DJ音乐的朋友来，夜景与音乐能一起融入这个晚上。日落前抵达，还能接着欣赏白天的市区与入夜后的风景。",
+    "facts": {
+      "children": "所有年龄均可入场 · 依据酒店官方FAQ",
+      "hours": "每天10:00~24:00 · 最后入场23:00",
+      "minimumSpend": null,
+      "entryFee": null,
+      "dressCode": null,
+      "closed": "每天营业",
+      "booking": "入场和座位先到先得 · 由King Power Mahanakhon正门进入"
+    },
+    "reasons": [
+      {
+        "title": "从白天的楼群看到夜晚灯光",
+        "text": "这里可以环看曼谷市区。白天沿建筑和道路寻找城市细节，晚上再看灯光铺满的街景。适合与朋友合影，或和家人一起认识曼谷辽阔的城市风景。"
+      },
+      {
+        "title": "鸡尾酒与DJ音乐，为一天收尾",
+        "text": "点杯鸡尾酒、搭配美式小食，听着DJ音乐放松。白天观光后，可以和朋友边看夜景边聊旅行。入场和座位先到先得，不要将现场座位当作已预留。"
+      }
+    ],
+    "menu": "这里供应美式小食与鸡尾酒。和朋友各选喜欢的饮料，望着城市慢慢享用。具体菜单可查看下方官方说明。",
+    "signature": null,
+    "recommended": "适合喜欢DJ音乐和开阔城市景观的朋友，也适合想和家人一起俯瞰曼谷的旅客。",
+    "bestTime": "日落前抵达，先看城市与天空，天黑后再欣赏灯光亮起的曼谷。",
+    "reservation": "入场与座位先到先得。确定同行人数与时间后，按现场入场指引使用。",
+    "entrance": "从King Power Mahanakhon正门进入。自驾可使用Mahanakhon Cube停车场。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "BTS Chong Nonsi站",
+        "english": "Chong Nonsi",
+        "line": "BTS是隆线",
+        "exit": "3号出口",
+        "lat": 13.7237969,
+        "lng": 100.529325,
+        "instructions": "从BTS是隆线Chong Nonsi站3号出口朝King Power Mahanakhon步行。到达后从正门进入，按Sky Beach入场指引前往。",
+        "detailUrl": "/ko/transport/bangkok/stations/node-257066790/",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=13.7237969,100.529325&destination=13.72348345,100.52822275&travelmode=walking",
+        "sourceUrl": "https://www.kingpowermahanakhon.co.th/contact"
+      }
+    ],
+    "taxi": {
+      "instructions": "在Grab或Bolt搜索“King Power Mahanakhon”。乘出租车可把下方英文或泰文给司机看；到达后告诉工作人员要去Sky Beach。",
+      "english": "Please take me to King Power Mahanakhon. I am going to Sky Beach.",
+      "thai": "ไปคิง เพาเวอร์ มหานคร จะไป Sky Beach",
+      "destination": "King Power Mahanakhon"
+    },
+    "faq": [
+      [
+        "适合和谁一起来？",
+        "适合喜欢DJ音乐和开阔景观的朋友，也适合与家人俯瞰曼谷。这里可以环看市区，白天看楼群与道路，晚上欣赏灯光铺满的城市；朋友合影或家庭观景都能享受不同的风景。"
+      ],
+      [
+        "可以带孩子吗？",
+        "可以，没有年龄限制，能与孩子一起欣赏城市风景。入场和座位先到先得。"
+      ],
+      [
+        "较晚还能去吗？",
+        "每天上午10点至午夜营业，最后入场晚上11点。晚间可以去，但若想慢慢看景、喝饮料，宜留些余量，不要卡着最后入场时间抵达。"
+      ],
+      [
+        "从哪个入口进入？",
+        "从King Power Mahanakhon正门进入。坐BTS可从Chong Nonsi站3号出口朝大厦步行，到达后按Sky Beach指引上楼。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "酒店官方营业、年龄、座位与菜单",
+        "https://www.standardhotels.com/bangkok/features/skybeach-rooftopbar-bkk"
+      ],
+      [
+        "设施官方运营与门票",
+        "https://www.kingpowermahanakhon.co.th/about-us/mahanakhon-tower"
+      ],
+      [
+        "官方邻近车站与出口说明",
+        "https://www.kingpowermahanakhon.co.th/contact"
+      ],
+      [
+        "建筑位置 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/444651219"
+      ]
+    ]
+  },
+  "hongs-sky-bar": {
+    "name": "HONG’s Sky Bar",
+    "building": "清迈美萍洲际酒店 · 屋顶",
+    "intro": "想在清迈找个地方慢慢结束一天，可以去HONG’s Sky Bar。露台面向素贴山与城市，适合喝鸡尾酒、分享几道小菜。和伴侣或朋友在日落前到来，边聊天边看山景，等天色渐暗，风景也从山与街区变成城市夜景。",
+    "facts": {
+      "children": null,
+      "hours": "16:00~24:00",
+      "minimumSpend": null,
+      "entryFee": null,
+      "dressCode": "休闲正装（Smart Casual）",
+      "closed": null,
+      "booking": "通过酒店官方预约页订桌 · 迟到15分钟可能取消预约",
+      "rain": "下雨或天气不佳时可能关闭",
+      "address": "153 Sridonchai Road, Chang Khlan, Chiang Mai 50100, Thailand",
+      "phone": "+66 52 090 998"
+    },
+    "reasons": [
+      {
+        "title": "从日落前的山景看到城市灯光",
+        "text": "想看素贴山，可在日落前抵达。和同行者望着山与市区聊天，入夜后再欣赏城市灯光。白天忙着观光，晚上不妨慢下来，认识清迈的另一面。"
+      },
+      {
+        "title": "鸡尾酒配中式分享菜",
+        "text": "可尝试使用泰国蜂蜜、香茅与清迈茶的鸡尾酒，搭配便于分享的中式小菜。适合与朋友或伴侣边吃边小酌。露天酒吧遇雨或恶劣天气可能关闭，预计有雨时也准备其他晚间安排。"
+      }
+    ],
+    "menu": "供应使用泰国蜂蜜、香茅及清迈茶的鸡尾酒与中式分享小菜。每天16:00至21:00，一只包子搭配指定饮料套餐550泰铢（net）。工作日17:00至19:00，指定鸡尾酒与葡萄酒有买一送一活动；点单时确认喜欢的饮料是否在活动内。",
+    "signature": null,
+    "recommended": "适合与朋友或伴侣喝着鸡尾酒，看清迈傍晚风景。从素贴山看到市区灯光，也适合作为白天观光后慢慢聊天的地方。",
+    "bestTime": "想同时看素贴山与城市夜景，可在日落前到达，留些时间慢慢欣赏。",
+    "budget": "一只包子与指定饮料套餐550泰铢（net），适合16:00至21:00之间想简单吃喝的旅客。额外菜品和饮料另点。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "在Grab或Bolt搜索“InterContinental Chiang Mai The Mae Ping”。乘出租车可把下方英文或泰文给司机看，到酒店后请工作人员指引HONG’s Sky Bar。",
+      "english": "Please take me to HONG’s Sky Bar, InterContinental Chiang Mai The Mae Ping, 153 Sridonchai Road, Chang Khlan, Chiang Mai.",
+      "thai": "ไปโรงแรม InterContinental Chiang Mai The Mae Ping ถนนศรีดอนไชย จะไป HONG’s Sky Bar",
+      "destination": "153 Sridonchai Road, Chang Khlan, Chiang Mai 50100, Thailand"
+    },
+    "faq": [
+      [
+        "HONG’s适合和谁去？",
+        "适合想与朋友或伴侣喝鸡尾酒、看清迈傍晚风景的人。从素贴山看到城市灯光，白天观光后也能在这里慢慢聊聊。"
+      ],
+      [
+        "什么时候能同时看到山景与夜景？",
+        "日落前到达即可。天亮时看素贴山和市区，晚上欣赏灯光。不必只看一眼夜景就走，搭配鸡尾酒与菜品慢慢享受。"
+      ],
+      [
+        "预约后迟到会怎样？",
+        "迟到15分钟可能取消预约。观光和交通预留余量，到达后就不用匆忙开始晚间安排。"
+      ],
+      [
+        "下雨也营业吗？",
+        "下雨或天气不佳可能关闭。这里以露台景观为主，晴朗时更方便看山与城市。有雨预报时，出发前确认酒吧是否营业。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "酒店官方景观、菜单与营业时间",
+        "https://chiangmai.intercontinental.com/en/dining/hongs/sky-bar-chiang-mai"
+      ],
+      [
+        "酒店链接的预约、着装与雨天说明",
+        "https://www.tablecheck.com/en/intercontinental-chiang-mai-hongs-sky-bar/reserve/landing?utm_source=hotelwebsite"
+      ],
+      [
+        "餐厅与Sky Bar的区别",
+        "https://chiangmai.intercontinental.com/en/dining/hongs"
+      ],
+      [
+        "包子与饮料套餐官方活动",
+        "https://chiangmai.intercontinental.com/en/offers/curated-experiences-hongs-sky-bar"
+      ]
+    ]
+  },
+  "baba-nest": {
+    "name": "Baba Nest",
+    "building": "Sri Panwa Phuket · 潘瓦角",
+    "intro": "想在普吉岛慢慢看日落时的海，可以去Baba Nest。斯攀瓦度假酒店的露天平台四周是无边泳池，池水外延伸着安达曼海与岛屿。适合与伴侣纪念特别日子，或和朋友喝鸡尾酒度过旅行中的夜晚。这里17:00至20:00营业、须预约，不妨把欣赏日落单独留作晚间安排，别把前后行程排太紧。",
+    "facts": {
+      "hours": "每天17:00–20:00",
+      "minimumSpend": "住客每人1,500泰铢（net）；非住客每人3,000泰铢（net）· 确认预约所需最低消费",
+      "booking": "必须提前预约 · 座位保留至预约时间后15分钟，延误须提前联系",
+      "rain": "雨天停止营业 · 恶劣天气时非住客最低消费可转至Baba Poolclub或Baba Soul Food使用",
+      "phone": "076-371-008",
+      "closed": "无固定休息日，每天营业；雨天停业",
+      "children": null,
+      "entryFee": null,
+      "dressCode": null,
+      "address": "88 Moo 8, Sakdidej Road, Cape Panwa, Wichit, Phuket 83000, Thailand"
+    },
+    "reasons": [
+      {
+        "title": "望着泳池外的大海度过傍晚",
+        "text": "平台四周的无边泳池与远处大海仿佛相接，可以广看周边岛屿与普吉岛东南半岛。和同行者喝着鸡尾酒，看天空渐渐变色，留下普吉岛傍晚的记忆。"
+      },
+      {
+        "title": "鸡尾酒与塔帕斯，适合慢慢停留",
+        "text": "可以点鸡尾酒、葡萄酒或香槟，搭配墨西哥风味塔帕斯。比起赶着吃完晚饭，这里更适合有时间享受饮料和风景的日子。和伴侣或朋友一起选菜，望着海慢慢度过傍晚。"
+      },
+      {
+        "title": "按预约与天气安排晚间行程",
+        "text": "这里须提前预约，并设最低消费。只在17:00至20:00营业，适合看日落，不宜计划深夜来访。下雨会停业，选日期时也要阅读预约和天气相关条件。"
+      }
+    ],
+    "menu": "供应鸡尾酒、葡萄酒、香槟与墨西哥风味塔帕斯。",
+    "signature": null,
+    "recommended": "适合喜欢开阔海景与岛屿日落的人，也适合安排纪念日晚间活动。",
+    "bestTime": "17:00至20:00营业，预约时可围绕日落时的海与天空安排。",
+    "budget": "最低消费：住客每人1,500泰铢，非住客每人3,000泰铢（net）。预约时阅读付款条件，别与另收门票混淆。",
+    "reservation": "须提前预约。取消或未到店，住客每人1,500泰铢、非住客每人3,000泰铢将全额收取。非住客最低消费不退款；恶劣天气可转至Baba Poolclub或Baba Soul Food使用。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Sri Panwa Phuket",
+        "instructions": "在Grab或Bolt搜索“Sri Panwa Phuket”。到达后请工作人员指引Baba Nest；计划待到晚间，也提前安排回程。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8012173,98.4113533&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "可把下方英文或泰文给出租车司机看。",
+      "english": "Please take me to Baba Nest at Sri Panwa Phuket.",
+      "thai": "ไปบาบาเนสต์ที่ศรีพันวา ถนนศักดิเดช แหลมพันวา ภูเก็ต",
+      "destination": "Sri Panwa Phuket"
+    },
+    "faq": [
+      [
+        "必须预约吗？",
+        "是的。确定同行者和日期后提前预约。座位保留至预约时间后15分钟，其他观光请留足余量，预计迟到要提前联系。"
+      ],
+      [
+        "最低消费多少？",
+        "住客每人1,500泰铢，非住客每人3,000泰铢（net）。这是确认预约所需的最低消费，可纳入鸡尾酒和塔帕斯预算。不是简单的门票，请预约时看付款条件。"
+      ],
+      [
+        "下雨怎么办？",
+        "下雨时Baba Nest停业。恶劣天气下，非住客最低消费可转到Baba Poolclub或Baba Soul Food使用。想看海与日落，预约前也读清这项条件。"
+      ],
+      [
+        "深夜还能去吗？",
+        "每天17:00至20:00营业，适合看傍晚风景，不是深夜喝酒的安排。可以从日落前开始留些时间慢慢欣赏。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "Baba Nest官方营业、预约、访客政策与菜单",
+        "https://www.babaphuket.com/baba-nest-best-exclusive-rooftop-bar/"
+      ]
+    ]
+  },
+  "star-silavadee": {
+    "name": "STAR屋顶酒吧",
+    "building": "Silavadee Pool Spa Resort · 屋顶",
+    "intro": "想在苏梅岛望着海度过晚上，可以去STAR。它位于Silavadee Pool Spa Resort屋顶，面向拉迈湾，供应西式料理与鸡尾酒。无边泳池中下沉式的四张桌子是这里值得留意的座位。适合与伴侣吃晚餐，或和朋友看海小酌。傍晚较早抵达，先看海再接着用餐，可以与同行者从容度过这个晚上。",
+    "facts": {
+      "hours": "17:30–23:00 · 厨房最后点单22:30",
+      "address": "208/66 Moo 4, Maret, Koh Samui 84310, Thailand",
+      "phone": "+66 77 960 555",
+      "booking": "在官方设施页点击Make a Reservation预约"
+    },
+    "reasons": [
+      {
+        "title": "以拉迈湾海景开始晚间时光",
+        "text": "酒店屋顶可以俯瞰拉迈湾。想看明亮时的海，宜傍晚较早前来，点鸡尾酒或葡萄酒，再接着晚餐，与同行者一起望着海放松。"
+      },
+      {
+        "title": "泳池内四张下沉式桌子",
+        "text": "无边泳池内设四张下沉式桌子，适合希望海景晚餐再添一些特别座位体验的伴侣。也有躺椅和吧台凳，预约时可询问想要的座位。"
+      }
+    ],
+    "menu": "供应西式晚餐、鸡尾酒与葡萄酒。鸡尾酒包括Espresso Martini、Lychee Martini、Tom Yam Siam等。",
+    "signature": null,
+    "recommended": "适合想看海吃晚餐的伴侣，或喝鸡尾酒聊旅行的朋友。有想要的座位，可预约时一并告知。",
+    "bestTime": "17:30开始营业。想从明亮时的海景看到晚餐，可以较早前来，先和同行者喝杯鸡尾酒，看一会儿拉迈湾。",
+    "seating": "共有42席，包括泳池内四张下沉式桌子、普通餐位、躺椅与吧台凳。想要某种座位，请预约时询问。",
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "Silavadee度假酒店",
+        "instructions": "酒店位于查汶与拉迈之间的Laem Nan海滩。乘车搜索“Silavadee Pool Spa Resort”，同时出示酒店名和地址方便辨认；到达后请工作人员指引STAR。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=9.4677302,100.07032155&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "乘出租车或其他车辆可把下方英文或泰文给司机看。抵达Silavadee后，请工作人员指引STAR。",
+      "english": "Please take me to Silavadee Pool Spa Resort, Lamai, Koh Samui. I am going to STAR rooftop bar.",
+      "thai": "ไปศิลาวดี พูล สปา รีสอร์ท ละไม เกาะสมุย จะไปสตาร์",
+      "destination": "Silavadee Pool Spa Resort · 208/66 Moo 4, Maret, Koh Samui 84310, Thailand"
+    },
+    "faq": [
+      [
+        "STAR适合和谁去？",
+        "适合想看海吃晚餐的伴侣，或想喝一杯鸡尾酒聊旅行的朋友。想把拉迈湾风景融入晚餐，可以考虑这里。"
+      ],
+      [
+        "能坐泳池里的桌子吗？",
+        "泳池内有四张下沉式桌子。也有普通餐位、躺椅与吧台凳，想要的座位须预约时询问。总座位数42席。"
+      ],
+      [
+        "什么时候能看海又吃饭？",
+        "17:30开门，想看天亮时的海，可以早些来，先点鸡尾酒再用餐。厨房22:30停止点单，较晚前来时请按用餐所需时间预约。"
+      ],
+      [
+        "怎样预约？",
+        "在官方设施页点击Make a Reservation，确定人数、日期与时间。想坐泳池内桌子或指定类型座位，可同时询问。"
+      ],
+      [
+        "穿什么合适？",
+        "官方预约说明为Smart Casual，可理解为整洁的晚餐外出服装。男士可参考有领衬衫与长裤，女士可参考连衣裙或衬衫。这些按性别举出的搭配是准备建议。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "STAR官方景观、座位、营业与预约",
+        "https://www.silavadeeresort.com/dining/star-romantic-rooftop-chill-out-samui/"
+      ],
+      [
+        "酒店官方位置与交通",
+        "https://www.silavadeeresort.com/lamai-beach-clifftop-samui/"
+      ],
+      [
+        "酒店官方联系方式",
+        "https://www.silavadeeresort.com/contact-silavadee-samui/"
+      ]
+    ]
+  },
+  "horizon-pattaya": {
+    "name": "Horizon屋顶餐厅",
+    "building": "芭提雅希尔顿酒店 · 34层",
+    "intro": "想在芭提雅安排一顿值得记住的晚餐，可以去Horizon。它位于希尔顿酒店34层，俯瞰芭提雅湾，供应晚餐与鸡尾酒。适合与伴侣纪念特别日子，或带父母到景观好的地方吃饭。从傍晚开始慢慢停留，就能看海与天空变色，再欣赏城市灯光亮起。",
+    "facts": {
+      "address": "333/101 Moo 9, Nong Prue, Bang Lamung, Pattaya, Chonburi 20260, Thailand",
+      "booking": "通过希尔顿官方Dining页的Horizon Book a Table预约"
+    },
+    "reasons": [
+      {
+        "title": "从34层回望白天走过的海滩",
+        "text": "白天走过的芭提雅海滩，晚上可以从高处再看一次。露台面向开阔海湾，天黑后灯光沿海岸延伸。和同行者喝着鸡尾酒，聊聊一天见到的风景也很适合。"
+      },
+      {
+        "title": "不只看景，还能慢慢吃晚餐",
+        "text": "菜单有海鲜塔、战斧牛排和羊膝等。室内餐厅与露台适合边看景边用餐。纪念日或带父母吃晚餐，不妨给餐后留些空档，不用赶着离开。"
+      },
+      {
+        "title": "晚间风景配上DJ音乐",
+        "text": "晚上有现场DJ音乐。比起只想安静聊天的晚餐，这里更适合希望有景观与音乐的伴侣或朋友。想坐露台，也考虑热度和下雨情况，了解室内座位作为备选。"
+      }
+    ],
+    "menu": "有海鲜塔、澳洲安格斯战斧牛排、慢炖羊膝和味噌酱鳕鱼等。",
+    "signature": null,
+    "recommended": "适合想给芭提雅海边旅行加一顿景观晚餐的人。",
+    "bestTime": "想看海与天空变色，可在傍晚来；想看城市灯光，可等入夜后欣赏。",
+    "seating": "有室内座位与露台，想要朝海的座位，可预约时询问露台安排。",
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "Hilton Pattaya",
+        "instructions": "在Grab或Bolt搜索“Hilton Pattaya”，到酒店后请工作人员指引Horizon。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.93499945,100.88297535&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "可把下方英文或泰文给出租车司机看。",
+      "english": "Please take me to Hilton Pattaya. I am going to Horizon Rooftop Restaurant & Bar.",
+      "thai": "ไปโรงแรมฮิลตัน พัทยา จะไปร้าน Horizon ชั้น 34",
+      "destination": "Hilton Pattaya"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合想看夜景吃晚餐的伴侣或父母。34层可以俯瞰海与城市，适合想把用餐本身安排成特别活动的日子。"
+      ],
+      [
+        "什么时候景观好？",
+        "想看海与天空变色，可以在傍晚来，接着吃晚餐就能等到城市灯光。想坐露台，预约时告知希望的座位。"
+      ],
+      [
+        "能吃到什么？",
+        "有海鲜塔、澳洲安格斯战斧牛排、羊膝与味噌酱鳕鱼等。一起看菜单，再决定用晚餐，还是以鸡尾酒和景观为主。"
+      ],
+      [
+        "在哪预约？",
+        "在希尔顿官方Dining页，点击Horizon的Book a Table。确定同行者和日期后，选择适合的用餐时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "希尔顿官方Horizon楼层、景观、菜单、DJ与预约",
+        "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/dining/"
+      ],
+      [
+        "希尔顿官方酒店位置",
+        "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/hotel-location/"
+      ]
+    ]
+  },
+  "mahanakhon-skywalk": {
+    "name": "Mahanakhon SkyWalk观景台",
+    "building": "King Power Mahanakhon · 74层室内与78层露天观景台",
+    "intro": "想环看曼谷市区，可以到Mahanakhon SkyWalk。这里有74层室内和78层露天观景台，可在310米高的玻璃地板上看脚下城市，也有314米高的观景位置。适合喜欢风景摄影的朋友，或想从高处认识曼谷的家人。预留足够参观时间，就能从室内与室外欣赏不同角度。",
+    "facts": {
+      "hours": "每天10:00~24:00",
+      "lastEntry": "23:00",
+      "children": "儿童票适用于8~12岁",
+      "address": "114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok",
+      "phone": "+66 2 677 8721",
+      "booking": "在官方售票页按日期、时段与年龄选择门票"
+    },
+    "reasons": [
+      {
+        "title": "从室内与露天看曼谷",
+        "text": "74层室内与78层露天观景台都能看曼谷。换一个空间，也会多些观察同一座城市的乐趣。与家人或朋友一起辨认城市风景，慢慢参观。"
+      },
+      {
+        "title": "脚下可见城市的玻璃地板",
+        "text": "310米高的玻璃地板是这里特别的体验。和喜欢高处的同行者一起看脚下风景；若对高度感到不适，无需勉强体验，也可以专心看城市全景。"
+      }
+    ],
+    "recommended": "适合喜欢城市全景的家人、朋友，也适合想从高处拍曼谷的人。同伴若不适应玻璃地板，可各按自己舒服的方式参观。",
+    "entrance": "在1层正门和售票处核对门票，经过拍照区域与数字通道，乘电梯到74层。75层是继续乘玻璃电梯上行的区域。",
+    "facilityKind": "观景台",
+    "access": [
+      {
+        "name": "BTS Chong Nonsi站",
+        "english": "Chong Nonsi",
+        "line": "BTS是隆线",
+        "exit": "3号出口",
+        "lat": 13.7237969,
+        "lng": 100.529325,
+        "instructions": "从BTS是隆线Chong Nonsi站3号出口前往King Power Mahanakhon正门，在1层售票处准备门票，再按观景电梯指引前往。",
+        "detailUrl": "/ko/transport/bangkok/stations/node-257066790/",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=13.7237969,100.529325&destination=13.72348345,100.52822275&travelmode=walking",
+        "sourceUrl": "https://www.kingpowermahanakhon.co.th/contact"
+      }
+    ],
+    "taxi": {
+      "instructions": "乘车可把下方英文或泰文给司机看。到达后请工作人员指引Mahanakhon SkyWalk。",
+      "english": "Mahanakhon SkyWalk, 114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok",
+      "thai": "มหานคร สกายวอล์ค คิง เพาเวอร์ มหานคร 114 ถนนนราธิวาสราชนครินทร์ สีลม กรุงเทพฯ",
+      "destination": "114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok"
+    },
+    "faq": [
+      [
+        "和Sky Beach是同一个设施吗？",
+        "在同一栋楼，但SkyWalk是室内与露天观景设施。想看城市与玻璃地板，应选择SkyWalk门票；与去酒吧的目的、票种分别确认。"
+      ],
+      [
+        "怎样选门票？",
+        "在官方售票页按日期、时段和年龄选择。儿童票为8~12岁，家庭旅客按孩子年龄选票。"
+      ],
+      [
+        "坐轨道交通怎么去？",
+        "从BTS是隆线Chong Nonsi站3号出口到King Power Mahanakhon正门，再沿1层售票处和观景电梯指引前往。"
+      ],
+      [
+        "参观哪些楼层？",
+        "可看74层室内与78层露天观景台。两处都留些时间，就能从不同空间欣赏城市。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "运营方官方参观、门票与交通说明",
+        "https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk"
+      ]
+    ]
+  },
+  "baiyoke-observatory": {
+    "name": "拜约克天空观景台",
+    "building": "Baiyoke Sky Hotel · 77层观景区与84层旋转观景台",
+    "intro": "在水门购物后，还想从高处看看曼谷，可以到拜约克天空观景台。酒店77层观景区与84层旋转观景台都能欣赏城市风景，适合和一起购物的朋友或喜欢城市全景的同行者接着游览。不想购物后直接回去，不妨再留些时间看景。",
+    "facts": {
+      "hours": "每天10:00~22:00 · 长假期间可能调整",
+      "entryFee": "官方特别优惠450泰铢（net）· 包含83层屋顶酒吧一杯饮料",
+      "address": "222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400",
+      "phone": "+66 2 656 3000"
+    },
+    "reasons": [
+      {
+        "title": "77层观景区与84层旋转观景台",
+        "text": "游览两个楼层的观景区，俯瞰曼谷市区，其中84层旋转观景台是这里的特色。与同行者一起，从高处辨认城市景色。"
+      },
+      {
+        "title": "水门购物后接着看城市",
+        "text": "计划在水门一带购物，可以把观景台安排在同一天。与朋友聊聊购物收获，再看城市全景，慢慢结束一天。"
+      }
+    ],
+    "recommended": "适合和在水门购物的朋友，或喜欢城市全景的同行者来。想在购物行程之后再加一项观景活动，可以考虑这里。",
+    "facilityKind": "观景台",
+    "access": [
+      {
+        "name": "Baiyoke Sky Hotel",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Baiyoke Sky Hotel，可向司机出示酒店名与下方地址。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7544058,100.5403134"
+      }
+    ],
+    "taxi": {
+      "instructions": "乘车可把下方英文或泰文给司机看，到达后请工作人员指引Baiyoke Sky Observatory。",
+      "english": "Baiyoke Sky Observatory, 222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400",
+      "thai": "จุดชมวิวโรงแรมใบหยกสกาย 222 ซอยราชปรารภ 3 ถนนราชปรารภ ราชเทวี กรุงเทพฯ",
+      "destination": "222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400"
+    },
+    "faq": [
+      [
+        "观景台在哪几层？",
+        "可游览77层观景区和84层旋转观景台。到屋顶酒吧喝饮料与参观观景台是不同安排，计划时分别确认。"
+      ],
+      [
+        "门票包含饮料吗？",
+        "现有资料中的官方特别优惠为450泰铢（net），包含83层屋顶酒吧一杯饮料。这是特别优惠，购买前确认出行日是否仍售相同组合。"
+      ],
+      [
+        "购物后还能参观吗？",
+        "每天10:00至22:00开放，可把水门购物与参观接在一起。长假期间时间可能调整。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "酒店官方观景台、门票与营业时间",
+        "https://baiyokesky.baiyokehotel.com/things-to-do-in-bangkok-sightseeing-thailand.html"
+      ]
+    ]
+  },
+  "doi-suthep-viewpoint": {
+    "name": "素贴寺观景区",
+    "building": "Wat Phra That Doi Suthep · 寺院内观景区",
+    "intro": "想在清迈同时看寺庙与城市全景，可以去素贴寺。山上寺院有金色佛塔与兰纳建筑，露台可俯瞰清迈市区。适合和喜欢寺庙的父母或朋友慢慢走、拍拍照，再看着城市稍作休息。",
+    "facts": {
+      "address": "Huai Kaeo Road, Suthep, Mueang Chiang Mai, Chiang Mai"
+    },
+    "reasons": [
+      {
+        "title": "看过金塔，再俯瞰城市",
+        "text": "在寺院欣赏金塔和兰纳建筑后，走到露台看下方的清迈。这里的城市景色与走在市区时不同，和喜欢寺庙建筑的同行者来，可以兼顾参观与观景。"
+      },
+      {
+        "title": "沿那伽雕刻走上寺院",
+        "text": "两侧有那伽雕刻的306级台阶也是看点，可以和同行者慢慢走、仔细看雕刻。不便爬楼梯时，也可乘缆车。带父母或孩子来，按体力选择上山方式，会更轻松。"
+      }
+    ],
+    "recommended": "适合和喜欢寺庙建筑与城市风景的父母或朋友来。看过金塔，再在露台俯瞰清迈、稍作休息。这里是寺院内观景空间，并非点饮料的酒吧，应按寺庙参观安排行程。",
+    "entrance": "可沿寺前那伽雕刻旁的306级台阶步行，或乘缆车上去。想边走边看雕刻，就慢慢登阶；进入寺院后，沿现场指引前往观景区。",
+    "facilityKind": "观景台",
+    "access": [
+      {
+        "name": "红色双条车",
+        "english": "Rod Daeng",
+        "instructions": "上车前确认是否到素贴寺、单程还是往返，以及总价。和父母或孩子同行，也先安排回程再出发。到寺前后可选择台阶或缆车。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=18.8050094,98.9221843"
+      }
+    ],
+    "taxi": {
+      "instructions": "乘出租车可把下方英文或泰文给司机看，目的地为素贴寺。到寺前后可走台阶或乘缆车上去。",
+      "english": "Wat Phra That Doi Suthep, please.",
+      "thai": "ไปวัดพระธาตุดอยสุเทพด้วยครับ/ค่ะ",
+      "destination": "Wat Phra That Doi Suthep"
+    },
+    "faq": [
+      [
+        "适合和谁去素贴寺？",
+        "适合喜欢寺庙建筑与城市风景的父母或朋友。看金塔后，到露台俯瞰清迈、稍作休息。这里是寺院观景区，并非酒吧，应按参观寺院计划。"
+      ],
+      [
+        "一定要爬楼梯吗？",
+        "不用，也可乘缆车。想看那伽雕刻可走306级台阶；同伴不便久走时可选缆车。到寺院后边看建筑，边前往露台。"
+      ],
+      [
+        "怎样坐双条车？",
+        "在清迈可乘红色双条车前往。上车前确认目的地、单程或往返及总价，回程也一起计划，参观后就能从容接着下一项活动。"
+      ],
+      [
+        "地图标记就是观景露台吗？",
+        "标记为寺院建筑群位置。抵达后乘缆车或走台阶，再按现场指引前往露台，途中也可看寺庙建筑。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "泰国旅游局寺庙、景观与交通说明",
+        "https://www.tourismthailand.org/Articles/chiang-mai-lamphun-2"
+      ],
+      [
+        "泰国旅游局设施介绍",
+        "https://www.tourismthailand.org/Attraction/wat-phra-that-doi-suthep/"
+      ]
+    ]
+  },
+  "sky-bar": {
+    "name": "Sky Bar",
+    "building": "lebua at State Tower · 64层",
+    "intro": "想看曼谷夜景、喝杯鸡尾酒，可以去lebua的Sky Bar。金色圆顶旁的露天酒吧面向湄南河与城市灯光。与看过《宿醉2》的朋友来，也可点一杯与电影有关的Hangovertini。吃完晚餐，还想和同行者一起享受曼谷夜色，可以考虑这里。",
+    "facts": {
+      "children": "7岁及以上儿童可由成人陪同入场",
+      "dressCode": "Smart Casual · 男士无袖上衣、运动服、泳装与人字拖禁止",
+      "closed": "无固定休息日",
+      "address": "64th Floor, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555",
+      "minimumSpend": "每人须点一杯饮料",
+      "booking": "仅接受无需预约的现场到店"
+    },
+    "reasons": [
+      {
+        "title": "金色圆顶旁看河与城市",
+        "text": "在露天酒吧同时看湄南河与曼谷市区，金色圆顶近在身旁，高处夜景在眼前展开。适合与朋友聊旅行，或和伴侣望着灯光度过晚上。"
+      },
+      {
+        "title": "从Hangovertini聊起电影",
+        "text": "Hangovertini与《宿醉2》有关。和看过电影的朋友来，可以边喝边回想熟悉的场景，为曼谷旅行多留一段记忆。"
+      }
+    ],
+    "recommended": "适合与看过《宿醉2》的朋友，或喜欢夜景的伴侣来喝鸡尾酒。",
+    "bestTime": "日落前先看城市与天空，入夜后再看曼谷灯光。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“lebua at State Tower”。乘出租车可把下方英文或泰文给司机看，到达后告知工作人员要去Sky Bar。",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Sky Bar by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Sky Bar by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合看过《宿醉2》的朋友或喜欢夜景的伴侣。在金色圆顶旁的露天酒吧，同时看湄南河与市区，聊聊旅行，或望着灯光度过晚上。"
+      ],
+      [
+        "需要预约吗？",
+        "不用，Sky Bar只接受现场到店。确定同行者与晚间安排后前往，每人须点一杯饮料，适合按小酌计划。"
+      ],
+      [
+        "可以带孩子吗？",
+        "7岁及以上儿童可由成人陪同。带小朋友出行时先看年龄，这是选择全家看夜景地点的重要条件。"
+      ],
+      [
+        "准备什么衣服？",
+        "穿整洁外出服。男士无袖、运动服、泳装、人字拖禁止。白天穿轻便观光服时，可先回酒店换衣，再安排晚间来访。"
+      ]
+    ],
+    "photos": [
+      {
+        "src": "/images/rooftops/sky-bar-2017.webp",
+        "alt": "Sky Bar露天吧台与曼谷傍晚景色",
+        "caption": "Sky Bar露天吧台与曼谷傍晚景色 · 2017年拍摄",
+        "credit": "Ninara",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar,_Bangkok_(33407660291).jpg",
+        "rights": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "changes": "按网页显示尺寸调整并转换为WebP"
+      },
+      {
+        "src": "/images/rooftops/sky-bar-2008.webp",
+        "alt": "Sky Bar金色圆顶与曼谷夜景",
+        "caption": "Sky Bar金色圆顶与曼谷夜景 · 2008年拍摄",
+        "credit": "Steve Jurvetson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar_at_State_Tower_Bangkok.jpg",
+        "rights": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "changes": "按网页显示尺寸调整并转换为WebP"
+      }
+    ],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://lebua.com/restaurants/sky/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "sirocco": {
+    "name": "Sirocco餐厅",
+    "building": "lebua at State Tower · 63层",
+    "intro": "想在曼谷安排浪漫晚餐，可以去Sirocco。坐在lebua金色圆顶下的露台，能一边看曼谷夜景，一边享用地中海料理。适合和伴侣过纪念日，或带父母吃一顿特别的晚餐。时间留得宽裕些，就能边用餐边看太阳落下、城市灯光一盏盏亮起，慢慢享受这个晚上。",
+    "facts": {
+      "hours": "17:30–00:30",
+      "children": "没有年龄限制，可带孩子一起用餐",
+      "closed": "无固定休息日",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555",
+      "booking": "建议在官网提前预约，并阅读订金与取消条件",
+      "dressCodeMen": "可穿衬衫或Polo衫搭配整洁长裤；整洁短裤、乐福鞋和干净凉鞋也允许。",
+      "dressCodeWomen": "可穿连衣裙，或衬衫搭配半裙、整洁长裤。适合外出的凉鞋也允许，不强制高跟鞋。",
+      "dressCodeAvoid": "运动服、泳装、人字拖和海滩拖鞋禁止，男士无袖也禁止。儿童同样要注意整洁着装。",
+      "smoking": null,
+      "smokingArea": null
+    },
+    "reasons": [
+      {
+        "title": "从日落看到夜景的浪漫晚餐",
+        "text": "金色圆顶与露台是Sirocco的代表性景色。与同行者用餐，看日落后曼谷灯光逐一亮起。比起赶满观光的日子，这里更适合想慢慢享受一顿晚餐的时候；和伴侣来，也能以夜景为背景度过浪漫时光。"
+      },
+      {
+        "title": "和喜欢爵士乐的伴侣或朋友来",
+        "text": "周二至周日有现场爵士演出，周一播放背景音乐。喜欢爵士乐，可以选有演出的日子，预约时询问当晚演奏时间，方便兼顾用餐与音乐。"
+      },
+      {
+        "title": "纪念日或带父母的晚餐",
+        "text": "适合想和伴侣庆祝纪念日，或带父母享受有气氛晚餐的人。但不能观光后穿运动服直接来。大购物袋和行李箱禁止带入，也不提供寄存；先回酒店放下行李、换好衣服，再来会更从容。"
+      }
+    ],
+    "facilityKind": "屋顶餐厅",
+    "access": [
+      {
+        "name": "Saphan Taksin站",
+        "english": "Saphan Taksin",
+        "line": "BTS是隆线",
+        "instructions": "乘BTS是隆线在Saphan Taksin站下车，步行至lebua酒店。下方导航可查看路线。天气热或穿高跟鞋时，也可用Grab或Bolt直接到酒店；到达后告诉工作人员要去Sirocco。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=Saphan+Taksin+BTS+Station&destination=lebua+at+State+Tower&travelmode=walking"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“lebua at State Tower”。乘出租车可向司机出示下方英文或泰文；到酒店后请工作人员指引Sirocco。",
+      "english": "Please take me to lebua at State Tower, 1055 Silom Road. I am going to Sirocco restaurant.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไปร้านอาหารซีร็อกโก",
+      "destination": "lebua at State Tower · 1055 Silom Road, Bang Rak, Bangkok"
+    },
+    "faq": [
+      [
+        "Sirocco适合和谁去？",
+        "适合与伴侣过纪念日，或想请父母吃一顿特别晚餐的时候。在金色圆顶下用餐、看曼谷夜景，能与同行者留下一段值得记住的夜晚。餐后不用赶去别处的日子，更能慢慢享受。"
+      ],
+      [
+        "想看爵士演出，哪天去？",
+        "可选周二至周日，边用餐、看夜景边听现场爵士，为晚间增添气氛。周一只有背景音乐。预约时询问演奏时间，方便选择用餐时段。"
+      ],
+      [
+        "可以带孩子吗？",
+        "可以，没有年龄限制，有年幼孩子的家庭也可一起用餐。孩子也请穿整洁外出服，别穿运动服或人字拖。餐后若去同楼其他酒吧，要另看各自年龄限制。"
+      ],
+      [
+        "穿什么比较合适？",
+        "可按有气氛晚餐的外出服准备：男士衬衫或Polo配整洁裤装和乐福鞋，女士连衣裙或衬衫配裙裤。整洁短裤与外出凉鞋也允许，不必专门准备西装或高跟鞋。但运动服、泳装、人字拖及男士无袖禁止。"
+      ],
+      [
+        "怎样预约，取消要注意什么？",
+        "确定人数和日期后，在上方官方预约链接选时间。订金可抵餐费，到账确认后预约才成立。普通预约可在到访72小时前免费取消或更改，之后取消、改期或未到店则不退订金，因此行程确定后再订更合适。特殊日期和团体有不同退款条件。"
+      ],
+      [
+        "很晚去还能吃饭吗？",
+        "可以晚间用餐，但营业到00:30不代表所有餐点都能点到那时。套餐23:00、单点23:30、小食午夜停止点单。想慢慢吃套餐，宜把晚餐提前些，留足夜景与用餐时间。"
+      ],
+      [
+        "可以带行李箱或大购物袋吗？",
+        "大包、行李箱和购物袋禁止带入，也没有寄存处。白天购物观光后，晚上先回酒店放东西、换衣再来。退房当天到访，也先安排好用餐期间的行李存放。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "Sirocco官方介绍、着装与预约政策",
+        "https://lebua.com/restaurants/sirocco/"
+      ],
+      [
+        "lebua官方FAQ · 营业、音乐、儿童与行李",
+        "https://lebua.com/faq/"
+      ],
+      [
+        "lebua官方交通指南 · 邻近BTS站",
+        "https://lebua.com/lebua-bangkok-luxury-travel-guide/"
+      ]
+    ]
+  },
+  "distil-lebua": {
+    "name": "Distil",
+    "building": "lebua at State Tower · 64层",
+    "intro": "想挑选喜欢的烈酒、享受曼谷夜晚，可以去Distil。它位于lebua64层，可配着城市景观享用优质烈酒、鸡尾酒与雪茄。适合和酒类偏好相近的朋友或伴侣一起选饮料，慢慢度过晚上。这里只允许20岁及以上入场，请按成人聚会安排。",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "仅限20岁及以上",
+      "dressCode": "Smart Casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "慢慢挑酒度过晚上",
+        "text": "选一款优质烈酒或鸡尾酒，搭配小食慢慢享用。与口味相近的同行者，也可以聊聊彼此选的酒。喜欢雪茄的人同样可以留意这里。"
+      },
+      {
+        "title": "64层的曼谷景观",
+        "text": "以城市景观为背景，与同行者度过晚上。不必赶着换多个景点，留些时间选饮料、欣赏曼谷夜色。仅限成人入场，不适合带幼儿的家庭行程。"
+      }
+    ],
+    "recommended": "适合喜欢烈酒或鸡尾酒的成人朋友、伴侣，一起选饮料度过晚上。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“lebua at State Tower”。乘出租车可出示下方英文或泰文；到酒店后告知工作人员要去Distil。",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Distil by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Distil by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合喜欢烈酒或鸡尾酒的成人朋友、伴侣。选优质烈酒或鸡尾酒，搭配小食慢慢享用，口味相近的同行者也能聊聊各自选择。雪茄爱好者同样可留意。"
+      ],
+      [
+        "可以带孩子吗？",
+        "不可以，仅限20岁及以上。可安排朋友或伴侣聚会；带幼儿时请选全家都能进入的场所。"
+      ],
+      [
+        "几点营业？",
+        "17:00至00:30。白天观光后，晚上来挑选喜欢的酒，慢慢看城市景观。"
+      ],
+      [
+        "穿什么合适？",
+        "着装为Smart Casual，可按与朋友或伴侣吃晚饭的整洁外出服准备。观光后换好衣服再来，也更方便享受晚间气氛。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "flute-lebua": {
+    "name": "Flûte",
+    "building": "lebua at State Tower · 64层",
+    "intro": "想用香槟与爵士乐度过晚上，可以去Flûte。lebua64层的露天香槟吧供应Bollinger香槟，可搭配生蚝或鱼子酱，边品尝边看曼谷景观。适合和喜欢香槟的伴侣、朋友安排特别聚会。想听爵士乐，请选择周一以外的演出日。",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "7岁及以上可由成人陪同入场",
+      "dressCode": "Smart Casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "香槟搭配生蚝或鱼子酱",
+        "text": "可享用Bollinger香槟、生蚝或鱼子酱。与喜欢香槟的同行者一起选菜单，望着城市慢慢品尝。比起赶去多个地方，更适合想在一处度过晚上的日子。"
+      },
+      {
+        "title": "和喜欢爵士乐的同伴来",
+        "text": "除周一外，晚上19:00起有现场爵士。同行者喜欢爵士乐，可以选演出日，边享香槟边听音乐、看城市。"
+      }
+    ],
+    "recommended": "适合喜欢香槟与爵士乐的伴侣或朋友，安排特别的晚上。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“lebua at State Tower”。乘出租车可出示下方英文或泰文，到达后告诉工作人员要去Flûte。",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Flûte by lebua, A Champagne Bollinger Bar.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Flûte by lebua, A Champagne Bollinger Bar",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合喜欢香槟与爵士乐的伴侣、朋友。可点Bollinger搭配生蚝或鱼子酱，边看景边品尝。比起赶着跑几个地方，这里适合在一处慢慢度过晚上。"
+      ],
+      [
+        "爵士演出什么时候有？",
+        "除周一外，19:00开始有现场爵士。想听音乐，可以按这个时间安排聚会。"
+      ],
+      [
+        "可以带孩子吗？",
+        "7岁及以上儿童可由成人陪同，7岁以下需选其他场所。按全家晚餐或成人香槟聚会的需要安排。"
+      ],
+      [
+        "穿什么合适？",
+        "Smart Casual即可，准备整洁的晚间外出服，不必认为一定要穿西装，选适合和同行者享受夜晚的衣服。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "alfresco-64": {
+    "name": "Alfresco 64",
+    "building": "lebua at State Tower · 64层",
+    "intro": "想和喜欢威士忌与DJ音乐的朋友享受曼谷夜晚，可以去Alfresco 64。lebua64层的露天空间以游艇为灵感，可望着城市品威士忌。白天观光后，安排成人聚会，同时享受音乐与饮料。这里只允许20岁及以上入场。",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "仅限20岁及以上",
+      "dressCode": "Smart Casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "在游艇风格空间喝杯威士忌",
+        "text": "以游艇为灵感的露天空间是这里的特色。挑一款喜欢的威士忌，搭配曼谷景观慢慢喝，适合与口味相近的朋友聊天。"
+      },
+      {
+        "title": "DJ音乐陪伴曼谷夜晚",
+        "text": "除周一外有DJ演出。喜欢音乐的朋友可选演出日来。这里只适合成人晚间活动，不适合带孩子的家庭行程。"
+      }
+    ],
+    "recommended": "适合喜欢威士忌与DJ音乐的成人朋友度过晚上。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“lebua at State Tower”。乘出租车可把下方英文或泰文给司机看，到酒店后告知工作人员要去Alfresco 64。",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Alfresco 64 by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Alfresco 64 by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合喜欢威士忌与DJ音乐的成人朋友。游艇风格露天空间里，选喜欢的威士忌，望着曼谷景观慢慢喝，与口味相近的同行者聊聊天。"
+      ],
+      [
+        "每天都有DJ吗？",
+        "除周一外有DJ演出，想同时享受音乐，可以选其他日子，让威士忌与城市夜景多些音乐陪伴。"
+      ],
+      [
+        "可以带孩子吗？",
+        "不可以，仅限20岁及以上。适合喜欢威士忌和音乐的成人朋友或伴侣聚会。"
+      ],
+      [
+        "什么时候能去？",
+        "17:00至00:30营业，适合白天观光后，晚上慢慢喝威士忌、看曼谷景观。"
+      ],
+      [
+        "准备什么衣服？",
+        "Smart Casual即可，准备与朋友或伴侣晚间外出的整洁衣服。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "lebua-no3": {
+    "name": "lebua No.3",
+    "building": "lebua at State Tower · 52层",
+    "intro": "喜欢金酒或伏特加，可以在lebua No.3度过晚上。52层现代风格空间面向城市，供应饮料与鱼子酱。和朋友、伴侣各选喜欢的酒，看曼谷灯光、聊旅行，安排一段从容的成人晚间时光。",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "仅限20岁及以上",
+      "dressCode": "Smart Casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "金酒、伏特加与鱼子酱",
+        "text": "可将金酒或伏特加搭配鱼子酱。旅行中一直喝鸡尾酒，想换种组合时，可与口味相近的同行者一起选菜单，边尝边聊新的味道。"
+      },
+      {
+        "title": "现代空间里的城市景观",
+        "text": "在52层看曼谷、享用饮料，适合喜欢现代设计的朋友或伴侣。仅限20岁及以上，带幼儿的晚上需选择其他场所。"
+      }
+    ],
+    "recommended": "适合想品尝金酒、伏特加与鱼子酱、同时看城市景观的成人朋友或伴侣。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“lebua at State Tower”。乘出租车可把下方英文或泰文给司机看，到酒店后告知工作人员要去lebua No.3。",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to lebua No.3.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป lebua No.3",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合喜欢金酒、伏特加和鱼子酱的成人朋友或伴侣。想在鸡尾酒之外尝试另一种搭配，可一起选菜单、望着城市聊新味道，慢慢度过晚上。"
+      ],
+      [
+        "和什么样的同伴比较合适？",
+        "喜欢金酒与伏特加的朋友或伴侣。可以看城市、选饮料、搭配鱼子酱，适合想安排成人聚会的日子。"
+      ],
+      [
+        "可以带孩子吗？",
+        "不可以，仅限20岁及以上。请安排成人朋友或伴侣聚会，而非带幼儿的家庭晚餐。"
+      ],
+      [
+        "几点营业？",
+        "17:00至00:30，观光结束后可来看看曼谷灯光、喝杯饮料。"
+      ],
+      [
+        "准备什么衣服？",
+        "Smart Casual即可，准备与朋友或伴侣晚间外出的整洁衣服。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://lebua.com/faq/"
+      ]
+    ]
+  },
+  "octave-rooftop": {
+    "name": "Octave Rooftop Lounge & Bar",
+    "building": "Bangkok Marriott Hotel Sukhumvit",
+    "intro": "在通罗安排晚间聚会，可以去Octave。在曼谷素坤逸万豪酒店高处环看城市，享用餐点和饮料。与朋友日落前抵达，边聊天边看天空变色、素坤逸灯光亮起。想把夜晚过得长一些，这里也合适。",
+    "facts": {
+      "hours": "每天17:00~次日02:00",
+      "closed": "无固定休息日",
+      "address": "2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand",
+      "phone": "+66 2-797 0000",
+      "booking": "提供预约链接，可预约",
+      "dressCode": "Smart Casual"
+    },
+    "reasons": [
+      {
+        "title": "从晚霞看到素坤逸夜景",
+        "text": "欣赏360度城市全景。日落前看城市与天空，晚上再看素坤逸灯光。不必和朋友拍张照就离开，搭配餐点与饮料，看风景慢慢变化。"
+      },
+      {
+        "title": "一处享受用餐与饮料",
+        "text": "在同一个地方吃饭、小酌。白天观光后与朋友相约，分享所选菜单、聊聊一天。虽然营业到次日2点，想慢慢吃晚餐仍宜早点安排，留足时间。"
+      }
+    ],
+    "recommended": "适合想和朋友从日落看到素坤逸夜景，同时享用餐点和饮料的晚上。",
+    "bestTime": "日落前先看城市与天空，入夜后再看曼谷灯光。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Bangkok Marriott Hotel Sukhumvit”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Octave Rooftop Lounge & Bar。",
+      "english": "Please take me to Bangkok Marriott Hotel Sukhumvit, 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand. I am going to Octave Rooftop Lounge & Bar.",
+      "thai": "ไปโรงแรมแบงค็อก แมริออท สุขุมวิท ซอยสุขุมวิท 57 จะไป Octave Rooftop Lounge & Bar",
+      "destination": "Bangkok Marriott Hotel Sukhumvit · 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合与朋友从日落看到素坤逸夜景，同时吃饭、小酌。360度城市全景里，白天看天空与市区，入夜看灯光，搭配餐点和饮料慢慢感受变化，不必拍完照片就离开。"
+      ],
+      [
+        "什么时候能看日落和夜景？",
+        "日落前到达，先看城市与天空，接着看素坤逸灯光。吃饭、喝饮料时慢慢停留，就能接着欣赏白天与夜晚。"
+      ],
+      [
+        "可以预约吗？",
+        "可以。确定同行者和时间后用官方预约渠道订桌，也方便协调其他观光与晚间安排。"
+      ],
+      [
+        "营业时间怎样？",
+        "每天17:00至次日02:00，观光后较晚也可前来。想用餐，请预约时确认餐点最后点单，并留足看景、慢慢吃饭的时间。"
+      ]
+    ],
+    "photos": [
+      {
+        "src": "/images/rooftops/octave-2-2014.webp",
+        "alt": "Octave露天吧台与城市景观",
+        "caption": "Octave露天吧台与城市景观 · 2014年拍摄",
+        "credit": "mohigan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(2).jpg",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "按网页显示尺寸调整并转换为WebP"
+      },
+      {
+        "src": "/images/rooftops/octave-5-2014.webp",
+        "alt": "从Octave看通罗一带",
+        "caption": "从Octave看通罗一带 · 2014年拍摄",
+        "credit": "mohigan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(5).jpg",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "按网页显示尺寸调整并转换为WebP"
+      }
+    ],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.marriott.com/en-us/hotels/bkkms-bangkok-marriott-hotel-sukhumvit/dining/octave-rooftop-lounge-bar/"
+      ]
+    ]
+  },
+  "attic-by-octave": {
+    "name": "ATTIC by Octave",
+    "building": "Bangkok Marriott Hotel Sukhumvit · 47层",
+    "intro": "喜欢隐秘酒吧的气氛，可以去ATTIC by Octave。它位于曼谷素坤逸万豪酒店47层，可看素坤逸景观，喝墨西哥风味饮料、配些小食。适合朋友或伴侣一起选菜单，换一种风格度过城市夜晚。旅行中既想看景，又想尝不同饮料，可以留意这里。",
+    "facts": {
+      "address": "2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand",
+      "phone": "+66 2-797 0000",
+      "booking": "提供预约链接，可预约",
+      "dressCode": "Smart Casual"
+    },
+    "reasons": [
+      {
+        "title": "在隐秘酒吧气氛里聊天",
+        "text": "ATTIC兼具隐秘酒吧般的气氛与高处景观。和朋友选饮料，望着素坤逸聊旅行，适合想在市中心换种晚间气氛的人。"
+      },
+      {
+        "title": "墨西哥风味饮料与小食",
+        "text": "可以享用墨西哥风味饮料和小食。与喜欢尝新菜单的同伴聊聊各自选择。这里可以预约，确定时间后提前订桌，也能从容安排其他活动。"
+      }
+    ],
+    "recommended": "适合喜欢隐秘酒吧气氛与新饮料的朋友或伴侣。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Bangkok Marriott Hotel Sukhumvit”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引ATTIC by Octave。",
+      "english": "Please take me to Bangkok Marriott Hotel Sukhumvit, 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand. I am going to ATTIC by Octave.",
+      "thai": "ไปโรงแรมแบงค็อก แมริออท สุขุมวิท ซอยสุขุมวิท 57 จะไป ATTIC by Octave",
+      "destination": "Bangkok Marriott Hotel Sukhumvit · 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合喜欢隐秘酒吧气氛与新饮料的朋友或伴侣。选杯饮料，看素坤逸景观、聊旅行，在市中心换种风格度过晚上。"
+      ],
+      [
+        "什么样的同伴会喜欢？",
+        "喜欢隐秘酒吧或新饮料的朋友、伴侣。这里可边看素坤逸景观，边享墨西哥风味饮料与小食。"
+      ],
+      [
+        "在哪一层？",
+        "曼谷素坤逸万豪酒店47层。到达后准确告知ATTIC by Octave，名字与同酒店Octave相近，别只说Octave。"
+      ],
+      [
+        "可以预约吗？",
+        "可以，确定同行者、日期和时间后，使用官方预约渠道，也方便衔接观光与晚间聚会。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.marriott.com/en-us/hotels/bkkms-bangkok-marriott-hotel-sukhumvit/dining/octave-rooftop-lounge-bar/"
+      ]
+    ]
+  },
+  "red-sky-restaurant": {
+    "name": "Red Sky餐厅",
+    "building": "Centara Grand at CentralWorld · 55层",
+    "intro": "想配着曼谷夜景慢慢吃晚餐，可以去Red Sky餐厅。55层面向城市，供应欧式料理、牛排与海鲜。适合与伴侣过纪念日，或想带父母吃一顿特别晚餐的日子。餐后不必急着去别处，留些与同行者聊天、享受晚餐的时间。",
+    "facts": {
+      "hours": "每天晚餐17:00–01:00",
+      "closed": "无固定休息日",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255",
+      "booking": "提供Reserve a Table预约链接"
+    },
+    "reasons": [
+      {
+        "title": "配着城市景观吃晚餐",
+        "text": "55层可环看曼谷，与同行者一起选菜单、欣赏灯光。适合伴侣纪念日，或与父母一起吃晚餐。"
+      },
+      {
+        "title": "和喜欢牛排、海鲜的同伴来",
+        "text": "晚餐以欧式料理、牛排和海鲜为主。选喜欢的餐点慢慢吃、聊聊天。楼上一层的Red Sky Bar是另一设施，以晚餐为目的请预约餐厅。"
+      }
+    ],
+    "recommended": "适合与伴侣过纪念日，或带父母享受夜景晚餐的旅客。",
+    "facilityKind": "屋顶餐厅",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Centara Grand at CentralWorld”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Red Sky餐厅。",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Red Sky Restaurant.",
+      "thai": "ไปโรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ จะไป Red Sky Restaurant",
+      "destination": "Centara Grand at CentralWorld · 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合伴侣纪念日或带父母吃夜景晚餐。55层可环看曼谷，一起选菜单，边用餐边看城市灯光，让晚餐成为特别安排。"
+      ],
+      [
+        "与Red Sky Bar是同一处吗？",
+        "同楼不同设施，餐厅在55层，酒吧在楼上一层。想吃牛排、海鲜晚餐，应选择餐厅。"
+      ],
+      [
+        "和谁来比较合适？",
+        "适合伴侣纪念日或带父母用餐。选菜、看景、留些聊天时间，晚上会更从容。"
+      ],
+      [
+        "能预约吗？",
+        "可以，通过官方Reserve a Table订桌。确定同行者和时间后预约，餐前餐后观光别排太紧，就能慢慢吃饭。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "red-sky-bar": {
+    "name": "Red Sky Bar",
+    "building": "Centara Grand at CentralWorld · 56层",
+    "intro": "在CentralWorld购物后想看夜景，可以去Red Sky Bar。56层视野开阔，供应鸡尾酒与轻食。适合与朋友聊聊白天逛过的地方，或和伴侣欣赏曼谷灯光。日落前到来，就能接着看白天市区与入夜风景。",
+    "facts": {
+      "hours": "每天16:00–01:00",
+      "closed": "无固定休息日",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255"
+    },
+    "reasons": [
+      {
+        "title": "购物后俯瞰城市",
+        "text": "逛完CentralWorld一带，与朋友约在56层。在开阔景观前喝鸡尾酒、聊白天见闻，从高处认识与街头不同的城市。"
+      },
+      {
+        "title": "鸡尾酒与轻食，慢慢等入夜",
+        "text": "点些轻食与鸡尾酒，日落前先看市区，再看曼谷灯光铺开。适合与朋友、伴侣望着风景度过晚上。"
+      }
+    ],
+    "recommended": "适合购物后和朋友或伴侣喝鸡尾酒、看城市夜景。",
+    "bestTime": "日落前先看城市与天空，入夜后再看曼谷灯光。",
+    "facilityKind": "屋顶酒吧",
+    "access": [],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Centara Grand at CentralWorld”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Red Sky Bar。",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Red Sky Bar.",
+      "thai": "ไปโรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ จะไป Red Sky Bar",
+      "destination": "Centara Grand at CentralWorld · 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合与朋友或伴侣购物后看景、小酌。在CentralWorld一带逛完，约在56层喝杯鸡尾酒、聊聊白天见闻，看看与街头不同的风景。"
+      ],
+      [
+        "和餐厅在同一处吗？",
+        "同楼不同层。Red Sky餐厅55层，酒吧56层。想吃晚餐选餐厅，想喝鸡尾酒配轻食可选酒吧。"
+      ],
+      [
+        "什么时候去好？",
+        "日落前到来，可以从白天市区看到夜间灯光。与朋友购物后，选杯饮料慢慢看景。"
+      ],
+      [
+        "营业到几点？",
+        "每天16:00至次日01:00。较晚也能来，但想与同行者慢慢看景，宜预留时间。"
+      ]
+    ],
+    "photos": [
+      {
+        "src": "/images/rooftops/red-sky-arch-2024.webp",
+        "alt": "Red Sky Bar的绿色拱门",
+        "caption": "Red Sky Bar的绿色拱门 · 2024年拍摄",
+        "credit": "Welcome to Thailand",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_3.jpg",
+        "rights": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "width": 1400,
+        "height": 1867,
+        "changes": "按网页显示尺寸调整并转换为WebP"
+      },
+      {
+        "src": "/images/rooftops/red-sky-view-2024.webp",
+        "alt": "从Red Sky Bar看曼谷夜景",
+        "caption": "从Red Sky Bar看曼谷夜景 · 2024年拍摄",
+        "credit": "Welcome to Thailand",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_5.jpg",
+        "rights": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "width": 1400,
+        "height": 1050,
+        "changes": "按网页显示尺寸调整并转换为WebP"
+      }
+    ],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "cru-champagne-bar": {
+    "name": "CRU Champagne Bar",
+    "building": "Centara Grand at CentralWorld · 59层",
+    "intro": "想用香槟度过特别的晚上，可以去CRU。59层俯瞰曼谷市区，可享香槟与生蚝，适合喜欢香槟的朋友或庆祝纪念日的伴侣。从傍晚慢慢待到城市灯光亮起。仅限20岁及以上，请安排成人聚会。",
+    "facts": {
+      "hours": "每天17:00–01:00",
+      "children": "仅限20岁及以上",
+      "closed": "无固定休息日",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255",
+      "booking": "提供Reserve a Table预约链接"
+    },
+    "reasons": [
+      {
+        "title": "和喜欢香槟的同伴来",
+        "text": "一起选香槟、配生蚝，看曼谷傍晚风景。这里适合想慢慢品香槟的日子，不必只拍张夜景就离开。"
+      },
+      {
+        "title": "59层的城市夜色",
+        "text": "俯瞰高楼相连的曼谷市区。与伴侣过纪念日，或和朋友庆祝特别日子，可以选餐后不赶行程的晚上。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Centara Grand at CentralWorld",
+        "instructions": "Grab或Bolt搜索“Centara Grand at CentralWorld”，到达后请工作人员指引CRU。乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7465769,100.5390414&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Centara Grand at CentralWorld”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引CRU Champagne Bar。",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to CRU Champagne Bar.",
+      "thai": "ครู แชมเปญบาร์  โรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ 999/99 ถนนพระราม 1 ปทุมวัน กรุงเทพฯ",
+      "destination": "Centara Grand at CentralWorld"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "和同行者一起选香槟、配生蚝，看曼谷傍晚。适合想慢慢品香槟的晚上，不必只拍夜景就离开。"
+      ],
+      [
+        "景观与气氛如何？",
+        "能俯瞰高楼相连的曼谷市区。伴侣纪念日或朋友庆祝，宜选后续不用赶时间的晚上。"
+      ],
+      [
+        "可以带孩子吗？",
+        "仅限20岁及以上，请安排成人香槟聚会，不适合带孩子的家庭晚餐。"
+      ],
+      [
+        "营业时间？",
+        "每天17:00至次日01:00，想同时享受香槟与夜景，请留足晚间时间。"
+      ],
+      [
+        "怎么预约？",
+        "在官方页点击Reserve a Table，确定同行者与日期后选时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "cocoa-xo": {
+    "name": "Cocoa XO",
+    "building": "Centara Grand at CentralWorld",
+    "intro": "想在曼谷晚餐后安排一段甜蜜时光，可以去Cocoa XO。在CentralWorld的Centara Grand，边看城市边享手工巧克力与干邑鸡尾酒。适合和喜欢巧克力、干邑的朋友，换一种方式享受甜点。仅限20岁及以上，请与成人同行者安排。",
+    "facts": {
+      "hours": "每天16:00–01:00",
+      "children": "仅限20岁及以上",
+      "closed": "无固定休息日",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255"
+    },
+    "reasons": [
+      {
+        "title": "巧克力配干邑的时光",
+        "text": "手工巧克力与干邑鸡尾酒可以一起享用。与喜欢巧克力的朋友或伴侣选饮料，适合吃完饭还想多聊一会儿的日子。"
+      },
+      {
+        "title": "甜点与城市景观",
+        "text": "可广看曼谷市区，搭配甜点、饮料。16:00开门，也能看白天城市。晚餐后来，则能望着灯光为一天收尾。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Centara Grand at CentralWorld",
+        "instructions": "Grab或Bolt搜索“Centara Grand at CentralWorld”，到达后请工作人员指引Cocoa XO。出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7465769,100.5390414&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Centara Grand at CentralWorld”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Cocoa XO。",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Cocoa XO.",
+      "thai": "โกโก้ XO โรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ 999/99 ถนนพระราม 1 ปทุมวัน กรุงเทพฯ",
+      "destination": "Centara Grand at CentralWorld"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "可与喜欢巧克力的朋友或伴侣，挑饮料、享手工巧克力与干邑鸡尾酒。适合饭后还想继续聊聊的日子。"
+      ],
+      [
+        "景观与气氛怎样？",
+        "广看曼谷市区，配甜点与饮料。16:00起可看白天城市，晚餐后来则能望着夜景结束一天。"
+      ],
+      [
+        "可以带孩子吗？",
+        "仅限20岁及以上，应安排成人巧克力与干邑聚会，不适合带孩子的家庭晚餐。"
+      ],
+      [
+        "营业时间？",
+        "每天16:00至次日01:00，可下午品巧克力与饮料，或晚餐后当作甜点时光。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ]
+  },
+  "above-eleven": {
+    "name": "Above Eleven",
+    "building": "Fraser Suites Sukhumvit · 33层",
+    "intro": "想在素坤逸尝新料理、听音乐，可以去Above Eleven。Fraser Suites33层供应融合秘鲁与日式风格的日经料理及Pisco Sour。与喜欢新菜式的朋友或伴侣看景用餐，再接着听DJ，周三还有Salsa Night，适合喜欢音乐的同伴。",
+    "facts": {
+      "hours": "17:00–02:00",
+      "closed": "无固定休息日",
+      "address": "33rd Floor, Fraser Suites Sukhumvit, Sukhumvit Soi 11, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "phone": "+66 2 038 5111",
+      "booking": "预约邮箱：reservations@sohohospitality.com"
+    },
+    "reasons": [
+      {
+        "title": "用不同风味开始晚餐",
+        "text": "融合秘鲁与日式风格的日经料理，以及Pisco Sour，是这里的特色。和想换换晚餐口味的朋友一起选菜，望着素坤逸景观用餐，也能成为旅行的新乐趣。"
+      },
+      {
+        "title": "用餐后继续听音乐",
+        "text": "每天有DJ音乐，周三还有Salsa Night。适合晚餐后不想换酒吧、希望在同一处继续听音乐喝饮料的人。同行者对萨尔萨感兴趣，可考虑周三。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Fraser Suites Sukhumvit",
+        "instructions": "Grab或Bolt搜索“Fraser Suites Sukhumvit”。到达后请工作人员指引Above Eleven；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7456248,100.5565953&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Fraser Suites Sukhumvit”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Above Eleven。",
+      "english": "Please take me to Fraser Suites Sukhumvit, Fraser Suites Sukhumvit, Sukhumvit Soi 11, Khlong Toei Nuea, Watthana, Bangkok 10110. I am going to Above Eleven.",
+      "thai": "อะโบฟ อีเลฟเว่น  เฟรเซอร์ สวีทส์ สุขุมวิท ซอยสุขุมวิท 11 กรุงเทพฯ",
+      "destination": "Fraser Suites Sukhumvit"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "融合秘鲁与日式风格的日经料理，以及Pisco Sour，是这里的特色。和想换换晚餐口味的朋友一起选菜，望着素坤逸景观用餐，也能成为旅行的新乐趣。"
+      ],
+      [
+        "什么时候适合听音乐？",
+        "每天都有DJ，周三有Salsa Night。和喜欢萨尔萨的朋友可考虑周三，并留足用餐与音乐时间。"
+      ],
+      [
+        "营业时间？",
+        "17:00至次日02:00。想兼顾用餐与DJ，不妨早些来，给夜晚留足时间。"
+      ],
+      [
+        "怎么预约？",
+        "向reservations@sohohospitality.com发送日期与人数。想参加周三Salsa Night，也一起询问当天活动时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://aboveeleven.com/bangkok/"
+      ]
+    ]
+  },
+  "yao-rooftop": {
+    "name": "Yao Rooftop Bar",
+    "building": "Bangkok Marriott Hotel The Surawongse",
+    "intro": "想在曼谷享受中式气氛与夜景，可以去Yao。万豪素拉翁酒店露天空间面向市区与老街区，可搭配点心、鸡尾酒或无酒精饮料，与朋友或伴侣聊聊夜晚。不喝酒的同行者也能一起选饮料，欣赏素拉翁傍晚。",
+    "facts": {
+      "hours": "每天17:00~次日01:00",
+      "closed": "无固定休息日",
+      "address": "262 Surawong Road, Si Phraya, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 2 088 5666 · 分机5840",
+      "booking": "预约：+66 2-0885666转5840",
+      "dressCode": "休闲装"
+    },
+    "reasons": [
+      {
+        "title": "点心、饮料与夜景",
+        "text": "在中式空间享点心与鸡尾酒，与朋友或伴侣分享菜品，看看市区灯光。也有无酒精饮料，适合与不喝酒的同伴一起。"
+      },
+      {
+        "title": "从高处看素拉翁的傍晚",
+        "text": "市区与老街区一起展现在眼前。从日落前停留，可以接着看城市入夜。观光结束后想休息、聊聊一天，这里值得考虑。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Bangkok Marriott Hotel The Surawongse",
+        "instructions": "Grab或Bolt搜索“Bangkok Marriott Hotel The Surawongse”。到达后请工作人员指引Yao Rooftop Bar；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7276894,100.522168&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Bangkok Marriott Hotel The Surawongse”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Yao Rooftop Bar。",
+      "english": "Please take me to Bangkok Marriott Hotel The Surawongse, 262 Surawong Road, Si Phraya, Bangrak, Bangkok 10500, Thailand. I am going to Yao Rooftop Bar.",
+      "thai": "เยา รูฟท็อปบาร์ โรงแรมแบงค็อก แมริออท เดอะ สุรวงศ์ 262 ถนนสุรวงศ์ กรุงเทพฯ",
+      "destination": "Bangkok Marriott Hotel The Surawongse"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "在中式空间享点心与鸡尾酒，与朋友或伴侣分享菜品，看看市区灯光。也有无酒精饮料，适合与不喝酒的同伴一起。"
+      ],
+      [
+        "能欣赏怎样的景观与气氛？",
+        "市区与老街区一起展现在眼前。从日落前停留，可以接着看城市入夜。观光结束后想休息、聊聊一天，这里值得考虑。"
+      ],
+      [
+        "营业时间？",
+        "每天17:00至次日01:00。可从傍晚待起，看白天城市渐渐亮起灯光。"
+      ],
+      [
+        "怎么预约？",
+        "致电+66 2 088 5666转5840，确定同行者、日期后告知希望到访时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.marriott.com/en-us/dining/restaurant-bar/bkkwo-bangkok-marriott-hotel-the-surawongse/6055922-yao-rooftop-bar.mi"
+      ]
+    ]
+  },
+  "abar-rooftop": {
+    "name": "ABar Rooftop",
+    "building": "Bangkok Marriott Marquis Queen's Park",
+    "intro": "喜欢金酒与鸡尾酒，可以在ABar度过曼谷的晚上。万豪马奎斯皇后公园酒店露天酒吧提供多种金酒，可边选饮料边看亮灯后的市区。和喜欢鸡尾酒的朋友或伴侣，各挑喜欢的口味。晚餐后还想继续聊天，这里适合配着夜景慢慢停留。",
+    "facts": {
+      "hours": "每天17:00~次日01:00",
+      "closed": "无固定休息日",
+      "address": "199 Sukhumvit Soi 22, Klong Ton, Klong Toey, Bangkok 10110, Thailand",
+      "phone": "+66 2-059 5555",
+      "booking": "预约：+66 2-0595999",
+      "dressCode": "休闲装"
+    },
+    "reasons": [
+      {
+        "title": "和喜欢金酒的朋友来",
+        "text": "多种金酒是这里的魅力。无论有熟悉的品牌，还是想尝新鸡尾酒，都可与同行者一起选饮料，聊聊彼此喜好，慢慢度过晚上。"
+      },
+      {
+        "title": "露天酒吧里的曼谷灯光",
+        "text": "入夜后在露天空间看市区灯光，不必只看一眼景观就走，给鸡尾酒留些时间。适合吃完饭还想和朋友多聊一会儿的日子。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Bangkok Marriott Marquis Queen's Park",
+        "instructions": "Grab或Bolt搜索“Bangkok Marriott Marquis Queen's Park”。到达后请工作人员指引ABar Rooftop；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7302641,100.5657084&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Bangkok Marriott Marquis Queen's Park”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引ABar Rooftop。",
+      "english": "Please take me to Bangkok Marriott Marquis Queen's Park, 199 Sukhumvit Soi 22, Klong Ton, Klong Toey, Bangkok 10110, Thailand. I am going to ABar Rooftop.",
+      "thai": "เอบาร์ รูฟท็อป โรงแรมแบงค็อก แมริออท มาร์คีส์ ควีนส์ปาร์ค 199 ซอยสุขุมวิท 22 กรุงเทพฯ",
+      "destination": "Bangkok Marriott Marquis Queen's Park"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "多种金酒是这里的魅力。无论有熟悉的品牌，还是想尝新鸡尾酒，都可与同行者一起选饮料，聊聊彼此喜好，慢慢度过晚上。"
+      ],
+      [
+        "能欣赏怎样的景观与气氛？",
+        "入夜后在露天空间看市区灯光，不必只看一眼景观就走，给鸡尾酒留些时间。适合吃完饭还想和朋友多聊一会儿的日子。"
+      ],
+      [
+        "营业时间？",
+        "每天17:00至次日01:00。晚餐后来，可安排鸡尾酒与城市灯光相伴的时光。"
+      ],
+      [
+        "怎么预约？",
+        "致电+66 2 059 5999，和朋友或伴侣确定日期后告知希望到访时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.marriott.com/hotels/hotel-information/restaurant/details-3/bkkqp-bangkok-marriott-marquis-queens-park/"
+      ]
+    ]
+  },
+  "spectrum-lounge-bar": {
+    "name": "Spectrum Lounge & Bar",
+    "building": "Hyatt Regency Bangkok Sukhumvit · 29–30层",
+    "intro": "想在同一处享受晚餐、音乐与鸡尾酒，可以去Spectrum。曼谷素坤逸凯悦29层有晚餐与现场音乐，30层露天酒吧有鸡尾酒与DJ。与朋友或伴侣先聊聊想怎样过晚上，再选择楼层；餐后上楼，也能换种气氛继续享受。",
+    "facts": {
+      "hours": "17:30–01:00",
+      "dressCode": "Smart Casual · 凉鞋、人字拖、露趾鞋、无袖及运动服禁止",
+      "closed": "无固定休息日",
+      "address": "1 Sukhumvit Soi 13, Bangkok 10110, Thailand",
+      "phone": "+66 2 098 1234"
+    },
+    "reasons": [
+      {
+        "title": "晚餐配现场音乐",
+        "text": "29层可同时享用晚餐与现场乐队，适合想和喜欢音乐的伴侣或朋友用餐的日子。想听演出，可先看当天时间，再决定几点吃饭。"
+      },
+      {
+        "title": "30层的鸡尾酒与夜景",
+        "text": "30层露天酒吧有鸡尾酒和DJ。吃完饭还想听音乐，可安排继续上楼，与朋友一起享受曼谷夜晚。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Hyatt Regency Bangkok Sukhumvit",
+        "instructions": "Grab或Bolt搜索“Hyatt Regency Bangkok Sukhumvit”。到达后请工作人员指引Spectrum Lounge & Bar；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7399072,100.5571624&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Hyatt Regency Bangkok Sukhumvit”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Spectrum Lounge & Bar。",
+      "english": "Please take me to Hyatt Regency Bangkok Sukhumvit, 1 Sukhumvit Soi 13, Bangkok 10110, Thailand. I am going to Spectrum Lounge & Bar.",
+      "thai": "สเปกตรัม เลาจน์ แอนด์ บาร์ โรงแรมไฮแอท รีเจนซี กรุงเทพฯ สุขุมวิท 1 ซอยสุขุมวิท 13 กรุงเทพฯ",
+      "destination": "Hyatt Regency Bangkok Sukhumvit"
+    },
+    "faq": [
+      [
+        "29层与30层有何区别？",
+        "29层有晚餐与现场乐队，30层露天空间有鸡尾酒与DJ。想边吃饭边听演出，选29层；想在户外喝饮料听音乐，可选30层。"
+      ],
+      [
+        "能欣赏怎样的景观与气氛？",
+        "30层露天酒吧有鸡尾酒和DJ。吃完饭还想听音乐，可安排继续上楼，与朋友一起享受曼谷夜晚。"
+      ],
+      [
+        "营业时间？",
+        "17:30至次日01:00，想兼顾用餐与音乐，请留足晚间时间。"
+      ],
+      [
+        "穿什么合适？",
+        "准备整洁的晚间外出服。凉鞋、人字拖、露趾鞋、无袖与运动服禁止。白天穿运动服观光，可先回酒店换衣再来。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.hyatt.com/hyatt-regency/en-US/bkkhr-hyatt-regency-bangkok-sukhumvit/dining/spectrum-lounge-and-bar"
+      ]
+    ]
+  },
+  "tichuca-rooftop": {
+    "name": "Tichuca Rooftop Bar",
+    "building": "T-One Building · 46层",
+    "intro": "想和朋友听音乐、享受曼谷夜晚，可以去Tichuca。T-One楼顶植物与城市景观相映，适合喝杯鸡尾酒。DJ的浩室音乐配上灯光，让晚上更有活力。喜欢尝新鸡尾酒或听音乐的朋友，可以一起前来。",
+    "facts": {
+      "address": "Tichuca, 8 Sukhumvit Road, Khwaeng Phra Khanong, 10110, Thailand (T-ONE Building)",
+      "phone": "+66 65 878 5562"
+    },
+    "reasons": [
+      {
+        "title": "植物之间的城市景观",
+        "text": "在植物与高楼交织的景色里喝鸡尾酒。空间让人联想市区中的丛林，适合想和朋友换种气氛度过晚上的日子。"
+      },
+      {
+        "title": "和喜欢浩室音乐的朋友来",
+        "text": "驻场DJ团体Marichuca带来Organic House与打击乐节奏鲜明的音乐。这里适合想享受音乐与鸡尾酒，而非吃完饭便离开的时候；比起只想安静聊天，更适合一起听音乐的同伴。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "T-ONE Building",
+        "instructions": "Grab或Bolt搜索“T-ONE Building”。到达后请工作人员指引Tichuca Rooftop Bar；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7220802,100.5804417&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“T-ONE Building”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Tichuca Rooftop Bar。",
+      "english": "Please take me to T-ONE Building, Tichuca, 8 Sukhumvit Road, Khwaeng Phra Khanong, 10110, Thailand (T-ONE Building). I am going to Tichuca Rooftop Bar.",
+      "thai": "ทิชูก้า รูฟท็อปบาร์ ตึกที-วัน 8 ถนนสุขุมวิท กรุงเทพฯ",
+      "destination": "T-ONE Building"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "在植物与高楼交织的景色里喝鸡尾酒。空间让人联想市区中的丛林，适合想和朋友换种气氛度过晚上的日子。"
+      ],
+      [
+        "能欣赏怎样的景观与气氛？",
+        "驻场DJ团体Marichuca带来Organic House与打击乐节奏鲜明的音乐。这里适合想享受音乐与鸡尾酒，而非吃完饭便离开的时候；比起只想安静聊天，更适合一起听音乐的同伴。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://tichuca.co/"
+      ]
+    ]
+  },
+  "akara-sky-hanuman": {
+    "name": "Akara Sky Hanuman",
+    "building": "61层",
+    "intro": "想在曼谷夜景中加一点泰国神话主题，可以去Akara Sky Hanuman。One City Centre的哈努曼主题空间有高空酒吧，可广看城市。适合喜欢主题场所的朋友，或想看城市的伴侣。设施也有观景台与夜市，但条件和酒吧不同，先选好晚上想体验什么。",
+    "facts": {
+      "hours": "Hanuman Sky Bar 17:00–02:00",
+      "address": "548 One City Centre, 58fl.-61fl. Phloen Chit Rd., Lumphini, Pathum Wan, Bangkok 10330",
+      "booking": "提供Book Now预约链接"
+    },
+    "reasons": [
+      {
+        "title": "哈努曼主题与城市全景",
+        "text": "在泰国神话哈努曼主题空间看城市。同行朋友若不只喜欢景色，也对主题场所有兴趣，可以一起逛逛，享受高处开阔的曼谷。"
+      },
+      {
+        "title": "先选今晚想去的空间",
+        "text": "这里同时有酒吧、观景台与夜市。与同伴商量是在Sky Bar度过晚上，还是也看其他空间。各处营业时间与使用条件不同，不能把酒吧时间当作全部设施时间。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "One City Centre",
+        "instructions": "Grab或Bolt搜索“One City Centre”。到达后请工作人员指引Akara Sky Hanuman；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7420753,100.5463613&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“One City Centre”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Akara Sky Hanuman。",
+      "english": "Please take me to One City Centre, 548 One City Centre, 58fl.-61fl. Phloen Chit Rd., Lumphini, Pathum Wan, Bangkok 10330. I am going to Akara Sky Hanuman.",
+      "thai": "อาคารา สกาย หนุมาน วัน ซิตี้ เซ็นเตอร์ 548 ถนนเพลินจิต กรุงเทพฯ",
+      "destination": "One City Centre"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "在泰国神话哈努曼主题空间看城市。同行朋友若不只喜欢景色，也对主题场所有兴趣，可以一起逛逛，享受高处开阔的曼谷。"
+      ],
+      [
+        "能欣赏怎样的景观与气氛？",
+        "这里同时有酒吧、观景台与夜市。与同伴商量是在Sky Bar度过晚上，还是也看其他空间。各处营业时间与使用条件不同，不能把酒吧时间当作全部设施时间。"
+      ],
+      [
+        "营业时间？",
+        "Hanuman Sky Bar为17:00至次日02:00。观景台与夜市不同，确定要去的空间后再安排行程。"
+      ],
+      [
+        "怎么预约？",
+        "在官网点击Book Now，先确认所选是Sky Bar，再选择日期。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://akaraskyhanuman.com/hanuman-garden"
+      ],
+      [
+        "设施官方访客说明",
+        "https://akaraskyhanuman.com/"
+      ]
+    ]
+  },
+  "iris-wild-iris": {
+    "name": "IRIS & WILD IRIS",
+    "building": "SO/ Bangkok · 29–30层",
+    "intro": "想看着伦披尼公园吃晚餐，可以去IRIS & WILD IRIS。SO/ Bangkok29–30层的餐厅与酒吧，公园和市区同时展开。意式料理、餐前饮料与DJ，适合和伴侣或朋友从容度过晚上。从傍晚待起，还能看公园外的城市灯光亮起。",
+    "facts": {
+      "hours": "周日–周四17:00–00:00 · 周五–周六17:00–01:00",
+      "address": "2 North Sathorn Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 2 624 0000",
+      "booking": "提供Book Now预约链接"
+    },
+    "reasons": [
+      {
+        "title": "看公园与城市，慢慢用餐",
+        "text": "伦披尼公园与高楼一起展现在眼前。和伴侣或朋友分享意式料理，聊聊白天看过的曼谷。选后续不用赶路的日子，给晚餐留足时间。"
+      },
+      {
+        "title": "从餐前饮料到音乐",
+        "text": "可以先点餐前饮料，再接着用餐。18:00至午夜有DJ音乐，适合吃完还想和同行者多待一会儿的日子。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "SO/ Bangkok",
+        "instructions": "Grab或Bolt搜索“SO/ Bangkok”。到达后请工作人员指引IRIS & WILD IRIS；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7262437,100.543125&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“SO/ Bangkok”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引IRIS & WILD IRIS。",
+      "english": "Please take me to SO/ Bangkok, 2 North Sathorn Road, Bangrak, Bangkok 10500, Thailand. I am going to IRIS & WILD IRIS.",
+      "thai": "ไอริส โรงแรมโซ แบงค็อก 2 ถนนสาทรเหนือ กรุงเทพฯ",
+      "destination": "SO/ Bangkok"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "伦披尼公园与高楼一起展现在眼前。和伴侣或朋友分享意式料理，聊聊白天看过的曼谷。选后续不用赶路的日子，给晚餐留足时间。"
+      ],
+      [
+        "能欣赏怎样的景观与气氛？",
+        "可以先点餐前饮料，再接着用餐。18:00至午夜有DJ音乐，适合吃完还想和同行者多待一会儿的日子。"
+      ],
+      [
+        "营业时间？",
+        "周日至周四17:00至午夜，周五周六17:00至次日01:00。想兼顾用餐与DJ，请把晚上安排得从容一些。"
+      ],
+      [
+        "怎么预约？",
+        "在官网点击Book Now，确定同行者与时间，再选择日期。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://my.so-bangkok.com/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.so-bangkok.com/"
+      ]
+    ]
+  },
+  "threesixty-rooftop": {
+    "name": "ThreeSixty Rooftop Bar",
+    "building": "Millennium Hilton Bangkok · 31层",
+    "intro": "想看沿湄南河展开的曼谷，可以去ThreeSixty。千禧希尔顿屋顶可广看河与城市，配着饮料慢慢欣赏。适合想看河上船只、日落的伴侣，或爱拍风景的朋友。傍晚前来，留些时间，就能接着看河岸与市区灯光。",
+    "facts": {
+      "hours": "17:00–01:00",
+      "closed": "无固定休息日",
+      "address": "123 Charoennakorn Road, Klongsan, Bangkok 10600, Thailand",
+      "phone": "+66-2-442-2062"
+    },
+    "reasons": [
+      {
+        "title": "河流与城市尽收眼底",
+        "text": "景观不只有高楼，也包括湄南河。边喝饮料边看船只沿河移动，能认识不同于市中心屋顶酒吧的傍晚风景。"
+      },
+      {
+        "title": "想看河边日落的晚上",
+        "text": "和伴侣或朋友傍晚到来，边喝饮料边看天空变色、河岸亮灯。选不赶下一项安排的日子，慢慢停留。"
+      }
+    ],
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Millennium Hilton Bangkok",
+        "instructions": "Grab或Bolt搜索“Millennium Hilton Bangkok”。到达后请工作人员指引ThreeSixty Rooftop Bar；乘出租车可出示下方英文或泰文。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7286821,100.5109677&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Millennium Hilton Bangkok”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引ThreeSixty Rooftop Bar。",
+      "english": "Please take me to Millennium Hilton Bangkok, 123 Charoennakorn Road, Klongsan, Bangkok 10600, Thailand. I am going to ThreeSixty Rooftop Bar.",
+      "thai": "ทรีซิกซ์ตี้ รูฟท็อปบาร์ โรงแรมมิลเลนเนียม ฮิลตัน กรุงเทพฯ 123 ถนนเจริญนคร กรุงเทพฯ",
+      "destination": "Millennium Hilton Bangkok"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "景观不只有高楼，也包括湄南河。边喝饮料边看船只沿河移动，能认识不同于市中心屋顶酒吧的傍晚风景。"
+      ],
+      [
+        "能欣赏怎样的景观与气氛？",
+        "和伴侣或朋友傍晚到来，边喝饮料边看天空变色、河岸亮灯。选不赶下一项安排的日子，慢慢停留。"
+      ],
+      [
+        "营业时间？",
+        "17:00至次日01:00。想从日落看到夜景，可以日落前上来，点杯饮料慢慢欣赏。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.hilton.com/en/hotels/bkkhitw-millennium-hilton-bangkok/dining/threesixty-rooftop-bar/"
+      ]
+    ]
+  },
+  "seen-riverside": {
+    "name": "SEEN Restaurant & Bar",
+    "building": "Avani+ Riverside Bangkok Hotel · 26–27层",
+    "intro": "想看着湄南河吃饭，可以去Avani Riverside的SEEN。26–27层有室内与户外空间，可看河与曼谷市区，享受餐点和饮料。适合喜欢DJ的朋友，或想配河景用餐的同行者。给晚餐和音乐留足时间，就能一起从容度过河边夜晚。",
+    "facts": {
+      "address": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "phone": "+66 2 431 9100"
+    },
+    "reasons": [
+      {
+        "title": "河景相伴的晚餐",
+        "text": "湄南河与曼谷市区一起展开。白天在城里走过一圈，晚上不妨坐下来看看河景，分享餐点和饮料，继续聊旅行。"
+      },
+      {
+        "title": "和喜欢DJ的朋友来",
+        "text": "现场DJ为餐点与饮料加上音乐。喜欢音乐的朋友可相约来；若安静对话很重要，也要考虑这里有音乐，再选择座位。"
+      }
+    ],
+    "recommended": "适合想配着河景用餐的同伴，或喜欢DJ音乐的朋友，可同时享受景观与音乐。",
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "Avani+ Riverside Bangkok Hotel",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Avani+ Riverside Bangkok Hotel，向司机出示酒店名与下方地址，到达后请工作人员指引SEEN Restaurant & Bar。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7050249,100.491371"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引SEEN Restaurant & Bar。",
+      "english": "SEEN Restaurant & Bar, Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "thai": "ร้านอาหารซีน โรงแรมอวานี พลัส ริเวอร์ไซด์ 257 ถนนเจริญนคร ธนบุรี กรุงเทพฯ",
+      "destination": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600"
+    },
+    "faq": [
+      [
+        "与SIN屋顶酒吧是同一空间吗？",
+        "同在Avani Riverside，但SEEN是有室内与户外空间的餐厅和酒吧。想一起用餐、喝饮料，请准确选择SEEN。"
+      ],
+      [
+        "适合和谁去？",
+        "适合想看湄南河吃饭的同行者，或喜欢DJ的朋友，安排一段有音乐与景观的晚间聚会。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "http://www.avanihotels.com/en/riverside-bangkok"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.avanihotels.com/en/riverside-bangkok"
+      ]
+    ]
+  },
+  "sin-rooftop": {
+    "name": "SIN Rooftop Bar",
+    "building": "Avani+ Riverside Bangkok Hotel · 27层",
+    "intro": "晚餐后想望着湄南河喝杯饮料，可以去SIN。Avani Riverside27层的露天酒吧面向河岸与城市灯光，与同酒店SEEN是不同空间。适合朋友餐后继续聊天，或与伴侣看看河边夜景。",
+    "facts": {
+      "hours": "17:00–01:00",
+      "address": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "phone": "+66 2 431 9100"
+    },
+    "reasons": [
+      {
+        "title": "看河岸灯光的夜晚",
+        "text": "从露天屋顶看湄南河，适合餐后配杯饮料慢慢看景，与同行者继续聊一天的旅行。"
+      },
+      {
+        "title": "与SEEN分别选择",
+        "text": "SIN与同酒店SEEN是不同空间。先决定想去室内外餐厅，还是露天屋顶酒吧，再定见面地点；告诉同伴SIN这个名字，比较容易在同一处碰面。"
+      }
+    ],
+    "recommended": "适合朋友餐后继续聊天，或与伴侣看河边夜景。按露天酒吧晚间活动安排行程。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Avani+ Riverside Bangkok Hotel",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Avani+ Riverside Bangkok Hotel，向司机出示酒店名与下方地址，到达后请工作人员指引SIN Rooftop Bar。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7050249,100.491371"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引SIN Rooftop Bar。",
+      "english": "SIN Rooftop Bar, Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "thai": "ซิน รูฟท็อปบาร์ โรงแรมอวานี พลัส ริเวอร์ไซด์ 257 ถนนเจริญนคร ธนบุรี กรุงเทพฯ",
+      "destination": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600"
+    },
+    "faq": [
+      [
+        "与SEEN相同吗？",
+        "同酒店但不同空间。想去露天屋顶酒吧，请把SIN定为见面地点。"
+      ],
+      [
+        "较晚还能去吗？",
+        "17:00至次日01:00营业，适合餐后看河景、喝饮料。关门时间与最后点单可能不同。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "http://www.avanihotels.com/en/riverside-bangkok"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.avanihotels.com/en/riverside-bangkok"
+      ]
+    ]
+  },
+  "char-rooftop": {
+    "name": "CHAR Rooftop Bar",
+    "building": "Hotel Indigo Bangkok Wireless Road · 26层",
+    "intro": "想看无线电路和曼谷市区、听听音乐，可以去CHAR。英迪格酒店26层有招牌鸡尾酒与现场音乐，适合喜欢音乐的朋友或想与夜景相伴的伴侣。25层CHAR餐厅是另一空间，请把屋顶酒吧准确设为见面地点。",
+    "facts": {
+      "address": "Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330",
+      "phone": "+66 2 207 4999"
+    },
+    "reasons": [
+      {
+        "title": "无线电路上方的鸡尾酒",
+        "text": "26层屋顶酒吧可看无线电路与市区，选杯招牌鸡尾酒，和同行者一起欣赏城市。"
+      },
+      {
+        "title": "和喜欢现场音乐的同伴来",
+        "text": "适合想让现场音乐陪伴晚间的人。与喜欢音乐的朋友相约，一起享受饮料与景观。"
+      }
+    ],
+    "recommended": "适合喜欢现场音乐与鸡尾酒的朋友，或想有城市景观相伴的伴侣。目的地应选屋顶酒吧，而非CHAR餐厅。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Hotel Indigo Bangkok Wireless Road",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Hotel Indigo Bangkok Wireless Road，向司机出示酒店名与下方地址，到达后请工作人员指引CHAR Rooftop Bar。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7400311,100.5471023"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引CHAR Rooftop Bar。",
+      "english": "CHAR Rooftop Bar, Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330",
+      "thai": "ชาร์ รูฟท็อปบาร์ โรงแรมโฮเทลอินดิโก้ 81 ถนนวิทยุ ลุมพินี กรุงเทพฯ",
+      "destination": "Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330"
+    },
+    "faq": [
+      [
+        "与CHAR餐厅是同一空间吗？",
+        "25层餐厅与26层屋顶酒吧不同。想享招牌鸡尾酒和现场音乐，请选屋顶酒吧。"
+      ],
+      [
+        "适合和谁去？",
+        "适合喜欢现场音乐的朋友，或想看城市喝鸡尾酒的同伴。请按酒吧晚间活动考虑，而非以餐厅用餐为主。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "酒店官方屋顶酒吧与楼层说明",
+        "https://www.ihg.com/hotelindigo/hotels/us/en/bangkok/bkkin/hoteldetail/events-facilities"
+      ]
+    ]
+  },
+  "brewski-rooftop": {
+    "name": "Brewski Rooftop Bar",
+    "building": "Radisson Blu Plaza Bangkok · 29–30层",
+    "intro": "和喜欢精酿啤酒的朋友旅行，可以去Brewski。丽笙蓝标酒店29–30层可看素坤逸，喝啤酒配小食。早些来，就能从傍晚城市看到入夜灯光。和同行者一起选啤酒，聊聊旅行，给晚上留一段轻松时间。",
+    "facts": {
+      "hours": "每天17:00–01:00",
+      "closed": "无固定休息日",
+      "address": "Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110",
+      "phone": "+66 2 302 3333"
+    },
+    "reasons": [
+      {
+        "title": "精酿啤酒与城市景观",
+        "text": "望着素坤逸喝精酿啤酒，是这里的特色。和爱啤酒的朋友选饮料、配小食，让城市景观融入聚会。"
+      },
+      {
+        "title": "从傍晚慢慢看到夜景",
+        "text": "17:00开始营业，傍晚来可以看城市入夜。不只适合餐后短暂到访，也适合专门留些时间喝啤酒、看景。"
+      }
+    ],
+    "recommended": "适合与爱啤酒的朋友分享小食、慢慢度过晚上，享受精酿与素坤逸景观。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Radisson Blu Plaza Bangkok",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Radisson Blu Plaza Bangkok，向司机出示酒店名与下方地址，到达后请工作人员指引Brewski Rooftop Bar。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7351407,100.5639592"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Brewski Rooftop Bar。",
+      "english": "Brewski Rooftop Bar, Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110",
+      "thai": "บรูว์สกี รูฟท็อปบาร์ โรงแรมเรดิสัน บลู พลาซ่า 489 ถนนสุขุมวิท กรุงเทพฯ",
+      "destination": "Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110"
+    },
+    "faq": [
+      [
+        "比起鸡尾酒更喜欢啤酒，适合吗？",
+        "这里是以精酿啤酒为特色的屋顶酒吧，可和爱啤酒的同伴选饮料、配小食，同时看城市。"
+      ],
+      [
+        "早些还是晚些来比较好？",
+        "想兼顾日落和夜景，就在日落前来。每天17:00至次日01:00，也适合和朋友餐后来喝啤酒。较晚还要吃小食，请提前看餐点最后点单。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.radissonhotels.com/en-us/hotels/radisson-blu-bangkok/dining/brewski"
+      ]
+    ]
+  },
+  "pastel-rooftop": {
+    "name": "Pastel Rooftop Bar",
+    "building": "Aira Hotel Bangkok · 22层",
+    "intro": "想给晚餐加点音乐，可以去Aira酒店22层的Pastel。面向曼谷景观，供应地中海菜单、鸡尾酒与现场音乐，适合喜欢音乐的朋友或想同时享用餐和演出的同行者。有想看的演出时，先从官方活动日程选日期和时间，再安排晚餐。",
+    "facts": {
+      "hours": "每天17:00–01:00",
+      "closed": "无固定休息日",
+      "address": "Aira Hotel, 22nd Floor, 14 Sukhumvit Soi 11, Bangkok 10110",
+      "phone": "+66 95 703 5679"
+    },
+    "reasons": [
+      {
+        "title": "地中海晚餐与鸡尾酒",
+        "text": "可配着城市景观吃地中海料理。和朋友分享食物、选鸡尾酒，慢慢继续晚间聚会。"
+      },
+      {
+        "title": "按同伴喜欢的音乐安排晚上",
+        "text": "现场音乐融入晚餐。同行者喜欢音乐，可先看官方活动日程，选好想听的演出时间后预约，兼顾餐点与表演。"
+      }
+    ],
+    "recommended": "适合想同时享地中海料理、鸡尾酒与现场音乐的朋友。若演出是来访目的，请按官方活动日程选日期。",
+    "reservation": "可通过官网订桌。与同行者确定日期，配合想看的演出选择时间；预约条件按到访日核对。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Aira Hotel Bangkok",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Aira Hotel Bangkok，向司机出示酒店名与下方地址，到达后请工作人员指引Pastel Rooftop Bar。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7426494,100.556846"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Aira Hotel, 22nd Floor, 14 Sukhumvit Soi 11, Bangkok 10110”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Pastel Rooftop Bar。",
+      "english": "Pastel Rooftop Bar & Mediterranean Dining, Aira Hotel, 14 Sukhumvit Soi 11, Bangkok 10110",
+      "thai": "พาสเทล รูฟท็อปบาร์ โรงแรมไอรา 14 ซอยสุขุมวิท 11 กรุงเทพฯ",
+      "destination": "Aira Hotel, 22nd Floor, 14 Sukhumvit Soi 11, Bangkok 10110"
+    },
+    "faq": [
+      [
+        "想听现场音乐，什么时候预约？",
+        "先从官方活动日程选演出日期、时间，再配合安排晚餐，边吃地中海料理、喝鸡尾酒边听音乐。"
+      ],
+      [
+        "怎么预约？",
+        "通过官网订桌，确定同行者、日期，并参考想看的演出时间选择。"
+      ],
+      [
+        "营业时间？",
+        "每天17:00至次日01:00，请留足用餐与音乐时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.pastelbangkok.com/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.pastelbangkok.com/live-band/"
+      ]
+    ]
+  },
+  "sky-on-20": {
+    "name": "Sky on 20",
+    "building": "Novotel Bangkok Sukhumvit 20 · 26层",
+    "intro": "想看城市、喝饮料配小食，可以去Sky on 20。诺富特26层有鸡尾酒、披萨与蟹肉蛋黄酱意式烤面包。适合与朋友分享食物，或看着城市灯光度过晚上。同行者喜欢DJ，可选周五、周六晚间来。",
+    "facts": {
+      "hours": "每天17:00–01:00",
+      "closed": "无固定休息日",
+      "address": "Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110",
+      "phone": "+66 2 009 4999"
+    },
+    "reasons": [
+      {
+        "title": "分享餐点，欣赏市区",
+        "text": "鸡尾酒可配披萨或蟹肉蛋黄酱意式烤面包。和朋友一起分着吃，配着城市景观度过晚上。"
+      },
+      {
+        "title": "喜欢DJ就选周五、周六",
+        "text": "周五与周六晚上有DJ。与喜欢音乐的同伴安排周末聚会，搭配景观和饮料。"
+      }
+    ],
+    "recommended": "适合想与朋友分享餐点、鸡尾酒，或周末听DJ看城市的人。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Novotel Bangkok Sukhumvit 20",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Novotel Bangkok Sukhumvit 20，向司机出示酒店名与下方地址，到达后请工作人员指引Sky on 20。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7315162,100.5642845"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Sky on 20。",
+      "english": "Sky on 20, Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110",
+      "thai": "สกาย ออน 20 โรงแรมโนโวเทล สุขุมวิท 20 19/9 ซอยสุขุมวิท 20 กรุงเทพฯ",
+      "destination": "Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110"
+    },
+    "faq": [
+      [
+        "想听DJ，哪天去？",
+        "可选周五或周六晚间，配着DJ、鸡尾酒看市区。"
+      ],
+      [
+        "饮料能配什么吃？",
+        "可点披萨与蟹肉蛋黄酱意式烤面包，和朋友分享、边看景边吃。"
+      ],
+      [
+        "营业时间？",
+        "每天17:00至次日01:00，给同行者分享食物和看景留些时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.novotelbangkoksukhumvit20.com/bangkok-restaurants/sky-on-20/"
+      ]
+    ]
+  },
+  "spire-rooftop": {
+    "name": "Spire Rooftop Bar",
+    "building": "Dusit Thani Bangkok · 39层",
+    "intro": "想在都喜天丽金色尖顶下看曼谷夜景，可以去Spire。39层可环看城市，品尝Tropic City团队打造的鸡尾酒与小食，适合爱鸡尾酒的朋友，或想配景观度过晚上的伴侣。夜间还有DJ，请留些时间同时享饮料与夜景。",
+    "facts": {
+      "hours": "每天17:00~次日01:00",
+      "children": "未满20岁可使用至19:00",
+      "dressCode": "Smart Casual · 请避免人字拖和无袖背心",
+      "closed": "无固定休息日",
+      "rain": "受天气影响，可能按天气调整座位布置",
+      "address": "Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500",
+      "phone": "+66 2 200 9000"
+    },
+    "reasons": [
+      {
+        "title": "金色尖顶下的曼谷",
+        "text": "环绕城市景观与都喜天丽金色尖顶是这里的特色。与同行者选鸡尾酒，慢慢看市区灯光。"
+      },
+      {
+        "title": "Tropic City团队的鸡尾酒与DJ",
+        "text": "团队打造的鸡尾酒可以配小食，晚上还有DJ。适合与喜欢鸡尾酒、音乐的朋友相约。"
+      }
+    ],
+    "recommended": "适合喜欢鸡尾酒与DJ的朋友，或想环看曼谷的伴侣。未满20岁同行者只能使用至19:00，请按此安排时间。",
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Dusit Thani Bangkok",
+        "instructions": "乘车前可通过下方导航查看建筑位置。目的地为Dusit Thani Bangkok，向司机出示酒店名与下方地址，到达后请工作人员指引Spire Rooftop Bar。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7282549,100.5382186"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Spire Rooftop Bar。",
+      "english": "Spire Rooftop Bar, Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500",
+      "thai": "สไปร์ รูฟท็อปบาร์ โรงแรมดุสิตธานี 98 ถนนพระราม 4 สีลม กรุงเทพฯ",
+      "destination": "Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500"
+    },
+    "faq": [
+      [
+        "未满20岁的同伴能来吗？",
+        "可以使用至19:00。带年幼同伴时安排较早的晚间观景，不应计划让其待到19:00以后。"
+      ],
+      [
+        "准备什么衣服？",
+        "Smart Casual即可。官方提示避免人字拖和无袖背心，按整洁的晚餐外出服准备。"
+      ],
+      [
+        "下雨怎么办？",
+        "座位布置可能因天气调整。有雨预报时，出发前查看预约座位与当天安排。"
+      ],
+      [
+        "适合和谁去？",
+        "适合喜欢鸡尾酒的朋友，或希望夜景相伴的伴侣。在金色尖顶下享饮料、小食与城市景观。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.dusit.com/dusitthani-bangkok/dining/spire-rooftop-bar/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.tablecheck.com/en/dusit-thani-bangkok-spire-rooftop-bar/reserve/message"
+      ]
+    ]
+  },
+  "skybar-summer-club": {
+    "name": "Skybar Summer Club",
+    "building": "Siam@Siam Design Hotel Pattaya · 27层",
+    "intro": "想和朋友在芭提雅享受海景与音乐，可以去Skybar Summer Club。27层屋顶酒吧面向泰国湾，有跨两层的泳池。喝鸡尾酒、听现场DJ，为海边的一天收尾。仅限18岁及以上，适合朋友或伴侣出行。",
+    "facts": {
+      "children": "仅限18岁及以上",
+      "address": "390 Moo 9, Pattaya Sai 2 Road, Nongprue, Banglamung, Chonburi 20150, Thailand",
+      "phone": "+66 (0) 38 930 600"
+    },
+    "reasons": [
+      {
+        "title": "看海喝杯鸡尾酒",
+        "text": "27层俯瞰泰国湾与城市，跨两层泳池与海景相映，带来海滩俱乐部般气氛。适合和朋友喝鸡尾酒、聊芭提雅一天的见闻。"
+      },
+      {
+        "title": "和喜欢音乐的朋友来",
+        "text": "这里有现场DJ与露天电影。适合想听音乐慢慢停留，而非只看一眼景观的人。成人专用，带孩子的家庭用餐可另看同酒店24层BARBU。"
+      }
+    ],
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Siam@Siam Design Hotel Pattaya",
+        "instructions": "Grab或Bolt搜索“Siam@Siam Design Hotel Pattaya”。到酒店后请工作人员指引Skybar Summer Club。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9457203,100.8887009&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Siam@Siam Design Hotel Pattaya”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Skybar Summer Club。",
+      "english": "Please take me to Siam@Siam Design Hotel Pattaya. I am going to Skybar Summer Club.",
+      "thai": "ไปโรงแรมสยามแอทสยาม ดีไซน์ พัทยา จะไปสกายบาร์ ซัมเมอร์คลับ ชั้น 27",
+      "destination": "Siam@Siam Design Hotel Pattaya"
+    },
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合想配着海景喝鸡尾酒、听音乐的朋友或伴侣，用现场DJ陪伴旅行的晚上。"
+      ],
+      [
+        "可以带孩子吗？",
+        "仅限18岁及以上。想带孩子在高处用餐，可另看同酒店24层BARBU。"
+      ],
+      [
+        "景观与气氛怎样？",
+        "27层看泰国湾，配鸡尾酒与DJ，两层泳池带来海滩俱乐部般气氛。适合和朋友一起听音乐，而非只想安静吃饭的时候。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.siamatsiam.com/pattaya/restaurants-bars/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://siamatsiam.b-cdn.net/wp-content/uploads/2026/02/20260214-SSPTY_-Factsheet-Editable-Template.pdf"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.siamatsiam.com/wp-content/uploads/2025/07/pty-meeting-events.pdf"
+      ]
+    ]
+  },
+  "barbu-pattaya": {
+    "name": "BARBÙ",
+    "building": "Siam@Siam Design Hotel Pattaya · 24层",
+    "intro": "想带孩子在芭提雅高处用餐，可以看看BARBÙ。24层餐厅与酒吧面向市区，供应地中海料理，适合家人或朋友围坐分享食物、聊旅行。它与27层成人专用Skybar是不同空间，带孩子的家庭也能一起安排晚餐。",
+    "facts": {
+      "children": "可接待家庭",
+      "address": "390 Moo 9, Pattaya Sai 2 Road, Nongprue, Banglamung, Chonburi 20150, Thailand",
+      "phone": "+66 (0) 38 930 600"
+    },
+    "reasons": [
+      {
+        "title": "围桌分享的晚餐",
+        "text": "分享地中海菜式是BARBÙ的魅力。和家人或朋友各选想吃的菜，望着城市分着享用，也能聊聊一起旅行的一天。"
+      },
+      {
+        "title": "与孩子一起享受高处风景",
+        "text": "24层可接待家庭。带孩子旅行，成人也想找景观好的地方吃饭，可以选这里。名称与楼层要和27层成人专用Skybar分清。"
+      }
+    ],
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "Siam@Siam Design Hotel Pattaya",
+        "instructions": "Grab或Bolt搜索“Siam@Siam Design Hotel Pattaya”，到酒店后请工作人员指引BARBÙ。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9457203,100.8887009&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Siam@Siam Design Hotel Pattaya”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引BARBÙ。",
+      "english": "Please take me to Siam@Siam Design Hotel Pattaya. I am going to BARBÙ.",
+      "thai": "ไปโรงแรมสยามแอทสยาม ดีไซน์ พัทยา จะไปบาร์บู ชั้น 24",
+      "destination": "Siam@Siam Design Hotel Pattaya"
+    },
+    "faq": [
+      [
+        "可以带孩子吗？",
+        "可以接待家庭，适合与孩子看市区、吃晚餐。27层Skybar Summer Club仅限18岁及以上，家庭请前往24层BARBÙ。"
+      ],
+      [
+        "能吃到什么？",
+        "可以分享地中海料理。和家人或朋友选择想吃的菜，放在桌中间一起享用，适合多人边吃边聊。"
+      ],
+      [
+        "和Skybar相同吗？",
+        "不同。BARBÙ是24层可接待家庭的餐厅与酒吧；Skybar在27层，仅限18岁及以上。带孩子用餐请选BARBÙ。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.siamatsiam.com/pattaya/restaurants-bars/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://siamatsiam.b-cdn.net/wp-content/uploads/2026/02/20260214-SSPTY_-Factsheet-Editable-Template.pdf"
+      ]
+    ]
+  },
+  "portrait-voyage-sky-bar": {
+    "name": "The Portrait of Voyage Sky Bar",
+    "building": "Grande Centre Point Voyage Pattaya · 33层",
+    "intro": "想在芭提雅望着海休息一会儿，可以去The Portrait of Voyage Sky Bar。33层露天酒吧有鸡尾酒和海景，与伴侣或朋友傍晚前来，可以边聊天边看天空变色，入夜再看城市灯光。适合以饮料与景观为主，而非正餐的日子。",
+    "facts": {
+      "hours": "每天11:30–24:00",
+      "address": "808, 908 M.5 Na Kluea, Bang Lamung, Chonburi 20150, Thailand",
+      "phone": "+66 33 268 188"
+    },
+    "reasons": [
+      {
+        "title": "看海与天空，稍作休息",
+        "text": "33层露天空间可同时看海与市区。太阳西斜时来，可接着欣赏白天海景、傍晚天空和城市夜色。选不赶下一项安排的日子，与同行者慢慢待一会儿。"
+      },
+      {
+        "title": "一杯鸡尾酒配聊天",
+        "text": "这里以鸡尾酒为主。适合观光后与朋友聊一天见闻，或和伴侣看海休息。若要吃正餐，应与同层Blue Atlantis餐厅分开安排。"
+      }
+    ],
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Grande Centre Point Voyage Pattaya",
+        "instructions": "Grab或Bolt搜索“Grande Centre Point Voyage Pattaya”，到酒店后请工作人员指引The Portrait of Voyage Sky Bar。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9536553,100.8861868&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Grande Centre Point Voyage Pattaya”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引The Portrait of Voyage Sky Bar。",
+      "english": "Please take me to Grande Centre Point Voyage Pattaya. I am going to The Portrait of Voyage Sky Bar.",
+      "thai": "ไปโรงแรม Grande Centre Point Voyage Pattaya จะไป The Portrait of Voyage Sky Bar ชั้น 33",
+      "destination": "Grande Centre Point Voyage Pattaya"
+    },
+    "faq": [
+      [
+        "什么时候来好？",
+        "想从日落看到夜景，日落前上来。每天11:30至午夜，也适合白天看芭提雅海景、稍作休息。"
+      ],
+      [
+        "和Blue Atlantis相同吗？",
+        "不同设施。The Portrait of Voyage以鸡尾酒为主，同层Blue Atlantis以餐饮为主。和同行者先确定喝饮料还是吃晚餐，再选择。"
+      ],
+      [
+        "能看什么景色？",
+        "33层露天酒吧俯瞰芭提雅海与城市。白天看开阔海面，傍晚看天空变色，晚上看城市灯光。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://voyagepattaya.com/"
+      ]
+    ]
+  },
+  "sizzle-rooftop": {
+    "name": "Sizzle Rooftop Restaurant & Bar",
+    "building": "Avista Hideaway Phuket Patong – MGallery",
+    "intro": "想在普吉岛看海与森林吃晚餐，可以去Sizzle。Avista Hideaway露台面向安达曼海与山坡树林，适合与伴侣或朋友傍晚先喝鸡尾酒，再接着吃饭。酒吧比餐厅早开，先决定只喝饮料还是也用餐，再选时间。",
+    "facts": {
+      "hours": "官方：酒吧17:30–23:30 / 餐厅18:00–23:00，最后点单22:30",
+      "rain": "雨天可使用有顶座位",
+      "address": "39/9 Muen-Ngern Road, Tri Trang Beach, Patong, Kathu, Phuket 83150, Thailand",
+      "phone": "+66 95 834 0453  / info@sizzlerooftopphuket.com",
+      "booking": "接受公开预约"
+    },
+    "reasons": [
+      {
+        "title": "海与森林一起展开的露台",
+        "text": "芭东山坡上的露台广看安达曼海与森林。太阳西斜时来，与同行者先点饮料，适合想看不同于海滩视角的日子。"
+      },
+      {
+        "title": "从鸡尾酒接着到晚餐",
+        "text": "酒吧17:30、餐厅18:00开门。先喝鸡尾酒，再接着吃饭，晚上就不用赶。适合想兼顾音乐、景观与晚餐的伴侣或朋友。"
+      },
+      {
+        "title": "有雨预报时选有顶座位",
+        "text": "雨天可使用有顶座位。期待户外景观，也留意出行日天气；下雨时请工作人员安排座位，再慢慢用餐。"
+      }
+    ],
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "Avista Hideaway Phuket Patong",
+        "instructions": "Grab或Bolt搜索“Avista Hideaway Phuket Patong”，到达后请工作人员指引Sizzle。计划待到晚上，也先安排回程。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8811027,98.2774545&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Avista Hideaway Phuket Patong”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Sizzle Rooftop Restaurant & Bar。",
+      "english": "Please take me to Sizzle Rooftop Restaurant & Bar at Avista Hideaway Phuket Patong.",
+      "thai": "ไป Sizzle Rooftop Restaurant & Bar ที่โรงแรม Avista Hideaway Phuket Patong ถนนหมื่นเงิน ป่าตอง ภูเก็ต",
+      "destination": "Avista Hideaway Phuket Patong"
+    },
+    "faq": [
+      [
+        "酒吧与餐厅时间不同吗？",
+        "是的。酒吧17:30至23:30，餐厅18:00至23:00，餐点22:30停止点单。想吃饭，请留些余量早些到。"
+      ],
+      [
+        "下雨也能用餐吗？",
+        "雨天有有顶座位，可请工作人员安排。想看海与森林，也参考天气再选日期。"
+      ],
+      [
+        "适合和谁去？",
+        "适合想看海、喝饮料、吃晚餐的伴侣或朋友。先在酒吧喝鸡尾酒，再接着用餐，时间留宽裕些。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.avistahideawayphuketresort.com/best-restaurants-in-phuket-patong/rooftop-bar-in-phuket/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://mgallery.accor.com/en/hotels/A245/R001.restaurant.html"
+      ]
+    ]
+  },
+  "twilight-sky": {
+    "name": "Twilight Sky Restaurant & Bar",
+    "building": "The SIS Kata Resort（仅接待成人）",
+    "intro": "想在卡塔看海开始晚间时光，可以去Twilight Sky。The SIS Kata的餐厅与酒吧俯瞰卡塔海滩及安达曼海，适合与伴侣或朋友傍晚喝饮料、吃晚餐。周四有现场音乐与牛排晚餐活动，同行者喜欢音乐，可以留意周四安排。",
+    "facts": {
+      "address": "255 Kok Tanode Road, Karon, Muang, Phuket 83100, Thailand",
+      "phone": "+66 76 609555 / 预约076 609 555",
+      "booking": "提供预约电话"
+    },
+    "reasons": [
+      {
+        "title": "看着卡塔海滩度过傍晚",
+        "text": "山坡上可看卡塔海滩与安达曼海。白天去海滩后，晚上换个高处视角看海、休息，适合与同行者喝饮料、看傍晚风景。"
+      },
+      {
+        "title": "喜欢音乐可考虑周四",
+        "text": "官方介绍周四现场音乐与牛排晚餐活动。想让音乐陪伴用餐的伴侣或朋友，可考虑周四；预约时询问活动与演出时间，更好安排晚餐。"
+      }
+    ],
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "The SIS Kata",
+        "instructions": "Grab或Bolt搜索“The SIS Kata”，到达后请工作人员指引Twilight Sky。计划待到晚上，也先安排回程。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8127379,98.29999&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“The SIS Kata”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Twilight Sky Restaurant & Bar。",
+      "english": "Please take me to Twilight Sky Restaurant & Bar at The SIS Kata.",
+      "thai": "ไป Twilight Sky Restaurant & Bar ที่โรงแรม The SIS Kata 255 ถนนโคกโตนด หาดกะตะ ภูเก็ต",
+      "destination": "The SIS Kata"
+    },
+    "faq": [
+      [
+        "什么时候气氛好？",
+        "想看卡塔海滩与海面变色，可傍晚来，给用餐与饮料留足时间，与同行者慢慢享受。"
+      ],
+      [
+        "有现场音乐吗？",
+        "官方介绍周四音乐与牛排晚餐活动。喜欢音乐可考虑周四，预约时一起询问当天演出时间。"
+      ],
+      [
+        "怎么预约？",
+        "致电076 609 555，确定同行者与日期后告知希望用餐时间。想听周四演出，也一起问演奏时间。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.thesiskata.com/dining-in-style/twilight-sky/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.thesiskata.com/dining-in-style/crescent-pool-bar/"
+      ]
+    ]
+  },
+  "vanilla-sky": {
+    "name": "Vanilla Sky Bar & Gastro Pub",
+    "building": "Cape Sienna Phuket Gourmet Hotel & Villas",
+    "intro": "想在卡马拉看海与日落、喝杯鸡尾酒，可以去Vanilla Sky。Cape Sienna酒吧可看卡马拉湾与Rayee海滩方向，Smoky Cinnamon鸡尾酒或生啤配炭烤料理，适合与朋友或伴侣度过晚上。选后面不用赶路的日子，从傍晚慢慢待起。",
+    "facts": {
+      "address": "18/40 Moo 6, Nakalay Road, Kamala, Kathu, Phuket 83150, Thailand",
+      "phone": "+66 (0) 76 337300  / rsvn@capesienna.com",
+      "booking": "提供预约邮箱",
+      "hours": "每天17:00~24:00"
+    },
+    "reasons": [
+      {
+        "title": "看卡马拉海景与日落",
+        "text": "看海度过日落是这里的魅力。白天在海滩玩过，晚上配杯鸡尾酒，看海与天空颜色变化，也适合与同行者聊聊一天。"
+      },
+      {
+        "title": "鸡尾酒配炭烤料理",
+        "text": "可选Smoky Cinnamon鸡尾酒、生啤和炭烤料理。与朋友各选饮料、配点食物，适合想吃喝放松、慢慢停留，而非只看一眼风景的日子。"
+      }
+    ],
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧",
+    "access": [
+      {
+        "name": "Cape Sienna Phuket",
+        "instructions": "Grab或Bolt搜索“Cape Sienna Phuket”，到达后请工作人员指引Vanilla Sky。计划待到晚上，也先安排回程。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.9494461,98.2737284&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Cape Sienna Phuket”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引Vanilla Sky Bar & Gastro Pub。",
+      "english": "Please take me to Vanilla Sky Bar & Gastro Pub at Cape Sienna Phuket.",
+      "thai": "ไป Vanilla Sky Bar & Gastro Pub ที่โรงแรม Cape Sienna Phuket กมลา ภูเก็ต",
+      "destination": "Cape Sienna Phuket"
+    },
+    "faq": [
+      [
+        "有什么饮料与食物？",
+        "可选Smoky Cinnamon鸡尾酒或生啤，搭配炭烤料理。适合与伴侣或朋友喝饮料、看海。"
+      ],
+      [
+        "什么时候去好？",
+        "想看日落，可在傍晚来。每天17:00至午夜，可从日落起慢慢吃喝、停留。"
+      ],
+      [
+        "去哪预约？",
+        "联系rsvn@capesienna.com，确定日期、人数后告知想来的时间，提前计划与伴侣看日落或朋友聚会。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.capesienna.com/restaurants/vanilla-sky-bar-gastro-pub/"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.capesienna.com/uploads/files/cms_apps/pdf/bochure/CAPE_SIENNA_BROCHURE_2025-Pressed.pdf"
+      ],
+      [
+        "设施官方访客说明",
+        "https://www.capesienna.com/uploads/files/cms_apps/pdf/vanilathai/VanillaSky_menu2_compressed1.pdf"
+      ]
+    ]
+  },
+  "surface-patong": {
+    "name": "The Surface Restaurant & Bar",
+    "building": "La Flora Resort Patong",
+    "intro": "想给芭东海滩的一天加一顿景观晚餐，可以去The Surface。La Flora屋顶面向芭东湾与安达曼海，供应鸡尾酒和餐点。适合与伴侣看日落，或和朋友聊旅行、慢慢吃饭。换个屋顶视角，再看看白天在海边见过的大海。",
+    "facts": {
+      "address": "37, 39 Taweewong Road, Patong Beach, Phuket 83150, Thailand"
+    },
+    "reasons": [
+      {
+        "title": "从屋顶再看芭东海滩",
+        "text": "屋顶上芭东湾与安达曼海广阔展开。白天逛过海滩，晚上上楼看看海、稍作休息，适合与同行者一起享受傍晚风景。"
+      },
+      {
+        "title": "鸡尾酒与晚餐相伴",
+        "text": "可同时享鸡尾酒与餐点。和伴侣或朋友选饮料，看着海聊一天去过的地方。餐后不必立刻走，给景观也留些时间，会更从容。"
+      }
+    ],
+    "reservation": "通过设施官方预约页查看订桌与到访日条件。",
+    "facilityKind": "屋顶酒吧与餐厅",
+    "access": [
+      {
+        "name": "La Flora Resort Patong",
+        "instructions": "Grab或Bolt搜索“La Flora Resort Patong”，到达后请工作人员指引The Surface。计划待到晚上，也先安排回程。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8955578,98.2954925&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“La Flora Resort Patong”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引The Surface Restaurant & Bar。",
+      "english": "Please take me to The Surface Restaurant & Bar at La Flora Resort Patong.",
+      "thai": "ไป The Surface Restaurant & Bar ที่ La Flora Resort Patong ถนนทวีวงศ์ หาดป่าตอง ภูเก็ต",
+      "destination": "La Flora Resort Patong"
+    },
+    "faq": [
+      [
+        "能看什么景色？",
+        "可广看芭东湾与安达曼海。想从高处重看海边风景的人会喜欢，傍晚也可点饮料慢慢欣赏。"
+      ],
+      [
+        "适合和谁去？",
+        "适合想边看海边享鸡尾酒、晚餐的伴侣或朋友，为芭东海滩的一天从容收尾。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "设施官方访客说明",
+        "https://www.laflorapatong.com/experiences/"
+      ]
+    ]
+  },
+  "phra-tamnak-viewpoint": {
+    "name": "帕塔纳克山观景台",
+    "building": "芭提雅南部与中天之间的山丘 · 户外观景区",
+    "intro": "走过芭提雅海滩，再到山丘看看海岸线吧。帕塔纳克山观景台可一眼看见弧形海滩与后方市区，适合和朋友、家人拍风景，或首次到访、想认识城市布局的人。傍晚上来留些时间，还能从明亮海景看到城市亮灯。",
+    "facts": {
+      "address": "Nong Prue, Bang Lamung, Chon Buri"
+    },
+    "reasons": [
+      {
+        "title": "把芭提雅海岸线拍进照片",
+        "text": "山丘上弧形海滩与市区一起展开。与站在海边不同，适合和朋友或家人想拍旅行照的日子。"
+      },
+      {
+        "title": "观光之间留些看海时间",
+        "text": "这里是户外观景台，不是吃饭喝酒的屋顶酒吧。游览市区后可上来看看海；山上位置在炎热时乘车前往，能减少步行负担。"
+      },
+      {
+        "title": "傍晚来，也一起安排回程",
+        "text": "从傍晚待起，可以看海与城市变色。户外空间遇雨可先做其他活动、放晴再来。打算天黑后下山，也提前安排交通。"
+      }
+    ],
+    "facilityKind": "观景台",
+    "access": [
+      {
+        "name": "Phra Tamnak Mountain Viewpoint",
+        "instructions": "Grab或Bolt搜索“Phra Tamnak Mountain Viewpoint”。乘车到山上观景台可减少步行负担，傍晚到访也先安排下山交通。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9278472,100.8632145&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Grab或Bolt搜索“Phra Tamnak Mountain Viewpoint”。乘出租车可把下方英文或泰文给司机看，到达后请工作人员指引帕塔纳克山观景台。",
+      "english": "Please take me to Phra Tamnak Mountain Viewpoint. I am going to Phra Tamnak Mountain Viewpoint.",
+      "thai": "ไปจุดชมวิวเขาพระตำหนัก พัทยา",
+      "destination": "Phra Tamnak Mountain Viewpoint"
+    },
+    "faq": [
+      [
+        "能看什么？",
+        "可俯瞰弧形芭提雅海滩与后方市区，适合想用不同于海边的构图，把海与城市一起入镜的人。"
+      ],
+      [
+        "是屋顶酒吧吗？",
+        "不是，是山丘上的户外观景台。与酒店屋顶吃饭喝酒不同，适合看风景、拍照。"
+      ],
+      [
+        "什么时候去好？",
+        "想看明亮海景可白天来，想从日落看到夜景可傍晚来。户外场所，雨天等放晴后更方便欣赏。"
+      ],
+      [
+        "怎么去？",
+        "Grab或Bolt搜索“Phra Tamnak Mountain Viewpoint”。乘车上山可减少步行，傍晚去也提前安排下山交通。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "泰国旅游局观景台介绍",
+        "https://www.tourismthailand.org/Attraction/phra-tamnak-mountain-viewpoint"
+      ]
+    ]
+  },
+  "phi-phi-viewpoint-2": {
+    "name": "皮皮岛2号观景台",
+    "building": "Ko Phi Phi Don · 山丘观景点",
+    "intro": "想一眼看见皮皮岛的海与村落，可以上2号观景台。从山丘俯瞰，能看到不同于海边的岛屿样貌，适合喜欢风景摄影的朋友，或想把岛上时光留在照片里的人。不妨给看海与村落多留些时间，别看一眼就走，慢慢欣赏皮皮岛。",
+    "facts": {},
+    "reasons": [
+      {
+        "title": "从高处再看海边认识的岛屿",
+        "text": "上山看海与岛上村落，是这里的魅力。换个高度再看熟悉的大海，也看看村落如何落在岛中，适合想用不同方式认识皮皮岛的日子。"
+      },
+      {
+        "title": "和喜欢风景摄影的朋友来",
+        "text": "想以海与村落为背景拍旅行照，可以和朋友互拍，放下相机后也留些看景、休息的时间。选不赶交通与参观的日子，就能一起慢慢享受。"
+      }
+    ],
+    "recommended": "适合想从高处看海与村落的人，或与喜欢风景摄影的朋友同行。这里在山丘上，请把移动与观景时间一起安排。",
+    "facilityKind": "观景台",
+    "access": [
+      {
+        "name": "皮皮岛2号观景台",
+        "english": "Phi Phi Don Viewpoint 2",
+        "instructions": "请以Viewpoint 2搜索目的地，下方导航与地图指向同一观景点。离开住宿前先看路线，便于安排参观时间。",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.7458651,98.7780264"
+      }
+    ],
+    "faq": [
+      [
+        "适合和谁去？",
+        "适合喜欢风景摄影的朋友，或想从高处看岛屿的同伴。互相拍旅行照，再一起看海与村落。"
+      ],
+      [
+        "2号观景台能看什么？",
+        "可俯瞰皮皮岛大海与村落，从高处重看海边风景、认识岛屿地形。"
+      ],
+      [
+        "地图标的是哪个点？",
+        "标的是皮皮岛Viewpoint 2。岛上有多个观景点，找目的地时请核对Viewpoint 2名称。"
+      ],
+      [
+        "像屋顶酒吧一样使用吗？",
+        "不是，是山丘上的户外观景点，与酒店屋顶点餐喝饮料不同。适合看海、看村落、拍照。"
+      ]
+    ],
+    "photos": [],
+    "sources": [
+      [
+        "泰国旅游局皮皮岛与观景台介绍",
+        "https://www.tourismthailand.org/Attraction/phi-phi-don-island"
+      ]
+    ]
+  }
+}

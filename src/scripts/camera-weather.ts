@@ -13,4 +13,4 @@ export async function renderCameraWeather(element:HTMLElement,center:[number,num
   const source=document.createElement('a');source.href='https://open-meteo.com/';source.target='_blank';source.rel='noopener noreferrer';source.textContent=ko?'Open-Meteo 모델 예보 · 카메라 주변 참고 위치 기준':'Open-Meteo model forecast · camera reference area';element.append(source);
  }catch{if(element.dataset.weatherIdentity===identity){loading.textContent=ko?'날씨 정보를 불러오지 못했어요. 잠시 후 다시 확인해 주세요.':'Weather could not load. Please try again later.';}}
 }
-document.querySelectorAll<HTMLElement>('[data-camera-weather]').forEach(el=>{const lng=Number(el.dataset.lng),lat=Number(el.dataset.lat);if(Number.isFinite(lng)&&Number.isFinite(lat)&&el.dataset.lng)void renderCameraWeather(el,[lng,lat],document.documentElement.lang.startsWith('ko'));});
+document.querySelectorAll<HTMLElement>('[data-camera-weather]').forEach(el=>{const lng=Number(el.dataset.lng),lat=Number(el.dataset.lat);if(Number.isFinite(lng)&&Number.isFinite(lat)&&el.dataset.lng)void renderCameraWeather(el,[lng,lat],document.documentElement.lang.startsWith('ko')||!!document.querySelector('[data-localized-ui]'));});

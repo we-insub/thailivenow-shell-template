@@ -1,0 +1,89 @@
+{
+  "locale": "en-gb",
+  "passport": "Full British citizen passport; other British-issued travel documents are excluded from the visa-exempt assumption",
+  "mission": "Royal Thai Embassy, London; UK/Ireland/UK Territories residence and physical presence during processing",
+  "checkedOn": "2026-10-18",
+  "researchScope": "Only entry/visa/TDAC. Full official pages opened and read; no tourism research or automated translation used.",
+  "officialSources": [
+    {
+      "url": "https://london.thaiembassy.org/en/page/exemp-visa",
+      "read": "full relevant official page body",
+      "appliesTo": "British tourist passport holders",
+      "fields": "30 days from 2026-09-15; tourism only; embassy states twice yearly; onward within 30 days; funds 20,000 THB per person; actual stamp; possible 30-day extension"
+    },
+    {
+      "url": "https://london.thaiembassy.org/en/page/visa-general-information?menu=65bb7713d0737318de2bab23",
+      "read": "full relevant official page body",
+      "appliesTo": "London applicants",
+      "fields": "Residence/physical presence; online application; file rules; fees non-refundable; timing; additional documents; DTV changes"
+    },
+    {
+      "url": "https://london.thaiembassy.org/en/page/tourist-single-entry-visa",
+      "read": "full relevant official page body",
+      "appliesTo": "London single-entry tourist applicants",
+      "fields": "3-month validity; 60-day stay; possible 30-day extension; six-month photo; location, tickets, accommodation"
+    },
+    {
+      "url": "https://london.thaiembassy.org/en/page/tourist-multiple-entries-visa",
+      "read": "full relevant official page body",
+      "appliesTo": "London multiple-entry tourist applicants",
+      "fields": "6-month validity; first entry within 3 months; 60 days per entry; possible 30-day extension"
+    },
+    {
+      "url": "https://london.thaiembassy.org/en/publicservice/81755-visa-fees?menu=5d6636cd15e39c3bd00072de&page=5d6636cd15e39c3bd00072dd",
+      "read": "full relevant official page body",
+      "appliesTo": "London visa applicants",
+      "fields": "£30 single entry/£150 multiple entry; online GBP; no British fee exemption"
+    },
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/thailand/entry-requirements",
+      "read": "full relevant official page body",
+      "appliesTo": "Full British citizen passport from UK",
+      "fields": "6 months from arrival; one blank page; 30-day exemption; conflicting repeat-entry/funds accounts"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/index.html",
+      "read": "full relevant official page body",
+      "appliesTo": "Non-Thai arrivals",
+      "fields": "TDAC stages, English input, health branching, separate from visa"
+    },
+    {
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "read": "full relevant official page body",
+      "appliesTo": "Non-Thai arrivals",
+      "fields": "3 days including arrival; children; transit exception; new form every entry; immutable full name/passport number/nationality/DOB"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "entry frequency",
+      "London": "Twice per calendar year for eligible visa-exempt passport holders, without an air exception",
+      "FCDO": "Normally twice at land borders; says restriction generally does not apply by air",
+      "handling": "Both accounts explicitly disclosed; repeated-entry eligibility requires embassy clarification. No silent selection of an air exception."
+    },
+    {
+      "field": "funds",
+      "London": "20,000 THB per person may be requested",
+      "FCDO": "10,000 THB per person or 20,000 THB per family",
+      "handling": "Conflict disclosed in public paragraph; no unverified family threshold copied from Korean. Ask Thai embassy about itinerary-specific evidence."
+    },
+    {
+      "field": "old London FAQ",
+      "older": "60-day exemption remains in older FAQ",
+      "current": "Dated 2026-09-15 reform and current exemption/general pages say 30 days",
+      "handling": "Current dated reform takes precedence; older FAQ not used as controlling condition."
+    }
+  ],
+  "changedFromKorean": [
+    "90-day bilateral Korean exemption replaced by researched British 30-day tourism scheme",
+    "Korean Seoul jurisdiction removed; London residence and physical presence applied",
+    "Korean fee waiver and seven-day estimate removed; London £30/£150 and actual processing advice used",
+    "Korean foreign-national ARC/K-ETA/bank thresholds not transplanted",
+    "TDAC British boarding/residence examples; original screenshots clearly retain Korean-example provenance where relevant"
+  ],
+  "holds": [
+    "Conflicting entry-frequency and funds guidance needs clarification for those cases.",
+    "Source screenshots dated 2026-10-14 were retained, not freshly recaptured.",
+    "HTML, same-locale links, canonical/hreflang, SEO/date/build and PC/mobile integration are pending parent."
+  ]
+}

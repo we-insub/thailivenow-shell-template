@@ -1,11 +1,12 @@
 ---
 import {cameraCardPreview} from '../lib/camera-video-preview.mjs';
-import editorial from '../data/camera-editorial-ko.json';
+import {localizedCameraEditorial,hasLocalizedStage} from '../lib/localized-content';
 import {cameras} from '../data/cameras';
 import {getUI,cameraTitle as originalCameraTitle,previewLabel} from '../i18n/ui';
 const {locale='ko'}=Astro.props;
-const ui=getUI(locale),ko=locale==='ko';
-const cameraTitle=(camera,market)=>market==='ko'?editorial[camera.id].displayTitle:originalCameraTitle(camera,market);
+const ui=getUI(locale),ko=locale==='ko'||hasLocalizedStage(locale,'cameras');
+const editorial=localizedCameraEditorial(locale);
+const cameraTitle=(camera,market)=>ko?editorial[camera.id].displayTitle:originalCameraTitle(camera,market);
 ---
 <section class="camera-map-results" aria-label={ko?'지도에서 카메라 찾기':'Find cameras on the map'}>
  <header><h2>{ko?'지도에서 카메라 찾기':'Find cameras on the map'}</h2><span id="map-results-count" role="status" aria-live="polite">{ko?'선택 조건 전체':'All matching cameras'}: {cameras.length}</span></header>

@@ -1,5 +1,5 @@
 import {cameraCardPreview} from '../lib/camera-video-preview.mjs';
-import cameraEditorial from '../data/camera-editorial-ko.json';
+import originalEditorial from '../data/camera-editorial-ko.json';
 import {cameraViewingCopy} from '../lib/camera-viewing-copy.mjs';
 import {renderCameraWeather} from './camera-weather';
 import { Map } from './resilient-map';
@@ -7,7 +7,7 @@ import { NavigationControl, AttributionControl, Marker, Popup, setWorkerUrl } fr
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-csp-worker.js?url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { travelAreas, provinces, thailandBounds } from '../data/map';
-import venues from '../data/rooftops.json';
+import originalVenues from '../data/rooftops.json';
 import beaches from '../data/beaches.json';
 import { cameras } from '../data/cameras';
 import type { GeoJSONSource } from 'maplibre-gl';
@@ -15,6 +15,10 @@ import type { GeoJSONSource } from 'maplibre-gl';
 import { isLocale } from '../i18n/locales';
 import { getUI, cameraTitle, cameraStatus, categoryName, placeName, previewLabel, sourceText } from '../i18n/ui';
 const locale=isLocale(document.documentElement.dataset.locale) ? document.documentElement.dataset.locale : 'en';
+const localizedModel=JSON.parse(document.querySelector('[data-locale-camera-model]')?.textContent||'null');
+const cameraEditorial=localizedModel?.editorial||originalEditorial;
+const venues=localizedModel?.venues||originalVenues;
+const editorialEnabled=locale==='ko'||!!localizedModel;
 const ui=getUI(locale);
 setWorkerUrl(workerUrl);
 const container = document.getElementById('thailand-map');
@@ -104,7 +108,7 @@ if (container) {
     const matching=matchingCameras();const visible=resultsScope==='view'?matching.filter(cameraInView):matching;
     const ids=new Set(visible.slice(0,resultsLimit).map(c=>c.id));
     document.querySelectorAll<HTMLElement>('[data-map-result]').forEach(card=>{card.hidden=!ids.has(card.dataset.mapResult!);const selected=card.dataset.mapResult===selectedResult;card.classList.toggle('is-selected',selected);card.querySelector<HTMLElement>('[data-result-selected]')!.hidden=!selected;});
-    const count=document.getElementById('map-results-count');if(count)count.textContent=(locale==='ko'?(resultsScope==='view'&&homeMapReady?'현재 지도 범위':'선택 조건 전체'):(resultsScope==='view'&&homeMapReady?'Current map area':'All matching cameras'))+': '+visible.length;
+    const count=document.getElementById('map-results-count');if(count)count.textContent=(editorialEnabled?(resultsScope==='view'&&homeMapReady?'현재 지도 범위':'선택 조건 전체'):(resultsScope==='view'&&homeMapReady?'Current map area':'All matching cameras'))+': '+visible.length;
     const inView=document.getElementById('map-in-view');if(inView)inView.textContent=String(matching.filter(cameraInView).length);
     document.getElementById('map-results-empty')!.hidden=visible.length>0;
     document.getElementById('map-results-more')!.hidden=visible.length<=resultsLimit;
@@ -146,12 +150,12 @@ if (container) {
     selection.hidden=false;
     explorerPanel.classList.add('has-selection');
     const preview=document.querySelector<HTMLImageElement>('#selected-preview')!;
-    const displayPreview=locale==='ko'?cameraCardPreview(camera):camera.preview;
+    const displayPreview=editorialEnabled?cameraCardPreview(camera):camera.preview;
     preview.hidden=!displayPreview?.url;
-    if(displayPreview){preview.src=displayPreview.url;preview.alt=cameraTitle(camera,locale)+' · '+displayPreview.label;}
+    if(displayPreview){preview.src=displayPreview.url;preview.alt=(editorialEnabled?cameraEditorial[camera.id].displayTitle:cameraTitle(camera,locale))+' · '+displayPreview.label;}
     const credit=document.querySelector<HTMLAnchorElement>('#selected-credit')!;
     credit.hidden=!displayPreview;
-    if(displayPreview){credit.href=displayPreview.sourceUrl;credit.textContent=previewLabel(displayPreview.label,locale)+' · '+sourceText(displayPreview.credit,locale)+('license' in displayPreview?' · '+displayPreview.license:'');}
+    if(displayPreview){credit.href=displayPreview.sourceUrl;credit.textContent=(editorialEnabled?displayPreview.label:previewLabel(displayPreview.label,locale))+' · '+(editorialEnabled?displayPreview.credit:sourceText(displayPreview.credit,locale))+('license' in displayPreview?' · '+displayPreview.license:'');}
 
     const save=document.querySelector<HTMLElement>('#selected-place [data-save-camera]')!;save.dataset.saveCamera=id;
 
@@ -159,21 +163,21 @@ if (container) {
 
     highlight(provinces.find(p => p.name === camera.province)?.id ?? null);
     paintSelection(id);
-    name.textContent = locale==='ko'?cameraEditorial[camera.id].displayTitle:cameraTitle(camera,locale);
-    description.textContent = locale==='ko'?cameraEditorial[camera.id].preview:ui.cameraIntro;
+    name.textContent = editorialEnabled?cameraEditorial[camera.id].displayTitle:cameraTitle(camera,locale);
+    description.textContent = editorialEnabled?cameraEditorial[camera.id].preview:ui.cameraIntro;
     document.getElementById('selected-region')!.textContent=placeName(camera.area,locale);
-    document.getElementById('selected-location')!.textContent=locale==='ko'?camera.locationNote:ui.locationNote;
-    document.getElementById('selected-status')!.textContent=locale==='ko'?`${cameraViewingCopy(camera).label} · 자료 확인일 ${camera.checked} · 현재 재생은 제공 사이트에서 살펴보세요.`:cameraStatus(camera,locale)+' · '+camera.checked;
+    document.getElementById('selected-location')!.textContent=editorialEnabled?cameraEditorial[camera.id].location:ui.locationNote;
+    document.getElementById('selected-status')!.textContent=editorialEnabled?`${cameraViewingCopy(camera).label} · 자료 확인일 ${camera.checked} · 현재 재생은 제공 사이트에서 살펴보세요.`:cameraStatus(camera,locale)+' · '+camera.checked;
     document.getElementById('selected-tags')!.textContent=categoryName(camera.category,locale);
-    void renderCameraWeather(document.getElementById('selected-weather')!,camera.center,locale==='ko');
+    void renderCameraWeather(document.getElementById('selected-weather')!,camera.center,editorialEnabled);
     const access=document.getElementById('selected-access')!;access.hidden=!camera.center;access.replaceChildren();
-    if(camera.center){const link=document.createElement('a');link.href='https://www.google.com/maps/dir/?api=1&destination='+camera.center[1]+','+camera.center[0]+'&travelmode=transit';link.target='_blank';link.rel='noopener noreferrer';link.textContent=locale==='ko'?'참고 위치까지 대중교통 경로 확인 ↗':'Transit directions to the reference location ↗';access.append(link);}
-    const operator=document.querySelector<HTMLAnchorElement>('#selected-operator')!;operator.href=camera.sourceUrl;operator.textContent=sourceText(camera.sourceName,locale);
+    if(camera.center){const link=document.createElement('a');link.href='https://www.google.com/maps/dir/?api=1&destination='+camera.center[1]+','+camera.center[0]+'&travelmode=transit';link.target='_blank';link.rel='noopener noreferrer';link.textContent=editorialEnabled?'참고 위치까지 대중교통 경로 확인 ↗':'Transit directions to the reference location ↗';access.append(link);}
+    const operator=document.querySelector<HTMLAnchorElement>('#selected-operator')!;operator.href=camera.sourceUrl;operator.textContent=editorialEnabled?camera.sourceName:sourceText(camera.sourceName,locale);
     document.querySelectorAll<HTMLElement>('#selected-place [data-compare-camera]').forEach(button=>button.dataset.compareCamera=id);
     document.querySelectorAll<HTMLElement>('#selected-place [data-share-camera]').forEach(button=>button.dataset.shareCamera=id);
 
-    if(locale==='ko'){sourceLink.textContent=cameraViewingCopy(camera).button+' ↗';detailLink.textContent='장소와 풍경 보기 →';}
-    sourceLink.href = camera.sourceUrl;
+    if(editorialEnabled){sourceLink.textContent=cameraViewingCopy(camera).button+' ↗';detailLink.textContent='장소와 풍경 보기 →';}
+    sourceLink.href = editorialEnabled?cameraViewingCopy(camera).url:camera.sourceUrl;
     sourceLink.hidden = false;
     detailLink.href = `/${locale}/cameras/${id}/`;
     detailLink.hidden = false;
@@ -326,14 +330,14 @@ if (container) {
         map!.addLayer({ id:'camera-points', type:'circle', source:'cameras', filter:['!', ['has','point_count']], paint:{ 'circle-color':['case',['get','verified'],'#e84d47','#8b98a7'],'circle-radius':7,'circle-stroke-width':3,'circle-stroke-color':'#ffffff' } });
         map!.addLayer({ id:'camera-selected', type:'circle', source:'cameras',filter:['==',['get','cameraId'],''],paint:{'circle-radius':13,'circle-color':'#e84d47','circle-opacity':0.25,'circle-stroke-color':'#e84d47','circle-stroke-width':2} });
         for(const venue of venues.filter(v=>v.publicationStatus!=='held'&&Number.isFinite(v.lng)&&Number.isFinite(v.lat))){
-          const element=document.createElement('button');element.type='button';element.className='tourism-venue-pin';element.textContent='◆';element.setAttribute('aria-label',locale==='ko'?venue.name:venue.english);
-          const content=document.createElement('div'),title=document.createElement('strong'),link=document.createElement('a');title.textContent=locale==='ko'?venue.name:venue.english;link.href='/ko/rooftops/'+venue.id+'/';link.textContent=ui.details+' →';content.append(title,document.createElement('br'),link);
+          const element=document.createElement('button');element.type='button';element.className='tourism-venue-pin';element.textContent='◆';element.setAttribute('aria-label',editorialEnabled?venue.name:venue.english);
+          const content=document.createElement('div'),title=document.createElement('strong'),link=document.createElement('a');title.textContent=editorialEnabled?venue.name:venue.english;link.href='/'+locale+'/rooftops/'+venue.id+'/';link.textContent=ui.details+' →';content.append(title,document.createElement('br'),link);
           const marker=new Marker({element}).setLngLat([venue.lng,venue.lat]).setPopup(new Popup({offset:20}).setDOMContent(content));tourismPins.push(marker);
           document.querySelector<HTMLButtonElement>('[data-tourism-venue="'+venue.id+'"]')?.addEventListener('click',()=>{map!.flyTo({center:[venue.lng,venue.lat],zoom:14,duration});marker.addTo(map!).togglePopup();document.querySelector('.map-stage')!.scrollIntoView({block:'nearest',behavior:reducedMotion?'auto':'smooth'});});
         }
         mode();
         setCameraVisibility(camerasVisible);
-        fetch('/data/bangkok-rail.geojson').then(r=>r.json()).then(network=>{if(!map||map.getSource('home-thai-rail'))return;map.addSource('home-thai-rail',{type:'geojson',data:network.routes});map.addLayer({id:'home-thai-rail-lines',type:'line',source:'home-thai-rail',paint:{'line-color':['get','color'],'line-width':['interpolate',['linear'],['zoom'],4,0.4,10,2.5],'line-opacity':0.8}});map.addSource('home-thai-stations',{type:'geojson',data:network.stations});map.addLayer({id:'home-thai-station-points',type:'circle',source:'home-thai-stations',minzoom:9,paint:{'circle-radius':3,'circle-color':'#fff','circle-stroke-width':1.5,'circle-stroke-color':'#34768e'}});map.on('click','home-thai-station-points',event=>{const feature=event.features?.[0];if(!feature||feature.geometry.type!=='Point')return;const box=document.createElement('div'),name=document.createElement('strong'),link=document.createElement('a');name.textContent=feature.properties?.name||'';link.href='/ko/transport/bangkok/stations/'+encodeURIComponent(feature.properties?.station_id||'')+'/';link.textContent=locale==='ko'?'역·노선·환승 안내 →':'Station & transfer guide →';box.append(name,document.createElement('br'),link);new Popup().setLngLat(feature.geometry.coordinates as [number,number]).setDOMContent(box).addTo(map!);});}).catch(()=>{});
+        fetch('/data/bangkok-rail.geojson').then(r=>r.json()).then(network=>{if(!map||map.getSource('home-thai-rail'))return;map.addSource('home-thai-rail',{type:'geojson',data:network.routes});map.addLayer({id:'home-thai-rail-lines',type:'line',source:'home-thai-rail',paint:{'line-color':['get','color'],'line-width':['interpolate',['linear'],['zoom'],4,0.4,10,2.5],'line-opacity':0.8}});map.addSource('home-thai-stations',{type:'geojson',data:network.stations});map.addLayer({id:'home-thai-station-points',type:'circle',source:'home-thai-stations',minzoom:9,paint:{'circle-radius':3,'circle-color':'#fff','circle-stroke-width':1.5,'circle-stroke-color':'#34768e'}});map.on('click','home-thai-station-points',event=>{const feature=event.features?.[0];if(!feature||feature.geometry.type!=='Point')return;const box=document.createElement('div'),name=document.createElement('strong'),link=document.createElement('a');name.textContent=feature.properties?.name||'';link.href='/ko/transport/bangkok/stations/'+encodeURIComponent(feature.properties?.station_id||'')+'/';link.textContent=editorialEnabled?'역·노선·환승 안내 →':'Station & transfer guide →';box.append(name,document.createElement('br'),link);new Popup().setLngLat(feature.geometry.coordinates as [number,number]).setDOMContent(box).addTo(map!);});}).catch(()=>{});
         if(map!.getLayer('water'))map!.setPaintProperty('water','fill-color','#c7dfe9');
         if(map!.getLayer('background'))map!.setPaintProperty('background','background-color','#f5f7f5');
         map!.on('moveend',()=>{resultsLimit=12;updateResults();});map!.on('idle',updateResults);updateResults();

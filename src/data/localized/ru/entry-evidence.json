@@ -1,0 +1,77 @@
+{
+  "locale": "ru",
+  "passport": "Russian Federation ordinary passport",
+  "checkedAt": "2026-10-18",
+  "mission": "Royal Thai Embassy in Moscow",
+  "scope": "Russian passport entry; Moscow application rules only. No Korean nationality waiver, Seoul residence requirement, K-ETA or Korean bank thresholds copied.",
+  "sources": [
+    {
+      "url": "https://moscow.thaiembassy.org/en/publicservice/revision-of-thailand-s-visa-exemption-and-visa-on-arrival-schemes?menu=5d843dbc15e39c1abc005883&page=5d843dbc15e39c1abc005882",
+      "opened": true,
+      "publishedOn": "2026-09-02",
+      "facts": [
+        "Effective 2026-09-15: previous 60-day exemption ends; ordinary Russian passport bilateral exemption up to 30 days.",
+        "Immigration officer decides entry and actual stay.",
+        "Apply in advance 14 business days; await approval."
+      ]
+    },
+    {
+      "url": "https://moscow.thaiembassy.org/en/publicservice/83954-2-tourist-visa?cate=5d843b6a15e39c1abc0051a3&menu=5d843dbc15e39c1abc00588f",
+      "opened": true,
+      "updatedOn": "2026-09-12",
+      "facts": [
+        "Tourism TR/METV; passport >=6 months; photo 4x6cm within6months.",
+        "40USD single / 200USD METV; validity3/6months; stay<=60days.",
+        "TR bank20000THB/person (~700USD); child without account parent40000THB; METV3months statements >=2000USD each month.",
+        "Work/student/self-employed/minor/foreign passport requirements retained with audience.",
+        "Extension discretionary; no fixed30days guaranteed by this source."
+      ]
+    },
+    {
+      "url": "https://image.mfa.go.th/mfa/0/DKAezaV6MH/EN_RU_ANNOUNCE_MENT_E-VISA.pdf",
+      "opened": true,
+      "documentOn": "2024-12-15",
+      "facts": [
+        "Moscow jurisdiction: residents Russia Uzbekistan Armenia Belarus Moldova.",
+        "Online application; offline cashUSD payment within14days of confirmation.",
+        "USD notes from2009 or later, good condition; fees non-refundable.",
+        "Payment Mon-Fri excluding Embassy holidays9:30-12:30.",
+        "Processing14business days after payment; some nationalities longer.",
+        "Print approved eVisa confirmation; English notarized translations; additional documents/interview possible."
+      ]
+    },
+    {
+      "url": "https://moscow.thaiembassy.org/en/publicservice/84779-general-visa-information-2?cate=5d843b6a15e39c1abc0051a6",
+      "opened": true,
+      "updatedOn": "2025-06-04",
+      "facts": [
+        "Applicant outside Thailand; mission by jurisdiction.",
+        "Visa validity and actual allowed stay differ.",
+        "Older general60day exemption paragraph superseded by September2026 announcement."
+      ]
+    },
+    {
+      "url": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival%3Fpage=5d7e6a3c15e39c032c006dba",
+      "opened": true,
+      "updatedOn": "2026-09-16",
+      "facts": [
+        "General tourist-exemption cash20,000THB/person or40,000THB/family, retained from Korean canonical. Russian nationality exemption duration is sourced only to Moscow bilateral rule; Doha country list not used to determine Russian duration."
+      ],
+      "scope": "Common evidence of cash; no Doha visa-application requirements applied to Moscow."
+    }
+  ],
+  "preservedCommonEvidence": [
+    "TDAC English manual/FAQ and screenshots from checked Korean canonical; no new TDAC playback or form submission."
+  ],
+  "changedFields": [
+    "entry.title/description/intro/sections/faq/facts/sources/locale/market",
+    "visa and tourist-visa nationality/mission/scope/fees/processing/bank thresholds",
+    "tdac examples adapted to Russia while original English screenshot assets and scope warnings retained"
+  ],
+  "pending": [
+    "Rendered HTML",
+    "SEO audit",
+    "same-language incoming and outgoing links",
+    "PC/mobile and keyboard"
+  ]
+}

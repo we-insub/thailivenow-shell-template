@@ -1,6 +1,7 @@
 ---
 import CameraKoreanDetail from './CameraKoreanDetail.astro';
+import {hasLocalizedStage} from '../lib/localized-content';
 import CameraInternationalDetail from './CameraInternationalDetail.astro';
-const {camera,locale='en'}=Astro.props;
+const {camera,locale='en',autoDetect=false}=Astro.props;
 ---
-{locale==='ko'?<CameraKoreanDetail camera={camera}/>:<CameraInternationalDetail {...Astro.props}/>}
+{!autoDetect&&(locale==='ko'||hasLocalizedStage(locale,'cameras'))?<CameraKoreanDetail camera={camera} locale={locale}/>:<CameraInternationalDetail {...Astro.props}/>}

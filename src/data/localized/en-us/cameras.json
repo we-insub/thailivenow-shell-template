@@ -1,0 +1,799 @@
+{
+  "phuket-patong-tower": {
+    "place": "Patong Beach",
+    "preview": "Patong Beach in Phuket brings sand and the Andaman Sea together. See the coast, water and sunset scenery from the 15th floor of Patong Tower.",
+    "context": "Patong is a beach on Phuket, an island in southern Thailand. This camera looks down over the coast and sea from Patong Tower’s 15th floor, rather than showing a view from the beach.",
+    "watch": "See how the sand meets the sea within the frame. You can also choose this view when you are curious about the coast around sunset.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-panorama"
+    ],
+    "location": "The map points to the area around Patong Tower. The provider describes the camera as being on Floor 15; the pin does not identify its exact mounting point.",
+    "displayTitle": "Phuket Patong Beach — View from Patong Tower",
+    "intro": [
+      "Patong Beach follows a broad, curving bay in Phuket. Accommodation, shops and shopping facilities cluster nearby, with nightlife and entertainment in the evening. It suits a trip that combines the sea with time exploring town.",
+      "Consider Patong if you want the beach during the day and nearby streets in the evening. This camera shows the coastline and Andaman Sea from Patong Tower’s 15th floor, giving you a look at the beach’s shape and the sky over the sea before your trip."
+    ],
+    "sceneParagraphs": [
+      "From Floor 15 of Patong Tower, the view looks down where the sand meets the sea. Rather than focusing only on waves at beach level, the coastline and Andaman Sea appear in one panorama.",
+      "Clouds stretch over the water and the sky’s colors change around sunset. If Patong is on your travel shortlist, see both the daytime coast and evening sea for a sense of the scenery."
+    ],
+    "faq": [
+      [
+        "What does the Patong Tower camera show?",
+        "It shows Patong Beach and the Andaman Sea from the tower’s 15th floor. The panorama includes the coastline where sand meets water and clouds above the sea."
+      ]
+    ],
+    "mapLabel": "Around Patong Tower",
+    "placeSources": [
+      {
+        "label": "Phuket Provincial Government — Patong Beach",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "phuket-cape-panwa": {
+    "place": "Cape Panwa",
+    "preview": "Cape Panwa is a coastal area in southeastern Phuket. See the sea and horizon from the quiet bay in front of NĀMA Freediving through its live camera.",
+    "context": "Cape Panwa is a coastal area in southeastern Phuket. The live camera looks over a bay and sea in the Tang Khen Bay area.",
+    "watch": "Before a Phuket trip, open the video when you want a feel for the sea and local coastal scenery.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The map shows which part of Phuket contains Cape Panwa. Its pin is a reference near Tang Khen Bay, rather than the exact NĀMA camera location or a visitor entrance.",
+    "displayTitle": "Phuket Cape Panwa — NĀMA Bay Coast",
+    "faq": [
+      [
+        "What is Cape Panwa like?",
+        "It is a coastal area in southeastern Phuket. Here you can see the bay in front of NĀMA Freediving, with sea and horizon beyond. The operator calls the filmed bay NĀMA Bay."
+      ],
+      [
+        "Why is the live camera dark?",
+        "The beach and sea can look dark when it is nighttime locally. Open the video during Phuket’s daylight hours if you want a view of water, horizon and sky together."
+      ]
+    ],
+    "intro": [
+      "Cape Panwa lies on Phuket’s southeastern coast. In front of NĀMA Freediving is a quiet bay where the beach opens toward the sea and horizon. If you are considering a seaside trip, begin with this glimpse of Cape Panwa’s coast.",
+      "NĀMA Freediving Phuket is a freediving school directly in front of the beach. It calls the bay in front of the school NĀMA Bay. The live camera below shows the bay, water and local sky together."
+    ],
+    "sceneParagraphs": [
+      "Looking seaward from the beach in front of NĀMA Freediving, the horizon and sky continue beyond the bay. The view stretches from the water near the beach to the distant horizon.",
+      "Before a trip spent looking out to sea in Phuket, see this bay on video. The same coast changes with clear or cloudy skies, daylight and darkness. Weather in this bay does not necessarily represent all of Phuket or offshore conditions."
+    ],
+    "mapLabel": "Around Tang Khen Bay",
+    "placeSources": [
+      {
+        "label": "NĀMA Freediving — Cape Panwa bay",
+        "url": "https://www.namafreediving.com/live-webcam"
+      }
+    ]
+  },
+  "samui-crystal-bay": {
+    "place": "Crystal Bay",
+    "preview": "Crystal Bay on Koh Samui is a beach with white sand and waves rolling toward the shore. See the sea in front of the yacht club on video.",
+    "context": "Crystal Bay is a Koh Samui beach also known as Thongtakian Bay. Koh Samui is an island in southern Thailand’s Gulf of Thailand. This camera shows the yacht club’s beach view.",
+    "watch": "Look at the white sand together with waves approaching the shore. Choose between a broad island panorama and a close beach view according to what you want to see.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The map points to the beach around Crystal Bay, also known as Thongtakian Bay. The exact camera mounting point has not been verified.",
+    "displayTitle": "Koh Samui Crystal Bay — White Sand and Sea",
+    "intro": [
+      "For white sand and water together on Koh Samui, take a look at Crystal Bay. Also called Thongtakian Bay, it is a coast where waves roll toward the sandy beach.",
+      "Before a trip, you can see the beach through the video shared by Crystal Bay Yacht Club. The view brings this beach’s sand and sea closer, rather than showing the whole island of Koh Samui."
+    ],
+    "sceneParagraphs": [
+      "White sand and the water in front of it share the frame. Watch waves approach and recede along the shore for a different experience from a single beach photograph.",
+      "This view suits travelers curious about the water close to the sand. If you plan to stay by the sea on Koh Samui, take a first look at Crystal Bay’s coastline through the video."
+    ],
+    "faq": [
+      [
+        "Where is Crystal Bay?",
+        "It is a beach on Koh Samui, also called Thongtakian Bay. This page shows the video looking over white sand and sea in front of the yacht club."
+      ]
+    ],
+    "mapLabel": "Around Crystal Bay"
+  },
+  "samui-baobab": {
+    "place": "Lamai Beach in front of Baobab",
+    "preview": "See Lamai Beach’s sand and sea on Koh Samui from in front of Baobab restaurant, with waves approaching the shore.",
+    "context": "Lamai is a beach on Koh Samui. Baobab is the name of the restaurant beside the filmed beach; the view shows the sand and sea in front of it.",
+    "watch": "Choose this view for a closer look at Lamai Beach. This is a guide to the scenery, rather than restaurant reservations or opening hours.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-black-pearl"
+    ],
+    "location": "The map points near Baobab on Lamai Beach. The camera’s exact mounting location has not been verified.",
+    "displayTitle": "Koh Samui Lamai Beach — In Front of Baobab",
+    "intro": [
+      "Lamai is a Koh Samui beach known for its curving bay and rows of coconut trees. It suits travelers who want tropical beach scenery as well as sand and sea.",
+      "If you are curious about Lamai, start with this view filmed close to the water. Rather than looking down over the island from above, it brings you closer to the sand and waves along the shore."
+    ],
+    "sceneParagraphs": [
+      "Follow the sand in front of Baobab toward waves rolling in from the sea. The view gives a sense of the scenery when facing the water at Lamai Beach.",
+      "The place introduced here is Lamai Beach; Baobab is the restaurant providing the video. You can also see the view in front of Black Pearl on the same beach using the link below."
+    ],
+    "faq": [],
+    "mapLabel": "Lamai Beach — Around Baobab",
+    "placeSources": [
+      {
+        "label": "Thailand Tourism Directory — Lamai Beach",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-banyan-tree": {
+    "place": "Bay view at Banyan Tree Samui",
+    "preview": "See a beach and bay from the hillside of Banyan Tree Samui resort. The elevated view shows Koh Samui’s coast meeting the sea.",
+    "context": "Banyan Tree Samui is a resort on Koh Samui. This camera presents a beach and bay view from its hillside, looking down over the coast rather than from close to the water.",
+    "watch": "See how beach and bay fit into one view. Use separate venue information for resort stay and beach access conditions; the camera alone does not establish them.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The map points to the Banyan Tree Samui resort area. The exact camera mounting point has not been verified.",
+    "displayTitle": "Koh Samui Banyan Tree — Bay from the Hillside",
+    "intro": [
+      "For an elevated look over Koh Samui’s beaches, see the bay near Banyan Tree Samui. From the resort hillside, beach and sea open out together.",
+      "The height differs from a view directly in front of the sand. If you want an overview of the coastline while planning a Koh Samui trip, this camera offers a first look across beach and bay."
+    ],
+    "sceneParagraphs": [
+      "From the resort hillside, beach and bay appear in one frame. You can see both water near the shore and the way the beach follows the bay.",
+      "It suits travelers who want a broad look at the shape of the beach and bay, rather than a close view of waves at the sand. See the coast from the resort’s position through the video."
+    ],
+    "faq": [],
+    "mapLabel": "Around Banyan Tree Samui"
+  },
+  "samui-bang-rak": {
+    "place": "Bang Rak Beach",
+    "preview": "Bang Rak is a beach on Koh Samui’s northern coast. The camera shows the coastline and sea in front of it.",
+    "context": "Bang Rak is a beach on Koh Samui’s northern coast. This publicly shared camera is described as showing the beach and the sea beyond it.",
+    "watch": "Choose it for the northern shore and sea together. Look along the coastline and sky on the provider’s screen.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The map points around Bang Rak Beach. The exact camera mounting point has not been verified.",
+    "displayTitle": "Koh Samui Bang Rak Beach — Northern Coast",
+    "intro": [
+      "Bang Rak Beach is on Koh Samui’s northern coast. If you are curious about the island’s northern shore before your trip, see the coast and sea together here.",
+      "SkylineWebcams shares the camera facing Bang Rak Beach. Open the link below for a look at the shore before traveling."
+    ],
+    "sceneParagraphs": [
+      "The camera faces Bang Rak Beach and the sea beyond. The shoreline view gives a sense of Koh Samui’s northern coast.",
+      "This is a different beach from Lamai or Crystal Bay. When considering which Koh Samui coast to stay on, read the beach name together with its position on the island to distinguish the places."
+    ],
+    "faq": [],
+    "mapLabel": "Around Bang Rak Beach"
+  },
+  "phuket-karon-marina": {
+    "place": "Karon Beach",
+    "preview": "See sea and coastal scenery from the southern end of Karon Beach in Phuket. Marina Phuket Resort’s video shows Karon’s sea and sky.",
+    "context": "Karon is a beach on Phuket. This camera faces the sea and coastline near Marina Phuket Resort at the beach’s southern end.",
+    "watch": "Patong, Kata and Karon are separate beaches even if their names feel similar. Choose this view for Karon’s coastline and waves.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The map points around the resort at the southern end of Karon Beach. The exact camera mounting point has not been verified.",
+    "displayTitle": "Phuket Karon Beach — Southern Coast",
+    "intro": [
+      "Karon is a long stretch of white sand on Phuket, north of Kata Beach. Nearby restaurants and shops make it possible to combine time by the water with a meal or shopping.",
+      "For a look at broad sand and sea, start with Karon’s scenery. The camera below shows sea, coast and sky from near Marina Phuket Resort at the southern end of the beach."
+    ],
+    "sceneParagraphs": [
+      "The camera faces Karon Beach’s southern coast. Its view combines the water, waves and sky.",
+      "Phuket has several distinct beaches, including Patong and Kata. If you want Karon, choose Marina Phuket Resort’s Karon Beach view."
+    ],
+    "faq": [],
+    "mapLabel": "Southern Karon Beach",
+    "placeSources": [
+      {
+        "label": "Phuket Provincial Government — Karon Beach",
+        "url": "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php"
+      }
+    ]
+  },
+  "phuket-kata-surf": {
+    "place": "Kata Beach",
+    "preview": "See the sea and waves at Phuket’s Kata Beach through updated photos. SSS Phuket’s images offer a first look at the shore.",
+    "context": "Kata is a beach on Phuket. This public surf view is provided as periodically updated photographs rather than continuous video.",
+    "watch": "Read the photo’s timestamp while viewing the beach. One image of the waves does not establish surf conditions or whether entering the sea is safe.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The rounded center of the provider’s map marks the Kata Beach area. It is not an exact camera location or visitor entrance.",
+    "displayTitle": "Phuket Kata Beach — Sea and Wave Photos",
+    "intro": [
+      "The Kata area of Phuket contains two beaches, Kata Yai and Kata Noi. Accommodation, shopping and travel services cluster nearby, making it an area to consider for a beach-centered stay.",
+      "Here you can see the water and waves at Kata Beach through photos shared by SSS Phuket. Images update periodically. Read the capture time alongside the coast for a first look at Kata."
+    ],
+    "sceneParagraphs": [
+      "Photos show the water off Kata Beach and waves approaching shore. When the next image appears, compare how the waves and sky have changed.",
+      "If you plan to swim or surf, distinguish the waves in the photo from safety advice on the beach. Decide whether to enter according to the flags and on-site instructions."
+    ],
+    "faq": [
+      [
+        "Is the Kata Beach camera a video?",
+        "This listing uses periodically updated photographs. It shows the beach at each displayed capture time; the waves do not move continuously as in video."
+      ]
+    ],
+    "mapLabel": "Around Kata Beach",
+    "placeSources": [
+      {
+        "label": "Phuket Provincial Government — Kata Beach",
+        "url": "https://www.phuket.go.th/eng/Beaches-Kata%20Beach.php"
+      }
+    ]
+  },
+  "phangan-sanskara": {
+    "place": "Haad Rin Beach",
+    "preview": "See Haad Rin Beach’s coast and waves on Koh Phangan through the sea view in front of House of Sanskara.",
+    "context": "Haad Rin is a beach on Koh Phangan. House of Sanskara is the name of the place sharing this public view; the camera faces the coast and sea.",
+    "watch": "Choose it when you are curious about Haad Rin’s coastline and waves. A displayed timestamp helps identify when the scene was captured.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The map points around Haad Rin Beach. The exact camera mounting point has not been verified.",
+    "displayTitle": "Koh Phangan Haad Rin — Sea by Sanskara",
+    "intro": [
+      "Haad Rin is a beach on Koh Phangan. If you are curious about the shore, see the coastal view shared by House of Sanskara.",
+      "The camera faces Haad Rin’s coast and the sea in front. Before a Koh Phangan trip, open the video below to see waves and the local sky together."
+    ],
+    "sceneParagraphs": [
+      "The screen looks seaward from Haad Rin Beach. Waves continue toward shore, offering a more moving impression of Koh Phangan’s coast than a still photograph.",
+      "The scene is around Haad Rin Beach. Treat it as a first look at one possible coast to visit rather than a single view representing all of Koh Phangan."
+    ],
+    "faq": [],
+    "mapLabel": "Around Haad Rin Beach"
+  },
+  "samui-two-palms": {
+    "place": "Bang Po Beach",
+    "preview": "See the sea from Bang Po Beach on Koh Samui. The video in front of Two Palms gives a first look at Bang Po before your trip.",
+    "context": "Bang Po is a beach on Koh Samui. Two Palms is the name of the place sharing this sea view. Read the island and beach names together when choosing the screen.",
+    "watch": "Choose this camera for Bang Po’s coast. When comparing Koh Samui cameras, remember that they do not all face the same beach.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The rounded center of the provider’s map marks the Bang Po Beach area. It is not an exact camera mounting point or visitor entrance.",
+    "displayTitle": "Koh Samui Bang Po Beach — Sea by Two Palms",
+    "intro": [
+      "Bang Po is a Koh Samui beach. The sea view at Two Palms brings you close to its coast. Open the video if you want to see the Bang Po shore.",
+      "With many beaches on Koh Samui, the island name alone may not tell you what your stay will look like. Read the beach name Bang Po together with this Two Palms view to picture a more specific destination."
+    ],
+    "sceneParagraphs": [
+      "The camera shows the water and coastline in front of Bang Po Beach. Its near-shore perspective lets you see where the land meets the sea.",
+      "This video shares the view from the Two Palms area. If Bang Po interests you, start with the waves coming toward its coast and the water beyond."
+    ],
+    "faq": [],
+    "mapLabel": "Around Bang Po Beach"
+  },
+  "samui-black-pearl": {
+    "place": "Lamai Beach in front of Black Pearl",
+    "preview": "See the sea in front of Black Pearl restaurant on Lamai Beach, with Koh Samui’s coastline and waves on video.",
+    "context": "Black Pearl is a restaurant on Lamai Beach, Koh Samui. The camera shows sea and coastline in front of it. Distinguish the beach name Lamai from the provider location Black Pearl when finding the view.",
+    "watch": "Choose it for a close look at Lamai’s sea. The public view from Baobab on the same beach is also available.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-baobab"
+    ],
+    "location": "The rounded center of the provider’s map marks the area near Black Pearl on Lamai Beach. It does not identify the exact camera location or a visitor entrance.",
+    "displayTitle": "Koh Samui Lamai Beach — Sea by Black Pearl",
+    "intro": [
+      "Lamai is a Koh Samui beach known for its curving bay and rows of coconut trees. It suits travelers who want tropical coastal scenery as well as sand and sea.",
+      "If you are planning a trip to Lamai, start with Black Pearl’s video of the shore. It shows the sea and waves in front of the beach rather than an elevated island panorama."
+    ],
+    "sceneParagraphs": [
+      "The frame takes in waves approaching the coast in front of Black Pearl and the sea beyond. It suits travelers curious about the coastal view when facing Lamai Beach directly.",
+      "The camera in front of Baobab restaurant also faces Lamai Beach. Use the related link below to see the view shared there too."
+    ],
+    "faq": [],
+    "mapLabel": "Lamai Beach — Around Black Pearl",
+    "placeSources": [
+      {
+        "label": "Thailand Tourism Directory — Lamai Beach",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-crystal-beach": {
+    "place": "Silver Beach",
+    "preview": "See the sea and coast around Silver Beach on Koh Samui through the screen listed as the Crystal Bay beach camera.",
+    "context": "Silver Beach is a Koh Samui beach. This page links to the public view named Crystal Bay Beach Cam, with the retained location note referring to the Silver Beach area.",
+    "watch": "Distinguish its provider page from the Crystal Bay listing that names the yacht club. Separate listings do not guarantee separate camera equipment or different angles.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The rounded center of the provider’s map marks the Silver Beach area. It is not the exact camera location or a visitor entrance.",
+    "displayTitle": "Koh Samui Silver Beach — Crystal Bay View",
+    "intro": [
+      "Silver Beach is a beach on Koh Samui. For a look at the coast and water, see the view listed as Crystal Bay Beach Cam.",
+      "Use this panorama for a first look around Silver Beach before your trip. Open the beach video on the Webcamtaxi page presenting the SamuiWebcam view."
+    ],
+    "sceneParagraphs": [
+      "This camera’s subject is the sea and coast around Silver Beach. The near-beach scenery gives a sense of this Koh Samui shoreline.",
+      "The name Crystal Bay is also used by the yacht club’s beach camera. This page links to the screen called Crystal Bay Beach on Webcamtaxi; separate catalog listings have not established that they use different viewing angles."
+    ],
+    "faq": [],
+    "mapLabel": "Around Silver Beach"
+  },
+  "pattaya-beach-panorama": {
+    "place": "Pattaya Beach",
+    "preview": "Pattaya is a beach city on eastern Thailand’s Gulf coast. See its shore through a panorama combining beach and sea.",
+    "context": "Pattaya is a beach city on the Gulf of Thailand in eastern Thailand. This camera is described as a broad view of beach and sea. With its exact filming location unverified, no map pin is shown.",
+    "watch": "Choose this for a broad beach-and-sea view. If the screen does not appear, read the provider’s broadcast status and timestamp.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The source describes a Pattaya Beach view, but the exact filming location is unverified, so no pin is displayed.",
+    "displayTitle": "Pattaya Beach — Sea Panorama",
+    "intro": [
+      "Pattaya is a beach city on the Gulf of Thailand in eastern Thailand. If you are curious about its waterfront, see the beach and sea together in this broad view.",
+      "The panorama shows the coastline and sea rather than a close view of one spot on the beach. Open it while planning a Pattaya trip for a first impression of the shore."
+    ],
+    "sceneParagraphs": [
+      "Pattaya Beach and the water in front share the broad frame. Follow the coast beside the sea for a look at the beach city’s scenery.",
+      "The view covers more than a close-up of waves at the sand. Choose the SkylineWebcams panorama below for a wide look over Pattaya’s coast."
+    ],
+    "faq": [],
+    "mapLabel": "Around Pattaya Beach"
+  },
+  "samet-cocoon": {
+    "place": "Sea by Na Dan Pier, Koh Samet",
+    "preview": "See the water toward the mainland from the Na Dan Pier area on Koh Samet. The Cocoon Hostel camera shows offshore waves and sky.",
+    "context": "Koh Samet is a Thai island, and Na Dan is the pier named in the camera guidance. The operator describes a sea view facing the mainland from around Na Dan Pier.",
+    "watch": "Choose it for the view from the island toward the mainland. Although it shows the pier area, it is not a live boat timetable or boarding-availability service.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The provider describes the area around Na Dan Pier. The exact installation coordinates are unverified, so no map pin is shown.",
+    "displayTitle": "Koh Samet Na Dan Pier — Sea toward the Mainland",
+    "intro": [
+      "Koh Samet is an island in Thailand. Around Na Dan Pier, the view opens from the island toward the mainland, offering another direction on its coast.",
+      "The Cocoon Hostel shares this sea and sky through its camera. Before visiting the island, take a first look at the water around Na Dan Pier."
+    ],
+    "sceneParagraphs": [
+      "The screen faces the mainland sea from the Na Dan Pier area. Waves off the island and clouds above them appear together.",
+      "This is scenery near the pier, rather than a departure timetable. If preparing a Koh Samet visit, read actual boat information separately from the sea view."
+    ],
+    "faq": [
+      [
+        "Which direction does the Koh Samet camera face?",
+        "It looks toward the mainland from around Na Dan Pier, showing waves and sky off the island. The view does not provide a boat timetable."
+      ]
+    ],
+    "mapLabel": "Water around Na Dan Pier, Koh Samet"
+  },
+  "tao-island-skyline": {
+    "place": "Koh Tao beach and bay",
+    "preview": "See a bay and island from the beach on Koh Tao. The view combines nearby coast with an island across the water.",
+    "context": "Koh Tao is a Thai island. This public camera is described as a beach view with a bay and island. The installation coordinates have not been established, so there is no map pin.",
+    "watch": "Choose it for a view of bay and island as well as near-shore waves. Read the provider’s screen to see when the footage was captured.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The introduction follows the provider’s stated filming area. No pin is displayed because the exact camera installation coordinates are unverified.",
+    "displayTitle": "Koh Tao — Beach, Bay and Island View",
+    "intro": [
+      "Koh Tao is an island in Thailand. From its beach, the view takes in a bay and island as well as the sea. If you are considering an island trip, see the scenery on video first.",
+      "This page links to the camera looking across bay and island from a Koh Tao beach. SkylineWebcams presents the panorama stretching from the nearby coast across the water."
+    ],
+    "sceneParagraphs": [
+      "The bay off Koh Tao and an island beyond it appear together. It shows the combination of sea and island rather than only a close-up of waves.",
+      "Get a first impression of Koh Tao’s coast through the bay in the frame. The screen does not identify a beach entrance or visitor route, so choose your actual travel destination separately."
+    ],
+    "faq": [],
+    "mapLabel": "Around Koh Tao’s beach and bay"
+  },
+  "samui-bophut-beach": {
+    "place": "Bophut Beach",
+    "preview": "Bophut is a beach in northern Koh Samui. Its public camera page presents coast and sea scenery.",
+    "context": "Bophut is a beach in northern Koh Samui. This page introduces its sea view; the exact camera equipment location is unverified.",
+    "watch": "Find the Bophut view for Koh Samui’s northern coast. Current playback has not been verified, so read the provider’s actual screen.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The description uses the provider’s named filming area. With exact installation coordinates unverified, no map pin is displayed.",
+    "displayTitle": "Koh Samui Bophut Beach — Northern Sea View",
+    "intro": [
+      "Bophut Beach is in northern Koh Samui. If you are planning a stay on the island’s northern shore, start with a look at Bophut’s coast.",
+      "The link below opens a camera page facing Bophut Beach. SkylineWebcams introduces the coast and sea; read the original page for the current broadcast status."
+    ],
+    "sceneParagraphs": [
+      "The filming subject is Bophut Beach and the sea in front. The view is described as facing Koh Samui’s northern shore.",
+      "Even on one island, different beach names such as Lamai or Choeng Mon mean different subjects. If Bophut is on your shortlist, choose its beach view specifically."
+    ],
+    "faq": [],
+    "mapLabel": "Around Bophut Beach"
+  },
+  "samui-choengmon": {
+    "place": "Choeng Mon Beach",
+    "preview": "Choeng Mon is a beach in northeastern Koh Samui. Its camera page presents sea and waves approaching the shore.",
+    "context": "Choeng Mon is a beach in northeastern Koh Samui. The public camera guidance describes waves and coastal scenery there. The exact installation coordinates are unverified.",
+    "watch": "Find Choeng Mon separately from Bophut or Bang Rak on Koh Samui’s northern coast. Different beach names can mean different scenery.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The description uses the provider’s filming area. With exact camera coordinates unverified, no map pin is displayed.",
+    "displayTitle": "Koh Samui Choeng Mon Beach — Northeastern Coast",
+    "intro": [
+      "Choeng Mon Beach is in northeastern Koh Samui. If you are considering this coast for your trip, take a first look at its sea and beach through the video.",
+      "The camera’s subject is Choeng Mon’s shoreline and waves. Distinguish it from Bophut or Bang Rak to see a more specific picture of the coast you want to visit."
+    ],
+    "sceneParagraphs": [
+      "Choeng Mon Beach, the water offshore and waves approaching shore are the camera subjects. The view suits curiosity about Koh Samui’s northeastern coast.",
+      "If you plan to stay near Choeng Mon, read the beach name together with its northeastern island location. It helps distinguish your destination from footage of other shores."
+    ],
+    "faq": [],
+    "mapLabel": "Around Choeng Mon Beach"
+  },
+  "phuket-patong-panorama": {
+    "place": "Patong Bay’s town and sea",
+    "preview": "Patong is a beach area in Phuket. See its townscape, greenery and distant sea together in this panorama.",
+    "context": "Patong is a beach area in Phuket. The panorama is described as combining town, greenery and distant sea. It is a separate public listing from the Patong Tower Floor 15 camera.",
+    "watch": "See how Patong brings together town and sea. Choose a camera according to whether you want the sand alone or the town and water together.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-tower"
+    ],
+    "location": "The description uses the provider’s named area. Exact camera coordinates are unverified, so no map pin is shown.",
+    "displayTitle": "Phuket Patong Bay — Town and Sea",
+    "intro": [
+      "Patong Beach follows a broad, curving bay in Phuket. Accommodation, shops and shopping facilities cluster nearby, with nightlife and entertainment in the evening. It suits a trip combining the sea with time exploring town.",
+      "Choose the Patong Bay panorama if you want the townscape as well as the beach. The sea stretches beyond buildings and greenery, helping you picture a trip between waterfront and town."
+    ],
+    "sceneParagraphs": [
+      "The foreground town, greenery and distant sea continue across one frame. You can see the urban side of Patong that is harder to picture from a beach view alone.",
+      "For more of the sand and coast, see the beach view from Patong Tower too. Looking at both townscape and sea helps you picture the area around Patong Beach."
+    ],
+    "faq": [],
+    "mapLabel": "Around Patong Bay’s town and sea",
+    "placeSources": [
+      {
+        "label": "Phuket Provincial Government — Patong Beach",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "krabi-ao-nang-coast": {
+    "place": "Ao Nang coast",
+    "preview": "Ao Nang lies on Krabi’s Andaman coast. A camera shared by Thai public agency GISTDA shows coastal water and sky.",
+    "context": "Ao Nang is in Krabi on the Andaman coast. Thai public agency GISTDA shares this coastal screen, labeled NANG OUT in the original. It is not described as a hotel camera.",
+    "watch": "Choose it for coastal sea and sky rather than sand. Visible water does not establish that boats are operating or marine activities are available.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The NANG OUT label is the basis for describing the Ao Nang coast. Exact installation coordinates are unverified, so no map pin is shown.",
+    "displayTitle": "Krabi Ao Nang — Coastal Sea View",
+    "intro": [
+      "Ao Nang is an area of Krabi where accommodation, restaurants and shops gather along the beach. It is also a departure point for boat trips to nearby islands and Railay, suiting travelers who want a coastal base alongside island excursions.",
+      "Thai public agency GISTDA shares this camera, with NANG OUT displayed in the original. It looks at coastal water and local sky rather than the interior of a hotel or beach facility."
+    ],
+    "sceneParagraphs": [
+      "The filming subjects are sea and sky along the Ao Nang coast. It suits travelers wanting offshore scenery rather than a close view of the sand.",
+      "You can see the water, but the view does not establish boat operations or whether marine activities are possible. If taking a boat, follow operating advice and local weather instructions too."
+    ],
+    "faq": [],
+    "mapLabel": "Around the Ao Nang coast",
+    "placeSources": [
+      {
+        "label": "Tourism Authority of Thailand — Krabi and Ao Nang",
+        "url": "https://www.tourismthailand.org/Destinations/Provinces/krabi/344"
+      }
+    ]
+  },
+  "huahin-centara": {
+    "place": "Hua Hin Beach in front of Centara Grand",
+    "preview": "Hua Hin is a beach resort city in central Thailand. Centara Grand’s video shows the beach and sea in front of the hotel.",
+    "context": "Hua Hin is a beach resort city in central Thailand. This is the beach camera shared by Centara Grand Beach Resort. Its exact installation coordinates are unverified.",
+    "watch": "Choose it for Hua Hin’s sea through the hotel’s shared view. Camera viewing and hotel stays or facility use have separate conditions.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-kba"
+    ],
+    "location": "The description uses the provider’s named filming area. Exact camera installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Hua Hin Beach — In Front of Centara Grand",
+    "intro": [
+      "Hua Hin is a beach resort city in central Thailand. Consider a trip combining white sand, sea and seafood meals nearby. It also suits a family vacation spent staying by the shore.",
+      "See Hua Hin Beach through the camera shared by Centara Grand Beach Resort. Open the video below when you want to see the sea before traveling."
+    ],
+    "sceneParagraphs": [
+      "The camera shows Hua Hin Beach from Centara Grand. You can see the coastline in front of the hotel together with the water beyond.",
+      "KBA kite school also shares another view of Hua Hin Beach. Use the related link below to move between the two listings of the same beach."
+    ],
+    "faq": [],
+    "mapLabel": "Hua Hin Beach — Around Centara Grand",
+    "placeSources": [
+      {
+        "label": "Tourism Authority of Thailand — Hua Hin family travel",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "huahin-kba": {
+    "place": "Hua Hin Beach — KBA view",
+    "preview": "See sea and sky in Hua Hin, a resort city in central Thailand. KBA kite school shares this beach screen.",
+    "context": "KBA stands for Kiteboarding Asia, a kite school. This page introduces its sea and weather view at Hua Hin Beach, in central Thailand’s beach resort city.",
+    "watch": "Choose it for a Hua Hin view combining sea and sky. The video alone does not establish lessons or marine activity availability.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-centara"
+    ],
+    "location": "The introduction follows the provider’s named filming area. Exact installation coordinates are unverified, so no map pin is shown.",
+    "displayTitle": "Hua Hin Beach — Sea and Sky by KBA",
+    "intro": [
+      "Hua Hin in central Thailand combines a beach vacation with watersports. Consider it if you are interested in white sand and sea views, or want to include an activity such as kitesurfing in your trip.",
+      "KBA is Kiteboarding Asia. Before traveling to Hua Hin, use the camera for a look at the water off the beach and the local sky."
+    ],
+    "sceneParagraphs": [
+      "The camera faces the water in front of Hua Hin Beach. Its combination of coast and sky suits travelers curious about the waterfront scenery.",
+      "Although a kite school provides the screen, the video alone does not establish whether lessons or marine activities are taking place. For lessons, follow the school’s actual schedule and on-site instructions."
+    ],
+    "faq": [],
+    "mapLabel": "Hua Hin Beach — Around the KBA view",
+    "placeSources": [
+      {
+        "label": "Tourism Authority of Thailand — Hua Hin family travel",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "chaam-thew-talay": {
+    "place": "Thew Talay view in Cha-am",
+    "preview": "See the area around Thew Talay in Cha-am through photos updated every few minutes. Get a first look at the local scenery and sky before your trip.",
+    "context": "This public view presents the area around Thew Talay in Cha-am as photos. With images updating every few minutes, a stationary scene is not itself a playback error.",
+    "watch": "Read the displayed time and compare the next refreshed image. Knowing when the photo was taken helps you understand the local scene.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The description follows the provider’s named filming area. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Cha-am — Around Thew Talay",
+    "intro": [
+      "For a look around Thew Talay in Cha-am, see the photographs shared here. They offer a first impression of the local scenery before a Cha-am trip.",
+      "Photos update every few minutes rather than showing continuous motion. Read the time within the image to see when the scene was captured."
+    ],
+    "sceneParagraphs": [
+      "Photos looking around Thew Talay update one after another. Instead of continuous video, you see the scenery at each capture moment.",
+      "Compare the local sky and scenery when the next photo appears. The displayed timestamp helps you identify which moment in Cha-am the image shows."
+    ],
+    "faq": [],
+    "mapLabel": "Around Thew Talay, Cha-am"
+  },
+  "chainat-chao-phraya": {
+    "place": "Chao Phraya River and dam area, Chai Nat",
+    "preview": "See the scenery around Chai Nat’s Chao Phraya River and dam. The public camera page presents a Thai river view distinct from the coast.",
+    "context": "The camera listing describes the Chao Phraya River and dam area in Chai Nat. It links to an aggregator of public views rather than a verified original camera operator.",
+    "watch": "Choose it for river and dam scenery. The original operator and current playback are unverified, so an Online label alone does not establish a current livestream.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The filming area follows the camera aggregator’s description. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Chai Nat — Chao Phraya River and Dam",
+    "intro": [
+      "The Chao Phraya River area in Chai Nat offers a Thai landscape different from the sea. This camera page describes a view across the river and dam area.",
+      "Webcamera24 lists the river and dam view. Open the link below to reach the area’s camera page."
+    ],
+    "sceneParagraphs": [
+      "The listing describes a panorama of the river and dam area. For river scenery distinct from Thailand’s beaches, see the Chao Phraya area named as its subject."
+    ],
+    "faq": [],
+    "mapLabel": "Chao Phraya River and dam area, Chai Nat",
+    "sourceNote": "This link opens a camera aggregator. The original operator and current broadcast status have not been verified."
+  },
+  "pathum-chao-phraya": {
+    "place": "Chao Phraya River, Pathum Thani",
+    "preview": "See the Chao Phraya River and riverside townscape in Pathum Thani through a camera page describing the city along the water.",
+    "context": "The public page describes the Chao Phraya and riverside townscape in Pathum Thani. Tufaq is an aggregator presenting the view, rather than a verified original camera operator.",
+    "watch": "Choose it for river and buildings together. Distinguish an illustrative photograph from the actual camera screen and read the timestamp on the original.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The filming area follows the aggregator’s description. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Pathum Thani — Chao Phraya River and Town",
+    "intro": [
+      "Around the Chao Phraya in Pathum Thani, the view combines river and town. Choose it if you are curious about a riverside cityscape rather than Thailand’s sea.",
+      "Tufaq’s camera listing presents the river and riverside buildings. Tufaq collects camera views from different areas."
+    ],
+    "sceneParagraphs": [
+      "The panorama combines the river with buildings alongside it. Find it when you want a townscape following the water rather than a beach city."
+    ],
+    "faq": [],
+    "mapLabel": "Around the Chao Phraya, Pathum Thani",
+    "sourceNote": "This link opens a camera aggregator. The original operator and current broadcast status have not been verified."
+  },
+  "chiangmai-weather-view": {
+    "place": "Chiang Mai city scenery",
+    "preview": "Chiang Mai is a city in northern Thailand. Public cameras and updated photographs offer a look at its scenery and local sky.",
+    "context": "Chiang Mai is a city in northern Thailand. This link leads to a page listing regional public cameras and updated photos rather than one camera on a particular building.",
+    "watch": "After choosing a camera, see whether it is video or an updated photo. A stationary photograph is not automatically an error; read its capture time too.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The filming area follows the aggregator’s description. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Chiang Mai — City Scenery and Local Sky",
+    "intro": [
+      "Chiang Mai is a city in northern Thailand. While planning your trip, use a collection of public cameras and photos for a look at local scenery and sky.",
+      "This listing does not directly show a single camera mounted on one building. Instead, choose regional cameras and updated photographs on EaseWeather."
+    ],
+    "sceneParagraphs": [
+      "The place within Chiang Mai changes with the camera selected. Read the place name beside each image to distinguish which part of the city it shows.",
+      "Updated photos show a moment in time rather than continuous video motion. For a look at the local sky, read the capture time shown with the photo too."
+    ],
+    "faq": [],
+    "mapLabel": "Around Chiang Mai city"
+  },
+  "chiangrai-mae-yao": {
+    "place": "Ban Mae Yao, Chiang Rai",
+    "preview": "The listing describes mountain and temple scenery in Ban Mae Yao, Chiang Rai. See a northern landscape different from the coast on its camera page.",
+    "context": "Chiang Rai is a city in northern Thailand. An aggregator describes this camera as mountain and temple scenery at Ban Mae Yao. The exact installation point and original operator are unverified.",
+    "watch": "Use it for a screen described as combining mountains and a temple rather than sea views. Do not use it as confirmed site information or visitor directions.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The filming area follows the camera aggregator’s description. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Chiang Rai Ban Mae Yao — Mountains and Temple",
+    "intro": [
+      "Ban Mae Yao is named as this camera’s filming area in Chiang Rai, northern Thailand. Find the view if you are curious about a northern landscape of mountains and temples rather than the sea.",
+      "Webcamera24 lists the Ban Mae Yao scenic camera. Open the link below to reach its regional camera page."
+    ],
+    "sceneParagraphs": [
+      "The screen is described as showing mountains and a temple. It offers a look at northern scenery around Chiang Rai, but does not establish a particular temple’s exact location."
+    ],
+    "faq": [],
+    "mapLabel": "Around Ban Mae Yao, Chiang Rai",
+    "sourceNote": "This link opens a camera aggregator. The original operator and current broadcast status have not been verified."
+  },
+  "chiangrai-wat-thep": {
+    "place": "Wat Thep Bun Yuen area, Chiang Rai",
+    "preview": "The screen is described as Wat Thep Bun Yuen and surrounding mountains in Chiang Rai. Find a northern Thai temple view on its public camera page.",
+    "context": "Wat Thep Bun Yuen is the temple named by this camera listing. The page describes temple and mountain scenery in Chiang Rai, but the exact camera location is unverified.",
+    "watch": "Choose it for a view described as temple and surrounding mountains. It does not provide temple admission hours or a visitor route.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The filming area follows the aggregator’s description. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Chiang Rai Wat Thep Bun Yuen — Temple and Mountains",
+    "intro": [
+      "Wat Thep Bun Yuen is a temple named in a Chiang Rai public camera listing. The view is described as temple and surrounding mountains, for travelers curious about northern Thailand.",
+      "Webcamera24 lists the temple-and-mountain panorama. Open the link below for the Chiang Rai Wat Thep Bun Yuen camera page."
+    ],
+    "sceneParagraphs": [
+      "The listing describes temple and mountain scenery together. It is not a guide to indoor temple viewing spaces or a visitor entrance."
+    ],
+    "faq": [],
+    "mapLabel": "Around Wat Thep Bun Yuen, Chiang Rai",
+    "sourceNote": "This link opens a camera aggregator. The original operator and current broadcast status have not been verified."
+  },
+  "nakhon-cha-uat": {
+    "place": "Cha Uat River, Nakhon Si Thammarat",
+    "preview": "The camera is described as a Cha Uat River view in Nakhon Si Thammarat. Open its public listing for a look at Thai riverside scenery.",
+    "context": "Cha Uat is the river named as this camera page’s subject. The area is listed as Nakhon Si Thammarat; the exact camera location and original operator are unverified.",
+    "watch": "Use it for riverside scenery rather than a beach. Current playback or photo refresh has not been verified, so read the provider’s image and timestamp together.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The filming area follows the aggregator’s description. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Nakhon Si Thammarat Cha Uat River — Riverside View",
+    "intro": [
+      "Cha Uat River is the subject named by a public camera listing in Nakhon Si Thammarat. The link offers river scenery different from Thailand’s beaches.",
+      "Find the camera described as Cha Uat River on Webcamera24. This page links travelers curious about Nakhon Si Thammarat’s river views to that listing."
+    ],
+    "sceneParagraphs": [
+      "The listing describes a view around Cha Uat River. With no verified exact filming point, it does not identify a specific riverside facility or visitor route."
+    ],
+    "faq": [],
+    "mapLabel": "Around Cha Uat River, Nakhon Si Thammarat",
+    "sourceNote": "This link opens a camera aggregator. The original operator and current broadcast status have not been verified."
+  },
+  "lanta-hat-lant": {
+    "place": "Hat Lant sea view, Koh Lanta",
+    "preview": "The Hat Lant camera is listed as sea scenery on Koh Lanta. Open the public scenic-view page for a look at the island’s water.",
+    "context": "Koh Lanta is a Thai island. This page links to a public camera categorized by an aggregator as the Hat Lant sea view. The name alone does not establish an exact beach or equipment location.",
+    "watch": "Use it when curious about Koh Lanta’s sea. The original operator and current playback are unverified, so examine the motion and displayed time on the provider’s screen.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "The filming area follows the aggregator’s description. Exact installation coordinates are unverified, so no map pin is displayed.",
+    "displayTitle": "Koh Lanta — Hat Lant Sea View",
+    "intro": [
+      "Koh Lanta is an island in Thailand. This camera listing, named Hat Lant, describes a view of the island’s sea.",
+      "Find the view on Webcamera24’s page for Koh Lanta. Open the link below if you are curious about island scenery before a trip."
+    ],
+    "sceneParagraphs": [
+      "The listing describes a sea view named Hat Lant. Since the exact filming beach has not been established, it is difficult to treat it as a confirmed view from a particular beach you may visit."
+    ],
+    "faq": [],
+    "mapLabel": "Around the Hat Lant sea view, Koh Lanta",
+    "sourceNote": "This link opens a camera aggregator. The original operator and current broadcast status have not been verified."
+  }
+}

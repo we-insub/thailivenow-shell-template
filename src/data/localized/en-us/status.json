@@ -1,0 +1,25 @@
+{
+  "locale": "en-us",
+  "travel": "complete",
+  "rooftops": "complete",
+  "cameras": "complete",
+  "ui": "complete",
+  "html": "parent_integration_pending",
+  "review": "Manuscripts and actual-gap replay complete; all display-field digit/word spacing inspected, dynamic alerts/weather dictionary added. Parent rebuild/browser pending.",
+  "entryEvidence": "reviewed US ordinary passport and Los Angeles jurisdiction scope; TDAC official contradiction recorded",
+  "uiEntryCount": 1038,
+  "thirdHtmlAudit": {
+    "gapCount": 56,
+    "corrected": 7,
+    "replayRemainingHangul": 0,
+    "evidence": "artifacts/localization-20261018/en-us/third-html-gap-recheck.json",
+    "freshBuild": "pending_parent_fourth_build"
+  },
+  "dynamicUI": "86 actual dynamic gaps replayed without Korean; updated-photo status now refers to latest photos, not playback. Parent actual UI audit pending.",
+  "mapDynamicFinalReview": {
+    "gapCount": 86,
+    "replayRemainingHangul": 0,
+    "evidence": "artifacts/localization-20261018/en-us/final-map-dynamic-review.json",
+    "actualInteractiveUi": "pending_parent"
+  }
+}

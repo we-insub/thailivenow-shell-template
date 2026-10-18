@@ -2,7 +2,8 @@ import { storageKey, localePath, isLocale, detectLocale } from '../i18n/locales'
 const picker = document.querySelector<HTMLDetailsElement>('#language-picker');
 const homeOnly = picker?.dataset.homeOnly === 'true';
 const switchPath = picker?.dataset.switchPath;
-const destination = (locale: Parameters<typeof localePath>[1]) => localePath(homeOnly || (switchPath === '/airport-assistance/' && locale==='en') ? '/' : switchPath || window.location.pathname,locale)+(homeOnly || switchPath ? '' : window.location.search+window.location.hash);
+const supported:string[]=JSON.parse(picker?.dataset.supportedLocales||'[]');
+const destination = (locale: Parameters<typeof localePath>[1]) => supported.length&&!supported.includes(locale)?window.location.href:localePath(homeOnly || (switchPath === '/airport-assistance/' && locale==='en') ? '/' : switchPath || window.location.pathname,locale)+(homeOnly || switchPath ? '' : window.location.search+window.location.hash);
 document.querySelectorAll<HTMLAnchorElement>('[data-locale-choice]').forEach(link => {
   link.addEventListener('click', event => {
     const locale = link.dataset.localeChoice;

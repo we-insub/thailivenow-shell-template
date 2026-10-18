@@ -1,0 +1,799 @@
+{
+  "phuket-patong-tower": {
+    "place": "Patong Beach",
+    "preview": "En Patong Beach, Phuket, la arena se encuentra con el mar de Andamán. Desde la planta 15 de Patong Tower puedes contemplar la costa, el mar y el paisaje al atardecer.",
+    "context": "Patong es una playa de Phuket, una isla del sur de Tailandia. Esta cámara muestra la costa y el mar desde la planta 15 de Patong Tower, una perspectiva elevada distinta de la vista a pie de playa.",
+    "watch": "Observa cómo se unen la arena y el mar en la imagen. También puedes consultar esta vista si te intriga el paisaje marino al atardecer.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-panorama"
+    ],
+    "location": "El mapa señala los alrededores de Patong Tower. La indicación de la planta 15 procede del proveedor; el marcador no representa el punto exacto donde está instalada la cámara.",
+    "displayTitle": "Patong Beach, Phuket · vistas desde Patong Tower",
+    "intro": [
+      "Patong Beach, en Phuket, tiene una franja de arena que sigue una bahía de amplia curva. Alrededor se concentran alojamientos, tiendas y zonas comerciales, además de ocio nocturno: encaja si quieres combinar playa y ciudad.",
+      "Si te apetece disfrutar de la playa durante el día y recorrer los alrededores por la tarde, mira Patong. La cámara muestra la costa y el Andamán desde la planta 15 de Patong Tower. Puedes descubrir antes del viaje la forma de la playa y el cielo sobre el mar."
+    ],
+    "sceneParagraphs": [
+      "Desde la planta 15 de Patong Tower se contempla la línea donde se encuentran la arena y el mar. En vez de ver solo las olas desde cerca, la imagen reúne la costa y el mar de Andamán.",
+      "Las nubes se extienden sobre el mar y la luz del cielo cambia al atardecer. Si estás considerando Patong para el viaje, mira por separado la costa de día y el mar al caer la tarde para conocer el paisaje."
+    ],
+    "faq": [
+      [
+        "¿Qué se ve desde la cámara de Patong Tower?",
+        "Patong Beach y el mar de Andamán desde la planta 15 de Patong Tower. La panorámica reúne la costa de arena, el mar y las nubes sobre el agua."
+      ]
+    ],
+    "mapLabel": "Alrededores de Patong Tower",
+    "placeSources": [
+      {
+        "label": "Gobierno provincial de Phuket · Patong Beach",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "phuket-cape-panwa": {
+    "place": "Cabo Panwa",
+    "preview": "El cabo Panwa es una zona costera del sureste de Phuket. Descubre con la webcam el mar y el horizonte de la tranquila bahía frente a NĀMA Freediving.",
+    "context": "El cabo Panwa es una zona costera del sureste de Phuket. Esta webcam mira hacia una bahía y el mar en los alrededores de Tang Khen Bay.",
+    "watch": "Si antes de viajar a Phuket te apetece ver el mar, abre un rato la imagen y descubre el paisaje local.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "El mapa permite situar el cabo Panwa dentro de Phuket. El marcador es una referencia de los alrededores de Tang Khen Bay: no señala la instalación exacta de la cámara de NĀMA ni un acceso para visitantes.",
+    "displayTitle": "Cabo Panwa, Phuket · costa de NĀMA Bay",
+    "faq": [
+      [
+        "¿Cómo es el cabo Panwa?",
+        "Es una zona costera del sureste de Phuket. En esta página puedes ver la bahía frente a NĀMA Freediving, el mar y el horizonte. El operador llama NĀMA Bay a la bahía que aparece en la imagen."
+      ],
+      [
+        "¿Por qué se ve oscura la webcam?",
+        "Si es de noche en Phuket, la playa y el mar pueden verse oscuros. Para contemplar juntos el agua, el horizonte y el cielo, abre la imagen cuando sea de día allí."
+      ]
+    ],
+    "intro": [
+      "El cabo Panwa es una zona costera del sureste de Phuket. Frente a NĀMA Freediving hay una bahía tranquila desde cuya playa se ven el mar y el horizonte. Si piensas en un viaje frente al mar, descubre primero este paisaje costero.",
+      "Justo frente a la playa se encuentra NĀMA Freediving Phuket, una escuela de apnea. La bahía frente a la escuela se presenta como NĀMA Bay. La webcam de abajo muestra esa bahía, el mar y el cielo local."
+    ],
+    "sceneParagraphs": [
+      "Desde la playa frente a NĀMA Freediving, en el cabo Panwa, la vista cruza la bahía hasta el horizonte y el cielo. Es una panorámica que reúne el agua cercana y el horizonte lejano.",
+      "Si estás preparando unas vacaciones mirando el mar en Phuket, descubre primero en vídeo cómo es esta bahía. La misma costa cambia según esté despejado o nublado y sea de día o de noche. El tiempo que se ve aquí no tiene por qué coincidir siempre con el de toda Phuket ni con las condiciones mar adentro."
+    ],
+    "mapLabel": "Alrededores de Tang Khen Bay",
+    "placeSources": [
+      {
+        "label": "NĀMA Freediving · bahía del cabo Panwa",
+        "url": "https://www.namafreediving.com/live-webcam"
+      }
+    ]
+  },
+  "samui-crystal-bay": {
+    "place": "Crystal Bay",
+    "preview": "Crystal Bay, en Koh Samui, es una playa de arena blanca con olas que llegan a la orilla. Descubre el paisaje del mar frente al club náutico.",
+    "context": "Crystal Bay es una playa de Koh Samui también conocida como Thongtakian Bay. Koh Samui es una isla del golfo de Tailandia, en el sur del país. Esta cámara muestra la vista de playa del club náutico.",
+    "watch": "Observa la arena blanca y las olas que llegan a la costa. Distingue esta vista cercana de una playa de una panorámica de la isla entera.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "El mapa señala los alrededores de Crystal Bay, también llamada Thongtakian Bay. No se ha confirmado el punto exacto donde está instalada la cámara.",
+    "displayTitle": "Crystal Bay, Koh Samui · arena blanca y mar",
+    "intro": [
+      "Si buscas una playa de Koh Samui donde ver juntos arena blanca y mar, descubre Crystal Bay. También se conoce como Thongtakian Bay, una costa donde las olas llegan frente a la arena.",
+      "Antes del viaje puedes ver las imágenes publicadas por Crystal Bay Yacht Club. Es una vista cercana de la arena y el agua de esta playa, más que una panorámica general de Koh Samui."
+    ],
+    "sceneParagraphs": [
+      "La imagen reúne la arena blanca de Crystal Bay y el mar que se abre delante. Puedes ver las olas llegar y retirarse de la costa, un paisaje diferente del de una fotografía fija.",
+      "Esta vista encaja si te interesa cómo es el mar cerca de la arena. Si vas a alojarte junto a la costa en Koh Samui, descubre primero en el vídeo la orilla de Crystal Bay."
+    ],
+    "faq": [
+      [
+        "¿Dónde está Crystal Bay?",
+        "Es una playa de Koh Samui, también conocida como Thongtakian Bay. En esta página puedes ver la arena blanca y el mar frente al club náutico."
+      ]
+    ],
+    "mapLabel": "Alrededores de Crystal Bay"
+  },
+  "samui-baobab": {
+    "place": "Lamai Beach frente a Baobab",
+    "preview": "Vista de la arena y el mar de Lamai Beach, Koh Samui, frente al restaurante Baobab. Puedes ver las olas llegar cerca de la costa.",
+    "context": "Lamai es una playa de Koh Samui. Baobab es el restaurante frente a la playa al que se refiere esta cámara; la imagen muestra la arena y el mar delante del local.",
+    "watch": "Elige esta vista si quieres saber cómo es Lamai desde cerca. La página permite descubrir el paisaje de la playa; no es una guía de reservas ni horarios del restaurante.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-black-pearl"
+    ],
+    "location": "El mapa señala los alrededores de Baobab, en Lamai Beach. No se ha confirmado el punto exacto donde está instalada la cámara.",
+    "displayTitle": "Lamai Beach, Koh Samui · frente a Baobab",
+    "intro": [
+      "Lamai es una playa de Koh Samui conocida por su bahía curva y sus hileras de cocoteros. Encaja si quieres conocer un paisaje de playa tropical además de ver la arena y el mar.",
+      "Para descubrir cómo es Lamai, empieza por esta imagen tomada cerca de la orilla. En lugar de mirar la isla desde lo alto, puedes ver de cerca la arena y las olas de la costa."
+    ],
+    "sceneParagraphs": [
+      "Al seguir la arena frente a Baobab con la mirada, aparecen las olas y el mar. La imagen permite descubrir el paisaje que se abre al mirar hacia el agua desde Lamai Beach.",
+      "El lugar presentado aquí es Lamai Beach; Baobab es el nombre del restaurante que publica la cámara. En el enlace de abajo puedes ver también el paisaje frente a Black Pearl, en la misma playa."
+    ],
+    "faq": [],
+    "mapLabel": "Lamai Beach · alrededores de Baobab",
+    "placeSources": [
+      {
+        "label": "Directorio turístico de Tailandia · Lamai Beach",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-banyan-tree": {
+    "place": "Bahía de Banyan Tree Samui",
+    "preview": "Playa y bahía vistas desde la colina del resort Banyan Tree Samui. Desde lo alto puedes ver cómo la costa de Koh Samui se encuentra con el mar.",
+    "context": "Banyan Tree Samui es un resort de Koh Samui. Esta cámara muestra la playa y la bahía desde la colina del complejo, una perspectiva de la forma de la costa diferente de las cámaras junto al mar.",
+    "watch": "Observa cómo aparecen juntas la playa y la bahía. No deduzcas de la cámara las condiciones de alojamiento ni de acceso a la playa: consulta la información específica del resort.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "El mapa señala los alrededores de Banyan Tree Samui. No se ha confirmado el punto exacto donde está instalada la cámara.",
+    "displayTitle": "Banyan Tree, Koh Samui · bahía desde la colina",
+    "intro": [
+      "Para contemplar una playa de Koh Samui desde lo alto, descubre la vista de la bahía junto a Banyan Tree Samui. Desde la colina del resort se ven juntos la playa y el mar.",
+      "La altura es diferente de una vista al pie de la arena. Si antes de viajar a Koh Samui te interesa la forma general de la costa, puedes ver la playa y la bahía en la cámara que se publica desde aquí."
+    ],
+    "sceneParagraphs": [
+      "Desde la colina del resort aparecen juntos la playa y la bahía. La panorámica no solo muestra el agua cercana a la costa, sino también cómo la playa sigue el contorno de la bahía.",
+      "Encaja para quienes quieran ver la forma amplia de la playa y la bahía, más que las olas muy de cerca desde la orilla. Descubre en vídeo el paisaje costero que se contempla desde el resort."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Banyan Tree Samui"
+  },
+  "samui-bang-rak": {
+    "place": "Bang Rak Beach",
+    "preview": "Bang Rak es una playa de la costa norte de Koh Samui. La cámara permite ver la orilla y el mar que se extiende delante.",
+    "context": "Bang Rak está en la costa norte de Koh Samui. La cámara se presenta como una vista pública de Bang Rak Beach y el mar frente a ella.",
+    "watch": "Elige esta vista para ver juntos la costa norte de la isla y el mar. En la página del proveedor puedes contemplar la orilla y el cielo.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "El mapa señala los alrededores de Bang Rak Beach. No se ha confirmado el punto exacto donde está instalada la cámara.",
+    "displayTitle": "Bang Rak Beach, Koh Samui · costa norte",
+    "intro": [
+      "Bang Rak Beach se encuentra en la costa norte de Koh Samui. Si estás preparando un viaje y te interesa esa zona de la isla, descubre la vista conjunta de la costa y del mar.",
+      "SkylineWebcams publica la cámara de Bang Rak Beach. Puedes abrir la imagen en el enlace de abajo para ver cómo es la costa antes del viaje."
+    ],
+    "sceneParagraphs": [
+      "La cámara mira Bang Rak Beach y el mar que tiene delante. El paisaje que sigue la orilla permite descubrir la costa norte de Koh Samui.",
+      "La playa que aparece es distinta de Lamai o Crystal Bay. Si estás pensando en qué costa alojarte, combina el nombre de cada playa con su posición en la isla para distinguir los lugares."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Bang Rak Beach"
+  },
+  "phuket-karon-marina": {
+    "place": "Karon Beach",
+    "preview": "Vista del mar y la costa desde el sur de Karon Beach, Phuket. La cámara publicada por Marina Phuket Resort muestra el agua y el cielo de Karon.",
+    "context": "Karon es una playa de Phuket. Esta cámara mira el mar y la costa de los alrededores de Marina Phuket Resort, en el sur de la playa.",
+    "watch": "Aunque los nombres de Patong, Kata y Karon puedan confundirte, son playas diferentes. Para conocer Karon, observa la costa y las olas en esta imagen.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "El mapa señala los alrededores del resort en el sur de Karon Beach. No se ha confirmado el punto exacto donde está instalada la cámara.",
+    "displayTitle": "Karon Beach, Phuket · costa sur",
+    "intro": [
+      "Karon es una playa de Phuket de arena blanca que se extiende a lo largo de la costa. Sus alrededores tienen restaurantes y tiendas, por lo que puedes combinar un paseo junto al mar con comida y compras. Está al norte de Kata Beach.",
+      "Si te apetece conocer una franja amplia de arena y mar, descubre primero Karon. La cámara de abajo muestra el mar, la costa y el cielo desde los alrededores de Marina Phuket Resort, en el sur de la playa."
+    ],
+    "sceneParagraphs": [
+      "La cámara mira la parte sur de Karon Beach. Puedes ver la panorámica hacia el mar, las olas y el cielo.",
+      "Phuket tiene varias playas diferentes, como Patong y Kata. Si buscas Karon, abre la imagen identificada como Karon Beach que publica Marina Phuket Resort."
+    ],
+    "faq": [],
+    "mapLabel": "Sur de Karon Beach",
+    "placeSources": [
+      {
+        "label": "Gobierno provincial de Phuket · Karon Beach",
+        "url": "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php"
+      }
+    ]
+  },
+  "phuket-kata-surf": {
+    "place": "Kata Beach",
+    "preview": "Puedes ver el mar y las olas de Kata Beach, Phuket, en fotos que se actualizan periódicamente. Descubre la playa antes del viaje en las imágenes publicadas por SSS Phuket.",
+    "context": "Kata es una playa de Phuket. Esta vista pública se presenta como una panorámica de surf de Kata Beach y se ofrece en fotos que cambian periódicamente, no como vídeo continuo.",
+    "watch": "Mira la hora de captura indicada en la foto al observar la playa. No deduzcas de la forma de las olas en una sola imagen si se puede surfear o entrar en el agua.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se muestra una referencia de los alrededores redondeando el centro del mapa del proveedor. No son coordenadas de la instalación exacta de la cámara ni de un acceso para visitantes.",
+    "displayTitle": "Kata Beach, Phuket · fotos del mar y las olas",
+    "intro": [
+      "La zona de Kata, en Phuket, tiene dos playas: Kata Yai y Kata Noi. Alrededor hay alojamientos, comercios y servicios turísticos: un lugar para plantear una estancia junto al mar.",
+      "Aquí puedes ver fotos del mar y las olas de Kata Beach publicadas por SSS Phuket. Se renuevan periódicamente. Si te interesa el paisaje de Kata, mira primero la costa junto con la hora en la que se tomó la imagen."
+    ],
+    "sceneParagraphs": [
+      "Las fotos muestran el mar frente a Kata Beach y las olas que llegan a la costa. Cuando cambie la imagen, puedes comparar cómo han variado el oleaje y el cielo.",
+      "Si piensas bañarte o surfear, distingue las olas de la foto de las indicaciones de seguridad del lugar. Decide si puedes entrar en el agua según las banderas y las instrucciones de la playa."
+    ],
+    "faq": [
+      [
+        "¿La cámara de Kata Beach es un vídeo?",
+        "Esta entrada muestra fotos que cambian periódicamente. Reflejan la playa en la hora indicada y no muestran un movimiento continuo de las olas como un vídeo."
+      ]
+    ],
+    "mapLabel": "Alrededores de Kata Beach",
+    "placeSources": [
+      {
+        "label": "Gobierno provincial de Phuket · Kata Beach",
+        "url": "https://www.phuket.go.th/eng/Beaches-Kata%20Beach.php"
+      }
+    ]
+  },
+  "phangan-sanskara": {
+    "place": "Haad Rin Beach",
+    "preview": "Descubre la costa y las olas de Haad Rin Beach, en Koh Phangan. La imagen muestra el mar frente a House of Sanskara.",
+    "context": "Haad Rin es una playa de Koh Phangan. House of Sanskara es el nombre del lugar que publica esta cámara, orientada hacia la costa y el mar.",
+    "watch": "Consulta esta imagen si te interesa la costa y el oleaje de Haad Rin Beach. La hora de captura indicada ayuda a saber de cuándo es el paisaje.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "El mapa señala los alrededores de Haad Rin Beach. No se ha confirmado el punto exacto donde está instalada la cámara.",
+    "displayTitle": "Haad Rin Beach, Koh Phangan · mar frente a Sanskara",
+    "intro": [
+      "Haad Rin es una playa de Koh Phangan. Para conocer su paisaje costero, descubre la vista de la orilla publicada por House of Sanskara.",
+      "La cámara mira la costa de Haad Rin y el mar que tiene delante. Antes de viajar a Koh Phangan, puedes ver en el vídeo de abajo las olas y el cielo local para descubrir cómo es la playa."
+    ],
+    "sceneParagraphs": [
+      "La imagen mira desde Haad Rin Beach hacia el mar. Puedes observar las olas que llegan a la costa y descubrir la playa de Koh Phangan de una forma más viva que en una foto.",
+      "La vista abarca los alrededores de Haad Rin. Entiéndela como un primer vistazo a una de las costas que podrías visitar, más que como una panorámica que represente toda Koh Phangan."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Haad Rin Beach"
+  },
+  "samui-two-palms": {
+    "place": "Bang Po Beach",
+    "preview": "Vista del mar desde Bang Po Beach, en Koh Samui. Descubre antes del viaje la costa frente a Two Palms.",
+    "context": "Bang Po es una playa de Koh Samui. Two Palms es el lugar que publica esta vista del mar. Al elegir una imagen, fíjate tanto en la isla como en el nombre de la playa.",
+    "watch": "Elige esta cámara si te interesa el paisaje costero de Bang Po. Al compararla con otras de Koh Samui, recuerda que no todas muestran la misma playa.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se muestra una referencia de los alrededores redondeando el centro del mapa del proveedor. No son coordenadas de la instalación exacta de la cámara ni de un acceso para visitantes.",
+    "displayTitle": "Bang Po Beach, Koh Samui · mar frente a Two Palms",
+    "intro": [
+      "Bang Po es una playa de Koh Samui. La vista desde Two Palms muestra el paisaje cercano a la costa. Si te interesa esa zona de playa, puedes descubrirla en esta imagen.",
+      "Koh Samui tiene varias playas, por lo que el nombre de la isla no basta para imaginar cómo es el lugar donde vas a alojarte. Mirar juntos el nombre Bang Po y la vista frente a Two Palms ayuda a conocer mejor el destino."
+    ],
+    "sceneParagraphs": [
+      "La cámara muestra el mar y la costa frente a Bang Po Beach. La perspectiva cercana a la playa permite ver cómo se encuentran la orilla y el agua.",
+      "El vídeo publica la vista desde Two Palms. Si te interesa Bang Po, descubre primero la costa donde llegan las olas y el paisaje hacia el mar."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Bang Po Beach"
+  },
+  "samui-black-pearl": {
+    "place": "Lamai Beach frente a Black Pearl",
+    "preview": "El mar frente al restaurante Black Pearl, en Lamai Beach. La imagen muestra la costa y las olas de Koh Samui.",
+    "context": "Black Pearl es un restaurante de Lamai Beach, Koh Samui. Esta cámara muestra el mar y la costa frente al local. Distinguir Lamai, la playa, de Black Pearl, el lugar proveedor, ayuda a encontrar la imagen.",
+    "watch": "Consulta esta vista para ver de cerca el mar de Lamai Beach. También puedes mirar la cámara pública de Baobab, en la misma playa.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-baobab"
+    ],
+    "location": "La referencia de los alrededores de Black Pearl, en Lamai Beach, procede del centro redondeado del mapa del proveedor. No representa la instalación exacta de la cámara ni un acceso para visitantes.",
+    "displayTitle": "Lamai Beach, Koh Samui · mar frente a Black Pearl",
+    "intro": [
+      "Lamai es una playa de Koh Samui conocida por la curva de su bahía y las hileras de cocoteros. Encaja si, además de arena y mar, te apetece descubrir el paisaje de una playa tropical.",
+      "Si estás preparando un viaje por Lamai, descubre primero la costa en el vídeo publicado por Black Pearl. La imagen muestra el mar y las olas frente a la playa, en lugar de una panorámica de la isla desde lo alto."
+    ],
+    "sceneParagraphs": [
+      "La cámara muestra las olas que llegan a la costa frente a Black Pearl y el mar más allá. Encaja si te intriga el paisaje que se abre al mirar hacia el agua desde Lamai Beach.",
+      "La cámara frente a Baobab también se dirige a Lamai Beach. En el enlace relacionado de abajo puedes descubrir el paisaje publicado desde allí."
+    ],
+    "faq": [],
+    "mapLabel": "Lamai Beach · alrededores de Black Pearl",
+    "placeSources": [
+      {
+        "label": "Directorio turístico de Tailandia · Lamai Beach",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-crystal-beach": {
+    "place": "Silver Beach",
+    "preview": "Mar y costa de los alrededores de Silver Beach, Koh Samui. Descubre la playa en la imagen presentada como Crystal Bay Beach Cam.",
+    "context": "Silver Beach es una playa de Koh Samui. Esta página enlaza la vista pública llamada Crystal Bay Beach Cam; la referencia de ubicación conservada también corresponde a los alrededores de Silver Beach.",
+    "watch": "Distingue esta página del proveedor de la cámara de Crystal Bay que menciona el club náutico. Que aparezcan en entradas separadas no garantiza que sean cámaras físicas distintas ni ángulos diferentes.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se muestra una referencia de los alrededores redondeando el centro del mapa del proveedor. No son coordenadas de la instalación exacta de la cámara ni de un acceso para visitantes.",
+    "displayTitle": "Silver Beach, Koh Samui · paisaje de Crystal Bay",
+    "intro": [
+      "Silver Beach es una playa de Koh Samui. Para descubrir su costa y su mar, abre la vista presentada como Crystal Bay Beach Cam.",
+      "Es una panorámica para conocer los alrededores de Silver Beach antes del viaje. Puedes abrir el vídeo de SamuiWebcam en la página que lo presenta en Webcamtaxi."
+    ],
+    "sceneParagraphs": [
+      "Esta cámara tiene como objeto el mar y la costa alrededor de Silver Beach. El paisaje frente a la playa permite descubrir cómo es esta orilla de Koh Samui.",
+      "El nombre Crystal Bay también se utiliza en la cámara del club náutico. Esta página lleva a la vista presentada en Webcamtaxi como «Crystal Bay Beach». Aunque sean entradas separadas, no se ha confirmado que ofrezcan ángulos distintos."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Silver Beach"
+  },
+  "pattaya-beach-panorama": {
+    "place": "Pattaya Beach",
+    "preview": "Pattaya es una ciudad de playa del golfo de Tailandia, en el este del país. Descubre su costa en una panorámica amplia de la playa y el mar.",
+    "context": "Pattaya es una ciudad costera del golfo de Tailandia, en el este del país. Esta cámara se presenta como una vista amplia de la playa y del mar. No se muestra un marcador porque no está confirmada la ubicación exacta de la toma.",
+    "watch": "Elige esta imagen si buscas una panorámica amplia que reúna playa y mar. Si no aparece, comprueba primero el estado de la emisión y la hora de captura en el proveedor.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se presenta como una panorámica de Pattaya Beach, pero no hay marcador en el mapa porque no se ha confirmado la ubicación exacta de la toma.",
+    "displayTitle": "Pattaya Beach · panorámica del mar",
+    "intro": [
+      "Pattaya es una ciudad de playa del golfo de Tailandia, en el este del país. Si te interesa su costa, descubre esta panorámica amplia de la playa y el mar.",
+      "La vista reúne la costa y el agua en una imagen extensa, en lugar de centrarse en una escena cercana de un extremo de la playa. Puedes abrirla para conocer el ambiente del litoral antes de organizar tu viaje a Pattaya."
+    ],
+    "sceneParagraphs": [
+      "La imagen abarca Pattaya Beach y el mar que tiene delante. La orilla y el agua se prolongan una junto a otra y muestran el paisaje de la ciudad costera.",
+      "El encuadre es más amplio que el de una cámara de olas a pie de arena. Para conocer la costa de Pattaya con una vista general, abre la panorámica de SkylineWebcams de abajo."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Pattaya Beach"
+  },
+  "samet-cocoon": {
+    "place": "Mar frente a Na Dan Pier, Koh Samet",
+    "preview": "Vista hacia el continente desde los alrededores de Na Dan Pier, Koh Samet. La cámara de The Cocoon Hostel muestra las olas y el cielo frente a la isla.",
+    "context": "Koh Samet es una isla de Tailandia y Na Dan es el muelle mencionado en esta cámara. El operador presenta la imagen como una vista hacia el continente desde los alrededores de Na Dan Pier.",
+    "watch": "Consulta la vista si te interesa el paisaje hacia el continente desde la isla. Aunque muestra los alrededores del muelle, no es un servicio de horarios de barcos ni confirma si puedes embarcar.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "El proveedor sitúa la vista en los alrededores de Na Dan Pier. No se muestra un marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Na Dan Pier, Koh Samet · mar hacia el continente",
+    "intro": [
+      "Koh Samet es una isla de Tailandia. Desde los alrededores de Na Dan Pier puedes contemplar el mar que se abre hacia el continente. Es una perspectiva diferente para conocer la costa de la isla.",
+      "The Cocoon Hostel publica una cámara del mar y el cielo de esta zona. Antes de viajar a la isla puedes descubrir cómo es el agua frente a los alrededores de Na Dan Pier."
+    ],
+    "sceneParagraphs": [
+      "La cámara mira hacia el continente desde los alrededores de Na Dan Pier. La imagen reúne las olas frente a la isla y las nubes sobre el mar.",
+      "Permite ver el paisaje de los alrededores del muelle, pero no es un panel de salidas de barcos. Al preparar la visita a Koh Samet, distingue la vista del mar de la información real de transporte."
+    ],
+    "faq": [
+      [
+        "¿Hacia dónde mira la cámara de Koh Samet?",
+        "Hacia el continente desde los alrededores de Na Dan Pier. Muestra las olas y el cielo frente a la isla, pero no ofrece horarios de navegación."
+      ]
+    ],
+    "mapLabel": "Mar frente a los alrededores de Na Dan Pier"
+  },
+  "tao-island-skyline": {
+    "place": "Playa y bahía de Koh Tao",
+    "preview": "Vista de una bahía y unas islas desde una playa de Koh Tao. Descubre su costa en un paisaje donde aparecen islas al otro lado del mar.",
+    "context": "Koh Tao es una isla de Tailandia. Esta cámara pública se presenta como una vista de la bahía y las islas desde su playa. No hay marcador porque no se han obtenido coordenadas exactas de la instalación.",
+    "watch": "Elige esta vista si te interesa ver juntos una bahía e islas, además de las olas cercanas a la playa. Consulta en el proveedor la hora real de las imágenes.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se presenta según la zona de toma indicada por el proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación de la cámara.",
+    "displayTitle": "Koh Tao · playa con vistas a la bahía y las islas",
+    "intro": [
+      "Koh Tao es una isla de Tailandia. Desde esta playa puedes ver no solo el mar, sino también una bahía y unas islas. Si estás pensando en viajar a la isla, descubre primero el paisaje en vídeo.",
+      "Esta página enlaza una cámara de la bahía y las islas vistas desde una playa de Koh Tao. SkylineWebcams permite ver una panorámica que abarca desde la costa cercana hasta el otro lado del agua."
+    ],
+    "sceneParagraphs": [
+      "En la misma imagen aparecen la bahía frente a la playa de Koh Tao y las islas más allá del mar. El paisaje combina agua e islas en lugar de mostrar solo las olas de cerca.",
+      "Descubre la costa de Koh Tao a través de la forma de la bahía que muestra la cámara. No indica el recorrido de visita ni la entrada a una playa concreta: elige por separado el destino real del desplazamiento."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de la playa y bahía de Koh Tao"
+  },
+  "samui-bophut-beach": {
+    "place": "Bophut Beach",
+    "preview": "Bophut es una playa del norte de Koh Samui. La página pública de la cámara muestra su costa y el mar.",
+    "context": "Bophut es una playa del norte de Koh Samui. Esta página presenta su paisaje marino, pero no está confirmada la ubicación exacta del equipo.",
+    "watch": "Busca Bophut si quieres ver una playa del norte de Koh Samui. No se ha confirmado la reproducción actual: consulta directamente la imagen del proveedor.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se presenta según la zona de toma indicada por el proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la cámara.",
+    "displayTitle": "Bophut Beach, Koh Samui · mar del norte",
+    "intro": [
+      "Bophut Beach está en el norte de Koh Samui. Si piensas viajar a esa costa, descubre primero cómo es su orilla.",
+      "El enlace de abajo lleva a la cámara orientada hacia Bophut Beach. SkylineWebcams presenta la costa y el mar; puedes consultar en la página original si se está emitiendo."
+    ],
+    "sceneParagraphs": [
+      "El objeto de la toma es Bophut Beach y el mar que tiene delante. Se presenta como una vista de la costa norte de Koh Samui.",
+      "Aunque dos cámaras estén en la misma isla, nombres como Lamai o Choeng Mon indican playas diferentes. Si Bophut es uno de tus posibles destinos, distingue la imagen de esta playa de las demás."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Bophut Beach"
+  },
+  "samui-choengmon": {
+    "place": "Choeng Mon Beach",
+    "preview": "Choeng Mon es una playa del noreste de Koh Samui. En la página de la cámara puedes ver el mar y las olas que llegan a la costa.",
+    "context": "Choeng Mon es una playa del noreste de Koh Samui. Esta cámara pública tiene como objeto sus olas y su paisaje costero. No se han confirmado las coordenadas exactas de la instalación.",
+    "watch": "Distingue Choeng Mon de Bophut y Bang Rak, en el norte de Koh Samui. Cuando cambia el nombre de la playa, también puede cambiar el paisaje que ves.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se presenta según la zona de toma indicada por el proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la cámara.",
+    "displayTitle": "Choeng Mon Beach, Koh Samui · costa noreste",
+    "intro": [
+      "Choeng Mon Beach está en el noreste de Koh Samui. Si estás pensando en esta costa para el viaje, descubre primero su mar y su playa en vídeo.",
+      "La cámara se dirige a la costa y a las olas de Choeng Mon. Al distinguirla de playas llamadas Bophut o Bang Rak, podrás conocer mejor el paisaje del lugar al que quieres viajar."
+    ],
+    "sceneParagraphs": [
+      "El objeto de la imagen es Choeng Mon Beach, el mar frente a ella y las olas que llegan a la costa. Encaja si te interesa cómo es la playa del noreste de Koh Samui.",
+      "Si vas a alojarte por Choeng Mon, fíjate en el nombre de la playa y en su posición al noreste de la isla. Así podrás distinguir el lugar al que vas de las imágenes de otras costas."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Choeng Mon Beach"
+  },
+  "phuket-patong-panorama": {
+    "place": "Ciudad y mar de Patong Bay",
+    "preview": "Patong es una zona de playa de Phuket. Descubre su panorámica con la ciudad, la vegetación y el mar al fondo.",
+    "context": "Patong es el nombre de una zona de playa de Phuket. Esta panorámica se presenta como una vista conjunta de la ciudad, la vegetación y el mar lejano. Es una entrada pública distinta de la cámara de la planta 15 de Patong Tower.",
+    "watch": "Descubre en la imagen cómo se combinan ciudad y mar en Patong. Elige la cámara según quieras ver sobre todo arena o una panorámica conjunta de la ciudad y el agua.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-tower"
+    ],
+    "location": "Se presenta según la zona de toma indicada por el proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la cámara.",
+    "displayTitle": "Patong Bay, Phuket · ciudad y mar",
+    "intro": [
+      "Patong Beach, en Phuket, tiene una franja de arena que sigue una bahía de amplia curva. Alrededor se concentran alojamientos, tiendas y centros comerciales, además de ocio nocturno: encaja si quieres combinar mar y ciudad.",
+      "Si además de la playa te interesa la zona urbana, mira la panorámica de Patong Bay. El mar se extiende más allá de la ciudad y la vegetación. Puedes imaginar cómo sería un viaje alternando la playa y las calles."
+    ],
+    "sceneParagraphs": [
+      "La imagen reúne la ciudad en primer plano, la vegetación y el mar lejano. Permite conocer el paisaje urbano de Patong que cuesta imaginar viendo solo la playa.",
+      "Si quieres ver más arena y costa, también puedes abrir la panorámica de playa desde Patong Tower. Mirar juntas las vistas urbanas y las del mar ayuda a imaginar los alrededores de la playa."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de la ciudad y el mar de Patong Bay",
+    "placeSources": [
+      {
+        "label": "Gobierno provincial de Phuket · Patong Beach",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "krabi-ao-nang-coast": {
+    "place": "Costa de Ao Nang",
+    "preview": "Ao Nang está en la costa del Andamán de Krabi. La cámara pública de GISTDA muestra el mar frente a la costa y el cielo.",
+    "context": "Ao Nang está en Krabi, en la costa del Andamán. Esta vista litoral la publica GISTDA, un organismo público tailandés; el original lleva la indicación NANG OUT. No se presenta como una cámara de hotel.",
+    "watch": "Consulta la imagen si te interesa más el mar litoral y el cielo que la arena. Ver el mar no significa que salgan barcos ni que se puedan realizar actividades náuticas.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se identifica la costa de Ao Nang según la indicación NANG OUT de la imagen del proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Ao Nang, Krabi · paisaje del mar litoral",
+    "intro": [
+      "Ao Nang es una zona de Krabi donde se agrupan alojamientos, restaurantes y tiendas junto a la playa. También es punto de partida para viajes en barco a las islas cercanas o hacia Railay: encaja si quieres alojarte en la costa y combinarla con excursiones.",
+      "La cámara la publica GISTDA, organismo público de Tailandia, y el original está identificado como NANG OUT. Muestra el mar litoral y el cielo local, más que el interior de un hotel o una instalación de playa."
+    ],
+    "sceneParagraphs": [
+      "El objeto de la toma es el mar de la costa de Ao Nang y el cielo sobre él. Encaja si quieres ver un paisaje marítimo en lugar de una escena cercana de arena.",
+      "Puedes ver el mar, pero la imagen no confirma las salidas reales de barcos ni si se pueden realizar actividades marinas. Si vas a navegar, sigue también los avisos de los operadores y la información meteorológica local."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de la costa de Ao Nang",
+    "placeSources": [
+      {
+        "label": "Turismo de Tailandia · Krabi y Ao Nang",
+        "url": "https://www.tourismthailand.org/Destinations/Provinces/krabi/344"
+      }
+    ]
+  },
+  "huahin-centara": {
+    "place": "Hua Hin Beach frente a Centara Grand",
+    "preview": "Hua Hin es una ciudad de vacaciones de playa del centro de Tailandia. La cámara de Centara Grand muestra el mar y la playa frente al hotel.",
+    "context": "Hua Hin es una ciudad de vacaciones de playa del centro de Tailandia. Esta cámara la publica Centara Grand Beach Resort. No se han confirmado las coordenadas exactas de su instalación.",
+    "watch": "Elige esta cámara para descubrir el mar de Hua Hin en una imagen publicada por un hotel. Ver la cámara y alojarse o utilizar las instalaciones del hotel son asuntos diferentes.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-kba"
+    ],
+    "location": "Se presenta según la zona de toma indicada por el proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la cámara.",
+    "displayTitle": "Hua Hin Beach · frente a Centara Grand",
+    "intro": [
+      "Hua Hin es una ciudad de vacaciones de playa del centro de Tailandia. Puedes plantearte un viaje para disfrutar de la arena blanca y el mar y comer pescado y marisco por los alrededores. También encaja con unas vacaciones familiares junto a la playa.",
+      "La cámara publicada por Centara Grand Beach Resort muestra Hua Hin Beach. Si antes del viaje te intriga cómo es el mar de este lugar, abre el vídeo de abajo."
+    ],
+    "sceneParagraphs": [
+      "La cámara recoge Hua Hin Beach desde Centara Grand. Puedes ver juntos la costa frente al hotel y el mar más allá.",
+      "Para descubrir otra perspectiva de Hua Hin, también está la imagen de la escuela de kitesurf KBA. Los enlaces de abajo permiten ir de una presentación a otra, ambas dirigidas a Hua Hin Beach."
+    ],
+    "faq": [],
+    "mapLabel": "Hua Hin Beach · alrededores frente a Centara Grand",
+    "placeSources": [
+      {
+        "label": "Turismo de Tailandia · viaje familiar a Hua Hin",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "huahin-kba": {
+    "place": "Vista de KBA en Hua Hin Beach",
+    "preview": "Mar y cielo de Hua Hin, una ciudad de playa del centro de Tailandia. Puedes ver la cámara publicada por la escuela de kitesurf KBA.",
+    "context": "KBA es el nombre de la escuela Kiteboarding Asia. Esta página presenta su cámara del mar y el tiempo de Hua Hin Beach. Hua Hin es una ciudad de vacaciones de playa del centro de Tailandia.",
+    "watch": "Utiliza esta vista si buscas una imagen de Hua Hin Beach que reúna mar y cielo. No deduzcas del vídeo si se imparten clases ni si pueden realizarse actividades náuticas.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-centara"
+    ],
+    "location": "Se presenta según la zona de toma indicada por el proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la cámara.",
+    "displayTitle": "Hua Hin Beach · mar y cielo frente a KBA",
+    "intro": [
+      "Hua Hin es una ciudad del centro de Tailandia donde se pueden combinar vacaciones de playa y deportes acuáticos. Puede interesarte si buscas arena blanca y paisaje marino o quieres incluir una actividad como el kitesurf en el viaje.",
+      "KBA significa Kiteboarding Asia. Antes de viajar a Hua Hin, puedes utilizar esta imagen para descubrir cómo son el mar frente a la playa y el cielo local."
+    ],
+    "sceneParagraphs": [
+      "La cámara mira el mar frente a Hua Hin Beach. Reúne la costa y el cielo, una vista para quienes quieran conocer el paisaje de playa de Hua Hin.",
+      "Aunque la publica una escuela de kitesurf, el vídeo no confirma si se están impartiendo clases ni si las condiciones permiten realizar actividades en el agua. Si piensas apuntarte, sigue la programación real y las indicaciones de la escuela."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de la vista de KBA en Hua Hin Beach",
+    "placeSources": [
+      {
+        "label": "Turismo de Tailandia · viaje familiar a Hua Hin",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "chaam-thew-talay": {
+    "place": "Vista de Thew Talay en Cha-am",
+    "preview": "Fotos de los alrededores de Thew Talay, Cha-am, renovadas cada pocos minutos. Descubre antes del viaje el paisaje local y el cielo.",
+    "context": "Esta vista pública presenta los alrededores de Thew Talay, Cha-am, en fotografías. Se renuevan cada pocos minutos: que la escena no se mueva continuamente como un vídeo no es por sí mismo un fallo de reproducción.",
+    "watch": "Mira la hora indicada y la siguiente imagen actualizada. Saber cuándo se tomó la foto ayuda a interpretar el paisaje local.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se presenta según la zona de toma indicada por el proveedor. No hay marcador porque no se han confirmado las coordenadas exactas de la cámara.",
+    "displayTitle": "Cha-am · paisaje de Thew Talay",
+    "intro": [
+      "Si te interesa el paisaje de los alrededores de Thew Talay en Cha-am, descubre las fotografías publicadas aquí. Es una forma de ver el lugar antes de tu viaje.",
+      "Las fotos se renuevan cada pocos minutos. No son un vídeo en movimiento continuo; la hora que aparece en ellas indica cuándo se captó el paisaje."
+    ],
+    "sceneParagraphs": [
+      "Las imágenes de los alrededores de Thew Talay se actualizan sucesivamente. Muestran el paisaje de cada instante fotografiado, una forma de verlo distinta de un vídeo continuo.",
+      "Cuando llegue la siguiente foto, podrás observar cómo han cambiado el cielo y el paisaje local. Consultar la hora indicada permite distinguir de qué momento de Cha-am se trata."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de la vista de Thew Talay en Cha-am"
+  },
+  "chainat-chao-phraya": {
+    "place": "Chao Phraya y alrededores de la presa en Chai Nat",
+    "preview": "Descubre el paisaje del Chao Phraya y los alrededores de la presa en Chai Nat. La página pública de la cámara presenta un paisaje fluvial diferente de las playas tailandesas.",
+    "context": "Esta entrada presenta una vista del Chao Phraya y los alrededores de la presa en Chai Nat. Enlaza un sitio intermediario que reúne cámaras públicas, no un operador directo confirmado.",
+    "watch": "Consulta esta vista si te interesa el río y los alrededores de la presa. No se han confirmado el operador original ni la reproducción actual: una etiqueta Online en el sitio no basta para considerarla una emisión en directo.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se utiliza la zona de toma indicada por la página intermediaria. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Chai Nat · Chao Phraya y presa",
+    "intro": [
+      "Los alrededores del Chao Phraya en Chai Nat pueden interesarte si quieres conocer un paisaje tailandés distinto del mar. Esta página presenta una panorámica del río y la presa.",
+      "Puedes encontrar esta vista del río y la presa en la página de cámara presentada por Webcamera24. El enlace de abajo abre la imagen de esa zona."
+    ],
+    "sceneParagraphs": [
+      "Se presenta como una vista conjunta del río y los alrededores de la presa. Si buscas un paisaje fluvial diferente de las playas tailandesas, puedes consultar esta imagen del Chao Phraya."
+    ],
+    "faq": [],
+    "mapLabel": "Chao Phraya y presa de Chai Nat",
+    "sourceNote": "El enlace lleva a un sitio que reúne y presenta cámaras. No se han confirmado el operador original ni el estado actual de la emisión."
+  },
+  "pathum-chao-phraya": {
+    "place": "Chao Phraya en Pathum Thani",
+    "preview": "Vista del Chao Phraya y la ciudad junto al río en Pathum Thani. El enlace lleva a una página de cámara que presenta el paisaje urbano de la ribera.",
+    "context": "Esta página pública se presenta como una vista del Chao Phraya y la ciudad de la ribera en Pathum Thani. Tufaq es el sitio intermediario que presenta la imagen, sin confirmación como operador original de la cámara.",
+    "watch": "Consulta la vista si buscas juntos el río y los edificios de su ribera. Distingue una imagen de presentación de la cámara real y lee la hora indicada en el original.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se utiliza la zona de toma indicada por la página intermediaria. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Pathum Thani · Chao Phraya y ciudad de la ribera",
+    "intro": [
+      "En los alrededores del Chao Phraya en Pathum Thani se puede contemplar el río junto a la ciudad. Si te interesa más el paisaje urbano fluvial que el mar tailandés, busca esta vista.",
+      "Tufaq presenta la cámara del río y de la ciudad junto a él. Es un sitio que reúne y presenta cámaras de varias zonas."
+    ],
+    "sceneParagraphs": [
+      "La vista reúne el río y los edificios situados a su lado. Puede interesarte para conocer un paisaje urbano asentado en la ribera, distinto del de una ciudad de playa."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores del Chao Phraya en Pathum Thani",
+    "sourceNote": "El enlace lleva a un sitio que reúne y presenta cámaras. No se han confirmado el operador original ni el estado actual de la emisión."
+  },
+  "chiangmai-weather-view": {
+    "place": "Paisaje urbano de Chiang Mai",
+    "preview": "Chiang Mai es una ciudad del norte de Tailandia. Para descubrir su paisaje urbano y el cielo local, puedes buscar cámaras públicas y fotos actualizadas.",
+    "context": "Chiang Mai es una ciudad del norte de Tailandia. Este enlace lleva a una página que presenta cámaras públicas y fotos actualizadas de la zona, en lugar de ofrecer directamente una única cámara de un edificio concreto.",
+    "watch": "Después de elegir una cámara, comprueba primero si es vídeo o fotos actualizadas. Que una fotografía no se mueva no implica una avería: consulta también la hora de captura.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se utiliza la zona de toma indicada por la página intermediaria. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Chiang Mai · ciudad y cielo local",
+    "intro": [
+      "Chiang Mai es una ciudad del norte de Tailandia. Si preparas un viaje y te interesa el paisaje local y su cielo, puedes utilizar una página que reúne cámaras y fotografías públicas de la ciudad.",
+      "Esta entrada no muestra directamente una sola cámara instalada en un edificio. En EaseWeather puedes seleccionar cámaras y fotos que se actualizan en la zona de Chiang Mai."
+    ],
+    "sceneParagraphs": [
+      "El lugar que ves dentro de Chiang Mai cambia según la cámara elegida. Mira el nombre que acompaña a la imagen para distinguir a qué parte de la ciudad corresponde.",
+      "Las fotos actualizadas muestran el instante de la captura y no se mueven continuamente como un vídeo. Si te interesa el cielo local, consulta también la hora indicada en la imagen."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores del paisaje urbano de Chiang Mai"
+  },
+  "chiangrai-mae-yao": {
+    "place": "Ban Mae Yao, Chiang Rai",
+    "preview": "Vista presentada como montañas y templos de Ban Mae Yao, Chiang Rai, en el norte de Tailandia. La página de cámara permite buscar un paisaje del norte distinto del litoral.",
+    "context": "Chiang Rai es una ciudad del norte de Tailandia. La página intermediaria presenta esta cámara como un paisaje de montañas y templos de Ban Mae Yao. No se han confirmado la instalación exacta ni el operador original.",
+    "watch": "Consulta esta imagen si buscas montañas y templos en lugar del mar. No la utilices como una guía de visita con lugar de toma confirmado ni para orientarte hasta una instalación.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se utiliza la zona de toma indicada por la página intermediaria. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Ban Mae Yao, Chiang Rai · montañas y templos",
+    "intro": [
+      "Ban Mae Yao se presenta como la zona de toma de una cámara de Chiang Rai, en el norte de Tailandia. Puede interesarte si quieres descubrir montañas y templos del norte en lugar de paisajes marinos.",
+      "Webcamera24 presenta una cámara panorámica de Ban Mae Yao. Abre el enlace de abajo para ir a la página de esa zona."
+    ],
+    "sceneParagraphs": [
+      "La imagen se presenta como un paisaje de montañas y templos. Puedes consultarla si te interesa el norte de Chiang Rai, pero no confirma la ubicación exacta de un templo concreto."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Ban Mae Yao, Chiang Rai",
+    "sourceNote": "El enlace lleva a un sitio que reúne y presenta cámaras. No se han confirmado el operador original ni el estado actual de la emisión."
+  },
+  "chiangrai-wat-thep": {
+    "place": "Alrededores de Wat Thep Bun Yuen, Chiang Rai",
+    "preview": "Imagen presentada como una vista de Wat Thep Bun Yuen y las montañas cercanas, en Chiang Rai. Puedes buscar este paisaje de templo del norte de Tailandia en la página pública de cámara.",
+    "context": "Wat Thep Bun Yuen es el templo mencionado en esta entrada. La página pública presenta una vista del templo y las montañas de Chiang Rai, pero no se ha confirmado la instalación exacta de la cámara.",
+    "watch": "Consulta la vista si te interesa ver juntos un templo y las montañas que lo rodean. No es una guía de horarios de entrada ni de recorridos de visita.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se utiliza la zona de toma indicada por la página intermediaria. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Wat Thep Bun Yuen, Chiang Rai · templo y montañas",
+    "intro": [
+      "Wat Thep Bun Yuen es un templo mencionado en la presentación de una cámara pública de Chiang Rai. Se ofrece como una vista conjunta del templo y las montañas próximas para quienes quieran descubrir el norte de Tailandia.",
+      "Puedes encontrar esta panorámica del templo y las montañas en Webcamera24. El enlace de abajo abre la página de cámara de Wat Thep Bun Yuen, Chiang Rai."
+    ],
+    "sceneParagraphs": [
+      "Se presenta como una panorámica del templo y las montañas cercanas. No es una guía de los espacios visitables dentro del recinto ni señala una entrada para visitantes."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de Wat Thep Bun Yuen, Chiang Rai",
+    "sourceNote": "El enlace lleva a un sitio que reúne y presenta cámaras. No se han confirmado el operador original ni el estado actual de la emisión."
+  },
+  "nakhon-cha-uat": {
+    "place": "Río Cha-uat, Nakhon Si Thammarat",
+    "preview": "Cámara presentada como una vista del río Cha-uat, en Nakhon Si Thammarat. La página pública puede interesarte si quieres conocer paisajes fluviales de Tailandia.",
+    "context": "El río Cha-uat es el objeto de esta página pública de cámara, presentada en la zona de Nakhon Si Thammarat. No se han confirmado la instalación exacta ni el operador original.",
+    "watch": "Consulta la imagen si te interesa un río en lugar de una playa. No se ha confirmado la reproducción actual ni la actualización de fotos: mira el contenido y la hora en la página del proveedor.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se utiliza la zona de toma indicada por la página intermediaria. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Río Cha-uat, Nakhon Si Thammarat · paisaje de la ribera",
+    "intro": [
+      "Cha-uat es el río que esta cámara pública de Nakhon Si Thammarat presenta como objeto de la toma. El enlace permite buscar un paisaje fluvial tailandés diferente de las playas.",
+      "En Webcamera24 puedes encontrar la cámara presentada como río Cha-uat. El enlace lleva a esa página para quienes quieran descubrir el paisaje fluvial de Nakhon Si Thammarat."
+    ],
+    "sceneParagraphs": [
+      "La vista tiene como objeto los alrededores del río Cha-uat. No hay datos que confirmen el punto exacto de la toma, por lo que no se utiliza para identificar una instalación concreta de la ribera ni un recorrido de visita."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores del río Cha-uat, Nakhon Si Thammarat",
+    "sourceNote": "El enlace lleva a un sitio que reúne y presenta cámaras. No se han confirmado el operador original ni el estado actual de la emisión."
+  },
+  "lanta-hat-lant": {
+    "place": "Vista del mar de Hat Lant, Koh Lanta",
+    "preview": "Cámara de Hat Lant presentada como un paisaje marino de Koh Lanta. El enlace lleva a una página de vistas públicas para quienes quieran descubrir el mar de la isla.",
+    "context": "Koh Lanta es una isla de Tailandia. Esta entrada presenta una cámara pública que el intermediario clasifica como vista marina de Hat Lant. El nombre por sí solo no confirma una playa exacta ni dónde está el equipo.",
+    "watch": "Consulta la imagen si te interesa el paisaje marino de Koh Lanta. No se han confirmado el operador original ni la reproducción actual: mira en el proveedor si la imagen se mueve y qué hora indica.",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "Se utiliza la zona de toma indicada por la página intermediaria. No hay marcador porque no se han confirmado las coordenadas exactas de la instalación.",
+    "displayTitle": "Koh Lanta · vista del mar de Hat Lant",
+    "intro": [
+      "Koh Lanta es una isla de Tailandia. Esta cámara, presentada bajo el nombre Hat Lant, tiene como objeto su paisaje marino.",
+      "Puedes encontrar la vista en la página de Webcamera24 que presenta el mar de Koh Lanta. Si te intriga el paisaje antes del viaje, abre el enlace de abajo."
+    ],
+    "sceneParagraphs": [
+      "Es una vista del mar presentada con el nombre Hat Lant. No está confirmada la playa exacta de la toma, por lo que resulta difícil identificarla como el paisaje que encontrarás al visitar una playa concreta."
+    ],
+    "faq": [],
+    "mapLabel": "Alrededores de la vista marina de Hat Lant, Koh Lanta",
+    "sourceNote": "El enlace lleva a un sitio que reúne y presenta cámaras. No se han confirmado el operador original ni el estado actual de la emisión."
+  }
+}

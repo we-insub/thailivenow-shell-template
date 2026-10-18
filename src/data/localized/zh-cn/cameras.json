@@ -1,0 +1,799 @@
+{
+  "phuket-patong-tower": {
+    "place": "芭东海滩",
+    "preview": "普吉岛芭东海滩的沙岸与安达曼海相接。从芭东塔15层，可俯瞰海岸、大海与傍晚风景。",
+    "context": "芭东是泰国南部普吉岛的海滩。镜头不是站在海边，而是从芭东塔15层俯瞰海岸与大海。",
+    "watch": "看看沙滩与海在画面里怎样相接。好奇傍晚海景时，也可以打开这个视角。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-panorama"
+    ],
+    "location": "地图指向芭东塔附近。15层位置来自提供者说明，标记不代表准确摄像机安装点。",
+    "displayTitle": "普吉岛芭东海滩 · 芭东塔景观",
+    "intro": [
+      "普吉岛芭东海滩沿宽阔弧形海湾延伸，周围聚集住宿、商店与购物设施，夜间也有娱乐活动。想把海边与城市活动安排在一起，可以留意这里。",
+      "白天看海、晚上逛周边的行程，芭东值得考虑。镜头从芭东塔15层俯瞰海岸与安达曼海，可在旅行前看看海滩轮廓与海上天空。"
+    ],
+    "sceneParagraphs": [
+      "从15层可以看沙滩与海相接的岸线。不同于靠近海边只看浪花，这里将海岸与安达曼海放进同一画面。",
+      "海上有云层展开，傍晚天空颜色也会变化。考虑去芭东时，可以分别看看白天海岸与日落前后的大海，提前认识风景。"
+    ],
+    "faq": [
+      [
+        "芭东塔镜头能看哪里？",
+        "从15层可看芭东海滩与安达曼海，沙滩、大海相接的岸线与海上云层一起入镜。"
+      ]
+    ],
+    "mapLabel": "芭东塔附近",
+    "placeSources": [
+      {
+        "label": "普吉府政府 · 芭东海滩",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "phuket-cape-panwa": {
+    "place": "潘瓦角",
+    "preview": "潘瓦角位于普吉岛东南海岸。通过直播镜头，看看NĀMA自由潜学校前安静海湾的大海与地平线。",
+    "context": "潘瓦角位于普吉岛东南海岸，镜头面向Tang Khen Bay附近的海湾与大海。",
+    "watch": "出发去普吉岛前，好奇当地海景时，可以打开视频看一会儿。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "地图可看潘瓦角在普吉岛的位置。标记是Tang Khen Bay附近参考点，不是NĀMA摄像机准确安装点或访客入口。",
+    "displayTitle": "普吉岛潘瓦角 · NĀMA Bay海岸风景",
+    "faq": [
+      [
+        "潘瓦角是什么地方？",
+        "普吉岛东南海岸地区，本页可看NĀMA学校前的海湾、大海与地平线，运营方称拍摄海湾为NĀMA Bay。"
+      ],
+      [
+        "直播画面为什么很暗？",
+        "当地夜间海滩和大海可能很暗。想看海、地平线与天空，可在普吉岛白天打开。"
+      ]
+    ],
+    "intro": [
+      "潘瓦角位于普吉岛东南海岸，NĀMA自由潜学校前有一处安静海湾，可从海滩望向大海与地平线。计划看海旅行，可以先认识这片海岸。",
+      "海滩前是NĀMA Freediving Phuket自由潜学校，学校将前方海湾称为NĀMA Bay。下方镜头可看海湾、大海与当地天空相连的风景。"
+    ],
+    "sceneParagraphs": [
+      "从NĀMA前海滩望向大海，海湾外接着地平线与天空，近岸海面到远方可同时看见。",
+      "计划在普吉岛看海，不妨先用视频看看这处海湾。晴天、阴天、白天或夜晚，同一海岸气氛也不同。但这里天气不一定与普吉全岛或外海状态相同。"
+    ],
+    "mapLabel": "Tang Khen Bay附近",
+    "placeSources": [
+      {
+        "label": "NĀMA Freediving · 潘瓦角海湾",
+        "url": "https://www.namafreediving.com/live-webcam"
+      }
+    ]
+  },
+  "samui-crystal-bay": {
+    "place": "水晶湾",
+    "preview": "苏梅岛水晶湾可看白沙滩与岸边海浪，通过游艇俱乐部前镜头提前看看海景。",
+    "context": "水晶湾也称Thongtakian Bay，位于泰国南部泰国湾的苏梅岛。镜头展示游艇俱乐部海滩景观。",
+    "watch": "看看白沙与海浪相接的样子。想看全岛与想看近岸海滩时，可分别选择合适镜头。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "地图指向水晶湾（Thongtakian Bay）海滩附近，准确安装点尚未核实。",
+    "displayTitle": "苏梅岛水晶湾 · 白沙滩与大海",
+    "intro": [
+      "想在苏梅岛找白沙与大海相映的地方，可以看看水晶湾。这里也称Thongtakian Bay，海浪不断来到沙岸。",
+      "旅行前可看Crystal Bay Yacht Club公开的视频。比起全岛，这个画面更近距离地展示本海滩白沙与海面。"
+    ],
+    "sceneParagraphs": [
+      "白沙滩与前方大海同时入镜，海浪来到岸边、又退回去，与一张静态照片不同。",
+      "这是适合想看近岸海面的人选择的视角。计划在苏梅岛海边住宿，可先通过视频认识水晶湾海岸。"
+    ],
+    "faq": [
+      [
+        "水晶湾在哪里？",
+        "在苏梅岛，也称Thongtakian Bay。本页展示游艇俱乐部前的白沙滩与大海。"
+      ]
+    ],
+    "mapLabel": "水晶湾附近"
+  },
+  "samui-baobab": {
+    "place": "拉迈海滩Baobab前",
+    "preview": "从Baobab餐厅前看苏梅岛拉迈沙滩与大海，可看海浪来到岸边。",
+    "context": "拉迈是苏梅岛海滩，Baobab为海边餐厅名称，画面展示餐厅前沙岸与大海。",
+    "watch": "好奇近距离的拉迈海滩，可选择这个镜头。本页用于看风景，不提供餐厅预约或营业时间指南。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-black-pearl"
+    ],
+    "location": "地图指向拉迈海滩Baobab附近，准确安装点尚未核实。",
+    "displayTitle": "苏梅岛拉迈海滩 · Baobab前景观",
+    "intro": [
+      "拉迈是苏梅岛一处弯曲海湾、椰树成排的海滩。除了沙岸与海，也想认识热带海边风景，可以先看看这里。",
+      "好奇拉迈是什么样，可从靠近海边的画面看起。不同于高处俯瞰岛屿，这里能近看沙滩与沿岸海浪。"
+    ],
+    "sceneParagraphs": [
+      "沿Baobab前沙滩望过去，海浪与大海相连，可以看看在拉迈面向海时的风景。",
+      "本页介绍拉迈海滩，Baobab是视频提供餐厅名。同海滩Black Pearl前的风景，也可从下方链接一起看。"
+    ],
+    "faq": [],
+    "mapLabel": "拉迈海滩 · Baobab附近",
+    "placeSources": [
+      {
+        "label": "泰国旅游目录 · 拉迈海滩",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-banyan-tree": {
+    "place": "苏梅岛悦榕庄海湾景观",
+    "preview": "从苏梅岛悦榕庄山坡俯瞰海滩与海湾，可从高处看海岸与海相接。",
+    "context": "悦榕庄是苏梅岛度假酒店，镜头从其山坡俯瞰海滩与海湾，不同于近岸镜头，可从上方看海岸轮廓。",
+    "watch": "看看海滩与海湾如何一起入镜。酒店住宿或海滩出入条件须另看设施说明，不能只凭镜头判断。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "地图指向悦榕庄酒店附近，准确安装点尚未核实。",
+    "displayTitle": "苏梅岛悦榕庄 · 山坡俯瞰海湾",
+    "intro": [
+      "想从高处看苏梅岛海滩，可以看看悦榕庄方向的海湾。山坡视角将海滩与大海一起展开。",
+      "与沙滩前看海的高度不同。准备旅行、想认识海岸整体轮廓时，可用公开镜头先看海湾与海滩。"
+    ],
+    "sceneParagraphs": [
+      "山坡俯瞰下，海滩与海湾同框。不只近岸海面，也能看沙滩沿湾延伸的样子。",
+      "比起想近看浪花的人，这里更适合希望广看海滩与海湾轮廓的人。通过酒店所在位置的镜头，认识这一段海岸。"
+    ],
+    "faq": [],
+    "mapLabel": "苏梅岛悦榕庄附近"
+  },
+  "samui-bang-rak": {
+    "place": "邦拉海滩",
+    "preview": "邦拉位于苏梅岛北岸，镜头可看海岸与前方大海。",
+    "context": "邦拉是苏梅岛北岸海滩，公开镜头面向海滩及其前方海面。",
+    "watch": "想看岛北岸与海相接的风景，可在提供者页面看海岸线与天空。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "地图指向邦拉海滩附近，准确安装点尚未核实。",
+    "displayTitle": "苏梅岛邦拉海滩 · 北岸景观",
+    "intro": [
+      "邦拉海滩位于苏梅岛北岸。旅行时好奇北部海边，可先认识这片海岸与大海相映的风景。",
+      "镜头由SkylineWebcams公开，旅行前想看海岸，可从下方链接打开。"
+    ],
+    "sceneParagraphs": [
+      "镜头面向邦拉海滩与前方大海，沿海岸线延伸的风景能帮助认识苏梅岛北部。",
+      "它与拉迈、水晶湾拍摄的海滩不同。选择住哪一段海岸时，一起看海滩名与岛内位置，更容易区分各地。"
+    ],
+    "faq": [],
+    "mapLabel": "邦拉海滩附近"
+  },
+  "phuket-karon-marina": {
+    "place": "卡伦海滩",
+    "preview": "从卡伦海滩南侧看海岸与海面。Marina Phuket Resort公开的视频可看卡伦大海与天空。",
+    "context": "卡伦是普吉岛海滩，镜头从南侧Marina Phuket Resort附近看海岸与大海。",
+    "watch": "芭东、卡塔与卡伦都是不同海滩。好奇卡伦，可从这个画面看海岸与海浪。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "地图指向卡伦南侧酒店附近，准确安装点尚未核实。",
+    "displayTitle": "普吉岛卡伦海滩 · 南侧海岸景观",
+    "intro": [
+      "卡伦有长长的白沙滩，周围有餐厅与商店，适合考虑海边游览后吃饭、购物的旅行。它位于卡塔海滩北侧。",
+      "想看开阔沙滩与大海，可以先认识卡伦。下方镜头从南侧Marina Phuket Resort附近望向大海、海岸与天空。"
+    ],
+    "sceneParagraphs": [
+      "镜头拍摄卡伦南侧海岸，可同时看开阔海面、海浪与天空。",
+      "普吉有芭东、卡塔等不同海滩。想找卡伦风景，可打开Marina Phuket Resort的Karon Beach画面。"
+    ],
+    "faq": [],
+    "mapLabel": "卡伦海滩南侧",
+    "placeSources": [
+      {
+        "label": "普吉府政府 · 卡伦海滩",
+        "url": "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php"
+      }
+    ]
+  },
+  "phuket-kata-surf": {
+    "place": "卡塔海滩",
+    "preview": "通过定期更新照片看普吉卡塔大海与海浪，SSS Phuket的照片可帮助旅行前认识海滩。",
+    "context": "卡塔是普吉岛海滩，公开画面介绍冲浪景观，以定期更换照片提供，并非连续视频。",
+    "watch": "请结合照片拍摄时间看海滩，不要只凭一张浪花照片判断能否冲浪或下海。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "坐标为提供页地图中心四舍五入后的参考点，不是摄像机安装点或访客入口。",
+    "displayTitle": "普吉岛卡塔海滩 · 大海与海浪更新照片",
+    "intro": [
+      "卡塔地区有Kata Yai与Kata Noi两处海滩，周围聚集住宿、购物和旅游服务，可考虑以海边为中心度假。",
+      "本页展示SSS Phuket公开的卡塔海浪照片，定期更换。好奇卡塔风景，可结合拍摄时间提前看海岸。"
+    ],
+    "sceneParagraphs": [
+      "照片可看卡塔近海与来到岸边的浪，下一张更新后，也能比较海浪与天空的变化。",
+      "想下海或冲浪时，要分清照片与现场安全提示。实际是否下水，以海滩旗帜与现场指引决定。"
+    ],
+    "faq": [
+      [
+        "卡塔镜头是视频吗？",
+        "本项为定期更新照片，展示拍摄时刻的海滩，不会像连续视频那样持续播放浪花。"
+      ]
+    ],
+    "mapLabel": "卡塔海滩附近",
+    "placeSources": [
+      {
+        "label": "普吉府政府 · 卡塔海滩",
+        "url": "https://www.phuket.go.th/eng/Beaches-Kata%20Beach.php"
+      }
+    ]
+  },
+  "phangan-sanskara": {
+    "place": "哈林海滩",
+    "preview": "可看帕岸岛哈林海岸与海浪，视频从House of Sanskara前望向大海。",
+    "context": "哈林位于帕岸岛，House of Sanskara为画面提供者名称，镜头面向海岸与大海。",
+    "watch": "好奇哈林海岸和浪花，可一起看画面时间，便于了解是什么时候的风景。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "地图指向哈林海滩附近，准确安装点尚未核实。",
+    "displayTitle": "帕岸岛哈林海滩 · Sanskara前大海",
+    "intro": [
+      "哈林是帕岸岛海滩，想知道这里海边什么样，可看看House of Sanskara公开的海岸视角。",
+      "镜头面向哈林海岸与大海。准备帕岸岛旅行、想先看海滩，可在下方视频中一起看浪与当地天空。"
+    ],
+    "sceneParagraphs": [
+      "画面从哈林海边望向海，海浪沿岸而来，比照片更生动地展现帕岸海边。",
+      "画面范围为哈林周边，并不代表全岛风景。可以把它当作提前认识旅行中某一段海岸的窗口。"
+    ],
+    "faq": [],
+    "mapLabel": "哈林海滩附近"
+  },
+  "samui-two-palms": {
+    "place": "邦坡海滩",
+    "preview": "从苏梅岛邦坡海滩看海，通过Two Palms前海岸视频提前认识这里。",
+    "context": "邦坡是苏梅岛海滩，Two Palms为海景提供者名称。选镜头时一起看岛名与海滩名。",
+    "watch": "好奇邦坡海岸可选此镜头。不同苏梅镜头并不都拍同一海滩。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "坐标为提供页地图中心四舍五入后的参考点，不是安装点或访客入口。",
+    "displayTitle": "苏梅岛邦坡海滩 · Two Palms前大海",
+    "intro": [
+      "邦坡位于苏梅岛，Two Palms镜头展示近岸风景。对邦坡海边感兴趣，可看看这里的视频。",
+      "苏梅有多个海滩，仅看岛名不易想象住处风景。把邦坡名称与Two Palms视角放在一起，更能具体认识目的地。"
+    ],
+    "sceneParagraphs": [
+      "镜头可看邦坡前方海面与海岸，近岸视角让海与岸相接的样子更清楚。",
+      "这是Two Palms方向公开画面，关注邦坡时，可先看看海浪来到岸边与海面延伸的风景。"
+    ],
+    "faq": [],
+    "mapLabel": "邦坡海滩附近"
+  },
+  "samui-black-pearl": {
+    "place": "拉迈海滩Black Pearl前",
+    "preview": "从拉迈海滩Black Pearl餐厅前看海，视频展示苏梅岛海岸与海浪。",
+    "context": "Black Pearl是拉迈海边餐厅名。分清海滩名与提供地点，找画面更容易。镜头看餐厅前大海与海岸。",
+    "watch": "想近看拉迈大海，可选此镜头，也可一起看同海滩Baobab公开画面。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "samui-baobab"
+    ],
+    "location": "提供页地图中心四舍五入后，指向拉迈Black Pearl附近；不是安装点或访客入口。",
+    "displayTitle": "苏梅岛拉迈海滩 · Black Pearl前大海",
+    "intro": [
+      "拉迈以弧形海湾与成排椰树为特色，想看沙滩、大海与热带海边风景，可先认识这里。",
+      "计划去拉迈，可先看Black Pearl视频。它并非高处俯瞰岛屿，而是展示海滩前大海与浪花。"
+    ],
+    "sceneParagraphs": [
+      "镜头记录海浪来到Black Pearl前岸边与远方海面，适合好奇站在拉迈面对大海是什么风景的人。",
+      "Baobab镜头也拍同一拉迈海滩，下方相关链接可看另一个提供页面。"
+    ],
+    "faq": [],
+    "mapLabel": "拉迈海滩 · Black Pearl附近",
+    "placeSources": [
+      {
+        "label": "泰国旅游目录 · 拉迈海滩",
+        "url": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ]
+  },
+  "samui-crystal-beach": {
+    "place": "银滩",
+    "preview": "苏梅岛银滩周边的海与岸，可从Crystal Bay Beach镜头看海滩风景。",
+    "context": "银滩位于苏梅岛，本页介绍名为Crystal Bay Beach的公开画面，原位置说明也以银滩附近为准。",
+    "watch": "请分清名称含Yacht Club的水晶湾页面。分列为不同项目，并不保证是不同设备或角度。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "提供页地图中心四舍五入后指向银滩附近，不是准确安装点或访客入口。",
+    "displayTitle": "苏梅岛银滩 · 水晶湾风景",
+    "intro": [
+      "银滩是苏梅岛海滩，想看这里海岸与大海，可以打开Crystal Bay Beach画面。",
+      "旅行前想认识银滩周边，可从Webcamtaxi介绍SamuiWebcam的页面打开视频。"
+    ],
+    "sceneParagraphs": [
+      "镜头拍摄银滩周边大海与海岸，可通过近岸风景认识苏梅岛这一段海边。",
+      "Crystal Bay名称也用于游艇俱乐部镜头。本页连接Webcamtaxi的Crystal Bay Beach，虽然列表分开，是否不同角度尚未确认。"
+    ],
+    "faq": [],
+    "mapLabel": "银滩附近"
+  },
+  "pattaya-beach-panorama": {
+    "place": "芭提雅海滩",
+    "preview": "芭提雅是泰国东部泰国湾海滨城市，通过宽幅全景认识海滩与海岸。",
+    "context": "芭提雅是泰国东部泰国湾海滨城市，镜头广看海滩与大海。准确拍摄点未核实，因此不显示地图标记。",
+    "watch": "想看海滩与海同框的宽阔景观，可选此项。画面不可见时，查看提供页播出状态与拍摄时间。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "介绍为芭提雅海滩景观，准确拍摄位置未核实，因此无地图标记。",
+    "displayTitle": "芭提雅海滩 · 海景全景",
+    "intro": [
+      "芭提雅位于泰国东部泰国湾。好奇这座海滨城市，可先看海滩与海面广泛展开的景观。",
+      "全景不是海滩一角的近镜，而是海岸与海共同展开。计划旅行、想认识海边气氛，可打开视频。"
+    ],
+    "sceneParagraphs": [
+      "宽幅画面展示海滩与前方大海，海岸与海相伴延伸，呈现海滨城市景色。",
+      "视野范围不同于近岸只拍浪花的镜头。想广看芭提雅海岸，可打开下方SkylineWebcams全景。"
+    ],
+    "faq": [],
+    "mapLabel": "芭提雅海滩附近"
+  },
+  "samet-cocoon": {
+    "place": "沙美岛纳丹码头前海域",
+    "preview": "从沙美岛纳丹码头附近望向大陆，可通过The Cocoon Hostel镜头看岛前海浪与天空。",
+    "context": "沙美是泰国岛屿，纳丹为码头名，运营方说明镜头从码头附近朝大陆看海。",
+    "watch": "好奇从岛上望向大陆的景色，可以查看。虽拍码头周边，但不是实时时刻表或能否登船的服务。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "提供者说明为Na Dan Pier附近视角，准确安装坐标未核实，因此不显示地图标记。",
+    "displayTitle": "沙美岛纳丹码头附近 · 朝向大陆的大海",
+    "intro": [
+      "沙美岛纳丹码头周边可看从岛向大陆展开的大海，是从另一个方向认识岛边风景的视角。",
+      "The Cocoon Hostel公开这里的海与天空，赴岛旅行前可先认识纳丹码头附近海面。"
+    ],
+    "sceneParagraphs": [
+      "画面从纳丹码头附近望向大陆，海浪与上方云层同时入镜。",
+      "这是码头周边风景，并非船只出航时刻表。准备去沙美岛，请把海景与实际船班说明分别查看。"
+    ],
+    "faq": [
+      [
+        "沙美镜头朝向哪里？",
+        "从纳丹码头附近朝大陆看海，可看岛前海浪与天空，不提供船班时刻表。"
+      ]
+    ],
+    "mapLabel": "沙美岛纳丹码头前海域附近"
+  },
+  "tao-island-skyline": {
+    "place": "涛岛海滩与海湾",
+    "preview": "从涛岛海边可同时看海湾与远处岛屿，提前认识海岸风景。",
+    "context": "涛岛是泰国岛屿，镜头介绍为海滩向海湾与岛屿的景观，准确安装坐标未取得，因此无地图标记。",
+    "watch": "想看近岸浪花之外的海湾与岛屿，可选此项。具体拍摄时间请看提供页。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按提供者介绍的拍摄地区说明，准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "涛岛 · 可见海湾与岛屿的海滩",
+    "intro": [
+      "涛岛是泰国岛屿，海边视角不仅有大海，也有海湾与岛屿。考虑海岛旅行，可先用视频认识风景。",
+      "本页连接涛岛海边望向海湾与岛屿的镜头，SkylineWebcams画面同时展示近岸到远海。"
+    ],
+    "sceneParagraphs": [
+      "海滩前海湾与远处岛屿一起入镜，比起近看浪花，更适合看海与岛相映的全景。",
+      "通过海湾画面认识涛岛海岸。它不是特定海滩的访客路线或入口指引，实际目的地须另行确定。"
+    ],
+    "faq": [],
+    "mapLabel": "涛岛海滩与海湾附近"
+  },
+  "samui-bophut-beach": {
+    "place": "波普海滩",
+    "preview": "波普在苏梅岛北侧，公开镜头页可看海岸与大海。",
+    "context": "波普是苏梅岛北侧海滩，本页介绍其海景，准确设备位置未核实。",
+    "watch": "想看苏梅岛北部海滩，可按波普名称查找。当前播放未确认，需要直接查看提供页。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按提供者介绍的地区说明，准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "苏梅岛波普海滩 · 北岸海景",
+    "intro": [
+      "波普在苏梅岛北侧，计划在北岸旅行，可先看看这片海岸。",
+      "下方链接通往SkylineWebcams波普镜头，介绍海岸与海景，当前播出情况可在原页查看。"
+    ],
+    "sceneParagraphs": [
+      "拍摄对象为波普海滩及前方大海，介绍为苏梅岛北岸景观。",
+      "同岛镜头若名称为拉迈或曾蒙，拍摄对象就不同。把波普作为旅行候选时，请分清本海滩画面。"
+    ],
+    "faq": [],
+    "mapLabel": "波普海滩附近"
+  },
+  "samui-choengmon": {
+    "place": "曾蒙海滩",
+    "preview": "曾蒙位于苏梅岛东北，可在镜头页看大海与岸边浪花。",
+    "context": "曾蒙是苏梅岛东北海滩，镜头介绍对象为海岸与海浪，准确安装坐标未核实。",
+    "watch": "与北侧波普、邦拉分开查看，海滩名称不同，所看风景也可能不同。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按提供者介绍地区说明，准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "苏梅岛曾蒙海滩 · 东北海岸",
+    "intro": [
+      "曾蒙位于苏梅岛东北，考虑这一侧海岸时，可先通过视频看海与海滩。",
+      "镜头拍曾蒙海岸与海浪。与波普、邦拉等名称分清，就能更具体认识想去的地方。"
+    ],
+    "sceneParagraphs": [
+      "拍摄对象为曾蒙海滩、近海与来到岸边的海浪，适合好奇苏梅东北海边的人。",
+      "计划住曾蒙，可把海滩名与东北位置一起看，与其他海岸镜头区分，认识实际想去的地方。"
+    ],
+    "faq": [],
+    "mapLabel": "曾蒙海滩附近"
+  },
+  "phuket-patong-panorama": {
+    "place": "芭东湾城市与大海",
+    "preview": "芭东是普吉岛海滩地区，全景可同时看城市、绿地与远方海面。",
+    "context": "芭东是普吉岛海滩地区，本全景展示市区、绿地和远海，是与芭东塔15层镜头分别列出的公开页面。",
+    "watch": "看看芭东如何同时容纳城市与大海。按想看沙滩，还是城市加海景，选择镜头。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "phuket-patong-tower"
+    ],
+    "location": "按提供者介绍地区说明，准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "普吉岛芭东湾 · 城市与海景",
+    "intro": [
+      "芭东沿宽阔弧形海湾延伸，周边聚集住宿、商店与购物设施，晚上也有娱乐活动，适合想兼顾海边与城市的旅客。",
+      "除了海滩，也好奇市区时，可看芭东湾全景。城市与绿地外是大海，帮助想象在海边与城区之间度过的旅行。"
+    ],
+    "sceneParagraphs": [
+      "画面前方的城市、绿地与远海相连，也呈现仅看沙滩不易想象的芭东市区。",
+      "想更多看沙滩与海岸，可看芭东塔视角。一起认识市区与海景，更容易想象海滩周边。"
+    ],
+    "faq": [],
+    "mapLabel": "芭东湾城市与大海附近",
+    "placeSources": [
+      {
+        "label": "普吉府政府 · 芭东海滩",
+        "url": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ]
+  },
+  "krabi-ao-nang-coast": {
+    "place": "奥南沿岸",
+    "preview": "奥南位于甲米安达曼海沿岸，可通过GISTDA镜头看近海与天空。",
+    "context": "奥南在甲米安达曼海岸，镜头由泰国公共机构GISTDA公开，原画面标NANG OUT，并非酒店摄像头。",
+    "watch": "想看沿岸海面与天空、而非沙滩近景，可选此项。能看海不代表船只正在航行或海上活动可进行。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按原画面NANG OUT标记介绍奥南沿岸，准确坐标未核实，因此无地图标记。",
+    "displayTitle": "甲米奥南 · 沿岸海景",
+    "intro": [
+      "奥南沿海聚集住宿、餐厅和商店，也是坐船去周边岛屿或莱利方向的出发地，适合想在海岸住宿并安排海岛旅行的人。",
+      "镜头由GISTDA公开，原画面写NANG OUT。它看的是沿海海面与当地天空，不是酒店或海滩设施内部。"
+    ],
+    "sceneParagraphs": [
+      "拍摄对象为奥南沿岸海面与天空，适合比沙滩近景更想看海上风景的人。",
+      "可以看海，但不能据此确定实际船班或海上活动能否进行。计划坐船，仍须遵守运营与现场天气通知。"
+    ],
+    "faq": [],
+    "mapLabel": "奥南沿岸附近",
+    "placeSources": [
+      {
+        "label": "泰国旅游局 · 甲米与奥南",
+        "url": "https://www.tourismthailand.org/Destinations/Provinces/krabi/344"
+      }
+    ]
+  },
+  "huahin-centara": {
+    "place": "华欣海滩Centara Grand前",
+    "preview": "华欣是泰国中部海滨度假城市，可通过Centara Grand镜头看酒店前海滩与大海。",
+    "context": "华欣是泰国中部海滨度假城市，此画面由Centara Grand Beach Resort公开，准确安装坐标未核实。",
+    "watch": "想通过酒店提供画面看华欣海景，可选此项。观看镜头与酒店住宿、设施使用是不同事项。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-kba"
+    ],
+    "location": "按提供者地区说明介绍，准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "华欣海滩 · Centara Grand前景观",
+    "intro": [
+      "华欣是泰国中部海滨度假城市，可以看白沙与海，再在周边吃海鲜，也适合家人一起在海边度假。",
+      "Centara Grand Beach Resort公开华欣海滩镜头，出发前好奇海边是什么样，可打开下方视频。"
+    ],
+    "sceneParagraphs": [
+      "镜头为酒店方向的华欣海滩，前方海岸与远处海面一起入镜。",
+      "想看华欣其他海滩视角，也有KBA风筝冲浪学校画面。两项都拍华欣海滩，可用下方链接往返查看。"
+    ],
+    "faq": [],
+    "mapLabel": "华欣海滩Centara Grand前附近",
+    "placeSources": [
+      {
+        "label": "泰国旅游局 · 华欣家庭旅行",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "huahin-kba": {
+    "place": "华欣海滩KBA视角",
+    "preview": "泰国中部度假城市华欣的海与天空，可看KBA风筝冲浪学校公开的海滩画面。",
+    "context": "KBA是Kiteboarding Asia学校名称，本页介绍其华欣海滩大海与天气镜头。华欣是泰国中部海滨度假城市。",
+    "watch": "想看海与天空同框的华欣海景，可选择此项。不能仅凭视频判断课程或海上活动是否进行。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [
+      "huahin-centara"
+    ],
+    "location": "按提供者地区说明介绍，准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "华欣海滩 · KBA前大海与天空",
+    "intro": [
+      "华欣是泰国中部可兼顾海边度假与水上运动的城市。对白沙海景感兴趣，或想安排风筝冲浪等活动，可以留意这里。",
+      "KBA即Kiteboarding Asia，去华欣前想知道海滩前海面与天空是什么样，可打开这里的画面。"
+    ],
+    "sceneParagraphs": [
+      "镜头面向华欣近海，可同时看海岸与天空，适合好奇这里海边风景的人。",
+      "虽由风筝学校提供，但视频不能说明课程或海上活动能否进行。计划参加课程，请按学校实际日程与现场提示安排。"
+    ],
+    "faq": [],
+    "mapLabel": "华欣海滩KBA附近",
+    "placeSources": [
+      {
+        "label": "泰国旅游局 · 华欣家庭旅行",
+        "url": "https://www.tourismthailand.org/Articles/prachuap-khirikhan-chumphon-en"
+      }
+    ]
+  },
+  "chaam-thew-talay": {
+    "place": "七岩Thew Talay景观",
+    "preview": "Thew Talay周边照片每几分钟更新，旅行前可看当地风景与天空。",
+    "context": "本项以照片介绍七岩Thew Talay周边，每几分钟更新，不像视频持续移动，画面不动本身不代表播放错误。",
+    "watch": "结合照片时间与下一次更新查看，更容易认识当地是什么时候的风景。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按提供者地区说明介绍，准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "七岩 · Thew Talay周边风景",
+    "intro": [
+      "好奇七岩Thew Talay周边，可以看这里公开的照片，在出发前认识当地风景。",
+      "照片每几分钟更新，不是持续运动的视频。看照片内的时间，就能了解拍摄时刻。"
+    ],
+    "sceneParagraphs": [
+      "周边照片按次更新，展示拍摄瞬间，而非同一段连续视频。",
+      "下一张照片更新后，可看天空与风景如何变化。结合显示时间，便于区分七岩不同时刻。"
+    ],
+    "faq": [],
+    "mapLabel": "七岩Thew Talay附近"
+  },
+  "chainat-chao-phraya": {
+    "place": "猜纳湄南河与水坝附近",
+    "preview": "介绍猜纳湄南河与水坝周边，可在公开镜头页看不同于海滩的泰国河景。",
+    "context": "本项介绍猜纳河与水坝景观，链接为汇总公开镜头的中介网站，并非直接运营方。",
+    "watch": "好奇河与水坝可参考，但原运营者与当前播放未核实，Online标签不等于正在直播。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按摄像头汇总页面介绍的拍摄地区说明。准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "猜纳 · 湄南河与水坝",
+    "intro": [
+      "好奇海景之外的泰国，可以看看猜纳湄南河附近。本镜头页介绍河流与水坝周边视角。",
+      "可从Webcamera24介绍页打开这一地区的河与水坝镜头，下方链接可进入。"
+    ],
+    "sceneParagraphs": [
+      "画面介绍为河流与水坝同框的视角。想看海滩之外的泰国河景，可看看湄南河周边。"
+    ],
+    "faq": [],
+    "mapLabel": "猜纳湄南河与水坝附近",
+    "sourceNote": "链接通往汇总摄像头的中介网站，原运营者与当前播出状态尚未核实。"
+  },
+  "pathum-chao-phraya": {
+    "place": "巴吞他尼湄南河",
+    "preview": "介绍巴吞他尼湄南河与河边市区，链接通往沿河城市景观镜头页。",
+    "context": "本页介绍巴吞他尼河流与市区视角。Tufaq是介绍画面的汇总站，原摄像头运营者未确认。",
+    "watch": "想看河与建筑同框可参考，请分清说明照片与实际镜头，并看原页拍摄时间。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按摄像头汇总页面介绍的拍摄地区说明。准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "巴吞他尼 · 湄南河与河边城市",
+    "intro": [
+      "巴吞他尼湄南河附近可看河与市区共同展开。比起海边，更好奇河边城市的人可以看看这里。",
+      "河与市区镜头可从Tufaq找到，这是汇集不同地区摄像头的网站。"
+    ],
+    "sceneParagraphs": [
+      "河与岸边建筑同时入镜。比起海滨城市，这里更适合想看沿河街区的人。"
+    ],
+    "faq": [],
+    "mapLabel": "巴吞他尼湄南河附近",
+    "sourceNote": "链接通往汇总摄像头的中介网站，原运营者与当前播出状态尚未核实。"
+  },
+  "chiangmai-weather-view": {
+    "place": "清迈城市景观",
+    "preview": "清迈位于泰国北部，想看市区与当地天空，可查找公开镜头与更新照片。",
+    "context": "链接通往清迈公开镜头与更新照片的介绍页，不是直接提供某栋楼的一台镜头。",
+    "watch": "选择后先分清视频与更新照片，照片不动不等于故障，也要一起看拍摄时间。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按摄像头汇总页面介绍的拍摄地区说明。准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "清迈 · 城市风景与当地天空",
+    "intro": [
+      "清迈在泰国北部。准备旅行、好奇当地风景与天空，可用这个汇集城市镜头和照片的页面。",
+      "本项并非直接展示某栋建筑的一台摄像头，而是在EaseWeather选择清迈地区镜头和更新照片。"
+    ],
+    "sceneParagraphs": [
+      "不同镜头拍的地点不同。打开照片时一起看地点名称，便于辨认城市哪一侧。",
+      "更新照片显示拍摄瞬间，不像视频一直移动。好奇当地天空，也可结合照片时间查看。"
+    ],
+    "faq": [],
+    "mapLabel": "清迈城市景观附近"
+  },
+  "chiangrai-mae-yao": {
+    "place": "清莱Ban Mae Yao",
+    "preview": "介绍为清莱Ban Mae Yao山与寺庙景观，可从镜头页找海岸之外的北部风景。",
+    "context": "清莱位于泰国北部，中介页将本项介绍为Ban Mae Yao山与寺庙。准确安装点与原运营者未核实。",
+    "watch": "想看山与寺庙同框可参考，不能当作已确定现场的游览或导航指南。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按摄像头汇总页面介绍的拍摄地区说明。准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "清莱Ban Mae Yao · 山与寺庙",
+    "intro": [
+      "Ban Mae Yao为清莱镜头所介绍的拍摄地区，适合比海景更想看北部山与寺庙的人。",
+      "Webcamera24介绍这一观景镜头，下方链接可打开对应地区页面。"
+    ],
+    "sceneParagraphs": [
+      "画面介绍对象为山与寺庙，可参考认识清莱北部风景，但并非已确认某一寺庙准确位置的资料。"
+    ],
+    "faq": [],
+    "mapLabel": "清莱Ban Mae Yao附近",
+    "sourceNote": "链接通往汇总摄像头的中介网站，原运营者与当前播出状态尚未核实。"
+  },
+  "chiangrai-wat-thep": {
+    "place": "清莱Wat Thep Bun Yuen寺附近",
+    "preview": "介绍为清莱Wat Thep Bun Yuen寺与周边山景，可从公开镜头页看泰国北部寺庙视角。",
+    "context": "Wat Thep Bun Yuen为镜头介绍中的寺名，公开页说可看清莱寺庙与山，但准确安装位置未核实。",
+    "watch": "好奇寺与山同框可参考，它不提供寺庙开放时间或参观动线。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按摄像头汇总页面介绍的拍摄地区说明。准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "清莱Wat Thep Bun Yuen · 寺庙与山景",
+    "intro": [
+      "Wat Thep Bun Yuen出现在清莱公开镜头介绍中，画面被介绍为寺庙与山相映，适合好奇泰国北部的人。",
+      "可从Webcamera24查找寺庙与山景，下方链接通往该镜头页。"
+    ],
+    "sceneParagraphs": [
+      "介绍为寺庙与周边山景，但不是展示寺内参观空间或访客入口的指引。"
+    ],
+    "faq": [],
+    "mapLabel": "清莱Wat Thep Bun Yuen寺附近",
+    "sourceNote": "链接通往汇总摄像头的中介网站，原运营者与当前播出状态尚未核实。"
+  },
+  "nakhon-cha-uat": {
+    "place": "洛坤府Cha Uat河",
+    "preview": "介绍为洛坤府Cha Uat河景，好奇泰国河流周边，可打开公开介绍页。",
+    "context": "Cha Uat河是此公开页介绍的拍摄对象，地区为洛坤府，准确安装点与原运营者未核实。",
+    "watch": "想看海边之外的河景可参考，当前播放或照片更新未确认，需结合提供页时间与画面查看。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按摄像头汇总页面介绍的拍摄地区说明。准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "洛坤府Cha Uat河 · 河边风景",
+    "intro": [
+      "Cha Uat河为洛坤府公开镜头介绍的河流，想看海滩之外的泰国河景，可打开这一画面。",
+      "Webcamera24可查找此镜头，本页连接洛坤府河景介绍。"
+    ],
+    "sceneParagraphs": [
+      "拍摄对象为Cha Uat河附近。但无准确拍摄点资料，不能用来说明某个河边设施名称或实际到访路线。"
+    ],
+    "faq": [],
+    "mapLabel": "洛坤府Cha Uat河附近",
+    "sourceNote": "链接通往汇总摄像头的中介网站，原运营者与当前播出状态尚未核实。"
+  },
+  "lanta-hat-lant": {
+    "place": "兰塔岛Hat Lant海景",
+    "preview": "Hat Lant镜头介绍为兰塔岛海景，为好奇岛边风景的人连接公开页面。",
+    "context": "兰塔是泰国岛屿，本项连接中介站分类为Hat Lant海景的镜头，不凭名称确定具体海滩或设备位置。",
+    "watch": "想看兰塔海景可参考。原运营者与当前播放未确认，请在提供页看画面是否运动及显示时间。",
+    "basis": [
+      "src/data/cameras.ts:description",
+      "src/data/cameras.ts:locationNote",
+      "src/data/map.ts"
+    ],
+    "relatedIds": [],
+    "location": "按摄像头汇总页面介绍的拍摄地区说明。准确安装坐标未核实，因此无地图标记。",
+    "displayTitle": "兰塔岛 · Hat Lant海景",
+    "intro": [
+      "兰塔是泰国岛屿。名为Hat Lant的这个摄像头项目以岛上海景为介绍对象。",
+      "可从Webcamera24兰塔海景页面找到，旅行前好奇岛屿风景，可用下方链接打开。"
+    ],
+    "sceneParagraphs": [
+      "这是以Hat Lant名称介绍的海景。准确拍摄海滩未确认，不能认定为到访某个特定海滩时的风景。"
+    ],
+    "faq": [],
+    "mapLabel": "兰塔岛Hat Lant海景附近",
+    "sourceNote": "链接通往汇总摄像头的中介网站，原运营者与当前播出状态尚未核实。"
+  }
+}

@@ -1,0 +1,7 @@
+---
+import RooftopHub from '../../../../components/RooftopHub.astro';
+import {localizedLocales} from '../../../../lib/localized-content';
+import venues from '../../../../data/rooftops.json';
+export function getStaticPaths(){const count=Math.ceil(venues.filter(v=>v.publicationStatus!=='held').length/24);return [{code:'ko'},...localizedLocales('rooftops')].flatMap(item=>Array.from({length:Math.max(0,count-1)},(_,i)=>({params:{locale:item.code,page:String(i+2)}})));}
+---
+<RooftopHub locale={Astro.params.locale} initialCity="all" page={Number(Astro.params.page)}/>

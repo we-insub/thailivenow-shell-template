@@ -1,0 +1,3270 @@
+{
+  "sky-beach": {
+    "id": "sky-beach",
+    "city": "bangkok",
+    "name": "Sky Beach",
+    "english": "Sky Beach",
+    "building": "The Standard, Bangkok Mahanakhon · King Power Mahanakhon",
+    "lng": 100.52822275,
+    "lat": 13.72348345,
+    "locationSource": "https://www.openstreetmap.org/way/444651219",
+    "intro": "Akhiri hari dengan melihat Bangkok dari segenap arah di Sky Beach. Dari bar terbuka di puncak Menara Mahanakhon, nikmati koktel dan makanan ringan Amerika sambil melihat bangunan serta cahaya bandar. Datang bersama rakan yang menggemari muzik DJ untuk menikmati malam dengan pemandangan dan muzik. Tiba sebelum matahari terbenam supaya panorama siang bersambung dengan suasana malam.",
+    "facts": {
+      "children": "Semua peringkat umur dibenarkan · berdasarkan FAQ rasmi hotel",
+      "hours": "Setiap hari 10:00~24:00 · kemasukan terakhir 23:00",
+      "minimumSpend": null,
+      "entryFee": null,
+      "dressCode": null,
+      "closed": "Dibuka setiap hari",
+      "booking": "Kemasukan dan tempat duduk mengikut turutan ketibaan · gunakan pintu utama King Power Mahanakhon"
+    },
+    "reasons": [
+      {
+        "title": "Dari deretan bangunan siang ke cahaya malam",
+        "text": "Lihat pusat Bangkok yang terbentang ke semua arah. Pada siang hari, ikuti deretan bangunan dan jalan; pada malam hari, nikmati bandar yang dipenuhi cahaya. Sesuai untuk bergambar bersama rakan atau menikmati panorama luas Bangkok bersama keluarga."
+      },
+      {
+        "title": "Akhiri hari dengan koktel dan muzik DJ",
+        "text": "Nikmati muzik DJ bersama koktel dan makanan ringan Amerika. Selepas bersiar-siar pada siang hari, luangkan malam berbual tentang perjalanan dengan rakan sambil melihat panorama. Kemasukan dan tempat duduk mengikut turutan ketibaan, jadi jangan datang dengan anggapan kerusi sudah ditempah."
+      }
+    ],
+    "menu": "Padankan koktel dengan makanan ringan Amerika. Pilih minuman kegemaran masing-masing dan menikmatinya perlahan sambil melihat bandar. Menu boleh dibaca melalui panduan rasmi di bawah.",
+    "signature": null,
+    "sources": [
+      [
+        "Hotel rasmi · operasi, umur, tempat duduk dan menu",
+        "https://www.standardhotels.com/bangkok/features/skybeach-rooftopbar-bkk"
+      ],
+      [
+        "Kemudahan rasmi · operasi dan tiket",
+        "https://www.kingpowermahanakhon.co.th/about-us/mahanakhon-tower"
+      ],
+      [
+        "Panduan rasmi stesen dan pintu keluar terdekat",
+        "https://www.kingpowermahanakhon.co.th/contact"
+      ],
+      [
+        "Lokasi bangunan · OpenStreetMap",
+        "https://www.openstreetmap.org/way/444651219"
+      ]
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Stesen BTS Chong Nonsi",
+        "english": "Chong Nonsi",
+        "line": "Laluan Silom BTS",
+        "exit": "Pintu keluar 3",
+        "lat": 13.7237969,
+        "lng": 100.529325,
+        "instructions": "Keluar melalui pintu 3 Stesen Chong Nonsi di Laluan Silom BTS dan berjalan ke King Power Mahanakhon. Masuk melalui pintu utama, kemudian ikut arahan kemasukan Sky Beach.",
+        "detailUrl": "/ko/transport/bangkok/stations/node-257066790/",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=13.7237969,100.529325&destination=13.72348345,100.52822275&travelmode=walking",
+        "sourceUrl": "https://www.kingpowermahanakhon.co.th/contact"
+      }
+    ],
+    "recommended": "Sesuai bersama rakan yang menggemari DJ dan panorama bandar luas, atau keluarga yang mahu melihat Bangkok dari atas.",
+    "bestTime": "Tiba sebelum matahari terbenam untuk melihat bandar dan langit, kemudian nikmati Bangkok yang bercahaya selepas gelap.",
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk rakan yang menggemari DJ dan panorama bandar atau keluarga yang mahu melihat Bangkok dari atas. Pemandangan pusat bandar terbentang ke semua arah. Lihat bangunan dan jalan pada siang hari serta cahaya bandar selepas gelap. Bergambar bersama rakan atau nikmati panorama luas bersama keluarga."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Ya, semua peringkat umur boleh datang bersama keluarga. Nikmati pemandangan bandar dengan anak. Kemasukan serta tempat duduk mengikut turutan ketibaan."
+      ],
+      [
+        "Bolehkah datang lewat malam?",
+        "Dibuka setiap hari dari 10:00 hingga tengah malam, dengan kemasukan terakhir pada 23:00. Anda boleh datang lewat petang, tetapi tiba lebih awal jika mahu menikmati pemandangan dan minuman tanpa tergesa-gesa."
+      ],
+      [
+        "Pintu masuk mana perlu digunakan?",
+        "Gunakan pintu utama King Power Mahanakhon. Jika menaiki BTS, keluar di pintu 3 Chong Nonsi dan berjalan ke Mahanakhon. Selepas tiba, ikut arahan untuk naik ke Sky Beach."
+      ]
+    ],
+    "entrance": "Masuk melalui pintu utama King Power Mahanakhon. Jika memandu, tempat letak kereta Mahanakhon Cube boleh digunakan.",
+    "reservation": "Kemasukan dan tempat duduk mengikut turutan ketibaan. Tentukan teman serta waktu lawatan dan ikut arahan kemasukan di lokasi.",
+    "locationNote": "Titik tengah sempadan bangunan King Power Mahanakhon dalam OSM. Koordinat ini bukan hasil ukuran pintu masuk atau rooftop.",
+    "skyWalk": "Menurut panduan hotel, pelanggan Sky Beach boleh memasuki SkyWalk selepas 19:00. Semak tiket serta syarat hari lawatan terlebih dahulu.",
+    "publicationStatus": "published",
+    "photoCollectionComplete": false,
+    "facilityKind": "Bar rooftop",
+    "facilityCategory": "rooftop",
+    "taxi": {
+      "instructions": "Cari “King Power Mahanakhon” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu. Apabila tiba, beritahu kakitangan anda mahu ke Sky Beach.",
+      "english": "Please take me to King Power Mahanakhon. I am going to Sky Beach.",
+      "thai": "ไปคิง เพาเวอร์ มหานคร จะไป Sky Beach",
+      "destination": "King Power Mahanakhon"
+    }
+  },
+  "hongs-sky-bar": {
+    "id": "hongs-sky-bar",
+    "city": "chiang-mai",
+    "name": "HONG’s Sky Bar",
+    "english": "HONG’s Sky Bar",
+    "building": "InterContinental Chiang Mai The Mae Ping · rooftop",
+    "lng": 98.9980814,
+    "lat": 18.7831621,
+    "locationSource": "https://goo.gl/maps/CPL7zLKgic8zgSKCA",
+    "intro": "Singgah di HONG’s Sky Bar untuk mengakhiri hari di Chiang Mai. Dari teres terbuka, nikmati koktel dan hidangan kecil untuk dikongsi sambil melihat Gunung Doi Suthep serta bandar. Naik sebelum senja bersama pasangan atau rakan. Sambil berbual, lihat panorama berlatar gunung bertukar menjadi cahaya malam bandar.",
+    "facts": {
+      "children": null,
+      "hours": "16:00~24:00",
+      "minimumSpend": null,
+      "entryFee": null,
+      "dressCode": "Smart casual",
+      "closed": null,
+      "booking": "Tempah meja melalui halaman tempahan rasmi hotel · tempahan boleh dibatalkan jika lewat 15 minit.",
+      "rain": "Bar boleh ditutup ketika hujan atau cuaca buruk.",
+      "address": "153 Sridonchai Road, Chang Khlan, Chiang Mai 50100, Thailand",
+      "phone": "+66 52 090 998"
+    },
+    "reasons": [
+      {
+        "title": "Dari senja ke cahaya bandar",
+        "text": "Datang sebelum matahari terbenam jika mahu melihat Doi Suthep. Berbual dengan teman sambil memandang gunung dan bandar, kemudian nikmati lampu yang menyala selepas gelap. Selepas hari yang sibuk melawat, berehat sebentar untuk melihat sisi lain Chiang Mai."
+      },
+      {
+        "title": "Malam berkongsi koktel dan masakan Cina",
+        "text": "Padankan koktel berasaskan madu Thai, serai dan teh Chiang Mai dengan hidangan Cina untuk dikongsi. Sesuai bersama rakan atau pasangan yang mahu minum santai sambil berkongsi beberapa hidangan. Bar terbuka ini boleh ditutup ketika hujan atau cuaca buruk; sediakan juga rancangan makan malam lain jika hujan dijangka."
+      }
+    ],
+    "menu": "Nikmati koktel berasaskan madu Thai, serai serta teh Chiang Mai bersama hidangan kecil Cina. Set satu bao dan minuman terpilih berharga 550 baht (net), setiap hari 16:00–21:00. Pada hari bekerja, 17:00–19:00, happy hour menawarkan satu minuman tambahan apabila memesan koktel atau wain terpilih. Lihat sama ada minuman pilihan anda termasuk dalam promosi.",
+    "signature": null,
+    "sources": [
+      [
+        "Hotel rasmi · panorama, menu dan waktu",
+        "https://chiangmai.intercontinental.com/en/dining/hongs/sky-bar-chiang-mai"
+      ],
+      [
+        "Tempahan rasmi dipautkan hotel · kod pakaian dan hujan",
+        "https://www.tablecheck.com/en/intercontinental-chiang-mai-hongs-sky-bar/reserve/landing?utm_source=hotelwebsite"
+      ],
+      [
+        "Perbezaan restoran dan sky bar",
+        "https://chiangmai.intercontinental.com/en/dining/hongs"
+      ],
+      [
+        "Promosi rasmi set bao dan minuman",
+        "https://chiangmai.intercontinental.com/en/offers/curated-experiences-hongs-sky-bar"
+      ]
+    ],
+    "photos": [],
+    "access": [],
+    "recommended": "Sesuai untuk pasangan atau rakan yang mahu menikmati koktel dan suasana petang Chiang Mai. Anda boleh melihat Doi Suthep diikuti cahaya bandar, sambil berbual santai selepas lawatan siang.",
+    "bestTime": "Tiba sebelum matahari terbenam jika mahu menikmati Doi Suthep dan panorama malam bandar dalam satu lawatan.",
+    "faq": [
+      [
+        "HONG’s sesuai bersama siapa?",
+        "Sesuai bersama pasangan atau rakan yang mahu menikmati koktel dan suasana petang Chiang Mai. Lihat Doi Suthep, kemudian cahaya bandar, sambil berbual santai selepas lawatan siang."
+      ],
+      [
+        "Bilakah dapat melihat gunung dan panorama malam?",
+        "Tiba sebelum matahari terbenam. Lihat Doi Suthep dan bandar ketika cerah, kemudian lampu bandar pada waktu malam. Luangkan masa menikmati koktel dan hidangan daripada terus pulang selepas melihat panorama."
+      ],
+      [
+        "Apa berlaku jika lewat untuk tempahan?",
+        "Tempahan boleh dibatalkan jika anda lewat 15 minit. Berikan ruang dalam jadual lawatan dan masa perjalanan supaya makan malam bermula tanpa tergesa-gesa."
+      ],
+      [
+        "Bolehkah datang ketika hujan?",
+        "Bar boleh ditutup ketika hujan atau cuaca buruk. Cuaca cerah lebih sesuai untuk menikmati gunung dan bandar dari teres terbuka. Jika hujan diramal, semak operasi bar sebelum bertolak."
+      ]
+    ],
+    "budget": "Set satu bao dan minuman terpilih berharga 550 baht (net). Pertimbangkan set ini untuk makan serta minum ringan antara 16:00 dan 21:00. Makanan atau minuman tambahan dipesan berasingan.",
+    "publicationStatus": "published",
+    "photoCollectionComplete": false,
+    "facilityKind": "Bar rooftop",
+    "facilityCategory": "rooftop",
+    "taxi": {
+      "instructions": "Cari “InterContinental Chiang Mai The Mae Ping” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba di hotel, minta kakitangan menunjukkan arah ke HONG’s Sky Bar.",
+      "english": "Please take me to HONG’s Sky Bar, InterContinental Chiang Mai The Mae Ping, 153 Sridonchai Road, Chang Khlan, Chiang Mai.",
+      "thai": "ไปโรงแรม InterContinental Chiang Mai The Mae Ping ถนนศรีดอนไชย จะไป HONG’s Sky Bar",
+      "destination": "153 Sridonchai Road, Chang Khlan, Chiang Mai 50100, Thailand"
+    }
+  },
+  "baba-nest": {
+    "id": "baba-nest",
+    "city": "phuket",
+    "name": "Baba Nest",
+    "english": "Baba Nest",
+    "building": "Sri Panwa Phuket · Cape Panwa",
+    "lat": 7.8012173,
+    "lng": 98.4113533,
+    "locationSource": "https://www.openstreetmap.org/node/5225590925",
+    "intro": "Datang ke Baba Nest apabila mahu menikmati laut Phuket lebih lama menjelang senja. Di luar dek Sri Panwa, kolam infiniti seolah-olah bersambung dengan Laut Andaman dan pulau-pulau di kejauhan. Sesuai untuk ulang tahun bersama pasangan atau malam bercuti dengan koktel bersama rakan. Bar ini memerlukan tempahan dan hanya dibuka 17:00–20:00. Luangkan waktu khas untuk menikmati senja di sini daripada memenuhi petang dengan banyak lawatan.",
+    "facts": {
+      "hours": "Setiap hari 17:00–20:00",
+      "minimumSpend": "Tetamu menginap 1,500 baht seorang (net) · pelawat luar 3,000 baht seorang (net), perbelanjaan minimum wajib untuk mengesahkan tempahan",
+      "booking": "Tempahan awal wajib · kerusi dipegang hingga 15 minit selepas waktu tempahan · hubungi lebih awal jika lewat",
+      "rain": "Ditutup apabila hujan · perbelanjaan minimum pelawat luar boleh dialihkan ke Baba Poolclub atau Baba Soul Food ketika cuaca buruk",
+      "phone": "076-371-008",
+      "closed": "Dibuka setiap hari tanpa hari tutup tetap · ditutup apabila hujan",
+      "children": null,
+      "entryFee": null,
+      "dressCode": null,
+      "address": "88 Moo 8, Sakdidej Road, Cape Panwa, Wichit, Phuket 83000, Thailand"
+    },
+    "reasons": [
+      {
+        "title": "Malam menghadap laut di seberang kolam",
+        "text": "Nikmati panorama kolam infiniti yang mengelilingi dek dan laut yang seolah-olah bersambung dengannya. Pulau sekitar dan semenanjung tenggara Phuket terbentang luas. Minum koktel dengan teman sambil melihat warna langit berubah untuk malam Phuket yang berkesan."
+      },
+      {
+        "title": "Nikmati masa perlahan dengan koktel dan tapas",
+        "text": "Padankan koktel, wain atau champagne dengan tapas Mexico. Sesuai pada hari anda mempunyai masa untuk menikmati minuman dan panorama, bukan perlu segera menghabiskan makan malam. Pilih menu bersama pasangan atau rakan sambil memandang laut."
+      },
+      {
+        "title": "Rancang malam berdasarkan tempahan dan cuaca",
+        "text": "Tempahan awal dan perbelanjaan minimum diperlukan. Waktu 17:00–20:00 lebih sesuai untuk menikmati matahari terbenam daripada minum lewat malam. Operasi dihentikan apabila hujan; baca syarat tempahan bersama ramalan sebelum memilih tarikh."
+      }
+    ],
+    "menu": "Nikmati koktel, wain atau champagne bersama tapas Mexico.",
+    "signature": null,
+    "sources": [
+      [
+        "Baba Nest rasmi · operasi, tempahan, polisi pelawat dan menu",
+        "https://www.babaphuket.com/baba-nest-best-exclusive-rooftop-bar/"
+      ]
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Sri Panwa Phuket",
+        "instructions": "Cari “Sri Panwa Phuket” dalam Grab atau Bolt. Apabila tiba, minta kakitangan menunjukkan arah ke Baba Nest. Jika mahu tinggal hingga petang, tetapkan juga pengangkutan pulang.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8012173,98.4113533&travelmode=driving"
+      }
+    ],
+    "recommended": "Sesuai untuk penggemar senja dengan panorama laut dan pulau serta mereka yang merancang malam ulang tahun.",
+    "bestTime": "Dibuka 17:00–20:00. Tempah waktu untuk menikmati laut dan langit menjelang matahari terbenam.",
+    "faq": [
+      [
+        "Adakah tempahan wajib?",
+        "Ya, tempahan awal diperlukan. Pilih tarikh dan teman sebelum menempah. Kerusi dipegang sehingga 15 minit selepas waktu tempahan; tamatkan lawatan lain dengan masa mencukupi. Hubungi lebih awal jika akan lewat."
+      ],
+      [
+        "Berapakah perbelanjaan minimum?",
+        "Tetamu menginap 1,500 baht seorang dan pelawat luar 3,000 baht seorang (net). Ini diperlukan untuk mengesahkan tempahan, jadi masukkan dalam bajet koktel serta tapas. Baca syarat pembayaran dan jangan menganggapnya yuran masuk berasingan."
+      ],
+      [
+        "Apa berlaku jika hujan?",
+        "Baba Nest menghentikan operasi apabila hujan. Perbelanjaan minimum pelawat luar boleh dialihkan untuk digunakan di Baba Poolclub atau Baba Soul Food ketika cuaca buruk. Baca syarat ini sebelum menempah jika tujuan anda melihat laut dan senja."
+      ],
+      [
+        "Bolehkah datang lewat malam?",
+        "Dibuka setiap hari 17:00–20:00. Rancang lawatan untuk panorama senja, bukan sesi minum lewat malam. Luangkan petang supaya boleh menikmati masa sebelum matahari terbenam."
+      ]
+    ],
+    "budget": "Perbelanjaan minimum ialah 1,500 baht seorang bagi tetamu menginap dan 3,000 baht seorang bagi pelawat luar (net). Baca syarat pembayaran ketika menempah supaya tidak tertukar dengan yuran masuk berasingan.",
+    "reservation": "Tempahan awal diperlukan. Pembatalan atau tidak hadir dikenakan jumlah penuh: 1,500 baht seorang bagi tetamu menginap dan 3,000 baht seorang bagi pelawat luar. Perbelanjaan minimum pelawat luar tidak dipulangkan; ketika cuaca buruk, ia boleh digunakan di Baba Poolclub atau Baba Soul Food.",
+    "publicationStatus": "published",
+    "photoCollectionComplete": false,
+    "facilityKind": "Bar rooftop",
+    "facilityCategory": "rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Baba Nest at Sri Panwa Phuket.",
+      "thai": "ไปบาบาเนสต์ที่ศรีพันวา ถนนศักดิเดช แหลมพันวา ภูเก็ต",
+      "destination": "Sri Panwa Phuket"
+    }
+  },
+  "star-silavadee": {
+    "id": "star-silavadee",
+    "city": "samui",
+    "name": "STAR by Silavadee",
+    "english": "STAR by Silavadee",
+    "building": "Silavadee Pool Spa Resort · rooftop",
+    "lat": 9.4677302,
+    "lng": 100.07032155,
+    "locationSource": "https://www.openstreetmap.org/way/528060225",
+    "intro": "Untuk malam menghadap laut di Koh Samui, kunjungi STAR by Silavadee. Dari rooftop resort, nikmati masakan Barat dan koktel sambil melihat Teluk Lamai. Empat meja yang dibina rendah di dalam kolam infiniti ialah tempat duduk istimewa untuk diperhatikan. Sesuai untuk makan malam bersama pasangan atau minum sambil melihat laut dengan rakan. Datang awal petang untuk menikmati panorama laut sebelum menyambung makan malam dengan santai.",
+    "facts": {
+      "hours": "17:30–23:00 · pesanan dapur terakhir 22:30",
+      "address": "208/66 Moo 4, Maret, Koh Samui 84310, Thailand",
+      "phone": "+66 77 960 555",
+      "booking": "Tempah melalui “Make a Reservation” di halaman rasmi kemudahan"
+    },
+    "reasons": [
+      {
+        "title": "Mulakan petang menghadap Teluk Lamai",
+        "text": "Teluk Lamai boleh dilihat dari rooftop resort. Datang awal petang jika mahu melihat laut ketika masih terang. Mulakan dengan koktel atau wain, kemudian makan malam sambil meluangkan masa menghadap laut dengan teman."
+      },
+      {
+        "title": "Empat meja rendah di dalam kolam",
+        "text": "Terdapat empat meja yang dibina rendah di dalam kolam infiniti. Sesuai untuk pasangan yang mahu menggabungkan panorama laut dengan tempat duduk istimewa. Katil santai dan bangku bar turut tersedia; tanyakan kerusi pilihan anda semasa menempah."
+      }
+    ],
+    "menu": "Nikmati masakan Barat untuk makan malam, koktel dan wain. Pilihan koktel termasuk Espresso Martini, Lychee Martini dan Tom Yum Siam.",
+    "seating": "Terdapat empat meja rendah di dalam kolam, tempat makan biasa, katil santai dan bangku bar. Jumlah tempat duduk ialah 42. Tanya tentang kerusi pilihan anda semasa menempah.",
+    "bestTime": "Dibuka mulai 17:30. Datang awal petang untuk menikmati laut ketika masih terang sebelum makan malam. Luangkan masa berkongsi koktel sambil memandang Teluk Lamai.",
+    "access": [
+      {
+        "name": "Resort Silavadee",
+        "instructions": "Resort Silavadee terletak di Pantai Laem Nan antara Chaweng dan Lamai. Jika menaiki kereta, cari “Silavadee Pool Spa Resort”. Tunjukkan nama hotel bersama alamat untuk memudahkan pemandu. Selepas tiba, minta kakitangan menunjukkan arah ke STAR.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=9.4677302,100.07032155&travelmode=driving"
+      }
+    ],
+    "photos": [],
+    "signature": null,
+    "sources": [
+      [
+        "STAR rasmi · panorama, tempat duduk, waktu dan tempahan",
+        "https://www.silavadeeresort.com/dining/star-romantic-rooftop-chill-out-samui/"
+      ],
+      [
+        "Hotel rasmi · lokasi dan akses",
+        "https://www.silavadeeresort.com/lamai-beach-clifftop-samui/"
+      ],
+      [
+        "Hubungan rasmi hotel",
+        "https://www.silavadeeresort.com/contact-silavadee-samui/"
+      ]
+    ],
+    "recommended": "Sesuai untuk pasangan yang mahu makan malam dengan panorama laut atau rakan yang ingin berkongsi cerita perjalanan sambil minum koktel. Nyatakan tempat duduk yang diinginkan semasa menempah.",
+    "faq": [
+      [
+        "STAR sesuai bersama siapa?",
+        "Sesuai untuk pasangan yang mahu makan malam menghadap laut atau rakan yang mahu berkongsi cerita sambil minum koktel. Pilih pada hari anda mahu menikmati Teluk Lamai bersama hidangan."
+      ],
+      [
+        "Bolehkah duduk di meja dalam kolam?",
+        "Terdapat empat meja rendah di dalam kolam. Tempat makan biasa, katil santai dan bangku bar juga tersedia. Tanya tentang kerusi pilihan semasa menempah. Jumlah tempat duduk ialah 42."
+      ],
+      [
+        "Bilakah sesuai untuk panorama laut dan makan malam?",
+        "Dibuka mulai 17:30. Datang awal petang untuk melihat laut ketika terang, mulakan dengan koktel dan sambung makan malam. Pesanan dapur ditutup 22:30; pertimbangkan masa makan apabila membuat tempahan lewat."
+      ],
+      [
+        "Bagaimana hendak menempah?",
+        "Gunakan “Make a Reservation” di halaman rasmi. Selepas menetapkan teman dan tarikh, pilih waktu. Jika mahukan meja dalam kolam atau tempat tertentu, tanyakan semasa menempah."
+      ],
+      [
+        "Pakaian apa sesuai?",
+        "Kod pakaian dalam tempahan rasmi ialah smart casual. Bayangkan pakaian kemas untuk makan malam. Lelaki boleh mempertimbangkan kemeja berkolar dan seluar panjang, wanita gaun atau blaus. Contoh mengikut jantina ini ialah cadangan persediaan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "photoCollectionComplete": false,
+    "facilityKind": "Bar dan restoran rooftop",
+    "facilityCategory": "rooftop",
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba di Resort Silavadee, minta kakitangan menunjukkan arah ke STAR.",
+      "english": "Please take me to Silavadee Pool Spa Resort, Lamai, Koh Samui. I am going to STAR rooftop bar.",
+      "thai": "ไปศิลาวดี พูล สปา รีสอร์ท ละไม เกาะสมุย จะไปสตาร์",
+      "destination": "Silavadee Pool Spa Resort · 208/66 Moo 4, Maret, Koh Samui 84310, Thailand"
+    }
+  },
+  "horizon-pattaya": {
+    "id": "horizon-pattaya",
+    "city": "pattaya",
+    "name": "Horizon Rooftop Restaurant & Bar",
+    "english": "Horizon Rooftop Restaurant & Bar",
+    "building": "Hilton Pattaya · tingkat 34",
+    "lat": 12.93499945,
+    "lng": 100.88297535,
+    "locationSource": "https://www.openstreetmap.org/way/1226656044",
+    "intro": "Naik ke Horizon jika mahu menjadikan makan malam sebahagian kenangan perjalanan Pattaya. Restoran rooftop di tingkat 34 Hilton Pattaya ini menawarkan hidangan dan koktel menghadap Teluk Pattaya. Sesuai untuk ulang tahun bersama pasangan atau makan malam berpanorama bersama ibu bapa. Luangkan masa sejak senja untuk melihat warna laut serta langit berubah, diikuti cahaya bandar yang mula menyala.",
+    "facts": {
+      "address": "333/101 Moo 9, Nong Prue, Bang Lamung, Pattaya, Chonburi 20260, Thailand",
+      "booking": "Tempah melalui “Book a Table” Horizon di halaman Dining rasmi Hilton"
+    },
+    "reasons": [
+      {
+        "title": "Akhiri hari pantai di tingkat 34",
+        "text": "Lihat semula Pantai Pattaya yang disusuri pada siang hari, kali ini dari tempat tinggi. Teluk terbentang dari teres terbuka dan cahaya bandar mengikuti pesisir selepas gelap. Nikmati koktel sambil berbual tentang pemandangan hari itu dengan teman."
+      },
+      {
+        "title": "Sambung menikmati panorama dengan makan malam",
+        "text": "Terdapat menara makanan laut, stik tomahawk dan hidangan betis kambing. Ruang makan dalaman serta teres terbuka sesuai untuk makan dengan panorama. Jika meraikan ulang tahun atau membawa ibu bapa, luangkan masa supaya tidak perlu bergegas ke aktiviti selepas makan."
+      },
+      {
+        "title": "Muzik DJ melengkapkan suasana petang",
+        "text": "Muzik DJ langsung turut menemani malam. Sesuai untuk pasangan atau rakan yang mahukan panorama dan muzik, bukan perbualan senyap sahaja. Jika mempertimbangkan teres, lihat juga tempat duduk dalaman untuk menghadapi panas atau hujan."
+      }
+    ],
+    "seating": "Terdapat tempat duduk dalaman dan teres terbuka. Tanya tentang kerusi teres semasa menempah jika mahu duduk menghadap laut.",
+    "menu": "Pilihan termasuk menara makanan laut, stik tomahawk Angus Australia, betis kambing masak perlahan dan snowfish dengan sos miso.",
+    "signature": null,
+    "photos": [],
+    "access": [
+      {
+        "name": "Hilton Pattaya",
+        "instructions": "Cari “Hilton Pattaya” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Horizon.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.93499945,100.88297535&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Hilton rasmi · tingkat Horizon, panorama, menu, DJ dan tempahan",
+        "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/dining/"
+      ],
+      [
+        "Lokasi hotel rasmi Hilton",
+        "https://www.hilton.com/en/hotels/bkkhphi-hilton-pattaya/hotel-location/"
+      ]
+    ],
+    "recommended": "Sesuai untuk menambah makan malam berpanorama pada percutian pantai Pattaya.",
+    "bestTime": "Datang menjelang senja untuk warna laut dan langit, atau selepas gelap untuk cahaya bandar.",
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk pasangan atau ibu bapa yang mahu makan malam sambil menikmati panorama malam. Dari tingkat 34 Hilton Pattaya, laut dan bandar terbentang di bawah. Pilih untuk hari anda mahu menjadikan makan malam acara istimewa."
+      ],
+      [
+        "Bilakah sesuai menikmati panorama?",
+        "Datang menjelang senja untuk melihat warna laut dan langit berubah. Sambung makan malam untuk melihat cahaya bandar mula menyala. Jika mahu duduk di teres, nyatakan pilihan ketika menempah."
+      ],
+      [
+        "Makanan apa tersedia?",
+        "Terdapat menara makanan laut, stik tomahawk Angus Australia, betis kambing dan snowfish bersos miso. Lihat menu bersama dan tentukan sama ada mahu makan malam atau menikmati koktel serta panorama."
+      ],
+      [
+        "Di mana boleh menempah?",
+        "Tekan “Book a Table” bagi Horizon di halaman Dining rasmi Hilton. Tetapkan tarikh dan teman, kemudian pilih waktu makan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "photoCollectionComplete": false,
+    "facilityKind": "Bar dan restoran rooftop",
+    "facilityCategory": "rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Hilton Pattaya. I am going to Horizon Rooftop Restaurant & Bar.",
+      "thai": "ไปโรงแรมฮิลตัน พัทยา จะไปร้าน Horizon ชั้น 34",
+      "destination": "Hilton Pattaya"
+    }
+  },
+  "mahanakhon-skywalk": {
+    "id": "mahanakhon-skywalk",
+    "researchId": "rt-bkk-025",
+    "city": "bangkok",
+    "name": "Mahanakhon SkyWalk",
+    "english": "Mahanakhon SkyWalk",
+    "building": "King Power Mahanakhon · dek dalaman tingkat 74 dan dek terbuka tingkat 78",
+    "intro": "Naik ke Mahanakhon SkyWalk untuk melihat pusat Bangkok ke semua arah. Terokai dek dalaman tingkat 74 serta dek terbuka tingkat 78, dan lihat bandar di bawah kaki dari lantai kaca setinggi 310m. Titik tinjau setinggi 314m turut menjadi cirinya. Datang bersama rakan yang menggemari fotografi atau keluarga yang mahu melihat Bangkok dari atas. Luangkan masa untuk menikmati panorama berbeza dari ruang dalaman dan luar.",
+    "lat": 13.72348345,
+    "lng": 100.52822275,
+    "locationSource": "https://www.openstreetmap.org/way/444651219",
+    "facts": {
+      "hours": "Setiap hari 10:00~24:00",
+      "lastEntry": "23:00",
+      "children": "Tiket kanak-kanak dibezakan untuk umur 8~12 tahun.",
+      "address": "114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok",
+      "phone": "+66 2 677 8721",
+      "booking": "Pilih tiket rasmi mengikut tarikh, slot masa dan umur."
+    },
+    "reasons": [
+      {
+        "title": "Melihat Bangkok dari dalam dan luar",
+        "text": "Nikmati Bangkok dari dek dalaman tingkat 74 dan dek terbuka tingkat 78. Ruang yang berbeza menambah pengalaman melihat bandar yang sama. Jelajahi dek bersama keluarga atau rakan sambil mengenali pemandangan bandar."
+      },
+      {
+        "title": "Lantai kaca dengan bandar di bawah kaki",
+        "text": "Lantai kaca setinggi 310m menawarkan pengalaman tersendiri. Lihat pemandangan di bawah bersama teman yang selesa di tempat tinggi. Jika ketinggian terasa mencabar, anda boleh menumpukan panorama bandar tanpa memaksa diri mencuba lantai kaca."
+      }
+    ],
+    "entrance": "Selepas pemeriksaan tiket di pintu utama dan kaunter tingkat 1, lalui kawasan bergambar serta laluan digital untuk menaiki lif ke tingkat 74. Tingkat 75 ialah tempat menaiki lif kaca ke aras atas.",
+    "recommended": "Sesuai bersama keluarga atau rakan yang menggemari panorama bandar dan mahu merakam Bangkok dari tempat tinggi. Jika teman kurang selesa dengan lantai kaca, nikmati lawatan dengan cara yang selesa untuk masing-masing.",
+    "access": [
+      {
+        "name": "Stesen BTS Chong Nonsi",
+        "english": "Chong Nonsi",
+        "line": "Laluan Silom BTS",
+        "exit": "Pintu keluar 3",
+        "lat": 13.7237969,
+        "lng": 100.529325,
+        "instructions": "Dari pintu keluar 3 Stesen Chong Nonsi di Laluan Silom BTS, pergi ke pintu utama King Power Mahanakhon. Sediakan tiket di kaunter tingkat 1 dan ikut arahan lif pemerhatian.",
+        "detailUrl": "/ko/transport/bangkok/stations/node-257066790/",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=13.7237969,100.529325&destination=13.72348345,100.52822275&travelmode=walking",
+        "sourceUrl": "https://www.kingpowermahanakhon.co.th/contact"
+      }
+    ],
+    "faq": [
+      [
+        "Adakah sama dengan bar Sky Beach?",
+        "Kedua-duanya dalam bangunan sama, tetapi SkyWalk ialah kemudahan melawat dek dalaman dan luar. Pilih tiket SkyWalk jika mahu panorama bandar dan lantai kaca. Bezakan tiket serta tujuan lawatan daripada kunjungan bar."
+      ],
+      [
+        "Bagaimana memilih tiket?",
+        "Pilih tiket di halaman rasmi mengikut tarikh, slot masa dan umur. Tiket kanak-kanak untuk umur 8~12 tahun; pilih berdasarkan umur anak."
+      ],
+      [
+        "Bagaimana pergi dengan tren?",
+        "Dari pintu keluar 3 Stesen Chong Nonsi di Laluan Silom BTS, pergi ke pintu utama King Power Mahanakhon. Ikut arahan kaunter tingkat 1 dan lif pemerhatian."
+      ],
+      [
+        "Tingkat mana boleh dilawati?",
+        "Dek dalaman tingkat 74 dan dek terbuka tingkat 78. Luangkan masa untuk kedua-duanya supaya dapat menikmati bandar dari ruang berbeza."
+      ]
+    ],
+    "sources": [
+      [
+        "Pengendali rasmi · lawatan, tiket dan pengangkutan",
+        "https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk"
+      ]
+    ],
+    "facilityCategory": "viewpoint",
+    "facilityKind": "Dek pemerhatian",
+    "publicationStatus": "published",
+    "photos": [],
+    "photoCollectionComplete": false,
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu. Selepas tiba di bangunan, minta kakitangan menunjukkan arah ke Mahanakhon SkyWalk.",
+      "english": "Mahanakhon SkyWalk, 114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok",
+      "thai": "มหานคร สกายวอล์ค คิง เพาเวอร์ มหานคร 114 ถนนนราธิวาสราชนครินทร์ สีลม กรุงเทพฯ",
+      "destination": "114 Narathiwas Ratchanakarin Road, Silom, Bang Rak, Bangkok"
+    }
+  },
+  "baiyoke-observatory": {
+    "id": "baiyoke-observatory",
+    "researchId": "rt-bkk-027",
+    "city": "bangkok",
+    "name": "Baiyoke Sky Observatory",
+    "english": "Baiyoke Sky Observatory",
+    "building": "Baiyoke Sky Hotel · dek tingkat 77 dan dek berputar tingkat 84",
+    "intro": "Selepas membeli-belah di Pratunam, naik ke Baiyoke Sky Observatory untuk melihat Bangkok dari atas. Nikmati panorama dari ruang pemerhatian tingkat 77 dan dek berputar tingkat 84. Sambung hari bersama rakan membeli-belah atau teman yang menggemari panorama bandar. Tambahkan lawatan dek jika terasa sayang untuk terus pulang selepas membeli-belah.",
+    "lat": 13.7544058,
+    "lng": 100.5403134,
+    "locationSource": "https://www.openstreetmap.org/relation/18728185",
+    "facts": {
+      "hours": "Setiap hari 10:00~22:00 · boleh berubah semasa cuti panjang.",
+      "entryFee": "Promosi khas rasmi 450 baht (net) · termasuk satu minuman di bar rooftop tingkat 83",
+      "address": "222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400",
+      "phone": "+66 2 656 3000"
+    },
+    "reasons": [
+      {
+        "title": "Ruang tinjau tingkat 77 dan dek berputar tingkat 84",
+        "text": "Terokai dua aras pemerhatian sambil melihat pusat Bangkok. Dek berputar tingkat 84 ialah ciri istimewanya. Kenali rupa bandar dari tempat tinggi bersama teman."
+      },
+      {
+        "title": "Tambahkan panorama pada hari membeli-belah Pratunam",
+        "text": "Jika merancang membeli-belah sekitar Pratunam, masukkan lawatan dek pada hari sama. Akhiri hari dengan berbual tentang hasil membeli-belah sambil menikmati bandar."
+      }
+    ],
+    "recommended": "Datang bersama rakan membeli-belah di Pratunam atau teman yang menyukai panorama bandar. Sesuai untuk menambah lawatan dek pada hari membeli-belah.",
+    "faq": [
+      [
+        "Dek berada di tingkat mana?",
+        "Anda boleh melawat ruang pemerhatian tingkat 77 dan dek berputar tingkat 84. Bezakan lawatan dek daripada sesi minum di bar rooftop."
+      ],
+      [
+        "Adakah tiket termasuk minuman?",
+        "Promosi khas rasmi 450 baht (net) dalam maklumat ini termasuk satu minuman di bar rooftop tingkat 83. Oleh sebab promosi khas, pastikan pakej sama masih dijual pada hari lawatan sebelum membeli."
+      ],
+      [
+        "Bolehkah melawat selepas membeli-belah?",
+        "Waktu lawatan setiap hari 10:00–22:00. Rancang untuk menyambung membeli-belah Pratunam dengan lawatan dek. Waktu boleh berubah ketika cuti panjang."
+      ]
+    ],
+    "sources": [
+      [
+        "Hotel rasmi · dek tinjau, tiket dan waktu",
+        "https://baiyokesky.baiyokehotel.com/things-to-do-in-bangkok-sightseeing-thailand.html"
+      ]
+    ],
+    "facilityCategory": "viewpoint",
+    "facilityKind": "Dek pemerhatian",
+    "publicationStatus": "published",
+    "photos": [],
+    "photoCollectionComplete": false,
+    "access": [
+      {
+        "name": "Baiyoke Sky Hotel",
+        "instructions": "Jika menaiki kereta, lihat lokasi bangunan melalui panduan arah di bawah. Destinasinya Baiyoke Sky Hotel; tunjukkan nama hotel bersama alamat di bawah kepada pemandu.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7544058,100.5403134"
+      }
+    ],
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke Baiyoke Sky Observatory.",
+      "english": "Baiyoke Sky Observatory, 222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400",
+      "thai": "จุดชมวิวโรงแรมใบหยกสกาย 222 ซอยราชปรารภ 3 ถนนราชปรารภ ราชเทวี กรุงเทพฯ",
+      "destination": "222 Soi Ratchaprarop 3, Ratchaprarop Road, Ratchathewi, Bangkok 10400"
+    }
+  },
+  "doi-suthep-viewpoint": {
+    "id": "doi-suthep-viewpoint",
+    "researchId": "rt-cnx-008",
+    "city": "chiang-mai",
+    "name": "Ruang tinjau Wat Phra That Doi Suthep",
+    "english": "Wat Phra That Doi Suthep Viewpoint",
+    "building": "Wat Phra That Doi Suthep · ruang tinjau dalam kawasan kuil",
+    "intro": "Naik ke Doi Suthep untuk menggabungkan kuil dengan panorama Chiang Mai. Terokai stupa emas dan seni bina Lanna di kuil atas gunung, kemudian lihat bandar dari teres. Berjalan perlahan, bergambar dan berehat menikmati panorama bersama ibu bapa atau rakan yang suka melawat kuil.",
+    "lat": 18.8050094,
+    "lng": 98.9221843,
+    "locationSource": "https://www.openstreetmap.org/way/114651040",
+    "facts": {
+      "address": "Huai Kaeo Road, Suthep, Mueang Chiang Mai, Chiang Mai"
+    },
+    "reasons": [
+      {
+        "title": "Lihat stupa emas sebelum menikmati bandar",
+        "text": "Selepas menikmati stupa emas dan seni bina Lanna, berjalan ke teres. Chiang Mai yang terbentang di bawah menawarkan sudut berbeza daripada ketika bersiar-siar di bandar. Bersama teman yang menggemari seni bina kuil, anda boleh menikmati lawatan dan panorama sekali gus."
+      },
+      {
+        "title": "Tangga ke kuil diiringi arca naga",
+        "text": "Sebanyak 306 anak tangga dengan arca naga di kedua-dua sisi turut menjadi tarikan Doi Suthep. Naik perlahan sambil melihat ukiran bersama teman. Jika tangga terasa sukar, kereta kabel juga tersedia. Pilih cara naik mengikut kemampuan ibu bapa atau anak untuk lawatan lebih selesa."
+      }
+    ],
+    "entrance": "Dari hadapan kuil, naik 306 anak tangga berarca naga atau gunakan kereta kabel. Jika mahu menikmati ukiran, berjalanlah perlahan. Selepas tiba di kuil, ikut arahan setempat ke ruang tinjau.",
+    "recommended": "Sesuai bersama ibu bapa atau rakan yang menikmati seni bina kuil dan panorama bandar. Lihat stupa emas, kemudian berehat di teres menghadap Chiang Mai. Ruang ini dalam kawasan kuil, bukannya bar untuk memesan minuman; rancang sebagai lawatan kuil.",
+    "access": [
+      {
+        "name": "Songthaew merah",
+        "english": "Rod Daeng",
+        "instructions": "Sebelum menaiki songthaew merah, pastikan ia menuju kuil Doi Suthep dan sepakati jumlah tambang serta sama ada sehala atau pergi balik. Jika membawa ibu bapa atau anak, tetapkan juga pengangkutan pulang. Dari hadapan kuil, naik tangga atau kereta kabel.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=18.8050094,98.9221843"
+      }
+    ],
+    "faq": [
+      [
+        "Doi Suthep sesuai bersama siapa?",
+        "Sesuai untuk ibu bapa atau rakan yang menyukai seni bina kuil dan panorama bandar. Selepas melihat stupa emas, berehat di teres menghadap Chiang Mai. Ini ruang tinjau kuil, bukannya bar; rancang sebagai lawatan kuil."
+      ],
+      [
+        "Adakah wajib naik tangga?",
+        "Tidak, kereta kabel juga boleh digunakan. Pilih 306 anak tangga jika mahu melihat arca naga, atau kereta kabel jika teman sukar berjalan lama. Selepas naik, terokai seni bina sambil menuju teres."
+      ],
+      [
+        "Bagaimana pergi dengan songthaew?",
+        "Songthaew merah dari Chiang Mai boleh membawa anda ke kuil Doi Suthep. Sebelum naik, pastikan destinasi, jumlah tambang serta sehala atau pergi balik. Rancang perjalanan pulang juga supaya boleh menyambung aktiviti dengan santai."
+      ],
+      [
+        "Adakah pin menunjukkan teres tinjau?",
+        "Peta menunjukkan kawasan kompleks kuil. Selepas tiba, naik melalui tangga atau kereta kabel, kemudian ikut panduan ke teres. Nikmati seni bina kuil sepanjang berjalan ke ruang tinjau."
+      ]
+    ],
+    "sources": [
+      [
+        "Lembaga Pelancongan Thailand · kuil, panorama dan akses",
+        "https://www.tourismthailand.org/Articles/chiang-mai-lamphun-2"
+      ],
+      [
+        "Lembaga Pelancongan Thailand · pengenalan kemudahan",
+        "https://www.tourismthailand.org/Attraction/wat-phra-that-doi-suthep/"
+      ]
+    ],
+    "facilityCategory": "viewpoint",
+    "facilityKind": "Tempat tinjau",
+    "publicationStatus": "published",
+    "photos": [],
+    "photoCollectionComplete": false,
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu. Destinasinya kuil Doi Suthep. Selepas tiba di hadapan kuil, naik melalui tangga atau kereta kabel.",
+      "english": "Wat Phra That Doi Suthep, please.",
+      "thai": "ไปวัดพระธาตุดอยสุเทพด้วยครับ/ค่ะ",
+      "destination": "Wat Phra That Doi Suthep"
+    }
+  },
+  "sky-bar": {
+    "id": "sky-bar",
+    "researchId": "rt-bkk-001",
+    "city": "bangkok",
+    "name": "Sky Bar by lebua",
+    "english": "Sky Bar by lebua",
+    "building": "lebua at State Tower · tingkat 64",
+    "intro": "Naik ke Sky Bar lebua untuk menikmati koktel dengan panorama malam Bangkok. Bar terbuka di sisi kubah emas menghadap Sungai Chao Phraya dan cahaya pusat bandar. Jika bersama rakan yang pernah menonton The Hangover Part II, cuba Hangovertini yang berkait dengan filem itu. Sesuai jika mencari tempat menikmati malam Bangkok selepas makan bersama teman.",
+    "facts": {
+      "children": "Kanak-kanak berumur 7 tahun ke atas boleh masuk bersama orang dewasa.",
+      "dressCode": "Smart casual — baju lelaki tanpa lengan, pakaian sukan, pakaian renang dan selipar jepun dilarang",
+      "closed": "Tiada hari tutup tetap",
+      "address": "64th Floor, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555",
+      "minimumSpend": "Pesan satu minuman bagi setiap orang",
+      "booking": "Walk-in sahaja tanpa tempahan."
+    },
+    "reasons": [
+      {
+        "title": "Sungai dan bandar di sisi kubah emas",
+        "text": "Lihat Sungai Chao Phraya bersama pusat Bangkok dari bar terbuka. Kubah emas di sisi melengkapkan panorama dari tempat tinggi. Berbual tentang perjalanan bersama rakan atau luangkan petang melihat cahaya bandar dengan pasangan."
+      },
+      {
+        "title": "Cerita filem bersama Hangovertini",
+        "text": "Hangovertini ialah koktel di sini yang berkait dengan The Hangover Part II. Datang bersama rakan yang menonton filem itu untuk mengenang adegan biasa sambil menambah kenangan perjalanan Bangkok."
+      }
+    ],
+    "photos": [
+      {
+        "src": "/images/rooftops/sky-bar-2017.webp",
+        "alt": "Bar terbuka Sky Bar dan suasana petang Bangkok",
+        "caption": "Bar terbuka Sky Bar dan suasana petang Bangkok · dirakam 2017",
+        "credit": "Ninara",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar,_Bangkok_(33407660291).jpg",
+        "rights": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "changes": "Diubah saiz untuk paparan web dan ditukar kepada WebP"
+      },
+      {
+        "src": "/images/rooftops/sky-bar-2008.webp",
+        "alt": "Kubah emas dan panorama malam Bangkok dari Sky Bar",
+        "caption": "Kubah emas dan panorama malam Bangkok dari Sky Bar · dirakam 2008",
+        "credit": "Steve Jurvetson",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar_at_State_Tower_Bangkok.jpg",
+        "rights": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "changes": "Diubah saiz untuk paparan web dan ditukar kepada WebP"
+      }
+    ],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://lebua.com/restaurants/sky/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://lebua.com/faq/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk menikmati koktel bersama rakan yang menonton The Hangover Part II atau pasangan yang menyukai panorama malam. Dari bar terbuka, lihat Sungai Chao Phraya dan pusat Bangkok bersama kubah emas di sisi. Berbual tentang perjalanan dengan rakan atau nikmati cahaya bandar bersama pasangan."
+      ],
+      [
+        "Adakah perlu menempah?",
+        "Tidak, Sky Bar menerima walk-in sahaja. Tentukan teman dan rancangan petang sebelum datang. Setiap orang perlu memesan satu minuman, jadi rancang untuk menikmati koktel."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Kanak-kanak berumur 7 tahun ke atas boleh masuk bersama orang dewasa. Semak umur anak semasa memilih tempat melihat panorama malam bersama keluarga."
+      ],
+      [
+        "Pakaian apa perlu disediakan?",
+        "Sediakan pakaian keluar yang kemas. Baju lelaki tanpa lengan, pakaian sukan, pakaian renang dan selipar jepun dilarang. Selepas bersiar-siar dengan pakaian santai, singgah menukar pakaian di penginapan sebelum datang pada petang hari."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": true,
+    "lat": 13.7215136,
+    "lng": 100.516885,
+    "locationSource": "https://www.openstreetmap.org/node/257066461",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk malam berkongsi koktel dengan rakan yang menonton The Hangover Part II atau pasangan yang menyukai panorama malam.",
+    "bestTime": "Tiba sebelum matahari terbenam untuk melihat bandar dan langit, kemudian nikmati Bangkok yang bercahaya selepas gelap.",
+    "taxi": {
+      "instructions": "Cari “lebua at State Tower” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Sky Bar.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Sky Bar by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Sky Bar by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    }
+  },
+  "sirocco": {
+    "id": "sirocco",
+    "researchId": "rt-bkk-003",
+    "city": "bangkok",
+    "name": "Sirocco by lebua",
+    "english": "Sirocco by lebua",
+    "building": "lebua at State Tower · tingkat 63",
+    "intro": "Kunjungi Sirocco untuk malam romantik di Bangkok. Duduk di teres terbuka di bawah kubah emas lebua sambil menikmati panorama malam dan masakan Mediterranean. Sesuai untuk meraikan ulang tahun bersama pasangan atau membawa ibu bapa menikmati makan malam istimewa. Luangkan masa tanpa tergesa-gesa untuk makan sambil melihat matahari terbenam dan cahaya bandar menyala satu demi satu.",
+    "facts": {
+      "hours": "17:30–00:30",
+      "children": "Kanak-kanak boleh datang tanpa had umur.",
+      "closed": "Tiada hari tutup tetap",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555",
+      "booking": "Tempah lebih awal melalui laman rasmi. Baca syarat deposit dan pembatalan semasa menempah.",
+      "dressCodeMen": "Kemeja atau baju polo dengan seluar kemas sesuai. Seluar pendek yang kemas, loafer dan sandal kemas juga dibenarkan.",
+      "dressCodeWomen": "Gaun atau blaus dengan skirt atau seluar kemas sesuai. Sandal yang kemas untuk keluar juga dibenarkan; kasut tumit tinggi tidak wajib.",
+      "dressCodeAvoid": "Pakaian sukan, pakaian renang, selipar jepun dan selipar pantai dilarang. Baju lelaki tanpa lengan juga dilarang. Sediakan pakaian anak yang sesuai kerana peraturan turut terpakai kepada mereka.",
+      "smoking": null,
+      "smokingArea": null
+    },
+    "reasons": [
+      {
+        "title": "Makan malam romantik dari senja hingga panorama malam",
+        "text": "Kubah emas dan teres terbuka ialah pemandangan yang sinonim dengan Sirocco. Nikmati hidangan bersama teman sambil melihat matahari terbenam dan lampu Bangkok menyala satu demi satu. Datang pada hari yang membolehkan makan malam dinikmati perlahan, bukan selepas jadual lawatan terlalu padat. Bersama pasangan, panorama malam menjadi latar untuk masa romantik."
+      },
+      {
+        "title": "Bersama pasangan atau rakan yang menyukai jazz",
+        "text": "Jazz langsung berlangsung Selasa hingga Ahad, manakala Isnin menggunakan muzik latar. Jika datang bersama pasangan atau rakan peminat jazz, pilih hari persembahan. Tanya juga waktu persembahan semasa menempah supaya boleh menikmati hidangan dan muzik sekali gus."
+      },
+      {
+        "title": "Untuk ulang tahun atau makan malam bersama ibu bapa",
+        "text": "Sesuai untuk pasangan yang meraikan ulang tahun atau mereka yang mahu makan malam bersuasana dengan ibu bapa. Namun, anda tidak boleh terus datang dengan pakaian sukan selepas lawatan. Beg membeli-belah besar dan beg perjalanan tidak dibenarkan, dan tiada tempat menyimpannya. Tinggalkan bagasi serta tukar pakaian di penginapan sebelum datang untuk malam lebih selesa."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Stesen Saphan Taksin",
+        "english": "Saphan Taksin",
+        "line": "Laluan Silom BTS",
+        "instructions": "Jika menaiki tren, turun di Saphan Taksin pada Laluan Silom BTS dan berjalan ke hotel lebua. Panduan arah di bawah menunjukkan laluan ke hotel. Jika panas atau memakai kasut tumit tinggi, Grab atau Bolt terus ke hotel mungkin lebih selesa. Apabila tiba, beritahu kakitangan anda mahu ke Sirocco.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&origin=Saphan+Taksin+BTS+Station&destination=lebua+at+State+Tower&travelmode=walking"
+      }
+    ],
+    "sources": [
+      [
+        "Sirocco rasmi · pengenalan, pakaian dan tempahan",
+        "https://lebua.com/restaurants/sirocco/"
+      ],
+      [
+        "FAQ rasmi lebua · operasi, muzik, kanak-kanak dan bagasi",
+        "https://lebua.com/faq/"
+      ],
+      [
+        "Pengangkutan rasmi lebua · stesen BTS terdekat",
+        "https://lebua.com/lebua-bangkok-luxury-travel-guide/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sirocco sesuai bersama siapa?",
+        "Sesuai untuk meraikan ulang tahun dengan pasangan atau menjamu ibu bapa makan malam istimewa. Anda boleh makan di bawah kubah emas sambil melihat panorama malam Bangkok, menjadikannya malam yang diingati bersama. Pilih hari tanpa perlu bergegas ke tempat lain selepas makan supaya lebih santai."
+      ],
+      [
+        "Bilakah boleh menonton jazz?",
+        "Datang antara Selasa hingga Ahad untuk jazz langsung. Muzik menemani makan malam sambil melihat bandar, menambah suasana petang. Isnin menggunakan muzik latar dan bukannya persembahan langsung. Tanya waktu persembahan semasa menempah untuk menentukan waktu makan."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Ya, keluarga dengan anak kecil boleh makan bersama kerana Sirocco tiada had umur. Sediakan pakaian keluar yang kemas untuk anak, bukannya pakaian sukan atau selipar jepun. Jika mahu singgah ke bar lain dalam bangunan selepas makan, ingat bahawa had umur setiap bar berbeza."
+      ],
+      [
+        "Pakaian apa sesuai?",
+        "Bayangkan pakaian untuk janji temu makan malam yang bersuasana. Lelaki boleh memakai kemeja atau polo dengan seluar kemas serta loafer; wanita gaun atau blaus dengan skirt atau seluar. Seluar pendek kemas dan sandal untuk keluar turut dibenarkan, jadi sut atau kasut tumit tinggi tidak wajib. Namun, pakaian sukan, pakaian renang, selipar jepun dan baju lelaki tanpa lengan dilarang."
+      ],
+      [
+        "Bagaimana menempah dan apakah syarat pembatalan?",
+        "Tetapkan teman dan tarikh, kemudian pilih waktu melalui pautan rasmi dalam jadual. Deposit ditolak daripada bil hidangan dan tempahan disahkan selepas pembayaran diterima. Tempahan biasa boleh dibatalkan atau diubah secara percuma sehingga 72 jam sebelum lawatan. Selepas itu, pembatalan, perubahan atau tidak hadir menyebabkan deposit tidak dipulangkan. Tempah apabila jadual perjalanan sudah pasti. Acara khas dan tempahan berkumpulan mempunyai syarat bayaran balik berbeza."
+      ],
+      [
+        "Bolehkah makan malam jika datang lewat?",
+        "Boleh, tetapi dibuka hingga 00:30 tidak bermakna semua hidangan boleh dipesan hingga waktu itu. Menu set ditutup 23:00, à la carte 23:30 dan snek pada tengah malam. Jika mahu menikmati hidangan berperingkat dengan santai, tempah lebih awal untuk menikmati makanan dan panorama tanpa tergesa-gesa."
+      ],
+      [
+        "Bolehkah membawa beg perjalanan atau beg membeli-belah besar?",
+        "Beg besar, beg perjalanan dan beg membeli-belah tidak dibenarkan, dan tiada tempat simpanan. Selepas lawatan atau membeli-belah siang, singgah di penginapan untuk meninggalkan beg serta menukar pakaian sebelum ke Sirocco. Jika sudah daftar keluar, tentukan tempat menyimpan bagasi sepanjang makan malam lebih awal."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7215136,
+    "lng": 100.516885,
+    "locationSource": "https://www.openstreetmap.org/node/257066461",
+    "facilityKind": "Restoran rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "bookingUrl": "https://www.tablecheck.com/en/lebua-hotels-and-resorts-sirocco/reserve/landing?restaurantx=sirocco",
+    "taxi": {
+      "instructions": "Cari “lebua at State Tower” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke Sirocco.",
+      "english": "Please take me to lebua at State Tower, 1055 Silom Road. I am going to Sirocco restaurant.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไปร้านอาหารซีร็อกโก",
+      "destination": "lebua at State Tower · 1055 Silom Road, Bang Rak, Bangkok"
+    }
+  },
+  "distil-lebua": {
+    "id": "distil-lebua",
+    "researchId": "rt-bkk-004",
+    "city": "bangkok",
+    "name": "Distil by lebua",
+    "english": "Distil by lebua",
+    "building": "lebua at State Tower · tingkat 64",
+    "intro": "Pilih minuman beralkohol kegemaran sambil menikmati malam Bangkok di Distil. Bar tingkat 64 lebua ini menggabungkan panorama bandar dengan spirit premium, koktel dan cerut. Sesuai untuk memilih minuman dan meluangkan petang bersama pasangan atau rakan yang berkongsi cita rasa. Hanya umur 20 tahun ke atas dibenarkan; rancang sebagai pertemuan orang dewasa.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Hanya umur 20 tahun ke atas",
+      "dressCode": "Smart casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Malam memilih minuman kegemaran",
+        "text": "Pilih spirit premium atau koktel dan menikmatinya perlahan bersama makanan sampingan. Bersama teman yang berkongsi cita rasa, berbual tentang pilihan minuman masing-masing menambah keseronokan malam. Penggemar cerut juga mungkin berminat dengan bar ini."
+      },
+      {
+        "title": "Melihat Bangkok dari tingkat 64",
+        "text": "Luangkan petang bersama teman berlatar panorama bandar. Berikan masa untuk memilih minuman dan menikmati malam Bangkok daripada bergegas antara tempat lawatan. Oleh sebab dewasa sahaja, ia tidak sesuai untuk hari keluarga bersama anak kecil."
+      }
+    ],
+    "photos": [],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://lebua.com/faq/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk rakan atau pasangan dewasa yang menyukai spirit dan koktel serta mahu meluangkan petang memilih minuman. Pilih spirit premium atau koktel dan menikmatinya perlahan bersama makanan sampingan. Bersama teman yang berkongsi cita rasa, berbual tentang pilihan minuman masing-masing menambah keseronokan malam. Penggemar cerut juga mungkin berminat dengan bar ini."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Tidak, hanya umur 20 tahun ke atas dibenarkan masuk. Rancang sebagai pertemuan bersama rakan atau pasangan dewasa. Jika membawa anak kecil, pilih tempat yang menerima seluruh keluarga."
+      ],
+      [
+        "Bilakah dibuka?",
+        "Dibuka 17:00–00:30. Nikmati lawatan siang, kemudian singgah pada petang untuk memilih minuman sambil melihat bandar."
+      ],
+      [
+        "Pakaian apa sesuai?",
+        "Kod pakaian ialah smart casual. Sediakan pakaian keluar yang kemas untuk makan atau minum bersama rakan atau pasangan. Selepas melawat, tukar pakaian sebelum datang untuk menikmati suasana malam."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7215136,
+    "lng": 100.516885,
+    "locationSource": "https://www.openstreetmap.org/node/257066461",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk rakan atau pasangan dewasa yang menyukai spirit dan koktel serta mahu meluangkan petang memilih minuman.",
+    "taxi": {
+      "instructions": "Cari “lebua at State Tower” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Distil by lebua.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Distil by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Distil by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    }
+  },
+  "flute-lebua": {
+    "id": "flute-lebua",
+    "researchId": "rt-bkk-005",
+    "city": "bangkok",
+    "name": "Flûte by lebua, A Champagne Bollinger Bar",
+    "english": "Flûte by lebua, A Champagne Bollinger Bar",
+    "building": "lebua at State Tower · tingkat 64",
+    "intro": "Kunjungi Flûte untuk malam dengan champagne dan jazz. Dari bar champagne terbuka tingkat 64 lebua, nikmati Bollinger bersama tiram atau kaviar sambil melihat Bangkok. Tetapkan malam istimewa dengan pasangan atau rakan penggemar champagne. Jika mahu mendengar jazz, pilih hari persembahan selain Isnin.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Umur 7 tahun ke atas, bersama orang dewasa",
+      "dressCode": "Smart casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Padankan champagne dengan tiram atau kaviar",
+        "text": "Nikmati Bollinger bersama tiram atau kaviar. Pilih menu bersama teman penggemar champagne dan nikmati rasa perlahan sambil melihat bandar. Sesuai pada hari mahu meluangkan petang di satu tempat daripada bergegas ke beberapa lokasi."
+      },
+      {
+        "title": "Bersama teman penggemar jazz",
+        "text": "Jazz langsung bermula 19:00 pada hari selain Isnin. Jika pasangan atau rakan menyukai jazz, pilih hari persembahan. Nikmati muzik dan panorama bandar bersama champagne."
+      }
+    ],
+    "photos": [],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://lebua.com/faq/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk malam istimewa bersama pasangan atau rakan yang menggemari champagne dan jazz. Nikmati Bollinger bersama tiram atau kaviar. Pilih menu bersama teman penggemar champagne dan nikmati rasa perlahan sambil melihat bandar. Sesuai pada hari mahu meluangkan petang di satu tempat daripada bergegas ke beberapa lokasi."
+      ],
+      [
+        "Bilakah persembahan jazz?",
+        "Jazz langsung bermula 19:00 pada hari selain Isnin. Atur pertemuan mengikut waktu itu jika teman mahu menikmati muzik."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Kanak-kanak berumur 7 tahun ke atas boleh masuk bersama orang dewasa. Jika membawa anak bawah 7 tahun, pilih tempat lain. Tentukan mengikut sama ada makan malam seluruh keluarga atau pertemuan dewasa menikmati champagne."
+      ],
+      [
+        "Pakaian apa sesuai?",
+        "Kod pakaian ialah smart casual. Sediakan pakaian kemas untuk malam menikmati champagne. Tidak perlu menganggap sut wajib; pilih pakaian yang sesuai menikmati suasana bersama teman."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7215136,
+    "lng": 100.516885,
+    "locationSource": "https://www.openstreetmap.org/node/257066461",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk malam istimewa bersama pasangan atau rakan yang menggemari champagne dan jazz.",
+    "taxi": {
+      "instructions": "Cari “lebua at State Tower” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Flûte by lebua, A Champagne Bollinger Bar.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Flûte by lebua, A Champagne Bollinger Bar.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Flûte by lebua, A Champagne Bollinger Bar",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    }
+  },
+  "alfresco-64": {
+    "id": "alfresco-64",
+    "researchId": "rt-bkk-006",
+    "city": "bangkok",
+    "name": "Alfresco 64 by lebua",
+    "english": "Alfresco 64 by lebua",
+    "building": "lebua at State Tower · tingkat 64",
+    "intro": "Kunjungi Alfresco 64 untuk menikmati malam Bangkok bersama rakan penggemar wiski dan muzik DJ. Bar terbuka tingkat 64 lebua ini menawarkan ruang berinspirasikan kapal layar untuk menikmati wiski dengan panorama bandar. Selepas lawatan siang, rancang malam bersama orang dewasa untuk muzik dan minuman. Hanya umur 20 tahun ke atas dibenarkan.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Hanya umur 20 tahun ke atas",
+      "dressCode": "Smart casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Wiski dalam ruang berinspirasikan kapal layar",
+        "text": "Ruang terbuka berinspirasikan kapal layar ialah cirinya. Pilih wiski kegemaran dan nikmatinya bersama panorama Bangkok. Sesuai untuk berbual dengan rakan yang berkongsi cita rasa wiski."
+      },
+      {
+        "title": "Malam Bangkok bersama muzik DJ",
+        "text": "Persembahan DJ tersedia pada hari selain Isnin. Pilih hari persembahan jika bersama rakan peminat muzik. Tempat ini untuk pertemuan dewasa, bukan lawatan keluarga bersama anak."
+      }
+    ],
+    "photos": [],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://lebua.com/faq/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk meluangkan petang bersama rakan dewasa penggemar wiski dan muzik DJ. Ruang terbuka berinspirasikan kapal layar ialah cirinya. Pilih wiski kegemaran dan nikmatinya bersama panorama Bangkok. Sesuai untuk berbual dengan rakan yang berkongsi cita rasa wiski."
+      ],
+      [
+        "Adakah DJ setiap hari?",
+        "Persembahan DJ pada hari selain Isnin. Pilih hari tersebut untuk menikmati muzik bersama wiski dan panorama bandar."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Tidak, hanya umur 20 tahun ke atas. Rancang malam bersama rakan atau pasangan dewasa yang menyukai wiski dan muzik."
+      ],
+      [
+        "Bilakah boleh datang?",
+        "Dibuka 17:00–00:30. Selepas lawatan siang, singgah pada petang untuk menikmati wiski dan panorama Bangkok dengan santai."
+      ],
+      [
+        "Pakaian apa perlu disediakan?",
+        "Kod pakaian ialah smart casual. Sediakan pakaian keluar yang kemas untuk makan atau minum bersama rakan atau pasangan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7215136,
+    "lng": 100.516885,
+    "locationSource": "https://www.openstreetmap.org/node/257066461",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk meluangkan petang bersama rakan dewasa penggemar wiski dan muzik DJ.",
+    "taxi": {
+      "instructions": "Cari “lebua at State Tower” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Alfresco 64 by lebua.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to Alfresco 64 by lebua.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป Alfresco 64 by lebua",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    }
+  },
+  "lebua-no3": {
+    "id": "lebua-no3",
+    "researchId": "rt-bkk-007",
+    "city": "bangkok",
+    "name": "lebua No.3",
+    "english": "lebua No.3",
+    "building": "lebua at State Tower · tingkat 52",
+    "intro": "Jika menyukai gin dan vodka, luangkan petang di lebua No.3. Ruang moden tingkat 52 lebua menawarkan minuman dan kaviar bersama panorama bandar. Pilih minuman kegemaran dengan rakan atau pasangan, kemudian berkongsi cerita perjalanan sambil melihat cahaya Bangkok. Rancang pertemuan dewasa dan nikmati masa tanpa tergesa-gesa.",
+    "facts": {
+      "hours": "17:00–00:30",
+      "children": "Hanya umur 20 tahun ke atas",
+      "dressCode": "Smart casual",
+      "address": "State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 (0)2 624 9555"
+    },
+    "reasons": [
+      {
+        "title": "Gin atau vodka bersama kaviar",
+        "text": "Padankan gin atau vodka dengan kaviar. Jika mahu mencuba gabungan lain selepas beberapa hari menikmati koktel, pilih menu bersama teman yang berkongsi cita rasa. Luangkan petang berbual tentang rasa baharu."
+      },
+      {
+        "title": "Panorama bandar dari ruang moden",
+        "text": "Nikmati minuman dengan panorama Bangkok dari tingkat 52. Datang bersama pasangan atau rakan yang menyukai reka bentuk moden. Hanya umur 20 tahun ke atas dibenarkan; pilih tempat lain jika bersama anak kecil."
+      }
+    ],
+    "photos": [],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://lebua.com/faq/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk pasangan atau rakan dewasa yang mahu menikmati gin, vodka dan kaviar dengan panorama bandar. Padankan gin atau vodka dengan kaviar. Jika mahu mencuba gabungan lain selepas beberapa hari menikmati koktel, pilih menu bersama teman yang berkongsi cita rasa. Luangkan petang berbual tentang rasa baharu."
+      ],
+      [
+        "Teman bagaimana sesuai?",
+        "Datang bersama pasangan atau rakan yang menyukai gin dan vodka. Pilih minuman dan kaviar sambil melihat bandar. Sesuai pada hari mahu meluangkan masa sesama dewasa."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Tidak, hanya umur 20 tahun ke atas. Rancang sebagai pertemuan rakan atau pasangan dewasa, bukan makan keluarga dengan anak kecil."
+      ],
+      [
+        "Pukul berapa dibuka?",
+        "Dibuka 17:00–00:30. Singgah selepas lawatan untuk menikmati minuman sambil melihat cahaya Bangkok."
+      ],
+      [
+        "Pakaian apa perlu disediakan?",
+        "Kod pakaian ialah smart casual. Sediakan pakaian keluar yang kemas untuk makan atau minum bersama rakan atau pasangan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7215136,
+    "lng": 100.516885,
+    "locationSource": "https://www.openstreetmap.org/node/257066461",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk pasangan atau rakan dewasa yang mahu menikmati gin, vodka dan kaviar dengan panorama bandar.",
+    "taxi": {
+      "instructions": "Cari “lebua at State Tower” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke lebua No.3.",
+      "english": "Please take me to lebua at State Tower, State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand. I am going to lebua No.3.",
+      "thai": "ไปโรงแรมเลอบัว แอท สเตท ทาวเวอร์ ถนนสีลม จะไป lebua No.3",
+      "destination": "lebua at State Tower · State Tower Bangkok, 1055 Silom Road, Bangrak, Bangkok 10500, Thailand"
+    }
+  },
+  "octave-rooftop": {
+    "id": "octave-rooftop",
+    "researchId": "rt-bkk-008",
+    "city": "bangkok",
+    "name": "Octave Rooftop Lounge & Bar",
+    "english": "Octave Rooftop Lounge & Bar",
+    "building": "Bangkok Marriott Hotel Sukhumvit",
+    "intro": "Naik ke Octave jika merancang pertemuan malam di Thong Lo. Dari atas Bangkok Marriott Hotel Sukhumvit, nikmati makanan dan minuman dengan panorama bandar ke semua arah. Tiba sebelum matahari terbenam bersama rakan; sambil berbual, lihat warna langit berubah dan lampu Sukhumvit mula menyala. Sesuai juga untuk malam yang mahu dinikmati hingga lewat.",
+    "facts": {
+      "hours": "Setiap hari 17:00 hingga 02:00 hari berikutnya",
+      "closed": "Tiada hari tutup tetap",
+      "address": "2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand",
+      "phone": "+66 2-797 0000",
+      "booking": "Tempahan tersedia melalui pautan rasmi",
+      "dressCode": "Smart casual"
+    },
+    "reasons": [
+      {
+        "title": "Dari senja ke malam Sukhumvit",
+        "text": "Nikmati panorama bandar 360 darjah. Lihat bandar dan langit sebelum senja, kemudian cahaya Sukhumvit pada malam hari. Daripada singgah bergambar sahaja, luangkan masa melihat suasana berubah bersama makanan dan minuman."
+      },
+      {
+        "title": "Malam memilih makanan dan minuman bersama",
+        "text": "Nikmati hidangan serta minuman di satu tempat. Selepas lawatan siang, bertemu rakan dan berkongsi pilihan menu sambil bercerita tentang hari itu. Walaupun dibuka hingga 02:00, sediakan masa petang yang longgar jika mahu makan perlahan."
+      }
+    ],
+    "photos": [
+      {
+        "src": "/images/rooftops/octave-2-2014.webp",
+        "alt": "Bar Octave Rooftop dan panorama bandar",
+        "caption": "Bar Octave Rooftop dan panorama bandar · dirakam 2014",
+        "credit": "mohigan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(2).jpg",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "Diubah saiz untuk paparan web dan ditukar kepada WebP"
+      },
+      {
+        "src": "/images/rooftops/octave-5-2014.webp",
+        "alt": "Kawasan Thong Lo dari Octave Rooftop",
+        "caption": "Kawasan Thong Lo dari Octave Rooftop · dirakam 2014",
+        "credit": "mohigan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(5).jpg",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "Diubah saiz untuk paparan web dan ditukar kepada WebP"
+      }
+    ],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.marriott.com/en-us/hotels/bkkms-bangkok-marriott-hotel-sukhumvit/dining/octave-rooftop-lounge-bar/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk menikmati makanan dan minuman dengan rakan sambil melihat senja bersambung dengan malam Sukhumvit. Nikmati panorama bandar 360 darjah. Lihat bandar dan langit sebelum senja, kemudian cahaya Sukhumvit pada malam hari. Daripada singgah bergambar sahaja, luangkan masa melihat suasana berubah bersama makanan dan minuman."
+      ],
+      [
+        "Bilakah boleh melihat senja dan malam sekali gus?",
+        "Tiba sebelum matahari terbenam. Lihat bandar serta langit terlebih dahulu, kemudian cahaya Sukhumvit selepas gelap. Nikmati makanan dan minuman sambil tinggal lebih lama untuk melihat kedua-dua suasana."
+      ],
+      [
+        "Bolehkah menempah?",
+        "Ya. Tetapkan teman dan waktu, kemudian gunakan panduan tempahan rasmi. Jika rancangan malam sudah pasti, tempah meja dan susun lawatan lain di sekitarnya."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Setiap hari 17:00 hingga 02:00 hari berikutnya. Boleh singgah lewat selepas lawatan. Jika mahu makan, tanya waktu akhir pesanan ketika menempah dan luangkan masa menikmati hidangan bersama panorama."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": true,
+    "lat": 13.7233708,
+    "lng": 100.5805155,
+    "locationSource": "https://www.openstreetmap.org/way/208693103",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk menikmati makanan dan minuman dengan rakan sambil melihat senja bersambung dengan malam Sukhumvit.",
+    "bestTime": "Tiba sebelum matahari terbenam untuk melihat bandar dan langit, kemudian nikmati Bangkok yang bercahaya selepas gelap.",
+    "taxi": {
+      "instructions": "Cari “Bangkok Marriott Hotel Sukhumvit” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Octave Rooftop Lounge & Bar.",
+      "english": "Please take me to Bangkok Marriott Hotel Sukhumvit, 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand. I am going to Octave Rooftop Lounge & Bar.",
+      "thai": "ไปโรงแรมแบงค็อก แมริออท สุขุมวิท ซอยสุขุมวิท 57 จะไป Octave Rooftop Lounge & Bar",
+      "destination": "Bangkok Marriott Hotel Sukhumvit · 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand"
+    }
+  },
+  "attic-by-octave": {
+    "id": "attic-by-octave",
+    "researchId": "rt-bkk-009",
+    "city": "bangkok",
+    "name": "ATTIC by Octave",
+    "english": "ATTIC by Octave",
+    "building": "Bangkok Marriott Hotel Sukhumvit · tingkat 47",
+    "intro": "Jika menyukai suasana bar tersembunyi, singgah di ATTIC by Octave. Dari tingkat 47 Bangkok Marriott Hotel Sukhumvit, nikmati panorama Sukhumvit bersama minuman dan kudapan Mexico. Sesuai memilih menu bersama pasangan atau rakan sambil menikmati malam bandar. Datang pada petang anda mahu melihat panorama dan mencuba gaya minuman berbeza.",
+    "facts": {
+      "address": "2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand",
+      "phone": "+66 2-797 0000",
+      "booking": "Tempahan tersedia melalui pautan rasmi",
+      "dressCode": "Smart casual"
+    },
+    "reasons": [
+      {
+        "title": "Berbual dalam suasana bar tersembunyi",
+        "text": "ATTIC menggabungkan suasana seakan bar tersembunyi dengan panorama rooftop. Pilih minuman bersama rakan dan berbual tentang perjalanan sambil melihat Sukhumvit. Sesuai untuk petang dengan suasana berbeza di tengah bandar."
+      },
+      {
+        "title": "Padankan minuman dengan kudapan Mexico",
+        "text": "Nikmati minuman dan kudapan berinspirasikan Mexico. Bersama teman yang suka mencuba menu baharu, berbual tentang pilihan masing-masing. Tempahan tersedia; jika waktu sudah ditetapkan, pertimbangkan menempah meja lebih awal."
+      }
+    ],
+    "photos": [],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.marriott.com/en-us/hotels/bkkms-bangkok-marriott-hotel-sukhumvit/dining/octave-rooftop-lounge-bar/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai bersama pasangan atau rakan yang menyukai suasana bar tersembunyi dan minuman baharu. ATTIC menggabungkan suasana seakan bar tersembunyi dengan panorama rooftop. Pilih minuman bersama rakan dan berbual tentang perjalanan sambil melihat Sukhumvit. Sesuai untuk petang dengan suasana berbeza di tengah bandar."
+      ],
+      [
+        "Teman bagaimana sesuai?",
+        "Sesuai bersama pasangan atau rakan yang menggemari suasana bar tersembunyi dan minuman baharu. Nikmati minuman serta kudapan Mexico sambil melihat Sukhumvit."
+      ],
+      [
+        "Berada di tingkat mana?",
+        "Di tingkat 47 Bangkok Marriott Hotel Sukhumvit. Beritahu kakitangan anda mahu ke ATTIC by Octave. Namanya hampir sama dengan Octave dalam hotel yang sama, jadi nyatakan bar yang betul."
+      ],
+      [
+        "Bolehkah menempah?",
+        "Ya. Tetapkan teman, tarikh dan waktu, kemudian gunakan panduan tempahan rasmi. Susun lawatan lain supaya dapat menikmati petang tanpa tergesa-gesa."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7233708,
+    "lng": 100.5805155,
+    "locationSource": "https://www.openstreetmap.org/way/208693103",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai bersama pasangan atau rakan yang menyukai suasana bar tersembunyi dan minuman baharu.",
+    "taxi": {
+      "instructions": "Cari “Bangkok Marriott Hotel Sukhumvit” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke ATTIC by Octave.",
+      "english": "Please take me to Bangkok Marriott Hotel Sukhumvit, 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand. I am going to ATTIC by Octave.",
+      "thai": "ไปโรงแรมแบงค็อก แมริออท สุขุมวิท ซอยสุขุมวิท 57 จะไป ATTIC by Octave",
+      "destination": "Bangkok Marriott Hotel Sukhumvit · 2 Sukhumvit Soi 57, Klongtan Nua, Wattana, Bangkok 10110, Thailand"
+    }
+  },
+  "red-sky-restaurant": {
+    "id": "red-sky-restaurant",
+    "researchId": "rt-bkk-010",
+    "city": "bangkok",
+    "name": "Red Sky Restaurant",
+    "english": "Red Sky Restaurant",
+    "building": "Centara Grand at CentralWorld · tingkat 55",
+    "intro": "Kunjungi Red Sky Restaurant untuk makan malam bersama panorama Bangkok. Dari tingkat 55 Centara Grand, nikmati masakan Eropah, stik dan makanan laut menghadap bandar. Sesuai untuk ulang tahun pasangan atau menjamu ibu bapa makan malam istimewa. Luangkan waktu berbual dan menikmati hidangan tanpa perlu bergegas ke tempat lain selepas makan.",
+    "facts": {
+      "hours": "17:00–01:00 (setiap hari, makan malam)",
+      "closed": "Tiada hari tutup tetap",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255",
+      "booking": "Tempahan tersedia melalui “Reserve a Table”"
+    },
+    "reasons": [
+      {
+        "title": "Makan malam bersama panorama bandar",
+        "text": "Lihat Bangkok ke semua arah sambil makan di tingkat 55. Pilih menu bersama teman dan nikmati cahaya bandar. Sesuai untuk ulang tahun dengan pasangan atau makan malam bersama ibu bapa."
+      },
+      {
+        "title": "Bersama penggemar stik dan makanan laut",
+        "text": "Nikmati makan malam berasaskan masakan Eropah, stik dan makanan laut. Pilih hidangan kegemaran dan berbual sambil makan perlahan. Red Sky Bar satu tingkat di atas ialah kemudahan berasingan; tempah restoran jika tujuan anda makan malam."
+      }
+    ],
+    "photos": [],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai untuk ulang tahun bersama pasangan atau menjamu ibu bapa makan malam dengan panorama malam. Lihat Bangkok ke semua arah sambil makan di tingkat 55. Pilih menu bersama teman dan nikmati cahaya bandar. Sesuai untuk ulang tahun dengan pasangan atau makan malam bersama ibu bapa."
+      ],
+      [
+        "Adakah sama dengan Red Sky Bar?",
+        "Dalam bangunan sama tetapi kemudahan berasingan. Restoran di tingkat 55 dan bar satu tingkat di atas. Pilih restoran untuk makan malam stik atau makanan laut."
+      ],
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai untuk ulang tahun bersama pasangan atau menjamu ibu bapa makan malam. Pilih menu sambil melihat bandar dan luangkan masa berbual untuk suasana lebih santai."
+      ],
+      [
+        "Bolehkah menempah?",
+        "Ya, gunakan “Reserve a Table” rasmi. Tetapkan teman dan waktu makan sebelum menempah. Jangan padatkan lawatan sebelum atau selepas supaya hidangan dapat dinikmati perlahan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7465769,
+    "lng": 100.5390414,
+    "locationSource": "https://www.openstreetmap.org/way/157482067",
+    "facilityKind": "Restoran rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk ulang tahun bersama pasangan atau menjamu ibu bapa makan malam dengan panorama malam.",
+    "taxi": {
+      "instructions": "Cari “Centara Grand at CentralWorld” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Red Sky Restaurant.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Red Sky Restaurant.",
+      "thai": "ไปโรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ จะไป Red Sky Restaurant",
+      "destination": "Centara Grand at CentralWorld · 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand"
+    }
+  },
+  "red-sky-bar": {
+    "id": "red-sky-bar",
+    "researchId": "rt-bkk-011",
+    "city": "bangkok",
+    "name": "Red Sky Bar",
+    "english": "Red Sky Bar",
+    "building": "Centara Grand at CentralWorld · tingkat 56",
+    "intro": "Selepas membeli-belah di CentralWorld, naik ke Red Sky Bar untuk panorama malam. Dari tingkat 56 Centara Grand, nikmati koktel dan kudapan ringan dengan pemandangan bandar yang terbuka. Berbual tentang lawatan siang bersama rakan atau lihat cahaya Bangkok bersama pasangan. Tiba sebelum matahari terbenam untuk menyaksikan panorama siang bersambung dengan malam.",
+    "facts": {
+      "hours": "16:00–01:00 (setiap hari)",
+      "closed": "Tiada hari tutup tetap",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255"
+    },
+    "reasons": [
+      {
+        "title": "Malam melihat bandar selepas membeli-belah",
+        "text": "Selepas membeli-belah sekitar CentralWorld, bertemu rakan pada petang hari. Nikmati koktel dengan panorama terbuka tingkat 56 sambil bercerita tentang hari itu. Lihat bandar dari sudut berbeza daripada ketika berjalan di jalanan."
+      },
+      {
+        "title": "Menunggu malam bersama koktel dan kudapan",
+        "text": "Nikmati kudapan ringan dan koktel. Tiba sebelum senja untuk melihat bandar, kemudian Bangkok yang dipenuhi cahaya pada malam hari. Sesuai untuk meluangkan petang menghadap panorama bersama rakan atau pasangan."
+      }
+    ],
+    "photos": [
+      {
+        "src": "/images/rooftops/red-sky-arch-2024.webp",
+        "alt": "Gerbang hijau Red Sky Bar",
+        "caption": "Gerbang hijau Red Sky Bar · dirakam 2024",
+        "credit": "Welcome to Thailand",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_3.jpg",
+        "rights": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "width": 1400,
+        "height": 1867,
+        "changes": "Diubah saiz untuk paparan web dan ditukar kepada WebP"
+      },
+      {
+        "src": "/images/rooftops/red-sky-view-2024.webp",
+        "alt": "Panorama malam Bangkok dari Red Sky Bar",
+        "caption": "Panorama malam Bangkok dari Red Sky Bar · dirakam 2024",
+        "credit": "Welcome to Thailand",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_5.jpg",
+        "rights": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "width": 1400,
+        "height": 1050,
+        "changes": "Diubah saiz untuk paparan web dan ditukar kepada WebP"
+      }
+    ],
+    "access": [],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai datang bersama siapa?",
+        "Sesuai menikmati koktel dan panorama malam dengan pasangan atau rakan selepas membeli-belah. Selepas membeli-belah sekitar CentralWorld, bertemu rakan pada petang hari. Nikmati koktel dengan panorama terbuka tingkat 56 sambil bercerita tentang hari itu. Lihat bandar dari sudut berbeza daripada ketika berjalan di jalanan."
+      ],
+      [
+        "Adakah sama dengan restoran?",
+        "Kedua-duanya di aras berbeza dalam bangunan sama. Restoran Red Sky di tingkat 55 dan bar di tingkat 56. Pilih restoran untuk makan malam, atau bar untuk koktel dan kudapan ringan."
+      ],
+      [
+        "Bilakah sesuai datang?",
+        "Tiba sebelum matahari terbenam untuk melihat bandar siang diikuti cahaya malam. Selepas membeli-belah dengan rakan, pilih minuman dan nikmati perubahan panorama dengan santai."
+      ],
+      [
+        "Dibuka hingga pukul berapa?",
+        "Setiap hari 16:00 hingga 01:00 hari berikutnya. Anda boleh datang lewat petang, tetapi luangkan masa yang mencukupi untuk menikmati panorama bersama teman."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": true,
+    "lat": 13.7465769,
+    "lng": 100.5390414,
+    "locationSource": "https://www.openstreetmap.org/way/157482067",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai menikmati koktel dan panorama malam dengan pasangan atau rakan selepas membeli-belah.",
+    "bestTime": "Tiba sebelum matahari terbenam untuk melihat bandar dan langit, kemudian nikmati Bangkok yang bercahaya selepas gelap.",
+    "taxi": {
+      "instructions": "Cari “Centara Grand at CentralWorld” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Red Sky Bar.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Red Sky Bar.",
+      "thai": "ไปโรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ จะไป Red Sky Bar",
+      "destination": "Centara Grand at CentralWorld · 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand"
+    }
+  },
+  "cru-champagne-bar": {
+    "id": "cru-champagne-bar",
+    "researchId": "rt-bkk-012",
+    "city": "bangkok",
+    "name": "CRU Champagne Bar",
+    "english": "CRU Champagne Bar",
+    "building": "Centara Grand at CentralWorld · tingkat 59",
+    "intro": "Kunjungi CRU Champagne Bar untuk malam istimewa bersama champagne. Dari tingkat 59 Centara Grand, nikmati champagne dan tiram dengan panorama Bangkok. Sesuai untuk rakan penggemar champagne atau ulang tahun pasangan. Luangkan masa sejak senja untuk melihat lampu bandar menyala. Hanya umur 20 tahun ke atas dibenarkan, jadi rancang pertemuan dewasa.",
+    "facts": {
+      "hours": "17:00–01:00 (setiap hari)",
+      "children": "Hanya umur 20 tahun ke atas",
+      "closed": "Tiada hari tutup tetap",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255",
+      "booking": "Tempahan tersedia melalui “Reserve a Table”"
+    },
+    "reasons": [
+      {
+        "title": "Bersama teman penggemar champagne",
+        "text": "Pilih champagne bersama teman dan padankannya dengan tiram sambil menikmati petang Bangkok. Sesuai apabila mahu meluangkan masa dengan champagne daripada bergambar panorama malam sahaja."
+      },
+      {
+        "title": "Malam bandar dari tingkat 59",
+        "text": "Lihat bangunan tinggi yang memenuhi pusat Bangkok. Untuk ulang tahun pasangan atau meraikan hari istimewa dengan rakan, pilih petang tanpa perlu bergegas ke aktiviti seterusnya."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Centara Grand at CentralWorld",
+        "instructions": "Cari “Centara Grand at CentralWorld” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke CRU Champagne Bar. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7465769,100.5390414&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Pilih champagne bersama teman dan padankannya dengan tiram sambil menikmati petang Bangkok. Sesuai apabila mahu meluangkan masa dengan champagne daripada bergambar panorama malam sahaja."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Lihat bangunan tinggi yang memenuhi pusat Bangkok. Untuk ulang tahun pasangan atau meraikan hari istimewa dengan rakan, pilih petang tanpa perlu bergegas ke aktiviti seterusnya."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Hanya umur 20 tahun ke atas dibenarkan. Rancang untuk menikmati champagne bersama teman dewasa, bukan makan keluarga dengan anak."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Setiap hari 17:00–01:00. Luangkan masa petang untuk menikmati champagne dan panorama malam."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Gunakan “Reserve a Table” di halaman rasmi. Tetapkan teman dan tarikh, kemudian pilih waktu."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7465769,
+    "lng": 100.5390414,
+    "locationSource": "https://www.openstreetmap.org/way/157482067",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Cari “Centara Grand at CentralWorld” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke CRU Champagne Bar.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to CRU Champagne Bar.",
+      "thai": "ครู แชมเปญบาร์  โรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ 999/99 ถนนพระราม 1 ปทุมวัน กรุงเทพฯ",
+      "destination": "Centara Grand at CentralWorld"
+    }
+  },
+  "cocoa-xo": {
+    "id": "cocoa-xo",
+    "researchId": "rt-bkk-014",
+    "city": "bangkok",
+    "name": "Cocoa XO",
+    "english": "Cocoa XO",
+    "building": "Centara Grand at CentralWorld",
+    "intro": "Singgah di Cocoa XO untuk menikmati sesuatu yang manis selepas makan malam Bangkok. Di Centara Grand at CentralWorld, nikmati coklat buatan tangan dan koktel cognac sambil melihat bandar. Sesuai untuk masa pencuci mulut yang berbeza bersama rakan penggemar coklat atau cognac. Bar ini hanya menerima umur 20 tahun ke atas; rancang bersama teman dewasa.",
+    "facts": {
+      "hours": "16:00–01:00 (setiap hari)",
+      "children": "Hanya umur 20 tahun ke atas",
+      "closed": "Tiada hari tutup tetap",
+      "address": "999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand",
+      "phone": "+66 2-100-6255"
+    },
+    "reasons": [
+      {
+        "title": "Masa menikmati coklat bersama cognac",
+        "text": "Nikmati coklat buatan tangan dengan koktel cognac. Pilih minuman bersama pasangan atau rakan yang menyukai coklat. Sesuai apabila masih mahu berbual selepas makan."
+      },
+      {
+        "title": "Pencuci mulut manis dan panorama bandar",
+        "text": "Nikmati pencuci mulut serta minuman dengan panorama luas pusat Bangkok. Dibuka mulai 16:00, jadi anda juga boleh melihat bandar ketika terang. Selepas makan malam, lihat cahaya bandar untuk mengakhiri hari."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Centara Grand at CentralWorld",
+        "instructions": "Cari “Centara Grand at CentralWorld” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Cocoa XO. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7465769,100.5390414&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.centarahotelsresorts.com/centaragrand/cgcw/restaurants-and-bars"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Nikmati coklat buatan tangan dengan koktel cognac. Pilih minuman bersama pasangan atau rakan yang menyukai coklat. Sesuai apabila masih mahu berbual selepas makan."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Nikmati pencuci mulut serta minuman dengan panorama luas pusat Bangkok. Dibuka mulai 16:00, jadi anda juga boleh melihat bandar ketika terang. Selepas makan malam, lihat cahaya bandar untuk mengakhiri hari."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Hanya umur 20 tahun ke atas dibenarkan. Rancang untuk menikmati coklat dan cognac bersama teman dewasa, bukan makan keluarga dengan anak."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Setiap hari 16:00–01:00. Datang pada petang untuk coklat dan minuman atau selepas makan malam sebagai masa pencuci mulut."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7465769,
+    "lng": 100.5390414,
+    "locationSource": "https://www.openstreetmap.org/way/157482067",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Cari “Centara Grand at CentralWorld” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Cocoa XO.",
+      "english": "Please take me to Centara Grand at CentralWorld, 999/99 Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. I am going to Cocoa XO.",
+      "thai": "โกโก้ XO โรงแรมเซ็นทาราแกรนด์ แอท เซ็นทรัลเวิลด์ 999/99 ถนนพระราม 1 ปทุมวัน กรุงเทพฯ",
+      "destination": "Centara Grand at CentralWorld"
+    }
+  },
+  "above-eleven": {
+    "id": "above-eleven",
+    "researchId": "rt-bkk-015",
+    "city": "bangkok",
+    "name": "Above Eleven",
+    "english": "Above Eleven",
+    "building": "Fraser Suites Sukhumvit · tingkat 33",
+    "intro": "Kunjungi Above Eleven untuk masakan berbeza dan muzik di Sukhumvit. Dari tingkat 33 Fraser Suites Sukhumvit, nikmati masakan Nikkei gabungan Peru-Jepun serta Pisco Sour. Rancang makan malam menghadap bandar dengan pasangan atau rakan yang suka makanan baharu, kemudian sambung muzik DJ. Malam salsa pada Rabu juga sesuai untuk teman penggemar muzik.",
+    "facts": {
+      "hours": "17:00–02:00",
+      "closed": "Tiada hari tutup tetap",
+      "address": "33rd Floor, Fraser Suites Sukhumvit, Sukhumvit Soi 11, Khlong Toei Nuea, Watthana, Bangkok 10110",
+      "phone": "+66 2 038 5111",
+      "booking": "Tempahan melalui e-mel — reservations@sohohospitality.com"
+    },
+    "reasons": [
+      {
+        "title": "Mulakan malam dengan masakan berbeza",
+        "text": "Masakan Nikkei yang menggabungkan Peru dan Jepun serta Pisco Sour menjadi tarikan. Pilih menu bersama rakan yang mahu mencuba makanan baharu. Menikmati hidangan dengan panorama Sukhumvit boleh menambah keseronokan perjalanan."
+      },
+      {
+        "title": "Makan dan muzik di satu tempat",
+        "text": "Muzik DJ tersedia setiap hari dan malam salsa pada Rabu. Sesuai jika mahu menyambung minuman serta muzik di tempat sama selepas makan, tanpa berpindah bar. Jika teman berminat dengan salsa, pertimbangkan Rabu."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Fraser Suites Sukhumvit",
+        "instructions": "Cari “Fraser Suites Sukhumvit” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Above Eleven. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7456248,100.5565953&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://aboveeleven.com/bangkok/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Masakan Nikkei yang menggabungkan Peru dan Jepun serta Pisco Sour menjadi tarikan. Pilih menu bersama rakan yang mahu mencuba makanan baharu. Menikmati hidangan dengan panorama Sukhumvit boleh menambah keseronokan perjalanan."
+      ],
+      [
+        "Bilakah sesuai menikmati muzik?",
+        "DJ tersedia setiap hari dan malam salsa pada Rabu. Jika bersama rakan peminat salsa, pertimbangkan Rabu. Luangkan masa untuk makan dan muzik sekali gus."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "17:00–02:00. Datang dengan masa petang yang mencukupi untuk menikmati hidangan dan DJ, bukan tiba terlalu lewat."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Hantar tarikh dan bilangan orang kepada reservations@sohohospitality.com. Jika mahu malam salsa Rabu, tanya juga waktu acara hari itu."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7456248,
+    "lng": 100.5565953,
+    "locationSource": "https://www.openstreetmap.org/way/329919859",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Cari “Fraser Suites Sukhumvit” dalam Grab atau Bolt. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Apabila tiba, beritahu kakitangan anda mahu ke Above Eleven.",
+      "english": "Please take me to Fraser Suites Sukhumvit, Fraser Suites Sukhumvit, Sukhumvit Soi 11, Khlong Toei Nuea, Watthana, Bangkok 10110. I am going to Above Eleven.",
+      "thai": "อะโบฟ อีเลฟเว่น  เฟรเซอร์ สวีทส์ สุขุมวิท ซอยสุขุมวิท 11 กรุงเทพฯ",
+      "destination": "Fraser Suites Sukhumvit"
+    }
+  },
+  "yao-rooftop": {
+    "id": "yao-rooftop",
+    "researchId": "rt-bkk-016",
+    "city": "bangkok",
+    "name": "Yao Rooftop Bar",
+    "english": "Yao Rooftop Bar",
+    "building": "Bangkok Marriott Hotel The Surawongse",
+    "intro": "Kunjungi Yao Rooftop Bar untuk suasana Cina bersama panorama malam Bangkok. Ruang terbuka Marriott Hotel The Surawongse menghadap pusat bandar dan kawasan lama. Nikmati dim sum dengan koktel atau minuman tanpa alkohol sambil berbual bersama pasangan atau rakan. Teman yang tidak minum alkohol juga boleh memilih minuman dan menikmati suasana petang Surawong.",
+    "facts": {
+      "hours": "Setiap hari 17:00 hingga 01:00 hari berikutnya",
+      "closed": "Tiada hari tutup tetap",
+      "address": "262 Surawong Road, Si Phraya, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 2 088 5666 · sambungan 5840",
+      "booking": "Tempahan — +66 2-0885666 sambungan 5840",
+      "dressCode": "Kasual"
+    },
+    "reasons": [
+      {
+        "title": "Panorama malam bersama dim sum dan minuman",
+        "text": "Nikmati dim sum dan koktel dalam ruang berinspirasikan Cina. Kongsi makanan dengan rakan atau pasangan sambil melihat cahaya pusat Bangkok. Minuman tanpa alkohol juga tersedia, sesuai untuk teman yang tidak minum alkohol."
+      },
+      {
+        "title": "Melihat petang Surawong dari atas",
+        "text": "Panorama menggabungkan pusat bandar dengan kawasan lama. Luangkan masa sejak senja untuk melihat bandar siang bertukar menjadi cahaya malam. Datang apabila mahu berehat selepas lawatan sambil bercerita tentang hari itu."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Bangkok Marriott Hotel The Surawongse",
+        "instructions": "Cari “Bangkok Marriott Hotel The Surawongse” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Yao Rooftop Bar. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7276894,100.522168&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.marriott.com/en-us/dining/restaurant-bar/bkkwo-bangkok-marriott-hotel-the-surawongse/6055922-yao-rooftop-bar.mi"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Nikmati dim sum dan koktel dalam ruang berinspirasikan Cina. Kongsi makanan dengan rakan atau pasangan sambil melihat cahaya pusat Bangkok. Minuman tanpa alkohol juga tersedia, sesuai untuk teman yang tidak minum alkohol."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Panorama menggabungkan pusat bandar dengan kawasan lama. Luangkan masa sejak senja untuk melihat bandar siang bertukar menjadi cahaya malam. Datang apabila mahu berehat selepas lawatan sambil bercerita tentang hari itu."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Setiap hari 17:00 hingga 01:00 hari berikutnya. Luangkan masa sejak senja untuk melihat bandar siang bertukar menjadi cahaya malam."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Hubungi +66 2 088 5666 sambungan 5840. Tetapkan teman dan tarikh, kemudian nyatakan waktu pilihan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7276894,
+    "lng": 100.522168,
+    "locationSource": "https://www.openstreetmap.org/way/1313852747",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Tunjukkan destinasi di bawah kepada pemandu teksi.",
+      "english": "Please take me to Bangkok Marriott Hotel The Surawongse, 262 Surawong Road, Si Phraya, Bangrak, Bangkok 10500, Thailand. I am going to Yao Rooftop Bar.",
+      "thai": "เยา รูฟท็อปบาร์ โรงแรมแบงค็อก แมริออท เดอะ สุรวงศ์ 262 ถนนสุรวงศ์ กรุงเทพฯ",
+      "destination": "Bangkok Marriott Hotel The Surawongse"
+    }
+  },
+  "abar-rooftop": {
+    "id": "abar-rooftop",
+    "researchId": "rt-bkk-017",
+    "city": "bangkok",
+    "name": "ABar Rooftop",
+    "english": "ABar Rooftop",
+    "building": "Bangkok Marriott Marquis Queen's Park",
+    "intro": "Jika menyukai gin dan koktel, luangkan petang Bangkok di ABar Rooftop. Dari bar terbuka Marriott Marquis Queen’s Park, pilih pelbagai gin sambil melihat cahaya bandar. Pilih minuman kegemaran bersama pasangan atau rakan penggemar koktel. Jika masih mahu berbual selepas makan, nikmati masa perlahan dengan panorama malam.",
+    "facts": {
+      "hours": "Setiap hari 17:00 hingga 01:00 hari berikutnya",
+      "closed": "Tiada hari tutup tetap",
+      "address": "199 Sukhumvit Soi 22, Klong Ton, Klong Toey, Bangkok 10110, Thailand",
+      "phone": "+66 2-059 5555",
+      "booking": "Tempahan — +66 2-0595999",
+      "dressCode": "Kasual"
+    },
+    "reasons": [
+      {
+        "title": "Bersama rakan penggemar gin",
+        "text": "Pelbagai gin untuk dipilih menjadi tarikannya. Pilih minuman dengan teman yang mempunyai gin kegemaran atau mahu mencuba koktel baharu. Sesuai untuk berbual tentang cita rasa sepanjang petang."
+      },
+      {
+        "title": "Cahaya Bangkok dari bar terbuka",
+        "text": "Lihat pusat bandar yang bercahaya dari ruang terbuka selepas gelap. Sediakan masa untuk menikmati koktel daripada melihat panorama sebentar sahaja. Sesuai apabila mahu terus berbual dengan rakan selepas makan."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Bangkok Marriott Marquis Queen's Park",
+        "instructions": "Cari “Bangkok Marriott Marquis Queen's Park” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke ABar Rooftop. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7302641,100.5657084&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.marriott.com/hotels/hotel-information/restaurant/details-3/bkkqp-bangkok-marriott-marquis-queens-park/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Pelbagai gin untuk dipilih menjadi tarikannya. Pilih minuman dengan teman yang mempunyai gin kegemaran atau mahu mencuba koktel baharu. Sesuai untuk berbual tentang cita rasa sepanjang petang."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Lihat pusat bandar yang bercahaya dari ruang terbuka selepas gelap. Sediakan masa untuk menikmati koktel daripada melihat panorama sebentar sahaja. Sesuai apabila mahu terus berbual dengan rakan selepas makan."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Setiap hari 17:00 hingga 01:00 hari berikutnya. Datang selepas makan malam untuk koktel dan cahaya bandar."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Hubungi nombor tempahan +66 2 059 5999. Tetapkan tarikh bersama pasangan atau rakan dan nyatakan waktu pilihan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7302641,
+    "lng": 100.5657084,
+    "locationSource": "https://www.openstreetmap.org/way/1230362491",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Tunjukkan destinasi di bawah kepada pemandu teksi.",
+      "english": "Please take me to Bangkok Marriott Marquis Queen's Park, 199 Sukhumvit Soi 22, Klong Ton, Klong Toey, Bangkok 10110, Thailand. I am going to ABar Rooftop.",
+      "thai": "เอบาร์ รูฟท็อป โรงแรมแบงค็อก แมริออท มาร์คีส์ ควีนส์ปาร์ค 199 ซอยสุขุมวิท 22 กรุงเทพฯ",
+      "destination": "Bangkok Marriott Marquis Queen's Park"
+    }
+  },
+  "spectrum-lounge-bar": {
+    "id": "spectrum-lounge-bar",
+    "researchId": "rt-bkk-018",
+    "city": "bangkok",
+    "name": "Spectrum Lounge & Bar",
+    "english": "Spectrum Lounge & Bar",
+    "building": "Hyatt Regency Bangkok Sukhumvit · tingkat 29–30",
+    "intro": "Kunjungi Spectrum untuk makanan, muzik dan koktel di satu tempat. Tingkat 29 Hyatt Regency Bangkok Sukhumvit menawarkan hidangan serta muzik langsung; bar terbuka tingkat 30 pula koktel dan DJ. Bincangkan suasana malam yang diingini bersama pasangan atau rakan sebelum memilih aras. Singgah ke bar selepas makan untuk menikmati suasana berbeza dalam lawatan sama.",
+    "facts": {
+      "hours": "17:30–01:00",
+      "dressCode": "Smart casual — sandal, selipar jepun, kasut terbuka di hadapan, baju tanpa lengan dan pakaian sukan dilarang",
+      "closed": "Tiada hari tutup tetap",
+      "address": "1 Sukhumvit Soi 13, Bangkok 10110, Thailand",
+      "phone": "+66 2 098 1234"
+    },
+    "reasons": [
+      {
+        "title": "Makan malam bersama muzik langsung",
+        "text": "Di tingkat 29, nikmati hidangan dan muzik band langsung. Sesuai untuk makan malam dengan pasangan atau rakan penggemar muzik. Lihat waktu persembahan pada tarikh pilihan supaya mudah menentukan waktu makan."
+      },
+      {
+        "title": "Koktel dan panorama malam di tingkat 30",
+        "text": "Di bar terbuka tingkat 30, nikmati koktel dan muzik DJ. Jika mahu terus mendengar muzik selepas makan, rancang untuk naik ke atas. Sesuai untuk malam menikmati Bangkok bersama rakan."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Hyatt Regency Bangkok Sukhumvit",
+        "instructions": "Cari “Hyatt Regency Bangkok Sukhumvit” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Spectrum Lounge & Bar. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7399072,100.5571624&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.hyatt.com/hyatt-regency/en-US/bkkhr-hyatt-regency-bangkok-sukhumvit/dining/spectrum-lounge-and-bar"
+      ]
+    ],
+    "faq": [
+      [
+        "Apakah perbezaan tingkat 29 dan 30?",
+        "Tingkat 29 menawarkan hidangan serta band langsung, manakala bar terbuka tingkat 30 menawarkan koktel dan DJ. Pilih tingkat 29 untuk makan sambil menonton persembahan, atau tingkat 30 untuk minuman dan muzik di luar."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Di bar terbuka tingkat 30, nikmati koktel dan muzik DJ. Jika mahu terus mendengar muzik selepas makan, rancang untuk naik ke atas. Sesuai untuk malam menikmati Bangkok bersama rakan."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "17:30–01:00. Sediakan masa petang yang mencukupi untuk menikmati hidangan dan muzik."
+      ],
+      [
+        "Pakaian apa sesuai?",
+        "Sediakan pakaian kemas untuk malam bersuasana. Sandal, selipar jepun, kasut terbuka di hadapan, baju tanpa lengan dan pakaian sukan dilarang. Jika memakai pakaian sukan ketika melawat siang, tukar di penginapan sebelum datang."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7399072,
+    "lng": 100.5571624,
+    "locationSource": "https://www.openstreetmap.org/node/11219584566",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Tunjukkan destinasi di bawah kepada pemandu teksi.",
+      "english": "Please take me to Hyatt Regency Bangkok Sukhumvit, 1 Sukhumvit Soi 13, Bangkok 10110, Thailand. I am going to Spectrum Lounge & Bar.",
+      "thai": "สเปกตรัม เลาจน์ แอนด์ บาร์ โรงแรมไฮแอท รีเจนซี กรุงเทพฯ สุขุมวิท 1 ซอยสุขุมวิท 13 กรุงเทพฯ",
+      "destination": "Hyatt Regency Bangkok Sukhumvit"
+    }
+  },
+  "tichuca-rooftop": {
+    "id": "tichuca-rooftop",
+    "researchId": "rt-bkk-019",
+    "city": "bangkok",
+    "name": "Tichuca Rooftop Bar",
+    "english": "Tichuca Rooftop Bar",
+    "building": "T-One Building · tingkat 46",
+    "intro": "Naik ke Tichuca untuk malam Bangkok bersama rakan dan muzik. Rooftop T-One menggabungkan tumbuhan dengan panorama bandar untuk menikmati koktel. Muzik house DJ dan cahaya bandar membentuk suasana petang yang meriah. Datang bersama rakan yang mahu mencuba koktel baharu atau menikmati muzik.",
+    "facts": {
+      "address": "Tichuca, 8 Sukhumvit Road, Khwaeng Phra Khanong, 10110, Thailand (T-ONE Building)",
+      "phone": "+66 65 878 5562"
+    },
+    "reasons": [
+      {
+        "title": "Panorama bandar di celah tumbuhan",
+        "text": "Nikmati koktel dengan tumbuhan dan bangunan tinggi dalam panorama sama. Ruang yang mengingatkan hutan di tengah bandar sesuai untuk petang bersuasana berbeza bersama rakan."
+      },
+      {
+        "title": "Bersama rakan peminat house",
+        "text": "Kumpulan DJ residen Marichuca mempersembahkan organic house dengan irama perkusi. Datang pada hari mahu menikmati muzik dan koktel, bukan makan lalu pulang sahaja. Sesuai untuk teman yang mahu menikmati muzik bersama, bukan perbualan sunyi."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "T-ONE Building",
+        "instructions": "Cari “T-ONE Building” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Tichuca Rooftop Bar. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7220802,100.5804417&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://tichuca.co/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Nikmati koktel dengan tumbuhan dan bangunan tinggi dalam panorama sama. Ruang yang mengingatkan hutan di tengah bandar sesuai untuk petang bersuasana berbeza bersama rakan."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Kumpulan DJ residen Marichuca mempersembahkan organic house dengan irama perkusi. Datang pada hari mahu menikmati muzik dan koktel, bukan makan lalu pulang sahaja. Sesuai untuk teman yang mahu menikmati muzik bersama, bukan perbualan sunyi."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7220802,
+    "lng": 100.5804417,
+    "locationSource": "https://www.openstreetmap.org/node/9494520517",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Tunjukkan destinasi di bawah kepada pemandu teksi.",
+      "english": "Please take me to T-ONE Building, Tichuca, 8 Sukhumvit Road, Khwaeng Phra Khanong, 10110, Thailand (T-ONE Building). I am going to Tichuca Rooftop Bar.",
+      "thai": "ทิชูก้า รูฟท็อปบาร์ ตึกที-วัน 8 ถนนสุขุมวิท กรุงเทพฯ",
+      "destination": "T-ONE Building"
+    }
+  },
+  "akara-sky-hanuman": {
+    "id": "akara-sky-hanuman",
+    "researchId": "rt-bkk-020",
+    "city": "bangkok",
+    "name": "Akara Sky Hanuman",
+    "english": "Akara Sky Hanuman",
+    "building": "tingkat 61",
+    "intro": "Kunjungi Akara Sky Hanuman untuk panorama Bangkok dalam ruang berinspirasikan mitologi Thai. Sky bar dalam kompleks bertema Hanuman di One City Centre menawarkan panorama dari tempat tinggi. Datang dengan rakan peminat tempat bertema atau pasangan penggemar panorama bandar. Kompleks ini turut mempunyai dek pemerhatian dan pasar malam dengan syarat berbeza; pilih dahulu pengalaman petang yang diingini.",
+    "facts": {
+      "hours": "Hanuman Sky Bar 17:00–02:00",
+      "address": "548 One City Centre, 58fl.-61fl. Phloen Chit Rd., Lumphini, Pathum Wan, Bangkok 10330",
+      "booking": "Tempahan melalui “Book Now”"
+    },
+    "reasons": [
+      {
+        "title": "Tema Hanuman dan panorama bandar",
+        "text": "Lihat bandar dari ruang bertema Hanuman dalam mitologi Thai. Terokai bersama rakan yang berminat pada tempat bertema selain panorama. Sesuai untuk hari mahu melihat Bangkok terbentang dari tempat tinggi."
+      },
+      {
+        "title": "Pilih ruang yang mahu dinikmati",
+        "text": "Kemudahan ini menggabungkan bar, dek pemerhatian dan pasar malam. Bincang dengan teman sama ada mahu meluangkan petang di sky bar atau mengunjungi ruang lain. Setiap ruang mempunyai waktu serta syarat berbeza; jangan gunakan waktu bar untuk semuanya."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "One City Centre",
+        "instructions": "Cari “One City Centre” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Akara Sky Hanuman. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7420753,100.5463613&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://akaraskyhanuman.com/hanuman-garden"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://akaraskyhanuman.com/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Lihat bandar dari ruang bertema Hanuman dalam mitologi Thai. Terokai bersama rakan yang berminat pada tempat bertema selain panorama. Sesuai untuk hari mahu melihat Bangkok terbentang dari tempat tinggi."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Kemudahan ini menggabungkan bar, dek pemerhatian dan pasar malam. Bincang dengan teman sama ada mahu meluangkan petang di sky bar atau mengunjungi ruang lain. Setiap ruang mempunyai waktu serta syarat berbeza; jangan gunakan waktu bar untuk semuanya."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Hanuman Sky Bar dibuka 17:00–02:00. Dek pemerhatian dan pasar malam mempunyai waktu berbeza; rancang mengikut ruang yang hendak dikunjungi."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Gunakan “Book Now” di halaman rasmi. Pastikan ruang yang dipilih ialah sky bar sebelum memilih tarikh."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7420753,
+    "lng": 100.5463613,
+    "locationSource": "https://www.openstreetmap.org/node/12404803901",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Tunjukkan destinasi di bawah kepada pemandu teksi.",
+      "english": "Please take me to One City Centre, 548 One City Centre, 58fl.-61fl. Phloen Chit Rd., Lumphini, Pathum Wan, Bangkok 10330. I am going to Akara Sky Hanuman.",
+      "thai": "อาคารา สกาย หนุมาน วัน ซิตี้ เซ็นเตอร์ 548 ถนนเพลินจิต กรุงเทพฯ",
+      "destination": "One City Centre"
+    }
+  },
+  "iris-wild-iris": {
+    "id": "iris-wild-iris",
+    "researchId": "rt-bkk-021",
+    "city": "bangkok",
+    "name": "IRIS & WILD IRIS",
+    "english": "IRIS & WILD IRIS",
+    "building": "SO/ Bangkok · tingkat 29–30",
+    "intro": "Kunjungi IRIS & WILD IRIS untuk makan malam menghadap Taman Lumphini. Restoran dan bar tingkat 29–30 SO/ Bangkok menggabungkan panorama taman dengan pusat bandar. Hidangan Itali, aperitif dan muzik DJ sesuai untuk malam santai bersama pasangan atau rakan. Luangkan masa sejak senja untuk melihat lampu bandar menyala di seberang taman.",
+    "facts": {
+      "hours": "Ahad–Khamis 17:00–00:00 · Jumaat–Sabtu 17:00–01:00",
+      "address": "2 North Sathorn Road, Bangrak, Bangkok 10500, Thailand",
+      "phone": "+66 2 624 0000",
+      "booking": "Tempahan melalui “Book Now”"
+    },
+    "reasons": [
+      {
+        "title": "Makan menghadap taman dan pusat bandar",
+        "text": "Nikmati panorama Taman Lumphini bersama bangunan tinggi. Kongsi hidangan Itali dengan pasangan atau rakan sambil bercerita tentang Bangkok yang dilawati siang tadi. Pilih hari tanpa perlu bergegas ke aktiviti seterusnya."
+      },
+      {
+        "title": "Daripada minuman pembuka ke muzik",
+        "text": "Mulakan dengan aperitif sebelum menyambung hidangan. Muzik DJ tersedia 18:00–00:00. Sesuai apabila mahu tinggal lebih lama bersama teman selepas makan."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "SO/ Bangkok",
+        "instructions": "Cari “SO/ Bangkok” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke IRIS & WILD IRIS. Jika menaiki teksi, tunjukkan ayat bahasa Inggeris atau Thai di bawah.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7262437,100.543125&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://my.so-bangkok.com/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.so-bangkok.com/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Nikmati panorama Taman Lumphini bersama bangunan tinggi. Kongsi hidangan Itali dengan pasangan atau rakan sambil bercerita tentang Bangkok yang dilawati siang tadi. Pilih hari tanpa perlu bergegas ke aktiviti seterusnya."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Mulakan dengan aperitif sebelum menyambung hidangan. Muzik DJ tersedia 18:00–00:00. Sesuai apabila mahu tinggal lebih lama bersama teman selepas makan."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Ahad–Khamis 17:00–00:00, Jumaat–Sabtu 17:00–01:00. Luangkan masa untuk hidangan dan muzik DJ."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Gunakan “Book Now” di halaman rasmi. Tetapkan teman dan waktu makan sebelum memilih tarikh."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7262437,
+    "lng": 100.543125,
+    "locationSource": "https://www.openstreetmap.org/way/319082625",
+    "facilityKind": "Bar dan restoran rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Tunjukkan destinasi di bawah kepada pemandu teksi.",
+      "english": "Please take me to SO/ Bangkok, 2 North Sathorn Road, Bangrak, Bangkok 10500, Thailand. I am going to IRIS & WILD IRIS.",
+      "thai": "ไอริส โรงแรมโซ แบงค็อก 2 ถนนสาทรเหนือ กรุงเทพฯ",
+      "destination": "SO/ Bangkok"
+    }
+  },
+  "threesixty-rooftop": {
+    "id": "threesixty-rooftop",
+    "researchId": "rt-bkk-022",
+    "city": "bangkok",
+    "name": "ThreeSixty Rooftop Bar",
+    "english": "ThreeSixty Rooftop Bar",
+    "building": "Millennium Hilton Bangkok · tingkat 31",
+    "intro": "Naik ke ThreeSixty untuk melihat Bangkok di sepanjang Chao Phraya. Rooftop Millennium Hilton menawarkan minuman dengan panorama luas sungai dan bandar. Datang bersama pasangan yang mahu melihat bot serta senja, atau rakan yang gemar merakam pemandangan. Tinggal sejak senja untuk melihat cahaya pesisir dan bandar mula menyala.",
+    "facts": {
+      "hours": "17:00–01:00",
+      "closed": "Tiada hari tutup tetap",
+      "address": "123 Charoennakorn Road, Klongsan, Bangkok 10600, Thailand",
+      "phone": "+66-2-442-2062"
+    },
+    "reasons": [
+      {
+        "title": "Lihat sungai dan bandar sekali gus",
+        "text": "Panorama merangkumi bangunan tinggi pusat bandar serta Sungai Chao Phraya. Nikmati minuman sambil melihat bot bergerak di sungai untuk suasana petang yang berbeza daripada rooftop tengah bandar."
+      },
+      {
+        "title": "Hari menikmati senja di tepi sungai",
+        "text": "Datang menjelang senja dengan pasangan atau rakan. Lihat warna langit berubah dan lampu pesisir menyala sambil minum. Pilih hari tanpa perlu bergegas ke aktiviti berikutnya."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Millennium Hilton Bangkok",
+        "instructions": "Jika menaiki kereta, lihat lokasi bangunan melalui panduan arah di bawah. Destinasinya Millennium Hilton Bangkok; tunjukkan nama hotel bersama alamat di bawah kepada pemandu.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7286821,100.5109677&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.hilton.com/en/hotels/bkkhitw-millennium-hilton-bangkok/dining/threesixty-rooftop-bar/"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Panorama merangkumi bangunan tinggi pusat bandar serta Sungai Chao Phraya. Nikmati minuman sambil melihat bot bergerak di sungai untuk suasana petang yang berbeza daripada rooftop tengah bandar."
+      ],
+      [
+        "Panorama dan suasana apa boleh dinikmati?",
+        "Datang menjelang senja dengan pasangan atau rakan. Lihat warna langit berubah dan lampu pesisir menyala sambil minum. Pilih hari tanpa perlu bergegas ke aktiviti berikutnya."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "17:00–01:00. Naik sebelum matahari terbenam jika mahu melihat senja hingga panorama malam sambil menikmati minuman."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7286821,
+    "lng": 100.5109677,
+    "locationSource": "https://www.openstreetmap.org/way/342556929",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke ThreeSixty Rooftop Bar.",
+      "english": "Please take me to Millennium Hilton Bangkok, 123 Charoennakorn Road, Klongsan, Bangkok 10600, Thailand. I am going to ThreeSixty Rooftop Bar.",
+      "thai": "ทรีซิกซ์ตี้ รูฟท็อปบาร์ โรงแรมมิลเลนเนียม ฮิลตัน กรุงเทพฯ 123 ถนนเจริญนคร กรุงเทพฯ",
+      "destination": "Millennium Hilton Bangkok"
+    }
+  },
+  "seen-riverside": {
+    "id": "seen-riverside",
+    "researchId": "rt-bkk-023",
+    "city": "bangkok",
+    "name": "SEEN Restaurant & Bar",
+    "english": "SEEN Restaurant & Bar",
+    "building": "Avani+ Riverside Bangkok Hotel · tingkat 26–27",
+    "intro": "Kunjungi SEEN Restaurant & Bar di Avani Riverside pada hari mahu makan menghadap Chao Phraya. Ruang dalaman dan luar tingkat 26–27 menawarkan makanan serta minuman dengan sungai dan pusat Bangkok sebagai panorama. Sesuai bersama rakan penggemar DJ atau teman yang mahu makan berlatarkan pesisir. Luangkan masa untuk hidangan dan muzik supaya dapat menikmati malam sungai bersama tanpa tergesa-gesa.",
+    "facts": {
+      "address": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "phone": "+66 2 431 9100"
+    },
+    "reasons": [
+      {
+        "title": "Makan malam dengan panorama sungai",
+        "text": "Lihat Sungai Chao Phraya bersama pusat Bangkok. Selepas berjalan meneroka bandar, duduk menikmati pesisir pada petang hari. Kongsi makanan dan minuman sambil meneruskan cerita perjalanan."
+      },
+      {
+        "title": "Bersama rakan penggemar muzik DJ",
+        "text": "Set DJ langsung menambah muzik pada hidangan dan minuman. Pilih untuk malam bersama rakan peminat muzik. Jika pertemuan memerlukan perbualan tenang, ingat suasana bermuzik ini ketika memilih tempat duduk."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Avani+ Riverside Bangkok Hotel",
+        "instructions": "Jika menaiki kereta, lihat lokasi bangunan melalui panduan arah di bawah. Destinasinya Avani+ Riverside Bangkok Hotel; tunjukkan nama hotel bersama alamat di bawah kepada pemandu.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7050249,100.491371"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "http://www.avanihotels.com/en/riverside-bangkok"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.avanihotels.com/en/riverside-bangkok"
+      ]
+    ],
+    "faq": [
+      [
+        "Adakah sama dengan SIN Rooftop Bar?",
+        "Dalam hotel Avani Riverside yang sama, tetapi SEEN ialah restoran serta bar dalaman dan luar. Jika mahu menikmati makanan dan minuman bersama, nyatakan SEEN sebagai ruang lawatan."
+      ],
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai dengan teman yang mahu makan menghadap Chao Phraya atau rakan peminat DJ. Rancang pertemuan malam dengan muzik dan panorama."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7050249,
+    "lng": 100.491371,
+    "locationSource": "https://www.openstreetmap.org/node/11770595569",
+    "facilityKind": "Bar dan restoran rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Datang bersama teman yang mahu makan menghadap sungai atau rakan penggemar DJ. Sesuai untuk malam menikmati panorama serta muzik bersama.",
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke SEEN Restaurant & Bar.",
+      "english": "SEEN Restaurant & Bar, Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "thai": "ร้านอาหารซีน โรงแรมอวานี พลัส ริเวอร์ไซด์ 257 ถนนเจริญนคร ธนบุรี กรุงเทพฯ",
+      "destination": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600"
+    }
+  },
+  "sin-rooftop": {
+    "id": "sin-rooftop",
+    "researchId": "rt-bkk-024",
+    "city": "bangkok",
+    "name": "SIN Rooftop Bar",
+    "english": "SIN Rooftop Bar",
+    "building": "Avani+ Riverside Bangkok Hotel · tingkat 27",
+    "intro": "Naik ke SIN Rooftop Bar untuk menikmati minuman menghadap Chao Phraya selepas makan malam. Bar terbuka tingkat 27 Avani Riverside menawarkan pesisir dan cahaya bandar. Ruangnya berasingan daripada SEEN Restaurant & Bar dalam hotel sama. Sesuai untuk terus berbual dengan rakan atau menikmati malam sungai bersama pasangan.",
+    "facts": {
+      "hours": "17:00–01:00",
+      "address": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "phone": "+66 2 431 9100"
+    },
+    "reasons": [
+      {
+        "title": "Malam melihat cahaya pesisir",
+        "text": "Lihat Chao Phraya dari rooftop terbuka. Singgah selepas makan jika mahu menikmati minuman dan panorama sungai. Sesuai untuk meneruskan cerita perjalanan hari itu bersama teman."
+      },
+      {
+        "title": "Pilih bar terbuka SIN secara berasingan daripada SEEN",
+        "text": "SIN ialah ruang berasingan daripada SEEN dalam hotel sama. Tentukan sama ada mahu restoran dalaman dan luar atau bar rooftop terbuka. Beritahu teman nama SIN supaya bertemu di ruang yang sama."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Avani+ Riverside Bangkok Hotel",
+        "instructions": "Jika menaiki kereta, lihat lokasi bangunan melalui panduan arah di bawah. Destinasinya Avani+ Riverside Bangkok Hotel; tunjukkan nama hotel bersama alamat di bawah kepada pemandu.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7050249,100.491371"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "http://www.avanihotels.com/en/riverside-bangkok"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.avanihotels.com/en/riverside-bangkok"
+      ]
+    ],
+    "faq": [
+      [
+        "Adakah sama dengan SEEN?",
+        "Dalam hotel Avani Riverside yang sama tetapi ruang berasingan. Jika mencari bar rooftop terbuka, tetapkan SIN sebagai tempat bertemu."
+      ],
+      [
+        "Bolehkah datang lewat petang?",
+        "Dibuka 17:00 hingga 01:00 hari berikutnya. Rancang menikmati minuman serta sungai selepas makan malam. Waktu tutup dan akhir pesanan mungkin berbeza."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7050249,
+    "lng": 100.491371,
+    "locationSource": "https://www.openstreetmap.org/node/11770595569",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk terus berbual dengan rakan selepas makan atau menikmati panorama malam sungai bersama pasangan. Rancang petang di bar terbuka.",
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke SIN Rooftop Bar.",
+      "english": "SIN Rooftop Bar, Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600",
+      "thai": "ซิน รูฟท็อปบาร์ โรงแรมอวานี พลัส ริเวอร์ไซด์ 257 ถนนเจริญนคร ธนบุรี กรุงเทพฯ",
+      "destination": "Avani+ Riverside Bangkok Hotel, 257 Charoennakorn Road, Thonburi, Bangkok 10600"
+    }
+  },
+  "char-rooftop": {
+    "id": "char-rooftop",
+    "researchId": "rt-bkk-028",
+    "city": "bangkok",
+    "name": "CHAR Rooftop Bar",
+    "english": "CHAR Rooftop Bar",
+    "building": "Hotel Indigo Bangkok Wireless Road · tingkat 26",
+    "intro": "Kunjungi CHAR Rooftop Bar untuk muzik menghadap Wireless Road dan pusat Bangkok. Tingkat 26 Hotel Indigo menawarkan koktel istimewa serta muzik langsung. Datang bersama rakan peminat muzik atau pasangan yang mahu malam berpanorama bandar. Ruangnya berasingan daripada restoran CHAR tingkat 25; tetapkan bar rooftop sebagai tempat bertemu.",
+    "facts": {
+      "address": "Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330",
+      "phone": "+66 2 207 4999"
+    },
+    "reasons": [
+      {
+        "title": "Koktel di atas Wireless Road",
+        "text": "Dari bar rooftop tingkat 26, lihat Wireless Road serta pusat Bangkok. Pilih koktel istimewa dan nikmati bandar bersama teman."
+      },
+      {
+        "title": "Bersama teman penggemar muzik langsung",
+        "text": "Sesuai jika mahu malam dengan muzik langsung. Bertemu rakan peminat muzik dan nikmati minuman serta panorama di rooftop."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Hotel Indigo Bangkok Wireless Road",
+        "instructions": "Jika menaiki kereta, lihat lokasi bangunan melalui panduan arah di bawah. Destinasinya Hotel Indigo Bangkok Wireless Road; tunjukkan nama hotel bersama alamat di bawah kepada pemandu.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7400311,100.5471023"
+      }
+    ],
+    "sources": [
+      [
+        "Hotel rasmi · bar rooftop dan tingkat",
+        "https://www.ihg.com/hotelindigo/hotels/us/en/bangkok/bkkin/hoteldetail/events-facilities"
+      ]
+    ],
+    "faq": [
+      [
+        "Adakah sama dengan restoran CHAR?",
+        "Restoran CHAR tingkat 25 dan bar rooftop CHAR tingkat 26 ialah ruang berasingan. Pilih bar rooftop untuk koktel istimewa dan muzik langsung."
+      ],
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai dengan rakan peminat muzik langsung atau teman yang mahu menikmati koktel sambil melihat bandar. Bayangkan petang di bar rooftop, bukannya lawatan untuk makan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7400311,
+    "lng": 100.5471023,
+    "locationSource": "https://www.openstreetmap.org/node/4283507589",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai bersama rakan penggemar muzik langsung dan koktel atau pasangan yang mahu malam berpanorama bandar. Pilih bar rooftop sebagai destinasi, bukannya restoran CHAR.",
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke CHAR Rooftop Bar.",
+      "english": "CHAR Rooftop Bar, Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330",
+      "thai": "ชาร์ รูฟท็อปบาร์ โรงแรมโฮเทลอินดิโก้ 81 ถนนวิทยุ ลุมพินี กรุงเทพฯ",
+      "destination": "Hotel Indigo Bangkok Wireless Road, 81 Wireless Road, Lumpini, Pathumwan, Bangkok 10330"
+    }
+  },
+  "brewski-rooftop": {
+    "id": "brewski-rooftop",
+    "researchId": "rt-bkk-029",
+    "city": "bangkok",
+    "name": "Brewski Rooftop Bar",
+    "english": "Brewski Rooftop Bar",
+    "building": "Radisson Blu Plaza Bangkok · tingkat 29–30",
+    "intro": "Jika bercuti bersama rakan penggemar bir kraf, kunjungi Brewski Rooftop Bar. Dari tingkat 29–30 Radisson Blu Plaza, nikmati bir dan makanan sampingan dengan panorama Sukhumvit. Datang awal petang untuk menyambung senja hingga cahaya malam. Pilih bir bersama teman dan luangkan masa berkongsi cerita perjalanan.",
+    "facts": {
+      "hours": "Setiap hari 17:00–01:00",
+      "closed": "Tiada hari tutup tetap",
+      "address": "Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110",
+      "phone": "+66 2 302 3333"
+    },
+    "reasons": [
+      {
+        "title": "Bir kraf dan panorama bandar",
+        "text": "Bar rooftop ini menawarkan bir kraf dengan panorama Sukhumvit. Pilih minuman dan makanan sampingan bersama rakan penggemar bir. Pemandangan bandar melengkapkan pertemuan petang."
+      },
+      {
+        "title": "Dari senja hingga panorama malam",
+        "text": "Dibuka mulai 17:00; datang awal untuk melihat bandar beralih ke malam. Sesuai untuk singgah selepas makan atau meluangkan waktu khusus menikmati bir dan panorama."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Radisson Blu Plaza Bangkok",
+        "instructions": "Jika menaiki kereta, lihat lokasi bangunan melalui panduan arah di bawah. Destinasinya Radisson Blu Plaza Bangkok; tunjukkan nama hotel bersama alamat di bawah kepada pemandu.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7351407,100.5639592"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.radissonhotels.com/en-us/hotels/radisson-blu-bangkok/dining/brewski"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai jika lebih suka bir daripada koktel?",
+        "Ini bar rooftop untuk menikmati bir kraf. Pilih minuman serta makanan sampingan dengan teman penggemar bir sambil melihat bandar."
+      ],
+      [
+        "Lebih baik awal atau lewat petang?",
+        "Datang sebelum matahari terbenam untuk senja dan panorama malam. Dibuka setiap hari 17:00 hingga 01:00 hari berikutnya, jadi sesuai juga selepas makan bersama rakan. Jika mahu makanan lewat malam, tanya waktu akhir pesanan terlebih dahulu."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7351407,
+    "lng": 100.5639592,
+    "locationSource": "https://www.openstreetmap.org/way/331963030",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk petang berkongsi makanan sampingan dengan rakan penggemar bir. Pilih untuk menikmati bir kraf bersama panorama Sukhumvit.",
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke Brewski Rooftop Bar.",
+      "english": "Brewski Rooftop Bar, Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110",
+      "thai": "บรูว์สกี รูฟท็อปบาร์ โรงแรมเรดิสัน บลู พลาซ่า 489 ถนนสุขุมวิท กรุงเทพฯ",
+      "destination": "Radisson Blu Plaza Bangkok, 489 Sukhumvit Road, Bangkok 10110"
+    }
+  },
+  "pastel-rooftop": {
+    "id": "pastel-rooftop",
+    "researchId": "rt-bkk-030",
+    "city": "bangkok",
+    "name": "Pastel Rooftop Bar & Mediterranean Dining",
+    "english": "Pastel Rooftop Bar & Mediterranean Dining",
+    "building": "Aira Hotel Bangkok · tingkat 22",
+    "intro": "Kunjungi Pastel Rooftop di tingkat 22 Aira Hotel untuk menambah muzik pada makan malam. Nikmati masakan Mediterranean, koktel dan muzik langsung menghadap Bangkok. Sesuai bersama rakan peminat muzik atau teman yang mahu makan sambil menikmati persembahan. Jika menginginkan persembahan tertentu, pilih tarikh serta waktu dalam jadual rasmi dan rancang makan malam sekali.",
+    "facts": {
+      "hours": "Setiap hari 17:00–01:00",
+      "closed": "Tiada hari tutup tetap",
+      "address": "Aira Hotel, 22nd Floor, 14 Sukhumvit Soi 11, Bangkok 10110",
+      "phone": "+66 95 703 5679"
+    },
+    "reasons": [
+      {
+        "title": "Masakan Mediterranean dan koktel",
+        "text": "Nikmati hidangan Mediterranean dengan panorama bandar. Kongsi makanan dan pilih koktel bersama rakan untuk meneruskan pertemuan petang."
+      },
+      {
+        "title": "Malam untuk teman penggemar muzik",
+        "text": "Muzik langsung melengkapkan makan malam. Jika teman menggemari muzik, lihat tarikh serta waktu persembahan dalam jadual rasmi sebelum menempah. Mudah mengatur malam menikmati hidangan dan persembahan sekali gus."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Aira Hotel Bangkok",
+        "instructions": "Jika menaiki kereta, lihat lokasi bangunan melalui panduan arah di bawah. Destinasinya Aira Hotel Bangkok; tunjukkan nama hotel bersama alamat di bawah kepada pemandu.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7426494,100.556846"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.pastelbangkok.com/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.pastelbangkok.com/live-band/"
+      ]
+    ],
+    "faq": [
+      [
+        "Bilakah perlu menempah untuk muzik langsung?",
+        "Pilih tarikh serta waktu persembahan dalam jadual rasmi, kemudian padankan waktu makan. Anda boleh merancang malam dengan masakan Mediterranean, koktel dan muzik."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Tempah meja melalui laman rasmi. Tetapkan teman dan tarikh serta pertimbangkan jadual persembahan semasa memilih waktu."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Setiap hari 17:00 hingga 01:00 hari berikutnya. Luangkan masa untuk menikmati makan malam dan muzik."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7426494,
+    "lng": 100.556846,
+    "locationSource": "https://www.openstreetmap.org/way/538844662",
+    "reservation": "Tempah meja melalui laman rasmi. Tetapkan teman dan tarikh, kemudian pilih waktu pada hari persembahan yang diinginkan. Baca syarat tempahan untuk tarikh lawatan.",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Datang bersama rakan atau teman yang mahu masakan Mediterranean, koktel dan muzik langsung. Jika persembahan tujuan utama, pilih tarikh mengikut jadual acara rasmi.",
+    "taxi": {
+      "instructions": "Jika menaiki teksi atau kereta, tunjukkan ayat bahasa Inggeris atau Thai di bawah. Selepas tiba, minta kakitangan menunjukkan arah ke Pastel Rooftop Bar & Mediterranean Dining.",
+      "english": "Pastel Rooftop Bar & Mediterranean Dining, Aira Hotel, 14 Sukhumvit Soi 11, Bangkok 10110",
+      "thai": "พาสเทล รูฟท็อปบาร์ โรงแรมไอรา 14 ซอยสุขุมวิท 11 กรุงเทพฯ",
+      "destination": "Aira Hotel, 22nd Floor, 14 Sukhumvit Soi 11, Bangkok 10110"
+    }
+  },
+  "sky-on-20": {
+    "id": "sky-on-20",
+    "researchId": "rt-bkk-031",
+    "city": "bangkok",
+    "name": "Sky on 20",
+    "english": "Sky on 20",
+    "building": "Novotel Bangkok Sukhumvit 20 · tingkat 26",
+    "intro": "Kunjungi Sky on 20 untuk minuman serta makanan sampingan dengan panorama bandar. Di tingkat 26 Novotel Sukhumvit 20, nikmati koktel, piza dan bruschetta ketam mayones. Sesuai untuk berkongsi makanan dengan rakan atau melihat cahaya bandar pada petang hari. Jika teman menyukai DJ, pilih malam Jumaat atau Sabtu.",
+    "facts": {
+      "hours": "Setiap hari 17:00–01:00",
+      "closed": "Tiada hari tutup tetap",
+      "address": "Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110",
+      "phone": "+66 2 009 4999"
+    },
+    "reasons": [
+      {
+        "title": "Kongsi makanan dengan panorama bandar",
+        "text": "Padankan koktel dengan piza atau bruschetta ketam mayones. Pilih untuk malam berkongsi makanan bersama rakan sambil melihat bandar."
+      },
+      {
+        "title": "Pilih Jumaat atau Sabtu untuk DJ",
+        "text": "Muzik DJ tersedia pada petang Jumaat dan Sabtu. Atur pertemuan hujung minggu dengan teman penggemar muzik, bersama minuman serta panorama bandar."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Novotel Bangkok Sukhumvit 20",
+        "instructions": "Cari “Novotel Bangkok Sukhumvit 20” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Sky on 20.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7315162,100.5642845"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.novotelbangkoksukhumvit20.com/bangkok-restaurants/sky-on-20/"
+      ]
+    ],
+    "faq": [
+      [
+        "Hari apa sesuai mendengar DJ?",
+        "Datang pada petang Jumaat atau Sabtu untuk menikmati DJ bersama panorama bandar dan koktel."
+      ],
+      [
+        "Makanan apa boleh dipadankan dengan minuman?",
+        "Terdapat piza dan bruschetta ketam mayones. Bayangkan malam berkongsi makanan serta panorama dengan rakan."
+      ],
+      [
+        "Apakah waktu operasi?",
+        "Setiap hari 17:00 hingga 01:00 hari berikutnya. Luangkan masa menikmati hidangan dan panorama bersama teman."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7315162,
+    "lng": 100.5642845,
+    "locationSource": "https://www.openstreetmap.org/way/329919874",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk berkongsi makanan dan koktel dengan rakan atau menikmati DJ serta panorama bandar pada hujung minggu.",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Sky on 20, Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110",
+      "thai": "สกาย ออน 20 โรงแรมโนโวเทล สุขุมวิท 20 19/9 ซอยสุขุมวิท 20 กรุงเทพฯ",
+      "destination": "Novotel Bangkok Sukhumvit 20, 19/9 Sukhumvit Soi 20, Bangkok 10110"
+    }
+  },
+  "spire-rooftop": {
+    "id": "spire-rooftop",
+    "researchId": "rt-bkk-032",
+    "city": "bangkok",
+    "name": "Spire Rooftop Bar",
+    "english": "Spire Rooftop Bar",
+    "building": "Dusit Thani Bangkok · tingkat 39",
+    "intro": "Kunjungi Spire Rooftop Bar untuk panorama malam Bangkok di bawah menara emas Dusit Thani. Tingkat 39 menawarkan bandar ke semua arah bersama koktel pasukan Tropic City dan makanan sampingan. Sesuai untuk rakan penggemar koktel atau pasangan yang mahu petang berpanorama. DJ melengkapkan malam; luangkan waktu untuk minuman dan cahaya bandar.",
+    "facts": {
+      "hours": "Setiap hari 17:00 hingga 01:00 hari berikutnya",
+      "children": "Pelawat bawah 20 tahun boleh menggunakan ruang hingga 19:00.",
+      "dressCode": "Smart casual · elakkan selipar jepun dan singlet tanpa lengan.",
+      "closed": "Tiada hari tutup tetap",
+      "rain": "Terjejas oleh cuaca — susunan meja boleh diubah mengikut keadaan.",
+      "address": "Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500",
+      "phone": "+66 2 200 9000"
+    },
+    "reasons": [
+      {
+        "title": "Bangkok di bawah menara emas",
+        "text": "Panorama bandar ke semua arah bersama menara emas Dusit Thani menjadi cirinya. Pilih koktel dengan teman dan lihat cahaya pusat bandar."
+      },
+      {
+        "title": "Koktel pasukan Tropic City dan DJ",
+        "text": "Padankan koktel ciptaan pasukan Tropic City dengan makanan sampingan. Muzik DJ juga tersedia pada malam hari; atur pertemuan dengan rakan penggemar koktel serta muzik."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Dusit Thani Bangkok",
+        "instructions": "Cari “Dusit Thani Bangkok” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Spire Rooftop Bar.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=13.7282549,100.5382186"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.dusit.com/dusitthani-bangkok/dining/spire-rooftop-bar/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.tablecheck.com/en/dusit-thani-bangkok-spire-rooftop-bar/reserve/message"
+      ]
+    ],
+    "faq": [
+      [
+        "Bolehkah teman bawah umur 20 datang?",
+        "Pelawat bawah 20 tahun boleh menggunakan ruang hingga 19:00. Rancang awal petang untuk menikmati bandar bersama teman muda. Bezakan daripada pertemuan yang berlanjutan selepas 19:00."
+      ],
+      [
+        "Pakaian apa sesuai?",
+        "Datang dengan smart casual. Panduan meminta anda mengelakkan selipar jepun dan singlet tanpa lengan. Bayangkan pakaian kemas untuk janji temu makan malam bersuasana."
+      ],
+      [
+        "Apa berlaku jika hujan?",
+        "Susunan meja boleh diubah mengikut cuaca. Jika hujan diramal, baca makluman tempat duduk tempahan serta susunan hari lawatan."
+      ],
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai untuk rakan penggemar koktel atau pasangan yang mahu malam berpanorama. Nikmati minuman, makanan sampingan dan bandar di bawah menara emas."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 13.7282549,
+    "lng": 100.5382186,
+    "locationSource": "https://www.openstreetmap.org/way/1266545781",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar rooftop",
+    "relatedCityUrl": "/ko/transport/bangkok/",
+    "recommended": "Sesuai untuk rakan penggemar koktel dan DJ atau pasangan yang mahu melihat Bangkok ke semua arah. Jika bersama pelawat bawah 20 tahun, atur waktu mengikut had penggunaan hingga 19:00.",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Spire Rooftop Bar, Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500",
+      "thai": "สไปร์ รูฟท็อปบาร์ โรงแรมดุสิตธานี 98 ถนนพระราม 4 สีลม กรุงเทพฯ",
+      "destination": "Dusit Thani Bangkok, 98 Rama IV Road, Silom, Bangrak, Bangkok 10500"
+    }
+  },
+  "skybar-summer-club": {
+    "id": "skybar-summer-club",
+    "researchId": "rt-pty-004",
+    "city": "pattaya",
+    "name": "Skybar Summer Club",
+    "english": "Skybar Summer Club",
+    "building": "Siam@Siam Design Hotel Pattaya · tingkat 27",
+    "intro": "Naik ke Skybar Summer Club untuk panorama laut dan muzik bersama rakan di Pattaya. Bar rooftop tingkat 27 Siam@Siam Pattaya mempunyai kolam dua aras dan pemandangan Teluk Thailand. Akhiri hari pantai dengan koktel serta DJ langsung. Hanya umur 18 tahun ke atas dibenarkan; rancang bersama pasangan atau rakan.",
+    "facts": {
+      "children": "Hanya umur 18 tahun ke atas dibenarkan.",
+      "address": "390 Moo 9, Pattaya Sai 2 Road, Nongprue, Banglamung, Chonburi 20150, Thailand",
+      "phone": "+66 (0) 38 930 600"
+    },
+    "reasons": [
+      {
+        "title": "Koktel menghadap laut",
+        "text": "Lihat Teluk Thailand dan bandar dari tingkat 27. Kolam dua aras bersama panorama laut mewujudkan suasana seakan kelab pantai. Nikmati koktel dengan rakan sambil bercerita tentang hari di Pattaya."
+      },
+      {
+        "title": "Bersama rakan penggemar muzik",
+        "text": "Ruang ini menawarkan DJ langsung dan tayangan filem terbuka. Sesuai untuk meluangkan masa dengan muzik daripada melihat panorama sebentar sahaja. Oleh sebab dewasa sahaja, pertimbangkan BARBÙ tingkat 24 hotel sama jika merancang makan keluarga dengan anak."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Siam@Siam Design Hotel Pattaya",
+        "instructions": "Cari “Siam@Siam Design Hotel Pattaya” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Skybar Summer Club.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9457203,100.8887009&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.siamatsiam.com/pattaya/restaurants-bars/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://siamatsiam.b-cdn.net/wp-content/uploads/2026/02/20260214-SSPTY_-Factsheet-Editable-Template.pdf"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.siamatsiam.com/wp-content/uploads/2025/07/pty-meeting-events.pdf"
+      ]
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai untuk pasangan atau rakan yang mahu koktel dan muzik dengan panorama laut. Nikmati malam percutian bersama DJ langsung."
+      ],
+      [
+        "Bolehkah membawa anak?",
+        "Skybar Summer Club hanya untuk umur 18 tahun ke atas. Jika mahu makan di rooftop bersama anak, pertimbangkan BARBÙ tingkat 24 hotel sama."
+      ],
+      [
+        "Panorama dan suasana apa tersedia?",
+        "Nikmati koktel serta DJ menghadap Teluk Thailand dari tingkat 27. Kolam dua aras menambah suasana seakan kelab pantai. Sesuai untuk malam menikmati muzik dengan rakan daripada makan dalam suasana sunyi."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 12.9457203,
+    "lng": 100.8887009,
+    "locationSource": "https://maps.app.goo.gl/W1wKKg36qxAEW5149",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Siam@Siam Design Hotel Pattaya. I am going to Skybar Summer Club.",
+      "thai": "ไปโรงแรมสยามแอทสยาม ดีไซน์ พัทยา จะไปสกายบาร์ ซัมเมอร์คลับ ชั้น 27",
+      "destination": "Siam@Siam Design Hotel Pattaya"
+    }
+  },
+  "barbu-pattaya": {
+    "id": "barbu-pattaya",
+    "researchId": "rt-pty-005",
+    "city": "pattaya",
+    "name": "BARBÙ",
+    "english": "BARBÙ",
+    "building": "Siam@Siam Design Hotel Pattaya · tingkat 24",
+    "intro": "Pertimbangkan BARBÙ jika mahu makan di rooftop Pattaya bersama anak. Restoran dan bar tingkat 24 Siam@Siam Pattaya menawarkan masakan Mediterranean menghadap bandar. Sesuai untuk keluarga atau rakan berkongsi makanan sambil menyambung cerita perjalanan. Ruangnya berbeza daripada Skybar dewasa sahaja di tingkat 27, jadi keluarga dengan anak juga boleh merancang makan malam bersama.",
+    "facts": {
+      "children": "Keluarga juga dibenarkan.",
+      "address": "390 Moo 9, Pattaya Sai 2 Road, Nongprue, Banglamung, Chonburi 20150, Thailand",
+      "phone": "+66 (0) 38 930 600"
+    },
+    "reasons": [
+      {
+        "title": "Makan malam berkongsi hidangan",
+        "text": "Hidangan Mediterranean untuk dikongsi menjadi tarikan BARBÙ. Pilih makanan yang ingin dicuba bersama keluarga atau rakan. Menikmati hidangan dengan panorama bandar memberi ruang mengenang hari perjalanan bersama."
+      },
+      {
+        "title": "Nikmati rooftop bersama anak",
+        "text": "BARBÙ di tingkat 24 menerima keluarga. Sesuai apabila bercuti dengan anak tetapi orang dewasa juga mahu makan berpanorama. Bezakan nama dan arasnya daripada Skybar Summer Club dewasa sahaja di tingkat 27."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Siam@Siam Design Hotel Pattaya",
+        "instructions": "Cari “Siam@Siam Design Hotel Pattaya” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke BARBÙ.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9457203,100.8887009&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.siamatsiam.com/pattaya/restaurants-bars/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://siamatsiam.b-cdn.net/wp-content/uploads/2026/02/20260214-SSPTY_-Factsheet-Editable-Template.pdf"
+      ]
+    ],
+    "faq": [
+      [
+        "Bolehkah membawa anak?",
+        "Ya, keluarga dibenarkan. Sesuai untuk makan sambil menikmati bandar bersama anak. Skybar Summer Club tingkat 27 hotel sama hanya untuk umur 18 tahun ke atas; pergi ke tingkat 24 untuk BARBÙ."
+      ],
+      [
+        "Makanan apa tersedia?",
+        "Nikmati hidangan Mediterranean untuk dikongsi. Pilih menu bersama keluarga atau rakan dan kongsi di tengah meja. Sesuai untuk makan beramai-ramai sambil terus berbual."
+      ],
+      [
+        "Adakah sama dengan Skybar Summer Club?",
+        "Kemudahan berbeza. BARBÙ ialah restoran dan bar mesra keluarga di tingkat 24; Skybar Summer Club di tingkat 27 hanya untuk umur 18 tahun ke atas. Pilih BARBÙ jika makan bersama anak."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 12.9457203,
+    "lng": 100.8887009,
+    "locationSource": "https://maps.app.goo.gl/W1wKKg36qxAEW5149",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar dan restoran rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Siam@Siam Design Hotel Pattaya. I am going to BARBÙ.",
+      "thai": "ไปโรงแรมสยามแอทสยาม ดีไซน์ พัทยา จะไปบาร์บู ชั้น 24",
+      "destination": "Siam@Siam Design Hotel Pattaya"
+    }
+  },
+  "portrait-voyage-sky-bar": {
+    "id": "portrait-voyage-sky-bar",
+    "researchId": "rt-pty-008",
+    "city": "pattaya",
+    "name": "The Portrait of Voyage Sky Bar",
+    "english": "The Portrait of Voyage Sky Bar",
+    "building": "Grande Centre Point Voyage Pattaya · tingkat 33",
+    "intro": "Singgah di The Portrait of Voyage Sky Bar untuk berehat sebentar menghadap laut Pattaya. Bar terbuka tingkat 33 Grande Centre Point Voyage menawarkan koktel dan panorama laut. Naik menjelang senja bersama pasangan atau rakan untuk berbual sambil melihat warna langit berubah, kemudian cahaya bandar selepas gelap. Sesuai pada hari mahu menikmati minuman serta panorama, bukannya hidangan utama.",
+    "facts": {
+      "hours": "Setiap hari 11:30–24:00",
+      "address": "808, 908 M.5 Na Kluea, Bang Lamung, Chonburi 20150, Thailand",
+      "phone": "+66 33 268 188"
+    },
+    "reasons": [
+      {
+        "title": "Berehat menghadap laut dan langit",
+        "text": "Lihat laut Pattaya dan bandar dari ruang terbuka tingkat 33. Datang menjelang senja untuk panorama siang, langit berubah warna dan kemudian cahaya malam. Luangkan masa bersama teman pada hari tanpa perlu bergegas."
+      },
+      {
+        "title": "Berbual bersama segelas koktel",
+        "text": "Tempat ini berfokus pada koktel. Sesuai untuk bercerita dengan rakan selepas lawatan atau berehat melihat laut dengan pasangan. Jika mahu makan malam, bezakan daripada restoran Blue Atlantis di aras sama semasa merancang."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Grande Centre Point Voyage Pattaya",
+        "instructions": "Cari “Grande Centre Point Voyage Pattaya” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke The Portrait of Voyage Sky Bar.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9536553,100.8861868&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://voyagepattaya.com/"
+      ]
+    ],
+    "faq": [
+      [
+        "Bilakah sesuai datang?",
+        "Naik sebelum matahari terbenam untuk senja hingga malam. Dibuka setiap hari 11:30 hingga tengah malam, jadi boleh juga datang siang untuk berehat menghadap laut Pattaya."
+      ],
+      [
+        "Adakah sama dengan Blue Atlantis?",
+        "Kemudahan berasingan. The Portrait of Voyage ialah bar berfokus koktel, manakala Blue Atlantis di aras sama ialah restoran berfokus hidangan. Tentukan bersama teman sama ada mahu minuman atau makan malam sebelum datang."
+      ],
+      [
+        "Panorama apa boleh dilihat?",
+        "Lihat laut Pattaya dan bandar dari bar terbuka tingkat 33. Nikmati laut luas pada siang hari, langit berubah warna ketika senja dan cahaya bandar pada malam."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 12.9536553,
+    "lng": 100.8861868,
+    "locationSource": "https://www.openstreetmap.org/node/14183506701",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Grande Centre Point Voyage Pattaya. I am going to The Portrait of Voyage Sky Bar.",
+      "thai": "ไปโรงแรม Grande Centre Point Voyage Pattaya จะไป The Portrait of Voyage Sky Bar ชั้น 33",
+      "destination": "Grande Centre Point Voyage Pattaya"
+    }
+  },
+  "sizzle-rooftop": {
+    "id": "sizzle-rooftop",
+    "researchId": "rt-hkt-003",
+    "city": "phuket",
+    "name": "Sizzle Rooftop Restaurant & Bar",
+    "english": "Sizzle Rooftop Restaurant & Bar",
+    "building": "Avista Hideaway Phuket Patong – MGallery",
+    "intro": "Naik ke Sizzle Rooftop untuk makan malam menghadap laut dan hutan Phuket. Teres Avista Hideaway menggabungkan Laut Andaman dengan hutan di bukit. Sesuai bersama pasangan atau rakan untuk koktel menjelang senja, diikuti hidangan. Bar dibuka sebelum restoran, jadi pilih waktu mengikut sama ada mahu minuman sahaja atau makan sekali.",
+    "facts": {
+      "hours": "Bar rooftop 17:30–23:30 / restoran rooftop 18:00–23:00 (pesanan terakhir 22:30) — rasmi",
+      "rain": "Tempat duduk berbumbung tersedia apabila hujan",
+      "address": "39/9 Muen-Ngern Road, Tri Trang Beach, Patong, Kathu, Phuket 83150, Thailand",
+      "phone": "+66 95 834 0453  / info@sizzlerooftopphuket.com",
+      "booking": "Menerima tempahan"
+    },
+    "reasons": [
+      {
+        "title": "Teres menghadap laut dan hutan",
+        "text": "Dari teres di bukit Patong, lihat Laut Andaman serta hutan yang luas. Naik menjelang senja dan mulakan petang dengan minuman bersama teman. Sesuai untuk melihat laut dari sudut berbeza daripada pantai."
+      },
+      {
+        "title": "Mulakan dengan koktel, sambung makan malam",
+        "text": "Bar dibuka 17:30 dan restoran 18:00. Nikmati koktel dahulu sebelum makan untuk petang tanpa tergesa-gesa. Datang bersama pasangan atau rakan yang mahu muzik, panorama dan hidangan."
+      },
+      {
+        "title": "Pilih tempat berbumbung jika hujan diramal",
+        "text": "Tempat duduk berbumbung tersedia ketika hujan. Jika mengharapkan panorama luar, lihat juga cuaca tarikh lawatan. Ketika hujan, minta kakitangan menunjukkan tempat duduk sebelum menikmati hidangan."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Avista Hideaway Phuket Patong",
+        "instructions": "Cari “Avista Hideaway Phuket Patong” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Sizzle Rooftop Restaurant & Bar. Jika tinggal hingga petang, tetapkan juga pengangkutan pulang.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8811027,98.2774545&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.avistahideawayphuketresort.com/best-restaurants-in-phuket-patong/rooftop-bar-in-phuket/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://mgallery.accor.com/en/hotels/A245/R001.restaurant.html"
+      ]
+    ],
+    "faq": [
+      [
+        "Adakah waktu bar dan restoran berbeza?",
+        "Ya. Bar 17:30–23:30, restoran 18:00–23:00. Pesanan makanan terakhir 22:30; tiba dengan masa mencukupi jika mahu makan."
+      ],
+      [
+        "Bolehkah datang ketika hujan?",
+        "Tempat duduk berbumbung tersedia. Minta kakitangan menunjukkan kerusi jika hujan diramal. Jika mahu panorama laut dan hutan, pertimbangkan cuaca semasa memilih tarikh."
+      ],
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai untuk pasangan atau rakan yang mahu minuman dan makan malam berpanorama laut. Luangkan masa untuk bermula dengan koktel di bar dan menyambung hidangan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 7.8811027,
+    "lng": 98.2774545,
+    "locationSource": "https://www.openstreetmap.org/node/12293207201",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar dan restoran rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Sizzle Rooftop Restaurant & Bar at Avista Hideaway Phuket Patong.",
+      "thai": "ไป Sizzle Rooftop Restaurant & Bar ที่โรงแรม Avista Hideaway Phuket Patong ถนนหมื่นเงิน ป่าตอง ภูเก็ต",
+      "destination": "Avista Hideaway Phuket Patong"
+    }
+  },
+  "twilight-sky": {
+    "id": "twilight-sky",
+    "researchId": "rt-hkt-005",
+    "city": "phuket",
+    "name": "Twilight Sky Restaurant & Bar",
+    "english": "Twilight Sky Restaurant & Bar",
+    "building": "The SIS Kata Resort (Adult Only)",
+    "intro": "Kunjungi Twilight Sky untuk memulakan petang menghadap laut di Kata. Restoran dan bar The SIS Kata menghadap Pantai Kata serta Laut Andaman. Sesuai bersama pasangan atau rakan untuk duduk menjelang senja dengan minuman dan hidangan. Muzik langsung serta acara makan malam stik ditawarkan pada Khamis; lihat rancangan hari itu jika teman menggemari muzik.",
+    "facts": {
+      "address": "255 Kok Tanode Road, Karon, Muang, Phuket 83100, Thailand",
+      "phone": "+66 76 609555 / tempahan: 076 609 555",
+      "booking": "Tempahan melalui nombor telefon yang disenaraikan"
+    },
+    "reasons": [
+      {
+        "title": "Petang menghadap Pantai Kata",
+        "text": "Dari bukit, lihat Pantai Kata dan Laut Andaman. Selepas melawat pantai pada siang hari, berehat menghadap laut dari tempat tinggi pada petang hari. Sesuai untuk menikmati senja dengan minuman bersama teman."
+      },
+      {
+        "title": "Khamis bersama teman penggemar muzik",
+        "text": "Muzik langsung dan acara makan malam stik ditawarkan pada Khamis. Jika pasangan atau rakan mahu muzik bersama hidangan, pertimbangkan hari itu. Tanya waktu acara dan persembahan semasa menempah untuk memudahkan rancangan petang."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "The SIS Kata",
+        "instructions": "Cari “The SIS Kata” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Twilight Sky Restaurant & Bar. Jika tinggal hingga petang, tetapkan juga pengangkutan pulang.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8127379,98.29999&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.thesiskata.com/dining-in-style/twilight-sky/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.thesiskata.com/dining-in-style/crescent-pool-bar/"
+      ]
+    ],
+    "faq": [
+      [
+        "Bilakah suasana sesuai dinikmati?",
+        "Datang menjelang senja untuk melihat warna Pantai Kata dan laut berubah. Luangkan masa mencukupi untuk makanan serta minuman supaya dapat menikmati petang santai bersama teman."
+      ],
+      [
+        "Adakah muzik langsung?",
+        "Muzik langsung dan acara makan malam stik ditawarkan pada Khamis. Pertimbangkan hari itu bersama teman penggemar muzik dan tanya waktu persembahan semasa menempah."
+      ],
+      [
+        "Bagaimana menempah?",
+        "Hubungi 076 609 555. Tetapkan teman dan tarikh serta nyatakan waktu makan pilihan. Jika mahukan muzik Khamis, tanya juga waktu persembahan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 7.8127379,
+    "lng": 98.29999,
+    "locationSource": "https://www.openstreetmap.org/way/1256756738",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar dan restoran rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Twilight Sky Restaurant & Bar at The SIS Kata.",
+      "thai": "ไป Twilight Sky Restaurant & Bar ที่โรงแรม The SIS Kata 255 ถนนโคกโตนด หาดกะตะ ภูเก็ต",
+      "destination": "The SIS Kata"
+    }
+  },
+  "vanilla-sky": {
+    "id": "vanilla-sky",
+    "researchId": "rt-hkt-006",
+    "city": "phuket",
+    "name": "Vanilla Sky Bar & Gastro Pub",
+    "english": "Vanilla Sky Bar & Gastro Pub",
+    "building": "Cape Sienna Phuket Gourmet Hotel & Villas",
+    "intro": "Singgah di Vanilla Sky untuk koktel dengan laut serta senja Kamala. Bar Cape Sienna menghadap Teluk Kamala dan arah Pantai Rayee. Nikmati Smoky Cinnamon atau bir draf bersama hidangan panggang arang dengan pasangan atau rakan. Pilih hari tanpa perlu bergegas dan luangkan waktu sejak senja.",
+    "facts": {
+      "address": "18/40 Moo 6, Nakalay Road, Kamala, Kathu, Phuket 83150, Thailand",
+      "phone": "+66 (0) 76 337300  / rsvn@capesienna.com",
+      "booking": "Tempahan melalui e-mel yang disenaraikan",
+      "hours": "Setiap hari 17:00~24:00"
+    },
+    "reasons": [
+      {
+        "title": "Laut Kamala dan matahari terbenam",
+        "text": "Menikmati senja menghadap laut ialah tarikannya. Selepas bermain di pantai pada siang hari, lihat warna laut serta langit berubah bersama koktel. Masa ini juga sesuai untuk berkongsi cerita hari itu dengan teman."
+      },
+      {
+        "title": "Koktel bersama hidangan panggang arang",
+        "text": "Pilih Smoky Cinnamon, bir draf dan hidangan panggang arang. Pilih minuman kegemaran masing-masing bersama rakan dan padankan dengan makanan. Sesuai apabila mahu makan, minum dan tinggal lebih lama daripada melihat panorama sahaja."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "Cape Sienna Phuket",
+        "instructions": "Cari “Cape Sienna Phuket” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke Vanilla Sky Bar & Gastro Pub. Jika tinggal hingga petang, tetapkan juga pengangkutan pulang.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.9494461,98.2737284&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.capesienna.com/restaurants/vanilla-sky-bar-gastro-pub/"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.capesienna.com/uploads/files/cms_apps/pdf/bochure/CAPE_SIENNA_BROCHURE_2025-Pressed.pdf"
+      ],
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.capesienna.com/uploads/files/cms_apps/pdf/vanilathai/VanillaSky_menu2_compressed1.pdf"
+      ]
+    ],
+    "faq": [
+      [
+        "Minuman dan makanan apa tersedia?",
+        "Pilih Smoky Cinnamon atau bir draf dan padankan dengan hidangan panggang arang. Rancang petang menikmati minuman menghadap laut bersama pasangan atau rakan."
+      ],
+      [
+        "Bilakah sesuai datang?",
+        "Datang menjelang senja jika mahu matahari terbenam. Dibuka setiap hari 17:00 hingga tengah malam; nikmati makanan dan minuman perlahan sejak senja."
+      ],
+      [
+        "Di mana boleh menempah?",
+        "Hubungi rsvn@capesienna.com dengan tarikh, bilangan orang dan waktu pilihan. Rancang lebih awal untuk senja bersama pasangan atau petang dengan rakan."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 7.9494461,
+    "lng": 98.2737284,
+    "locationSource": "https://www.openstreetmap.org/node/7844983965",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Vanilla Sky Bar & Gastro Pub at Cape Sienna Phuket.",
+      "thai": "ไป Vanilla Sky Bar & Gastro Pub ที่โรงแรม Cape Sienna Phuket กมลา ภูเก็ต",
+      "destination": "Cape Sienna Phuket"
+    }
+  },
+  "surface-patong": {
+    "id": "surface-patong",
+    "researchId": "rt-hkt-007",
+    "city": "phuket",
+    "name": "The Surface Restaurant & Bar",
+    "english": "The Surface Restaurant & Bar",
+    "building": "La Flora Resort Patong",
+    "intro": "Naik ke The Surface untuk mengakhiri hari Pantai Patong dengan petang berpanorama. Rooftop La Flora Resort Patong menawarkan koktel serta hidangan menghadap Teluk Patong dan Laut Andaman. Sesuai untuk senja bersama pasangan atau makan sambil berkongsi cerita dengan rakan. Lihat semula laut yang dinikmati dari pantai, kali ini dengan santai dari rooftop.",
+    "facts": {
+      "address": "37, 39 Taweewong Road, Patong Beach, Phuket 83150, Thailand"
+    },
+    "reasons": [
+      {
+        "title": "Lihat semula Pantai Patong dari rooftop",
+        "text": "Teluk Patong dan Laut Andaman terbentang luas dari rooftop. Selepas lawatan pantai siang, naik untuk berehat menghadap laut pada petang hari. Sesuai menikmati senja bersama teman."
+      },
+      {
+        "title": "Sambung malam percutian dengan makanan dan koktel",
+        "text": "Nikmati koktel serta hidangan bersama. Pilih minuman dengan pasangan atau rakan dan bercerita tentang tempat yang dilawati sambil melihat laut. Luangkan juga masa untuk panorama selepas makan supaya tidak tergesa-gesa."
+      }
+    ],
+    "photos": [],
+    "access": [
+      {
+        "name": "La Flora Resort Patong",
+        "instructions": "Cari “La Flora Resort Patong” dalam Grab atau Bolt. Selepas tiba, minta kakitangan menunjukkan arah ke The Surface Restaurant & Bar. Jika tinggal hingga petang, tetapkan juga pengangkutan pulang.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.8955578,98.2954925&travelmode=driving"
+      }
+    ],
+    "sources": [
+      [
+        "Maklumat lawatan rasmi kemudahan",
+        "https://www.laflorapatong.com/experiences/"
+      ]
+    ],
+    "faq": [
+      [
+        "Panorama apa boleh dilihat?",
+        "Lihat Teluk Patong dan Laut Andaman yang luas. Sesuai jika mahu melihat semula laut dari tempat tinggi. Menjelang senja, nikmati minuman bersama suasana petang."
+      ],
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai untuk pasangan atau rakan yang mahu koktel serta hidangan menghadap laut. Datang untuk mengakhiri hari di Pantai Patong dengan petang yang santai."
+      ]
+    ],
+    "publicationStatus": "published",
+    "facilityCategory": "rooftop",
+    "photoCollectionComplete": false,
+    "lat": 7.8955578,
+    "lng": 98.2954925,
+    "locationSource": "https://www.openstreetmap.org/node/2509632252",
+    "reservation": "Baca tempahan meja dan syarat tarikh lawatan di halaman tempahan rasmi kemudahan.",
+    "facilityKind": "Bar dan restoran rooftop",
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to The Surface Restaurant & Bar at La Flora Resort Patong.",
+      "thai": "ไป The Surface Restaurant & Bar ที่ La Flora Resort Patong ถนนทวีวงศ์ หาดป่าตอง ภูเก็ต",
+      "destination": "La Flora Resort Patong"
+    }
+  },
+  "phra-tamnak-viewpoint": {
+    "id": "phra-tamnak-viewpoint",
+    "researchId": "rt-pty-009",
+    "city": "pattaya",
+    "name": "Phra Tamnak Mountain Viewpoint",
+    "english": "Phra Tamnak Mountain Viewpoint",
+    "building": "Bukit antara Pattaya selatan dan Jomtien · ruang tinjau terbuka",
+    "intro": "Selepas menyusuri Pantai Pattaya, lihat garis pantai dari bukit pula. Phra Tamnak menawarkan lengkungan pantai dan bandar di belakangnya dalam satu panorama. Sesuai untuk foto bersama keluarga atau rakan serta pengunjung pertama yang mahu memahami susun bandar. Datang menjelang senja dan tinggal lebih lama untuk laut terang diikuti cahaya bandar.",
+    "lat": 12.9278472,
+    "lng": 100.8632145,
+    "locationSource": "https://www.openstreetmap.org/node/1044028485",
+    "facts": {
+      "address": "Nong Prue, Bang Lamung, Chon Buri"
+    },
+    "reasons": [
+      {
+        "title": "Garis pantai Pattaya dalam satu gambar",
+        "text": "Dari bukit, lihat lengkungan Pantai Pattaya bersama pusat bandar. Panorama berbeza daripada di pantai, sesuai untuk bergambar perjalanan bersama rakan atau keluarga."
+      },
+      {
+        "title": "Berehat menghadap laut antara lawatan",
+        "text": "Ini tempat tinjau terbuka, bukannya bar rooftop untuk makan dan minum. Tambahkan persinggahan selepas meneroka bandar Pattaya. Oleh sebab di atas bukit, kenderaan boleh mengurangkan beban berjalan pada hari panas."
+      },
+      {
+        "title": "Rancang perjalanan pulang untuk lawatan senja",
+        "text": "Tinggal sejak senja untuk melihat warna laut dan bandar berubah. Oleh sebab ruang terbuka, lakukan aktiviti lain dahulu jika hujan dan datang apabila cuaca cerah. Tetapkan pengangkutan pulang lebih awal jika mahu turun selepas gelap."
+      }
+    ],
+    "faq": [
+      [
+        "Panorama apa boleh dilihat?",
+        "Lihat lengkungan Pantai Pattaya dan pusat bandar di belakangnya. Sesuai jika mahu merakam laut serta bandar dari sudut berbeza daripada foto di pantai."
+      ],
+      [
+        "Adakah ini bar rooftop?",
+        "Ini tempat tinjau terbuka di atas bukit. Berbeza daripada bar hotel untuk makanan atau koktel; sesuai melihat panorama Pattaya dan bergambar."
+      ],
+      [
+        "Bilakah sesuai datang?",
+        "Datang siang untuk laut serta bandar yang terang, atau menjelang petang untuk senja hingga malam. Oleh sebab terbuka, tunggu cuaca cerah jika hujan supaya lebih selesa menikmati pemandangan."
+      ],
+      [
+        "Bagaimana mencarinya?",
+        "Cari “Phra Tamnak Mountain Viewpoint” dalam Grab atau Bolt. Naik kenderaan ke bukit untuk mengurangkan berjalan. Jika datang senja, tetapkan juga pengangkutan turun."
+      ]
+    ],
+    "sources": [
+      [
+        "Lembaga Pelancongan Thailand · tempat tinjau",
+        "https://www.tourismthailand.org/Attraction/phra-tamnak-mountain-viewpoint"
+      ]
+    ],
+    "facilityCategory": "viewpoint",
+    "facilityKind": "Tempat tinjau",
+    "publicationStatus": "published",
+    "photos": [],
+    "photoCollectionComplete": false,
+    "access": [
+      {
+        "name": "Phra Tamnak Mountain Viewpoint",
+        "instructions": "Cari “Phra Tamnak Mountain Viewpoint” dalam Grab atau Bolt. Naik kenderaan ke tempat tinjau untuk mengurangkan berjalan. Jika datang menjelang senja, tetapkan juga pengangkutan turun.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=12.9278472,100.8632145&travelmode=driving"
+      }
+    ],
+    "taxi": {
+      "instructions": "Tunjukkan ayat bahasa Inggeris atau Thai di bawah kepada pemandu teksi.",
+      "english": "Please take me to Phra Tamnak Mountain Viewpoint. I am going to Phra Tamnak Mountain Viewpoint.",
+      "thai": "ไปจุดชมวิวเขาพระตำหนัก พัทยา",
+      "destination": "Phra Tamnak Mountain Viewpoint"
+    }
+  },
+  "phi-phi-viewpoint-2": {
+    "id": "phi-phi-viewpoint-2",
+    "researchId": "rt-phi-003",
+    "city": "phi-phi",
+    "name": "Phi Phi Don Viewpoint 2",
+    "english": "Phi Phi Don Viewpoint 2",
+    "building": "Ko Phi Phi Don · tempat tinjau atas bukit",
+    "intro": "Naik ke Viewpoint 2 untuk melihat laut dan perkampungan Phi Phi Don sekali gus. Dari bukit, pulau kelihatan berbeza daripada ketika berada di pantai. Sesuai bersama rakan penggemar fotografi atau pada hari mahu merakam kenangan pulau. Luangkan masa melihat laut serta kampung perlahan-lahan daripada terus kembali selepas tiba.",
+    "lat": 7.7458651,
+    "lng": 98.7780264,
+    "locationSource": "https://www.openstreetmap.org/node/2077185464",
+    "facts": {},
+    "reasons": [
+      {
+        "title": "Lihat pulau dari tempat tinggi selepas pantai",
+        "text": "Daya tariknya ialah melihat laut dan perkampungan pulau dari bukit. Lihat semula laut dari tempat tinggi dan kenali bagaimana kampung terletak dalam pulau. Sesuai untuk menikmati sisi berbeza Phi Phi Don."
+      },
+      {
+        "title": "Bersama rakan penggemar fotografi landskap",
+        "text": "Sesuai untuk merakam perjalanan berlatar laut serta perkampungan pulau. Ambil gambar untuk satu sama lain, kemudian letakkan kamera dan berehat menghadap panorama. Pilih hari tanpa perlu bergegas dalam perjalanan atau lawatan."
+      }
+    ],
+    "faq": [
+      [
+        "Sesuai bersama siapa?",
+        "Sesuai untuk rakan peminat fotografi landskap atau teman yang mahu melihat pulau dari atas. Bergambar untuk satu sama lain dan luangkan masa memandang laut serta kampung bersama."
+      ],
+      [
+        "Apa boleh dilihat dari Viewpoint 2?",
+        "Lihat laut dan perkampungan Phi Phi Don dari atas. Menikmati semula panorama pantai dari tempat tinggi sambil mengenali bentuk muka bumi pulau ialah tarikannya."
+      ],
+      [
+        "Pin menunjukkan tempat tinjau mana?",
+        "Pin menandakan Viewpoint 2 di Phi Phi Don. Oleh sebab terdapat beberapa tempat tinjau di pulau, cari nama Viewpoint 2 semasa menentukan destinasi."
+      ],
+      [
+        "Adakah digunakan seperti bar rooftop?",
+        "Ini tempat tinjau terbuka di atas bukit. Tujuan lawatannya berbeza daripada bar rooftop hotel untuk makan atau memesan minuman. Rancang untuk melihat laut, kampung dan bergambar."
+      ]
+    ],
+    "sources": [
+      [
+        "Lembaga Pelancongan Thailand · Phi Phi Don dan tempat tinjau",
+        "https://www.tourismthailand.org/Attraction/phi-phi-don-island"
+      ]
+    ],
+    "facilityCategory": "viewpoint",
+    "facilityKind": "Tempat tinjau",
+    "publicationStatus": "published",
+    "photos": [],
+    "photoCollectionComplete": false,
+    "access": [
+      {
+        "name": "Phi Phi Don Viewpoint 2",
+        "english": "Phi Phi Don Viewpoint 2",
+        "instructions": "Cari Viewpoint 2 sebagai destinasi. Panduan arah di bawah menggunakan titik tinjau yang sama dengan peta di atas. Lihat laluan dari penginapan sebelum bertolak supaya mudah mengatur lawatan.",
+        "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.7458651,98.7780264"
+      }
+    ],
+    "recommended": "Sesuai jika mahu melihat laut serta kampung dari tempat tinggi atau bercuti dengan rakan penggemar fotografi. Rancang masa perjalanan bersama waktu menikmati panorama kerana tempat ini di atas bukit."
+  }
+}

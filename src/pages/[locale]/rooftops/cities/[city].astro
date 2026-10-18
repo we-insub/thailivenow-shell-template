@@ -1,0 +1,6 @@
+---
+import RooftopHub from '../../../../components/RooftopHub.astro';
+import {localizedLocales} from '../../../../lib/localized-content';
+export function getStaticPaths(){return localizedLocales('rooftops').flatMap(item=>['bangkok','chiang-mai','pattaya','phi-phi','phuket','samui'].map(city=>({params:{locale:item.code,city}})));}
+---
+<RooftopHub locale={Astro.params.locale} initialCity={Astro.params.city}/>

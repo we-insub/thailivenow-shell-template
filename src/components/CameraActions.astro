@@ -1,8 +1,9 @@
 ---
+import {hasLocalizedStage} from '../lib/localized-content';
 import {getDesignUI} from '../i18n/design-ui';
 import {headerIcons} from '../design/header-icons';
 const {id='',locale='ko',compact=false}=Astro.props;
-const t=getDesignUI(locale),ko=locale==='ko';
+const t=getDesignUI(locale),ko=locale==='ko'||hasLocalizedStage(locale,'cameras');
 ---
 <div class:list={['camera-actions',compact&&'camera-actions-compact']}>
  <button type="button" data-save-camera={id} aria-pressed="false"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" set:html={headerIcons.heart}/><span data-action-label>{ko?'저장':locale.startsWith('en')?'Save':t.save}</span></button>

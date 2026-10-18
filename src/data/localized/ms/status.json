@@ -1,0 +1,15 @@
+{
+  "locale": "ms",
+  "travel": "complete",
+  "rooftops": "complete",
+  "cameras": "complete",
+  "ui": "complete",
+  "validation": {
+    "json": true,
+    "renderedHtml": false,
+    "browser": false,
+    "build": false,
+    "deployment": false,
+    "dataStructure": true
+  }
+}

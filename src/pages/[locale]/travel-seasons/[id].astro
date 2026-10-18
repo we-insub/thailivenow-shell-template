@@ -1,0 +1,6 @@
+---
+import TravelSeasonPage from '../../../components/TravelSeasonPage.astro';
+import {localizedLocales,getLocalizedPack} from '../../../lib/localized-content';
+export function getStaticPaths(){return localizedLocales('travel').flatMap(item=>[...getLocalizedPack(item.code).travel.seasons.regions.map(region=>({params:{locale:item.code,id:region.id},props:{region}})),{params:{locale:item.code,id:'rainy-dry'},props:{seasonGuide:true}}]);}
+---
+<TravelSeasonPage locale={Astro.params.locale} {...Astro.props}/>
