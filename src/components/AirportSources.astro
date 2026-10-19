@@ -1,16 +1,16 @@
 ---
 import {getOperationalDeployDate} from '../lib/operational-date';
+import RuntimeDate from './RuntimeDate.astro';
 const {sources=[],locale='ko',checkedAt,idPrefix='airport-source',labeler}=Astro.props;
 const urls=[...new Set(sources.filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url)))];
 const dateLabels:Record<string,[string,string,string]>={ko:['출처 확인일','최근 배포일','운영 배포 전 · 로컬 시안'],ms:['Tarikh semakan sumber','Tarikh penerbitan terakhir','Belum diterbitkan · pratonton tempatan'],'zh-cn':['来源核查日期','最近发布日期','尚未发布 · 本地预览'],'en-in':['Source check date','Latest deployment date','Not deployed · local preview'],ru:['Дата проверки источников','Дата последней публикации','Ещё не опубликовано · локальный просмотр'],ja:['情報源の確認日','最新公開日','公開前 · ローカルプレビュー'],'en-gb':['Source check date','Latest deployment date','Not deployed · local preview'],'en-us':['Source check date','Latest deployment date','Not deployed · local preview'],es:['Fecha de revisión de fuentes','Última fecha de publicación','Sin publicar · vista previa local'],'zh-tw':['來源查核日期','最近發布日期','尚未發布 · 本機預覽']};
 const dateCopy=dateLabels[locale]||dateLabels.ko;
 const operationalDate=getOperationalDeployDate();
-const dateText=operationalDate==='운영 배포 전 · 로컬 시안'?dateCopy[2]:operationalDate;
 const titles:Record<string,string>={ko:'공식 출처 보기',ms:'Lihat sumber rasmi','zh-cn':'查看官方来源','en-in':'View official sources',ru:'Посмотреть официальные источники',ja:'公式情報を見る','en-gb':'View official sources','en-us':'View official sources',es:'Ver fuentes oficiales','zh-tw':'查看官方來源'};
 const sourceLabel=(url:string)=>{try{const parsed=new URL(url);return `${parsed.hostname.replace(/^www\./,'')} · ${decodeURIComponent(parsed.pathname.split('/').filter(Boolean).at(-1)||'')}`}catch{return url}};
 ---
 {urls.length>0&&<section class="airport-sources" id="official-sources">
-  <p class="source-date">{dateCopy[0]}: {dateText}<br/>{dateCopy[1]}: {dateText}</p>
+  <p class="source-date">{dateCopy[0]}: <RuntimeDate kind="source" fallback={checkedAt||null} locale={locale}/><br/>{dateCopy[1]}: <RuntimeDate kind="deployment" fallback={operationalDate} locale={locale}/></p>
   <details class="source-fold"><summary>{titles[locale]||titles.ko} · {urls.length}{locale==='ko'?'개':''}</summary>
     <ol>{urls.map((url:string,i:number)=><li id={`${idPrefix}-${i+1}`}><a href={url} target="_blank" rel="noopener noreferrer">{labeler?labeler(url):sourceLabel(url)} ↗</a></li>)}</ol>
   </details>

@@ -1,9 +1,10 @@
 ---
+import AirportAirlineFinder from './AirportAirlineFinder.astro';
 import {airportMarketData} from '../lib/airport-markets';
 import {airportUI} from '../i18n/airport-ui';
 const {locale='ko',guide}=Astro.props;
 const data=airportMarketData(locale);
-const incidentIds=['damaged-baggage','delayed-baggage','flight-delayed','flight-cancelled','insurance-claim','find-airline-counter','caat-passenger-rights'];
+const incidentIds=['damaged-baggage','delayed-baggage','flight-delayed','flight-cancelled','insurance-claim','caat-passenger-rights'];
 const show=incidentIds.includes(guide.id);
 const carrierIds=new Set(data.routes.map((route:any)=>route.airlineId));
 const airlines=data.airlines.filter((airline:any)=>carrierIds.has(airline.id));
@@ -12,7 +13,8 @@ const related=(airlineId:string)=>data.guides.filter((item:any)=>item.id!==guide
   /flight-delayed|flight-cancelled|insurance-claim|caat-passenger-rights/.test(guide.id)?/certificate|confirmation|disruption|flight-evidence|redress/.test(item.id):false
 ));
 ---
-{show&&airlines.length>0&&<section aria-label={airportUI[locale][6]}>
+{show&&locale==='ko'&&<AirportAirlineFinder incident={/baggage/.test(guide.id)?'baggage':guide.id==='insurance-claim'?'all':'flight'}/>}
+{show&&locale!=='ko'&&airlines.length>0&&<section aria-label={airportUI[locale][6]}>
   <h2>{airportUI[locale][6]}</h2>
   <ul>{airlines.map((airline:any)=><li>
     <a href={`/${locale}/airport-assistance/airlines/${airline.id}/`}>{airline.name} →</a>

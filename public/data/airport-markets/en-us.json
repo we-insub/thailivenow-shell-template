@@ -1,11 +1,462 @@
 {
   "schemaVersion": 1,
   "market": "US",
-  "status": "researching",
-  "checkedAt": "2026-10-13",
-  "routes": [],
-  "airlines": [],
-  "services": [],
+  "status": "verified-with-period-scope",
+  "checkedAt": "2026-10-19",
+  "routes": [
+    {
+      "id": "united-lax-bkk-via-hkg",
+      "market": "US",
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "originIata": "LAX",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "routingType": "intermediate-stop",
+      "viaAirports": [
+        "HKG"
+      ],
+      "description": "United-operated service via Hong Kong (HKG), not nonstop. The same flight number appears across the intermediate stop; check any aircraft or transfer instructions on your ticket.",
+      "schedule": "United publishes daily service on this routing. Its route overview does not state a timetable validity period; check the departure and arrival times for your travel date in the booking system. The separately reviewed booking is for departure on December 18, 2026.",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.united.com/ko/kr/fsr/choose-flights?f=LAX&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.tatnews.org/2025/10/thailand-welcomes-united-airlines-inaugural-los-angeles-bangkok-flight/",
+        "https://businesstravel.united.com/bangkok-hongkong-usa"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-55",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "validityNote": "Daily service published on the United route overview checked October 19, 2026. No fixed validity period is stated there. The December 18, 2026 booking is a separate dated observation; its times and connection duration must not be reused for every day.",
+      "flightNumber": "UA820",
+      "operatingDates": [
+        "2026-12-18"
+      ],
+      "dateBasis": "departure-airport-date",
+      "flightStatusUrl": "https://www.united.com/",
+      "verificationEvidence": [
+        "APW-UA-0001"
+      ],
+      "publishedFrequency": "Daily",
+      "frequencySource": "https://businesstravel.united.com/bangkok-hongkong-usa",
+      "scheduleEvidence": {
+        "sourceRecordId": "AP-WORLD-WEST-01-69",
+        "checkedAt": "2026-10-19",
+        "url": "https://businesstravel.united.com/bangkok-hongkong-usa",
+        "publishedFrequency": "Daily",
+        "timetableValidity": null,
+        "timesPolicy": "Undated promotional schedule differs from dated booking; do not merge static times into a guaranteed timetable."
+      },
+      "sourceRecordIds": [
+        "AP-WORLD-WEST-01-55",
+        "AP-WORLD-WEST-01-69"
+      ]
+    },
+    {
+      "id": "united-bkk-lax-via-hkg",
+      "market": "US",
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "originIata": "BKK",
+      "destinationIata": "LAX",
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "routingType": "intermediate-stop",
+      "viaAirports": [
+        "HKG"
+      ],
+      "description": "United-operated service via Hong Kong (HKG), not nonstop. The same flight number appears across the intermediate stop; check any aircraft or transfer instructions on your ticket.",
+      "schedule": "United publishes daily service on this routing. Its route overview does not state a timetable validity period; check the departure and arrival times for your travel date in the booking system. The separately reviewed booking is for departure on December 18, 2026.",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.united.com/ko/kr/fsr/choose-flights?tt=1&st=bestmatches&d=2026-12-18&clm=7&taxng=1&f=BKK&px=1&newHP=True&sc=7&tqp=R&t=LAX&idx=1&mm=0&cartId=undefined",
+        "https://www.tatnews.org/2025/10/thailand-welcomes-united-airlines-inaugural-los-angeles-bangkok-flight/",
+        "https://businesstravel.united.com/bangkok-hongkong-usa"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-55",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "validityNote": "Daily service published on the United route overview checked October 19, 2026. No fixed validity period is stated there. The December 18, 2026 booking is a separate dated observation; its times and connection duration must not be reused for every day.",
+      "flightNumber": "UA821",
+      "operatingDates": [
+        "2026-12-18"
+      ],
+      "dateBasis": "departure-airport-date",
+      "flightStatusUrl": "https://www.united.com/",
+      "verificationEvidence": [
+        "APW-UA-0002"
+      ],
+      "publishedFrequency": "Daily",
+      "frequencySource": "https://businesstravel.united.com/bangkok-hongkong-usa",
+      "scheduleEvidence": {
+        "sourceRecordId": "AP-WORLD-WEST-01-69",
+        "checkedAt": "2026-10-19",
+        "url": "https://businesstravel.united.com/bangkok-hongkong-usa",
+        "publishedFrequency": "Daily",
+        "timetableValidity": null,
+        "timesPolicy": "Undated promotional schedule differs from dated booking; do not merge static times into a guaranteed timetable."
+      },
+      "sourceRecordIds": [
+        "AP-WORLD-WEST-01-55",
+        "AP-WORLD-WEST-01-69"
+      ]
+    },
+    {
+      "id": "united-sfo-bkk-via-hkg",
+      "market": "US",
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "originIata": "SFO",
+      "destinationIata": "BKK",
+      "thaiAirport": "BKK",
+      "direction": "to-thailand",
+      "flightNumber": "UA877 + UA820",
+      "routingType": "connecting",
+      "viaAirports": [
+        "HKG"
+      ],
+      "operatingDates": [
+        "2026-12-18"
+      ],
+      "dateBasis": "departure-airport-date",
+      "description": "Change flights in Hong Kong (HKG): United UA877 from San Francisco to Hong Kong, then United UA820 to Bangkok. This is a connecting itinerary, not a nonstop flight or a single-flight-number through service.",
+      "schedule": "United publishes daily service on this routing. Its route overview does not state a timetable validity period; check the departure and arrival times for your travel date in the booking system. The separately reviewed booking is for departure on December 18, 2026.",
+      "flightStatusUrl": "https://www.united.com/",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.united.com/en/us/fsr/choose-flights?f=SFO&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.united.com/en/us/deals/flights-to-bangkok",
+        "https://businesstravel.united.com/bangkok-hongkong-usa"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-58",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "verificationEvidence": [
+        "APW-UA-0006"
+      ],
+      "validityNote": "Daily service published on the United route overview checked October 19, 2026. No fixed validity period is stated there. The December 18, 2026 booking is a separate dated observation; its times and connection duration must not be reused for every day.",
+      "publishedFrequency": "Daily",
+      "frequencySource": "https://businesstravel.united.com/bangkok-hongkong-usa",
+      "scheduleEvidence": {
+        "sourceRecordId": "AP-WORLD-WEST-01-69",
+        "checkedAt": "2026-10-19",
+        "url": "https://businesstravel.united.com/bangkok-hongkong-usa",
+        "publishedFrequency": "Daily",
+        "timetableValidity": null,
+        "timesPolicy": "Undated promotional schedule differs from dated booking; do not merge static times into a guaranteed timetable."
+      },
+      "sourceRecordIds": [
+        "AP-WORLD-WEST-01-58",
+        "AP-WORLD-WEST-01-69"
+      ]
+    },
+    {
+      "id": "united-bkk-sfo-via-hkg",
+      "market": "US",
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "originIata": "BKK",
+      "destinationIata": "SFO",
+      "thaiAirport": "BKK",
+      "direction": "from-thailand",
+      "flightNumber": "UA821 + UA878",
+      "routingType": "connecting",
+      "viaAirports": [
+        "HKG"
+      ],
+      "operatingDates": [
+        "2026-12-18"
+      ],
+      "dateBasis": "departure-airport-date",
+      "description": "Change flights in Hong Kong (HKG): UA821 from Bangkok to Hong Kong, then UA878 to San Francisco. The flight number changes at Hong Kong; this is a connecting itinerary, not a nonstop flight or a single-flight-number through service.",
+      "schedule": "United publishes daily service on this routing. Its route overview does not state a timetable validity period; check the departure and arrival times for your travel date in the booking system. The separately reviewed booking is for departure on December 18, 2026.",
+      "marketingNotice": "United Airlines operates UA878 between Hong Kong and San Francisco. Check your ticket for any schedule or operating-carrier changes before traveling.",
+      "operatorVerification": {
+        "UA821": {
+          "status": "verified-existing",
+          "sourceRecordId": "AP-WORLD-WEST-01-55"
+        },
+        "UA878": {
+          "status": "verified",
+          "name": "United Airlines",
+          "sourceRecordId": "AP-WORLD-WEST-01-67",
+          "checkedAt": "2026-10-19",
+          "observedOperationDates": [
+            "2026-10-18",
+            "2026-10-19"
+          ],
+          "sources": [
+            "https://www.united.com/en/us/flightstatus/details/878/2026-10-18/HKG/SFO/UA",
+            "https://www.hongkongairport.com/en/flights/departures/passenger.page",
+            "https://www.flysfo.com/flight-status"
+          ],
+          "scope": "Current operating service confirmed through official United, HKIA and SFO flight information. The separate December 18 booking observation remains date-specific; future operating changes are not guaranteed.",
+          "priorBookingPanelObservation": "No explicit operator line was displayed in the December 18 booking panel. That limited observation is preserved; the operator is established by independent operational sources.",
+          "observations": [
+            {
+              "serviceDate": "2026-10-18",
+              "status": "completed-operation",
+              "source": "United flight status and SFO arrivals"
+            },
+            {
+              "serviceDate": "2026-10-19",
+              "status": "scheduled-service",
+              "source": "HKIA departures; status column not yet populated at observation"
+            }
+          ]
+        }
+      },
+      "flightStatusUrl": "https://www.united.com/",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.united.com/en/us/fsr/choose-flights?f=BKK&t=SFO&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.united.com/en/us/flightstatus/details/878/2026-10-18/HKG/SFO/UA",
+        "https://www.hongkongairport.com/en/flights/departures/passenger.page",
+        "https://www.flysfo.com/flight-status",
+        "https://businesstravel.united.com/bangkok-hongkong-usa"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-61",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "verificationEvidence": [
+        "APW-UA-0008",
+        "AP-WORLD-WEST-01-67"
+      ],
+      "validityNote": "Daily service published on the United route overview checked October 19, 2026. No fixed validity period is stated there. The December 18, 2026 booking is a separate dated observation; its times and connection duration must not be reused for every day.",
+      "operatingAirline": "United Airlines",
+      "sourceRecordIds": [
+        "AP-WORLD-WEST-01-61",
+        "AP-WORLD-WEST-01-67",
+        "AP-WORLD-WEST-01-69"
+      ],
+      "publishedFrequency": "Daily",
+      "frequencySource": "https://businesstravel.united.com/bangkok-hongkong-usa",
+      "scheduleEvidence": {
+        "sourceRecordId": "AP-WORLD-WEST-01-69",
+        "checkedAt": "2026-10-19",
+        "url": "https://businesstravel.united.com/bangkok-hongkong-usa",
+        "publishedFrequency": "Daily",
+        "timetableValidity": null,
+        "timesPolicy": "Undated promotional schedule differs from dated booking; do not merge static times into a guaranteed timetable."
+      }
+    }
+  ],
+  "airlines": [
+    {
+      "id": "united",
+      "name": "United Airlines",
+      "officialName": "United Airlines",
+      "code": "UA",
+      "checkedAt": "2026-10-19",
+      "note": "The Los Angeles–Bangkok itinerary listed here uses UA820 via Hong Kong, while the San Francisco departure connects from UA877 to UA820 in Hong Kong. Choose the check-in instructions for your US departure airport and confirm your travel date.",
+      "sources": [
+        "https://www.tatnews.org/2025/10/thailand-welcomes-united-airlines-inaugural-los-angeles-bangkok-flight/",
+        "https://www.flylax.com/lax-airline-list",
+        "https://www.flylax.com/sites/lax/files/2025-07/LAX%20Airline%20Location%20Map.pdf",
+        "https://www.flylax.com/lax-comments-and-contact-us/lost-and-found",
+        "https://www.united.com/ko/kr/fsr/choose-flights?f=LAX&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.united.com/ko/kr/fsr/choose-flights?tt=1&st=bestmatches&d=2026-12-18&clm=7&taxng=1&f=BKK&px=1&newHP=True&sc=7&tqp=R&t=LAX&idx=1&mm=0&cartId=undefined",
+        "https://www.united.com/ko/kr",
+        "https://www.united.com/en/us/deals/flights-to-bangkok",
+        "https://www.united.com/en/us/fsr/choose-flights?f=SFO&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.flysfo.com/passengers/flight-info/airlines-sfo/united-international-flights",
+        "https://www.flysfo.com/passengers/flight-info/check-in-security",
+        "https://www.united.com/en/us/fsr/choose-flights?f=BKK&t=SFO&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.united.com/en/us/flightstatus/details/878/2026-10-18/HKG/SFO/UA",
+        "https://www.hongkongairport.com/en/flights/departures/passenger.page",
+        "https://www.flysfo.com/flight-status",
+        "https://businesstravel.united.com/bangkok-hongkong-usa"
+      ],
+      "actions": [
+        {
+          "label": "United Airlines official booking and support",
+          "url": "https://www.united.com/"
+        }
+      ],
+      "sections": [
+        {
+          "title": "A stop in Hong Kong is not a nonstop flight",
+          "text": "United publishes daily Los Angeles–Bangkok service via Hong Kong: UA820 toward Bangkok and UA821 toward Los Angeles. Each journey keeps the same flight number through the stop in Hong Kong. It is not a nonstop flight. Check your ticket for any aircraft-change or transfer instructions.\nFrom San Francisco, take UA877 to Hong Kong and change to UA820 for Bangkok. For the return, take UA821 to Hong Kong and change to United-operated UA878 for San Francisco. United also publishes these connecting services as daily.\nFor departures on December 18, 2026, the booking search showed a 2-hour-35-minute connection toward Bangkok and a 1-hour-45-minute connection toward San Francisco. These are separate observations dated at each departure airport. Departure times, connection times and aircraft can change; use your own booking for the day you travel.",
+          "sources": [
+            "https://www.united.com/ko/kr/fsr/choose-flights?f=LAX&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "https://www.united.com/ko/kr/fsr/choose-flights?tt=1&st=bestmatches&d=2026-12-18&clm=7&taxng=1&f=BKK&px=1&newHP=True&sc=7&tqp=R&t=LAX&idx=1&mm=0&cartId=undefined",
+            "https://www.united.com/en/us/fsr/choose-flights?f=SFO&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "https://www.united.com/en/us/deals/flights-to-bangkok",
+            "https://www.united.com/en/us/fsr/choose-flights?f=BKK&t=SFO&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "https://businesstravel.united.com/bangkok-hongkong-usa"
+          ]
+        },
+        {
+          "title": "Lost property and checked baggage need different reports",
+          "text": "LAX Airport Police handles items lost in public airport areas. For a lost suitcase or an item left on an aircraft, the airport directs passengers to their airline. An airport lost-property inquiry is not an airline checked-baggage report.",
+          "sources": [
+            "https://www.flylax.com/lax-comments-and-contact-us/lost-and-found"
+          ],
+          "actions": [
+            {
+              "label": "LAX official lost-property guidance",
+              "url": "https://www.flylax.com/lax-comments-and-contact-us/lost-and-found"
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is United’s Los Angeles–Bangkok service nonstop?",
+          "a": "The UA820 and UA821 itineraries listed here stop in Hong Kong under the same flight number. Confirm any aircraft-change or transfer instructions on your ticket."
+        },
+        {
+          "q": "Where do United passengers check in at LAX?",
+          "a": "LAX’s airline location map, dated July 1, 2026, directs United passengers to Terminal 7 for check-in. Confirm the counter and check-in deadline for your flight with United."
+        },
+        {
+          "q": "Is the listed United phone a counter direct line?",
+          "a": "No. The airport directory lists +1 800-241-6522 as the airline contact. It is a general airline channel, not a verified direct telephone for the Terminal 7 check-in desk."
+        },
+        {
+          "q": "Where do I check in for the San Francisco–Bangkok connection?",
+          "a": "For this United itinerary via Hong Kong, use international check-in in the International Terminal, Level 3: Aisle 1 for Business and Premium passengers and Aisle 2 for Economy. United’s domestic Terminal 2 and Terminal 3 listings are separate. Confirm your flight’s counter and deadline before traveling."
+        },
+        {
+          "q": "Does the Bangkok-San Francisco return use the same flight number throughout?",
+          "a": "No. The listed December 18, 2026 return uses UA821 from Bangkok to Hong Kong and UA878 from Hong Kong to San Francisco. Change flights in Hong Kong and check the operating airline and connection details on your ticket."
+        },
+        {
+          "q": "Who operates UA878 from Hong Kong to San Francisco?",
+          "a": "UA878 is operated by United Airlines. For the listed Bangkok-San Francisco return, you change from UA821 to UA878 in Hong Kong. Check the operating airline on your ticket again if your booking changes."
+        }
+      ],
+      "title": "United Airlines: US–Thailand flights, check-in and contacts",
+      "sourceRecordId": "AP-WORLD-WEST-01-54-55-58-59-61-67-69",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "verificationEvidence": [
+        "APW-LAX-UA-0002",
+        "APW-UA-0001",
+        "APW-UA-0002",
+        "APW-UA-0006",
+        "APW-SFO-UA-0002",
+        "APW-SFO-UA-0004",
+        "APW-UA-0008",
+        "AP-WORLD-WEST-01-67",
+        "AP-WORLD-WEST-01-69"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "us-united-lax-checkin",
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "country": "US",
+      "airportIata": "LAX",
+      "airport": "Los Angeles International Airport",
+      "role": "check-in",
+      "type": "Check-in location",
+      "location": "Terminal 7 · United check-in",
+      "text": "Go to Terminal 7 for United check-in, as shown on LAX’s airline location map dated July 1, 2026. The terminal number is not a counter number. Check your booking and United’s instructions for the counter assignment and check-in deadline.",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.flylax.com/sites/lax/files/2025-07/LAX%20Airline%20Location%20Map.pdf",
+        "https://www.flylax.com/lax-airline-list"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-54",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "verificationEvidence": [
+        "APW-LAX-UA-0002"
+      ]
+    },
+    {
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "country": "US",
+      "airportIata": "SFO",
+      "airport": "San Francisco International Airport",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.flysfo.com/passengers/flight-info/airlines-sfo/united-international-flights",
+        "https://www.flysfo.com/passengers/flight-info/check-in-security"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-59",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "id": "us-united-sfo-checkin",
+      "role": "check-in",
+      "type": "International check-in location",
+      "location": "International Terminal G · Level 3 · Aisles 1–2",
+      "text": "For a United international departure from San Francisco, check in on the International Terminal’s Departures Level (Level 3). Business and Premium passengers use Aisle 1; Economy passengers use Aisle 2. Aisles are check-in rows, not boarding gate numbers. This is separate from United’s domestic Terminal 2 and Terminal 3 listings. Ask United for the counter opening time and your flight’s check-in deadline; security checkpoint hours are not check-in hours.",
+      "highlights": [
+        "Departures Level (Level 3)",
+        "Business and Premium passengers use Aisle 1",
+        "Economy passengers use Aisle 2"
+      ],
+      "verificationEvidence": [
+        "APW-SFO-UA-0001",
+        "APW-SFO-UA-0002",
+        "APW-SFO-UA-0003"
+      ]
+    },
+    {
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "country": "US",
+      "airportIata": "SFO",
+      "airport": "San Francisco International Airport",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.flysfo.com/passengers/flight-info/airlines-sfo/united-international-flights"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-59",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "id": "us-united-sfo-baggage",
+      "role": "baggage",
+      "type": "Baggage service contact",
+      "phone": "+1 800-221-6903",
+      "text": "SFO lists this number as United’s Baggage Service. It is a baggage support channel, not a verified direct phone for a check-in counter or a particular arrivals desk. If your checked bag is missing or damaged, contact the operating airline’s arrivals baggage team and keep the report number.",
+      "verificationEvidence": [
+        "APW-SFO-UA-0004"
+      ]
+    },
+    {
+      "id": "us-united-lax-remote",
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "country": "US",
+      "airportIata": "LAX",
+      "airport": "Los Angeles International Airport",
+      "role": "remote",
+      "type": "General airline contact · remote support",
+      "phone": "+1 800-241-6522",
+      "text": "The LAX airline directory lists this United contact. Use it for airline assistance; it is not a verified direct line to the airport check-in desk. For missing checked baggage, ask the operating airline’s arrivals baggage team for the appropriate report.",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.flylax.com/lax-airline-list",
+        "https://www.flylax.com/lax-comments-and-contact-us/lost-and-found"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-54",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "verificationEvidence": [
+        "APW-LAX-UA-0001",
+        "APW-LAX-UA-0004"
+      ]
+    },
+    {
+      "airlineId": "united",
+      "airline": "United Airlines",
+      "country": "US",
+      "airportIata": "SFO",
+      "airport": "San Francisco International Airport",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.flysfo.com/passengers/flight-info/airlines-sfo/united-international-flights"
+      ],
+      "sourceRecordId": "AP-WORLD-WEST-01-59",
+      "originThreadKey": "AP-WORLD-WEST-01",
+      "id": "us-united-sfo-general",
+      "role": "remote",
+      "type": "General airline contact · remote support",
+      "phone": "+1 800-538-2929",
+      "text": "The SFO United international entry labels this number General Telephone. It is an airline contact, not a dedicated check-in desk or departure gate phone. Use the baggage service number for baggage support.",
+      "verificationEvidence": [
+        "APW-SFO-UA-0004"
+      ]
+    }
+  ],
   "guides": [
     {
       "id": "caat-passenger-rights",
@@ -503,31 +954,220 @@
   ],
   "coverage": [
     {
-      "id": "us-scheduled-nonstop-review-20261013",
-      "title": "Current review of scheduled nonstop United States–Thailand service",
-      "text": "The current review did not identify a verified scheduled nonstop passenger flight between the United States and Thailand. United's Los Angeles–Bangkok service operates via Hong Kong, so it is not a nonstop route. This review does not cover charter flights, and an unlisted route should not be treated as a permanent absence.",
-      "checkedAt": "2026-10-13",
-      "originThreadKey": "AP-WORLD-WEST-01",
-      "sourceRecordId": "apw-us-absence",
-      "verificationEvidence": [
-        "APW-EV-039",
-        "APW-EV-040",
-        "APW-EV-041",
-        "APW-EV-042",
-        "APW-EV-043"
-      ],
+      "id": "us-route-review-20261019",
+      "title": "Selected US gateway itineraries and verified airport guidance",
+      "text": "This guide covers United’s Los Angeles–Bangkok service with a stop in Hong Kong, plus the listed San Francisco–Bangkok connections in both directions. United publishes daily service on these routings. The booking examples are for departures on December 18, 2026, measured at each departure airport. Check your own travel date before choosing a flight or counter.",
+      "checkedAt": "2026-10-19",
       "sources": [
-        "https://www.thaiairways.com/flights/en-au/sitemap/flights-to-countriesregions/page-1",
-        "https://united.mediaroom.com/news-releases?amp%3Bitem=124585&l=25&o=100",
         "https://www.tatnews.org/2025/10/thailand-welcomes-united-airlines-inaugural-los-angeles-bangkok-flight/",
-        "https://www.aa.com/en-us/where-we-fly",
-        "https://news.alaskaair.com/destinations/alaska-air-group-seattle-nonstop-routes-hawaiian-airlines-to-tokyo-and-seoul/?linkId=12057690"
+        "https://www.flylax.com/lax-airline-list",
+        "https://www.flylax.com/sites/lax/files/2025-07/LAX%20Airline%20Location%20Map.pdf",
+        "https://www.united.com/ko/kr/fsr/choose-flights?f=LAX&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.united.com/ko/kr/fsr/choose-flights?tt=1&st=bestmatches&d=2026-12-18&clm=7&taxng=1&f=BKK&px=1&newHP=True&sc=7&tqp=R&t=LAX&idx=1&mm=0&cartId=undefined",
+        "https://www.united.com/en/us/fsr/choose-flights?f=SFO&t=BKK&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://www.united.com/en/us/deals/flights-to-bangkok",
+        "https://www.flysfo.com/passengers/flight-info/airlines-sfo/united-international-flights",
+        "https://www.flysfo.com/passengers/flight-info/check-in-security",
+        "https://www.united.com/en/us/fsr/choose-flights?f=BKK&t=SFO&d=2026-12-18&tt=1&sc=7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "https://businesstravel.united.com/bangkok-hongkong-usa"
+      ]
+    },
+    {
+      "id": "us-official-market-inventory-20261019",
+      "title": "Official route inventory and its reporting period",
+      "text": "The US Department of Transportation’s all-carrier international market records for January–July 2026 show Los Angeles–Bangkok as the only US–Thailand scheduled passenger market carrying passengers under one flight number. This includes services with intermediate stops and does not mean nonstop. Cargo, non-scheduled passenger flights and a Honolulu record with zero passengers are excluded from the regular-flight list. These historical records do not guarantee which routes will operate on a future travel date.",
+      "checkedAt": "2026-10-19",
+      "sources": [
+        "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJD",
+        "https://www.bts.gov/topics/airlines-and-airports/number-1-alaskan-bush-mail-rates-and-mail-distribution"
       ]
     }
   ],
   "airportNames": {
     "BKK": "Suvarnabhumi Airport",
     "DMK": "Don Mueang Airport",
-    "HKT": "Phuket International Airport"
+    "HKT": "Phuket International Airport",
+    "LAX": "Los Angeles International Airport",
+    "SFO": "San Francisco International Airport",
+    "HKG": "Hong Kong International Airport"
+  },
+  "airportResources": {
+    "LAX": [
+      {
+        "label": "Official LAX airline location map · United check-in at Terminal 7",
+        "url": "https://www.flylax.com/sites/lax/files/2025-07/LAX%20Airline%20Location%20Map.pdf"
+      },
+      {
+        "label": "LAX airline directory",
+        "url": "https://www.flylax.com/lax-airline-list"
+      }
+    ],
+    "SFO": [
+      {
+        "label": "Official SFO map · United international check-in",
+        "url": "https://www.flysfo.com/maps?destination=1700"
+      },
+      {
+        "label": "SFO United international check-in and contacts",
+        "url": "https://www.flysfo.com/passengers/flight-info/airlines-sfo/united-international-flights"
+      }
+    ]
+  },
+  "airportPageCopy": {
+    "LAX": {
+      "title": "Los Angeles Airport (LAX): United check-in and contacts",
+      "description": "Find United check-in at LAX Terminal 7, open the official airport map and distinguish airline support from airport lost-property reporting.",
+      "intro": "For the United itinerary from Los Angeles to Bangkok via Hong Kong, head to Terminal 7 for check-in. Use the official location map below, then confirm your flight’s counter assignment and deadline with United."
+    },
+    "SFO": {
+      "title": "San Francisco Airport (SFO): United international check-in",
+      "description": "Find United international check-in at SFO: Level 3, Aisle 1 for Business and Premium passengers, Aisle 2 for Economy, plus separate general and baggage contacts.",
+      "intro": "For the United itinerary from San Francisco to Bangkok via Hong Kong, go to United international check-in in the International Terminal, Level 3. Choose Aisle 1 for Business and Premium check-in or Aisle 2 for Economy. The domestic Terminal 2 and Terminal 3 entries are different."
+    }
+  },
+  "airportCities": {
+    "LAX": "Los Angeles",
+    "SFO": "San Francisco",
+    "BKK": "Bangkok",
+    "HKG": "Hong Kong"
+  },
+  "inventoryAudit": {
+    "checkedAt": "2026-10-19",
+    "sourceRecordId": "AP-WORLD-WEST-01-68",
+    "dataset": "T-100 International Market (All Carriers)",
+    "source": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FJD",
+    "periodStart": "2026-01",
+    "periodEnd": "2026-07",
+    "geographyFilter": "All",
+    "rowCount": 42543,
+    "columns": 34,
+    "countryPairCount": 278,
+    "thailandRowCount": 23,
+    "originalZipSha256": "903ba00cbcffb2740e4eb83a45581ba307cd6e44c20a30d92b7fe196e5708596",
+    "originalCsvSha256": "7d17193e5ccbc09b47194f40ae28aaca5cf0be9543931648cf28c22653d75ad4",
+    "independentReview": "Original ZIP recovered; bytes and hashes matched; entire CSV parsed locally before selecting all Thailand rows.",
+    "scheduledPassengerMarkets": [
+      {
+        "carrier": "UA",
+        "origin": "LAX",
+        "destination": "BKK",
+        "passengers": 17361,
+        "months": 7
+      },
+      {
+        "carrier": "UA",
+        "origin": "BKK",
+        "destination": "LAX",
+        "passengers": 16476,
+        "months": 7
+      }
+    ],
+    "excludedObservations": [
+      {
+        "carrier": "UA",
+        "origin": "BKK",
+        "destination": "HNL",
+        "year": 2026,
+        "month": 6,
+        "class": "F",
+        "passengers": 0.0
+      },
+      {
+        "carrier": "3S",
+        "origin": "BKK",
+        "destination": "CVG",
+        "year": 2026,
+        "month": 4,
+        "class": "G",
+        "passengers": 0.0
+      },
+      {
+        "carrier": "3S",
+        "origin": "BKK",
+        "destination": "CVG",
+        "year": 2026,
+        "month": 7,
+        "class": "G",
+        "passengers": 0.0
+      },
+      {
+        "carrier": "3S",
+        "origin": "BKK",
+        "destination": "CVG",
+        "year": 2026,
+        "month": 5,
+        "class": "G",
+        "passengers": 0.0
+      },
+      {
+        "carrier": "3S",
+        "origin": "BKK",
+        "destination": "CVG",
+        "year": 2026,
+        "month": 6,
+        "class": "G",
+        "passengers": 0.0
+      },
+      {
+        "carrier": "15Q",
+        "origin": "MMU",
+        "destination": "DMK",
+        "year": 2026,
+        "month": 7,
+        "class": "L",
+        "passengers": 1.0
+      },
+      {
+        "carrier": "VJT",
+        "origin": "DMK",
+        "destination": "ANC",
+        "year": 2026,
+        "month": 7,
+        "class": "L",
+        "passengers": 6.0
+      },
+      {
+        "carrier": "VJT",
+        "origin": "DMK",
+        "destination": "TEB",
+        "year": 2026,
+        "month": 7,
+        "class": "L",
+        "passengers": 6.0
+      },
+      {
+        "carrier": "15Q",
+        "origin": "DMK",
+        "destination": "MMU",
+        "year": 2026,
+        "month": 7,
+        "class": "L",
+        "passengers": 9.0
+      }
+    ],
+    "territoryCodesReviewed": [
+      "GU",
+      "MP",
+      "AS",
+      "PR",
+      "VI"
+    ],
+    "territoryObservation": "No Thailand rows for these territories in the recovered reporting period. This is not a current-season route absence claim.",
+    "currentSeasonReview": {
+      "status": "official-source-crosscheck-complete",
+      "records": [
+        "AP-WORLD-WEST-01-67",
+        "AP-WORLD-WEST-01-69",
+        "AP-WORLD-WEST-01-70"
+      ],
+      "scope": "United current operational records and daily year-round route overview; THAI September 17 winter network announcement. No additional qualifying scheduled route was established in the reviewed official sources.",
+      "limitation": "The January-July all-carrier inventory is complete for its reporting period. No all-carrier October/winter full timetable was supplied by the reviewed CAAT reports or allocation pages; current-season nationwide absence is not asserted.",
+      "sources": [
+        "https://businesstravel.united.com/bangkok-hongkong-usa",
+        "https://www.thaiairways.com/en-th/content/news-and-announcements/thai-hosts-thai-talk/",
+        "https://www.caat.or.th/publication/193591/",
+        "https://www.caat.or.th/publications/flight-route-allocation/route-foreigner/"
+      ]
+    }
   }
 }

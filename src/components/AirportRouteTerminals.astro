@@ -1,4 +1,5 @@
 ---
+import {airportKoreanReviewEnabled} from '../lib/airport-review';
 const {route,locale='ko'}=Astro.props;
 const labels:Record<string,string>={ko:'터미널',ms:'Terminal','zh-cn':'航站楼','zh-tw':'航廈',ja:'ターミナル',ru:'Терминал',es:'Terminal','en-in':'Terminal','en-gb':'Terminal','en-us':'Terminal'};
 const namedTerminals:Record<string,string>={South:'남쪽 터미널',North:'북쪽 터미널'};
@@ -10,5 +11,5 @@ const values=[
 {values.map(([code,terminal])=>{
  const number=terminal.match(/^(?:T|제)?(\d+)(?:터미널)?$/)?.[1];
  const koTerminal=number?`제${number}터미널`:namedTerminals[terminal]||(/^[A-Z]$/.test(terminal)?`${terminal} 터미널`:terminal);
- return <p data-korean-review>{`${code} · ${labels[locale]} ${number||terminal}`}{locale!=='ko'&&` (${code} · ${koTerminal})`}</p>;
+ return <p data-korean-review>{`${code} · ${labels[locale]} ${number||terminal}`}{airportKoreanReviewEnabled&&locale!=='ko'&&` (${code} · ${koTerminal})`}</p>;
 })}

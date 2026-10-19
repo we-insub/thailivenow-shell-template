@@ -1,0 +1,2 @@
+import revisions from '../data/airport-guide-korean-revisions.json';
+export function editorialGuide(source:any){const revision=revisions[source.id];if(!revision)return source;return {...source,highlights:[...new Set([...(source.highlights||[]),...(revision.highlights||[])])],...(revision.title?{title:revision.title}:{}),...(revision.description?{description:revision.description}:{}),sections:source.sections?.map((s:any,i:number)=>({...s,text:revision.sections?.[String(i)]||s.text})),faq:source.faq?.map((f:any,i:number)=>({...f,a:revision.faq?.[String(i)]||f.a}))};}

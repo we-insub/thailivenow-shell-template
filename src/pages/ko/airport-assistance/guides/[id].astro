@@ -6,22 +6,35 @@ import AirportSources from '../../../../components/AirportSources.astro';
 import AirportSourceReferences from '../../../../components/AirportSourceReferences.astro';
 import AirportImportantText from '../../../../components/AirportImportantText.astro';
 import data from '../../../../../public/data/airport-assistance.json';
+import {editorialGuide} from '../../../../lib/airport-guide-editorial';
+import {incidents,relatedGuides,guideKind,movedGuides} from '../../../../lib/airport-assistance-editorial.mjs';
 import AirportAssistanceDetail from '../../../../components/AirportAssistanceDetail.astro';
 export function getStaticPaths(){return data.guides.map(guide=>({params:{id:guide.id},props:{guide}}));}
-const {guide:g}=Astro.props as {guide:any};
+const {guide:original}=Astro.props as {guide:any};
+const g=editorialGuide(original);
+const paragraphs=g.text.split('\n').filter(Boolean),intro=paragraphs[0];
+const incident=incidents.find(i=>i.id===g.id);
+const airportTopic=movedGuides.has(g.id);
+const nextGuides=airportTopic?[]:relatedGuides(data,g);
+const airportCode=({'late-arrival-suvarnabhumi':'bkk','late-arrival-don-mueang':'dmk','late-arrival-phuket':'hkt','late-arrival-chiang-mai':'cnx','daegu-bangkok-timetable':'bkk'})[g.id];
+const actionHeading=airportTopic?'교통·공항 공식 안내 열기':guideKind(g)==='insurance'?'보험사별 제출 서류와 청구 방법':guideKind(g)==='baggage'?'공식 접수처에서 신고·문의하기':'운항 조회·서류 신청하기';
+const numbered=['certificate','baggage','insurance','redress'].includes(guideKind(g));
 const staffCategories=g.id==='flight-delayed'?['delay-certificate','rebooking','refund-inquiry','meal-accommodation']:g.id==='flight-cancelled'?['cancellation-certificate','rebooking','refund-inquiry']:/certificate|confirmation|flight-evidence/.test(g.id)?['delay-certificate','cancellation-certificate']:/damaged-baggage|baggage-damage|baggage-claim|baggage-notice|baggage-report/.test(g.id)?['baggage-damage-pir']:[];
 const guideSources=[...new Set([...(g.sources||[]),...(g.sections?.flatMap((section:any)=>section.sources||[])||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
 ---
-<AirportAssistanceDetail editorial={g.id==='caat-passenger-rights'} title={g.title} description={g.description || "한국과 태국 사이를 여행하다 생긴 항공편·수하물 문제를 공항에서 접수하고 필요한 자료를 챙기는 방법입니다."}>
+<AirportAssistanceDetail intro={g.id==='caat-passenger-rights'?g.description:intro} editorial={g.id==='caat-passenger-rights'} title={g.title} description={g.description || "한국과 태국 사이를 여행하다 생긴 항공편·수하물 문제를 공항에서 접수하고 필요한 자료를 챙기는 방법입니다."}>
 {g.id==='caat-passenger-rights'?<CaatGuideContent guide={g}/>:<>
-<section>{g.text.split('\n').filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale={"ko"}/></p>)}</section>
-{g.thresholds?.length>0&&<section><h2>태국 출발 정기 국제선: 지연 시간별 지원</h2>{g.thresholds.map((row:any)=><article><h3>{row.label}</h3><p>{row.text}</p><small>CAB 제101호 {row.article} · 금전 보상 예외는 아래에서 확인하세요.</small></article>)}</section>}
-{g.sections?.filter((section:any)=>section.text).map((section:any)=><section><h2>{section.title}</h2>{section.text.split('\n').filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale={"ko"}/></p>)}{section.actions?.map((action:any)=><p><a href={action.url}>{action.label} →</a></p>)}<AirportSourceReferences sources={section.sources||[]} pageSources={guideSources} locale={"ko"}/></section>)}
-{g.actions?.length>0&&<section><h2>바로 확인하기</h2><div class="links">{g.actions.map((action:any)=><a href={action.url}>{action.label} →</a>)}</div></section>}
+{incident&&<section class="response-section first-action"><h2>공항에 계신다면 이렇게 시작해주세요</h2><p><strong>{incident.first}</strong></p><p>{incident.text}</p></section>}
+{paragraphs.length>1&&<section class="response-section">{paragraphs.slice(1).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale="ko"/></p>)}</section>}
 <AirportGuideAirlines locale="ko" guide={g}/>
+{g.thresholds?.length>0&&<section><h2>태국 출발 정기 국제선: 지연 시간별 지원</h2>{g.thresholds.map((row:any)=><article><h3>{row.label}</h3><p>{row.text}</p><small>CAB 제101호 {row.article} · 금전 보상 예외는 아래에서 확인하세요.</small></article>)}</section>}
+{g.sections?.filter((section:any)=>section.text).map((section:any,i:number)=><section class="response-section"><h2>{numbered&&`${i+1}. `}{section.title}</h2>{section.text.split('\n').filter(Boolean).map((text:string)=><p><AirportImportantText text={text} phrases={g.highlights||[]} locale={"ko"}/></p>)}{section.actions?.map((action:any)=><p><a href={action.url}>{action.label} →</a></p>)}<AirportSourceReferences sources={section.sources||[]} pageSources={guideSources} locale={"ko"}/></section>)}
+{g.actions?.length>0&&<section class="response-section"><h2>{actionHeading}</h2><div class="links">{g.actions.map((action:any)=><a href={action.url}>{action.label} →</a>)}</div></section>}
+
 {g.faq?.length>0&&<section><h2>자주 묻는 질문</h2>{g.faq.map((item:any)=><details><summary>{item.q}</summary><p><AirportImportantText text={item.a} phrases={g.highlights||[]} locale={"ko"}/></p></details>)}</section>}
 {g.faq?.length>0&&<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:g.faq.map((item:any)=>({'@type':'Question',name:item.q,acceptedAnswer:{'@type':'Answer',text:item.a}}))}).replaceAll('<','\\u003c')}/>}
 {staffCategories.length>0&&<AirportStaffPhrases categories={staffCategories}/> }
+<section class="response-section"><h2>{airportTopic?'공항 안에서 이용할 곳을 찾아보세요':'이어서 필요한 절차를 살펴보세요'}</h2>{airportTopic&&<><p><a href={airportCode?`/ko/airport-assistance/airports/${airportCode}/`:'/ko/airports/'}>공항별 시설·카운터·시내 이동 안내 →</a></p><p><a href="/ko/airport-assistance/">항공편 지연·결항이나 수하물 사고가 생겼다면 →</a></p></>}{nextGuides.map(item=><p><a href={`/ko/airport-assistance/guides/${item.id}/`}>{item.title} →</a></p>)}{g.airlineIds?.map(id=>{const a=data.airlines.find(item=>item.id===id);return a&&<p><a href={`/ko/airport-assistance/airlines/${id}/`}>{a.name} 접수처·확인서 안내 →</a></p>;})}</section>
 <AirportSources sources={guideSources} checkedAt={g.checkedAt}/>
 </>}
 </AirportAssistanceDetail>

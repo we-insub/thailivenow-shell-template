@@ -1,6 +1,6 @@
 ---
 import {airportAirportCopy} from '../lib/airport-airport-copy';
-import {airportReviewDictionary} from '../lib/airport-review';
+import {airportKoreanReviewEnabled,airportReviewDictionary} from '../lib/airport-review';
 const {locale,name,services=false,routes=false,status=false,part='faq'}=Astro.props;
 const copy=airportAirportCopy[locale];
 const native=(text:string)=>text.replaceAll('{name}',name);
@@ -12,6 +12,6 @@ const faq=copy?[
  ...(status?[{q:copy.statusQ,a:copy.statusA}]:[]),
 ]:[];
 ---
-{copy&&part==='intro'&&<p data-korean-review>{segments(copy.intro).map(item=><>{`${item.text}${item.ko?` (${item.ko})`:""} `}</>)}</p>}
-{copy&&part==='faq'&&faq.length>0&&<section data-korean-review><h2>{copy.faqTitle} ({copy.koreanReview[copy.faqTitle]})</h2>{faq.map(item=><details><summary>{item.q} ({copy.koreanReview[item.q]})</summary><p>{segments(item.a).map(sentence=><>{`${sentence.text}${sentence.ko?` (${sentence.ko})`:""} `}</>)}</p></details>)}</section>}
+{copy&&part==='intro'&&<p data-korean-review>{segments(copy.intro).map(item=><>{`${item.text}${airportKoreanReviewEnabled&&item.ko?` (${item.ko})`:""} `}</>)}</p>}
+{copy&&part==='faq'&&faq.length>0&&<section data-korean-review><h2>{copy.faqTitle}{airportKoreanReviewEnabled&&` (${copy.koreanReview[copy.faqTitle]})`}</h2>{faq.map(item=><details><summary>{item.q}{airportKoreanReviewEnabled&&` (${copy.koreanReview[item.q]})`}</summary><p>{segments(item.a).map(sentence=><>{`${sentence.text}${airportKoreanReviewEnabled&&sentence.ko?` (${sentence.ko})`:""} `}</>)}</p></details>)}</section>}
 {part==='faq'&&faq.length>0&&<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(item=>({'@type':'Question',name:native(item.q),acceptedAnswer:{'@type':'Answer',text:native(item.a)}}))}).replaceAll('<','\u003c')}/>}

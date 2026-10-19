@@ -1,0 +1,28 @@
+---
+import DetailHeader from './DetailHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import AirportPageMetadata from './AirportPageMetadata.astro';
+import AirportSources from './AirportSources.astro';
+import {airportMarketData} from '../lib/airport-markets';
+import {assistanceCopy,assistanceIssues} from '../lib/airport-assistance-layout';
+import {airportUI} from '../i18n/airport-ui';
+import '../styles/airport-assistance-layout.css';
+const {market}=Astro.props;
+const c=assistanceCopy(market.locale),data=airportMarketData(market.locale),t=airportUI[market.locale];
+const base=`/${market.locale}/airport-assistance/`;
+const title=`${c.title} · ${market.name}`;
+const sources=[...new Set<string>(data.guides.flatMap((g:any)=>[...(g.sources||[]),...(g.sections||[]).flatMap((s:any)=>s.sources||[])]))];
+const insurance=data.guides.find((g:any)=>g.id==='insurance-claim');
+const rights=data.guides.find((g:any)=>g.id==='caat-passenger-rights');
+const tools=[{title:c.airlines,text:c.airlinesText,url:base+'airlines/',highlight:true},{title:c.english,text:c.englishText,url:'/en/airport-assistance/',highlight:true,lang:'en'},{title:c.departures,text:c.departuresText,url:base+'departure-airports/'},{title:c.thaiAirports,text:c.thaiAirportsText,url:base+'airports/'}];
+---
+<!doctype html><html lang={market.lang}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="/favicon.ico?v=20261013"/><title>{title} | ThaiLiveNow</title><meta name="description" content={c.intro}/><AirportPageMetadata title={title} description={c.intro} locale={market.locale} lang={market.lang}/></head><body class="assistance-page"><DetailHeader locale={market.locale}/><main class="assistance-hub" translate="no">
+<header><p class="eyebrow">{t[0]} · {market.name}</p><h1>{c.heading}</h1><p class="intro">{c.intro}</p></header>
+<section data-hub-section="situations"><h2>{c.situations}</h2><div class="incident-grid">{c.incidents.map((item:any,i:number)=><article><span class="step-number">0{i+1}</span><h3>{item[0]}</h3><p><strong>{item[1]}</strong></p><p>{item[2]}</p><a href={`${base}airlines/?issue=${assistanceIssues[i]}`}>{item[3]} →</a></article>)}</div></section>
+<section class="evidence" data-hub-section="records"><h2>{c.recordsTitle}</h2><p>{c.recordsIntro}</p><ol>{c.records.map((r:any)=><li><strong>{r[0]}</strong><p>{r[1]}</p></li>)}</ol></section>
+<section data-hub-section="followup"><h2>{c.followup}</h2><div class="followup-grid">{rights&&<article><h3>{rights.title}</h3><p>{c.rightsText}</p><a href={`${base}guides/${rights.id}/`}>{c.open} →</a></article>}{insurance&&<article><h3>{insurance.title}</h3><p>{c.insuranceText}</p><a href={`${base}guides/${insurance.id}/`}>{c.open} →</a></article>}</div></section>
+<section class="help-tools" data-hub-section="tools"><h2>{c.tools}</h2><p>{c.toolsIntro}</p><div class="help-tools-grid">{tools.map(tool=><a class:list={['help-tool',tool.highlight&&'search-tool']} href={tool.url}><span class="tool-label">{tool.lang?'English':market.name}</span><h3>{tool.title}</h3><p>{tool.text}</p><span class="tool-action">{c.open}<span aria-hidden="true">→</span></span></a>)}</div><p class="route-entry"><a href={base+'flights/'}>{t[1]} · {c.flights} →</a></p></section>
+<section class="hub-faq" data-hub-section="faq"><h2>{c.faq}</h2><details><summary>{c.insuranceQuestion}</summary><p>{c.insuranceText}</p></details></section>
+<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:[{'@type':'Question',name:c.insuranceQuestion,acceptedAnswer:{'@type':'Answer',text:c.insuranceText}}]}).replaceAll('<','\u003c')}/>
+<AirportSources sources={sources} checkedAt={data.checkedAt} locale={market.locale}/>
+</main><SiteFooter locale={market.locale}/></body></html>

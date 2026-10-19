@@ -16,6 +16,7 @@ export function getStaticPaths(){return [...new Set(data.routes.flatMap(r=>[r.or
 const {code,name}=Astro.props;
 const guideNames:Record<string,string>={BKK:'수완나품공항',DMK:'돈므앙공항',HKT:'푸껫공항',CNX:'치앙마이공항'};
 const guideName=guideNames[code];
+const koreanDeparture=['ICN','PUS','TAE'].includes(code);
 const services=data.services.filter(s=>s.airportIata===code||s.airport?.includes(code)).map(airportServiceKoreanCopy);
 const routes=data.routes.filter(r=>r.originIata===code || r.destinationIata===code);
 const statusLinks=[...new Map(routes.filter((r:any)=>r.flightStatusUrl).map((r:any)=>[r.airlineId,{airline:r.airline,url:r.flightStatusUrl}])).values()] as any[];
@@ -29,7 +30,7 @@ const faq=[
 ];
 const pageSources=[...new Set([...services.flatMap((item:any)=>item.sources||[]),...routes.flatMap((item:any)=>item.sources||[])])].filter((url:any)=>typeof url==='string'&&/^https?:\/\//.test(url));
 ---
-{code==='BKK'?<BkkGuidePage/>:<AirportAssistanceDetail title={guideName?`${guideName} 이용 안내 · 시설과 항공편`:`${name} 항공사 카운터·연락처`} description={guideName?`${guideName}의 터미널·층별 지도에서 필요한 시설을 찾아보세요. 흡연구역과 출발·도착 안내, 한국↔태국 항공편의 카운터·연락처를 함께 정리했어요.`:`${name}에서 한국↔태국 항공편을 이용할 때 확인할 체크인·발권 창구와 문의처입니다.`}>
+{code==='BKK'?<BkkGuidePage/>:<AirportAssistanceDetail parentUrl={koreanDeparture?'/ko/airport-assistance/departure-airports/':undefined} parentLabel={koreanDeparture?'한국 출발공항 카운터·문의처':undefined} title={guideName?`${guideName} 이용 안내 · 시설과 항공편`:`${name} 항공사 카운터·연락처`} description={guideName?`${guideName}의 터미널·층별 지도에서 필요한 시설을 찾아보세요. 흡연구역과 출발·도착 안내, 한국↔태국 항공편의 카운터·연락처를 함께 정리했어요.`:`${name}에서 한국↔태국 항공편을 이용할 때 확인할 체크인·발권 창구와 문의처입니다.`}>
 <AirportFacilityIntro code={code} locale={"ko"}/>
 {code === 'BKK' && <AirportRailSummary showMap={true} />}
 {services.length>0&&<section><h2>항공사별 창구 찾기</h2><p>항공권의 실제 운항사와 편명을 확인한 뒤 아래 창구 정보를 살펴보세요. 표를 새로 발권하거나 변경할 때와 이미 체크인한 뒤 짐을 부칠 때의 창구는 다를 수 있어요.</p>{services.map(s=><article><h3>{s.airline} · {s.type}</h3>{s.location&&<p><AirportImportantText text={s.location} phrases={s.location.length<=70?[s.location]:[]} locale={"ko"}/></p>}{s.hours&&<p><AirportImportantText text={s.hours} phrases={s.hours.length<=70?[s.hours]:[]} locale={"ko"}/></p>}{s.text&&<p>{s.text}</p>}{s.phone&&<AirportPhone phone={s.phone} />}{s.email&&<AirportEmail email={s.email} />}<a href={`/ko/airport-assistance/airlines/${s.airlineId}/`}>항공사 상세 보기 →</a><p>자료 확인일: {s.checkedAt}</p><AirportSourceReferences sources={s.sources||[]} pageSources={pageSources} locale={"ko"}/></article>)}</section>}

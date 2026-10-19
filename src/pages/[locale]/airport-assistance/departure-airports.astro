@@ -1,0 +1,28 @@
+---
+import AirportMarketDetail from '../../../components/AirportMarketDetail.astro';
+import AirportSources from '../../../components/AirportSources.astro';
+import AirportPhone from '../../../components/AirportPhone.astro';
+import AirportEmail from '../../../components/AirportEmail.astro';
+import RuntimeDate from '../../../components/RuntimeDate.astro';
+import {airportMarkets,airportMarketData} from '../../../lib/airport-markets';
+import {assistanceCopy,departureAirportCodes,airportDisplayName,serviceCategory} from '../../../lib/airport-assistance-layout';
+import {airportUI} from '../../../i18n/airport-ui';
+import '../../../styles/airport-assistance-layout.css';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').map(m=>({params:{locale:m.locale},props:{market:m}}));}
+const {market}=Astro.props,c=assistanceCopy(market.locale),data=airportMarketData(market.locale),t=airportUI[market.locale],base=`/${market.locale}/airport-assistance/`;
+const airports=departureAirportCodes(data).map(code=>({code,name:airportDisplayName(data,code),services:data.services.filter((s:any)=>s.airportIata===code)}));
+const sources=[...new Set<string>(airports.flatMap(a=>a.services.flatMap((s:any)=>s.sources||[])))];
+---
+<AirportMarketDetail market={market} title={c.departures} description={c.departureIntro}>
+<div class="assistance-subpage" data-departure-directory><div class="filter-grid"><div><label for="departure-airport">{c.airportSelect}</label><select id="departure-airport"><option value="all">{c.all}</option>{airports.map(a=><option value={a.code}>{a.name} ({a.code})</option>)}</select></div><div><label for="departure-service">{c.serviceSelect}</label><select id="departure-service"><option value="all">{c.all}</option>{c.serviceGroups.map((label:string,i:number)=><option value={i}>{label}</option>)}</select></div></div>
+{airports.map(a=><section data-departure-airport={a.code} id={a.code.toLowerCase()}><h2>{a.name} <small>{a.code}</small></h2><p><a href={`${base}airports/${a.code.toLowerCase()}/`}>{t[15]} →</a></p>{c.serviceGroups.map((label:string,index:number)=>{const services=a.services.filter((s:any)=>serviceCategory(s)===index);return services.length>0&&<section data-service-kind={index}><h3>{label}</h3><div class="result-grid">{services.map((s:any)=><article id={s.id} data-departure-service><h4>{s.airline} · {s.type}</h4>{s.location&&<p><strong>{s.location}</strong></p>}{s.hours&&<p>{s.hours}</p>}{s.text&&<p>{s.text}</p>}{s.phone&&<AirportPhone phone={s.phone}/>} {s.email&&<AirportEmail email={s.email}/>}<p><a href={`${base}airlines/${s.airlineId}/`}>{c.open} →</a></p><p class="source-check">{t[14]}: <RuntimeDate kind="source" locale={market.locale} pagePath={`${base}departure-airports/#${s.id}`} fallback={s.checkedAt}/></p></article>)}</div></section>;})}</section>)}
+<p role="status" aria-live="polite" data-no-services hidden>{c.empty}</p>
+<section class="links"><a href={base+'airlines/'}>{c.airlines} →</a><a href={base+'airports/'}>{c.thaiAirports} →</a><a href={base+'flights/'}>{t[1]} →</a></section>
+<AirportSources sources={sources} checkedAt={data.checkedAt} locale={market.locale}/>
+</div></AirportMarketDetail>
+<script>
+const root=document.querySelector<HTMLElement>('[data-departure-directory]');
+if(root){const airport=root.querySelector<HTMLSelectElement>('#departure-airport')!,service=root.querySelector<HTMLSelectElement>('#departure-service')!;
+function filter(){let count=0;for(const section of root!.querySelectorAll<HTMLElement>('[data-departure-airport]')){let visible=0;for(const group of section.querySelectorAll<HTMLElement>('[data-service-kind]')){group.hidden=service.value!=='all'&&group.dataset.serviceKind!==service.value;if(!group.hidden)visible+=group.querySelectorAll('[data-departure-service]').length;}section.hidden=airport.value!=='all'&&section.dataset.departureAirport!==airport.value;if(service.value!=='all'&&!visible)section.hidden=true;if(!section.hidden)count+=visible;}root!.querySelector<HTMLElement>('[data-no-services]')!.hidden=count>0;}
+airport.addEventListener('change',filter);service.addEventListener('change',filter);}
+</script>

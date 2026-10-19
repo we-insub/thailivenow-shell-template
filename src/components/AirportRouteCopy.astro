@@ -1,6 +1,6 @@
 ---
 import {airportRouteCopy} from '../lib/airport-route-copy';
-import {airportReviewDictionary} from '../lib/airport-review';
+import {airportKoreanReviewEnabled,airportReviewDictionary} from '../lib/airport-review';
 const {locale,route={},part='faq',faqIndices=[0,1,2]}=Astro.props;
 const copy=airportRouteCopy[locale];
 const faq=copy?.faq.filter((_,index)=>faqIndices.includes(index))||[];
@@ -10,6 +10,6 @@ const destination=route.airportNames?.[route.destinationIata]||route.destination
 const replace=(text:string,korean=false)=>text.replaceAll('{origin}',korean?(dictionary[origin]||origin):origin).replaceAll('{destination}',korean?(dictionary[destination]||destination):destination);
 const sentences=(text:string)=>[...new Intl.Segmenter(locale,{granularity:'sentence'}).segment(text)].map(item=>item.segment.trim()).filter(Boolean).map(text=>({text:replace(text),ko:replace(copy.koreanReview[text]||'',true)}));
 ---
-{copy&&part==='intro'&&<p data-korean-review>{sentences(copy.intro).map(item=><>{`${item.text}${item.ko?` (${item.ko})`:""} `}</>)}</p>}
-{copy&&part==='faq'&&<section data-korean-review><h2>{copy.faqTitle} ({copy.koreanReview[copy.faqTitle]})</h2>{faq.map(item=><details><summary>{replace(item.q)} ({replace(copy.koreanReview[item.q]||'',true)})</summary><p>{sentences(item.a).map(sentence=><>{`${sentence.text}${sentence.ko?` (${sentence.ko})`:""} `}</>)}</p></details>)}</section>}
+{copy&&part==='intro'&&<p data-korean-review>{sentences(copy.intro).map(item=><>{`${item.text}${airportKoreanReviewEnabled&&item.ko?` (${item.ko})`:""} `}</>)}</p>}
+{copy&&part==='faq'&&<section data-korean-review><h2>{copy.faqTitle}{airportKoreanReviewEnabled&&` (${copy.koreanReview[copy.faqTitle]})`}</h2>{faq.map(item=><details><summary>{replace(item.q)}{airportKoreanReviewEnabled&&` (${replace(copy.koreanReview[item.q]||'',true)})`}</summary><p>{sentences(item.a).map(sentence=><>{`${sentence.text}${airportKoreanReviewEnabled&&sentence.ko?` (${sentence.ko})`:""} `}</>)}</p></details>)}</section>}
 {copy&&part==='faq'&&<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(item=>({'@type':'Question',name:replace(item.q),acceptedAnswer:{'@type':'Answer',text:replace(item.a)}}))}).replaceAll('<','\\u003c')}/>}

@@ -1,0 +1,41 @@
+---
+import AirportMarketDetail from '../../../../components/AirportMarketDetail.astro';
+import AirportSources from '../../../../components/AirportSources.astro';
+import {airportMarkets,airportMarketData} from '../../../../lib/airport-markets';
+import {assistanceCopy,assistanceIssues,issueForGuide} from '../../../../lib/airport-assistance-layout';
+import {airlineCatalogue} from '../../../../lib/airport-airline-catalogue';
+import {airportUI} from '../../../../i18n/airport-ui';
+import '../../../../styles/airport-assistance-layout.css';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').map(m=>({params:{locale:m.locale},props:{market:m}}));}
+const {market}=Astro.props,c=assistanceCopy(market.locale),data=airportMarketData(market.locale),t=airportUI[market.locale],base=`/${market.locale}/airport-assistance/`;
+const rows=data.airlines.map((a:any)=>{
+ const entry=airlineCatalogue.find(x=>x.id===a.id);
+ const codes=[...new Set([...(entry?.codes||[]),...(a.code?[a.code]:[])])];
+ return {...a,codes,search:[a.name,a.officialName,entry?.name,...codes].filter(Boolean).join(' ').toLowerCase(),guides:data.guides.filter((g:any)=>g.airlineIds?.includes(a.id))};
+});
+const sources=[...new Set<string>(data.airlines.flatMap((a:any)=>a.sources||[]))];
+---
+<AirportMarketDetail market={market} title={`${c.airlines} · ${market.name}`} description={c.airlinesText}>
+<div class="assistance-subpage" data-market-finder>
+{c.incidents.map((item:any,i:number)=><section data-issue-detail={assistanceIssues[i]} hidden><h2>{item[0]}</h2><p><strong>{item[1]}</strong></p><p>{item[2]}</p></section>)}
+<div class="filter-grid"><div><label for="market-airline-query">{c.search}</label><input id="market-airline-query" type="search" autocomplete="off" aria-controls="market-airline-results"/></div><div><label for="market-airline-issue">{c.situations}</label><select id="market-airline-issue"><option value="all">{c.all}</option>{c.incidents.map((x:any,i:number)=><option value={assistanceIssues[i]}>{x[0]}</option>)}</select></div></div>
+<section id="market-airline-results" class="result-grid">{rows.map((a:any)=><article data-market-airline data-search={a.search} data-codes={a.codes.join(',').toLowerCase()}><h2><a href={`${base}airlines/${a.id}/`}>{a.name}</a>{a.codes.length>0&&<small> · {a.codes.join(' / ')}</small>}</h2>{a.note&&<p>{a.note}</p>}<div class="links">{a.guides.map((g:any)=><a data-guide-kind={issueForGuide(g)} href={`${base}guides/${g.id}/`}>{g.title} →</a>)}<a href={`${base}airlines/${a.id}/`}>{c.open} →</a></div></article>)}</section>
+<p role="status" aria-live="polite" data-search-empty hidden>{c.empty}</p>
+{data.guides.length>0&&<section><details><summary>{c.guides}</summary><div class="links">{data.guides.map((g:any)=><a href={`${base}guides/${g.id}/`}>{g.title} →</a>)}</div></details></section>}
+<section><a href="/en/airport-assistance/">{c.english} · English →</a><p>{c.englishText}</p><div class="links"><a href={base+'departure-airports/'}>{c.departures} →</a><a href={base+'flights/'}>{t[1]} →</a></div></section>
+<AirportSources sources={sources} checkedAt={data.checkedAt} locale={market.locale}/>
+</div>
+</AirportMarketDetail>
+<script>
+import {matchesAirline,normalizeAirlineQuery} from '../../../../lib/airport-airline-search.mjs';
+const root=document.querySelector<HTMLElement>('[data-market-finder]');
+if(root){
+ const query=root.querySelector<HTMLInputElement>('#market-airline-query')!,issue=root.querySelector<HTMLSelectElement>('#market-airline-issue')!,cards=[...root.querySelectorAll<HTMLElement>('[data-market-airline]')];
+ const codes=cards.flatMap(card=>(card.dataset.codes||'').split(',').filter(Boolean));
+ function filter(){let count=0;const kind=['missing','damage'].includes(issue.value)?'baggage':issue.value==='all'?'all':'flight';
+ for(const card of cards){card.hidden=!matchesAirline(normalizeAirlineQuery(query.value),normalizeAirlineQuery(card.dataset.search||''),(card.dataset.codes||'').split(','),codes);if(!card.hidden)count++;for(const link of card.querySelectorAll<HTMLElement>('[data-guide-kind]'))link.hidden=kind!=='all'&&link.dataset.guideKind!==kind;}
+ root!.querySelector<HTMLElement>('[data-search-empty]')!.hidden=count>0;for(const block of root!.querySelectorAll<HTMLElement>('[data-issue-detail]'))block.hidden=block.dataset.issueDetail!==issue.value;
+ }
+ const params=new URLSearchParams(location.search);if([...issue.options].some(o=>o.value===params.get('issue')))issue.value=params.get('issue')!;if(params.get('airline'))query.value=params.get('airline')!;query.addEventListener('input',filter);issue.addEventListener('change',filter);filter();
+}
+</script>

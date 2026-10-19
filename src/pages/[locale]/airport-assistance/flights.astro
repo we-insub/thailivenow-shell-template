@@ -1,0 +1,29 @@
+---
+import AirportMarketDetail from '../../../components/AirportMarketDetail.astro';
+import AirportScheduleDates from '../../../components/AirportScheduleDates.astro';
+import AirportSources from '../../../components/AirportSources.astro';
+import {airportMarkets,airportMarketData,airportPairs} from '../../../lib/airport-markets';
+import {assistanceCopy,airportDisplayName} from '../../../lib/airport-assistance-layout';
+import {airportUI} from '../../../i18n/airport-ui';
+import '../../../styles/airport-assistance-layout.css';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').map(m=>({params:{locale:m.locale},props:{market:m}}));}
+const {market}=Astro.props,c=assistanceCopy(market.locale),data=airportMarketData(market.locale),t=airportUI[market.locale],base=`/${market.locale}/airport-assistance/`,routes=data.routes;
+const sources=[...new Set<string>([...routes.flatMap((r:any)=>r.sources||[]),...(data.coverage||[]).flatMap((x:any)=>x.sources||[])])];
+---
+<AirportMarketDetail market={market} title={`${t[1]} · ${c.flights}`} description={c.flightsIntro}>
+<div class="assistance-subpage">
+<div class="filter-grid"><div><label for="search">{t[2]}</label><input id="search" type="search"/></div><div><label for="direction">{t[13]}</label><select id="direction"><option value="">{c.all}</option><option value="to-thailand">{t[3]}</option><option value="from-thailand">{t[4]}</option></select></div><div><label for="thai-airport">{t[23]}</label><select id="thai-airport"><option value="">{c.all}</option>{[...new Set(routes.map((r:any)=>r.thaiAirport))].map(code=><option value={code}>{airportDisplayName(data,String(code))} ({code})</option>)}</select></div><div><label for="other-airport">{t[24]}</label><select id="other-airport"><option value="">{c.all}</option>{[...new Set(routes.map((r:any)=>r.originIata===r.thaiAirport?r.destinationIata:r.originIata))].map(code=><option value={code}>{airportDisplayName(data,String(code))} ({code})</option>)}</select></div></div>
+<section class="result-grid">{routes.map((r:any)=><article data-route data-flight-number={r.flightNumber||''} data-direction={r.direction} data-thai-airport={r.thaiAirport} data-other-airport={r.originIata===r.thaiAirport?r.destinationIata:r.originIata} data-search={`${r.originIata} ${r.destinationIata} ${r.flightNumber||''} ${r.airline} ${r.origin||''} ${r.destination||''}`.toLowerCase()}><h2><a href={`${base}routes/${r.id}/`}>{r.originIata} → {r.destinationIata}</a></h2><p><a href={`${base}airlines/${r.airlineId}/`}>{r.airline}</a>{r.flightNumber&&` · ${r.flightNumber}`}</p>{r.description&&<p>{r.description}</p>}{r.observedStatusText&&<p>{r.observedStatusText}</p>}{r.observedChange&&<p>{r.observedChange}</p>}<AirportScheduleDates route={r} locale={market.locale}/>{r.durationMinutes&&<p>{r.durationType==='airborne'?t[17]:t[16]}: {Math.floor(r.durationMinutes/60)} h {r.durationMinutes%60} min</p>}<p>{t[14]}: {r.checkedAt}</p><a href={`${base}routes/${r.id}/`}>{c.open} →</a></article>)}</section>
+<p id="no-results" role="status" aria-live="polite" hidden>{t[18]}</p>
+{data.coverage?.length>0&&<section><details><summary>{c.coverage}</summary>{data.coverage.map((item:any)=><section><h3>{item.title}</h3>{item.text&&<p>{item.text}</p>}{item.checkedAt&&<p>{t[14]}: {item.checkedAt}</p>}</section>)}</details></section>}
+<section><h2>{t[13]}</h2><div class="links">{airportPairs(data).map(pair=><a href={`${base}pairs/${pair.id}/`}>{pair.other} ↔ {pair.thai} →</a>)}</div></section>
+<section class="links"><a href={base+'airlines/'}>{c.airlines} →</a><a href={base+'departure-airports/'}>{c.departures} →</a><a href={base+'airports/'}>{c.thaiAirports} →</a></section>
+<AirportSources sources={sources} checkedAt={data.checkedAt} locale={market.locale}/>
+</div></AirportMarketDetail>
+<script>
+import {flightNumberKey} from '../../../lib/airport-flight-search';
+const search=document.querySelector<HTMLInputElement>('#search')!,direction=document.querySelector<HTMLSelectElement>('#direction')!;
+const thaiAirport=document.querySelector<HTMLSelectElement>('#thai-airport');
+const otherAirport=document.querySelector<HTMLSelectElement>('#other-airport');
+function filter(){const q=search.value.trim().toLowerCase();let count=0;document.querySelectorAll<HTMLElement>('[data-route]').forEach(r=>{const text=r.dataset.search||'';r.hidden=!(text.includes(q)||text.replace(/\s+/g,'').includes(q.replace(/\s+/g,'')) || (flightNumberKey(q)!==null && flightNumberKey(q)===flightNumberKey(r.dataset.flightNumber||'')))||!!(direction.value&&r.dataset.direction!==direction.value)||!!(thaiAirport?.value&&r.dataset.thaiAirport!==thaiAirport.value)||!!(otherAirport?.value&&r.dataset.otherAirport!==otherAirport.value);if(!r.hidden)count++;});document.querySelector<HTMLElement>('#no-results')!.hidden=count>0||!(q||direction.value||thaiAirport?.value||otherAirport?.value);}thaiAirport?.addEventListener('change',()=>{if(otherAirport){otherAirport.value='';const rows=[...document.querySelectorAll<HTMLElement>('[data-route]')];for(const option of otherAirport.options){option.disabled=!!option.value&&!!thaiAirport.value&&!rows.some(row=>row.dataset.thaiAirport===thaiAirport.value&&row.dataset.otherAirport===option.value);}}filter();});otherAirport?.addEventListener('change',filter);search.addEventListener('input',filter);direction.addEventListener('change',filter);
+</script>

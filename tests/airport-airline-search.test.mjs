@@ -1,0 +1,5 @@
+import test from'node:test';import assert from'node:assert/strict';import {normalizeAirlineQuery,matchesAirline}from'../src/lib/airport-airline-search.mjs';
+const codes=['ai','ak','oz','ke','7c'];
+test('IATA code AI does not match every airline whose name contains air',()=>{assert.equal(matchesAirline('AI','airindiaai',['ai'],codes),true);assert.equal(matchesAirline('AI','airasiaberhadak',['ak'],codes),false)});
+test('a full flight number uses its own two-character code',()=>{assert.equal(matchesAirline('OZ 742','asianaairlinesoz',['oz'],codes),true);assert.equal(matchesAirline('7C2504','jejuair7c',['7c'],codes),true);assert.equal(matchesAirline('ZZ123','asianaairlinesoz',['oz'],codes),false)});
+test('English punctuation, fullwidth letters and Korean names remain searchable',()=>{assert.equal(normalizeAirlineQuery('Ｔ’ｗａｙ Air'),'twayair');assert.equal(matchesAirline('아시아나','아시아나항공asianaairlinesoz',['oz'],codes),true);assert.equal(matchesAirline('Asiana Airlines','아시아나항공asianaairlinesoz',['oz'],codes),true)});

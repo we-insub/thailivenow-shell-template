@@ -1,0 +1,16 @@
+---
+import AirportAssistanceDetail from '../../../../components/AirportAssistanceDetail.astro';
+import AirportAirlineFinder from '../../../../components/AirportAirlineFinder.astro';
+import AirportSources from '../../../../components/AirportSources.astro';
+import RuntimeDate from '../../../../components/RuntimeDate.astro';
+import data from '../../../../../public/data/airport-assistance.json';
+const sources=[...new Set(data.airlines.flatMap(a=>[...(a.sources||[]),...(a.sections||[]).flatMap(s=>s.sources||[])]))];
+---
+<AirportAssistanceDetail title="항공사별 지연·결항 확인서와 수하물 신고 찾기" description="항공사 이름·영문명·코드·편명으로 한국어 지연·결항 확인서와 수하물 신고 방법을 찾아보세요. 아시아나 OZ, 대한항공 KE처럼 실제 운항사를 확인하고 필요한 업무를 선택하시면 돼요.">
+<AirportAirlineFinder showEnglishLink={false}/>
+<a class="english-search-card" href="/en/airport-assistance/"><span class="badge">공통 영문 안내 · <span lang="en">English</span></span><h2>다른 항공사의 안내가 필요하신가요?</h2><p>영문 항공사 이름이나 코드로 검색하고, 해당 항공사의 영문 안내와 공식 문의 경로를 찾아보세요.</p><strong>공통 영문 항공사 검색 열기 →</strong></a>
+<section class="response-section"><h2>공항에서 방문할 창구를 찾으시나요?</h2><p>이 페이지에서는 사고 신고·확인서 발급 방법을 찾아볼 수 있어요. 직접 방문할 체크인·발권 창구나 공항 사무실이 필요하다면 이용할 공항의 안내를 선택해주세요.</p><p><a href="/ko/airport-assistance/departure-airports/">한국 출발공항 카운터·문의처 →</a></p><p><a href="/ko/airports/">태국 공항별 시설·카운터 안내 →</a></p><p><a href="/ko/airport-assistance/">지연·결항·수하물 대응 순서로 돌아가기 →</a></p></section>
+<AirportSources sources={sources} checkedAt={data.checkedAt}/><p class="modified">최근 수정일: <RuntimeDate kind="modified" locale="ko"/></p>
+</AirportAssistanceDetail>
+<style>.english-search-card{display:block;padding:28px;border:2px solid #267e89;border-radius:14px;text-decoration:none;background:#f2f8f8;margin:44px 0}.english-search-card .badge{font-size:13px;letter-spacing:.2px}.english-search-card h2{margin:12px 0}.english-search-card p{font-weight:400}.english-search-card strong{display:block;margin-top:20px}.english-search-card:hover{background:#eaf4f4}.english-search-card:focus-visible{outline:3px solid #267e89;outline-offset:4px}.modified{font-size:13px}@media(max-width:600px){.english-search-card{padding:22px}}
+</style>

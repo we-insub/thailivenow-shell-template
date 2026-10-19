@@ -1,0 +1,2 @@
+export const normalizeAirlineQuery=value=>String(value).normalize('NFKC').toLowerCase().replace(/[\s’'().,·_-]+/g,'');
+export function matchesAirline(query,search,codes,knownCodes){const value=normalizeAirlineQuery(query);if(!value)return true;const flight=value.match(/^([a-z0-9]{2})\d+$/);if(flight)return codes.includes(flight[1]);if(knownCodes.includes(value))return codes.includes(value);return search.includes(value);}

@@ -1,0 +1,6 @@
+---
+import AirportAssistanceHub from '../../../components/AirportAssistanceHub.astro';
+import {airportMarkets} from '../../../lib/airport-markets';
+const market=airportMarkets.find(m=>m.locale==='en-us');
+---
+<AirportAssistanceHub market={market}/>

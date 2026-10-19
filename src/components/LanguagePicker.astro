@@ -3,7 +3,7 @@ import { locales, localePath, type Locale } from '../i18n/locales';
 import { getUI } from '../i18n/ui';
 import {hasLocalizedStage} from '../lib/localized-content';
 const { locale = 'en', homeOnly = false, switchPath } = Astro.props as { locale?: Locale; homeOnly?: boolean; switchPath?:string };
-const destination = (code:Locale) => localePath(homeOnly || (switchPath === '/airport-assistance/' && code==='en') ? '/' : switchPath || Astro.url.pathname,code);
+const destination = (code:Locale) => localePath(homeOnly ? '/' : switchPath || Astro.url.pathname,code);
 const active = locales.find(item => item.code === locale)!;
 const ui = getUI(locale);
 const topic=Astro.url.pathname.split('/')[2];

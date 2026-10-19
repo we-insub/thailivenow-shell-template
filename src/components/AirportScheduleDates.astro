@@ -1,4 +1,5 @@
 ---
+import {airportKoreanReviewEnabled} from '../lib/airport-review';
 import {airportUI} from '../i18n/airport-ui';
 const {route,locale='ko',compact=false}=Astro.props;
 const t=airportUI[locale];
@@ -9,6 +10,6 @@ const departureDate=route.departureDate||route.departureDateLocal;
 const arrivalDate=route.arrivalDate||route.arrivalDateLocal;
 const displayDates=compact&&dates.length>3?[dates[0],dates[1],'…',dates[dates.length-1]]:dates;
 ---
-{arrivalOnly&&arrivalDate?<p class="schedule-dates" data-korean-review>{arrivalLabels[locale]}{locale!=='ko'&&' (확인한 도착일)'}: {arrivalDate}</p>:dates.length>0?<p class="schedule-dates">{t[21]}: {displayDates.join(' · ')}</p>:route.validFrom&&<p class="schedule-dates">{t[22]}: {route.validTo?(route.validFrom===route.validTo?route.validFrom:`${route.validFrom} – ${route.validTo}`):`${route.validFrom} →`}</p>}
-{!arrivalOnly&&departureDate&&arrivalDate&&arrivalDate!==departureDate&&<p class="schedule-dates" data-korean-review>{arrivalLabels[locale]}{locale!=='ko'&&' (확인한 도착일)'}: {arrivalDate}</p>}
+{arrivalOnly&&arrivalDate?<p class="schedule-dates" data-korean-review>{arrivalLabels[locale]}{airportKoreanReviewEnabled&&locale!=='ko'&&' (확인한 도착일)'}: {arrivalDate}</p>:dates.length>0?<p class="schedule-dates">{t[21]}: {displayDates.join(' · ')}</p>:route.validFrom&&<p class="schedule-dates">{t[22]}: {route.validTo?(route.validFrom===route.validTo?route.validFrom:`${route.validFrom} – ${route.validTo}`):`${route.validFrom} →`}</p>}
+{!arrivalOnly&&departureDate&&arrivalDate&&arrivalDate!==departureDate&&<p class="schedule-dates" data-korean-review>{arrivalLabels[locale]}{airportKoreanReviewEnabled&&locale!=='ko'&&' (확인한 도착일)'}: {arrivalDate}</p>}
 <style>.schedule-dates{overflow-wrap:anywhere}</style>

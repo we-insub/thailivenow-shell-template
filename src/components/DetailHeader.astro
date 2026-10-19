@@ -21,7 +21,7 @@ const koreanItems = [
  ['해변','해변','pin','/ko/beaches/'],['할인쿠폰','쿠폰','coupon','/ko/coupons/'],
  ['항공편 지연·결항','지연·결항','plane','/ko/airport-assistance/']
 ];
-const items=locale==='ko'?koreanItems:[...['map','destinations','food','transport','cameras','coupons','flights'].map((id,i)=>[ui[id],ui[id],['compass','pin','food','train','grid','coupon','plane'][i],id==='map'?`/${locale}/`:id==='cameras'?`/${locale}/directory/`:id==='flights'?`/${airportUI[locale]?.[0]?locale:'ko'}/airport-assistance/`:`/${locale}/${id}/`])];
+const items=locale==='ko'?koreanItems:[...['map','destinations','food','transport','cameras','coupons','flights'].map((id,i)=>[ui[id],ui[id],['compass','pin','food','train','grid','coupon','plane'][i],id==='map'?`/${locale}/`:id==='cameras'?`/${locale}/directory/`:id==='flights'?`/${locale==='en'||airportUI[locale]?.[0]?locale:'ko'}/airport-assistance/`:`/${locale}/${id}/`])];
 if(locale!=='ko')items.splice(5,0,[design.saved,design.saved,'heart',`/${locale}/saved/`]);
 if(locale!=='ko'&&hasLocalizedStage(locale,'rooftops')){const label=translateLocaleText('루프탑',localizedUI(locale));items.splice(4,0,[label,label,'pin',`/${locale}/rooftops/`]);}
 const localizedPage=isLocalizedPage(Astro.url.pathname);

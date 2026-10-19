@@ -9,3 +9,7 @@ test('the five BKK topics keep the airport navigation home, including the retain
 test('airport navigation does not capture disruptions, unrelated transport, or other markets',()=>{
  for(const path of ['/ko/airport-assistance/','/ko/airport-assistance/guides/flight-delayed/','/ko/airport-assistance/guides/flight-cancelled/','/ko/transport/guides/air/','/ja/airport-assistance/airports/bkk/','/ko/airport-assistance/airports/icn/'])assert.equal(isKoreanAirportGuide(path),false,path);
 });
+
+test('retained airport guide URLs keep their airport navigation instead of disruptions',()=>{
+ for(const id of ['late-arrival-suvarnabhumi','late-arrival-don-mueang','late-arrival-phuket','late-arrival-chiang-mai','find-airline-counter','daegu-bangkok-timetable'])assert.equal(isKoreanAirportGuide(`/ko/airport-assistance/guides/${id}/`),true);
+});

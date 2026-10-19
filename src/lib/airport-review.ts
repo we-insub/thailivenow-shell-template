@@ -1,7 +1,7 @@
 import {counterSeasonalNotice} from '../i18n/airport-counter-review';
 import {airportUI} from '../i18n/airport-ui';
 // Temporary local review: set false, then remove this module/component after approval.
-export const airportKoreanReviewEnabled = true;
+export const airportKoreanReviewEnabled = false;
 const files=import.meta.glob('../data/airport-review-*.json',{eager:true,import:'default'}) as Record<string,Record<string,string>>;
 const labels=['공항 지연·결항','국가와 태국 사이의 항공편','편명·공항 검색','태국으로 출발','태국에서 출발','공항 카운터','항공사별 안내','수하물 파손','지연·결항 확인서','보험 청구','공식 안내','뒤로','항공사','노선','자료 확인일','공항별 안내','예정 운항시간','실제 이륙부터 착륙까지의 시간','등록된 목록에 일치하는 검색 결과가 없습니다.'];
 const countries:Record<string,string>={'Malaysia':'말레이시아','中国大陆':'중국 본토','India':'인도','Россия':'러시아','日本':'일본','United Kingdom':'영국','United States':'미국','España':'스페인','台灣':'대만'};
