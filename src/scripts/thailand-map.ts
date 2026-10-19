@@ -1,3 +1,4 @@
+import {cameraMatchesMapCategory, venueMatchesMapCategory, mapPointBounds} from '../lib/home-map-filters.mjs';
 import {cameraCardPreview} from '../lib/camera-video-preview.mjs';
 import originalEditorial from '../data/camera-editorial-ko.json';
 import {cameraViewingCopy} from '../lib/camera-viewing-copy.mjs';
@@ -62,12 +63,22 @@ if (container) {
     cameraToggle.setAttribute('aria-pressed', String(visible));
     cameraLayers.forEach(layer => { if (map?.getLayer(layer)) map.setLayoutProperty(layer, 'visibility', visible ? 'visible' : 'none'); });
   }
-  const tourismPins:Marker[]=[];
+  const tourismPins:{venue:typeof venues[number];marker:Marker}[]=[];
+  function matchingVenues(){
+    const province=provinces.find(p=>String(p.id)===select.value);
+    const city=travelAreas.find(city=>city.name===selectedArea);
+    const query=search.value.trim().toLocaleLowerCase();
+    return venues.filter(venue=>venueMatchesMapCategory(venue,category)&&(!province||travelAreas.find(city=>city.id===venue.city)?.province===province.name)&&(!city||venue.city===city.id)&&`${venue.name} ${venue.english} ${venue.building}`.toLocaleLowerCase().includes(query));
+  }
+  function refreshVenuePins(){
+    const ids=new Set(matchingVenues().map(venue=>venue.id));
+    for(const {venue,marker} of tourismPins){if(ids.has(venue.id)&&map)marker.addTo(map);else {marker.getPopup()?.remove();marker.remove();}}
+  }
   function mode(){
     const tourism=category==='tourism';if(!tourism)document.querySelectorAll<HTMLElement>('[data-tourism-city]').forEach(card=>card.hidden=false);document.querySelector('.thailand-explorer')!.classList.toggle('tourism-mode',tourism);document.getElementById('home-tourism-panel')!.hidden=!tourism;document.querySelector<HTMLElement>('.camera-map-results')!.hidden=tourism;
     setCameraVisibility(!tourism);
-    for(const layer of ['travel-area-fill','travel-area-outline','travel-dots','travel-labels','province-fill','province-lines','province-selected'])if(map?.getLayer(layer))map.setLayoutProperty(layer,'visibility',tourism?'visible':'none');
-    for(const marker of tourismPins){if(tourism&&map)marker.addTo(map);else marker.remove();}
+    for(const layer of ['travel-area-fill','travel-area-outline','travel-dots','travel-labels','province-fill','province-lines','province-selected'])if(map?.getLayer(layer))map.setLayoutProperty(layer,'visibility','none');
+    refreshVenuePins();
   }
   cameraToggle.addEventListener('click', () => setCameraVisibility(!camerasVisible));
   const sourceLink = document.querySelector<HTMLAnchorElement>('#selected-source')!;
@@ -94,30 +105,31 @@ if (container) {
   function matchingCameras() {
     const query = search.value.trim().toLocaleLowerCase();
     const province = provinces.find(p => String(p.id) === select.value);
-    return cameras.filter(camera => (!province || camera.province === province.name) && (!selectedArea || camera.area === selectedArea) && (category === 'all' || category==='tourism' || camera.category === category) && `${camera.title} ${cameraTitle(camera,locale)} ${camera.area} ${placeName(camera.area,locale)} ${camera.province} ${camera.sourceName}`.toLocaleLowerCase().includes(query));
+    return cameras.filter(camera => (!province || camera.province === province.name) && (!selectedArea || camera.area === selectedArea) && cameraMatchesMapCategory(camera,category) && `${camera.title} ${cameraTitle(camera,locale)} ${camera.area} ${placeName(camera.area,locale)} ${camera.province} ${camera.sourceName}`.toLocaleLowerCase().includes(query));
   }
   function cameraData() {
     return { type: 'FeatureCollection' as const, features: matchingCameras().filter(camera => camera.center !== null).map(camera => ({ type: 'Feature' as const, geometry: { type: 'Point' as const, coordinates: camera.center }, properties: { cameraId: camera.id, title: camera.title, verified:camera.playback==='verified' } })) };
   }
   let homeMapReady=false;
-  let resultsScope:'view'|'all'='view';
+  let resultsScope:'view'|'all'='all';
   let resultsLimit=12;
   let selectedResult='';
   function cameraInView(camera:typeof cameras[number]){if(!map||!homeMapReady)return true;if(!camera.center)return false;return map.getBounds().contains(camera.center);}
   function updateResults(){
     const matching=matchingCameras();const visible=resultsScope==='view'?matching.filter(cameraInView):matching;
-    const ids=new Set(visible.slice(0,resultsLimit).map(c=>c.id));
+    const ids=new Set((resultsScope==='all'?visible:visible.slice(0,resultsLimit)).map(c=>c.id));
     document.querySelectorAll<HTMLElement>('[data-map-result]').forEach(card=>{card.hidden=!ids.has(card.dataset.mapResult!);const selected=card.dataset.mapResult===selectedResult;card.classList.toggle('is-selected',selected);card.querySelector<HTMLElement>('[data-result-selected]')!.hidden=!selected;});
     const count=document.getElementById('map-results-count');if(count)count.textContent=(editorialEnabled?(resultsScope==='view'&&homeMapReady?'현재 지도 범위':'선택 조건 전체'):(resultsScope==='view'&&homeMapReady?'Current map area':'All matching cameras'))+': '+visible.length;
     const inView=document.getElementById('map-in-view');if(inView)inView.textContent=String(matching.filter(cameraInView).length);
     document.getElementById('map-results-empty')!.hidden=visible.length>0;
-    document.getElementById('map-results-more')!.hidden=visible.length<=resultsLimit;
+    document.getElementById('map-results-more')!.hidden=resultsScope==='all'||visible.length<=resultsLimit;
     document.querySelectorAll<HTMLButtonElement>('[data-result-scope]').forEach(btn=>{btn.disabled=btn.dataset.resultScope==='view'&&!homeMapReady;btn.setAttribute('aria-pressed',String(btn.dataset.resultScope===(homeMapReady?resultsScope:'all')));});
   }
   document.querySelectorAll<HTMLButtonElement>('[data-result-scope]').forEach(btn=>btn.addEventListener('click',()=>{resultsScope=btn.dataset.resultScope as 'view'|'all';resultsLimit=12;updateResults();}));
   document.getElementById('map-results-more')?.addEventListener('click',()=>{resultsLimit+=12;updateResults();});
   function filterCameras() {
     resultsLimit=12;
+    refreshVenuePins();
     updateResults();
 
     const matches = matchingCameras();
@@ -185,6 +197,15 @@ if (container) {
     if (map?.getLayer('camera-selected')) map.setFilter('camera-selected', ['==', ['get', 'cameraId'], id]);
     if (camera.center) map?.flyTo({ center: camera.center, zoom: 12, duration, padding: { top: 70, bottom: 30, left: 0, right: 0 } });
   }
+  function fitCategoryPins(animationDuration = duration) {
+    const points: [number, number][] = [
+      ...matchingCameras().flatMap(camera => camera.center ? [camera.center] : []),
+      ...matchingVenues().map(venue => [venue.lng, venue.lat] as [number, number]),
+    ];
+    if (!map) return;
+    const bounds=mapPointBounds(points);
+    map.fitBounds(bounds || thailandBounds, {padding: {top: 100, bottom: 65, left: 55, right: 55}, maxZoom: 11, duration: animationDuration});
+  }
   function reset() {
     const resetUrl=new URL(location.href);resetUrl.searchParams.delete('city');history.replaceState(null,'',resetUrl);
 
@@ -193,6 +214,7 @@ if (container) {
     search.value = '';
     selectedArea = '';
     category = 'all';
+    resultsScope = 'all';
     mode();
     document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(button => { const active = button.dataset.category === 'all'; button.classList.toggle('active', active); button.setAttribute('aria-pressed',String(active)); });
     clearCamera();
@@ -201,7 +223,7 @@ if (container) {
     filterCameras();
     name.textContent = ui.allThailand;
     description.textContent = `${ui.cameraList} · ${cameras.length}`;
-    map?.fitBounds(thailandBounds, { padding: { top: 85, bottom: 45, left: 35, right: 45 }, duration });
+    fitCategoryPins();
   }
   function chooseCity(id: string) {
     const city = travelAreas.find(c => c.id === id);
@@ -235,7 +257,7 @@ if (container) {
   }
   cards.forEach(card => card.addEventListener('click', () => chooseCamera(card.dataset.camera!)));
   document.querySelectorAll<HTMLButtonElement>('[data-select-camera]').forEach(button => button.addEventListener('click', () => { chooseCamera(button.dataset.selectCamera!); selection.scrollIntoView({behavior:reducedMotion?'auto':'smooth',block:'nearest'}); }));
-  document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(button => button.addEventListener('click', () => { category = button.dataset.category!; mode(); clearCamera(); paintSelection(''); name.textContent = categoryName(category,locale); description.textContent = ui.selectedScenery; document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(item => { const active = item.dataset.category === category; item.classList.toggle('active',active); item.setAttribute('aria-pressed',String(active)); }); filterCameras(); }));
+  document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(button => button.addEventListener('click', () => { if(button.dataset.category==='all'){reset();return;} category = button.dataset.category!; select.value='';search.value='';selectedArea='';highlight(null);mode(); clearCamera(); paintSelection(''); name.textContent = category==='cameras'?ui.cameras:categoryName(category,locale); description.textContent = ui.selectedScenery; document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(item => { const active = item.dataset.category === category; item.classList.toggle('active',active); item.setAttribute('aria-pressed',String(active)); }); filterCameras();fitCategoryPins(); }));
   shortcuts.forEach(button => button.addEventListener('click', () => button.dataset.mapCity === 'all' ? reset() : chooseCity(button.dataset.mapCity!)));
   document.getElementById('reset-map')!.addEventListener('click', reset);
   document.getElementById('reset-map-view')!.addEventListener('click', reset);
@@ -330,14 +352,15 @@ if (container) {
         map!.addLayer({ id:'camera-points', type:'circle', source:'cameras', filter:['!', ['has','point_count']], paint:{ 'circle-color':['case',['get','verified'],'#e84d47','#8b98a7'],'circle-radius':7,'circle-stroke-width':3,'circle-stroke-color':'#ffffff' } });
         map!.addLayer({ id:'camera-selected', type:'circle', source:'cameras',filter:['==',['get','cameraId'],''],paint:{'circle-radius':13,'circle-color':'#e84d47','circle-opacity':0.25,'circle-stroke-color':'#e84d47','circle-stroke-width':2} });
         for(const venue of venues.filter(v=>v.publicationStatus!=='held'&&Number.isFinite(v.lng)&&Number.isFinite(v.lat))){
-          const element=document.createElement('button');element.type='button';element.className='tourism-venue-pin';element.textContent='◆';element.setAttribute('aria-label',editorialEnabled?venue.name:venue.english);
+          const element=document.createElement('button');element.type='button';element.className='tourism-venue-pin';element.dataset.tourismMarker=venue.id;element.textContent='◆';element.setAttribute('aria-label',editorialEnabled?venue.name:venue.english);
           const content=document.createElement('div'),title=document.createElement('strong'),link=document.createElement('a');title.textContent=editorialEnabled?venue.name:venue.english;link.href='/'+locale+'/rooftops/'+venue.id+'/';link.textContent=ui.details+' →';content.append(title,document.createElement('br'),link);
-          const marker=new Marker({element}).setLngLat([venue.lng,venue.lat]).setPopup(new Popup({offset:20}).setDOMContent(content));tourismPins.push(marker);
-          document.querySelector<HTMLButtonElement>('[data-tourism-venue="'+venue.id+'"]')?.addEventListener('click',()=>{map!.flyTo({center:[venue.lng,venue.lat],zoom:14,duration});marker.addTo(map!).togglePopup();document.querySelector('.map-stage')!.scrollIntoView({block:'nearest',behavior:reducedMotion?'auto':'smooth'});});
+          const marker=new Marker({element}).setLngLat([venue.lng,venue.lat]).setPopup(new Popup({offset:20}).setDOMContent(content));tourismPins.push({venue,marker});
+          document.querySelector<HTMLButtonElement>('[data-tourism-venue="'+venue.id+'"]')?.addEventListener('click',()=>{map!.flyTo({center:[venue.lng,venue.lat],zoom:14,duration});if(venueMatchesMapCategory(venue,category))marker.addTo(map!).togglePopup();document.querySelector('.map-stage')!.scrollIntoView({block:'nearest',behavior:reducedMotion?'auto':'smooth'});});
         }
         mode();
         setCameraVisibility(camerasVisible);
-        fetch('/data/bangkok-rail.geojson').then(r=>r.json()).then(network=>{if(!map||map.getSource('home-thai-rail'))return;map.addSource('home-thai-rail',{type:'geojson',data:network.routes});map.addLayer({id:'home-thai-rail-lines',type:'line',source:'home-thai-rail',paint:{'line-color':['get','color'],'line-width':['interpolate',['linear'],['zoom'],4,0.4,10,2.5],'line-opacity':0.8}});map.addSource('home-thai-stations',{type:'geojson',data:network.stations});map.addLayer({id:'home-thai-station-points',type:'circle',source:'home-thai-stations',minzoom:9,paint:{'circle-radius':3,'circle-color':'#fff','circle-stroke-width':1.5,'circle-stroke-color':'#34768e'}});map.on('click','home-thai-station-points',event=>{const feature=event.features?.[0];if(!feature||feature.geometry.type!=='Point')return;const box=document.createElement('div'),name=document.createElement('strong'),link=document.createElement('a');name.textContent=feature.properties?.name||'';link.href='/ko/transport/bangkok/stations/'+encodeURIComponent(feature.properties?.station_id||'')+'/';link.textContent=editorialEnabled?'역·노선·환승 안내 →':'Station & transfer guide →';box.append(name,document.createElement('br'),link);new Popup().setLngLat(feature.geometry.coordinates as [number,number]).setDOMContent(box).addTo(map!);});}).catch(()=>{});
+        if(category==='all')fitCategoryPins(0);
+        fetch('/data/bangkok-rail.geojson').then(r=>r.json()).then(network=>{if(!map||map.getSource('home-thai-rail'))return;map.addSource('home-thai-rail',{type:'geojson',data:network.routes});map.addLayer({id:'home-thai-rail-lines',type:'line',source:'home-thai-rail',paint:{'line-color':['get','color'],'line-width':['interpolate',['linear'],['zoom'],4,0.4,10,2.5],'line-opacity':0.8}});map.addSource('home-thai-stations',{type:'geojson',data:network.stations});map.addLayer({id:'home-thai-station-points',type:'circle',source:'home-thai-stations',minzoom:9,layout:{visibility:'none'},paint:{'circle-radius':3,'circle-color':'#fff','circle-stroke-width':1.5,'circle-stroke-color':'#34768e'}});map.on('click','home-thai-station-points',event=>{const feature=event.features?.[0];if(!feature||feature.geometry.type!=='Point')return;const box=document.createElement('div'),name=document.createElement('strong'),link=document.createElement('a');name.textContent=feature.properties?.name||'';link.href='/ko/transport/bangkok/stations/'+encodeURIComponent(feature.properties?.station_id||'')+'/';link.textContent=editorialEnabled?'역·노선·환승 안내 →':'Station & transfer guide →';box.append(name,document.createElement('br'),link);new Popup().setLngLat(feature.geometry.coordinates as [number,number]).setDOMContent(box).addTo(map!);});}).catch(()=>{});
         if(map!.getLayer('water'))map!.setPaintProperty('water','fill-color','#c7dfe9');
         if(map!.getLayer('background'))map!.setPaintProperty('background','background-color','#f5f7f5');
         map!.on('moveend',()=>{resultsLimit=12;updateResults();});map!.on('idle',updateResults);updateResults();
