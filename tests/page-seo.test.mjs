@@ -35,7 +35,7 @@ test('body and existing FAQ facts are not rewritten by metadata generation',()=>
  const input=make(faq,'<p>도착일을 포함한 3일 이내에 작성해요.</p>');
  const out=applyPageSEO(input,'/ko/entry/tdac/');
  assert.ok(out.includes(faq));
- assert.equal(out.slice(out.indexOf('<body>')),input.slice(input.indexOf('<body>')));
+ assert.equal(out.slice(out.indexOf('<body>')).replace(/<p[^>]*data-tln-editorial-byline[^>]*>[\s\S]*?<\/p>/,''),input.slice(input.indexOf('<body>')));
 });
 test('existing WebPage metadata stays aligned without changing FAQ evidence',()=>{
  const input=make('<script type="application/ld+json">{"@type":"WebPage","url":"https://example.invalid/","name":"old","description":"old"}</script><meta name="description" content="한국 여권 기준으로 입국을 준비해요.">');

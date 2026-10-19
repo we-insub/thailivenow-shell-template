@@ -45,6 +45,7 @@ for(const f of removed)fs.rmSync(path.join(candidate,f),{force:true});
 run(process.execPath,['scripts/prepare-site-dates.mjs',candidate]);
 // All existing release gates inspect the COMPLETE merged site, not only changed HTML.
 run(process.execPath,['scripts/audit-seo.mjs',candidate]);run(process.execPath,['scripts/audit-site-dates.mjs',candidate]);
+run(process.execPath,['scripts/generate-editorial-image-rights.mjs','--check']);run(process.execPath,['scripts/audit-detail-editorial.mjs',candidate]);
 const assetReferences=assertAssetReferences(candidate,removed);
 const finalHashes=hashes(candidate);
 if(plan.mode==='partial')assertScope(baseline.hashes,finalHashes,delta,removed);

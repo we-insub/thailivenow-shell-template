@@ -41,6 +41,8 @@ export function formatSiteDate(value, kind, locale='en', format='iso') {
 }
 export function applySiteDate(element, doc) {
   const kind=element.getAttribute('data-site-date');
+  if(kind==='deployment'){element.remove?.();return;}
+  if(element.getAttribute('data-date-fixed')==='true'&&validDate(element.getAttribute('datetime')))return;
   const value=siteDateValue(doc,kind,element.getAttribute('data-camera-id')||element.getAttribute('data-page-path'));
   if (!value) return; // Never invent observations or overwrite a valid static fallback.
   const text=formatSiteDate(value,kind,element.getAttribute('data-date-locale')||'en',element.getAttribute('data-date-format')||'iso');

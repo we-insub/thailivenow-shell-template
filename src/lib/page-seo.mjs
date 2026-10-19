@@ -1,4 +1,5 @@
-import { parse } from 'parse5';
+import {applyDetailEditorialPolicy,sharingImage,isDetailPath} from './detail-editorial-policy.mjs';
+import { parse, parseFragment, serialize } from 'parse5';
 import siteIntegrations from '../data/site-integrations.json' with {type:'json'};
 import pageOverrides from '../data/page-seo-overrides.json' with {type:'json'};
 const origin = 'https://thailivenow.com';
@@ -45,6 +46,7 @@ function syncWebPageMetadata(head, metadata) {
    const visit=value=>{
     if(!value||typeof value!=='object')return;
     if(value['@type']==='WebPage'||Array.isArray(value['@type'])&&value['@type'].includes('WebPage')){
+     if(metadata.detail){value.author={'@id':'https://thailivenow.com/#organization'};value.publisher={'@id':'https://thailivenow.com/#organization'};}
      Object.assign(value,{name:metadata.title,description:metadata.description,url:metadata.canonical,'@id':metadata.canonical+'#webpage'});changed=true;
     }
     Object.values(value).forEach(child=>{if(Array.isArray(child))child.forEach(visit);else visit(child);});
@@ -56,6 +58,7 @@ function syncWebPageMetadata(head, metadata) {
 }
 export function applyPageSEO(html, pathname) {
  if (!/<head\b/i.test(html)) return html;
+ html=applyDetailEditorialPolicy(html,pathname);
  html=normalizeBreadcrumbURLs(html);
  const all = nodes(parse(html));
  const parts = pathname.split('/').filter(Boolean);
@@ -66,7 +69,7 @@ export function applyPageSEO(html, pathname) {
  const originalTitle = clean(text(all.find(n=>n.nodeName==='title') || {}));
  const heading = clean(text(all.find(n=>n.nodeName==='h1') || {}));
  const main = all.find(n=>n.nodeName==='main');
- const intro = nodes(main || {}).find(n=>n.nodeName==='p' && clean(text(n)).length >= 30);
+ const intro = nodes(main || {}).find(n=>n.nodeName==='p' && attr(n,'data-tln-editorial-byline')===undefined && clean(text(n)).length >= 30);
  const originalDescription = all.find(n=>n.nodeName==='meta' && attr(n,'name')==='description');
  const core = originalTitle.replace(/\s*[|·]\s*ThaiLiveNow.*$/i,'').trim() || heading;
  const suffix = {ko:'태국 여행',ja:'タイ旅行',ms:'Percutian Thailand',ru:'Путешествия по Таиланду',es:'Viajes a Tailandia','zh-cn':'泰国旅行','zh-tw':'泰國旅遊','en':'Thailand Travel','en-gb':'Thailand Travel for UK Travellers','en-in':'Thailand Travel for Indian Travellers','en-us':'Thailand Travel for US Travelers'};
@@ -88,12 +91,17 @@ export function applyPageSEO(html, pathname) {
  const robots = alias || personalPage || indexPolicy === 'noindex' ? 'noindex,follow' : 'index,follow,max-image-preview:large';
  const existingMeta = name => attr(all.find(n=>n.nodeName==='meta' && attr(n,'property')===name) || {},'content');
  const authoredImage = existingMeta('og:image');
- const image = authoredImage && /^(?:https:\/\/|\/)/.test(authoredImage) ? new URL(authoredImage,origin).href : `${origin}/images/og-thailivenow.png`;
- const imageAlt = existingMeta('og:image:alt') || 'ThaiLiveNow — Thailand Travel & Live Cams';
+ const chosenImage=sharingImage(html,pathname);
+ const image = chosenImage?.url || (authoredImage && /^(?:https:\/\/|\/)/.test(authoredImage) ? new URL(authoredImage,origin).href : `${origin}/images/og-thailivenow.png`);
+ const imageAlt = chosenImage?.alt || existingMeta('og:image:alt') || 'ThaiLiveNow — Thailand Travel & Live Cams';
  const imageDimensions = image === `${origin}/images/og-thailivenow.png` ? '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">' : '';
- const meta = `<title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="robots" content="${robots}"><link rel="canonical" href="${esc(canonical)}"><meta property="og:type" content="website"><meta property="og:site_name" content="ThaiLiveNow"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:locale" content="${esc(({en:'en_US','ko-KR':'ko_KR',ko:'ko_KR','zh-Hans-CN':'zh_CN','zh-Hant-TW':'zh_TW',ja:'ja_JP',ms:'ms_MY',ru:'ru_RU',es:'es_ES'}[language] || language.replaceAll('-','_')))}"><meta property="og:image" content="${esc(image)}">${imageDimensions}<meta property="og:image:alt" content="${esc(imageAlt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${esc(image)}">`;
- const integrations = Object.entries(siteIntegrations.verification).map(([name,value])=>`<meta name="${esc(name)}" content="${esc(value)}">`).join('') + '<script data-tln-analytics type="module" src="/analytics-consent.mjs"></script>';
+ const meta = `<title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="robots" content="${robots}"><link rel="canonical" href="${esc(canonical)}"><meta property="og:type" content="website"><meta property="og:site_name" content="ThaiLiveNow"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:locale" content="${esc(({en:'en_US','ko-KR':'ko_KR',ko:'ko_KR','zh-Hans-CN':'zh_CN','zh-Hant-TW':'zh_TW',ja:'ja_JP',ms:'ms_MY',ru:'ru_RU',es:'es_ES'}[language] || language.replaceAll('-','_')))}"><meta property="og:image" content="${esc(image)}">${imageDimensions}<meta property="og:image:alt" content="${esc(imageAlt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${esc(image)}"><meta name="twitter:image:alt" content="${esc(imageAlt)}">${chosenImage?`<meta name="tln:share-image-status" content="${chosenImage.status}">`:""}`;
+ const authorMeta=isDetailPath(pathname)?'<meta name="author" content="ThaiLiveNow">':'';
+ const integrations = Object.entries(siteIntegrations.verification).map(([name,value])=>`<meta name="${esc(name)}" content="${esc(value)}">`).join('') + '<script data-tln-analytics="" type="module" src="/analytics-consent.mjs"></script>';
  const hasWebpage = all.some(n=>n.nodeName==='script' && attr(n,'type')==='application/ld+json' && /"@type"\s*:\s*"WebPage"/.test(text(n.childNodes?.[0] || {})));
- const schema = hasWebpage ? '' : `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'WebSite','@id':`${origin}/#website`,url:`${origin}/`,name:'ThaiLiveNow',alternateName:'타이라이브나우'},{'@type':'WebPage','@id':`${canonical}#webpage`,url:canonical,name:title,description,inLanguage:language,isPartOf:{'@id':`${origin}/#website`}}]}).replaceAll('<','\\u003c')}</script>`;
- return html.replace(/(<head\b[^>]*>)([\s\S]*?)(<\/head>)/i, (_,start,head,end)=>start + syncWebPageMetadata(head,{title,description,canonical}).replace(/<script\b[^>]*data-tln-analytics[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<meta\b[^>]*>/gi,tag=>/name\s*=\s*["'](?:naver-site-verification|google-site-verification|msvalidate\.01)["']/i.test(tag)?'':tag).replace(/<title\b[^>]*>[\s\S]*?<\/title>/gi,'').replace(/<meta\b[^>]*>/gi, tag=> /(?:name\s*=\s*["'](?:description|robots|twitter:[^"']+)["']|property\s*=\s*["']og:[^"']+["'])/i.test(tag) ? '' : tag).replace(/<link\b[^>]*>/gi,tag=>/rel\s*=\s*["']canonical["']/i.test(tag) ? '' : tag) + schema + meta + integrations + end);
+ const schema = hasWebpage ? '' : `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':[{'@type':'WebSite','@id':`${origin}/#website`,url:`${origin}/`,name:'ThaiLiveNow',alternateName:'타이라이브나우'},{'@type':'WebPage','@id':`${canonical}#webpage`,url:canonical,name:title,description,...(isDetailPath(pathname)?{author:{'@id':'https://thailivenow.com/#organization'},publisher:{'@id':'https://thailivenow.com/#organization'}}:{}),inLanguage:language,isPartOf:{'@id':`${origin}/#website`}}]}).replaceAll('<','\\u003c')}</script>`;
+ const result=html.replace(/(<head\b[^>]*>)([\s\S]*?)(<\/head>)/i, (_,start,head,end)=>start + syncWebPageMetadata(head,{title,description,canonical,detail:isDetailPath(pathname)}).replace(/<script\b[^>]*data-tln-analytics[^>]*>[\s\S]*?<\/script>/gi,'').replace(/<meta\b[^>]*>/gi,tag=>/name\s*=\s*["'](?:naver-site-verification|google-site-verification|msvalidate\.01)["']/i.test(tag)?'':tag).replace(/<title\b[^>]*>[\s\S]*?<\/title>/gi,'').replace(/<meta\b[^>]*>/gi, tag=> /(?:name\s*=\s*["'](?:description|robots|author|tln:share-image-status|twitter:[^"']+)["']|property\s*=\s*["']og:[^"']+["'])/i.test(tag) ? '' : tag).replace(/<link\b[^>]*>/gi,tag=>/rel\s*=\s*["']canonical["']/i.test(tag) ? '' : tag) + schema + meta + authorMeta + integrations + end);
+ // Date preparation also uses parse5. Canonical head serialization prevents
+ // harmless entity/boolean-attribute differences from changing on reapplication.
+ return result.replace(/(<head\b[^>]*>)([\s\S]*?)(<\/head>)/i,(_,start,head,end)=>start+serialize(parseFragment(head))+end);
 }

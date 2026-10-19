@@ -1,3 +1,4 @@
+import {suppressPublicDates} from '../src/lib/public-date-policy.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
@@ -23,6 +24,7 @@ export function bindDates(html,pagePath,dates) {
     html=html.replace(p,(all,before,old,after)=>{count++;return `${before}<time data-site-date="camera-source" data-camera-id="${escape(cameraId)}" data-date-locale="${locale}" datetime="${checked||old}">${checked||old}</time>${after}`;});
   }
   if(count||html.includes('data-site-date=')){html=html.replaceAll('<script type="module" src="/site-dates-client.mjs"></script>','');html=html.replace(/<head\b([^>]*)>/,'<head$1><script type="module" src="/site-dates-client.mjs"></script>');}
+  html=suppressPublicDates(html);
   return {html,count,cameraId};
 }
 export function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);}

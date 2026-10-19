@@ -1,0 +1,535 @@
+{
+  "policy": "Retained subject-matched photos only; original creators and reuse evidence preserved. Camera images are reference photos, not live footage.",
+  "assets": {
+    "/images/rooftops/sky-bar-2017.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar,_Bangkok_(33407660291).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Ninara",
+      "width": null,
+      "height": null,
+      "routes": [
+        "rooftops/sky-bar"
+      ],
+      "cameraIds": []
+    },
+    "/images/rooftops/sky-bar-2008.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar_at_State_Tower_Bangkok.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Steve Jurvetson",
+      "width": null,
+      "height": null,
+      "routes": [
+        "rooftops/sky-bar"
+      ],
+      "cameraIds": []
+    },
+    "/images/rooftops/octave-2-2014.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(2).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "mohigan",
+      "width": null,
+      "height": null,
+      "routes": [
+        "rooftops/octave-rooftop"
+      ],
+      "cameraIds": []
+    },
+    "/images/rooftops/octave-5-2014.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khlong_Tan_Nuea,_Watthana,_Bangkok_10110,_Thailand_-_panoramio_(5).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "mohigan",
+      "width": null,
+      "height": null,
+      "routes": [
+        "rooftops/octave-rooftop"
+      ],
+      "cameraIds": []
+    },
+    "/images/rooftops/red-sky-arch-2024.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_3.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Welcome to Thailand",
+      "width": 1400,
+      "height": 1867,
+      "routes": [
+        "rooftops/red-sky-bar"
+      ],
+      "cameraIds": []
+    },
+    "/images/rooftops/red-sky-view-2024.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Grand_5.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Welcome to Thailand",
+      "width": 1400,
+      "height": 1050,
+      "routes": [
+        "rooftops/red-sky-bar"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/pad-thai.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phat_thai_-_Chiang_Mai_-_2017-07-08_(002).jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Iudexvivorum",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "food/dishes/pad-thai"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/tom-yum-kung.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_yam_kung_1.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Vee Satayamas",
+      "width": 1280,
+      "height": 720,
+      "routes": [
+        "food/dishes/tom-yum-kung"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/green-curry.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai_green_chicken_curry_and_roti.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 857,
+      "routes": [
+        "food/dishes/green-curry"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/massaman.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Massaman_curry,_Bang_Kapi,_Bangkok.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Vee Satayamas",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "food/dishes/massaman"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/mango-sticky-rice.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mango_sticky_rice_served_in_Thailand.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Arthur Taksin",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "food/dishes/mango-sticky-rice"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/khao-soi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_soi_Chiang_Mai.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 848,
+      "routes": [
+        "food/dishes/khao-soi"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/sai-ua.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sai_ua.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 1280,
+      "routes": [
+        "food/dishes/sai-ua"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/nam-prik-ong.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nam_phrik_ong.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 861,
+      "routes": [
+        "food/dishes/nam-prik-ong"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/o-aew.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oh_Aew.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Government of Thailand",
+      "width": 1280,
+      "height": 1920,
+      "routes": [
+        "food/dishes/o-aew"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/boat-noodles.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boat_noodles.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "Flickr user Alpha",
+      "width": 1280,
+      "height": 856,
+      "routes": [
+        "food/dishes/boat-noodles"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/river-prawns.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kung_kam_kram.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 1263,
+      "routes": [
+        "food/dishes/river-prawns"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/roti-sai-mai.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roti_sai_mai_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 1008,
+      "routes": [
+        "food/dishes/roti-sai-mai"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/som-tam.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Som_Tam_green_papaya_salad,_Bangkok,_Thailand.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Vyacheslav Argenberg",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "food/dishes/som-tam"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/larb.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lap_pet.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 879,
+      "routes": [
+        "food/dishes/larb"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/sai-krok-isan.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sai_krok_Isan_yai.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Takeaway",
+      "width": 1280,
+      "height": 1280,
+      "routes": [
+        "food/dishes/sai-krok-isan"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/hat-yai-chicken.jpg": {
+      "sourceUrl": "https://www.flickr.com/photos/68147320@N02/23980385117",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "T.Tseng",
+      "width": 1024,
+      "height": 768,
+      "routes": [
+        "food/dishes/hat-yai-chicken"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/bak-kut-teh.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bakutteh.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "credit": "Indradi Soemardjan http://www.indrani.net",
+      "width": 600,
+      "height": 400,
+      "routes": [
+        "food/dishes/bak-kut-teh"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/roti.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai_Roti_at_Bang_Luang_Mosque,_2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "แอนเดอร์สัน",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "food/dishes/roti"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-mango.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Ivar Leidus",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "food/fruits/mango"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-durian.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Durian_in_black.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "مانفی",
+      "width": 1280,
+      "height": 1107,
+      "routes": [
+        "food/fruits/durian"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-mangosteen.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peeled_Mangosteen.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Azreey",
+      "width": 1280,
+      "height": 2049,
+      "routes": [
+        "food/fruits/mangosteen"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-longan.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai_fruit_220215_Longan_%E0%B8%A5%E0%B8%B3%E0%B9%84%E0%B8%A2_002.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Mattis",
+      "width": 1280,
+      "height": 911,
+      "routes": [
+        "food/fruits/longan"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-lychee.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litchi_chinensis_fruits.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "B.navez",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "food/fruits/lychee"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-pomelo.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pomelo_fruit.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Ivar Leidus",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "food/fruits/pomelo"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-pineapple.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "credit": "Suniltg at Malayalam Wikipedia",
+      "width": 1100,
+      "height": 738,
+      "routes": [
+        "food/fruits/pineapple"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-banana.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "TimothyPilgrim",
+      "width": 387,
+      "height": 221,
+      "routes": [
+        "food/fruits/banana"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-coconut.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coconut_Drink,_Pangandaran.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Crisco 1492",
+      "width": 1280,
+      "height": 881,
+      "routes": [
+        "food/fruits/coconut"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-watermelon.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia)",
+      "width": 1280,
+      "height": 1926,
+      "routes": [
+        "food/fruits/watermelon"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-papaya.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papaya_cut_half.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Maksym Kozlenko",
+      "width": 1280,
+      "height": 1013,
+      "routes": [
+        "food/fruits/papaya"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-tamarind.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamarindus_indica_pods.JPG",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "credit": "B.navez",
+      "width": 768,
+      "height": 1024,
+      "routes": [
+        "food/fruits/tamarind"
+      ],
+      "cameraIds": []
+    },
+    "/images/food/fruit-mandarin.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citrus_reticulata_April_2013_Nordbaden.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "4028mdk09",
+      "width": 1280,
+      "height": 1707,
+      "routes": [
+        "food/fruits/mandarin"
+      ],
+      "cameraIds": []
+    },
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Karon_Beach%2CPhuket_%2815%29.jpg/960px-Karon_Beach%2CPhuket_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karon_Beach,Phuket_(15).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "กสิณธร ราชโอรส",
+      "width": null,
+      "height": null,
+      "routes": [],
+      "cameraIds": [
+        "phuket-karon-marina"
+      ]
+    },
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Kata_Beach_%285730394104%29.jpg/960px-Kata_Beach_%285730394104%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kata_Beach_(5730394104).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "edwin.11",
+      "width": null,
+      "height": null,
+      "routes": [],
+      "cameraIds": [
+        "phuket-kata-surf"
+      ]
+    },
+    "https://upload.wikimedia.org/wikipedia/commons/b/b9/KoSamuiChoengMonBeach_OwlofDoom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KoSamuiChoengMonBeach_OwlofDoom.jpg",
+      "license": "CC BY 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/1.0",
+      "credit": "Wikimedia Commons",
+      "width": null,
+      "height": null,
+      "routes": [],
+      "cameraIds": [
+        "samui-choengmon"
+      ]
+    },
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Patong_Beach_%281%29.jpg/960px-Patong_Beach_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patong_Beach_(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Wolfgang Holzem",
+      "width": null,
+      "height": null,
+      "routes": [],
+      "cameraIds": [
+        "phuket-patong-tower",
+        "phuket-patong-panorama"
+      ]
+    },
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Hat_Rin_from_above.jpg/960px-Hat_Rin_from_above.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hat_Rin_from_above.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "https://www.flickr.com/photos/zhaffsky/",
+      "width": null,
+      "height": null,
+      "routes": [],
+      "cameraIds": [
+        "phangan-sanskara"
+      ]
+    },
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/960px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Ao_Nang_beach,_Krabi.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Satdeep Gill",
+      "width": null,
+      "height": null,
+      "routes": [],
+      "cameraIds": [
+        "krabi-ao-nang-coast"
+      ]
+    },
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Lamai_Beach_1.jpg/960px-Lamai_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamai_Beach_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Christophe95",
+      "width": null,
+      "height": null,
+      "routes": [],
+      "cameraIds": [
+        "samui-baobab",
+        "samui-black-pearl"
+      ]
+    }
+  }
+}

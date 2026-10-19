@@ -4,7 +4,10 @@ function syncSiteDates() {
   let doc;try{doc=JSON.parse(document.getElementById('site-dates-response')?.textContent||'null');}catch{return;}
   if(doc?.schemaVersion!==1||doc.timeZone!=='Asia/Bangkok')return;
   for(const el of document.querySelectorAll('[data-site-date]')) {
-    const kind=el.dataset.siteDate,id=el.dataset.cameraId||el.dataset.pagePath;
+    const kind=el.dataset.siteDate;
+    if(kind==='deployment'){el.remove();continue;}
+    if(el.dataset.dateFixed==='true'&&/^\d{4}-\d{2}-\d{2}$/.test(el.getAttribute('datetime')||''))continue;
+    const id=el.dataset.cameraId||el.dataset.pagePath;
     const record=(kind.startsWith('camera-')?doc.cameras:doc.pages)?.[id];
     const value=kind==='deployment'?doc.deploymentDate:kind==='camera-link'?record?.linkCheckedAt:kind==='modified'?record?.contentModifiedOn:record?.sourceCheckedOn;
     if(typeof value!=='string')continue;
