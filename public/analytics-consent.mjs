@@ -1,5 +1,6 @@
 const measurementId = 'G-56PNXZ2KKJ';
 const storageKey = 'thailivenow.analytics-consent.v1';
+const cookieKey = 'tln_analytics_consent_v1';
 const lifetime = 180 * 24 * 60 * 60 * 1000;
 const production = ['thailivenow.com','www.thailivenow.com'].includes(location.hostname);
 const ko = document.documentElement.lang.startsWith('ko');
@@ -10,8 +11,36 @@ const copy = ko ? {
  title:'Analytics settings',text:'May we use Google Analytics cookies to improve this site? All features remain available if you decline.',
  allow:'Allow',deny:'Decline',close:'Close',privacy:'Privacy information (Korean)',allowed:'Analytics is currently allowed.',denied:'Analytics is currently disabled.'
 };
-let choice=null,loaded=false,trigger=null;
-function readChoice(){try{const record=JSON.parse(localStorage.getItem(storageKey)||'null');return ['granted','denied'].includes(record?.value)&&Number.isFinite(record.expires)&&record.expires>Date.now()&&record.expires<=Date.now()+lifetime+60000?record.value:null;}catch{return null;}}
+let choice=null,choiceExpires=0,loaded=false,trigger=null,expiryTimer=null;
+function validRecord(value){
+ try{const record=JSON.parse(value||'null');const now=Date.now();return ['granted','denied'].includes(record?.value)&&Number.isFinite(record.expires)&&record.expires>now&&record.expires<=now+lifetime?{value:record.value,expires:record.expires}:null;}catch{return null;}
+}
+function persistChoice(record){
+ const encoded=JSON.stringify(record);
+ try{localStorage.setItem(storageKey,encoded);}catch{/* The first-party preference cookie is an independent fallback. */}
+ try{const remaining=Math.max(0,Math.floor((record.expires-Date.now())/1000));document.cookie=`${cookieKey}=${encodeURIComponent(encoded)}; Max-Age=${remaining}; Expires=${new Date(record.expires).toUTCString()}; Path=/; SameSite=Lax${location.protocol==='https:'?'; Secure':''}${production?'; Domain=thailivenow.com':''}`;}catch{/* Browsers can block or clear both forms of preference storage. */}
+}
+function readChoice(){
+ let local=null,cookie=null;
+ try{local=validRecord(localStorage.getItem(storageKey));}catch{}
+ try{const pair=document.cookie.split(';').map(part=>part.trim()).find(part=>part.startsWith(cookieKey+'='));if(pair)cookie=validRecord(decodeURIComponent(pair.slice(cookieKey.length+1)));}catch{}
+ // The later explicit choice wins across www/apex and languages; equal timestamps prefer refusal.
+ const record=[local,cookie].filter(Boolean).sort((a,b)=>b.expires-a.expires||Number(b.value==='denied')-Number(a.value==='denied'))[0];
+ choiceExpires=record?.expires||0;
+ if(record)persistChoice(record); // Mirror the original expiry; revisits never start another 180 days.
+ return record?.value||null;
+}
+function armExpiry(){
+ clearTimeout(expiryTimer);
+ if(!choice||!choiceExpires)return;
+ // Browser timers cannot safely hold a 180-day delay; recheck at most once per day.
+ expiryTimer=setTimeout(()=>{
+  choice=readChoice();
+  if(choice){armExpiry();return;}
+  window['ga-disable-'+measurementId]=true;clearCookies();
+  if(loaded){document.getElementById('tln-ga4-tag')?.remove();window.dataLayer=[];location.reload();}else if(!dialog.open)show();
+ },Math.max(1,Math.min(choiceExpires-Date.now(),24*60*60*1000)));
+}
 function clearCookies(){
  const host=location.hostname.split('.');const domains=['',location.hostname,...host.map((_,i)=>'.'+host.slice(i).join('.'))];
  const parts=location.pathname.split('/');const paths=['/',...parts.map((_,i)=>parts.slice(0,i+1).join('/')||'/')];
@@ -27,7 +56,7 @@ function loadAnalytics(){
  window.gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
  window.gtag('js',new Date());
  const cleanUrl=value=>{try{const url=new URL(value);return url.origin+url.pathname;}catch{return '';}};
- window.gtag('config',measurementId,{page_location:cleanUrl(location.href),page_referrer:cleanUrl(document.referrer),allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:180*24*60*60,cookie_update:false});
+ window.gtag('config',measurementId,{page_location:cleanUrl(location.href),page_referrer:cleanUrl(document.referrer),allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:Math.max(1,Math.floor((choiceExpires-Date.now())/1000)),cookie_update:false});
  const script=document.createElement('script');script.async=true;script.id='tln-ga4-tag';script.src='https://www.googletagmanager.com/gtag/js?id='+measurementId;document.head.append(script);
 }
 const dialog=document.createElement('dialog');dialog.id='analytics-settings';dialog.setAttribute('aria-labelledby','tln-consent-title');
@@ -38,11 +67,12 @@ const style=document.createElement('style');style.textContent=`#analytics-settin
 document.head.append(style);document.body.append(dialog);
 function show(modal=false){dialog.querySelector('.consent-status').textContent=choice==='granted'?copy.allowed:copy.denied;if(dialog.open)dialog.close();modal?dialog.showModal():dialog.show();}
 function close(){dialog.close();trigger?.focus();}
-function decide(value){choice=value;try{localStorage.setItem(storageKey,JSON.stringify({value,expires:Date.now()+lifetime}));}catch{/* In-memory choice remains effective for this page. */}
+function decide(value){choice=value;choiceExpires=Date.now()+lifetime;persistChoice({value,expires:choiceExpires});armExpiry();
  if(value==='granted')loadAnalytics();else{window['ga-disable-'+measurementId]=true;clearCookies();document.getElementById('tln-ga4-tag')?.remove();}
  close();if(value==='denied'&&loaded){window.dataLayer=[];location.reload();}
 }
 dialog.querySelector('[data-allow]').addEventListener('click',()=>decide('granted'));dialog.querySelector('[data-deny]').addEventListener('click',()=>decide('denied'));dialog.querySelector('[data-close]').addEventListener('click',close);
 document.addEventListener('click',event=>{const button=event.target.closest('[data-analytics-settings]');if(!button)return;event.preventDefault();trigger=button;show(true);});
-window.addEventListener('storage',event=>{if(event.key===storageKey){const next=readChoice();choice=next;if(next!=='granted'){window['ga-disable-'+measurementId]=true;clearCookies();if(loaded)location.reload();}else{choice=next;loadAnalytics();}}});
-choice=readChoice();if(choice==='granted')loadAnalytics();else{window['ga-disable-'+measurementId]=true;clearCookies();if(!choice)show();}
+window.addEventListener('storage',event=>{if(event.key===storageKey){const next=readChoice();choice=next;armExpiry();if(next!=='granted'){window['ga-disable-'+measurementId]=true;clearCookies();if(loaded)location.reload();}else{choice=next;loadAnalytics();}}});
+window.addEventListener('pageshow',()=>{choice=readChoice();armExpiry();if(choice==='granted')loadAnalytics();else{window['ga-disable-'+measurementId]=true;clearCookies();if(loaded)location.reload();else if(!choice&&!dialog.open)show();}});
+choice=readChoice();armExpiry();if(choice==='granted')loadAnalytics();else{window['ga-disable-'+measurementId]=true;clearCookies();if(!choice)show();}
