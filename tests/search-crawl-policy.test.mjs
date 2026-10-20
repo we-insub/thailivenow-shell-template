@@ -2,6 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {crawlRobots,sitemapXML} from '../src/lib/search-crawl-policy.mjs';
 test('Yeti crawls Korean HTML and shared resources while Google retains all locales',()=>{
+ assert.ok(crawlRobots().startsWith('User-agent: Yeti\n'));
+ for(const locale of ['en','en-gb','en-in','en-us','ms','zh-cn','ru','ja','es','zh-tw']) assert.ok(crawlRobots().includes(`Disallow: /${locale}/\n`));
  const groups=crawlRobots().split('User-agent: ');
  const rules=agent=>groups.find(s=>s.startsWith(agent+'\n')).split('\n').filter(s=>/^(Allow|Disallow):/.test(s)).map(s=>{const [kind,...rest]=s.split(':');return {kind,pattern:rest.join(':').trim()};});
  const allowed=(agent,path)=>{const matches=rules(agent).filter(r=>new RegExp('^'+r.pattern.replace(/[.+?^{}()|[\]\\]/g,'\\$&').replaceAll('*','.*').replace(/\\\$$/,'$')).test(path)).sort((a,b)=>b.pattern.replaceAll('*','').length-a.pattern.replaceAll('*','').length);return matches[0]?.kind!=='Disallow';};

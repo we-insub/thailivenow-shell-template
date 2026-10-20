@@ -2,12 +2,14 @@
 // Yeti receives only Korean HTML; shared resources remain crawlable.
 export function crawlRobots() {
  return [
-  'User-agent: *', 'Allow: /', '',
-  'User-agent: Yeti', 'Disallow: /', 'Allow: /$', 'Allow: /ko/',
+  'User-agent: Yeti', 'Disallow: /',
+  ...['en','en-gb','en-in','en-us','ms','zh-cn','ru','ja','es','zh-tw'].map(locale=>`Disallow: /${locale}/`),
+  'Allow: /$', 'Allow: /ko/',
   'Allow: /_astro/', 'Allow: /images/', 'Allow: /data/',
   'Allow: /transit-assets/', 'Allow: /sitemap', 'Allow: /robots.txt$',
   ...['css','js','mjs','json','png','jpg','jpeg','webp','svg','woff','woff2','ico'].map(ext=>`Allow: /*.${ext}$`),
-  '', 'Sitemap: https://thailivenow.com/sitemap.xml', ''
+  '', 'User-agent: *', 'Allow: /', '',
+  'Sitemap: https://thailivenow.com/sitemap.xml', ''
  ].join('\n');
 }
 export function sitemapXML(urls) {
