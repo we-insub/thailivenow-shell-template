@@ -1,0 +1,704 @@
+{
+  "locale": "ms",
+  "sourceLocale": "ko",
+  "sourceFingerprints": {
+    "food-delivery": "717b1eed834d8c0334a8508b13fac185a99a1e0a847eefdeb01b2fbd62cba244",
+    "grabfood": "0e6fbb6ce50f1ba6835fc9d7097196b4dba9e4bec33475afc926e6f606ecc8d9",
+    "line-man": "b839b2f0c6b3380056962d99da11add3366b43dce3026e2f3b328d5816aaccfc",
+    "shopeefood": "585fbf3ebe0d010413f104b94ea4cac57097630ac5782e777436b41a3cb9509d",
+    "robinhood": "f393eef89965556ee33317233673c72a55153e1bb20cf491809b2a0bb6c81a79"
+  },
+  "ui": {
+    "home": "Utama",
+    "breadcrumb": "Navigasi",
+    "faq": "Soalan lazim",
+    "related": "Panduan berkaitan",
+    "sources": "Sumber",
+    "officialSources": "Lihat sumber rasmi",
+    "delivery": "Penghantaran makanan",
+    "hubName": "Penghantaran makanan di Thailand"
+  },
+  "guides": {
+    "food-delivery": {
+      "id": "food-delivery",
+      "parentUrl": "/ms/food/",
+      "parentName": "Makanan dan penghantaran",
+      "title": "Aplikasi penghantaran makanan di Thailand | GrabFood, LINE MAN, ShopeeFood dan Robinhood",
+      "name": "Penghantaran makanan di Thailand",
+      "english": "Food Delivery in Thailand",
+      "intro": "Jika mahu makan sambil berehat di hotel, cuba pesan makanan untuk dihantar. Tetapkan lokasi penerimaan untuk melihat restoran yang tersedia, caj penghantaran dan anggaran masa tiba. Tanya kaunter penerimaan hotel di mana anda perlu mengambil makanan.",
+      "summary": [
+        [
+          "GrabFood",
+          "Mengikut alamat penghantaran dalam aplikasi",
+          "Pilih Food dalam aplikasi Grab",
+          "Semak jumlah akhir dalam aplikasi"
+        ],
+        [
+          "LINE MAN",
+          "Alamat pilihan di Thailand",
+          "Pilih menu penghantaran makanan LINE MAN",
+          "Semak jumlah akhir dalam aplikasi"
+        ],
+        [
+          "ShopeeFood",
+          "Alamat penghantaran yang ditetapkan dalam aplikasi",
+          "Pilih menu ShopeeFood",
+          "Semak jumlah akhir dalam aplikasi"
+        ],
+        [
+          "Robinhood",
+          "Bangkok dan kawasan berdekatan",
+          "Pilih menu penghantaran makanan Robinhood",
+          "Semak jumlah akhir dalam aplikasi"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "platform",
+          "title": "Menggunakan GrabFood di Thailand",
+          "paragraphs": [
+            "Perkhidmatan rasmi GrabFood Thailand menawarkan penghantaran makanan dan minuman serta pengambilan sendiri di restoran. Restoran yang boleh dipesan bergantung pada lokasi penghantaran yang dipilih."
+          ],
+          "links": [
+            [
+              "Panduan pendaftaran, bayaran, penghantaran ke hotel dan pembatalan GrabFood",
+              "/ms/food-delivery/grabfood/"
+            ],
+            [
+              "Perkhidmatan rasmi GrabFood",
+              "https://www.grab.com/th/en/food/"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Cara memesan makanan ke hotel",
+          "steps": [
+            [
+              "Semak alamat dan pin peta",
+              "Pastikan nama hotel, alamat dan pin peta sepadan, kemudian tanya kaunter penerimaan tentang tempat mengambil makanan."
+            ],
+            [
+              "Pilih makanan dan jenis pesanan",
+              "Pilih makanan serta pilihan tambahan, dan pastikan sama ada pesanan untuk penghantaran atau pengambilan sendiri di restoran."
+            ],
+            [
+              "Semak jumlah dan kaedah bayaran",
+              "Semak jumlah akhir termasuk harga makanan dan caj penghantaran sebelum memilih kaedah bayaran."
+            ],
+            [
+              "Ambil makanan di tempat yang dipersetujui",
+              "Ikut arahan dalam aplikasi dan pergi ke tempat pengambilan. Sediakan jumlah yang diperlukan jika membayar tunai."
+            ]
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Caj penghantaran dan kaedah bayaran",
+          "paragraphs": [
+            "Soalan lazim rasmi GrabFood membezakan harga makanan daripada caj penghantaran. Caj penghantaran dikira mengikut jarak antara restoran dengan lokasi penerimaan. Semak jumlah akhir pada skrin pesanan.",
+            "Tunai, kad kredit, kad debit dan GrabPay disenaraikan sebagai kaedah bayaran. Semak kaedah yang tersedia untuk akaun anda. Jika mahu membayar tunai dengan wang kertas bernilai besar, beritahu penghantar melalui sembang dalam aplikasi."
+          ]
+        },
+        {
+          "id": "hours",
+          "title": "Memesan lewat malam",
+          "paragraphs": [
+            "Waktu perkhidmatan dan waktu operasi restoran berbeza. Restoran yang sudah tutup tidak boleh menerima pesanan dalam aplikasi, jadi lihat restoran yang boleh menghantar ke lokasi semasa serta anggaran masa penghantaran."
+          ]
+        },
+        {
+          "id": "help",
+          "title": "Pertanyaan pesanan dan bayaran balik",
+          "paragraphs": [
+            "Simpan rekod pesanan dan hubungi sokongan melalui pesanan berkenaan. Syarat pembatalan dan bayaran balik bergantung pada perkhidmatan serta status pesanan."
+          ],
+          "links": [
+            [
+              "Sokongan Grab",
+              "https://help.grab.com/"
+            ]
+          ]
+        },
+        {
+          "id": "line-man",
+          "title": "Penghantaran makanan LINE MAN",
+          "paragraphs": [
+            "Tetapkan alamat penghantaran di Thailand untuk melihat pilihan LINE MAN. Selepas memilih alamat hotel, semak restoran yang tersedia dan caj penghantaran.",
+            "Aplikasi ini menggabungkan penghantaran makanan, tempahan kenderaan dan pesanan barangan keperluan harian. Sediakan LINE ID dan pilih menu penghantaran makanan."
+          ],
+          "links": [
+            [
+              "Panduan pesanan dan penggunaan",
+              "/ms/food-delivery/line-man/"
+            ]
+          ]
+        },
+        {
+          "id": "shopeefood",
+          "title": "Penghantaran makanan ShopeeFood",
+          "paragraphs": [
+            "Tetapkan alamat penerimaan dalam aplikasi untuk melihat ShopeeFood. Pilih alamat hotel bagi melihat restoran yang boleh menghantar serta caj penghantaran.",
+            "Pesan makanan melalui menu ShopeeFood dalam aplikasi Shopee Thailand. Penghantaran makanan berbeza daripada penghantaran barangan beli-belah biasa. Aplikasi Shopee Thailand menyatakan sokongan bahasa Thai, Inggeris dan Burma."
+          ],
+          "links": [
+            [
+              "Panduan pesanan dan penggunaan",
+              "/ms/food-delivery/shopeefood/"
+            ]
+          ]
+        },
+        {
+          "id": "robinhood",
+          "title": "Penghantaran makanan Robinhood",
+          "paragraphs": [
+            "Di Bangkok dan kawasan berdekatan, anda boleh melihat pilihan Robinhood. Tetapkan alamat hotel untuk menyemak restoran yang boleh menghantar dan caj penghantaran.",
+            "Penerangan rasmi aplikasi oleh pengendali menyebut restoran di Bangkok dan kawasan berdekatan. Semak restoran yang boleh menghantar ke lokasi semasa anda."
+          ],
+          "links": [
+            [
+              "Panduan pesanan dan penggunaan",
+              "/ms/food-delivery/robinhood/"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bolehkah makanan dihantar terus ke bilik hotel?",
+          "Bergantung pada peraturan penerimaan makanan hotel. Tanya kaunter penerimaan tentang tempat pengambilan."
+        ],
+        [
+          "Bolehkah saya membayar tunai?",
+          "Soalan lazim rasmi menyenaraikan bayaran tunai. Semak kaedah yang benar-benar tersedia pada skrin pesanan."
+        ],
+        [
+          "Apakah beza penghantaran dengan pengambilan sendiri?",
+          "Penghantaran membawa makanan ke alamat pilihan. Untuk pengambilan sendiri, anda pergi mengambilnya di restoran yang dipilih."
+        ]
+      ],
+      "links": [
+        [
+          "Rooftop mengikut bandar",
+          "/ms/rooftops/"
+        ],
+        [
+          "Panduan LINE MAN",
+          "/ms/food-delivery/line-man/"
+        ],
+        [
+          "Panduan ShopeeFood",
+          "/ms/food-delivery/shopeefood/"
+        ],
+        [
+          "Panduan Robinhood",
+          "/ms/food-delivery/robinhood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Perkhidmatan dan soalan lazim rasmi GrabFood",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "Penyenaraian aplikasi LINE MAN oleh pengendali",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ],
+        [
+          "Penyenaraian aplikasi ShopeeFood oleh pengendali",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ],
+        [
+          "Penyenaraian aplikasi Robinhood oleh pengendali",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ],
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "summaryTitle": "Pilih aplikasi penghantaran makanan",
+      "summaryLabels": [
+        "Kawasan perkhidmatan",
+        "Cara memesan",
+        "Semakan kos"
+      ]
+    },
+    "grabfood": {
+      "id": "grabfood",
+      "parentUrl": "/ms/food-delivery/",
+      "parentName": "Penghantaran makanan di Thailand",
+      "title": "GrabFood Thailand | Pendaftaran, kad luar negara, penghantaran hotel dan pembatalan",
+      "name": "GrabFood di Thailand",
+      "english": "GrabFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Gunakan menu Food dalam aplikasi Grab apabila mahu memesan makanan ke hotel. Panduan ini menerangkan penetapan lokasi, bayaran tunai dan kad luar negara serta pembatalan. Langkah pendaftaran yang didokumenkan untuk nombor telefon Korea Selatan turut disertakan.",
+      "summaryTitle": "Sebelum memesan",
+      "summaryLabels": [
+        "Kawasan perkhidmatan",
+        "Cara memesan",
+        "Semakan kos"
+      ],
+      "summary": [
+        [
+          "GrabFood",
+          "Restoran yang tersedia untuk alamat penghantaran anda",
+          "Aplikasi Grab → Food → pilih alamat dan makanan",
+          "Semak harga makanan, caj penghantaran dan caj bayaran luar negara"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "signup",
+          "title": "Mendaftar dengan nombor telefon Korea Selatan",
+          "paragraphs": [
+            "Halaman bantuan Grab Thailand menyatakan kod pengesahan bagi nombor Korea Selatan dihantar melalui SMS. Jika menggunakan nombor Korea Selatan, pilih kod negara Korea Selatan dan masukkan nombor mudah alih yang boleh menerima SMS. Masukkan kod 6 digit untuk meneruskan pendaftaran.",
+            "Jika SMS tidak sampai, semak penapis mesej dan sambungan rangkaian mudah alih. Talian data perjalanan sahaja tidak menggantikan penerimaan SMS pada nombor Korea Selatan sedia ada, jadi semak juga tetapan penerimaan SMS nombor tersebut."
+          ],
+          "links": [
+            [
+              "Bantuan kod pengesahan rasmi Grab",
+              "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Cara memesan makanan ke hotel",
+          "steps": [
+            [
+              "Pilih Food dan alamat penghantaran",
+              "Buka menu Food dalam Grab dan padankan alamat hotel dengan pin peta. Restoran yang tersedia dan masa penghantaran bergantung pada alamat ini."
+            ],
+            [
+              "Pilih makanan dan pilihan tambahan",
+              "Pilih hidangan, kuantiti serta tambahan, dan pastikan sama ada pesanan untuk penghantaran atau pengambilan sendiri di restoran."
+            ],
+            [
+              "Semak jumlah dan kaedah bayaran",
+              "Buka Payment details dalam bakul, kemudian pilih kaedah bayaran melalui See all. Semak harga makanan, caj penghantaran, syarat diskaun dan fi sebelum menekan Place Order."
+            ],
+            [
+              "Temui penghantar di tempat pengambilan",
+              "Tanya kaunter hotel di mana makanan perlu diambil, kemudian selaraskan lokasi dengan penghantar melalui aplikasi. Penghantaran ke bilik bergantung pada peraturan hotel. Sediakan jumlah pesanan jika membayar tunai."
+            ]
+          ]
+        },
+        {
+          "id": "payment",
+          "title": "Tunai, kad luar negara, KakaoPay dan caj",
+          "paragraphs": [
+            "Grab Thailand menyenaraikan tunai serta kad kredit dan debit keluaran Thailand atau luar negara. KakaoPay juga termasuk dalam kaedah bayaran rasmi. Semak skrin bayaran untuk pilihan yang tersedia bagi akaun dan pesanan anda.",
+            "Bayaran dengan kad atau e-dompet luar negara dikenakan caj bayaran luar negara sebanyak 3% daripada jumlah transaksi, dengan caj minimum 1 baht. Pecahan 0.5 baht ke atas dibundarkan naik; pecahan lebih kecil dibundarkan turun. Semak juga sama ada pengeluar kad mengenakan caj transaksi luar negara sendiri.",
+            "Kaedah bayaran bagi perjalanan atau pesanan terakhir mungkin dipilih secara lalai. Semak semula sebelum memesan. Grab menyatakan bayaran gabungan GrabPay dan tunai tidak disokong."
+          ],
+          "links": [
+            [
+              "Panduan bayaran rasmi Grab Thailand",
+              "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+            ]
+          ]
+        },
+        {
+          "id": "cancel",
+          "title": "Di mana hendak memohon pembatalan?",
+          "steps": [
+            [
+              "Buka rekod pesanan",
+              "Dalam Activity, pilih pesanan makanan yang mahu dibatalkan."
+            ],
+            [
+              "Pilih Get Help",
+              "Tekan Get Help di penjuru kanan atas skrin pesanan. Cancel order akan muncul jika pesanan layak dibatalkan."
+            ],
+            [
+              "Semak keputusan pembatalan",
+              "Selepas memohon pembatalan, pastikan anda menerima pemberitahuan berjaya. Menekan butang sahaja tidak bermakna pesanan telah dibatalkan."
+            ]
+          ],
+          "paragraphs": [
+            "Panduan rasmi menyebut pembatalan lebih berkemungkinan diluluskan jika restoran belum menerima pesanan, jika pesanan lewat lebih 15 minit tanpa penghantar ditetapkan, atau jika lewat lebih 30 minit sementara makanan masih berada di restoran.",
+            "Pembatalan mungkin sukar apabila penghantaran telah bermula atau pesanan selesai. Bagi pesanan berkumpulan, orang yang menciptanya perlu memohon pembatalan. Pesanan tidak semestinya boleh dibatalkan secara percuma hanya kerana penghantar belum ditetapkan."
+          ],
+          "links": [
+            [
+              "Langkah pembatalan rasmi GrabFood Thailand",
+              "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+            ]
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Makanan tidak lengkap atau tersalah hantar",
+          "paragraphs": [
+            "Simpan rekod pesanan serta foto makanan, bungkusan dan resit. Laporkan masalah melalui Get Help pada pesanan tersebut. Semak panduan pesanan berkenaan untuk kelulusan dan kemajuan bayaran balik."
+          ],
+          "links": [
+            [
+              "Bantuan GrabFood untuk item tidak lengkap atau salah",
+              "https://help.grab.com/passenger/en-th/360002059867-Missing-or-wrong-items-in-your-order"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bolehkah saya mendaftar GrabFood Thailand dengan nombor Korea Selatan?",
+          "Bantuan Grab Thailand menyatakan kod pengesahan bagi pendaftaran nombor Korea Selatan dihantar melalui SMS. Pastikan nombor itu boleh menerima SMS."
+        ],
+        [
+          "Bolehkah saya menggunakan kad luar negara atau KakaoPay di GrabFood Thailand?",
+          "Kaedah rasmi termasuk kad kredit dan debit luar negara serta KakaoPay. Semak ketersediaannya pada pesanan anda. Kad dan e-dompet luar negara dikenakan caj 3%, minimum 1 baht."
+        ],
+        [
+          "Adakah makanan dihantar ke bilik hotel?",
+          "Bergantung pada peraturan hotel. Tanya kaunter penerimaan tentang tempat pengambilan, kemudian selaraskan lokasi dengan penghantar dalam aplikasi."
+        ],
+        [
+          "Adakah pembatalan sentiasa percuma sebelum penghantar ditetapkan?",
+          "Tidak semestinya. Buka pesanan dalam Activity, pilih Get Help → Cancel order dan semak pemberitahuan berjaya. Panduan rasmi turut mengambil kira penerimaan oleh restoran serta tempoh kelewatan."
+        ]
+      ],
+      "links": [
+        [
+          "Bandingkan aplikasi penghantaran makanan Thailand",
+          "/ms/food-delivery/"
+        ]
+      ],
+      "sources": [
+        [
+          "Perkhidmatan rasmi GrabFood Thailand",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "Bantuan kod pengesahan Grab Thailand",
+          "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+        ],
+        [
+          "Panduan bayaran Grab Thailand",
+          "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+        ],
+        [
+          "Panduan pembatalan GrabFood Thailand",
+          "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+        ]
+      ]
+    },
+    "line-man": {
+      "id": "line-man",
+      "parentUrl": "/ms/food-delivery/",
+      "parentName": "Penghantaran makanan di Thailand",
+      "title": "LINE MAN Thailand | Panduan penghantaran makanan",
+      "name": "Penghantaran makanan LINE MAN",
+      "english": "LINE MAN",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Untuk memesan makanan ke hotel melalui LINE MAN, sediakan LINE ID dan buka menu penghantaran makanan. Padankan alamat penghantaran di Thailand dengan lokasi hotel untuk melihat restoran yang tersedia. Pilih makanan, semak jumlah termasuk penghantaran, kemudian buat pesanan.",
+      "summaryTitle": "Sebelum memesan",
+      "summaryLabels": [
+        "Kawasan perkhidmatan",
+        "Cara memesan",
+        "Semakan kos"
+      ],
+      "summary": [
+        [
+          "LINE MAN",
+          "Alamat pilihan di Thailand",
+          "Pilih makanan, pilihan tambahan dan alamat penghantaran",
+          "Semak jumlah pada skrin bayaran"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "Aplikasi mana yang diperlukan?",
+          "paragraphs": [
+            "Aplikasi ini menggabungkan penghantaran makanan, tempahan kenderaan dan pesanan barangan keperluan harian. Sediakan LINE ID dan pilih menu penghantaran makanan."
+          ],
+          "links": [
+            [
+              "Maklumat dan pemasangan aplikasi rasmi",
+              "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Memesan ke hotel",
+          "steps": [
+            [
+              "Semak alamat dan pin peta",
+              "Pastikan nama hotel, alamat dan pin peta sepadan, kemudian tanya kaunter penerimaan tentang tempat mengambil makanan."
+            ],
+            [
+              "Pilih makanan dan jenis pesanan",
+              "Pilih makanan serta pilihan tambahan, dan pastikan sama ada pesanan untuk penghantaran atau pengambilan sendiri di restoran."
+            ],
+            [
+              "Semak jumlah dan kaedah bayaran",
+              "Semak jumlah akhir termasuk harga makanan dan caj penghantaran sebelum memilih kaedah bayaran."
+            ],
+            [
+              "Ambil makanan di tempat yang dipersetujui",
+              "Ikut arahan dalam aplikasi dan pergi ke tempat pengambilan. Sediakan jumlah yang diperlukan jika membayar tunai."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Semak sebelum membayar",
+          "paragraphs": [
+            "Restoran dan kaedah bayaran yang tersedia bergantung pada akaun serta lokasi penghantaran. Selain harga makanan, semak caj penghantaran, pilihan tambahan dan syarat diskaun.",
+            "Tanya kaunter hotel dahulu tentang tempat mengambil makanan. Pastikan alamat hotel dan pin peta dalam aplikasi tepat."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Makanan tidak lengkap atau masalah pesanan",
+          "paragraphs": [
+            "Simpan rekod pesanan serta foto makanan yang bermasalah dan resit, kemudian hubungi sokongan melalui pesanan tersebut. Kelayakan bayaran balik dan prosesnya bergantung pada status pesanan."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bolehkah penghantaran sampai ke bilik hotel?",
+          "Bergantung pada peraturan pengambilan makanan hotel. Tanya kaunter penerimaan di mana anda perlu mengambilnya."
+        ],
+        [
+          "Bolehkah saya membayar dengan kad luar negara?",
+          "Semak kaedah yang tersedia pada skrin bayaran akaun anda. Panduan ini tidak menjamin semua kad luar negara boleh digunakan."
+        ]
+      ],
+      "links": [
+        [
+          "Bandingkan aplikasi penghantaran makanan",
+          "/ms/food-delivery/"
+        ],
+        [
+          "Panduan memesan GrabFood",
+          "/ms/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Penerangan aplikasi rasmi oleh pengendali",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ]
+      ]
+    },
+    "shopeefood": {
+      "id": "shopeefood",
+      "parentUrl": "/ms/food-delivery/",
+      "parentName": "Penghantaran makanan di Thailand",
+      "title": "ShopeeFood Thailand | Panduan penghantaran makanan",
+      "name": "Penghantaran makanan ShopeeFood",
+      "english": "ShopeeFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Anda boleh memesan makanan melalui menu ShopeeFood dalam aplikasi Shopee Thailand. Padankan alamat hotel dan pin peta dahulu, kemudian pilih makanan daripada restoran yang menghantar ke alamat itu. Menu pesanan beli-belah berbeza daripada penghantaran makanan, jadi pastikan anda berada pada skrin yang betul.",
+      "summaryTitle": "Sebelum memesan",
+      "summaryLabels": [
+        "Kawasan perkhidmatan",
+        "Cara memesan",
+        "Semakan kos"
+      ],
+      "summary": [
+        [
+          "ShopeeFood",
+          "Alamat penghantaran yang ditetapkan dalam aplikasi",
+          "Pilih makanan, pilihan tambahan dan alamat penghantaran",
+          "Semak jumlah pada skrin bayaran"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "Aplikasi mana yang diperlukan?",
+          "paragraphs": [
+            "Pesan makanan melalui menu ShopeeFood dalam aplikasi Shopee Thailand. Penghantaran makanan berbeza daripada penghantaran barangan beli-belah biasa. Aplikasi Shopee Thailand menyatakan sokongan bahasa Thai, Inggeris dan Burma."
+          ],
+          "links": [
+            [
+              "Maklumat dan pemasangan aplikasi rasmi",
+              "https://play.google.com/store/apps/details?id=com.shopee.th"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Memesan ke hotel",
+          "steps": [
+            [
+              "Semak alamat dan pin peta",
+              "Pastikan nama hotel, alamat dan pin peta sepadan, kemudian tanya kaunter penerimaan tentang tempat mengambil makanan."
+            ],
+            [
+              "Pilih makanan dan jenis pesanan",
+              "Pilih makanan serta pilihan tambahan, dan pastikan sama ada pesanan untuk penghantaran atau pengambilan sendiri di restoran."
+            ],
+            [
+              "Semak jumlah dan kaedah bayaran",
+              "Semak jumlah akhir termasuk harga makanan dan caj penghantaran sebelum memilih kaedah bayaran."
+            ],
+            [
+              "Ambil makanan di tempat yang dipersetujui",
+              "Ikut arahan dalam aplikasi dan pergi ke tempat pengambilan. Sediakan jumlah yang diperlukan jika membayar tunai."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Semak sebelum membayar",
+          "paragraphs": [
+            "Restoran dan kaedah bayaran yang tersedia bergantung pada akaun serta lokasi penghantaran. Selain harga makanan, semak caj penghantaran, pilihan tambahan dan syarat diskaun.",
+            "Tanya kaunter hotel dahulu tentang tempat mengambil makanan. Pastikan alamat hotel dan pin peta dalam aplikasi tepat."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Makanan tidak lengkap atau masalah pesanan",
+          "paragraphs": [
+            "Simpan rekod pesanan serta foto makanan yang bermasalah dan resit, kemudian hubungi sokongan melalui pesanan tersebut. Kelayakan bayaran balik dan prosesnya bergantung pada status pesanan."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bolehkah penghantaran sampai ke bilik hotel?",
+          "Bergantung pada peraturan pengambilan makanan hotel. Tanya kaunter penerimaan di mana anda perlu mengambilnya."
+        ],
+        [
+          "Bolehkah saya membayar dengan kad luar negara?",
+          "Semak kaedah yang tersedia pada skrin bayaran akaun anda. Panduan ini tidak menjamin semua kad luar negara boleh digunakan."
+        ]
+      ],
+      "links": [
+        [
+          "Bandingkan aplikasi penghantaran makanan",
+          "/ms/food-delivery/"
+        ],
+        [
+          "Panduan memesan GrabFood",
+          "/ms/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Penerangan aplikasi rasmi oleh pengendali",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ]
+      ]
+    },
+    "robinhood": {
+      "id": "robinhood",
+      "parentUrl": "/ms/food-delivery/",
+      "parentName": "Penghantaran makanan di Thailand",
+      "title": "Robinhood Thailand | Panduan penghantaran makanan",
+      "name": "Penghantaran makanan Robinhood",
+      "english": "Robinhood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Jika mahu makanan dihantar di Bangkok atau kawasan berdekatan, cuba lihat Robinhood. Masukkan alamat hotel untuk mencari restoran yang boleh menghantar ke sana. Pilih makanan dan semak jumlah termasuk penghantaran sebelum membuat pesanan.",
+      "summaryTitle": "Sebelum memesan",
+      "summaryLabels": [
+        "Kawasan perkhidmatan",
+        "Cara memesan",
+        "Semakan kos"
+      ],
+      "summary": [
+        [
+          "Robinhood",
+          "Bangkok dan kawasan berdekatan",
+          "Pilih makanan, pilihan tambahan dan alamat penghantaran",
+          "Semak jumlah pada skrin bayaran"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "Aplikasi mana yang diperlukan?",
+          "paragraphs": [
+            "Penerangan rasmi aplikasi oleh pengendali menyebut restoran di Bangkok dan kawasan berdekatan. Semak restoran yang boleh menghantar ke lokasi semasa anda."
+          ],
+          "links": [
+            [
+              "Maklumat dan pemasangan aplikasi rasmi",
+              "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Memesan ke hotel",
+          "steps": [
+            [
+              "Semak alamat dan pin peta",
+              "Pastikan nama hotel, alamat dan pin peta sepadan, kemudian tanya kaunter penerimaan tentang tempat mengambil makanan."
+            ],
+            [
+              "Pilih makanan dan jenis pesanan",
+              "Pilih makanan serta pilihan tambahan, dan pastikan sama ada pesanan untuk penghantaran atau pengambilan sendiri di restoran."
+            ],
+            [
+              "Semak jumlah dan kaedah bayaran",
+              "Semak jumlah akhir termasuk harga makanan dan caj penghantaran sebelum memilih kaedah bayaran."
+            ],
+            [
+              "Ambil makanan di tempat yang dipersetujui",
+              "Ikut arahan dalam aplikasi dan pergi ke tempat pengambilan. Sediakan jumlah yang diperlukan jika membayar tunai."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Semak sebelum membayar",
+          "paragraphs": [
+            "Restoran dan kaedah bayaran yang tersedia bergantung pada akaun serta lokasi penghantaran. Selain harga makanan, semak caj penghantaran, pilihan tambahan dan syarat diskaun.",
+            "Tanya kaunter hotel dahulu tentang tempat mengambil makanan. Pastikan alamat hotel dan pin peta dalam aplikasi tepat."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Makanan tidak lengkap atau masalah pesanan",
+          "paragraphs": [
+            "Simpan rekod pesanan serta foto makanan yang bermasalah dan resit, kemudian hubungi sokongan melalui pesanan tersebut. Kelayakan bayaran balik dan prosesnya bergantung pada status pesanan."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bolehkah penghantaran sampai ke bilik hotel?",
+          "Bergantung pada peraturan pengambilan makanan hotel. Tanya kaunter penerimaan di mana anda perlu mengambilnya."
+        ],
+        [
+          "Bolehkah saya membayar dengan kad luar negara?",
+          "Semak kaedah yang tersedia pada skrin bayaran akaun anda. Panduan ini tidak menjamin semua kad luar negara boleh digunakan."
+        ]
+      ],
+      "links": [
+        [
+          "Bandingkan aplikasi penghantaran makanan",
+          "/ms/food-delivery/"
+        ],
+        [
+          "Panduan memesan GrabFood",
+          "/ms/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Penerangan aplikasi rasmi oleh pengendali",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ]
+    }
+  },
+  "deferredRelatedLinks": [
+    {
+      "guideId": "food-delivery",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    },
+    {
+      "guideId": "grabfood",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    }
+  ]
+}

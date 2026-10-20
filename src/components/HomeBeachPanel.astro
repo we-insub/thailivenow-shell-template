@@ -1,0 +1,19 @@
+---
+import {getBeachLocale} from '../lib/beach-localization.mjs';
+import {beachHomeUI} from '../lib/beach-home-ui.mjs';
+const {locale='ko'}=Astro.props;
+const {beaches,cities}=getBeachLocale(locale),ui=beachHomeUI(locale);
+const records=beaches.filter(b=>b.pilot);
+const model={ui,beaches:records.map(b=>({id:b.id,cityId:b.cityId,city:b.city,province:b.province,area:b.area,name:b.name,english:b.english,thai:b.thai,pilot:b.pilot,coordinateVerified:b.coordinateVerified,lat:b.lat,lng:b.lng,intro:b.intro}))};
+---
+<script is:inline type="application/json" data-locale-beach-model set:html={JSON.stringify(model).replaceAll('<','\u003c')}/>
+<div id="home-beach-panel" class="home-beach-panel" hidden>
+ <h2>{ui.title}</h2><p>{ui.panelIntro}</p>
+ <nav aria-label={ui.filter}><button type="button" data-beach-filter="" aria-pressed="true">{ui.all}</button>{cities.map(c=><button type="button" data-beach-filter={c.id} aria-pressed="false">{c.name}</button>)}</nav>
+ <p><a href={`/${locale}/beaches/`}>{ui.hub} →</a></p><p id="home-beach-count" role="status">{ui.count.replace('{n}',String(records.length))}</p>
+ <div>{records.map(b=><article data-beach-result={b.id}><small>{b.city} · {b.english}</small><h3><a href={`/${locale}/beaches/${b.id}/`}>{b.name}</a></h3><p>{b.intro}</p><a href={`/${locale}/beaches/${b.id}/`}>{ui.detail} →</a><button type="button" data-select-beach={b.id}>{ui.locate}</button></article>)}</div>
+ <p><a href={`/${locale}/directory/`}>{ui.cameraList} →</a></p>
+</div>
+<style>
+.home-beach-panel{padding:22px}.home-beach-panel h2{font-size:24px;margin:0 0 12px}.home-beach-panel p{font-size:14px;line-height:1.9}.home-beach-panel nav{display:flex;gap:8px;flex-wrap:wrap}.home-beach-panel button{background:#fff;border:1px solid #dce5e8;color:#247b85;border-radius:18px;padding:8px 12px;cursor:pointer}.home-beach-panel nav button[aria-pressed=true]{background:#247b85;color:#fff}.home-beach-panel article{border:1px solid #dce5e8;border-radius:12px;padding:18px;margin:16px 0;background:white}.home-beach-panel small{font-size:11px;color:#627787}.home-beach-panel h3{font-size:20px;margin:8px 0}.home-beach-panel a{color:#247b85}.home-beach-panel article>button{display:block;margin-top:12px}.home-beach-panel [hidden]{display:none!important}.home-beach-panel[hidden]{display:none!important}
+</style>

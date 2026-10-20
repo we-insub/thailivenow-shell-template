@@ -1,1 +1,2723 @@
-[]
+[
+  {
+    "id": "patong",
+    "city": "푸켓",
+    "name": "파통 해변",
+    "english": "Patong Beach",
+    "thai": "หาดป่าตอง",
+    "intro": "바다를 보며 쉬다가 식사와 쇼핑도 즐기고 싶다면 파통 해변으로 가보세요. 푸켓 서쪽의 굽은 만을 따라 모래사장이 펼쳐지고, 뒤쪽에는 호텔과 식당, 상점이 모여 있어요. 친구나 연인과 해안을 걷고 식사하며 하루를 보내기 좋은 곳이에요. 다른 관광지로 서둘러 떠날 일이 없는 날, 바다와 번화가를 오가며 느긋하게 즐겨보세요.",
+    "cityId": "phuket",
+    "province": "Phuket",
+    "area": "푸껫",
+    "lat": 7.896632,
+    "lng": 98.2954295,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/relation/14018589",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "파통 해변 | 푸켓 바닷가 산책·식사·물놀이 안내",
+    "description": "푸켓 서쪽 파통 해변의 굽은 만과 번화가를 함께 즐겨보세요. 육로 접근 방법과 수상 기구 구역, 현장 깃발에 따른 물놀이 안내를 정리했어요.",
+    "experience": [
+      "파통은 굽은 만을 따라 모래사장이 이어지고 그 뒤로 번화가가 펼쳐져요. 친구나 연인과 해안을 걷다가 식사하러 나와보세요. 호텔과 식당, 상점이 가까이 모여 있어서 바다를 보고 난 뒤에도 멀리 이동하지 않고 식사와 쇼핑을 즐길 수 있어요.",
+      "파통은 번화가와 맞닿아 있어 활기 있는 바닷가를 좋아하는 친구나 연인과 방문하기 좋아요. 모래사장을 걷고, 식사한 뒤 다시 바다를 보러 나오는 식으로 하루를 보내보세요. 물놀이도 할 계획이라면 배와 수상 기구가 다니는 곳을 피해 현장에서 허용한 구역을 이용해주세요. 바다가 잔잔해 보여도 깃발과 구조요원 안내를 따라야 해요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "푸켓 본섬 서쪽에 있어 차로 갈 수 있어요. 다른 섬으로 들어가는 배를 탈 필요는 없어요.",
+        "sourceUrl": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "물놀이는 배와 수상 기구가 다니지 않는 구역에서 해주세요. 바다에 들어가기 전에는 해변의 깃발과 구조요원 안내를 따라주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 식당·상점",
+        "value": "해변 뒤로 호텔과 식당, 상점이 모여 있어요. 모래사장에서 쉬다가 식사나 쇼핑을 즐길 수 있어요.",
+        "sourceUrl": "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "차로 가신다면 목적지를 “Patong Beach”로 검색해주세요. 해변이 길게 이어져 있으니 기사님께 묵는 숙소나 만나기로 한 식당 이름도 함께 알려주세요. 아래 길찾기 링크에서 목적지를 찾고 숙소와 어느 정도 떨어져 있는지 보실 수 있어요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/patong-beach/",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Patong%20Beach%2C%20%ED%91%B8%EC%BC%93%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "파통은 누구와 가면 좋을까요?",
+        "친구나 연인과 바닷가를 걷고 식사와 쇼핑을 함께 즐기기 좋아요. 해변 뒤쪽에 호텔과 식당, 상점이 모여 있어 산책을 마친 뒤에도 가까운 곳에서 시간을 보낼 수 있어요. 다른 관광지로 서둘러 떠날 일이 없는 날 방문하시면 좀 더 느긋하게 즐기실 수 있겠죠."
+      ],
+      [
+        "파통 해변까지 배를 타야 하나요?",
+        "아니요. 파통은 푸켓 본섬 서쪽에 있어 차로 갈 수 있어요. 다른 섬으로 가는 보트 투어를 예약하지 않아도 방문할 수 있답니다. 차량을 이용하실 때는 “Patong Beach”와 함께 숙소나 만나기로 한 식당 이름을 알려주세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Long-tail_boats_on_Patong_Beach_Phuket.jpg/1280px-Long-tail_boats_on_Patong_Beach_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "파통 해변의 해안 풍경",
+        "caption": "파통 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-tail_boats_on_Patong_Beach_Phuket.jpg",
+        "credit": "Arnaud-Victor Monteux",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/1280px-Patong_Beach_Phuket_November_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "파통 해변의 해안 풍경",
+        "caption": "파통 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patong_Beach_Phuket_November_2012.jpg",
+        "credit": "Arnaud-Victor Monteux",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4608,
+        "height": 3456
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.phuket.go.th/eng/Attractions-Beaches.php"
+      ],
+      [
+        "TAT 공식 해변·접근 안내",
+        "https://www.thailandtravel.or.jp/patong-beach/"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/relation/14018589"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "바다를 보며 쉬다가 식사와 쇼핑도 즐기고 싶다면 파통 해변으로 가보세요. 푸켓 서쪽의 굽은 만을 따라 모래사장이 펼쳐지고, 뒤쪽에는 호텔과 식당, 상점이 모여 있어요. 친구나 연인과 해안을 걷고 식사하며 하루를 보내기 좋은 곳이에요. 다른 관광지로 서둘러 떠날 일이 없는 날, 바다와 번화가를 오가며 느긋하게 즐겨보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "파통은 굽은 만을 따라 모래사장이 이어지고 그 뒤로 번화가가 펼쳐져요. 친구나 연인과 해안을 걷다가 식사하러 나와보세요. 호텔과 식당, 상점이 가까이 모여 있어서 바다를 보고 난 뒤에도 멀리 이동하지 않고 식사와 쇼핑을 즐길 수 있어요. 파통은 번화가와 맞닿아 있어 활기 있는 바닷가를 좋아하는 친구나 연인과 방문하기 좋아요. 모래사장을 걷고, 식사한 뒤 다시 바다를 보러 나오는 식으로 하루를 보내보세요. 물놀이도 할 계획이라면 배와 수상 기구가 다니는 곳을 피해 현장에서 허용한 구역을 이용해주세요. 바다가 잔잔해 보여도 깃발과 구조요원 안내를 따라야 해요.",
+      "tradeoff": "물놀이는 배와 수상 기구가 다니지 않는 구역에서 해주세요. 바다에 들어가기 전에는 해변의 깃발과 구조요원 안내를 따라주세요.",
+      "factEvidence": "https://www.phuket.go.th/eng/Attractions-Beaches.php",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [
+      "phuket-patong-tower",
+      "phuket-patong-panorama"
+    ],
+    "experienceTitles": [
+      "바닷가를 걷고 식사와 쇼핑도 즐겨보세요",
+      "해변에서 하루를 느긋하게 보내고 싶은 분께"
+    ]
+  },
+  {
+    "id": "karon",
+    "city": "푸켓",
+    "name": "카론 해변",
+    "english": "Karon Beach",
+    "thai": "หาดกะรน",
+    "intro": "길게 펼쳐진 흰 모래사장을 걸으며 쉬고 싶다면 카론 해변으로 가보세요. 카타 북쪽에 있는 푸켓 서해안의 해변으로, 넓게 열린 바다와 긴 해안이 눈앞에 이어져요. 연인이나 가족과 나란히 걸으며 바다를 보고 싶은 날에 어울려요. 산책을 마친 뒤에는 주변 식당에서 식사를 하며 해변에서의 시간을 이어가보세요.",
+    "cityId": "phuket",
+    "province": "Phuket",
+    "area": "푸껫",
+    "lat": 7.8439575,
+    "lng": 98.2934247,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/134394729",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "카론 해변 | 긴 모래사장 산책·가는 방법",
+    "description": "푸켓 카론 야이의 긴 흰 모래사장을 걸어보세요. 카론 노이와의 출입 조건 차이, 실제 목적지 찾기와 물놀이 주의점을 안내해요.",
+    "experience": [
+      "카론에서는 길게 이어지는 흰 모래사장을 천천히 걸어보세요. 걸음을 옮기며 넓게 열린 바다와 긴 해안을 바라볼 수 있어요. 연인이나 가족과 이야기를 나누며 걷고 싶은 날에 추천해요. 관광지를 많이 돌아다니기보다 산책을 마친 뒤 주변 식당에서 식사하며 여유롭게 보내셔도 좋겠죠.",
+      "카론 주변에는 식당과 상점, 숙박시설이 있어요. 숙소와 가까운 모래사장을 걷고 식사하러 나오는 하루를 보내보세요. 다만 해변이 길어서 같은 Karon Beach를 검색해도 숙소와 먼 곳에 도착할 수 있어요. 차량을 이용하신다면 숙소나 방문할 식당 이름까지 기사님께 알려주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "카론은 푸켓 서쪽, 카타 북쪽에 있어 차로 갈 수 있어요. 길게 펼쳐진 모래사장은 카론 야이예요. 북쪽 카론 노이는 호텔 투숙객 출입 구역으로 이용 조건이 달라요.",
+        "sourceUrl": "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "파도가 높은 날에는 수영 대신 모래사장을 걸으며 바다를 즐겨주세요. 바다가 넓게 열려 있어도 물결은 날마다 달라져요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 식당·상점",
+        "value": "해변 주변에 식당과 상점, 숙박시설이 있어요. 모래사장을 걷고 난 뒤 근처에서 식사를 하며 쉬어가셔도 좋아요.",
+        "sourceUrl": "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "차량 목적지는 “Karon Beach”로 검색해주세요. 해변 북쪽과 남쪽 모두 같은 이름을 쓰므로 기사님께 묵는 숙소나 방문할 식당 이름도 함께 알려주세요. 남쪽 카타 해변도 둘러보실 계획이라면 카론에서 산책을 마친 뒤 Kata Beach로 이동하시면 돼요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/karon-beach/",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Karon%20Beach%2C%20%ED%91%B8%EC%BC%93%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "카론과 카타는 같은 해변인가요?",
+        "아니요. 카론은 카타 북쪽에 있는 별도의 해변이에요. 긴 카론 모래사장은 Karon Beach로 검색하시면 돼요. 카타도 둘러보신다면 Kata Beach를 따로 검색해서 이동해주세요."
+      ],
+      [
+        "카론 노이에도 자유롭게 들어갈 수 있나요?",
+        "북쪽 카론 노이는 호텔 투숙객 출입 구역이에요. 카론 야이의 긴 모래사장과는 이용 조건이 달라요. 카론 노이를 방문하고 싶으시다면 해당 호텔의 출입 조건을 먼저 알아보세요."
+      ],
+      [
+        "카론에서는 무엇을 하며 보내면 좋을까요?",
+        "모래사장을 따라 걷고 바다를 바라보며 쉬는 시간을 가져보세요. 주변 식당에서 식사를 이어갈 수 있어, 산책과 식사를 함께 즐기고 싶은 분께 어울려요. 파도가 높거나 수영이 금지된 날에는 물놀이 대신 해변을 걷는 일정으로 바꿔주세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Karon_Beach%2CPhuket_%2821%29.jpg/1280px-Karon_Beach%2CPhuket_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "카론 해변의 해안 풍경",
+        "caption": "카론 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karon_Beach,Phuket_(21).jpg",
+        "credit": "กสิณธร ราชโอรส",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4592,
+        "height": 3448
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Sunset_at_Karon_Beach%2C_Phuket%2C_Thailand.JPG/1280px-Sunset_at_Karon_Beach%2C_Phuket%2C_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "카론 해변의 해안 풍경",
+        "caption": "카론 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Karon_Beach,_Phuket,_Thailand.JPG",
+        "credit": "Pather alexiy",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 4272,
+        "height": 2848
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php"
+      ],
+      [
+        "TAT 공식 해변·접근 안내",
+        "https://www.thailandtravel.or.jp/karon-beach/"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/134394729"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "길게 펼쳐진 흰 모래사장을 걸으며 쉬고 싶다면 카론 해변으로 가보세요. 카타 북쪽에 있는 푸켓 서해안의 해변으로, 넓게 열린 바다와 긴 해안이 눈앞에 이어져요. 연인이나 가족과 나란히 걸으며 바다를 보고 싶은 날에 어울려요. 산책을 마친 뒤에는 주변 식당에서 식사를 하며 해변에서의 시간을 이어가보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "카론에서는 길게 이어지는 흰 모래사장을 천천히 걸어보세요. 걸음을 옮기며 넓게 열린 바다와 긴 해안을 바라볼 수 있어요. 연인이나 가족과 이야기를 나누며 걷고 싶은 날에 추천해요. 관광지를 많이 돌아다니기보다 산책을 마친 뒤 주변 식당에서 식사하며 여유롭게 보내셔도 좋겠죠. 카론 주변에는 식당과 상점, 숙박시설이 있어요. 숙소와 가까운 모래사장을 걷고 식사하러 나오는 하루를 보내보세요. 다만 해변이 길어서 같은 Karon Beach를 검색해도 숙소와 먼 곳에 도착할 수 있어요. 차량을 이용하신다면 숙소나 방문할 식당 이름까지 기사님께 알려주세요.",
+      "tradeoff": "파도가 높은 날에는 수영 대신 모래사장을 걸으며 바다를 즐겨주세요. 바다가 넓게 열려 있어도 물결은 날마다 달라져요.",
+      "factEvidence": "https://www.phuket.go.th/eng/Beaches-Karon%20Beach.php",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [
+      "phuket-karon-marina"
+    ],
+    "experienceTitles": [
+      "긴 모래사장을 천천히 걸어보세요",
+      "숙소와 가까운 구간에서 여유롭게"
+    ]
+  },
+  {
+    "id": "kata",
+    "city": "푸켓",
+    "name": "카타 해변",
+    "english": "Kata Beach",
+    "thai": "หาดกะตะ",
+    "intro": "푸켓 서해안에서 굽은 만과 모래사장을 즐기고 싶다면 카타 해변으로 가보세요. 카론 남쪽에 있는 카타 야이 해변으로, 주변에는 호텔과 식당, 바, 기념품점이 모여 있어요. 연인이나 친구와 바닷가에서 쉬다가 식사하러 나오고 싶은 날에 어울려요. 모래사장을 천천히 걸으며 만을 따라 펼쳐지는 바다를 즐겨보세요.",
+    "cityId": "phuket",
+    "province": "Phuket",
+    "area": "푸껫",
+    "lat": 7.81936,
+    "lng": 98.29805,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/relation/4235947",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "카타 해변 | 카타 야이 풍경·접근·물놀이 안내",
+    "description": "푸켓 카타 야이의 굽은 만과 주변 식당을 함께 즐겨보세요. 카타 노이와 구분하는 방법, 해변 접근과 입수 전 살필 조건을 안내해요.",
+    "experience": [
+      "카타는 카론 남쪽에 있는 아담한 만이에요. 친구나 연인과 모래사장을 걸으며 굽은 해안과 바다를 즐겨보세요. 숙소 근처에서 바다를 보고 식사하며 느긋하게 시간을 보내고 싶은 날에 어울려요.",
+      "카타 야이 주변에는 호텔과 식당, 바, 기념품점이 있어요. 해변에서 쉬다가 식사하러 나오고, 주변 가게도 둘러보며 시간을 보내보세요. 남쪽 카타 노이는 별도 해변이니 친구와 만나거나 차량을 이용할 때는 Kata Beach와 Kata Noi Beach 중 어느 곳으로 가는지 알려주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "카타 야이는 푸켓 본섬 서쪽에 있어 차로 갈 수 있어요. 남쪽의 카타 노이는 별도 해변이에요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2003"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "수영할 때는 서핑이나 수상 기구가 움직이는 구역을 피해주세요. 바다에 들어갈 수 있는 구간은 당일 깃발과 현장 안내를 따라주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 식당·상점",
+        "value": "카타 야이 주변에는 호텔과 식당, 바, 기념품점이 있어요. 해변에서 쉬다가 식사하거나 가게를 둘러보며 시간을 보낼 수 있어요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2003"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "“Kata Beach”를 검색하면 카타 야이 해변을 찾을 수 있어요. 남쪽 카타 노이와는 다른 곳이니 예약한 숙소 이름도 함께 보세요. 아래 길찾기 링크에서 숙소와 모래사장 사이의 길을 찾을 수 있어요. 호텔 안을 통과해야 하는 길이라면 해당 호텔의 출입 조건을 따라주세요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/kata-beach/",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Kata%20Beach%2C%20%ED%91%B8%EC%BC%93%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "카타와 카타 노이는 같은 곳인가요?",
+        "아니요. 카타 야이라고도 부르는 카타 해변과 카타 노이는 다른 곳이에요. 카타 노이는 카타 야이 남쪽에 있어요. 차로 이동하실 때는 숙소 주소와 함께 Kata Beach 또는 Kata Noi Beach 중 어느 곳으로 가는지 알려주세요."
+      ],
+      [
+        "카론에서 카타를 함께 볼 수 있나요?",
+        "네. 카론 남쪽에 카타 해변이 있어 두 곳을 함께 둘러볼 수 있어요. 다만 하나로 이어진 모래사장은 아니니 두 해변 사이를 오갈 시간도 남겨두세요. 길찾기에서는 Karon Beach와 Kata Beach를 각각 검색하시면 돼요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kata_Beach%2C_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "카타 해변의 해안 풍경",
+        "caption": "카타 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kata_Beach,_Phuket.jpg",
+        "credit": "Ken Eckert",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 750,
+        "height": 1000
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/KATA_BEACH_1.jpg/1280px-KATA_BEACH_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "카타 야이 해변과 푸섬 풍경",
+        "caption": "2018년에 촬영한 카타 야이 해변과 푸섬 풍경이에요.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:KATA_BEACH_1.jpg",
+        "credit": "HutheMeow",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2003"
+      ],
+      [
+        "TAT 공식 해변·접근 안내",
+        "https://www.thailandtravel.or.jp/kata-beach/"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/relation/4235947"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "푸켓 서해안에서 굽은 만과 모래사장을 즐기고 싶다면 카타 해변으로 가보세요. 카론 남쪽에 있는 카타 야이 해변으로, 주변에는 호텔과 식당, 바, 기념품점이 모여 있어요. 연인이나 친구와 바닷가에서 쉬다가 식사하러 나오고 싶은 날에 어울려요. 모래사장을 천천히 걸으며 만을 따라 펼쳐지는 바다를 즐겨보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "카타는 카론 남쪽에 있는 아담한 만이에요. 친구나 연인과 모래사장을 걸으며 굽은 해안과 바다를 즐겨보세요. 숙소 근처에서 바다를 보고 식사하며 느긋하게 시간을 보내고 싶은 날에 어울려요. 카타 야이 주변에는 호텔과 식당, 바, 기념품점이 있어요. 해변에서 쉬다가 식사하러 나오고, 주변 가게도 둘러보며 시간을 보내보세요. 남쪽 카타 노이는 별도 해변이니 친구와 만나거나 차량을 이용할 때는 Kata Beach와 Kata Noi Beach 중 어느 곳으로 가는지 알려주세요.",
+      "tradeoff": "수영할 때는 서핑이나 수상 기구가 움직이는 구역을 피해주세요. 바다에 들어갈 수 있는 구간은 당일 깃발과 현장 안내를 따라주세요.",
+      "factEvidence": "https://www.thailandtourismdirectory.go.th/en/attraction/2003",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [
+      "phuket-kata-surf"
+    ],
+    "experienceTitles": [
+      "굽은 만을 바라보며 보내는 시간",
+      "해변과 식당을 오가는 느긋한 하루"
+    ]
+  },
+  {
+    "id": "pattaya",
+    "city": "파타야",
+    "name": "파타야 해변",
+    "english": "Pattaya Beach",
+    "thai": "หาดพัทยา",
+    "intro": "파타야 시내를 둘러보다 바다를 보고 싶다면 비치로드 앞 파타야 해변으로 가보세요. 굽은 만을 따라 모래사장이 이어지고, 주변에는 호텔과 식당, 쇼핑할 곳이 모여 있어요. 친구와 시내를 구경하거나 가족과 식사하러 나온 날 바닷가를 함께 걷기 좋아요. 식사 전후에 모래사장으로 나와 파타야의 바다를 즐겨보세요.",
+    "cityId": "pattaya",
+    "province": "Chon Buri",
+    "area": "파타야",
+    "lat": 12.9395319,
+    "lng": 100.8835218,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/149698464",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "파타야 해변 | 비치로드 산책·구간별 특징·가는 길",
+    "description": "파타야 시내 비치로드와 모래사장을 함께 둘러보세요. 북쪽과 중앙·남쪽의 차이, 좀티엔과의 위치 구분과 물놀이 주의점을 안내해요.",
+    "experience": [
+      "파타야에서는 비치로드를 따라 바다와 시내를 함께 둘러볼 수 있어요. 주변에 호텔과 식당, 쇼핑시설이 모여 있어 식사나 쇼핑을 마친 뒤 모래사장으로 나와 걷기 편해요. 친구나 가족과 식사하러 나온 날, 바다를 바라보며 잠시 쉬어가보세요.",
+      "차분하게 걷고 싶다면 해변 북쪽으로 가보세요. 식사와 쇼핑을 이어가고 싶다면 중앙·남쪽 주변을 둘러보셔도 좋아요. 행사나 방문 시간에 따라 분위기는 달라질 수 있어요. 물놀이를 하실 때는 배와 수상 기구가 다니는 구역을 피하고, 현장에서 허용한 구역을 이용해주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "파타야 시내 비치로드 앞에 있어 차로 갈 수 있어요. 남쪽의 좀티엔 해변이나 꼬리뻬에 있는 동명의 파타야 해변과는 다른 곳이에요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1691"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "배와 수상 기구가 오가는 구역에서는 수영하지 마세요. 물놀이는 현장에서 허용한 구역을 이용해주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 시설·대여",
+        "value": "비치로드 주변에 호텔과 식당, 쇼핑시설이 모여 있어요. 해변 의자나 대여 서비스를 이용할 때는 이용 요금과 조건을 먼저 물어보세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1691"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "목적지는 “Pattaya Beach, Chon Buri”로 검색해주세요. 비치로드를 따라 해변이 길게 이어지므로 기사님께 숙소나 만나기로 한 건물 이름도 알려주세요. 북쪽에서 산책할지, 중앙·남쪽에서 식사와 쇼핑을 즐길지 정하신 뒤 가까운 곳에서 내리시면 돼요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1691",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Pattaya%20Beach%2C%20%ED%8C%8C%ED%83%80%EC%95%BC%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "파타야 해변과 좀티엔은 같은 곳인가요?",
+        "아니요. 파타야 해변은 시내 비치로드 앞에 있고, 좀티엔은 그 남쪽의 별도 해변이에요. 좀티엔으로 가실 때는 Jomtien Beach로 검색하시면 돼요. 파타야 시내에서 식사와 쇼핑을 즐기며 바다도 보고 싶으시다면 비치로드 앞 해변으로 나와보세요."
+      ],
+      [
+        "조금 차분한 곳에서 걷고 싶다면 어디를 볼까요?",
+        "파타야 해변 북쪽으로 가보세요. 중앙·남쪽에 비해 비교적 차분하게 걷기 좋은 구간이에요. 다만 행사나 방문 시간에 따라 분위기는 달라질 수 있어요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg/1280px-Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "파타야 해변의 해안 풍경",
+        "caption": "파타야 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pattaya_Beach,_Pattaya_Bay,_Thailand.jpg",
+        "credit": "Vyacheslav Argenberg",
+        "rights": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "width": 3882,
+        "height": 2667
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Pattaya_Beach%2C_Trees%2C_Thailand.jpg/1280px-Pattaya_Beach%2C_Trees%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "파타야 해변의 해안 풍경",
+        "caption": "파타야 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pattaya_Beach,_Trees,_Thailand.jpg",
+        "credit": "Vyacheslav Argenberg",
+        "rights": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "width": 4000,
+        "height": 2667
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1691"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/149698464"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "파타야 시내를 둘러보다 바다를 보고 싶다면 비치로드 앞 파타야 해변으로 가보세요. 굽은 만을 따라 모래사장이 이어지고, 주변에는 호텔과 식당, 쇼핑할 곳이 모여 있어요. 친구와 시내를 구경하거나 가족과 식사하러 나온 날 바닷가를 함께 걷기 좋아요. 식사 전후에 모래사장으로 나와 파타야의 바다를 즐겨보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "파타야에서는 비치로드를 따라 바다와 시내를 함께 둘러볼 수 있어요. 주변에 호텔과 식당, 쇼핑시설이 모여 있어 식사나 쇼핑을 마친 뒤 모래사장으로 나와 걷기 편해요. 친구나 가족과 식사하러 나온 날, 바다를 바라보며 잠시 쉬어가보세요. 차분하게 걷고 싶다면 해변 북쪽으로 가보세요. 식사와 쇼핑을 이어가고 싶다면 중앙·남쪽 주변을 둘러보셔도 좋아요. 행사나 방문 시간에 따라 분위기는 달라질 수 있어요. 물놀이를 하실 때는 배와 수상 기구가 다니는 구역을 피하고, 현장에서 허용한 구역을 이용해주세요.",
+      "tradeoff": "배와 수상 기구가 오가는 구역에서는 수영하지 마세요. 물놀이는 현장에서 허용한 구역을 이용해주세요.",
+      "factEvidence": "https://www.thailandtourismdirectory.go.th/en/attraction/1691",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [
+      "pattaya-beach-panorama"
+    ],
+    "experienceTitles": [
+      "비치로드를 따라 바다와 시내를 함께",
+      "북쪽과 중앙·남쪽 중 어디에서 보낼까요"
+    ]
+  },
+  {
+    "id": "jomtien",
+    "city": "파타야",
+    "name": "좀티엔 해변",
+    "english": "Jomtien Beach",
+    "thai": "หาดจอมเทียน",
+    "intro": "파타야에서 길게 펼쳐진 해안을 걷고 싶다면 남쪽의 좀티엔 해변으로 가보세요. 바닷가 도로를 따라 숙박시설과 식당이 이어져, 해변에서 쉬다가 식사하는 일정에 어울려요. 시내 번화가와는 다른 해안에서 가족이나 연인과 느긋하게 시간을 보내고 싶은 분께 추천해요. 숙소와 가까운 모래사장부터 천천히 걸어보세요.",
+    "cityId": "pattaya",
+    "province": "Chon Buri",
+    "area": "파타야",
+    "lat": 12.8772661,
+    "lng": 100.8843719,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/1297672173",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "좀티엔 해변 | 파타야 남쪽 해안 산책·가는 방법",
+    "description": "파타야 남쪽 좀티엔의 긴 해안을 걸으며 쉬어보세요. 실제 해변 목적지와 버스터미널을 구분하고, 접근 방법과 수상 활동 구역을 안내해요.",
+    "experience": [
+      "좀티엔에서는 길게 뻗은 모래사장을 따라 걸으며 바다를 즐겨보세요. 숙소와 가까운 구간에서 산책하고 바닷가 도로 주변 식당에서 식사를 이어갈 수 있어요. 친구나 가족과 느긋한 하루를 보내고 싶은 날이라면 다른 곳으로 이동할 일정을 많이 넣지 않고 해변에서 쉬어가셔도 좋아요.",
+      "좀티엔은 파타야 해변 남쪽으로 길게 펼쳐진 해안이에요. 바닷가 도로 주변에 식당과 숙소가 있어 산책 뒤 식사를 이어갈 수 있어요. 구간마다 분위기와 가까운 시설은 다르고, 수상 활동이 있는 곳에서는 배와 기구가 다니는 구역을 피해 물놀이해주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "좀티엔은 파타야 남쪽에 있는 별도 해변으로 차로 갈 수 있어요. 좀티엔 버스터미널과 해변은 다른 곳이에요.",
+        "sourceUrl": "https://www.tourismthailand.org/Attraction/jomtien-beach"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "수상 기구가 오가는 곳을 피하고 현장에서 허용한 구역에서 물놀이해주세요. 해변에 도착하면 그날의 깃발과 입수 안내부터 살펴주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 숙소·식당",
+        "value": "바닷가 도로를 따라 숙박시설과 식당이 있어요. 숙소에서 가까운 모래사장을 걷고 식사하러 나오기 좋아요. 해변이 길어 머무는 구간마다 가까운 식당과 시설은 달라요.",
+        "sourceUrl": "https://www.tourismthailand.org/Attraction/jomtien-beach"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "목적지는 “Jomtien Beach”로 검색해주세요. 지도에서 좀티엔 버스터미널이 아닌 해안 쪽인지 보시고, 기사님께 숙소나 만나기로 한 식당 이름을 알려주세요. 파타야 비치로드도 함께 둘러보신다면 두 해변 사이를 오갈 시간을 남겨두세요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/jomtien-beach/",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Jomtien%20Beach%2C%20%ED%8C%8C%ED%83%80%EC%95%BC%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "좀티엔은 어떤 분께 어울리나요?",
+        "파타야 시내를 둘러본 뒤 다른 해안에서 느긋하게 쉬고 싶은 분께 추천해요. 긴 모래사장을 걷고 바닷가 도로 주변에서 식사도 즐길 수 있어요. 해변 가까운 숙소에 머문다면 멀리 나가지 않는 날에도 산책과 식사를 함께 즐기기 좋겠죠. 구간마다 분위기와 가까운 시설은 달라요."
+      ],
+      [
+        "좀티엔 버스터미널에서 바로 해변인가요?",
+        "버스터미널과 좀티엔 해변은 다른 곳이에요. 해변으로 가시려면 Jomtien Beach를 검색하고 묵는 숙소나 만나기로 한 식당 이름을 함께 알려주세요. 버스터미널에 도착한 뒤에도 해변까지 이동해야 해요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Jomtien_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "좀티엔 해변의 해안 풍경",
+        "caption": "좀티엔 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jomtien_Beach_1.jpg",
+        "credit": "Pescov",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 1280,
+        "height": 719
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Jomtien_beach_03.jpg/1280px-Jomtien_beach_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "좀티엔 해변의 해안 풍경",
+        "caption": "좀티엔 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jomtien_beach_03.jpg",
+        "credit": "Slyronit",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.tourismthailand.org/Attraction/jomtien-beach"
+      ],
+      [
+        "TAT 공식 해변·접근 안내",
+        "https://www.thailandtravel.or.jp/jomtien-beach/"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/1297672173"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "파타야에서 길게 펼쳐진 해안을 걷고 싶다면 남쪽의 좀티엔 해변으로 가보세요. 바닷가 도로를 따라 숙박시설과 식당이 이어져, 해변에서 쉬다가 식사하는 일정에 어울려요. 시내 번화가와는 다른 해안에서 가족이나 연인과 느긋하게 시간을 보내고 싶은 분께 추천해요. 숙소와 가까운 모래사장부터 천천히 걸어보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "좀티엔에서는 길게 뻗은 모래사장을 따라 걸으며 바다를 즐겨보세요. 숙소와 가까운 구간에서 산책하고 바닷가 도로 주변 식당에서 식사를 이어갈 수 있어요. 친구나 가족과 느긋한 하루를 보내고 싶은 날이라면 다른 곳으로 이동할 일정을 많이 넣지 않고 해변에서 쉬어가셔도 좋아요. 좀티엔은 파타야 해변 남쪽으로 길게 펼쳐진 해안이에요. 바닷가 도로 주변에 식당과 숙소가 있어 산책 뒤 식사를 이어갈 수 있어요. 구간마다 분위기와 가까운 시설은 다르고, 수상 활동이 있는 곳에서는 배와 기구가 다니는 구역을 피해 물놀이해주세요.",
+      "tradeoff": "수상 기구가 오가는 곳을 피하고 현장에서 허용한 구역에서 물놀이해주세요. 해변에 도착하면 그날의 깃발과 입수 안내부터 살펴주세요.",
+      "factEvidence": "https://www.tourismthailand.org/Attraction/jomtien-beach",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "길게 뻗은 해안을 따라 산책해보세요",
+      "파타야 시내와 다른 해변을 찾을 때"
+    ]
+  },
+  {
+    "id": "chaweng",
+    "city": "코사무이",
+    "name": "차웽 해변",
+    "english": "Chaweng Beach",
+    "thai": "หาดเฉวง",
+    "intro": "코사무이에서 흰 모래사장과 길게 굽은 바다를 즐기고 싶다면 차웽 해변으로 가보세요. 섬 동쪽에 자리한 해변으로, 가까운 숙소에 머물며 바닷가에서 쉬기 좋은 곳이에요. 연인이나 가족과 모래사장을 걷다가 바다를 바라보며 잠시 쉬어보세요. 다른 곳으로 이동하지 않는 날에는 해변에서 느긋한 하루를 보내셔도 좋겠죠.",
+    "cityId": "samui",
+    "province": "Surat Thani",
+    "area": "코사무이",
+    "lat": 9.5323852,
+    "lng": 100.0675391,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.thailandtourismdirectory.go.th/en/attraction/2134",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "차웽 해변 | 코사무이 흰 모래사장·숙소 위치·가는 길",
+    "description": "코사무이 동쪽 차웽의 흰 모래사장과 굽은 해안을 즐겨보세요. 차웽 노이와의 구분, 섬 안 도로 접근과 물놀이 안내를 담았어요.",
+    "experience": [
+      "차웽에서는 길게 이어지는 흰 모래사장을 걸으며 굽은 해안을 즐겨보세요. 연인이나 가족과 걷다가 마음에 드는 풍경 앞에서 잠시 쉬어가셔도 좋아요. 숙소 앞에서 쉬는 날도 두고, 다른 날에는 해변의 다른 구간까지 둘러보며 여유롭게 지내보세요.",
+      "차웽은 해변이 길게 이어져 숙소마다 바닷가로 나가는 길이 달라요. 숙소를 예약할 때 해변까지 어떻게 나가는지 물어보세요. 남쪽 차웽 노이에 있는 숙소라면 차웽과는 다른 해변에 머물게 돼요. 물놀이를 하실 때는 숙소와 가까운 곳에서도 수상 기구가 다니는 구역을 피해 수영해주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "코사무이에 도착한 뒤 섬 안 도로를 이용해 차웽으로 이동해요. 남쪽의 차웽 노이는 별도 해변이에요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2134"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "물놀이는 현장에서 허용한 구역을 이용하고 수상 기구가 다니는 곳은 피해주세요. 해변의 깃발과 구조요원 안내를 따라주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "숙소와 해변",
+        "value": "차웽에는 해변을 따라 숙박시설이 발달해 있어요. 예약한 숙소에 바닷가로 나가는 길을 물어보시면 산책이나 물놀이를 나서기 편해요. 숙소 시설은 예약한 숙박 조건에 따라 이용해주세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2134"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "섬 안에서는 “Chaweng Beach”를 목적지로 검색해주세요. 해변이 길게 이어지므로 숙소나 만나기로 한 장소까지 알려주시면 돼요. 예약한 숙소가 남쪽의 차웽 노이에 있다면 숙소 이름으로 검색해주세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2134",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Chaweng%20Beach%2C%20%EC%BD%94%EC%82%AC%EB%AC%B4%EC%9D%B4%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "차웽과 차웽 노이는 같은 해변인가요?",
+        "아니요. 차웽 노이는 차웽 남쪽의 별도 해변이에요. 숙소 이름과 주소를 함께 보시고 어느 해변에 머무는지 알아두세요. 차로 가실 때도 숙소 이름을 알려주시면 다른 해변으로 가는 일을 줄일 수 있어요."
+      ],
+      [
+        "차웽에서는 어떻게 이동하면 되나요?",
+        "코사무이에 도착한 뒤 섬 안 도로를 이용해 차웽으로 이동해요. “Chaweng Beach”와 함께 숙소나 만나기로 한 장소를 목적지로 알려주세요. 해변이 길게 이어져 있어 장소 이름까지 알려주시면 도착한 뒤 만나기 편해요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Chaweng-beach_koh_Samui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "차웽 해변의 해안 풍경",
+        "caption": "차웽 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaweng-beach_koh_Samui.jpg",
+        "credit": "Jacques Herremans",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chaweng_Beach%2C_Koh_Samui_%2827953535942%29.jpg/1280px-Chaweng_Beach%2C_Koh_Samui_%2827953535942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "차웽 해변의 해안 풍경",
+        "caption": "차웽 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaweng_Beach,_Koh_Samui_(27953535942).jpg",
+        "credit": "Damian Moore",
+        "rights": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "width": 5458,
+        "height": 3448
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2134"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "공식 자료의 위치",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2134"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "코사무이에서 흰 모래사장과 길게 굽은 바다를 즐기고 싶다면 차웽 해변으로 가보세요. 섬 동쪽에 자리한 해변으로, 가까운 숙소에 머물며 바닷가에서 쉬기 좋은 곳이에요. 연인이나 가족과 모래사장을 걷다가 바다를 바라보며 잠시 쉬어보세요. 다른 곳으로 이동하지 않는 날에는 해변에서 느긋한 하루를 보내셔도 좋겠죠.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "차웽에서는 길게 이어지는 흰 모래사장을 걸으며 굽은 해안을 즐겨보세요. 연인이나 가족과 걷다가 마음에 드는 풍경 앞에서 잠시 쉬어가셔도 좋아요. 숙소 앞에서 쉬는 날도 두고, 다른 날에는 해변의 다른 구간까지 둘러보며 여유롭게 지내보세요. 차웽은 해변이 길게 이어져 숙소마다 바닷가로 나가는 길이 달라요. 숙소를 예약할 때 해변까지 어떻게 나가는지 물어보세요. 남쪽 차웽 노이에 있는 숙소라면 차웽과는 다른 해변에 머물게 돼요. 물놀이를 하실 때는 숙소와 가까운 곳에서도 수상 기구가 다니는 구역을 피해 수영해주세요.",
+      "tradeoff": "물놀이는 현장에서 허용한 구역을 이용하고 수상 기구가 다니는 곳은 피해주세요. 해변의 깃발과 구조요원 안내를 따라주세요.",
+      "factEvidence": "https://www.thailandtourismdirectory.go.th/en/attraction/2134",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "흰 모래사장과 굽은 해안을 즐겨보세요",
+      "해변에 머무는 여행이라면 숙소 위치부터"
+    ]
+  },
+  {
+    "id": "lamai",
+    "city": "코사무이",
+    "name": "라마이 해변",
+    "english": "Lamai Beach",
+    "thai": "หาดละไม",
+    "intro": "코사무이에서 야자수와 굽은 모래사장을 바라보며 쉬고 싶다면 라마이 해변으로 가보세요. 섬 동쪽, 차웽 남쪽에 있는 해변으로 주변에 숙박시설과 식당이 자리해요. 연인이나 가족과 해안을 걷고 식사하며 여유롭게 보내고 싶은 날에 어울려요. 물놀이를 하지 않더라도 야자수가 이어지는 바닷가에서 느긋한 시간을 즐겨보세요.",
+    "cityId": "samui",
+    "province": "Surat Thani",
+    "area": "코사무이",
+    "lat": 9.4625485,
+    "lng": 100.0450339,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/104151569",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "라마이 해변 | 야자수 해안 산책·수심 주의·가는 방법",
+    "description": "코사무이 라마이의 야자수 해안을 걷고 식사를 즐겨보세요. 차웽과의 위치 차이, 섬 안 이동과 일부 구간의 깊은 수심·강한 파도를 안내해요.",
+    "experience": [
+      "라마이에서는 굽은 모래사장과 야자수가 이어지는 해안 풍경을 즐길 수 있어요. 연인이나 가족과 바다를 보며 걷고, 산책을 마친 뒤 주변 식당에서 식사해보세요. 차웽과 라마이를 모두 둘러보고 싶으시다면 숙소를 예약할 때 두 해변 사이를 오가는 길도 함께 찾아보시면 좋아요.",
+      "라마이는 일부 구간의 수심이 깊고 파도가 강할 수 있어요. 아이와 함께라면 모래사장을 걷고 주변에서 식사하는 시간을 넉넉하게 즐겨보세요. 수영을 하실 때는 현장에서 허용한 구역을 이용하고 아이가 멀리 들어가지 않도록 살펴주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "라마이는 코사무이 동쪽, 차웽 남쪽에 있어요. 섬 안 도로를 이용해 갈 수 있어요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "일부 구간은 수심이 깊고 파도가 강할 수 있어요. 아이와 함께라면 얕아 보이는 곳에서도 멀리 들어가지 않도록 주의하고, 입수할 수 있는 구역은 현장 안내를 따라주세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "식사·숙소 시설",
+        "value": "주변에 식당과 숙박시설이 있어요. 해변을 걷고 식사하러 나오며 하루를 느긋하게 보내기 좋아요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "섬 안에서는 “Lamai Beach”를 검색하고 기사님께 숙소나 만나기로 한 식당 이름을 알려주세요. 차웽도 둘러보신다면 섬 안 도로를 이용해 이동하시면 돼요. 두 해변은 하나의 모래사장으로 이어진 곳이 아니니 이동할 시간을 따로 남겨두세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/2135",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Lamai%20Beach%2C%20%EC%BD%94%EC%82%AC%EB%AC%B4%EC%9D%B4%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "라마이는 아이와 물놀이하기 좋은가요?",
+        "일부 구간은 수심이 깊고 파도가 강할 수 있어 아이와 물놀이하실 때 주의가 필요해요. 얕아 보이는 곳에서도 멀리 들어가지 않도록 살펴주세요. 수영은 그날 현장에서 허용하는 구역을 이용하고, 가족과 모래사장을 걷거나 주변에서 식사하는 시간도 즐겨보세요."
+      ],
+      [
+        "차웽에서 라마이까지 해변이 이어지나요?",
+        "아니요. 라마이는 차웽 남쪽에 있는 별도 해변이에요. 두 해변을 모두 둘러보실 때는 섬 안 도로를 이용해 이동하시면 돼요. 같은 모래사장을 계속 걸어가는 길은 아니에요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lamai_Beach.jpg/1280px-Lamai_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "라마이 해변의 해안 풍경",
+        "caption": "라마이 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamai_Beach.jpg",
+        "credit": "Koudkeu",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Lamai_Beach_1.jpg/1280px-Lamai_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "라마이 해변의 해안 풍경",
+        "caption": "라마이 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamai_Beach_1.jpg",
+        "credit": "Christophe95",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/2135"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/104151569"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "코사무이에서 야자수와 굽은 모래사장을 바라보며 쉬고 싶다면 라마이 해변으로 가보세요. 섬 동쪽, 차웽 남쪽에 있는 해변으로 주변에 숙박시설과 식당이 자리해요. 연인이나 가족과 해안을 걷고 식사하며 여유롭게 보내고 싶은 날에 어울려요. 물놀이를 하지 않더라도 야자수가 이어지는 바닷가에서 느긋한 시간을 즐겨보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "라마이에서는 굽은 모래사장과 야자수가 이어지는 해안 풍경을 즐길 수 있어요. 연인이나 가족과 바다를 보며 걷고, 산책을 마친 뒤 주변 식당에서 식사해보세요. 차웽과 라마이를 모두 둘러보고 싶으시다면 숙소를 예약할 때 두 해변 사이를 오가는 길도 함께 찾아보시면 좋아요. 라마이는 일부 구간의 수심이 깊고 파도가 강할 수 있어요. 아이와 함께라면 모래사장을 걷고 주변에서 식사하는 시간을 넉넉하게 즐겨보세요. 수영을 하실 때는 현장에서 허용한 구역을 이용하고 아이가 멀리 들어가지 않도록 살펴주세요.",
+      "tradeoff": "일부 구간은 수심이 깊고 파도가 강할 수 있어요. 아이와 함께라면 얕아 보이는 곳에서도 멀리 들어가지 않도록 주의하고, 입수할 수 있는 구역은 현장 안내를 따라주세요.",
+      "factEvidence": "https://www.thailandtourismdirectory.go.th/en/attraction/2135",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [
+      "samui-baobab",
+      "samui-black-pearl"
+    ],
+    "experienceTitles": [
+      "야자수가 이어지는 해안을 걸어보세요",
+      "수영보다 산책을 중심으로 보내도 좋아요"
+    ]
+  },
+  {
+    "id": "maya-bay",
+    "city": "피피섬",
+    "name": "마야 베이",
+    "english": "Maya Bay",
+    "thai": "อ่าวมาหยา",
+    "intro": "높은 석회암 절벽이 감싸는 흰 모래사장을 보고 싶다면 피피레섬의 마야 베이를 방문해보세요. 만을 둘러싼 절벽과 바다가 한눈에 들어와 풍경을 바라보며 걷는 시간을 즐길 수 있어요. 친구나 연인과 피피섬의 바다 풍경을 보고 싶은 날에 어울려요. 수영하는 해변 여행보다는 배를 타고 국립공원의 해안을 둘러보는 일정으로 계획해주세요.",
+    "cityId": "phi-phi",
+    "province": "Krabi",
+    "area": "피피",
+    "lat": 7.6790382,
+    "lng": 98.7651286,
+    "facilityType": "국립공원 해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/1315375792",
+    "coordinateKind": "만 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "마야 베이 | 피피레섬 배 방문·국립공원 관람 안내",
+    "description": "피피레섬 마야 베이의 절벽과 흰 모래사장을 둘러보세요. 재개방 안내와 배의 상륙 여부, 국립공원 출입 조건을 설명하며 수영 없는 관람으로 안내해요.",
+    "experience": [
+      "마야 베이에서는 만 양쪽으로 솟은 석회암 절벽과 그 사이에 펼쳐진 흰 모래사장을 함께 볼 수 있어요. 친구나 연인과 해변을 걸으며 절벽이 감싸는 바다를 바라보세요. 숙소가 있는 피피돈섬에서 쉬는 날과는 별도로, 배를 타고 피피레섬에 와서 이 풍경을 즐기는 날을 잡아보시면 좋아요.",
+      "마야 베이는 자연 회복을 위해 계절 휴장과 출입 관리가 이루어지는 국립공원 해변이에요. 2026년 10월 1일 재개방됐지만 공원 내 지정 구역에서는 수영할 수 없어요. 배에서 내린 뒤에는 공원 직원이 안내하는 범위 안에서 걸으며 만과 절벽을 즐겨주세요. 친구나 연인과 모래사장을 천천히 걸으며 해안 풍경을 바라보는 시간으로 보내시면 돼요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "마야 베이는 피피레섬에 있어 배를 타고 가요. 자연 회복을 위한 계절 휴장과 출입 관리가 있으며, 2026년 10월 1일 재개방됐어요. 배를 예약할 때 방문일에 마야 베이에 상륙할 수 있는지 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2026/10/the-andaman-opens-its-doors-again/"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "마야 베이는 수영하지 않고 해변 풍경을 즐기는 일정으로 방문해주세요. 공원 내 지정 구역에서는 수영이 금지돼요. 해변에서도 공원 직원이 안내하는 범위 안에서 걸어주세요.",
+        "sourceUrl": "https://thailand.prd.go.th/en/content/page/index/id/220232"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "마야 베이에서는 깃발의 색과 관계없이 공원 내 지정 구역의 수영 금지 규정을 지켜주세요. 출발 전 해상 예보를 보고, 공원에 도착한 뒤에는 직원이 안내하는 출입 범위를 따라주세요. 파도와 날씨로 배가 늦어지거나 취소될 수 있으니 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "국립공원 이용",
+        "value": "국립공원에서 출입을 관리하는 해변이에요. 배를 예약할 때 해변에 내려서 걸을 수 있는지, 공원 입장이 포함돼 있는지 물어보세요. 만 밖에서 풍경만 보는 배편과는 이용 내용이 달라요.",
+        "sourceUrl": "https://www.tatnews.org/2026/10/the-andaman-opens-its-doors-again/"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "배를 예약하실 때는 “Maya Bay에 내려서 해변을 걸을 수 있나요?”라고 물어보세요. 만 밖에서 풍경만 보는 일정도 있으니 상륙 여부를 먼저 알아두시면 돼요. 공원 입장과 배 요금의 포함 범위, 날씨가 나빠 배가 취소될 때의 조건도 예약 전에 살펴주세요.",
+        "sourceUrl": "https://www.tatnews.org/2026/10/the-andaman-opens-its-doors-again/",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Maya%20Bay%2C%20%ED%94%BC%ED%94%BC%EC%84%AC%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "마야 베이에서 수영할 수 있나요?",
+        "수영하지 않고 해변을 둘러보는 일정으로 방문해주세요. 국립공원 내 지정 구역에서는 수영이 금지돼요. 재개방 후에도 공원 직원이 안내하는 범위 안에서 모래사장을 걷고 만의 풍경을 즐겨주시면 돼요."
+      ],
+      [
+        "피피돈섬에서 걸어서 갈 수 있나요?",
+        "아니요. 마야 베이는 피피레섬에 있어 피피돈섬에서 배를 타고 가야 해요. 피피돈의 로달럼 해변처럼 섬 안에서 이동할 수 있는 곳은 아니에요. 배를 예약할 때 마야 베이에 내려서 해변을 걸을 수 있는지 물어보세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg/1280px-Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "마야 베이의 해안 풍경",
+        "caption": "마야 베이의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maya_Bay,_Koh_Phi_Phi,_Krabi,_Thailand.jpg",
+        "credit": "Vyacheslav Argenberg",
+        "rights": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "width": 3072,
+        "height": 2048
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_04.JPG/1280px-Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "마야 베이의 해안 풍경",
+        "caption": "마야 베이의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playa_Maya,_Ko_Phi_Phi,_Tailandia,_2013-08-19,_DD_04.JPG",
+        "credit": "Diego Delso",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 4601,
+        "height": 3280
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.tatnews.org/2026/10/the-andaman-opens-its-doors-again/"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/1315375792"
+      ],
+      [
+        "태국 정부 공보국 · 지정 구역 수영 금지 (2023년 자료)",
+        "https://thailand.prd.go.th/en/content/page/index/id/220232"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "높은 석회암 절벽이 감싸는 흰 모래사장을 보고 싶다면 피피레섬의 마야 베이를 방문해보세요. 만을 둘러싼 절벽과 바다가 한눈에 들어와 풍경을 바라보며 걷는 시간을 즐길 수 있어요. 친구나 연인과 피피섬의 바다 풍경을 보고 싶은 날에 어울려요. 수영하는 해변 여행보다는 배를 타고 국립공원의 해안을 둘러보는 일정으로 계획해주세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "마야 베이에서는 만 양쪽으로 솟은 석회암 절벽과 그 사이에 펼쳐진 흰 모래사장을 함께 볼 수 있어요. 친구나 연인과 해변을 걸으며 절벽이 감싸는 바다를 바라보세요. 숙소가 있는 피피돈섬에서 쉬는 날과는 별도로, 배를 타고 피피레섬에 와서 이 풍경을 즐기는 날을 잡아보시면 좋아요. 마야 베이는 자연 회복을 위해 계절 휴장과 출입 관리가 이루어지는 국립공원 해변이에요. 2026년 10월 1일 재개방됐지만 공원 내 지정 구역에서는 수영할 수 없어요. 배에서 내린 뒤에는 공원 직원이 안내하는 범위 안에서 걸으며 만과 절벽을 즐겨주세요. 친구나 연인과 모래사장을 천천히 걸으며 해안 풍경을 바라보는 시간으로 보내시면 돼요.",
+      "tradeoff": "마야 베이는 수영하지 않고 해변 풍경을 즐기는 일정으로 방문해주세요. 공원 내 지정 구역에서는 수영이 금지돼요. 해변에서도 공원 직원이 안내하는 범위 안에서 걸어주세요.",
+      "factEvidence": "https://www.tatnews.org/2026/10/the-andaman-opens-its-doors-again/",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "절벽이 감싸는 만과 흰 모래사장",
+      "수영 없이 즐기는 국립공원의 해변"
+    ]
+  },
+  {
+    "id": "loh-dalum",
+    "city": "피피섬",
+    "name": "로달럼 해변",
+    "english": "Loh Dalum Beach",
+    "thai": "หาดโละดาลัม",
+    "intro": "피피돈섬에 머물며 숙소에서 바닷가로 나와 쉬고 싶다면 로달럼 해변을 살펴보세요. 피피돈섬 북쪽 바다를 향한 만으로, 톤사이와는 다른 쪽의 해안 풍경을 볼 수 있어요. 섬에서 며칠 머무는 동안 친구나 연인과 해변을 걷고 싶은 분께 어울려요. 배를 타고 다른 섬으로 떠나지 않는 날에는 로달럼의 만을 바라보며 느긋하게 보내보세요.",
+    "cityId": "phi-phi",
+    "province": "Krabi",
+    "area": "피피",
+    "lat": 7.7416065,
+    "lng": 98.7724456,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/relation/8191048",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "로달럼 해변 | 피피돈섬 숙박·톤사이 도착 후 이동",
+    "description": "피피돈섬 북쪽 로달럼의 만을 바라보며 쉬어보세요. 톤사이 선착장과 해변의 위치 차이, 도착 후 숙소 이동과 물놀이 주의점을 안내해요.",
+    "experience": [
+      "로달럼은 피피돈섬에 머물며 숙소에서 바닷가로 나와 쉬고 싶은 분께 어울려요. 북쪽 바다를 향한 만을 바라보며 쉬거나 모래사장을 걸어보세요. 피피레섬의 마야 베이를 다녀온 다음 날에는 다른 배편을 서두르지 않고 로달럼에서 느긋하게 보내셔도 좋겠죠.",
+      "피피돈에는 톤사이와 로달럼이라는 두 만이 있어요. 톤사이 선착장에 내리면 로달럼 쪽 숙소나 해변까지 이동해야 해요. 짐을 가져오는 날에는 숙소 이름과 주소를 알아두고 선착장에서 숙소로 가는 길을 미리 찾아보세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "피피돈섬으로 가는 배를 탄 뒤 섬 안에서 로달럼 해변으로 이동해요. 톤사이 선착장과 로달럼은 서로 다른 만에 있어요.",
+        "sourceUrl": "https://www.aonang.go.th/front/menu/12/1"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "물놀이를 하기 전에는 해변의 깃발과 입수 안내를 살펴주세요. 물속 수심을 살피며 멀리 들어가지 마시고, 배가 움직이는 구역은 피해 수영해주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "숙소와 해변",
+        "value": "피피돈섬에는 숙박시설이 있어요. 로달럼에서 시간을 보내실 계획이라면 도착 선착장에서 숙소까지 가는 길과 숙소에서 해변으로 나가는 길을 함께 살펴보세요.",
+        "sourceUrl": "https://www.aonang.go.th/front/menu/12/1"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "피피돈섬행 배를 예약하고 도착한 선착장에서 로달럼의 숙소나 해변으로 이동하시면 돼요. 톤사이 선착장에 내리셨다면 그곳은 로달럼과 다른 만이에요. 짐을 가지고 오는 날에는 숙소 이름과 주소를 준비하고 선착장에서 숙소까지 가는 길을 미리 찾아보세요.",
+        "sourceUrl": "https://www.aonang.go.th/front/menu/12/1",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Loh%20Dalum%20Beach%2C%20%ED%94%BC%ED%94%BC%EC%84%AC%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "로달럼과 마야 베이는 같은 섬에 있나요?",
+        "아니요. 로달럼은 피피돈섬에, 마야 베이는 피피레섬에 있어요. 피피돈에 숙박하신다면 로달럼은 섬 안에서 이동해 방문하시면 돼요. 마야 베이는 별도로 배를 타고 가는 날을 잡아주세요."
+      ],
+      [
+        "톤사이 선착장이 로달럼 해변인가요?",
+        "아니요. 톤사이와 로달럼은 피피돈섬의 서로 다른 만이에요. 톤사이 선착장에 내린 뒤 로달럼의 숙소나 해변까지 이동해야 해요. 짐을 가져오는 날에는 숙소 이름을 지도에 표시하고 선착장에서 가는 길을 미리 알아두세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg/1280px-Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "로달럼 해변의 해안 풍경",
+        "caption": "로달럼 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loh_Dalum_Bay,_Ko_Phi_Phi_Don.jpg",
+        "credit": "Christophe95",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Loh_Dalum_Bay.jpg/1280px-Loh_Dalum_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "로달럼 해변의 해안 풍경",
+        "caption": "로달럼 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loh_Dalum_Bay.jpg",
+        "credit": "Christophe95",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4032,
+        "height": 3024
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.aonang.go.th/front/menu/12/1"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/relation/8191048"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "피피돈섬에 머물며 숙소에서 바닷가로 나와 쉬고 싶다면 로달럼 해변을 살펴보세요. 피피돈섬 북쪽 바다를 향한 만으로, 톤사이와는 다른 쪽의 해안 풍경을 볼 수 있어요. 섬에서 며칠 머무는 동안 친구나 연인과 해변을 걷고 싶은 분께 어울려요. 배를 타고 다른 섬으로 떠나지 않는 날에는 로달럼의 만을 바라보며 느긋하게 보내보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "로달럼은 피피돈섬에 머물며 숙소에서 바닷가로 나와 쉬고 싶은 분께 어울려요. 북쪽 바다를 향한 만을 바라보며 쉬거나 모래사장을 걸어보세요. 피피레섬의 마야 베이를 다녀온 다음 날에는 다른 배편을 서두르지 않고 로달럼에서 느긋하게 보내셔도 좋겠죠. 피피돈에는 톤사이와 로달럼이라는 두 만이 있어요. 톤사이 선착장에 내리면 로달럼 쪽 숙소나 해변까지 이동해야 해요. 짐을 가져오는 날에는 숙소 이름과 주소를 알아두고 선착장에서 숙소로 가는 길을 미리 찾아보세요.",
+      "tradeoff": "물놀이를 하기 전에는 해변의 깃발과 입수 안내를 살펴주세요. 물속 수심을 살피며 멀리 들어가지 마시고, 배가 움직이는 구역은 피해 수영해주세요.",
+      "factEvidence": "https://www.aonang.go.th/front/menu/12/1",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "피피돈섬에 머물며 즐기는 바닷가",
+      "톤사이 도착 뒤 숙소로 가는 길"
+    ]
+  },
+  {
+    "id": "ao-nang",
+    "city": "끄라비·아오낭",
+    "name": "아오낭 해변",
+    "english": "Ao Nang Beach",
+    "thai": "หาดอ่าวนาง",
+    "intro": "끄라비에서 바다를 보고 식사와 숙박, 배 여행까지 함께 즐기고 싶다면 아오낭으로 가보세요. 바닷가에는 석회암 절벽이 보이고 주변으로 식당과 호텔, 상점이 이어져요. 친구나 가족과 해변을 걷는 날도, 라일레이나 주변 섬으로 떠나는 날도 계획하기 좋은 곳이에요. 배 여행 전후에 모래사장을 거닐며 끄라비의 해안 풍경을 즐겨보세요.",
+    "cityId": "krabi",
+    "province": "Krabi",
+    "area": "끄라비",
+    "lat": 8.0310923,
+    "lng": 98.8218831,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/relation/19738774",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "아오낭 해변 | 끄라비 해안 산책·라일레이 배 이용",
+    "description": "끄라비 아오낭에서 해변 산책과 식사를 즐겨보세요. 본토 도로 접근, 라일레이행 배와 귀가 준비, 수영·스노클링 구역의 차이를 안내해요.",
+    "experience": [
+      "아오낭에서는 모래사장을 걸으며 바다 옆으로 보이는 석회암 절벽을 즐길 수 있어요. 친구나 가족과 산책한 뒤 주변 식당에서 식사하고 상점도 둘러보세요. 배 여행을 마치고 돌아온 날에도 해변에서 잠시 쉬어가며 끄라비의 바다를 즐겨보셔도 좋아요.",
+      "아오낭에서는 롱테일보트를 타고 라일레이로 갈 수 있어요. 배를 타실 때 어느 해변에 내리는지, 돌아오는 배는 어디에서 타는지 물어보세요. 주변 섬에서 즐기는 스노클링과 아오낭 해변의 물놀이는 장소가 달라요. 해변에서는 배가 드나드는 곳을 피하고 현장에서 허용한 구역을 이용해주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "아오낭은 끄라비 본토에 있어 차로 갈 수 있어요. 해변에서 라일레이와 주변 섬으로 가는 배도 이용할 수 있어요. 각 방문지의 입장 조건은 따로 적용돼요.",
+        "sourceUrl": "https://www.aonang.go.th/front/event/1307"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "배가 드나드는 곳에서는 수영하지 마세요. 아오낭에서 출발하는 주변 섬 스노클링과 아오낭 해변의 물놀이는 장소가 달라요. 해변에서 물놀이할 때는 현장에서 허용한 구역을 이용해주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 식당·상점",
+        "value": "해변 주변에 식당과 호텔, 상점이 모여 있어요. 배를 타기 전 식사를 하거나 필요한 물품을 준비하기에도 편해요.",
+        "sourceUrl": "https://www.aonang.go.th/front/event/1307"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "아오낭 해변까지는 도로로 이동하시면 돼요. 라일레이로 가신다면 아오낭에 도착한 뒤 롱테일보트를 이용해요. 배를 타기 전에 승선 장소와 돌아오는 방법을 정해주세요. 파도와 날씨로 배가 취소되거나 늦어질 수 있으니 귀가 일정도 여유 있게 잡아주세요.",
+        "sourceUrl": "https://www.aonang.go.th/front/event/1307",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Ao%20Nang%20Beach%2C%20%EB%81%84%EB%9D%BC%EB%B9%84%C2%B7%EC%95%84%EC%98%A4%EB%82%AD%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "아오낭에서 라일레이로 갈 수 있나요?",
+        "네. 아오낭에서 라일레이행 롱테일보트를 이용할 수 있어요. 배를 타실 때 라일레이의 어느 해변에 내리는지 물어보세요. 출발 전에 돌아오는 배의 운항 조건과 만날 장소도 정해두시면 돼요."
+      ],
+      [
+        "아오낭 해변에서 바로 스노클링하면 되나요?",
+        "아오낭에서 배를 타고 나가는 주변 섬 스노클링과 해변의 물놀이는 장소가 달라요. 아오낭 해변은 배가 드나들기 때문에 배가 움직이는 구역에서는 수영하지 마세요. 물놀이는 당일 현장에서 허용한 구역을 이용해주세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/1280px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "아오낭 해변의 해안 풍경",
+        "caption": "아오낭 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Ao_Nang_beach,_Krabi.jpg",
+        "credit": "Satdeep Gill",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 7952,
+        "height": 5304
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Ao_Nang_beach.jpg/1280px-Ao_Nang_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "아오낭 해변의 해안 풍경",
+        "caption": "아오낭 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ao_Nang_beach.jpg",
+        "credit": "kallerna",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 3000,
+        "height": 1960
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.aonang.go.th/front/event/1307"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/relation/19738774"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "끄라비에서 바다를 보고 식사와 숙박, 배 여행까지 함께 즐기고 싶다면 아오낭으로 가보세요. 바닷가에는 석회암 절벽이 보이고 주변으로 식당과 호텔, 상점이 이어져요. 친구나 가족과 해변을 걷는 날도, 라일레이나 주변 섬으로 떠나는 날도 계획하기 좋은 곳이에요. 배 여행 전후에 모래사장을 거닐며 끄라비의 해안 풍경을 즐겨보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "아오낭에서는 모래사장을 걸으며 바다 옆으로 보이는 석회암 절벽을 즐길 수 있어요. 친구나 가족과 산책한 뒤 주변 식당에서 식사하고 상점도 둘러보세요. 배 여행을 마치고 돌아온 날에도 해변에서 잠시 쉬어가며 끄라비의 바다를 즐겨보셔도 좋아요. 아오낭에서는 롱테일보트를 타고 라일레이로 갈 수 있어요. 배를 타실 때 어느 해변에 내리는지, 돌아오는 배는 어디에서 타는지 물어보세요. 주변 섬에서 즐기는 스노클링과 아오낭 해변의 물놀이는 장소가 달라요. 해변에서는 배가 드나드는 곳을 피하고 현장에서 허용한 구역을 이용해주세요.",
+      "tradeoff": "배가 드나드는 곳에서는 수영하지 마세요. 아오낭에서 출발하는 주변 섬 스노클링과 아오낭 해변의 물놀이는 장소가 달라요. 해변에서 물놀이할 때는 현장에서 허용한 구역을 이용해주세요.",
+      "factEvidence": "https://www.aonang.go.th/front/event/1307",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [
+      "krabi-ao-nang-coast"
+    ],
+    "experienceTitles": [
+      "석회암 풍경을 보며 산책과 식사를",
+      "라일레이와 주변 섬으로 떠나는 날"
+    ]
+  },
+  {
+    "id": "railay-west",
+    "city": "끄라비·아오낭",
+    "name": "라일레이 웨스트 해변",
+    "english": "Railay West Beach",
+    "thai": "หาดไร่เลย์ตะวันตก",
+    "intro": "석회암 절벽 사이의 모래사장에서 쉬고 싶다면 라일레이 웨스트로 가보세요. 라일레이 반도 서쪽에 펼쳐진 흰 모래사장으로, 바다와 절벽을 함께 바라볼 수 있어요. 연인이나 친구와 배를 타고 해변에 도착해 여유롭게 시간을 보내고 싶은 날에 추천해요. 돌아갈 배를 미리 정해두셨다면 서쪽 바다의 해 질 녘 풍경도 즐겨보세요.",
+    "cityId": "krabi",
+    "province": "Krabi",
+    "area": "끄라비",
+    "lat": 8.0115367,
+    "lng": 98.8377869,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/relation/18543708",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "라일레이 웨스트 | 절벽·일몰 풍경·배로 가는 방법",
+    "description": "라일레이 웨스트의 흰 모래와 석회암 절벽을 즐겨보세요. 이스트와의 차이, 아오낭에서 배로 접근하는 방법과 일몰 뒤 귀가 준비를 안내해요.",
+    "experience": [
+      "라일레이 웨스트에서는 바다 옆으로 솟은 석회암 절벽과 흰 모래사장을 함께 볼 수 있어요. 모래사장을 걸으며 풍경을 즐기고, 함께 온 사람과 바다를 바라보며 쉬어보세요. 서쪽을 향한 해변이라 해 질 녘 풍경을 보고 싶은 분께도 어울려요.",
+      "흰 모래사장에서 쉬고 싶으시다면 배를 탈 때 Railay West에 내리는지 물어보세요. 동쪽 라일레이 이스트는 진흙 해안과 암벽 활동이 있는 쪽으로 풍경이 달라요. 일몰까지 보고 돌아오실 계획이라면 아오낭에서 출발하기 전에 돌아갈 배의 운항 조건과 만날 장소를 정해두세요. 숙박하신다면 배에서 내린 곳부터 숙소까지 가는 길도 안내받으시면 돼요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "아오낭에서 라일레이행 배를 타고 방문해요. 반도에 있는 해변이지만 아오낭에서 차로 해변까지 곧바로 들어갈 수는 없어요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1805"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "웨스트에는 모래사장이, 이스트에는 진흙 해안이 있어요. 웨스트에서 물놀이할 때도 배가 오가는 곳은 피하고 그날의 깃발과 입수 안내를 따라주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "숙소 위치",
+        "value": "라일레이에는 숙박시설이 있어요. 숙소가 동쪽에 있는지 서쪽에 있는지에 따라 배에서 내린 뒤 가는 길이 달라져요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1805"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "아오낭에서 라일레이행 배를 타실 때 “Railay West에 내리나요?”라고 물어보세요. 숙소가 있다면 숙소 이름도 함께 알려주세요. 일몰까지 보고 돌아오실 계획이라면 출발 전에 돌아갈 배의 운항 조건과 만날 장소를 정해두세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1805",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Railay%20West%20Beach%2C%20%EB%81%84%EB%9D%BC%EB%B9%84%C2%B7%EC%95%84%EC%98%A4%EB%82%AD%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "라일레이 이스트와 웨스트는 어떻게 다른가요?",
+        "웨스트는 흰 모래사장과 서쪽 바다 풍경을 즐기는 해변이고, 이스트는 진흙 해안과 암벽 활동이 있는 쪽이에요. 모래사장에서 쉬거나 일몰을 보고 싶으시다면 웨스트로 가보세요. 숙소가 이스트에 있다면 배에서 내린 뒤 숙소로 가는 길도 함께 알아두시면 돼요."
+      ],
+      [
+        "아오낭에서 차로 바로 갈 수 있나요?",
+        "아니요. 아오낭에서는 배를 타고 가시면 돼요. 라일레이가 반도에 있어도 아오낭에서 차로 해변까지 들어가는 길은 아니에요. 배를 탈 때 Railay West에 내리는지 물어보고, 돌아올 배의 운항 조건과 만날 장소도 정해주세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg/1280px-Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "라일레이 웨스트 해변의 해안 풍경",
+        "caption": "라일레이 웨스트 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg",
+        "credit": "Nnthurber",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 2961,
+        "height": 3951
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Railay_Beach_5.jpg/1280px-Railay_Beach_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "라일레이 웨스트 해변의 해안 풍경",
+        "caption": "라일레이 웨스트 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Railay_Beach_5.jpg",
+        "credit": "kallerna",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 4160,
+        "height": 2490
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1805"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/relation/18543708"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "석회암 절벽 사이의 모래사장에서 쉬고 싶다면 라일레이 웨스트로 가보세요. 라일레이 반도 서쪽에 펼쳐진 흰 모래사장으로, 바다와 절벽을 함께 바라볼 수 있어요. 연인이나 친구와 배를 타고 해변에 도착해 여유롭게 시간을 보내고 싶은 날에 추천해요. 돌아갈 배를 미리 정해두셨다면 서쪽 바다의 해 질 녘 풍경도 즐겨보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "라일레이 웨스트에서는 바다 옆으로 솟은 석회암 절벽과 흰 모래사장을 함께 볼 수 있어요. 모래사장을 걸으며 풍경을 즐기고, 함께 온 사람과 바다를 바라보며 쉬어보세요. 서쪽을 향한 해변이라 해 질 녘 풍경을 보고 싶은 분께도 어울려요. 흰 모래사장에서 쉬고 싶으시다면 배를 탈 때 Railay West에 내리는지 물어보세요. 동쪽 라일레이 이스트는 진흙 해안과 암벽 활동이 있는 쪽으로 풍경이 달라요. 일몰까지 보고 돌아오실 계획이라면 아오낭에서 출발하기 전에 돌아갈 배의 운항 조건과 만날 장소를 정해두세요. 숙박하신다면 배에서 내린 곳부터 숙소까지 가는 길도 안내받으시면 돼요.",
+      "tradeoff": "웨스트에는 모래사장이, 이스트에는 진흙 해안이 있어요. 웨스트에서 물놀이할 때도 배가 오가는 곳은 피하고 그날의 깃발과 입수 안내를 따라주세요.",
+      "factEvidence": "https://www.thailandtourismdirectory.go.th/en/attraction/1805",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "절벽과 모래사장이 함께 보이는 풍경",
+      "일몰을 보고 돌아오려면 귀가 배부터"
+    ]
+  },
+  {
+    "id": "nang-thong",
+    "city": "카오락",
+    "name": "낭통 해변",
+    "english": "Nang Thong Beach",
+    "thai": "หาดนางทอง",
+    "intro": "카오락에서 검은 모래가 섞인 해안을 보고 싶다면 낭통 해변으로 가보세요. 팡응아 쿡칵의 반방라온 마을 해안으로, 고운 검은 모래와 바다 가운데 솟은 큰 낭통 바위가 특징이에요. 친구나 가족과 모래사장을 걸으며 평소 떠올리던 흰 모래 해변과 다른 풍경을 즐겨보세요. 바닷가에서 모래와 바위, 바다를 천천히 바라보고 싶은 날에 어울려요.",
+    "cityId": "khao-lak",
+    "province": "Phangnga",
+    "area": "카오락",
+    "lat": 8.648986,
+    "lng": 98.2462864,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/23600298",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "낭통 해변 | 카오락 검은 모래·낭통 바위·가는 길",
+    "description": "카오락 낭통의 고운 검은 모래와 바다 가운데 큰 바위를 살펴보세요. 펫카셈 도로에서의 접근, 물때에 따른 바위 주변 이동과 입수 주의점을 안내해요.",
+    "experience": [
+      "낭통에서는 모래사장에 섞인 고운 검은 모래와 바다 가운데 솟은 큰 낭통 바위를 볼 수 있어요. 친구나 가족과 해안을 걸으며 모래와 바위, 바다가 함께 보이는 풍경을 즐겨보세요. 카오락에서 흰 모래사장과는 다른 해안을 보고 싶은 날 들러보셔도 좋아요.",
+      "물이 빠지면 낭통 바위 쪽 지면이 드러나기도 해요. 다만 물때와 파도, 현장 통제에 따라 가까이 갈 수 있는 범위가 달라져요. 바위 쪽으로 가기 전에는 당일 현장 안내를 듣고, 허용된 범위 안에서 둘러보세요. 항상 걸어갈 수 있는 길은 아니며, 가까이 갈 수 없는 날에는 모래사장에서 검은 모래와 바위를 바라보셔도 좋아요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "낭통은 팡응아 쿡칵의 반방라온 마을 해안에 있어 차로 갈 수 있어요. 푸켓의 해변과는 다른 지역이에요.",
+        "sourceUrl": "https://www.khukkhak.go.th/front/event/3272"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "파도와 이안류로 수영이 금지되는 날이 있어요. 해변을 걸을 수 있는 날에도 바다에 들어갈 수 있는 것은 아니니 당일 깃발과 입수 통제를 따라주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "해변으로 나가는 길",
+        "value": "펫카셈 도로에서 해안으로 들어가는 길이 있어요. 묵는 숙소에서 모래사장으로 나가는 길을 알아두시면 산책하러 나오기 편해요.",
+        "sourceUrl": "https://www.khukkhak.go.th/front/event/3272"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "카오락에서 “Nang Thong Beach”를 검색하고 펫카셈 도로에서 바닷가로 들어가는 길을 따라가시면 돼요. 묵는 숙소에서 출발하신다면 직원에게 모래사장으로 나가는 길을 물어보세요. 다른 리조트 안을 통과해야 한다면 그 리조트의 출입 조건을 따라주세요.",
+        "sourceUrl": "https://www.khukkhak.go.th/front/event/3272",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Nang%20Thong%20Beach%2C%20%EC%B9%B4%EC%98%A4%EB%9D%BD%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "낭통 해변에서는 무엇을 보면 좋을까요?",
+        "고운 검은 모래와 바다 가운데 솟은 큰 낭통 바위를 살펴보세요. 물이 빠지면 바위 쪽의 지면이 드러나기도 해요. 다만 언제든 걸어갈 수 있는 길은 아니므로, 바위 가까이 가려면 그날의 물때와 파도, 현장 안내를 따라주세요."
+      ],
+      [
+        "낭통은 푸켓에 있나요?",
+        "아니요. 낭통은 카오락이 있는 팡응아 해안에 있어요. 팡응아 쿡칵의 반방라온 마을 쪽으로 가시면 돼요. Nang Thong Beach를 검색하고 예약한 숙소와 함께 위치를 보세요."
+      ],
+      [
+        "지도 핀이 해변 출입구인가요?",
+        "아니요. 핀은 낭통 해변 구역의 대표 위치예요. 주차장이나 호텔 입구가 아니므로 숙소나 해안으로 들어가는 길까지 목적지를 정해주세요. 리조트 안을 통과하는 길은 해당 리조트의 출입 조건을 따라야 해요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kao_Lak_Beach_-_panoramio.jpg/1280px-Kao_Lak_Beach_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kao_Lak_Beach_-_panoramio.jpg",
+        "credit": "::::=UT=::::",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 2560,
+        "height": 1920,
+        "title": "Kao Lak Beach - panoramio",
+        "alt": "낭통 해변의 모래사장과 바다",
+        "caption": "2008년에 촬영한 낭통 해변의 모래사장과 물가 풍경이에요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "Taken on 21 September 2008",
+        "subjectEvidence": {
+          "method": "사진 GPS 두 곳(8.648572,98.246441 / 8.648572,98.246183)이 기존 OSM 해변 way/23600298 범위에 포함됨. 두 사진의 모래사장·수로·해안 시각 대조. 넓은 Khao Lak 분류만으로 판단하지 않음.",
+          "sourceDescription": "Kao Lak Beach",
+          "latitude": "8.648572",
+          "longitude": "98.246441",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 53836603
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Kao_Lak_Beach2_-_panoramio.jpg/1280px-Kao_Lak_Beach2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kao_Lak_Beach2_-_panoramio.jpg",
+        "credit": "::::=UT=::::",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 1920,
+        "height": 2560,
+        "title": "Kao Lak Beach2 - panoramio",
+        "alt": "낭통 해변의 모래사장과 바다",
+        "caption": "2008년에 촬영한 낭통 해변과 해안의 나무를 담은 참고사진이에요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "Taken on 21 September 2008",
+        "subjectEvidence": {
+          "method": "사진 GPS 두 곳(8.648572,98.246441 / 8.648572,98.246183)이 기존 OSM 해변 way/23600298 범위에 포함됨. 두 사진의 모래사장·수로·해안 시각 대조. 넓은 Khao Lak 분류만으로 판단하지 않음.",
+          "sourceDescription": "Kao Lak Beach2",
+          "latitude": "8.648572",
+          "longitude": "98.246183",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 53836599
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.khukkhak.go.th/front/event/3272"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/23600298"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "카오락에서 검은 모래가 섞인 해안을 보고 싶다면 낭통 해변으로 가보세요. 팡응아 쿡칵의 반방라온 마을 해안으로, 고운 검은 모래와 바다 가운데 솟은 큰 낭통 바위가 특징이에요. 친구나 가족과 모래사장을 걸으며 평소 떠올리던 흰 모래 해변과 다른 풍경을 즐겨보세요. 바닷가에서 모래와 바위, 바다를 천천히 바라보고 싶은 날에 어울려요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "낭통에서는 모래사장에 섞인 고운 검은 모래와 바다 가운데 솟은 큰 낭통 바위를 볼 수 있어요. 친구나 가족과 해안을 걸으며 모래와 바위, 바다가 함께 보이는 풍경을 즐겨보세요. 카오락에서 흰 모래사장과는 다른 해안을 보고 싶은 날 들러보셔도 좋아요. 물이 빠지면 낭통 바위 쪽 지면이 드러나기도 해요. 다만 물때와 파도, 현장 통제에 따라 가까이 갈 수 있는 범위가 달라져요. 바위 쪽으로 가기 전에는 당일 현장 안내를 듣고, 허용된 범위 안에서 둘러보세요. 항상 걸어갈 수 있는 길은 아니며, 가까이 갈 수 없는 날에는 모래사장에서 검은 모래와 바위를 바라보셔도 좋아요.",
+      "tradeoff": "파도와 이안류로 수영이 금지되는 날이 있어요. 해변을 걸을 수 있는 날에도 바다에 들어갈 수 있는 것은 아니니 당일 깃발과 입수 통제를 따라주세요.",
+      "factEvidence": "https://www.khukkhak.go.th/front/event/3272",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "검은 모래와 낭통 바위를 찾아보세요",
+      "물이 빠진 뒤 드러나는 바위 주변"
+    ]
+  },
+  {
+    "id": "bang-niang",
+    "city": "카오락",
+    "name": "방니앙 해변",
+    "english": "Bang Niang Beach",
+    "thai": "หาดบางเนียง",
+    "intro": "카오락에서 긴 모래사장과 안다만해를 바라보며 쉬고 싶다면 방니앙 해변으로 가보세요. 팡응아 쿡칵의 반방니앙 마을 쪽 해안으로, 큰길에서 바닷가 방향으로 들어가면 만날 수 있어요. 주변 숙소에 머물며 연인이나 가족과 해변을 걷고 싶은 분께 어울려요. 다른 곳으로 서둘러 이동하지 않는 날, 길게 펼쳐진 바다를 보며 여유롭게 보내보세요.",
+    "cityId": "khao-lak",
+    "province": "Phangnga",
+    "area": "카오락",
+    "lat": 8.6667777,
+    "lng": 98.2434795,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/23600445",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "방니앙 해변 | 카오락 안다만해 산책·접근 안내",
+    "description": "카오락 방니앙의 긴 모래사장과 안다만해를 즐겨보세요. 펫카셈 도로에서 해안으로 가는 길, 리조트 출입과 현장 깃발에 따른 주의점을 안내해요.",
+    "experience": [
+      "방니앙에서는 길게 이어지는 모래사장을 천천히 걸으며 안다만해를 바라보세요. 연인이나 가족과 바닷가에서 쉬고 싶은 날에 어울려요. 해변 가까운 숙소에 머무신다면 멀리 이동하지 않는 날에도 산책하러 나와 느긋하게 지내보세요.",
+      "방니앙은 펫카셈 도로에서 바닷가 쪽으로 들어가 방문해요. 숙소를 예약하셨다면 모래사장으로 나가는 길과 돌아오는 길을 직원에게 안내받으세요. 리조트 안을 통과하는 길이라면 그곳의 출입 조건을 따라야 해요. 차에서 내릴 곳도 숙소 이름으로 알려주시면 산책을 시작하기 편해요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "방니앙은 팡응아 쿡칵의 반방니앙 마을 해안에 있어요. 펫카셈 도로에서 바닷가 쪽으로 들어가면 돼요.",
+        "sourceUrl": "https://www.khukkhak.go.th/front/event/813"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "안다만 해안의 높은 파도와 이안류를 주의해주세요. 빨간 깃발이 있거나 현장에서 입수를 막는 날에는 수영하지 마세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "숙소와 해변",
+        "value": "해안 주변에 숙박시설이 있어요. 숙소를 예약할 때 바닷가로 나가는 길과 이용할 수 있는 시설을 물어보세요. 해변에서 쉬고 난 뒤 숙소로 돌아오는 길도 함께 안내받으시면 돼요.",
+        "sourceUrl": "https://www.khukkhak.go.th/front/event/813"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "“Bang Niang Beach”를 검색하고 펫카셈 도로에서 해안 쪽으로 들어가시면 돼요. 묵는 숙소가 있다면 숙소 이름으로 도착할 곳을 정하고, 해변으로 나가는 길을 안내받으세요. 다른 리조트를 통과하려면 그곳의 출입 조건을 따라야 해요.",
+        "sourceUrl": "https://www.khukkhak.go.th/front/event/813",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Bang%20Niang%20Beach%2C%20%EC%B9%B4%EC%98%A4%EB%9D%BD%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "방니앙은 어디에 있는 해변인가요?",
+        "카오락 여행 지역인 팡응아 쿡칵의 반방니앙 마을 해안에 있어요. 펫카셈 도로에서 바닷가 쪽으로 들어가면 돼요. 푸켓의 해변과는 다른 지역이니 Bang Niang Beach와 숙소 이름을 함께 검색해주세요."
+      ],
+      [
+        "해변 앞 리조트를 통해 들어갈 수 있나요?",
+        "리조트마다 출입 조건이 달라요. 묵는 숙소라면 직원에게 해변으로 나가는 길을 안내받으세요. 다른 곳에서 방문하신다면 이용 가능한 해안 접근로를 찾아가야 하며, 특정 리조트가 해변의 유일한 입구인 것은 아니에요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg/1280px-Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "방니앙 해변의 해안 풍경",
+        "caption": "방니앙 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg",
+        "credit": "Abe Khao Lak",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 1500,
+        "height": 2200
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/KhaoLak05.jpg/1280px-KhaoLak05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "방니앙 해변의 해안 풍경",
+        "caption": "방니앙 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:KhaoLak05.jpg",
+        "credit": "Bjoertvedt",
+        "rights": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "width": 2048,
+        "height": 1536
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.khukkhak.go.th/front/event/813"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/23600445"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "카오락에서 긴 모래사장과 안다만해를 바라보며 쉬고 싶다면 방니앙 해변으로 가보세요. 팡응아 쿡칵의 반방니앙 마을 쪽 해안으로, 큰길에서 바닷가 방향으로 들어가면 만날 수 있어요. 주변 숙소에 머물며 연인이나 가족과 해변을 걷고 싶은 분께 어울려요. 다른 곳으로 서둘러 이동하지 않는 날, 길게 펼쳐진 바다를 보며 여유롭게 보내보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "방니앙에서는 길게 이어지는 모래사장을 천천히 걸으며 안다만해를 바라보세요. 연인이나 가족과 바닷가에서 쉬고 싶은 날에 어울려요. 해변 가까운 숙소에 머무신다면 멀리 이동하지 않는 날에도 산책하러 나와 느긋하게 지내보세요. 방니앙은 펫카셈 도로에서 바닷가 쪽으로 들어가 방문해요. 숙소를 예약하셨다면 모래사장으로 나가는 길과 돌아오는 길을 직원에게 안내받으세요. 리조트 안을 통과하는 길이라면 그곳의 출입 조건을 따라야 해요. 차에서 내릴 곳도 숙소 이름으로 알려주시면 산책을 시작하기 편해요.",
+      "tradeoff": "안다만 해안의 높은 파도와 이안류를 주의해주세요. 빨간 깃발이 있거나 현장에서 입수를 막는 날에는 수영하지 마세요.",
+      "factEvidence": "https://www.khukkhak.go.th/front/event/813",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "길게 이어지는 해안에서 보내는 휴식",
+      "큰길에서 해변으로 나가는 길"
+    ]
+  },
+  {
+    "id": "hua-hin",
+    "city": "후아힌",
+    "name": "후아힌 해변",
+    "english": "Hua Hin Beach",
+    "thai": "หาดหัวหิน",
+    "intro": "도시를 둘러보다 바닷가 산책도 즐기고 싶다면 후아힌 해변으로 가보세요. 왕실 휴양지로 알려진 후아힌의 시가지 옆으로 모래사장이 이어져요. 부모님이나 아이와 식사하러 나온 날, 바다를 바라보며 함께 걷기 좋은 곳이에요. 해변 가까운 숙소에 머무신다면 멀리 나가지 않는 날에도 모래사장으로 나와 느긋하게 쉬어보세요.",
+    "cityId": "hua-hin",
+    "province": "Prachuap Khiri Khan",
+    "area": "후아힌",
+    "lat": 12.5555214,
+    "lng": 99.9639288,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/208503425",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "후아힌 해변 | 시내 바닷가 산책·승마·가는 방법",
+    "description": "후아힌 시내 일정에 바닷가 산책을 더해보세요. 해변 접근 방법과 승마 이용 전 살필 조건, 남쪽 카오타키압과의 위치 차이를 안내해요.",
+    "experience": [
+      "후아힌에서는 시내를 둘러보고 모래사장을 걷는 하루를 함께 즐길 수 있어요. 부모님이나 아이와 식사한 뒤 바닷가로 나와 바다를 바라보며 잠시 쉬어보세요. 해변 가까운 숙소에 머무신다면 멀리 나가는 일정이 없는 날에도 가볍게 산책을 나서기 좋아요.",
+      "후아힌에서는 해변 승마도 즐길 수 있어요. 타보고 싶으시다면 이용 전에 그날 운영하는지, 비용과 진행 방법은 어떤지 물어보세요. 산책하실 때도 말이 지나는 구간을 살펴주세요. 남쪽 카오타키압까지 둘러보면 언덕이 있는 해안 풍경도 볼 수 있으니, 두 곳을 오갈 시간도 남겨두시면 좋아요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "쁘라쭈압키리칸의 후아힌 시가지 옆에 있는 해변으로 차로 갈 수 있어요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1439"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "물놀이는 당일 깃발과 입수 안내를 따라주세요. 모래사장을 걸을 때는 승마를 하는 말이 오가는 구간도 살펴주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "해변 승마",
+        "value": "해변 승마를 해보고 싶으시다면 이용 전에 그날 운영하는지 물어보세요. 비용과 진행 방법을 안내받은 뒤 이용하시면 돼요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1439"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "“Hua Hin Beach”를 검색하고 묵는 숙소나 만나기로 한 건물까지 목적지를 정해주세요. 남쪽 카오타키압도 둘러보신다면 카오타키압을 따로 검색해서 이동하시면 돼요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1439",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Hua%20Hin%20Beach%2C%20%ED%9B%84%EC%95%84%ED%9E%8C%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "후아힌 해변에서 승마할 수 있나요?",
+        "네. 후아힌 해변에서는 승마도 즐길 수 있어요. 다만 방문하는 날에 운영하는지, 비용과 진행 방법은 어떤지 이용 전에 물어보세요. 말을 타지 않고 산책하실 때도 말이 오가는 구간을 살펴주세요."
+      ],
+      [
+        "카오타키압도 함께 볼 수 있나요?",
+        "네. 후아힌 남쪽의 카오타키압 해변과 언덕을 함께 둘러볼 수 있어요. 묵는 숙소나 후아힌 해변의 출발 위치에서 Khao Takiab Beach까지 가는 길을 찾아보세요. 언덕 위 사원도 방문하신다면 해변에서 쉬는 시간과 사원까지 가는 시간을 나누어 잡으시면 좋아요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Beach_of_Hua_Hin.JPG/1280px-Beach_of_Hua_Hin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_of_Hua_Hin.JPG",
+        "credit": "Supercarwaar",
+        "rights": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "width": 6016,
+        "height": 4000,
+        "title": "Beach of Hua Hin",
+        "alt": "후아힌 해변의 모래사장과 바다",
+        "caption": "2013년에 촬영한 후아힌 시내 해변의 모래사장과 바다예요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "2013-08-28 12:49:15",
+        "subjectEvidence": {
+          "method": "사진 GPS(12.557970,99.963550 / 12.565225,99.963176)가 후아힌 시내 해변에 위치. 기존에 제외한 카오타키압 남쪽·차암 사진과 구분. 원문 Beach of Hua Hin 및 Hua Hin Beach evening과 풍경 대조.",
+          "sourceDescription": "The Beach of Hua Hin.",
+          "latitude": "12.557970",
+          "longitude": "99.963550",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 31277304
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Hua_Hin_Beach_evening.jpg/1280px-Hua_Hin_Beach_evening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hua_Hin_Beach_evening.jpg",
+        "credit": "Kroisenbrunner",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 1792,
+        "height": 1344,
+        "title": "Hua Hin Beach evening",
+        "alt": "후아힌 해변의 모래사장과 바다",
+        "caption": "2014년 저녁에 촬영한 후아힌 해변의 물가 풍경이에요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "2014-12-20 18:08:02",
+        "subjectEvidence": {
+          "method": "사진 GPS(12.557970,99.963550 / 12.565225,99.963176)가 후아힌 시내 해변에 위치. 기존에 제외한 카오타키압 남쪽·차암 사진과 구분. 원문 Beach of Hua Hin 및 Hua Hin Beach evening과 풍경 대조.",
+          "sourceDescription": "Hua Hin Beach in the evening",
+          "latitude": "12.565225",
+          "longitude": "99.963176",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 39180916
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1439"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/208503425"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "도시를 둘러보다 바닷가 산책도 즐기고 싶다면 후아힌 해변으로 가보세요. 왕실 휴양지로 알려진 후아힌의 시가지 옆으로 모래사장이 이어져요. 부모님이나 아이와 식사하러 나온 날, 바다를 바라보며 함께 걷기 좋은 곳이에요. 해변 가까운 숙소에 머무신다면 멀리 나가지 않는 날에도 모래사장으로 나와 느긋하게 쉬어보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "후아힌에서는 시내를 둘러보고 모래사장을 걷는 하루를 함께 즐길 수 있어요. 부모님이나 아이와 식사한 뒤 바닷가로 나와 바다를 바라보며 잠시 쉬어보세요. 해변 가까운 숙소에 머무신다면 멀리 나가는 일정이 없는 날에도 가볍게 산책을 나서기 좋아요. 후아힌에서는 해변 승마도 즐길 수 있어요. 타보고 싶으시다면 이용 전에 그날 운영하는지, 비용과 진행 방법은 어떤지 물어보세요. 산책하실 때도 말이 지나는 구간을 살펴주세요. 남쪽 카오타키압까지 둘러보면 언덕이 있는 해안 풍경도 볼 수 있으니, 두 곳을 오갈 시간도 남겨두시면 좋아요.",
+      "tradeoff": "물놀이는 당일 깃발과 입수 안내를 따라주세요. 모래사장을 걸을 때는 승마를 하는 말이 오가는 구간도 살펴주세요.",
+      "factEvidence": "https://www.thailandtourismdirectory.go.th/en/attraction/1439",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "도시 일정 사이에 즐기는 바닷가 산책",
+      "승마를 즐기거나 남쪽 해안도 둘러보고 싶다면"
+    ]
+  },
+  {
+    "id": "khao-takiab",
+    "city": "후아힌",
+    "name": "카오타키압 해변",
+    "english": "Khao Takiab Beach",
+    "thai": "หาดเขาตะเกียบ",
+    "intro": "후아힌에서 바다 옆으로 솟은 언덕을 보며 쉬고 싶다면 카오타키압 해변으로 가보세요. 후아힌 남쪽, 사원이 있는 카오타키압 언덕 주변의 해안이에요. 가족이나 연인과 모래사장을 걸으며 바다와 언덕을 함께 바라볼 수 있어요. 해변에서 느긋하게 쉬고, 언덕 위 사원도 둘러보며 하루를 보내보세요.",
+    "cityId": "hua-hin",
+    "province": "Prachuap Khiri Khan",
+    "area": "후아힌",
+    "lat": 12.5295681,
+    "lng": 99.9718823,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/1001299370",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "카오타키압 해변 | 후아힌 남쪽 언덕·해안 방문 안내",
+    "description": "후아힌 남쪽 카오타키압에서 언덕과 바다를 함께 보세요. 북쪽 모래사장과 남쪽 해안의 구분, 사원을 별도 목적지로 찾는 방법을 안내해요.",
+    "experience": [
+      "카오타키압에서는 모래사장 옆으로 솟은 언덕과 바다를 함께 볼 수 있어요. 가족이나 연인과 해안을 걸으며 후아힌 시내와 다른 바닷가 풍경을 즐겨보세요. 지도에 나온 모래사장은 언덕 북쪽에 있어요. 남쪽 해안으로 가는 길과는 다르니 차로 이동하실 때는 기사님께 어느 쪽으로 가는지 알려주세요.",
+      "카오타키압 언덕에는 사원이 있어요. 해변에서 쉬고 난 뒤 사원도 둘러보고 싶으시다면 사원 이름으로 가는 길을 찾아보세요. 모래사장에 도착한 뒤에도 언덕 위로 가는 이동이 남아 있으니, 해변에서 보내는 시간과 사원을 방문하는 시간을 여유 있게 잡아주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "후아힌 남쪽 카오타키압 언덕 주변의 해변이에요. 북쪽 모래사장과 언덕 위 사원은 서로 다른 목적지예요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1428"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "언덕 주변에는 바위 구간도 있어요. 바위 주변에서는 발밑과 파도를 주의해주시고, 물놀이는 당일 깃발과 현장 입수 안내에 따라 즐겨주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "언덕 위 사원",
+        "value": "해변 옆 카오타키압 언덕에 사원이 있어요. 모래사장에서 쉬다가 언덕도 둘러보실 계획이라면 사원까지 가는 시간을 따로 남겨두세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1428"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "“Khao Takiab Beach”를 검색하고 언덕 북쪽 모래사장으로 가는 길을 선택해주세요. 언덕 남쪽 해안으로 가는 길과는 달라요. 사원을 방문하신다면 해변이 아니라 사원 이름으로 목적지를 다시 정해주세요.",
+        "sourceUrl": "https://www.thailandtourismdirectory.go.th/en/attraction/1428",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Khao%20Takiab%20Beach%2C%20%ED%9B%84%EC%95%84%ED%9E%8C%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "카오타키압 해변 핀이 사원 입구인가요?",
+        "아니요. 핀은 카오타키압 언덕 북쪽 모래사장 구역을 가리켜요. 사원은 언덕 위에 있으니 사원 이름으로 목적지를 따로 검색해주세요. 남쪽 해안으로 가는 길과도 달라요."
+      ],
+      [
+        "후아힌 해변과 무엇이 다른가요?",
+        "후아힌 시내보다 남쪽에서 언덕과 사원이 있는 해안 풍경을 볼 수 있어요. 모래사장을 걸으며 바다와 언덕을 함께 바라보는 시간을 즐겨보세요. 사원까지 둘러보고 싶으시다면 해변에서 언덕으로 이동하는 시간도 남겨두세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg/1280px-21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:21-14_Nong_Kae-Takiap,_Tambon_Nong_Kae,_Amphoe_Hua_Hin,_Chang_Wat_Prachuap_Khiri_Khan_77110,_Thailand_-_panoramio.jpg",
+        "credit": "Boonchai C",
+        "rights": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "width": 3100,
+        "height": 2067,
+        "title": "21-14 Nong Kae-Takiap, Tambon Nong Kae, Amphoe Hua Hin, Chang Wat Prachuap Khiri Khan 77110, Thailand - panoramio",
+        "alt": "카오타키압 북쪽 해안에서 바라본 언덕과 바다",
+        "caption": "2013년 카오타키압 북쪽 해안에서 언덕과 바다를 바라본 사진이에요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "Taken on 14 April 2013",
+        "subjectEvidence": {
+          "method": "사진 GPS(12.527692,99.972700 / 12.527797,99.972379)가 페이지가 소개하는 카오타키압 북쪽 모래사장에 있음. 북쪽 바다에서 보이는 카오타키압 언덕 형태와 대조. 사진 속 계단을 공용 출입구로 안내하지 않음.",
+          "sourceDescription": "21/14 Nong Kae-Takiap, Tambon Nong Kae, Amphoe Hua Hin, Chang Wat Prachuap Khiri Khan 77110, Thailand",
+          "latitude": "12.527692",
+          "longitude": "99.972700",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 56495701
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nong_Kae%2C_Hua_Hin_District%2C_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio_%281%29.jpg/1280px-Nong_Kae%2C_Hua_Hin_District%2C_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nong_Kae,_Hua_Hin_District,_Prachuap_Khiri_Khan_77110,_Thailand_-_panoramio_(1).jpg",
+        "credit": "Boonchai C",
+        "rights": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "width": 2067,
+        "height": 3100,
+        "title": "Nong Kae, Hua Hin District, Prachuap Khiri Khan 77110, Thailand - panoramio (1)",
+        "alt": "카오타키압 북쪽 모래사장과 계단 앞 파도",
+        "caption": "2013년 카오타키압 북쪽의 모래사장과 파도를 담은 사진이에요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "Taken on 15 April 2013",
+        "subjectEvidence": {
+          "method": "사진 GPS(12.527692,99.972700 / 12.527797,99.972379)가 페이지가 소개하는 카오타키압 북쪽 모래사장에 있음. 북쪽 바다에서 보이는 카오타키압 언덕 형태와 대조. 사진 속 계단을 공용 출입구로 안내하지 않음.",
+          "sourceDescription": "Nong Kae, Hua Hin District, Prachuap Khiri Khan 77110, Thailand",
+          "latitude": "12.527797",
+          "longitude": "99.972379",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 56495648
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtourismdirectory.go.th/en/attraction/1428"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/1001299370"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "후아힌에서 바다 옆으로 솟은 언덕을 보며 쉬고 싶다면 카오타키압 해변으로 가보세요. 후아힌 남쪽, 사원이 있는 카오타키압 언덕 주변의 해안이에요. 가족이나 연인과 모래사장을 걸으며 바다와 언덕을 함께 바라볼 수 있어요. 해변에서 느긋하게 쉬고, 언덕 위 사원도 둘러보며 하루를 보내보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "카오타키압에서는 모래사장 옆으로 솟은 언덕과 바다를 함께 볼 수 있어요. 가족이나 연인과 해안을 걸으며 후아힌 시내와 다른 바닷가 풍경을 즐겨보세요. 지도에 나온 모래사장은 언덕 북쪽에 있어요. 남쪽 해안으로 가는 길과는 다르니 차로 이동하실 때는 기사님께 어느 쪽으로 가는지 알려주세요. 카오타키압 언덕에는 사원이 있어요. 해변에서 쉬고 난 뒤 사원도 둘러보고 싶으시다면 사원 이름으로 가는 길을 찾아보세요. 모래사장에 도착한 뒤에도 언덕 위로 가는 이동이 남아 있으니, 해변에서 보내는 시간과 사원을 방문하는 시간을 여유 있게 잡아주세요.",
+      "tradeoff": "언덕 주변에는 바위 구간도 있어요. 바위 주변에서는 발밑과 파도를 주의해주시고, 물놀이는 당일 깃발과 현장 입수 안내에 따라 즐겨주세요.",
+      "factEvidence": "https://www.thailandtourismdirectory.go.th/en/attraction/1428",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "해변에서 바라보는 언덕과 바다",
+      "해변에서 쉬고 언덕 위 사원도 둘러보세요"
+    ]
+  },
+  {
+    "id": "white-sand",
+    "city": "코창",
+    "name": "화이트 샌드 해변",
+    "english": "White Sand Beach",
+    "thai": "หาดทรายขาว",
+    "intro": "코창에서 바다를 즐기면서 식당과 상점도 가까이 두고 싶다면 화이트 샌드 해변으로 가보세요. 태국어로 핫사이카오라고 부르는 곳으로, 섬 북서쪽 흰 모래사장 주변에 숙박시설과 가게가 모여 있어요. 친구나 가족과 해변에서 쉬다가 식사하러 나오고 싶은 분께 어울려요. 모래사장과 주변 마을을 오가며 느긋하게 섬에서의 하루를 보내보세요.",
+    "cityId": "ko-chang",
+    "province": "Trat",
+    "area": "코창",
+    "lat": 12.1052401,
+    "lng": 102.2728264,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/node/1560642480",
+    "coordinateKind": "마을 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "화이트 샌드 해변 | 코창 핫사이카오 산책·수심 주의",
+    "description": "코창 화이트 샌드의 흰 모래사장과 주변 마을을 둘러보세요. 핫사이카오라는 이름, 북서쪽 해안 접근과 고르지 않은 수심을 안내해요.",
+    "experience": [
+      "화이트 샌드는 해변 가까운 숙소와 주변 편의시설을 함께 찾는 분께 어울려요. 모래사장을 걷고 식당에서 식사한 뒤 다시 바다를 보러 나와보세요. 숙박시설과 식당뿐 아니라 상점과 편의점도 모여 있어, 해변과 마을을 함께 둘러보며 시간을 보낼 수 있어요.",
+      "화이트 샌드는 해안의 수심이 고르지 않아요. 아이와 물놀이하신다면 얕아 보이는 곳에서도 멀리 들어가지 않도록 살펴주세요. 수영은 당일 현장에서 허용한 구역을 이용하시면 돼요. 물놀이를 하지 않는 날에는 모래사장을 걷고 주변 식당에서 식사하며 바닷가를 즐겨보세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "코창에 도착한 뒤 섬 북서쪽 도로를 이용해 이동해요. 태국어 이름은 핫사이카오예요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/581"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "해안의 수심이 고르지 않아요. 얕아 보이는 곳에서도 멀리 들어가지 마세요. 아이와 함께라면 특히 주의하고 현장에서 허용한 구역을 이용해주세요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/581"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 편의시설",
+        "value": "해변 주변에 숙박시설과 식당, 상점, 편의점이 모여 있어요. 모래사장에서 쉬다가 가까운 곳에서 식사하거나 필요한 물품을 살 수 있어요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/581"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "코창에 도착하셨다면 “White Sand Beach” 또는 “Hat Sai Khao, Ko Chang”으로 검색해주세요. 클롱손에서 이어지는 섬 북서쪽 해안에 있어요. 핀은 핫사이카오 마을의 위치이니 기사님께 묵는 숙소나 만나기로 한 식당 이름을 알려주세요. 해변 입구나 주차장은 따로 찾아가야 해요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/581",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=White%20Sand%20Beach%2C%20%EC%BD%94%EC%B0%BD%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "화이트 샌드와 핫사이카오는 같은 곳인가요?",
+        "네. 코창의 White Sand Beach를 태국어로 핫사이카오라고 불러요. 클롱손에서 이어지는 섬 북서쪽 해안에 있어요. 숙소나 길찾기를 검색할 때 Ko Chang을 함께 넣어주세요."
+      ],
+      [
+        "아이와 얕은 물에서 놀아도 괜찮을까요?",
+        "해안의 수심이 일정하지 않아 얕아 보이는 곳에서도 주의가 필요해요. 아이가 멀리 들어가지 않도록 살펴주시고, 당일 현장에서 허용하는 구역을 이용해주세요. 수영을 하지 않는 날에는 모래사장을 걷고 주변에서 식사하며 시간을 보내셔도 좋아요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg/1280px-Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "화이트 샌드 해변의 해안 풍경",
+        "caption": "화이트 샌드 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dusk_at_White_Sand_Beach,_Koh_Chang,_Thailand.jpg",
+        "credit": "Slyronit",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Dusk_at_White_Sand_Beach%2C_Koh_Chang_3.jpg/1280px-Dusk_at_White_Sand_Beach%2C_Koh_Chang_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "화이트 샌드 해변의 해안 풍경",
+        "caption": "화이트 샌드 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dusk_at_White_Sand_Beach,_Koh_Chang_3.jpg",
+        "credit": "Slyronit",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 5712,
+        "height": 4284
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.kochanggov.go.th/index.php/v/catalog/581"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/node/1560642480"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "코창에서 바다를 즐기면서 식당과 상점도 가까이 두고 싶다면 화이트 샌드 해변으로 가보세요. 태국어로 핫사이카오라고 부르는 곳으로, 섬 북서쪽 흰 모래사장 주변에 숙박시설과 가게가 모여 있어요. 친구나 가족과 해변에서 쉬다가 식사하러 나오고 싶은 분께 어울려요. 모래사장과 주변 마을을 오가며 느긋하게 섬에서의 하루를 보내보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "화이트 샌드는 해변 가까운 숙소와 주변 편의시설을 함께 찾는 분께 어울려요. 모래사장을 걷고 식당에서 식사한 뒤 다시 바다를 보러 나와보세요. 숙박시설과 식당뿐 아니라 상점과 편의점도 모여 있어, 해변과 마을을 함께 둘러보며 시간을 보낼 수 있어요. 화이트 샌드는 해안의 수심이 고르지 않아요. 아이와 물놀이하신다면 얕아 보이는 곳에서도 멀리 들어가지 않도록 살펴주세요. 수영은 당일 현장에서 허용한 구역을 이용하시면 돼요. 물놀이를 하지 않는 날에는 모래사장을 걷고 주변 식당에서 식사하며 바닷가를 즐겨보세요.",
+      "tradeoff": "해안의 수심이 고르지 않아요. 얕아 보이는 곳에서도 멀리 들어가지 마세요. 아이와 함께라면 특히 주의하고 현장에서 허용한 구역을 이용해주세요.",
+      "factEvidence": "https://www.kochanggov.go.th/index.php/v/catalog/581",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "해변에서 쉬다가 식사하러 나오는 하루",
+      "아이와 물놀이하신다면 수심을 살펴주세요"
+    ]
+  },
+  {
+    "id": "klong-prao",
+    "city": "코창",
+    "name": "클롱프라오 해변",
+    "english": "Klong Prao Beach",
+    "thai": "หาดคลองพร้าว",
+    "intro": "코창에서 야자수가 이어지는 넓은 해변을 걷고 싶다면 클롱프라오로 가보세요. 화이트 샌드 남쪽의 서해안에 모래사장이 길게 펼쳐지는 곳이에요. 주변 숙소에 머물며 연인이나 가족과 바다를 바라보고 싶은 분께 어울려요. 바닷가 산책을 중심으로 하루를 잡고, 함께 온 사람과 여유롭게 쉬어보세요.",
+    "cityId": "ko-chang",
+    "province": "Trat",
+    "area": "코창",
+    "lat": 12.0477149,
+    "lng": 102.2926256,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/relation/5660061",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "클롱프라오 해변 | 코창 야자수 해안·접근·물놀이 안내",
+    "description": "코창 클롱프라오의 야자수와 넓은 모래사장을 즐겨보세요. 도로에서 숙소까지 이동하는 방법과 북쪽 램차이쳇 바위 곶의 물놀이 제한을 안내해요.",
+    "experience": [
+      "클롱프라오에서는 야자수가 이어지는 넓은 모래사장을 걸어보세요. 연인이나 가족과 바다를 바라보며 산책하고, 주변 식당에서 식사를 이어가셔도 좋아요. 일부 숙소는 큰길에서 안쪽에 있어 차에서 내린 뒤 더 이동해야 할 수 있어요. 짐을 가지고 가신다면 숙소에 차가 들어갈 수 있는 곳과 남은 길을 물어보세요.",
+      "북쪽 램차이쳇은 바위가 있는 곶으로 물놀이에 적합하지 않아요. 이곳에서는 수영하지 마세요. 클롱프라오의 모래사장에서 물놀이하실 때도 수심을 살피고 그날의 깃발과 현장 안내를 따라주세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "코창 서쪽, 화이트 샌드 남쪽에 있어요. 섬 안 도로에서 숙소나 해안으로 나가는 길을 따라 이동해요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/582"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "북쪽 램차이쳇의 바위 곶에서는 물놀이하지 마세요. 모래사장에서도 수심을 살피고 당일 깃발과 입수 안내를 따라주세요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/582"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 시설·숙소",
+        "value": "주변에 숙박시설과 식당, 바가 있어요. 큰길에서 안쪽으로 들어가야 하는 숙소도 있어 차에서 내린 뒤 숙소나 모래사장까지 더 이동할 수 있어요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/582"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "“Klong Prao Beach, Ko Chang”을 검색하고 묵는 숙소까지 도착할 곳을 정해주세요. 큰길에서 내리는 경우에는 숙소나 모래사장까지 가는 길이 더 남을 수 있어요. 짐을 가지고 가신다면 어디에서 내려야 하는지 숙소에 물어보세요.",
+        "sourceUrl": "https://www.kochanggov.go.th/index.php/v/catalog/582",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Klong%20Prao%20Beach%2C%20%EC%BD%94%EC%B0%BD%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "램차이쳇에서도 물놀이할 수 있나요?",
+        "북쪽 램차이쳇의 바위 곶은 물놀이에 적합하지 않아요. 이곳에서는 수영하지 마세요. 클롱프라오의 모래사장으로 가시더라도 당일 깃발과 입수 안내를 따라주세요."
+      ],
+      [
+        "도로에서 내리면 바로 해변인가요?",
+        "숙소와 해안 접근로에 따라 더 이동해야 할 수 있어요. 큰길에서 안쪽으로 들어가야 하는 숙소도 있어요. 짐을 가지고 가신다면 차량을 예약할 때 숙소까지 들어가는지 물어보고, 큰길에서 내려야 한다면 남은 길을 숙소에 안내받으세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg/1280px-Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "클롱프라오 해변의 해안 풍경",
+        "caption": "클롱프라오 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_Ko_Chang_Island,_Thailand.jpg",
+        "credit": "Vyacheslav Argenberg",
+        "rights": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "width": 4032,
+        "height": 2688
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/1280px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "클롱프라오 해변의 해안 풍경",
+        "caption": "클롱프라오 해변의 해안 풍경",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_west_coast_of_Ko_Chang_Island,_Thailand.jpg",
+        "credit": "Vyacheslav Argenberg",
+        "rights": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "width": 4032,
+        "height": 2688
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.kochanggov.go.th/index.php/v/catalog/582"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/relation/5660061"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "코창에서 야자수가 이어지는 넓은 해변을 걷고 싶다면 클롱프라오로 가보세요. 화이트 샌드 남쪽의 서해안에 모래사장이 길게 펼쳐지는 곳이에요. 주변 숙소에 머물며 연인이나 가족과 바다를 바라보고 싶은 분께 어울려요. 바닷가 산책을 중심으로 하루를 잡고, 함께 온 사람과 여유롭게 쉬어보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "클롱프라오에서는 야자수가 이어지는 넓은 모래사장을 걸어보세요. 연인이나 가족과 바다를 바라보며 산책하고, 주변 식당에서 식사를 이어가셔도 좋아요. 일부 숙소는 큰길에서 안쪽에 있어 차에서 내린 뒤 더 이동해야 할 수 있어요. 짐을 가지고 가신다면 숙소에 차가 들어갈 수 있는 곳과 남은 길을 물어보세요. 북쪽 램차이쳇은 바위가 있는 곶으로 물놀이에 적합하지 않아요. 이곳에서는 수영하지 마세요. 클롱프라오의 모래사장에서 물놀이하실 때도 수심을 살피고 그날의 깃발과 현장 안내를 따라주세요.",
+      "tradeoff": "북쪽 램차이쳇의 바위 곶에서는 물놀이하지 마세요. 모래사장에서도 수심을 살피고 당일 깃발과 입수 안내를 따라주세요.",
+      "factEvidence": "https://www.kochanggov.go.th/index.php/v/catalog/582",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "야자수와 넓은 해안을 따라 걸어보세요",
+      "램차이쳇 바위 곶에서는 물놀이하지 마세요"
+    ]
+  },
+  {
+    "id": "sai-kaew",
+    "city": "코사멧",
+    "name": "사이깨우 해변",
+    "english": "Sai Kaew Beach",
+    "thai": "หาดทรายแก้ว",
+    "intro": "코사멧에서 흰 모래사장을 걷고 바닷가 식사도 즐기고 싶다면 사이깨우 해변으로 가보세요. 라용 앞바다의 섬에 있어 본토 반페에서 배를 타고 들어와 방문해요. 해변 가까운 숙소에서 친구나 연인과 쉬고 싶은 분께 어울려요. 바다를 바라보다 식사하러 나오는 식으로 섬에서의 하루를 여유롭게 보내보세요.",
+    "cityId": "ko-samet",
+    "province": "Rayong",
+    "area": "코사멧",
+    "lat": 12.5669475,
+    "lng": 101.4647734,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/way/96477683",
+    "coordinateKind": "해변 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "사이깨우 해변 | 코사멧 흰 모래사장·반페 배편 안내",
+    "description": "코사멧 사이깨우의 흰 모래사장에서 쉬어보세요. 싸타힙 동명 해변과 구분하고, 반페 출발 배와 나단 도착 후 이동·국립공원 조건을 안내해요.",
+    "experience": [
+      "사이깨우에서는 흰 모래사장을 걷고 바다를 바라보며 쉬어보세요. 섬에는 숙박시설과 식당, 바, 편의점이 있어 해변 가까운 곳에서 식사와 휴식을 함께 즐길 수 있어요. 친구나 연인과 며칠 머물며 느긋하게 지내고 싶은 분께 추천해요.",
+      "반페에서 코사멧행 배를 예약할 때는 어느 선착장에 내리는지 물어보세요. 나단 선착장에 도착하면 숙소와 사이깨우 해변까지 섬 안에서 이동해야 해요. 배 요금에 포함된 이동 범위도 함께 살펴보세요. 국립공원 입장 조건은 배 요금과 별개이므로, 공원 입장이 배편에 포함되는지와 별도로 지켜야 할 입장 조건을 예약할 때 물어보세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "본토 반페에서 코사멧행 배를 타고 들어가요. 나단 등 도착 선착장에서 해변까지 섬 안 이동이 이어져요. 국립공원 입장 조건과 배 요금은 따로 살펴야 해요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/sai-keao-beach/"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "바다에 들어가기 전에는 해변의 깃발과 입수 안내를 살펴주세요. 물놀이할 구역과 그날의 파도 상태를 보고 현장 안내에 따라 수영해주세요. 바다가 잔잔해 보여도 입수를 막는 깃발이나 안내가 있으면 물에 들어가지 마세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "주변 시설·숙소",
+        "value": "코사멧에는 숙박시설과 식당, 바, 편의점이 있어요. 해변 가까운 숙소를 중심으로 식사와 휴식을 함께 즐길 수 있어요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/sai-keao-beach/"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "반페에서 코사멧행 배를 타고, 도착 선착장에서 사이깨우 해변으로 이동하시면 돼요. 배를 예약할 때 나단 등 어느 선착장에 내리는지 물어보세요. 숙소 위치도 함께 알려주시면 도착 후 가는 길을 알아보기 좋아요. 배의 시간과 가격은 기상과 운항 조건에 따라 달라질 수 있어요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/sai-keao-beach/",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Sai%20Kaew%20Beach%2C%20%EC%BD%94%EC%82%AC%EB%A9%A7%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "사이깨우 해변은 싸타힙에 있는 곳인가요?",
+        "아니요. 이곳은 라용 앞바다 코사멧에 있는 사이깨우 해변이에요. 싸타힙에도 같은 이름의 해변이 있어요. 길찾기나 숙소 검색에서는 Sai Kaew Beach에 Ko Samet을 함께 넣어주세요."
+      ],
+      [
+        "반페에서 배를 타면 해변에 바로 내리나요?",
+        "도착 선착장에 따라 해변까지 더 이동해야 해요. 나단 선착장에 내리는 편이라면 그곳에서 숙소와 사이깨우 해변으로 가시면 돼요. 배를 예약할 때 도착지와 포함된 이동 범위를 물어보고, 국립공원 입장 조건도 함께 살펴주세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Hat_Saikaew%2C_Koh_Samet.jpg/1280px-Hat_Saikaew%2C_Koh_Samet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hat_Saikaew,_Koh_Samet.jpg",
+        "credit": "Adam",
+        "rights": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "width": 3648,
+        "height": 2736,
+        "title": "Hat Saikaew, Koh Samet",
+        "alt": "사이깨우 해변의 모래사장과 바다",
+        "caption": "2008년에 촬영한 코사멧 사이깨우 해변의 흰 모래사장과 바다예요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "2008-08-14 16:49:40",
+        "subjectEvidence": {
+          "method": "Hat Saikaew, Koh Samet 원문 명시와 모래사장 사진 확인. 두 번째 사진 GPS(12.567046,101.465263)가 OSM 코사멧 사이깨우 way/96477683 안에 위치. 싸타힙 동명 해변의 GPS(12.74,100.84)는 제외.",
+          "sourceDescription": "Hat Saikaew, Koh Samet",
+          "latitude": null,
+          "longitude": null,
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 8732642
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Hat_Sai_Kaew_met_Djoser_jr._-_panoramio.jpg/1280px-Hat_Sai_Kaew_met_Djoser_jr._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hat_Sai_Kaew_met_Djoser_jr._-_panoramio.jpg",
+        "credit": "Paul IJpelaar",
+        "rights": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "width": 2560,
+        "height": 1920,
+        "title": "Hat Sai Kaew met Djoser jr. - panoramio",
+        "alt": "사이깨우 해변의 모래사장과 바다",
+        "caption": "2004년에 촬영한 코사멧 사이깨우 해변의 물가예요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "Taken on 14 August 2004",
+        "subjectEvidence": {
+          "method": "Hat Saikaew, Koh Samet 원문 명시와 모래사장 사진 확인. 두 번째 사진 GPS(12.567046,101.465263)가 OSM 코사멧 사이깨우 way/96477683 안에 위치. 싸타힙 동명 해변의 GPS(12.74,100.84)는 제외.",
+          "sourceDescription": "Hat Sai Kaew met Djoser jr.",
+          "latitude": "12.567046",
+          "longitude": "101.465263",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 39556166
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.thailandtravel.or.jp/sai-keao-beach/"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/way/96477683"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "코사멧에서 흰 모래사장을 걷고 바닷가 식사도 즐기고 싶다면 사이깨우 해변으로 가보세요. 라용 앞바다의 섬에 있어 본토 반페에서 배를 타고 들어와 방문해요. 해변 가까운 숙소에서 친구나 연인과 쉬고 싶은 분께 어울려요. 바다를 바라보다 식사하러 나오는 식으로 섬에서의 하루를 여유롭게 보내보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "사이깨우에서는 흰 모래사장을 걷고 바다를 바라보며 쉬어보세요. 섬에는 숙박시설과 식당, 바, 편의점이 있어 해변 가까운 곳에서 식사와 휴식을 함께 즐길 수 있어요. 친구나 연인과 며칠 머물며 느긋하게 지내고 싶은 분께 추천해요. 반페에서 코사멧행 배를 예약할 때는 어느 선착장에 내리는지 물어보세요. 나단 선착장에 도착하면 숙소와 사이깨우 해변까지 섬 안에서 이동해야 해요. 배 요금에 포함된 이동 범위도 함께 살펴보세요. 국립공원 입장 조건은 배 요금과 별개이므로, 공원 입장이 배편에 포함되는지와 별도로 지켜야 할 입장 조건을 예약할 때 물어보세요.",
+      "tradeoff": "바다에 들어가기 전에는 해변의 깃발과 입수 안내를 살펴주세요. 물놀이할 구역과 그날의 파도 상태를 보고 현장 안내에 따라 수영해주세요. 바다가 잔잔해 보여도 입수를 막는 깃발이나 안내가 있으면 물에 들어가지 마세요.",
+      "factEvidence": "https://www.thailandtravel.or.jp/sai-keao-beach/",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "흰 모래사장과 바닷가에서 보내는 하루",
+      "배에서 내리는 곳과 해변까지의 길"
+    ]
+  },
+  {
+    "id": "wong-duean",
+    "city": "코사멧",
+    "name": "아오웡드안 해변",
+    "english": "Ao Wong Duean",
+    "thai": "อ่าววงเดือน",
+    "intro": "코사멧에서 반달처럼 굽은 만을 바라보며 쉬고 싶다면 아오웡드안으로 가보세요. 흰 모래사장이 둥글게 바다를 감싸는 해변이에요. 연인이나 가족과 숙소에서 바다로 나와 걷고, 한곳에서 여유롭게 시간을 보내고 싶은 분께 어울려요. 만을 따라 걸으며 해안이 휘어지는 풍경을 천천히 즐겨보세요.",
+    "cityId": "ko-samet",
+    "province": "Rayong",
+    "area": "코사멧",
+    "lat": 12.5531519,
+    "lng": 101.452071,
+    "facilityType": "해변",
+    "pilot": true,
+    "coordinateVerified": true,
+    "coordinateSource": "https://www.openstreetmap.org/node/12322944566",
+    "coordinateKind": "만 대표 위치",
+    "checkedAt": "2026-10-20",
+    "title": "아오웡드안 | 코사멧 반달 해변·도착지별 이동 안내",
+    "description": "코사멧 아오웡드안의 반달 모양 만과 흰 모래사장을 즐겨보세요. 배의 도착지가 아오웡드안인지 나단인지 구분하고 숙소까지 이동하는 방법을 안내해요.",
+    "experience": [
+      "아오웡드안의 흰 모래사장은 반달처럼 둥글게 만을 감싸고 있어요. 친구나 연인과 모래사장을 걸으며 휘어지는 해안과 바다를 바라보세요. 숙소에서 바닷가로 나와 쉬고 싶은 날이라면 해변에서 보낼 시간을 넉넉히 남겨두시면 좋겠죠.",
+      "반페에서 아오웡드안으로 가는 배를 타거나, 나단 선착장에 내려 섬 안에서 이동할 수 있어요. 배를 예약할 때 “아오웡드안에 내리나요, 나단에 내리나요?”라고 물어보세요. 예약한 숙소 이름도 함께 알려주시면 돼요. 짐을 가지고 오는 날에는 배에서 내린 뒤 숙소까지 가는 길도 미리 안내받아두세요."
+    ],
+    "verifiedSwimmingConditions": true,
+    "accessConditions": [
+      {
+        "label": "위치·접근",
+        "value": "아오웡드안은 코사멧에 있는 만으로, 배를 타고 섬에 들어와 방문해요.",
+        "sourceUrl": "https://www.phe.go.th/v/catalog/295"
+      }
+    ],
+    "swimming": [
+      {
+        "label": "입수 전 확인",
+        "value": "물놀이할 때는 배가 다니는 구역을 피해주세요. 둥글게 감싸인 만도 날마다 파도 상태가 달라지니 당일 깃발과 입수 안내를 따라주세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "seasons": [
+      {
+        "label": "날씨·현장 깃발",
+        "value": "빨간 깃발이 올라가 있으면 수영하지 마세요. 바닷가로 출발하기 전에 해상 예보를 보고, 도착한 뒤에는 현장의 입수 안내를 따라주세요. 배를 타는 일정이 있다면 파도와 날씨로 배가 늦어지거나 취소될 수 있으니, 예약할 때 기상 악화 시 이용 조건도 물어보세요.",
+        "sourceUrl": "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      }
+    ],
+    "facilities": [
+      {
+        "label": "해변 풍경",
+        "value": "반달처럼 굽은 만을 따라 흰 모래사장이 이어져요. 숙소에서 바닷가로 나와 걷고, 만의 풍경을 바라보며 쉬는 하루를 보내보세요.",
+        "sourceUrl": "https://www.phe.go.th/v/catalog/295"
+      }
+    ],
+    "transport": [
+      {
+        "name": "해변으로 가는 방법",
+        "instructions": "반페에서 배를 예약할 때 “Wong Duean” 또는 “Wong Duen”으로 가는 편인지 물어보세요. 나단 선착장에 도착하는 배라면 섬 안에서 아오웡드안까지 이동해야 해요. 예약한 숙소의 위치와 배에서 내리는 곳을 함께 알아두세요.",
+        "sourceUrl": "https://www.thailandtravel.or.jp/sai-keao-beach/",
+        "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Ao%20Wong%20Duean%2C%20%EC%BD%94%EC%82%AC%EB%A9%A7%2C%20Thailand"
+      }
+    ],
+    "faq": [
+      [
+        "아오웡드안과 Wong Duen은 같은 곳인가요?",
+        "네. 코사멧의 반달처럼 굽은 만과 해변을 아오웡드안이라고 불러요. 영문으로는 Wong Duean이나 Wong Duen으로 표기해요. 숙소나 배편을 검색할 때 Ko Samet을 함께 넣어주세요."
+      ],
+      [
+        "배를 예약할 때 무엇을 확인하면 되나요?",
+        "아오웡드안으로 가는 편인지 나단 선착장에 내리는 편인지 물어보세요. 나단에 내린다면 섬 안에서 아오웡드안까지 이동해야 해요. 예약한 숙소 이름도 함께 알려주시고 배에서 내린 뒤 가는 길을 안내받으세요."
+      ],
+      [
+        "빨간 깃발이 있으면 물에 들어가도 되나요?",
+        "아니요. 빨간 깃발은 수영 금지를 뜻해요. 바다가 잔잔해 보이더라도 물에 들어가지 말고 해변에서 시간을 보내주세요."
+      ]
+    ],
+    "photos": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Koh_Samet%2CWong_Duean_Beach.jpg/1280px-Koh_Samet%2CWong_Duean_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koh_Samet,Wong_Duean_Beach.jpg",
+        "credit": "Eltorodeoro",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 5312,
+        "height": 2988,
+        "title": "Koh Samet,Wong Duean Beach",
+        "alt": "아오웡드안 해변의 모래사장과 바다",
+        "caption": "2016년 이른 아침에 촬영한 아오웡드안 해변의 모래사장이에요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "2016-09-14 07:38:12",
+        "subjectEvidence": {
+          "method": "두 원문이 Wong Duean Beach / Ao Wang Deun, Ko Samet으로 명시. 두 번째 사진 GPS(12.553600,101.450157)가 반달 모양 만의 서쪽 해안에 있고 해안 풍경을 대조.",
+          "sourceDescription": "Thailand, Koh Samet island, Wong Duean beach, early morning.",
+          "latitude": null,
+          "longitude": null,
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 53020513
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ao_Wang_Deun%2C_Ko_Samet_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ao_Wang_Deun,_Ko_Samet_-_panoramio.jpg",
+        "credit": "easy4444",
+        "rights": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "width": 1280,
+        "height": 960,
+        "title": "Ao Wang Deun, Ko Samet - panoramio",
+        "alt": "아오웡드안 해변의 모래사장과 바다",
+        "caption": "코사멧 아오웡드안의 굽은 모래사장과 바다를 담은 참고사진이에요.",
+        "rightsCheckedOn": "2026-10-20",
+        "sourceDateRecord": "12 December 2010 (original upload date)",
+        "subjectEvidence": {
+          "method": "두 원문이 Wong Duean Beach / Ao Wang Deun, Ko Samet으로 명시. 두 번째 사진 GPS(12.553600,101.450157)가 반달 모양 만의 서쪽 해안에 있고 해안 풍경을 대조.",
+          "sourceDescription": "Ao Wang Deun, Ko Samet",
+          "latitude": "12.553600",
+          "longitude": "101.450157",
+          "reviewedOn": "2026-10-20"
+        },
+        "commonsPageId": 53396124
+      }
+    ],
+    "sources": [
+      [
+        "지방자치단체·공식 관광 안내",
+        "https://www.phe.go.th/v/catalog/295"
+      ],
+      [
+        "TAT 해변 깃발·해상 활동 안내 (2018년 자료)",
+        "https://www.tatnews.org/2018/07/important-information-on-marine-tourism-in-thailand-during-the-southwest-monsoon-season/"
+      ],
+      [
+        "지도 위치 · OpenStreetMap",
+        "https://www.openstreetmap.org/node/12322944566"
+      ],
+      [
+        "TAT 코사멧 배편·섬 안 이동 안내",
+        "https://www.thailandtravel.or.jp/sai-keao-beach/"
+      ]
+    ],
+    "gaps": [
+      "공용 화장실·샤워장 현재 운영·요금 미확인",
+      "주차·대여·개별 업소 비용 미확인"
+    ],
+    "editorialReview": {
+      "appeal": "코사멧에서 반달처럼 굽은 만을 바라보며 쉬고 싶다면 아오웡드안으로 가보세요. 흰 모래사장이 둥글게 바다를 감싸는 해변이에요. 연인이나 가족과 숙소에서 바다로 나와 걷고, 한곳에서 여유롭게 시간을 보내고 싶은 분께 어울려요. 만을 따라 걸으며 해안이 휘어지는 풍경을 천천히 즐겨보세요.",
+      "companions": "휴양·산책을 계획하는 한국어 여행자",
+      "experience": "아오웡드안의 흰 모래사장은 반달처럼 둥글게 만을 감싸고 있어요. 친구나 연인과 모래사장을 걸으며 휘어지는 해안과 바다를 바라보세요. 숙소에서 바닷가로 나와 쉬고 싶은 날이라면 해변에서 보낼 시간을 넉넉히 남겨두시면 좋겠죠. 반페에서 아오웡드안으로 가는 배를 타거나, 나단 선착장에 내려 섬 안에서 이동할 수 있어요. 배를 예약할 때 “아오웡드안에 내리나요, 나단에 내리나요?”라고 물어보세요. 예약한 숙소 이름도 함께 알려주시면 돼요. 짐을 가지고 오는 날에는 배에서 내린 뒤 숙소까지 가는 길도 미리 안내받아두세요.",
+      "tradeoff": "물놀이할 때는 배가 다니는 구역을 피해주세요. 둥글게 감싸인 만도 날마다 파도 상태가 달라지니 당일 깃발과 입수 안내를 따라주세요.",
+      "factEvidence": "https://www.phe.go.th/v/catalog/295",
+      "siroccoComparison": "전체 MD·본문 문장 읽기→문장 역할별 시로코 승인 원문 비교→구체적 장소·행동으로 수정→조건 대조→수정본 전체 재독. 실제 검수 결과는 이번 문장별 원장에 보존.",
+      "pass": true,
+      "reviewedOn": "2026-10-20",
+      "reviewStatus": "full-sentence-reviewed-ko",
+      "reviewScope": "소개·경험·기본 정보·교통·물놀이·날씨·FAQ 전체 문장 재독 및 시로코 승인 원문 대조. 사용자 문체 승인·독립 검수·통합 빌드·배포 여부와 구분."
+    },
+    "relatedCameraIds": [],
+    "experienceTitles": [
+      "반달 모양의 만을 따라 걷는 시간",
+      "반페에서 출발해 아오웡드안으로"
+    ]
+  }
+]

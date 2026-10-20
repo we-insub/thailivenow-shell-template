@@ -1,0 +1,6 @@
+---
+import LocalizedDeliveryGuide from '../../../components/LocalizedDeliveryGuide.astro';
+import {deliveryLocales,getDeliveryGuide} from '../../../lib/delivery-localized.mjs';
+export function getStaticPaths(){return deliveryLocales.map(locale=>({params:{locale},props:getDeliveryGuide(locale)}));}
+---
+<LocalizedDeliveryGuide {...Astro.props}/>

@@ -1,3 +1,4 @@
+import {siteBrand} from './site-brand.mjs';
 import {parse,parseFragment,serialize} from 'parse5';
 import images from '../data/editorial-image-rights.json' with {type:'json'};
 import {suppressPublicDates} from './public-date-policy.mjs';
@@ -35,7 +36,7 @@ export function applyDetailEditorialPolicy(html,pathname){
  const tree=parse(html),all=nodes(tree),main=all.find(n=>n.nodeName==='main'),heading=nodes(main).find(n=>n.nodeName==='h1');if(!heading)return html;
  const locale=pathname.split('/')[1],label=bylineLabels[locale.startsWith('en')?'en':locale]||bylineLabels.en;
  if(!all.some(n=>attr(n,'data-tln-editorial-byline')!==undefined)){
-  const byline=parseFragment(`<p data-tln-editorial-byline class="tln-editorial-byline" style="font:inherit;font-size:14px;line-height:1.7;margin:10px 0 24px;color:#526572">${escape(label)} <a rel="author" href="/${locale}/">ThaiLiveNow</a></p>`).childNodes[0];
+  const byline=parseFragment(`<p data-tln-editorial-byline class="tln-editorial-byline" style="font:inherit;font-size:14px;line-height:1.7;margin:10px 0 24px;color:#526572">${escape(label)} <a rel="author" href="/${locale}/">${siteBrand(locale)}</a></p>`).childNodes[0];
   const parent=heading.parentNode;byline.parentNode=parent;parent.childNodes.splice(parent.childNodes.indexOf(heading)+1,0,byline);
  }
  for(const script of all.filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json')){

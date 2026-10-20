@@ -2,12 +2,110 @@
 import SiteFooter from './SiteFooter.astro';
 import DetailHeader from './DetailHeader.astro';
 import TransportPlaceMap from './TransportPlaceMap.astro';
-import {getOperationalDeployDate} from '../lib/operational-date';
+import RuntimeDate from './RuntimeDate.astro';
+import ImportantText from './ImportantText.astro';
+import cameraCopy from '../data/camera-editorial-ko.json';
+import beaches from '../data/beaches.json';
+import cities from '../data/beach-cities.json';
 const {beach:b}=Astro.props;
-const groups=[['이용 조건',b.accessConditions],['해수욕·스노클링',b.swimming],['계절·현장 깃발',b.seasons],['방문 정보·편의시설',b.facilities]].map(([title,rows])=>({title,rows:(rows||[]).filter(r=>r.label&&r.value)})).filter(g=>g.rows.length);
-const photos=(b.photos||[]).filter(p=>p.src&&p.rights&&p.sourceUrl).slice(0,3);
-const faq=(b.faq||[]).filter(f=>f[0]&&f[1]);
-const points=[{name:b.name,lat:b.lat,lng:b.lng,text:b.intro,url:'#beach-info'},...(b.transport||[]).filter(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lng)).map(p=>({...p,text:p.instructions,url:p.detailUrl||p.directionsUrl}))];
+const city=cities.find(c=>c.id===b.cityId)!;
+const has=(value)=>typeof value==='string'&&value.trim()&&!/^(미확인|미검증|정보 없음|준비 중|-)$/.test(value.trim());
+const related=beaches.filter(other=>other.pilot&&other.cityId===b.cityId&&other.id!==b.id);
+const facts=[...(b.accessConditions||[]),...(b.facilities||[])].filter(r=>has(r.label)&&has(r.value));
+const swimming=(b.swimming||[]).filter(r=>has(r.value));
+const seasons=(b.seasons||[]).filter(r=>has(r.value));
+const photos=(b.photos||[]).filter(p=>has(p.src)&&has(p.alt)&&has(p.sourceUrl)&&has(p.rights));
+const access=(b.transport||[]).filter(p=>has(p.instructions));
+const faq=(b.faq||[]).filter(([q,a])=>has(q)&&has(a));
+const experience=(b.experience||[]).map((text,i)=>({title:b.experienceTitles?.[i],text})).filter(r=>has(r.text));
+const phrases=['수영하지 마세요','수영하지 않는 관람 일정','수영을 하지 않는 관람 일정','수심이 깊고 파도가 강할 수 있어요','수심이 일정하지','빨간 깃발','물놀이 장소로 잡지 마세요','배를 이용','특정 해변 출입구나 주차장을 뜻하지 않아요','카론 노이','차웽 노이','카타 노이','램차이쳇','2026년 10월 1일','Railay West','나단 선착장'];
+const points=[{name:b.name,lat:b.lat,lng:b.lng,text:b.coordinateKind,url:b.coordinateSource}];
 ---
-<html lang="ko"><head><link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48" /><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any" /><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{b.name} ({b.english}) | ThaiLiveNow</title><meta name="description" content={b.intro}/><meta name="robots" content="noindex,nofollow"/><script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))})}/></head><body><DetailHeader/><main id="beach-info" class="thai-detail"><a href="/ko/beaches/">도시별 해변 →</a><h1>{b.name} ({b.english})</h1>{b.thai&&<p>{b.thai}</p>}<p>{b.intro}</p>{photos.length>0&&<div class="photos">{photos.map(p=><figure><img src={p.src} alt={p.alt} loading="lazy"/><figcaption>{p.caption} · <a href={p.sourceUrl}>{p.credit||'사진 출처'}</a></figcaption></figure>)}</div>}<TransportPlaceMap points={points} title="해변과 접근 지점 지도" note="핀은 확인된 해변·시설·교통 위치예요. 수영 구역과 현장 출입 조건은 아래 안내를 확인하세요."/>{groups.map(g=><section><h2>{g.title}</h2><dl>{g.rows.map(r=><div><dt>{r.label}</dt><dd>{r.value}</dd></div>)}</dl></section>)}{b.features?.length>0&&<section><h2>해변 특징·이런 분께 추천해요</h2>{b.features.map(p=><p>{p}</p>)}</section>}{b.transport?.length>0&&<section><h2>대중교통·가는 방법·귀가</h2>{b.transport.map(p=><article><h3>{p.name}</h3><p>{p.instructions}</p>{p.walkMinutes&&<p>도보 약 {p.walkMinutes}분</p>}{p.directionsUrl&&<a href={p.directionsUrl}>경로 확인 →</a>}</article>)}</section>}{faq.length>0&&<section><h2>자주 묻는 질문</h2>{faq.map(([q,a])=><details><summary>{q}</summary><p>{a}</p></details>)}</section>}<section><h2>출처</h2>{b.sources.map(([label,url])=><p><a href={url}>{label}</a></p>)}<p>출처 확인일: {getOperationalDeployDate()} · 최근 배포일: {getOperationalDeployDate()}</p></section></main><SiteFooter/></body></html>
-<style>:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,sans-serif;line-height:1.8}main{max-width:1000px;margin:auto;padding:30px 20px}a{color:#267e89}section{margin:30px 0}dl{background:white;border:1px solid #dce5e8;border-radius:12px;overflow:hidden}dl>div{display:grid;grid-template-columns:160px minmax(0,1fr);border-bottom:1px solid #dce5e8}dt,dd{margin:0;padding:14px}dt{background:#edf4f5;font-weight:700}.photos img{width:100%;border-radius:12px}figure{margin:12px 0}details,article{padding:16px;border:1px solid #dce5e8;border-radius:10px;margin:12px 0}figcaption{font-size:12px}@media(max-width:600px){dl>div{grid-template-columns:100px minmax(0,1fr)}dt,dd{padding:10px;font-size:14px}}</style>
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="icon" href="/favicon.svg"/>
+  <title>{b.title} | ThaiLiveNow</title>
+  <meta name="description" content={b.description}/>
+  <script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))})}/>
+</head>
+<body>
+<DetailHeader/>
+<main class="thai-detail beach-detail">
+  <nav aria-label="현재 위치"><a href="/ko/beaches/">태국 해변</a> › <a href={`/ko/beaches/cities/${city.id}/`}>{city.name} 해변</a> › {b.name}</nav>
+  <h1>{b.name} ({b.english})</h1>
+  <p class="location">{b.thai} · {b.city}</p>
+  <p class="intro">{b.intro}</p>
+
+  {photos.length>0&&<section class="gallery" aria-label={`${b.name} 사진`}>
+    {photos.map((p,i)=><figure>
+      <img src={p.src} alt={p.alt} width={p.width} height={p.height} loading={i===0?'eager':'lazy'}/>
+      <figcaption>{p.caption}<br/>
+        <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer">사진: {p.credit}{p.title&&` · ${p.title}`}</a> · <a href={p.licenseUrl||p.sourceUrl} target="_blank" rel="noopener noreferrer">{p.rights}</a>
+        {p.changes&&<> · {p.changes}</>}
+      </figcaption>
+    </figure>)}
+  </section>}
+
+  <TransportPlaceMap points={points} showPlaces={false} linkLabel="지도 위치 근거 보기 ↗" title="해변 위치와 가는 길" note={`지도 핀: ${b.coordinateKind} · 해변 입구·주차장·수영 구역의 위치와는 달라요.`}/>
+  {access.length>0&&<section id="access">
+    <h2>{b.name} 가는 방법</h2>
+    {access.map(p=><article><h3>{p.name}</h3><p><ImportantText text={p.instructions} phrases={[...phrases,b.english]}/></p>{p.directionsUrl&&<p><a href={p.directionsUrl} target="_blank" rel="noopener noreferrer">지도에서 목적지 찾기 ↗</a></p>}</article>)}
+    <p class="destination"><span>지도에서 찾을 이름</span> <span lang="en">{b.english}</span> · <span lang="th">{b.thai}</span></p>
+  </section>}
+
+  {facts.length>0&&<section id="facts"><h2>방문 전 기본 정보</h2><dl>{facts.map(r=><div><dt>{r.label}</dt><dd><ImportantText text={r.value} phrases={phrases}/></dd></div>)}</dl></section>}
+
+  {experience.length>0&&<section id="experience"><h2>이곳에서 보낼 시간을 상상해보세요</h2>{experience.map(r=><article>{has(r.title)&&<h3>{r.title}</h3>}<p><ImportantText text={r.text} phrases={phrases}/></p></article>)}</section>}
+
+  {(swimming.length>0||seasons.length>0)&&<section id="swimming"><h2>물놀이와 날씨, 방문 전에 알아두세요</h2>{swimming.map(r=><p><ImportantText text={r.value} phrases={phrases}/></p>)}{seasons.map(r=><p><ImportantText text={r.value} phrases={phrases}/></p>)}</section>}
+
+  {faq.length>0&&<section id="faq"><h2>자주 묻는 질문</h2>{faq.map(([q,a])=><article><h3>{q}</h3><p><ImportantText text={a} phrases={phrases}/></p></article>)}</section>}
+
+  <section id="related"><h2>이어서 살펴보기</h2><p><a href={`/ko/beaches/cities/${city.id}/`}>{city.name} 해변 지도·목록 →</a></p>
+    {related.length>0&&<ul>{related.map(other=><li><a href={`/ko/beaches/${other.id}/`}>{other.name}</a> · {other.english}</li>)}</ul>}
+    {b.relatedCameraIds?.length>0&&<><h3>이 해변의 카메라</h3><ul>{b.relatedCameraIds.map(id=><li><a href={`/ko/cameras/${id}/`}>{cameraCopy[id].displayTitle}</a></li>)}</ul></>}
+    <p><a href="/ko/beaches/">태국 도시별 해변 전체 보기 →</a></p><p><a href="/ko/?category=sea#map">메인 지도에서 바다·해변 찾기 →</a></p>
+  </section>
+  <section class="sources" id="sources"><p>자료 확인일: <RuntimeDate kind="source" fallback={b.checkedAt} locale="ko"/></p><details><summary>공식 출처 보기 · {b.sources.length}개</summary><ul>{b.sources.map(([label,url])=><li><a href={url} target="_blank" rel="noopener noreferrer">{label}</a></li>)}</ul></details></section>
+</main>
+<SiteFooter/>
+</body>
+</html>
+<style>
+/* Keep the approved RooftopDetail reading width, type, gallery and information cards. */
+:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,"Apple SD Gothic Neo",sans-serif;line-height:1.8}
+:global(*){box-sizing:border-box}
+main{max-width:1000px;margin:auto;padding:32px 24px 60px}
+nav,.location{font-size:14px;color:#61717e}
+h1{font-size:32px;line-height:1.4}
+.intro{font-size:18px}
+section{margin-top:34px;scroll-margin-top:110px}
+h2{font-size:24px;line-height:1.5}
+h3{font-size:19px;margin:0;line-height:1.6}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.gallery figure{margin:0;min-width:0}
+.gallery figure:first-child{grid-column:1/-1}
+.gallery img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px}
+.gallery figcaption{font-size:12px;color:#61717e;overflow-wrap:anywhere;margin-top:6px}
+dl{background:white;border:1px solid #dce5e8;border-radius:12px;overflow:hidden}
+dl>div{display:grid;grid-template-columns:160px minmax(0,1fr);border-bottom:1px solid #e7edef}
+dl>div:last-child{border:0}
+dt{background:#eff5f6;font-weight:700}
+dt,dd{padding:14px 18px;margin:0}
+dd{overflow-wrap:anywhere}
+article{padding:20px;background:white;border:1px solid #dce5e8;border-radius:12px;margin:12px 0}
+article p{margin-bottom:0}
+a{color:#267e89;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,summary:focus-visible{outline:3px solid #267e89;outline-offset:4px}
+.destination{font-size:14px;overflow-wrap:anywhere}
+.destination>span:first-child{display:block;color:#61717e}
+.sources{font-size:13px}
+.sources summary{cursor:pointer;font-weight:700}
+.sources li{margin:10px 0;overflow-wrap:anywhere}
+#related li{margin:8px 0}
+@media(max-width:600px){main{padding:24px 16px}h1{font-size:27px}.intro{font-size:16px}.gallery{grid-template-columns:1fr}dl>div{grid-template-columns:110px minmax(0,1fr)}dt,dd{padding:12px;font-size:14px}}
+</style>

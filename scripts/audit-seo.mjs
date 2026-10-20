@@ -34,7 +34,7 @@ for(const file of await files(root)){
  if(key('meta','name','keywords').length)warnings.push(`${file}: unused meta keywords; review removal rather than inherit home keywords`);
  if([...title].length>110)warnings.push(`${file}: long title; manually review the primary search intent`);
  if(description && [...description].length>350)warnings.push(`${file}: long description; write a concise complete summary`);
- if(!title.includes('ThaiLiveNow') && !title.includes('타이라이브나우'))errors.push(`${file}: missing brand`);
+ if(!title.includes(file.includes('/ko/')?'태국라이브나우':'ThaiLiveNow'))errors.push(`${file}: missing brand`);
  for(const n of parsed.filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json')){
   try{
    const schema=JSON.parse(text(n));

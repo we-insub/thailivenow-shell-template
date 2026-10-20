@@ -25,3 +25,9 @@ export function mapPointBounds(points) {
  if (!valid.length) return null;
  return [[Math.min(...valid.map(p => p[0])), Math.min(...valid.map(p => p[1]))], [Math.max(...valid.map(p => p[0])), Math.max(...valid.map(p => p[1]))]];
 }
+
+// Beach records stay in the Korean editorial scope; a city match never creates unrelated venue links.
+export function beachMatchesHomeFilter(beach,{cityId='',province='',area='',query=''}={}) {
+ if(!beach.pilot||!beach.coordinateVerified||!Number.isFinite(beach.lat)||!Number.isFinite(beach.lng))return false;
+ return (!cityId||beach.cityId===cityId)&&(!province||beach.province===province)&&(!area||beach.area===area)&&`${beach.name} ${beach.english} ${beach.city} ${beach.thai}`.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase());
+}

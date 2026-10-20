@@ -1,0 +1,8 @@
+---
+import {getBeachLocale} from '../lib/beach-localization.mjs';
+import {beachHomeUI} from '../lib/beach-home-ui.mjs';
+const {locale='ko',cameraId}=Astro.props;
+const records=getBeachLocale(locale).beaches.filter(b=>b.pilot&&b.relatedCameraIds?.includes(cameraId));
+const ui=beachHomeUI(locale);
+---
+{records.length>0&&<section data-related-beaches><h2>{ui.visitHeading}</h2><ul>{records.map(b=><li><a href={`/${locale}/beaches/${b.id}/`}>{b.name} · {ui.visitSuffix} →</a></li>)}</ul></section>}

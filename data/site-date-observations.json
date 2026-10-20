@@ -4582,7 +4582,7 @@
     },
     "/ko/transport/guides/air/": {
       "sourceCheckedOn": null,
-      "contentModifiedOn": null
+      "contentModifiedOn": "2026-10-17"
     },
     "/ko/transport/guides/boat/": {
       "sourceCheckedOn": null,
@@ -10410,6 +10410,1062 @@
     },
     "/es/airport-assistance/flights/": {
       "contentModifiedOn": "2026-10-19"
+    },
+    "/ko/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/phuket/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/pattaya/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/samui/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/phi-phi/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/krabi/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/khao-lak/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/hua-hin/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/ko-chang/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/cities/ko-samet/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/ko/beaches/": {
+      "contentModifiedOn": "2026-10-20"
+    },
+    "/en/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-us/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-gb/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/en-in/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ja/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-cn/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/zh-tw/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ms/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/es/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/patong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/patong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/karon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/karon/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/kata/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/kata/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/pattaya/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/jomtien/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/jomtien/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/chaweng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/chaweng/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/lamai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/lamai/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/maya-bay/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/maya-bay/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/loh-dalum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/loh-dalum/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/ao-nang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/ao-nang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/railay-west/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/railay-west/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/nang-thong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/nang-thong/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/bang-niang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/bang-niang/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/hua-hin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/hua-hin/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/khao-takiab/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/khao-takiab/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/white-sand/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/white-sand/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/klong-prao/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/klong-prao/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/sai-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/sai-kaew/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ru/beaches/wong-duean/": {
+      "sourceCheckedOn": "2026-10-20",
+      "sourceRecordPath": "/ko/beaches/wong-duean/",
+      "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
     }
   }
 }

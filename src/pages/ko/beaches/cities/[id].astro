@@ -1,0 +1,7 @@
+---
+import BeachHub from '../../../../components/BeachHub.astro';
+import cities from '../../../../data/beach-cities.json';
+export function getStaticPaths(){return cities.map(city=>({params:{id:city.id},props:{city}}));}
+const {city}=Astro.props;
+---
+<BeachHub city={city}/>

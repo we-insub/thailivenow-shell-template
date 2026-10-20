@@ -1,0 +1,542 @@
+{
+  "patong": {
+    "name": "Playa de Patong",
+    "intro": "Si te apetece descansar junto al mar y después comer e ir de compras, acércate a Patong. La arena sigue una bahía curva en la costa oeste de Phuket, con hoteles, restaurantes y tiendas justo detrás. Es un buen lugar para pasear y comer con amigos o en pareja. Reserva un día sin prisas y disfruta alternando la playa y las calles animadas.",
+    "experienceTitles": [
+      "Un paseo, una comida y algunas compras",
+      "Un día tranquilo junto al mar"
+    ],
+    "experience": [
+      "La arena de Patong rodea una bahía curva y, detrás, comienza una zona animada. Pasea por la costa con amigos o en pareja y sal después a comer. Los hoteles, restaurantes y tiendas están cerca, así que podrás seguir con la comida y las compras sin desplazarte lejos.",
+      "Patong encaja con quienes disfrutan de una playa animada junto a calles concurridas. Camina por la arena, come y vuelve al mar. Si vas a bañarte, utiliza solo las zonas permitidas en el lugar, lejos de embarcaciones y equipos de deportes acuáticos. Aunque el mar parezca tranquilo, sigue las banderas y las indicaciones de los socorristas."
+    ],
+    "access": "Patong está en la costa oeste de la isla principal de Phuket y se llega por carretera. No necesitas una embarcación hacia otra isla.",
+    "swimming": "Báñate lejos de embarcaciones y equipos de deportes acuáticos. Antes de entrar al mar, sigue las banderas de la playa y las indicaciones de los socorristas.",
+    "facilities": "Detrás de la playa hay hoteles, restaurantes y tiendas. Puedes descansar en la arena y después salir a comer o de compras.",
+    "transport": "Si vas en coche, busca «Patong Beach». La playa es larga: indica también al conductor tu alojamiento o el restaurante donde has quedado. El enlace de indicaciones permite localizar el destino y ver dónde queda respecto a tu alojamiento.",
+    "faq": [
+      [
+        "¿Para quién es una buena opción Patong?",
+        "Para amigos y parejas que quieran combinar un paseo junto al mar con comida y compras. Los hoteles, restaurantes y tiendas están cerca, detrás de la playa, por lo que podrás seguir por la zona después del paseo. Elige un día en el que no tengas que salir corriendo hacia otra visita."
+      ],
+      [
+        "¿Hay que ir en barco a Patong?",
+        "No. Patong está en el oeste de la isla principal de Phuket y se llega en coche. No hace falta reservar una excursión a otra isla. Al conductor, indícale Patong Beach y también tu alojamiento o el restaurante donde has quedado."
+      ]
+    ],
+    "title": "Playa de Patong | Mar, restaurantes y acceso por carretera",
+    "description": "Disfruta de la bahía curva de Patong, al oeste de Phuket, con restaurantes y tiendas cerca. Se llega por carretera; báñate solo en zonas permitidas, lejos de embarcaciones."
+  },
+  "karon": {
+    "name": "Playa de Karon",
+    "intro": "Para caminar despacio por una larga extensión de arena blanca, visita Karon, en la costa oeste de Phuket, al norte de Kata. El mar abierto y la costa alargada invitan a pasear y conversar en pareja o en familia. Después, continúa el día con una comida sin prisas en un restaurante cercano.",
+    "experienceTitles": [
+      "Un paseo por la larga playa de arena blanca",
+      "Disfruta del tramo cercano a tu alojamiento"
+    ],
+    "experience": [
+      "Recorre despacio la larga playa blanca de Karon mientras contemplas el mar abierto. Es una buena opción para caminar y conversar en pareja o en familia. En lugar de encadenar muchas visitas, puedes dedicar el día al paseo y a comer cerca.",
+      "En los alrededores de Karon hay restaurantes, tiendas y alojamientos. Camina por la arena cerca de tu hotel y sal después a comer. La playa es larga: buscar Karon Beach puede llevarte lejos de tu alojamiento. Si vas en coche, indica también el nombre del hotel o del restaurante."
+    ],
+    "access": "Karon está en el oeste de Phuket, al norte de Kata, y tiene acceso por carretera. La larga playa de arena es Karon Yai. Karon Noi, al norte, es una zona de acceso para huéspedes de hotel y tiene otras condiciones de entrada.",
+    "swimming": "Con olas altas, disfruta de un paseo por la arena en lugar de nadar. El estado del mar cambia cada día, también en esta costa abierta.",
+    "facilities": "Cerca hay restaurantes, tiendas y alojamientos. Después de caminar por la arena, puedes comer y descansar en los alrededores.",
+    "transport": "Busca «Karon Beach». Ambos extremos comparten nombre, así que indica al conductor tu hotel o restaurante. Si quieres visitar también Kata, al sur, termina el paseo por Karon y desplázate por separado a Kata Beach.",
+    "faq": [
+      [
+        "¿Karon y Kata son la misma playa?",
+        "No. Karon es una playa distinta al norte de Kata. Busca Karon Beach para llegar a su larga extensión de arena. Si visitas también Kata, busca Kata Beach por separado y desplázate hasta allí."
+      ],
+      [
+        "¿Se puede entrar libremente en Karon Noi?",
+        "Karon Noi, al norte, es una zona de acceso para huéspedes de hotel. Sus condiciones son distintas de las de la larga playa de Karon Yai. Antes de ir, pregunta al hotel correspondiente por las normas de entrada."
+      ],
+      [
+        "¿Qué puedo hacer en Karon?",
+        "Pasear por la arena y descansar mirando al mar. Después puedes comer en un restaurante cercano, por lo que encaja con un día de paseo y comida. Si hay olas altas o está prohibido nadar, cambia el baño por tiempo en la orilla."
+      ]
+    ],
+    "title": "Playa de Karon | Arena blanca y acceso a Karon Noi",
+    "description": "Pasea por la larga arena blanca de Karon, al norte de Kata, y come cerca. Karon Yai tiene acceso por carretera; Karon Noi tiene condiciones de entrada para huéspedes de hotel."
+  },
+  "kata": {
+    "name": "Playa de Kata",
+    "intro": "Visita Kata para disfrutar de una bahía curva y su arena en la costa oeste de Phuket. Se trata de Kata Yai, al sur de Karon, con hoteles, restaurantes, bares y tiendas de recuerdos cerca. Ven con amigos o en pareja para alternar descanso junto al agua y una comida. Recorre despacio la arena y contempla el mar que bordea la bahía.",
+    "experienceTitles": [
+      "Tiempo junto a una bahía curva",
+      "Un día entre playa y restaurantes"
+    ],
+    "experience": [
+      "Kata es una bahía pequeña al sur de Karon. Camina por la arena con amigos o en pareja y disfruta de la curva de la costa. Es un buen plan para pasar un día sin prisas cerca del alojamiento, mirando el mar y comiendo por la zona.",
+      "Kata Yai está rodeada de hoteles, restaurantes, bares y tiendas de recuerdos. Descansa en la playa, sal a comer y curiosea en las tiendas. Kata Noi, al sur, es otra playa: al quedar con amigos o pedir un coche, aclara si vas a Kata Beach o a Kata Noi Beach."
+    ],
+    "access": "Kata Yai está en la costa oeste de la isla principal de Phuket y tiene acceso por carretera. Kata Noi, al sur, es una playa distinta.",
+    "swimming": "Al nadar, evita las zonas de surf y de equipos de deportes acuáticos. Sigue las banderas y las indicaciones del día sobre los tramos donde se permite entrar al mar.",
+    "facilities": "Alrededor de Kata Yai hay hoteles, restaurantes, bares y tiendas de recuerdos. Puedes descansar en la playa, comer y recorrer las tiendas cercanas.",
+    "transport": "Busca «Kata Beach» para localizar Kata Yai. Es diferente de Kata Noi, al sur, así que comprueba también el nombre de tu alojamiento. El enlace de indicaciones ayuda a encontrar el camino entre el hotel y la arena. Si el recorrido pasa por un hotel, respeta sus condiciones de acceso.",
+    "faq": [
+      [
+        "¿Kata y Kata Noi son el mismo lugar?",
+        "No. Kata, también llamada Kata Yai, y Kata Noi son playas distintas. Kata Noi está al sur de Kata Yai. Al pedir un coche, indica la dirección del alojamiento y aclara si vas a Kata Beach o Kata Noi Beach."
+      ],
+      [
+        "¿Puedo visitar Kata y Karon el mismo día?",
+        "Sí. Kata está al sur de Karon y puedes recorrer ambas. No son una única playa continua, así que deja tiempo para desplazarte entre ellas. Busca Karon Beach y Kata Beach por separado."
+      ]
+    ],
+    "title": "Playa de Kata | Bahía de Kata Yai y cómo llegar",
+    "description": "Descansa junto a la bahía curva de Kata Yai, en el oeste de Phuket, con restaurantes y tiendas cerca. Se llega por carretera y es distinta de Kata Noi, al sur."
+  },
+  "pattaya": {
+    "name": "Playa de Pattaya",
+    "intro": "Si durante un paseo por Pattaya te apetece ver el mar, acércate a la playa frente a Beach Road. La arena sigue una bahía curva, con hoteles, restaurantes y tiendas alrededor. Puedes pasear con amigos después de recorrer la ciudad o en familia antes o después de comer. Sal a la arena y disfruta de un descanso junto al agua.",
+    "experienceTitles": [
+      "Mar y ciudad a lo largo de Beach Road",
+      "Elige el norte o la zona central y sur"
+    ],
+    "experience": [
+      "A lo largo de Beach Road puedes combinar el mar y la ciudad. Hay hoteles, restaurantes y comercios cerca, por lo que resulta sencillo salir a la arena tras comer o hacer compras. Acércate con amigos o familia para descansar mirando el mar.",
+      "Para un paseo más tranquilo, prueba el tramo norte. La zona central y sur permite continuar con comida y compras. Los eventos y la hora de la visita pueden cambiar el ambiente. Báñate solo donde se permita, lejos de embarcaciones y equipos de deportes acuáticos."
+    ],
+    "access": "La playa está frente a Beach Road, en la ciudad de Pattaya, y se llega por carretera. Es distinta de Jomtien, al sur, y de la playa del mismo nombre en Ko Lipe.",
+    "swimming": "No nades en zonas de paso de embarcaciones o equipos de deportes acuáticos. Utiliza solo los sectores de baño permitidos en el lugar.",
+    "facilities": "Alrededor de Beach Road hay hoteles, restaurantes y zonas comerciales. Antes de usar sillas de playa o servicios de alquiler, pregunta el precio y las condiciones.",
+    "transport": "Busca «Pattaya Beach, Chon Buri». Como la playa se extiende a lo largo de Beach Road, indica también tu alojamiento o el edificio donde has quedado. Decide si prefieres pasear al norte o comer e ir de compras por el centro y el sur, y elige un punto cercano donde bajar.",
+    "faq": [
+      [
+        "¿La playa de Pattaya y Jomtien son lo mismo?",
+        "No. La playa de Pattaya está frente a Beach Road, en la ciudad; Jomtien es otra playa al sur. Busca Jomtien Beach para ir allí. Para combinar el mar con los restaurantes y tiendas del centro de Pattaya, acércate a la costa de Beach Road."
+      ],
+      [
+        "¿Dónde puedo pasear con más tranquilidad?",
+        "Prueba la parte norte de la playa de Pattaya. Es relativamente más tranquila que el centro y el sur, aunque el ambiente puede cambiar según los eventos y la hora de la visita."
+      ]
+    ],
+    "title": "Playa de Pattaya | Paseo por Beach Road y zonas de baño",
+    "description": "Combina la bahía frente a Beach Road con restaurantes y compras en Pattaya. Se llega por carretera; para bañarte, usa solo zonas permitidas fuera del paso de embarcaciones."
+  },
+  "jomtien": {
+    "name": "Playa de Jomtien",
+    "intro": "Al sur del centro de Pattaya, Jomtien ofrece una larga costa para pasear sin prisas. Alojamientos y restaurantes siguen la carretera junto al mar, así que puedes descansar en la playa y salir a comer. Ven en familia o en pareja cuando quieras pasar tiempo en otra costa, distinta de las calles animadas del centro. Empieza por la arena más cercana a tu alojamiento.",
+    "experienceTitles": [
+      "Pasea por la larga costa",
+      "Otra playa al sur del centro de Pattaya"
+    ],
+    "experience": [
+      "Disfruta del mar mientras recorres la larga playa de Jomtien. Empieza cerca de tu alojamiento y después come en un restaurante de la carretera costera. Para un día tranquilo con amigos o familia, deja bastante tiempo de playa en lugar de programar muchas otras paradas.",
+      "Jomtien se extiende al sur de la playa de Pattaya. Los restaurantes y alojamientos de la carretera junto al mar permiten comer después del paseo. El ambiente y los servicios cercanos varían de un tramo a otro. Si hay actividades acuáticas, nada lejos de embarcaciones y equipos."
+    ],
+    "access": "Jomtien es una playa distinta al sur de Pattaya y tiene acceso por carretera. La terminal de autobuses de Jomtien y la playa son lugares diferentes.",
+    "swimming": "Evita las zonas de equipos de deportes acuáticos y báñate solo donde se permita. Al llegar, mira las banderas y las instrucciones del día antes de entrar al agua.",
+    "facilities": "Alojamientos y restaurantes bordean la carretera junto al mar. Puedes pasear cerca de tu hotel y salir a comer. Al ser una playa larga, los restaurantes y servicios próximos cambian según el tramo.",
+    "transport": "Busca «Jomtien Beach». Comprueba que el destino está en la costa y no en la terminal de autobuses de Jomtien, e indica al conductor tu alojamiento o restaurante de encuentro. Si visitas también Beach Road, en Pattaya, deja tiempo para desplazarte entre ambas playas.",
+    "faq": [
+      [
+        "¿Para quién es recomendable Jomtien?",
+        "Para quienes quieran descansar en otra costa después de recorrer el centro de Pattaya. Puedes pasear por la larga arena y comer junto a la carretera costera. Si te alojas cerca, disfrutarás de ambas cosas sin ir lejos. El ambiente y los servicios cambian según el tramo."
+      ],
+      [
+        "¿La terminal de autobuses de Jomtien está en la playa?",
+        "La terminal y la playa son lugares distintos. Busca Jomtien Beach e indica también tu alojamiento o restaurante de encuentro. Tras llegar a la terminal, todavía necesitas desplazarte hasta la costa."
+      ]
+    ],
+    "title": "Playa de Jomtien | Costa larga al sur de Pattaya",
+    "description": "Pasea por la larga playa de Jomtien y come junto a la carretera costera. Es una playa distinta al sur de Pattaya: desde la terminal de autobuses aún debes llegar a la costa."
+  },
+  "chaweng": {
+    "name": "Playa de Chaweng",
+    "intro": "Para disfrutar de arena blanca y una larga costa curva en Ko Samui, visita Chaweng, al este de la isla. Al alojarte cerca puedes salir a descansar junto al mar. Pasea en pareja o en familia y detente ante las vistas que más te gusten. En un día sin planes en otros lugares, disfruta de la playa con calma.",
+    "experienceTitles": [
+      "Arena blanca alrededor de una costa curva",
+      "Pregunta cómo llegar desde tu alojamiento"
+    ],
+    "experience": [
+      "Recorre la larga playa blanca de Chaweng y disfruta de la curva del litoral. Mientras paseas en pareja o en familia, detente a contemplar el paisaje. Puedes dedicar unos días a descansar frente al alojamiento y otros a conocer diferentes tramos de playa.",
+      "La salida desde cada alojamiento a la arena varía a lo largo de esta playa extensa. Pregunta cómo llegar al reservar. Si tu hotel está en Chaweng Noi, al sur, te alojarás en otra playa. Incluso cerca de tu hotel, nada lejos de las zonas de equipos de deportes acuáticos."
+    ],
+    "access": "Tras llegar a Ko Samui, desplázate a Chaweng por las carreteras de la isla. Chaweng Noi, al sur, es una playa distinta.",
+    "swimming": "Báñate solo en las zonas permitidas, lejos de equipos de deportes acuáticos. Sigue las banderas de la playa y las instrucciones de los socorristas.",
+    "facilities": "Chaweng cuenta con alojamientos a lo largo de la playa. Pregunta en tu hotel cómo salir a la arena antes de pasear o bañarte. Utiliza las instalaciones según las condiciones de tu reserva.",
+    "transport": "En la isla, busca «Chaweng Beach» e indica también tu alojamiento o punto de encuentro, ya que la costa es larga. Si el hotel está en Chaweng Noi, al sur, busca por el nombre del hotel.",
+    "faq": [
+      [
+        "¿Chaweng y Chaweng Noi son la misma playa?",
+        "No. Chaweng Noi es una playa distinta al sur de Chaweng. Mira el nombre y la dirección del hotel para saber en cuál te alojas. Indica el hotel al pedir un coche para evitar llegar a la playa equivocada."
+      ],
+      [
+        "¿Cómo llego a Chaweng?",
+        "Tras llegar a Ko Samui, utiliza las carreteras de la isla. Indica Chaweng Beach junto con el alojamiento o lugar de encuentro. La costa es larga y dar un nombre concreto facilita encontrarse al llegar."
+      ]
+    ],
+    "title": "Playa de Chaweng | Arena blanca y acceso desde el hotel",
+    "description": "Disfruta de la larga arena blanca de Chaweng, al este de Ko Samui. Pregunta cómo salir a la playa desde tu hotel y no la confundas con Chaweng Noi, al sur."
+  },
+  "lamai": {
+    "name": "Playa de Lamai",
+    "intro": "Descansa junto a palmeras y una costa de arena curva en Lamai, al este de Ko Samui y al sur de Chaweng. Hay alojamientos y restaurantes cerca. Es un buen lugar para pasear y comer sin prisas en pareja o en familia. Aunque no te bañes, disfruta de un rato tranquilo entre las palmeras y el mar.",
+    "experienceTitles": [
+      "Pasea junto a las palmeras",
+      "Deja tiempo para caminar además de nadar"
+    ],
+    "experience": [
+      "En Lamai puedes contemplar la curva de la arena y las palmeras de la costa. Pasea en pareja o en familia y come después en un restaurante cercano. Si quieres visitar también Chaweng, consulta el recorrido entre las dos playas al elegir alojamiento.",
+      "Algunos tramos de Lamai tienen aguas profundas y pueden presentar oleaje fuerte. Con niños, reserva tiempo para pasear por la arena y comer cerca. Si está permitido bañarse, utiliza las zonas indicadas y evita que los niños se alejen de la orilla."
+    ],
+    "access": "Lamai está al este de Ko Samui, al sur de Chaweng. Se llega por las carreteras de la isla.",
+    "swimming": "Algunos tramos pueden ser profundos y tener olas fuertes. Vigila que los niños no se alejen, incluso donde parezca poco profundo, y sigue las instrucciones locales sobre las zonas de baño permitidas.",
+    "facilities": "Cerca hay restaurantes y alojamientos. Puedes pasar un día tranquilo alternando paseo por la playa y comida.",
+    "transport": "Busca «Lamai Beach» en la isla e indica al conductor tu alojamiento o restaurante de encuentro. Para visitar también Chaweng, utiliza las carreteras de la isla. No forman una sola playa continua, así que reserva tiempo para el traslado.",
+    "faq": [
+      [
+        "¿Lamai es buena para bañarse con niños?",
+        "Algunos tramos son profundos y pueden tener oleaje fuerte, por lo que hace falta especial atención. Evita que los niños se alejen incluso donde parezca poco profundo. Utiliza solo las zonas permitidas ese día y disfruta también de un paseo familiar o una comida cerca."
+      ],
+      [
+        "¿La arena continúa desde Chaweng hasta Lamai?",
+        "No. Lamai es una playa distinta al sur de Chaweng. Para visitar ambas, desplázate por las carreteras de la isla; no hay una única franja de arena continua."
+      ]
+    ],
+    "title": "Playa de Lamai | Palmeras, paseos y profundidad del mar",
+    "description": "Pasea junto a las palmeras y la costa curva de Lamai, al este de Ko Samui. Se llega por las carreteras de la isla; algunos tramos son profundos y pueden tener oleaje fuerte."
+  },
+  "maya-bay": {
+    "name": "Maya Bay",
+    "intro": "Visita Maya Bay, en Phi Phi Leh, para ver arena blanca rodeada de altos acantilados de piedra caliza. Pasea contemplando el mar y las paredes que enmarcan la bahía. Es una excursión para disfrutar del paisaje de Phi Phi con amigos o en pareja. Planea una visita en barco a la costa del parque nacional, sin bañarte.",
+    "experienceTitles": [
+      "Arena blanca rodeada de acantilados",
+      "Disfruta de la playa del parque sin nadar"
+    ],
+    "experience": [
+      "En Maya Bay, los acantilados de piedra caliza se levantan a ambos lados de la arena blanca. Pasea con amigos o en pareja y contempla el mar encerrado entre las paredes. Reserva un día de barco a Phi Phi Leh aparte de los días de descanso cerca de tu alojamiento en Phi Phi Don.",
+      "Maya Bay pertenece a un parque nacional, con cierres estacionales y acceso controlado para recuperar la naturaleza. Reabrió el 1 de octubre de 2026, pero sigue prohibido nadar en las zonas designadas del parque. Tras desembarcar, camina solo dentro del área que permita el personal y disfruta de la bahía y los acantilados. Recorre la arena sin prisas con amigos o en pareja para contemplar la costa."
+    ],
+    "access": "Maya Bay está en Phi Phi Leh y requiere un barco. Hay cierres estacionales y control de acceso para la recuperación natural; reabrió el 1 de octubre de 2026. Al reservar, pregunta si podrás desembarcar en la fecha de tu visita.",
+    "swimming": "Organiza la visita para disfrutar del paisaje sin nadar. El baño está prohibido en las zonas designadas del parque nacional. En la playa, camina solo dentro del área indicada por el personal.",
+    "facilities": "El parque nacional gestiona el acceso. Al reservar el barco, pregunta si se permite desembarcar y caminar por la arena y si está incluida la entrada al parque. Un recorrido que solo contempla la bahía desde el agua ofrece una visita diferente.",
+    "transport": "Al reservar, pregunta: «¿Podemos desembarcar en Maya Bay y caminar por la playa?». Algunas salidas solo observan el paisaje desde el agua. Antes de pagar, consulta qué incluyen el barco y la entrada al parque, y qué ocurre si se cancela por mal tiempo.",
+    "faq": [
+      [
+        "¿Puedo nadar en Maya Bay?",
+        "Visita la playa para pasear y contemplar el paisaje, sin nadar. El baño está prohibido en las zonas designadas del parque nacional. Incluso después de la reapertura, camina por la arena solo dentro de los límites que permita el personal."
+      ],
+      [
+        "¿Puedo ir andando desde Phi Phi Don?",
+        "No. Maya Bay está en Phi Phi Leh, así que necesitas un barco desde Phi Phi Don. No es como Loh Dalum, al que se llega dentro de la misma isla. Pregunta al reservar si podrás desembarcar y caminar por la playa."
+      ]
+    ],
+    "title": "Maya Bay | Acantilados, desembarco y prohibición de baño",
+    "description": "Contempla la arena blanca entre acantilados en Phi Phi Leh. Necesitas un barco: pregunta si se permite desembarcar y respeta la prohibición de nadar en las zonas designadas del parque."
+  },
+  "loh-dalum": {
+    "name": "Playa de Loh Dalum",
+    "intro": "Si te alojas en Phi Phi Don, descansa junto a la bahía de Loh Dalum, orientada al norte. Verás otra costa distinta de Tonsai. Es un buen lugar para pasear con amigos o en pareja durante una estancia de varios días. Cuando no tengas una excursión en barco a otra isla, disfruta sin prisas de las vistas de la bahía.",
+    "experienceTitles": [
+      "Un día de playa durante tu estancia en Phi Phi Don",
+      "Del muelle de Tonsai al alojamiento"
+    ],
+    "experience": [
+      "Loh Dalum encaja con un día en el que quieras salir del alojamiento y descansar junto al mar de Phi Phi Don. Pasea por la arena o siéntate frente a la bahía que mira al norte. Después de visitar Maya Bay en Phi Phi Leh, puedes pasar aquí un día sin correr hacia otro barco.",
+      "Phi Phi Don tiene dos bahías, Tonsai y Loh Dalum. Al llegar al muelle de Tonsai todavía debes desplazarte al alojamiento o a la playa de Loh Dalum. Si llevas equipaje, prepara el nombre y la dirección de tu alojamiento y consulta el camino desde el muelle con antelación."
+    ],
+    "access": "Primero toma un barco a Phi Phi Don y después desplázate a Loh Dalum dentro de la isla. El muelle de Tonsai y Loh Dalum están en bahías distintas.",
+    "swimming": "Antes de bañarte, mira las banderas y las indicaciones locales. Presta atención a la profundidad, no te alejes demasiado y nada fuera de las zonas de paso de embarcaciones.",
+    "facilities": "Phi Phi Don cuenta con alojamientos. Si vas a pasar tiempo en Loh Dalum, consulta tanto el camino desde el muelle a tu alojamiento como la salida desde allí a la playa.",
+    "transport": "Reserva un barco a Phi Phi Don y, desde el muelle de llegada, desplázate al alojamiento o la playa de Loh Dalum. Si desembarcas en Tonsai, estarás en otra bahía. Si llevas equipaje, prepara el nombre y la dirección del alojamiento y busca antes el camino desde el muelle.",
+    "faq": [
+      [
+        "¿Loh Dalum y Maya Bay están en la misma isla?",
+        "No. Loh Dalum está en Phi Phi Don y Maya Bay en Phi Phi Leh. Si te alojas en Phi Phi Don, puedes ir a Loh Dalum dentro de la propia isla. Para Maya Bay, organiza un día aparte con traslado en barco."
+      ],
+      [
+        "¿El muelle de Tonsai es la playa de Loh Dalum?",
+        "No. Tonsai y Loh Dalum son bahías diferentes de Phi Phi Don. Tras desembarcar en Tonsai, aún debes llegar al alojamiento o la playa de Loh Dalum. Con equipaje, marca el alojamiento en el mapa y consulta el recorrido con antelación."
+      ]
+    ],
+    "title": "Playa de Loh Dalum | Bahía norte y camino desde Tonsai",
+    "description": "Descansa frente a la bahía norte de Loh Dalum durante tu estancia en Phi Phi Don. Desde el muelle de Tonsai debes continuar hasta esta costa; Maya Bay está en otra isla."
+  },
+  "ao-nang": {
+    "name": "Playa de Ao Nang",
+    "intro": "En Ao Nang puedes combinar el mar de Krabi con comida, alojamiento y excursiones en barco. Desde la costa se ven acantilados de piedra caliza y, alrededor, hay restaurantes, hoteles y tiendas. Con amigos o familia puedes planear días de paseo y otros de visita a Railay o las islas cercanas. Antes o después de navegar, recorre la arena y disfruta del paisaje costero de Krabi.",
+    "experienceTitles": [
+      "Paseo y comida con vistas a los acantilados",
+      "Un día hacia Railay y las islas cercanas"
+    ],
+    "experience": [
+      "Camina por la arena de Ao Nang y contempla los acantilados de piedra caliza junto al mar. Después del paseo con amigos o familia, come y visita las tiendas cercanas. Al volver de una excursión en barco, también puedes descansar un rato junto al agua.",
+      "Desde Ao Nang puedes ir a Railay en una embarcación de cola larga. Antes de subir, pregunta en qué playa desembarcas y dónde tomarás el barco de vuelta. El esnórquel en las islas cercanas y el baño en Ao Nang se practican en lugares distintos. En la playa, evita las entradas y salidas de barcos y usa solo las zonas permitidas."
+    ],
+    "access": "Ao Nang está en la parte continental de Krabi y tiene acceso por carretera. Desde la playa también salen barcos hacia Railay y las islas cercanas. Cada destino tiene sus propias condiciones de entrada.",
+    "swimming": "No nades donde entran y salen embarcaciones. El esnórquel en islas cercanas con salida desde Ao Nang es distinto del baño en esta playa. Aquí utiliza solo las zonas permitidas en el lugar.",
+    "facilities": "Cerca de la playa hay restaurantes, hoteles y tiendas. Puedes comer o comprar lo necesario antes de embarcar.",
+    "transport": "Llega a Ao Nang por carretera. Para Railay, toma después una embarcación de cola larga. Acuerda el punto de embarque y el regreso antes de salir. Las olas y el tiempo pueden cancelar o retrasar el barco, así que deja margen para volver.",
+    "faq": [
+      [
+        "¿Se puede ir de Ao Nang a Railay?",
+        "Sí, en una embarcación de cola larga. Antes de subir, pregunta a qué playa de Railay llega. Acuerda también las condiciones del regreso y el lugar de encuentro antes de salir."
+      ],
+      [
+        "¿Puedo hacer esnórquel directamente en la playa de Ao Nang?",
+        "El esnórquel en las islas cercanas, al que se llega en barco desde Ao Nang, y el baño en la playa son actividades en lugares distintos. Ao Nang tiene tráfico de embarcaciones: no nades por sus zonas de paso. Utiliza solo las áreas permitidas ese día."
+      ]
+    ],
+    "title": "Playa de Ao Nang | Acantilados y barcos hacia Railay",
+    "description": "Pasea con vistas a los acantilados de piedra caliza y come cerca de Ao Nang. A la playa se llega por carretera; para Railay necesitas un barco y acordar antes el regreso."
+  },
+  "railay-west": {
+    "name": "Playa de Railay West",
+    "intro": "Para descansar en la arena entre acantilados de piedra caliza, visita Railay West. La playa blanca del oeste de la península permite contemplar el mar y las paredes rocosas. Llega en barco con amigos o en pareja y disfruta con calma. Si has acordado el regreso, puedes quedarte para ver el paisaje del atardecer hacia el oeste.",
+    "experienceTitles": [
+      "Arena blanca junto a los acantilados",
+      "Acuerda la vuelta antes de quedarte al atardecer"
+    ],
+    "experience": [
+      "En Railay West, la arena blanca se extiende junto a acantilados de piedra caliza que se alzan sobre el mar. Pasea y descansa mirando al agua con tus acompañantes. Al estar orientada al oeste, también es una opción para disfrutar del atardecer.",
+      "Si quieres descansar sobre arena blanca, pregunta al embarcar si desembarcarás en Railay West. Railay East, al este, tiene costa de barro y actividades de escalada, con otro paisaje. Para volver después del atardecer, acuerda en Ao Nang las condiciones del barco de regreso y el lugar de encuentro antes de salir. Si te alojas allí, consulta también el camino desde la llegada hasta el hotel."
+    ],
+    "access": "Desde Ao Nang se llega a Railay en barco. Aunque está en una península, no puedes conducir directamente desde Ao Nang hasta la playa.",
+    "swimming": "West tiene arena; East, costa de barro. También en West debes bañarte lejos del paso de barcos y seguir las banderas y las indicaciones del día.",
+    "facilities": "Hay alojamientos en Railay. El recorrido después de desembarcar cambia según si el hotel está al este o al oeste.",
+    "transport": "Al embarcar desde Ao Nang, pregunta: «¿Desembarcamos en Railay West?». Indica también tu alojamiento si lo tienes reservado. Si vuelves después del atardecer, acuerda antes de salir las condiciones del barco de vuelta y el lugar de encuentro.",
+    "faq": [
+      [
+        "¿Qué diferencia hay entre Railay East y West?",
+        "West ofrece arena blanca y vistas al mar hacia el oeste; East tiene costa de barro y actividades de escalada. Para descansar en la arena o ver el atardecer, visita West. Si tu alojamiento está en East, consulta el camino hasta él después de desembarcar."
+      ],
+      [
+        "¿Puedo llegar directamente en coche desde Ao Nang?",
+        "No. Desde Ao Nang debes ir en barco, aunque Railay esté en una península. Pregunta si la llegada es a Railay West y acuerda las condiciones del regreso y el punto de encuentro."
+      ]
+    ],
+    "title": "Playa de Railay West | Arena blanca, atardecer y barco de vuelta",
+    "description": "Descansa entre arena blanca y acantilados en Railay West. Desde Ao Nang necesitas un barco; si te quedas al atardecer, acuerda antes las condiciones de vuelta y el punto de encuentro."
+  },
+  "nang-thong": {
+    "name": "Playa de Nang Thong",
+    "intro": "Visita Nang Thong para ver una costa con arena negra en Khao Lak. Está junto al pueblo de Ban Bang La On, en Khuk Khak, provincia de Phangnga. Entre la arena se mezclan finos granos negros y, en el mar, se levanta la gran roca de Nang Thong. Pasea con amigos o familia y contempla un paisaje diferente de la habitual playa blanca: arena, roca y mar para disfrutar sin prisas.",
+    "experienceTitles": [
+      "Busca la arena negra y la roca Nang Thong",
+      "El terreno que aparece alrededor de la roca"
+    ],
+    "experience": [
+      "En Nang Thong puedes observar fina arena negra mezclada en la playa y la gran roca que se eleva en el mar. Pasea con amigos o familia y disfruta de la vista conjunta de arena, roca y agua. Es una parada para conocer otra costa de Khao Lak, diferente de las playas blancas.",
+      "Con la marea baja puede quedar al descubierto el terreno hacia la roca. Sin embargo, el acceso depende de las mareas, las olas y los controles locales. Antes de acercarte, escucha las indicaciones del día y no salgas de la zona permitida. No es un camino transitable en todo momento; cuando no puedas acercarte, contempla la roca y la arena negra desde la playa."
+    ],
+    "access": "Nang Thong está en la costa de Ban Bang La On, en Khuk Khak, Phangnga, y se llega por carretera. No pertenece a Phuket.",
+    "swimming": "Puede prohibirse el baño por oleaje y corrientes de retorno. Poder caminar por la playa no significa que se permita entrar al agua: respeta las banderas y los controles del día.",
+    "facilities": "Desde la carretera Phetkasem salen accesos hacia la costa. Consulta cómo llegar a la arena desde tu alojamiento para salir a pasear.",
+    "transport": "En Khao Lak, busca «Nang Thong Beach» y toma el acceso desde Phetkasem hacia el mar. Si sales del alojamiento, pregunta al personal cómo llegar a la arena. Si debes atravesar otro complejo hotelero, respeta sus condiciones de entrada.",
+    "faq": [
+      [
+        "¿Qué merece la pena ver en Nang Thong?",
+        "La fina arena negra y la gran roca Nang Thong que emerge del mar. Con marea baja puede aparecer terreno alrededor, pero no es un camino accesible siempre. Para acercarte, ten en cuenta las mareas, las olas y las instrucciones locales del día."
+      ],
+      [
+        "¿Nang Thong está en Phuket?",
+        "No. Está en la costa de Phangnga, en la zona de Khao Lak, junto a Ban Bang La On, en Khuk Khak. Busca Nang Thong Beach y comprueba su situación junto con tu alojamiento."
+      ],
+      [
+        "¿El marcador señala la entrada a la playa?",
+        "No. Es una ubicación representativa de la zona de Nang Thong, no un aparcamiento ni la entrada de un hotel. Fija el destino en tu alojamiento o en un acceso a la costa. Si atraviesas un complejo hotelero, debes seguir sus normas de entrada."
+      ]
+    ],
+    "title": "Playa de Nang Thong | Arena negra, roca y condiciones de marea",
+    "description": "Observa la arena negra y la gran roca en el mar de Nang Thong, en Khao Lak. Acercarse depende de la marea, las olas y los controles locales: no existe un paso siempre transitable."
+  },
+  "bang-niang": {
+    "name": "Playa de Bang Niang",
+    "intro": "Para descansar frente a una larga costa de arena y el mar de Andamán en Khao Lak, visita Bang Niang. Está junto al pueblo de Ban Bang Niang, en Khuk Khak, Phangnga, y se accede desviándose de la carretera principal hacia el mar. Al alojarte cerca, podrás pasear en pareja o en familia. Dedica un día sin prisas a contemplar el mar abierto.",
+    "experienceTitles": [
+      "Descanso junto a una costa larga",
+      "De la carretera principal a la playa"
+    ],
+    "experience": [
+      "Pasea despacio por la larga arena de Bang Niang y mira el mar de Andamán. Es un lugar para descansar en pareja o en familia. Si te alojas cerca, sal a caminar en un día sin planes lejos de la playa.",
+      "A Bang Niang se accede desde Phetkasem hacia el mar. Si tienes alojamiento, pide al personal que te explique la ida a la arena y el regreso. Los pasos por complejos hoteleros están sujetos a sus normas de entrada. Indica el nombre de tu alojamiento como lugar donde bajar del coche y comenzar el paseo."
+    ],
+    "access": "Bang Niang está en la costa de Ban Bang Niang, en Khuk Khak, Phangnga. Desde Phetkasem, desvíate hacia el mar.",
+    "swimming": "En la costa de Andamán puede haber olas altas y corrientes de retorno. No nades si hay bandera roja o las indicaciones locales prohíben entrar al agua.",
+    "facilities": "Hay alojamientos alrededor de la costa. Al reservar, pregunta por el acceso al mar y las instalaciones disponibles, así como por el camino de vuelta después de descansar en la playa.",
+    "transport": "Busca «Bang Niang Beach» y ve desde Phetkasem hacia la costa. Si te alojas allí, fija el destino por el nombre del alojamiento y pregunta cómo salir a la playa. Para atravesar otro complejo hotelero debes respetar sus condiciones de acceso.",
+    "faq": [
+      [
+        "¿Dónde está Bang Niang?",
+        "En la costa de Ban Bang Niang, en Khuk Khak, provincia de Phangnga, dentro de la zona turística de Khao Lak. Desde Phetkasem se entra hacia el mar. Es otra región distinta de Phuket: busca Bang Niang Beach junto al nombre de tu alojamiento."
+      ],
+      [
+        "¿Puedo entrar por un complejo hotelero frente a la playa?",
+        "Cada establecimiento tiene sus condiciones. Si te alojas allí, pide al personal que te muestre la salida a la playa. Si vienes de fuera, busca un acceso permitido a la costa; un complejo concreto no es la única entrada a la playa."
+      ]
+    ],
+    "title": "Playa de Bang Niang | Mar de Andamán y acceso desde Phetkasem",
+    "description": "Recorre la larga costa de Bang Niang, en Phangnga, mirando al mar de Andamán. Se accede desde Phetkasem; no nades si hay bandera roja o se prohíbe entrar al agua."
+  },
+  "hua-hin": {
+    "name": "Playa de Hua Hin",
+    "intro": "Si quieres añadir un paseo junto al mar a tu visita por la ciudad, acércate a la playa de Hua Hin. La arena bordea esta localidad conocida como lugar de descanso de la realeza. Después de comer con tus padres o con niños, podéis caminar mirando al agua. Si te alojas cerca, también podrás salir a descansar en la arena en un día sin otras excursiones.",
+    "experienceTitles": [
+      "Un paseo entre las visitas por la ciudad",
+      "Paseos a caballo y la costa del sur"
+    ],
+    "experience": [
+      "En Hua Hin puedes combinar un recorrido por la ciudad y un paseo por la arena. Tras comer con tus padres o con niños, sal a descansar junto al agua. Si te alojas cerca, resulta sencillo dar una vuelta incluso los días en que no quieras ir lejos.",
+      "En Hua Hin también se puede montar a caballo en la playa. Antes de hacerlo, pregunta si funciona ese día, el precio y cómo se realiza el paseo. Si caminas, presta atención igualmente a los tramos por donde pasan caballos. Al sur, Khao Takiab ofrece una costa con colina: deja tiempo para desplazarte entre ambos lugares."
+    ],
+    "access": "La playa está junto a la ciudad de Hua Hin, en Prachuap Khiri Khan, y se llega por carretera.",
+    "swimming": "Para bañarte, sigue las banderas y las indicaciones del día. Al caminar por la arena, fíjate también en las zonas por donde pasan los caballos.",
+    "facilities": "Si quieres montar a caballo, pregunta antes si el servicio funciona el día de la visita. Consulta el precio y cómo se realiza antes de comenzar.",
+    "transport": "Busca «Hua Hin Beach» e indica también tu alojamiento o el edificio donde has quedado. Para visitar Khao Takiab, al sur, búscalo por separado y desplázate hasta allí.",
+    "faq": [
+      [
+        "¿Se puede montar a caballo en la playa de Hua Hin?",
+        "Sí, pero antes de hacerlo debes preguntar si se ofrece ese día, cuánto cuesta y cómo se realiza el paseo. Aunque solo camines, presta atención a las zonas por donde pasan caballos."
+      ],
+      [
+        "¿Puedo visitar también Khao Takiab?",
+        "Sí. Al sur de Hua Hin están la playa y la colina de Khao Takiab. Busca la ruta a Khao Takiab Beach desde tu alojamiento o desde tu punto de salida en la playa de Hua Hin. Si vas al templo de la colina, reserva tiempo por separado para descansar en la playa y llegar al templo."
+      ]
+    ],
+    "title": "Playa de Hua Hin | Paseo junto a la ciudad y caballos",
+    "description": "Combina la visita a Hua Hin con un descanso en la arena junto a la ciudad. Para montar a caballo, pregunta primero si funciona ese día, cuánto cuesta y cómo se realiza."
+  },
+  "khao-takiab": {
+    "name": "Playa de Khao Takiab",
+    "intro": "Visita Khao Takiab si quieres descansar con vistas al mar y a una colina junto a la arena. Está al sur de Hua Hin, alrededor de la colina de Khao Takiab, coronada por un templo. Pasea en pareja o en familia y contempla ambas vistas. Puedes descansar en la playa y después dedicar tiempo al templo.",
+    "experienceTitles": [
+      "La colina y el mar desde la arena",
+      "Descansa y visita el templo de la colina"
+    ],
+    "experience": [
+      "Desde Khao Takiab se ven el mar y la colina que se levanta junto a la arena. Pasea en pareja o en familia por una costa distinta de la del centro de Hua Hin. La arena marcada en el mapa está al norte de la colina. El camino a la costa sur es otro: al ir en coche, indica al conductor qué lado necesitas.",
+      "En la colina de Khao Takiab hay un templo. Si quieres visitarlo tras descansar en la playa, busca el recorrido por el nombre del templo. Al llegar a la arena todavía queda el desplazamiento hacia arriba, así que reserva tiempo suficiente para ambas visitas."
+    ],
+    "access": "La playa está alrededor de la colina de Khao Takiab, al sur de Hua Hin. La arena del norte y el templo de arriba son destinos distintos.",
+    "swimming": "Cerca de la colina hay tramos rocosos. Junto a las rocas, presta atención al suelo y al oleaje; para bañarte, sigue las banderas y las indicaciones locales del día.",
+    "facilities": "El templo está en la colina de Khao Takiab, junto a la playa. Si vas a visitarlo tras descansar en la arena, deja tiempo aparte para llegar hasta él.",
+    "transport": "Busca «Khao Takiab Beach» y elige el acceso a la arena al norte de la colina. No es el mismo camino que lleva a la costa sur. Para el templo, cambia el destino y busca por su nombre, no por el de la playa.",
+    "faq": [
+      [
+        "¿El marcador de la playa señala la entrada al templo?",
+        "No. Indica la zona de arena al norte de la colina de Khao Takiab. El templo está arriba y debes buscarlo por separado. El camino a la costa sur también es diferente."
+      ],
+      [
+        "¿En qué se diferencia de la playa de Hua Hin?",
+        "Al sur del centro de Hua Hin encontrarás una costa con colina y templo. Puedes pasear por la arena contemplando el mar y la colina a la vez. Para visitar el templo, deja tiempo para desplazarte desde la playa hacia arriba."
+      ]
+    ],
+    "title": "Playa de Khao Takiab | Arena del norte y templo de la colina",
+    "description": "Pasea con vistas al mar y a la colina de Khao Takiab, al sur de Hua Hin. La playa del norte, la costa sur y el templo de arriba son destinos diferentes."
+  },
+  "white-sand": {
+    "name": "White Sand Beach",
+    "intro": "Si en Ko Chang quieres mar con restaurantes y tiendas cerca, visita White Sand Beach. Su nombre tailandés es Hat Sai Khao y, alrededor de la arena blanca del noroeste de la isla, se agrupan alojamientos y comercios. Encaja con un día de descanso con amigos o familia, saliendo de la playa para comer. Disfruta sin prisas entre la arena y el pueblo.",
+    "experienceTitles": [
+      "Descanso en la playa y comida cerca",
+      "Vigila la profundidad si vas con niños"
+    ],
+    "experience": [
+      "White Sand encaja con quienes buscan alojamiento junto a la playa y servicios cerca. Pasea por la arena, come y vuelve al mar. Además de alojamientos y restaurantes, hay tiendas y pequeños supermercados, así que puedes pasar tiempo tanto en la playa como en el pueblo.",
+      "La profundidad frente a White Sand es irregular. Si vas con niños, evita que se alejen incluso donde parezca poco profundo. Utiliza solo las zonas de baño permitidas ese día. Cuando no te bañes, puedes caminar por la arena y comer en los alrededores."
+    ],
+    "access": "Tras llegar a Ko Chang, utiliza las carreteras del noroeste de la isla. El nombre tailandés de la playa es Hat Sai Khao.",
+    "swimming": "La profundidad es irregular. No te alejes incluso donde parezca poco profundo. Con niños, extrema la atención y utiliza las zonas permitidas en el lugar.",
+    "facilities": "Cerca de la playa hay alojamientos, restaurantes, tiendas y pequeños supermercados. Puedes descansar en la arena y salir a comer o comprar lo que necesites.",
+    "transport": "En Ko Chang, busca «White Sand Beach» o «Hat Sai Khao, Ko Chang». Está en la costa noroeste, siguiendo desde Klong Son. El marcador corresponde al pueblo de Hat Sai Khao: indica al conductor tu alojamiento o restaurante de encuentro. La entrada a la playa o el aparcamiento deben localizarse aparte.",
+    "faq": [
+      [
+        "¿White Sand y Hat Sai Khao son el mismo lugar?",
+        "Sí. White Sand Beach, en Ko Chang, se llama Hat Sai Khao en tailandés. Está en la costa noroeste, siguiendo desde Klong Son. Añade Ko Chang al buscar alojamiento o indicaciones."
+      ],
+      [
+        "¿Pueden jugar los niños en el agua poco profunda?",
+        "La profundidad es irregular y exige atención incluso donde parece poca. Vigila que los niños no se alejen y usa las zonas permitidas ese día. Si no os bañáis, podéis pasear por la arena y comer cerca."
+      ]
+    ],
+    "title": "White Sand Beach | Hat Sai Khao y profundidad irregular",
+    "description": "Descansa en la costa noroeste de Ko Chang, cerca de restaurantes y tiendas de Hat Sai Khao. La profundidad es irregular: con niños, presta atención incluso donde parezca poco profundo."
+  },
+  "klong-prao": {
+    "name": "Playa de Klong Prao",
+    "intro": "Para caminar por una playa amplia bordeada de palmeras en Ko Chang, visita Klong Prao. La arena se extiende por la costa oeste, al sur de White Sand. Al alojarte cerca, puedes contemplar el mar en pareja o en familia. Dedica el día al paseo por la costa y al descanso con tus acompañantes.",
+    "experienceTitles": [
+      "Palmeras y una costa amplia para pasear",
+      "No te bañes en el cabo rocoso de Laem Chai Chet"
+    ],
+    "experience": [
+      "Recorre la arena amplia de Klong Prao junto a las palmeras. Disfruta de un paseo con vistas al mar en pareja o en familia y come después cerca. Algunos alojamientos quedan hacia el interior desde la carretera principal, por lo que puede faltar camino tras bajar del coche. Con equipaje, pregunta hasta dónde puede entrar el vehículo y cómo continuar.",
+      "Laem Chai Chet, al norte, es un cabo rocoso inadecuado para el baño. No nades allí. En la arena de Klong Prao también debes vigilar la profundidad y seguir las banderas y las indicaciones del día."
+    ],
+    "access": "Klong Prao está en el oeste de Ko Chang, al sur de White Sand. Desde la carretera de la isla, sigue el acceso a tu alojamiento o a la costa.",
+    "swimming": "No te bañes en el cabo rocoso de Laem Chai Chet, al norte. En la playa de arena, vigila la profundidad y sigue las banderas y las instrucciones del día.",
+    "facilities": "Hay alojamientos, restaurantes y bares cerca. Algunos hoteles quedan hacia el interior desde la carretera principal: tras bajar, puede faltar recorrido hasta el alojamiento o la arena.",
+    "transport": "Busca «Klong Prao Beach, Ko Chang» y acuerda el punto de llegada a tu alojamiento. Si bajas en la carretera principal, puede quedar camino hasta el hotel o la playa. Si llevas equipaje, pregunta al alojamiento dónde debes bajar.",
+    "faq": [
+      [
+        "¿Se puede nadar en Laem Chai Chet?",
+        "El cabo rocoso de Laem Chai Chet, al norte, no es adecuado para bañarse. No nades allí. Incluso en la arena de Klong Prao, sigue las banderas y las instrucciones de acceso al agua del día."
+      ],
+      [
+        "¿La playa está justo al bajar de la carretera?",
+        "Depende del alojamiento y del acceso a la costa; puede quedar un tramo más. Algunos alojamientos están hacia el interior desde la carretera principal. Con equipaje, pregunta al reservar el coche si llega al hotel; si debes bajar en la carretera, pide al alojamiento indicaciones para el resto del camino."
+      ]
+    ],
+    "title": "Playa de Klong Prao | Palmeras y acceso desde la carretera",
+    "description": "Pasea por la costa amplia y las palmeras de Klong Prao, al oeste de Ko Chang. Puede quedar camino desde la carretera hasta el hotel; no te bañes en el cabo rocoso de Laem Chai Chet."
+  },
+  "sai-kaew": {
+    "name": "Playa de Sai Kaew",
+    "intro": "Visita Sai Kaew, en Ko Samet, para pasear por arena blanca y comer junto al mar. La isla está frente a Rayong y se llega en barco desde Ban Phe, en el continente. Es un buen lugar para descansar con amigos o en pareja cerca del alojamiento. Alterna las vistas al agua con una comida y disfruta del día sin prisas.",
+    "experienceTitles": [
+      "Un día entre arena blanca y mar",
+      "El desembarco y el camino a la playa"
+    ],
+    "experience": [
+      "Pasea por la arena blanca de Sai Kaew y descansa mirando al mar. En la isla hay alojamientos, restaurantes, bares y pequeños supermercados, por lo que puedes combinar comida y descanso cerca de la playa. Es una opción para pasar varios días tranquilos con amigos o en pareja.",
+      "Al reservar el barco de Ban Phe a Ko Samet, pregunta en qué muelle desembarcas. Si llegas a Na Dan, todavía debes desplazarte por la isla hasta tu alojamiento y Sai Kaew. Consulta qué traslados incluye el precio. La entrada al parque nacional y el barco son conceptos distintos: pregunta si está incluida la entrada y qué condiciones de acceso debes cumplir por separado."
+    ],
+    "access": "Toma un barco de Ban Phe a Ko Samet. Desde el muelle de llegada, como Na Dan, continúa por la isla hasta la playa. Consulta por separado las condiciones de entrada al parque nacional y el precio del barco.",
+    "swimming": "Antes de entrar al mar, mira las banderas y las indicaciones de baño. Ten en cuenta las zonas permitidas y el oleaje del día. Aunque el agua parezca tranquila, no entres si una bandera o indicación lo prohíbe.",
+    "facilities": "Ko Samet tiene alojamientos, restaurantes, bares y pequeños supermercados. Si te alojas cerca de la playa, puedes comer y descansar por la zona.",
+    "transport": "Toma un barco de Ban Phe a Ko Samet y desplázate desde el muelle de llegada hasta Sai Kaew. Al reservar, pregunta si desembarcas en Na Dan u otro muelle. Indica también tu alojamiento para consultar el camino posterior. Los horarios y precios pueden variar por el tiempo y las condiciones del servicio.",
+    "faq": [
+      [
+        "¿Es la playa de Sai Kaew de Sattahip?",
+        "No. Esta Sai Kaew está en Ko Samet, frente a Rayong. En Sattahip hay otra playa con el mismo nombre. Añade Ko Samet a Sai Kaew Beach al buscar alojamiento o indicaciones."
+      ],
+      [
+        "¿El barco de Ban Phe llega directamente a la playa?",
+        "Según el muelle de llegada, puede quedar camino. Si desembarcas en Na Dan, continúa desde allí al alojamiento y a Sai Kaew. Pregunta al reservar el destino y los traslados incluidos, y consulta también las condiciones del parque nacional."
+      ]
+    ],
+    "title": "Playa de Sai Kaew | Ko Samet, barco de Ban Phe y llegada",
+    "description": "La arena blanca de Sai Kaew está en Ko Samet, frente a Rayong, no en Sattahip. Pregunta el muelle de llegada desde Ban Phe, el traslado posterior y las condiciones del parque nacional."
+  },
+  "wong-duean": {
+    "name": "Playa de Ao Wong Duean",
+    "intro": "Visita Ao Wong Duean, en Ko Samet, para descansar frente a una bahía en forma de media luna. La arena blanca rodea el mar en una curva suave. Es un lugar para salir del alojamiento, caminar en pareja o en familia y pasar tiempo sin prisas. Pasea por la orilla mientras contemplas la curva de la costa.",
+    "experienceTitles": [
+      "Paseo por una bahía de media luna",
+      "De Ban Phe a Ao Wong Duean"
+    ],
+    "experience": [
+      "La arena blanca de Ao Wong Duean abraza la bahía como una media luna. Pasea con amigos o en pareja y contempla la curva del litoral. Si quieres salir del alojamiento a descansar junto al agua, reserva bastante tiempo para disfrutar de la playa.",
+      "Desde Ban Phe puedes tomar un barco a Ao Wong Duean o llegar a Na Dan y continuar por la isla. Al reservar, pregunta: «¿Desembarcamos en Ao Wong Duean o en Na Dan?». Indica también el alojamiento reservado. Si llevas equipaje, consulta antes el camino desde el desembarco hasta él."
+    ],
+    "access": "Ao Wong Duean es una bahía de Ko Samet. Para visitarla, primero debes llegar en barco a la isla.",
+    "swimming": "Báñate fuera de las zonas de paso de barcos. Incluso en una bahía de forma cerrada, las olas cambian cada día: sigue las banderas y las instrucciones para entrar al agua.",
+    "facilities": "La arena blanca sigue la bahía en forma de media luna. Sal del alojamiento a pasear y descansa contemplando sus vistas.",
+    "transport": "Al reservar desde Ban Phe, pregunta si el barco va a «Wong Duean» o «Wong Duen». Si llega al muelle de Na Dan, tendrás que continuar por la isla hasta Ao Wong Duean. Comprueba tanto la ubicación del alojamiento como el lugar de desembarco.",
+    "faq": [
+      [
+        "¿Ao Wong Duean y Wong Duen son el mismo lugar?",
+        "Sí. Es el nombre de la bahía y playa en forma de media luna de Ko Samet. En inglés se escribe Wong Duean o Wong Duen. Añade Ko Samet al buscar alojamiento o barcos."
+      ],
+      [
+        "¿Qué debo preguntar al reservar el barco?",
+        "Si llega a Ao Wong Duean o al muelle de Na Dan. Si desembarcas en Na Dan, debes continuar por la isla hasta Ao Wong Duean. Indica tu alojamiento y pide indicaciones para llegar desde el desembarco."
+      ]
+    ],
+    "title": "Playa de Ao Wong Duean | Bahía de media luna y desembarco",
+    "description": "Descansa junto a la arena blanca de esta bahía de media luna en Ko Samet. Al reservar desde Ban Phe, pregunta si desembarcas en Wong Duean o Na Dan y cómo llegar al alojamiento."
+  }
+}

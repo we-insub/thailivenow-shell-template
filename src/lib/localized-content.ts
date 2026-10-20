@@ -1,3 +1,4 @@
+import {travelGuideAlternatePaths} from './travel-guide-navigation.mjs';
 import rooftops from '../data/rooftops.json';
 import koreanCameras from '../data/camera-editorial-ko.json';
 import {locales} from '../i18n/locales';
@@ -32,6 +33,7 @@ export function localizedHref(href:string,locale:string):string|undefined{
  if(locale==='ko')return href;
  if(!href.startsWith('/ko/'))return href;
  const rest=href.slice(3),path=rest.split(/[?#]/)[0];
+ const guide=travelGuideAlternatePaths('/ko'+path)?.[locale];if(guide)return guide+rest.slice(path.length);
  if(path==='/'||/^\/(?:destinations|directory|cameras|saved|compare)(?:\/|$)/.test(path))return `/${locale}${rest}`;
  if(/^\/rooftops(?:\/|$)/.test(path)&&hasLocalizedStage(locale,'rooftops'))return `/${locale}${rest}`;
  if(/^\/(?:entry|travel-seasons)(?:\/|$)/.test(path)&&hasLocalizedStage(locale,'travel'))return `/${locale}${rest}`;

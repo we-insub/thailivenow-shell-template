@@ -1,0 +1,704 @@
+{
+  "locale": "zh-tw",
+  "sourceLocale": "ko",
+  "sourceFingerprints": {
+    "food-delivery": "717b1eed834d8c0334a8508b13fac185a99a1e0a847eefdeb01b2fbd62cba244",
+    "grabfood": "0e6fbb6ce50f1ba6835fc9d7097196b4dba9e4bec33475afc926e6f606ecc8d9",
+    "line-man": "b839b2f0c6b3380056962d99da11add3366b43dce3026e2f3b328d5816aaccfc",
+    "shopeefood": "585fbf3ebe0d010413f104b94ea4cac57097630ac5782e777436b41a3cb9509d",
+    "robinhood": "f393eef89965556ee33317233673c72a55153e1bb20cf491809b2a0bb6c81a79"
+  },
+  "ui": {
+    "home": "首頁",
+    "breadcrumb": "目前位置",
+    "faq": "常見問題",
+    "related": "相關指南",
+    "sources": "資料來源",
+    "officialSources": "查看官方來源",
+    "delivery": "美食外送",
+    "hubName": "泰國美食外送"
+  },
+  "guides": {
+    "food-delivery": {
+      "id": "food-delivery",
+      "parentUrl": "/zh-tw/food/",
+      "parentName": "美食與外送",
+      "title": "泰國外送App指南 | GrabFood、LINE MAN、ShopeeFood與Robinhood",
+      "name": "泰國美食外送",
+      "english": "Food Delivery in Thailand",
+      "intro": "想在飯店休息時吃點東西，可以試試外送。先設定收餐位置，就能查看可訂餐的店家、外送費和預計送達時間。住飯店時，先向櫃檯問好取餐地點。",
+      "summary": [
+        [
+          "GrabFood",
+          "依App內的外送地址",
+          "在Grab App選擇Food",
+          "在App確認最後總額"
+        ],
+        [
+          "LINE MAN",
+          "泰國境內指定地址",
+          "選擇LINE MAN美食外送",
+          "在App確認最後總額"
+        ],
+        [
+          "ShopeeFood",
+          "App內設定的外送地址",
+          "選擇ShopeeFood選單",
+          "在App確認最後總額"
+        ],
+        [
+          "Robinhood",
+          "曼谷與鄰近地區",
+          "選擇Robinhood美食外送",
+          "在App確認最後總額"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "platform",
+          "title": "在泰國使用GrabFood",
+          "paragraphs": [
+            "GrabFood泰國官方服務提供餐飲外送與到店自取。可以訂餐的店家會依設定的收餐位置而不同。"
+          ],
+          "links": [
+            [
+              "GrabFood註冊、付款、飯店外送與取消訂單詳解",
+              "/zh-tw/food-delivery/grabfood/"
+            ],
+            [
+              "GrabFood官方服務",
+              "https://www.grab.com/th/en/food/"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "如何將餐點送到飯店",
+          "steps": [
+            [
+              "核對地址與地圖圖釘",
+              "核對飯店名稱、地址與地圖圖釘是否一致，並向櫃檯詢問取餐地點。"
+            ],
+            [
+              "選擇餐點與訂餐方式",
+              "選好餐點和選項，再確認是外送還是到店自取。"
+            ],
+            [
+              "確認總額與付款方式",
+              "先看包含餐費、外送費等項目的最後總額，再選擇付款方式。"
+            ],
+            [
+              "到約定地點取餐",
+              "依App提示前往取餐地點。若使用現金付款，請備好所需金額。"
+            ]
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "外送費與付款方式",
+          "paragraphs": [
+            "GrabFood官方常見問題將餐費與外送費分開說明，外送費依餐廳到收餐地點的距離計算。最後金額請在訂單畫面確認。",
+            "官方列出的付款方式有現金、信用卡、簽帳金融卡與GrabPay。請在自己的帳號查看實際可用方式。若打算以大鈔付現，先透過App聊天告訴外送員。"
+          ]
+        },
+        {
+          "id": "hours",
+          "title": "深夜訂餐",
+          "paragraphs": [
+            "平台服務時間與餐廳營業時間不同。已打烊的店家無法在App接單，請查看目前位置可訂餐的店家與預計送達時間。"
+          ]
+        },
+        {
+          "id": "help",
+          "title": "訂單諮詢與退款",
+          "paragraphs": [
+            "保留訂單紀錄，從該筆訂單的客服入口聯絡。取消與退款條件會依服務及訂單狀態而不同。"
+          ],
+          "links": [
+            [
+              "Grab客服",
+              "https://help.grab.com/"
+            ]
+          ]
+        },
+        {
+          "id": "line-man",
+          "title": "LINE MAN美食外送",
+          "paragraphs": [
+            "在泰國境內設定外送地址，就能查看LINE MAN。選好飯店地址後，再看可訂餐的餐廳和外送費。",
+            "這款App結合美食外送、叫車與日用品訂購功能。準備好LINE ID，再進入美食外送選單。"
+          ],
+          "links": [
+            [
+              "訂餐與使用指南",
+              "/zh-tw/food-delivery/line-man/"
+            ]
+          ]
+        },
+        {
+          "id": "shopeefood",
+          "title": "ShopeeFood美食外送",
+          "paragraphs": [
+            "在App設定收餐地址後，看看ShopeeFood有哪些選擇。選好飯店地址，即可查看可外送的餐廳及外送費。",
+            "透過泰國版Shopee App裡的ShopeeFood選單訂餐。一般網購商品配送與美食外送是不同服務。泰國版Shopee App標示支援泰文、英文與緬甸文。"
+          ],
+          "links": [
+            [
+              "訂餐與使用指南",
+              "/zh-tw/food-delivery/shopeefood/"
+            ]
+          ]
+        },
+        {
+          "id": "robinhood",
+          "title": "Robinhood美食外送",
+          "paragraphs": [
+            "在曼谷與鄰近地區，可以查看Robinhood。設定飯店地址後，再看哪些餐廳能送達、外送費多少。",
+            "業者的官方App說明介紹曼谷與鄰近地區的餐廳。哪些店家能送到目前位置，請在App查看。"
+          ],
+          "links": [
+            [
+              "訂餐與使用指南",
+              "/zh-tw/food-delivery/robinhood/"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "外送可以送到飯店房間嗎？",
+          "依飯店的收餐規定而定，請向櫃檯詢問取餐地點。"
+        ],
+        [
+          "可以用現金付款嗎？",
+          "官方常見問題列有現金付款。實際可用的付款方式，請在訂單畫面確認。"
+        ],
+        [
+          "外送與自取有什麼差別？",
+          "外送會送到指定地址；自取則是自己前往選定的餐廳拿餐。"
+        ]
+      ],
+      "links": [
+        [
+          "依城市查看高空酒吧",
+          "/zh-tw/rooftops/"
+        ],
+        [
+          "LINE MAN使用指南",
+          "/zh-tw/food-delivery/line-man/"
+        ],
+        [
+          "ShopeeFood使用指南",
+          "/zh-tw/food-delivery/shopeefood/"
+        ],
+        [
+          "Robinhood使用指南",
+          "/zh-tw/food-delivery/robinhood/"
+        ]
+      ],
+      "sources": [
+        [
+          "GrabFood官方服務與常見問題",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "業者LINE MAN App介紹",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ],
+        [
+          "業者ShopeeFood App介紹",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ],
+        [
+          "業者Robinhood App介紹",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ],
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "summaryTitle": "選擇美食外送App",
+      "summaryLabels": [
+        "服務地區",
+        "訂餐方式",
+        "費用確認"
+      ]
+    },
+    "grabfood": {
+      "id": "grabfood",
+      "parentUrl": "/zh-tw/food-delivery/",
+      "parentName": "泰國美食外送",
+      "title": "泰國GrabFood指南 | 註冊、海外卡、飯店外送與取消訂單",
+      "name": "泰國GrabFood",
+      "english": "GrabFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "想在飯店用餐時，可以使用Grab App的Food選單。本篇介紹外送地址設定、現金與海外發行卡片付款、取消訂單步驟，也保留官方針對韓國門號的註冊說明。",
+      "summaryTitle": "訂餐前先看",
+      "summaryLabels": [
+        "服務地區",
+        "訂餐方式",
+        "費用確認"
+      ],
+      "summary": [
+        [
+          "GrabFood",
+          "依指定外送地址可訂餐的店家",
+          "Grab App → Food → 選擇地址與餐點",
+          "確認餐費、外送費與海外付款手續費"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "signup",
+          "title": "使用韓國門號註冊",
+          "paragraphs": [
+            "Grab泰國說明指出，韓國門號的驗證碼以簡訊發送。若使用韓國門號，註冊時選擇韓國國碼，填入可接收簡訊的手機號碼，再輸入6位數驗證碼繼續註冊。",
+            "若收不到驗證簡訊，請檢查手機的簡訊過濾設定與行動網路連線。旅行用的純上網線路無法代替原有韓國門號接收簡訊，因此也要確認該門號的簡訊接收設定。"
+          ],
+          "links": [
+            [
+              "Grab官方驗證碼說明",
+              "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "如何將餐點送到飯店",
+          "steps": [
+            [
+              "選擇Food與外送地址",
+              "打開Grab的Food選單，將飯店地址與地圖圖釘對準。可訂餐的餐廳及外送時間都會依這個地址而變動。"
+            ],
+            [
+              "選擇餐點與選項",
+              "選好餐點、數量與加購項目，並確認是外送訂單還是到店自取。"
+            ],
+            [
+              "確認總額與付款方式",
+              "在購物車打開Payment details，再由See all選擇付款方式。核對餐費、外送費、折扣條件與手續費後，按Place Order送出訂單。"
+            ],
+            [
+              "在取餐地點與外送員會合",
+              "先問飯店櫃檯外送餐點應在哪裡領取，再透過App與外送員約好位置。能否送到客房依飯店規定；現金付款請備好訂單金額。"
+            ]
+          ]
+        },
+        {
+          "id": "payment",
+          "title": "現金、海外卡、KakaoPay與手續費",
+          "paragraphs": [
+            "Grab泰國列出的付款方式包括現金、泰國與海外發行的信用卡及簽帳金融卡，也包括KakaoPay。自己的帳號和該筆訂單能選哪些方式，請在付款畫面查看。",
+            "使用海外卡或海外電子錢包付款，會收取交易總額3%的海外付款手續費，最低1泰銖。小數部分達0.5泰銖時進位，未達則捨去。也請留意發卡銀行是否另收海外交易手續費。",
+            "最近一次搭車或訂餐使用的付款方式，可能會成為預設選項，下單前請再看一次。Grab說明不支援將GrabPay與現金合併付款。"
+          ],
+          "links": [
+            [
+              "Grab泰國官方付款指南",
+              "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+            ]
+          ]
+        },
+        {
+          "id": "cancel",
+          "title": "要在哪裡申請取消訂單？",
+          "steps": [
+            [
+              "開啟訂單紀錄",
+              "在App的Activity中，選擇想取消的餐點訂單。"
+            ],
+            [
+              "選擇Get Help",
+              "按訂單畫面右上角的Get Help。符合取消條件的訂單會顯示Cancel order。"
+            ],
+            [
+              "確認取消結果",
+              "提出取消申請後，請看是否收到成功通知。按下按鈕本身不代表已經取消完成。"
+            ]
+          ],
+          "paragraphs": [
+            "官方說明列出較有可能獲准的情況：餐廳尚未接受訂單；未指派外送員且延遲超過15分鐘；餐點仍在店內且延遲超過30分鐘。",
+            "已開始外送或訂單已完成時，可能較難取消。團體訂單須由建立訂單的人提出申請。還沒指派外送員，不代表一定能免費取消。"
+          ],
+          "links": [
+            [
+              "GrabFood泰國官方取消步驟",
+              "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+            ]
+          ]
+        },
+        {
+          "id": "support",
+          "title": "少餐或送錯餐怎麼辦？",
+          "paragraphs": [
+            "保留訂單紀錄，以及餐點、包裝、收據的照片，再從該筆訂單的Get Help反映問題。退款是否核准與處理進度，請查看對應訂單的說明。"
+          ],
+          "links": [
+            [
+              "GrabFood餐點遺漏與錯誤說明",
+              "https://help.grab.com/passenger/en-th/360002059867-Missing-or-wrong-items-in-your-order"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "韓國門號能註冊泰國GrabFood嗎？",
+          "Grab泰國說明指出，使用韓國門號註冊時，驗證碼會透過簡訊發送。請確保該門號能接收簡訊。"
+        ],
+        [
+          "泰國GrabFood能用海外卡或KakaoPay嗎？",
+          "官方付款方式包括海外信用卡、簽帳金融卡與KakaoPay，實際訂單能否選用仍須查看付款畫面。海外卡與電子錢包收取3%手續費，最低1泰銖。"
+        ],
+        [
+          "餐點會送到飯店客房嗎？",
+          "依飯店規定而定。先問櫃檯取餐地點，再透過App與外送員約好位置。"
+        ],
+        [
+          "還沒指派外送員就一定能免費取消嗎？",
+          "不一定。從Activity開啟訂單，選擇Get Help → Cancel order，申請後確認成功通知。官方說明還會考量餐廳是否接單、訂單延遲多久等條件。"
+        ]
+      ],
+      "links": [
+        [
+          "比較泰國美食外送App",
+          "/zh-tw/food-delivery/"
+        ]
+      ],
+      "sources": [
+        [
+          "GrabFood泰國官方服務",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "Grab泰國驗證碼說明",
+          "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+        ],
+        [
+          "Grab泰國付款指南",
+          "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+        ],
+        [
+          "GrabFood泰國取消說明",
+          "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+        ]
+      ]
+    },
+    "line-man": {
+      "id": "line-man",
+      "parentUrl": "/zh-tw/food-delivery/",
+      "parentName": "泰國美食外送",
+      "title": "泰國LINE MAN美食外送使用指南",
+      "name": "LINE MAN美食外送",
+      "english": "LINE MAN",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "想用LINE MAN將餐點送到飯店，先準備好LINE ID並打開美食外送。將泰國境內的收餐地址對準飯店，就能看到可訂餐的餐廳。選好餐點，核對包含外送費的總額，再送出訂單。",
+      "summaryTitle": "訂餐前先看",
+      "summaryLabels": [
+        "服務地區",
+        "訂餐方式",
+        "費用確認"
+      ],
+      "summary": [
+        [
+          "LINE MAN",
+          "泰國境內指定地址",
+          "選擇餐點、選項與外送地址",
+          "在付款畫面確認總額"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "需要用哪款App？",
+          "paragraphs": [
+            "這款App結合美食外送、叫車與日用品訂購功能。準備好LINE ID，再進入美食外送選單。"
+          ],
+          "links": [
+            [
+              "官方App介紹與安裝",
+              "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "訂餐送到飯店",
+          "steps": [
+            [
+              "核對地址與地圖圖釘",
+              "核對飯店名稱、地址與地圖圖釘是否一致，並向櫃檯詢問取餐地點。"
+            ],
+            [
+              "選擇餐點與訂餐方式",
+              "選好餐點和選項，再確認是外送還是到店自取。"
+            ],
+            [
+              "確認總額與付款方式",
+              "先看包含餐費、外送費等項目的最後總額，再選擇付款方式。"
+            ],
+            [
+              "到約定地點取餐",
+              "依App提示前往取餐地點。若使用現金付款，請備好所需金額。"
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "付款前要確認什麼",
+          "paragraphs": [
+            "可訂餐的餐廳與付款方式會依帳號及外送地點而不同。除了餐點價格，也要查看外送費、加購項目和折扣適用條件。",
+            "先向櫃檯詢問飯店的外送取餐地點，並核對App裡的飯店地址與地圖圖釘是否正確。"
+          ]
+        },
+        {
+          "id": "support",
+          "title": "餐點遺漏或訂單有問題",
+          "paragraphs": [
+            "保留訂單紀錄、相關餐點與收據照片，再透過該筆訂單的客服入口聯絡。能否退款及處理方式，須依訂單狀態確認。"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "可以送到飯店房間嗎？",
+          "依飯店的外送收餐規定而定，請向櫃檯詢問取餐地點。"
+        ],
+        [
+          "可以用海外發行的卡片付款嗎？",
+          "請到自己帳號的付款畫面查看實際可用方式。本指南不保證所有海外發行卡片都能付款。"
+        ]
+      ],
+      "links": [
+        [
+          "比較美食外送App",
+          "/zh-tw/food-delivery/"
+        ],
+        [
+          "GrabFood訂餐指南",
+          "/zh-tw/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "業者官方App說明",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ]
+      ]
+    },
+    "shopeefood": {
+      "id": "shopeefood",
+      "parentUrl": "/zh-tw/food-delivery/",
+      "parentName": "泰國美食外送",
+      "title": "泰國ShopeeFood美食外送使用指南",
+      "name": "ShopeeFood美食外送",
+      "english": "ShopeeFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "在泰國版Shopee App的ShopeeFood選單就能訂餐。先核對飯店地址與地圖圖釘，再向能送到該地址的餐廳選餐。網購商品與美食外送使用不同選單，記得查看目前開啟的畫面。",
+      "summaryTitle": "訂餐前先看",
+      "summaryLabels": [
+        "服務地區",
+        "訂餐方式",
+        "費用確認"
+      ],
+      "summary": [
+        [
+          "ShopeeFood",
+          "App內設定的外送地址",
+          "選擇餐點、選項與外送地址",
+          "在付款畫面確認總額"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "需要用哪款App？",
+          "paragraphs": [
+            "透過泰國版Shopee App裡的ShopeeFood選單訂餐。一般網購商品配送與美食外送是不同服務。泰國版Shopee App標示支援泰文、英文與緬甸文。"
+          ],
+          "links": [
+            [
+              "官方App介紹與安裝",
+              "https://play.google.com/store/apps/details?id=com.shopee.th"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "訂餐送到飯店",
+          "steps": [
+            [
+              "核對地址與地圖圖釘",
+              "核對飯店名稱、地址與地圖圖釘是否一致，並向櫃檯詢問取餐地點。"
+            ],
+            [
+              "選擇餐點與訂餐方式",
+              "選好餐點和選項，再確認是外送還是到店自取。"
+            ],
+            [
+              "確認總額與付款方式",
+              "先看包含餐費、外送費等項目的最後總額，再選擇付款方式。"
+            ],
+            [
+              "到約定地點取餐",
+              "依App提示前往取餐地點。若使用現金付款，請備好所需金額。"
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "付款前要確認什麼",
+          "paragraphs": [
+            "可訂餐的餐廳與付款方式會依帳號及外送地點而不同。除了餐點價格，也要查看外送費、加購項目和折扣適用條件。",
+            "先向櫃檯詢問飯店的外送取餐地點，並核對App裡的飯店地址與地圖圖釘是否正確。"
+          ]
+        },
+        {
+          "id": "support",
+          "title": "餐點遺漏或訂單有問題",
+          "paragraphs": [
+            "保留訂單紀錄、相關餐點與收據照片，再透過該筆訂單的客服入口聯絡。能否退款及處理方式，須依訂單狀態確認。"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "可以送到飯店房間嗎？",
+          "依飯店的外送收餐規定而定，請向櫃檯詢問取餐地點。"
+        ],
+        [
+          "可以用海外發行的卡片付款嗎？",
+          "請到自己帳號的付款畫面查看實際可用方式。本指南不保證所有海外發行卡片都能付款。"
+        ]
+      ],
+      "links": [
+        [
+          "比較美食外送App",
+          "/zh-tw/food-delivery/"
+        ],
+        [
+          "GrabFood訂餐指南",
+          "/zh-tw/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "業者官方App說明",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ]
+      ]
+    },
+    "robinhood": {
+      "id": "robinhood",
+      "parentUrl": "/zh-tw/food-delivery/",
+      "parentName": "泰國美食外送",
+      "title": "泰國Robinhood美食外送使用指南",
+      "name": "Robinhood美食外送",
+      "english": "Robinhood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "在曼谷與鄰近地區想叫外送，可以看看Robinhood。輸入飯店地址後，就能尋找可配送的餐廳。選好餐點，查看包含外送費的總額後再下單。",
+      "summaryTitle": "訂餐前先看",
+      "summaryLabels": [
+        "服務地區",
+        "訂餐方式",
+        "費用確認"
+      ],
+      "summary": [
+        [
+          "Robinhood",
+          "曼谷與鄰近地區",
+          "選擇餐點、選項與外送地址",
+          "在付款畫面確認總額"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "需要用哪款App？",
+          "paragraphs": [
+            "業者的官方App說明介紹曼谷與鄰近地區的餐廳。哪些店家能送到目前位置，請在App查看。"
+          ],
+          "links": [
+            [
+              "官方App介紹與安裝",
+              "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "訂餐送到飯店",
+          "steps": [
+            [
+              "核對地址與地圖圖釘",
+              "核對飯店名稱、地址與地圖圖釘是否一致，並向櫃檯詢問取餐地點。"
+            ],
+            [
+              "選擇餐點與訂餐方式",
+              "選好餐點和選項，再確認是外送還是到店自取。"
+            ],
+            [
+              "確認總額與付款方式",
+              "先看包含餐費、外送費等項目的最後總額，再選擇付款方式。"
+            ],
+            [
+              "到約定地點取餐",
+              "依App提示前往取餐地點。若使用現金付款，請備好所需金額。"
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "付款前要確認什麼",
+          "paragraphs": [
+            "可訂餐的餐廳與付款方式會依帳號及外送地點而不同。除了餐點價格，也要查看外送費、加購項目和折扣適用條件。",
+            "先向櫃檯詢問飯店的外送取餐地點，並核對App裡的飯店地址與地圖圖釘是否正確。"
+          ]
+        },
+        {
+          "id": "support",
+          "title": "餐點遺漏或訂單有問題",
+          "paragraphs": [
+            "保留訂單紀錄、相關餐點與收據照片，再透過該筆訂單的客服入口聯絡。能否退款及處理方式，須依訂單狀態確認。"
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "可以送到飯店房間嗎？",
+          "依飯店的外送收餐規定而定，請向櫃檯詢問取餐地點。"
+        ],
+        [
+          "可以用海外發行的卡片付款嗎？",
+          "請到自己帳號的付款畫面查看實際可用方式。本指南不保證所有海外發行卡片都能付款。"
+        ]
+      ],
+      "links": [
+        [
+          "比較美食外送App",
+          "/zh-tw/food-delivery/"
+        ],
+        [
+          "GrabFood訂餐指南",
+          "/zh-tw/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "業者官方App說明",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ]
+    }
+  },
+  "deferredRelatedLinks": [
+    {
+      "guideId": "food-delivery",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    },
+    {
+      "guideId": "grabfood",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    }
+  ]
+}

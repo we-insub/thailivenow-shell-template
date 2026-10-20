@@ -1,0 +1,704 @@
+{
+  "locale": "en",
+  "sourceLocale": "ko",
+  "sourceFingerprints": {
+    "food-delivery": "717b1eed834d8c0334a8508b13fac185a99a1e0a847eefdeb01b2fbd62cba244",
+    "grabfood": "0e6fbb6ce50f1ba6835fc9d7097196b4dba9e4bec33475afc926e6f606ecc8d9",
+    "line-man": "b839b2f0c6b3380056962d99da11add3366b43dce3026e2f3b328d5816aaccfc",
+    "shopeefood": "585fbf3ebe0d010413f104b94ea4cac57097630ac5782e777436b41a3cb9509d",
+    "robinhood": "f393eef89965556ee33317233673c72a55153e1bb20cf491809b2a0bb6c81a79"
+  },
+  "ui": {
+    "home": "Home",
+    "breadcrumb": "Navigation",
+    "faq": "Frequently asked questions",
+    "related": "Related guides",
+    "sources": "Sources",
+    "officialSources": "View official sources",
+    "delivery": "Food delivery",
+    "hubName": "Food delivery in Thailand"
+  },
+  "guides": {
+    "food-delivery": {
+      "id": "food-delivery",
+      "parentUrl": "/en/food/",
+      "parentName": "Food and delivery",
+      "title": "Food delivery apps in Thailand | GrabFood, LINE MAN, ShopeeFood and Robinhood",
+      "name": "Food delivery in Thailand",
+      "english": "Food Delivery in Thailand",
+      "intro": "If you would rather eat while relaxing at your hotel, try ordering food for delivery. Set the delivery location to see available restaurants, delivery fees and estimated arrival times. Ask reception where you should collect your food.",
+      "summary": [
+        [
+          "GrabFood",
+          "Based on the delivery address in the app",
+          "Select Food in the Grab app",
+          "Check the final total in the app"
+        ],
+        [
+          "LINE MAN",
+          "Your chosen address in Thailand",
+          "Select food delivery in LINE MAN",
+          "Check the final total in the app"
+        ],
+        [
+          "ShopeeFood",
+          "The delivery address set in the app",
+          "Select the ShopeeFood menu",
+          "Check the final total in the app"
+        ],
+        [
+          "Robinhood",
+          "Bangkok and nearby areas",
+          "Select food delivery in Robinhood",
+          "Check the final total in the app"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "platform",
+          "title": "Using GrabFood in Thailand",
+          "paragraphs": [
+            "GrabFood Thailand offers food and drink delivery as well as restaurant pickup. The restaurants you can order from depend on your chosen delivery location."
+          ],
+          "links": [
+            [
+              "GrabFood registration, payments, hotel delivery and cancellations",
+              "/en/food-delivery/grabfood/"
+            ],
+            [
+              "Official GrabFood service",
+              "https://www.grab.com/th/en/food/"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "How to order food to your hotel",
+          "steps": [
+            [
+              "Check the address and map pin",
+              "Make sure the hotel name, address and map pin match, then ask reception where to collect your order."
+            ],
+            [
+              "Choose your meal and order type",
+              "Select your food and options, and check whether you are ordering delivery or restaurant pickup."
+            ],
+            [
+              "Check the total and payment method",
+              "Check the final total, including food and delivery fees, before choosing a payment method."
+            ],
+            [
+              "Collect at the agreed location",
+              "Follow the instructions in the app and go to the collection point. Have the amount ready if you are paying cash."
+            ]
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Delivery fees and payment methods",
+          "paragraphs": [
+            "GrabFood’s official FAQ distinguishes food prices from delivery fees, which are calculated according to the distance between the restaurant and delivery location. Check the final amount on the order screen.",
+            "Cash, credit cards, debit cards and GrabPay are listed as payment methods. Check which ones your account can actually use. If you plan to pay cash with a large banknote, tell the rider through the app’s chat."
+          ]
+        },
+        {
+          "id": "hours",
+          "title": "Ordering late at night",
+          "paragraphs": [
+            "The service’s operating hours and individual restaurant opening hours are different. Closed restaurants cannot accept orders in the app, so check which places can deliver to your current location and their estimated delivery times."
+          ]
+        },
+        {
+          "id": "help",
+          "title": "Order enquiries and refunds",
+          "paragraphs": [
+            "Keep your order history and contact support through the relevant order. Cancellation and refund conditions depend on the service and the status of the order."
+          ],
+          "links": [
+            [
+              "Grab support",
+              "https://help.grab.com/"
+            ]
+          ]
+        },
+        {
+          "id": "line-man",
+          "title": "LINE MAN food delivery",
+          "paragraphs": [
+            "Set your delivery address in Thailand to explore LINE MAN. With your hotel address selected, you can see available restaurants and delivery fees.",
+            "The app combines food delivery, ride booking and everyday essentials. Have your LINE ID ready and select the food delivery menu."
+          ],
+          "links": [
+            [
+              "Ordering guide",
+              "/en/food-delivery/line-man/"
+            ]
+          ]
+        },
+        {
+          "id": "shopeefood",
+          "title": "ShopeeFood delivery",
+          "paragraphs": [
+            "Set your delivery address in the app to explore ShopeeFood. Select your hotel address to see available restaurants and delivery fees.",
+            "Order through the ShopeeFood menu in the Thai Shopee app. Food delivery is separate from shipping shopping purchases. The Thai Shopee app lists Thai, English and Burmese language support."
+          ],
+          "links": [
+            [
+              "Ordering guide",
+              "/en/food-delivery/shopeefood/"
+            ]
+          ]
+        },
+        {
+          "id": "robinhood",
+          "title": "Robinhood food delivery",
+          "paragraphs": [
+            "Robinhood serves Bangkok and nearby areas. Set your hotel address to see which restaurants can deliver there and how much delivery costs.",
+            "The operator’s official app description covers restaurants in Bangkok and nearby areas. Check which restaurants deliver to your current location."
+          ],
+          "links": [
+            [
+              "Ordering guide",
+              "/en/food-delivery/robinhood/"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can food be delivered to my hotel room?",
+          "That depends on the hotel’s collection rules. Ask reception where to collect your food."
+        ],
+        [
+          "Can I pay cash?",
+          "The official FAQ lists cash payments. Check the methods actually available on your order screen."
+        ],
+        [
+          "What is the difference between delivery and pickup?",
+          "Delivery brings food to your chosen address. For pickup, you collect it yourself at the selected restaurant."
+        ]
+      ],
+      "links": [
+        [
+          "Rooftops by city",
+          "/en/rooftops/"
+        ],
+        [
+          "LINE MAN guide",
+          "/en/food-delivery/line-man/"
+        ],
+        [
+          "ShopeeFood guide",
+          "/en/food-delivery/shopeefood/"
+        ],
+        [
+          "Robinhood guide",
+          "/en/food-delivery/robinhood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Official GrabFood service and FAQ",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "LINE MAN operator’s app listing",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ],
+        [
+          "ShopeeFood operator’s app listing",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ],
+        [
+          "Robinhood operator’s app listing",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ],
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "summaryTitle": "Choose a food delivery app",
+      "summaryLabels": [
+        "Service area",
+        "How to order",
+        "Checking costs"
+      ]
+    },
+    "grabfood": {
+      "id": "grabfood",
+      "parentUrl": "/en/food-delivery/",
+      "parentName": "Food delivery in Thailand",
+      "title": "GrabFood Thailand | Registration, foreign cards, hotel delivery and cancellations",
+      "name": "GrabFood in Thailand",
+      "english": "GrabFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Use the Food menu in the Grab app when you want a meal delivered to your hotel. This guide covers choosing a delivery location, cash and foreign-card payments, cancellations, and the documented registration steps for a South Korean phone number.",
+      "summaryTitle": "Before you order",
+      "summaryLabels": [
+        "Service area",
+        "How to order",
+        "Checking costs"
+      ],
+      "summary": [
+        [
+          "GrabFood",
+          "Restaurants available at your delivery address",
+          "Grab app → Food → choose address and food",
+          "Check food prices, delivery fees and foreign-payment fees"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "signup",
+          "title": "Registering with a South Korean phone number",
+          "paragraphs": [
+            "Grab Thailand’s help page says verification codes for South Korean numbers are sent by SMS. If you use a South Korean number, select South Korea as the country code and enter a mobile number that can receive texts. Enter the 6-digit code to continue registration.",
+            "If the text does not arrive, check your phone’s message filters and mobile network connection. A travel data-only line does not replace SMS reception on your existing South Korean number, so check that number’s text-message settings too."
+          ],
+          "links": [
+            [
+              "Grab’s official verification-code help",
+              "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "How to order food to your hotel",
+          "steps": [
+            [
+              "Select Food and your delivery address",
+              "Open Food in Grab and match the hotel address to the map pin. Available restaurants and delivery times depend on this address."
+            ],
+            [
+              "Choose food and options",
+              "Select dishes, quantities and extras, and check whether the order is for delivery or restaurant pickup."
+            ],
+            [
+              "Check the total and payment method",
+              "Open Payment details in your basket, then See all to choose a payment method. Review food prices, delivery fees, discount conditions and charges before tapping Place Order."
+            ],
+            [
+              "Meet the rider at the collection point",
+              "Ask reception where food deliveries should be collected, then agree the location with the rider in the app. Room delivery depends on hotel rules. Have the order amount ready if paying cash."
+            ]
+          ]
+        },
+        {
+          "id": "payment",
+          "title": "Cash, foreign cards, KakaoPay and fees",
+          "paragraphs": [
+            "Grab Thailand lists cash and credit or debit cards issued in Thailand or abroad. KakaoPay is also among the official payment methods. Check the payment screen for the options available to your own account and order.",
+            "Payments with foreign cards or foreign e-wallets carry a foreign-payment fee of 3% of the total transaction, with a minimum of 1 baht. Fractions of 0.5 baht or more round up; smaller fractions round down. Your card issuer may also charge its own overseas transaction fee.",
+            "The payment method from your most recent ride or order may be selected by default, so review it before ordering. Grab says splitting payment between GrabPay and cash is not supported."
+          ],
+          "links": [
+            [
+              "Grab Thailand’s official payment guide",
+              "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+            ]
+          ]
+        },
+        {
+          "id": "cancel",
+          "title": "How do I request a cancellation?",
+          "steps": [
+            [
+              "Open your order history",
+              "In Activity, select the food order you want to cancel."
+            ],
+            [
+              "Select Get Help",
+              "Tap Get Help at the top right of the order screen. Cancel order appears if the order is eligible for cancellation."
+            ],
+            [
+              "Check the cancellation result",
+              "After requesting cancellation, look for a success notification. Pressing the button alone does not mean the order has been cancelled."
+            ]
+          ],
+          "paragraphs": [
+            "The official guidance describes cancellation as more likely to be approved if the restaurant has not accepted the order, if it is delayed by more than 15 minutes without an assigned rider, or if it is delayed by more than 30 minutes while the food is still at the restaurant.",
+            "Cancellation may be difficult once delivery has started or the order is complete. For a group order, the person who created it must request cancellation. An order is not always free to cancel simply because a rider has not yet been assigned."
+          ],
+          "links": [
+            [
+              "Official GrabFood Thailand cancellation steps",
+              "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+            ]
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Missing or incorrect food",
+          "paragraphs": [
+            "Keep your order history and photos of the food, packaging and receipt. Report the problem through Get Help on that order, and check its guidance for refund approval and progress."
+          ],
+          "links": [
+            [
+              "GrabFood help for missing or incorrect items",
+              "https://help.grab.com/passenger/en-th/360002059867-Missing-or-wrong-items-in-your-order"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can I register for GrabFood Thailand with a South Korean number?",
+          "Grab Thailand’s help page says the verification code for a South Korean number is sent by SMS. Make sure that number can receive texts."
+        ],
+        [
+          "Can I use a foreign card or KakaoPay on GrabFood Thailand?",
+          "The official payment options include foreign credit and debit cards and KakaoPay. Check availability on your order. Foreign cards and e-wallets carry a 3% fee, with a minimum of 1 baht."
+        ],
+        [
+          "Will the food come to my hotel room?",
+          "That depends on hotel rules. Ask reception where to collect food, then agree the location with the rider through the app."
+        ],
+        [
+          "Is cancellation always free before a rider is assigned?",
+          "No. Open the order in Activity, choose Get Help → Cancel order, and look for a success notification. The official guidance also considers restaurant acceptance and how long the order has been delayed."
+        ]
+      ],
+      "links": [
+        [
+          "Compare Thailand’s food delivery apps",
+          "/en/food-delivery/"
+        ]
+      ],
+      "sources": [
+        [
+          "Official GrabFood Thailand service",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "Grab Thailand verification-code help",
+          "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+        ],
+        [
+          "Grab Thailand payment guide",
+          "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+        ],
+        [
+          "GrabFood Thailand cancellation guide",
+          "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+        ]
+      ]
+    },
+    "line-man": {
+      "id": "line-man",
+      "parentUrl": "/en/food-delivery/",
+      "parentName": "Food delivery in Thailand",
+      "title": "LINE MAN Thailand | Food delivery guide",
+      "name": "LINE MAN food delivery",
+      "english": "LINE MAN",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "To order food to your hotel with LINE MAN, have your LINE ID ready and open the food delivery menu. Match the delivery address in Thailand to your hotel to see available restaurants. Choose your meal, review the total including delivery, then place your order.",
+      "summaryTitle": "Before you order",
+      "summaryLabels": [
+        "Service area",
+        "How to order",
+        "Checking costs"
+      ],
+      "summary": [
+        [
+          "LINE MAN",
+          "Your chosen address in Thailand",
+          "Choose food, options and delivery address",
+          "Check the total at checkout"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "Which app do I need?",
+          "paragraphs": [
+            "The app combines food delivery, ride booking and everyday essentials. Have your LINE ID ready and select the food delivery menu."
+          ],
+          "links": [
+            [
+              "Official app information and installation",
+              "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Ordering to your hotel",
+          "steps": [
+            [
+              "Check the address and map pin",
+              "Make sure the hotel name, address and map pin match, then ask reception where to collect your order."
+            ],
+            [
+              "Choose your meal and order type",
+              "Select your food and options, and check whether you are ordering delivery or restaurant pickup."
+            ],
+            [
+              "Check the total and payment method",
+              "Check the final total, including food and delivery fees, before choosing a payment method."
+            ],
+            [
+              "Collect at the agreed location",
+              "Follow the instructions in the app and go to the collection point. Have the amount ready if you are paying cash."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Before paying",
+          "paragraphs": [
+            "Available restaurants and payment methods depend on your account and delivery location. Alongside menu prices, review delivery fees, extras and the conditions for any discount.",
+            "Ask reception where food deliveries should be collected. Make sure the hotel address and map pin in the app match your hotel."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Missing food or another order problem",
+          "paragraphs": [
+            "Keep your order history and photos of the affected food and receipt, then contact support through that order. Refund eligibility and the process depend on the order’s status."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can I have food delivered to my hotel room?",
+          "It depends on the hotel’s delivery collection rules. Ask reception where you should collect it."
+        ],
+        [
+          "Can I pay with a foreign card?",
+          "Check the payment screen in your account for the methods actually available. This guide does not guarantee that every foreign card will be accepted."
+        ]
+      ],
+      "links": [
+        [
+          "Compare food delivery apps",
+          "/en/food-delivery/"
+        ],
+        [
+          "GrabFood ordering guide",
+          "/en/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Operator’s official app description",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ]
+      ]
+    },
+    "shopeefood": {
+      "id": "shopeefood",
+      "parentUrl": "/en/food-delivery/",
+      "parentName": "Food delivery in Thailand",
+      "title": "ShopeeFood Thailand | Food delivery guide",
+      "name": "ShopeeFood delivery",
+      "english": "ShopeeFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "You can order meals from the ShopeeFood menu in the Thai Shopee app. First match the hotel address and map pin, then choose food from restaurants that deliver there. Shopping orders and food delivery use different menus, so check which screen you are using.",
+      "summaryTitle": "Before you order",
+      "summaryLabels": [
+        "Service area",
+        "How to order",
+        "Checking costs"
+      ],
+      "summary": [
+        [
+          "ShopeeFood",
+          "The delivery address set in the app",
+          "Choose food, options and delivery address",
+          "Check the total at checkout"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "Which app do I need?",
+          "paragraphs": [
+            "Order through the ShopeeFood menu in the Thai Shopee app. Food delivery is separate from shipping shopping purchases. The Thai Shopee app lists Thai, English and Burmese language support."
+          ],
+          "links": [
+            [
+              "Official app information and installation",
+              "https://play.google.com/store/apps/details?id=com.shopee.th"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Ordering to your hotel",
+          "steps": [
+            [
+              "Check the address and map pin",
+              "Make sure the hotel name, address and map pin match, then ask reception where to collect your order."
+            ],
+            [
+              "Choose your meal and order type",
+              "Select your food and options, and check whether you are ordering delivery or restaurant pickup."
+            ],
+            [
+              "Check the total and payment method",
+              "Check the final total, including food and delivery fees, before choosing a payment method."
+            ],
+            [
+              "Collect at the agreed location",
+              "Follow the instructions in the app and go to the collection point. Have the amount ready if you are paying cash."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Before paying",
+          "paragraphs": [
+            "Available restaurants and payment methods depend on your account and delivery location. Alongside menu prices, review delivery fees, extras and the conditions for any discount.",
+            "Ask reception where food deliveries should be collected. Make sure the hotel address and map pin in the app match your hotel."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Missing food or another order problem",
+          "paragraphs": [
+            "Keep your order history and photos of the affected food and receipt, then contact support through that order. Refund eligibility and the process depend on the order’s status."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can I have food delivered to my hotel room?",
+          "It depends on the hotel’s delivery collection rules. Ask reception where you should collect it."
+        ],
+        [
+          "Can I pay with a foreign card?",
+          "Check the payment screen in your account for the methods actually available. This guide does not guarantee that every foreign card will be accepted."
+        ]
+      ],
+      "links": [
+        [
+          "Compare food delivery apps",
+          "/en/food-delivery/"
+        ],
+        [
+          "GrabFood ordering guide",
+          "/en/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Operator’s official app description",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ]
+      ]
+    },
+    "robinhood": {
+      "id": "robinhood",
+      "parentUrl": "/en/food-delivery/",
+      "parentName": "Food delivery in Thailand",
+      "title": "Robinhood Thailand | Food delivery guide",
+      "name": "Robinhood food delivery",
+      "english": "Robinhood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "If you want food delivered in Bangkok or nearby areas, take a look at Robinhood. Enter your hotel address to find restaurants that can deliver there. Choose your meal and review the total, including delivery, before ordering.",
+      "summaryTitle": "Before you order",
+      "summaryLabels": [
+        "Service area",
+        "How to order",
+        "Checking costs"
+      ],
+      "summary": [
+        [
+          "Robinhood",
+          "Bangkok and nearby areas",
+          "Choose food, options and delivery address",
+          "Check the total at checkout"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "Which app do I need?",
+          "paragraphs": [
+            "The operator’s official app description covers restaurants in Bangkok and nearby areas. Check which restaurants deliver to your current location."
+          ],
+          "links": [
+            [
+              "Official app information and installation",
+              "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Ordering to your hotel",
+          "steps": [
+            [
+              "Check the address and map pin",
+              "Make sure the hotel name, address and map pin match, then ask reception where to collect your order."
+            ],
+            [
+              "Choose your meal and order type",
+              "Select your food and options, and check whether you are ordering delivery or restaurant pickup."
+            ],
+            [
+              "Check the total and payment method",
+              "Check the final total, including food and delivery fees, before choosing a payment method."
+            ],
+            [
+              "Collect at the agreed location",
+              "Follow the instructions in the app and go to the collection point. Have the amount ready if you are paying cash."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Before paying",
+          "paragraphs": [
+            "Available restaurants and payment methods depend on your account and delivery location. Alongside menu prices, review delivery fees, extras and the conditions for any discount.",
+            "Ask reception where food deliveries should be collected. Make sure the hotel address and map pin in the app match your hotel."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Missing food or another order problem",
+          "paragraphs": [
+            "Keep your order history and photos of the affected food and receipt, then contact support through that order. Refund eligibility and the process depend on the order’s status."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Can I have food delivered to my hotel room?",
+          "It depends on the hotel’s delivery collection rules. Ask reception where you should collect it."
+        ],
+        [
+          "Can I pay with a foreign card?",
+          "Check the payment screen in your account for the methods actually available. This guide does not guarantee that every foreign card will be accepted."
+        ]
+      ],
+      "links": [
+        [
+          "Compare food delivery apps",
+          "/en/food-delivery/"
+        ],
+        [
+          "GrabFood ordering guide",
+          "/en/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Operator’s official app description",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ]
+    }
+  },
+  "deferredRelatedLinks": [
+    {
+      "guideId": "food-delivery",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    },
+    {
+      "guideId": "grabfood",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    }
+  ]
+}

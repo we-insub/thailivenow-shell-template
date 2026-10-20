@@ -1,0 +1,504 @@
+{
+  "patong": {
+    "name": "Pantai Patong",
+    "intro": "Jika mahu berehat sambil melihat laut, kemudian keluar makan dan membeli-belah, singgahlah di Pantai Patong. Pasirnya mengikut lengkungan teluk di barat Phuket, dengan hotel, restoran dan kedai di belakang pantai. Datanglah bersama rakan atau pasangan untuk berjalan di pesisir dan menikmati hidangan. Pada hari yang tidak dipenuhi lawatan ke tempat lain, luangkan masa berulang-alik antara pantai dan kawasan kedai dengan santai.",
+    "experienceTitles": [
+      "Berjalan di pantai, kemudian makan dan membeli-belah",
+      "Luangkan sehari dengan santai di tepi laut"
+    ],
+    "experience": [
+      "Di Patong, pantai berpasir mengikut lengkungan teluk, manakala kawasan kedai yang meriah terletak di belakangnya. Berjalanlah bersama rakan atau pasangan sebelum keluar mencari makanan. Hotel, restoran dan kedai berkumpul berdekatan, jadi anda boleh makan dan membeli-belah tanpa pergi jauh selepas menikmati laut.",
+      "Patong sesuai untuk rakan atau pasangan yang suka suasana pantai berdekatan kawasan yang meriah. Anda boleh berjalan di pasir, keluar makan, kemudian kembali melihat laut. Jika mahu berenang, elakkan laluan bot dan peralatan sukan air, dan gunakan hanya kawasan yang dibenarkan di situ. Walaupun laut kelihatan tenang, ikut bendera serta arahan penyelamat."
+    ],
+    "access": "Patong terletak di sebelah barat pulau utama Phuket dan boleh dikunjungi dengan kereta. Anda tidak perlu menaiki bot ke pulau lain untuk sampai ke pantai ini.",
+    "swimming": "Berenanglah jauh daripada laluan bot dan peralatan sukan air. Sebelum masuk ke laut, perhatikan bendera pantai dan ikut arahan penyelamat.",
+    "facilities": "Hotel, restoran dan kedai berkumpul di belakang pantai. Selepas berehat di pasir, anda boleh keluar makan atau membeli-belah.",
+    "transport": "Jika menaiki kereta, cari “Patong Beach” sebagai destinasi. Pantai ini panjang, jadi beritahu pemandu nama penginapan atau restoran tempat anda akan bertemu. Pautan peta di bawah membolehkan anda mencari destinasi dan melihat kedudukannya berbanding tempat penginapan.",
+    "faq": [
+      [
+        "Dengan siapa sesuai datang ke Patong?",
+        "Datanglah bersama rakan atau pasangan untuk berjalan di pesisir, makan dan membeli-belah. Hotel, restoran dan kedai terletak di belakang pantai, jadi anda masih boleh meluangkan masa berdekatan selepas berjalan. Pilih hari yang tidak memerlukan anda bergegas ke tempat lain supaya dapat bersantai lebih lama."
+      ],
+      [
+        "Perlukah menaiki bot untuk ke Pantai Patong?",
+        "Tidak. Patong terletak di barat pulau utama Phuket dan boleh dicapai dengan kereta. Anda tidak perlu menempah lawatan bot ke pulau lain. Berikan nama “Patong Beach” bersama nama penginapan atau restoran tempat pertemuan kepada pemandu."
+      ]
+    ]
+  },
+  "karon": {
+    "name": "Pantai Karon",
+    "intro": "Jika mahu berehat sambil berjalan di pantai berpasir putih yang panjang, kunjungilah Karon di pantai barat Phuket, di utara Kata. Laut terbuka dan pesisir yang panjang terbentang di hadapan anda. Pantai ini sesuai untuk berjalan beriringan dengan pasangan atau keluarga sambil menikmati laut. Selepas itu, sambung waktu santai dengan makan di restoran berdekatan.",
+    "experienceTitles": [
+      "Berjalan perlahan di pantai berpasir putih",
+      "Bersantai di bahagian berhampiran penginapan"
+    ],
+    "experience": [
+      "Berjalanlah perlahan di pasir putih Karon sambil melihat laut terbuka dan pesisir yang panjang. Datanglah bersama pasangan atau keluarga untuk berbual sepanjang berjalan. Daripada memenuhi hari dengan banyak tempat lawatan, anda boleh makan di restoran berdekatan selepas berjalan dan menikmati waktu yang lebih santai.",
+      "Di sekitar Karon terdapat restoran, kedai dan penginapan. Anda boleh berjalan di bahagian pantai berhampiran penginapan, kemudian keluar makan. Namun, pantainya panjang: carian Karon Beach sahaja mungkin membawa anda jauh dari hotel. Jika menaiki kereta, berikan juga nama penginapan atau restoran kepada pemandu."
+    ],
+    "access": "Karon terletak di barat Phuket, di utara Kata, dan boleh dicapai dengan kereta. Hamparan pasir yang panjang ialah Karon Yai. Karon Noi di sebelah utara merupakan kawasan akses tetamu hotel, jadi syarat masuknya berbeza.",
+    "swimming": "Apabila ombak tinggi, nikmati laut dengan berjalan di pasir dan jangan berenang. Keadaan ombak berubah setiap hari walaupun pemandangan laut kelihatan lapang.",
+    "facilities": "Terdapat restoran, kedai dan penginapan di sekitar pantai. Selepas berjalan, anda boleh makan dan berehat berdekatan.",
+    "transport": "Cari “Karon Beach” sebagai destinasi kereta. Bahagian utara dan selatan menggunakan nama yang sama, jadi berikan juga nama penginapan atau restoran kepada pemandu. Jika mahu melihat Kata di selatan, anda boleh ke Kata Beach selepas selesai berjalan di Karon.",
+    "faq": [
+      [
+        "Adakah Karon dan Kata pantai yang sama?",
+        "Tidak. Karon ialah pantai berasingan di utara Kata. Cari Karon Beach untuk hamparan pasir Karon yang panjang. Jika mahu ke Kata juga, cari Kata Beach secara berasingan dan aturkan perjalanan ke sana."
+      ],
+      [
+        "Bolehkah saya masuk ke Karon Noi dengan bebas?",
+        "Karon Noi di sebelah utara merupakan kawasan akses tetamu hotel. Syaratnya berbeza daripada hamparan pasir Karon Yai yang panjang. Jika mahu ke Karon Noi, tanyakan syarat masuk kepada hotel berkenaan terlebih dahulu."
+      ],
+      [
+        "Apa yang boleh dilakukan di Karon?",
+        "Berjalanlah menyusuri pasir, melihat laut dan berehat, kemudian makan di restoran sekitar. Pantai ini sesuai untuk menggabungkan waktu berjalan dengan makan. Jika ombak tinggi atau berenang dilarang, tukar rancangan kepada berjalan di tepi laut."
+      ]
+    ]
+  },
+  "kata": {
+    "name": "Pantai Kata",
+    "intro": "Untuk menikmati teluk melengkung dan pasir di pantai barat Phuket, datanglah ke Kata. Pantai Kata Yai ini terletak di selatan Karon, dengan hotel, restoran, bar dan kedai cenderamata berdekatan. Ia sesuai untuk berehat di tepi laut bersama pasangan atau rakan, kemudian keluar makan. Berjalanlah perlahan di pasir sambil melihat laut yang terbentang sepanjang teluk.",
+    "experienceTitles": [
+      "Berehat sambil melihat teluk melengkung",
+      "Sehari santai antara pantai dan restoran"
+    ],
+    "experience": [
+      "Kata ialah teluk kecil di selatan Karon. Berjalanlah di pasir bersama rakan atau pasangan sambil melihat pesisir melengkung dan laut. Pilih hari untuk melihat laut dan makan berhampiran penginapan tanpa perlu bergegas.",
+      "Di sekitar Kata Yai terdapat hotel, restoran, bar dan kedai cenderamata. Selepas berehat di pantai, anda boleh keluar makan dan melihat kedai. Kata Noi di selatan ialah pantai berasingan. Semasa bertemu rakan atau menaiki kereta, nyatakan sama ada anda menuju ke Kata Beach atau Kata Noi Beach."
+    ],
+    "access": "Kata Yai terletak di barat pulau utama Phuket dan boleh dicapai dengan kereta. Kata Noi di sebelah selatan ialah pantai lain.",
+    "swimming": "Elakkan kawasan luncur ombak dan peralatan sukan air semasa berenang. Kawasan yang boleh dimasuki pada hari itu ditentukan oleh bendera dan arahan di pantai.",
+    "facilities": "Di sekitar Kata Yai terdapat hotel, restoran, bar dan kedai cenderamata. Anda boleh keluar makan atau melihat kedai selepas berehat di pantai.",
+    "transport": "Carian “Kata Beach” membawa anda ke Kata Yai. Ia berbeza daripada Kata Noi di selatan, jadi lihat juga nama penginapan yang ditempah. Pautan peta di bawah membantu mencari jalan antara hotel dan pasir pantai. Jika laluan melalui kawasan hotel, patuhi syarat masuk hotel itu.",
+    "faq": [
+      [
+        "Adakah Kata dan Kata Noi tempat yang sama?",
+        "Tidak. Pantai Kata, yang juga dikenali sebagai Kata Yai, berbeza daripada Kata Noi di selatannya. Jika menaiki kereta, berikan alamat penginapan serta nyatakan sama ada destinasi anda Kata Beach atau Kata Noi Beach."
+      ],
+      [
+        "Bolehkah saya melawat Karon dan Kata dalam perjalanan yang sama?",
+        "Ya. Kata berada di selatan Karon, jadi anda boleh melawat kedua-duanya. Namun, kedua-duanya bukan satu hamparan pasir yang bersambung; sediakan masa untuk perjalanan antara pantai. Cari Karon Beach dan Kata Beach secara berasingan pada peta."
+      ]
+    ]
+  },
+  "pattaya": {
+    "name": "Pantai Pattaya",
+    "intro": "Jika mahu melihat laut ketika bersiar-siar di bandar Pattaya, singgahlah di pantai di hadapan Beach Road. Pasirnya mengikut lengkungan teluk, dengan hotel, restoran dan tempat membeli-belah di sekeliling. Anda boleh berjalan di tepi laut bersama rakan ketika melawat bandar, atau bersama keluarga selepas keluar makan. Luangkan sedikit masa di pasir sebelum atau selepas makan untuk menikmati laut Pattaya.",
+    "experienceTitles": [
+      "Lihat laut dan bandar sepanjang Beach Road",
+      "Pilih bahagian utara atau tengah dan selatan"
+    ],
+    "experience": [
+      "Sepanjang Beach Road, anda boleh menggabungkan pemandangan laut dengan aktiviti di bandar. Hotel, restoran dan pusat membeli-belah berkumpul berdekatan, jadi mudah untuk keluar berjalan di pasir selepas makan atau membeli-belah. Jika keluar makan bersama rakan atau keluarga, singgahlah sebentar untuk melihat laut.",
+      "Untuk berjalan dalam suasana lebih tenang, cuba bahagian utara pantai. Jika mahu sambung makan dan membeli-belah, lihat kawasan tengah dan selatan. Suasana boleh berubah mengikut acara dan waktu lawatan. Jika berenang, elakkan laluan bot serta peralatan sukan air dan gunakan kawasan yang dibenarkan di situ."
+    ],
+    "access": "Pantai ini terletak di hadapan Beach Road dalam bandar Pattaya dan boleh dicapai dengan kereta. Ia berbeza daripada Jomtien di selatan serta pantai bernama Pattaya di Ko Lipe.",
+    "swimming": "Jangan berenang di kawasan yang digunakan bot dan peralatan sukan air. Gunakan hanya kawasan yang dibenarkan oleh pihak di pantai.",
+    "facilities": "Hotel, restoran dan pusat membeli-belah berkumpul di sekitar Beach Road. Sebelum menggunakan kerusi pantai atau perkhidmatan sewaan, tanyakan harga dan syaratnya.",
+    "transport": "Cari “Pattaya Beach, Chon Buri”. Pantai memanjang sepanjang Beach Road, jadi berikan juga nama penginapan atau bangunan tempat pertemuan kepada pemandu. Tentukan sama ada mahu berjalan di utara atau makan dan membeli-belah di tengah atau selatan, kemudian pilih tempat turun berdekatan.",
+    "faq": [
+      [
+        "Adakah Pantai Pattaya dan Jomtien tempat yang sama?",
+        "Tidak. Pantai Pattaya berada di hadapan Beach Road dalam bandar, manakala Jomtien ialah pantai lain di selatannya. Cari Jomtien Beach jika mahu ke sana. Jika mahu makan dan membeli-belah di bandar Pattaya sambil melihat laut, singgahlah di pasir hadapan Beach Road."
+      ],
+      [
+        "Di mana sesuai berjalan dalam suasana lebih tenang?",
+        "Cuba bahagian utara Pantai Pattaya, yang biasanya lebih tenang untuk berjalan berbanding bahagian tengah dan selatan. Namun, suasana boleh berubah mengikut acara dan waktu anda datang."
+      ]
+    ]
+  },
+  "jomtien": {
+    "name": "Pantai Jomtien",
+    "intro": "Jika mahu berjalan di pesisir yang panjang di Pattaya, pergilah ke Jomtien di sebelah selatan. Penginapan dan restoran berderet sepanjang jalan tepi laut, sesuai untuk berehat di pantai sebelum keluar makan. Datanglah bersama keluarga atau pasangan jika mahu bersantai di pesisir yang berbeza daripada kawasan bandar yang sibuk. Mulakan dengan berjalan di pasir berhampiran penginapan.",
+    "experienceTitles": [
+      "Berjalan menyusuri pesisir yang panjang",
+      "Bersantai di pantai lain di selatan Pattaya"
+    ],
+    "experience": [
+      "Berjalanlah di pasir Jomtien yang panjang sambil melihat laut, kemudian makan di restoran sekitar jalan tepi pantai. Jika mahu meluangkan sehari dengan santai bersama rakan atau keluarga, kurangkan perjalanan ke tempat lain dan nikmati waktu di sini.",
+      "Jomtien memanjang di selatan Pantai Pattaya. Terdapat restoran dan penginapan di sekitar jalan tepi laut untuk makan selepas berjalan. Suasana serta kemudahan berdekatan berbeza mengikut bahagian pantai. Di tempat yang menawarkan aktiviti air, berenanglah jauh daripada laluan bot dan peralatannya."
+    ],
+    "access": "Jomtien ialah pantai berasingan di selatan Pattaya dan boleh dicapai dengan kereta. Terminal bas Jomtien dan pantai bukan tempat yang sama.",
+    "swimming": "Elakkan kawasan yang digunakan peralatan sukan air dan gunakan hanya kawasan yang dibenarkan. Apabila tiba, lihat dahulu bendera dan arahan masuk ke air pada hari itu.",
+    "facilities": "Terdapat penginapan dan restoran sepanjang jalan tepi laut. Anda boleh berjalan di pasir berhampiran penginapan, kemudian keluar makan. Pantainya panjang, jadi restoran dan kemudahan terdekat bergantung pada bahagian tempat anda berada.",
+    "transport": "Cari “Jomtien Beach”. Pastikan destinasi pada peta berada di pesisir, bukan di terminal bas, kemudian berikan nama penginapan atau restoran tempat pertemuan kepada pemandu. Jika mahu melawat Beach Road Pattaya juga, sediakan masa untuk bergerak antara kedua-dua pantai.",
+    "faq": [
+      [
+        "Jomtien sesuai untuk siapa?",
+        "Ia sesuai jika mahu berehat di pesisir yang lain selepas melawat bandar Pattaya. Anda boleh berjalan di pasir yang panjang dan makan di sekitar jalan tepi laut. Jika menginap berdekatan, anda tidak perlu pergi jauh untuk menikmati berjalan dan makan. Suasana serta kemudahan berbeza mengikut bahagian pantai."
+      ],
+      [
+        "Adakah sampai di terminal bas Jomtien bermakna sudah sampai ke pantai?",
+        "Tidak. Terminal bas dan pantai ialah tempat berbeza. Cari Jomtien Beach dan berikan nama penginapan atau restoran tempat pertemuan. Selepas tiba di terminal, anda masih perlu meneruskan perjalanan ke pantai."
+      ]
+    ]
+  },
+  "chaweng": {
+    "name": "Pantai Chaweng",
+    "intro": "Jika mahu menikmati pasir putih dan pesisir melengkung yang panjang di Ko Samui, kunjungilah Chaweng di sebelah timur pulau. Dengan menginap berdekatan, anda boleh keluar berehat di tepi laut. Berjalanlah bersama pasangan atau keluarga, kemudian berhenti seketika untuk melihat laut. Pada hari tanpa perjalanan ke tempat lain, luangkan masa dengan santai di pantai.",
+    "experienceTitles": [
+      "Nikmati pasir putih dan pesisir melengkung",
+      "Tanya laluan ke pantai ketika menempah penginapan"
+    ],
+    "experience": [
+      "Berjalanlah di pasir putih Chaweng yang panjang sambil menikmati pesisir melengkung. Bersama pasangan atau keluarga, berhenti berehat apabila menemui pemandangan yang disukai. Anda boleh meluangkan suatu hari di hadapan penginapan, kemudian melihat bahagian pantai yang lain pada hari berbeza.",
+      "Chaweng panjang dan laluan ke pasir berbeza mengikut penginapan, jadi tanyakan cara ke pantai ketika membuat tempahan. Jika hotel berada di Chaweng Noi di selatan, anda menginap di pantai yang lain. Walaupun berenang dekat dengan hotel, elakkan kawasan yang digunakan peralatan sukan air."
+    ],
+    "access": "Selepas tiba di Ko Samui, gunakan jalan di pulau untuk ke Chaweng. Chaweng Noi di selatan ialah pantai berasingan.",
+    "swimming": "Gunakan kawasan yang dibenarkan dan elakkan laluan peralatan sukan air. Patuhi bendera pantai serta arahan penyelamat.",
+    "facilities": "Penginapan banyak terdapat sepanjang Pantai Chaweng. Tanya hotel yang ditempah tentang laluan ke pasir sebelum keluar berjalan atau berenang. Gunakan kemudahan penginapan mengikut syarat tempahan anda.",
+    "transport": "Semasa berada di pulau, cari “Chaweng Beach” dan berikan juga penginapan atau tempat pertemuan sebagai destinasi. Pantainya panjang, jadi nama tempat yang tepat memudahkan pertemuan. Jika hotel anda berada di Chaweng Noi di selatan, cari menggunakan nama hotel itu.",
+    "faq": [
+      [
+        "Adakah Chaweng dan Chaweng Noi pantai yang sama?",
+        "Tidak. Chaweng Noi ialah pantai berasingan di selatan Chaweng. Lihat nama dan alamat penginapan untuk tahu pantai tempat anda menginap. Berikan nama hotel kepada pemandu supaya tidak tersalah pantai."
+      ],
+      [
+        "Bagaimana hendak ke Chaweng?",
+        "Selepas tiba di Ko Samui, gunakan jalan di pulau untuk ke Chaweng. Selain Chaweng Beach, berikan nama penginapan atau tempat pertemuan sebagai destinasi. Pantainya panjang; nama tempat yang tepat memudahkan anda bertemu selepas tiba."
+      ]
+    ]
+  },
+  "lamai": {
+    "name": "Pantai Lamai",
+    "intro": "Untuk berehat sambil melihat pokok kelapa dan pasir melengkung di Ko Samui, pergilah ke Lamai. Pantai ini terletak di sebelah timur pulau, di selatan Chaweng, dengan penginapan dan restoran di sekitarnya. Ia sesuai untuk berjalan dan makan bersama pasangan atau keluarga tanpa tergesa-gesa. Walaupun tidak berenang, anda masih boleh menikmati waktu santai di pesisir berpokok kelapa.",
+    "experienceTitles": [
+      "Berjalan di pesisir berpokok kelapa",
+      "Nikmati pantai dengan berjalan, bukan semestinya berenang"
+    ],
+    "experience": [
+      "Di Lamai, nikmati pesisir berpasir melengkung yang dihiasi pokok kelapa. Berjalanlah bersama pasangan atau keluarga, kemudian makan di restoran berdekatan. Jika mahu melawat Chaweng dan Lamai, anda boleh mencari laluan jalan antara kedua-dua pantai ketika menempah penginapan.",
+      "Sesetengah bahagian Lamai dalam dan ombaknya boleh menjadi kuat. Jika membawa anak, luangkan lebih masa untuk berjalan di pasir dan makan berdekatan. Jika berenang, gunakan kawasan yang dibenarkan di situ dan pastikan anak tidak bergerak terlalu jauh ke laut."
+    ],
+    "access": "Lamai terletak di timur Ko Samui, di selatan Chaweng. Anda boleh sampai melalui jalan di pulau.",
+    "swimming": "Sesetengah bahagian dalam dan ombak boleh menjadi kuat. Jika membawa anak, jangan biarkan mereka bergerak jauh walaupun air kelihatan cetek. Ikut arahan di pantai tentang kawasan yang boleh dimasuki.",
+    "facilities": "Terdapat restoran dan penginapan di sekitar pantai. Anda boleh bersiar-siar, keluar makan dan meluangkan hari dengan santai.",
+    "transport": "Cari “Lamai Beach” dan beritahu pemandu nama penginapan atau restoran tempat pertemuan. Jika mahu ke Chaweng juga, gunakan jalan di pulau. Kedua-duanya bukan satu hamparan pasir yang bersambung, jadi sediakan masa perjalanan berasingan.",
+    "faq": [
+      [
+        "Adakah Lamai sesuai untuk anak bermain air?",
+        "Berhati-hati kerana sesetengah bahagian dalam dan ombaknya boleh menjadi kuat. Walaupun air kelihatan cetek, pastikan anak tidak pergi terlalu jauh. Gunakan hanya kawasan yang dibenarkan pada hari itu, dan nikmati juga berjalan di pasir atau makan bersama keluarga."
+      ],
+      [
+        "Adakah pasir Chaweng bersambung hingga ke Lamai?",
+        "Tidak. Lamai ialah pantai berasingan di selatan Chaweng. Gunakan jalan di pulau jika mahu melawat kedua-duanya. Anda tidak boleh terus berjalan di satu hamparan pasir yang sama dari Chaweng ke Lamai."
+      ]
+    ]
+  },
+  "maya-bay": {
+    "name": "Teluk Maya",
+    "intro": "Untuk melihat pasir putih yang dikelilingi tebing batu kapur tinggi, lawatilah Teluk Maya di Phi Phi Leh. Berjalanlah bersama rakan atau pasangan sambil menikmati teluk, tebing dan laut dalam satu pemandangan. Rancang lawatan bot ke pesisir taman negara ini untuk menikmati pemandangan tanpa berenang, bukannya percutian pantai untuk masuk ke air.",
+    "experienceTitles": [
+      "Teluk dan pasir putih di antara tebing",
+      "Lawatan pantai taman negara tanpa berenang"
+    ],
+    "experience": [
+      "Di Teluk Maya, tebing batu kapur menjulang di kedua-dua sisi teluk, dengan pasir putih di antaranya. Berjalanlah bersama rakan atau pasangan sambil melihat laut yang dilingkungi tebing. Asingkan hari berehat di Phi Phi Don, tempat anda menginap, daripada hari menaiki bot ke Phi Phi Leh untuk menikmati pemandangan ini.",
+      "Teluk Maya ialah pantai taman negara yang ditutup mengikut musim dan dikawal kemasukannya bagi pemulihan alam. Ia dibuka semula pada 1 Oktober 2026, tetapi berenang masih dilarang di kawasan yang ditetapkan dalam taman. Selepas turun dari bot, berjalan hanya dalam kawasan yang dibenarkan oleh kakitangan taman sambil menikmati teluk dan tebing. Luangkan masa berjalan perlahan di pasir bersama rakan atau pasangan."
+    ],
+    "access": "Teluk Maya berada di Phi Phi Leh dan perlu dikunjungi dengan bot. Penutupan bermusim serta kawalan masuk dilaksanakan untuk pemulihan alam; ia dibuka semula pada 1 Oktober 2026. Semasa menempah bot, tanyakan sama ada anda boleh mendarat di Teluk Maya pada tarikh lawatan.",
+    "swimming": "Rancang lawatan untuk menikmati pemandangan pantai tanpa berenang. Berenang dilarang di kawasan yang ditetapkan dalam taman negara. Di pantai pun, berjalan hanya dalam kawasan yang dibenarkan oleh kakitangan taman.",
+    "facilities": "Kemasukan ke pantai dikawal oleh taman negara. Semasa menempah bot, tanyakan sama ada boleh turun untuk berjalan dan sama ada kemasukan taman termasuk dalam tempahan. Perjalanan yang hanya melihat pemandangan dari luar teluk mempunyai kandungan lawatan yang berbeza.",
+    "transport": "Semasa menempah bot, tanya “Bolehkah saya turun di Maya Bay dan berjalan di pantai?” Sesetengah perjalanan hanya melihat pemandangan dari luar teluk. Sebelum menempah, tanyakan apa yang termasuk dalam kemasukan taman dan tambang bot, serta syarat jika perjalanan dibatalkan kerana cuaca buruk.",
+    "faq": [
+      [
+        "Bolehkah saya berenang di Teluk Maya?",
+        "Datanglah untuk bersiar-siar tanpa berenang. Berenang dilarang di kawasan yang ditetapkan dalam taman negara. Walaupun sudah dibuka semula, berjalanlah di pasir dan nikmati teluk hanya dalam kawasan yang dibenarkan oleh kakitangan taman."
+      ],
+      [
+        "Bolehkah saya berjalan kaki dari Phi Phi Don?",
+        "Tidak. Teluk Maya terletak di Phi Phi Leh, jadi anda perlu menaiki bot dari Phi Phi Don. Ia tidak seperti Loh Dalum yang boleh dikunjungi dengan bergerak dalam pulau Phi Phi Don. Semasa menempah bot, tanyakan sama ada anda boleh turun dan berjalan di Teluk Maya."
+      ]
+    ]
+  },
+  "loh-dalum": {
+    "name": "Pantai Loh Dalum",
+    "intro": "Jika menginap di Phi Phi Don dan mahu keluar dari penginapan untuk berehat di laut, lihatlah Pantai Loh Dalum. Teluk ini menghadap laut di sebelah utara, di sisi yang berbeza daripada Ton Sai. Ia sesuai untuk berjalan bersama rakan atau pasangan ketika menginap beberapa hari di pulau. Pada hari tanpa bot ke pulau lain, nikmati pemandangan teluk dengan santai.",
+    "experienceTitles": [
+      "Waktu pantai ketika menginap di Phi Phi Don",
+      "Dari Ton Sai ke penginapan"
+    ],
+    "experience": [
+      "Loh Dalum sesuai untuk hari berehat di Phi Phi Don apabila anda mahu keluar dari penginapan ke tepi laut. Duduk melihat teluk yang menghadap utara atau berjalan di pasir. Sehari selepas lawatan ke Teluk Maya di Phi Phi Leh, anda boleh bersantai di Loh Dalum tanpa bergegas menaiki bot lain.",
+      "Phi Phi Don mempunyai dua teluk, Ton Sai dan Loh Dalum. Jika turun di jeti Ton Sai, anda masih perlu bergerak ke penginapan atau pantai di sebelah Loh Dalum. Apabila membawa bagasi, sediakan nama dan alamat penginapan serta cari laluan dari jeti terlebih dahulu."
+    ],
+    "access": "Naiki bot ke Phi Phi Don, kemudian teruskan perjalanan dalam pulau ke Loh Dalum. Jeti Ton Sai dan Loh Dalum terletak di teluk yang berbeza.",
+    "swimming": "Sebelum bermain air, perhatikan bendera dan arahan di pantai. Lihat kedalaman air, jangan bergerak terlalu jauh ke laut, dan elakkan kawasan laluan bot.",
+    "facilities": "Terdapat penginapan di Phi Phi Don. Jika mahu meluangkan masa di Loh Dalum, cari laluan dari jeti ketibaan ke penginapan dan dari penginapan ke pantai.",
+    "transport": "Tempah bot ke Phi Phi Don, kemudian bergerak dari jeti ketibaan ke penginapan atau Pantai Loh Dalum. Jika turun di Ton Sai, anda berada di teluk yang lain. Apabila membawa bagasi, sediakan nama dan alamat penginapan dan cari laluan dari jeti ke sana terlebih dahulu.",
+    "faq": [
+      [
+        "Adakah Loh Dalum dan Teluk Maya di pulau yang sama?",
+        "Tidak. Loh Dalum berada di Phi Phi Don, manakala Teluk Maya di Phi Phi Leh. Jika menginap di Phi Phi Don, anda boleh bergerak dalam pulau untuk ke Loh Dalum. Peruntukkan hari berasingan untuk menaiki bot ke Teluk Maya."
+      ],
+      [
+        "Adakah jeti Ton Sai itu Pantai Loh Dalum?",
+        "Tidak. Ton Sai dan Loh Dalum ialah dua teluk berbeza di Phi Phi Don. Selepas turun di Ton Sai, anda masih perlu bergerak ke penginapan atau pantai Loh Dalum. Jika membawa bagasi, tandakan penginapan pada peta dan cari jalan dari jeti terlebih dahulu."
+      ]
+    ]
+  },
+  "ao-nang": {
+    "name": "Pantai Ao Nang",
+    "intro": "Jika mahu menggabungkan pemandangan laut, makanan, penginapan dan perjalanan bot di Krabi, pergilah ke Ao Nang. Tebing batu kapur kelihatan dari pantai, dengan restoran, hotel dan kedai di sekitarnya. Anda boleh berjalan di pesisir bersama rakan atau keluarga pada suatu hari, kemudian ke Railay atau pulau berdekatan pada hari lain. Sebelum atau selepas perjalanan bot, luangkan masa menikmati pesisir Krabi dari pasir pantai.",
+    "experienceTitles": [
+      "Berjalan dan makan dengan pemandangan batu kapur",
+      "Berangkat ke Railay dan pulau sekitar"
+    ],
+    "experience": [
+      "Berjalanlah di pasir Ao Nang sambil melihat tebing batu kapur di tepi laut. Selepas berjalan bersama rakan atau keluarga, makanlah di restoran sekitar dan lihat kedai. Selepas pulang daripada perjalanan bot pun, anda boleh berhenti sebentar di pantai untuk menikmati laut Krabi.",
+      "Anda boleh menaiki bot ekor panjang dari Ao Nang ke Railay. Tanyakan pantai tempat turun dan tempat menaiki bot pulang. Aktiviti snorkel di pulau sekitar berbeza lokasinya daripada bermain air di Pantai Ao Nang. Di pantai, elakkan laluan bot dan gunakan hanya kawasan yang dibenarkan."
+    ],
+    "access": "Ao Nang terletak di tanah besar Krabi dan boleh dicapai dengan kereta. Dari pantai, anda boleh menaiki bot ke Railay dan pulau sekitar. Syarat masuk setiap destinasi berbeza dan perlu dilihat secara berasingan.",
+    "swimming": "Jangan berenang di kawasan keluar masuk bot. Snorkel di pulau yang dikunjungi dengan bot dari Ao Nang berbeza lokasinya daripada berenang di pantai ini. Gunakan kawasan yang dibenarkan di situ jika mahu bermain air.",
+    "facilities": "Restoran, hotel dan kedai berkumpul di sekitar pantai. Anda boleh makan atau mendapatkan barang yang diperlukan sebelum menaiki bot.",
+    "transport": "Gunakan jalan raya untuk ke Pantai Ao Nang. Jika mahu ke Railay, naiki bot ekor panjang selepas tiba di Ao Nang. Tentukan tempat menaiki bot dan cara pulang sebelum bertolak. Ombak dan cuaca boleh menyebabkan kelewatan atau pembatalan bot, jadi sediakan masa tambahan untuk pulang.",
+    "faq": [
+      [
+        "Bolehkah saya ke Railay dari Ao Nang?",
+        "Ya. Terdapat bot ekor panjang dari Ao Nang ke Railay. Tanyakan pantai di Railay tempat anda akan turun. Sebelum bertolak, aturkan juga syarat perjalanan pulang dan tempat pertemuan."
+      ],
+      [
+        "Bolehkah terus bersnorkel di Pantai Ao Nang?",
+        "Snorkel di pulau sekitar yang dikunjungi dengan bot dari Ao Nang bukan di lokasi yang sama dengan bermain air di pantai ini. Bot keluar masuk Pantai Ao Nang, jadi jangan berenang di laluan bot. Gunakan hanya kawasan yang dibenarkan pada hari tersebut."
+      ]
+    ]
+  },
+  "railay-west": {
+    "name": "Pantai Railay West",
+    "intro": "Jika mahu berehat di pasir di antara tebing batu kapur, pergilah ke Railay West. Pasir putih terbentang di barat semenanjung Railay, dengan pemandangan laut dan tebing bersama-sama. Ia sesuai untuk datang dengan bot bersama pasangan atau rakan dan meluangkan hari tanpa tergesa-gesa. Jika sudah mengatur bot pulang, nikmati juga pemandangan senja di laut sebelah barat.",
+    "experienceTitles": [
+      "Pasir putih dan tebing batu kapur",
+      "Aturkan bot pulang sebelum menunggu senja"
+    ],
+    "experience": [
+      "Di Railay West, anda boleh melihat pasir putih dengan tebing batu kapur menjulang di sisi laut. Berjalanlah menikmati pemandangan, kemudian berehat sambil melihat laut bersama teman. Pantai menghadap barat, sesuai juga untuk melihat pemandangan laut ketika matahari terbenam.",
+      "Jika mahu berehat di pasir putih, tanyakan sama ada bot berhenti di Railay West. Railay East di sebelah timur mempunyai pesisir berlumpur dan aktiviti panjat tebing, jadi pemandangannya berbeza. Jika mahu pulang selepas melihat matahari terbenam, tentukan syarat bot pulang dan tempat pertemuan sebelum berangkat dari Ao Nang. Jika menginap, tanyakan juga laluan dari tempat turun bot ke penginapan."
+    ],
+    "access": "Naiki bot dari Ao Nang ke Railay. Walaupun pantai ini berada di semenanjung, anda tidak boleh terus memandu dari Ao Nang ke pantai.",
+    "swimming": "Sebelah barat mempunyai pasir, manakala sebelah timur mempunyai pesisir berlumpur. Apabila berenang di barat, elakkan laluan bot dan patuhi bendera serta arahan pada hari itu.",
+    "facilities": "Terdapat penginapan di Railay. Laluan selepas turun dari bot berbeza mengikut sama ada penginapan berada di sebelah timur atau barat.",
+    "transport": "Ketika menaiki bot dari Ao Nang, tanya “Adakah bot ini berhenti di Railay West?” Jika ada penginapan, berikan namanya juga. Jika mahu pulang selepas matahari terbenam, tentukan syarat bot pulang dan tempat pertemuan sebelum bertolak.",
+    "faq": [
+      [
+        "Apakah beza Railay East dengan Railay West?",
+        "West mempunyai pasir putih dan pemandangan laut ke barat, manakala East mempunyai pesisir berlumpur dan aktiviti panjat tebing. Pilih West jika mahu berehat di pasir atau melihat matahari terbenam. Jika menginap di East, cari juga laluan dari tempat turun bot ke penginapan."
+      ],
+      [
+        "Bolehkah memandu terus dari Ao Nang?",
+        "Tidak. Dari Ao Nang, anda perlu menaiki bot. Walaupun Railay sebuah semenanjung, tiada perjalanan kereta terus dari Ao Nang ke pantai ini. Tanyakan sama ada bot berhenti di Railay West, dan aturkan syarat serta tempat pertemuan untuk pulang."
+      ]
+    ]
+  },
+  "nang-thong": {
+    "name": "Pantai Nang Thong",
+    "intro": "Jika mahu melihat pesisir yang bercampur pasir hitam di Khao Lak, kunjungilah Nang Thong. Pantai di kampung Ban Bang La On, Khuk Khak, Phang Nga ini mempunyai pasir hitam halus dan batu Nang Thong yang besar menjulang di laut. Berjalanlah bersama rakan atau keluarga untuk melihat pemandangan yang berbeza daripada pantai pasir putih. Luangkan masa melihat pasir, batu dan laut dengan perlahan.",
+    "experienceTitles": [
+      "Cari pasir hitam dan batu Nang Thong",
+      "Kawasan batu yang terdedah ketika air surut"
+    ],
+    "experience": [
+      "Di Nang Thong, pasir hitam halus bercampur di pantai dan batu Nang Thong yang besar kelihatan di tengah laut. Berjalanlah bersama rakan atau keluarga sambil melihat pasir, batu dan laut dalam satu pemandangan. Singgahlah jika mahu melihat pesisir yang berbeza daripada pasir putih ketika di Khao Lak.",
+      "Apabila air surut, tanah ke arah batu kadangkala terdedah. Namun, sejauh mana anda boleh mendekati batu bergantung pada pasang surut, ombak dan kawalan di situ. Dengarkan arahan pada hari tersebut dan bergerak hanya dalam kawasan yang dibenarkan. Laluan ini bukan sentiasa boleh dilalui; jika tidak boleh mendekat, nikmati pasir hitam dan batu dari pantai."
+    ],
+    "access": "Nang Thong terletak di pesisir kampung Ban Bang La On, Khuk Khak, Phang Nga, dan boleh dicapai dengan kereta. Kawasannya berbeza daripada pantai di Phuket.",
+    "swimming": "Ombak dan arus karau boleh menyebabkan berenang dilarang pada hari tertentu. Dibenarkan berjalan di pantai tidak semestinya bermakna boleh masuk ke laut. Ikut bendera dan kawalan masuk ke air pada hari itu.",
+    "facilities": "Terdapat jalan dari Phetkasem Road ke pesisir. Jika menginap berdekatan, tanyakan laluan keluar ke pasir supaya mudah untuk berjalan di pantai.",
+    "transport": "Di Khao Lak, cari “Nang Thong Beach” dan ikut jalan dari Phetkasem Road ke arah laut. Jika bertolak dari penginapan, tanyakan laluan ke pasir kepada kakitangan. Jika perlu melalui resort lain, patuhi syarat masuk resort itu.",
+    "faq": [
+      [
+        "Apa yang menarik untuk dilihat di Nang Thong?",
+        "Lihat pasir hitam halus dan batu Nang Thong yang besar di laut. Ketika surut, tanah berhampiran batu kadangkala terdedah. Namun, laluan itu bukan sentiasa boleh dilalui. Sebelum mendekat, ikut keadaan pasang surut, ombak dan arahan pada hari tersebut."
+      ],
+      [
+        "Adakah Nang Thong di Phuket?",
+        "Tidak. Ia terletak di pesisir Phang Nga, kawasan Khao Lak, berhampiran kampung Ban Bang La On di Khuk Khak. Cari Nang Thong Beach dan lihat kedudukannya bersama penginapan yang ditempah."
+      ],
+      [
+        "Adakah pin peta itu pintu masuk pantai?",
+        "Tidak. Pin menunjukkan lokasi rujukan kawasan Nang Thong, bukan tempat letak kereta atau pintu masuk hotel. Tentukan destinasi hingga ke penginapan atau jalan masuk pesisir. Jika laluan melalui resort, patuhi syarat masuknya."
+      ]
+    ]
+  },
+  "bang-niang": {
+    "name": "Pantai Bang Niang",
+    "intro": "Untuk berehat sambil melihat pasir yang panjang dan Laut Andaman di Khao Lak, kunjungilah Bang Niang. Pantai ini berada di kampung Ban Bang Niang, Khuk Khak, Phang Nga, dan boleh didatangi melalui jalan dari jalan utama ke pesisir. Ia sesuai untuk pasangan atau keluarga yang menginap berdekatan dan mahu berjalan di pantai. Pada hari tanpa perlu bergegas ke tempat lain, lihatlah laut yang terbentang sambil bersantai.",
+    "experienceTitles": [
+      "Bersantai di pesisir Andaman yang panjang",
+      "Laluan dari jalan utama ke pasir"
+    ],
+    "experience": [
+      "Berjalanlah perlahan di pasir Bang Niang yang panjang sambil melihat Laut Andaman. Ia sesuai untuk berehat bersama pasangan atau keluarga. Jika menginap berdekatan, anda boleh keluar berjalan santai walaupun pada hari tanpa rancangan pergi jauh.",
+      "Dari Phetkasem Road, masuklah ke arah laut untuk ke Bang Niang. Jika sudah menempah penginapan, minta kakitangan menerangkan laluan ke pasir dan jalan pulang. Jika melalui kawasan resort, patuhi syarat masuknya. Beritahu pemandu nama penginapan untuk menentukan tempat turun sebelum mula berjalan."
+    ],
+    "access": "Bang Niang berada di pesisir kampung Ban Bang Niang, Khuk Khak, Phang Nga. Dari Phetkasem Road, ikut jalan masuk ke arah laut.",
+    "swimming": "Berhati-hati dengan ombak tinggi dan arus karau di pesisir Andaman. Jangan berenang apabila bendera merah dinaikkan atau pihak di pantai melarang masuk ke air.",
+    "facilities": "Terdapat penginapan di sekitar pesisir. Ketika menempah, tanyakan laluan ke pantai dan kemudahan yang boleh digunakan. Minta juga penerangan tentang jalan pulang ke penginapan selepas berehat di pantai.",
+    "transport": "Cari “Bang Niang Beach”, kemudian ikut jalan dari Phetkasem Road ke pesisir. Jika menginap, gunakan nama penginapan sebagai tempat ketibaan dan tanyakan laluan ke pantai. Patuhi syarat masuk jika perlu melalui resort lain.",
+    "faq": [
+      [
+        "Di manakah Pantai Bang Niang?",
+        "Ia berada di kampung Ban Bang Niang, Khuk Khak, Phang Nga, dalam kawasan pelancongan Khao Lak. Dari Phetkasem Road, masuklah ke arah laut. Kawasannya berbeza daripada Phuket, jadi cari Bang Niang Beach bersama nama penginapan."
+      ],
+      [
+        "Bolehkah saya melalui resort di hadapan pantai?",
+        "Syarat masuk berbeza mengikut resort. Jika menginap di situ, tanyakan laluan ke pantai kepada kakitangan. Jika datang dari tempat lain, cari laluan pesisir yang boleh digunakan. Sesebuah resort bukan satu-satunya pintu masuk ke pantai."
+      ]
+    ]
+  },
+  "hua-hin": {
+    "name": "Pantai Hua Hin",
+    "intro": "Jika mahu berjalan di tepi laut ketika melawat bandar, singgahlah di Pantai Hua Hin. Pasirnya memanjang di sisi bandar yang dikenali sebagai tempat percutian diraja. Ia sesuai untuk berjalan bersama ibu bapa atau anak selepas keluar makan. Jika menginap berhampiran laut, anda boleh keluar berehat di pasir pada hari tanpa perjalanan jauh.",
+    "experienceTitles": [
+      "Berjalan di tepi laut antara lawatan bandar",
+      "Menunggang kuda atau melawat pesisir selatan"
+    ],
+    "experience": [
+      "Di Hua Hin, anda boleh melawat bandar dan berjalan di pasir pada hari yang sama. Selepas makan bersama ibu bapa atau anak, keluarlah melihat laut dan berehat sebentar. Jika menginap berdekatan, mudah untuk berjalan santai walaupun tiada rancangan keluar jauh.",
+      "Anda juga boleh mencuba aktiviti menunggang kuda di pantai. Sebelum menggunakannya, tanyakan sama ada beroperasi pada hari itu, kos dan caranya. Ketika berjalan pun, perhatikan kawasan yang dilalui kuda. Jika mahu ke Khao Takiab di selatan untuk melihat pesisir berbukit, sediakan masa bergerak antara kedua-dua tempat."
+    ],
+    "access": "Pantai ini terletak di sisi bandar Hua Hin, Prachuap Khiri Khan, dan boleh dicapai dengan kereta.",
+    "swimming": "Ikut bendera dan arahan masuk ke air pada hari itu. Semasa berjalan di pasir, perhatikan juga kawasan yang dilalui kuda tunggangan.",
+    "facilities": "Jika mahu menunggang kuda di pantai, tanyakan dahulu sama ada aktiviti beroperasi pada hari tersebut. Dapatkan penerangan tentang kos dan cara aktiviti dijalankan sebelum menggunakannya.",
+    "transport": "Cari “Hua Hin Beach” dan tetapkan penginapan atau bangunan tempat pertemuan sebagai destinasi yang lebih tepat. Jika mahu ke Khao Takiab di selatan juga, cari destinasi itu secara berasingan sebelum ke sana.",
+    "faq": [
+      [
+        "Bolehkah menunggang kuda di Pantai Hua Hin?",
+        "Ya, terdapat aktiviti menunggang kuda di pantai. Namun, tanyakan operasi pada hari lawatan, kos dan caranya sebelum menggunakan perkhidmatan. Jika hanya berjalan pun, perhatikan laluan kuda."
+      ],
+      [
+        "Bolehkah saya melawat Khao Takiab juga?",
+        "Ya. Anda boleh melawat pantai dan bukit Khao Takiab di selatan Hua Hin. Cari laluan dari penginapan atau tempat anda berada di Pantai Hua Hin ke Khao Takiab Beach. Jika mahu ke kuil di atas bukit juga, asingkan masa berehat di pantai daripada masa perjalanan ke kuil."
+      ]
+    ]
+  },
+  "khao-takiab": {
+    "name": "Pantai Khao Takiab",
+    "intro": "Untuk berehat sambil melihat bukit yang menjulang di sisi laut di Hua Hin, pergilah ke Khao Takiab. Pantai di selatan Hua Hin ini mengelilingi bukit Khao Takiab yang mempunyai kuil. Berjalanlah bersama keluarga atau pasangan di pasir sambil melihat bukit dan laut. Luangkan masa berehat di pantai, kemudian lawati juga kuil di atas bukit.",
+    "experienceTitles": [
+      "Lihat bukit dan laut dari pantai",
+      "Sediakan masa untuk kuil di atas bukit"
+    ],
+    "experience": [
+      "Di Khao Takiab, bukit menjulang di sisi pasir dan laut. Berjalanlah bersama keluarga atau pasangan untuk menikmati pesisir yang berbeza daripada bandar Hua Hin. Pasir yang ditandakan pada peta berada di utara bukit; jalannya berbeza daripada pesisir selatan. Beritahu pemandu bahagian yang hendak dituju.",
+      "Terdapat kuil di atas bukit Khao Takiab. Jika mahu melawat selepas berehat di pantai, cari laluan menggunakan nama kuil. Selepas sampai di pasir pun, anda masih perlu bergerak ke atas bukit. Sediakan masa yang cukup untuk pantai dan lawatan kuil secara berasingan."
+    ],
+    "access": "Pantai ini berada di sekitar bukit Khao Takiab di selatan Hua Hin. Pasir di sebelah utara dan kuil di atas bukit ialah destinasi yang berbeza.",
+    "swimming": "Terdapat kawasan berbatu di sekitar bukit. Perhatikan tempat berpijak dan ombak berhampiran batu. Jika bermain air, ikut bendera serta arahan masuk ke air pada hari itu.",
+    "facilities": "Terdapat kuil di bukit Khao Takiab bersebelahan pantai. Jika mahu ke sana selepas berehat di pasir, sediakan masa tambahan untuk perjalanan ke kuil.",
+    "transport": "Cari “Khao Takiab Beach” dan pilih jalan ke pasir di sebelah utara bukit. Jalan itu berbeza daripada laluan ke pesisir selatan. Jika mahu ke kuil, tukar destinasi kepada nama kuil, bukannya pantai.",
+    "faq": [
+      [
+        "Adakah pin Pantai Khao Takiab itu pintu masuk kuil?",
+        "Tidak. Pin merujuk kawasan pasir di utara bukit Khao Takiab. Kuil berada di atas bukit, jadi cari destinasi menggunakan nama kuil secara berasingan. Laluan ke pesisir selatan juga berbeza."
+      ],
+      [
+        "Apakah bezanya dengan Pantai Hua Hin?",
+        "Di sebelah selatan bandar Hua Hin ini, anda boleh melihat pesisir dengan bukit dan kuil. Berjalanlah di pasir sambil menikmati bukit serta laut. Jika mahu melawat kuil, sediakan masa untuk bergerak dari pantai ke atas bukit."
+      ]
+    ]
+  },
+  "white-sand": {
+    "name": "Pantai White Sand",
+    "intro": "Jika mahu menikmati laut di Ko Chang dengan restoran dan kedai berdekatan, pergilah ke White Sand. Namanya dalam bahasa Thai ialah Hat Sai Khao, dengan pasir putih di barat laut pulau dan penginapan serta kedai di sekitarnya. Ia sesuai untuk rakan atau keluarga yang mahu berehat di pantai sebelum keluar makan. Luangkan hari dengan santai antara pasir dan kampung di sekeliling.",
+    "experienceTitles": [
+      "Berehat di pantai sebelum keluar makan",
+      "Perhatikan kedalaman air jika membawa anak"
+    ],
+    "experience": [
+      "White Sand sesuai jika mencari penginapan berhampiran laut bersama kemudahan sekitar. Berjalanlah di pasir, makan di restoran, kemudian kembali melihat laut. Terdapat penginapan, restoran, kedai dan kedai serbaneka, jadi anda boleh meluangkan masa di pantai dan kampung bersama-sama.",
+      "Kedalaman air di pesisir White Sand tidak sekata. Jika membawa anak bermain air, jangan biarkan mereka bergerak jauh walaupun air kelihatan cetek. Berenang hanya di kawasan yang dibenarkan pada hari tersebut. Jika tidak berenang, nikmati berjalan di pasir dan makan di restoran sekitar."
+    ],
+    "access": "Selepas tiba di Ko Chang, gunakan jalan ke barat laut pulau. Nama Thai pantai ini ialah Hat Sai Khao.",
+    "swimming": "Kedalaman air di pesisir tidak sekata. Jangan pergi terlalu jauh walaupun air kelihatan cetek. Berhati-hati terutama bersama anak, dan gunakan kawasan yang dibenarkan di situ.",
+    "facilities": "Terdapat penginapan, restoran, kedai dan kedai serbaneka di sekitar pantai. Selepas berehat di pasir, anda boleh makan atau membeli barang yang diperlukan berdekatan.",
+    "transport": "Selepas tiba di Ko Chang, cari “White Sand Beach” atau “Hat Sai Khao, Ko Chang”. Pantai terletak di pesisir barat laut yang bersambung dari Klong Son. Pin merujuk kampung Hat Sai Khao, jadi beritahu pemandu nama penginapan atau restoran tempat pertemuan. Cari pintu masuk pantai atau tempat letak kereta secara berasingan.",
+    "faq": [
+      [
+        "Adakah White Sand dan Hat Sai Khao tempat yang sama?",
+        "Ya. White Sand Beach di Ko Chang dipanggil Hat Sai Khao dalam bahasa Thai. Pantai ini terletak di pesisir barat laut yang bersambung dari Klong Son. Masukkan Ko Chang juga semasa mencari penginapan atau laluan."
+      ],
+      [
+        "Adakah air cetek sesuai untuk anak bermain?",
+        "Kedalaman pesisir tidak sekata, jadi tetap berhati-hati walaupun air kelihatan cetek. Pastikan anak tidak bergerak jauh dan gunakan kawasan yang dibenarkan pada hari itu. Pada hari tanpa berenang, anda boleh berjalan di pasir dan makan berdekatan."
+      ]
+    ]
+  },
+  "klong-prao": {
+    "name": "Pantai Klong Prao",
+    "intro": "Untuk berjalan di pantai luas dengan deretan pokok kelapa di Ko Chang, kunjungilah Klong Prao. Pantai ini memanjang di pesisir barat, di selatan White Sand. Ia sesuai untuk pasangan atau keluarga yang menginap berdekatan dan mahu menikmati laut. Rancang hari dengan lebih masa untuk berjalan di pesisir dan berehat bersama teman.",
+    "experienceTitles": [
+      "Berjalan di pesisir luas dengan pokok kelapa",
+      "Jangan berenang di tanjung berbatu Laem Chai Chet"
+    ],
+    "experience": [
+      "Berjalanlah di pasir Klong Prao yang luas dengan deretan pokok kelapa. Nikmati laut bersama pasangan atau keluarga, kemudian makan di restoran sekitar. Sesetengah penginapan terletak lebih jauh dari jalan utama, jadi perjalanan masih berbaki selepas turun kereta. Jika membawa bagasi, tanyakan sejauh mana kereta boleh masuk dan laluan selepas itu.",
+      "Laem Chai Chet di sebelah utara ialah tanjung berbatu yang tidak sesuai untuk bermain air. Jangan berenang di situ. Jika bermain air di pasir Klong Prao pun, perhatikan kedalaman dan patuhi bendera serta arahan di pantai pada hari tersebut."
+    ],
+    "access": "Klong Prao terletak di barat Ko Chang, di selatan White Sand. Dari jalan di pulau, teruskan melalui laluan ke penginapan atau pesisir.",
+    "swimming": "Jangan bermain air di tanjung berbatu Laem Chai Chet di sebelah utara. Di kawasan pasir pun, perhatikan kedalaman dan patuhi bendera serta arahan masuk ke air pada hari itu.",
+    "facilities": "Terdapat penginapan, restoran dan bar berdekatan. Sesetengah penginapan berada lebih jauh dari jalan utama, jadi selepas turun kereta, anda mungkin perlu bergerak lagi ke penginapan atau pasir.",
+    "transport": "Cari “Klong Prao Beach, Ko Chang” dan tentukan tempat ketibaan hingga ke penginapan. Jika turun di jalan utama, anda mungkin masih perlu bergerak ke penginapan atau pasir. Jika membawa bagasi, tanyakan penginapan tempat yang sesuai untuk turun.",
+    "faq": [
+      [
+        "Bolehkah bermain air di Laem Chai Chet?",
+        "Tanjung berbatu Laem Chai Chet di utara tidak sesuai untuk bermain air. Jangan berenang di situ. Walaupun pergi ke pasir Klong Prao, patuhi bendera dan arahan masuk ke air pada hari tersebut."
+      ],
+      [
+        "Adakah turun di jalan utama terus sampai ke pantai?",
+        "Anda mungkin perlu bergerak lagi, bergantung pada penginapan dan laluan pesisir. Sesetengah penginapan berada di bahagian dalam dari jalan utama. Jika membawa bagasi, tanya ketika menempah kenderaan sama ada boleh sampai ke penginapan. Jika perlu turun di jalan utama, minta penginapan menerangkan baki laluan."
+      ]
+    ]
+  },
+  "sai-kaew": {
+    "name": "Pantai Sai Kaew",
+    "intro": "Jika mahu berjalan di pasir putih dan menikmati makanan di tepi laut di Ko Samet, pergilah ke Sai Kaew. Pulau ini berada di luar pesisir Rayong, jadi anda perlu menaiki bot dari Ban Phe di tanah besar. Ia sesuai untuk berehat bersama rakan atau pasangan di penginapan berhampiran laut. Luangkan hari dengan melihat laut, keluar makan dan menikmati suasana pulau tanpa tergesa-gesa.",
+    "experienceTitles": [
+      "Pasir putih dan waktu santai di laut",
+      "Tempat turun bot dan perjalanan ke pantai"
+    ],
+    "experience": [
+      "Berjalanlah di pasir putih Sai Kaew dan berehat sambil melihat laut. Di pulau terdapat penginapan, restoran, bar dan kedai serbaneka, jadi mudah untuk menggabungkan makan dengan berehat berhampiran pantai. Ia sesuai untuk menginap beberapa hari bersama rakan atau pasangan dengan rancangan yang santai.",
+      "Semasa menempah bot dari Ban Phe ke Ko Samet, tanyakan jeti ketibaan. Jika tiba di Na Dan, anda masih perlu bergerak dalam pulau ke penginapan dan Pantai Sai Kaew. Tanyakan juga perjalanan sambungan yang termasuk dalam tambang. Syarat masuk taman negara perlu dilihat berasingan daripada tambang bot: tanya sama ada kemasukan taman termasuk serta syarat tambahan yang perlu dipatuhi."
+    ],
+    "access": "Naiki bot dari Ban Phe di tanah besar ke Ko Samet. Dari jeti ketibaan seperti Na Dan, perjalanan dalam pulau ke pantai masih berbaki. Lihat syarat masuk taman negara dan tambang bot secara berasingan.",
+    "swimming": "Sebelum masuk ke laut, lihat bendera, kawasan yang dibenarkan dan keadaan ombak pada hari itu. Berenang mengikut arahan di pantai. Walaupun laut kelihatan tenang, jangan masuk jika bendera atau arahan melarangnya.",
+    "facilities": "Ko Samet mempunyai penginapan, restoran, bar dan kedai serbaneka. Jika menginap berdekatan pantai, anda boleh menikmati makan dan berehat di kawasan yang sama.",
+    "transport": "Naiki bot dari Ban Phe ke Ko Samet, kemudian teruskan dari jeti ketibaan ke Sai Kaew. Semasa menempah, tanya sama ada turun di Na Dan atau jeti lain. Berikan lokasi penginapan juga dan tanyakan laluan selepas tiba. Jadual dan harga bot boleh berubah mengikut cuaca serta keadaan operasi.",
+    "faq": [
+      [
+        "Adakah ini Pantai Sai Kaew di Sattahip?",
+        "Tidak. Pantai ini berada di Ko Samet, di luar pesisir Rayong. Sattahip mempunyai pantai lain dengan nama yang sama. Masukkan Ko Samet bersama Sai Kaew Beach semasa mencari laluan atau penginapan."
+      ],
+      [
+        "Adakah bot dari Ban Phe terus menurunkan saya di pantai?",
+        "Bergantung pada jeti ketibaan, anda mungkin perlu bergerak lagi ke pantai. Jika turun di Na Dan, teruskan ke penginapan dan Sai Kaew. Semasa menempah, tanyakan destinasi ketibaan dan perjalanan sambungan yang termasuk, serta syarat masuk taman negara."
+      ]
+    ]
+  },
+  "wong-duean": {
+    "name": "Ao Wong Duean",
+    "intro": "Jika mahu berehat sambil melihat teluk berbentuk bulan sabit di Ko Samet, datanglah ke Ao Wong Duean. Pasir putihnya melengkung mengelilingi laut. Ia sesuai untuk pasangan atau keluarga yang mahu keluar dari penginapan, berjalan di pantai dan bersantai di satu tempat. Ikut lengkungan teluk sambil menikmati bentuk pesisir dengan perlahan.",
+    "experienceTitles": [
+      "Berjalan menyusuri teluk berbentuk bulan sabit",
+      "Dari Ban Phe ke Ao Wong Duean"
+    ],
+    "experience": [
+      "Pasir putih Ao Wong Duean melengkung mengelilingi teluk seperti bulan sabit. Berjalanlah bersama rakan atau pasangan sambil melihat pesisir yang melengkung dan laut. Jika mahu keluar dari penginapan untuk berehat di pantai, sediakan masa yang mencukupi untuk bersantai di sini.",
+      "Anda boleh menaiki bot dari Ban Phe ke Ao Wong Duean, atau turun di jeti Na Dan dan bergerak dalam pulau. Semasa menempah, tanya “Adakah saya turun di Ao Wong Duean atau Na Dan?” Berikan nama penginapan juga. Jika membawa bagasi, dapatkan penerangan tentang laluan ke penginapan selepas turun bot terlebih dahulu."
+    ],
+    "access": "Ao Wong Duean ialah teluk di Ko Samet. Anda perlu menaiki bot ke pulau untuk mengunjunginya.",
+    "swimming": "Elakkan kawasan laluan bot semasa bermain air. Walaupun teluk melengkung mengelilingi laut, keadaan ombak berubah setiap hari. Patuhi bendera dan arahan masuk ke air pada hari tersebut.",
+    "facilities": "Pasir putih mengikuti teluk yang melengkung seperti bulan sabit. Keluar dari penginapan untuk berjalan di pantai dan berehat sambil menikmati pemandangan teluk.",
+    "transport": "Semasa menempah bot di Ban Phe, tanyakan sama ada bot menuju ke “Wong Duean” atau “Wong Duen”. Jika bot tiba di jeti Na Dan, anda masih perlu bergerak dalam pulau ke Ao Wong Duean. Ketahui lokasi penginapan dan tempat turun bot bersama-sama.",
+    "faq": [
+      [
+        "Adakah Ao Wong Duean dan Wong Duen tempat yang sama?",
+        "Ya. Teluk dan pantai berbentuk bulan sabit di Ko Samet ini dipanggil Ao Wong Duean. Ejaan bahasa Inggerisnya termasuk Wong Duean dan Wong Duen. Masukkan Ko Samet juga semasa mencari penginapan atau perjalanan bot."
+      ],
+      [
+        "Apa yang perlu ditanya ketika menempah bot?",
+        "Tanyakan sama ada bot menuju ke Ao Wong Duean atau turun di jeti Na Dan. Jika tiba di Na Dan, anda masih perlu bergerak dalam pulau ke Ao Wong Duean. Berikan nama penginapan dan minta penerangan tentang laluan selepas turun bot."
+      ]
+    ]
+  }
+}

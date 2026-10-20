@@ -1,0 +1,7 @@
+---
+import LocalizedBeachHub from '../../../components/LocalizedBeachHub.astro';
+import {beachLocales} from '../../../lib/beach-localization.mjs';
+export function getStaticPaths(){return beachLocales.map(locale=>({params:{locale}}));}
+const {locale}=Astro.params;
+---
+<LocalizedBeachHub locale={locale}/>

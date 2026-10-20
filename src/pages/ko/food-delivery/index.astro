@@ -2,4 +2,4 @@
 import TransportGuidePage from '../../../components/TransportGuidePage.astro';
 import guide from '../../../data/transport/guides/food-delivery.json';
 ---
-<TransportGuidePage guide={guide}/>
+<TransportGuidePage guide={{...guide, parentUrl: '/ko/food/'}}/>

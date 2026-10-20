@@ -1,4 +1,4 @@
-import {cameraMatchesMapCategory, venueMatchesMapCategory, mapPointBounds} from '../lib/home-map-filters.mjs';
+import {cameraMatchesMapCategory, venueMatchesMapCategory, mapPointBounds, beachMatchesHomeFilter} from '../lib/home-map-filters.mjs';
 import {cameraCardPreview} from '../lib/camera-video-preview.mjs';
 import originalEditorial from '../data/camera-editorial-ko.json';
 import {cameraViewingCopy} from '../lib/camera-viewing-copy.mjs';
@@ -9,7 +9,6 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-csp-worker.js?url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { travelAreas, provinces, thailandBounds } from '../data/map';
 import originalVenues from '../data/rooftops.json';
-import beaches from '../data/beaches.json';
 import { cameras } from '../data/cameras';
 import type { GeoJSONSource } from 'maplibre-gl';
 
@@ -19,6 +18,9 @@ const locale=isLocale(document.documentElement.dataset.locale) ? document.docume
 const localizedModel=JSON.parse(document.querySelector('[data-locale-camera-model]')?.textContent||'null');
 const cameraEditorial=localizedModel?.editorial||originalEditorial;
 const venues=localizedModel?.venues||originalVenues;
+const beachModel=JSON.parse(document.querySelector('[data-locale-beach-model]')?.textContent||'null');
+const beachUI=beachModel?.ui;
+const beachHref=(id='')=>`/${locale}/beaches/${id?encodeURIComponent(id)+'/':''}`;
 const editorialEnabled=locale==='ko'||!!localizedModel;
 const ui=getUI(locale);
 setWorkerUrl(workerUrl);
@@ -35,25 +37,34 @@ if (container) {
   let category = 'all';
   let camerasVisible = true;
   const cameraToggle = document.querySelector<HTMLButtonElement>('#toggle-cameras')!;
-  type Beach = { id: string; name: string; english?: string; pilot?: boolean; lat: number; lng: number };
-  const mappedBeaches = (beaches as Beach[]).filter(beach => beach.pilot && Number.isFinite(beach.lat) && Number.isFinite(beach.lng) && beach.lat >= 5 && beach.lat <= 21 && beach.lng >= 97 && beach.lng <= 106);
+  type Beach = { cityId:string; city:string; province:string; area:string; intro:string; id: string; name: string; english?: string; pilot?: boolean; lat: number; lng: number };
+  const mappedBeaches = ((beachModel?.beaches||[]) as Beach[]).filter(beach => beach.pilot && Number.isFinite(beach.lat) && Number.isFinite(beach.lng) && beach.lat >= 5 && beach.lat <= 21 && beach.lng >= 97 && beach.lng <= 106);
   let beachesVisible = false;
-  const beachPins: Marker[] = [];
+  const beachPins: {beach:Beach;marker:Marker}[] = [];
+  let selectedBeachCity = '';
+  const seaMode=()=>!!beachUI&&category==='sea';
+  function matchingBeaches(){return mappedBeaches.filter(beach=>beachMatchesHomeFilter(beach,{cityId:selectedBeachCity,province:provinces.find(p=>String(p.id)===select.value)?.name,area:selectedArea,query:search.value}));}
+  function refreshBeachPins(){
+    const ids=new Set(matchingBeaches().map(b=>b.id));
+    for(const {beach,marker} of beachPins){if(beachesVisible&&ids.has(beach.id)&&map)marker.addTo(map);else {marker.getPopup()?.remove();marker.remove();}}
+    document.querySelectorAll<HTMLElement>('[data-beach-result]').forEach(row=>row.hidden=!ids.has(row.dataset.beachResult!));
+    const count=document.getElementById('home-beach-count');if(count)count.textContent=ids.size?beachUI.count.replace('{n}',String(ids.size)):beachUI.empty;
+  }
   const beachToggle = document.querySelector<HTMLButtonElement>('#toggle-beaches');
   const beachStatus = document.getElementById('beach-status');
   beachToggle?.addEventListener('click', () => {
     beachesVisible = !beachesVisible;
     beachToggle.setAttribute('aria-pressed', String(beachesVisible));
     beachToggle.classList.toggle('active', beachesVisible);
-    for (const marker of beachPins) {
+    for (const {marker} of beachPins) {
       if (beachesVisible && map) marker.addTo(map);
       else { marker.getPopup()?.remove(); marker.remove(); }
     }
     if (beachStatus) {
       beachStatus.hidden = !beachesVisible;
       beachStatus.textContent = mappedBeaches.length
-        ? (locale === 'ko' ? `해변 ${mappedBeaches.length}곳 · 핀을 눌러 이용 안내 확인` : `${mappedBeaches.length} beaches · select a pin for details`)
-        : (locale === 'ko' ? '해변 위치·이용 정보를 확인 중입니다. 검증이 끝나면 핀이 추가됩니다.' : 'Beach locations and details are being verified. Pins will appear when ready.');
+        ? beachUI.pins.replace('{n}',String(mappedBeaches.length))
+        : beachUI.empty;
     }
   });
   const cameraLayers = ['camera-clusters','camera-cluster-count','camera-points','camera-selected'];
@@ -68,6 +79,7 @@ if (container) {
     const province=provinces.find(p=>String(p.id)===select.value);
     const city=travelAreas.find(city=>city.name===selectedArea);
     const query=search.value.trim().toLocaleLowerCase();
+    if(seaMode())return [];
     return venues.filter(venue=>venueMatchesMapCategory(venue,category)&&(!province||travelAreas.find(city=>city.id===venue.city)?.province===province.name)&&(!city||venue.city===city.id)&&`${venue.name} ${venue.english} ${venue.building}`.toLocaleLowerCase().includes(query));
   }
   function refreshVenuePins(){
@@ -75,8 +87,17 @@ if (container) {
     for(const {venue,marker} of tourismPins){if(ids.has(venue.id)&&map)marker.addTo(map);else {marker.getPopup()?.remove();marker.remove();}}
   }
   function mode(){
-    const tourism=category==='tourism';if(!tourism)document.querySelectorAll<HTMLElement>('[data-tourism-city]').forEach(card=>card.hidden=false);document.querySelector('.thailand-explorer')!.classList.toggle('tourism-mode',tourism);document.getElementById('home-tourism-panel')!.hidden=!tourism;document.querySelector<HTMLElement>('.camera-map-results')!.hidden=tourism;
-    setCameraVisibility(!tourism);
+    const sea=seaMode();beachesVisible=sea;document.querySelector('.thailand-explorer')!.classList.toggle('beach-mode',sea);const beachPanel=document.getElementById('home-beach-panel');if(beachPanel)beachPanel.hidden=!sea;
+    const heading=document.getElementById('map-title')!;if(!heading.dataset.original)heading.dataset.original=heading.textContent||'';heading.textContent=sea?beachUI.heading:heading.dataset.original;
+    const intro=document.querySelector<HTMLElement>('.panel-intro')!;if(!intro.dataset.original)intro.dataset.original=intro.textContent||'';intro.textContent=sea?beachUI.intro:intro.dataset.original;
+    search.placeholder=sea?beachUI.search:ui.search;search.setAttribute('aria-label',sea?beachUI.search:ui.search);
+    const mobileIntro=document.querySelector<HTMLElement>('.mobile-home-intro p');if(mobileIntro){if(!mobileIntro.dataset.original)mobileIntro.dataset.original=mobileIntro.textContent||'';mobileIntro.textContent=sea?beachUI.mobileIntro:mobileIntro.dataset.original;}
+    document.querySelectorAll<HTMLAnchorElement>('.panel-foot .camera-note, .mobile-home-intro a:first-of-type').forEach(link=>{if(!link.dataset.originalHref)link.dataset.originalHref=link.getAttribute('href')||'';link.setAttribute('href',sea?beachHref():link.dataset.originalHref);});
+    const foot=document.querySelector<HTMLElement>('.panel-foot>span:nth-child(2)');if(foot){if(!foot.dataset.original)foot.dataset.original=foot.textContent||'';foot.textContent=sea?beachUI.pinNote:foot.dataset.original;}
+    const tourism=category==='tourism';if(!tourism)document.querySelectorAll<HTMLElement>('[data-tourism-city]').forEach(card=>card.hidden=false);document.querySelector('.thailand-explorer')!.classList.toggle('tourism-mode',tourism);document.getElementById('home-tourism-panel')!.hidden=!tourism;document.querySelector<HTMLElement>('.camera-map-results')!.hidden=tourism||sea;
+    setCameraVisibility(!tourism&&!sea);
+    const caption=document.querySelector<HTMLElement>('.map-caption>span:last-child');if(caption){if(!caption.dataset.original)caption.dataset.original=caption.textContent||'';caption.textContent=sea?beachUI.title:caption.dataset.original;}
+    refreshBeachPins();
     for(const layer of ['travel-area-fill','travel-area-outline','travel-dots','travel-labels','province-fill','province-lines','province-selected'])if(map?.getLayer(layer))map.setLayoutProperty(layer,'visibility','none');
     refreshVenuePins();
   }
@@ -103,6 +124,7 @@ if (container) {
     if (map?.getLayer('province-selected')) map.setFilter('province-selected', ['==', ['id'], id ?? -1]);
   }
   function matchingCameras() {
+    if(seaMode())return [];
     const query = search.value.trim().toLocaleLowerCase();
     const province = provinces.find(p => String(p.id) === select.value);
     return cameras.filter(camera => (!province || camera.province === province.name) && (!selectedArea || camera.area === selectedArea) && cameraMatchesMapCategory(camera,category) && `${camera.title} ${cameraTitle(camera,locale)} ${camera.area} ${placeName(camera.area,locale)} ${camera.province} ${camera.sourceName}`.toLocaleLowerCase().includes(query));
@@ -120,7 +142,8 @@ if (container) {
     const ids=new Set((resultsScope==='all'?visible:visible.slice(0,resultsLimit)).map(c=>c.id));
     document.querySelectorAll<HTMLElement>('[data-map-result]').forEach(card=>{card.hidden=!ids.has(card.dataset.mapResult!);const selected=card.dataset.mapResult===selectedResult;card.classList.toggle('is-selected',selected);card.querySelector<HTMLElement>('[data-result-selected]')!.hidden=!selected;});
     const count=document.getElementById('map-results-count');if(count)count.textContent=(editorialEnabled?(resultsScope==='view'&&homeMapReady?'현재 지도 범위':'선택 조건 전체'):(resultsScope==='view'&&homeMapReady?'Current map area':'All matching cameras'))+': '+visible.length;
-    const inView=document.getElementById('map-in-view');if(inView)inView.textContent=String(matching.filter(cameraInView).length);
+    const inView=document.getElementById('map-in-view');if(inView)inView.textContent=String(seaMode()?matchingBeaches().filter(b=>!map||!homeMapReady||map.getBounds().contains([b.lng,b.lat])).length:matching.filter(cameraInView).length);
+    const caption=document.querySelector<HTMLElement>('.map-caption>span:last-child');if(caption&&locale==='ko')caption.textContent=seaMode()?'현재 지도에 표시된 해변':'현재 지도에 표시된 카메라';
     document.getElementById('map-results-empty')!.hidden=visible.length>0;
     document.getElementById('map-results-more')!.hidden=resultsScope==='all'||visible.length<=resultsLimit;
     document.querySelectorAll<HTMLButtonElement>('[data-result-scope]').forEach(btn=>{btn.disabled=btn.dataset.resultScope==='view'&&!homeMapReady;btn.setAttribute('aria-pressed',String(btn.dataset.resultScope===(homeMapReady?resultsScope:'all')));});
@@ -129,6 +152,7 @@ if (container) {
   document.getElementById('map-results-more')?.addEventListener('click',()=>{resultsLimit+=12;updateResults();});
   function filterCameras() {
     resultsLimit=12;
+    refreshBeachPins();
     refreshVenuePins();
     updateResults();
 
@@ -136,7 +160,7 @@ if (container) {
     const ids = new Set(matches.map(camera => camera.id));
     document.querySelectorAll<HTMLElement>('[data-camera-row], [data-camera-gallery]').forEach(row => { row.hidden = !ids.has(row.dataset.cameraRow ?? row.dataset.cameraGallery!); });
     document.getElementById('camera-count')!.textContent = String(matches.length);
-    document.getElementById('no-results')!.hidden = matches.length > 0;
+    document.getElementById('no-results')!.hidden = seaMode()||matches.length > 0;
     const source = map?.getSource('cameras') as GeoJSONSource | undefined;
     source?.setData(cameraData());
   }
@@ -201,19 +225,21 @@ if (container) {
     const points: [number, number][] = [
       ...matchingCameras().flatMap(camera => camera.center ? [camera.center] : []),
       ...matchingVenues().map(venue => [venue.lng, venue.lat] as [number, number]),
+      ...(seaMode()?matchingBeaches().map(b=>[b.lng,b.lat] as [number,number]):[]),
     ];
     if (!map) return;
     const bounds=mapPointBounds(points);
     map.fitBounds(bounds || thailandBounds, {padding: {top: 100, bottom: 65, left: 55, right: 55}, maxZoom: 11, duration: animationDuration});
   }
   function reset() {
-    const resetUrl=new URL(location.href);resetUrl.searchParams.delete('city');history.replaceState(null,'',resetUrl);
+    const resetUrl=new URL(location.href);resetUrl.searchParams.delete('city');resetUrl.searchParams.delete('category');history.replaceState(null,'',resetUrl);
 
     setCameraVisibility(true);
     select.value = '';
     search.value = '';
     selectedArea = '';
-    category = 'all';
+    category = 'all';selectedBeachCity='';
+    document.querySelectorAll('[data-beach-filter]').forEach(b=>b.setAttribute('aria-pressed',String((b as HTMLElement).dataset.beachFilter==='')));
     resultsScope = 'all';
     mode();
     document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(button => { const active = button.dataset.category === 'all'; button.classList.toggle('active', active); button.setAttribute('aria-pressed',String(active)); });
@@ -257,7 +283,7 @@ if (container) {
   }
   cards.forEach(card => card.addEventListener('click', () => chooseCamera(card.dataset.camera!)));
   document.querySelectorAll<HTMLButtonElement>('[data-select-camera]').forEach(button => button.addEventListener('click', () => { chooseCamera(button.dataset.selectCamera!); selection.scrollIntoView({behavior:reducedMotion?'auto':'smooth',block:'nearest'}); }));
-  document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(button => button.addEventListener('click', () => { if(button.dataset.category==='all'){reset();return;} category = button.dataset.category!; select.value='';search.value='';selectedArea='';highlight(null);mode(); clearCamera(); paintSelection(''); name.textContent = category==='cameras'?ui.cameras:categoryName(category,locale); description.textContent = ui.selectedScenery; document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(item => { const active = item.dataset.category === category; item.classList.toggle('active',active); item.setAttribute('aria-pressed',String(active)); }); filterCameras();fitCategoryPins(); }));
+  document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(button => button.addEventListener('click', () => { if(button.dataset.category==='all'){reset();return;} category = button.dataset.category!; const categoryUrl=new URL(location.href);categoryUrl.searchParams.set('category',category);history.replaceState(null,'',categoryUrl);selectedBeachCity='';document.querySelectorAll('[data-beach-filter]').forEach(b=>b.setAttribute('aria-pressed',String((b as HTMLElement).dataset.beachFilter===''))); select.value='';search.value='';selectedArea='';highlight(null);mode(); clearCamera(); paintSelection(''); name.textContent = category==='cameras'?ui.cameras:categoryName(category,locale); description.textContent = ui.selectedScenery; document.querySelectorAll<HTMLButtonElement>('[data-category]').forEach(item => { const active = item.dataset.category === category; item.classList.toggle('active',active); item.setAttribute('aria-pressed',String(active)); }); filterCameras();fitCategoryPins(); }));
   shortcuts.forEach(button => button.addEventListener('click', () => button.dataset.mapCity === 'all' ? reset() : chooseCity(button.dataset.mapCity!)));
   document.getElementById('reset-map')!.addEventListener('click', reset);
   document.getElementById('reset-map-view')!.addEventListener('click', reset);
@@ -266,6 +292,7 @@ if (container) {
   const searchClear=document.getElementById('clear-camera-search')!;
   function suggest(){
     const query=search.value.trim();searchResults.hidden=!query;searchClear.hidden=!query;search.setAttribute('aria-expanded',String(!!query));searchResults.replaceChildren();
+    if(seaMode()){for(const beach of matchingBeaches().slice(0,12)){const link=document.createElement('a');link.href=beachHref(beach.id);link.textContent=beach.city+' · '+beach.name;link.style.display='block';link.style.padding='12px';searchResults.append(link);}}
     for(const camera of matchingCameras().slice(0,12)){const button=document.createElement('button');button.type='button';button.setAttribute('role','option');button.setAttribute('aria-selected','false');const copy=document.createElement('span'),title=document.createElement('strong'),region=document.createElement('small');title.textContent=cameraTitle(camera,locale);region.textContent=placeName(camera.area,locale);copy.append(title,region);button.append(copy);button.addEventListener('click',()=>{chooseCamera(camera.id);searchResults.hidden=true;search.setAttribute('aria-expanded','false');selection.scrollIntoView({block:'nearest',behavior:reducedMotion?'auto':'smooth'});});searchResults.append(button);}
     if(query&&!searchResults.childElementCount){const text=document.createElement('p');text.textContent=ui.noResults;searchResults.append(text);}
   }
@@ -274,11 +301,12 @@ if (container) {
   search.addEventListener('input', () => { suggest(); clearCamera(); paintSelection(''); filterCameras(); name.textContent = ui.cameraSearch; description.textContent = `${ui.searchResults} · ${matchingCameras().length}`; });
   search.addEventListener('keydown', event => {
     if (event.key === 'Enter') {
+      if(seaMode()){const beach=matchingBeaches()[0];if(beach)location.href=beachHref(beach.id);return;}
       const first = matchingCameras()[0];
       if (first) chooseCamera(first.id);
     }
   });
-  select.addEventListener('change', () => select.value === '' ? reset() : chooseProvince(Number(select.value)));
+  select.addEventListener('change', () => {if(seaMode()){selectedBeachCity='';document.querySelectorAll<HTMLElement>('[data-beach-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.beachFilter==='')));if(!select.value){selectedArea='';highlight(null);filterCameras();fitCategoryPins();return;}}select.value === '' ? reset() : chooseProvince(Number(select.value));});
   document.getElementById('retry-map')!.addEventListener('click', () => window.location.reload());
 
   async function initialize() {
@@ -306,17 +334,18 @@ if (container) {
           button.className = 'beach-pin';
           button.setAttribute('aria-label', `${beach.name}${beach.english ? ` · ${beach.english}` : ''}`);
           const label = document.createElement('span');
-          label.textContent = beach.english || beach.name;
+          label.textContent = beach.name;
           button.append(label);
           const box = document.createElement('div');
           const title = document.createElement('strong');
           title.textContent = beach.english ? `${beach.name} · ${beach.english}` : beach.name;
           const link = document.createElement('a');
-          link.href = '/ko/beaches/' + encodeURIComponent(beach.id) + '/';
-          link.textContent = locale === 'ko' ? '해변 이용 안내 →' : 'Beach information →';
+          link.href = beachHref(beach.id);
+          link.textContent = beachUI.detail+' →';
           box.append(title, document.createElement('br'), link);
           const marker = new Marker({ element: button, anchor: 'bottom' }).setLngLat([beach.lng, beach.lat]).setPopup(new Popup({ offset: 32 }).setDOMContent(box));
-          beachPins.push(marker);
+          beachPins.push({beach,marker});
+          const compact=()=>button.classList.toggle('compact-beach-pin',map!.getZoom()<9);map!.on('zoom',compact);compact();
           if (beachesVisible) marker.addTo(map!);
         }
         status.hidden = true;
@@ -402,11 +431,14 @@ if (container) {
       errorPanel.hidden = false;
     }
   }
+  document.querySelectorAll<HTMLButtonElement>('[data-beach-filter]').forEach(button=>button.addEventListener('click',()=>{selectedBeachCity=button.dataset.beachFilter||'';select.value='';selectedArea='';search.value='';searchResults.hidden=true;search.setAttribute('aria-expanded','false');searchClear.hidden=true;document.querySelectorAll('[data-beach-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));refreshBeachPins();updateResults();fitCategoryPins();}));
+  document.querySelectorAll<HTMLButtonElement>('[data-select-beach]').forEach(button=>button.addEventListener('click',()=>{const entry=beachPins.find(p=>p.beach.id===button.dataset.selectBeach);if(!entry||!map)return;map.flyTo({center:[entry.beach.lng,entry.beach.lat],zoom:13,duration});entry.marker.addTo(map).togglePopup();document.querySelector('.map-stage')!.scrollIntoView({block:'nearest',behavior:reducedMotion?'auto':'smooth'});}));
   const initialCity=new URLSearchParams(location.search).get('city');
   if(initialCity)chooseCity(initialCity);
   const requestedCamera=new URLSearchParams(location.search).get('camera');
   if(requestedCamera)chooseCamera(requestedCamera);
   window.addEventListener('popstate',()=>{const id=new URLSearchParams(location.search).get('camera');if(id)chooseCamera(id);else clearCamera();});
+  if(beachUI&&new URLSearchParams(location.search).get('category')==='sea')document.querySelector<HTMLButtonElement>('[data-category=sea]')?.click();
   updateResults();
   initialize();
 }

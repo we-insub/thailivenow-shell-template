@@ -1,0 +1,704 @@
+{
+  "locale": "es",
+  "sourceLocale": "ko",
+  "sourceFingerprints": {
+    "food-delivery": "717b1eed834d8c0334a8508b13fac185a99a1e0a847eefdeb01b2fbd62cba244",
+    "grabfood": "0e6fbb6ce50f1ba6835fc9d7097196b4dba9e4bec33475afc926e6f606ecc8d9",
+    "line-man": "b839b2f0c6b3380056962d99da11add3366b43dce3026e2f3b328d5816aaccfc",
+    "shopeefood": "585fbf3ebe0d010413f104b94ea4cac57097630ac5782e777436b41a3cb9509d",
+    "robinhood": "f393eef89965556ee33317233673c72a55153e1bb20cf491809b2a0bb6c81a79"
+  },
+  "ui": {
+    "home": "Inicio",
+    "breadcrumb": "Navegación",
+    "faq": "Preguntas frecuentes",
+    "related": "Guías relacionadas",
+    "sources": "Fuentes",
+    "officialSources": "Ver fuentes oficiales",
+    "delivery": "Comida a domicilio",
+    "hubName": "Comida a domicilio en Tailandia"
+  },
+  "guides": {
+    "food-delivery": {
+      "id": "food-delivery",
+      "parentUrl": "/es/food/",
+      "parentName": "Comida y reparto",
+      "title": "Apps de comida a domicilio en Tailandia | GrabFood, LINE MAN, ShopeeFood y Robinhood",
+      "name": "Comida a domicilio en Tailandia",
+      "english": "Food Delivery in Thailand",
+      "intro": "Si quieres comer mientras descansas en el hotel, puedes pedir comida a domicilio. Indica el lugar de entrega para ver los restaurantes disponibles, los gastos de envío y la hora estimada de llegada. Pregunta en recepción dónde debes recoger el pedido.",
+      "summary": [
+        [
+          "GrabFood",
+          "Según la dirección de entrega de la app",
+          "Selecciona Food en la app de Grab",
+          "Consulta el importe final en la app"
+        ],
+        [
+          "LINE MAN",
+          "La dirección elegida en Tailandia",
+          "Selecciona comida a domicilio en LINE MAN",
+          "Consulta el importe final en la app"
+        ],
+        [
+          "ShopeeFood",
+          "La dirección de entrega indicada en la app",
+          "Selecciona el menú ShopeeFood",
+          "Consulta el importe final en la app"
+        ],
+        [
+          "Robinhood",
+          "Bangkok y alrededores",
+          "Selecciona comida a domicilio en Robinhood",
+          "Consulta el importe final en la app"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "platform",
+          "title": "Usar GrabFood en Tailandia",
+          "paragraphs": [
+            "El servicio oficial de GrabFood Tailandia ofrece reparto de comida y bebida y recogida en el restaurante. Los establecimientos disponibles dependen del lugar de entrega que indiques."
+          ],
+          "links": [
+            [
+              "GrabFood: registro, pagos, entrega en hoteles y cancelaciones",
+              "/es/food-delivery/grabfood/"
+            ],
+            [
+              "Servicio oficial de GrabFood",
+              "https://www.grab.com/th/en/food/"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Cómo pedir comida al hotel",
+          "steps": [
+            [
+              "Comprueba la dirección y el marcador del mapa",
+              "Asegúrate de que el nombre del hotel, la dirección y el marcador coinciden, y pregunta en recepción dónde recoger la comida."
+            ],
+            [
+              "Elige la comida y el tipo de pedido",
+              "Selecciona los platos y las opciones, y comprueba si has elegido entrega a domicilio o recogida en el restaurante."
+            ],
+            [
+              "Revisa el total y la forma de pago",
+              "Comprueba el importe final, incluidos la comida y el reparto, antes de elegir cómo pagar."
+            ],
+            [
+              "Recoge el pedido en el lugar acordado",
+              "Sigue las indicaciones de la app y acude al punto de recogida. Si pagas en efectivo, prepara el importe necesario."
+            ]
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Gastos de envío y formas de pago",
+          "paragraphs": [
+            "Las preguntas frecuentes oficiales de GrabFood distinguen el precio de la comida de los gastos de envío. Estos se calculan según la distancia entre el restaurante y el lugar de entrega. Consulta el total en la pantalla del pedido.",
+            "Se indican efectivo, tarjetas de crédito y débito y GrabPay como formas de pago. Comprueba cuáles están disponibles en tu cuenta. Si vas a pagar en efectivo con un billete grande, avisa al repartidor por el chat de la app."
+          ]
+        },
+        {
+          "id": "hours",
+          "title": "Pedir comida de madrugada",
+          "paragraphs": [
+            "El horario del servicio y el de cada restaurante son distintos. Los locales cerrados no aceptan pedidos en la app, así que consulta cuáles reparten a tu ubicación y el tiempo estimado de entrega."
+          ]
+        },
+        {
+          "id": "help",
+          "title": "Consultas sobre pedidos y reembolsos",
+          "paragraphs": [
+            "Conserva el historial del pedido y contacta con atención al cliente desde ese mismo pedido. Las condiciones de cancelación y reembolso dependen del servicio y del estado del pedido."
+          ],
+          "links": [
+            [
+              "Ayuda de Grab",
+              "https://help.grab.com/"
+            ]
+          ]
+        },
+        {
+          "id": "line-man",
+          "title": "Reparto de comida con LINE MAN",
+          "paragraphs": [
+            "Indica una dirección de entrega en Tailandia para explorar LINE MAN. Con la dirección del hotel seleccionada, verás los restaurantes disponibles y los gastos de envío.",
+            "La app reúne reparto de comida, solicitud de vehículos y pedidos de productos cotidianos. Ten preparado tu LINE ID y selecciona el menú de comida a domicilio."
+          ],
+          "links": [
+            [
+              "Guía de pedidos y uso",
+              "/es/food-delivery/line-man/"
+            ]
+          ]
+        },
+        {
+          "id": "shopeefood",
+          "title": "Reparto de comida con ShopeeFood",
+          "paragraphs": [
+            "Indica la dirección de entrega en la app para explorar ShopeeFood. Selecciona tu hotel y consulta los restaurantes disponibles y los gastos de envío.",
+            "La comida se pide desde el menú ShopeeFood de la app tailandesa de Shopee. No es lo mismo que el envío de productos de compras. La app de Shopee Tailandia indica que admite tailandés, inglés y birmano."
+          ],
+          "links": [
+            [
+              "Guía de pedidos y uso",
+              "/es/food-delivery/shopeefood/"
+            ]
+          ]
+        },
+        {
+          "id": "robinhood",
+          "title": "Reparto de comida con Robinhood",
+          "paragraphs": [
+            "En Bangkok y alrededores puedes consultar Robinhood. Indica la dirección del hotel para ver qué restaurantes reparten allí y cuánto cuesta el envío.",
+            "La descripción oficial de la app del operador presenta restaurantes de Bangkok y alrededores. Comprueba cuáles pueden entregar en tu ubicación actual."
+          ],
+          "links": [
+            [
+              "Guía de pedidos y uso",
+              "/es/food-delivery/robinhood/"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Pueden llevar la comida hasta la habitación del hotel?",
+          "Depende de las normas de recepción de pedidos del hotel. Pregunta en recepción dónde debes recogerla."
+        ],
+        [
+          "¿Puedo pagar en efectivo?",
+          "Las preguntas frecuentes oficiales incluyen el pago en efectivo. Comprueba las opciones realmente disponibles en la pantalla del pedido."
+        ],
+        [
+          "¿Qué diferencia hay entre reparto y recogida?",
+          "El reparto lleva la comida a la dirección indicada. Con la recogida, tú vas al restaurante seleccionado a buscarla."
+        ]
+      ],
+      "links": [
+        [
+          "Azoteas por ciudad",
+          "/es/rooftops/"
+        ],
+        [
+          "Guía de LINE MAN",
+          "/es/food-delivery/line-man/"
+        ],
+        [
+          "Guía de ShopeeFood",
+          "/es/food-delivery/shopeefood/"
+        ],
+        [
+          "Guía de Robinhood",
+          "/es/food-delivery/robinhood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Servicio y preguntas frecuentes oficiales de GrabFood",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "Ficha de LINE MAN del operador",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ],
+        [
+          "Ficha de ShopeeFood del operador",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ],
+        [
+          "Ficha de Robinhood del operador",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ],
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "summaryTitle": "Elige una app de comida a domicilio",
+      "summaryLabels": [
+        "Zona de servicio",
+        "Cómo pedir",
+        "Cómo consultar el precio"
+      ]
+    },
+    "grabfood": {
+      "id": "grabfood",
+      "parentUrl": "/es/food-delivery/",
+      "parentName": "Comida a domicilio en Tailandia",
+      "title": "GrabFood Tailandia | Registro, tarjetas extranjeras, entrega en hoteles y cancelaciones",
+      "name": "GrabFood en Tailandia",
+      "english": "GrabFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Abre Food en la app de Grab cuando quieras pedir comida al hotel. Esta guía explica cómo fijar la dirección, pagar en efectivo o con tarjeta extranjera y cancelar un pedido. También recoge las instrucciones documentadas para registrarse con un número de Corea del Sur.",
+      "summaryTitle": "Antes de pedir",
+      "summaryLabels": [
+        "Zona de servicio",
+        "Cómo pedir",
+        "Cómo consultar el precio"
+      ],
+      "summary": [
+        [
+          "GrabFood",
+          "Restaurantes disponibles para tu dirección",
+          "App de Grab → Food → elige dirección y comida",
+          "Revisa comida, reparto y comisión por pago extranjero"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "signup",
+          "title": "Registro con un número de Corea del Sur",
+          "paragraphs": [
+            "La ayuda de Grab Tailandia indica que el código para números de Corea del Sur se envía por SMS. Si utilizas uno, selecciona Corea del Sur como código de país e introduce un móvil que reciba mensajes. Introduce el código de 6 dígitos para continuar el registro.",
+            "Si no llega el mensaje, revisa los filtros de SMS y la conexión a la red móvil. Una línea de datos de viaje no sustituye la recepción de SMS en tu número surcoreano habitual; comprueba también sus ajustes de recepción."
+          ],
+          "links": [
+            [
+              "Ayuda oficial de Grab sobre códigos de verificación",
+              "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Cómo pedir comida al hotel",
+          "steps": [
+            [
+              "Selecciona Food y la dirección de entrega",
+              "Abre Food en Grab y ajusta la dirección del hotel y el marcador del mapa. De esta dirección dependen los restaurantes y los tiempos de entrega disponibles."
+            ],
+            [
+              "Elige platos y opciones",
+              "Selecciona los platos, las cantidades y los extras, y comprueba si el pedido es de reparto o de recogida en el restaurante."
+            ],
+            [
+              "Revisa el total y la forma de pago",
+              "En la cesta, abre Payment details y después See all para elegir cómo pagar. Revisa el precio de la comida, el reparto, las condiciones de descuento y las comisiones antes de pulsar Place Order."
+            ],
+            [
+              "Recibe la comida en el punto acordado",
+              "Pregunta en recepción dónde se reciben los pedidos y acuerda el lugar con el repartidor en la app. La entrega hasta la habitación depende de las normas del hotel. Si pagas en efectivo, prepara el importe del pedido."
+            ]
+          ]
+        },
+        {
+          "id": "payment",
+          "title": "Efectivo, tarjetas extranjeras, KakaoPay y comisiones",
+          "paragraphs": [
+            "Grab Tailandia incluye efectivo y tarjetas de crédito y débito emitidas en Tailandia o en el extranjero. KakaoPay también figura entre las opciones oficiales. Consulta la pantalla de pago para ver lo que admite tu cuenta y ese pedido.",
+            "Los pagos con tarjetas o monederos electrónicos extranjeros tienen una comisión del 3% del total de la transacción, con un mínimo de 1 baht. Las fracciones de 0.5 baht o más se redondean hacia arriba; las inferiores, hacia abajo. Comprueba si tu entidad emisora cobra además su propia comisión por operaciones en el extranjero.",
+            "Puede aparecer seleccionada por defecto la forma de pago del último viaje o pedido. Revísala antes de pedir. Grab indica que no permite combinar GrabPay y efectivo en un mismo pago."
+          ],
+          "links": [
+            [
+              "Guía oficial de pagos de Grab Tailandia",
+              "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+            ]
+          ]
+        },
+        {
+          "id": "cancel",
+          "title": "¿Dónde se solicita la cancelación?",
+          "steps": [
+            [
+              "Abre el historial de pedidos",
+              "En Activity, selecciona el pedido de comida que quieras cancelar."
+            ],
+            [
+              "Selecciona Get Help",
+              "Pulsa Get Help en la esquina superior derecha del pedido. Si se puede cancelar, aparecerá Cancel order."
+            ],
+            [
+              "Comprueba el resultado",
+              "Tras solicitar la cancelación, comprueba que llegue una notificación de éxito. Pulsar el botón no significa por sí solo que el pedido esté cancelado."
+            ]
+          ],
+          "paragraphs": [
+            "La guía oficial describe como más favorables para aprobar la cancelación estos casos: el restaurante aún no ha aceptado el pedido; hay más de 15 minutos de retraso sin repartidor asignado; o hay más de 30 minutos de retraso mientras la comida sigue en el restaurante.",
+            "Puede resultar difícil cancelar cuando el reparto ya ha empezado o el pedido está completado. En pedidos de grupo, debe solicitarlo quien creó el pedido. Que aún no haya repartidor asignado no significa que la cancelación siempre sea gratuita."
+          ],
+          "links": [
+            [
+              "Pasos oficiales de cancelación de GrabFood Tailandia",
+              "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+            ]
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Faltan platos o ha llegado comida equivocada",
+          "paragraphs": [
+            "Conserva el historial y fotos de la comida, el embalaje y el recibo. Comunica el problema desde Get Help en ese pedido y consulta allí la aprobación y el estado del reembolso."
+          ],
+          "links": [
+            [
+              "Ayuda de GrabFood sobre artículos faltantes o incorrectos",
+              "https://help.grab.com/passenger/en-th/360002059867-Missing-or-wrong-items-in-your-order"
+            ]
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Puedo registrarme en GrabFood Tailandia con un número surcoreano?",
+          "La ayuda de Grab Tailandia indica que el código de registro para números de Corea del Sur se envía por SMS. Asegúrate de que ese número pueda recibir mensajes."
+        ],
+        [
+          "¿Puedo usar una tarjeta extranjera o KakaoPay en GrabFood Tailandia?",
+          "Las opciones oficiales incluyen tarjetas extranjeras de crédito y débito y KakaoPay. Comprueba si están disponibles en tu pedido. Las tarjetas y monederos extranjeros tienen una comisión del 3%, con un mínimo de 1 baht."
+        ],
+        [
+          "¿Llevarán la comida a mi habitación?",
+          "Depende de las normas del hotel. Pregunta en recepción dónde recibirla y acuerda el lugar con el repartidor mediante la app."
+        ],
+        [
+          "¿Siempre es gratis cancelar antes de que asignen un repartidor?",
+          "No. Abre el pedido en Activity, selecciona Get Help → Cancel order y comprueba la notificación de éxito. La guía oficial también tiene en cuenta si el restaurante ha aceptado el pedido y cuánto se ha retrasado."
+        ]
+      ],
+      "links": [
+        [
+          "Comparar apps de comida a domicilio en Tailandia",
+          "/es/food-delivery/"
+        ]
+      ],
+      "sources": [
+        [
+          "Servicio oficial de GrabFood Tailandia",
+          "https://www.grab.com/th/en/food/"
+        ],
+        [
+          "Códigos de verificación de Grab Tailandia",
+          "https://help.grab.com/passenger/en-th/360021998332-Didn't-receive-OTP"
+        ],
+        [
+          "Guía de pagos de Grab Tailandia",
+          "https://help.grab.com/passenger/en-th/360001392608-Ways-to-pay-for-Grab-bookings"
+        ],
+        [
+          "Guía de cancelaciones de GrabFood Tailandia",
+          "https://help.grab.com/passenger/en-th/34184057467801-Cancelling-your-order"
+        ]
+      ]
+    },
+    "line-man": {
+      "id": "line-man",
+      "parentUrl": "/es/food-delivery/",
+      "parentName": "Comida a domicilio en Tailandia",
+      "title": "LINE MAN Tailandia | Guía de comida a domicilio",
+      "name": "Reparto de comida con LINE MAN",
+      "english": "LINE MAN",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Para pedir comida al hotel con LINE MAN, ten listo tu LINE ID y abre el menú de comida a domicilio. Ajusta la dirección de entrega en Tailandia a la ubicación del hotel para ver los restaurantes disponibles. Elige los platos, revisa el total con el reparto y envía el pedido.",
+      "summaryTitle": "Antes de pedir",
+      "summaryLabels": [
+        "Zona de servicio",
+        "Cómo pedir",
+        "Cómo consultar el precio"
+      ],
+      "summary": [
+        [
+          "LINE MAN",
+          "La dirección elegida en Tailandia",
+          "Elige comida, opciones y dirección de entrega",
+          "Consulta el total en la pantalla de pago"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "¿Qué app necesito?",
+          "paragraphs": [
+            "La app reúne reparto de comida, solicitud de vehículos y pedidos de productos cotidianos. Ten preparado tu LINE ID y selecciona el menú de comida a domicilio."
+          ],
+          "links": [
+            [
+              "Información e instalación de la app oficial",
+              "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Pedir comida al hotel",
+          "steps": [
+            [
+              "Comprueba la dirección y el marcador del mapa",
+              "Asegúrate de que el nombre del hotel, la dirección y el marcador coinciden, y pregunta en recepción dónde recoger la comida."
+            ],
+            [
+              "Elige la comida y el tipo de pedido",
+              "Selecciona los platos y las opciones, y comprueba si has elegido entrega a domicilio o recogida en el restaurante."
+            ],
+            [
+              "Revisa el total y la forma de pago",
+              "Comprueba el importe final, incluidos la comida y el reparto, antes de elegir cómo pagar."
+            ],
+            [
+              "Recoge el pedido en el lugar acordado",
+              "Sigue las indicaciones de la app y acude al punto de recogida. Si pagas en efectivo, prepara el importe necesario."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Antes de pagar",
+          "paragraphs": [
+            "Los restaurantes y las formas de pago disponibles dependen de la cuenta y del lugar de entrega. Además del precio de los platos, revisa el reparto, los extras y las condiciones de los descuentos.",
+            "Pregunta primero en recepción dónde se recogen los pedidos. Comprueba que la dirección del hotel y el marcador del mapa en la app sean correctos."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Falta comida o hay un problema con el pedido",
+          "paragraphs": [
+            "Conserva el historial y fotos de la comida afectada y del recibo. Contacta después con atención al cliente desde ese pedido. La posibilidad de reembolso y el procedimiento dependen de su estado."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Pueden entregar en la habitación del hotel?",
+          "Depende de las normas del hotel para recibir pedidos. Pregunta en recepción dónde recogerlos."
+        ],
+        [
+          "¿Puedo pagar con una tarjeta extranjera?",
+          "Consulta las opciones disponibles en la pantalla de pago de tu cuenta. Esta guía no garantiza que se acepten todas las tarjetas extranjeras."
+        ]
+      ],
+      "links": [
+        [
+          "Comparar apps de comida a domicilio",
+          "/es/food-delivery/"
+        ],
+        [
+          "Guía para pedir con GrabFood",
+          "/es/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Descripción oficial de la app del operador",
+          "https://play.google.com/store/apps/details?id=com.linecorp.linemanth&hl=en"
+        ]
+      ]
+    },
+    "shopeefood": {
+      "id": "shopeefood",
+      "parentUrl": "/es/food-delivery/",
+      "parentName": "Comida a domicilio en Tailandia",
+      "title": "ShopeeFood Tailandia | Guía de comida a domicilio",
+      "name": "Reparto de comida con ShopeeFood",
+      "english": "ShopeeFood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Puedes pedir comida desde el menú ShopeeFood de la app tailandesa de Shopee. Primero ajusta la dirección del hotel y el marcador del mapa, y después elige platos de restaurantes que entreguen allí. Los pedidos de compras y los de comida usan menús diferentes: comprueba qué pantalla has abierto.",
+      "summaryTitle": "Antes de pedir",
+      "summaryLabels": [
+        "Zona de servicio",
+        "Cómo pedir",
+        "Cómo consultar el precio"
+      ],
+      "summary": [
+        [
+          "ShopeeFood",
+          "La dirección de entrega indicada en la app",
+          "Elige comida, opciones y dirección de entrega",
+          "Consulta el total en la pantalla de pago"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "¿Qué app necesito?",
+          "paragraphs": [
+            "La comida se pide desde el menú ShopeeFood de la app tailandesa de Shopee. No es lo mismo que el envío de productos de compras. La app de Shopee Tailandia indica que admite tailandés, inglés y birmano."
+          ],
+          "links": [
+            [
+              "Información e instalación de la app oficial",
+              "https://play.google.com/store/apps/details?id=com.shopee.th"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Pedir comida al hotel",
+          "steps": [
+            [
+              "Comprueba la dirección y el marcador del mapa",
+              "Asegúrate de que el nombre del hotel, la dirección y el marcador coinciden, y pregunta en recepción dónde recoger la comida."
+            ],
+            [
+              "Elige la comida y el tipo de pedido",
+              "Selecciona los platos y las opciones, y comprueba si has elegido entrega a domicilio o recogida en el restaurante."
+            ],
+            [
+              "Revisa el total y la forma de pago",
+              "Comprueba el importe final, incluidos la comida y el reparto, antes de elegir cómo pagar."
+            ],
+            [
+              "Recoge el pedido en el lugar acordado",
+              "Sigue las indicaciones de la app y acude al punto de recogida. Si pagas en efectivo, prepara el importe necesario."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Antes de pagar",
+          "paragraphs": [
+            "Los restaurantes y las formas de pago disponibles dependen de la cuenta y del lugar de entrega. Además del precio de los platos, revisa el reparto, los extras y las condiciones de los descuentos.",
+            "Pregunta primero en recepción dónde se recogen los pedidos. Comprueba que la dirección del hotel y el marcador del mapa en la app sean correctos."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Falta comida o hay un problema con el pedido",
+          "paragraphs": [
+            "Conserva el historial y fotos de la comida afectada y del recibo. Contacta después con atención al cliente desde ese pedido. La posibilidad de reembolso y el procedimiento dependen de su estado."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Pueden entregar en la habitación del hotel?",
+          "Depende de las normas del hotel para recibir pedidos. Pregunta en recepción dónde recogerlos."
+        ],
+        [
+          "¿Puedo pagar con una tarjeta extranjera?",
+          "Consulta las opciones disponibles en la pantalla de pago de tu cuenta. Esta guía no garantiza que se acepten todas las tarjetas extranjeras."
+        ]
+      ],
+      "links": [
+        [
+          "Comparar apps de comida a domicilio",
+          "/es/food-delivery/"
+        ],
+        [
+          "Guía para pedir con GrabFood",
+          "/es/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Descripción oficial de la app del operador",
+          "https://play.google.com/store/apps/details?id=com.shopee.th"
+        ]
+      ]
+    },
+    "robinhood": {
+      "id": "robinhood",
+      "parentUrl": "/es/food-delivery/",
+      "parentName": "Comida a domicilio en Tailandia",
+      "title": "Robinhood Tailandia | Guía de comida a domicilio",
+      "name": "Reparto de comida con Robinhood",
+      "english": "Robinhood",
+      "eyebrow": "THAILAND FOOD DELIVERY",
+      "intro": "Si buscas comida a domicilio en Bangkok o alrededores, echa un vistazo a Robinhood. Introduce la dirección del hotel para encontrar restaurantes que repartan allí. Elige la comida y revisa el total, incluido el reparto, antes de pedir.",
+      "summaryTitle": "Antes de pedir",
+      "summaryLabels": [
+        "Zona de servicio",
+        "Cómo pedir",
+        "Cómo consultar el precio"
+      ],
+      "summary": [
+        [
+          "Robinhood",
+          "Bangkok y alrededores",
+          "Elige comida, opciones y dirección de entrega",
+          "Consulta el total en la pantalla de pago"
+        ]
+      ],
+      "sections": [
+        {
+          "id": "app",
+          "title": "¿Qué app necesito?",
+          "paragraphs": [
+            "La descripción oficial de la app del operador presenta restaurantes de Bangkok y alrededores. Comprueba cuáles pueden entregar en tu ubicación actual."
+          ],
+          "links": [
+            [
+              "Información e instalación de la app oficial",
+              "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+            ]
+          ]
+        },
+        {
+          "id": "order",
+          "title": "Pedir comida al hotel",
+          "steps": [
+            [
+              "Comprueba la dirección y el marcador del mapa",
+              "Asegúrate de que el nombre del hotel, la dirección y el marcador coinciden, y pregunta en recepción dónde recoger la comida."
+            ],
+            [
+              "Elige la comida y el tipo de pedido",
+              "Selecciona los platos y las opciones, y comprueba si has elegido entrega a domicilio o recogida en el restaurante."
+            ],
+            [
+              "Revisa el total y la forma de pago",
+              "Comprueba el importe final, incluidos la comida y el reparto, antes de elegir cómo pagar."
+            ],
+            [
+              "Recoge el pedido en el lugar acordado",
+              "Sigue las indicaciones de la app y acude al punto de recogida. Si pagas en efectivo, prepara el importe necesario."
+            ]
+          ]
+        },
+        {
+          "id": "check",
+          "title": "Antes de pagar",
+          "paragraphs": [
+            "Los restaurantes y las formas de pago disponibles dependen de la cuenta y del lugar de entrega. Además del precio de los platos, revisa el reparto, los extras y las condiciones de los descuentos.",
+            "Pregunta primero en recepción dónde se recogen los pedidos. Comprueba que la dirección del hotel y el marcador del mapa en la app sean correctos."
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Falta comida o hay un problema con el pedido",
+          "paragraphs": [
+            "Conserva el historial y fotos de la comida afectada y del recibo. Contacta después con atención al cliente desde ese pedido. La posibilidad de reembolso y el procedimiento dependen de su estado."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "¿Pueden entregar en la habitación del hotel?",
+          "Depende de las normas del hotel para recibir pedidos. Pregunta en recepción dónde recogerlos."
+        ],
+        [
+          "¿Puedo pagar con una tarjeta extranjera?",
+          "Consulta las opciones disponibles en la pantalla de pago de tu cuenta. Esta guía no garantiza que se acepten todas las tarjetas extranjeras."
+        ]
+      ],
+      "links": [
+        [
+          "Comparar apps de comida a domicilio",
+          "/es/food-delivery/"
+        ],
+        [
+          "Guía para pedir con GrabFood",
+          "/es/food-delivery/grabfood/"
+        ]
+      ],
+      "sources": [
+        [
+          "Descripción oficial de la app del operador",
+          "https://play.google.com/store/apps/details?id=th.in.robinhood&hl=en-US"
+        ]
+      ]
+    }
+  },
+  "deferredRelatedLinks": [
+    {
+      "guideId": "food-delivery",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    },
+    {
+      "guideId": "grabfood",
+      "sourceUrl": "/ko/transport/guides/taxi/",
+      "reason": "No complete same-locale taxi guide route; do not advertise a missing translation."
+    }
+  ]
+}

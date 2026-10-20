@@ -1,0 +1,18 @@
+---
+const {locale='ko'}=Astro.props;
+const headings={ko:'함께 보는 여행 서비스',en:'More travel services',ms:'Laman pelancongan lain','zh-cn':'更多旅行服务','zh-tw':'更多旅遊服務',ja:'姉妹旅行サービス',ru:'Другие туристические сайты',es:'Más sitios de viajes'};
+const base=locale.startsWith('en')?'en':locale;
+const japanMarkets={ko:'kr',en:'en','en-us':'us','en-in':'in','en-gb':'en',ja:'ja','zh-cn':'cn','zh-tw':'tw',ms:'en',ru:'en',es:'en'};
+---
+<section class="related-travel-services" aria-label={headings[base]??headings.en}>
+ <h2>{headings[base]??headings.en}</h2>
+ <a href={`https://japanlivenow.com/${japanMarkets[locale]??'en'}/`} target="_blank" rel="noopener noreferrer"><span>JapanLiveNow</span><span aria-hidden="true">↗</span></a>
+ <a href="https://korealivenow.com/kr/" hreflang="ko" target="_blank" rel="noopener noreferrer"><span>KoreaLiveNow</span><span aria-hidden="true">↗</span></a>
+</section>
+<style>
+.related-travel-services{margin-top:18px;padding-top:14px;border-top:1px solid #dce5ea;max-width:26rem;min-width:0}
+.related-travel-services h2{margin:0 0 4px;font-size:14px;line-height:1.5;color:#536978}
+.related-travel-services a{display:flex;align-items:center;gap:8px;min-height:44px;padding:6px 0;color:#254f61;font-size:16px;font-weight:600;line-height:1.6;text-decoration:none;overflow-wrap:anywhere}
+.related-travel-services a:hover{text-decoration:underline;text-underline-offset:4px}
+.related-travel-services a:focus-visible{outline:2px solid #254f61;outline-offset:4px;border-radius:4px}
+</style>

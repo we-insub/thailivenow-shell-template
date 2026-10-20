@@ -1,0 +1,113 @@
+---
+import SiteFooter from './SiteFooter.astro';
+import DetailHeader from './DetailHeader.astro';
+import LocalizedBeachMap from './LocalizedBeachMap.astro';
+import RuntimeDate from './RuntimeDate.astro';
+import ImportantText from './ImportantText.astro';
+import {localeTag} from '../lib/localized-content';
+import {getBeachLocale} from '../lib/beach-localization.mjs';
+import {cameraTitle} from '../i18n/ui';
+import {cameras} from '../data/cameras';
+const {beach:b,locale}=Astro.props;
+const {beaches,cities,ui}=getBeachLocale(locale);
+const city=cities.find(c=>c.id===b.cityId)!;
+const has=(value)=>typeof value==='string'&&value.trim()&&!/^(미확인|미검증|정보 없음|준비 중|-)$/.test(value.trim());
+const related=beaches.filter(other=>other.pilot&&other.cityId===b.cityId&&other.id!==b.id);
+const facts=[...(b.accessConditions||[]),...(b.facilities||[])].filter(r=>has(r.label)&&has(r.value));
+const swimming=(b.swimming||[]).filter(r=>has(r.value));
+const seasons=(b.seasons||[]).filter(r=>has(r.value));
+const photos=(b.photos||[]).filter(p=>has(p.src)&&has(p.alt)&&has(p.sourceUrl)&&has(p.rights));
+const access=(b.transport||[]).filter(p=>has(p.instructions));
+const faq=(b.faq||[]).filter(([q,a])=>has(q)&&has(a));
+const experience=(b.experience||[]).map((text,i)=>({title:b.experienceTitles?.[i],text})).filter(r=>has(r.text));
+const phrases=[ui.redWarning,...({en:['Do not swim','swimming is prohibited','red flag','deep water','strong waves','1 October 2026','Karon Noi','Chaweng Noi','Kata Noi','Laem Chai Chet','Na Dan'],ja:['泳がないでください','遊泳禁止','赤旗','水深が深く','波が強い','2026年10月1日','カロンノイ','チャウエンノイ','カタノイ','レームチャイチェート','ナダン'],'zh-cn':['不要游泳','禁止游泳','红旗','水深','强浪','2026年10月1日','卡伦诺伊','查汶诺伊','卡塔诺伊','Laem Chai Chet','Na Dan'],'zh-tw':['不要游泳','禁止游泳','紅旗','水深','強浪','2026年10月1日','卡倫諾伊','查汶諾伊','卡塔諾伊','Laem Chai Chet','Na Dan'],ms:['Jangan berenang','dilarang','bendera merah','1 Oktober 2026','Karon Noi','Chaweng Noi','Kata Noi','Laem Chai Chet','Na Dan'],ru:['Не купайтесь','запрещено','красный флаг','1 октября 2026','Карон-Ной','Чавенг-Ной','Ката-Ной','Лаем-Чай-Чет','На-Дан'],es:['No nades','prohibido','bandera roja','1 de octubre de 2026','Karon Noi','Chaweng Noi','Kata Noi','Laem Chai Chet','Na Dan']}[locale.startsWith('en')?'en':locale]||[])];
+const points=[{name:b.name,lat:b.lat,lng:b.lng,text:b.coordinateKind,url:b.coordinateSource,linkLabel:ui.mapEvidence}];
+---
+<!doctype html>
+<html lang={localeTag(locale)} data-locale={locale}>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="icon" href="/favicon.svg"/>
+  <title>{b.title} | ThaiLiveNow</title>
+  <meta name="description" content={b.description}/>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))})}/>
+</head>
+<body>
+<DetailHeader locale={locale}/>
+<main class="thai-detail beach-detail">
+  <nav aria-label={ui.hubTitle}><a href={`/${locale}/beaches/`}>{ui.hubTitle}</a> › <a href={`/${locale}/beaches/cities/${city.id}/`}>{city.name} · {ui.beach}</a> › {b.name}</nav>
+  <h1>{b.name}{b.name!==b.english&&` (${b.english})`}</h1>
+  <p class="location">{b.thai} · {b.city}</p>
+  <p class="intro">{b.intro}</p>
+
+  {photos.length>0&&<section class="gallery" aria-label={`${b.name} · ${ui.photo}`}>
+    {photos.map((p,i)=><figure>
+      <img src={p.src} alt={p.alt} width={p.width} height={p.height} loading={i===0?'eager':'lazy'}/>
+      <figcaption>{p.caption}<br/>
+        <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer">{ui.photo}: {p.credit}{p.title&&` · ${p.title}`}</a> · <a href={p.licenseUrl||p.sourceUrl} target="_blank" rel="noopener noreferrer">{p.rights}</a>
+        {p.changes&&<> · {p.changes}</>}
+      </figcaption>
+    </figure>)}
+  </section>}
+
+  <LocalizedBeachMap points={points} title={ui.map} note={`${b.coordinateKind} · ${ui.mapNote}`} ui={ui}/>
+  {access.length>0&&<section id="access">
+    <h2>{b.name} · {ui.access}</h2>
+    {access.map(p=><article><h3>{p.name}</h3><p><ImportantText text={p.instructions} phrases={[...phrases,b.english]}/></p>{p.directionsUrl&&<p><a href={p.directionsUrl} target="_blank" rel="noopener noreferrer">{ui.directions} ↗</a></p>}</article>)}
+    <p class="destination"><span>{ui.searchName}</span> <span lang="en">{b.english}</span> · <span lang="th">{b.thai}</span></p>
+  </section>}
+
+  {facts.length>0&&<section id="facts"><h2>{ui.facts}</h2><dl>{facts.map(r=><div><dt>{r.label}</dt><dd><ImportantText text={r.value} phrases={phrases}/></dd></div>)}</dl></section>}
+
+  {experience.length>0&&<section id="experience"><h2>{ui.experience}</h2>{experience.map(r=><article>{has(r.title)&&<h3>{r.title}</h3>}<p><ImportantText text={r.text} phrases={phrases}/></p></article>)}</section>}
+
+  {(swimming.length>0||seasons.length>0)&&<section id="swimming"><h2>{ui.swimming}</h2>{swimming.map(r=><p><ImportantText text={r.value} phrases={phrases}/></p>)}{seasons.map(r=><p><ImportantText text={r.value} phrases={phrases}/></p>)}</section>}
+
+  {faq.length>0&&<section id="faq"><h2>{ui.faq}</h2>{faq.map(([q,a])=><article><h3>{q}</h3><p><ImportantText text={a} phrases={phrases}/></p></article>)}</section>}
+
+  <section id="related"><h2>{ui.related}</h2><p><a href={`/${locale}/beaches/cities/${city.id}/`}>{city.name} · {ui.beach} · {ui.map} →</a></p>
+    {related.length>0&&<ul>{related.map(other=><li><a href={`/${locale}/beaches/${other.id}/`}>{other.name}</a> · {other.english}</li>)}</ul>}
+    {b.relatedCameraIds?.length>0&&<><h3>{ui.cameras}</h3><ul>{b.relatedCameraIds.map(id=><li><a href={`/${locale}/cameras/${id}/`}>{cameraTitle(cameras.find(c=>c.id===id),locale)}</a></li>)}</ul></>}
+    <p><a href={`/${locale}/beaches/`}>{ui.all} →</a></p><p><a href={`/${locale}/?category=sea#map`}>{ui.mainMap} →</a></p>
+  </section>
+  <section class="sources" id="sources"><p>{ui.checked}: <RuntimeDate kind="source" fallback={b.checkedAt} locale={locale}/></p><details><summary>{ui.sources} · {b.sources.length}</summary><ul>{b.sources.map(([label,url])=><li><a href={url} target="_blank" rel="noopener noreferrer">{label}</a></li>)}</ul></details></section>
+</main>
+<SiteFooter locale={locale}/>
+</body>
+</html>
+<style>
+/* Keep the approved RooftopDetail reading width, type, gallery and information cards. */
+:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,"Apple SD Gothic Neo",sans-serif;line-height:1.8}
+:global(*){box-sizing:border-box}
+main{max-width:1000px;margin:auto;padding:32px 24px 60px}
+nav,.location{font-size:14px;color:#61717e}
+h1{font-size:32px;line-height:1.4}
+.intro{font-size:18px}
+section{margin-top:34px;scroll-margin-top:110px}
+h2{font-size:24px;line-height:1.5}
+h3{font-size:19px;margin:0;line-height:1.6}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.gallery figure{margin:0;min-width:0}
+.gallery figure:first-child{grid-column:1/-1}
+.gallery img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px}
+.gallery figcaption{font-size:12px;color:#61717e;overflow-wrap:anywhere;margin-top:6px}
+dl{background:white;border:1px solid #dce5e8;border-radius:12px;overflow:hidden}
+dl>div{display:grid;grid-template-columns:160px minmax(0,1fr);border-bottom:1px solid #e7edef}
+dl>div:last-child{border:0}
+dt{background:#eff5f6;font-weight:700}
+dt,dd{padding:14px 18px;margin:0}
+dd{overflow-wrap:anywhere}
+article{padding:20px;background:white;border:1px solid #dce5e8;border-radius:12px;margin:12px 0}
+article p{margin-bottom:0}
+a{color:#267e89;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,summary:focus-visible{outline:3px solid #267e89;outline-offset:4px}
+.destination{font-size:14px;overflow-wrap:anywhere}
+.destination>span:first-child{display:block;color:#61717e}
+.sources{font-size:13px}
+.sources summary{cursor:pointer;font-weight:700}
+.sources li{margin:10px 0;overflow-wrap:anywhere}
+#related li{margin:8px 0}
+@media(max-width:600px){main{padding:24px 16px}h1{font-size:27px}.intro{font-size:16px}.gallery{grid-template-columns:1fr}dl>div{grid-template-columns:110px minmax(0,1fr)}dt,dd{padding:12px;font-size:14px}}
+</style>

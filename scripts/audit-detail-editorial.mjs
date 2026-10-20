@@ -3,6 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import {parse} from 'parse5';
 import {isDetailPath,detailPath,bylineLabels,organization,sharingImage} from '../src/lib/detail-editorial-policy.mjs';
+import {siteBrand} from '../src/lib/site-brand.mjs';
 import {deploymentLabels} from '../src/lib/public-date-policy.mjs';
 const directory=path.resolve(process.argv[2]||'dist'),output=process.env.TLN_EDITORIAL_REPORT||'artifacts/detail-editorial-audit.json';
 const walk=p=>fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(p,e.name)):[path.join(p,e.name)]);
@@ -18,7 +19,7 @@ for(const file of walk(directory).filter(f=>f.endsWith('.html'))){
  for(const n of all)if(attr(n,'data-site-date')==='source'&&attr(n,'datetime'))sourceRecords++;else if(['camera-source','camera-link'].includes(attr(n,'data-site-date')))cameraRecords++;
  if(!isDetailPath(pathname))continue;details++;const locale=detailPath(pathname).split('/')[1];languages[locale]=(languages[locale]||0)+1;
  const lines=all.filter(n=>attr(n,'data-tln-editorial-byline')!==undefined),heading=all.find(n=>n.nodeName==='h1');
- if(lines.length!==1||!text(lines[0]).includes((bylineLabels[locale.startsWith('en')?'en':locale]||bylineLabels.en)+' ThaiLiveNow'))errors.push(pathname+': missing/incorrect localized byline');
+ if(lines.length!==1||!text(lines[0]).includes((bylineLabels[locale.startsWith('en')?'en':locale]||bylineLabels.en)+' '+siteBrand(locale)))errors.push(pathname+': missing/incorrect localized byline');
  if(heading?.parentNode?.childNodes.indexOf(lines[0])!==heading?.parentNode?.childNodes.indexOf(heading)+1)errors.push(pathname+': byline must immediately follow H1');
  const meta=k=>attr(all.find(n=>n.nodeName==='meta'&&(attr(n,'name')===k||attr(n,'property')===k)),'content');
  if(meta('author')!=='ThaiLiveNow')errors.push(pathname+': author meta');

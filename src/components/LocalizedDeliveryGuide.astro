@@ -1,0 +1,45 @@
+---
+import DetailHeader from './DetailHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import {localeTag} from '../lib/localized-content';
+import {deliveryTextParts} from '../lib/delivery-localized.mjs';
+import {deliveryMetadata} from '../lib/delivery-meta.mjs';
+const {locale,guide,ui}=Astro.props;
+const metadata=deliveryMetadata(locale,guide.id);
+const schema={'@context':'https://schema.org','@graph':[
+ {'@type':'Article',headline:guide.title,inLanguage:localeTag(locale),description:guide.intro},
+ {'@type':'FAQPage',inLanguage:localeTag(locale),mainEntity:guide.faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}
+]};
+---
+<!doctype html>
+<html lang={localeTag(locale)} data-locale={locale}>
+<head>
+ <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+ <link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48"/>
+ <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any"/>
+ <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013"/>
+ <title>{metadata.title} | ThaiLiveNow</title><meta name="description" content={metadata.description}/>
+ <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replaceAll('<','\\u003c')}/>
+</head>
+<body>
+ <DetailHeader locale={locale} activeHref={`/${locale}/food-delivery/`}/>
+ <main class="thai-detail delivery-guide" data-delivery-guide={guide.id}>
+  <nav class="breadcrumb" aria-label={ui.breadcrumb}><a href={`/${locale}/`}>{ui.home}</a> › <a href={guide.parentUrl}>{guide.parentName}</a> › {guide.name}</nav>
+  <header><span class="eyebrow">{ui.delivery}</span><h1>{guide.name}</h1><p class="intro">{guide.intro}</p></header>
+  <section><h2>{guide.summaryTitle}</h2><div class="summary">{guide.summary.map(([name,place,how,fare])=><article><h3>{name}</h3><dl><dt>{guide.summaryLabels[0]}</dt><dd>{place}</dd><dt>{guide.summaryLabels[1]}</dt><dd>{how}</dd><dt>{guide.summaryLabels[2]}</dt><dd>{fare}</dd></dl></article>)}</div></section>
+  {guide.sections.map(section=><section id={section.id}>
+   <h2>{section.title}</h2>
+   {section.paragraphs?.map(text=><p>{deliveryTextParts(text,locale).map(part=>part.strong?<strong>{part.text}</strong>:part.text)}</p>)}
+   {section.links&&<div class="related">{section.links.map(([label,url])=><a href={url} target={url.startsWith('https:')?'_blank':undefined} rel={url.startsWith('https:')?'noopener noreferrer':undefined}>{label} <span aria-hidden="true">{url.startsWith('https:')?'↗':'→'}</span></a>)}</div>}
+   {section.steps&&<ol class="steps">{section.steps.map(([title,text])=><li><h3>{title}</h3><p>{deliveryTextParts(text,locale).map(part=>part.strong?<strong>{part.text}</strong>:part.text)}</p></li>)}</ol>}
+  </section>)}
+  <section id="faq"><h2>{ui.faq}</h2>{guide.faq.map(([q,a])=><details><summary>{q}</summary><p>{deliveryTextParts(a,locale).map(part=>part.strong?<strong>{part.text}</strong>:part.text)}</p></details>)}</section>
+  <section><h2>{ui.related}</h2><div class="related">{guide.links.map(([label,url])=><a href={url}>{label} <span aria-hidden="true">→</span></a>)}</div></section>
+  <section class="sources"><h2>{ui.sources}</h2><details class="source-fold"><summary>{ui.officialSources} · {guide.sources.length}</summary><ul>{guide.sources.map(([label,url])=><li><a href={url} target="_blank" rel="noopener noreferrer">{label} ↗</a></li>)}</ul></details></section>
+ </main>
+ <SiteFooter locale={locale}/>
+</body>
+</html>
+<style>
+:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,sans-serif;line-height:1.8}:global(*){box-sizing:border-box}main{max-width:1040px;margin:auto;padding:32px 28px 70px}a{color:#267e89;text-decoration:none;overflow-wrap:anywhere}.breadcrumb{font-size:13px;color:#61717e}header{margin:26px 0}.eyebrow{font-size:12px;font-weight:800;color:#c3423e}h1{font-size:34px;line-height:1.4;margin:12px 0}.intro{font-size:18px;max-width:850px}section{margin-top:38px;scroll-margin-top:110px}h2{font-size:24px;line-height:1.5}h3{font-size:18px;line-height:1.6;margin:0 0 8px}.summary{display:grid;grid-template-columns:1fr 1fr;gap:16px}.summary article{min-width:0;padding:22px;background:white;border:1px solid #dde6ea;border-radius:14px}dl{display:grid;grid-template-columns:minmax(70px,30%) minmax(0,1fr);gap:12px;margin:0;font-size:14px}dt{font-weight:700;color:#61717e}dd{margin:0;overflow-wrap:anywhere}.steps{list-style:none;counter-reset:step;padding:0;display:grid;gap:12px}.delivery-guide .steps>li{counter-increment:step;padding:20px 22px 20px 64px!important;margin-block:0!important;background:white;border:1px solid #dde6ea;border-radius:12px;position:relative}.steps li:before{content:counter(step);position:absolute;left:20px;top:24px;border-radius:50%;background:#267e89;color:white;display:grid;place-items:center;width:28px;height:28px}.steps p{margin:0}details{padding:16px 20px;border:1px solid #dde6ea;border-radius:10px;margin-bottom:10px;background:white}summary{font-weight:700;cursor:pointer}summary:focus-visible,a:focus-visible{outline:3px solid #267e89;outline-offset:3px}.related{display:flex;flex-wrap:wrap;gap:12px}.related a{background:white;border:1px solid #dde6ea;border-radius:10px;padding:12px 16px}.sources{font-size:13px;border-top:1px solid #dde6ea;padding-top:16px}.sources ul{padding-left:20px}.sources li{margin:8px 0}p{overflow-wrap:break-word}@media(max-width:600px){main{padding:24px 16px 50px}h1{font-size:27px}.intro{font-size:16px}.summary{grid-template-columns:1fr}h2{font-size:22px}.delivery-guide .steps>li{padding-left:58px!important}.steps li:before{left:16px}dl{grid-template-columns:minmax(80px,30%) minmax(0,1fr)}}
+</style>
