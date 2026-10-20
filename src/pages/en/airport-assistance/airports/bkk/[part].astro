@@ -1,0 +1,5 @@
+---
+import LocalizedBkkPage from '../../../../../components/LocalizedBkkPage.astro';
+export function getStaticPaths(){return ['map','smoking','transport','airlines'].map(part=>({params:{part},props:{part}}));}
+---
+<LocalizedBkkPage locale="en" part={Astro.props.part}/>

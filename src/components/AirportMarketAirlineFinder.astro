@@ -1,0 +1,14 @@
+---
+import {airportMarketData} from '../lib/airport-markets';
+import {assistanceCopy} from '../lib/airport-assistance-layout';
+const {locale,guide}=Astro.props,data=airportMarketData(locale),copy=assistanceCopy(locale),base=`/${locale}/airport-assistance/`;
+const ids=new Set(data.routes.map((r:any)=>r.airlineId)),airlines=data.airlines.filter((a:any)=>ids.has(a.id));
+const searchText=(a:any)=>[a.name,a.officialName,a.code,...data.routes.filter((r:any)=>r.airlineId===a.id).map((r:any)=>r.flightNumber)].filter(Boolean).join(' ').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,'');
+const isBaggage=/baggage/.test(guide.id);
+const related=(id:string)=>data.guides.filter((g:any)=>g.id!==guide.id&&g.airlineIds?.includes(id)&&(isBaggage?/baggage/.test(g.id):/certificate|confirmation|disruption|flight-evidence|redress/.test(g.id)));
+---
+<section class="market-airline-finder" data-market-airline-finder><h2>{copy.airlines}</h2><p>{copy.airlinesText}</p><label>{copy.search}<input type="search" data-market-query autocomplete="off"/></label><p role="status" data-market-empty hidden>{copy.empty}</p><div class="market-cards">{airlines.map((a:any)=><article data-market-airline-card data-search={searchText(a)}><h3>{a.name}</h3>{a.note&&<p>{a.note}</p>}{related(a.id).map((g:any)=><div class="procedure"><h4><a href={base+`guides/${g.id}/`}>{g.title} →</a></h4><p>{g.description||g.text}</p></div>)}<a href={base+`airlines/${a.id}/`}>{a.name} · {copy.open} →</a></article>)}</div><p><a href="/en/airport-assistance/" lang="en">{copy.english} · English →</a></p></section>
+<script>
+for(const root of document.querySelectorAll<HTMLElement>('[data-market-airline-finder]')){const input=root.querySelector<HTMLInputElement>('[data-market-query]')!,cards=[...root.querySelectorAll<HTMLElement>('[data-market-airline-card]')];input.addEventListener('input',()=>{const q=input.value.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,'');for(const card of cards)card.hidden=!card.dataset.search!.includes(q);root.querySelector<HTMLElement>('[data-market-empty]')!.hidden=cards.some(c=>!c.hidden);});}
+</script>
+<style>.market-airline-finder{margin:40px 0}.market-airline-finder label{display:block;font-weight:700}.market-airline-finder input{box-sizing:border-box;display:block;width:100%;min-height:52px;margin:10px 0 24px;padding:12px 16px;font:inherit;border:1px solid #b6cbd0;border-radius:10px;background:white}.market-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.market-cards article{margin:0!important;min-width:0}.market-cards h3{margin-top:0}.market-cards h4{font-size:16px}.procedure{margin:20px 0}.market-cards [hidden]{display:none!important}@media(max-width:650px){.market-cards{grid-template-columns:1fr}}</style>

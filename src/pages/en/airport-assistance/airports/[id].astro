@@ -1,0 +1,7 @@
+---
+import LocalizedBkkPage from '../../../../components/LocalizedBkkPage.astro';
+import AirportGlobalAirportPage from '../../../../components/AirportGlobalAirportPage.astro';
+export function getStaticPaths(){return ['bkk','dmk','hkt','cnx'].map(id=>({params:{id}}));}
+const id=Astro.params.id!;
+---
+{id==='bkk'?<LocalizedBkkPage locale="en"/>:<AirportGlobalAirportPage id={id}/>}

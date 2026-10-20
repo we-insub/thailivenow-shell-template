@@ -1,0 +1,37 @@
+---
+import {airportBkkUI,airportDepthUI} from '../lib/airport-depth';
+import {airportPairs} from '../lib/airport-markets';
+import {airportUI} from '../i18n/airport-ui';
+import {serviceCategory} from '../lib/airport-assistance-layout';
+import AirportPhone from './AirportPhone.astro';
+import AirportEmail from './AirportEmail.astro';
+import AirportScheduleDates from './AirportScheduleDates.astro';
+import AirportSources from './AirportSources.astro';
+const {locale,code='BKK',data}=Astro.props,ui=airportBkkUI(locale),common=airportDepthUI(locale),base=`/${locale}/airport-assistance/`;
+const services=data.services.filter((s:any)=>s.airportIata===code||s.airport?.includes(code));
+const routes=data.routes.filter((r:any)=>r.originIata===code||r.destinationIata===code);
+const pairs=airportPairs(data).filter((p:any)=>[p.other,p.thai].includes(code));
+const carrierIds=new Set(routes.map((r:any)=>r.airlineId));
+const guides=data.guides.filter((g:any)=>(!g.airportIata||g.airportIata===code)&&(!g.airlineIds?.length||g.airlineIds.some((id:string)=>carrierIds.has(id))));
+const statusLinks=[...new Map(routes.filter((r:any)=>r.flightStatusUrl).map((r:any)=>[r.airlineId,{airline:r.airline,url:r.flightStatusUrl}])).values()] as any[];
+const groups=['checkin','ticketing','office','baggage','reservation'];
+const groupFor=(s:any)=>/ticketing|billet|billetes|票务|票務|售票|発券|касс|tiket/i.test(s.type||'')&&!/check.?in|daftar|factura|值机|報到|チェックイン|регистрац/i.test(s.type||'')?'ticketing':groups[[0,2,3,4][serviceCategory(s)]];
+const faq=code==='BKK'?[1,2,3,4,5].map(n=>({q:ui[`counterQ${n}`],a:ui[`counterA${n}`]})):[];
+const sourceList=[...new Set([...services.flatMap((s:any)=>s.sources||[]),...routes.flatMap((r:any)=>r.sources||[])])];
+---
+<div class="counter-guide" data-localized-counters={locale}>
+{code==='BKK'&&<section><h2>{ui.counterTitle}</h2><p>{ui.counterIntro}</p><p>{ui.counterOrder}</p></section>}
+{code==='BKK'&&services.length===0&&<section data-counter-unrecorded><h2>{common.airlineHelp}</h2><p>{ui.counterUnrecorded}</p>{data.airlines.filter((a:any)=>carrierIds.has(a.id)).map((a:any)=><article><h3><a href={base+`airlines/${a.id}/`}>{a.name} · {ui.airlineDetail} →</a></h3>{a.note&&<p>{a.note}</p>}</article>)}</section>}
+{groups.map(group=>{
+ const entries=services.filter((s:any)=>groupFor(s)===group).sort((a:any,b:any)=>a.airline.localeCompare(b.airline,locale)||a.id.localeCompare(b.id));
+ return entries.length>0&&<section data-counter-group={group}><h2>{ui[group+'Title']}</h2><p>{ui[group+'Intro']}</p>{group==='checkin'&&<p class="reading-note">{ui.recordsNote}</p>}{entries.map((s:any)=><article id={s.id} data-counter-service={s.id}><h3>{s.airline}</h3><p>{s.type}</p><dl>{s.location&&<div><dt>{ui.location}</dt><dd><strong>{s.location}</strong></dd></div>}{s.hours&&<div><dt>{ui.hours}</dt><dd>{s.hours}</dd></div>}</dl>{s.text&&<p>{s.text}</p>}{s.phone&&<><h4>{ui.phone}</h4><AirportPhone phone={s.phone}/></>}{s.email&&<><h4>{ui.email}</h4><AirportEmail email={s.email}/></>}{group==='checkin'&&routes.some((r:any)=>r.originIata===code&&r.airlineId===s.airlineId)&&<div><h4>{ui.departures}</h4><ul>{routes.filter((r:any)=>r.originIata===code&&r.airlineId===s.airlineId).map((r:any)=><li><a href={base+`routes/${r.id}/`}>{r.flightNumber||r.airline} · {r.originIata} → {r.destinationIata}</a><AirportScheduleDates route={r} locale={locale} compact={true}/></li>)}</ul></div>}{data.airlines.some((a:any)=>a.id===s.airlineId)&&<a href={base+`airlines/${s.airlineId}/`}>{ui.airlineDetail} →</a>}{s.checkedAt&&<p class="source-date">{common.sourceDate}: <time datetime={s.checkedAt}>{s.checkedAt}</time></p>}</article>)}</section>;
+})}
+{faq.length>0&&<section><h2>{ui.counterFAQTitle}</h2>{faq.map(f=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>}
+{routes.length>0&&<details><summary>{ui.routeRecords} · {routes.length}</summary><p>{ui.recordsNote}</p><ul>{routes.map((r:any)=><li><a href={base+`routes/${r.id}/`}>{r.originIata} → {r.destinationIata} · {r.flightNumber||r.airline}</a></li>)}</ul></details>}
+{pairs.length>0&&<details><summary>{ui.pairs} · {pairs.length}</summary><ul>{pairs.map((p:any)=><li><a href={base+`pairs/${p.id}/`}>{p.other} ↔ {p.thai}</a></li>)}</ul></details>}
+{statusLinks.length>0&&<details><summary>{airportUI[locale][20]}</summary><ul>{statusLinks.map((r:any)=><li><a href={r.url} target="_blank" rel="noopener noreferrer">{r.airline} · {airportUI[locale][20]} ↗</a></li>)}</ul></details>}
+{guides.length>0&&<details><summary>{common.airlineHelp} · {guides.length}</summary>{guides.map((g:any)=><article><h3><a href={base+`guides/${g.id}/`}>{g.title} →</a></h3>{(g.description||g.text)&&<p>{g.description||g.text}</p>}</article>)}</details>}
+<p>{ui.sourceNote}</p><AirportSources locale={locale} sources={sourceList}/>
+</div>
+{faq.length>0&&<script type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faq.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}).replaceAll('<','\\u003c')}/>}
+<style>.counter-guide section{margin:40px 0}.counter-guide p{line-height:1.9}.counter-guide h3{font-size:22px}.counter-guide article{padding:26px!important}.counter-guide dl>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:18px;padding:12px 0;border-bottom:1px solid #e5ecef}.counter-guide dd{margin:0;overflow-wrap:anywhere}.counter-guide h4{font-size:15px;margin:24px 0 10px}.source-date{font-size:12px}.reading-note{font-size:13px;background:#edf4f5;padding:14px 18px;border-radius:8px}.counter-guide li{margin:10px 0}@media(max-width:650px){.counter-guide article{padding:20px!important}.counter-guide dl>div{grid-template-columns:1fr;gap:4px}}</style>

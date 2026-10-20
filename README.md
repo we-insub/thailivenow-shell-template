@@ -10,6 +10,8 @@
 
 연관 페이지·HTML을 생성·수정할 때는 [연관 페이지 연결·생성 검수 계약](docs/INTERNAL-LINKING-CONTRACT.md)을 필수 적용한다. 새 상세와 기존 상위·관련 페이지의 실제 링크를 같은 작업에서 반영·검수한다. 다른 PC에서도 이 저장소의 AGENTS와 계약을 정본으로 사용한다.
 
+신규 상세 생성·기존 상세 수정·언어 확장 전에는 [상세 저자·공개 날짜·공유 이미지 제작 계약](docs/detail-editorial-policy.md) 전체를 필수 적용한다. 공통 생성 경로·신규 상세 경로 판정·실제 확인일 보존·공유 사진 근거·미확보 목록·전체 언어 HTML/PC/모바일 검수까지 포함하며, 과거 공개 배포일 표시 지시를 다시 적용하지 않는다.
+
 ## 새 컴퓨터 설치·실행
 
 Git, Node.js 24.13.0, npm 11.6.2와 npm 레지스트리 인터넷 접근이 필요하다. nvm 사용자는 다음 순서로 실행한다. 다른 Node 설치 도구도 같은 버전을 선택하면 된다.
@@ -40,7 +42,7 @@ node scripts/audit-site-design.mjs dist
 npm run check:runtime
 ```
 
-`build`는 SEO 테스트·Astro 전체 빌드·SEO 감사 후 날짜 테스트·데이터 생성·날짜 표식 준비·날짜 감사를 실행한다. 생성되는 `public/data/site-dates.json`, `dist`, `artifacts`는 Git에서 제외한다. 날짜는 추적된 실제 기록과 기존 고정 기준에서 만들며 로컬 생성은 운영 배포를 의미하지 않는다. `check:runtime`은 고정 버전 Wrangler 4.151.0을 npx로 받아 실제 Pages 로컬 서버에서 11개 언어 HTML·날짜·자산·preview noindex를 검사하고 종료한다. 최초 실행에는 다운로드가 필요하다.
+`build`는 SEO 테스트·Astro 전체 빌드·SEO 감사 후 날짜 테스트·데이터 생성·날짜 표식 준비·날짜 감사·공유 이미지 근거 카탈로그 검사·전체 상세 편집 정책 감사를 실행한다. 생성되는 `public/data/site-dates.json`, `dist`, `artifacts`는 Git에서 제외한다. 날짜는 추적된 실제 기록과 기존 고정 기준에서 만들며 로컬 생성은 운영 배포를 의미하지 않는다. `check:runtime`은 고정 버전 Wrangler 4.151.0을 npx로 받아 실제 Pages 로컬 서버에서 11개 언어 HTML·날짜·자산·preview noindex를 검사하고 종료한다. 최초 실행에는 다운로드가 필요하다.
 
 ## 별도 준비가 필요한 작업
 

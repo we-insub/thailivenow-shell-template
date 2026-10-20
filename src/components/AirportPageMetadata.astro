@@ -1,13 +1,13 @@
 ---
-import {isKoreanAirportGuide} from '../lib/airport-guide-navigation.mjs';
+import {isThaiAirportGuide,thaiAirportHome,thaiAirportLabels} from '../lib/airport-guide-navigation.mjs';
 import {airportUI} from '../i18n/airport-ui';
 const {title,description,locale='ko',lang='ko-KR',parentUrl,parentLabel}=Astro.props;
 const base=Astro.site||Astro.url;
 const canonical=new URL(Astro.url.pathname,base).href;
-const airportGuide=locale==='ko'&&isKoreanAirportGuide(Astro.url.pathname);
-const hub=new URL(airportGuide?'/ko/airports/':`/${locale}/airport-assistance/`,base).href;
+const airportGuide=isThaiAirportGuide(Astro.url.pathname);
+const hub=new URL(airportGuide?thaiAirportHome(locale):`/${locale}/airport-assistance/`,base).href;
 const parent=parentUrl?new URL(parentUrl,base).href:null;
-const crumbs=[{name:airportGuide?'태국 공항':parent?(locale==='ko'?'지연·결항·수하물 대응 안내':airportUI[locale]?.[0]||'ThaiLiveNow'):'ThaiLiveNow',item:hub},...(parent&&parent!==hub?[{name:parentLabel,item:parent}]:[]),{name:title,item:canonical}];
+const crumbs=[{name:airportGuide?thaiAirportLabels[locale]:parent?(locale==='ko'?'지연·결항·수하물 대응 안내':airportUI[locale]?.[0]||'ThaiLiveNow'):'ThaiLiveNow',item:hub},...(parent&&parent!==hub?[{name:parentLabel,item:parent}]:[]),{name:title,item:canonical}];
 const schema={
   '@context':'https://schema.org',
   '@type':'WebPage',

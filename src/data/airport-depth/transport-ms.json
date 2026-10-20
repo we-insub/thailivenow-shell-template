@@ -1,0 +1,339 @@
+{
+  "name": "Dari Lapangan Terbang Suvarnabhumi ke pusat bandar Bangkok",
+  "title": "Suvarnabhumi ke Bangkok: tren lapangan terbang, teksi, Grab dan pengambilan",
+  "intro": "Pilih pengangkutan berdasarkan lokasi hotel dan jumlah bagasi. Jika hotel berdekatan stesen, naik Airport Rail Link (ARL) dari B1. Dengan beberapa beg besar atau ketibaan lewat malam, teksi atau Grab boleh membawa anda terus ke hotel. Semak peta pertukaran dahulu, kemudian bandingkan tempat menaiki dan kos di bawah.",
+  "sections": [
+    {
+      "title": "Selepas ketibaan: tempat menaiki mengikut tingkat",
+      "paragraphs": [],
+      "table": {
+        "headers": [
+          "Tingkat",
+          "Pengangkutan",
+          "Tempat dituju",
+          "Cara menggunakan"
+        ],
+        "rows": [
+          [
+            "Bawah tanah B1",
+            "Airport Rail Link",
+            "Ikut tanda Airport Rail Link ke stesen lapangan terbang",
+            "Tukar ke MRT di Makkasan atau BTS di Phaya Thai"
+          ],
+          [
+            "Tingkat 1",
+            "Teksi awam biasa atau besar",
+            "Jalan dalam di antara Door 4–7 · mesin tiket Public Taxi",
+            "Pilih kenderaan mengikut penumpang dan bagasi, kemudian ambil nombor"
+          ],
+          [
+            "Tingkat 1",
+            "Grab",
+            "Jalan luar Door 4 · Grab Pick-up Point",
+            "Tempah melalui aplikasi dan pergi ke kawasan ditetapkan"
+          ],
+          [
+            "Tingkat 2 ketibaan",
+            "AOT Limousine atau pengambilan ditempah",
+            "Kaunter AOT atau tempat pertemuan dalam pengesahan",
+            "Semak tingkat, Door dan arahan pertemuan penyedia"
+          ],
+          [
+            "Tingkat 1",
+            "Bas Pattaya dan van sewa khas",
+            "Kaunter berhampiran Door 8",
+            "Bezakan perjalanan pusat Bangkok daripada Pattaya"
+          ],
+          [
+            "Lokasi ditetapkan aplikasi",
+            "Bolt",
+            "Tingkat dan Door pada skrin tempahan",
+            "Jika ditetapkan tingkat 4, ikut tanda Departures"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Airport Rail Link: stesen, tambang dan masa perjalanan",
+      "paragraphs": [
+        "ARL menuju ke bandar tanpa terjejas kesesakan jalan raya. Perjalanan dalam tren ke stesen akhir Phaya Thai mengambil kira-kira 26–30 minit; masa membeli tiket dan menunggu tren tidak termasuk. Tambahkan masa pertukaran dan berjalan ke hotel.",
+        "Waktu operasi yang diumumkan ialah 05:30–24:00. Jika tiba lewat malam, ambil kira imigresen dan pengambilan bagasi sebelum memutuskan sama ada sempat menaikinya. Waktu tren terakhir boleh berbeza mengikut stesen."
+      ],
+      "table": {
+        "headers": [
+          "Stesen dari lapangan terbang",
+          "Tambang rujukan seorang",
+          "Masa dalam tren",
+          "Perjalanan seterusnya"
+        ],
+        "rows": [
+          [
+            "Makkasan",
+            "35 baht",
+            "Kira-kira 22–25 minit",
+            "Berjalan melalui laluan penghubung ke MRT Phetchaburi"
+          ],
+          [
+            "Ratchaprarop",
+            "40 baht",
+            "Kira-kira 25 minit",
+            "Kawasan Pratunam · berjalan atau menaiki kenderaan ke hotel"
+          ],
+          [
+            "Phaya Thai",
+            "45 baht",
+            "Kira-kira 26–30 minit",
+            "Tukar ke BTS Laluan Sukhumvit"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Semua 8 stesen ARL dan panduan menaiki",
+          "/ko/transport/airports/airport-rail-link/"
+        ]
+      ]
+    },
+    {
+      "title": "Lihat laluan rel dan pertukaran bandar pada peta",
+      "paragraphs": []
+    },
+    {
+      "title": "Pilih stesen pertukaran mengikut kawasan hotel",
+      "paragraphs": [
+        "Ke Asok atau Silom, turun di Makkasan dan berjalan melalui laluan penghubung ke MRT Phetchaburi. Ke Siam, tukar ke BTS di Phaya Thai. ARL, MRT dan BTS menggunakan tiket serta tambang berasingan.",
+        "Tambang MRT di bawah menggunakan asas tiket dewasa sehala dan laluan pendek dalam kalkulator rasmi BEM. Masa perjalanan hanya menjumlahkan masa dalam tren; berjalan antara stesen, menunggu dan perjalanan dari stesen akhir ke hotel tidak termasuk."
+      ],
+      "table": {
+        "headers": [
+          "Destinasi",
+          "Laluan pertukaran",
+          "Tambang dewasa mengikut bahagian",
+          "Jumlah",
+          "Masa dalam tren · tanpa menunggu dan berjalan"
+        ],
+        "rows": [
+          [
+            "Asok / Terminal 21",
+            "ARL Makkasan → MRT Phetchaburi → Sukhumvit",
+            "ARL 35 + MRT 17 baht",
+            "52 baht",
+            "ARL kira-kira 22–25 min + MRT 2 min = 24–27 min"
+          ],
+          [
+            "Silom",
+            "ARL Makkasan → MRT Phetchaburi → Si Lom",
+            "ARL 35 + MRT 27 baht",
+            "62 baht",
+            "ARL kira-kira 22–25 min + MRT 10 min = 32–35 min"
+          ],
+          [
+            "Wat Pho / kawasan Grand Palace",
+            "ARL Makkasan → MRT Phetchaburi → Sanam Chai",
+            "ARL 35 + MRT 39 baht",
+            "74 baht",
+            "ARL kira-kira 22–25 min + MRT 19 min = 41–44 min"
+          ],
+          [
+            "Siam",
+            "ARL Phaya Thai → BTS Sukhumvit arah Kheha → Siam",
+            "ARL 45 baht + tambang BTS berasingan",
+            "Tambah tambang mesin tiket atau kalkulator rasmi BTS",
+            "ARL kira-kira 26–30 min + 2 stesen BTS"
+          ],
+          [
+            "Khao San",
+            "Bandingkan S1, teksi dan e-panggilan",
+            "Mengikut perkhidmatan dipilih",
+            "Sahkan harga akhir sebelum menaiki",
+            "Tiada stesen ARL terus"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Laluan dan butiran stesen Bangkok",
+          "/ko/transport/bangkok/"
+        ],
+        [
+          "Kalkulator rasmi tambang dan masa MRT",
+          "https://metro.bemplc.co.th/Fare-Calculation?lang=EN"
+        ],
+        [
+          "Kalkulator rasmi tambang dan masa BTS",
+          "https://www.bts.co.th/eng/routemap.html"
+        ]
+      ]
+    },
+    {
+      "title": "Naik teksi biasa atau teksi besar dari tingkat 1",
+      "paragraphs": [
+        "Turun ke kawasan Public Taxi di antara Door 4–7. Jika memerlukan kenderaan besar, semak barisan serta arahan mengambil nombor, kemudian tanya sama ada penumpang dan beg anda muat sebelum menaiki."
+      ],
+      "table": {
+        "headers": [
+          "Langkah",
+          "Tindakan",
+          "Perkara disemak"
+        ],
+        "rows": [
+          [
+            "1 · Pilih kenderaan",
+            "Semak maklumat teksi biasa/besar",
+            "Beritahu bilangan penumpang, beg dan kanak-kanak"
+          ],
+          [
+            "2 · Ambil nombor",
+            "Ambil tiket daripada mesin",
+            "Pergi ke lorong yang tercetak pada tiket"
+          ],
+          [
+            "3 · Berikan destinasi",
+            "Tunjukkan alamat dan peta hotel",
+            "Jelaskan pusat Bangkok atau perjalanan jauh seperti Pattaya"
+          ],
+          [
+            "4 · Semak kos sebelum bergerak",
+            "Sahkan meter, lebuh raya dan caj tambahan",
+            "Tanya tentang tol, caj lapangan terbang dan bagasi"
+          ],
+          [
+            "5 · Bayar apabila tiba",
+            "Jelaskan tambang meter dan caj berasingan",
+            "Sediakan tunai serta wang kecil; jangan bayar tol yang sama dua kali"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Bagaimanakah tambang teksi dikira?",
+      "paragraphs": [
+        "Bagi teksi awam lapangan terbang, jumlah pada meter bukan keseluruhan bil. Caj tambahan lapangan terbang sebanyak 50 baht dikenakan pada teksi biasa lapangan terbang; tol bagi lebuh raya yang digunakan ditanggung penumpang.",
+        "Contohnya, melalui kedua-dua plaza tol 25 baht dan 50 baht menjadikan jumlah tol 75 baht. Bagi laluan itu, tambah caj lapangan terbang 50 baht dan tol 75 baht — jumlah 125 baht — pada meter. Tol berubah jika menggunakan jalan biasa atau laluan lain.",
+        "Sediakan wang tunai baht dan wang kecil. Jika tol dibayar semasa perjalanan, pastikan ia tidak dicaj sekali lagi di destinasi. Dengan beberapa beg besar, tanya caj bagasi sebelum memuatkannya."
+      ],
+      "table": {
+        "headers": [
+          "Jenis kos",
+          "Jumlah atau asas",
+          "Bayaran dan semakan"
+        ],
+        "rows": [
+          [
+            "Tambang meter",
+            "Mengikut jenis kenderaan, jarak dan trafik",
+            "Pastikan meter dihidupkan semasa bertolak"
+          ],
+          [
+            "Caj lapangan terbang",
+            "50 baht",
+            "Bayar kepada pemandu teksi awam lapangan terbang · berasingan daripada tol"
+          ],
+          [
+            "Tol",
+            "Bahagian digunakan · laluan 25 + 50 berjumlah 75 baht",
+            "Ditanggung penumpang · sediakan tunai dan catat tol dibayar"
+          ],
+          [
+            "Caj bagasi",
+            "Mungkin dikenakan mengikut saiz/bilangan",
+            "Tanya jumlah sebelum memuatkan beberapa beg besar"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Panduan teksi terperinci",
+          "/ko/transport/guides/taxi/"
+        ]
+      ]
+    },
+    {
+      "title": "Adakah tol dikecualikan semasa Songkran?",
+      "paragraphs": [
+        "Pengecualian tol hanya terpakai jika jalan dan tarikh sepadan dengan pengumuman. Notis kerajaan 2026 menetapkan 10–16 April bagi laluan utama termasuk M7, dan 13–15 April bagi beberapa lebuh raya di pusat Bangkok.",
+        "Bukan semua jalan percuma sepanjang Songkran. Semak pengumuman bagi tahun perjalanan serta jalan sebenar yang digunakan. Caj teksi lapangan terbang 50 baht adalah berasingan daripada tol."
+      ]
+    },
+    {
+      "title": "Pengambilan tingkat 2, limosin dan perjalanan ke Pattaya",
+      "paragraphs": [
+        "Kaunter AOT Limousine berada di tingkat 2 dalam kawasan ketibaan domestik dan antarabangsa. Beritahu destinasi, bilangan penumpang dan keperluan bagasi untuk membandingkan jenis kenderaan serta sebut harga.",
+        "Jika menempah pengambilan hotel atau syarikat pemindahan, semak tempat pertemuan dan papan nama pada pengesahan. Semak juga tempoh menunggu serta cara menghubungi jika penerbangan lewat, sama ada tol termasuk, dan syarat kerusi kanak-kanak serta bagasi.",
+        "Untuk terus ke Pattaya, jelaskan bahawa destinasi itu perjalanan jauh, bukannya pusat Bangkok, dan sahkan jumlah keseluruhan serta sama ada tol termasuk. Kaunter bas Pattaya dan kenderaan sewa khas juga terdapat berhampiran Door 8 di tingkat 1."
+      ]
+    },
+    {
+      "title": "Di manakah tempat menaiki Grab atau Bolt?",
+      "paragraphs": [
+        "Kawasan pengambilan Grab berada di jalan luar berhampiran Door 4, tingkat 1. Tempah dalam aplikasi, kemudian pergi ke kawasan ditetapkan. Padankan nombor pendaftaran dan maklumat pemandu dengan aplikasi sebelum masuk.",
+        "Bagi Bolt, semak tingkat dan Door dalam skrin tempahan serta arahan pemandu. Jika ditetapkan tingkat 4 pelepasan, ikut papan tanda Departures dari tingkat 2 ketibaan. Bukan semua pengambilan di tingkat 4; ikut arahan semasa aplikasi dan lapangan terbang.",
+        "Semak harga dan kaedah bayaran bagi perkhidmatan yang dipilih. Jangan terus menambah tambang meter atau caj 50 baht teksi awam pada semua kenderaan yang ditempah melalui aplikasi."
+      ]
+    },
+    {
+      "title": "Jika penerbangan seterusnya berlepas dari Don Mueang",
+      "paragraphs": [
+        "BKK dan DMK ialah lapangan terbang berlainan. Jika penerbangan seterusnya dari DMK, gunakan panduan pemindahan antara lapangan terbang, bukannya arahan menuju pusat Bangkok."
+      ],
+      "links": [
+        [
+          "Pemindahan Suvarnabhumi–Don Mueang",
+          "/ko/transport/airports/suvarnabhumi-don-mueang/"
+        ]
+      ]
+    }
+  ],
+  "faq": [
+    [
+      "Di tingkat berapakah Airport Rail Link?",
+      "Naik dari B1 di bawah tanah terminal utama Suvarnabhumi. Tukar ke MRT di Makkasan atau BTS di Phaya Thai."
+    ],
+    [
+      "Adakah caj teksi 50 baht sama dengan tol 75 baht?",
+      "Berasingan. 50 baht ialah caj teksi awam lapangan terbang; 75 baht ialah contoh laluan melalui kedua-dua bahagian tol 25 dan 50 baht."
+    ],
+    [
+      "Bagaimana bertukar dari Makkasan ke MRT?",
+      "Turun dari ARL dan berjalan melalui laluan penghubung ke MRT Phetchaburi. Tiket dan tambang MRT berasingan."
+    ],
+    [
+      "Adakah Bolt sentiasa mengambil penumpang di tingkat 4?",
+      "Semak tingkat dan Door dalam aplikasi. Jika tingkat 4 pelepasan ditetapkan, pergi ke sana dan ikut arahan lapangan terbang."
+    ]
+  ],
+  "sources": [
+    [
+      "AOT: tingkat pengangkutan dan ulang-alik",
+      "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+    ],
+    [
+      "AOT: caj teksi awam dan tol",
+      "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304"
+    ],
+    [
+      "AOT: tempat pengambilan Grab",
+      "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+    ],
+    [
+      "Tourism Authority of Thailand: waktu ARL, pertukaran dan teksi",
+      "https://www.thailandtravel.or.jp/bkk-city-transfer/"
+    ],
+    [
+      "Panduan pengangkutan SRT: jadual tambang ARL",
+      "https://railway.co.th/RailwayMiddleFile/NewsAndActImg/63/G08.pdf"
+    ],
+    [
+      "BEM: tol rasmi mengikut bahagian",
+      "https://expressway.bemplc.co.th/Rate?id=1"
+    ],
+    [
+      "Kerajaan Thailand: notis pengecualian tol Songkran 2026",
+      "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/493484"
+    ],
+    [
+      "Kalkulator BEM: dewasa/laluan pendek BL21→BL22, BL26, BL31",
+      "https://metro.bemplc.co.th/Fare-Calculation?lang=EN"
+    ]
+  ]
+}

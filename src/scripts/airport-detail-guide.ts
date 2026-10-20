@@ -3,6 +3,8 @@ type FloorMap={id:string;label:string;image:string};
 type FacilityPin={id:string;mapId:string;x:number;y:number;label:string;detail:string};
 document.querySelectorAll<HTMLElement>('[data-airport-korean-guide]').forEach(guide=>{
  const map=guide.querySelector<HTMLElement>('[data-guide-map]');if(!map)return;
+ const mapCopy=JSON.parse(map.dataset.mapCopy||'{}');
+ const facilityCopy=JSON.parse(guide.dataset.facilityCopy||'{}');
  const maps=JSON.parse(map.dataset.mapOptions||'[]') as FloorMap[];
  const pins=JSON.parse(map.dataset.mapPins||'[]') as FacilityPin[];
  const select=map.querySelector<HTMLSelectElement>('[data-floor-select]')!;
@@ -33,10 +35,10 @@ document.querySelectorAll<HTMLElement>('[data-airport-korean-guide]').forEach(gu
  viewport.addEventListener('keydown',event=>{if(event.target!==viewport)return;const center={x:view.width/2,y:view.height/2};if(['+','=','-','_'].includes(event.key)){event.preventDefault();view=zoomMap(view,view.scale*(['-','_'].includes(event.key)?.8:1.25),center);}else if(event.key==='Home'){event.preventDefault();reset();return;}else if(event.key.startsWith('Arrow')){event.preventDefault();view=constrainMap({...view,x:view.x+(event.key==='ArrowLeft'?50:event.key==='ArrowRight'?-50:0),y:view.y+(event.key==='ArrowUp'?50:event.key==='ArrowDown'?-50:0)});}else return;render();});
  function showMap(pinId?:string){
   const floor=maps.find(m=>m.id===select.value);if(!floor)return;
-  image.src=floor.image;image.alt=`${floor.label} 공식 층별 지도`;
+  image.src=floor.image;image.alt=mapCopy.alt?mapCopy.alt.replace('{label}',floor.label):`${floor.label} 공식 층별 지도`;
   layer.replaceChildren();
   pins.filter(p=>p.mapId===floor.id).forEach((p,i)=>{const button=document.createElement('button');button.type='button';button.className='map-pin';button.style.left=p.x+'%';button.style.top=p.y+'%';button.textContent=String(i+1);button.setAttribute('aria-label',`${p.label}: ${p.detail}`);button.title=p.label;button.addEventListener('click',()=>description.textContent=p.label+' · '+p.detail);layer.append(button);});
-  const pin=pins.find(p=>p.id===pinId);description.textContent=pin?pin.label+' · '+pin.detail:floor.label+' 지도예요.';
+  const pin=pins.find(p=>p.id===pinId);description.textContent=pin?pin.label+' · '+pin.detail:(mapCopy.status?mapCopy.status.replace('{label}',floor.label):floor.label+' 지도예요.');
   reset();
  }
  select.addEventListener('change',()=>showMap());
@@ -48,6 +50,6 @@ document.querySelectorAll<HTMLElement>('[data-airport-korean-guide]').forEach(gu
  const count=guide.querySelector<HTMLElement>('[data-facility-count]')!;
  if(!search||!floorFilter||!category||!count)return;
  const rows=[...guide.querySelectorAll<HTMLElement>('[data-facility-row]')];
- function filter(){const query=search.value.trim().toLowerCase().replace(/\s/g,'');let total=0;for(const row of rows){row.hidden=!!((floorFilter.value&&row.dataset.mapId!==floorFilter.value)||(category.value&&row.dataset.category!==category.value)||!row.dataset.search?.includes(query));if(!row.hidden)total++;}count.textContent=total?`${total}개 시설 항목이 있어요.`:'해당 조건의 등록 시설이 없어요. 공항에 시설이 없다는 뜻은 아니에요.';}
+ function filter(){const query=search.value.trim().toLowerCase().replace(/\s/g,'');let total=0;for(const row of rows){row.hidden=!!((floorFilter.value&&row.dataset.mapId!==floorFilter.value)||(category.value&&row.dataset.category!==category.value)||!row.dataset.search?.includes(query));if(!row.hidden)total++;}count.textContent=total?(facilityCopy.count?facilityCopy.count.replace('{n}',String(total)):`${total}개 시설 항목이 있어요.`):(facilityCopy.empty||'해당 조건의 등록 시설이 없어요. 공항에 시설이 없다는 뜻은 아니에요.');}
  search.addEventListener('input',filter);floorFilter.addEventListener('change',filter);category.addEventListener('change',filter);filter();showMap();
 });

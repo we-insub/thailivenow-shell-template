@@ -1,4 +1,5 @@
 ---
+import AirportMarketAirlineFinder from './AirportMarketAirlineFinder.astro';
 import AirportAirlineFinder from './AirportAirlineFinder.astro';
 import {airportMarketData} from '../lib/airport-markets';
 import {airportUI} from '../i18n/airport-ui';
@@ -14,11 +15,5 @@ const related=(airlineId:string)=>data.guides.filter((item:any)=>item.id!==guide
 ));
 ---
 {show&&locale==='ko'&&<AirportAirlineFinder incident={/baggage/.test(guide.id)?'baggage':guide.id==='insurance-claim'?'all':'flight'}/>}
-{show&&locale!=='ko'&&airlines.length>0&&<section aria-label={airportUI[locale][6]}>
-  <h2>{airportUI[locale][6]}</h2>
-  <ul>{airlines.map((airline:any)=><li>
-    <a href={`/${locale}/airport-assistance/airlines/${airline.id}/`}>{airline.name} →</a>
-    {related(airline.id).length>0&&<ul>{related(airline.id).map((item:any)=><li><a href={`/${locale}/airport-assistance/guides/${item.id}/`}>{item.title} →</a></li>)}</ul>}
-  </li>)}</ul>
-</section>}
+{show&&locale!=='ko'&&airlines.length>0&&<AirportMarketAirlineFinder locale={locale} guide={guide}/>}
 <style>ul{padding-left:1.3rem}li{margin:.65rem 0}li ul{margin-top:.3rem}</style>

@@ -13,3 +13,6 @@ test('airport navigation does not capture disruptions, unrelated transport, or o
 test('retained airport guide URLs keep their airport navigation instead of disruptions',()=>{
  for(const id of ['late-arrival-suvarnabhumi','late-arrival-don-mueang','late-arrival-phuket','late-arrival-chiang-mai','find-airline-counter','daegu-bangkok-timetable'])assert.equal(isKoreanAirportGuide(`/ko/airport-assistance/guides/${id}/`),true);
 });
+
+import {airportLocales,isThaiAirportGuide,thaiAirportHome,thaiAirportLanguagePaths} from '../src/lib/airport-guide-navigation.mjs';
+test('Thai-airport navigation and language switches cover all eleven languages without capturing country departure airports',()=>{for(const locale of airportLocales){assert.ok(isThaiAirportGuide(thaiAirportHome(locale)));for(const code of ['bkk','dmk','hkt','cnx']){const p=`/${locale}/airport-assistance/airports/${code}/`;assert.ok(isThaiAirportGuide(p));for(const target of airportLocales)assert.equal(thaiAirportLanguagePaths(p)[target],`/${target}/airport-assistance/airports/${code}/`);}assert.equal(isThaiAirportGuide(`/${locale}/airport-assistance/airports/lax/`),false);assert.equal(thaiAirportLanguagePaths(thaiAirportHome(locale)).ko,'/ko/airports/');}});

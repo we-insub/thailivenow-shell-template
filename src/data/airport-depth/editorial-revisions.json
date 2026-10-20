@@ -1,0 +1,180 @@
+{
+  "ms": [
+    {
+      "section": "airlines",
+      "id": "airasia-malaysia",
+      "path": "sections.0.text",
+      "from": "13 Oktober 2026. Waktu tempatan; blok jadual, bukan masa udara sebenar. Label tanpa henti belum disahkan.",
+      "to": "13 Oktober 2026. Waktu ini ialah waktu tempatan. Tempoh perjalanan mengikut jadual berbeza daripada masa sebenar pesawat di udara. Status tanpa henti belum disahkan."
+    },
+    {
+      "section": "airlines",
+      "id": "thai-airasia",
+      "path": "sections.0.text",
+      "from": "Thai AirAsia, 13 Oktober 2026. Waktu tempatan; blok jadual, bukan masa udara sebenar.",
+      "to": "Thai AirAsia, 13 Oktober 2026. Waktu ini ialah waktu tempatan. Tempoh perjalanan mengikut jadual berbeza daripada masa sebenar pesawat di udara."
+    },
+    {
+      "section": "airlines",
+      "id": "airasia-malaysia",
+      "path": "note",
+      "from": "AK.",
+      "to": "AK ialah kod AirAsia Berhad (Malaysia). Pilih panduan bagasi rosak atau lewat tiba mengikut masalah anda."
+    }
+  ],
+  "ja": [
+    {
+      "section": "guides",
+      "id": "thai-flight-certificate",
+      "path": "sections.1.text",
+      "from": "到着が予定時刻より15分を超えて遅れた場合が対象です — ちょうど15分は含まれません。",
+      "to": "到着が予定時刻より15分を超えて遅れた場合が対象です。ちょうど15分は含まれません。"
+    },
+    {
+      "section": "guides",
+      "id": "thai-flight-certificate",
+      "path": "sections.6.text",
+      "from": "この証明書は保険請求の裏付け書類として使える場合があります — 使えるかどうかはご契約の保険商品の約款によります。CAAT 101に基づく旅客の権利は、お使いの言語のCAATガイドをご覧ください。",
+      "to": "この証明書は保険請求の裏付け書類として使える場合があります。利用できるかどうかはご契約の保険商品の約款によります。CAAT 101に基づく旅客の権利は、お使いの言語のCAATガイドをご覧ください。"
+    },
+    {
+      "section": "guides",
+      "id": "thai-flight-certificate",
+      "path": "faq.1.a",
+      "from": "なりません。条件は到着が予定時刻より15分を超えることで — ちょうど15分は含まれません。",
+      "to": "なりません。条件は到着が予定時刻より15分を超えることです。ちょうど15分は含まれません。"
+    }
+  ],
+  "zh-tw": [
+    {
+      "section": "guides",
+      "id": "thai-flight-certificate",
+      "path": "sections.6.text",
+      "from": "本證明可用作保險理賠的支持文件——是否被接受取決於您的保險產品條款。CAAT 101項下的乘客權利請參閱您所用語言的CAAT指南。",
+      "to": "本證明可用作保險理賠的佐證文件，能否採用仍依您投保的保險條款決定。CAAT 101項下的乘客權利請參閱您所用語言的CAAT指南。"
+    }
+  ],
+  "en-in": [
+    {
+      "section": "routes",
+      "id": "ai2336-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2355-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2332-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2304-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2333-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2356-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2335-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2303-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2354-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2353-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2376-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "routes",
+      "id": "ai2377-20261013",
+      "path": "durationNote",
+      "from": "Scheduled block; actual airborne time unverified.",
+      "to": "The duration follows the published schedule. The actual time from take-off to landing has not been verified."
+    },
+    {
+      "section": "airlines",
+      "id": "indigo",
+      "path": "sections.3.text",
+      "from": "Times are airport-local scheduled block; actual airborne time remains unverified.",
+      "to": "Departure and arrival times use each airport’s local time. The duration follows the published schedule; actual take-off-to-landing time has not been verified."
+    },
+    {
+      "section": "airlines",
+      "id": "thai-airways",
+      "path": "sections.0.text",
+      "from": "Times are local and verified for 13 October departures only. Durations are scheduled block times; actual airborne times remain unverified.",
+      "to": "Times use each airport’s local time and were verified only for departures on 13 October. Durations follow the published schedule; actual take-off-to-landing times have not been verified."
+    },
+    {
+      "section": "airlines",
+      "id": "air-india-express",
+      "path": "sections.1.text",
+      "from": "The duration is the scheduled block time displayed in the booking result.",
+      "to": "The duration is the scheduled journey time shown in the booking result."
+    },
+    {
+      "section": "airlines",
+      "id": "air-india-express",
+      "path": "faq.1.a",
+      "from": "The displayed duration is scheduled block time.",
+      "to": "The displayed duration follows the flight schedule, rather than a measurement of time in the air."
+    }
+  ],
+  "ru": [
+    {
+      "section": "guides",
+      "id": "aeroflot-svo-baggage",
+      "path": "faq.1.a",
+      "from": "Нет, он относится к Шереметьево. Аэропорт Пхукета указывает офис PB104 в здании парковки без телефона и часов работы.",
+      "to": "Нет, этот телефон относится к Шереметьево, а не к офису в Пхукете. В сохранённых материалах по Пхукету указан офис PB104 в здании парковки. Офис авиакомпании и служба розыска багажа — разные пункты обращения; их контакты и часы работы нельзя подменять друг другом."
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 ---
+import {isThaiAirportGuide,thaiAirportHome,thaiAirportLabels} from '../lib/airport-guide-navigation.mjs';
 import SiteFooter from './SiteFooter.astro';
 import AirportPageMetadata from './AirportPageMetadata.astro';
 import AirportKoreanReview from './AirportKoreanReview.astro';
@@ -10,7 +11,8 @@ const {market,title,description}=Astro.props;
 const t=airportUI[market.locale];
 const copy=assistanceCopy(market.locale),base=`/${market.locale}/airport-assistance/`,path=Astro.url.pathname;
 const airportCode=path.match(/\/airports\/([^/]+)\/$/)?.[1]?.toUpperCase();
-const directory=path.match(/\/airlines\/[^/]+\/$/)?{url:base+'airlines/',label:copy.airlines}:airportCode?{url:base+(departureAirportCodes(airportMarketData(market.locale)).includes(airportCode)?'departure-airports/':'airports/'),label:departureAirportCodes(airportMarketData(market.locale)).includes(airportCode)?copy.departures:copy.thaiAirports}:path.match(/\/(routes|pairs)\/[^/]+\/$/)?{url:base+'flights/',label:copy.flights}:null;
+const airportGuide=isThaiAirportGuide(path),airportHub=path===thaiAirportHome(market.locale);
+const directory=airportGuide?{url:airportHub?`/${market.locale}/`:thaiAirportHome(market.locale),label:airportHub?'ThaiLiveNow':thaiAirportLabels[market.locale]}:path.match(/\/airlines\/[^/]+\/$/)?{url:base+'airlines/',label:copy.airlines}:airportCode?{url:base+(departureAirportCodes(airportMarketData(market.locale)).includes(airportCode)?'departure-airports/':'airports/'),label:departureAirportCodes(airportMarketData(market.locale)).includes(airportCode)?copy.departures:copy.thaiAirports}:path.match(/\/(routes|pairs)\/[^/]+\/$/)?{url:base+'flights/',label:copy.flights}:null;
 ---
 <!doctype html><html lang={market.lang}><head><link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48" /><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any" /><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="index,follow"/><title>{title} | ThaiLiveNow</title><meta name="description" content={description}/><AirportPageMetadata title={title} description={description} locale={market.locale} lang={market.lang} parentUrl={directory?.url} parentLabel={directory?.label}/></head><body><DetailHeader locale={market.locale}/><main class="thai-detail" translate="no"><a href={directory?.url||base}>← {directory?.label||t[0]}</a><h1>{title}</h1><slot name="description">{description&&<p>{description}</p>}</slot><slot/></main><AirportKoreanReview locale={market.locale}/><SiteFooter locale={market.locale}/></body></html>
 <style>

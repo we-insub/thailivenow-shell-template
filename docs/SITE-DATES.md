@@ -2,28 +2,29 @@
 
 2026-10-15 사용자 확정. 작업 전에 이 문서를 읽는다. 이전의 ‘자료 확인일도 배포일’ 지침보다 이 계약을 우선한다.
 
+신규 상세와 언어 확장에는 [상세 저자·공개 날짜·공유 이미지 제작 계약](detail-editorial-policy.md)을 함께 필수 적용한다. 공개 배포일 및 배포일 기반 확인/업데이트 날짜를 다시 생성하지 않는다.
+
 ## 값과 의미
 
 - 운영 도메인: `https://thailivenow.com`. Cloudflare Pages 프로젝트: `thai-live-now`, production branch: `main`.
 - 운영 시간대: `Asia/Bangkok`. 기존 날씨·현지 안내 시간대와 일치한다. JapanLiveNow의 Tokyo 설정을 복사하지 않는다.
 - `public/data/site-dates.json`: 배포일, 배포 커밋, 카메라별 자료 확인일·링크 점검 시각, 페이지별 자료 확인일·실제 콘텐츠 수정일을 구분한다.
 - 배포일은 `SITE_DEPLOYMENT_DATE=YYYY-MM-DD`로 릴리스가 명시한다. 현재 시각·방문자 시각·개발 서버 재시작으로 만들지 않는다. Pages가 성공한 배포를 활성화할 때 그 배포의 ASSETS에 속한 값만 운영에서 사용된다. 실패한 후보 데이터는 운영 값이 아니다.
-- 날짜는 `YYYY-MM-DD`, 정확한 시각은 시간대가 있는 ISO 8601이다. 기존 화면의 ISO 날짜 표시는 유지한다. 링크 시각은 Bangkok 기준으로 언어별 표시한다.
+- 날짜는 `YYYY-MM-DD`, 정확한 시각은 시간대가 있는 ISO 8601이다. 실제 근거가 있는 공개 날짜는 기존 ISO 형식을 유지한다. 공개 배포일 표시는 제거하며 운영 JSON의 배포일 형식은 유지한다. 링크 시각은 Bangkok 기준으로 언어별 표시한다.
 - `data/site-date-observations.json`은 보존한 실제 기록이다. 배포 스크립트는 이 기록에서 확인일·점검 시각을 생성하지 않는다. 정확한 시각이 없는 날짜·관측 시간 범위는 원문으로 보존하고 `linkCheckedAt:null`을 유지한다. 장애·미검증 상태도 유지한다.
-- 실제 확인일을 찾지 못한 기존 공통 출처 날짜는 ‘미확인’으로 유지한다. 과거에 배포일을 대신 표시했다는 이유로 실제 확인일로 인정하지 않는다.
+- 실제 확인일을 찾지 못한 기존 공통 출처 날짜는 내부 기록에서 null/미확인으로 유지하고 공개 날짜 줄을 임의로 채우지 않는다. 과거에 배포일을 대신 표시했다는 이유로 실제 확인일로 인정하지 않는다.
 - `contentModifiedOn`과 기존 JSON-LD `dateModified`는 실제 콘텐츠 정책을 그대로 보존한다. 새 배포일로 덮어쓰지 않는다. 공식 자료 일자·촬영일·날씨 관측일·행사일·상품 기한은 공통 날짜 대상이 아니다.
 
 ## 템플릿·신규 페이지
 
-공통 컴포넌트 `src/components/RuntimeDate.astro`를 사용한다. `kind`는 `deployment`, `source`, `camera-source`, `camera-link`, `modified` 중 하나다. `fallback`에는 실제 기록만 넣고 없으면 null이다. 카메라는 `cameraId`, 페이지는 `pagePath`로 식별한다. `locale`, `format`은 의미와 독립적인 표시 설정이다.
+공통 컴포넌트 `src/components/RuntimeDate.astro`를 사용한다. 공개 날짜의 `kind`는 `source`, `camera-source`, `camera-link`, `modified`를 사용한다. `deployment`는 기존 내부 메타데이터/호환 처리에 남아 있지만 공개 템플릿에서 사용하지 않으며 RuntimeDate도 출력하지 않는다. `fallback`에는 실제 기록만 넣고 없으면 null이다. 카메라는 `cameraId`, 페이지는 `pagePath`로 식별한다. `locale`, `format`은 의미와 독립적인 표시 설정이다.
 
 ```astro
-<RuntimeDate kind="deployment" fallback={getOperationalDeployDate()} locale={locale}/>
 <RuntimeDate kind="source" fallback={record.checkedAt} pagePath={Astro.url.pathname} locale={locale}/>
 <RuntimeDate kind="camera-source" fallback={camera.checked} cameraId={camera.id} locale={locale}/>
 ```
 
-`data/runtime-date-baseline.json`은 성공한 기존 배포의 고정 HTML 대체 날짜다. 날짜만 변경한 릴리스에서는 수정하지 않는다. `<time data-site-date="…">` 표식만 서버가 변경한다. 신규 레이아웃·원고에서도 별도 날짜 상수나 현재 시각을 추가하지 않는다. 기존 템플릿의 공통 출처/배포 라벨은 빌드 후 prepare 단계가 표식으로 연결하며 감사가 누락을 검출한다. 자료 확인 기록은 별도로 등록해야 하며 없는 값은 미확인이다.
+`data/runtime-date-baseline.json`은 성공한 기존 배포의 고정 HTML 대체 날짜다. 날짜만 변경한 릴리스에서는 수정하지 않는다. `<time data-site-date="…">` 표식만 서버가 변경한다. 신규 레이아웃·원고에서도 별도 날짜 상수나 현재 시각을 추가하지 않는다. 기존 템플릿의 실제 출처 날짜는 빌드 후 prepare 단계가 표식으로 연결한다. 공개 배포일 라벨과 잔여 값, 근거 없는 배포일 기반 날짜는 공통 정책이 제거하고 감사가 누락을 검출한다. 자료 확인 기록은 별도로 등록해야 하며 없는 값은 미확인이다.
 
 ## 서버·클라이언트
 

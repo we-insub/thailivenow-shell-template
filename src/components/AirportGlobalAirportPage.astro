@@ -1,0 +1,10 @@
+---
+import DetailHeader from './DetailHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import AirportFacilityIntro from './AirportFacilityIntro.astro';
+import AirportPageMetadata from './AirportPageMetadata.astro';
+const names={bkk:'Suvarnabhumi Airport',dmk:'Don Mueang International Airport',hkt:'Phuket International Airport',cnx:'Chiang Mai International Airport'};
+const {id}=Astro.props;const code=id.toUpperCase(),name=names[id],title=`${name} (${code}): arrivals, departures and facilities`,description=`Read English guidance for ${name}: arrivals, departures, facilities and retained official airport sources. Search the separate all-country records for airline counters and contacts.`;
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title} | ThaiLiveNow</title><meta name="description" content={description}/><AirportPageMetadata title={title} description={description} locale="en" lang="en"/></head><body><DetailHeader locale="en"/><main class="thai-detail"><a href="/en/airport-assistance/airports/">← Thailand airports</a><h1>{title}</h1><p>{description}</p><AirportFacilityIntro code={code} locale="en"/><section><h2>Find airline counters, contacts and flights</h2><p>These searches combine the existing country records. Keep the departure airport, operating airline and source country in mind when choosing a result.</p><p><a href={`/en/airport-assistance/?q=${code}&kind=contact`}>Search airline counters and contacts at {code} →</a></p><p><a href={`/en/airport-assistance/?q=${code}&kind=route`}>Search flight records using {code} →</a></p></section></main><SiteFooter locale="en"/></body></html>
+<style>:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,sans-serif;line-height:1.8}main{max-width:1000px;margin:auto;padding:36px 24px 64px}h1{font-size:32px;line-height:1.4}h2{font-size:24px}a{color:#267e89}p{color:#61717e;overflow-wrap:anywhere}@media(max-width:600px){main{padding:24px 16px}h1{font-size:27px}}</style>

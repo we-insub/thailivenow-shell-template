@@ -1,0 +1,6 @@
+---
+import LocalizedBkkPage from '../../../../../components/LocalizedBkkPage.astro';
+import {depthLocales} from '../../../../../lib/airport-depth';
+export function getStaticPaths(){return depthLocales.filter(l=>!['ko','en'].includes(l)).flatMap(locale=>['map','smoking','transport','airlines'].map(part=>({params:{locale,part},props:{locale,part}})));}
+---
+<LocalizedBkkPage {...Astro.props}/>

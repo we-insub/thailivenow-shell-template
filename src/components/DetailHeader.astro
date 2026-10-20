@@ -8,7 +8,7 @@ import LanguagePicker from './LanguagePicker.astro';
 import {getUI} from '../i18n/ui';
 import {airportUI} from '../i18n/airport-ui';
 import {headerIcons} from '../design/header-icons';
-import {isKoreanAirportGuide} from '../lib/airport-guide-navigation.mjs';
+import {isThaiAirportGuide,thaiAirportHome,thaiAirportLabels,thaiAirportLanguagePaths} from '../lib/airport-guide-navigation.mjs';
 const {locale='ko', home=false, brand='ThaiLiveNow', activeHref}=Astro.props;
 const design=getDesignUI(locale);
 const ui=getUI(locale);
@@ -22,11 +22,13 @@ const koreanItems = [
  ['항공편 지연·결항','지연·결항','plane','/ko/airport-assistance/']
 ];
 const items=locale==='ko'?koreanItems:[...['map','destinations','food','transport','cameras','coupons','flights'].map((id,i)=>[ui[id],ui[id],['compass','pin','food','train','grid','coupon','plane'][i],id==='map'?`/${locale}/`:id==='cameras'?`/${locale}/directory/`:id==='flights'?`/${locale==='en'||airportUI[locale]?.[0]?locale:'ko'}/airport-assistance/`:`/${locale}/${id}/`])];
-if(locale!=='ko')items.splice(5,0,[design.saved,design.saved,'heart',`/${locale}/saved/`]);
+if(locale!=='ko')items.splice(4,0,[thaiAirportLabels[locale]||thaiAirportLabels.en,thaiAirportLabels[locale]||thaiAirportLabels.en,'plane',thaiAirportHome(locale)]);
+if(locale!=='ko')items.splice(6,0,[design.saved,design.saved,'heart',`/${locale}/saved/`]);
 if(locale!=='ko'&&hasLocalizedStage(locale,'rooftops')){const label=translateLocaleText('루프탑',localizedUI(locale));items.splice(4,0,[label,label,'pin',`/${locale}/rooftops/`]);}
 const localizedPage=isLocalizedPage(Astro.url.pathname);
-const airportGuide=locale==='ko'&&isKoreanAirportGuide(Astro.url.pathname);
-const active=(href:string)=>activeHref ? href===activeHref : airportGuide ? href==='/ko/airports/' : href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
+const airportGuide=isThaiAirportGuide(Astro.url.pathname);
+const airportLanguagePaths=thaiAirportLanguagePaths(Astro.url.pathname);
+const active=(href:string)=>activeHref ? href===activeHref : airportGuide ? href===thaiAirportHome(locale) : href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
 const topicHub=/^\/[^/]+\/(destinations|coupons|food|transport)\/$/.test(Astro.url.pathname);
 ---
 <SiteDesign />
@@ -37,7 +39,7 @@ const topicHub=/^\/[^/]+\/(destinations|coupons|food|transport)\/$/.test(Astro.u
   <nav class="main-nav" aria-label={ui.explore} style={`--header-nav-count:${items.length}`}>
     {items.map(([name,short,icon,href]) => <a href={href} class:list={[active(href)&&'active']} aria-current={active(href)?'page':undefined}><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={headerIcons[icon] || headerIcons.pin}/><span class="nav-full-label">{name}</span><span class="nav-short-label">{short}</span></a>)}
   </nav>
-  <LanguagePicker locale={locale} homeOnly={!home && !topicHub && !localizedPage && !Astro.url.pathname.includes('/airport-assistance')} switchPath={Astro.url.pathname.includes('/airport-assistance') ? '/airport-assistance/' : undefined} />
+  <LanguagePicker locale={locale} homeOnly={!home && !topicHub && !localizedPage && !airportGuide && !Astro.url.pathname.includes('/airport-assistance')} switchPaths={airportLanguagePaths} switchPath={!airportGuide&&Astro.url.pathname.includes('/airport-assistance') ? '/airport-assistance/' : undefined} />
 </header></div><div class="comparison-bar" id="comparison-bar" hidden><span>{locale==='ko'||localizedPage?'비교할 카메라':'Cameras to compare'} <strong data-comparison-count>0</strong>/4</span><a class="comparison-go" href={`/${locale}/compare/`}>{locale==='ko'||localizedPage?'비교 보기':'Compare'}</a><button type="button" class="comparison-clear" data-comparison-clear>{locale==='ko'||localizedPage?'비우기':'Clear'}</button><span id="comparison-notice" role="status" hidden></span></div>
 <script>import '../scripts/saved-cameras';</script>
 <script>import '../scripts/header-navigation';</script>

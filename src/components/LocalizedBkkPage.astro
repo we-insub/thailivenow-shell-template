@@ -1,0 +1,22 @@
+---
+import {airportDepthGuide,airportDepthUI,bkkDepthPages,bkkPartFAQ} from '../lib/airport-depth';
+import {airportMarketData} from '../lib/airport-markets';
+import DetailHeader from './DetailHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import AirportPageMetadata from './AirportPageMetadata.astro';
+import AirportLocalizedGuide from './AirportLocalizedGuide.astro';
+import AirportLocalizedTransport from './AirportLocalizedTransport.astro';
+import AirportLocalizedCounters from './AirportLocalizedCounters.astro';
+import AirportFacilityIntro from './AirportFacilityIntro.astro';
+import LocalizedBkkPagination from './LocalizedBkkPagination.astro';
+const {locale,part='overview'}=Astro.props,ui=airportDepthUI(locale),pages=bkkDepthPages(locale),page=pages.find(p=>p.id===part)!;
+const title=part==='overview'?page.label:`${airportDepthGuide('BKK',locale).name} · ${page.label}`,description=page.description;
+const data=locale==='en'?null:airportMarketData(locale);
+---
+<!doctype html><html lang={locale}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title} | ThaiLiveNow</title><meta name="description" content={description}/><AirportPageMetadata title={title} description={description} locale={locale} lang={locale}/></head><body><DetailHeader locale={locale}/><main class="thai-detail" translate="no"><a href={`/${locale}/airport-assistance/airports/`}>← {ui.airportList}</a><h1>{title}</h1><p class="intro">{description}</p><LocalizedBkkPagination locale={locale} current={part}/>
+{['overview','map','smoking'].includes(part)&&<AirportLocalizedGuide code="BKK" locale={locale} part={part} faqItems={bkkPartFAQ(locale,part)}/>}
+{part==='overview'&&<AirportFacilityIntro code="BKK" locale={locale} legacyOnly={true}/>}
+{part==='transport'&&<AirportLocalizedTransport locale={locale}/>}
+{part==='airlines'&&(data?<><p>{ui.marketNote}</p><AirportLocalizedCounters locale={locale} code="BKK" data={data}/></>:<section><h2>{ui.pageLabels[4]}</h2><p>{ui.globalNote}</p><p><a href="/en/airport-assistance/?q=BKK&kind=contact">{ui.pageLabels[4]} →</a></p><p><a href="/en/airport-assistance/?q=BKK&kind=route">BKK · {ui.globalNote} →</a></p></section>)}
+<section class="related"><h2>{ui.related}</h2><ul>{pages.filter(p=>p.id!==part).map(p=><li><a href={p.url}>{p.label} →</a><p>{p.description}</p></li>)}</ul>{locale!=='en'&&<a href={`/${locale}/airport-assistance/`}>{ui.airlineHelp} →</a>}</section><LocalizedBkkPagination locale={locale} current={part}/></main><SiteFooter locale={locale}/></body></html>
+<style>:global(*){box-sizing:border-box}:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,sans-serif;line-height:1.8}main{max-width:1000px;margin:auto;padding:32px 24px 60px}h1{font-size:32px;line-height:1.4}:global(main section){margin:34px 0}:global(main a){color:#287782;font-weight:700}:global(main p){color:#61717e;line-height:1.9;overflow-wrap:anywhere}:global(main h2){font-size:24px}:global(main article),:global(main details){padding:20px;background:white;border:1px solid #dce5e8;border-radius:12px;margin:12px 0}:global(main summary){cursor:pointer;font-weight:650}.related li{margin:20px 0}.related li p{margin:5px 0;font-size:14px}@media(max-width:650px){main{padding:24px 16px}h1{font-size:27px}}</style>

@@ -1,0 +1,339 @@
+{
+  "name": "Del aeropuerto de Suvarnabhumi al centro de Bangkok",
+  "title": "Suvarnabhumi a Bangkok: tren del aeropuerto, taxis, Grab y traslados",
+  "intro": "Elige el transporte según dónde esté tu hotel y cuánto equipaje lleves. Si te alojas cerca de una estación, puedes tomar el Airport Rail Link (ARL) en B1. Con varias maletas o una llegada de madrugada, un taxi o Grab te lleva hasta el hotel. Consulta primero el mapa de transbordos y compara después los puntos de salida y costes.",
+  "sections": [
+    {
+      "title": "Después de aterrizar: transporte por plantas",
+      "paragraphs": [],
+      "table": {
+        "headers": [
+          "Planta",
+          "Transporte",
+          "Dónde ir",
+          "Cómo utilizarlo"
+        ],
+        "rows": [
+          [
+            "Sótano B1",
+            "Airport Rail Link",
+            "Sigue Airport Rail Link hasta la estación del aeropuerto",
+            "Transbordo a MRT en Makkasan o a BTS en Phaya Thai"
+          ],
+          [
+            "Planta 1",
+            "Taxi público normal o grande",
+            "Calzada interior entre Door 4–7 · máquinas Public Taxi",
+            "Elige vehículo según viajeros y equipaje y recoge el turno"
+          ],
+          [
+            "Planta 1",
+            "Grab",
+            "Calzada exterior de Door 4 · Grab Pick-up Point",
+            "Pide en la app y acude a la zona asignada"
+          ],
+          [
+            "Planta 2 de llegadas",
+            "AOT Limousine o recogida reservada",
+            "Mostrador AOT o encuentro indicado en la confirmación",
+            "Revisa planta, puerta y encuentro de tu proveedor"
+          ],
+          [
+            "Planta 1",
+            "Autobuses a Pattaya y furgonetas contratadas",
+            "Mostradores junto a Door 8",
+            "Distingue el centro de Bangkok de un viaje a Pattaya"
+          ],
+          [
+            "Lugar asignado en la app",
+            "Bolt",
+            "Planta y puerta de la reserva",
+            "Si indica salidas de la planta 4, sigue Departures"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Airport Rail Link: estación, tarifas y duración",
+      "paragraphs": [
+        "El ARL llega al centro sin depender del tráfico. El trayecto en tren hasta la terminal de Phaya Thai dura unos 26–30 minutos; comprar el billete y esperar el tren lleva tiempo adicional. Añade el transbordo y el paseo hasta el hotel.",
+        "El horario publicado es de 05:30 a 24:00. Si aterrizas tarde, cuenta con inmigración y recogida de equipaje antes de decidir si llegas a tiempo. La última salida puede variar según la estación."
+      ],
+      "table": {
+        "headers": [
+          "Estación desde el aeropuerto",
+          "Tarifa orientativa por persona",
+          "Tiempo en tren",
+          "Continuación"
+        ],
+        "rows": [
+          [
+            "Makkasan",
+            "35 baht",
+            "Unos 22–25 minutos",
+            "Pasillo peatonal hasta MRT Phetchaburi"
+          ],
+          [
+            "Ratchaprarop",
+            "40 baht",
+            "Unos 25 minutos",
+            "Zona de Pratunam · hotel a pie o en vehículo"
+          ],
+          [
+            "Phaya Thai",
+            "45 baht",
+            "Unos 26–30 minutos",
+            "Transbordo a la línea Sukhumvit del BTS"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Las 8 estaciones del ARL y cómo subir",
+          "/ko/transport/airports/airport-rail-link/"
+        ]
+      ]
+    },
+    {
+      "title": "Consulta las líneas y los transbordos en un mapa geográfico",
+      "paragraphs": []
+    },
+    {
+      "title": "Elige el transbordo según tu alojamiento",
+      "paragraphs": [
+        "Para Asok o Silom, baja en Makkasan y recorre el pasillo de conexión hasta MRT Phetchaburi. Para Siam, cambia al BTS en Phaya Thai. ARL, MRT y BTS tienen billetes y tarifas independientes.",
+        "Las tarifas de MRT de la tabla usan el billete sencillo de adulto y el recorrido corto del calculador oficial de BEM. Las duraciones suman solo el tiempo dentro de los trenes; no incluyen caminar entre estaciones, esperar ni ir de la última estación al hotel."
+      ],
+      "table": {
+        "headers": [
+          "Destino",
+          "Transbordo",
+          "Tarifas de adulto por tramo",
+          "Total",
+          "Solo tren · sin espera ni caminata"
+        ],
+        "rows": [
+          [
+            "Asok / Terminal 21",
+            "ARL Makkasan → MRT Phetchaburi → Sukhumvit",
+            "ARL 35 + MRT 17 baht",
+            "52 baht",
+            "ARL unos 22–25 min + MRT 2 min = 24–27 min"
+          ],
+          [
+            "Silom",
+            "ARL Makkasan → MRT Phetchaburi → Si Lom",
+            "ARL 35 + MRT 27 baht",
+            "62 baht",
+            "ARL unos 22–25 min + MRT 10 min = 32–35 min"
+          ],
+          [
+            "Wat Pho / Gran Palacio",
+            "ARL Makkasan → MRT Phetchaburi → Sanam Chai",
+            "ARL 35 + MRT 39 baht",
+            "74 baht",
+            "ARL unos 22–25 min + MRT 19 min = 41–44 min"
+          ],
+          [
+            "Siam",
+            "ARL Phaya Thai → BTS Sukhumvit hacia Kheha → Siam",
+            "ARL 45 baht + billete BTS aparte",
+            "Añade la tarifa de la máquina o calculador oficial BTS",
+            "ARL unos 26–30 min + 2 paradas de BTS"
+          ],
+          [
+            "Khao San",
+            "Compara S1, taxi y vehículos de app",
+            "Según el servicio elegido",
+            "Confirma el precio final antes de subir",
+            "Sin estación directa del ARL"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Líneas y estaciones de Bangkok",
+          "/ko/transport/bangkok/"
+        ],
+        [
+          "Calculador oficial de tarifas y tiempos del MRT",
+          "https://metro.bemplc.co.th/Fare-Calculation?lang=EN"
+        ],
+        [
+          "Calculador oficial de tarifas y tiempos del BTS",
+          "https://www.bts.co.th/eng/routemap.html"
+        ]
+      ]
+    },
+    {
+      "title": "Taxis normales y grandes desde la planta 1",
+      "paragraphs": [
+        "Baja a Public Taxi, entre las puertas Door 4–7. Si necesitas un vehículo grande, comprueba su cola y las instrucciones de turno. Antes de subir, pregunta si caben todos los viajeros y maletas."
+      ],
+      "table": {
+        "headers": [
+          "Paso",
+          "Qué hacer",
+          "Qué comprobar"
+        ],
+        "rows": [
+          [
+            "1 · Elige vehículo",
+            "Revisa taxis normales y grandes",
+            "Indica viajeros, maletas y si viajan niños"
+          ],
+          [
+            "2 · Recoge turno",
+            "Saca el ticket en la máquina",
+            "Acude al carril impreso en el ticket"
+          ],
+          [
+            "3 · Da el destino",
+            "Muestra dirección y mapa del hotel",
+            "Aclara si vas a Bangkok o lejos, por ejemplo a Pattaya"
+          ],
+          [
+            "4 · Confirma costes antes de salir",
+            "Revisa taxímetro, autopistas y suplementos",
+            "Pregunta por peajes, suplemento de aeropuerto y equipaje"
+          ],
+          [
+            "5 · Paga al llegar",
+            "Abona taxímetro y cargos separados",
+            "Lleva efectivo y cambio; no repitas peajes ya pagados"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "¿Cómo se calcula el precio del taxi?",
+      "paragraphs": [
+        "En un taxi público del aeropuerto, el taxímetro no es el importe completo. Los taxis normales del aeropuerto añaden un suplemento de 50 baht; el pasajero paga los peajes de las vías utilizadas.",
+        "Por ejemplo, pasar por una cabina de 25 baht y otra de 50 baht suma 75 baht de peajes. En ese recorrido, se añaden al taxímetro el suplemento de 50 y los peajes de 75: 125 baht en total. Por carreteras sin peaje o recorridos distintos, el importe cambia.",
+        "Lleva efectivo en baht y billetes pequeños. Si pagas los peajes durante el viaje, comprueba que no vuelvan a sumarlos al llegar. Si llevas varias maletas grandes, pregunta por el suplemento de equipaje antes de cargarlas."
+      ],
+      "table": {
+        "headers": [
+          "Concepto",
+          "Importe o cálculo",
+          "Pago y comprobaciones"
+        ],
+        "rows": [
+          [
+            "Taxímetro",
+            "Según vehículo, distancia y tráfico",
+            "Comprueba que lo enciendan al salir"
+          ],
+          [
+            "Suplemento de aeropuerto",
+            "50 baht",
+            "Al conductor del taxi público del aeropuerto · aparte de peajes"
+          ],
+          [
+            "Peajes",
+            "Tramos utilizados · 25 + 50 suman 75 baht",
+            "Los paga el pasajero · lleva efectivo y registra lo pagado"
+          ],
+          [
+            "Equipaje",
+            "Puede aplicarse según tamaño y cantidad",
+            "Pregunta antes de cargar varias maletas grandes"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "Guía detallada de taxis",
+          "/ko/transport/guides/taxi/"
+        ]
+      ]
+    },
+    {
+      "title": "¿Son gratuitos los peajes durante Songkran?",
+      "paragraphs": [
+        "La exención solo se aplica si la carretera y las fechas coinciden con el anuncio. El aviso del Gobierno para 2026 indicó del 10 al 16 de abril para vías principales como la M7, y del 13 al 15 para algunas autopistas del centro de Bangkok.",
+        "No todas las vías son gratuitas durante todo Songkran. Consulta el anuncio del año de tu viaje y la carretera utilizada. El suplemento de taxi del aeropuerto de 50 baht es independiente del peaje."
+      ]
+    },
+    {
+      "title": "Recogidas en la planta 2, limusinas y viajes a Pattaya",
+      "paragraphs": [
+        "Los mostradores de AOT Limousine están en la planta 2, en las zonas de llegadas nacionales e internacionales. Indica destino, número de viajeros y equipaje para comparar vehículos y presupuestos.",
+        "Si has reservado un traslado de hotel o con una empresa, revisa el punto de encuentro y el cartel con tu nombre en la confirmación. Comprueba cuánto esperan y cómo contactar si el vuelo se retrasa, si incluyen peajes y las condiciones de sillas infantiles y equipaje.",
+        "Para ir directamente a Pattaya, aclara que es un viaje de larga distancia y no al centro de Bangkok. Acuerda el total y si incluye peajes. También hay mostradores de autobuses a Pattaya y vehículos de alquiler con conductor cerca de Door 8, en la planta 1."
+      ]
+    },
+    {
+      "title": "¿Dónde se toman Grab y Bolt?",
+      "paragraphs": [
+        "La recogida de Grab está en la calzada exterior junto a Door 4 de la planta 1. Pide el vehículo en la aplicación y acude a la zona indicada. Antes de subir, compara matrícula y conductor con los datos de la app.",
+        "Para Bolt, consulta la planta y la puerta en la reserva y las indicaciones del conductor. Si asigna la planta 4 de salidas, sube desde llegadas de la planta 2 siguiendo Departures. No todas las recogidas son en la planta 4: sigue la asignación de la aplicación y las instrucciones del aeropuerto.",
+        "Revisa el precio y la forma de pago del servicio seleccionado. No sumes automáticamente el taxímetro o los 50 baht de los taxis públicos a todos los vehículos reservados mediante una aplicación."
+      ]
+    },
+    {
+      "title": "Si tu siguiente vuelo sale de Don Mueang",
+      "paragraphs": [
+        "BKK y DMK son aeropuertos diferentes. Si tu siguiente vuelo sale de DMK, consulta la guía de traslado entre aeropuertos, en vez de las instrucciones para el centro de Bangkok."
+      ],
+      "links": [
+        [
+          "Traslado Suvarnabhumi–Don Mueang",
+          "/ko/transport/airports/suvarnabhumi-don-mueang/"
+        ]
+      ]
+    }
+  ],
+  "faq": [
+    [
+      "¿En qué planta está el Airport Rail Link?",
+      "En el sótano B1 de la terminal principal de Suvarnabhumi. Puedes cambiar al MRT en Makkasan o al BTS en Phaya Thai."
+    ],
+    [
+      "¿Los 50 baht de suplemento y los 75 de peajes son lo mismo?",
+      "Son conceptos separados. Los 50 baht corresponden al taxi público del aeropuerto; los 75 son un ejemplo pasando por los tramos de 25 y 50 baht."
+    ],
+    [
+      "¿Cómo paso de Makkasan al MRT?",
+      "Sal del ARL y recorre el pasillo de conexión hasta MRT Phetchaburi. El billete y la tarifa de MRT se pagan aparte."
+    ],
+    [
+      "¿Bolt siempre recoge en la planta 4?",
+      "Consulta planta y puerta en la app. Si asigna salidas de la planta 4, ve allí y sigue las instrucciones del aeropuerto."
+    ]
+  ],
+  "sources": [
+    [
+      "AOT: plantas de transporte y lanzaderas",
+      "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/Transportation_BKK"
+    ],
+    [
+      "AOT: suplemento del taxi público y peajes",
+      "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/304"
+    ],
+    [
+      "AOT: recogida designada de Grab",
+      "https://suvarnabhumi.airportthai.co.th/service/transportation/detail/927"
+    ],
+    [
+      "Autoridad de Turismo de Tailandia: horarios ARL, transbordos y taxis",
+      "https://www.thailandtravel.or.jp/bkk-city-transfer/"
+    ],
+    [
+      "Guía de transporte SRT: tarifas ARL",
+      "https://railway.co.th/RailwayMiddleFile/NewsAndActImg/63/G08.pdf"
+    ],
+    [
+      "BEM: peajes oficiales por tramos",
+      "https://expressway.bemplc.co.th/Rate?id=1"
+    ],
+    [
+      "Gobierno tailandés: exención de peajes Songkran 2026",
+      "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/493484"
+    ],
+    [
+      "Calculador BEM: adulto/recorrido corto BL21→BL22, BL26 y BL31",
+      "https://metro.bemplc.co.th/Fare-Calculation?lang=EN"
+    ]
+  ]
+}

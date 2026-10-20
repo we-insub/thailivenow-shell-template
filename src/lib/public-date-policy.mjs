@@ -26,6 +26,6 @@ export function suppressPublicDates(html){
  const orphanSource=/^(?:출처 확인일|Source check date|Tarikh semakan sumber|来源核查日期|來源查核日期|Дата проверки источников|情報源の確認日|Fecha de revisión de fuentes)\s*[:：]\s*$/;
  for(const n of nodes(tree))if(['p','span','small'].includes(n.nodeName)&&orphanSource.test(plain(n).trim())&&!nodes(n).some(x=>['time','a','img'].includes(x.nodeName)))remove(n);
  // Date-only wrappers can become empty; their removal must not touch media/source records.
- for(const n of nodes(tree).reverse())if(['p','span','small'].includes(n.nodeName)&&!nodes(n).some(x=>['img','a','time','button'].includes(x.nodeName))&&!nodes(n).filter(x=>x.nodeName==='#text').some(x=>x.value.replace(/[\s·|:：—-]/g,'').length)&&!attr(n,'id'))remove(n);
+ for(const n of nodes(tree).reverse())if(['p','span','small'].includes(n.nodeName)&&!nodes(n).some(x=>['img','a','time','button'].includes(x.nodeName))&&!nodes(n).filter(x=>x.nodeName==='#text').some(x=>x.value.replace(/[\s·|:：—-]/g,'').length)&&!attr(n,'id')&&!n.attrs?.some(a=>a.name.startsWith('data-')||a.name==='role'||a.name==='aria-live'))remove(n);
  return serialize(tree);
 }
