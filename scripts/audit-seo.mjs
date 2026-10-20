@@ -1,3 +1,4 @@
+import { crawlRobots, sitemapXML } from '../src/lib/search-crawl-policy.mjs';
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { parse } from 'parse5';
 import { applyPageSEO } from '../src/lib/page-seo.mjs';
@@ -77,5 +78,6 @@ await writeFile('artifacts/seo-audit.json',JSON.stringify(report,null,2));
 console.log(JSON.stringify({pages:pages.length,indexable:report.indexable,errors:errors.length,warnings:warnings.length,duplicateTitles:duplicateTitles.length,duplicateDescriptions:duplicateDescriptions.length}));
 if(errors.length){console.error(errors.slice(0,10));process.exit(1);}
 const urls=[...new Set(pages.filter(p=>!p.robots.includes('noindex')).map(p=>p.canonical))].sort();
-await writeFile(`${root}/sitemap.xml`,'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls.map(url=>`<url><loc>${url.replaceAll('&','&amp;')}</loc></url>`).join('')+'</urlset>');
-await writeFile(`${root}/robots.txt`,'User-agent: *\nAllow: /\nSitemap: https://thailivenow.com/sitemap.xml\n');
+await writeFile(`${root}/sitemap.xml`,sitemapXML(urls));
+await writeFile(`${root}/sitemap-ko.xml`,sitemapXML(urls.filter(url=>new URL(url).pathname.startsWith('/ko/'))));
+await writeFile(`${root}/robots.txt`,crawlRobots());
