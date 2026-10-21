@@ -10,16 +10,19 @@ import {beachHomeUI} from '../lib/beach-home-ui.mjs';
 import { travelAreas, provinces } from '../data/map';
 import { cameras, categoryLabels } from '../data/cameras';
 import { getUI, cameraTitle, cameraStatus, categoryName, placeName } from '../i18n/ui';
+import { localizedAttractions } from '../lib/attractions-localized';
+import attractionMapPoints from '../data/attraction-map-points.json';
 import type { Locale } from '../i18n/locales';
 const {locale='en'}=Astro.props as {locale?:Locale};
 const editorialEnabled=locale==='ko'||hasLocalizedStage(locale,'cameras');
 const cameraEditorial=localizedCameraEditorial(locale);
 const venues=originalVenues.map(v=>localizedVenue(v,locale));
+const attractions=localizedAttractions(locale).map(p=>({id:p.id,name:p.name,english:p.english,title:p.title,cityName:p.cityName,...attractionMapPoints.points[p.id]}));
 const design=getDesignUI(locale);
 const ui=getUI(locale);
 const names: Record<string, string> = { Bangkok: '방콕', 'Chiang Mai': '치앙마이', 'Chiang Rai': '치앙라이', Phuket: '푸껫', Krabi: '끄라비', 'Chon Buri': '촌부리', 'Surat Thani': '수랏타니', 'Prachuap Khiri Khan': '쁘라쭈압키리칸' };
 ---
-{hasLocalizedStage(locale,'cameras')&&<script is:inline type="application/json" data-locale-camera-model set:html={JSON.stringify({editorial:cameraEditorial,venues:hasLocalizedStage(locale,'rooftops')?venues:[]}).replaceAll('<','\u003c')}/>}<div class="mobile-home-intro"><p>{locale==='ko'?'지도에서 태국 여행지와 공개 라이브캠·CCTV를 찾아보세요. 도시별 여행·음식·루프탑·해변·공항·교통 안내는 위 메뉴에서 볼 수 있어요.':editorialEnabled?`태국 어디로 가세요? 지도에서 공개 카메라 ${cameras.length}개를 찾아보세요. 카메라를 누르면 촬영 위치와 시청 상태를 살펴보고, 운영자의 원본 화면으로 이동할 수 있어요.`:ui.mapIntro}</p><a href={`/${locale}/directory/`}>{ui.allList} →</a><a href={`/${locale}/destinations/`}>{ui.destinations} →</a></div>
+{hasLocalizedStage(locale,'cameras')&&<script is:inline type="application/json" data-locale-camera-model set:html={JSON.stringify({editorial:cameraEditorial,venues:hasLocalizedStage(locale,'rooftops')?venues:[]}).replaceAll('<','\u003c')}/>}<script is:inline type="application/json" data-locale-attraction-model set:html={JSON.stringify(attractions).replaceAll('<','\u003c')}/><div class="mobile-home-intro"><p>{locale==='ko'?'지도에서 태국 여행지와 공개 라이브캠·CCTV를 찾아보세요. 도시별 여행·음식·루프탑·해변·공항·교통 안내는 위 메뉴에서 볼 수 있어요.':editorialEnabled?`태국 어디로 가세요? 지도에서 공개 카메라 ${cameras.length}개를 찾아보세요. 카메라를 누르면 촬영 위치와 시청 상태를 살펴보고, 운영자의 원본 화면으로 이동할 수 있어요.`:ui.mapIntro}</p><a href={`/${locale}/directory/`}>{ui.allList} →</a><a href={`/${locale}/destinations/`}>{ui.destinations} →</a></div>
 <section class="thailand-explorer map-explorer home-map-frame camera-discovery-layout" id="map" aria-labelledby="map-title">
   <aside class="explorer-panel">
     <div class="panel-heading"><span class="overline">EXPLORE THAILAND</span><h1 id="map-title">{locale==='ko'?'태국 여행, 지도에서 찾아보세요':editorialEnabled?'태국 여행지 카메라와 라이브캠':ui.mapTitle}</h1><p class="panel-intro">{locale==='ko'?'방콕의 강변부터 푸껫의 해변까지, 지도에서 여행지와 공개 라이브캠·CCTV를 찾아보세요. 음식·루프탑·해변·공항·교통 안내는 위 메뉴에서 볼 수 있어요. 카메라마다 생방송 영상이나 갱신 사진을 제공하니 시청 안내도 함께 읽어주세요.':editorialEnabled?'방콕의 강변이나 푸껫의 해변이 궁금하신가요? 도시나 장소를 검색한 뒤 지도에서 카메라를 눌러보세요. 촬영 위치와 시청 상태를 살펴보고 운영자의 원본 화면으로 이동할 수 있어요. 생방송 영상과 갱신 사진은 카메라마다 다르니 안내를 함께 읽어주세요.':ui.mapIntro}</p><p class="panel-camera-count">{editorialEnabled?'태국 공개 카메라':ui.cameras} <strong>{cameras.length}</strong></p></div>

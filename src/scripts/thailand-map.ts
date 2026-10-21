@@ -18,6 +18,7 @@ const locale=isLocale(document.documentElement.dataset.locale) ? document.docume
 const localizedModel=JSON.parse(document.querySelector('[data-locale-camera-model]')?.textContent||'null');
 const cameraEditorial=localizedModel?.editorial||originalEditorial;
 const venues=localizedModel?.venues||originalVenues;
+const attractions=JSON.parse(document.querySelector('[data-locale-attraction-model]')?.textContent||'[]') as {id:string;name:string;english:string;title:string;cityName:string;lat?:number;lng?:number}[];
 const beachModel=JSON.parse(document.querySelector('[data-locale-beach-model]')?.textContent||'null');
 const beachUI=beachModel?.ui;
 const beachHref=(id='')=>`/${locale}/beaches/${id?encodeURIComponent(id)+'/':''}`;
@@ -75,6 +76,9 @@ if (container) {
     cameraLayers.forEach(layer => { if (map?.getLayer(layer)) map.setLayoutProperty(layer, 'visibility', visible ? 'visible' : 'none'); });
   }
   const tourismPins:{venue:typeof venues[number];marker:Marker}[]=[];
+  const attractionPins:{attraction:typeof attractions[number];marker:Marker}[]=[];
+  function matchingAttractions(){const query=search.value.trim().toLocaleLowerCase();return category==='tourism'&&!seaMode()?attractions.filter(a=>Number.isFinite(a.lat)&&Number.isFinite(a.lng)&&`${a.name} ${a.english} ${a.cityName}`.toLocaleLowerCase().includes(query)):[];}
+  function refreshAttractionPins(){const ids=new Set(matchingAttractions().map(a=>a.id));for(const {attraction,marker} of attractionPins){if(ids.has(attraction.id)&&map)marker.addTo(map);else{marker.getPopup()?.remove();marker.remove();}}}
   function matchingVenues(){
     const province=provinces.find(p=>String(p.id)===select.value);
     const city=travelAreas.find(city=>city.name===selectedArea);
@@ -95,11 +99,13 @@ if (container) {
     document.querySelectorAll<HTMLAnchorElement>('.panel-foot .camera-note, .mobile-home-intro a:first-of-type').forEach(link=>{if(!link.dataset.originalHref)link.dataset.originalHref=link.getAttribute('href')||'';link.setAttribute('href',sea?beachHref():link.dataset.originalHref);});
     const foot=document.querySelector<HTMLElement>('.panel-foot>span:nth-child(2)');if(foot){if(!foot.dataset.original)foot.dataset.original=foot.textContent||'';foot.textContent=sea?beachUI.pinNote:foot.dataset.original;}
     const tourism=category==='tourism';if(!tourism)document.querySelectorAll<HTMLElement>('[data-tourism-city]').forEach(card=>card.hidden=false);document.querySelector('.thailand-explorer')!.classList.toggle('tourism-mode',tourism);document.getElementById('home-tourism-panel')!.hidden=!tourism;document.querySelector<HTMLElement>('.camera-map-results')!.hidden=tourism||sea;
+    const mapCount=document.getElementById('map-in-view');if(mapCount&&tourism)mapCount.textContent=String(matchingAttractions().length);
     setCameraVisibility(!tourism&&!sea);
-    const caption=document.querySelector<HTMLElement>('.map-caption>span:last-child');if(caption){if(!caption.dataset.original)caption.dataset.original=caption.textContent||'';caption.textContent=sea?beachUI.title:caption.dataset.original;}
+    const caption=document.querySelector<HTMLElement>('.map-caption>span:last-child');if(caption){if(!caption.dataset.original)caption.dataset.original=caption.textContent||'';caption.textContent=sea?beachUI.title:tourism?(locale==='ko'?'관광지 핀':locale==='ms'?'Penanda tarikan':locale==='ja'?'観光地のピン':locale==='zh-cn'?'景点标记':locale==='zh-tw'?'景點標記':locale==='ru'?'Метки достопримечательностей':locale==='es'?'Marcadores de atracciones':'Attraction pins'):caption.dataset.original;}
     refreshBeachPins();
     for(const layer of ['travel-area-fill','travel-area-outline','travel-dots','travel-labels','province-fill','province-lines','province-selected'])if(map?.getLayer(layer))map.setLayoutProperty(layer,'visibility','none');
     refreshVenuePins();
+    refreshAttractionPins();
   }
   cameraToggle.addEventListener('click', () => setCameraVisibility(!camerasVisible));
   const sourceLink = document.querySelector<HTMLAnchorElement>('#selected-source')!;
@@ -142,8 +148,8 @@ if (container) {
     const ids=new Set((resultsScope==='all'?visible:visible.slice(0,resultsLimit)).map(c=>c.id));
     document.querySelectorAll<HTMLElement>('[data-map-result]').forEach(card=>{card.hidden=!ids.has(card.dataset.mapResult!);const selected=card.dataset.mapResult===selectedResult;card.classList.toggle('is-selected',selected);card.querySelector<HTMLElement>('[data-result-selected]')!.hidden=!selected;});
     const count=document.getElementById('map-results-count');if(count)count.textContent=(editorialEnabled?(resultsScope==='view'&&homeMapReady?'현재 지도 범위':'선택 조건 전체'):(resultsScope==='view'&&homeMapReady?'Current map area':'All matching cameras'))+': '+visible.length;
-    const inView=document.getElementById('map-in-view');if(inView)inView.textContent=String(seaMode()?matchingBeaches().filter(b=>!map||!homeMapReady||map.getBounds().contains([b.lng,b.lat])).length:matching.filter(cameraInView).length);
-    const caption=document.querySelector<HTMLElement>('.map-caption>span:last-child');if(caption&&locale==='ko')caption.textContent=seaMode()?'현재 지도에 표시된 해변':'현재 지도에 표시된 카메라';
+    const inView=document.getElementById('map-in-view');if(inView)inView.textContent=String(seaMode()?matchingBeaches().filter(b=>!map||!homeMapReady||map.getBounds().contains([b.lng,b.lat])).length:category==='tourism'?matchingAttractions().filter(a=>!map||!homeMapReady||map.getBounds().contains([a.lng!,a.lat!])).length:matching.filter(cameraInView).length);
+    const caption=document.querySelector<HTMLElement>('.map-caption>span:last-child');if(caption&&locale==='ko')caption.textContent=seaMode()?'현재 지도에 표시된 해변':category==='tourism'?'현재 지도에 표시된 관광지 핀':'현재 지도에 표시된 카메라';
     document.getElementById('map-results-empty')!.hidden=visible.length>0;
     document.getElementById('map-results-more')!.hidden=resultsScope==='all'||visible.length<=resultsLimit;
     document.querySelectorAll<HTMLButtonElement>('[data-result-scope]').forEach(btn=>{btn.disabled=btn.dataset.resultScope==='view'&&!homeMapReady;btn.setAttribute('aria-pressed',String(btn.dataset.resultScope===(homeMapReady?resultsScope:'all')));});
@@ -154,6 +160,7 @@ if (container) {
     resultsLimit=12;
     refreshBeachPins();
     refreshVenuePins();
+    refreshAttractionPins();
     updateResults();
 
     const matches = matchingCameras();
@@ -225,6 +232,7 @@ if (container) {
     const points: [number, number][] = [
       ...matchingCameras().flatMap(camera => camera.center ? [camera.center] : []),
       ...matchingVenues().map(venue => [venue.lng, venue.lat] as [number, number]),
+      ...matchingAttractions().map(attraction => [attraction.lng!, attraction.lat!] as [number,number]),
       ...(seaMode()?matchingBeaches().map(b=>[b.lng,b.lat] as [number,number]):[]),
     ];
     if (!map) return;
@@ -385,6 +393,11 @@ if (container) {
           const content=document.createElement('div'),title=document.createElement('strong'),link=document.createElement('a');title.textContent=editorialEnabled?venue.name:venue.english;link.href='/'+locale+'/rooftops/'+venue.id+'/';link.textContent=ui.details+' →';content.append(title,document.createElement('br'),link);
           const marker=new Marker({element}).setLngLat([venue.lng,venue.lat]).setPopup(new Popup({offset:20}).setDOMContent(content));tourismPins.push({venue,marker});
           document.querySelector<HTMLButtonElement>('[data-tourism-venue="'+venue.id+'"]')?.addEventListener('click',()=>{map!.flyTo({center:[venue.lng,venue.lat],zoom:14,duration});if(venueMatchesMapCategory(venue,category))marker.addTo(map!).togglePopup();document.querySelector('.map-stage')!.scrollIntoView({block:'nearest',behavior:reducedMotion?'auto':'smooth'});});
+        }
+        for(const attraction of attractions.filter(a=>Number.isFinite(a.lat)&&Number.isFinite(a.lng))){
+          const element=document.createElement('button');element.type='button';element.className='tourism-attraction-pin';element.dataset.attractionMarker=attraction.id;element.textContent='●';element.setAttribute('aria-label',attraction.name||attraction.english);
+          const content=document.createElement('div'),title=document.createElement('strong'),link=document.createElement('a');title.textContent=attraction.name||attraction.english;link.href=`/${locale}/attractions/${attraction.id}/`;link.textContent=ui.details+' →';content.append(title,document.createElement('br'),link);
+          const marker=new Marker({element}).setLngLat([attraction.lng!,attraction.lat!]).setPopup(new Popup({offset:20}).setDOMContent(content));attractionPins.push({attraction,marker});
         }
         mode();
         setCameraVisibility(camerasVisible);

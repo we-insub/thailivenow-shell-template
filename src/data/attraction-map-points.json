@@ -1,0 +1,572 @@
+{
+  "license": "Data © OpenStreetMap contributors, ODbL 1.0",
+  "points": {
+    "wat-pho": {
+      "lat": 13.7465067,
+      "lng": 100.4925884,
+      "source": "https://goo.gl/maps/tFaeVdjRgPr",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-arun": {
+      "lat": 13.7437,
+      "lng": 100.4889265,
+      "source": "https://goo.gl/maps/1LhuA2AxAM42",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-saket": {
+      "lat": 13.7538137,
+      "lng": 100.5066087,
+      "source": "https://goo.gl/maps/6KdGwZJTaWBRy9ou8",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-phra-that-doi-suthep": {
+      "lat": 18.8049889,
+      "lng": 98.9216337,
+      "source": "https://www.google.co.jp/maps/place/%E3%83%AF%E3%83%83%E3%83%88+%E3%83%97%E3%83%A9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%BB%E3%83%89%E3%83%BC%E3%82%A4%E3%82%B9%E3%83%86%E3%83%BC%E3%83%97/@18.804994,98.9190588,17z/data=!3m1!4b1!4m6!3m5!1s0x30da39b5dff1ddb5:0x9d864c5caec57e21!8m2!3d18.8049889!4d98.9216337!16zL20vMGNmd3M2?hl=ja&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-phra-singh": {
+      "lat": 18.7885265,
+      "lng": 98.9819946,
+      "source": "https://goo.gl/maps/grcd2UKaDeUUpXLZA",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-chedi-luang": {
+      "lat": 18.7869693,
+      "lng": 98.9865804,
+      "source": "https://goo.gl/maps/tjiLK4ZJ22nbnQ8f9",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-rong-suea-ten": {
+      "lat": 19.9233711,
+      "lng": 99.8417417,
+      "source": "https://goo.gl/maps/eQV21N7HdzC2",
+      "kind": "existing-record-coordinate"
+    },
+    "aquaria-phuket": {
+      "lat": 7.8887188,
+      "lng": 98.3658599,
+      "source": "https://www.google.com/maps/place/Aquaria+Phuket/@7.888719,98.36586,16z/data=!4m5!3m4!1s0x0:0xf4a10de74d8b010b!8m2!3d7.8887188!4d98.3658599?hl=en",
+      "kind": "existing-record-coordinate"
+    },
+    "chatuchak-market": {
+      "lat": 13.8001134,
+      "lng": 100.5510401,
+      "source": "https://goo.gl/maps/GLrFr3h8iJK2",
+      "kind": "existing-record-coordinate"
+    },
+    "or-tor-kor-market": {
+      "lat": 13.7970933,
+      "lng": 100.5474699,
+      "source": "https://goo.gl/maps/VyHxWz5TqdARvqVX9",
+      "kind": "existing-record-coordinate"
+    },
+    "khlong-lat-mayom-floating-market": {
+      "lat": 13.7615033,
+      "lng": 100.4154929,
+      "source": "https://www.google.co.jp/maps/place/%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%83%A9%E3%83%83%E3%83%88%E3%83%9E%E3%83%A8%E3%83%A0%E6%B0%B4%E4%B8%8A%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88/@13.7239046,100.4092362,12.75z/data=!4m6!3m5!1s0x30e29dc7f755d7cd:0x69bf75ee8bc19eb1!8m2!3d13.7615033!4d100.4154929!16s%2Fg%2F11h7fz3vtp?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+      "kind": "existing-record-coordinate"
+    },
+    "amphawa-floating-market": {
+      "lat": 13.4257,
+      "lng": 99.955829,
+      "source": "https://www.google.co.jp/maps/place/Amphawa+Floating+Market/@13.4257052,99.9532541,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2d43038eeccb9:0xe80ef19d3c973415!8m2!3d13.4257!4d99.955829!16s%2Fg%2F11fn6cmfv0?entry=ttu",
+      "kind": "existing-record-coordinate"
+    },
+    "chiang-mai-sunday-market": {
+      "lat": 18.78818,
+      "lng": 98.9881002,
+      "source": "https://www.google.co.jp/maps/place/Sunday+walking+street/@18.7881851,98.9855253,17z/data=!3m1!4b1!4m6!3m5!1s0x30da3b114c0418fd:0xd24105acd500a90e!8m2!3d18.78818!4d98.9881002!16s%2Fg%2F11gvzcjjc7?hl=ja&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D",
+      "kind": "existing-record-coordinate"
+    },
+    "wualai-saturday-market": {
+      "lat": 18.7781893,
+      "lng": 98.9841852,
+      "source": "https://goo.gl/maps/V2C9vWBxCPk",
+      "kind": "existing-record-coordinate"
+    },
+    "chiang-mai-night-bazaar": {
+      "lat": 18.785274,
+      "lng": 99.0002766,
+      "source": "https://goo.gl/maps/GeYEPSY3SpL2",
+      "kind": "existing-record-coordinate"
+    },
+    "lard-yai-sunday-market": {
+      "lat": 7.8847783,
+      "lng": 98.3890333,
+      "source": "https://goo.gl/maps/GmyFkeiWPmSgwLcw5",
+      "kind": "existing-record-coordinate"
+    },
+    "national-museum-bangkok": {
+      "lat": 13.7573948,
+      "lng": 100.4923092,
+      "source": "https://goo.gl/maps/LBMfF6ADgH42",
+      "kind": "existing-record-coordinate"
+    },
+    "jim-thompson-house": {
+      "lat": 13.7491168,
+      "lng": 100.5283841,
+      "source": "https://goo.gl/maps/pmBYjPDDn3S2",
+      "kind": "existing-record-coordinate"
+    },
+    "sukhothai-historical-park": {
+      "lat": 17.0177392,
+      "lng": 99.703733,
+      "source": "https://goo.gl/maps/ArcjRTt44r52",
+      "kind": "existing-record-coordinate"
+    },
+    "phimai-historical-park": {
+      "lat": 15.2210769,
+      "lng": 102.4937702,
+      "source": "https://goo.gl/maps/Z35GevjcQT92",
+      "kind": "existing-record-coordinate"
+    },
+    "phanom-rung-historical-park": {
+      "lat": 14.5321053,
+      "lng": 102.942508,
+      "source": "https://goo.gl/maps/vAQxiQoRgwn",
+      "kind": "existing-record-coordinate"
+    },
+    "vana-nava-water-jungle": {
+      "lat": 12.53246,
+      "lng": 99.962088,
+      "source": "http://www.google.com/maps/place/Vana+Nava+Hua+Hin+Water+Jungle/@12.53246,99.962088,15z/data=!4m5!3m4!1s0x0:0x8a555706e2698da!8m2!3d12.53246!4d99.962088?hl=en-US",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-traimit": {
+      "lat": 13.7377,
+      "lng": 100.5135714,
+      "source": "https://goo.gl/maps/XwSP7uvSRsL2",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-benchamabophit": {
+      "lat": 13.7665642,
+      "lng": 100.5141104,
+      "source": "https://goo.gl/maps/jBvmXmk64ey",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-suthat": {
+      "lat": 13.7511103,
+      "lng": 100.5010723,
+      "source": "https://goo.gl/maps/wuoeLb9Kb282",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-mahathat-ayutthaya": {
+      "lat": 14.3569443,
+      "lng": 100.5675112,
+      "source": "https://goo.gl/maps/LRt8nXqiyY32",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-chaiwatthanaram": {
+      "lat": 14.3430402,
+      "lng": 100.5418124,
+      "source": "https://goo.gl/maps/XgGkzKK4tgP2",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-lokayasutharam": {
+      "lat": 14.3555448,
+      "lng": 100.5523779,
+      "source": "https://goo.gl/maps/ueDg8kD6BW72",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-yai-chai-mongkhon": {
+      "lat": 14.3458373,
+      "lng": 100.592559,
+      "source": "https://goo.gl/maps/MY6VFuauZCL2",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-phanan-choeng": {
+      "lat": 14.3442536,
+      "lng": 100.578966,
+      "source": "https://goo.gl/maps/m51x6HmeoEQ2",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-umong": {
+      "lat": 18.7833134,
+      "lng": 98.9511902,
+      "source": "https://goo.gl/maps/xG644B55qywL3aFF6",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-pha-lat": {
+      "lat": 18.7993968,
+      "lng": 98.9341468,
+      "source": "https://maps.app.goo.gl/sJDebkbPeYtXbSzW6",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-phra-yai-samui": {
+      "lat": 9.5707267,
+      "lng": 100.0600883,
+      "source": "https://www.google.com/maps?q=9.5707267,100.0600883",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-plai-laem": {
+      "lat": 9.5713472,
+      "lng": 100.06711559999997,
+      "source": "https://www.google.com/maps?q=9.5713472,100.06711559999997",
+      "kind": "existing-record-coordinate"
+    },
+    "phra-pathom-chedi": {
+      "lat": 13.8196319,
+      "lng": 100.0601416,
+      "source": "https://goo.gl/maps/nGxwabBChhQ2",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-si-chum-sukhothai": {
+      "lat": 17.0268915,
+      "lng": 99.6931464,
+      "source": "https://goo.gl/maps/6SNjGLRtVAtxtXwt9",
+      "kind": "existing-record-coordinate"
+    },
+    "damnoen-saduak-floating-market": {
+      "lat": 13.5199051,
+      "lng": 99.9594338,
+      "source": "https://goo.gl/maps/6VyGJHtbhNP2",
+      "kind": "existing-record-coordinate"
+    },
+    "bridge-over-river-kwai": {
+      "lat": 14.0408817,
+      "lng": 99.5036955,
+      "source": "https://goo.gl/maps/pxHmZuygLNu",
+      "kind": "existing-record-coordinate"
+    },
+    "khao-san-road": {
+      "lat": 13.7589947,
+      "lng": 100.4970827,
+      "source": "https://www.google.co.jp/maps/place/%E3%82%AB%E3%82%AA%E3%82%B5%E3%83%B3%E9%80%9A%E3%82%8A/@13.7589999,100.4945078,17z/data=!3m1!4b1!4m6!3m5!1s0x30e2996d4ac8f54b:0xa7b35dcfd88ad769!8m2!3d13.7589947!4d100.4970827!16s%2Fg%2F11b7q50bkx?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+      "kind": "existing-record-coordinate"
+    },
+    "song-wat-road": {
+      "lat": 13.7373132,
+      "lng": 100.5089791,
+      "source": "https://www.google.co.jp/maps/place/Song+Wat+Rd,+Khet+Samphanthawong,+Krung+Thep+Maha+Nakhon+10100+%E3%82%BF%E3%82%A4/@13.7374836,100.5058169,16.75z/data=!4m6!3m5!1s0x30e2991f897014f3:0xde918560c62a2364!8m2!3d13.7373132!4d100.5089791!16s%2Fg%2F11gh2pxs66?hl=ja&entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+      "kind": "existing-record-coordinate"
+    },
+    "talat-noi": {
+      "lat": 13.7346704,
+      "lng": 100.5134411,
+      "source": "https://www.google.co.jp/maps/place/Talat+Noi,+%E3%82%B5%E3%83%A0%E3%83%91%E3%83%83%E3%82%BF%E3%82%A6%E3%82%A9%E3%83%B3+%E3%83%90%E3%83%B3%E3%82%B3%E3%82%AF+%E3%82%BF%E3%82%A4/@13.7347676,100.507913,16z/data=!3m1!4b1!4m6!3m5!1s0x30e298d8adfbe1cd:0x40100b25de28af0!8m2!3d13.7346704!4d100.5134411!16s%2Fg%2F11g6bklqgg?entry=ttu",
+      "kind": "existing-record-coordinate"
+    },
+    "nimmanhaemin": {
+      "lat": 18.7958151,
+      "lng": 98.9658169,
+      "source": "https://goo.gl/maps/xXUQM4XAcg82",
+      "kind": "existing-record-coordinate"
+    },
+    "wat-phra-kaew": {
+      "lat": 13.7514974,
+      "lng": 100.4926592,
+      "source": "https://www.openstreetmap.org/way/230010054",
+      "feature": "วัดพระศรีรัตนศาสดาราม",
+      "kind": "named-map-feature"
+    },
+    "wat-rong-khun": {
+      "lat": 18.7809989,
+      "lng": 99.0600555,
+      "source": "https://www.openstreetmap.org/node/1121219664",
+      "feature": "วัดวารีสุทธาวาส",
+      "kind": "named-map-feature"
+    },
+    "wat-chalong": {
+      "lat": 7.8462631,
+      "lng": 98.3374691,
+      "source": "https://www.openstreetmap.org/way/242673271",
+      "feature": "Wat Chalong",
+      "kind": "named-map-feature"
+    },
+    "safari-world": {
+      "lat": 13.8650168,
+      "lng": 100.7030597,
+      "source": "https://www.openstreetmap.org/way/706259602",
+      "feature": "ซาฟารีเวิลด์",
+      "kind": "named-map-feature"
+    },
+    "khao-kheow-open-zoo": {
+      "lat": 13.2134628,
+      "lng": 101.0611659,
+      "source": "https://www.openstreetmap.org/way/132599367",
+      "feature": "สวนสัตว์เปิดเขาเขียว",
+      "kind": "named-map-feature"
+    },
+    "chiang-mai-zoo": {
+      "lat": 18.8039024,
+      "lng": 98.9441807,
+      "source": "https://www.openstreetmap.org/way/105591056",
+      "feature": "สวนสัตว์เชียงใหม่",
+      "kind": "named-map-feature"
+    },
+    "chiang-mai-night-safari": {
+      "lat": 18.7384735,
+      "lng": 98.9165453,
+      "source": "https://www.openstreetmap.org/way/250585255",
+      "feature": "เชีงใหม่ไนท์ซาฟารี",
+      "kind": "named-map-feature"
+    },
+    "sea-life-bangkok": {
+      "lat": 13.7469747,
+      "lng": 100.5351985,
+      "source": "https://www.openstreetmap.org/node/4130721589",
+      "feature": "Sea Life Bangkok Ocean World",
+      "kind": "named-map-feature"
+    },
+    "underwater-world-pattaya": {
+      "lat": 12.8966819,
+      "lng": 100.8961308,
+      "source": "https://www.openstreetmap.org/way/209062271",
+      "feature": "อันเดอร์ วอเตอร์ เวิล์ด พัทยา",
+      "kind": "named-map-feature"
+    },
+    "phuket-aquarium": {
+      "lat": 7.8034817,
+      "lng": 98.4079341,
+      "source": "https://www.openstreetmap.org/way/481948258",
+      "feature": "สถานแสดงพันธุ์สัตว์น้ำภูเก็ต",
+      "kind": "named-map-feature"
+    },
+    "cicada-market": {
+      "lat": 12.5343519,
+      "lng": 99.9662124,
+      "source": "https://www.openstreetmap.org/way/451486555",
+      "feature": "Cicada Market",
+      "kind": "named-map-feature"
+    },
+    "museum-siam": {
+      "lat": 13.7439935,
+      "lng": 100.4938519,
+      "source": "https://www.openstreetmap.org/way/349609932",
+      "feature": "มิวเซียมสยาม",
+      "kind": "named-map-feature"
+    },
+    "erawan-museum": {
+      "lat": 13.6285032,
+      "lng": 100.5895413,
+      "source": "https://www.openstreetmap.org/way/666021136",
+      "feature": "พิพิธภัณฑ์ช้างเอราวัณ;พิพิธภัณฑ์ ช้างเอราวัณ",
+      "kind": "named-map-feature"
+    },
+    "ayutthaya-historical-park": {
+      "lat": 14.3535461,
+      "lng": 100.5622548,
+      "source": "https://www.openstreetmap.org/way/79265090",
+      "feature": "อุทยานประวัติศาสตร์พระนครศรีอยุธยา",
+      "kind": "named-map-feature"
+    },
+    "siam-amazing-park": {
+      "lat": 13.8067611,
+      "lng": 100.695068,
+      "source": "https://www.openstreetmap.org/way/832285306",
+      "feature": "Siam Amazing Park",
+      "kind": "named-map-feature"
+    },
+    "dream-world": {
+      "lat": 13.9909478,
+      "lng": 100.675179,
+      "source": "https://www.openstreetmap.org/way/124857541",
+      "feature": "ดรีมเวิลด์",
+      "kind": "named-map-feature"
+    },
+    "andamanda-phuket": {
+      "lat": 7.9025582,
+      "lng": 98.3632625,
+      "source": "https://www.openstreetmap.org/way/1032851977",
+      "feature": "Andamanda Phuket",
+      "kind": "named-map-feature"
+    },
+    "ramayana-water-park": {
+      "lat": 12.750536,
+      "lng": 100.9621012,
+      "source": "https://www.openstreetmap.org/way/421610458",
+      "feature": "สวนน้ำรามายณะ",
+      "kind": "named-map-feature"
+    },
+    "columbia-pictures-aquaverse": {
+      "lat": 12.7852981,
+      "lng": 100.9143232,
+      "source": "https://www.openstreetmap.org/way/185276005",
+      "feature": "Columbia Pictures Aquaverse",
+      "kind": "named-map-feature"
+    },
+    "wat-phra-si-sanphet": {
+      "lat": 14.3559133,
+      "lng": 100.5585079,
+      "source": "https://www.openstreetmap.org/way/37447698",
+      "feature": "วัดพระศรีสรรเพชญ์",
+      "kind": "named-map-feature"
+    },
+    "wat-ratchaburana-ayutthaya": {
+      "lat": 16.8217389,
+      "lng": 100.260981,
+      "source": "https://www.openstreetmap.org/relation/21367878",
+      "feature": "วัดราชบูรณะ",
+      "kind": "named-map-feature"
+    },
+    "wat-huai-pla-kang": {
+      "lat": 19.9488435,
+      "lng": 99.8063086,
+      "source": "https://www.openstreetmap.org/way/458238257",
+      "feature": "Wat Huay Pla Kang (Goddess of Mercy Temple)",
+      "kind": "named-map-feature"
+    },
+    "wat-phra-that-lampang-luang": {
+      "lat": 18.2168322,
+      "lng": 99.3886802,
+      "source": "https://www.openstreetmap.org/way/400903936",
+      "feature": "วัดพระธาตุลำปางหลวง",
+      "kind": "named-map-feature"
+    },
+    "nakhon-ratchasima-zoo": {
+      "lat": 14.8529368,
+      "lng": 102.0818959,
+      "source": "https://www.openstreetmap.org/way/93308625",
+      "feature": "สวนสัตว์นครราชสีมา",
+      "kind": "named-map-feature"
+    },
+    "khon-kaen-zoo": {
+      "lat": 16.8459248,
+      "lng": 102.8962228,
+      "source": "https://www.openstreetmap.org/node/13109858748",
+      "feature": "สวนสัตว์ขอนแก่น",
+      "kind": "named-map-feature"
+    },
+    "ubon-ratchathani-zoo": {
+      "lat": 15.2840314,
+      "lng": 104.8076782,
+      "source": "https://www.openstreetmap.org/node/14053787810",
+      "feature": "สวนสัตว์อุบลราชธานี.",
+      "kind": "named-map-feature"
+    },
+    "songkhla-zoo": {
+      "lat": 7.1416031,
+      "lng": 100.6059377,
+      "source": "https://www.openstreetmap.org/way/457997122",
+      "feature": "สวนสัตว์สงขลา",
+      "kind": "named-map-feature"
+    },
+    "rayong-aquarium": {
+      "lat": 12.6102397,
+      "lng": 101.4251325,
+      "source": "https://www.openstreetmap.org/way/169098402",
+      "feature": "สถานแสดงพันธุ์สัตว์น้ำระยอง",
+      "kind": "named-map-feature"
+    },
+    "waghor-aquarium": {
+      "lat": 11.7200384,
+      "lng": 99.759487,
+      "source": "https://www.openstreetmap.org/way/253760909",
+      "feature": "พิพิธภัณฑ์สัตว์น้ำ หว้ากอ",
+      "kind": "named-map-feature"
+    },
+    "nong-khai-aquarium": {
+      "lat": 17.8092446,
+      "lng": 102.7460612,
+      "source": "https://www.openstreetmap.org/way/651644678",
+      "feature": "พิพิธภัณฑ์สัตว์น้ำจังหวัดหนองคาย",
+      "kind": "named-map-feature"
+    },
+    "songkhla-aquarium": {
+      "lat": 7.2249179,
+      "lng": 100.5800375,
+      "source": "https://www.openstreetmap.org/relation/13274783",
+      "feature": "Songkhla Aquarium TK Park Learning Park",
+      "kind": "named-map-feature"
+    },
+    "bueng-boraphet-aquarium": {
+      "lat": 15.711741,
+      "lng": 100.1756671,
+      "source": "https://www.openstreetmap.org/node/2147672094",
+      "feature": "บึงบอระเพ็ด อาคารแสดงพันธุ์สัตว์น้ำ อุโมงค์ปลาบึงบอระเพ็ด",
+      "kind": "named-map-feature"
+    },
+    "taling-chan-floating-market": {
+      "lat": 13.7764049,
+      "lng": 100.4565735,
+      "source": "https://www.openstreetmap.org/way/256162460",
+      "feature": "ตลาดน้ำตลิ่งชัน",
+      "kind": "named-map-feature"
+    },
+    "phuket-old-town": {
+      "lat": 7.8847774,
+      "lng": 98.3892206,
+      "source": "https://www.openstreetmap.org/node/4395955589",
+      "feature": "เมืองเก่าภูเก็ต",
+      "kind": "named-map-feature"
+    },
+    "mae-klong-railway-market": {
+      "lat": 13.4075514,
+      "lng": 99.9984791,
+      "source": "https://www.openstreetmap.org/node/13512084149",
+      "feature": "ตลาดรถไฟแม่กลอง",
+      "kind": "named-map-feature"
+    },
+    "grand-palace": {
+      "lat": 13.7493514,
+      "lng": 100.4918643,
+      "source": "https://www.openstreetmap.org/way/23482754",
+      "feature": "พระบรมมหาราชวัง",
+      "kind": "named-map-feature"
+    },
+    "ancient-city-muang-boran": {
+      "lat": 13.5463009,
+      "lng": 100.6309975,
+      "source": "https://www.openstreetmap.org/way/166114555",
+      "feature": "เมืองโบราณ",
+      "kind": "named-map-feature"
+    },
+    "wat-paknam": {
+      "lat": 13.7216719,
+      "lng": 100.4704273,
+      "source": "https://www.openstreetmap.org/way/376675947",
+      "feature": "วัดปากน้ำภาษีเจริญ",
+      "kind": "named-map-feature"
+    },
+    "wat-phra-mahathat-nakhon-si-thammarat": {
+      "lat": 8.4110907,
+      "lng": 99.9664341,
+      "source": "https://www.openstreetmap.org/node/1586071745",
+      "feature": "วัดพระมหาธาตุ วรมหาวิหาร",
+      "kind": "named-map-feature"
+    },
+    "bangsaen-aquarium": {
+      "lat": 13.2849105,
+      "lng": 100.9247574,
+      "source": "https://www.openstreetmap.org/node/12136124470",
+      "feature": "ศูนย์เรียนรู้โลกใต้ทะเล บางแสน",
+      "kind": "named-map-feature"
+    },
+    "bangkok-aquarium": {
+      "lat": 13.8388,
+      "lng": 100.572,
+      "source": "https://www.google.com/maps/search/?api=1&query=13.8388%2C100.5720",
+      "feature": "Bangkok Aquarium, Kasetsart University",
+      "kind": "named-map-feature"
+    },
+    "bueng-chawak-aquarium": {
+      "lat": 14.928178,
+      "lng": 100.0476706,
+      "source": "https://www.google.com/maps/place/Bueng+Chawak+Chaloem+Phrakiet/@14.928178,100.0454819,17z/data=!3m1!4b1!4m5!3m4!1s0x30e185c78a0ea511:0xd8627a63d5fc1140!8m2!3d14.928178!4d100.0476706",
+      "feature": "Bueng Chawak Chaloem Phrakiet",
+      "kind": "named-map-feature"
+    },
+    "yaowarat-chinatown": {
+      "lat": 13.7411515,
+      "lng": 100.5083113,
+      "source": "https://www.openstreetmap.org/way/832948770",
+      "feature": "ถนนเยาวราช",
+      "kind": "named-map-feature"
+    },
+    "charoen-krung": {
+      "lat": 13.7419489,
+      "lng": 100.510332,
+      "source": "https://www.openstreetmap.org/way/911126529",
+      "feature": "ถนนเจริญกรุง",
+      "kind": "named-map-feature"
+    },
+    "bophut-fishermans-village": {
+      "lat": 9.55898,
+      "lng": 100.03151,
+      "source": "https://www.openstreetmap.org/way/1156240707",
+      "feature": "Fisherman’s Village Bophut Walking Street",
+      "kind": "named-map-feature"
+    }
+  }
+}
