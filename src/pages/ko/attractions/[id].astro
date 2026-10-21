@@ -1,0 +1,7 @@
+---
+import AttractionDetail from '../../../components/AttractionDetail.astro';
+import places from '../../../data/attraction-details-ko.json';
+export function getStaticPaths(){return places.filter(p=>!['jim-thompson-house','wat-arun'].includes(p.id)).map(place=>({params:{id:place.id},props:{place}}));}
+const {place}=Astro.props;
+---
+<AttractionDetail place={place}/>

@@ -1,0 +1,6 @@
+---
+import AttractionDetail from '../../../../components/AttractionDetail.astro';
+import places from '../../../../data/attraction-details-ko.json';
+const place=places.find(p=>p.id==='jim-thompson-house');
+---
+<AttractionDetail place={place}/>

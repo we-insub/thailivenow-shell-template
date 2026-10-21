@@ -2,6 +2,7 @@ import fs from 'node:fs';
 const load=p=>JSON.parse(fs.readFileSync(p));const assets={};
 function add(photo,route,cameraIds){const src=photo.src||photo.url,license=photo.rights||photo.license;if(!src||!license||!photo.sourceUrl)return;
  const old=assets[src];assets[src]={sourceUrl:photo.sourceUrl,license,licenseUrl:photo.licenseUrl||null,credit:photo.credit||photo.artist||null,width:photo.width||null,height:photo.height||null,routes:[...new Set([...(old?.routes||[]),...(route?[route]:[])])],cameraIds:[...new Set([...(old?.cameraIds||[]),...(cameraIds||[])])]};}
+for(const place of load('src/data/attraction-details-ko.json'))for(const photo of place.photos||[])add(photo,'attractions/'+place.id);
 for(const beach of load('src/data/beaches.json'))for(const photo of beach.photos||[])add(photo,'beaches/'+beach.id);
 for(const venue of load('src/data/rooftops.json'))for(const photo of venue.photos||[])add(photo,'rooftops/'+venue.id);
 const food=load('src/data/food.json');for(const group of ['dishes','fruits'])for(const record of food[group]||[])if(record.photo)add(record.photo,`food/${group}/${record.id}`);

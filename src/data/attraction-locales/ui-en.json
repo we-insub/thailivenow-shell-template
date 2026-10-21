@@ -1,0 +1,92 @@
+{
+  "home": "Home",
+  "attractions": "Thailand attractions",
+  "location": "Location and getting there",
+  "address": "Address",
+  "area": "Area",
+  "map": "Open in Google Maps",
+  "directions": "Directions in Google Maps",
+  "copy": "Copy address",
+  "copyArea": "Copy location",
+  "copied": "Address copied.",
+  "copyFallback": "Address selected. Copy it to use it.",
+  "facts": "Essential visitor information",
+  "experience": "What can you see?",
+  "rules": "Before you visit",
+  "faq": "Frequently asked questions",
+  "related": "Related places and travel information",
+  "sources": "Official sources",
+  "checked": "Sources checked",
+  "photo": "Photo",
+  "taken": "Photographed in",
+  "mapNote": "The pin marks the place, not necessarily its entrance, ticket office or vehicle drop-off point.",
+  "mapFallback": "Use the Google Maps link below to see the location.",
+  "programs": "Show and activity times",
+  "audio": "Tours and audio guides",
+  "services": "Extra charges and conditions",
+  "official": "Official information",
+  "search": "Place name",
+  "searchPlaceholder": "Search by local, English or Thai name",
+  "region": "Region",
+  "allRegions": "All Thailand",
+  "choose": "Where would you like to go?",
+  "viewDetail": "Sights and visitor information",
+  "noResults": "Try another name or region.",
+  "back": "Browse other attraction categories",
+  "reference": "Aquarium facilities",
+  "categoryNav": "Other attraction categories",
+  "adult": "Adult",
+  "child": "Child",
+  "from": "from",
+  "tickets": "Tickets and booking",
+  "experiences": "Costume and experience bookings",
+  "booking": "View options and book on Trip.com",
+  "offerBasis": "Reference prices for international visitors, shown in US dollars on the English booking site.",
+  "offerNote": "Prices depend on your visit date, availability and selected option. The booking page shows the final price and inclusions.",
+  "affiliate": "Affiliate link: ThaiLiveNow may earn a commission if you book through this link.",
+  "types": "Attraction categories",
+  "hubHeading": "Places to visit in Thailand",
+  "hubIntro": "Explore temple halls and murals, walk through neighbourhoods for local food, or head up high for city views. Choose a place to match the time you want to spend in Thailand.",
+  "categoryHeading": "What would you like to explore?",
+  "categoryIntro": "The same city can offer very different days out, depending on what you want to see.",
+  "planningHeading": "Plan your visit and return journey",
+  "planningBody": "Some markets open only at weekends, while some museums require a guided visit. Check opening hours and how the visit works, then plan your journey from your accommodation and how to get back.",
+  "transport": "Transport around Thailand",
+  "seeCategory": "Explore this category",
+  "places": "places",
+  "hubTitle": "Thailand attractions | Temples, markets and museums | ThaiLiveNow",
+  "hubDescription": "Find temples, rooftops, zoos, aquariums, markets, museums, historic sites and water parks in Thailand. Explore the sights, addresses, opening hours, admission fees and travel information.",
+  "preview": "Museum photos and collections",
+  "modified": "Resized; preview may be cropped",
+  "categories": [
+    {
+      "name": "Temples",
+      "text": "See gilded stupas, halls with murals and ancient temples reduced to brick ruins. Choose between active places of worship and archaeological sites."
+    },
+    {
+      "name": "Rooftops and observation decks",
+      "text": "For views from above, choose between observation facilities and rooftops serving food and drinks. Ticket and reservation conditions differ."
+    },
+    {
+      "name": "Zoos and aquariums",
+      "text": "Explore spacious zoos or aquarium exhibits and underwater tunnels. With children, consider how you will move around and which extra activities you want."
+    },
+    {
+      "name": "Night markets and markets",
+      "text": "Browse food and crafts at night markets or visit floating markets beside canals. Weekend markets and daily markets need different plans."
+    },
+    {
+      "name": "Museums and historic sites",
+      "text": "See art in former homes or walk through old royal capitals and temple ruins. Indoor museums and historical parks spread across several sites offer different visits."
+    },
+    {
+      "name": "Theme parks and water parks",
+      "text": "Spend a day on rides or in the water. A child ticket does not override individual ride height limits and accompanying-adult requirements."
+    },
+    {
+      "name": "Streets and neighbourhoods",
+      "text": "Explore old shopping streets and lanes, stopping for cafés, food and architecture. Daytime neighbourhood walks and streets with evening markets have different atmospheres."
+    }
+  ],
+  "contact": "Contact"
+}

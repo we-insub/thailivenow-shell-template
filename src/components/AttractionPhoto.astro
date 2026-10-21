@@ -1,0 +1,17 @@
+---
+import {licenseDisplay} from '../lib/license-display.mjs';
+import {attractionUI} from '../lib/attractions-localized';
+const {photo,href,detail=false,eager=false,locale='ko'}=Astro.props;
+const u=attractionUI(locale);
+const portrait=!detail&&(photo.previewFit==='contain'||photo.height>photo.width);
+const photoYear=(photo.photoTakenOnRaw||'').match(/(?:19|20)\d{2}/)?.[0]||photo.caption?.match(/^((?:19|20)\d{2})년/)?.[1];
+const changes=portrait?(photo.modifications||photo.changes||u.modified).replace('·미리보기 일부 잘림',''):(photo.modifications||photo.changes||(!detail?u.modified:null));
+
+---
+<figure class:list={['attraction-photo',detail&&'detail-photo',portrait&&'portrait-preview']}>
+{href?<a class="photo-link" href={href} aria-label={photo.alt}><img src={photo.src} alt={photo.alt} width={photo.width||1200} height={photo.height||800} loading={eager?'eager':'lazy'} decoding="async"/></a>:<img src={photo.src} alt={photo.alt} width={photo.width||1200} height={photo.height||800} loading={eager?'eager':'lazy'} decoding="async"/>}
+<figcaption>{!detail&&photoYear&&<span class="photo-caption">{locale==='ko'?`${photoYear}년 촬영`:`${u.taken}: ${photoYear}`}</span>}{detail&&photo.caption&&<span class="photo-caption">{photo.caption}</span>}<span>{u.photo}: <a href={photo.sourceUrl} title={photo.title||photo.identityEvidence?.fileTitle||photo.caption||photo.alt} target="_blank" rel="noopener noreferrer">{photo.credit}</a> · <a href={photo.licenseUrl||photo.sourceUrl} target="_blank" rel="noopener noreferrer">{licenseDisplay(photo.rights,locale)}</a>{changes&&<> · {changes}</>}</span></figcaption>
+</figure>
+<style>
+.attraction-photo{margin:0 0 24px;min-width:0}.attraction-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:14px}.portrait-preview img{object-fit:contain;background:#edf3f6}.photo-link{display:block;border-radius:14px;overflow:hidden}.photo-link:focus-visible{outline:3px solid #267e89;outline-offset:4px}.attraction-photo figcaption{font-size:12px;line-height:1.7;color:#61717e;margin-top:10px;overflow-wrap:anywhere}.attraction-photo figcaption a{font-size:inherit;color:#526572;text-underline-offset:3px}.photo-caption{display:block;margin-bottom:4px}.detail-photo img{aspect-ratio:auto;height:auto;max-height:650px;object-fit:contain;background:#edf3f6}.detail-photo figcaption{font-size:13px}.detail-photo{margin-bottom:32px}@media(max-width:600px){.detail-photo img{max-height:500px}}
+</style>

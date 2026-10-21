@@ -1,6 +1,966 @@
 {
   "policy": "Retained subject-matched photos only; original creators and reuse evidence preserved. Camera images are reference photos, not live footage.",
   "assets": {
+    "/images/attractions/wat-pho.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Pho_Temple_Bangkok_1.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Philip Nalangan / Wikimedia Commons",
+      "width": 1200,
+      "height": 899,
+      "routes": [
+        "attractions/wat-pho"
+      ],
+      "cameraIds": []
+    },
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Wat_Arun_6.jpg?width=1600": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_Wat_Arun_6.jpg",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Welcome to Thailand / Wikimedia Commons",
+      "width": 1920,
+      "height": 2560,
+      "routes": [
+        "attractions/wat-arun"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phra-kaew.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_the_Emerald_Buddha.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Nawit science / Wikimedia Commons",
+      "width": 1200,
+      "height": 801,
+      "routes": [
+        "attractions/wat-phra-kaew"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-saket.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A8-2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "BerryJ / Wikimedia Commons",
+      "width": 1200,
+      "height": 801,
+      "routes": [
+        "attractions/wat-saket"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phra-that-doi-suthep.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Phra_That_Doi_Suthep_-_Chiang_Mai.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "JJ Harrison ( https://www.jjharrison.com.au/ ) / Wikimedia Commons",
+      "width": 1200,
+      "height": 960,
+      "routes": [
+        "attractions/wat-phra-that-doi-suthep"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phra-singh.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_-_Wat_Phra_Singh_-_0006.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Stefan Fussan / Wikimedia Commons",
+      "width": 1200,
+      "height": 778,
+      "routes": [
+        "attractions/wat-phra-singh"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-chedi-luang.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Chedi_Luang,_Buddhist_temple,_Chiang_Mai,_Thailand.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Vyacheslav Argenberg / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-chedi-luang"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-rong-khun.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Rong_Khun-001.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Ddalbiez / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-rong-khun"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-rong-suea-ten.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Rong_Suea_Ten_(Blue_Temple,_Chiang_Rai)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%99_(October_2021)_-_img_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Chainwit. / Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/wat-rong-suea-ten"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-chalong.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Chalong_Phuket_(one_of_the_temples).jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Deepak-nsk / Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/wat-chalong"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/safari-world.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Safari_World_%28118%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "กสิณธร ราชโอรส · Wikimedia Commons",
+      "width": 1200,
+      "height": 901,
+      "routes": [
+        "attractions/safari-world"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/khao-kheow-open-zoo.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_Khiao_Open_Zoo_relief_and_writing_outside_2009.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Dean Croshere from Jomtien, Thailand · Wikimedia Commons",
+      "width": 1200,
+      "height": 793,
+      "routes": [
+        "attractions/khao-kheow-open-zoo"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/chiang-mai-zoo.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%8C%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88_%E0%B8%AD.%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87_%E0%B8%88.%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88_Chiang_Mai_Zoo_%281%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "กสิณธร ราชโอรส · Wikimedia Commons",
+      "width": 1200,
+      "height": 901,
+      "routes": [
+        "attractions/chiang-mai-zoo"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/chiang-mai-night-safari.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_Safari1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Chiang Mai Night Safari · Wikimedia Commons",
+      "width": 1200,
+      "height": 800,
+      "routes": [
+        "attractions/chiang-mai-night-safari"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/sea-life-bangkok.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siam_Ocean_World_7.JPG",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "credit": "Terence Ong (Terence) · Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/sea-life-bangkok"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/underwater-world-pattaya.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B8%D1%83%D0%BC_%D0%BF%D0%BE%D0%B4%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B8%D1%80_%D0%A2%D0%B0%D0%B9%D0%BB%D0%B0%D0%BD%D0%B4_%D0%9F%D0%B0%D1%82%D1%82%D0%B0%D0%B9%D1%8F_%D1%84%D0%BE%D1%82%D0%BE_26.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Aleksey Maramzin · Wikimedia Commons",
+      "width": 1200,
+      "height": 800,
+      "routes": [
+        "attractions/underwater-world-pattaya"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/phuket-aquarium.jpg": {
+      "sourceUrl": "https://www.flickr.com/photos/26071009@N04/8121218501",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Holiday Point (holidaypointau) · Flickr",
+      "width": 1024,
+      "height": 768,
+      "routes": [
+        "attractions/phuket-aquarium"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/chatuchak-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chatuchak_Weekend_Market_Soi.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "JJ Harrison ( https://www.jjharrison.com.au/ ) / Wikimedia Commons",
+      "width": 1280,
+      "height": 844,
+      "routes": [
+        "attractions/chatuchak-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/or-tor-kor-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai_mango_(yellow).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Susan Slater / Wikimedia Commons",
+      "width": 960,
+      "height": 658,
+      "routes": [
+        "attractions/or-tor-kor-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/khlong-lat-mayom-floating-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A2%E0%B8%A1_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Dharmadana / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/khlong-lat-mayom-floating-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/amphawa-floating-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphawa_Floating_Market_(I).jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Supanut Arunoprayote / Wikimedia Commons",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "attractions/amphawa-floating-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/mae-klong-railway-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Train_passing_through_Maeklong_Railway_Market_(public_domain).jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Jason Goh / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/mae-klong-railway-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/chiang-mai-sunday-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_sunday_evening_walking_street.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Takeaway / Wikimedia Commons",
+      "width": 1280,
+      "height": 569,
+      "routes": [
+        "attractions/chiang-mai-sunday-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wualai-saturday-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_Market_Chiang_Mai.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Adbar / Wikimedia Commons",
+      "width": 1280,
+      "height": 857,
+      "routes": [
+        "attractions/wualai-saturday-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/chiang-mai-night-bazaar.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_Night_Bazaar_in_2018.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Christophe95 / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/chiang-mai-night-bazaar"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/lard-yai-sunday-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_Weekend_Market_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Christophe95 / Wikimedia Commons",
+      "width": 1280,
+      "height": 832,
+      "routes": [
+        "attractions/lard-yai-sunday-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/cicada-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cicada_Hua_Hin_Night_Market.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Wutthichai Charoenburi from Bangkok / Wikimedia Commons",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "attractions/cicada-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/grand-palace.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:202307_Grand_Palace_of_Bangkok_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Jonashtand / Wikimedia Commons",
+      "width": 1280,
+      "height": 720,
+      "routes": [
+        "attractions/grand-palace"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/museum-siam.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_Siam.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "ScorpianPK / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/museum-siam"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/national-museum-bangkok.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bangkok_National_Museum_01.JPG",
+      "license": "Public domain (PD-self)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bangkok_National_Museum_01.JPG#Licensing",
+      "credit": "Abasaa / あばさー / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/national-museum-bangkok"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/jim-thompson-house.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_House_of_Jim_Thompson_photo_Don_Ramey_Logan.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Don Ramey Logan · Main House of Jim Thompson photo Don Ramey Logan.jpg / Wikimedia Commons",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "attractions/jim-thompson-house"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/ancient-city-muang-boran.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_of_Traditional_Thai_wooden_houses_and_footbridge_at_Muang_Boran_Ancient_Siam_Samut_Prakan.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "iMahesh / Wikimedia Commons",
+      "width": 1280,
+      "height": 415,
+      "routes": [
+        "attractions/ancient-city-muang-boran"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/erawan-museum.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_3_headed_Elephant_outside_Bangkok_(15811305666).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "nakhon100 / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/erawan-museum"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/ayutthaya-historical-park.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayutthaya_Historical_Park_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Mr.Peerapong Prasutr / Wikimedia Commons",
+      "width": 1280,
+      "height": 851,
+      "routes": [
+        "attractions/ayutthaya-historical-park"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/sukhothai-historical-park.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_in_historical_park_of_Sukhothai.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Garonzi Stefania / Wikimedia Commons",
+      "width": 1280,
+      "height": 625,
+      "routes": [
+        "attractions/sukhothai-historical-park"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/phimai-historical-park.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%97%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99_%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%A2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Mastertongapollo / Wikimedia Commons",
+      "width": 1280,
+      "height": 854,
+      "routes": [
+        "attractions/phimai-historical-park"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/phanom-rung-historical-park.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phanom_Rung_Buriram_Thailand_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Philip Nalangan / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/phanom-rung-historical-park"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/siam-amazing-park.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016111001_Siam_Park_City_%28Bangkok%29_W.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Joachim Lutz · Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/siam-amazing-park"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/dream-world.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%94%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%8C_Bangkok_Dream_World_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "credit": "Thaweesak Churasri · Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/dream-world"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/ramayana-water-park.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RWP-Overview.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Ramayana Water Park · Wikimedia Commons",
+      "width": 1200,
+      "height": 675,
+      "routes": [
+        "attractions/ramayana-water-park"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/columbia-pictures-aquaverse.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquaverse_Theme_and_Water_Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Columbia Pictures Aquaverse · Wikimedia Commons",
+      "width": 960,
+      "height": 690,
+      "routes": [
+        "attractions/columbia-pictures-aquaverse"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-traimit.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016_Bangkok,_Dystrykt_Samphanthawong,_Wat_Traimit_Witthayaram_(08).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Marcin Konsek / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-traimit"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-benchamabophit.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Benchamabophit_Thailand.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Philip Nalangan / Wikimedia Commons",
+      "width": 1200,
+      "height": 899,
+      "routes": [
+        "attractions/wat-benchamabophit"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-suthat.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016_Bangkok,_Dystrykt_Phra_Nakhon,_Wat_Suthat_(34).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Marcin Konsek / Wikimedia Commons",
+      "width": 1200,
+      "height": 860,
+      "routes": [
+        "attractions/wat-suthat"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-paknam.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:(2023)_%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%99_%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3_(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "กสิณธร ราชโอรส / Wikimedia Commons",
+      "width": 1200,
+      "height": 1598,
+      "routes": [
+        "attractions/wat-paknam"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-mahathat-ayutthaya.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Templo_Mahathat,_Ayutthaya,_Tailandia,_2013-08-23,_DD_06.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Diego Delso / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-mahathat-ayutthaya"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phra-si-sanphet.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Three_Chedi(s)_of_Wat_Phra_Si_Sanphet.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Supanut Arunoprayote / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-phra-si-sanphet"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-chaiwatthanaram.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayutthaya_Thailand_2004.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Evilarry / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-chaiwatthanaram"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-ratchaburana-ayutthaya.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayutthaya_-_Wat_Ratchaburana_-_0014.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Stefan Fussan / Wikimedia Commons",
+      "width": 1200,
+      "height": 743,
+      "routes": [
+        "attractions/wat-ratchaburana-ayutthaya"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-lokayasutharam.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015_Wat_Lokayasutharam_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Nord794ub / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-lokayasutharam"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-yai-chai-mongkhon.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%A1%E0%B8%87%E0%B8%84%E0%B8%A5.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Mastertongapollo / Wikimedia Commons",
+      "width": 1200,
+      "height": 1800,
+      "routes": [
+        "attractions/wat-yai-chai-mongkhon"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phanan-choeng.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Phanan_Choeng_2019-01-15.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "พระเมธีวราภรณ์ วัดพนัญเชิง / Wikimedia Commons",
+      "width": 1200,
+      "height": 675,
+      "routes": [
+        "attractions/wat-phanan-choeng"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-umong.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Umong_Suan_Phutthatham.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Vano111ru / Wikimedia Commons",
+      "width": 1200,
+      "height": 901,
+      "routes": [
+        "attractions/wat-umong"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-pha-lat.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_-_Wat_Pha_Lat_-_0001.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Stefan Fussan / Wikimedia Commons",
+      "width": 1200,
+      "height": 823,
+      "routes": [
+        "attractions/wat-pha-lat"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-huai-pla-kang.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Huay_Pla_Kang_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B9%89%E0%B8%87_Chiang_Rai_%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%B2%E0%B8%A2_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Chainwit. / Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/wat-huai-pla-kang"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phra-yai-samui.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Budda_kuju.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Abrget47j / Wikimedia Commons",
+      "width": 1200,
+      "height": 803,
+      "routes": [
+        "attractions/wat-phra-yai-samui"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-plai-laem.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:12_Armige_Statue.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Gunther Dihlmann / Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/wat-plai-laem"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/phra-pathom-chedi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B8%90%E0%B8%A1%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Mastertongapollo / Wikimedia Commons",
+      "width": 1200,
+      "height": 1800,
+      "routes": [
+        "attractions/phra-pathom-chedi"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phra-mahathat-nakhon-si-thammarat.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Suwannee.payne / Wikimedia Commons",
+      "width": 1200,
+      "height": 674,
+      "routes": [
+        "attractions/wat-phra-mahathat-nakhon-si-thammarat"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-phra-that-lampang-luang.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Hong2101 / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-phra-that-lampang-luang"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/wat-si-chum-sukhothai.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_srichum_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Khunkay / Wikimedia Commons",
+      "width": 1200,
+      "height": 799,
+      "routes": [
+        "attractions/wat-si-chum-sukhothai"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/nakhon-ratchasima-zoo.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korat_Zoo%2CNakorn_Ratchasima%2CThailand_%2895%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "กสิณธร ราชโอรส · Wikimedia Commons",
+      "width": 1200,
+      "height": 901,
+      "routes": [
+        "attractions/nakhon-ratchasima-zoo"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/ubon-ratchathani-zoo.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiger_at_Ubon_Zoo.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "วิชิต กองคำ · Wikimedia Commons",
+      "width": 1200,
+      "height": 801,
+      "routes": [
+        "attractions/ubon-ratchathani-zoo"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/songkhla-zoo.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Songkhla_Zoo.png",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "H2H5M · Wikimedia Commons",
+      "width": 640,
+      "height": 425,
+      "routes": [
+        "attractions/songkhla-zoo"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/bangsaen-aquarium.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bangsaen_Aquarium-00001.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "PhoenixShutter · Wikimedia Commons",
+      "width": 1200,
+      "height": 800,
+      "routes": [
+        "attractions/bangsaen-aquarium"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/bangkok-aquarium.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%8C%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "ยุทธนาสาระขันธ์ · Wikimedia Commons",
+      "width": 1200,
+      "height": 710,
+      "routes": [
+        "attractions/bangkok-aquarium"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/bueng-chawak-aquarium.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_apolloshark.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "User:Thanyakij · Wikimedia Commons",
+      "width": 1106,
+      "height": 834,
+      "routes": [
+        "attractions/bueng-chawak-aquarium"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/waghor-aquarium.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waghor_Aquarium_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "::::=UT=:::: · Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/waghor-aquarium"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/nong-khai-aquarium.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nong_Khai_Aquarium.jpg",
+      "license": "GFDL 1.2 이상",
+      "licenseUrl": "/licenses/nong-khai-aquarium.txt",
+      "credit": "Lavishoptimism at English Wikipedia · Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/nong-khai-aquarium"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/damnoen-saduak-floating-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floating_market_at_Damnoen_Saduak_1.JPG",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "credit": "BrokenSphere / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/damnoen-saduak-floating-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/taling-chan-floating-market.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taling_Chan_Floating_Market_in_Taling_Chan_District,_Bangkok,_Thailand.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Globe-trotter / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/taling-chan-floating-market"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/bridge-over-river-kwai.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridge_of_the_River_Kwai.JPG",
+      "license": "Public domain (PD-self)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bridge_of_the_River_Kwai.JPG#Licensing",
+      "credit": "Ninini / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/bridge-over-river-kwai"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/khao-san-road.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_San_Road,_Bangkok,_Tailandia_(37594114336).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Edgardo W. Olivera from Montevideo, Uruguay / Wikimedia Commons",
+      "width": 1280,
+      "height": 720,
+      "routes": [
+        "attractions/khao-san-road"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/yaowarat-chinatown.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_Town_Thanon_Yaowarat_Bangkok_Thailand_by_Don_Ramey_Logan.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Don Ramey Logan · China Town Thanon Yaowarat Bangkok Thailand by Don Ramey Logan.jpg / Wikimedia Commons",
+      "width": 1280,
+      "height": 815,
+      "routes": [
+        "attractions/yaowarat-chinatown"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/song-wat-road.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%A7%E0%B8%B2%E0%B8%94.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Phoebus 28 / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/song-wat-road"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/talat-noi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lam_Phun_Chai_road,_talat_Noi,_Samphanthawong,_Bangkok_Thailand_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "credit": "trungydang / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/talat-noi"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/charoen-krung.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20131108_Thailand_4905_Bangkok_(Grand_Postal_Building)_(11329972653).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "Dan Lundberg / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/charoen-krung"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/nimmanhaemin.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thanon_Nimmanhemin_Shops_%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C_%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Chainwit. / Wikimedia Commons",
+      "width": 1280,
+      "height": 1024,
+      "routes": [
+        "attractions/nimmanhaemin"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/phuket-old-town.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thalang_Road,_Old_Phuket_Town.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Christophe95 / Wikimedia Commons",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "attractions/phuket-old-town"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/bophut-fishermans-village.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishermen%60s_village_-_panoramio_(1).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Ralf Schmidt / Wikimedia Commons",
+      "width": 960,
+      "height": 640,
+      "routes": [
+        "attractions/bophut-fishermans-village"
+      ],
+      "cameraIds": []
+    },
     "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Long-tail_boats_on_Patong_Beach_Phuket.jpg/1280px-Long-tail_boats_on_Patong_Beach_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-tail_boats_on_Patong_Beach_Phuket.jpg",
       "license": "CC BY-SA 4.0",

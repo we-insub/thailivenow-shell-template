@@ -8,13 +8,13 @@ import beaches from '../src/data/beaches.json' with {type:'json'};
 import cities from '../src/data/beach-cities.json' with {type:'json'};
 test('all eleven markets follow Korean topic order while coupons stay on owner hold',()=>{
  assert.equal(couponsNavigationEnabled,false);
- assert.deepEqual(navigationIds,['map','destinations','food','transport','airports','cameras','saved','food-delivery','rooftops','beaches','coupons','flight-disruptions']);
+ assert.deepEqual(navigationIds,['map','destinations','food','transport','airports','cameras','saved','food-delivery','attractions','beaches','coupons','flight-disruptions']);
  for(const locale of navigationLocales){
   const nav=siteNavigation(locale);assert.equal(nav.length,11);
-  assert.deepEqual(nav.map(item=>item[3]),['', 'destinations/','food/','transport/',locale==='ko'?'airports/':'airport-assistance/airports/','directory/','saved/','food-delivery/','rooftops/','beaches/','airport-assistance/'].map(path=>`/${locale}/${path}`));
+  assert.deepEqual(nav.map(item=>item[3]),['', 'destinations/','food/','transport/',locale==='ko'?'airports/':'airport-assistance/airports/','directory/','saved/','food-delivery/','attractions/','beaches/','airport-assistance/'].map(path=>`/${locale}/${path}`));
   assert.ok(nav.every(([full,short])=>full&&short));assert.equal(nav[10][0],navigationLabels[locale][11]);
  }
- assert.deepEqual(siteNavigation('ko').map(([full,short])=>[full,short]),[['지도에서 찾기','지도'],['태국 여행','태국 여행'],['음식','음식'],['교통','교통'],['태국 공항','태국 공항'],['카메라 목록','카메라'],['저장한 카메라','저장'],['음식배달','배달'],['루프탑','루프탑'],['해변','해변'],['항공편 지연·결항','지연·결항']]);
+ assert.deepEqual(siteNavigation('ko').map(([full,short])=>[full,short]),[['지도에서 찾기','지도'],['태국 여행','태국 여행'],['음식','음식'],['교통','교통'],['태국 공항','태국 공항'],['카메라 목록','카메라'],['저장한 카메라','저장'],['음식배달','배달'],['관광지','관광지'],['해변','해변'],['항공편 지연·결항','지연·결항']]);
 });
 test('only published equivalent delivery and pilot beach routes switch to all markets',()=>{
  const suffixes=['beaches/','food-delivery/',...['grabfood','line-man','shopeefood','robinhood'].map(id=>`food-delivery/${id}/`),...beaches.filter(b=>b.pilot).map(b=>`beaches/${b.id}/`),...cities.filter(c=>beaches.some(b=>b.pilot&&b.cityId===c.id)).map(c=>`beaches/cities/${c.id}/`)];
@@ -34,4 +34,13 @@ test('new details receive byline, genuine source/date preservation and equivalen
   assert.equal(applyPageSEO(output,pathname),output);
  }
  for(const locale of navigationLocales)for(const suffix of ['beaches/','beaches/cities/phuket/','food-delivery/'])assert.equal(isDetailPath(`/${locale}/${suffix}`),false);
+});
+
+test('attractions hubs keep rooftop URLs and publish only the equivalent hub language routes',()=>{
+ for(const locale of navigationLocales){
+  assert.equal(siteNavigation(locale)[8][3],`/${locale}/attractions/`);
+  assert.equal(isDetailPath(`/${locale}/attractions/`),false);
+  assert.deepEqual(travelGuideAlternatePaths(`/${locale}/attractions/`),Object.fromEntries(navigationLocales.map(code=>[code,`/${code}/attractions/`])));
+ }
+ assert.equal(travelGuideAlternatePaths('/en/attractions/not-created/'),undefined);
 });

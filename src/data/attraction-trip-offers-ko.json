@@ -1,0 +1,369 @@
+[
+  {
+    "placeIds": [
+      "wat-arun"
+    ],
+    "productName": "의상·헤어·메이크업·1시간 촬영·입장권",
+    "kind": "experience",
+    "url": "https://www.trip.com/things-to-do/detail/99880521/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 102.95,
+      "from": false
+    },
+    "child": {
+      "amount": 102.95,
+      "from": false
+    },
+    "conditions": [
+      "선택 상품은 4~70세에 동일 요금이 적용돼요.",
+      "의상·헤어·메이크업·1시간 촬영과 입장권이 포함된 상품이에요. 사원 입장권만의 가격과는 달라요."
+    ],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "wat-pho"
+    ],
+    "productName": "VIP 의상 대여",
+    "kind": "experience",
+    "url": "https://www.trip.com/things-to-do/detail/113756304/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 44.69,
+      "from": false
+    },
+    "child": null,
+    "conditions": [
+      "메이크업·촬영·사원 입장권은 별도예요."
+    ],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "grand-palace",
+      "wat-phra-kaew"
+    ],
+    "productName": "왕궁·왓프라깨우 공통 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/bangkok/the-grand-palace-77012/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 14.9,
+      "from": false
+    },
+    "child": {
+      "amount": 14.9,
+      "from": false
+    },
+    "conditions": [
+      "왕궁과 왓프라깨우를 함께 관람하는 공통 입장권이에요.",
+      "키 120cm 이상은 동일 요금이며, 120cm 미만은 무료예요."
+    ],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "safari-world"
+    ],
+    "productName": "사파리 파크·마린 파크",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/bangkok/safari-world-bangkok-77027/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 30,
+      "from": false
+    },
+    "child": {
+      "amount": 30,
+      "from": false
+    },
+    "conditions": [
+      "선택한 개인권은 키 100cm 이상에게 적용돼요."
+    ],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "khao-kheow-open-zoo"
+    ],
+    "productName": "카오키여우 오픈주 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/si-racha/khao-kheow-open-zoo-96102/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 8.49,
+      "from": true
+    },
+    "child": {
+      "amount": 3.28,
+      "from": false
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "chiang-mai-night-safari"
+    ],
+    "productName": "공연·원내 이동 포함 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/hang-dong/chiang-mai-night-safari-10558648/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 20.35,
+      "from": false
+    },
+    "child": {
+      "amount": 16.39,
+      "from": false
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "sea-life-bangkok"
+    ],
+    "productName": "씨라이프 방콕 오션월드 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/bangkok/sea-life-bangkok-ocean-world-90777/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 29.76,
+      "from": true
+    },
+    "child": {
+      "amount": 26.79,
+      "from": true
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "underwater-world-pattaya"
+    ],
+    "productName": "언더워터 월드 파타야 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/pattaya/underwater-world-pattaya-13418053/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 6.71,
+      "from": true
+    },
+    "child": {
+      "amount": 5.8,
+      "from": true
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "aquaria-phuket"
+    ],
+    "productName": "아쿠아리아 푸껫 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/phuket/aquaria-phuket-71541534/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 25.32,
+      "from": true
+    },
+    "child": {
+      "amount": 17.96,
+      "from": true
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "ancient-city-muang-boran"
+    ],
+    "productName": "무앙보란·고대도시 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/samut-prakan/the-ancient-city-89324/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 11.32,
+      "from": false
+    },
+    "child": {
+      "amount": 8.05,
+      "from": false
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "erawan-museum"
+    ],
+    "productName": "에라완 박물관 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/samut-prakan/the-erawan-museum-89574/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 7.75,
+      "from": false
+    },
+    "child": {
+      "amount": 3.88,
+      "from": false
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "dream-world"
+    ],
+    "productName": "Super Visa",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/thanyaburi/dream-world-10570792/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 32.3,
+      "from": true
+    },
+    "child": {
+      "amount": 32.3,
+      "from": true
+    },
+    "conditions": [
+      "선택한 개인권은 키 90cm 이상에게 적용돼요."
+    ],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "andamanda-phuket"
+    ],
+    "productName": "안다만다 푸껫 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/phuket/andamanda-phuket-waterpark-133979403/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 37.24,
+      "from": false
+    },
+    "child": {
+      "amount": 32.77,
+      "from": false
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "ramayana-water-park"
+    ],
+    "productName": "라마야나 워터파크 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/sattahip/ramayana-water-park-18687529/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 27.8,
+      "from": false
+    },
+    "child": {
+      "amount": 27.8,
+      "from": false
+    },
+    "conditions": [
+      "선택 상품은 키 106cm 이상에게 적용되며, 60세 이상은 이용할 수 없어요."
+    ],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "columbia-pictures-aquaverse"
+    ],
+    "productName": "컬럼비아 픽처스 아쿠아버스 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/sattahip/columbia-pictures-aquaverse-136001316/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 28.16,
+      "from": false
+    },
+    "child": {
+      "amount": 28.16,
+      "from": false
+    },
+    "conditions": [
+      "선택 상품은 3~64세에 동일 요금이 적용돼요.",
+      "수요일에는 사용할 수 없어요."
+    ],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  },
+  {
+    "placeIds": [
+      "vana-nava-water-jungle"
+    ],
+    "productName": "로커·타월 포함 입장권",
+    "kind": "admission",
+    "url": "https://www.trip.com/travel-guide/attraction/hua-hin/vana-nava-water-jungle-18244562/?curr=USD&locale=en-XX&Allianceid=5175759&SID=105401955&trip_sub1=&trip_sub3=D20383897",
+    "currency": "USD",
+    "bookingLocale": "en-XX",
+    "visitorScope": "foreign-visitors",
+    "adult": {
+      "amount": 25.33,
+      "from": false
+    },
+    "child": {
+      "amount": 16.69,
+      "from": false
+    },
+    "conditions": [],
+    "priceObservedOn": null,
+    "evidence": "user-provided validated table and screenshot; observation date not supplied"
+  }
+]

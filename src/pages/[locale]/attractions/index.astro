@@ -1,0 +1,7 @@
+---
+import AttractionsHub from '../../../components/AttractionsHub.astro';
+import KoreanAttractionsHub from '../../../components/KoreanAttractionsHub.astro';
+import {locales} from '../../../i18n/locales';
+export function getStaticPaths(){return locales.map(({code})=>({params:{locale:code}}));}
+---
+{Astro.params.locale==='ko'?<KoreanAttractionsHub/>:<AttractionsHub locale={Astro.params.locale}/>}

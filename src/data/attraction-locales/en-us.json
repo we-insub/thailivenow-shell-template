@@ -1,0 +1,350 @@
+{
+  "wat-pho": {
+    "title": "Explore Wat Pho: Reclining Buddha, Temple Grounds and Visitor Guide | ThaiLiveNow",
+    "description": "Wat Pho, just south of Bangkok’s Grand Palace, is home to a 46-metre-long Reclining Buddha with mother-of-pearl inlay on its feet. Visit the Buddha hall, then explore the temple’s chedis, halls and other details across the grounds."
+  },
+  "wat-arun": {
+    "title": "Explore Wat Arun Ratchawararam: Temple, Riverside Views and Visitor Guide | ThaiLiveNow",
+    "description": "Wat Arun, also called the Temple of Dawn, stands on the west bank of Bangkok’s Chao Phraya River. Admire its tall prang from the river, then look closely at the ceramic fragments and decorative details across the temple grounds."
+  },
+  "wat-phra-kaew": {
+    "title": "Explore Wat Phra Kaew: Emerald Buddha and Grand Palace Visitor Guide | ThaiLiveNow",
+    "description": "Wat Phra Kaew, inside Bangkok’s Grand Palace, is the royal temple that enshrines the Emerald Buddha. Explore the temple halls and palace architecture with one ticket; you do not need to find it as a separate temple or buy a second ticket."
+  },
+  "wat-saket": {
+    "title": "Explore Wat Saket and the Golden Mount: Bangkok Temple and Viewpoint | ThaiLiveNow",
+    "description": "Wat Saket is known for the Golden Mount in Bangkok’s old city. Climb the steps up the man-made hill to the golden chedi and look out over the low rooftops and city streets."
+  },
+  "wat-phra-that-doi-suthep": {
+    "title": "Explore Wat Phra That Doi Suthep: Chiang Mai Temple and Viewpoint | ThaiLiveNow",
+    "description": "Wat Phra That Doi Suthep sits on Doi Suthep mountain west of Chiang Mai. Visit the golden chedi, climb the naga-lined staircase and look out over the city from the terrace."
+  },
+  "wat-phra-singh": {
+    "title": "Explore Wat Phra Singh: Lanna Art and Buddha Image in Chiang Mai | ThaiLiveNow",
+    "description": "Wat Phra Singh is a Chiang Mai Old City temple with Lanna-style halls, murals and the Phra Singh Buddha image. Look beyond the golden chedi to see the carved wood and paintings inside Viharn Lai Kham."
+  },
+  "wat-chedi-luang": {
+    "title": "Explore Wat Chedi Luang: Brick Chedi and Lanna Temple in Chiang Mai | ThaiLiveNow",
+    "description": "Wat Chedi Luang is a Chiang Mai Old City temple with a large brick chedi at its centre. See its broken summit, naga sculptures and surrounding halls in the Lanna style."
+  },
+  "wat-rong-khun": {
+    "title": "Explore Wat Rong Khun: Art and Visitor Guide | ThaiLiveNow",
+    "description": "Wat Rong Khun, the White Temple in Chiang Rai, is designed by local artist Chalermchai Kositpipat around Buddhist and mythological themes. Unlike an old brick ruin, it presents contemporary Buddhist art through white architecture and sculpture."
+  },
+  "wat-rong-suea-ten": {
+    "title": "Explore Wat Rong Suea Ten: Chiang Rai Art and Visitor Guide | ThaiLiveNow",
+    "description": "Wat Rong Suea Ten, the Blue Temple in Chiang Rai’s Rim Kok area, is known for its blue hall and naga guardians at the entrance. Its colour and sculpture offer a striking contrast with Wat Rong Khun, the White Temple."
+  },
+  "wat-chalong": {
+    "title": "Explore Wat Chalong: Phuket Temple and Local Worship | ThaiLiveNow",
+    "description": "Wat Chalong is a Buddhist temple southwest of Phuket Town. Its formal name is Wat Chaithararam. Visit the halls honouring highly respected local monks and see the temple’s Buddhist architecture."
+  },
+  "safari-world": {
+    "title": "Explore Safari World: Safari Park, Marine Park and Visitor Guide | ThaiLiveNow",
+    "description": "On the outskirts of Bangkok, Safari World combines a drive-through Safari Park with the walk-through Marine Park. Spend time watching animals from a vehicle, then explore exhibits and scheduled programmes on foot."
+  },
+  "khao-kheow-open-zoo": {
+    "title": "Explore Khao Kheow Open Zoo: Animals, Shows and Visitor Guide | ThaiLiveNow",
+    "description": "Khao Kheow Open Zoo is a large open zoo in Bang Phra, Si Racha, Chonburi. Explore the animal exhibits and scheduled programmes. Its location and scale make it a different outing from a small attraction within central Pattaya."
+  },
+  "chiang-mai-zoo": {
+    "title": "Explore Chiang Mai Zoo: Animals, Aquarium and Visitor Information | ThaiLiveNow",
+    "description": "Chiang Mai Zoo is at the foot of Doi Suthep. It has expansive animal-viewing areas and a separate aquarium, so check which facilities are covered by basic admission and which need an additional ticket."
+  },
+  "chiang-mai-night-safari": {
+    "title": "Explore Chiang Mai Night Safari: Safari Routes, Shows and Visitor Guide | ThaiLiveNow",
+    "description": "Chiang Mai Night Safari has vehicle-based animal viewing and walk-through areas. Its vehicle routes are divided into the herbivore-focused Savanna Safari and Predator Prowl, which features predator habitats."
+  },
+  "sea-life-bangkok": {
+    "title": "Explore SEA LIFE Bangkok Ocean World: Exhibits, Feeding Times and Tickets | ThaiLiveNow",
+    "description": "SEA LIFE Bangkok Ocean World is an indoor aquarium inside Siam Paragon in Bangkok. It suits visitors who want to pair marine-life exhibits with city shopping or families looking for an indoor activity with children."
+  },
+  "underwater-world-pattaya": {
+    "title": "Explore Underwater World Pattaya: Tunnel, Feeding Times and Visitor Guide | ThaiLiveNow",
+    "description": "Underwater World Pattaya is an aquarium on Sukhumvit Road. Walk through its 105-metre transparent tunnel, with separate coral reef, shark and ray, and giant freshwater fish sections."
+  },
+  "aquaria-phuket": {
+    "title": "Explore Aquaria Phuket: Exhibits, Tickets and Visitor Guide | ThaiLiveNow",
+    "description": "Aquaria Phuket is on Level B1 of Central Phuket Floresta. Explore freshwater habitats themed around forests and rivers, followed by coastal and ray exhibits and a large marine tank, each presenting a different underwater environment."
+  },
+  "phuket-aquarium": {
+    "title": "Explore Phuket Aquarium: Exhibits and Visitor Guide | ThaiLiveNow",
+    "description": "Phuket Aquarium is operated by a marine-resource research institute at Cape Panwa. See marine life in its underwater tunnel and display tanks, and learn about marine resources and environmental conservation."
+  },
+  "chatuchak-market": {
+    "title": "Explore Chatuchak Market: Shopping Areas and Visitor Guide | ThaiLiveNow",
+    "description": "Chatuchak is a large Bangkok weekend market for clothing, bags, household goods and crafts. Each section specialises in different goods, so decide what you would like to shop for before setting out instead of trying to cover the entire market."
+  },
+  "or-tor-kor-market": {
+    "title": "Explore Or Tor Kor Market: Fruit, Food and Visitor Guide | ThaiLiveNow",
+    "description": "Or Tor Kor is a Bangkok food market operated by Thailand’s agricultural marketing organisation. Browse fruit and vegetables, meat and seafood, dried goods, rice and snacks, then eat in the food court."
+  },
+  "khlong-lat-mayom-floating-market": {
+    "title": "Explore Khlong Lat Mayom Floating Market: Food and Canal Visit Guide | ThaiLiveNow",
+    "description": "Khlong Lat Mayom is a weekend market in Bang Lamad, west of Bangkok, where you can enjoy Thai food and explore the canal. The market has land-based stalls and dining areas as well as boats on the water."
+  },
+  "amphawa-floating-market": {
+    "title": "Explore Amphawa Floating Market: Canal Walk, Food and Firefly Boats | ThaiLiveNow",
+    "description": "Amphawa Floating Market in Samut Songkhram has old houses and shops along both sides of a canal. Walk the waterside while choosing Thai food, seafood, desserts and souvenirs."
+  },
+  "mae-klong-railway-market": {
+    "title": "Explore Mae Klong Railway Market: Train Times, Market and Safety | ThaiLiveNow",
+    "description": "Mae Klong Railway Market is set along an active railway near Mae Klong Station in Samut Songkhram. It is known for vendors folding back their awnings and goods as trains pass."
+  },
+  "chiang-mai-sunday-market": {
+    "title": "Explore Sunday Market: Ratchadamnoen Walking Street | ThaiLiveNow",
+    "description": "Chiang Mai Sunday Walking Street runs on Sunday evenings from Tha Phae Gate along Ratchadamnoen Road. Browse crafts, household goods, aromatherapy products and food stalls."
+  },
+  "wualai-saturday-market": {
+    "title": "Explore Chiang Mai Walking Street (Wualai Street): Crafts and Food in Chiang Mai | ThaiLiveNow",
+    "description": "Wualai Saturday Market takes place on Wualai Road, south of Chiang Mai Gate, on Saturday evenings. Browse crafts, clothing, accessories and food along a street known for silverwork."
+  },
+  "chiang-mai-night-bazaar": {
+    "title": "Explore Chiang Mai Night Bazaar: Shopping and Dining on Chang Khlan Road | ThaiLiveNow",
+    "description": "Chiang Mai Night Bazaar is a night-time shopping district around Chang Khlan Road. Browse traditional handicrafts, clothing and souvenirs, and visit nearby restaurants."
+  },
+  "lard-yai-sunday-market": {
+    "title": "Explore Lard Yai Walking Street: Phuket Old Town Sunday Market | ThaiLiveNow",
+    "description": "Lard Yai Walking Street is a Sunday market on Thalang Road in Phuket Old Town. Food and souvenir stalls gather against the backdrop of the neighbourhood’s historic shop-house architecture."
+  },
+  "cicada-market": {
+    "title": "Explore Cicada Market: Art, Crafts, Food and Music | ThaiLiveNow",
+    "description": "Cicada Market in Nong Kae, Hua Hin, is a weekend night market with art and crafts, food and performance spaces. It suits a visit focused on creative work and design rather than everyday shopping."
+  },
+  "grand-palace": {
+    "title": "Explore The Grand Palace: Royal Architecture and Visitor Guide | ThaiLiveNow",
+    "description": "Explore Bangkok’s Grand Palace and Wat Phra Kaew together. See the Emerald Buddha and royal architecture, and visit the Queen Sirikit Museum of Textiles, which is included with the same ticket."
+  },
+  "museum-siam": {
+    "title": "Explore Museum Siam: Thai Culture Exhibitions and Visitor Guide | ThaiLiveNow",
+    "description": "Museum Siam in Bangkok explores Thai culture through food, clothing, architecture and everyday objects. Find out about the 14-room permanent exhibition, interactive displays, admission and the route from Sanam Chai MRT Station."
+  },
+  "national-museum-bangkok": {
+    "title": "Explore National Museum Bangkok: Art, History and Visitor Information | ThaiLiveNow",
+    "description": "Explore Thai history, archaeology and art in the former Front Palace buildings and later exhibition halls at National Museum Bangkok. See Buddhist art, traditional crafts and royal funeral chariots in one visit."
+  },
+  "jim-thompson-house": {
+    "title": "Explore Jim Thompson House Museum: Guided Tour and Visitor Guide | ThaiLiveNow",
+    "description": "Visit the teak houses and Asian art collection at Jim Thompson House Museum in Bangkok. Find details about guided tours of the main house, admission and children’s fares, and how to get there from Exit 1 at BTS National Stadium."
+  },
+  "ancient-city-muang-boran": {
+    "title": "Explore Muang Boran (Ancient City): Architecture and Visitor Guide | ThaiLiveNow",
+    "description": "Muang Boran is a large outdoor museum in Samut Prakan, with recreated architecture and displays from across Thailand. Despite its name, not every building is an ancient ruin preserved in its original location."
+  },
+  "erawan-museum": {
+    "title": "Explore Erawan Museum: Three-Headed Elephant and Interior Exhibits | ThaiLiveNow",
+    "description": "At Erawan Museum in Samut Prakan, see the enormous three-headed elephant building, its three levels of exhibits and the surrounding garden. The museum includes interior galleries as well as the sculpture outside."
+  },
+  "ayutthaya-historical-park": {
+    "title": "Explore Ayutthaya Historical Park: Temples and Ruins Across the Old Capital | ThaiLiveNow",
+    "description": "Ayutthaya Historical Park spans the former royal capital, with palace remains and temple ruins at several locations. It is not one enclosed park where every site can be reached on foot from a single entrance."
+  },
+  "sukhothai-historical-park": {
+    "title": "Explore Sukhothai Historical Park: Temples, Zones and Visitor Tips | ThaiLiveNow",
+    "description": "Sukhothai Historical Park has temples, chedis and Buddha images inside and outside the old city walls. Plan for separate central, northern and western zones, as their locations and tickets differ."
+  },
+  "phimai-historical-park": {
+    "title": "Explore Phimai Historical Park: Khmer Stone Temple in Nakhon Ratchasima | ThaiLiveNow",
+    "description": "Phimai Historical Park preserves a Khmer stone temple in Phimai, northeast of Nakhon Ratchasima. See Buddhist and Hindu carvings, layered petal-like roof details and the temple courtyard together."
+  },
+  "phanom-rung-historical-park": {
+    "title": "Explore Phanom Rung Historical Park: Hilltop Khmer Temple in Buriram | ThaiLiveNow",
+    "description": "Phanom Rung Historical Park is a Khmer temple complex on an ancient volcanic hill in Buriram. Follow a long stone walkway, steps and gateways through the site’s architecture."
+  },
+  "siam-amazing-park": {
+    "title": "Explore Siam Amazing Park: Rides, Water Park and Lockers | ThaiLiveNow",
+    "description": "Siam Amazing Park combines amusement rides and water attractions in Bangkok. The rides area and water park have different hours, so plan your order if you want to visit both."
+  },
+  "dream-world": {
+    "title": "Explore Dream World: Rides, Snow Town and Ticket Options | ThaiLiveNow",
+    "description": "Dream World is an amusement park in Pathum Thani, north of Bangkok. It has rides and separate attractions such as Snow Town, and the experiences included depend on the ticket you choose."
+  },
+  "andamanda-phuket": {
+    "title": "Explore Andamanda Phuket: Water Park Rides, Pools and Facilities | ThaiLiveNow",
+    "description": "Andamanda Phuket is a water park themed around Thai mythology and the Andaman region. Its wave pool, slides and children’s areas make it a day out for families and friends."
+  },
+  "ramayana-water-park": {
+    "title": "Explore Ramayana Water Park: Pattaya Slides, Pools and Visitor Tips | ThaiLiveNow",
+    "description": "Ramayana Water Park, south of Pattaya, has slides and pools for adults and children. Plan a visit around both thrill rides and water play with children."
+  },
+  "columbia-pictures-aquaverse": {
+    "title": "Explore Columbia Pictures Aquaverse: Movie-Themed Water Park near Pattaya | ThaiLiveNow",
+    "description": "Columbia Pictures Aquaverse in Chonburi is a water park themed around movie characters and scenes. Enjoy areas inspired by Hotel Transylvania, Jumanji and Ghostbusters, among others."
+  },
+  "vana-nava-water-jungle": {
+    "title": "Explore Vana Nava Hua Hin: Water Park Slides, Pools and Rentals | ThaiLiveNow",
+    "description": "Vana Nava Water Jungle is a water park in Nong Kae, Hua Hin. Its lazy river, children’s splash areas and adult slides let you choose different attractions for your group."
+  },
+  "wat-traimit": {
+    "title": "Explore Wat Traimit: Golden Buddha Temple near Bangkok Chinatown | ThaiLiveNow",
+    "description": "Wat Traimit is the Golden Buddha temple near Bangkok’s Chinatown. The main visit is to the golden seated Buddha in its hall, and you can continue on foot into Yaowarat afterwards."
+  },
+  "wat-benchamabophit": {
+    "title": "Explore Wat Benchamabophit: Bangkok’s Marble Temple and Buddha Gallery | ThaiLiveNow",
+    "description": "Wat Benchamabophit is a marble temple in Bangkok’s Dusit district. See the hall built with marble imported from Italy and the gallery lined with Buddha images."
+  },
+  "wat-suthat": {
+    "title": "Explore Wat Suthat: Murals, Carved Doors and Museum | ThaiLiveNow",
+    "description": "Wat Suthat is an old-city Bangkok temple near the Giant Swing. Highlights include the hall murals, carved wooden doors and the Si Sakyamuni Buddha. The large red swing outside is a separate structure."
+  },
+  "wat-paknam": {
+    "title": "Explore Wat Paknam Phasicharoen: Giant Golden Buddha and Chedi Ceiling Art in Bangkok | ThaiLiveNow",
+    "description": "Wat Paknam is a royal temple in Bangkok’s Phasi Charoen district. It is known for the large golden Buddha outside and a ceiling painting inside the upper level of the chedi."
+  },
+  "wat-mahathat-ayutthaya": {
+    "title": "Explore Wat Mahathat: Buddha Head in Tree Roots and Brick Ruins | ThaiLiveNow",
+    "description": "Wat Mahathat in Ayutthaya is a temple ruin known for a Buddha head embraced by tree roots. The grounds also contain collapsed brick walls, hall foundations and headless Buddha images."
+  },
+  "wat-phra-si-sanphet": {
+    "title": "Explore Wat Phra Si Sanphet: Three Royal Chedis in Ayutthaya | ThaiLiveNow",
+    "description": "Wat Phra Si Sanphet was the royal temple connected to Ayutthaya’s former palace. Its three aligned chedis and the remaining building foundations give a sense of the temple’s scale within the old royal palace."
+  },
+  "wat-chaiwatthanaram": {
+    "title": "Explore Wat Chaiwatthanaram: Riverside Khmer-Style Temple Ruins in Ayutthaya | ThaiLiveNow",
+    "description": "Wat Chaiwatthanaram is a temple ruin on the west side of the Chao Phraya River in Ayutthaya. See Khmer-influenced architecture arranged around a large central tower, surrounding towers and galleries."
+  },
+  "wat-ratchaburana-ayutthaya": {
+    "title": "Explore Wat Ratchaburana: Prang, Temple Ruins and Royal Artifacts | ThaiLiveNow",
+    "description": "Wat Ratchaburana in Ayutthaya is a temple ruin north of Wat Mahathat. Its large prang surrounded by galleries and the remains of halls offer a look at the layout of an early Ayutthaya temple."
+  },
+  "wat-lokayasutharam": {
+    "title": "Explore Wat Lokayasutharam: Outdoor Reclining Buddha in Ayutthaya | ThaiLiveNow",
+    "description": "Wat Lokayasutharam is a ruin in Ayutthaya where you can see a large reclining Buddha outdoors. Unlike the indoor reclining Buddha at Bangkok’s Wat Pho, the sky and surrounding grounds remain in view."
+  },
+  "wat-yai-chai-mongkhon": {
+    "title": "Explore Wat Yai Chai Mongkhon: Large Chedi and Buddha Images in Ayutthaya | ThaiLiveNow",
+    "description": "Wat Yai Chai Mongkhon is a temple in Ayutthaya with a large chedi and Buddha images around the grounds. Unlike sites where only brick ruins remain, worship still takes place here alongside the historic architecture."
+  },
+  "wat-phanan-choeng": {
+    "title": "Explore Wat Phanan Choeng: Luang Pho To Buddha and Temple Visit | ThaiLiveNow",
+    "description": "Wat Phanan Choeng is an Ayutthaya temple housing a large golden seated Buddha about 19 m tall. Unlike visits to ruined brick temple grounds, the focus here is the hall enshrining the image."
+  },
+  "wat-umong": {
+    "title": "Explore Wat Umong: Forest Temple, Tunnels and Chedi | ThaiLiveNow",
+    "description": "Wat Umong is a temple in the Suthep area of Chiang Mai, with tunnels and a chedi surrounded by trees. Its forest setting is different from the ornate halls of the Old City."
+  },
+  "wat-pha-lat": {
+    "title": "Explore Wat Pha Lat: Chiang Mai Forest Temple on the Doi Suthep Route | ThaiLiveNow",
+    "description": "Wat Pha Lat is a forest temple on the road from Chiang Mai to Doi Suthep. Halls and chedis sit among trees and small streams, creating a mountain setting unlike city temples."
+  },
+  "wat-huai-pla-kang": {
+    "title": "Explore Wat Huai Pla Kang: Guanyin Statue and Nine-Storey Pagoda | ThaiLiveNow",
+    "description": "Wat Huai Pla Kang is a temple complex on a hill in Chiang Rai’s Rim Kok area. Its large Guanyin image and multi-storey pagoda are among the main sights."
+  },
+  "wat-phra-yai-samui": {
+    "title": "Explore Wat Phra Yai (Ko Fan): Big Buddha Temple on Ko Fan Island | ThaiLiveNow",
+    "description": "Wat Phra Yai is Koh Samui’s Big Buddha temple on Ko Fan, a small island off the northeast coast. A stone causeway connects the island to the main island, and a golden seated Buddha is its landmark. This is separate from Phuket’s Big Buddha."
+  },
+  "wat-plai-laem": {
+    "title": "Explore Wat Plai Laem (Wat Laem Suwannaram): Guanyin, Budai and Temple Pond | ThaiLiveNow",
+    "description": "Wat Plai Laem in northeast Koh Samui brings together a pond and large religious sculptures. Its Guanyin, smiling figure and halls look different from the Big Buddha temple, known for its single golden seated image."
+  },
+  "phra-pathom-chedi": {
+    "title": "Explore Wat Phra Pathom Chedi: Nakhon Pathom’s Great Bell-Shaped Stupa | ThaiLiveNow",
+    "description": "Phra Pathom Chedi is a temple centred on a large bell-shaped stupa in Nakhon Pathom. See its outline from a distance, then explore the galleries and standing Buddha to the north up close."
+  },
+  "wat-phra-mahathat-nakhon-si-thammarat": {
+    "title": "Explore Wat Phra Mahathat Woramahawihan: Southern Thailand’s Relic Chedi | ThaiLiveNow",
+    "description": "Wat Phra Mahathat in Nakhon Si Thammarat is a southern Thai temple centred on a large Buddha relic chedi with a golden spire. It remains an important place of local worship and religious tradition, distinct from the Ayutthaya ruins of a similar name."
+  },
+  "wat-phra-that-lampang-luang": {
+    "title": "Explore Wat Phra That Lampang Luang: Lanna Wooden Halls and Chedi | ThaiLiveNow",
+    "description": "Wat Phra That Lampang Luang is a Lanna temple in Ko Kha, Lampang. See its chedi, wooden halls and the decoration on its arched entrance. Search for it separately from temples in Lampang city."
+  },
+  "wat-si-chum-sukhothai": {
+    "title": "Explore Wat Si Chum (Sukhothai): Phra Achana Buddha and Northern Zone | ThaiLiveNow",
+    "description": "Wat Si Chum in Sukhothai is a ruin where a large Phra Achana Buddha appears through a narrow opening between thick walls. It is northwest of the historical park’s city walls, so travel and ticket coverage differ from a visit to the central zone alone."
+  },
+  "nakhon-ratchasima-zoo": {
+    "title": "Explore Nakhon Ratchasima Zoo: Animals, Admission and Getting Around | ThaiLiveNow",
+    "description": "Nakhon Ratchasima Zoo is in Chai Mongkhon, Nakhon Ratchasima. It is described as having African savanna-inspired terrain and animal exhibits, offering an outdoor visit different from city sightseeing."
+  },
+  "khon-kaen-zoo": {
+    "title": "Explore Khon Kaen Zoo: Animals, Skywalk, Admission and Visitor Tips | ThaiLiveNow",
+    "description": "Khon Kaen Zoo is in Khao Suan Kwang, outside central Khon Kaen. Created for wildlife conservation, research and ecotourism, it is also known for a skywalk above the African zone."
+  },
+  "ubon-ratchathani-zoo": {
+    "title": "Explore Ubon Ratchathani Zoo: Forest Exhibits, Tram and Visitor Tips | ThaiLiveNow",
+    "description": "Ubon Ratchathani Zoo is in Dong Phu Wuan National Forest. Its jungle-park design preserves the forest while arranging animal exhibits among the trees."
+  },
+  "songkhla-zoo": {
+    "title": "Explore Songkhla Zoo: Animals, Shows and On-Site Transport | ThaiLiveNow",
+    "description": "Songkhla Zoo is in Khao Rup Chang, Songkhla, in southern Thailand. The zoo lists extensive outdoor animal exhibits alongside scheduled programs featuring wildlife and penguins, among other animals."
+  },
+  "bangsaen-aquarium": {
+    "title": "Explore Bangsaen Aquarium & Museum: What to See | ThaiLiveNow",
+    "description": "Bangsaen Aquarium is part of the Burapha University Institute of Marine Science in Bang Saen, Chonburi. It is an educational facility with exhibits on marine habitats, species and scientific information."
+  },
+  "bangkok-aquarium": {
+    "title": "Bangkok Aquarium, Bang Khen | Freshwater Fish Exhibition Background | ThaiLiveNow",
+    "description": "Bangkok Aquarium is a Department of Fisheries freshwater fish exhibition in Kaset Klang, Bang Khen. It is separate from SEA LIFE Bangkok Ocean World at Siam Paragon."
+  },
+  "bueng-chawak-aquarium": {
+    "title": "Explore Bueng Chawak Aquarium: Exhibition Buildings and Shark Tunnel | ThaiLiveNow",
+    "description": "Bueng Chawak Aquarium is part of the Bueng Chawak complex in Suphan Buri. Buildings 1 and 2 have freshwater and marine exhibits, while Building 3 has a shark tunnel, so tickets and routes depend on which buildings you visit."
+  },
+  "rayong-aquarium": {
+    "title": "Rayong Aquarium | Background on Marine Exhibits in Ban Phe | ThaiLiveNow",
+    "description": "This guide introduces the marine life and fisheries education exhibits in Ban Phe, Rayong, including the glass tunnel, marine tanks and displays about shells, traditional fishing gear and models."
+  },
+  "waghor-aquarium": {
+    "title": "Explore Waghor Aquarium: Marine Life, Tunnel and Science Park Exhibits | ThaiLiveNow",
+    "description": "Waghor Aquarium is inside King Mongkut Memorial Park of Science and Technology in Prachuap Khiri Khan. It covers aquatic environments from mountains and rivers to the sea, with specimen displays, large tanks and a glass tunnel."
+  },
+  "nong-khai-aquarium": {
+    "title": "Explore Nong Khai Aquarium: Mekong Fish and 34-Metre Underwater Tunnel | ThaiLiveNow",
+    "description": "Nong Khai Aquarium is an exhibit at Khon Kaen University’s Nong Khai Campus, also known as the Sirindhorn Aquarium. It displays marine and freshwater fish, with an education and research focus on the Mekong River and regional freshwater species."
+  },
+  "songkhla-aquarium": {
+    "title": "Songkhla Aquarium at Laem Son On | Former Freshwater and Marine Exhibits | ThaiLiveNow",
+    "description": "Songkhla Aquarium is the name of an aquarium building on the Laem Son On coast in Songkhla. It is a different location and facility from Songkhla Zoo."
+  },
+  "bueng-boraphet-aquarium": {
+    "title": "Explore Bueng Boraphet Aquarium: Freshwater Tunnel and Fish Exhibits | ThaiLiveNow",
+    "description": "Bueng Boraphet Aquarium is an exhibit facility in the Bueng Boraphet lake visitor complex in Nakhon Sawan. See a freshwater fish tunnel and tanks in a separate building from the lake and visitor centre."
+  },
+  "damnoen-saduak-floating-market": {
+    "title": "Explore Damnoen Saduak Floating Market: Morning Boats, Food and Boat Tours | ThaiLiveNow",
+    "description": "Damnoen Saduak Floating Market in Ratchaburi is a morning market with boats on the canals and stalls selling food, fruit and souvenirs. It developed around cultural preservation and tourism, and is a trip outside central Bangkok."
+  },
+  "taling-chan-floating-market": {
+    "title": "Explore Taling Chan Floating Market: Weekend Food and Canal Boat Trips | ThaiLiveNow",
+    "description": "Taling Chan Floating Market is a weekend market around the canal in front of the Taling Chan District Office in Bangkok. Explore dining rafts and land-based stalls, and choose a separate boat trip if you wish."
+  },
+  "bridge-over-river-kwai": {
+    "title": "Explore The Bridge Over River Kwai: History and Visitor Information | ThaiLiveNow",
+    "description": "The Bridge Over River Kwai is a railway bridge across the Kwai Yai River in Kanchanaburi. It connects the history of the Thailand–Burma Railway during the Second World War with wartime losses and postwar restoration."
+  },
+  "khao-san-road": {
+    "title": "Explore Khao San Road: Food, Hotels and Nightlife | ThaiLiveNow",
+    "description": "Khao San Road is a roughly 300 m street in Bangkok’s Old City lined with accommodation, restaurants, pubs and clubs. Once known as a backpacker base, it now also has hotels and boutiques. It suits visitors who want to browse a short stretch of shops or enjoy dinner and drinks with friends in the evening."
+  },
+  "yaowarat-chinatown": {
+    "title": "Explore Yaowarat / Bangkok Chinatown: Food, Temples and Old Shophouses | ThaiLiveNow",
+    "description": "Yaowarat is the main street of Bangkok’s Chinatown, lined with red-and-gold gold-shop signs, Chinese temples and shrines, restaurants and grocery shops. It is a neighbourhood where you can see both long-standing commerce and worship traditions, not just look for food."
+  },
+  "song-wat-road": {
+    "title": "Explore Song Wat Road: Historic Shophouses, Cafes and Galleries | ThaiLiveNow",
+    "description": "Song Wat Road is a Bangkok street near Chinatown where you can explore historic architecture, cafes and restaurants. Different styles of eateries and shops line the old commercial street. It suits visitors who want to continue walking after Yaowarat to see buildings and cafes."
+  },
+  "talat-noi": {
+    "title": "Explore Talat Noi: Chinese Heritage, Street Art and Riverside Lanes | ThaiLiveNow",
+    "description": "Talat Noi is a neighbourhood near the Chao Phraya River where you can see old Chinese homes, alley murals and cafes. It is around Wanit 2 and Charoen Krung 22. Despite “market” in the name, it is a place to explore on foot rather than a single indoor market building."
+  },
+  "charoen-krung": {
+    "title": "Explore Charoen Krung: Historic Architecture, TCDC and Warehouse 30 | ThaiLiveNow",
+    "description": "Charoen Krung is a road and surrounding neighbourhood in Bangkok’s old riverside commercial district, now home to galleries, design spaces and cafes. Explore historic architecture and art around the Grand Postal Building and Warehouse 30 near Soi Charoen Krung 30. Choose specific places to visit rather than walking the entire long road."
+  },
+  "nimmanhaemin": {
+    "title": "Explore Nimmanhaemin Street: Cafes, Boutiques and Gallery Lanes | ThaiLiveNow",
+    "description": "Nimmanhaemin is a Chiang Mai neighbourhood for exploring cafes, boutiques and galleries along its side streets. Several sois branch off the roughly 1 km main road, with shops tucked between homes. It suits visitors looking for coffee and small shops in an atmosphere different from temple sightseeing."
+  },
+  "phuket-old-town": {
+    "title": "Explore Phuket Old Town: Sino-Portuguese Shophouses, Street Art and Local Food | ThaiLiveNow",
+    "description": "Explore historic shophouses, street art and cafes in Phuket Old Town. Buildings along both sides of the streets preserve traces of a commercial city shaped by Chinese, European and other cultural influences. It suits visitors who want to combine architecture and local food between beach days."
+  },
+  "bophut-fishermans-village": {
+    "title": "Explore Bophut Fisherman’s Village: Historic Shops, Crafts and Seaside Dining | ThaiLiveNow",
+    "description": "Bophut Fisherman’s Village is a street in northern Koh Samui where you can see old fishing-village homes, shops and restaurants. It is suited to an evening of architecture and souvenir browsing, distinct from swimming at the beach."
+  }
+}

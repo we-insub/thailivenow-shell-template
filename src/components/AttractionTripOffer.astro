@@ -1,0 +1,23 @@
+---
+import {attractionUI} from '../lib/attractions-localized';
+import offers from '../data/attraction-trip-offers-ko.json';
+const {placeId,locale='ko',copy}=Astro.props;
+const u=attractionUI(locale);
+const offer=offers.find(o=>o.placeIds.includes(placeId));
+if(offer&&locale!=='ko'&&(!copy?.productName||!Array.isArray(copy?.conditions)))throw new Error(`Missing offer translation ${locale}/${placeId}`);
+const offerCopy=locale==='ko'?offer:copy;
+const price=p=>p.from?(['ko','ja','zh-cn','zh-tw'].includes(locale)?`US$${p.amount.toFixed(2)}${u.from}`:`${u.from} US$${p.amount.toFixed(2)}`):`US$${p.amount.toFixed(2)}`;
+---
+{offer&&<section class="trip-offer" aria-labelledby="trip-offer-heading" data-trip-offer>
+<h2 id="trip-offer-heading">{offer.kind==='experience'?u.experiences:u.tickets}</h2>
+<div class="offer-card"><p class="offer-type">Trip.com · {offer.kind==='experience'?u.experiences:u.tickets}</p><h3>{offerCopy.productName}</h3>
+<p class="offer-basis">{u.offerBasis}</p>
+<dl class="offer-prices"><div><dt>{u.adult}</dt><dd>{price(offer.adult)}</dd></div>{offer.child&&<div><dt>{u.child}</dt><dd>{price(offer.child)}</dd></div>}</dl>
+{offerCopy.conditions.length>0&&<ul class="offer-conditions">{offerCopy.conditions.map(text=><li><strong>{text}</strong></li>)}</ul>}
+<p class="offer-note">{u.offerNote}</p>
+<a class="trip-booking" href={offer.url} target="_blank" rel="sponsored nofollow noopener noreferrer" data-trip-booking>{locale==='ko'?`Trip.com에서 ${offer.kind==='experience'?'상품 확인·예약':'입장권 확인·예약'}`:u.booking} <span aria-hidden="true">↗</span></a>
+<p class="affiliate-disclosure">{u.affiliate}</p></div>
+</section>}
+<style>
+.trip-offer{border-top:2px solid #c9d9e0;padding-top:32px}.offer-card{padding:28px;border:1px solid #c9d9e0;border-radius:16px;background:#edf5f4;min-width:0}.trip-offer .offer-type{font-size:14px!important;color:#267e89;font-weight:700;margin:0 0 12px!important}.trip-offer h3{margin:0 0 14px!important;font-size:24px;line-height:1.5}.trip-offer .offer-basis{font-size:15px!important;color:#526572;margin:0 0 22px!important}.offer-prices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0 0 22px}.offer-prices>div{background:white;border:1px solid #dce5e8;border-radius:10px;padding:16px 20px;min-width:0}.offer-prices:has(>div:only-child){grid-template-columns:1fr}.offer-prices dt{font-size:15px;color:#526572}.offer-prices dd{font-size:24px;line-height:1.5;font-weight:700;margin:4px 0 0;overflow-wrap:anywhere}.offer-conditions{padding-left:22px;margin:0 0 20px;line-height:1.85}.offer-conditions li{margin:0 0 8px}.trip-offer .offer-note{font-size:15px!important;color:#526572;line-height:1.85;margin:0 0 22px!important}.trip-offer .trip-booking{display:inline-flex;gap:16px;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;background:#267e89;color:white;border-radius:10px;text-decoration:none;font-size:17px;font-weight:700;max-width:100%;box-sizing:border-box}.trip-offer .affiliate-disclosure{font-size:13px!important;color:#526572;line-height:1.8;margin:16px 0 0!important}@media(max-width:600px){.trip-offer{padding-top:26px}.offer-card{padding:22px 20px}.trip-offer h3{font-size:22px}.offer-prices{gap:12px}.offer-prices>div{padding:14px 12px}.offer-prices dd{font-size:20px}.trip-offer .trip-booking{display:flex;width:100%;font-size:16px}}
+</style>

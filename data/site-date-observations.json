@@ -2462,7 +2462,7 @@
     },
     "/ko/attractions/wat-arun/": {
       "sourceCheckedOn": null,
-      "contentModifiedOn": null
+      "contentModifiedOn": "2026-10-21"
     },
     "/ko/entry/": {
       "sourceCheckedOn": "2026-10-14",
@@ -6264,7 +6264,7 @@
     },
     "/ko/terms/": {
       "sourceCheckedOn": "2026-10-15",
-      "contentModifiedOn": "2026-10-15",
+      "contentModifiedOn": "2026-10-20",
       "observations": [
         {
           "observedDate": "2026-10-15",
@@ -6278,7 +6278,7 @@
     },
     "/ko/privacy/": {
       "sourceCheckedOn": "2026-10-15",
-      "contentModifiedOn": "2026-10-19",
+      "contentModifiedOn": "2026-10-20",
       "observations": [
         {
           "observedDate": "2026-10-15",
@@ -11466,6 +11466,356 @@
       "sourceCheckedOn": "2026-10-20",
       "sourceRecordPath": "/ko/beaches/wong-duean/",
       "note": "Same retained Thai beach source evidence as the Korean original; translation is not a new source verification."
+    },
+    "/ko/attractions/jim-thompson-house/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": null
+    },
+    "/ko/attractions/wat-pho/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phra-kaew/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-saket/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phra-that-doi-suthep/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phra-singh/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-chedi-luang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-rong-khun/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-rong-suea-ten/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-chalong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/safari-world/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/khao-kheow-open-zoo/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/chiang-mai-zoo/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/chiang-mai-night-safari/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/sea-life-bangkok/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/underwater-world-pattaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/aquaria-phuket/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/phuket-aquarium/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/chatuchak-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/or-tor-kor-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/khlong-lat-mayom-floating-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/amphawa-floating-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/mae-klong-railway-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/chiang-mai-sunday-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wualai-saturday-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/chiang-mai-night-bazaar/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/lard-yai-sunday-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/cicada-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/grand-palace/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/museum-siam/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/national-museum-bangkok/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/ancient-city-muang-boran/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/erawan-museum/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/ayutthaya-historical-park/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/sukhothai-historical-park/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/phimai-historical-park/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/phanom-rung-historical-park/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/siam-amazing-park/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/dream-world/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/andamanda-phuket/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/ramayana-water-park/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/columbia-pictures-aquaverse/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/vana-nava-water-jungle/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-traimit/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-benchamabophit/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-suthat/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-paknam/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-mahathat-ayutthaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phra-si-sanphet/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-chaiwatthanaram/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-ratchaburana-ayutthaya/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-lokayasutharam/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-yai-chai-mongkhon/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phanan-choeng/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-umong/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-pha-lat/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-huai-pla-kang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phra-yai-samui/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-plai-laem/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/phra-pathom-chedi/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phra-mahathat-nakhon-si-thammarat/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-phra-that-lampang-luang/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/wat-si-chum-sukhothai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/nakhon-ratchasima-zoo/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/khon-kaen-zoo/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/ubon-ratchathani-zoo/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/songkhla-zoo/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/bangsaen-aquarium/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/bangkok-aquarium/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/bueng-chawak-aquarium/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/rayong-aquarium/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/waghor-aquarium/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/nong-khai-aquarium/": {
+      "sourceCheckedOn": "2026-10-21",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/songkhla-aquarium/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/bueng-boraphet-aquarium/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/damnoen-saduak-floating-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/taling-chan-floating-market/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/bridge-over-river-kwai/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/khao-san-road/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/yaowarat-chinatown/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/song-wat-road/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/talat-noi/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/charoen-krung/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/nimmanhaemin/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/phuket-old-town/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/bophut-fishermans-village/": {
+      "sourceCheckedOn": "2026-10-20",
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/": {
+      "contentModifiedOn": "2026-10-21"
+    },
+    "/ko/attractions/categories/temples/": {
+      "contentModifiedOn": "2026-10-21"
     }
   }
 }

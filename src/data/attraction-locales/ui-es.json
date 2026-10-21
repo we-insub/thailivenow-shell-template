@@ -1,0 +1,92 @@
+{
+  "home": "Inicio",
+  "attractions": "Lugares que visitar en Tailandia",
+  "location": "Ubicación y cómo llegar",
+  "address": "Dirección",
+  "area": "Zona",
+  "map": "Ver en Google Maps",
+  "directions": "Cómo llegar con Google Maps",
+  "copy": "Copiar dirección",
+  "copyArea": "Copiar ubicación",
+  "copied": "Dirección copiada.",
+  "copyFallback": "Dirección seleccionada. Cópiala para utilizarla.",
+  "facts": "Información práctica",
+  "experience": "¿Qué puedes ver?",
+  "rules": "Antes de la visita",
+  "faq": "Preguntas frecuentes",
+  "related": "Lugares relacionados e información de viaje",
+  "sources": "Fuentes oficiales",
+  "checked": "Fuentes consultadas",
+  "photo": "Foto",
+  "taken": "Año de la foto",
+  "mapNote": "El marcador indica la ubicación del lugar, que puede no coincidir con la entrada, la taquilla o la zona para bajar del vehículo.",
+  "mapFallback": "Puedes ver la ubicación en el enlace a Google Maps que aparece debajo.",
+  "programs": "Horarios de espectáculos y actividades",
+  "audio": "Visitas guiadas y audioguías",
+  "services": "Cargos adicionales y condiciones",
+  "official": "Ver información oficial",
+  "search": "Nombre del lugar",
+  "searchPlaceholder": "Busca por el nombre local, inglés o tailandés",
+  "region": "Zona",
+  "allRegions": "Toda Tailandia",
+  "choose": "¿Adónde te gustaría ir?",
+  "viewDetail": "Qué ver e información práctica",
+  "noResults": "Prueba con otro nombre o zona.",
+  "back": "Ver otras categorías",
+  "reference": "Instalaciones de acuarios",
+  "categoryNav": "Otras categorías de lugares",
+  "adult": "Adulto",
+  "child": "Niño",
+  "from": "desde",
+  "tickets": "Entradas y reservas",
+  "experiences": "Alquiler de trajes y reservas de experiencias",
+  "booking": "Ver opciones y reservar en Trip.com",
+  "offerBasis": "Precios orientativos para visitantes extranjeros, en dólares estadounidenses (USD) en la web de reservas en inglés.",
+  "offerNote": "El precio depende de la fecha, la disponibilidad y la opción elegida. La página de reserva muestra el importe final y lo que incluye.",
+  "affiliate": "Enlace de afiliado: ThaiLiveNow puede recibir una comisión si reservas a través de este enlace.",
+  "types": "Categorías de lugares",
+  "hubHeading": "Qué visitar en Tailandia",
+  "hubIntro": "Contempla pagodas y murales, recorre callejuelas en busca de comida al atardecer o sube a una azotea para ver la ciudad de noche. Elige según cómo quieras pasar tu tiempo en Tailandia.",
+  "categoryHeading": "¿Qué te apetece descubrir?",
+  "categoryIntro": "Incluso en una misma ciudad, el plan cambia según lo que quieras ver.",
+  "planningHeading": "Planifica los horarios y el regreso",
+  "planningBody": "Algunos mercados solo abren los fines de semana y ciertos museos requieren una visita guiada. Consulta los horarios y el tipo de visita antes de planificar cómo llegar desde tu alojamiento y cómo volver.",
+  "transport": "Guía de transporte en Tailandia",
+  "seeCategory": "Explorar esta categoría",
+  "places": "lugares",
+  "hubTitle": "Qué ver en Tailandia | Templos, mercados y museos | ThaiLiveNow",
+  "hubDescription": "Encuentra templos, azoteas, zoológicos, acuarios, mercados, museos, lugares históricos y parques acuáticos de Tailandia por zonas. Consulta qué ver, direcciones, horarios, entradas y transporte.",
+  "preview": "Ver fotos y colecciones del museo",
+  "modified": "Tamaño ajustado; la vista previa puede estar recortada",
+  "categories": [
+    {
+      "name": "Templos",
+      "text": "Descubre estupas doradas, salas con murales y antiguos templos de los que solo quedan ladrillos. Distingue los lugares de culto activos de las ruinas arqueológicas."
+    },
+    {
+      "name": "Azoteas y miradores",
+      "text": "Para ver la ciudad desde lo alto, elige entre miradores y azoteas donde comer o tomar algo. Las condiciones de entrada y reserva son distintas."
+    },
+    {
+      "name": "Zoológicos y acuarios",
+      "text": "Recorre zoológicos extensos o salas de acuarios y túneles submarinos. Con niños, piensa en cómo moverte dentro y qué actividades adicionales te interesan."
+    },
+    {
+      "name": "Mercados y mercados nocturnos",
+      "text": "Hay mercados nocturnos con comida y artesanía, y mercados flotantes junto a canales. Los que abren los fines de semana y los diarios requieren planes distintos."
+    },
+    {
+      "name": "Museos y lugares históricos",
+      "text": "Contempla arte en antiguas casas o pasea por viejas capitales y ruinas de templos. Un museo de interior se visita de forma distinta a un parque histórico con varios recintos."
+    },
+    {
+      "name": "Parques temáticos y acuáticos",
+      "text": "Dedica un día a las atracciones o al agua. La entrada infantil no sustituye los límites de altura ni las condiciones de acompañamiento de cada atracción."
+    },
+    {
+      "name": "Calles y barrios",
+      "text": "Pasea por antiguas calles comerciales y callejuelas entre cafés, comida y arquitectura. Los barrios para recorrer de día y las calles con mercados nocturnos tienen ambientes distintos."
+    }
+  ],
+  "contact": "Contacto"
+}

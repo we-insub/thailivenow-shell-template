@@ -1,4 +1,5 @@
 ---
+import {attractionLanguagePaths,hasAttractionLocale} from '../lib/attractions-localized';
 import {localizedUI,hasLocalizedStage,isLocalizedPage} from '../lib/localized-content';
 import SiteDesign from './SiteDesign.astro';
 import SiteBrand from './SiteBrand.astro';
@@ -12,12 +13,13 @@ import {isThaiAirportGuide,thaiAirportHome,thaiAirportLanguagePaths} from '../li
 const {locale='ko', home=false, brand='ThaiLiveNow', activeHref}=Astro.props;
 const ui=getUI(locale);
 const items=siteNavigation(locale);
-const localizedPage=isLocalizedPage(Astro.url.pathname);
+const attractionPage=/^\/[^/]+\/attractions(?:\/|$)/.test(Astro.url.pathname)&&hasAttractionLocale(locale);
+const localizedPage=isLocalizedPage(Astro.url.pathname)||attractionPage;
 const airportGuide=isThaiAirportGuide(Astro.url.pathname);
 const airportLanguagePaths=thaiAirportLanguagePaths(Astro.url.pathname);
 const travelLanguagePaths=travelGuideAlternatePaths(Astro.url.pathname);
-const languagePaths=airportLanguagePaths||travelLanguagePaths;
-const active=(href:string)=>activeHref ? href===activeHref : airportGuide ? href===thaiAirportHome(locale) : href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
+const languagePaths=attractionPage?attractionLanguagePaths(Astro.url.pathname):airportLanguagePaths||travelLanguagePaths;
+const active=(href:string)=>activeHref ? href===activeHref : airportGuide ? href===thaiAirportHome(locale) : href===`/${locale}/attractions/` ? /^\/(?:[^/]+)\/(?:attractions|rooftops)(?:\/|$)/.test(Astro.url.pathname) : href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
 const topicHub=/^\/[^/]+\/(destinations|coupons|food|transport)\/$/.test(Astro.url.pathname);
 ---
 <SiteDesign />

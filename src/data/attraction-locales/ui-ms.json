@@ -1,0 +1,92 @@
+{
+  "home": "Laman utama",
+  "attractions": "Tempat menarik di Thailand",
+  "location": "Lokasi dan cara ke sana",
+  "address": "Alamat",
+  "area": "Kawasan",
+  "map": "Lihat di Google Maps",
+  "directions": "Arah di Google Maps",
+  "copy": "Salin alamat",
+  "copyArea": "Salin lokasi",
+  "copied": "Alamat disalin.",
+  "copyFallback": "Alamat dipilih. Salin untuk menggunakannya.",
+  "facts": "Maklumat asas lawatan",
+  "experience": "Apa yang boleh dilihat?",
+  "rules": "Sebelum berkunjung",
+  "faq": "Soalan lazim",
+  "related": "Tempat berkaitan dan maklumat perjalanan",
+  "sources": "Sumber rasmi",
+  "checked": "Tarikh semakan sumber",
+  "photo": "Foto",
+  "taken": "Tahun foto",
+  "mapNote": "Pin menandakan lokasi tempat ini, bukan semestinya pintu masuk, kaunter tiket atau tempat turun kenderaan.",
+  "mapFallback": "Gunakan pautan Google Maps di bawah untuk melihat lokasi.",
+  "programs": "Jadual persembahan dan aktiviti",
+  "audio": "Lawatan berpandu dan panduan audio",
+  "services": "Caj tambahan dan syarat penggunaan",
+  "official": "Lihat maklumat rasmi",
+  "search": "Nama tempat",
+  "searchPlaceholder": "Cari nama tempatan, Inggeris atau Thai",
+  "region": "Wilayah",
+  "allRegions": "Seluruh Thailand",
+  "choose": "Ke mana anda ingin pergi?",
+  "viewDetail": "Tarikan dan maklumat lawatan",
+  "noResults": "Cuba nama atau wilayah lain.",
+  "back": "Lihat kategori tempat lain",
+  "reference": "Pengenalan kemudahan akuarium",
+  "categoryNav": "Kategori tempat lain",
+  "adult": "Dewasa",
+  "child": "Kanak-kanak",
+  "from": "dari",
+  "tickets": "Tiket dan tempahan",
+  "experiences": "Tempahan sewaan pakaian dan pengalaman",
+  "booking": "Lihat pilihan dan tempah di Trip.com",
+  "offerBasis": "Harga rujukan untuk pelawat asing, dipaparkan dalam dolar AS (USD) di laman tempahan bahasa Inggeris.",
+  "offerNote": "Harga bergantung pada tarikh lawatan, ketersediaan dan pilihan pakej. Harga akhir serta perkara yang termasuk dipaparkan pada halaman tempahan.",
+  "affiliate": "Pautan afiliasi: ThaiLiveNow mungkin menerima komisen jika anda menempah melalui pautan ini.",
+  "types": "Kategori tempat menarik",
+  "hubHeading": "Tempat untuk dilawati di Thailand",
+  "hubIntro": "Lihat pagoda dan lukisan dinding di kuil, berjalan di lorong untuk mencari makanan pada waktu petang, atau nikmati pemandangan bandar dari tempat tinggi. Pilih destinasi mengikut cara anda ingin menghabiskan masa di Thailand.",
+  "categoryHeading": "Apakah tempat yang anda cari?",
+  "categoryIntro": "Dalam bandar yang sama pun, pilihan destinasi berbeza mengikut perkara yang ingin anda lihat.",
+  "planningHeading": "Rancang waktu lawatan dan perjalanan pulang",
+  "planningBody": "Sesetengah pasar hanya dibuka pada hujung minggu, manakala sesetengah muzium memerlukan lawatan berpandu. Semak waktu buka dan cara lawatan, kemudian rancang perjalanan dari penginapan serta cara pulang.",
+  "transport": "Panduan pengangkutan di Thailand",
+  "seeCategory": "Lihat kategori ini",
+  "places": "tempat",
+  "hubTitle": "Tempat menarik Thailand | Kuil, pasar dan muzium | ThaiLiveNow",
+  "hubDescription": "Cari kuil, bar atas bumbung, zoo, akuarium, pasar malam, pasar terapung, muzium, tapak bersejarah dan taman air di Thailand mengikut wilayah. Ketahui tarikan, alamat, waktu buka, tiket dan cara ke sana.",
+  "preview": "Lihat foto dan koleksi muzium",
+  "modified": "Saiz paparan diubah; pratonton mungkin dipangkas",
+  "categories": [
+    {
+      "name": "Kuil",
+      "text": "Lihat stupa keemasan, dewan dengan lukisan dinding dan runtuhan kuil lama yang tinggal bata. Bezakan kuil yang masih digunakan untuk ibadat daripada tapak arkeologi."
+    },
+    {
+      "name": "Bar dan restoran atas bumbung serta dek pemerhatian",
+      "text": "Untuk melihat bandar dari tempat tinggi, pilih antara dek pemerhatian dengan tempat makan atau minum di atas bumbung. Syarat tiket dan tempahan berbeza."
+    },
+    {
+      "name": "Zoo dan akuarium",
+      "text": "Terokai zoo yang luas atau pameran akuarium dan terowong bawah air. Jika membawa anak, fikirkan cara bergerak di dalam kawasan serta aktiviti berbayar tambahan."
+    },
+    {
+      "name": "Pasar malam dan pasar",
+      "text": "Ada pasar malam dengan makanan dan kraf, serta pasar terapung di tepi terusan. Pasar hujung minggu dan pasar harian memerlukan rancangan tarikh yang berbeza."
+    },
+    {
+      "name": "Muzium dan tapak bersejarah",
+      "text": "Lihat seni dalam rumah lama atau berjalan di bekas ibu kota diraja dan runtuhan kuil. Cara melawat muzium dalaman berbeza daripada taman bersejarah yang meliputi beberapa lokasi."
+    },
+    {
+      "name": "Taman tema dan taman air",
+      "text": "Sesuai untuk sehari bermain permainan atau mandi-manda. Walaupun mempunyai tiket kanak-kanak, setiap permainan tetap mempunyai had ketinggian dan syarat ditemani orang dewasa."
+    },
+    {
+      "name": "Jalan dan kejiranan",
+      "text": "Berjalan di jalan kedai lama dan lorong sambil menikmati kafe, makanan dan seni bina. Kejiranan untuk berjalan pada siang hari berbeza suasananya daripada jalan dengan pasar malam."
+    }
+  ],
+  "contact": "Hubungi"
+}

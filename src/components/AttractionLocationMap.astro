@@ -1,0 +1,23 @@
+---
+import {attractionUI} from '../lib/attractions-localized';
+const {place,locale='ko'}=Astro.props;
+const u=attractionUI(locale);
+---
+<div class="attraction-location-map" data-attraction-location data-lat={place.lat} data-lng={place.lng} data-name={place.name} role="region" aria-label={`${place.name} · ${u.location}`}></div>
+<p class="location-note">{locale==='ko'&&place.id==='jim-thompson-house'?'핀은 박물관 위치예요. 입구·매표소·차량 승하차 지점을 따로 표시한 지도는 아니에요.':place.mapNote||u.mapNote}</p>
+<noscript><p>{u.mapFallback}</p></noscript>
+<script>
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
+for(const el of document.querySelectorAll<HTMLElement>('[data-attraction-location]')){
+ const lat=Number(el.dataset.lat),lng=Number(el.dataset.lng);
+ const map=L.map(el,{scrollWheelZoom:false}).setView([lat,lng],16);
+ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+ const label=document.createElement('span');label.textContent=el.dataset.name||'';
+ L.marker([lat,lng],{icon:L.divIcon({className:'attraction-map-pin',html:'<span aria-hidden="true">●</span>',iconSize:[32,32],iconAnchor:[16,28]}),title:el.dataset.name}).addTo(map).bindTooltip(label,{permanent:true,direction:'top',offset:[0,-22]});
+ map.whenReady(()=>map.invalidateSize());
+}
+</script>
+<style>
+.attraction-location-map{height:390px;isolation:isolate;border-radius:16px;border:1px solid #c9d9e0;background:#edf3f6}.location-note{font-size:14px!important;color:#526572;margin-top:12px!important}:global(.attraction-map-pin){color:#267e89;text-shadow:0 0 2px white;font-size:32px;line-height:32px}:global(.attraction-location-map .leaflet-tooltip){font:600 14px/1.5 system-ui;white-space:normal;width:max-content;min-width:180px;max-width:220px;word-break:keep-all;text-align:center}:global(.attraction-location-map .leaflet-control-zoom a){width:44px;height:44px;line-height:44px}:global(.attraction-location-map .leaflet-control-attribution){font-size:10px}@media(max-width:600px){.attraction-location-map{height:310px}}
+</style>

@@ -1,0 +1,28 @@
+---
+import {attractionUI} from '../lib/attractions-localized';
+const { place, kind = 'programs',locale='ko' } = Astro.props;
+const u=attractionUI(locale);
+const services = kind === 'services';
+const programs = ((services ? place.visitServices : place.visitPrograms) || []).filter(item => item.title && item.details?.length);
+const heading = services ? (place.servicesHeading || u.services) : (place.programsHeading || (place.category === 'museums-heritage' ? u.audio : u.programs));
+const intro = services ? place.servicesIntro : place.programsIntro;
+const headingId = services ? 'services-heading' : 'programs-heading';
+const inline = (value = '') => value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+---
+{programs.length > 0 && <section class="attraction-programs" aria-labelledby={headingId}>
+  <h2 id={headingId}>{heading}</h2>
+  {intro && <p set:html={inline(intro)}/>}
+  <div class="program-list">{programs.map(item => <article class="program-card">
+    <h3>{item.title}</h3>
+    <dl>{item.details.filter(([label, value]) => label && value).map(([label, value]) => <div><dt>{label}</dt><dd set:html={inline(value)}/></div>)}</dl>
+    {item.notes?.map(note => <p set:html={inline(note)}/>)}
+    {item.url && <a href={item.url} target="_blank" rel="noopener noreferrer">{item.linkLabel || u.official} ↗</a>}
+  </article>)}</div>
+</section>}
+<style>
+.attraction-programs{border-top:2px solid #c9d9e0;padding-top:32px}.program-list{display:grid;gap:22px}.program-card{min-width:0;padding:26px 28px;background:#fff;border:1px solid #c9d9e0;border-radius:14px}.program-card h3{margin-top:0!important;color:#267e89}.program-card dl{margin:18px 0}.program-card dl>div{display:grid;grid-template-columns:150px minmax(0,1fr);border-bottom:1px solid #e7edef}.program-card dt,.program-card dd{padding:13px 12px;margin:0;overflow-wrap:anywhere}.program-card dt{font-weight:600;background:#eff5f6}.program-card p{margin-bottom:16px!important}.program-card a{display:inline-block;min-height:44px;padding-top:10px;font-weight:600;max-width:100%;overflow-wrap:anywhere}@media(max-width:600px){.attraction-programs{padding-top:26px}.program-card{padding:22px 20px}.program-card dl>div{grid-template-columns:96px minmax(0,1fr)}.program-card dt,.program-card dd{padding:12px 10px;font-size:15px;line-height:1.8}}
+</style>
+<style>
+@media(max-width:600px){.program-card:lang(ru) dl>div{grid-template-columns:128px minmax(0,1fr)}}
+@media(max-width:360px){.program-card:lang(ru) dl>div{grid-template-columns:1fr}}
+</style>

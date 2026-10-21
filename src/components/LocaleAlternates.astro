@@ -1,11 +1,12 @@
 ---
+import {hasAttractionLocale} from '../lib/attractions-localized';
 import {locales} from '../i18n/locales';
 import {hasLocalizedStage} from '../lib/localized-content';
 const path=Astro.url.pathname;
 const hasMarket=locales.some(item=>path.startsWith(`/${item.code}/`));
 const rest=hasMarket?path.replace(/^\/[^/]+\//,'/'):path;
 const stage=rest.startsWith('/rooftops/')?'rooftops':/^\/(?:destinations|travel-seasons|entry)\//.test(rest)?'travel':undefined;
-const available=locales.filter(item=>item.code==='ko'||!stage||hasLocalizedStage(item.code,stage));
+const available=locales.filter(item=>rest.startsWith('/attractions/')?hasAttractionLocale(item.code):item.code==='ko'||!stage||hasLocalizedStage(item.code,stage));
 ---
 {available.map(item=><link rel="alternate" hreflang={item.tag} href={new URL(`/${item.code}${rest}`,Astro.site||Astro.url).href}/>)}
 {available.some(item=>item.code==='en')&&<link rel="alternate" hreflang="x-default" href={new URL(`/en${rest}`,Astro.site||Astro.url).href}/>}

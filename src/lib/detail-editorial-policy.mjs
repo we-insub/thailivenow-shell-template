@@ -1,3 +1,4 @@
+import {licenseDisplay} from './license-display.mjs';
 import {siteBrand} from './site-brand.mjs';
 import {parse,parseFragment,serialize} from 'parse5';
 import images from '../data/editorial-image-rights.json' with {type:'json'};
@@ -9,7 +10,7 @@ export function isDetailPath(pathname){
  pathname=detailPath(pathname);
  const p=pathname.split('/').filter(Boolean);if(!['ko','ms','zh-cn','zh-tw','en','en-in','en-gb','en-us','ja','ru','es'].includes(p[0]))return false;
  const route=p.slice(1).join('/');
- return /^(?:cameras|entry|travel-seasons|beaches|food-delivery)\/[^/]+$/.test(route)||/^rooftops\/(?!cities(?:\/|$)|page(?:\/|$))[^/]+$/.test(route)||/^airport-assistance\/(?:airports|airlines|routes|pairs|guides)\/.+/.test(route)||/^food\/(?:fruits|dishes|cities)\/[^/]+$/.test(route)||/^food\/(?:street-food|traditions|fruit-prices)$/.test(route)||/^transport\/.+/.test(route)||/^attractions\/.+/.test(route);
+ return /^(?:cameras|entry|travel-seasons|beaches|food-delivery)\/[^/]+$/.test(route)||/^rooftops\/(?!cities(?:\/|$)|page(?:\/|$))[^/]+$/.test(route)||/^airport-assistance\/(?:airports|airlines|routes|pairs|guides)\/.+/.test(route)||/^food\/(?:fruits|dishes|cities)\/[^/]+$/.test(route)||/^food\/(?:street-food|traditions|fruit-prices)$/.test(route)||/^transport\/.+/.test(route)||/^attractions\/(?!categories(?:\/|$)).+/.test(route);
 }
 const nodes=n=>[n,...(n.childNodes||[]).flatMap(nodes)];const attr=(n,k)=>n?.attrs?.find(a=>a.name===k)?.value;
 const text=n=>n.nodeName==='#text'?n.value:(n.childNodes||[]).map(text).join('');
@@ -49,7 +50,7 @@ export function applyDetailEditorialPolicy(html,pathname){
  const chosen=sharingImage(html,pathname);
  if(chosen?.status==='verified-place-image'&&!all.some(n=>attr(n,'data-tln-sharing-credit')!==undefined)){
   const creditLabels={ko:'공유 이미지 출처',en:'Sharing image credit',ms:'Kredit imej perkongsian','zh-cn':'分享图片来源','zh-tw':'分享圖片來源',ja:'共有画像の出典',ru:'Источник изображения для публикации',es:'Crédito de la imagen para compartir'};
-  const credit=parseFragment(`<p data-tln-sharing-credit style="font-size:12px;line-height:1.7;color:#526572">${escape(creditLabels[locale.startsWith('en')?'en':locale]||creditLabels.en)}: <a href="${escape(chosen.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape([chosen.credit,chosen.license].filter(Boolean).join(' · '))}</a>${pathname.includes('/cameras/')?' · '+escape(chosen.alt):''}</p>`).childNodes[0];credit.parentNode=main;main.childNodes.push(credit);
+  const credit=parseFragment(`<p data-tln-sharing-credit style="font-size:12px;line-height:1.7;color:#526572">${escape(creditLabels[locale.startsWith('en')?'en':locale]||creditLabels.en)}: <a href="${escape(chosen.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape([chosen.credit,pathname.includes('/attractions/')?licenseDisplay(chosen.license,locale):chosen.license].filter(Boolean).join(' · '))}</a>${pathname.includes('/cameras/')?' · '+escape(chosen.alt):''}</p>`).childNodes[0];credit.parentNode=main;main.childNodes.push(credit);
  }
  const head=all.find(n=>n.nodeName==='head');if(!all.some(n=>attr(n,'data-tln-organization')!==undefined)){
   const script=parseFragment(`<script type="application/ld+json" data-tln-organization>${JSON.stringify({'@context':'https://schema.org',...organization})}</script>`).childNodes[0];script.parentNode=head;head.childNodes.push(script);

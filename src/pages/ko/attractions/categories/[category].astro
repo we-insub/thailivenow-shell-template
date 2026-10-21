@@ -1,0 +1,7 @@
+---
+import AttractionCategory from '../../../../components/AttractionCategory.astro';
+import {attractionCategories} from '../../../../data/attraction-categories-ko.mjs';
+export function getStaticPaths(){return attractionCategories.filter(c=>c.id!=='rooftops').map(category=>({params:{category:category.id},props:{category}}));}
+const {category}=Astro.props;
+---
+<AttractionCategory category={category}/>

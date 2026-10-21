@@ -1,0 +1,7 @@
+---
+import AttractionCategory from '../../../../components/AttractionCategory.astro';
+import {attractionLocales,localizedAttractionCategories} from '../../../../lib/attractions-localized';
+export function getStaticPaths(){return attractionLocales.filter(locale=>locale!=='ko').flatMap(locale=>localizedAttractionCategories(locale).filter(c=>c.id!=='rooftops').map(category=>({params:{locale,category:category.id},props:{locale,category}})));}
+const {category,locale}=Astro.props;
+---
+<AttractionCategory category={category} locale={locale}/>

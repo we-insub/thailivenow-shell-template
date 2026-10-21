@@ -1,0 +1,8 @@
+---
+import AttractionDetail from '../../../components/AttractionDetail.astro';
+import source from '../../../data/attraction-details-ko.json';
+import {attractionLocales,localizedAttraction} from '../../../lib/attractions-localized';
+export function getStaticPaths(){return attractionLocales.filter(locale=>locale!=='ko').flatMap(locale=>source.map(place=>({params:{locale,id:place.id},props:{place,locale}})));}
+const {place,locale}=Astro.props;
+---
+<AttractionDetail place={localizedAttraction(place,locale)} locale={locale}/>

@@ -1,4 +1,5 @@
 ---
+import {hasAttractionLocale} from '../lib/attractions-localized';
 import { locales, localePath, type Locale } from '../i18n/locales';
 import { getUI } from '../i18n/ui';
 import {hasLocalizedStage} from '../lib/localized-content';
@@ -8,7 +9,7 @@ const active = locales.find(item => item.code === locale)!;
 const ui = getUI(locale);
 const topic=Astro.url.pathname.split('/')[2];
 const stage=topic==='rooftops'?'rooftops':['entry','travel-seasons'].includes(topic)?'travel':undefined;
-const available=(code:Locale)=>!stage||code==='ko'||hasLocalizedStage(code,stage);
+const available=(code:Locale)=>topic==='attractions'?hasAttractionLocale(code):!stage||code==='ko'||hasLocalizedStage(code,stage);
 const codes:Record<string,string>={ko:'KR',ms:'MY','zh-cn':'CN',en:'EN','en-in':'IN',ru:'RU',ja:'JP','en-gb':'UK','en-us':'US',es:'ES','zh-tw':'TW'};
 ---
 <details class="language-switch language-menu language-picker" id="language-picker" data-home-only={homeOnly ? 'true' : undefined} data-switch-path={switchPath} data-switch-paths={switchPaths?JSON.stringify(switchPaths):undefined} data-supported-locales={JSON.stringify(locales.filter(item=>available(item.code)).map(item=>item.code))}>

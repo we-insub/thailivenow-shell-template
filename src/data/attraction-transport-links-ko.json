@@ -1,0 +1,10 @@
+[
+ {"stationId":"node-3801040562","placeIds":["wat-arun"],"note":"MRT 이싸라팝역에서 같은 강 서쪽의 왓아룬으로 걸어갈 수 있어요."},
+ {"stationId":"node-3801040560","placeIds":["wat-pho","museum-siam"],"note":"왓포는 역에서 도보로, 뮤지엄 시암은 1번 출구를 통해 접근하도록 안내돼 있어요."},
+ {"stationId":"node-2324802007","placeIds":["wat-saket","wat-suthat"],"note":"삼욧역에서 왓사켓과 왓수탓으로 걸어가는 경로가 관광청에 안내돼 있어요."},
+ {"stationId":"node-12800326775","placeIds":["wat-traimit","talat-noi"],"note":"후아람퐁역에서 왓트라이밋이나 딸랏노이로 걸어가는 방문을 계획할 수 있어요."},
+ {"stationId":"node-3801040563","placeIds":["song-wat-road"],"note":"송왓 로드는 관광청에서 왓망콘역 접근을 안내하는 거리예요."},
+ {"stationId":"node-12800326949","placeIds":["wat-paknam"],"note":"방파이역에서 왓빡남으로 걸어가는 경로가 관광청에 안내돼 있어요. 끌롱방파이역과는 다른 역이에요."},
+ {"stationId":"node-257066819","placeIds":["jim-thompson-house"],"note":"내셔널스타디움역 1번 출구에서 까셈산 2 골목의 짐 톰슨 하우스로 걸어갈 수 있어요."},
+ {"stationId":"node-280240589","placeIds":["chatuchak-market","or-tor-kor-market"],"note":"깜팽펫역을 기준으로 짜뚜짝 시장과 오또꼬 시장의 위치를 비교해볼 수 있어요."}
+]
