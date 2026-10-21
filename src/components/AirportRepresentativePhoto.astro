@@ -1,0 +1,9 @@
+---
+import photos from '../data/airport-representative-photos.json';
+const {code,locale='ko'}=Astro.props;
+const photo=photos.find(p=>p.id===code.toLowerCase());
+const base=locale.startsWith('en')?'en':locale;
+const labels:Record<string,string>={ko:'사진',en:'Photo',ms:'Foto',ja:'写真','zh-cn':'照片','zh-tw':'照片',ru:'Фото',es:'Foto'};
+---
+{photo&&<figure class="airport-photo"><img src={photo.src} alt={(photo.alt as Record<string,string>)[base]||photo.alt.en} width={photo.width} height={photo.height} loading="lazy"/><figcaption><span>{labels[base]||labels.en}: <a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer">{photo.credit}</a> · <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a> · <time datetime={photo.capturedAt.slice(0,10)}>{photo.capturedAt.slice(0,10)}</time></span></figcaption></figure>}
+<style>.airport-photo{margin:28px 0}.airport-photo img{display:block;width:100%;height:auto;border-radius:12px}.airport-photo figcaption{font-size:12px;line-height:1.8;color:#61717e;margin-top:9px;overflow-wrap:anywhere}.airport-photo a{font-weight:400!important}</style>

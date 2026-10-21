@@ -76,15 +76,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Long-tail_boats_on_Patong_Beach_Phuket.jpg/1280px-Long-tail_boats_on_Patong_Beach_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/patong-representative.jpg",
         "alt": "파통 해변의 해안 풍경",
         "caption": "파통 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-tail_boats_on_Patong_Beach_Phuket.jpg",
         "credit": "Arnaud-Victor Monteux",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 4608,
-        "height": 3456
+        "width": 1280,
+        "height": 960,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Long-tail_boats_on_Patong_Beach_Phuket.jpg/1280px-Long-tail_boats_on_Patong_Beach_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/1280px-Patong_Beach_Phuket_November_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -222,15 +223,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Karon_Beach%2CPhuket_%2821%29.jpg/1280px-Karon_Beach%2CPhuket_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/karon-representative.jpg",
         "alt": "카론 해변의 해안 풍경",
         "caption": "카론 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karon_Beach,Phuket_(21).jpg",
         "credit": "กสิณธร ราชโอรส",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 4592,
-        "height": 3448
+        "width": 1280,
+        "height": 961,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Karon_Beach%2CPhuket_%2821%29.jpg/1280px-Karon_Beach%2CPhuket_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Sunset_at_Karon_Beach%2C_Phuket%2C_Thailand.JPG/1280px-Sunset_at_Karon_Beach%2C_Phuket%2C_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -363,7 +365,7 @@
     ],
     "photos": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kata_Beach%2C_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "/images/beaches/kata-representative.jpg",
         "alt": "카타 해변의 해안 풍경",
         "caption": "카타 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kata_Beach,_Phuket.jpg",
@@ -371,7 +373,8 @@
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "width": 750,
-        "height": 1000
+        "height": 1000,
+        "originalSrc": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kata_Beach%2C_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/KATA_BEACH_1.jpg/1280px-KATA_BEACH_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -504,15 +507,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg/1280px-Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/pattaya-representative.jpg",
         "alt": "파타야 해변의 해안 풍경",
         "caption": "파타야 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pattaya_Beach,_Pattaya_Bay,_Thailand.jpg",
         "credit": "Vyacheslav Argenberg",
         "rights": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "width": 3882,
-        "height": 2667
+        "width": 1280,
+        "height": 879,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg/1280px-Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Pattaya_Beach%2C_Trees%2C_Thailand.jpg/1280px-Pattaya_Beach%2C_Trees%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -641,7 +645,7 @@
     ],
     "photos": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Jomtien_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "/images/beaches/jomtien-representative.jpg",
         "alt": "좀티엔 해변의 해안 풍경",
         "caption": "좀티엔 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jomtien_Beach_1.jpg",
@@ -649,7 +653,8 @@
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "width": 1280,
-        "height": 719
+        "height": 719,
+        "originalSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Jomtien_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Jomtien_beach_03.jpg/1280px-Jomtien_beach_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -780,7 +785,7 @@
     ],
     "photos": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Chaweng-beach_koh_Samui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "/images/beaches/chaweng-representative.jpg",
         "alt": "차웽 해변의 해안 풍경",
         "caption": "차웽 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaweng-beach_koh_Samui.jpg",
@@ -788,7 +793,8 @@
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "width": 1024,
-        "height": 768
+        "height": 768,
+        "originalSrc": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Chaweng-beach_koh_Samui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chaweng_Beach%2C_Koh_Samui_%2827953535942%29.jpg/1280px-Chaweng_Beach%2C_Koh_Samui_%2827953535942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -915,15 +921,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lamai_Beach.jpg/1280px-Lamai_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/lamai-representative.jpg",
         "alt": "라마이 해변의 해안 풍경",
         "caption": "라마이 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamai_Beach.jpg",
         "credit": "Koudkeu",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 4032,
-        "height": 3024
+        "width": 1280,
+        "height": 960,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lamai_Beach.jpg/1280px-Lamai_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Lamai_Beach_1.jpg/1280px-Lamai_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1053,15 +1060,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg/1280px-Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/maya-bay-representative.jpg",
         "alt": "마야 베이의 해안 풍경",
         "caption": "마야 베이의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maya_Bay,_Koh_Phi_Phi,_Krabi,_Thailand.jpg",
         "credit": "Vyacheslav Argenberg",
         "rights": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "width": 3072,
-        "height": 2048
+        "width": 1280,
+        "height": 853,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg/1280px-Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_04.JPG/1280px-Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1192,15 +1200,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg/1280px-Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/loh-dalum-representative.jpg",
         "alt": "로달럼 해변의 해안 풍경",
         "caption": "로달럼 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loh_Dalum_Bay,_Ko_Phi_Phi_Don.jpg",
         "credit": "Christophe95",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 4032,
-        "height": 3024
+        "width": 1280,
+        "height": 960,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg/1280px-Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Loh_Dalum_Bay.jpg/1280px-Loh_Dalum_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1327,15 +1336,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/1280px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/ao-nang-representative.jpg",
         "alt": "아오낭 해변의 해안 풍경",
         "caption": "아오낭 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Ao_Nang_beach,_Krabi.jpg",
         "credit": "Satdeep Gill",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 7952,
-        "height": 5304
+        "width": 1280,
+        "height": 854,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/1280px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Ao_Nang_beach.jpg/1280px-Ao_Nang_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1464,15 +1474,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg/1280px-Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/railay-west-representative.jpg",
         "alt": "라일레이 웨스트 해변의 해안 풍경",
         "caption": "라일레이 웨스트 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg",
         "credit": "Nnthurber",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 2961,
-        "height": 3951
+        "width": 1280,
+        "height": 1708,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg/1280px-Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Railay_Beach_5.jpg/1280px-Railay_Beach_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1603,13 +1614,13 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kao_Lak_Beach_-_panoramio.jpg/1280px-Kao_Lak_Beach_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/nang-thong-representative.jpg",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kao_Lak_Beach_-_panoramio.jpg",
         "credit": "::::=UT=::::",
         "rights": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "width": 2560,
-        "height": 1920,
+        "width": 1280,
+        "height": 960,
         "title": "Kao Lak Beach - panoramio",
         "alt": "낭통 해변의 모래사장과 바다",
         "caption": "2008년에 촬영한 낭통 해변의 모래사장과 물가 풍경이에요.",
@@ -1622,7 +1633,8 @@
           "longitude": "98.246441",
           "reviewedOn": "2026-10-20"
         },
-        "commonsPageId": 53836603
+        "commonsPageId": 53836603,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kao_Lak_Beach_-_panoramio.jpg/1280px-Kao_Lak_Beach_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Kao_Lak_Beach2_-_panoramio.jpg/1280px-Kao_Lak_Beach2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1760,15 +1772,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg/1280px-Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/bang-niang-representative.jpg",
         "alt": "방니앙 해변의 해안 풍경",
         "caption": "방니앙 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg",
         "credit": "Abe Khao Lak",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 1500,
-        "height": 2200
+        "width": 1280,
+        "height": 1877,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg/1280px-Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/KhaoLak05.jpg/1280px-KhaoLak05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1895,13 +1908,13 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Beach_of_Hua_Hin.JPG/1280px-Beach_of_Hua_Hin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/hua-hin-representative.jpg",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_of_Hua_Hin.JPG",
         "credit": "Supercarwaar",
         "rights": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "width": 6016,
-        "height": 4000,
+        "width": 1280,
+        "height": 851,
         "title": "Beach of Hua Hin",
         "alt": "후아힌 해변의 모래사장과 바다",
         "caption": "2013년에 촬영한 후아힌 시내 해변의 모래사장과 바다예요.",
@@ -1914,7 +1927,8 @@
           "longitude": "99.963550",
           "reviewedOn": "2026-10-20"
         },
-        "commonsPageId": 31277304
+        "commonsPageId": 31277304,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Beach_of_Hua_Hin.JPG/1280px-Beach_of_Hua_Hin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Hua_Hin_Beach_evening.jpg/1280px-Hua_Hin_Beach_evening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2052,13 +2066,13 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg/1280px-21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/khao-takiab-representative.jpg",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:21-14_Nong_Kae-Takiap,_Tambon_Nong_Kae,_Amphoe_Hua_Hin,_Chang_Wat_Prachuap_Khiri_Khan_77110,_Thailand_-_panoramio.jpg",
         "credit": "Boonchai C",
         "rights": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-        "width": 3100,
-        "height": 2067,
+        "width": 1280,
+        "height": 853,
         "title": "21-14 Nong Kae-Takiap, Tambon Nong Kae, Amphoe Hua Hin, Chang Wat Prachuap Khiri Khan 77110, Thailand - panoramio",
         "alt": "카오타키압 북쪽 해안에서 바라본 언덕과 바다",
         "caption": "2013년 카오타키압 북쪽 해안에서 언덕과 바다를 바라본 사진이에요.",
@@ -2071,7 +2085,8 @@
           "longitude": "99.972700",
           "reviewedOn": "2026-10-20"
         },
-        "commonsPageId": 56495701
+        "commonsPageId": 56495701,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg/1280px-21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nong_Kae%2C_Hua_Hin_District%2C_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio_%281%29.jpg/1280px-Nong_Kae%2C_Hua_Hin_District%2C_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2209,15 +2224,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg/1280px-Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/white-sand-representative.jpg",
         "alt": "화이트 샌드 해변의 해안 풍경",
         "caption": "화이트 샌드 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dusk_at_White_Sand_Beach,_Koh_Chang,_Thailand.jpg",
         "credit": "Slyronit",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 4032,
-        "height": 3024
+        "width": 1280,
+        "height": 960,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg/1280px-Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Dusk_at_White_Sand_Beach%2C_Koh_Chang_3.jpg/1280px-Dusk_at_White_Sand_Beach%2C_Koh_Chang_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2344,15 +2360,16 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg/1280px-Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/klong-prao-representative.jpg",
         "alt": "클롱프라오 해변의 해안 풍경",
         "caption": "클롱프라오 해변의 해안 풍경",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_Ko_Chang_Island,_Thailand.jpg",
         "credit": "Vyacheslav Argenberg",
         "rights": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "width": 4032,
-        "height": 2688
+        "width": 1280,
+        "height": 853,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg/1280px-Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/1280px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2479,13 +2496,13 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Hat_Saikaew%2C_Koh_Samet.jpg/1280px-Hat_Saikaew%2C_Koh_Samet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/sai-kaew-representative.jpg",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hat_Saikaew,_Koh_Samet.jpg",
         "credit": "Adam",
         "rights": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "width": 3648,
-        "height": 2736,
+        "width": 1280,
+        "height": 960,
         "title": "Hat Saikaew, Koh Samet",
         "alt": "사이깨우 해변의 모래사장과 바다",
         "caption": "2008년에 촬영한 코사멧 사이깨우 해변의 흰 모래사장과 바다예요.",
@@ -2498,7 +2515,8 @@
           "longitude": null,
           "reviewedOn": "2026-10-20"
         },
-        "commonsPageId": 8732642
+        "commonsPageId": 8732642,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Hat_Saikaew%2C_Koh_Samet.jpg/1280px-Hat_Saikaew%2C_Koh_Samet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Hat_Sai_Kaew_met_Djoser_jr._-_panoramio.jpg/1280px-Hat_Sai_Kaew_met_Djoser_jr._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2636,13 +2654,13 @@
     ],
     "photos": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Koh_Samet%2CWong_Duean_Beach.jpg/1280px-Koh_Samet%2CWong_Duean_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "/images/beaches/wong-duean-representative.jpg",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koh_Samet,Wong_Duean_Beach.jpg",
         "credit": "Eltorodeoro",
         "rights": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "width": 5312,
-        "height": 2988,
+        "width": 1280,
+        "height": 720,
         "title": "Koh Samet,Wong Duean Beach",
         "alt": "아오웡드안 해변의 모래사장과 바다",
         "caption": "2016년 이른 아침에 촬영한 아오웡드안 해변의 모래사장이에요.",
@@ -2655,7 +2673,8 @@
           "longitude": null,
           "reviewedOn": "2026-10-20"
         },
-        "commonsPageId": 53020513
+        "commonsPageId": 53020513,
+        "originalSrc": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Koh_Samet%2CWong_Duean_Beach.jpg/1280px-Koh_Samet%2CWong_Duean_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ao_Wang_Deun%2C_Ko_Samet_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",

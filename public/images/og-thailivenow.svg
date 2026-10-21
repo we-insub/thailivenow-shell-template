@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+ <rect width="1200" height="630" fill="#edf3f4"/>
+ <g transform="translate(550 148)"><rect width="100" height="64" rx="2" fill="#fff"/><path fill="#b01942" d="M0 0h100v11H0zM0 53h100v11H0z"/><path fill="#252544" d="M0 22h100v20H0z"/></g>
+ <text x="600" y="328" text-anchor="middle" fill="#233746" font-family="Arial, sans-serif" font-size="76" font-weight="700">ThaiLiveNow</text>
+ <text x="600" y="389" text-anchor="middle" fill="#287d88" font-family="Arial, sans-serif" font-size="25">Thailand Travel &amp; Live Cams</text>
+ <path d="M550 439h100" stroke="#287d88" stroke-width="4"/>
+</svg>

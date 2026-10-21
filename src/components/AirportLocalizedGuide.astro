@@ -3,6 +3,7 @@ import {airportDepthGuide,airportDepthDirectory,airportDepthUI,airportFacilityNa
 import AirportLocalizedMap from './AirportLocalizedMap.astro';
 import ImportantText from './ImportantText.astro';
 import RuntimeDate from './RuntimeDate.astro';
+import AirportRepresentativePhoto from './AirportRepresentativePhoto.astro';
 const {code,locale='en',part='all',faqItems,emitSchema=true}=Astro.props;
 const ui=airportDepthUI(locale),guide=airportDepthGuide(code,locale),directory=airportDepthDirectory(code,locale);
 const overview=part==='all'||part==='overview',showMap=['all','map','smoking'].includes(part),showSmoking=part==='all'||part==='smoking',facilities=part==='all'||part==='map';
@@ -17,7 +18,7 @@ const faq=faqItems||guide.faq;
 const mapDatePath=part==='overview'?undefined:'/ko/airport-assistance/airports/'+code.toLowerCase()+'/#facility-map';
 ---
 {guide&&<div class="airport-korean-guide" data-airport-korean-guide data-localized-airport-guide={locale} data-airport-facilities data-facility-copy={JSON.stringify({count:ui.count,empty:ui.empty})}>
- {overview&&<section class="airport-introduction"><h2>{ui.firstVisit.replace('{name}',guide.name)}</h2>{guide.intro.map((p:string)=><p>{p}</p>)}<figure class="airport-photo"><img src={`/images/airports/photos/${code.toLowerCase()}.webp`} alt={ui.photoAlt.replace('{name}',guide.name)} width="1400" height="936" loading="lazy"/><figcaption>{ui.photoCredit} · <a href={guide.officialSources.find((s:string)=>s.endsWith('/about-us'))} target="_blank" rel="noopener noreferrer">{ui.photoSource}</a></figcaption></figure><dl class="airport-basics">{guide.facts.map(([label,value]:string[])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>}
+ {overview&&<section class="airport-introduction"><h2>{ui.firstVisit.replace('{name}',guide.name)}</h2>{guide.intro.map((p:string)=><p>{p}</p>)}<AirportRepresentativePhoto code={code} locale={locale}/><dl class="airport-basics">{guide.facts.map(([label,value]:string[])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>}
  {showMap&&<AirportLocalizedMap locale={locale} code={code} directory={directory} pins={guide.pins} defaultMap={part==='smoking'?'11':guide.defaultMap}/>}
  {showSmoking&&<section aria-labelledby={`smoking-${code}`}><h2 id={`smoking-${code}`}>{ui.smokingTitle}</h2>
   <p>{ui.smokingIntro}</p>

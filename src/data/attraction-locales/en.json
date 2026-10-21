@@ -4682,6 +4682,11 @@
     "servicesIntro": "The charge for driving your own car into the park is separate from renting a golf cart inside the park.",
     "photos": [
       {
+        "alt": "Sanphet Prasat Palace replica at Muang Boran",
+        "caption": "Sanphet Prasat Palace replica at Muang Boran",
+        "modifications": "Display resized; preview may be cropped."
+      },
+      {
         "alt": "Traditional wooden building and bridge over a pond at Muang Boran",
         "caption": "Traditional wooden building and bridge over a pond at Muang Boran.",
         "modifications": "Display resized; part of the preview is cropped"
@@ -9486,7 +9491,13 @@
       ]
     ],
     "related": [],
-    "photos": [],
+    "photos": [
+      {
+        "alt": "Diver, turtles and fish at Songkhla Aquarium — photographed in 2012",
+        "caption": "Diver, turtles and fish at Songkhla Aquarium — photographed in 2012",
+        "modifications": "Display resized; preview may be cropped."
+      }
+    ],
     "sources": [
       [
         "Tourism Authority of Thailand — site and visitor information",

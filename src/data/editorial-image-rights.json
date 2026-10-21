@@ -13,7 +13,7 @@
       ],
       "cameraIds": []
     },
-    "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Wat_Arun_6.jpg?width=1600": {
+    "/images/attractions/wat-arun-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_Wat_Arun_6.jpg",
       "license": "CC0 1.0 Universal",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -370,6 +370,18 @@
       "height": 853,
       "routes": [
         "attractions/jim-thompson-house"
+      ],
+      "cameraIds": []
+    },
+    "/images/attractions/ancient-city-muang-boran-sanphet-prasat.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanphet_Prasat_Palace_replica_at_Ancient_Siam,_Muang_Boran_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "iMahesh / Wikimedia Commons",
+      "width": 1280,
+      "height": 720,
+      "routes": [
+        "attractions/ancient-city-muang-boran"
       ],
       "cameraIds": []
     },
@@ -829,6 +841,18 @@
       ],
       "cameraIds": []
     },
+    "/images/attractions/songkhla-aquarium-historic-underwater-photo.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_feeding_show_(7354644826).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "credit": "hams Nocete / Wikimedia Commons",
+      "width": 786,
+      "height": 1024,
+      "routes": [
+        "attractions/songkhla-aquarium"
+      ],
+      "cameraIds": []
+    },
     "/images/attractions/damnoen-saduak-floating-market.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floating_market_at_Damnoen_Saduak_1.JPG",
       "license": "CC BY 3.0",
@@ -961,13 +985,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Long-tail_boats_on_Patong_Beach_Phuket.jpg/1280px-Long-tail_boats_on_Patong_Beach_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/patong-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-tail_boats_on_Patong_Beach_Phuket.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Arnaud-Victor Monteux",
-      "width": 4608,
-      "height": 3456,
+      "width": 1280,
+      "height": 960,
       "routes": [
         "beaches/patong"
       ],
@@ -985,13 +1009,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Karon_Beach%2CPhuket_%2821%29.jpg/1280px-Karon_Beach%2CPhuket_%2821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/karon-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karon_Beach,Phuket_(21).jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "กสิณธร ราชโอรส",
-      "width": 4592,
-      "height": 3448,
+      "width": 1280,
+      "height": 961,
       "routes": [
         "beaches/karon"
       ],
@@ -1009,7 +1033,7 @@
       ],
       "cameraIds": []
     },
-    "https://upload.wikimedia.org/wikipedia/commons/3/36/Kata_Beach%2C_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled": {
+    "/images/beaches/kata-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kata_Beach,_Phuket.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1033,13 +1057,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg/1280px-Pattaya_Beach%2C_Pattaya_Bay%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/pattaya-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pattaya_Beach,_Pattaya_Bay,_Thailand.jpg",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "credit": "Vyacheslav Argenberg",
-      "width": 3882,
-      "height": 2667,
+      "width": 1280,
+      "height": 879,
       "routes": [
         "beaches/pattaya"
       ],
@@ -1057,7 +1081,7 @@
       ],
       "cameraIds": []
     },
-    "https://upload.wikimedia.org/wikipedia/commons/d/d7/Jomtien_Beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled": {
+    "/images/beaches/jomtien-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jomtien_Beach_1.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1081,7 +1105,7 @@
       ],
       "cameraIds": []
     },
-    "https://upload.wikimedia.org/wikipedia/commons/b/b2/Chaweng-beach_koh_Samui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled": {
+    "/images/beaches/chaweng-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaweng-beach_koh_Samui.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -1105,13 +1129,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lamai_Beach.jpg/1280px-Lamai_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/lamai-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamai_Beach.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Koudkeu",
-      "width": 4032,
-      "height": 3024,
+      "width": 1280,
+      "height": 960,
       "routes": [
         "beaches/lamai"
       ],
@@ -1129,13 +1153,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg/1280px-Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/maya-bay-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maya_Bay,_Koh_Phi_Phi,_Krabi,_Thailand.jpg",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "credit": "Vyacheslav Argenberg",
-      "width": 3072,
-      "height": 2048,
+      "width": 1280,
+      "height": 853,
       "routes": [
         "beaches/maya-bay"
       ],
@@ -1153,13 +1177,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg/1280px-Loh_Dalum_Bay%2C_Ko_Phi_Phi_Don.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/loh-dalum-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loh_Dalum_Bay,_Ko_Phi_Phi_Don.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Christophe95",
-      "width": 4032,
-      "height": 3024,
+      "width": 1280,
+      "height": 960,
       "routes": [
         "beaches/loh-dalum"
       ],
@@ -1177,13 +1201,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/1280px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/ao-nang-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Ao_Nang_beach,_Krabi.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Satdeep Gill",
-      "width": 7952,
-      "height": 5304,
+      "width": 1280,
+      "height": 854,
       "routes": [
         "beaches/ao-nang"
       ],
@@ -1201,13 +1225,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg/1280px-Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/railay-west-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Nnthurber",
-      "width": 2961,
-      "height": 3951,
+      "width": 1280,
+      "height": 1708,
       "routes": [
         "beaches/railay-west"
       ],
@@ -1225,13 +1249,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Kao_Lak_Beach_-_panoramio.jpg/1280px-Kao_Lak_Beach_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/nang-thong-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kao_Lak_Beach_-_panoramio.jpg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "::::=UT=::::",
-      "width": 2560,
-      "height": 1920,
+      "width": 1280,
+      "height": 960,
       "routes": [
         "beaches/nang-thong"
       ],
@@ -1249,13 +1273,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg/1280px-Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/bang-niang-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Bogerd_-_khao_lak_holiday-_monks_at_Bang_Niang_beach.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Abe Khao Lak",
-      "width": 1500,
-      "height": 2200,
+      "width": 1280,
+      "height": 1877,
       "routes": [
         "beaches/bang-niang"
       ],
@@ -1273,13 +1297,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Beach_of_Hua_Hin.JPG/1280px-Beach_of_Hua_Hin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/hua-hin-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_of_Hua_Hin.JPG",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "credit": "Supercarwaar",
-      "width": 6016,
-      "height": 4000,
+      "width": 1280,
+      "height": 851,
       "routes": [
         "beaches/hua-hin"
       ],
@@ -1297,13 +1321,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg/1280px-21-14_Nong_Kae-Takiap%2C_Tambon_Nong_Kae%2C_Amphoe_Hua_Hin%2C_Chang_Wat_Prachuap_Khiri_Khan_77110%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/khao-takiab-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:21-14_Nong_Kae-Takiap,_Tambon_Nong_Kae,_Amphoe_Hua_Hin,_Chang_Wat_Prachuap_Khiri_Khan_77110,_Thailand_-_panoramio.jpg",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "credit": "Boonchai C",
-      "width": 3100,
-      "height": 2067,
+      "width": 1280,
+      "height": 853,
       "routes": [
         "beaches/khao-takiab"
       ],
@@ -1321,13 +1345,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg/1280px-Dusk_at_White_Sand_Beach%2C_Koh_Chang%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/white-sand-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dusk_at_White_Sand_Beach,_Koh_Chang,_Thailand.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Slyronit",
-      "width": 4032,
-      "height": 3024,
+      "width": 1280,
+      "height": 960,
       "routes": [
         "beaches/white-sand"
       ],
@@ -1345,13 +1369,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg/1280px-Klong_Prao_Beach%2C_Ko_Chang_Island%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/klong-prao-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_Ko_Chang_Island,_Thailand.jpg",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
       "credit": "Vyacheslav Argenberg",
-      "width": 4032,
-      "height": 2688,
+      "width": 1280,
+      "height": 853,
       "routes": [
         "beaches/klong-prao"
       ],
@@ -1369,13 +1393,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Hat_Saikaew%2C_Koh_Samet.jpg/1280px-Hat_Saikaew%2C_Koh_Samet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/sai-kaew-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hat_Saikaew,_Koh_Samet.jpg",
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "credit": "Adam",
-      "width": 3648,
-      "height": 2736,
+      "width": 1280,
+      "height": 960,
       "routes": [
         "beaches/sai-kaew"
       ],
@@ -1393,13 +1417,13 @@
       ],
       "cameraIds": []
     },
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Koh_Samet%2CWong_Duean_Beach.jpg/1280px-Koh_Samet%2CWong_Duean_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail": {
+    "/images/beaches/wong-duean-representative.jpg": {
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koh_Samet,Wong_Duean_Beach.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "credit": "Eltorodeoro",
-      "width": 5312,
-      "height": 2988,
+      "width": 1280,
+      "height": 720,
       "routes": [
         "beaches/wong-duean"
       ],
@@ -1946,6 +1970,398 @@
         "samui-baobab",
         "samui-black-pearl"
       ]
+    },
+    "/images/airports/photos/suvarnabhumi-airport-departures-terminal.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Khaosaming",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "airport-assistance/airports/bkk",
+        "airport-assistance/airports/bkk/map",
+        "airport-assistance/airports/bkk/airlines"
+      ],
+      "cameraIds": []
+    },
+    "/images/airports/photos/don-mueang-airport-terminal-2.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Don_Mueang_Airport_-_Terminal_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "WillEmmett-NOCS",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "airport-assistance/airports/dmk"
+      ],
+      "cameraIds": []
+    },
+    "/images/airports/photos/phuket-airport-international-terminal.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:201701_International_Terminal_of_HKT.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "MNXANL",
+      "width": 1280,
+      "height": 851,
+      "routes": [
+        "airport-assistance/airports/hkt"
+      ],
+      "cameraIds": []
+    },
+    "/images/airports/photos/chiang-mai-airport-terminal.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_International_Airport_2025.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Setawut",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "airport-assistance/airports/cnx"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/attractions.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Pho_Temple_Bangkok_1.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Philip Nalangan / Wikimedia Commons",
+      "width": 1200,
+      "height": 899,
+      "routes": [
+        "attractions"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/attractions-categories-temples.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Pho_Temple_Bangkok_1.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Philip Nalangan / Wikimedia Commons",
+      "width": 1200,
+      "height": 899,
+      "routes": [
+        "attractions/categories/temples"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/attractions-categories-zoos-aquariums.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Safari_World_%28118%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "กสิณธร ราชโอรส · Wikimedia Commons",
+      "width": 1200,
+      "height": 901,
+      "routes": [
+        "attractions/categories/zoos-aquariums"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/attractions-categories-markets.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chatuchak_Weekend_Market_Soi.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "JJ Harrison ( https://www.jjharrison.com.au/ ) / Wikimedia Commons",
+      "width": 1280,
+      "height": 844,
+      "routes": [
+        "attractions/categories/markets"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/attractions-categories-museums-heritage.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:202307_Grand_Palace_of_Bangkok_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Jonashtand / Wikimedia Commons",
+      "width": 1280,
+      "height": 720,
+      "routes": [
+        "attractions/categories/museums-heritage"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/attractions-categories-theme-water-parks.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016111001_Siam_Park_City_%28Bangkok%29_W.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Joachim Lutz · Wikimedia Commons",
+      "width": 1200,
+      "height": 900,
+      "routes": [
+        "attractions/categories/theme-water-parks"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/attractions-categories-streets-neighborhoods.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_San_Road,_Bangkok,_Tailandia_(37594114336).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Edgardo W. Olivera from Montevideo, Uruguay / Wikimedia Commons",
+      "width": 1280,
+      "height": 720,
+      "routes": [
+        "attractions/categories/streets-neighborhoods"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/rooftops.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar,_Bangkok_(33407660291).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Ninara",
+      "width": 1400,
+      "height": 889,
+      "routes": [
+        "rooftops"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/rooftops-cities-bangkok.webp": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sky_Bar,_Bangkok_(33407660291).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Ninara",
+      "width": 1400,
+      "height": 889,
+      "routes": [
+        "rooftops/cities/bangkok"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-tail_boats_on_Patong_Beach_Phuket.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Arnaud-Victor Monteux",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "beaches"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-phuket.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-tail_boats_on_Patong_Beach_Phuket.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Arnaud-Victor Monteux",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "beaches/cities/phuket"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-pattaya.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pattaya_Beach,_Pattaya_Bay,_Thailand.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Vyacheslav Argenberg",
+      "width": 1280,
+      "height": 879,
+      "routes": [
+        "beaches/cities/pattaya"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-samui.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaweng-beach_koh_Samui.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Jacques Herremans",
+      "width": 1024,
+      "height": 768,
+      "routes": [
+        "beaches/cities/samui"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-phi-phi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maya_Bay,_Koh_Phi_Phi,_Krabi,_Thailand.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "credit": "Vyacheslav Argenberg",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "beaches/cities/phi-phi"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-krabi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Ao_Nang_beach,_Krabi.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Satdeep Gill",
+      "width": 1280,
+      "height": 854,
+      "routes": [
+        "beaches/cities/krabi"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-khao-lak.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kao_Lak_Beach_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "::::=UT=::::",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "beaches/cities/khao-lak"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-hua-hin.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_of_Hua_Hin.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Supercarwaar",
+      "width": 1280,
+      "height": 851,
+      "routes": [
+        "beaches/cities/hua-hin"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-ko-chang.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dusk_at_White_Sand_Beach,_Koh_Chang,_Thailand.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Slyronit",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "beaches/cities/ko-chang"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/beaches-cities-ko-samet.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hat_Saikaew,_Koh_Samet.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "credit": "Adam",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "beaches/cities/ko-samet"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/food.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phat_thai_-_Chiang_Mai_-_2017-07-08_(002).jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Iudexvivorum",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "food"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/food-dishes.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phat_thai_-_Chiang_Mai_-_2017-07-08_(002).jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Iudexvivorum",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "food/dishes"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/food-fruits.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Ivar Leidus",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "food/fruits"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/airports-suvarnabhumi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Khaosaming",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "airports"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/airport-assistance-suvarnabhumi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Khaosaming",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "airport-assistance"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/transport-guides-air-suvarnabhumi.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Khaosaming",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "transport/guides/air"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/bangkok-chao-phraya-river.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long_motorboat_on_the_Chao_Phraya_River_in_Bangkok.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Grendelkhan",
+      "width": 960,
+      "height": 720,
+      "routes": [
+        "",
+        "destinations",
+        "directory"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/bangkok-airport-rail-link-phaya-thai.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Airport_Rail_Link_train_at_Phaya_Thai_Station.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "Suikotei",
+      "width": 1280,
+      "height": 960,
+      "routes": [
+        "transport",
+        "transport/bangkok",
+        "transport/airports/airport-rail-link",
+        "transport/airports/suvarnabhumi-to-bangkok"
+      ],
+      "cameraIds": []
+    },
+    "/images/sharing/thailand-grabfood-delivery-rider.jpg": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DFC_2514_A_brightly_painted_street_food_stall_selling_crispy_fried_chicken_draws_a_GrabFood_rider_waiting_on_his_motorbike_for_his_order.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "credit": "PattayaPatrol",
+      "width": 1280,
+      "height": 853,
+      "routes": [
+        "food-delivery",
+        "food-delivery/grabfood"
+      ],
+      "cameraIds": []
     }
   }
 }

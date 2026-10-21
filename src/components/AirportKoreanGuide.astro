@@ -5,6 +5,7 @@ import directories from '../data/airport-map-directory-ko.json';
 import AirportGuideMap from './AirportGuideMap.astro';
 import ImportantText from './ImportantText.astro';
 import RuntimeDate from './RuntimeDate.astro';
+import AirportRepresentativePhoto from './AirportRepresentativePhoto.astro';
 const {code,part='all',faqItems}=Astro.props;
 const overview=part==='all'||part==='overview';
 const showMap=['all','map','smoking'].includes(part);
@@ -24,7 +25,7 @@ const faq=faqItems||guide.faq.filter((f:any)=>code!=='BKK'||f.q!=='흡연 구역
 const mapDatePath=part==='all'?'/ko/airport-assistance/airports/'+code.toLowerCase()+'/#facility-map':Astro.url.pathname;
 ---
 {guide&&<div class="airport-korean-guide" data-airport-korean-guide data-airport-facilities>
- {overview&&<section class="airport-introduction"><h2>{guide.name} 처음 이용하신다면</h2>{guide.intro.map((p:string)=><p>{p}</p>)}<figure class="airport-photo"><img src={`/images/airports/photos/${code.toLowerCase()}.webp`} alt={`${guide.name} 터미널 공식 소개 사진`} width="1400" height="936" loading="lazy"/><figcaption>사진: 태국공항공사 · <a href={guide.officialSources.find((s:string)=>s.endsWith('/about-us'))} target="_blank" rel="noopener noreferrer">{guide.name} 공식 소개</a></figcaption></figure><dl class="airport-basics">{guide.facts.map(([label,value]:string[])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>}
+ {overview&&<section class="airport-introduction"><h2>{guide.name} 처음 이용하신다면</h2>{guide.intro.map((p:string)=><p>{p}</p>)}<AirportRepresentativePhoto code={code} locale={'ko'}/><dl class="airport-basics">{guide.facts.map(([label,value]:string[])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>}
  {showMap&&<AirportGuideMap code={code} directory={directory} pins={guide.pins} defaultMap={part==='smoking'?'11':guide.defaultMap}/>}
  {showSmoking&&<section aria-labelledby={`smoking-${code}`}><h2 id={`smoking-${code}`}>흡연구역 · 출국심사 전후로 나눠 찾기</h2>
   <p>공항에서 담배를 피우려면 지정된 흡연구역을 이용해야 해요. <strong>일반구역, 출국심사 후 구역, 라운지 안의 별도 공간</strong>을 구분해 보세요.</p>

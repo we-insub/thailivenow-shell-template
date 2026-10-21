@@ -2,6 +2,8 @@ import {licenseDisplay} from './license-display.mjs';
 import {siteBrand} from './site-brand.mjs';
 import {parse,parseFragment,serialize} from 'parse5';
 import images from '../data/editorial-image-rights.json' with {type:'json'};
+import airportPhotos from '../data/airport-representative-photos.json' with {type:'json'};
+import hubPhotos from '../data/representative-hub-images.json' with {type:'json'};
 import {suppressPublicDates} from './public-date-policy.mjs';
 export const organization={'@type':'Organization','@id':'https://thailivenow.com/#organization',name:'ThaiLiveNow',url:'https://thailivenow.com/'};
 export const bylineLabels={ko:'글·해설:',en:'Text and commentary:',ms:'Penulisan dan penerangan:','zh-cn':'撰文与解说：','zh-tw':'撰文與解說：',ja:'執筆・解説：',ru:'Текст и пояснения:',es:'Texto y comentarios:'};
@@ -17,9 +19,14 @@ const text=n=>n.nodeName==='#text'?n.value:(n.childNodes||[]).map(text).join('')
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function sharingImage(html,pathname){
  pathname=detailPath(pathname);
- if(!isDetailPath(pathname))return null;
+ const route=pathname.split('/').filter(Boolean).slice(1).join('/');
+ const supported=/^\/(?:ko|ms|zh-cn|zh-tw|en|en-in|en-gb|en-us|ja|ru|es)(?:\/|$)/.test(pathname);
+ if(!supported)return null;
  const all=nodes(parse(html)),main=all.find(n=>n.nodeName==='main');const candidates=nodes(main||{}).filter(n=>n.nodeName==='img');
  const og=all.find(n=>n.nodeName==='meta'&&attr(n,'property')==='og:image');if(og){const url=attr(og,'content');let src=url;try{if(new URL(url,'https://thailivenow.com').origin==='https://thailivenow.com')src=new URL(url,'https://thailivenow.com').pathname;}catch{}const alt=attr(all.find(n=>n.nodeName==='meta'&&attr(n,'property')==='og:image:alt'),'content');candidates.unshift({nodeName:'img',attrs:[{name:'src',value:src},{name:'alt',value:alt||''}]});}
+ const preferred=airportPhotos.find(p=>p.routes.includes(route))||hubPhotos.find(p=>p.route===route);
+ const locale=pathname.split('/')[1],base=locale.startsWith('en')?'en':locale;
+ if(preferred){const alt=preferred.alt?.[base]||attr(candidates.find(n=>attr(n,'src')===preferred.original),'alt')||text(all.find(n=>n.nodeName==='h1')||{}).trim();candidates.unshift({nodeName:'img',attrs:[{name:'src',value:preferred.src},{name:'alt',value:alt}]});}
  const camera=pathname.match(/\/cameras\/([^/]+)\//)?.[1];
  if(camera)for(const [src,r]of Object.entries(images.assets))if(r.cameraIds?.includes(camera))candidates.push({nodeName:'img',attrs:[{name:'src',value:src},{name:'alt',value:text(all.find(n=>n.nodeName==='h1')||{})}]});
  for(const img of candidates){const src=attr(img,'src');const rights=images.assets[src];if(!rights||camera&&!rights.cameraIds?.includes(camera))continue;
@@ -33,14 +40,15 @@ export function sharingImage(html,pathname){
 }
 export function applyDetailEditorialPolicy(html,pathname){
  pathname=detailPath(pathname);
- html=suppressPublicDates(html);if(!isDetailPath(pathname)||!/<main\b/.test(html))return html;
+ html=suppressPublicDates(html);if(!/<main\b/.test(html))return html;
+ const detail=isDetailPath(pathname);
  const tree=parse(html),all=nodes(tree),main=all.find(n=>n.nodeName==='main'),heading=nodes(main).find(n=>n.nodeName==='h1');if(!heading)return html;
  const locale=pathname.split('/')[1],label=bylineLabels[locale.startsWith('en')?'en':locale]||bylineLabels.en;
- if(!all.some(n=>attr(n,'data-tln-editorial-byline')!==undefined)){
+ if(detail&&!all.some(n=>attr(n,'data-tln-editorial-byline')!==undefined)){
   const byline=parseFragment(`<p data-tln-editorial-byline class="tln-editorial-byline" style="font:inherit;font-size:14px;line-height:1.7;margin:10px 0 24px;color:#526572">${escape(label)} <a rel="author" href="/${locale}/">${siteBrand(locale)}</a></p>`).childNodes[0];
   const parent=heading.parentNode;byline.parentNode=parent;parent.childNodes.splice(parent.childNodes.indexOf(heading)+1,0,byline);
  }
- for(const script of all.filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json')){
+ for(const script of (detail?all:[]).filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json')){
   try{const doc=JSON.parse(text(script));const visit=value=>{if(!value||typeof value!=='object')return;
    const types=[value['@type']].flat();const own=!value.url||typeof value.url==='string'&&(value.url.startsWith('/')||value.url.startsWith('https://thailivenow.com/'));
    if(own&&types.some(t=>['WebPage','Article','BlogPosting','NewsArticle','TravelGuide'].includes(t))){value.author={'@id':organization['@id']};value.publisher={'@id':organization['@id']};}
@@ -50,9 +58,9 @@ export function applyDetailEditorialPolicy(html,pathname){
  const chosen=sharingImage(html,pathname);
  if(chosen?.status==='verified-place-image'&&!all.some(n=>attr(n,'data-tln-sharing-credit')!==undefined)){
   const creditLabels={ko:'공유 이미지 출처',en:'Sharing image credit',ms:'Kredit imej perkongsian','zh-cn':'分享图片来源','zh-tw':'分享圖片來源',ja:'共有画像の出典',ru:'Источник изображения для публикации',es:'Crédito de la imagen para compartir'};
-  const credit=parseFragment(`<p data-tln-sharing-credit style="font-size:12px;line-height:1.7;color:#526572">${escape(creditLabels[locale.startsWith('en')?'en':locale]||creditLabels.en)}: <a href="${escape(chosen.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape([chosen.credit,pathname.includes('/attractions/')?licenseDisplay(chosen.license,locale):chosen.license].filter(Boolean).join(' · '))}</a>${pathname.includes('/cameras/')?' · '+escape(chosen.alt):''}</p>`).childNodes[0];credit.parentNode=main;main.childNodes.push(credit);
+  const credit=parseFragment(`<p data-tln-sharing-credit style="font-size:12px;line-height:1.7;color:#526572">${escape(creditLabels[locale.startsWith('en')?'en':locale]||creditLabels.en)}: <a href="${escape(chosen.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(chosen.credit||'')}</a> · ${chosen.licenseUrl?`<a href="${escape(chosen.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(licenseDisplay(chosen.license,locale))}</a>`:escape(licenseDisplay(chosen.license,locale))}${pathname.includes('/cameras/')?' · '+escape(chosen.alt):''}</p>`).childNodes[0];credit.parentNode=main;main.childNodes.push(credit);
  }
- const head=all.find(n=>n.nodeName==='head');if(!all.some(n=>attr(n,'data-tln-organization')!==undefined)){
+ const head=all.find(n=>n.nodeName==='head');if(detail&&!all.some(n=>attr(n,'data-tln-organization')!==undefined)){
   const script=parseFragment(`<script type="application/ld+json" data-tln-organization>${JSON.stringify({'@context':'https://schema.org',...organization})}</script>`).childNodes[0];script.parentNode=head;head.childNodes.push(script);
  }
  return serialize(tree);

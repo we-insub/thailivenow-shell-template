@@ -30,7 +30,7 @@ test('new details receive byline, genuine source/date preservation and equivalen
   const output=applyPageSEO(input,pathname);assert.equal(isDetailPath(pathname),true);
   assert.equal((output.match(/data-tln-editorial-byline/g)||[]).length,1);
   assert.equal((output.match(/hreflang=/g)||[]).length,12);assert.ok(output.includes('2026-10-13'));
-  assert.equal(sharingImage(input,pathname).status,suffix.startsWith('beaches')?'verified-place-image':'missing-place-image');
+  assert.equal(sharingImage(input,pathname).status,suffix.startsWith('beaches')||suffix==='food-delivery/grabfood/'?'verified-place-image':'missing-place-image');
   assert.equal(applyPageSEO(output,pathname),output);
  }
  for(const locale of navigationLocales)for(const suffix of ['beaches/','beaches/cities/phuket/','food-delivery/'])assert.equal(isDetailPath(`/${locale}/${suffix}`),false);

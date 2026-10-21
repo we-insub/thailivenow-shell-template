@@ -1,0 +1,112 @@
+[
+  {
+    "id": "bkk",
+    "src": "/images/airports/photos/suvarnabhumi-airport-departures-terminal.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg/1280px-Suvarnabhumi_Airport_Terminal_Building_Departures_Level.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "Khaosaming",
+    "width": 1280,
+    "height": 960,
+    "capturedAt": "2007-03-17",
+    "checkedOn": "2026-10-21",
+    "alt": {
+      "ko": "수완나폼공항 출발층 터미널 외관",
+      "en": "Suvarnabhumi Airport departures terminal exterior",
+      "ja": "スワンナプーム空港の出発ターミナル外観",
+      "ms": "Bahagian luar terminal pelepasan Lapangan Terbang Suvarnabhumi",
+      "zh-cn": "素万那普机场出发层航站楼外观",
+      "zh-tw": "蘇凡納布機場出發層航廈外觀",
+      "ru": "Здание терминала вылета аэропорта Суварнабхуми",
+      "es": "Exterior de la terminal de salidas del aeropuerto de Suvarnabhumi"
+    },
+    "routes": [
+      "airport-assistance/airports/bkk",
+      "airport-assistance/airports/bkk/map",
+      "airport-assistance/airports/bkk/airlines"
+    ]
+  },
+  {
+    "id": "dmk",
+    "src": "/images/airports/photos/don-mueang-airport-terminal-2.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Don_Mueang_Airport_-_Terminal_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Don_Mueang_Airport_-_Terminal_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Don_Mueang_Airport_-_Terminal_2.jpg/1280px-Don_Mueang_Airport_-_Terminal_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "WillEmmett-NOCS",
+    "width": 1280,
+    "height": 960,
+    "capturedAt": "2026-01-20",
+    "checkedOn": "2026-10-21",
+    "alt": {
+      "ko": "돈므앙공항 제2터미널 내부",
+      "en": "Inside Don Mueang Airport Terminal 2",
+      "ja": "ドンムアン空港第2ターミナルの内部",
+      "ms": "Di dalam Terminal 2 Lapangan Terbang Don Mueang",
+      "zh-cn": "廊曼机场2号航站楼内部",
+      "zh-tw": "廊曼機場第二航廈內部",
+      "ru": "Интерьер терминала 2 аэропорта Донмыанг",
+      "es": "Interior de la terminal 2 del aeropuerto de Don Mueang"
+    },
+    "routes": [
+      "airport-assistance/airports/dmk"
+    ]
+  },
+  {
+    "id": "hkt",
+    "src": "/images/airports/photos/phuket-airport-international-terminal.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:201701_International_Terminal_of_HKT.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/201701_International_Terminal_of_HKT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/201701_International_Terminal_of_HKT.jpg/1280px-201701_International_Terminal_of_HKT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "MNXANL",
+    "width": 1280,
+    "height": 851,
+    "capturedAt": "2017-01-26 15:41:54",
+    "checkedOn": "2026-10-21",
+    "alt": {
+      "ko": "푸껫공항 국제선 터미널 외관",
+      "en": "Phuket Airport international terminal exterior",
+      "ja": "プーケット空港の国際線ターミナル外観",
+      "ms": "Bahagian luar terminal antarabangsa Lapangan Terbang Phuket",
+      "zh-cn": "普吉机场国际航站楼外观",
+      "zh-tw": "普吉機場國際航廈外觀",
+      "ru": "Международный терминал аэропорта Пхукет",
+      "es": "Exterior de la terminal internacional del aeropuerto de Phuket"
+    },
+    "routes": [
+      "airport-assistance/airports/hkt"
+    ]
+  },
+  {
+    "id": "cnx",
+    "src": "/images/airports/photos/chiang-mai-airport-terminal.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Mai_International_Airport_2025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Chiang_Mai_International_Airport_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Chiang_Mai_International_Airport_2025.jpg/1280px-Chiang_Mai_International_Airport_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Setawut",
+    "width": 1280,
+    "height": 960,
+    "capturedAt": "2025-12-29",
+    "checkedOn": "2026-10-21",
+    "alt": {
+      "ko": "치앙마이공항 터미널 외관",
+      "en": "Chiang Mai Airport terminal exterior",
+      "ja": "チェンマイ空港のターミナル外観",
+      "ms": "Bahagian luar terminal Lapangan Terbang Chiang Mai",
+      "zh-cn": "清迈机场航站楼外观",
+      "zh-tw": "清邁機場航廈外觀",
+      "ru": "Здание терминала аэропорта Чиангмай",
+      "es": "Exterior de la terminal del aeropuerto de Chiang Mai"
+    },
+    "routes": [
+      "airport-assistance/airports/cnx"
+    ]
+  }
+]

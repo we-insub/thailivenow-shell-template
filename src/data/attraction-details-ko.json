@@ -571,7 +571,7 @@
     ],
     "photos": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Wat_Arun_6.jpg?width=1600",
+        "src": "/images/attractions/wat-arun-representative.jpg",
         "alt": "도자기 장식으로 덮인 왓아룬의 중앙 탑과 작은 탑들",
         "caption": "왓아룬의 중앙 탑과 주변의 작은 탑",
         "credit": "Welcome to Thailand / Wikimedia Commons",
@@ -582,7 +582,16 @@
         "width": 1920,
         "height": 2560,
         "previewFit": "contain",
-        "modifications": "표시 크기 조정"
+        "modifications": "표시 크기 조정",
+        "originalSrc": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_Wat_Arun_6.jpg?width=1600",
+        "checkedOn": "2026-10-21",
+        "identityEvidence": {
+          "fileTitle": "File:Temple_Wat_Arun_6.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_Wat_Arun_6.jpg",
+          "visualContent": "도자기 장식으로 덮인 왓아룬의 중앙 탑과 작은 탑들",
+          "imageViewed": true,
+          "method": "Existing approved source and downloaded file compared directly; temple prangs and ceramic decorations visible."
+        }
       }
     ],
     "sourceCheckedOn": "2026-10-20",
@@ -7273,6 +7282,29 @@
     "faq": [],
     "related": [],
     "photos": [
+      {
+        "src": "/images/attractions/ancient-city-muang-boran-sanphet-prasat.jpg",
+        "alt": "므앙보란에 재현한 산펫 프라삿 궁전",
+        "caption": "므앙보란에 재현한 산펫 프라삿 궁전",
+        "credit": "iMahesh / Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanphet_Prasat_Palace_replica_at_Ancient_Siam,_Muang_Boran_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sanphet_Prasat_Palace_replica_at_Ancient_Siam%2C_Muang_Boran_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Sanphet_Prasat_Palace_replica_at_Ancient_Siam%2C_Muang_Boran_2.jpg/1280px-Sanphet_Prasat_Palace_replica_at_Ancient_Siam%2C_Muang_Boran_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "rights": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "width": 1280,
+        "height": 720,
+        "checkedOn": "2026-10-21",
+        "photoDate": "2026-02-02 13:25:15",
+        "modifications": "표시 크기 조정·미리보기 일부 잘림",
+        "identityEvidence": {
+          "fileDescription": "Sanphet Prasat Palace replica at Ancient Siam, Muang Boran 2",
+          "imageViewed": true,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Sanphet_Prasat_Palace_replica_at_Ancient_Siam,_Muang_Boran_2.jpg",
+          "visualContent": "Sanphet Prasat Palace replica at Muang Boran"
+        },
+        "sha256": "bd9277ca22b677962e0275271cd987ff3f10871fa005f4f2a58100b16e0cf784"
+      },
       {
         "src": "/images/attractions/ancient-city-muang-boran.jpg",
         "alt": "므앙보란의 전통 목조 건물과 연못 위 다리",
@@ -16129,7 +16161,31 @@
     "accessSections": [],
     "faq": [],
     "related": [],
-    "photos": [],
+    "photos": [
+      {
+        "src": "/images/attractions/songkhla-aquarium-historic-underwater-photo.jpg",
+        "alt": "송클라 아쿠아리움의 잠수사와 거북·물고기 — 2012년 촬영",
+        "caption": "송클라 아쿠아리움의 잠수사와 거북·물고기 — 2012년 촬영",
+        "credit": "hams Nocete / Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_feeding_show_(7354644826).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Aquarium_feeding_show_%287354644826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Aquarium_feeding_show_%287354644826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "rights": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "width": 786,
+        "height": 1024,
+        "checkedOn": "2026-10-21",
+        "photoDate": "2012-06-04 11:00",
+        "modifications": "표시 크기 조정·미리보기 일부 잘림",
+        "identityEvidence": {
+          "fileDescription": "Songkla Aquarium feeding show...Hatyai, Thailand",
+          "imageViewed": true,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Aquarium_feeding_show_(7354644826).jpg",
+          "visualContent": "Diver, turtles and fish; historic photo dated 2012. Not a claim of a current feeding show."
+        },
+        "sha256": "717a0ce534da721968d4b08a2d9518b3a82bfec7a0eeda4139944fa3b1e1abb2"
+      }
+    ],
     "sourceCheckedOn": "2026-10-20",
     "sources": [
       [

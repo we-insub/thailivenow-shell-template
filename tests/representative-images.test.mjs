@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {applyPageSEO} from '../src/lib/page-seo.mjs';
+import {sharingImage,isDetailPath} from '../src/lib/detail-editorial-policy.mjs';
+import airports from '../src/data/airport-representative-photos.json' with {type:'json'};
+import hubs from '../src/data/representative-hub-images.json' with {type:'json'};
+const page='<html lang="ko"><head><title>공항 안내</title></head><body><main><h1>수완나폼공항</h1><p>원고·가격·FAQ는 보존합니다.</p></main></body></html>';
+test('airport representative uses evidenced named asset, dimensions and identical social metadata',()=>{for(const locale of ['ko','ms','zh-cn','zh-tw','ja','ru','es','en','en-in','en-us','en-gb'])for(const photo of airports){const path=`/${locale}/airport-assistance/airports/${photo.id}/`;const selected=sharingImage(page,path);assert.equal(selected.url,'https://thailivenow.com'+photo.src);assert.equal(selected.alt,photo.alt[locale.startsWith('en')?'en':locale]);const out=applyPageSEO(page,path);assert.ok(out.includes('og:image:width" content="1280'));assert.ok(out.includes('원고·가격·FAQ는 보존합니다.'));assert.equal(applyPageSEO(out,path),out);}});
+test('collection photo does not turn hub into a detail and retains visible copyright',()=>{for(const hub of hubs){const path='/ko/'+(hub.route?hub.route+'/':'');const out=applyPageSEO(page,path);assert.equal(sharingImage(out,path).url,'https://thailivenow.com'+hub.src);if(!isDetailPath(path))assert.ok(!out.includes('data-tln-editorial-byline'));assert.ok(out.includes('data-tln-sharing-credit'));assert.ok(out.includes(hub.sourceUrl.replaceAll('&','&amp;')));assert.equal(applyPageSEO(out,path),out);}});
+test('airport photo cannot silently stand for a smoking room or unrelated station',()=>{for(const path of ['/ko/airport-assistance/airports/bkk/smoking/','/ko/transport/bangkok/stations/example/'])assert.equal(sharingImage(page,path).status,'missing-place-image');});

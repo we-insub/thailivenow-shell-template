@@ -4681,6 +4681,11 @@
     "servicesIntro": "La tarifa para entrar al parque conduciendo tu propio coche es distinta del alquiler de un carrito de golf dentro del recinto.",
     "photos": [
       {
+        "alt": "Réplica del palacio Sanphet Prasat en Muang Boran",
+        "caption": "Réplica del palacio Sanphet Prasat en Muang Boran",
+        "modifications": "Tamaño de visualización ajustado; la vista previa puede aparecer recortada."
+      },
+      {
         "alt": "Edificio tradicional de madera y puente sobre el estanque en Muang Boran",
         "caption": "Edificio tradicional de madera y puente sobre el estanque en Muang Boran.",
         "modifications": "Tamaño de visualización ajustado; recorte parcial en la vista previa"
@@ -9485,7 +9490,13 @@
       ]
     ],
     "related": [],
-    "photos": [],
+    "photos": [
+      {
+        "alt": "Buceador, tortugas y peces en el acuario de Songkhla — fotografía de 2012",
+        "caption": "Buceador, tortugas y peces en el acuario de Songkhla — fotografía de 2012",
+        "modifications": "Tamaño de visualización ajustado; la vista previa puede aparecer recortada."
+      }
+    ],
     "sources": [
       [
         "Autoridad de Turismo de Tailandia — información del lugar y la visita",
