@@ -2,7 +2,7 @@
   "locale": "zh-tw",
   "sourceLocale": "ko",
   "sourceFingerprints": {
-    "food-delivery": "717b1eed834d8c0334a8508b13fac185a99a1e0a847eefdeb01b2fbd62cba244",
+    "food-delivery": "77124428c79a5fb522f5d6f2bac773a1abdb2f94de7bcf55d2a6fcdefb318b63",
     "grabfood": "0e6fbb6ce50f1ba6835fc9d7097196b4dba9e4bec33475afc926e6f606ecc8d9",
     "line-man": "b839b2f0c6b3380056962d99da11add3366b43dce3026e2f3b328d5816aaccfc",
     "shopeefood": "585fbf3ebe0d010413f104b94ea4cac57097630ac5782e777436b41a3cb9509d",
@@ -73,7 +73,7 @@
         },
         {
           "id": "order",
-          "title": "如何將餐點送到飯店",
+          "title": "如何叫外送到飯店",
           "steps": [
             [
               "核對地址與地圖圖釘",
