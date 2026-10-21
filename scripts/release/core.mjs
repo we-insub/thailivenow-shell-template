@@ -28,7 +28,7 @@ export function overlay(base,delta,out) {
   fs.cpSync(base,out,{recursive:true});fs.cpSync(delta,out,{recursive:true});
 }
 export function assertScope(before,after,delta,removed=[]) {
-  const allowed=new Set([...Object.keys(delta),...removed,'data/site-dates.json','sitemap.xml','robots.txt']);
+  const allowed=new Set([...Object.keys(delta),...removed,'data/site-dates.json','sitemap.xml','sitemap-ko.xml','robots.txt']);
   for(const [f,hash] of Object.entries(before))if(after[f]!==hash&&!allowed.has(f))throw Error('Unexpected output mutation: '+f);
 }
 

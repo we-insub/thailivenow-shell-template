@@ -12,7 +12,7 @@ export async function checkRuntime(source,candidate,commit) {
   for(const lang of ['ko','ms','zh-cn','en','en-in','ru','ja','en-gb','en-us','es','zh-tw']) {
    const url='/'+lang+'/';const r=await fetch(base+url),html=await r.text();if(!r.ok||!html.includes('id="site-dates-response"')||!html.includes(commit))throw Error('Runtime HTML failure: '+url);checks.push(url);
   }
-  for(const file of ['data/cameras.json','analytics-consent.mjs','sitemap.xml','robots.txt']){const r=await fetch(base+'/'+file);if(!r.ok||Buffer.compare(Buffer.from(await r.arrayBuffer()),fs.readFileSync(path.join(candidate,file))))throw Error('Runtime asset changed: '+file);checks.push(file);}
+  for(const file of ['data/cameras.json','analytics-consent.mjs','sitemap.xml','sitemap-ko.xml','robots.txt']){const r=await fetch(base+'/'+file);const bytes=Buffer.from(await r.arrayBuffer());if(!r.ok||Buffer.compare(bytes,fs.readFileSync(path.join(candidate,file))))throw Error('Runtime asset changed: '+file);if(file.endsWith('.xml')&&!/^application\/xml\b/i.test(r.headers.get('content-type')||''))throw Error('Runtime XML content type missing: '+file);checks.push(file);}
   const preview=await new Promise((resolve,reject)=>{const req=httpRequest(base+'/ko/',{headers:{Host:'release-check.thai-live-now.pages.dev'}},res=>{let html='';res.on('data',chunk=>html+=chunk);res.on('end',()=>resolve({headers:res.headers,html}));});req.on('error',reject);req.end();});if(!preview.headers['x-robots-tag']?.includes('noindex')&&!preview.html.includes('noindex'))throw Error('Preview noindex missing');
   return {passed:true,checks};
  }finally{try{process.kill(-child.pid,'SIGTERM');}catch{}fs.closeSync(log);}
