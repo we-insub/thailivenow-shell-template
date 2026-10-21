@@ -4,12 +4,15 @@ import LocaleAlternates from './LocaleAlternates.astro';
 import DetailHeader from './DetailHeader.astro';
 import SiteFooter from './SiteFooter.astro';
 import RuntimeDate from './RuntimeDate.astro';
+import koreanEditorial from '../data/attraction-detail-enrichment-ko.json';
+import {applyAttractionEditorial} from '../lib/attraction-editorial.mjs';
 import AttractionPhoto from './AttractionPhoto.astro';
 import AttractionTripOffer from './AttractionTripOffer.astro';
 import AttractionVisitPrograms from './AttractionVisitPrograms.astro';
 
 import AttractionLocationMap from './AttractionLocationMap.astro';
-const {place:p,locale='ko'}=Astro.props;
+const {place:basePlace,locale='ko'}=Astro.props;
+const p=applyAttractionEditorial(basePlace,locale,koreanEditorial);
 const u=attractionUI(locale);
 const categoryUrl=(id)=>attractionCategoryUrl(id,locale);
 const isJim=locale==='ko'&&p.id==='jim-thompson-house';

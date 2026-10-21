@@ -1,3 +1,5 @@
+import koreanEditorial from '../data/attraction-detail-enrichment-ko.json';
+import {applyAttractionEditorial} from './attraction-editorial.mjs';
 import {englishMarketText} from './attraction-english-market.mjs';
 import source from '../data/attraction-details-ko.json';
 import {attractionCategories} from '../data/attraction-categories-ko.mjs';
@@ -9,12 +11,15 @@ for(const [path,value] of Object.entries(modules))packs[path.split('/').pop()!.r
 export const attractionLocales=locales.map(l=>l.code);
 export const attractionTag=(locale:string)=>locales.find(l=>l.code===locale)?.tag||locale;
 const baseLocale=(locale:string)=>locale.startsWith('en')?'en':locale;
+// The reviewed Korean overlay is the current editorial source for every market.
+// Keep the frozen base data intact while localizing the published manuscript.
+const editorialSource=source.map(p=>applyAttractionEditorial(p,'ko',koreanEditorial));
 export const attractionUI=(locale:string)=>englishMarketText(packs['ui-'+baseLocale(locale)],locale);
 export const attractionCategoryUrl=(id:string,locale='ko')=>id==='rooftops'?`/${locale}/rooftops/`:`/${locale}/attractions/categories/${id}/`;
 const ready:Record<string,boolean>={ko:true};
 export function hasAttractionLocale(locale:string){
  if(locale in ready)return ready[locale];
- return ready[locale]=source.every(p=>{const copy=packs[baseLocale(locale)]?.[p.id];return copy?.title&&copy?.description&&copy?.intro?.length===p.intro.length&&copy?.experiences?.length===p.experiences.length&&!/[가-힣]/u.test(JSON.stringify(copy))&&(locale===baseLocale(locale)||packs[locale]?.[p.id]?.title);});
+ return ready[locale]=editorialSource.every(p=>{const copy=packs[baseLocale(locale)]?.[p.id];return copy?.title&&copy?.description&&copy?.intro?.length===p.intro.length&&copy?.experiences?.length===p.experiences.length&&copy?.faq?.length===p.faq.length&&['rules','facts','accessSections','visitPrograms','visitServices','sources'].every(k=>!p[k]||copy[k]?.length===p[k].length)&&!/[가-힣]/u.test(JSON.stringify(copy))&&(locale===baseLocale(locale)||packs[locale]?.[p.id]?.title);});
 }
 export function attractionHref(href:string,locale:string){
  if(locale==='ko'||!href.startsWith('/ko/'))return href;
@@ -22,6 +27,7 @@ export function attractionHref(href:string,locale:string){
  return localizedHref(href,locale);
 }
 export function localizedAttraction(p:any,locale:string){
+ p=applyAttractionEditorial(p,'ko',koreanEditorial);
  if(locale==='ko')return p;
  const core=packs[baseLocale(locale)]?.[p.id];
  if(!core)throw new Error(`Missing attraction translation ${locale}/${p.id}`);

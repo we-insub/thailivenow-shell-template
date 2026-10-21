@@ -1,7 +1,10 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
 import {isDetailPath} from '../src/lib/detail-editorial-policy.mjs';
 import {applyPageSEO} from '../src/lib/page-seo.mjs';
-const source=JSON.parse(fs.readFileSync('src/data/attraction-details-ko.json','utf8'));
+import {applyAttractionEditorial} from '../src/lib/attraction-editorial.mjs';
+const frozenSource=JSON.parse(fs.readFileSync('src/data/attraction-details-ko.json','utf8'));
+const editorial=JSON.parse(fs.readFileSync('src/data/attraction-detail-enrichment-ko.json','utf8'));
+const source=frozenSource.map(p=>applyAttractionEditorial(p,'ko',editorial));
 const markets=['ko','ms','zh-cn','en','en-in','ru','ja','en-gb','en-us','es','zh-tw'];
 const read=l=>JSON.parse(fs.readFileSync(`src/data/attraction-locales/${l}.json`,'utf8'));
 test('every attraction locale has complete visitor prose, conditions and matching media/source counts',()=>{
