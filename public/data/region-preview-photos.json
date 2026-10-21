@@ -150,5 +150,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "label": "지역 참고 사진 · 카메라 화면 아님"
+  },
+  "피피": {
+    "url": "/images/beaches/maya-bay-representative.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maya_Bay,_Koh_Phi_Phi,_Krabi,_Thailand.jpg",
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "label": "지역 참고 사진 · 카메라 화면 아님"
   }
 }

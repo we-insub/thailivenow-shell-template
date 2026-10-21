@@ -1,6 +1,0 @@
----
-import SitePage from '../../../components/SitePage.astro';
-import {localizedLocales} from '../../../lib/localized-content';
-export function getStaticPaths(){return [{code:'ko'},...localizedLocales('travel')].map(item=>({params:{locale:item.code,page:'2'}}));}
----
-<SitePage locale={Astro.params.locale} section="destinations" page={Number(Astro.params.page)}/>
