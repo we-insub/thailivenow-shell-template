@@ -33,7 +33,7 @@ for(const file of await files(root)){
  if(!robots?.includes('noindex') && h1.length!==1)errors.push(`${file}: h1 count ${h1.length}`);
  if(key('meta','name','keywords').length)warnings.push(`${file}: unused meta keywords; review removal rather than inherit home keywords`);
  if([...title].length>110)warnings.push(`${file}: long title; manually review the primary search intent`);
- if(description && [...description].length>350)warnings.push(`${file}: long description; write a concise complete summary`);
+ if(description && ([...description].length<150||[...description].length>199))warnings.push(`${file}: description is ${[...description].length} characters; AGENTS.md requires 150-199`);
  if(!title.includes(file.includes('/ko/')?'태국라이브나우':'ThaiLiveNow'))errors.push(`${file}: missing brand`);
  for(const n of parsed.filter(n=>n.nodeName==='script'&&attr(n,'type')==='application/ld+json')){
   try{

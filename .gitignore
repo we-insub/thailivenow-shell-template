@@ -26,3 +26,4 @@ coverage/
 
 # Generated from tracked observations and release metadata
 /public/data/site-dates.json
+/node_modules

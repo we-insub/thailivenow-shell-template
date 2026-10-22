@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "indexnow:submit": "node scripts/submit-indexnow.mjs",
     "dev": "astro dev",
     "build": "npm run test:seo && astro build && node scripts/audit-seo.mjs",
     "preview": "astro preview",

@@ -5,6 +5,20 @@ import {siteBrand} from './site-brand.mjs';
 import { parse, parseFragment, serialize } from 'parse5';
 import siteIntegrations from '../data/site-integrations.json' with {type:'json'};
 import pageOverrides from '../data/page-seo-overrides.json' with {type:'json'};
+import koMeta from '../data/meta-descriptions/ko.json' with {type:'json'};
+import enMeta from '../data/meta-descriptions/en.json' with {type:'json'};
+import enGbMeta from '../data/meta-descriptions/en-gb.json' with {type:'json'};
+import enInMeta from '../data/meta-descriptions/en-in.json' with {type:'json'};
+import enUsMeta from '../data/meta-descriptions/en-us.json' with {type:'json'};
+import esMeta from '../data/meta-descriptions/es.json' with {type:'json'};
+import jaMeta from '../data/meta-descriptions/ja.json' with {type:'json'};
+import msMeta from '../data/meta-descriptions/ms.json' with {type:'json'};
+import ruMeta from '../data/meta-descriptions/ru.json' with {type:'json'};
+import zhCnMeta from '../data/meta-descriptions/zh-cn.json' with {type:'json'};
+import zhTwMeta from '../data/meta-descriptions/zh-tw.json' with {type:'json'};
+// Per-locale meta descriptions (150-199 characters, AGENTS.md) keyed by path. Kept apart
+// from page copy so each market's search wording is maintained independently.
+const metaDescriptions={...koMeta,...enMeta,...enGbMeta,...enInMeta,...enUsMeta,...esMeta,...jaMeta,...msMeta,...ruMeta,...zhCnMeta,...zhTwMeta};
 const origin = 'https://thailivenow.com';
 const home = {
  ko: ['태국라이브나우 | 태국 여행지 지도·공개 카메라·라이브캠', '방콕·푸껫·치앙마이·코사무이 등 태국 여행지의 공개 카메라를 지도에서 찾아보세요. 도시나 장소를 고르면 카메라별 촬영 위치와 시청 상태를 살펴보고, 운영자의 원본 화면으로 이동할 수 있어요.'],
@@ -81,7 +95,7 @@ export function applyPageSEO(html, pathname) {
  const marketLabel = {'en-in':'India','en-gb':'UK','en-us':'US'}[locale];
  const authoredTitle = pageOverrides[pathname]?.title || (homepage ? homepageTitle : `${core} | ThaiLiveNow${marketLabel ? ` · ${marketLabel}` : ''}`);
  const title = locale==='ko' ? authoredTitle.replaceAll('타이라이브나우',siteBrand(locale)).replaceAll('ThaiLiveNow',siteBrand(locale)) : authoredTitle;
- let description = pageOverrides[pathname]?.description || (homepage ? (home[locale] || home.en)[1] : clean(attr(originalDescription || {},'content') || (intro ? text(intro) : '')));
+ let description = metaDescriptions[pathname] || pageOverrides[pathname]?.description || (homepage ? (home[locale] || home.en)[1] : clean(attr(originalDescription || {},'content') || (intro ? text(intro) : '')));
  if (!description) description = `${heading || core}. ${isKo ? '위치, 이용 방법과 공식 출처를 확인하고 태국 여행을 준비하세요.' : 'Find location details, visitor information and official sources for your Thailand trip.'}`;
  // Descriptions are complete authored summaries. A character count is not a
  // Google limit and must not cut a condition or turn a sentence into a fragment.
