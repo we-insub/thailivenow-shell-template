@@ -8,10 +8,10 @@ const content=(html,name)=>attr(nodes(parse(html)).find(n=>n.nodeName==='meta'&&
 const make=(head='',body='')=>`<!doctype html><html lang="ko"><head><title>태국 입국 · TDAC 준비 | ThaiLiveNow</title>${head}</head><body><main><h1>태국 입국 준비</h1>${body}</main></body></html>`;
 test('authored conditions stay complete; no title prefix or hard character cut',()=>{
  const description='한국 여권으로 태국에 입국하기 전에 준비할 서류를 안내해요. '+ '적용 조건과 예외를 함께 읽어주세요. '.repeat(15);
- const out=applyPageSEO(make(`<meta name="description" content="${description.trim()}">`),'/ko/entry/');
+ const out=applyPageSEO(make(`<meta name="description" content="${description.trim()}">`),'/ko/authored-sample/');
  assert.equal(content(out,'description'),description.trim());
  assert.equal(content(out,'og:description'),description.trim());
- assert.equal(applyPageSEO(out,'/ko/entry/'),out);
+ assert.equal(applyPageSEO(out,'/ko/authored-sample/'),out);
 });
 test('explicit indexing opt-out and personal pages remain excluded',()=>{
  assert.match(content(applyPageSEO(make('<meta name="tln:indexing" content="noindex">'),'/ko/draft/'),'robots'),/^noindex/);
