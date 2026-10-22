@@ -108,6 +108,6 @@
 ## IndexNow (Bing) — 2026-10-23
 
 - 키 파일 `public/<키>.txt`는 공개 소유 증명이며 비밀값이 아니다. 삭제하거나 바꾸지 않는다.
-- 운영 배포가 끝난 뒤 `node scripts/submit-indexnow.mjs`를 실행한다. 운영 사이트맵의 색인 페이지 중 title·메타 설명·canonical·H1이 바뀌었거나 새로 생긴 URL만 IndexNow(Bing 등 참여 검색엔진)에 보낸다. 전송 기록은 `data/indexnow-state.json`에 남긴다.
-- 키 파일이 처음 배포된 뒤 한 번은 `--all`로 전체를 보내고, 이후에는 바뀐 페이지만 보낸다. 바뀌지 않은 페이지를 반복 전송하지 않는다. `--dry-run`으로 보낼 개수만 확인할 수 있다.
+- `npm run release:verify`가 운영 확인을 마치면 `scripts/submit-indexnow.mjs`를 자동으로 실행한다(`--skip-indexnow`로 생략). 전송이 실패해도 검증된 배포는 유지되며, 원인을 고친 뒤 `npm run indexnow:submit`으로 다시 보낸다. 운영 사이트맵의 색인 페이지 중 title·메타 설명·canonical·H1이 바뀌었거나 새로 생긴 URL만 IndexNow(Bing 등 참여 검색엔진)에 보낸다. 전송 기록은 `data/indexnow-state.json`에 남긴다.
+- 전송 기록이 없으면 처음 실행에서 색인 페이지 전체를 보내고, 이후에는 바뀐 페이지만 보낸다. 바뀌지 않은 페이지를 반복 전송하지 않는다. 다른 컴퓨터에서도 같은 기준을 쓰도록 `data/indexnow-state.json`은 전송 후 커밋한다. `--dry-run`으로 보낼 개수만 확인할 수 있다.
 - 접수(HTTP 200/202)는 색인 완료가 아니다. 보고할 때 둘을 구분한다.

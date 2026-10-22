@@ -1,4 +1,4 @@
-import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';
+import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';import {execFileSync} from 'node:child_process';
 import {hashes} from './core.mjs';
 const root=path.resolve(process.argv[2]||''),p=path.join(root,'release.json'),report=JSON.parse(fs.readFileSync(p));
 if(!report.deploymentURL)throw Error('No successful deployment URL');
@@ -17,3 +17,6 @@ const urls=[...new Set([...languages.map(l=>'/'+l+'/'),'/ko/privacy/','/ko/food/
 for(const url of urls){const html=await get(production+url).then(r=>r.text());if(!html.includes(report.commit)||!html.includes('id="site-dates-response"'))throw Error('Missing server snapshot: '+url);checks.push(url);}
 const preview=await get(report.deploymentURL+'/ko/');if(!preview.headers.get('x-robots-tag')?.includes('noindex')&&!(await preview.text()).includes('noindex'))throw Error('Preview protection missing');
 report.verifiedProduction=true;report.productionChecks=checks;report.verifiedAt=new Date().toISOString();fs.writeFileSync(p,JSON.stringify(report,null,2));console.log(JSON.stringify({verified:true,commit:report.commit,checks:checks.length,baseline:root}));
+// Production is confirmed, so tell IndexNow about new or changed pages. A failed
+// submission does not undo the verified release; rerun the script on its own.
+if(!process.argv.includes('--skip-indexnow')){try{execFileSync(process.execPath,['scripts/submit-indexnow.mjs'],{stdio:'inherit'});}catch{console.warn('IndexNow submission failed; run `npm run indexnow:submit` after fixing the error.');}}
