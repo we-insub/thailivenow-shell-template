@@ -1,4 +1,4 @@
-// Notify IndexNow (Bing and other participating engines) about new or changed public pages.
+// Notify IndexNow (Bing and other participating engines; Korean /ko/ pages are also sent to Naver directly) about new or changed public pages.
 // Run after a production deploy: `node scripts/submit-indexnow.mjs` (add --dry-run to only report, --all to send every sitemap URL once).
 // A page counts as changed when its title, meta description, canonical or H1 differs from the last accepted submission.
 import fs from 'node:fs';
@@ -49,6 +49,18 @@ for (let i = 0; i < changed.length; i += 10000) {
   if (![200, 202].includes(res.status)) throw new Error(`IndexNow rejected the batch: ${res.status} ${await res.text()}`);
   for (const url of urlList) previous[url] = current[url];
   console.log(`IndexNow accepted ${urlList.length} URLs (HTTP ${res.status}); indexing itself is not confirmed.`);
+}
+// Naver only crawls /ko/ (robots.txt), so it gets just the changed Korean pages. A Naver failure is a warning, not an error.
+const koChanged = changed.filter(url => url.startsWith(ORIGIN + '/ko/'));
+for (let i = 0; i < koChanged.length; i += 10000) {
+  const urlList = koChanged.slice(i, i + 10000);
+  try {
+    const res = await fetch('https://searchadvisor.naver.com/indexnow', {
+      method: 'POST', headers: {'Content-Type': 'application/json; charset=utf-8'},
+      body: JSON.stringify({host: new URL(ORIGIN).host, key: KEY, keyLocation: `${ORIGIN}/${KEY}.txt`, urlList}),
+    });
+    console.log(`Naver IndexNow ${[200, 202].includes(res.status) ? 'accepted' : 'rejected'} ${urlList.length} URLs (HTTP ${res.status}).`);
+  } catch (error) { console.warn('Naver IndexNow failed:', error.message); }
 }
 for (const url of Object.keys(previous)) if (!(url in current)) delete previous[url];
 fs.mkdirSync(path.dirname(STATE), {recursive: true});
