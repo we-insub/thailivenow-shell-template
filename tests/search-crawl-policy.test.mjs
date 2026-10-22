@@ -10,6 +10,9 @@ test('Yeti crawls Korean HTML and shared resources while Google retains all loca
  for(const path of ['/ko/','/ko/cameras/phuket-cape-panwa/','/_astro/a.js','/images/photo.webp','/data/cameras.json','/sitemap-ko.xml','/site-dates-client.mjs']) assert.equal(allowed('Yeti',path),true,path);
  for(const path of ['/en/','/en-us/','/ja/','/zh-tw/','/ms/','/ru/','/future-language/','/ko-other/']){assert.equal(allowed('Yeti',path),false,path);assert.equal(allowed('*',path),true,path);}
 });
+test('robots.txt announces the all-locale and Korean-only sitemaps',()=>{
+ for(const file of ['sitemap.xml','sitemap-ko.xml']) assert.ok(crawlRobots().includes(`\nSitemap: https://thailivenow.com/${file}\n`),file);
+});
 test('sitemap serialization preserves URLs and escapes XML characters',()=>{
  const xml=sitemapXML(['https://thailivenow.com/ko/','https://thailivenow.com/ko/test/?a=1&b=2']);
  assert.match(xml,/a=1&amp;b=2/);assert.equal((xml.match(/<loc>/g)||[]).length,2);
