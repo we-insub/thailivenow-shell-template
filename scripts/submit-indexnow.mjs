@@ -40,15 +40,25 @@ const changed = Object.keys(current).filter(url => sendAll || previous[url] !== 
 console.log(JSON.stringify({sitemapUrls: urls.length, indexable: Object.keys(current).length, changed: changed.length, dryRun}));
 if (dryRun || !changed.length) process.exit(0);
 
+// Naver is also notified directly, but only with Korean pages: robots.txt allows its crawler (Yeti) into /ko/ alone.
+const ENDPOINTS = [
+  {name: 'IndexNow', url: 'https://api.indexnow.org/indexnow', accepts: () => true},
+  {name: 'Naver IndexNow', url: 'https://searchadvisor.naver.com/indexnow', accepts: url => url.startsWith(`${ORIGIN}/ko/`)},
+];
 for (let i = 0; i < changed.length; i += 10000) {
-  const urlList = changed.slice(i, i + 10000);
-  const res = await fetch('https://api.indexnow.org/indexnow', {
-    method: 'POST', headers: {'Content-Type': 'application/json; charset=utf-8'},
-    body: JSON.stringify({host: new URL(ORIGIN).host, key: KEY, keyLocation: `${ORIGIN}/${KEY}.txt`, urlList}),
-  });
-  if (![200, 202].includes(res.status)) throw new Error(`IndexNow rejected the batch: ${res.status} ${await res.text()}`);
-  for (const url of urlList) previous[url] = current[url];
-  console.log(`IndexNow accepted ${urlList.length} URLs (HTTP ${res.status}); indexing itself is not confirmed.`);
+  const batch = changed.slice(i, i + 10000);
+  for (const endpoint of ENDPOINTS) {
+    const urlList = batch.filter(endpoint.accepts);
+    if (!urlList.length) continue;
+    const res = await fetch(endpoint.url, {
+      method: 'POST', headers: {'Content-Type': 'application/json; charset=utf-8'},
+      body: JSON.stringify({host: new URL(ORIGIN).host, key: KEY, keyLocation: `${ORIGIN}/${KEY}.txt`, urlList}),
+    });
+    if (![200, 202].includes(res.status)) throw new Error(`${endpoint.name} rejected the batch: ${res.status} ${await res.text()}`);
+    console.log(`${endpoint.name} accepted ${urlList.length} URLs (HTTP ${res.status}); indexing itself is not confirmed.`);
+  }
+  // Recorded only after every endpoint accepted the batch, so a failure is resent on the next run.
+  for (const url of batch) previous[url] = current[url];
 }
 for (const url of Object.keys(previous)) if (!(url in current)) delete previous[url];
 fs.mkdirSync(path.dirname(STATE), {recursive: true});
