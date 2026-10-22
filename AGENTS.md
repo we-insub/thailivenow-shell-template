@@ -105,9 +105,9 @@
 
 검수: 메인 키워드가 앞부분에 있는가, 그 키워드로 검색한 사람의 핵심 질문에 답하는가, 150~199자인가, 같은 문장이 여러 페이지에 반복되지 않는가, 본문에 없는 사실이 없는가.
 
-## IndexNow (Bing) — 2026-10-23
+## IndexNow (Bing·네이버) — 2026-10-23
 
 - 키 파일 `public/<키>.txt`는 공개 소유 증명이며 비밀값이 아니다. 삭제하거나 바꾸지 않는다.
-- `npm run release:verify`가 운영 확인을 마치면 `scripts/submit-indexnow.mjs`를 자동으로 실행한다(`--skip-indexnow`로 생략). 전송이 실패해도 검증된 배포는 유지되며, 원인을 고친 뒤 `npm run indexnow:submit`으로 다시 보낸다. 운영 사이트맵의 색인 페이지 중 title·메타 설명·canonical·H1이 바뀌었거나 새로 생긴 URL만 IndexNow(Bing 등 참여 검색엔진)에 보낸다. 바뀐 /ko/ 페이지는 네이버 IndexNow(searchadvisor.naver.com/indexnow)에도 따로 보낸다(네이버는 robots.txt로 /ko/만 허용). 전송 기록은 `data/indexnow-state.json`에 남긴다.
+- `npm run release:verify`가 운영 확인을 마치면 `scripts/submit-indexnow.mjs`를 자동으로 실행한다(`--skip-indexnow`로 생략). 전송이 실패해도 검증된 배포는 유지되며, 원인을 고친 뒤 `npm run indexnow:submit`으로 다시 보낸다. 운영 사이트맵의 색인 페이지 중 title·메타 설명·canonical·H1이 바뀌었거나 새로 생긴 URL만 IndexNow(Bing 등 참여 검색엔진)에 보낸다. 네이버 IndexNow(`searchadvisor.naver.com/indexnow`)에는 robots.txt에서 네이버 수집을 허용한 `/ko/` URL만 함께 보낸다. 모든 대상이 접수해야 전송 기록에 반영한다. 전송 기록은 `data/indexnow-state.json`에 남긴다.
 - 전송 기록이 없으면 처음 실행에서 색인 페이지 전체를 보내고, 이후에는 바뀐 페이지만 보낸다. 바뀌지 않은 페이지를 반복 전송하지 않는다. 다른 컴퓨터에서도 같은 기준을 쓰도록 `data/indexnow-state.json`은 전송 후 커밋한다. `--dry-run`으로 보낼 개수만 확인할 수 있다.
 - 접수(HTTP 200/202)는 색인 완료가 아니다. 보고할 때 둘을 구분한다.

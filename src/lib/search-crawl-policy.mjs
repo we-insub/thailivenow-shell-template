@@ -9,7 +9,8 @@ export function crawlRobots() {
   'Allow: /transit-assets/', 'Allow: /sitemap', 'Allow: /robots.txt$',
   ...['css','js','mjs','json','png','jpg','jpeg','webp','svg','woff','woff2','ico'].map(ext=>`Allow: /*.${ext}$`),
   '', 'User-agent: *', 'Allow: /', '',
-  'Sitemap: https://thailivenow.com/sitemap.xml', ''
+  // sitemap-ko.xml lists only the Korean pages Yeti may crawl; sitemap.xml covers every locale.
+  'Sitemap: https://thailivenow.com/sitemap.xml', 'Sitemap: https://thailivenow.com/sitemap-ko.xml', ''
  ].join('\n');
 }
 export function sitemapXML(urls) {
