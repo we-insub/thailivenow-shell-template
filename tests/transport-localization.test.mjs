@@ -70,3 +70,10 @@ test('language picker preserves the Korean alternate rather than rewriting it to
  assert.match(html,/<a href="\/ko\/transport\/guides\/boat\/">한국어<\/a>/);
  assert.match(html,/<main><a href="\/en\/transport\/guides\/boat\/">Boats<\/a>/);
 });
+test('boat destination titles translate the complete composed title in every market',()=>{
+ for(const locale of ['en','en-gb','en-in','en-us','ja','zh-cn','zh-tw','ms','ru','es']){
+  const d=Object.assign({},...['','ui-','supplement-'].map(prefix=>JSON.parse(fs.readFileSync(new URL(`../src/data/transport-locales/${prefix}${locale}.json`,import.meta.url))).strings));
+  const title=translateTransportText('ICONSIAM 가는 배·하선 선착장·FAQ | ThaiLiveNow',d);
+  assert.doesNotMatch(title,/[가-힣]/,locale);assert.ok(title.includes('ICONSIAM'));assert.ok(title.includes('ThaiLiveNow'));
+ }
+});

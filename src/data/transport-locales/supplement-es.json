@@ -156,6 +156,7 @@
     "서쪽의 시외버스 터미널이에요. 예약표의 터미널 이름을 확인하세요.": "Terminal interurbano al oeste. Comprueba el nombre en el billete.",
     "에까마이 (Ekkamai)": "Ekkamai (Ekkamai)",
     "수쿰윗 지역의 시외버스 터미널이에요. 편별 출발 장소를 확인하세요.": "Terminal interurbano de Sukhumvit. Comprueba la salida del servicio concreto.",
-    "네. 첫 화면은 태국어로 열리지만 오른쪽 위 언어 메뉴에서 English를 고르면 메뉴와 버튼이 영어로 바뀌어요. 한국어 화면은 제공하지 않아서, 메뉴 이름 대응표를 함께 보면 따라 하기 쉬워요.": "Sí. La pantalla inicial se abre en tailandés, pero puedes elegir English en el menú de idioma de la esquina superior derecha para ver los menús y botones en inglés. La tabla de esta página relaciona sus significados en español con los nombres de los menús en inglés y tailandés para ayudarte a seguir la reserva."
+    "네. 첫 화면은 태국어로 열리지만 오른쪽 위 언어 메뉴에서 English를 고르면 메뉴와 버튼이 영어로 바뀌어요. 한국어 화면은 제공하지 않아서, 메뉴 이름 대응표를 함께 보면 따라 하기 쉬워요.": "Sí. La pantalla inicial se abre en tailandés, pero puedes elegir English en el menú de idioma de la esquina superior derecha para ver los menús y botones en inglés. La tabla de esta página relaciona sus significados en español con los nombres de los menús en inglés y tailandés para ayudarte a seguir la reserva.",
+    "${v0} 가는 배·하선 선착장·FAQ | ThaiLiveNow": "Cómo llegar a ${v0} en barco: muelles y preguntas frecuentes | ThaiLiveNow"
   }
 }

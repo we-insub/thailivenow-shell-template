@@ -91,3 +91,9 @@ test('breadcrumb root-relative URLs become absolute without changing FAQ, dates,
  assert(out.includes('<a href="/ko/airports/">태국 공항</a>'));
  assert.equal(applyPageSEO(out,'/ko/airport-assistance/airports/bkk/'),out);
 });
+test('transport aliases inherit the canonical market description without Korean fallback',()=>{
+ const canonical=applyPageSEO('<html><head><title>Blue line | ThaiLiveNow</title></head><body><main><h1>Blue line</h1></main></body></html>','/en/transport/bangkok/lines/mrt-blue/');
+ const alias=applyPageSEO('<html><head><title>Blue line | ThaiLiveNow</title><meta name="description" content="한국어 설명"></head><body><main><h1>Blue line</h1></main></body></html>','/en/transport/lines/mrt-blue/');
+ const desc=html=>html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+ assert.equal(desc(alias),desc(canonical));assert.doesNotMatch(desc(alias),/[가-힣]/);assert.match(alias,/noindex,follow/);
+});

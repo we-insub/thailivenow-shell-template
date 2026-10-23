@@ -61,3 +61,10 @@
 - Existing unrelated attraction and language-picker changes remain outside the selected release. DetailHeader koreanStagePage hunks remain working-tree-only; transport hunks are selected.
 
 Source metadata check completed: all 11 locales have 435 canonical descriptions, 150-199 Unicode characters, with zero same-locale duplicate descriptions. Corpus ownership is frozen after worker final checks. The forthcoming release build must pass against this selected committed source, not the earlier invalid preflight tree.
+
+
+## Full-build gate corrections
+
+The first committed integration rendered 8,909 pages, but the complete SEO gate rejected 21 duplicate-title groups. The transport HTML audit found 690 metadata tag failures from 230 routes: 150 boat-destination composed titles and 80 noindex aliases whose old source descriptions remained Korean. Visible body, FAQ, canonical, language switching and internal-target checks passed across all 4,884 emitted transport routes. No failed tree was deployed.
+
+Boat destination titles now use an explicit whole authored template. Russian generated pier titles retain their boat-route/boarding scope, distinct from the separate Bangkok pier guides. Transport aliases inherit the corresponding canonical market description while keeping noindex and canonical targeting. Regressions cover both failures. A metadata-only preflight across the prior 8,909-page inventory reports zero corrected-title collisions or foreign Korean metadata; this is diagnostic evidence, not a replacement for the new committed full build.

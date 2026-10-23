@@ -97,11 +97,12 @@ export function applyPageSEO(html, pathname) {
  const airportMarketNamed=parts[1]==='airport-assistance'&&({'en-in':/\b(?:India|Indian)\b/,'en-gb':/\b(?:UK|United Kingdom)\b/,'en-us':/\b(?:US|USA|United States)\b/}[locale])?.test(core);
  const authoredTitle = pageOverrides[pathname]?.title || (homepage ? homepageTitle : `${core} | ThaiLiveNow${marketLabel&&!airportMarketNamed ? ` · ${marketLabel}` : ''}`);
  const title = locale==='ko' ? authoredTitle.replaceAll('타이라이브나우',siteBrand(locale)).replaceAll('ThaiLiveNow',siteBrand(locale)) : authoredTitle;
- let description = metaDescriptions[pathname] || pageOverrides[pathname]?.description || (homepage ? (home[locale] || home.en)[1] : clean(attr(originalDescription || {},'content') || (intro ? text(intro) : '')));
+ const transportEntry=transportRoute(pathname);
+ const descriptionPath=transportEntry?`/${locale}/transport/${transportEntry.canonicalSuffix?transportEntry.canonicalSuffix+'/':''}`:pathname;
+ let description = metaDescriptions[descriptionPath] || metaDescriptions[pathname] || pageOverrides[pathname]?.description || (homepage ? (home[locale] || home.en)[1] : clean(attr(originalDescription || {},'content') || (intro ? text(intro) : '')));
  if (!description) description = `${heading || core}. ${isKo ? '위치, 이용 방법과 공식 출처를 확인하고 태국 여행을 준비하세요.' : 'Find location details, visitor information and official sources for your Thailand trip.'}`;
  // Descriptions are complete authored summaries. A character count is not a
  // Google limit and must not cut a condition or turn a sentence into a fragment.
- const transportEntry=transportRoute(pathname);
  const transportAlias=transportEntry&&transportEntry.suffix!==transportEntry.canonicalSuffix;
  const legacyTransport = /^\/ko\/transport\/(?:lines\/(?:mrt-blue|orange-flag)|piers\/(?:nonthaburi|sathorn|tha-tien|wat-arun|wat-rajsingkorn)|stations\/itsaraphap)\/$/.test(pathname);
  const legacyBus = pathname === '/ko/transport/bus/routes/mo-chit-2-kutchum-thatphanom/';

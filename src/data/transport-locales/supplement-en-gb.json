@@ -156,6 +156,7 @@
     "서쪽의 시외버스 터미널이에요. 예약표의 터미널 이름을 확인하세요.": "This is the intercity bus terminal in the west. Match the terminal name with your ticket.",
     "에까마이 (Ekkamai)": "Ekkamai",
     "수쿰윗 지역의 시외버스 터미널이에요. 편별 출발 장소를 확인하세요.": "This is the intercity bus terminal in the Sukhumvit area. Departure points depend on the service.",
-    "네. 첫 화면은 태국어로 열리지만 오른쪽 위 언어 메뉴에서 English를 고르면 메뉴와 버튼이 영어로 바뀌어요. 한국어 화면은 제공하지 않아서, 메뉴 이름 대응표를 함께 보면 따라 하기 쉬워요.": "Yes. The first screen opens in Thai. Choose English from the language menu at the top right to change the menus and buttons to English. The comparison table on this page explains the menu names alongside their original English and Thai labels, so you can match each step to the booking screen."
+    "네. 첫 화면은 태국어로 열리지만 오른쪽 위 언어 메뉴에서 English를 고르면 메뉴와 버튼이 영어로 바뀌어요. 한국어 화면은 제공하지 않아서, 메뉴 이름 대응표를 함께 보면 따라 하기 쉬워요.": "Yes. The first screen opens in Thai. Choose English from the language menu at the top right to change the menus and buttons to English. The comparison table on this page explains the menu names alongside their original English and Thai labels, so you can match each step to the booking screen.",
+    "${v0} 가는 배·하선 선착장·FAQ | ThaiLiveNow": "Getting to ${v0} by boat: arrival piers and FAQs | ThaiLiveNow"
   }
 }

@@ -157,6 +157,7 @@
     "에까마이 (Ekkamai)": "Ekkamai (Ekkamai)",
     "수쿰윗 지역의 시외버스 터미널이에요. 편별 출발 장소를 확인하세요.": "Terminal antara bandar di kawasan Sukhumvit. Semak tempat bertolak bagi perjalanan pilihan anda.",
     "네. 첫 화면은 태국어로 열리지만 오른쪽 위 언어 메뉴에서 English를 고르면 메뉴와 버튼이 영어로 바뀌어요. 한국어 화면은 제공하지 않아서, 메뉴 이름 대응표를 함께 보면 따라 하기 쉬워요.": "Ya. Skrin awal dibuka dalam bahasa Thai, tetapi anda boleh memilih English daripada menu bahasa di penjuru kanan atas untuk menukar menu dan butang kepada bahasa Inggeris. Gunakan jadual padanan nama menu bahasa Melayu, Inggeris dan Thai pada halaman ini untuk mengikuti langkah tempahan.",
-    "태국, 어떻게 이동할까요?": "Panduan pengangkutan di Thailand"
+    "태국, 어떻게 이동할까요?": "Panduan pengangkutan di Thailand",
+    "${v0} 가는 배·하선 선착장·FAQ | ThaiLiveNow": "Ke ${v0} dengan bot: jeti turun dan soalan lazim | ThaiLiveNow"
   }
 }
