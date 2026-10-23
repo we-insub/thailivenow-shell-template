@@ -1,0 +1,42 @@
+{
+  "title": "Aeropuertos de Tailandia · Suvarnabhumi, Don Mueang, Phuket y Chiang Mai | ThaiLiveNow",
+  "h1": "Aeropuertos de Tailandia",
+  "description": "Aeropuertos de Tailandia: elige Suvarnabhumi, Don Mueang, Phuket o Chiang Mai y consulta llegadas, salidas, conexiones, planos, instalaciones, transporte y mostradores de aerolíneas.",
+  "intro": "Antes de llegar a Tailandia o tomar el vuelo de regreso, elige el aeropuerto que vas a utilizar. Lee en español dónde están las instalaciones que necesitas y cómo utilizar el aeropuerto, y consulta también los mostradores de las aerolíneas y los vuelos vinculados a cada aeropuerto.",
+  "home": "Inicio de ThaiLiveNow",
+  "listTitle": "¿Qué aeropuerto vas a utilizar?",
+  "more": "Ver la guía del aeropuerto",
+  "relatedTitle": "¿Tu vuelo se ha retrasado o cancelado, o tienes un problema con el equipaje?",
+  "relatedIntro": "La guía de ayuda con vuelos explica qué solicitar a la aerolínea y cómo presentar un parte por un problema con el equipaje.",
+  "relatedLink": "Retrasos, cancelaciones y equipaje",
+  "airports": [
+    {
+      "id": "bkk",
+      "code": "BKK",
+      "name": "Aeropuerto de Suvarnabhumi",
+      "english": "Suvarnabhumi Airport",
+      "text": "Consulta por temas las llegadas, salidas y conexiones, los planos por planta, las salas de fumadores, el transporte a Bangkok y los mostradores de aerolíneas."
+    },
+    {
+      "id": "dmk",
+      "code": "DMK",
+      "name": "Aeropuerto de Don Mueang",
+      "english": "Don Mueang International Airport",
+      "text": "Consulta la facturación, el control de pasaportes para salidas internacionales y la antelación recomendada para llegar a la puerta de embarque, además de restaurantes, bancos y cajeros."
+    },
+    {
+      "id": "hkt",
+      "code": "HKT",
+      "name": "Aeropuerto de Phuket",
+      "english": "Phuket International Airport",
+      "text": "Localiza el vestíbulo de llegadas internacionales, la recogida de equipaje, los quioscos de autofacturación, la asistencia médica y los cajeros."
+    },
+    {
+      "id": "cnx",
+      "code": "CNX",
+      "name": "Aeropuerto de Chiang Mai",
+      "english": "Chiang Mai International Airport",
+      "text": "Consulta el horario del aeropuerto y los trámites de salida, y cómo utilizar Grab, las lanzaderas y los autobuses urbanos al llegar."
+    }
+  ]
+}

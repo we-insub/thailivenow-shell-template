@@ -1,0 +1,11 @@
+---
+import RuntimeDate from './RuntimeDate.astro';
+import observations from '../../data/site-date-observations.json';
+import {transportPageLocale,transportText,transportModifiedLabels} from '../lib/transport-localization.mjs';
+const locale=transportPageLocale(Astro.url.pathname);
+const sourcePath=Astro.url.pathname.replace(/^\/[^/]+\//,'/ko/');
+const source=observations.pages[sourcePath];
+const current=observations.pages[Astro.url.pathname];
+---
+{source?.sourceCheckedOn&&<p>{transportText('출처 확인일:',locale)} <RuntimeDate kind="source" fallback={source.sourceCheckedOn} locale={locale}/></p>}
+{current?.contentModifiedOn&&<p>{transportModifiedLabels[locale]} <RuntimeDate kind="modified" fallback={current.contentModifiedOn} locale={locale}/></p>}

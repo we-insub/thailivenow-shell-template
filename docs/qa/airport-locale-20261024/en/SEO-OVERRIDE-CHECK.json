@@ -1,0 +1,258 @@
+{
+  "kind": "unit-level SEO middleware check; not generated full-page HTML",
+  "checked": 36,
+  "results": [
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/",
+      "unicodeLength": 169,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/bkk/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/bkk/map/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/bkk/smoking/",
+      "unicodeLength": 166,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/bkk/transport/",
+      "unicodeLength": 160,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/bkk/airlines/",
+      "unicodeLength": 172,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/dmk/",
+      "unicodeLength": 167,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/hkt/",
+      "unicodeLength": 173,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/airport-assistance/airports/cnx/",
+      "unicodeLength": 172,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/",
+      "unicodeLength": 169,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/bkk/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/bkk/map/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/bkk/smoking/",
+      "unicodeLength": 166,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/bkk/transport/",
+      "unicodeLength": 160,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/bkk/airlines/",
+      "unicodeLength": 174,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/dmk/",
+      "unicodeLength": 167,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/hkt/",
+      "unicodeLength": 173,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-us",
+      "path": "/en-us/airport-assistance/airports/cnx/",
+      "unicodeLength": 172,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/",
+      "unicodeLength": 169,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/bkk/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/bkk/map/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/bkk/smoking/",
+      "unicodeLength": 166,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/bkk/transport/",
+      "unicodeLength": 160,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/bkk/airlines/",
+      "unicodeLength": 174,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/dmk/",
+      "unicodeLength": 167,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/hkt/",
+      "unicodeLength": 173,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-gb",
+      "path": "/en-gb/airport-assistance/airports/cnx/",
+      "unicodeLength": 172,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/",
+      "unicodeLength": 169,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/bkk/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/bkk/map/",
+      "unicodeLength": 170,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/bkk/smoking/",
+      "unicodeLength": 166,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/bkk/transport/",
+      "unicodeLength": 160,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/bkk/airlines/",
+      "unicodeLength": 174,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/dmk/",
+      "unicodeLength": 167,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/hkt/",
+      "unicodeLength": 173,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    },
+    {
+      "locale": "en-in",
+      "path": "/en-in/airport-assistance/airports/cnx/",
+      "unicodeLength": 172,
+      "descriptionOverrideApplied": true,
+      "idempotent": true
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "countryDatasets": {
+    "public/data/airport-assistance.json": {
+      "before": "f570977552e4c9a84384186beac1a29c033e3e14e0d341132468cd8bea9f034e",
+      "after": "f570977552e4c9a84384186beac1a29c033e3e14e0d341132468cd8bea9f034e",
+      "preserved": true
+    },
+    "public/data/airport-markets/en-gb.json": {
+      "before": "ac46bd33e7bc96c6c4efbc6350044ec2b18d6cc2e163b3ff9667203a182eb028",
+      "after": "ac46bd33e7bc96c6c4efbc6350044ec2b18d6cc2e163b3ff9667203a182eb028",
+      "preserved": true
+    },
+    "public/data/airport-markets/en-in.json": {
+      "before": "f19dec8248d81af276805d290878b697da14718ce88873b3a633aa60e351915b",
+      "after": "f19dec8248d81af276805d290878b697da14718ce88873b3a633aa60e351915b",
+      "preserved": true
+    },
+    "public/data/airport-markets/en-us.json": {
+      "before": "62502041417a85a878cf30a71b641ee94776422038c6935f7fc042e7beaae545",
+      "after": "62502041417a85a878cf30a71b641ee94776422038c6935f7fc042e7beaae545",
+      "preserved": true
+    },
+    "public/data/airport-markets/es.json": {
+      "before": "1ae5fd844fc726415fce396a40a98861f319733fc6c3cbe87c6c4b48d5f88523",
+      "after": "1ae5fd844fc726415fce396a40a98861f319733fc6c3cbe87c6c4b48d5f88523",
+      "preserved": true
+    },
+    "public/data/airport-markets/ja.json": {
+      "before": "06c0d1c9202e3f4a262670a9c0be0e6e1ef42120f864eaaca65c6168618a4eb5",
+      "after": "06c0d1c9202e3f4a262670a9c0be0e6e1ef42120f864eaaca65c6168618a4eb5",
+      "preserved": true
+    },
+    "public/data/airport-markets/ms.json": {
+      "before": "355468a4a98f1a1246dda4eec061f1a38815329e4d0bc98bb34202f0558ed907",
+      "after": "355468a4a98f1a1246dda4eec061f1a38815329e4d0bc98bb34202f0558ed907",
+      "preserved": true
+    },
+    "public/data/airport-markets/ru.json": {
+      "before": "ccad4dea0a341018355b03e9b70b2b8213aa3ac66e27bf3e00d5268c1df8f358",
+      "after": "ccad4dea0a341018355b03e9b70b2b8213aa3ac66e27bf3e00d5268c1df8f358",
+      "preserved": true
+    },
+    "public/data/airport-markets/zh-cn.json": {
+      "before": "448232aa36700bd8e6752e3e6280370c587a9485c071bea6ce1dce1f80b1c9a9",
+      "after": "448232aa36700bd8e6752e3e6280370c587a9485c071bea6ce1dce1f80b1c9a9",
+      "preserved": true
+    },
+    "public/data/airport-markets/zh-tw.json": {
+      "before": "fb2ab1f654317780eceee22939986dbc60ca7cd5ffd1b215d345bb19edc24da3",
+      "after": "fb2ab1f654317780eceee22939986dbc60ca7cd5ffd1b215d345bb19edc24da3",
+      "preserved": true
+    }
+  },
+  "metadataNumericFacts": [
+    {
+      "path": "/ja/airport-assistance/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/airlines/thai-vietjet/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/airports/ngo/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/airjapan-brand-status/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/ana-baggage-damage/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/caat-passenger-rights/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/delayed-baggage/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/flight-delayed/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/late-arrival-suvarnabhumi/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/thai-airasia-x-baggage/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/thai-damaged-baggage/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/thai-delayed-baggage/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/thai-flight-certificate/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/guides/zipair-baggage/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/pairs/ngo-dmk/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/nh877-20261013/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/tg641-20261013/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/tg643-20261013/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/tg649-20261013/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/tg661-20261013/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/tg673-20261013/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/xj603-20261013/",
+      "preserved": true
+    },
+    {
+      "path": "/ja/airport-assistance/routes/zg51-winter2026/",
+      "preserved": true
+    },
+    {
+      "path": "/en-gb/airport-assistance/",
+      "preserved": true
+    },
+    {
+      "path": "/en-in/airport-assistance/",
+      "preserved": true
+    },
+    {
+      "path": "/es/airport-assistance/",
+      "preserved": true
+    }
+  ],
+  "originalGuideIdsAndSourceURLs": "Preserved by scoped regression tests; no raw country dataset edited",
+  "concurrentWork": "Other tasks are actively updating transport and airport files. They were not reset or overwritten; task-only validation excludes their uncommitted integration changes."
+}

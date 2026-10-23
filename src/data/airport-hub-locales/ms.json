@@ -1,0 +1,42 @@
+{
+  "title": "Panduan lapangan terbang Thailand · Suvarnabhumi, Don Mueang, Phuket dan Chiang Mai | ThaiLiveNow",
+  "h1": "Lapangan terbang Thailand",
+  "description": "Lapangan terbang Thailand: pilih Suvarnabhumi, Don Mueang, Phuket atau Chiang Mai untuk panduan ketibaan, pelepasan, peta tingkat, kemudahan, pengangkutan dan kaunter penerbangan.",
+  "intro": "Sebelum tiba di Thailand atau menaiki penerbangan pulang, pilih lapangan terbang yang akan anda gunakan. Baca lokasi kemudahan dan cara menggunakan lapangan terbang dalam Bahasa Melayu, kemudian lihat kaunter syarikat penerbangan serta penerbangan yang bersambung dengannya.",
+  "home": "Laman utama ThaiLiveNow",
+  "listTitle": "Lapangan terbang manakah yang anda gunakan?",
+  "more": "Lihat panduan lapangan terbang",
+  "relatedTitle": "Penerbangan lewat, dibatalkan atau ada masalah bagasi?",
+  "relatedIntro": "Panduan bantuan penerbangan menerangkan perkara yang boleh diminta daripada syarikat penerbangan dan langkah membuat laporan bagasi.",
+  "relatedLink": "Panduan kelewatan, pembatalan dan bagasi",
+  "airports": [
+    {
+      "id": "bkk",
+      "code": "BKK",
+      "name": "Lapangan Terbang Suvarnabhumi",
+      "english": "Suvarnabhumi Airport",
+      "text": "Baca mengikut topik, daripada ketibaan, pelepasan dan transit hingga peta tingkat, ruang merokok, pengangkutan ke Bangkok dan kaunter syarikat penerbangan."
+    },
+    {
+      "id": "dmk",
+      "code": "DMK",
+      "name": "Lapangan Terbang Don Mueang",
+      "english": "Don Mueang International Airport",
+      "text": "Lihat panduan daftar masuk, imigresen pelepasan antarabangsa dan waktu yang disarankan untuk tiba di pintu berlepas, serta lokasi restoran, bank dan ATM."
+    },
+    {
+      "id": "hkt",
+      "code": "HKT",
+      "name": "Lapangan Terbang Phuket",
+      "english": "Phuket International Airport",
+      "text": "Cari balai ketibaan antarabangsa, tempat tuntutan bagasi, kiosk daftar masuk layan diri, bilik perubatan dan ATM."
+    },
+    {
+      "id": "cnx",
+      "code": "CNX",
+      "name": "Lapangan Terbang Chiang Mai",
+      "english": "Chiang Mai International Airport",
+      "text": "Baca waktu operasi lapangan terbang, urusan pelepasan dan cara menggunakan Grab, pengangkutan ulang-alik serta bas bandar selepas tiba."
+    }
+  ]
+}

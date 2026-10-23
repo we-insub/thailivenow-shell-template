@@ -176,5 +176,49 @@
       "from": "Нет, он относится к Шереметьево. Аэропорт Пхукета указывает офис PB104 в здании парковки без телефона и часов работы.",
       "to": "Нет, этот телефон относится к Шереметьево, а не к офису в Пхукете. В сохранённых материалах по Пхукету указан офис PB104 в здании парковки. Офис авиакомпании и служба розыска багажа — разные пункты обращения; их контакты и часы работы нельзя подменять друг другом."
     }
+  ],
+  "en-us": [
+    {
+      "section": "guides",
+      "id": "caat-passenger-rights",
+      "path": "description",
+      "from": "Check assistance, compensation conditions and the official CAAT complaint route when a scheduled international flight departing Thailand is delayed or cancelled.",
+      "to": "Check assistance, compensation conditions and the official CAAT complaint route when a scheduled international flight departing Thailand is delayed or canceled."
+    },
+    {
+      "section": "guides",
+      "id": "caat-passenger-rights",
+      "path": "sections.0.text",
+      "from": "Article 10 of CAB Regulation No. 101 covers, among others, passengers who check in within the time notified by the airline. If no separate check-in time is notified for an international flight, the reference is at least one hour before scheduled departure; the regulation also includes cases where the airline accepts check-in at another time.\nPassengers transferred to another flight, whose schedule changes by more than five hours from scheduled departure, or whose booked flight is cancelled are also addressed separately. A delay notification does not automatically extend the check-in deadline; confirm with the airline.",
+      "to": "Article 10 of CAB Regulation No. 101 covers, among others, passengers who check in within the time notified by the airline. If no separate check-in time is notified for an international flight, the reference is at least one hour before scheduled departure; the regulation also includes cases where the airline accepts check-in at another time.\nPassengers transferred to another flight, whose schedule changes by more than five hours from scheduled departure, or whose booked flight is canceled are also addressed separately. A delay notification does not automatically extend the check-in deadline; confirm with the airline."
+    },
+    {
+      "section": "guides",
+      "id": "caat-passenger-rights",
+      "path": "sections.2.text",
+      "from": "Every threshold below means more than the stated duration. Start by requesting meals, refreshments and communication; for a long wait, check accommodation, transfers and the refund option if you decide not to continue travelling. Separate exceptions apply to financial compensation.",
+      "to": "Every threshold below means more than the stated duration. Start by requesting meals, refreshments and communication; for a long wait, check accommodation, transfers and the refund option if you decide not to continue traveling. Separate exceptions apply to financial compensation."
+    },
+    {
+      "section": "guides",
+      "id": "caat-passenger-rights",
+      "path": "thresholds.1.text",
+      "from": "In addition to meals and communication, THB 1,500 financial compensation, suitable accommodation for at least one night where needed, and airport transfers. Choose a refund of the unused journey if you decide not to continue travelling.",
+      "to": "In addition to meals and communication, THB 1,500 financial compensation, suitable accommodation for at least one night where needed, and airport transfers. Choose a refund of the unused journey if you decide not to continue traveling."
+    },
+    {
+      "section": "guides",
+      "id": "late-arrival-suvarnabhumi",
+      "path": "description",
+      "from": "Check Airport Rail Link operating hours and the locations of the 24-hour taxi and Grab pick-up areas before travelling to your accommodation.",
+      "to": "Check Airport Rail Link operating hours and the locations of the 24-hour taxi and Grab pick-up areas before traveling to your accommodation."
+    },
+    {
+      "section": "guides",
+      "id": "caat-passenger-rights",
+      "path": "sections.7.text",
+      "from": "Use your booking confirmation, e-ticket and boarding pass to check the operating carrier, flight number, departure date and original departure time. Keeping airline delay or cancellation notices, revised schedules and delay or cancellation certificates helps explain what happened.\nRecord your requests for meals, accommodation, refunds, alternative flights or compensation, together with replies and reference numbers. Keep itemised receipts for anything you paid yourself. This is preparation guidance and does not replace the mandatory document list shown by the CAAT complaint system or requested by the airline. For insurance claims, check your insurer’s policy and document instructions separately.",
+      "to": "Use your booking confirmation, e-ticket and boarding pass to check the operating carrier, flight number, departure date and original departure time. Keeping airline delay or cancellation notices, revised schedules and delay or cancellation certificates helps explain what happened.\nRecord your requests for meals, accommodation, refunds, alternative flights or compensation, together with replies and reference numbers. Keep itemized receipts for anything you paid yourself. This is preparation guidance and does not replace the mandatory document list shown by the CAAT complaint system or requested by the airline. For insurance claims, check your insurer’s policy and document instructions separately."
+    }
   ]
 }

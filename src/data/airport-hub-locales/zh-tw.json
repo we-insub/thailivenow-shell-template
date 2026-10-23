@@ -1,0 +1,42 @@
+{
+  "title": "泰國機場指南：蘇凡納布、廊曼、普吉與清邁機場 | ThaiLiveNow",
+  "h1": "泰國機場",
+  "description": "泰國機場指南提供蘇凡納布、廊曼、普吉與清邁機場的繁體中文使用說明。選擇行程中的機場後，可查看抵達、出發及轉機流程，依航廈和樓層尋找吸菸區、餐廳、銀行與ATM，並開啟對應的室內地圖。指南也連結機場前往市區的交通方式、航空公司報到櫃檯與受理時間，以及台灣和泰國之間的航班資料，讓您分清楚設施位置、上車地點和航空公司服務。",
+  "intro": "抵達泰國或搭返程班機前，先選擇您將使用的機場。您可以用繁體中文閱讀機場內需要的設施與使用方式，也能接著查看航空公司櫃檯及銜接班機。",
+  "home": "ThaiLiveNow 首頁",
+  "listTitle": "您將使用哪個機場？",
+  "more": "查看機場使用指南 →",
+  "relatedTitle": "遇到班機延誤、取消或行李問題？",
+  "relatedIntro": "需要向航空公司提出哪些要求、如何申報行李問題，可以查看班機問題處理指南。",
+  "relatedLink": "班機延誤、取消與行李指南 →",
+  "airports": [
+    {
+      "id": "bkk",
+      "code": "BKK",
+      "name": "蘇凡納布機場",
+      "english": "Suvarnabhumi Airport",
+      "text": "從抵達、出發與轉機流程，到樓層地圖、吸菸室、曼谷市區交通及航空公司櫃檯，可依主題分別查看。"
+    },
+    {
+      "id": "dmk",
+      "code": "DMK",
+      "name": "廊曼機場",
+      "english": "Don Mueang International Airport",
+      "text": "查看報到、國際線出境審查及建議抵達登機門的時間，並尋找餐廳、銀行與ATM的位置。"
+    },
+    {
+      "id": "hkt",
+      "code": "HKT",
+      "name": "普吉機場",
+      "english": "Phuket International Airport",
+      "text": "了解國際線抵達大廳、行李領取處、自助報到機，以及醫療室與ATM的位置。"
+    },
+    {
+      "id": "cnx",
+      "code": "CNX",
+      "name": "清邁機場",
+      "english": "Chiang Mai International Airport",
+      "text": "查看機場服務時間和出發手續，以及抵達後使用Grab、接駁車和市區公車的說明。"
+    }
+  ]
+}

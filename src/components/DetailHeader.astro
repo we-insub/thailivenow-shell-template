@@ -8,9 +8,10 @@ import LanguagePicker from './LanguagePicker.astro';
 import {getUI} from '../i18n/ui';
 import {headerIcons} from '../design/header-icons';
 import {siteNavigation} from '../lib/site-navigation.mjs';
+import {transportLanguagePaths,transportPageLocale} from '../lib/transport-localization.mjs';
 import {travelGuideAlternatePaths} from '../lib/travel-guide-navigation.mjs';
 import {isThaiAirportGuide,thaiAirportHome,thaiAirportLanguagePaths} from '../lib/airport-guide-navigation.mjs';
-const {locale='ko', home=false, brand='ThaiLiveNow', activeHref}=Astro.props;
+const {locale=Astro.url.pathname.includes('/transport')?transportPageLocale(Astro.url.pathname):'ko', home=false, brand='ThaiLiveNow', activeHref}=Astro.props;
 const ui=getUI(locale);
 const items=siteNavigation(locale);
 const attractionPage=/^\/[^/]+\/attractions(?:\/|$)/.test(Astro.url.pathname)&&hasAttractionLocale(locale);
@@ -18,7 +19,8 @@ const localizedPage=isLocalizedPage(Astro.url.pathname)||attractionPage;
 const airportGuide=isThaiAirportGuide(Astro.url.pathname);
 const airportLanguagePaths=thaiAirportLanguagePaths(Astro.url.pathname);
 const travelLanguagePaths=travelGuideAlternatePaths(Astro.url.pathname);
-const languagePaths=attractionPage?attractionLanguagePaths(Astro.url.pathname):airportLanguagePaths||travelLanguagePaths;
+const transportPaths=transportLanguagePaths(Astro.url.pathname);
+const languagePaths=transportPaths|| (attractionPage?attractionLanguagePaths(Astro.url.pathname):airportLanguagePaths||travelLanguagePaths);
 const active=(href:string)=>activeHref ? href===activeHref : airportGuide ? href===thaiAirportHome(locale) : href===`/${locale}/attractions/` ? /^\/(?:[^/]+)\/(?:attractions|rooftops)(?:\/|$)/.test(Astro.url.pathname) : href===`/${locale}/`?Astro.url.pathname===href:Astro.url.pathname.startsWith(href);
 const topicHub=/^\/[^/]+\/(destinations|coupons|food|transport)\/$/.test(Astro.url.pathname);
 ---
@@ -30,7 +32,7 @@ const topicHub=/^\/[^/]+\/(destinations|coupons|food|transport)\/$/.test(Astro.u
   <nav class="main-nav" aria-label={ui.explore} style={`--header-nav-count:${items.length}`}>
     {items.map(([name,short,icon,href]) => <a href={href} class:list={[active(href)&&'active']} aria-current={active(href)?'page':undefined}><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={headerIcons[icon] || headerIcons.pin}/><span class="nav-full-label">{name}</span><span class="nav-short-label">{short}</span></a>)}
   </nav>
-  <LanguagePicker locale={locale} homeOnly={!home && !topicHub && !localizedPage && !airportGuide && !travelLanguagePaths && !Astro.url.pathname.includes('/airport-assistance')} switchPaths={languagePaths} switchPath={!airportGuide&&Astro.url.pathname.includes('/airport-assistance') ? '/airport-assistance/' : undefined} />
+  <LanguagePicker locale={locale} homeOnly={!home && !topicHub && !localizedPage && !airportGuide && !travelLanguagePaths && !transportPaths && !Astro.url.pathname.includes('/airport-assistance')} switchPaths={languagePaths} switchPath={!airportGuide&&Astro.url.pathname.includes('/airport-assistance') ? '/airport-assistance/' : undefined} />
 </header></div><div class="comparison-bar" id="comparison-bar" hidden><span>{locale==='ko'||localizedPage?'비교할 카메라':'Cameras to compare'} <strong data-comparison-count>0</strong>/4</span><a class="comparison-go" href={`/${locale}/compare/`}>{locale==='ko'||localizedPage?'비교 보기':'Compare'}</a><button type="button" class="comparison-clear" data-comparison-clear>{locale==='ko'||localizedPage?'비우기':'Clear'}</button><span id="comparison-notice" role="status" hidden></span></div>
 <script>import '../scripts/saved-cameras';</script>
 <script>import '../scripts/header-navigation';</script>

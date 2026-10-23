@@ -1,0 +1,42 @@
+{
+  "title": "Thailand airport guides: Suvarnabhumi, Don Mueang, Phuket and Chiang Mai | ThaiLiveNow",
+  "h1": "Thailand airports",
+  "description": "Thailand airport guides cover Suvarnabhumi, Don Mueang, Phuket and Chiang Mai. Choose your airport for floor maps, arrivals, departures, facilities and airline counters.",
+  "intro": "Before arriving in Thailand or taking your flight home, choose the airport you will use. Read where to find facilities and how to get through the airport, then explore airline counters and connecting flights.",
+  "home": "ThaiLiveNow home",
+  "listTitle": "Which airport will you use?",
+  "more": "Read the airport guide",
+  "relatedTitle": "Is your flight delayed or canceled, or is there a baggage problem?",
+  "relatedIntro": "The flight assistance guide explains what to ask your airline and how to report baggage problems.",
+  "relatedLink": "Flight delays, cancellations and baggage help",
+  "airports": [
+    {
+      "id": "bkk",
+      "code": "BKK",
+      "name": "Suvarnabhumi Airport",
+      "english": "Suvarnabhumi Airport",
+      "text": "Read separate guides to arrivals, departures and connections, floor maps, smoking areas, transport into Bangkok and airline counters."
+    },
+    {
+      "id": "dmk",
+      "code": "DMK",
+      "name": "Don Mueang Airport",
+      "english": "Don Mueang International Airport",
+      "text": "Find check-in and international departure procedures, the recommended time to reach your gate, and the locations of restaurants, banks and ATMs."
+    },
+    {
+      "id": "hkt",
+      "code": "HKT",
+      "name": "Phuket Airport",
+      "english": "Phuket International Airport",
+      "text": "Find the international arrivals hall and baggage claim, self-check-in kiosks, medical rooms and ATMs."
+    },
+    {
+      "id": "cnx",
+      "code": "CNX",
+      "name": "Chiang Mai Airport",
+      "english": "Chiang Mai International Airport",
+      "text": "Read the airport opening hours and departure procedures, then find Grab, airport shuttles and city buses after arrival."
+    }
+  ]
+}

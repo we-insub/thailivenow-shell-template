@@ -1,5 +1,8 @@
 ---
-import data from '../data/transport/bangkok.json';
+import {transportData,transportText,transportFormat,transportPageLocale} from '../lib/transport-localization.mjs';
+import dataSource from '../data/transport/bangkok.json';
+const transportLocale=transportPageLocale(Astro.url.pathname);
+const data=transportData(dataSource,transportLocale);
 const lines=data.bangkok_lines;
 ---
 <section class="transport-explorer" aria-labelledby="rail-map-heading">

@@ -1,8 +1,12 @@
 ---
-import data from '../data/transport/boats.json';
-import travelDestinations from '../data/transport/boat-destinations.json';
+import {transportData,transportText,transportFormat,transportPageLocale} from '../lib/transport-localization.mjs';
+import dataSource from '../data/transport/boats.json';
+import travelDestinationsSource from '../data/transport/boat-destinations.json';
 import {boatRouteNames,boatRouteColors,boatDestinationPath} from '../lib/boat-guide';
-const names=boatRouteNames;
+const transportLocale=transportPageLocale(Astro.url.pathname);
+const data=transportData(dataSource,transportLocale);
+const travelDestinations=transportData(travelDestinationsSource,transportLocale);
+const names=transportData(boatRouteNames,transportLocale);
 const colors=boatRouteColors;
 const points=data.piers.filter(p=>p.coordinates);
 const destinationOrder=['pier-i','pier-a','pier-n5','pier-n10','pier-n9','pier-n13','pier-n7','pier-m','pier-sathorn'];
@@ -34,11 +38,16 @@ const routeStops=(route)=>route.stops.slice().sort((a,b)=>a.sequence-b.sequence)
 <p class="note">선착장 좌표: OpenStreetMap 실제 시설 객체 · 노선 선은 강 중심선을 따라 표시한 운행 구간 안내예요. 실제 접안 경로는 다를 수 있어요. 아이콘시암은 여러 부두가 있으므로 탑승 부두를 현장에서 확인하세요.</p>
 </section>
 <script>
+import {transportText,transportLink,transportHTML,transportData,transportReady} from '../scripts/transport-locale';
+
 import { Map } from '../scripts/resilient-map';
 import {boatRouteNames,boatRouteColors,boatDestinationPath} from '../lib/boat-guide';
 import {Marker,Popup,NavigationControl,LngLatBounds,setWorkerUrl} from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-csp-worker.js?url';
-import 'maplibre-gl/dist/maplibre-gl.css';setWorkerUrl(workerUrl);
+import 'maplibre-gl/dist/maplibre-gl.css';
+void transportReady.then(()=>{
+const routeNames=transportData(boatRouteNames);
+setWorkerUrl(workerUrl);
 const el=document.getElementById('boat-map')!;
 const piers=JSON.parse(el.dataset.piers!);const routes=JSON.parse(el.dataset.routes!);const travelDestinations=JSON.parse(el.dataset.destinations!);
 const routeColors=boatRouteColors;
@@ -51,17 +60,17 @@ map.on('load',()=>{
 map.on('zoom',()=>el.classList.toggle('show-pier-labels',map.getZoom()>=13));
 const pins=piers.map(p=>{
  const button=document.createElement('button');button.className='boat-pin';button.classList.toggle('major-pier',!!p.major);button.classList.toggle('label-left',['pier-n13','pier-n10','pier-n9','pier-i','pier-a'].includes(p.id));
- const symbol=document.createElement('span');symbol.textContent=p.code||'●';
- const label=document.createElement('span');label.className='boat-label';label.textContent=p.mapLabel|| (p.destination_ko&&p.destination_ko!==p.name_ko?`${p.destination_ko} · ${p.name_ko}`:p.name_ko||p.name_en);
+ const symbol=document.createElement('span');symbol.textContent=transportText(p.code||'●');
+ const label=document.createElement('span');label.className='boat-label';label.textContent=transportText(p.mapLabel|| (p.destination_ko&&p.destination_ko!==p.name_ko?`${p.destination_ko} · ${p.name_ko}`:p.name_ko||p.name_en));
  button.append(symbol,label);button.setAttribute('aria-label',`${p.name_ko} (${p.name_en}) 선착장${p.destination_ko?' · '+p.destination_ko:''}`);
- const content=document.createElement('div');const name=document.createElement('strong');name.textContent=p.name_ko+' ('+p.name_en+')';content.append(name);
+ const content=document.createElement('div');const name=document.createElement('strong');name.textContent=transportText(p.name_ko+' ('+p.name_en+')');content.append(name);
  const connected=travelDestinations.filter(d=>d.pierId===p.id||d.alternative?.pierId===p.id);
- for(const d of connected){const a=document.createElement('a');a.href=boatDestinationPath(d.id);a.textContent=d.name+' · '+(d.pierId===p.id&&d.mode==='walk'?'하선 후 도보':'호텔 셔틀 환승')+' →';a.className='boat-popup-destination';content.append(a);}
- if(p.destinationNote_ko){const detail=document.createElement('p');detail.textContent=p.destinationNote_ko;content.append(detail);}
- const services=document.createElement('p');services.textContent=routes.filter(r=>p.servedBy.includes(r.id)).map(r=>boatRouteNames[r.id]).join(' · ');content.append(services);
+ for(const d of connected){const a=document.createElement('a');a.href=transportLink(boatDestinationPath(d.id));a.textContent=transportText(d.name+' · '+(d.pierId===p.id&&d.mode==='walk'?'하선 후 도보':'호텔 셔틀 환승')+' →');a.className='boat-popup-destination';content.append(a);}
+ if(p.destinationNote_ko){const detail=document.createElement('p');detail.textContent=transportText(p.destinationNote_ko);content.append(detail);}
+ const services=document.createElement('p');services.textContent=transportText(routes.filter(r=>p.servedBy.includes(r.id)).map(r=>routeNames[r.id]).join(' · '));content.append(services);
  const conditions=routes.flatMap(r=>r.stops.filter(s=>s.pierId===p.id&&s.condition_ko).map(s=>s.condition_ko));
- for(const condition of new Set(conditions)){const note=document.createElement('p');note.textContent=String(condition);content.append(note);}
- const link=document.createElement('a');link.href='/ko/transport/boat/piers/'+p.id+'/';link.textContent='선착장 이용 안내 →';content.append(link);
+ for(const condition of new Set(conditions)){const note=document.createElement('p');note.textContent=transportText(String(condition));content.append(note);}
+ const link=document.createElement('a');link.href=transportLink('/ko/transport/boat/piers/'+p.id+'/');link.textContent=transportText('선착장 이용 안내 →');content.append(link);
  const marker=new Marker({element:button}).setLngLat([p.coordinates.lng,p.coordinates.lat]).setPopup(new Popup({offset:18}).setDOMContent(content)).addTo(map);return{p,button,marker};
 });
 function filter(id:string){
@@ -69,13 +78,13 @@ function filter(id:string){
  const route=routes.find(r=>r.id===id);const stopIds=new Set(route?.stops.map(s=>s.pierId)||piers.map(p=>p.id));
  const visible=pins.filter(x=>stopIds.has(x.p.id));
  const answer=document.getElementById('boat-route-answer')!;answer.replaceChildren();
- const answerTitle=document.createElement('strong');answerTitle.textContent=id==='all'?'배 선택 → 내릴 선착장 → 호텔·시장까지 이동':boatRouteNames[id]+'로 갈 수 있는 곳';answer.append(answerTitle);
+ const answerTitle=document.createElement('strong');answerTitle.textContent=transportText(id==='all'?'배 선택 → 내릴 선착장 → 호텔·시장까지 이동':routeNames[id]+'로 갈 수 있는 곳');answer.append(answerTitle);
  for(const pierId of ['pier-i','pier-n3','pier-n5','pier-sathorn','pier-n9','pier-n13','pier-a'].filter(p=>stopIds.has(p))){
- const pier=piers.find(p=>p.id===pierId);const row=document.createElement('p');const button=document.createElement('button');button.textContent=pier.name_ko+(pier.code?' ('+pier.code+')':'');button.addEventListener('click',()=>focusPier(pierId));row.append(button,document.createTextNode(' → '));
+ const pier=piers.find(p=>p.id===pierId);const row=document.createElement('p');const button=document.createElement('button');button.textContent=transportText(pier.name_ko+(pier.code?' ('+pier.code+')':''));button.addEventListener('click',()=>focusPier(pierId));row.append(button,document.createTextNode(transportText(' → ')));
  const connected=travelDestinations.filter(d=>d.pierId===pierId||d.alternative?.pierId===pierId).slice(0,2);
- for(const [i,d] of connected.entries()){if(i)row.append(document.createTextNode(' · '));const link=document.createElement('a');link.href=boatDestinationPath(d.id);link.textContent=d.name+' ('+(d.pierId===pierId&&d.mode==='walk'?'도보':'호텔 셔틀')+')';row.append(link);}answer.append(row);
+ for(const [i,d] of connected.entries()){if(i)row.append(document.createTextNode(transportText(' · ')));const link=document.createElement('a');link.href=transportLink(boatDestinationPath(d.id));link.textContent=transportText(d.name+' ('+(d.pierId===pierId&&d.mode==='walk'?'도보':'호텔 셔틀')+')');row.append(link);}answer.append(row);
  }
- const more=document.createElement('a');more.href='#boat-destination-guide-title';more.textContent='대표 선착장·모든 연결 목적지 보기 ↓';more.addEventListener('click',()=>{const fold=document.getElementById('boat-destination-guide-title')?.closest('details');if(fold)fold.open=true;});answer.append(more);
+ const more=document.createElement('a');more.href=transportLink('#boat-destination-guide-title');more.textContent=transportText('대표 선착장·모든 연결 목적지 보기 ↓');more.addEventListener('click',()=>{const fold=document.getElementById('boat-destination-guide-title')?.closest('details');if(fold)fold.open=true;});answer.append(more);
 
  for(const lane of document.querySelectorAll<HTMLElement>('[data-route-lane]'))lane.hidden=id!=='all'&&lane.dataset.routeLane!==id;
  for(const x of pins){x.button.hidden=!stopIds.has(x.p.id);x.button.style.background=routeColors[id]||routeColors[x.p.servedBy[0]]||'#267e89';x.marker.getPopup()?.remove();}
@@ -88,13 +97,13 @@ function filter(id:string){
  card.hidden=id!=='all'&&!JSON.parse(card.dataset.destinationPiers!).some(p=>stopIds.has(p));
  const option=id==='all'||stopIds.has(d.pierId)?{pierId:d.pierId,mode:d.mode}:d.alternative;
  const pier=piers.find(p=>p.id===option?.pierId);
- card.querySelector('[data-card-boat]')!.textContent=id==='all'?d.boatAdvice:pier?boatRouteNames[id]+' → '+pier.name_ko+' 하선 → '+(option.mode==='walk'?'도보로 '+d.name:'호텔 셔틀로 '+d.name):d.boatAdvice;
- const connection=card.querySelector('[data-card-connection]')!;connection.textContent=pier?'하선: '+pier.name_ko+(pier.code?' ('+pier.code+')':'')+' · 마지막 이동: '+(option.mode==='walk'?'도보':'호텔 셔틀 환승'):'';
+ card.querySelector('[data-card-boat]')!.textContent=transportText(id==='all'?d.boatAdvice:pier?routeNames[id]+' → '+pier.name_ko+' 하선 → '+(option.mode==='walk'?'도보로 '+d.name:'호텔 셔틀로 '+d.name):d.boatAdvice);
+ const connection=card.querySelector('[data-card-connection]')!;connection.textContent=transportText(pier?'하선: '+pier.name_ko+(pier.code?' ('+pier.code+')':'')+' · 마지막 이동: '+(option.mode==='walk'?'도보':'호텔 셔틀 환승'):'');
  }
  for(const card of document.querySelectorAll<HTMLElement>('[data-highlight-pier]'))card.hidden=!stopIds.has(card.dataset.highlightPier);
  for(const card of document.querySelectorAll<HTMLElement>('[data-pier-id]'))card.hidden=!stopIds.has(card.dataset.pierId);
  for(const b of document.querySelectorAll<HTMLElement>('[data-boat-filter]'))b.setAttribute('aria-pressed',String(b.dataset.boatFilter===id));
- document.getElementById('boat-coverage')!.textContent=id==='all'?`전체 ${piers.length}곳 · 주요 목적지는 이름을 항상 표시해요. 노선을 선택하면 정차 순서와 해당 선착장만 볼 수 있어요.`:`${boatRouteNames[id]} · 정차 ${route.stops.length}곳 · ${route.displayNote}`;
+ document.getElementById('boat-coverage')!.textContent=transportText(id==='all'?`전체 ${piers.length}곳 · 주요 목적지는 이름을 항상 표시해요. 노선을 선택하면 정차 순서와 해당 선착장만 볼 수 있어요.`:`${routeNames[id]} · 정차 ${route.stops.length}곳 · ${route.displayNote}`);
 }
 function focusPier(id:string){const x=pins.find(x=>x.p.id===id);if(!x)return;if(x.button.hidden)filter('all');for(const other of pins)if(other!==x)other.marker.getPopup()?.remove();map.flyTo({center:[x.p.coordinates.lng,x.p.coordinates.lat],zoom:14,duration:0});if(!x.marker.getPopup()?.isOpen())x.marker.togglePopup();el.scrollIntoView({behavior:'smooth',block:'center'});}
 const query=new URLSearchParams(location.search);
@@ -115,19 +124,21 @@ function renderTrips(){
   for(const route of routes){const a=route.stops.findIndex(s=>s.pierId===origin.id),b=route.stops.findIndex(s=>s.pierId===pier.id);if(a<0||b<0)continue;if(route.id==='ceb-red'&&a>b)continue;choices.push({pier,option,route,direction:a<b?'남쪽 방향':'북쪽 방향'});}
  }
  choices.sort((a,b)=>(a.route? a.route.id==='cptb-tourist'?1:2:0)-(b.route?b.route.id==='cptb-tourist'?1:2:0));
- const title=document.createElement('strong');title.textContent=origin.name_ko+' → '+destination.name;container.append(title);
- if(!choices.length){const p=document.createElement('p');p.textContent='현재 표시 노선에서 바로 연결되는 배가 없어요. 사톤이나 아이콘시암 출발을 선택해 환승 경로를 확인하세요.';container.append(p);return;}
- const more=document.createElement('details');more.className='trip-alternatives';const summary=document.createElement('summary');summary.textContent='다른 배·환승 경로 '+(choices.length-1)+'가지';more.append(summary);
+ const title=document.createElement('strong');title.textContent=transportText(origin.name_ko+' → '+destination.name);container.append(title);
+ if(!choices.length){const p=document.createElement('p');p.textContent=transportText('현재 표시 노선에서 바로 연결되는 배가 없어요. 사톤이나 아이콘시암 출발을 선택해 환승 경로를 확인하세요.');container.append(p);return;}
+ const more=document.createElement('details');more.className='trip-alternatives';const summary=document.createElement('summary');summary.textContent=transportText('다른 배·환승 경로 '+(choices.length-1)+'가지');more.append(summary);
  for(const [index,choice] of choices.entries()){const card=document.createElement('article');card.className='trip-choice';
-  const heading=document.createElement('h4');heading.textContent=choice.route?boatRouteNames[choice.route.id]+' · '+choice.direction:choice.option.mode==='walk'?'공공 보트 추가 승선 없이 도보':'여기서 호텔 셔틀로 환승';card.append(heading);
-  const path=document.createElement('p');path.textContent=(choice.route?origin.name_ko+'에서 승선 → '+choice.pier.name_ko+'에서 하선 → ':'')+(choice.option.mode==='walk'?destination.name+'까지 도보':'호텔 전용 셔틀 → '+destination.name);card.append(path);
-  if(choice.route){const p=document.createElement('p');p.className='note';p.textContent=choice.route.displayNote;card.append(p);}
-  const details=document.createElement('a');details.href=boatDestinationPath(destination.id);details.textContent='승선·도착 방법과 FAQ →';card.append(details);
-  const button=document.createElement('button');button.textContent='이 경로 지도 보기';button.addEventListener('click',()=>{filter(choice.route?.id||'all');const pin=pins.find(x=>x.p.id===choice.pier.id);if(pin){for(const x of pins)x.marker.getPopup()?.remove();pin.marker.togglePopup();}el.scrollIntoView({behavior:'smooth',block:'center'});});card.append(button);(index===0?container:more).append(card);
+  const heading=document.createElement('h4');heading.textContent=transportText(choice.route?routeNames[choice.route.id]+' · '+choice.direction:choice.option.mode==='walk'?'공공 보트 추가 승선 없이 도보':'여기서 호텔 셔틀로 환승');card.append(heading);
+  const path=document.createElement('p');path.textContent=(choice.route?transportText(origin.name_ko+'에서 승선 → '+choice.pier.name_ko+'에서 하선 →')+' ':'')+transportText(choice.option.mode==='walk'?destination.name+'까지 도보':'호텔 전용 셔틀 → '+destination.name);card.append(path);
+  if(choice.route){const p=document.createElement('p');p.className='note';p.textContent=transportText(choice.route.displayNote);card.append(p);}
+  const details=document.createElement('a');details.href=transportLink(boatDestinationPath(destination.id));details.textContent=transportText('승선·도착 방법과 FAQ →');card.append(details);
+  const button=document.createElement('button');button.textContent=transportText('이 경로 지도 보기');button.addEventListener('click',()=>{filter(choice.route?.id||'all');const pin=pins.find(x=>x.p.id===choice.pier.id);if(pin){for(const x of pins)x.marker.getPopup()?.remove();pin.marker.togglePopup();}el.scrollIntoView({behavior:'smooth',block:'center'});});card.append(button);(index===0?container:more).append(card);
  }
  if(choices.length>1)container.append(more);
 }
 originSelect.addEventListener('change',renderTrips);destinationSelect.addEventListener('change',renderTrips);renderTrips();
+
+});
 </script>
 <style>
 .boat-network{margin:40px 0}.boat-network>h2{font-size:25px;margin:0 0 12px}.boat-network>p{max-width:760px;line-height:1.8}.boat-fold{border:1px solid #dce5e8;border-radius:14px;margin:18px 0;background:#fff;padding:0 22px}.boat-fold>summary{padding:20px 0;cursor:pointer;font-size:17px;font-weight:700;line-height:1.6}.boat-fold>summary small{font-size:12px;font-weight:400;color:#61717e;margin-left:10px}.boat-fold[open]{padding-bottom:20px}.route-lane>summary{font-size:15px;font-weight:700;cursor:pointer}.route-lane>summary small{display:inline;margin-left:8px}.boat-fold .diagram-heading{margin-top:12px}.boat-fold .route-diagram{grid-template-columns:1fr}.boat-fold .route-lane ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}.boat-planner{margin-top:24px!important;padding:24px!important}.boat-network .destination-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.boat-network .destination-grid p{line-height:1.8}.boat-network .destination-grid a{display:inline-block;margin-top:10px;font-size:13px}.boat-network .destination-grid article{padding:22px}.boat-network .service-notice{margin:16px 0}.boat-network .service-notice a{display:inline-block;margin-top:8px}@media(max-width:600px){.boat-fold{padding:0 16px}.boat-fold .route-lane ol,.boat-network .destination-grid{grid-template-columns:1fr}.boat-fold>summary small{display:block;margin:4px 0}.boat-planner{padding:18px!important}}

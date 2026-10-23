@@ -1,9 +1,14 @@
 ---
+import {transportPageLocale,transportData} from '../lib/transport-localization.mjs';
 import mappings from '../data/attraction-transport-links-ko.json';
 import places from '../data/attraction-details-ko.json';
+
+const locale=transportPageLocale(Astro.url.pathname);
+const localizedModules=import.meta.glob('../data/attraction-locales/*.json',{eager:true,import:'default'});
+const localizedPlaces=localizedModules[`../data/attraction-locales/${locale}.json`]||{};
 const {stationId}=Astro.props;
-const connection=mappings.find(c=>c.stationId===stationId);
-const linked=(connection?.placeIds||[]).map(id=>places.find(p=>p.id===id)).filter(p=>p&&p.indexing!=='noindex'&&p.catalogListing!=='reference');
+const connection=transportData(mappings.find(c=>c.stationId===stationId),locale);
+const linked=(connection?.placeIds||[]).map(id=>places.find(p=>p.id===id)).filter(p=>p&&p.indexing!=='noindex'&&p.catalogListing!=='reference').map(p=>locale==='ko'?p:{...p,name:localizedPlaces[p.id]?.name||p.english});
 ---
 {connection&&linked.length>0&&<section class="attraction-connections"><h2>이 역에서 찾아가는 관광지</h2><p>{connection.note}</p><div>{linked.map(p=><a href={`/ko/attractions/${p.id}/`}>{p.name} · {p.english} →</a>)}</div></section>}
 <style>.attraction-connections>div{display:grid;gap:12px}.attraction-connections a{display:block;min-width:0;padding:18px 20px;border:1px solid #dce5e8;border-radius:12px;background:#fff;line-height:1.8;overflow-wrap:anywhere}</style>

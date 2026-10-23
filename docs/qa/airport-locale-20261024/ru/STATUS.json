@@ -1,0 +1,181 @@
+{
+  "status": "locale_manuscript_and_meta_scoped_checks_pass_parent_integration_pending",
+  "owner": "airport_ms_ru_es",
+  "locale": "ru",
+  "market": "RU",
+  "scope": {
+    "canonicalHub": "/ru/airport-assistance/airports/",
+    "purpose": "Select a Thai airport and read arrival/departure/transit, facilities, maps and airport transport guidance in the same depth as Korean.",
+    "navigation": "Thai airports",
+    "audience": "ru readers; country-specific routes/carriers/counters/contacts/insurance remain RU data.",
+    "hubCards": [
+      "BKK",
+      "DMK",
+      "HKT",
+      "CNX"
+    ],
+    "reviewedExistingManuscripts": [
+      "src/data/airport-depth/ru.json",
+      "src/data/airport-depth/transport-ru.json"
+    ],
+    "preservedMarketSource": "public/data/airport-markets/ru.json"
+  },
+  "changedFiles": [
+    "src/data/airport-hub-locales/ru.json",
+    "src/data/meta-descriptions/ru.json",
+    "docs/qa/airport-locale-20261024/ru/STATUS.json"
+  ],
+  "changedMetaPaths": [
+    "/ru/airport-assistance/airports/",
+    "/ru/airport-assistance/airports/bkk/",
+    "/ru/airport-assistance/airports/hkt/"
+  ],
+  "existingContent": {
+    "airportDepth": "full text read for all four airports; unchanged",
+    "bangkokTransport": "full 10 sections, five tables, four FAQ and eight source labels read; unchanged",
+    "externalNativeSpeakerReview": false
+  },
+  "checks": {
+    "jsonParse": "pass",
+    "hubSchema": "pass",
+    "hubCardsMatchKoreanIds": "pass",
+    "airportDepthMerge": "pass",
+    "airportArraysMatchKoreanLengths": "pass",
+    "transportParagraphAndTableShape": "pass",
+    "transportSourceLinks": "preserved",
+    "targetMetaLength150to199": "pass",
+    "targetMetaCoverage": "9/9",
+    "metaOutsideChangedPaths": "unchanged",
+    "nonLocaleSharedFilesEdited": false,
+    "departureMetadata": {
+      "codes": [
+        "SVO",
+        "LED",
+        "VVO",
+        "KJA",
+        "OVB"
+      ],
+      "total": 5,
+      "missing": []
+    },
+    "regression": {
+      "command": "node --test tests/airport-depth.test.mjs tests/airport-market-scope.test.mjs",
+      "passed": 14,
+      "failed": 0
+    },
+    "gitDiffCheck": "pass"
+  },
+  "pages": [
+    {
+      "url": "/ru/airport-assistance/airports/",
+      "question": "Choose one of four Thai airports and find its practical guide.",
+      "mainKeyword": "Аэропорты Таиланда",
+      "keywordInFirst120": true,
+      "description": "Аэропорты Таиланда: выберите Суварнабхуми, Донмыанг, Пхукет или Чиангмай. Узнайте о прилёте, вылете, пересадках, поэтажных картах, услугах, транспорте и стойках авиакомпаний.",
+      "unicodeLength": 174,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/bkk/",
+      "question": "Arrival, departure and international transit at BKK.",
+      "mainKeyword": "Суварнабхуми",
+      "keywordInFirst120": true,
+      "description": "Аэропорт Суварнабхуми (BKK): прилёт, вылет и международная пересадка, поэтажные карты, услуги терминала, поезд Airport Rail Link с уровня B1 и ссылки на стойки авиакомпаний.",
+      "unicodeLength": 173,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/bkk/map/",
+      "question": "Choose terminal/floor and find BKK facilities.",
+      "mainKeyword": "Карты",
+      "keywordInFirst120": true,
+      "description": "Карты терминалов аэропорта Суварнабхуми: поэтажные схемы основного терминала, галерей A–G и SAT-1 с поиском магазинов и объектов по этажу и типу. Коды на карте не совпадают с номерами выходов.",
+      "unicodeLength": 192,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/bkk/smoking/",
+      "question": "Smoking access before/after passport control; observation provenance retained.",
+      "mainKeyword": "Где курить",
+      "keywordInFirst120": true,
+      "description": "Где курить в аэропорту Суварнабхуми: места для курения до и после паспортного контроля на выезд, сведения о зоне после контроля, условия входа в бизнес-залы и карта галереи D на 4-м этаже.",
+      "unicodeLength": 188,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/bkk/transport/",
+      "question": "BKK to Bangkok by rail/taxi/app car and the appropriate boarding location.",
+      "mainKeyword": "Суварнабхуми в Бангкок",
+      "keywordInFirst120": true,
+      "description": "Как доехать из аэропорта Суварнабхуми в Бангкок: сравните Airport Rail Link с пересадкой на MRT или BTS, такси, Grab, Bolt и трансфер по месту посадки, тарифу и времени в пути до района отеля.",
+      "unicodeLength": 192,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/bkk/airlines/",
+      "question": "Check-in, ticketing, offices and baggage roles for the locale market.",
+      "mainKeyword": "Стойки регистрации",
+      "keywordInFirst120": true,
+      "description": "Стойки регистрации авиакомпаний в аэропорту Суварнабхуми: как в зоне вылета на 4-м этаже найти ряд своего перевозчика, билетные кассы, офисы и багажные контакты. Сверяйте стойки с текущим табло.",
+      "unicodeLength": 194,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/dmk/",
+      "question": "DMK terminal split, departure process, facilities and smoking areas.",
+      "mainKeyword": "Донмыанг",
+      "keywordInFirst120": true,
+      "description": "Аэропорт Донмыанг (DMK) в Бангкоке: терминал 1 для международных рейсов и терминал 2 для внутренних, поэтажные карты магазинов, банков и банкоматов, круглосуточные службы и телефон аэропорта.",
+      "unicodeLength": 191,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/hkt/",
+      "question": "HKT terminal split, baggage reclaim, check-in, medical help and maps.",
+      "mainKeyword": "Пхукет",
+      "keywordInFirst120": true,
+      "description": "Аэропорт Пхукет (HKT): отдельные международный и внутренний терминалы, выдача багажа на лентах 1–5, регистрация, медицинская помощь, места для курения и поэтажные карты.",
+      "unicodeLength": 169,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ru/airport-assistance/airports/cnx/",
+      "question": "CNX operating hours, check-in, city transport and services.",
+      "mainKeyword": "Чиангмай",
+      "keywordInFirst120": true,
+      "description": "Аэропорт Чиангмай (CNX): указатели Domestic и International, шаттлы от Door 12 международного терминала, центр Grab на 1-м этаже внутреннего, карта магазинов и часы работы 06:00–24:00.",
+      "unicodeLength": 184,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    }
+  ],
+  "sourceHashes": {
+    "src/data/airport-hub-locales/ru.json": "27c893c38d4dae369221ae421dbc242b80a8413dc973bc1dfea79b53a4dfe158",
+    "src/data/meta-descriptions/ru.json": "2d3eb3c25efba1fc8414da036e118aa8075d8c638e4932434eec61e0bef2e880",
+    "src/data/airport-depth/ru.json": "0d9705e12e08d581b2a5aa69c8bab28143e7ec6f4019f8f7b20ebef7a8e5504a",
+    "src/data/airport-depth/transport-ru.json": "db16f2d94123df7958cda4d95eaf10f5b8cae0b373a638f5de6ad551bdd1b4d4",
+    "public/data/airport-markets/ru.json": "ccad4dea0a341018355b03e9b70b2b8213aa3ac66e27bf3e00d5268c1df8f358",
+    "src/data/airport-detail-guides-ko.json": "083f86963de7147298dec4e350c969883ccb5e5c14dfad23ad5305b5b2186b0a",
+    "src/data/transport/airport-guides/suvarnabhumi-to-bangkok.json": "442f7d8ea5ba01ca8a169e9f6ca89dc1f72eb1b3c8e1ea8c780431e786d441f1"
+  },
+  "unfinished": [
+    "Parent must integrate shared AirportHub component into existing canonical route.",
+    "Current-run initial HTML, canonical, hreflang, sitemap, source folding, byline/image/date audits, PC/mobile and Pages local runtime need parent integration verification.",
+    "Native ARL/airport-transfer transport routes belong to separate active lane; no route changes or new copies made here."
+  ],
+  "deployment": "not_run",
+  "push": "not_run",
+  "indexingSubmission": "not_run",
+  "actualIndexing": "unverified",
+  "rankings": "unmeasured",
+  "aiCitations": "unmeasured",
+  "measurement": "If separately approved and deployed, compare search/citation metrics 14 days after verified public release; no schedule created."
+}

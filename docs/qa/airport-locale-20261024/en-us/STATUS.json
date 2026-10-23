@@ -1,0 +1,146 @@
+{
+  "locale": "en-us",
+  "owner": "airport_english",
+  "checkout": "/Users/matowe/Desktop/ThaiLiveNow",
+  "scope": "Common Thailand airport hub and eight detail topics; existing regional market data preserved",
+  "canonicalHub": "/en-us/airport-assistance/airports/",
+  "state": "locale_copy_and_metadata_ready_parent_integration_pending",
+  "commonPageMetadata": [
+    {
+      "path": "/en-us/airport-assistance/airports/",
+      "unicodeLength": 169,
+      "keyword": "Thailand airport guides cover Suvarnabhumi, Don Mueang, Phuket and Chiang Mai. Choose your airport for floor maps, arrivals, departures, facilities and airline counters.",
+      "completeSentence": true,
+      "description": "Thailand airport guides cover Suvarnabhumi, Don Mueang, Phuket and Chiang Mai. Choose your airport for floor maps, arrivals, departures, facilities and airline counters."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/bkk/",
+      "unicodeLength": 170,
+      "keyword": "Suvarnabhumi Airport guide",
+      "completeSentence": true,
+      "description": "Suvarnabhumi Airport guide: follow arrival, departure and transfer steps, distinguish Doors from Gates, and find Level 2 vehicle services and the Airport Rail Link on B1."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/bkk/map/",
+      "unicodeLength": 170,
+      "keyword": "Suvarnabhumi Airport floor maps cover the main terminal, concourses A–G and SAT-1. Search shops, ATMs and other facilities by floor, and distinguish map codes from gates.",
+      "completeSentence": true,
+      "description": "Suvarnabhumi Airport floor maps cover the main terminal, concourses A–G and SAT-1. Search shops, ATMs and other facilities by floor, and distinguish map codes from gates."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/bkk/smoking/",
+      "unicodeLength": 166,
+      "keyword": "Suvarnabhumi Airport smoking areas include public rooms outside Doors 1 and 10 on Levels 2 and 4, plus visitor reports near Concourse D Burger King after immigration.",
+      "completeSentence": true,
+      "description": "Suvarnabhumi Airport smoking areas include public rooms outside Doors 1 and 10 on Levels 2 and 4, plus visitor reports near Concourse D Burger King after immigration."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/bkk/transport/",
+      "unicodeLength": 160,
+      "keyword": "Suvarnabhumi Airport to Bangkok",
+      "completeSentence": true,
+      "description": "Suvarnabhumi Airport to Bangkok: compare Airport Rail Link fares, taxi surcharges and tolls, Grab at Level 1 Door 4, and Bolt pickup points assigned in the app."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/bkk/airlines/",
+      "unicodeLength": 174,
+      "keyword": "Suvarnabhumi Airport airline counters",
+      "completeSentence": true,
+      "description": "Suvarnabhumi Airport airline counters: distinguish check-in, ticketing and baggage help, find the operating airline, and compare the recorded counter and contact information."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/dmk/",
+      "unicodeLength": 167,
+      "keyword": "Don Mueang Airport guide",
+      "completeSentence": true,
+      "description": "Don Mueang Airport guide: use Terminal 1 for international flights and Terminal 2 for domestic flights, find banks and ATMs, and allow time to reach the boarding gate."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/hkt/",
+      "unicodeLength": 173,
+      "keyword": "Phuket Airport guide",
+      "completeSentence": true,
+      "description": "Phuket Airport guide: find international arrivals and baggage belts 1–5 on Level 1, self-check-in on Level 3, and separate domestic-terminal facilities and medical services."
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/cnx/",
+      "unicodeLength": 172,
+      "keyword": "Chiang Mai Airport guide",
+      "completeSentence": true,
+      "description": "Chiang Mai Airport guide: read opening hours and check-in steps, find the domestic Level 1 Grab service center, and compare city shuttles boarding at international Door 12."
+    }
+  ],
+  "fullBodyReview": {
+    "source": "src/data/airport-detail-guides-ko.json",
+    "localized": "src/data/airport-depth/en.json",
+    "transportSource": "src/data/transport/airport-guides/suvarnabhumi-to-bangkok.json",
+    "localizedTransport": "src/data/airport-depth/transport-en.json",
+    "method": "Read complete Korean and English common airport guides and city-transfer manuscript; compare actions, floors, numbered facilities, fees, timings, smoking evidence caveats and FAQ. Common body and regional market records not shortened or modified.",
+    "conditionsPreserved": [
+      "Door versus Gate",
+      "BKK public versus airside smoking access and conflicting lounge conditions",
+      "DMK international Terminal 1 versus domestic Terminal 2",
+      "HKT international clinic 24h versus domestic weekday 08:00–17:00 first aid",
+      "CNX terminal 06:00–24:00 versus Grab service centre 24h",
+      "ARL fares separate from BTS/MRT",
+      "Bolt pickup location follows the current app"
+    ]
+  },
+  "validation": {
+    "scopedTests": "18 passed; airport-depth, airport-market-scope, airport-guide-navigation",
+    "generatedHTML": "pending parent isolated build",
+    "desktopMobile": "pending parent",
+    "fullBuildSEOAndDateAudits": "pending parent",
+    "runtime": "pending parent",
+    "deployment": "not performed",
+    "push": "not performed",
+    "indexing": "not performed",
+    "metadataSEOUnitCheck": {
+      "result": "36/36 common airport descriptions applied through applyPageSEO and were idempotent",
+      "evidence": "docs/qa/airport-locale-20261024/en/SEO-OVERRIDE-CHECK.json",
+      "boundary": "Synthetic HTML middleware check; full generated-page review belongs to parent"
+    }
+  },
+  "changedFiles": [
+    "src/data/airport-hub-locales/en-us.json",
+    "src/data/meta-descriptions/en-us.json",
+    "docs/qa/airport-locale-20261024/en-us/STATUS.json"
+  ],
+  "unfinished": [
+    "Shared hub integration and isolated complete output audits owned by parent",
+    "Current build and PC/mobile verification not established by old 20261020 documentation"
+  ],
+  "marketMetadataCoverage": {
+    "departureAirportDetails": {
+      "expected": 2,
+      "stored": 2,
+      "missing": [],
+      "invalidLengths": []
+    },
+    "departureAirportDirectory": {
+      "expected": 1,
+      "stored": 1,
+      "missing": [],
+      "invalidLengths": []
+    }
+  },
+  "marketData": {
+    "country": "US",
+    "routes": 4,
+    "airlines": 1,
+    "services": 5,
+    "sourceSHA256": "62502041417a85a878cf30a71b641ee94776422038c6935f7fc042e7beaae545",
+    "unchanged": true
+  },
+  "preservation": {
+    "otherMetadataValues": "Parsed values outside /airport-assistance/airports/ byte-content equivalent to HEAD; original key order and indentation restored",
+    "marketRecords": "Not edited",
+    "mapSourcesCoordinatesDates": "Not edited"
+  },
+  "additionalMetadata": {
+    "path": "/en-us/airport-assistance/airports/sfo/",
+    "unicodeLength": 191,
+    "baseline": "Existing SFO page copy, all three SFO service records and both United SFO–BKK routes read in full; new facts not researched"
+  },
+  "detailBodyModified": false
+}

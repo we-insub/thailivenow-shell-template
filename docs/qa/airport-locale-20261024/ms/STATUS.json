@@ -1,0 +1,179 @@
+{
+  "status": "locale_manuscript_and_meta_scoped_checks_pass_parent_integration_pending",
+  "owner": "airport_ms_ru_es",
+  "locale": "ms",
+  "market": "MY",
+  "scope": {
+    "canonicalHub": "/ms/airport-assistance/airports/",
+    "purpose": "Select a Thai airport and read arrival/departure/transit, facilities, maps and airport transport guidance in the same depth as Korean.",
+    "navigation": "Thai airports",
+    "audience": "ms readers; country-specific routes/carriers/counters/contacts/insurance remain MY data.",
+    "hubCards": [
+      "BKK",
+      "DMK",
+      "HKT",
+      "CNX"
+    ],
+    "reviewedExistingManuscripts": [
+      "src/data/airport-depth/ms.json",
+      "src/data/airport-depth/transport-ms.json"
+    ],
+    "preservedMarketSource": "public/data/airport-markets/ms.json"
+  },
+  "changedFiles": [
+    "src/data/airport-hub-locales/ms.json",
+    "src/data/meta-descriptions/ms.json",
+    "docs/qa/airport-locale-20261024/ms/STATUS.json"
+  ],
+  "changedMetaPaths": [
+    "/ms/airport-assistance/airports/",
+    "/ms/airport-assistance/airports/bkk/",
+    "/ms/airport-assistance/airports/bkk/airlines/"
+  ],
+  "existingContent": {
+    "airportDepth": "full text read for all four airports; unchanged",
+    "bangkokTransport": "full 10 sections, five tables, four FAQ and eight source labels read; unchanged",
+    "externalNativeSpeakerReview": false
+  },
+  "checks": {
+    "jsonParse": "pass",
+    "hubSchema": "pass",
+    "hubCardsMatchKoreanIds": "pass",
+    "airportDepthMerge": "pass",
+    "airportArraysMatchKoreanLengths": "pass",
+    "transportParagraphAndTableShape": "pass",
+    "transportSourceLinks": "preserved",
+    "targetMetaLength150to199": "pass",
+    "targetMetaCoverage": "9/9",
+    "metaOutsideChangedPaths": "unchanged",
+    "nonLocaleSharedFilesEdited": false,
+    "departureMetadata": {
+      "codes": [
+        "KUL",
+        "PEN",
+        "JHB"
+      ],
+      "total": 3,
+      "missing": []
+    },
+    "regression": {
+      "command": "node --test tests/airport-depth.test.mjs tests/airport-market-scope.test.mjs",
+      "passed": 14,
+      "failed": 0
+    },
+    "gitDiffCheck": "pass"
+  },
+  "pages": [
+    {
+      "url": "/ms/airport-assistance/airports/",
+      "question": "Choose one of four Thai airports and find its practical guide.",
+      "mainKeyword": "Lapangan terbang Thailand",
+      "keywordInFirst120": true,
+      "description": "Lapangan terbang Thailand: pilih Suvarnabhumi, Don Mueang, Phuket atau Chiang Mai untuk panduan ketibaan, pelepasan, peta tingkat, kemudahan, pengangkutan dan kaunter penerbangan.",
+      "unicodeLength": 179,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/bkk/",
+      "question": "Arrival, departure and international transit at BKK.",
+      "mainKeyword": "Suvarnabhumi",
+      "keywordInFirst120": true,
+      "description": "Lapangan Terbang Suvarnabhumi (BKK): panduan ketibaan, pelepasan dan transit dengan peta tingkat, Airport Rail Link di B1, kemudahan terminal dan pautan kaunter syarikat penerbangan.",
+      "unicodeLength": 182,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/bkk/map/",
+      "question": "Choose terminal/floor and find BKK facilities.",
+      "mainKeyword": "Peta",
+      "keywordInFirst120": true,
+      "description": "Peta Lapangan Terbang Suvarnabhumi: lihat terminal utama, ruang A–G dan SAT-1 mengikut tingkat. Cari restoran, pertukaran wang, ATM, kaunter syarikat penerbangan, teksi dan tuntutan bagasi.",
+      "unicodeLength": 189,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/bkk/smoking/",
+      "question": "Smoking access before/after passport control; observation provenance retained.",
+      "mainKeyword": "Kawasan merokok",
+      "keywordInFirst120": true,
+      "description": "Kawasan merokok Lapangan Terbang Suvarnabhumi: ruang awam di luar Door 1 dan Door 10 di tingkat 2 dan 4, serta ruang selepas imigresen berhampiran Burger King di ruang D. Door bukan pintu berlepas.",
+      "unicodeLength": 197,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/bkk/transport/",
+      "question": "BKK to Bangkok by rail/taxi/app car and the appropriate boarding location.",
+      "mainKeyword": "Suvarnabhumi ke pusat bandar Bangkok",
+      "keywordInFirst120": true,
+      "description": "Suvarnabhumi ke pusat bandar Bangkok: bandingkan Airport Rail Link, teksi awam di Door 4–7 dengan caj 50 baht dan tol, Grab di Door 4 tingkat 1 serta Bolt mengikut kawasan hotel dan bagasi anda.",
+      "unicodeLength": 194,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/bkk/airlines/",
+      "question": "Check-in, ticketing, offices and baggage roles for the locale market.",
+      "mainKeyword": "Kaunter syarikat penerbangan",
+      "keywordInFirst120": true,
+      "description": "Kaunter syarikat penerbangan di Suvarnabhumi: cari tempat daftar masuk, pejabat, jualan tiket dan bantuan bagasi bagi penerbangan Malaysia, serta semak kaunter pada skrin pelepasan.",
+      "unicodeLength": 181,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/dmk/",
+      "question": "DMK terminal split, departure process, facilities and smoking areas.",
+      "mainKeyword": "Don Mueang",
+      "keywordInFirst120": true,
+      "description": "Lapangan Terbang Don Mueang (DMK) beroperasi 24 jam: Terminal 1 untuk antarabangsa dan Terminal 2 domestik. Lihat peta tingkat, kawasan merokok di luar Door 8 dan kaunter syarikat penerbangan.",
+      "unicodeLength": 192,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/hkt/",
+      "question": "HKT terminal split, baggage reclaim, check-in, medical help and maps.",
+      "mainKeyword": "Phuket",
+      "keywordInFirst120": true,
+      "description": "Lapangan Terbang Phuket (HKT) mempunyai terminal antarabangsa dan domestik berasingan. Balai ketibaan antarabangsa di tingkat 1 dengan karusel 1–5; lihat peta, kawasan merokok G9 dan kaunter.",
+      "unicodeLength": 191,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/ms/airport-assistance/airports/cnx/",
+      "question": "CNX operating hours, check-in, city transport and services.",
+      "mainKeyword": "Chiang Mai",
+      "keywordInFirst120": true,
+      "description": "Lapangan Terbang Antarabangsa Chiang Mai (CNX) dibuka 06:00–24:00. Ketahui pusat Grab 24 jam, ulang-alik di Door 12 terminal antarabangsa, kawasan merokok di Exit 9 dan kaunter syarikat penerbangan.",
+      "unicodeLength": 198,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    }
+  ],
+  "sourceHashes": {
+    "src/data/airport-hub-locales/ms.json": "214194579571af1f080efa34956453156b5df9c91f4c84b6ab4b46aeaa0c7702",
+    "src/data/meta-descriptions/ms.json": "8438d07e082f61b06ff0ef2dfa512c9eccab9bce600598193f2599212ea20497",
+    "src/data/airport-depth/ms.json": "6b6d9fd7d1b8fe074279744aaaaa95b5064e3bae1b9aefc6a5792fe2439e2b54",
+    "src/data/airport-depth/transport-ms.json": "1db01f30db24c8f43541c22fa4e2136da037fe12a941af285c2bb9045799aae7",
+    "public/data/airport-markets/ms.json": "355468a4a98f1a1246dda4eec061f1a38815329e4d0bc98bb34202f0558ed907",
+    "src/data/airport-detail-guides-ko.json": "083f86963de7147298dec4e350c969883ccb5e5c14dfad23ad5305b5b2186b0a",
+    "src/data/transport/airport-guides/suvarnabhumi-to-bangkok.json": "442f7d8ea5ba01ca8a169e9f6ca89dc1f72eb1b3c8e1ea8c780431e786d441f1"
+  },
+  "unfinished": [
+    "Parent must integrate shared AirportHub component into existing canonical route.",
+    "Current-run initial HTML, canonical, hreflang, sitemap, source folding, byline/image/date audits, PC/mobile and Pages local runtime need parent integration verification.",
+    "Native ARL/airport-transfer transport routes belong to separate active lane; no route changes or new copies made here."
+  ],
+  "deployment": "not_run",
+  "push": "not_run",
+  "indexingSubmission": "not_run",
+  "actualIndexing": "unverified",
+  "rankings": "unmeasured",
+  "aiCitations": "unmeasured",
+  "measurement": "If separately approved and deployed, compare search/citation metrics 14 days after verified public release; no schedule created."
+}

@@ -1,0 +1,967 @@
+{
+  "dticket-booking-flow": {
+    "source": "public/images/transport/train/dticket-booking-flow.svg",
+    "texts": [
+      {
+        "key": "dticket-booking-flow.0",
+        "text": "예매는 이 순서로 이어져요",
+        "box": [
+          24,
+          12,
+          592,
+          40
+        ],
+        "x": 24.0,
+        "y": 44.0,
+        "size": 28.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-booking-flow.1",
+        "text": "먼저 회원 가입 · 로그인",
+        "box": [
+          36,
+          73,
+          568,
+          40
+        ],
+        "x": 320.0,
+        "y": 100.75,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#267e89"
+      },
+      {
+        "key": "dticket-booking-flow.2",
+        "text": "1",
+        "box": [
+          37.0,
+          160.0,
+          38,
+          38
+        ],
+        "x": 56.0,
+        "y": 189.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-booking-flow.3",
+        "text": "열차 검색",
+        "box": [
+          88.0,
+          160.0,
+          208.0,
+          48
+        ],
+        "x": 88.0,
+        "y": 190.0,
+        "size": 27.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-booking-flow.4",
+        "text": "노선·역·날짜",
+        "box": [
+          48.0,
+          211.0,
+          248.0,
+          36
+        ],
+        "x": 48.0,
+        "y": 236.0,
+        "size": 22.0,
+        "anchor": "start",
+        "fill": "#61717e"
+      },
+      {
+        "key": "dticket-booking-flow.5",
+        "text": "2",
+        "box": [
+          345.0,
+          160.0,
+          38,
+          38
+        ],
+        "x": 364.0,
+        "y": 189.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-booking-flow.6",
+        "text": "열차 선택",
+        "box": [
+          396.0,
+          160.0,
+          208.0,
+          48
+        ],
+        "x": 396.0,
+        "y": 190.0,
+        "size": 27.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-booking-flow.7",
+        "text": "시간대 고르기",
+        "box": [
+          356.0,
+          211.0,
+          248.0,
+          36
+        ],
+        "x": 356.0,
+        "y": 236.0,
+        "size": 22.0,
+        "anchor": "start",
+        "fill": "#61717e"
+      },
+      {
+        "key": "dticket-booking-flow.8",
+        "text": "3",
+        "box": [
+          37.0,
+          300.0,
+          38,
+          38
+        ],
+        "x": 56.0,
+        "y": 329.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-booking-flow.9",
+        "text": "객차 선택",
+        "box": [
+          88.0,
+          300.0,
+          208.0,
+          48
+        ],
+        "x": 88.0,
+        "y": 330.0,
+        "size": 27.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-booking-flow.10",
+        "text": "에어컨·선풍기·침대",
+        "box": [
+          48.0,
+          351.0,
+          248.0,
+          36
+        ],
+        "x": 48.0,
+        "y": 376.0,
+        "size": 22.0,
+        "anchor": "start",
+        "fill": "#61717e"
+      },
+      {
+        "key": "dticket-booking-flow.11",
+        "text": "4",
+        "box": [
+          345.0,
+          300.0,
+          38,
+          38
+        ],
+        "x": 364.0,
+        "y": 329.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-booking-flow.12",
+        "text": "승객 정보·좌석",
+        "box": [
+          396.0,
+          300.0,
+          208.0,
+          48
+        ],
+        "x": 396.0,
+        "y": 330.0,
+        "size": 27.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-booking-flow.13",
+        "text": "요금도 여기서 계산",
+        "box": [
+          356.0,
+          351.0,
+          248.0,
+          36
+        ],
+        "x": 356.0,
+        "y": 376.0,
+        "size": 22.0,
+        "anchor": "start",
+        "fill": "#61717e"
+      },
+      {
+        "key": "dticket-booking-flow.14",
+        "text": "5",
+        "box": [
+          37.0,
+          440.0,
+          38,
+          38
+        ],
+        "x": 56.0,
+        "y": 469.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-booking-flow.15",
+        "text": "결제",
+        "box": [
+          88.0,
+          440.0,
+          208.0,
+          48
+        ],
+        "x": 88.0,
+        "y": 470.0,
+        "size": 27.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-booking-flow.16",
+        "text": "카드 또는 역 결제",
+        "box": [
+          48.0,
+          491.0,
+          248.0,
+          36
+        ],
+        "x": 48.0,
+        "y": 516.0,
+        "size": 22.0,
+        "anchor": "start",
+        "fill": "#61717e"
+      },
+      {
+        "key": "dticket-booking-flow.17",
+        "text": "6",
+        "box": [
+          345.0,
+          440.0,
+          38,
+          38
+        ],
+        "x": 364.0,
+        "y": 469.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-booking-flow.18",
+        "text": "승차권",
+        "box": [
+          396.0,
+          440.0,
+          208.0,
+          48
+        ],
+        "x": 396.0,
+        "y": 470.0,
+        "size": 27.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-booking-flow.19",
+        "text": "이메일로 받기",
+        "box": [
+          356.0,
+          491.0,
+          248.0,
+          36
+        ],
+        "x": 356.0,
+        "y": 516.0,
+        "size": 22.0,
+        "anchor": "start",
+        "fill": "#61717e"
+      }
+    ]
+  },
+  "dticket-home-search": {
+    "source": "public/images/transport/train/dticket-home-search.svg",
+    "texts": [
+      {
+        "key": "dticket-home-search.0",
+        "text": "예매 사이트 첫 화면 · 검색 칸",
+        "box": [
+          24,
+          12,
+          592,
+          40
+        ],
+        "x": 24.0,
+        "y": 44.0,
+        "size": 28.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.1",
+        "text": "전체",
+        "box": [
+          63.0,
+          71.0,
+          69.0,
+          54.0
+        ],
+        "x": 80.0,
+        "y": 105.7,
+        "size": 22.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.2",
+        "text": "북부선",
+        "box": [
+          148.0,
+          71.0,
+          104.0,
+          54.0
+        ],
+        "x": 200.0,
+        "y": 105.7,
+        "size": 22.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.3",
+        "text": "북동부선",
+        "box": [
+          268.0,
+          71.0,
+          104.0,
+          54.0
+        ],
+        "x": 320.0,
+        "y": 105.7,
+        "size": 22.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.4",
+        "text": "동부선",
+        "box": [
+          388.0,
+          71.0,
+          104.0,
+          54.0
+        ],
+        "x": 440.0,
+        "y": 105.7,
+        "size": 22.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.5",
+        "text": "남부선",
+        "box": [
+          508.0,
+          71.0,
+          104.0,
+          54.0
+        ],
+        "x": 560.0,
+        "y": 105.7,
+        "size": 22.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.6",
+        "text": "1",
+        "box": [
+          21.0,
+          50.0,
+          38,
+          38
+        ],
+        "x": 40.0,
+        "y": 79.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.7",
+        "text": "",
+        "box": [
+          0,
+          0,
+          640,
+          556
+        ],
+        "x": 320.0,
+        "y": 198.1,
+        "size": 26.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.8",
+        "text": "왕복",
+        "box": [
+          63.0,
+          169.0,
+          64.0,
+          40.0
+        ],
+        "x": 90.0,
+        "y": 197.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.9",
+        "text": "2",
+        "box": [
+          21.0,
+          148.0,
+          38,
+          38
+        ],
+        "x": 40.0,
+        "y": 177.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.10",
+        "text": "출발역 ▾",
+        "box": [
+          173.0,
+          169.0,
+          178.0,
+          40.0
+        ],
+        "x": 257.0,
+        "y": 197.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.11",
+        "text": "3",
+        "box": [
+          131.0,
+          148.0,
+          38,
+          38
+        ],
+        "x": 150.0,
+        "y": 177.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.12",
+        "text": "도착역 ▾",
+        "box": [
+          397.0,
+          169.0,
+          199.0,
+          40.0
+        ],
+        "x": 487.0,
+        "y": 197.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.13",
+        "text": "4",
+        "box": [
+          355.0,
+          148.0,
+          38,
+          38
+        ],
+        "x": 374.0,
+        "y": 177.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.14",
+        "text": "",
+        "box": [
+          0,
+          0,
+          640,
+          556
+        ],
+        "x": 320.0,
+        "y": 292.1,
+        "size": 26.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.15",
+        "text": "가는 날",
+        "box": [
+          63.0,
+          263.0,
+          121.0,
+          40.0
+        ],
+        "x": 114.0,
+        "y": 291.05,
+        "size": 23.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.16",
+        "text": "5",
+        "box": [
+          21.0,
+          242.0,
+          38,
+          38
+        ],
+        "x": 40.0,
+        "y": 271.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.17",
+        "text": "오는 날",
+        "box": [
+          200.0,
+          263.0,
+          129.0,
+          40.0
+        ],
+        "x": 270.0,
+        "y": 291.05,
+        "size": 23.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.18",
+        "text": "승객 수 ▾",
+        "box": [
+          375.0,
+          263.0,
+          100.0,
+          40.0
+        ],
+        "x": 421.0,
+        "y": 290.7,
+        "size": 22.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-home-search.19",
+        "text": "6",
+        "box": [
+          333.0,
+          242.0,
+          38,
+          38
+        ],
+        "x": 352.0,
+        "y": 271.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.20",
+        "text": "검색",
+        "box": [
+          521.0,
+          263.0,
+          75.0,
+          40.0
+        ],
+        "x": 549.0,
+        "y": 291.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-home-search.21",
+        "text": "7",
+        "box": [
+          479.0,
+          242.0,
+          38,
+          38
+        ],
+        "x": 498.0,
+        "y": 271.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      }
+    ]
+  },
+  "dticket-payment-paths": {
+    "source": "public/images/transport/train/dticket-payment-paths.svg",
+    "texts": [
+      {
+        "key": "dticket-payment-paths.0",
+        "text": "결제 방법은 두 가지예요",
+        "box": [
+          24,
+          12,
+          592,
+          40
+        ],
+        "x": 24.0,
+        "y": 44.0,
+        "size": 28.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-payment-paths.1",
+        "text": "카드로 결제",
+        "box": [
+          28.0,
+          67.0,
+          282.0,
+          50.0
+        ],
+        "x": 169.0,
+        "y": 101.1,
+        "size": 26.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-payment-paths.2",
+        "text": "역에서 결제",
+        "box": [
+          330.0,
+          67.0,
+          282.0,
+          50.0
+        ],
+        "x": 471.0,
+        "y": 101.1,
+        "size": 26.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-payment-paths.3",
+        "text": "신용·체크카드로 결제",
+        "box": [
+          28.0,
+          161.0,
+          282.0,
+          76.0
+        ],
+        "x": 169.0,
+        "y": 207.05,
+        "size": 23.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-payment-paths.4",
+        "text": "예약번호 받기",
+        "box": [
+          330.0,
+          161.0,
+          282.0,
+          76.0
+        ],
+        "x": 471.0,
+        "y": 207.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-payment-paths.5",
+        "text": "역 매표소에서 결제",
+        "box": [
+          330.0,
+          277.0,
+          282.0,
+          76.0
+        ],
+        "x": 471.0,
+        "y": 323.05,
+        "size": 23.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-payment-paths.6",
+        "text": "결제가 확인되면 승차권이 이메일로 와요",
+        "box": [
+          28.0,
+          399.0,
+          584.0,
+          62.0
+        ],
+        "x": 320.0,
+        "y": 438.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#267e89"
+      }
+    ]
+  },
+  "dticket-top-menu": {
+    "source": "public/images/transport/train/dticket-top-menu.svg",
+    "texts": [
+      {
+        "key": "dticket-top-menu.0",
+        "text": "위쪽 메뉴에서 바꾸고 취소해요",
+        "box": [
+          24,
+          12,
+          592,
+          40
+        ],
+        "x": 24.0,
+        "y": 44.0,
+        "size": 28.0,
+        "anchor": "start",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.1",
+        "text": "",
+        "box": [
+          0,
+          0,
+          640,
+          556
+        ],
+        "x": 320.0,
+        "y": 171.1,
+        "size": 26.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.2",
+        "text": "로그인",
+        "box": [
+          375.0,
+          85.0,
+          97.0,
+          42.0
+        ],
+        "x": 414.0,
+        "y": 113.7,
+        "size": 22.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.3",
+        "text": "1",
+        "box": [
+          333.0,
+          64.0,
+          38,
+          38
+        ],
+        "x": 352.0,
+        "y": 93.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-top-menu.4",
+        "text": "회원가입",
+        "box": [
+          488.0,
+          85.0,
+          108.0,
+          42.0
+        ],
+        "x": 542.0,
+        "y": 113.35,
+        "size": 21.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.5",
+        "text": "홈",
+        "box": [
+          44.0,
+          149.0,
+          166.0,
+          42.0
+        ],
+        "x": 127.0,
+        "y": 178.05,
+        "size": 23.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.6",
+        "text": "구매 내역",
+        "box": [
+          234.0,
+          149.0,
+          166.0,
+          42.0
+        ],
+        "x": 317.0,
+        "y": 178.05,
+        "size": 23.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.7",
+        "text": "티켓 변경",
+        "box": [
+          443.0,
+          149.0,
+          147.0,
+          42.0
+        ],
+        "x": 507.0,
+        "y": 178.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.8",
+        "text": "2",
+        "box": [
+          401.0,
+          128.0,
+          38,
+          38
+        ],
+        "x": 420.0,
+        "y": 157.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-top-menu.9",
+        "text": "승차권 취소",
+        "box": [
+          63.0,
+          203.0,
+          147.0,
+          42.0
+        ],
+        "x": 127.0,
+        "y": 232.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.10",
+        "text": "3",
+        "box": [
+          21.0,
+          182.0,
+          38,
+          38
+        ],
+        "x": 40.0,
+        "y": 211.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      },
+      {
+        "key": "dticket-top-menu.11",
+        "text": "특별 혜택",
+        "box": [
+          234.0,
+          203.0,
+          166.0,
+          42.0
+        ],
+        "x": 317.0,
+        "y": 232.05,
+        "size": 23.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.12",
+        "text": "도움말",
+        "box": [
+          443.0,
+          203.0,
+          147.0,
+          42.0
+        ],
+        "x": 507.0,
+        "y": 232.4,
+        "size": 24.0,
+        "anchor": "middle",
+        "fill": "#253545"
+      },
+      {
+        "key": "dticket-top-menu.13",
+        "text": "4",
+        "box": [
+          401.0,
+          182.0,
+          38,
+          38
+        ],
+        "x": 420.0,
+        "y": 211.0,
+        "size": 25.0,
+        "anchor": "middle",
+        "fill": "#fff"
+      }
+    ]
+  }
+}

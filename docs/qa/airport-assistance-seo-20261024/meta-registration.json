@@ -1,0 +1,614 @@
+[
+  {
+    "path": "/ko/airport-assistance/airlines/thai-airasia/",
+    "description": "타이 에어아시아를 이용하셨다면 항공권에서 실제 운항사와 FD 코드를 먼저 확인해주세요. FD와 타이 에어아시아 X의 XJ는 운항사와 약관이 달라요. 수하물 사고는 현장 직원에게 알리고, 지연·결항 증빙은 공식 고객지원 Chat with Bo에서 발급 방법을 문의하시면 돼요.",
+    "length": 153,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/guides/air-premia-flight-certificate/",
+    "description": "에어프레미아 지연·결항 확인서가 필요하다면 공식 운항정보 확인서에서 도착지와 변경 전 출발일로 검색해보세요. 조회된 항공편의 상세를 열어 원래 일정과 변경된 일정을 살펴본 뒤 확인서를 인쇄할 수 있어요. 조회 대상 날짜는 오늘 기준 18개월 전부터 12개월 뒤까지로 안내돼요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/guides/flight-delayed/",
+    "description": "출발이 늦어진다는 안내를 받았다면 예약편의 현지 출발일과 실제 운항사를 먼저 살펴보세요. 새 출발 시각을 확인하고, 연결편이나 부친 짐에 영향이 있다면 항공사 직원에게 함께 물어보시면 돼요. 보험에 제출할 확인서는 항공사마다 발급 조건이 달라 아래 절차를 나눠 안내해요.",
+    "length": 151,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/guides/thai-airasia-baggage/",
+    "description": "타이 에어아시아 FD편의 짐이 파손됐거나 늦게 도착했다면 현장 직원에게 알리고 서면 신고를 준비해주세요. 파손은 받은 날부터 7일, 지연은 짐을 이용할 수 있게 된 날부터 21일 안에 통지해야 해요. 타이 에어아시아 X의 XJ편과는 약관이 다르니 편명을 먼저 살펴보세요.",
+    "length": 151,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/guides/thai-airways-delayed-baggage/",
+    "description": "타이항공으로 도착했는데 짐이 나오지 않는다면 공항 지상 직원에게 바로 알려주세요. 짐의 특징과 연락처, 배송받을 주소를 적고 보고서 사본과 접수번호를 받아두세요. 지연 때문에 쓴 비용을 청구할 때는 짐을 받은 뒤 21일 안에 서면으로 신청하고 영수증을 함께 제출해야 해요.",
+    "length": 152,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/guides/thai-airways-flight-certificate/",
+    "description": "타이항공이 실제 운항한 편이 지연·결항됐거나 목적지가 바뀌었다면 공식 양식으로 확인서를 신청할 수 있어요. 여권과 탑승권·예약정보를 준비해 예정 여행일에서 3일이 지난 뒤부터 6개월 이내에 신청해주세요. 지연편은 예정 도착보다 15분을 초과해 늦게 도착한 경우가 대상이에요.",
+    "length": 153,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/7c2503/",
+    "description": "인천국제공항 (ICN)에서 수완나폼 국제공항 (BKK)으로 가는 제주항공 항공편 7C2503의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 20:05–00:10을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 155,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/7c2504-oct2026/",
+    "description": "수완나폼 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 제주항공 항공편 7C2504의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 01:10–08:55을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 155,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/7c2515/",
+    "description": "인천국제공항 (ICN)에서 치앙마이 국제공항 (CNX)으로 가는 제주항공 항공편 7C2515의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 18:10–22:00을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 155,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/7c2516/",
+    "description": "치앙마이 국제공항 (CNX)에서 인천국제공항 (ICN)으로 가는 제주항공 항공편 7C2516의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 23:00–06:30을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 155,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/7c2551/",
+    "description": "김해국제공항 (PUS)에서 수완나폼 국제공항 (BKK)으로 가는 제주항공 항공편 7C2551의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 20:00–23:50을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 155,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/7c2552/",
+    "description": "수완나폼 국제공항 (BKK)에서 김해국제공항 (PUS)으로 가는 제주항공 항공편 7C2552의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-14 · 00:50–08:30을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 155,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/bkk-icn-oz742/",
+    "description": "수완나폼 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 아시아나항공 항공편 OZ742의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 01:35–08:55을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 156,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/bx725-20261013/",
+    "description": "김해국제공항 (PUS)에서 수완나폼 국제공항 (BKK)으로 가는 에어부산 항공편 BX725의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 18:00–21:45을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/bx726-20261013/",
+    "description": "수완나폼 국제공항 (BKK)에서 김해국제공항 (PUS)으로 가는 에어부산 항공편 BX726의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 22:55–06:20을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/fd677-20261013/",
+    "description": "돈므앙 국제공항 (DMK)에서 인천국제공항 (ICN)으로 가는 타이 에어아시아 (FD) 항공편 FD677의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 02:45–10:35을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/fd677-20261014/",
+    "description": "돈므앙 국제공항 (DMK)에서 인천국제공항 (ICN)으로 가는 타이 에어아시아 (FD) 항공편 FD677의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-14 · 02:45–10:35을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/fd678-20261013/",
+    "description": "인천국제공항 (ICN)에서 돈므앙 국제공항 (DMK)으로 가는 타이 에어아시아 (FD) 항공편 FD678의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 12:05–15:50을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/fd678-20261014/",
+    "description": "인천국제공항 (ICN)에서 돈므앙 국제공항 (DMK)으로 가는 타이 에어아시아 (FD) 항공편 FD678의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-14 · 12:05–15:50을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke651/",
+    "description": "인천국제공항 (ICN)에서 수완나품 국제공항 (BKK)으로 가는 대한항공 항공편 KE651의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 18:05–21:45을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke652/",
+    "description": "수완나품 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 대한항공 항공편 KE652의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 23:30–06:55을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke655/",
+    "description": "인천국제공항 (ICN)에서 수완나품 국제공항 (BKK)으로 가는 대한항공 항공편 KE655의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 21:15–01:05을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke656/",
+    "description": "수완나품 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 대한항공 항공편 KE656의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 02:35–10:15을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke657/",
+    "description": "인천국제공항 (ICN)에서 수완나품 국제공항 (BKK)으로 가는 대한항공 항공편 KE657의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 09:45–13:35을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke658/",
+    "description": "수완나품 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 대한항공 항공편 KE658의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 21:40–05:05을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke659/",
+    "description": "인천국제공항 (ICN)에서 수완나품 국제공항 (BKK)으로 가는 대한항공 항공편 KE659의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 19:45–23:35을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke660/",
+    "description": "수완나품 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 대한항공 항공편 KE660의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13–2026-10-18 · 09:50–17:20을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke683-20261025/",
+    "description": "인천국제공항 (ICN)에서 치앙마이 국제공항 (CNX)으로 가는 대한항공 항공편 KE683의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-25 · 18:45–22:45을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ke684-20261026/",
+    "description": "치앙마이 국제공항 (CNX)에서 인천국제공항 (ICN)으로 가는 대한항공 항공편 KE684의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-26 · 00:20–07:05을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/lj009-20261014/",
+    "description": "인천국제공항 (ICN)에서 치앙마이 국제공항 (CNX)으로 가는 진에어 항공편 LJ009의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-14 · 17:20–20:45을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 153,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/lj010-20261014/",
+    "description": "치앙마이 국제공항 (CNX)에서 인천국제공항 (ICN)으로 가는 진에어 항공편 LJ010의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-14 · 21:45–05:05을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 153,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/lj021-20261014/",
+    "description": "김해국제공항 (PUS)에서 수완나품 국제공항 (BKK)으로 가는 진에어 항공편 LJ021의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-14 · 18:55–22:40을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 153,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/lj022-20261014/",
+    "description": "수완나품 국제공항 (BKK)에서 김해국제공항 (PUS)으로 가는 진에어 항공편 LJ022의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-14 · 23:40–07:05을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 153,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/oz741/",
+    "description": "인천국제공항 (ICN)에서 수완나품 국제공항 (BKK)으로 가는 아시아나항공 항공편 OZ741의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 19:35–23:35을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 156,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/oz747/",
+    "description": "인천국제공항 (ICN)에서 푸껫 국제공항 (HKT)으로 가는 아시아나항공 항공편 OZ747의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 17:20–21:35을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/oz748/",
+    "description": "푸껫 국제공항 (HKT)에서 인천국제공항 (ICN)으로 가는 아시아나항공 항공편 OZ748의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 22:45–07:05을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tg652/",
+    "description": "수완나품 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 타이항공 항공편 TG652의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 07:55–15:25을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tg653/",
+    "description": "인천국제공항 (ICN)에서 수완나폼 국제공항 (BKK)으로 가는 타이항공 항공편 TG653의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 16:55–20:45을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tg656/",
+    "description": "수완나품 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 타이항공 항공편 TG656의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 23:30–06:55을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tg657/",
+    "description": "인천국제공항 (ICN)에서 수완나폼 국제공항 (BKK)으로 가는 타이항공 항공편 TG657의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 10:20–14:10을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tg658/",
+    "description": "수완나품 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 타이항공 항공편 TG658의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 23:10–06:35을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tg659/",
+    "description": "인천국제공항 (ICN)에서 수완나폼 국제공항 (BKK)으로 가는 타이항공 항공편 TG659의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 09:35–13:25을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 154,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tw105-kac-2026-period/",
+    "description": "대구국제공항 (TAE)에서 수완나폼 국제공항 (BKK)으로 가는 트리니티항공(구 티웨이항공) 항공편 TW105의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-24 · 21:25을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 159,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/tw106-kac-2026-period/",
+    "description": "수완나폼 국제공항 (BKK)에서 대구국제공항 (TAE)으로 가는 트리니티항공(구 티웨이항공) 항공편 TW106의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-09-23–2026-10-24 · 09:40을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 170,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/yp601-20261013/",
+    "description": "인천국제공항 (ICN)에서 수완나폼 국제공항 (BKK)으로 가는 에어프레미아 항공편 YP601의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 17:15–21:10을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 156,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/yp602-20261013/",
+    "description": "수완나폼 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 에어프레미아 항공편 YP602의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-13 · 22:45–06:15을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 156,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ze511-winter-20261025/",
+    "description": "인천국제공항 (ICN)에서 수완나폼 국제공항 (BKK)으로 가는 이스타항공 항공편 ZE511의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-25–2027-03-27 · 17:05–21:25을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 166,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ko/airport-assistance/routes/ze512-winter-20261025/",
+    "description": "수완나폼 국제공항 (BKK)에서 인천국제공항 (ICN)으로 가는 이스타항공 항공편 ZE512의 공항 수속과 지연·결항 안내예요. 기록된 운항 날짜와 예정시간 · 2026-10-25–2027-03-27 · 22:25–06:20을 살펴보고, 여행할 날짜의 실제 운항 여부는 공식 조회에서 확인해주세요.",
+    "length": 166,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ms/airport-assistance/guides/caat-passenger-rights/",
+    "description": "Semak bantuan, syarat pampasan dan saluran aduan rasmi CAAT apabila penerbangan antarabangsa berjadual pulang dari Thailand ke Malaysia lewat atau dibatalkan.",
+    "length": 158,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ms/airport-assistance/guides/flight-delayed/",
+    "description": "Tanya syarikat penerbangan tentang waktu berlepas terkini. Simpan jadual asal dan notis kelewatan. Tanya tentang bantuan yang anda perlukan serta cara mendapatkan pengesahan bertulis.",
+    "length": 183,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/guides/caat-passenger-rights/",
+    "description": "Check assistance, compensation conditions and the official CAAT complaint route when a scheduled international flight departing Thailand is delayed or cancelled.",
+    "length": 161,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/guides/delayed-baggage/",
+    "description": "Report it to the operating airline’s arrivals baggage team before leaving. Have your baggage tag and boarding pass ready. Keep the report number and ask how to follow the delivery or tracing process.",
+    "length": 199,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/guides/flight-cancelled/",
+    "description": "Check the airline’s replacement-flight and refund options. Keep the cancellation notice and the airline’s reply. Confirm your booking arrangements before paying for a replacement journey.",
+    "length": 187,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/guides/flight-delayed/",
+    "description": "Ask the airline for the latest departure information. Keep the original schedule and delay notices. Ask about the assistance you need and how to obtain written proof of the disruption.",
+    "length": 184,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/amd-dmk/",
+    "description": "Ahmedabad Airport ↔ Bangkok Don Mueang Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 188,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/gau-dmk/",
+    "description": "Guwahati Airport ↔ Bangkok Don Mueang Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 187,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/gay-dmk/",
+    "description": "Gaya Airport ↔ Bangkok Don Mueang Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 183,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/hyd-dmk/",
+    "description": "Hyderabad Airport ↔ Bangkok Don Mueang Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 188,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/jai-dmk/",
+    "description": "Jaipur Airport ↔ Bangkok Don Mueang Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 185,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/lko-dmk/",
+    "description": "Lucknow Airport ↔ Bangkok Don Mueang Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 186,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/fd-dmk-amd-restart-2026/",
+    "description": "Thai AirAsia : Bangkok Don Mueang Airport → Ahmedabad Airport · 2026-11-06. Announced direct service restart from Don Mueang; check the effective date before travel.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/fd-dmk-gau-restart-2026/",
+    "description": "Thai AirAsia : Bangkok Don Mueang Airport → Guwahati Airport · 2026-11-16. Announced direct service restart from Don Mueang; check the effective date before travel.",
+    "length": 164,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/fd-dmk-gay-restart-2026/",
+    "description": "Thai AirAsia : Bangkok Don Mueang Airport → Gaya Airport · 2026-10-25. Announced direct service restart from Don Mueang; check the effective date before travel.",
+    "length": 160,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/fd-dmk-hyd-restart-2026/",
+    "description": "Thai AirAsia : Bangkok Don Mueang Airport → Hyderabad Airport · 2026-11-16. Announced direct service restart from Don Mueang; check the effective date before travel.",
+    "length": 165,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/fd-dmk-jai-restart-2026/",
+    "description": "Thai AirAsia : Bangkok Don Mueang Airport → Jaipur Airport · 2026-11-17. Announced direct service restart from Don Mueang; check the effective date before travel.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/fd-dmk-lko-restart-2026/",
+    "description": "Thai AirAsia : Bangkok Don Mueang Airport → Lucknow Airport · 2026-11-16. Announced direct service restart from Don Mueang; check the effective date before travel.",
+    "length": 163,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ru/airport-assistance/guides/caat-passenger-rights/",
+    "description": "Если регулярный международный рейс из Таиланда в Россию задержан или отменён, ознакомьтесь с доступной помощью, условиями компенсации и официальным порядком обращения в CAAT.",
+    "length": 174,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ru/airport-assistance/guides/find-airline-counter/",
+    "description": "Проверьте фактического перевозчика и дату вылета, различайте стойки регистрации, оформления билетов и службы багажа по прибытии, чтобы найти нужную стойку.",
+    "length": 155,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ru/airport-assistance/guides/flight-delayed/",
+    "description": "Уточните у авиакомпании актуальное время вылета. Сохраните первоначальное расписание и уведомления о задержке. Спросите о необходимой помощи и о том, как получить письменное подтверждение.",
+    "length": 188,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ru/airport-assistance/pairs/kja-hkt/",
+    "description": "Красноярск — Емельяново ↔ Пхукет. Проверьте номера рейсов и подтверждённые даты вылета по маршруту Красноярск — Емельяново — Пхукет, а также информацию о стойках и порядке обращения в авиакомпанию.",
+    "length": 197,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ru/airport-assistance/pairs/vvo-hkt/",
+    "description": "Владивосток ↔ Пхукет. Проверьте номера рейсов и подтверждённые даты вылета по маршруту Владивосток — Пхукет, а также информацию о стойках и порядке обращения в авиакомпанию.",
+    "length": 173,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ja/airport-assistance/routes/mm091-oct2026/",
+    "description": "ピーチ MM091: 関西国際空港（KIX） → スワンナプーム国際空港（BKK） · 2026-10-01–2026-10-24 · 19:30–23:55. 関西国際空港（KIX）からスワンナプーム国際空港（BKK）への便名と確認済みの運航日を確認し、航空会社ごとの空港窓口や対応手順をご覧ください。",
+    "length": 152,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ja/airport-assistance/routes/mm091-w26/",
+    "description": "ピーチ MM091: 関西国際空港（KIX） → スワンナプーム国際空港（BKK） · 2026-10-25–2027-03-27 · 19:15–23:55. 関西国際空港（KIX）からスワンナプーム国際空港（BKK）への便名と確認済みの運航日を確認し、航空会社ごとの空港窓口や対応手順をご覧ください。",
+    "length": 152,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ja/airport-assistance/routes/mm092-oct2026/",
+    "description": "ピーチ MM092: スワンナプーム国際空港（BKK） → 関西国際空港（KIX） · 2026-10-01–2026-10-23 · 01:15–09:20. スワンナプーム国際空港（BKK）から関西国際空港（KIX）への便名と確認済みの運航日を確認し、航空会社ごとの空港窓口や対応手順をご覧ください。",
+    "length": 152,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/ja/airport-assistance/routes/mm092-w26/",
+    "description": "ピーチ MM092: スワンナプーム国際空港（BKK） → 関西国際空港（KIX） · 2026-10-26–2027-03-27 · 01:10–08:45. スワンナプーム国際空港（BKK）から関西国際空港（KIX）への便名と確認済みの運航日を確認し、航空会社ごとの空港窓口や対応手順をご覧ください。",
+    "length": 152,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/guides/caat-passenger-rights/",
+    "description": "Check assistance, compensation conditions and the official CAAT complaint route when a scheduled international flight departing Thailand is delayed or cancelled.",
+    "length": 161,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/guides/delayed-baggage/",
+    "description": "Report it to the operating airline’s arrivals baggage team before leaving. Have your baggage tag and boarding pass ready. Keep the report number and ask how to follow the delivery or tracing process.",
+    "length": 199,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/guides/flight-cancelled/",
+    "description": "Check the airline’s replacement-flight and refund options. Keep the cancellation notice and the airline’s reply. Confirm your booking arrangements before paying for a replacement journey.",
+    "length": 187,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/guides/flight-delayed/",
+    "description": "Ask the airline for the latest departure information. Keep the original schedule and delay notices. Ask about the assistance you need and how to obtain written proof of the disruption.",
+    "length": 184,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/pairs/lgw-bkk/",
+    "description": "London Gatwick Airport ↔ Bangkok Suvarnabhumi Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 195,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/pairs/lhr-bkk/",
+    "description": "London Heathrow Airport ↔ Bangkok Suvarnabhumi Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 196,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/pairs/man-bkk/",
+    "description": "Manchester Airport ↔ Bangkok Suvarnabhumi Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 191,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/ba-bkk-lgw/",
+    "description": "British Airways BA2230: Bangkok Suvarnabhumi Airport → London Gatwick Airport · 2026-10-14 · 22:35–05:55. British Airways operates the dated Bangkok–London Gatwick service.",
+    "length": 172,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/ba-lgw-bkk/",
+    "description": "British Airways BA2231: London Gatwick Airport → Bangkok Suvarnabhumi Airport · 2026-10-13 · 22:15–16:05. British Airways operates the dated London Gatwick–Bangkok service.",
+    "length": 172,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/br67-bkk-lhr-20261013/",
+    "description": "EVA Air BR67: Bangkok Suvarnabhumi Airport → London Heathrow Airport · 2026-10-13–2026-10-19 · 12:20–19:20. EVA Air operates the London Heathrow–Bangkok segment.",
+    "length": 161,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/br68-lhr-bkk-20261013/",
+    "description": "EVA Air BR68: London Heathrow Airport → Bangkok Suvarnabhumi Airport · 2026-10-13–2026-10-19 · 21:35–15:20. EVA Air operates the London Heathrow–Bangkok segment.",
+    "length": 161,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/norse-man-bkk-winter-2026/",
+    "description": "Norse Atlantic : Manchester Airport → Bangkok Suvarnabhumi Airport · 2026-12-05–2027-04-18. Planned direct winter flights from Manchester Terminal 2 to Bangkok.",
+    "length": 160,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/tg910-20261013/",
+    "description": "Thai Airways TG910: Bangkok Suvarnabhumi Airport → London Heathrow Airport · 2026-10-13 · 00:30–07:15. Thai Airways nonstop service in Heathrow’s dated timetable.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/tg911-20261013/",
+    "description": "Thai Airways TG911: London Heathrow Airport → Bangkok Suvarnabhumi Airport · 2026-10-13 · 12:30–06:00. Thai Airways nonstop service in Heathrow’s dated timetable.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/tg916-20261013/",
+    "description": "Thai Airways TG916: Bangkok Suvarnabhumi Airport → London Heathrow Airport · 2026-10-13 · 12:35–19:15. Thai Airways nonstop service in Heathrow’s dated timetable.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/tg917-20261013/",
+    "description": "Thai Airways TG917: London Heathrow Airport → Bangkok Suvarnabhumi Airport · 2026-10-13 · 21:25–15:00. Thai Airways nonstop service in Heathrow’s dated timetable.",
+    "length": 162,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-us/airport-assistance/guides/caat-passenger-rights/",
+    "description": "Check assistance, compensation conditions and the official CAAT complaint route when a scheduled international flight departing Thailand is delayed or canceled.",
+    "length": 160,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-us/airport-assistance/guides/delayed-baggage/",
+    "description": "Report it to the operating airline’s arrivals baggage team before leaving. Have your baggage tag and boarding pass ready. Keep the report number and ask how to follow the delivery or tracing process.",
+    "length": 199,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-us/airport-assistance/guides/flight-cancelled/",
+    "description": "Check the airline’s replacement-flight and refund options. Keep the cancellation notice and the airline’s reply. Confirm your booking arrangements before paying for a replacement journey.",
+    "length": 187,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-us/airport-assistance/guides/flight-delayed/",
+    "description": "Ask the airline for the latest departure information. Keep the original schedule and delay notices. Ask about the assistance you need and how to obtain written proof of the disruption.",
+    "length": 184,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/en-us/airport-assistance/pairs/lax-bkk/",
+    "description": "Los Angeles International Airport ↔ Suvarnabhumi Airport. Check the departure airport, destination, flight number and travel date together, then use the official links below to confirm your journey.",
+    "length": 198,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/es/airport-assistance/guides/caat-passenger-rights/",
+    "description": "Consulte la asistencia, las condiciones de compensación y el canal oficial de reclamación de CAAT si su vuelo internacional regular de regreso desde Tailandia a España se retrasa o cancela.",
+    "length": 189,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/es/airport-assistance/guides/flight-cancelled/",
+    "description": "Consulte las opciones de vuelo alternativo y reembolso con la aerolínea. Guarde el aviso de cancelación y la respuesta recibida. Aclare qué ocurre con su reserva antes de pagar otro viaje.",
+    "length": 188,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/es/airport-assistance/guides/flight-delayed/",
+    "description": "Consulte a la aerolínea la última previsión de salida. Guarde el horario original y los avisos de retraso. Pregunte por la asistencia que necesita y cómo obtener una justificación por escrito.",
+    "length": 192,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/es/airport-assistance/guides/late-arrival-suvarnabhumi/",
+    "description": "Compruebe el horario del tren del aeropuerto y la ubicación de los taxis y del punto de recogida Grab, disponibles las 24 horas, para llegar a su alojamiento.",
+    "length": 158,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/es/airport-assistance/routes/e9846-bkk-mad-20261016/",
+    "description": "Iberojet E9846: Suvarnabhumi, Bangkok → Madrid-Barajas · 2026-10-16 · 18:35–02:45. Vuelo E9 mostrado para la fecha indicada; compruebe la compañía operadora al viajar.",
+    "length": 167,
+    "action": "register existing rendered authored description unchanged"
+  },
+  {
+    "path": "/es/airport-assistance/routes/mad-bkk/",
+    "description": "Iberojet E9845: Madrid-Barajas → Suvarnabhumi, Bangkok · 2026-10-15 · 22:15–15:35. Vuelo E9 mostrado para la fecha indicada; compruebe la compañía operadora al viajar.",
+    "length": 167,
+    "action": "register existing rendered authored description unchanged"
+  }
+]

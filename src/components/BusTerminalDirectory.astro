@@ -1,6 +1,8 @@
 ---
-import data from '../data/transport/bus-terminals.json';
+import {transportData,transportPageLocale} from '../lib/transport-localization.mjs';
+import dataSource from '../data/transport/bus-terminals.json';
 import BusRouteExplorer from './BusRouteExplorer.astro';
+const data=transportData(dataSource,transportPageLocale(Astro.url.pathname));
 ---
 <section class="bus-directory" id="bus-destinations"><h2>어디로 가세요? 목적지부터 고르세요</h2><p>파타야는 에까마이와 모칫2, 북부·동북부는 모칫2, 남부는 사이타이마이에서 먼저 찾아보세요. 방면별 목적지와 하차 지점을 검색할 수 있어요. 같은 도시행도 예약한 편의 출발 터미널을 확인하세요.</p><div class="pattaya-answer"><h3>파타야에 간다면</h3><p><a href="/ko/transport/bus/routes/ekkamai-pattaya/">에까마이 출발 144바트</a> · <a href="/ko/transport/bus/routes/mo-chit-2-pattaya/">모칫2 출발 155바트</a>. RRC 대형버스는 북파타야 터미널에 도착해요. 수쿰윗 지역이면 BTS로 에까마이에 접근할 수 있고, 방콕 북쪽에서 출발한다면 모칫2 접근 경로를 비교해 보세요.</p></div><div class="terminal-choices">{data.terminals.map(t=><a href={t.url}><strong>{t.name}</strong><span>{t.region}</span><small>찾아가는 방법·매표·목적지 안내 →</small></a>)}</div><BusRouteExplorer routes={data.routes} terminals={data.terminals}/><p class="fare-note">파타야 요금은 운영사 게시값이에요. 장거리 요금 예시는 BusTicket 판매 페이지 기준으로, 여행 날짜·차량 등급·수수료에 따라 달라져요. 예매 화면에서 최종 금액과 탑승 지점을 확인하세요.</p></section>
 

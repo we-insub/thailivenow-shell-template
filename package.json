@@ -6,7 +6,7 @@
   "scripts": {
     "indexnow:submit": "node scripts/submit-indexnow.mjs",
     "dev": "astro dev",
-    "build": "npm run test:seo && astro build && node scripts/audit-seo.mjs",
+    "build": "node scripts/check-transport-diagrams.mjs && npm run test:seo && astro build && node scripts/audit-seo.mjs && node scripts/audit-transport-localization.mjs",
     "preview": "astro preview",
     "test:seo": "node --test tests/page-seo.test.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
@@ -18,7 +18,8 @@
     "test:release": "node --test tests/partial-release.test.mjs",
     "test": "node --test tests/*.test.mjs",
     "check:handoff": "node scripts/check-handoff.mjs",
-    "check:runtime": "node scripts/check-local-runtime.mjs"
+    "check:runtime": "node scripts/check-local-runtime.mjs",
+    "audit:transport": "node scripts/audit-transport-localization.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0",

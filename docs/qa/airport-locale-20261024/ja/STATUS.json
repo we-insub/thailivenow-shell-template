@@ -1,0 +1,232 @@
+{
+  "locale": "ja",
+  "market": "JP",
+  "status": "locale source review and scoped tests passed; shared integration/build/HTML/UI pending",
+  "scope": {
+    "question": "Which Thai airport will I use, where are facilities, how do I arrive/depart/transfer and reach my city destination?",
+    "canonicalHub": "/ja/airport-assistance/airports/",
+    "navigation": "Thai airports",
+    "publication": "existing locale routes preserved; local only"
+  },
+  "changedFiles": [
+    "src/data/airport-hub-locales/ja.json",
+    "src/data/meta-descriptions/ja.json"
+  ],
+  "sourceHashes": {
+    "src/data/airport-depth/ja.json": "e1d633776f123ba760d798bdeea368d0ea784a090a0baa1d0617317b6b30dee6",
+    "src/data/airport-depth/transport-ja.json": "c1c678358ed4ac68b11dfead7ea55dda2db7e760dceed3fa5e80009567145500",
+    "public/data/airport-markets/ja.json": "06c0d1c9202e3f4a262670a9c0be0e6e1ef42120f864eaaca65c6168618a4eb5",
+    "src/data/airport-detail-guides-ko.json": "083f86963de7147298dec4e350c969883ccb5e5c14dfad23ad5305b5b2186b0a",
+    "src/data/transport/airport-guides/suvarnabhumi-to-bangkok.json": "442f7d8ea5ba01ca8a169e9f6ca89dc1f72eb1b3c8e1ea8c780431e786d441f1"
+  },
+  "outputHashes": {
+    "src/data/airport-hub-locales/ja.json": "440d2dafb29d0cf18a976a77bdc1fa931adcd22a72ea9821bd1461d4b9df34cb",
+    "src/data/meta-descriptions/ja.json": "67792cec949ae56f1c31d14a4fb06433185d561b2ffd3f230172eb7bf093ea46"
+  },
+  "hub": {
+    "unicodeCharacters": 150,
+    "cards": [
+      "bkk",
+      "dmk",
+      "hkt",
+      "cnx"
+    ],
+    "koreanHubMeaningPreserved": true,
+    "descriptionOverrideMatches": true
+  },
+  "perPageReview": [
+    {
+      "url": "/ja/airport-assistance/airports/bkk/",
+      "description": "スワンナプーム空港を初めて使う人向けの空港案内です。到着時は入国審査と荷物受け取り、出発時はチェックインと出国審査の流れを解説します。建物の出入口Doorと搭乗口Gateの違いや、メインターミナルとA～Gコンコースの位置関係、空港鉄道乗り場が地下1階にあることなど、館内地図・喫煙所・市内交通への入口もまとめています。",
+      "unicodeCharacters": 159,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/ja/airport-assistance/airports/bkk/map/",
+      "description": "スワンナプーム空港の館内地図を、メインターミナル、A～Gコンコース、サテライトターミナルSAT-1の階別に確認できるページです。ターミナル・階・施設の種類から探したい場所を絞り込めます。地図の赤いピンは施設の目印で、施設番号と搭乗口番号は別物である点や、ピンの場所に必ず入れるわけではない点にも注意してください。",
+      "unicodeCharacters": 156,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/ja/airport-assistance/airports/bkk/smoking/",
+      "description": "スワンナプーム空港の喫煙所を、出国審査の前と後に分けて案内します。一般エリアは2階・4階のDoor 1とDoor 10の外にある屋外喫煙室。出国審査後はDコンコースのBurger King横トイレ付近の喫煙室が2026年8～9月の利用記録で確認されています。審査後は一般エリアへ直接戻れないため、利用前に場所を確認してください。",
+      "unicodeCharacters": 164,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/ja/airport-assistance/airports/bkk/transport/",
+      "description": "スワンナプーム空港からバンコク市内への行き方を、エアポートレイルリンク、一般タクシー、Grab、Bolt、予約送迎で比較できます。タクシーは1階Door 4～7の乗り場で、メーター料金に空港加算50バーツと高速代がかかる仕組みを具体例で解説。Grabの乗り場や、宿泊エリア別の乗り換え経路と運賃も確認できます。",
+      "unicodeCharacters": 155,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/ja/airport-assistance/airports/bkk/airlines/",
+      "description": "スワンナプーム空港で日本行き便の航空会社カウンターを探す人向けの一覧です。4階出発ロビーの掲示板で運航会社と便名を確認する方法、ZIPAIRやタイ国際航空（エコノミーH6–H17）、ピーチのチェックイン場所と受付時間、発券・空港事務所・手荷物窓口の連絡先を、関連する日本行き便名とあわせて掲載しています。",
+      "unicodeCharacters": 152,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/ja/airport-assistance/airports/dmk/",
+      "description": "ドンムアン国際空港（DMK）を利用する人向けの空港別案内です。第1ターミナルが国際線、第2ターミナルが国内線で、日本へ帰る国際線の出発は第1ターミナルへ向かいます。階別地図で店舗や銀行、空港施設を探せるほか、出国審査前に使える第1ターミナル3階Door 8外の屋外喫煙場所、日本と結ぶ路線や航空会社の窓口も確認できます。",
+      "unicodeCharacters": 160,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/ja/airport-assistance/airports/hkt/",
+      "description": "プーケット国際空港（HKT）を初めて利用する人向けの空港案内です。国際線と国内線のターミナルが分かれており、国際線の到着ロビーは1階、セルフチェックイン機は3階出発ロビーにあります。国際線の手荷物はベルト1～5で受け取ります。医療室や喫煙所の場所を階別地図で確認でき、空港代表電話や日本との路線もあわせて掲載しています。",
+      "unicodeCharacters": 160,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/ja/airport-assistance/airports/cnx/",
+      "description": "チェンマイ国際空港（CNX）を初めて利用する人向けの空港案内です。公式サービス時間は6時から24時まで。国内線と国際線の表示の見分け方、配車アプリの呼び出し場所と指定乗車場所の確認、国際線ターミナルDoor 12の空港シャトルや国内線1階の24時間対応Grabサービスセンターなど市内への移動手段、関空との路線や航空会社窓口をまとめています。",
+      "unicodeCharacters": 171,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    }
+  ],
+  "commonAirportParity": [
+    {
+      "code": "BKK",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        1,
+        3,
+        3
+      ],
+      "faq": 1,
+      "smokingCaveats": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "protectedFieldsPreserved": true
+    },
+    {
+      "code": "DMK",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        1,
+        3
+      ],
+      "faq": 3,
+      "smokingCaveats": [
+        2,
+        2
+      ],
+      "protectedFieldsPreserved": true
+    },
+    {
+      "code": "HKT",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        1,
+        2
+      ],
+      "faq": 3,
+      "smokingCaveats": [
+        2,
+        2
+      ],
+      "protectedFieldsPreserved": true
+    },
+    {
+      "code": "CNX",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        2,
+        5,
+        3,
+        1
+      ],
+      "faq": 4,
+      "smokingCaveats": [
+        2
+      ],
+      "protectedFieldsPreserved": true
+    }
+  ],
+  "transport": {
+    "sections": 10,
+    "koreanSections": 10,
+    "tables": [
+      6,
+      3,
+      5,
+      5,
+      4
+    ],
+    "faq": 4,
+    "sources": 8,
+    "sourceURLsPreserved": true
+  },
+  "marketData": {
+    "routes": 65,
+    "services": 58,
+    "airlines": 8,
+    "departureAirports": [
+      "HND",
+      "NRT",
+      "KIX",
+      "NGO",
+      "FUK",
+      "CTS",
+      "OKA"
+    ],
+    "departureMetaMissing": [],
+    "departureMetaInvalid": [],
+    "departureAirportFullSemanticReview": "outside 8 Thai-airport/topic source review; existing data retained"
+  },
+  "checks": {
+    "command": "node --test tests/airport-depth.test.mjs tests/airport-market-scope.test.mjs tests/airport-guide-navigation.test.mjs",
+    "tests": 18,
+    "passed": 18,
+    "failed": 0
+  },
+  "preservation": "Existing full localized airport/transport manuscripts, dates, sources, IDs, geometry, map rights and market data unchanged. ja three meta descriptions changed only to complete sentences.",
+  "unfinished": [
+    "Parent shared hub rendering and back-links",
+    "Fresh isolated full build with SEO/date/editorial audits",
+    "Fresh generated HTML 8 detail topics plus hub per locale",
+    "PC/mobile and Pages runtime validation",
+    "Departure-airport full semantic review if included in parent scope"
+  ],
+  "release": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "indexNow": false,
+    "indexing": "unverified",
+    "rankings": "unmeasured",
+    "aiCitation": "unmeasured",
+    "measurement": "After separately authorized production publication, compare actual impressions/clicks/citations after 14 days; no automation created."
+  }
+}

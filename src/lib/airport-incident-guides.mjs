@@ -1,11 +1,11 @@
 import wording from '../data/airport-depth/incidents.json' with {type:'json'};
-import hubCopy from '../data/airport-assistance-hub-copy.json' with {type:'json'};
+import {assistanceCopy,airportEnglishText} from './airport-assistance-copy.mjs';
 const journeyLabels={ms:'Malaysia–Thailand','zh-cn':'中国大陆往返泰国','zh-tw':'台灣往返泰國',ja:'日本発・タイ旅行',ru:'Россия — Таиланд',es:'España–Tailandia','en-in':'India–Thailand','en-gb':'UK–Thailand','en-us':'US–Thailand'};
 const types=[['flight-delayed','delay'],['flight-cancelled','cancel'],['delayed-baggage','missing'],['damaged-baggage','damage']];
-export function airportIncidentCopy(locale){return wording[locale.startsWith('en')?'en':locale];}
+export function airportIncidentCopy(locale){const c=wording[locale.startsWith('en')?'en':locale];return locale==='en-us'?Object.fromEntries(Object.entries(c).map(([key,text])=>[key,airportEnglishText(text,locale)])):c;}
 export function withIncidentGuides(data,locale){
  if(locale==='ko')return data;
- const c=airportIncidentCopy(locale),hub=hubCopy[locale.startsWith('en')?'en':locale];if(!c||!hub)throw Error(`Missing incident manuscript ${locale}`);
+ const c=airportIncidentCopy(locale),hub=assistanceCopy(locale);if(!c||!hub)throw Error(`Missing incident manuscript ${locale}`);
  const guides=data.guides.map(g=>structuredClone(g));
  for(const [i,[id,prefix]] of types.entries()){
   const sections=[1,2,3].map(n=>({title:c[`${prefix}${n}Title`],text:c[`${prefix}${n}`]}));

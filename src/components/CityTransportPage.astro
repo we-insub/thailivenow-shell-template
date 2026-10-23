@@ -1,9 +1,12 @@
 ---
+import {transportData,transportText,transportFormat,transportPageLocale} from '../lib/transport-localization.mjs';
 import SiteFooter from './SiteFooter.astro';
 import DetailHeader from './DetailHeader.astro';
 import BangkokTransport from './BangkokTransport.astro';
 import RailUsageGuide from './RailUsageGuide.astro';
-import data from '../data/transport/bangkok.json';
+import dataSource from '../data/transport/bangkok.json';
+const transportLocale=transportPageLocale(Astro.url.pathname);
+const data=transportData(dataSource,transportLocale);
 const destinations=[['시암·대형 쇼핑몰','BTS Siam','수쿰윗선과 실롬선이 만나는 역을 기준으로 이동해요.'],['아속·수쿰윗','BTS Asok · MRT Sukhumvit','지상철과 MRT 중 출발지에서 편한 노선을 선택해요.'],['차이나타운','MRT Wat Mangkon','블루라인으로 구도심과 차이나타운을 연결할 수 있어요.'],['왓아룬','MRT Itsaraphap · Wat Arun 선착장','철도에서 도보로 접근하거나 강변 선착장을 이용해요.']];
 ---
 <!doctype html><html lang="ko"><head><link rel="icon" href="/favicon.ico?v=20261013" sizes="16x16 32x32 48x48" /><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261013" sizes="any" /><link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20261013" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>방콕 교통 (Bangkok Transport) | 실제 철도 지도·표 구매·이동 안내</title><meta name="description" content="방콕 BTS·MRT·공항철도 노선과 역을 실제 지도에서 확인하고, 표 구매와 탑승 방법을 알아보세요."/></head><body><DetailHeader/><main><span class="eyebrow">BANGKOK TRAVEL GUIDE</span><h1>방콕 교통 (Bangkok Transport)</h1><p class="intro">시암에서 쇼핑하고, 차이나타운을 걷고, 강 건너 왓아룬까지 가려면 어디에서 타고 내려야 할까요? 먼저 지도에서 목적지와 가까운 역을 찾아보세요. 역 이름을 누르면 연결 노선과 이용 안내를 볼 수 있어요.</p><nav class="jump"><a href="#rail-map-heading">지도에서 역 찾기</a><a href="#howto">처음 타는 방법</a><a href="#lines">노선별 안내</a><a href="#river">강변·보트 이동</a></nav>

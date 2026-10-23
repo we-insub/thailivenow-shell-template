@@ -1,0 +1,17 @@
+{
+  "baseCommit": "b8284207bf7b68e713c198567df3ae9f40586281",
+  "scopeFiles": [
+    "src/lib/airport-guide-navigation.mjs",
+    "src/lib/airport-assistance-layout.ts",
+    "src/lib/airport-assistance-copy.mjs",
+    "src/lib/airport-incident-guides.mjs",
+    "src/lib/airport-regional-wording.mjs",
+    "src/components/AirportStaffPhrases.astro",
+    "src/data/airport-depth/editorial-revisions.json",
+    "tests/airport-assistance-seo.test.mjs",
+    "src/lib/page-seo.mjs",
+    "src/data/meta-descriptions/ja.json"
+  ],
+  "excludedOtherWork": "Existing uncommitted airport-hub and transport changes are excluded from this task-only validation. Working checkout files were not reset.",
+  "fixtureFiles": []
+}

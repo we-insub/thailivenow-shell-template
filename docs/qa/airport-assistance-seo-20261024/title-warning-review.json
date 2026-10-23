@@ -1,0 +1,1342 @@
+[
+  {
+    "path": "/en-gb/airport-assistance/routes/br67-bkk-lhr-20261013/",
+    "title": "Bangkok Suvarnabhumi Airport → London Heathrow Airport · BR67 · 2026-10-13–2026-10-19 · 12:20–19:20 | ThaiLiveNow · UK",
+    "description": "EVA Air BR67: Bangkok Suvarnabhumi Airport → London Heathrow Airport · 2026-10-13–2026-10-19 · 12:20–19:20. EVA Air operates the London Heathrow–Bangkok segment.",
+    "canonical": "https://thailivenow.com/en-gb/airport-assistance/routes/br67-bkk-lhr-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-gb/airport-assistance/routes/br68-lhr-bkk-20261013/",
+    "title": "London Heathrow Airport → Bangkok Suvarnabhumi Airport · BR68 · 2026-10-13–2026-10-19 · 21:35–15:20 | ThaiLiveNow · UK",
+    "description": "EVA Air BR68: London Heathrow Airport → Bangkok Suvarnabhumi Airport · 2026-10-13–2026-10-19 · 21:35–15:20. EVA Air operates the London Heathrow–Bangkok segment.",
+    "canonical": "https://thailivenow.com/en-gb/airport-assistance/routes/br68-lhr-bkk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/bom-bkk/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai ↔ Suvarnabhumi Airport, Bangkok | ThaiLiveNow · India",
+    "description": "Mumbai to Bangkok flights compared: Air India AI2354, Thai Airways TG318 and TG352, and IndiGo 6E1049, 6E1059 and 6E1603, with return flights, Mumbai T2 counters and Bangkok baggage help.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/pairs/bom-bkk/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/pairs/bom-hkt/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) ↔ Phuket International Airport (HKT) | ThaiLiveNow · India",
+    "description": "Mumbai to Phuket direct flights on IndiGo: 6E1311 and 6E1071 outbound, 6E1072 and 6E1312 back, around 4.5 hours each. Find the Mumbai IndiGo ticket desk and Phuket arrival baggage desk.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/pairs/bom-hkt/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1049-20261014/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1049 · 2026-10-14 · 00:45–06:55 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1049 Mumbai to Bangkok on 14 October 2026 departs BOM at 00:45 and lands at Suvarnabhumi at 06:55, a scheduled 4 h 40 min. Check live status and IndiGo baggage help before you fly.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1049-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1050-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) · 6E1050 · 2026-10-14 · 07:55–10:40 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1050 Bangkok to Mumbai, 14 October 2026: leaves Suvarnabhumi at 07:55 and reaches Mumbai at 10:40 local time after 4 h 15 min. Thailand’s CAAT rights apply to delays on this departure.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1050-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1053-20261014/",
+    "title": "Indira Gandhi International Airport, Delhi (DEL) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1053 · 2026-10-14 · 15:45–21:45 | ThaiLiveNow · India",
+    "description": "Delhi to Bangkok on IndiGo 6E1053, 14 October 2026: 15:45 from Indira Gandhi International, arriving Suvarnabhumi 21:45 after a 4 h 30 min block. See baggage desks and late-arrival transport tips.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1053-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1054-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Indira Gandhi International Airport, Delhi (DEL) · 6E1054 · 2026-10-14 · 20:15–23:10 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1054 from Bangkok to Delhi on 14 October 2026 leaves at 20:15 and lands at 23:10, about 4 h 25 min. Find Suvarnabhumi counters, CAAT delay rights and insurance claim documents.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1054-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1057-20261014/",
+    "title": "Netaji Subhas Chandra Airport, Kolkata (CCU) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1057 · 2026-10-14 · 23:30–03:45 | ThaiLiveNow · India",
+    "description": "Kolkata to Bangkok overnight on IndiGo 6E1057: departs CCU 23:30 on 14 October 2026, landing 03:45 next day after 2 h 45 min. Plan a taxi or Grab for an early-hours arrival at Suvarnabhumi.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1057-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1058-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Netaji Subhas Chandra Airport, Kolkata (CCU) · 6E1058 · 2026-10-14 · 04:45–05:55 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1058 Bangkok to Kolkata, 14 October 2026: an early 04:45 departure from Suvarnabhumi, arriving CCU at 05:55 local time, scheduled 2 h 40 min. Check today’s status before you leave.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1058-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1059-20261014/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1059 · 2026-10-14 · 13:05–19:15 | ThaiLiveNow · India",
+    "description": "Mumbai to Bangkok afternoon flight IndiGo 6E1059 on 14 October 2026: departs 13:05, arrives 19:15 local time, 4 h 40 min block. Links cover check-in, baggage reports and HDFC ERGO or ICICI claims.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1059-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1060-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) · 6E1060 · 2026-10-14 · 22:45–01:40 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1060 Bangkok to Mumbai leaves Suvarnabhumi at 22:45 on 14 October 2026 and lands at 01:40 the next day after 4 h 25 min. Know your CAAT rights if this Thailand departure is delayed.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1060-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1061-20261014/",
+    "title": "Chennai International Airport (MAA) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1061 · 2026-10-14 · 03:20–08:25 | ThaiLiveNow · India",
+    "description": "Chennai to Bangkok on IndiGo 6E1061: a 03:20 departure on 14 October 2026, reaching Suvarnabhumi at 08:25 after a 3 h 35 min schedule. Confirm the date’s flight status and where to report bag issues.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1061-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1062-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Chennai International Airport (MAA) · 6E1062 · 2026-10-14 · 09:25–11:10 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1062 Bangkok to Chennai on 14 October 2026 departs 09:25 and arrives MAA 11:10 local time, a 3 h 15 min block. Check Suvarnabhumi counters and what evidence to keep after a delay.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1062-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1064-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Indira Gandhi International Airport, Delhi (DEL) · 6E1064 · 2026-10-14 · 11:55–14:45 | ThaiLiveNow · India",
+    "description": "Bangkok to Delhi midday on IndiGo 6E1064, 14 October 2026: departs 11:55, lands 14:45 local time after 4 h 20 min. Useful links for check-in desks, CAAT complaints and TATA AIG or HDFC ERGO claims.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1064-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1069-20261014/",
+    "title": "Indira Gandhi International Airport, Delhi (DEL) → Krabi International Airport (KBV) · 6E1069 · 2026-10-14 · 06:50–12:50 | ThaiLiveNow · India",
+    "description": "Delhi to Krabi direct on IndiGo 6E1069: leaves DEL at 06:50 on 14 October 2026 and lands in Krabi at 12:50, scheduled 4 h 30 min. Report any missing bag at the IndiGo arrival-hall desk.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1069-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1070-20261014/",
+    "title": "Krabi International Airport (KBV) → Indira Gandhi International Airport, Delhi (DEL) · 6E1070 · 2026-10-14 · 14:05–16:45 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1070 Krabi to Delhi on 14 October 2026 departs KBV 14:05 and reaches Delhi 16:45 local time, about 4 h 10 min. Check live status and keep delay notices for insurance.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1070-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1071-20261014/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) → Phuket International Airport (HKT) · 6E1071 · 2026-10-14 · 03:55–10:05 | ThaiLiveNow · India",
+    "description": "Mumbai to Phuket on IndiGo 6E1071: an early 03:55 departure on 14 October 2026, arriving HKT at 10:05 after 4 h 40 min. Confirm today’s status and baggage reporting at Phuket.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1071-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1072-20261014/",
+    "title": "Phuket International Airport (HKT) → Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) · 6E1072 · 2026-10-14 · 12:20–15:25 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1072 Phuket to Mumbai, 14 October 2026: departs 12:20, lands 15:25 local time with a 4 h 35 min block. Links cover Phuket check-in and CAAT rights for flights leaving Thailand.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1072-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1073-20261014/",
+    "title": "Indira Gandhi International Airport, Delhi (DEL) → Phuket International Airport (HKT) · 6E1073 · 2026-10-14 · 05:10–11:20 | ThaiLiveNow · India",
+    "description": "Delhi to Phuket morning flight IndiGo 6E1073 leaves at 05:10 on 14 October 2026 and lands at 11:20 after 4 h 40 min. See Delhi and Phuket airport counters and how to report baggage issues.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1073-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1074-20261014/",
+    "title": "Phuket International Airport (HKT) → Indira Gandhi International Airport, Delhi (DEL) · 6E1074 · 2026-10-14 · 11:05–14:20 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1074 Phuket to Delhi on 14 October 2026: 11:05 departure, 14:20 arrival in Delhi, scheduled 4 h 45 min. Check live status, airport counters and what to do if the flight is delayed.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1074-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1076-20261014/",
+    "title": "Phuket International Airport (HKT) → Bengaluru International Airport (BLR) · 6E1076 · 2026-10-14 · 12:45–14:40 | ThaiLiveNow · India",
+    "description": "Phuket to Bengaluru on IndiGo 6E1076: departs HKT 12:45 on 14 October 2026, landing at BLR 14:40 local time after 3 h 25 min. Know where to report damaged bags and claim delays.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1076-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1077-20261014/",
+    "title": "Bengaluru International Airport (BLR) → Phuket International Airport (HKT) · 6E1077 · 2026-10-14 · 06:30–11:45 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1077 Bengaluru to Phuket leaves at 06:30 on 14 October 2026 and arrives at 11:45 after a 3 h 45 min schedule. Check status, Phuket baggage desks and Grab pickup at arrivals.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1077-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1081-20261014/",
+    "title": "Indira Gandhi International Airport, Delhi (DEL) → Phuket International Airport (HKT) · 6E1081 · 2026-10-14 · 15:40–21:50 | ThaiLiveNow · India",
+    "description": "Delhi to Phuket evening flight IndiGo 6E1081 on 14 October 2026 departs 15:40 and arrives 21:50 after 4 h 40 min. Read late-arrival tips for Phuket and how to report missing luggage.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1081-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1082-20261014/",
+    "title": "Phuket International Airport (HKT) → Indira Gandhi International Airport, Delhi (DEL) · 6E1082 · 2026-10-14 · 22:50–02:05 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1082 Phuket to Delhi, a late 22:50 departure on 14 October 2026, reaches Delhi at 02:05 the next day after 4 h 45 min. CAAT rights apply if this Thailand departure is delayed.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1082-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1213-20261014/",
+    "title": "Bengaluru International Airport (BLR) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1213 · 2026-10-14 · 01:40–07:00 | ThaiLiveNow · India",
+    "description": "Bengaluru to Bangkok overnight on IndiGo 6E1213: departs 01:40 on 14 October 2026, lands at Suvarnabhumi 07:00 after 3 h 50 min. Links cover IndiGo desks, baggage reports and insurance claims.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1213-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1214-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Bengaluru International Airport (BLR) · 6E1214 · 2026-10-14 · 08:05–10:15 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1214 Bangkok to Bengaluru on 14 October 2026 leaves Suvarnabhumi at 08:05 and lands at 10:15 local time, scheduled 3 h 40 min. Check status and keep boarding passes for claims.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1214-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1311-20261014/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) → Phuket International Airport (HKT) · 6E1311 · 2026-10-14 · 15:55–21:55 | ThaiLiveNow · India",
+    "description": "Mumbai to Phuket afternoon flight IndiGo 6E1311: departs 15:55 on 14 October 2026 and lands 21:55 after 4 h 30 min. Plan your evening transfer and know where to report a missing bag.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1311-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1312-20261014/",
+    "title": "Phuket International Airport (HKT) → Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) · 6E1312 · 2026-10-14 · 22:55–01:50 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1312 Phuket to Mumbai leaves HKT at 22:55 on 14 October 2026, arriving 01:50 the next day after 4 h 25 min. Check Phuket airport counters and Thailand departure delay rights.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1312-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1347-20261014/",
+    "title": "Indira Gandhi International Airport, Delhi (DEL) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1347 · 2026-10-14 · 06:50–12:50 | ThaiLiveNow · India",
+    "description": "Delhi to Bangkok morning flight IndiGo 6E1347 on 14 October 2026: departs 06:50, lands at Suvarnabhumi 12:50 after a 4 h 30 min block. Find the right IndiGo assistance desk on arrival.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1347-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1493-20261014/",
+    "title": "Netaji Subhas Chandra Airport, Kolkata (CCU) → Phuket International Airport (HKT) · 6E1493 · 2026-10-14 · 06:40–11:20 | ThaiLiveNow · India",
+    "description": "Kolkata to Phuket on IndiGo 6E1493: departs CCU 06:40 on 14 October 2026 and arrives HKT 11:20 after 3 h 10 min. Check live status and where to get help if your luggage is delayed.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1493-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1494-20261014/",
+    "title": "Phuket International Airport (HKT) → Netaji Subhas Chandra Airport, Kolkata (CCU) · 6E1494 · 2026-10-14 · 12:25–13:55 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1494 Phuket to Kolkata, 14 October 2026: leaves 12:25, lands in Kolkata 13:55 local time after a 3 h schedule. Find Phuket counters and the insurance documents to keep.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1494-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1603-20261014/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) → Suvarnabhumi International Airport, Bangkok (BKK) · 6E1603 · 2026-10-14 · 04:40–10:40 | ThaiLiveNow · India",
+    "description": "Mumbai to Bangkok on IndiGo 6E1603: a 04:40 departure on 14 October 2026, reaching Suvarnabhumi 10:40 after 4 h 30 min. Find the right IndiGo assistance desk and arrival baggage help.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1603-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/6e1604-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM) · 6E1604 · 2026-10-14 · 13:50–17:10 | ThaiLiveNow · India",
+    "description": "IndiGo 6E1604 Bangkok to Mumbai departs Suvarnabhumi 13:50 on 14 October 2026 and lands 17:10 local time, scheduled 4 h 50 min. Check counters, CAAT delay rights and claim documents.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/6e1604-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2303-20261013/",
+    "title": "Suvarnabhumi Airport, Bangkok → Indira Gandhi International Airport, Delhi · AI2303 · 2026-10-13 · 22:25–01:35 | ThaiLiveNow · India",
+    "description": "Air India AI2303 Bangkok to Delhi on 13 October 2026 departs Suvarnabhumi at 22:25 and lands at 01:35 the next day, a scheduled 4 h 40 min. Know your CAAT rights if it is delayed.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2303-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2304-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Suvarnabhumi Airport, Bangkok · AI2304 · 2026-10-13 · 14:30–20:25 | ThaiLiveNow · India",
+    "description": "Delhi to Bangkok on Air India AI2304, 13 October 2026: leaves at 14:30 and reaches Suvarnabhumi at 20:25 after 4 h 25 min. Get the free Flight Disruption Statement if it is delayed.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2304-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2332-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Suvarnabhumi Airport, Bangkok · AI2332 · 2026-10-13 · 11:00–16:55 | ThaiLiveNow · India",
+    "description": "Air India AI2332 Delhi to Bangkok departs at 11:00 on 13 October 2026 and arrives at 16:55 local time, scheduled 4 h 25 min. Links lead to Delhi airport counters and Air India disruption evidence.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2332-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2333-20261013/",
+    "title": "Suvarnabhumi Airport, Bangkok → Indira Gandhi International Airport, Delhi · AI2333 · 2026-10-13 · 07:30–10:30 | ThaiLiveNow · India",
+    "description": "Bangkok to Delhi morning flight Air India AI2333: 07:30 departure on 13 October 2026, landing 10:30 after 4 h 30 min. Check today’s flight status and your Suvarnabhumi check-in desk.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2333-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2335-20261013/",
+    "title": "Suvarnabhumi Airport, Bangkok → Indira Gandhi International Airport, Delhi · AI2335 · 2026-10-13 · 17:55–20:55 | ThaiLiveNow · India",
+    "description": "Air India AI2335 from Bangkok to Delhi, 13 October 2026: departs 17:55, arrives 20:55 local time after a 4 h 30 min schedule. Links cover Suvarnabhumi counters and insurance claim papers.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2335-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2336-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Suvarnabhumi Airport, Bangkok · AI2336 · 2026-10-13 · 00:30–06:30 | ThaiLiveNow · India",
+    "description": "Delhi to Bangkok overnight on Air India AI2336 from Terminal 3: departs 00:30 on 13 October 2026, lands 06:30 after 4 h 30 min. Request the free disruption statement for any delay.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2336-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2353-20261013/",
+    "title": "Suvarnabhumi Airport, Bangkok → Chhatrapati Shivaji Maharaj International Airport, Mumbai · AI2353 · 2026-10-13 · 14:45–17:55 | ThaiLiveNow · India",
+    "description": "Air India AI2353 Bangkok to Mumbai leaves Suvarnabhumi at 14:45 on 13 October 2026 and lands at 17:55 local time, scheduled 4 h 40 min. See Thailand’s CAAT complaint route for delays.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2353-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2354-20261013/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai → Suvarnabhumi Airport, Bangkok · AI2354 · 2026-10-13 · 07:20–13:35 | ThaiLiveNow · India",
+    "description": "Mumbai to Bangkok on Air India AI2354: departs 07:20 on 13 October 2026, reaching Suvarnabhumi at 13:35 after a 4 h 45 min block. See Mumbai airport counters and delay proof options.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2354-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2355-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Suvarnabhumi Airport, Bangkok · AI2355 · 2026-10-13 · 08:25–14:15 | ThaiLiveNow · India",
+    "description": "Air India AI2355 Delhi to Bangkok, 13 October 2026: an 08:25 departure arriving at 14:15 local time, scheduled 4 h 20 min. Check live status and how to claim delay evidence from Air India.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2355-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2356-20261013/",
+    "title": "Suvarnabhumi Airport, Bangkok → Indira Gandhi International Airport, Delhi · AI2356 · 2026-10-13 · 15:15–18:15 | ThaiLiveNow · India",
+    "description": "Bangkok to Delhi afternoon flight Air India AI2356 departs at 15:15 on 13 October 2026 and lands at 18:15 after 4 h 30 min. Find Suvarnabhumi check-in and what to keep after a cancellation.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2356-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2376-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Phuket International Airport · AI2376 · 2026-10-13 · 13:25–19:45 | ThaiLiveNow · India",
+    "description": "Delhi to Phuket on Air India AI2376: leaves at 13:25 on 13 October 2026, lands at 19:45 local time after 4 h 50 min. Keep your boarding pass and airline notices for any delay or baggage claim.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2376-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ai2377-20261013/",
+    "title": "Phuket International Airport → Indira Gandhi International Airport, Delhi · AI2377 · 2026-10-13 · 22:20–01:45 | ThaiLiveNow · India",
+    "description": "Air India AI2377 Phuket to Delhi departs at 22:20 on 13 October 2026 and arrives 01:45 the next day, a 4 h 55 min schedule. Check the Phuket airport desk and free disruption statement.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ai2377-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ix215-20261017/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Varanasi (VNS) · IX215 · 2026-10-17 · 14:40–16:40 | ThaiLiveNow · India",
+    "description": "Air India Express IX215 Bangkok to Varanasi on 17 October 2026 leaves Suvarnabhumi at 14:40 and arrives at 16:40 local time after 3 h 30 min. File a PIR before leaving if bags are missing.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ix215-20261017/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ix216-20261017/",
+    "title": "Varanasi (VNS) → Suvarnabhumi International Airport, Bangkok (BKK) · IX216 · 2026-10-17 · 08:35–13:40 | ThaiLiveNow · India",
+    "description": "Varanasi to Bangkok on Air India Express IX216: departs VNS 08:35 on 17 October 2026, reaching Suvarnabhumi 13:40 after a 3 h 35 min block. Confirm your Varanasi counter on the day.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ix216-20261017/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ix241-20261014/",
+    "title": "Suvarnabhumi International Airport, Bangkok (BKK) → Pune (PNQ) · IX241 · 2026-10-14 · 14:40–17:25 | ThaiLiveNow · India",
+    "description": "Air India Express IX241 Bangkok to Pune departs at 14:40 on 14 October 2026 and lands at 17:25 local time, scheduled 4 h 15 min. Check live status and baggage report rules for Air India Express.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ix241-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/ix242-20261014/",
+    "title": "Pune (PNQ) → Suvarnabhumi International Airport, Bangkok (BKK) · IX242 · 2026-10-14 · 07:15–13:40 | ThaiLiveNow · India",
+    "description": "Pune to Bangkok direct on Air India Express IX242: leaves PNQ at 07:15 on 14 October 2026 and lands at Suvarnabhumi 13:40 after 4 h 55 min. See airport counters and baggage report steps.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/ix242-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg313-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Netaji Subhas Chandra Airport, Kolkata · TG313 · 2026-10-13 · 23:45–00:45 | ThaiLiveNow · India",
+    "description": "Thai Airways TG313 Bangkok to Kolkata departs at 23:45 on 13 October 2026 and lands at 00:45 local time the next day, a 2 h 30 min flight. Find THAI check-in rows at Suvarnabhumi.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg313-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg314-20261013/",
+    "title": "Netaji Subhas Chandra Airport, Kolkata → Suvarnabhumi International Airport, Bangkok · TG314 · 2026-10-13 · 02:00–06:10 | ThaiLiveNow · India",
+    "description": "Kolkata to Bangkok on Thai Airways TG314: departs CCU 02:00 on 13 October 2026, arriving Suvarnabhumi 06:10 after 2 h 40 min. Request a THAI disruption certificate if the flight is delayed.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg314-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg315-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Indira Gandhi International Airport, Delhi · TG315 · 2026-10-13 · 18:30–21:30 | ThaiLiveNow · India",
+    "description": "Thai Airways TG315 Bangkok to Delhi Terminal 3, 13 October 2026: departs 18:30 and arrives 21:30 local time after 4 h 30 min. Check the live flight status and THAI baggage guides.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg315-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg316-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Suvarnabhumi International Airport, Bangkok · TG316 · 2026-10-13 · 22:50–04:35 | ThaiLiveNow · India",
+    "description": "Delhi to Bangkok night flight Thai Airways TG316 leaves Terminal 3 at 22:50 on 13 October 2026 and lands at 04:35 the next day after 4 h 15 min. Plan an early-hours transfer from Suvarnabhumi.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg316-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg317-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Chhatrapati Shivaji Maharaj International Airport, Mumbai · TG317 · 2026-10-13 · 18:55–21:55 | ThaiLiveNow · India",
+    "description": "Thai Airways TG317 Bangkok to Mumbai Terminal 2 on 13 October 2026: departs 18:55, lands 21:55 local time, scheduled 4 h 30 min. Check THAI counters and its damaged or delayed baggage steps.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg317-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg318-20261013/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai → Suvarnabhumi International Airport, Bangkok · TG318 · 2026-10-13 · 23:35–05:35 | ThaiLiveNow · India",
+    "description": "Mumbai to Bangkok on Thai Airways TG318 from Terminal 2: departs 23:35 on 13 October 2026, arriving 05:35 next morning after 4 h 30 min. Plan your early transfer from Suvarnabhumi.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg318-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg323-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Indira Gandhi International Airport, Delhi · TG323 · 2026-10-13 · 07:35–10:35 | ThaiLiveNow · India",
+    "description": "Thai Airways TG323 Bangkok to Delhi departs at 07:35 on 13 October 2026 and lands at Terminal 3 at 10:35 after 4 h 30 min. Check live status and THAI’s disruption certificate form.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg323-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg324-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Suvarnabhumi International Airport, Bangkok · TG324 · 2026-10-13 · 11:40–17:35 | ThaiLiveNow · India",
+    "description": "Delhi to Bangkok daytime flight Thai Airways TG324 leaves Terminal 3 at 11:40 on 13 October 2026, arriving 17:35 after 4 h 25 min. Find insurance claim documents for HDFC ERGO or ICICI.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg324-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg325-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Bengaluru International Airport · TG325 · 2026-10-13 · 21:50–23:55 | ThaiLiveNow · India",
+    "description": "Thai Airways TG325 Bangkok to Bengaluru, 13 October 2026: departs 21:50 and reaches BLR Terminal 2 at 23:55 local time, a 3 h 35 min flight. Find Suvarnabhumi check-in and baggage contacts.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg325-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg326-20261013/",
+    "title": "Bengaluru International Airport → Suvarnabhumi International Airport, Bangkok · TG326 · 2026-10-13 · 00:55–06:20 | ThaiLiveNow · India",
+    "description": "Bengaluru to Bangkok on Thai Airways TG326 from Terminal 2: departs 00:55 on 13 October 2026 and lands at 06:20 after 3 h 55 min. Report a damaged or delayed bag to THAI before leaving.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg326-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg331-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Indira Gandhi International Airport, Delhi · TG331 · 2026-10-13 · 23:15–02:15 | ThaiLiveNow · India",
+    "description": "Thai Airways TG331 Bangkok to Delhi late flight leaves at 23:15 on 13 October 2026 and lands at 02:15 the next day at Terminal 3 after 4 h 30 min. Know CAAT rights for delays.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg331-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg332-20261013/",
+    "title": "Indira Gandhi International Airport, Delhi → Suvarnabhumi International Airport, Bangkok · TG332 · 2026-10-13 · 03:20–09:15 | ThaiLiveNow · India",
+    "description": "Delhi to Bangkok early flight Thai Airways TG332 departs Terminal 3 at 03:20 on 13 October 2026, landing at 09:15 after 4 h 25 min. See THAI delayed baggage and insurance certificate help.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg332-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg337-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Chennai International Airport · TG337 · 2026-10-13 · 21:55–23:45 | ThaiLiveNow · India",
+    "description": "Thai Airways TG337 Bangkok to Chennai departs 21:55 on 13 October 2026 and reaches MAA Terminal 2 at 23:45 local time after 3 h 20 min. Check Suvarnabhumi counters and live status.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg337-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg338-20261013/",
+    "title": "Chennai International Airport → Suvarnabhumi International Airport, Bangkok · TG338 · 2026-10-13 · 01:10–06:10 | ThaiLiveNow · India",
+    "description": "Chennai to Bangkok on Thai Airways TG338 from Terminal 2: leaves 01:10 on 13 October 2026, arriving 06:10 after 3 h 30 min. Check your travel date’s status and the THAI delay certificate.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg338-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg351-20261013/",
+    "title": "Suvarnabhumi International Airport, Bangkok → Chhatrapati Shivaji Maharaj International Airport, Mumbai · TG351 · 2026-10-13 · 22:30–01:30 | ThaiLiveNow · India",
+    "description": "Thai Airways TG351 Bangkok to Mumbai late flight departs 22:30 on 13 October 2026 and lands at Terminal 2 at 01:30 the next day, 4 h 30 min scheduled. Check THAI desks and claim steps.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg351-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/en-in/airport-assistance/routes/tg352-20261013/",
+    "title": "Chhatrapati Shivaji Maharaj International Airport, Mumbai → Suvarnabhumi International Airport, Bangkok · TG352 · 2026-10-13 · 02:40–08:40 | ThaiLiveNow · India",
+    "description": "Thai Airways TG352 is an overnight Mumbai–Bangkok service: departs Terminal 2 at 02:40 on 13 October 2026 and lands at 08:40 after 4 h 30 min. Read THAI baggage and delay certificate guides.",
+    "canonical": "https://thailivenow.com/en-in/airport-assistance/routes/tg352-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak818-kul-hkt-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · AK818 · 2026-10-13 · 07:35–08:05 | ThaiLiveNow",
+    "description": "Penerbangan AirAsia AK818 dari KLIA ke Phuket pada 13 Oktober 2026 berlepas 07:35 dan tiba 08:05 waktu tempatan, kira-kira 1 jam 30 minit. Semak status hari ini sebelum ke lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak818-kul-hkt-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak819-hkt-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · AK819 · 2026-10-13 · 08:40–11:10 | ThaiLiveNow",
+    "description": "AirAsia AK819 Phuket ke Kuala Lumpur pada 13 Oktober 2026: berlepas 08:40 dan mendarat 11:10 waktu Malaysia, tempoh jadual 1 jam 30 minit. Lihat juga kaunter di kedua-dua lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak819-hkt-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak824-kul-hkt-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · AK824 · 2026-10-13 · 12:30–13:00 | ThaiLiveNow",
+    "description": "Jadual AK824 Kuala Lumpur–Phuket oleh AirAsia: tengah hari 12:30 berlepas dari KLIA dan tiba 13:00 di Phuket pada 13 Oktober 2026. Panduan kaunter dan bantuan jika penerbangan lewat.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak824-kul-hkt-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak825-hkt-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · AK825 · 2026-10-13 · 13:35–16:10 | ThaiLiveNow",
+    "description": "Pulang dari Phuket dengan AirAsia AK825? Penerbangan 13 Oktober 2026 berlepas 13:35 dan tiba di KLIA 16:10, kira-kira 1 jam 35 minit. Semak status dan langkah jika dibatalkan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak825-hkt-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak826-kul-hkt-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · AK826 · 2026-10-13 · 18:55–19:20 | ThaiLiveNow",
+    "description": "AK826 ialah penerbangan petang AirAsia dari KLIA ke Phuket, berlepas 18:55 dan tiba 19:20 waktu Thailand pada 13 Oktober 2026. Tempoh sekitar 1 jam 25 minit, dengan pautan status.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak826-kul-hkt-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak827-hkt-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · AK827 · 2026-10-13 · 19:50–22:25 | ThaiLiveNow",
+    "description": "Penerbangan malam AirAsia AK827 dari Phuket ke Kuala Lumpur pada 13 Oktober 2026, 19:50 hingga 22:25 waktu tempatan. Termasuk maklumat kaunter lapangan terbang dan bantuan kelewatan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak827-hkt-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak832-kul-hkt-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · AK832 · 2026-10-13 · 10:10–10:40 | ThaiLiveNow",
+    "description": "AirAsia AK832 KLIA ke Phuket pada 13 Oktober 2026: berlepas pagi 10:10, tiba 10:40 waktu Thailand selepas kira-kira 1 jam 30 minit. Semak tarikh operasi dan kaunter daftar masuk.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak832-kul-hkt-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak833-hkt-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · AK833 · 2026-10-13 · 11:10–13:45 | ThaiLiveNow",
+    "description": "Jadual AK833 Phuket–Kuala Lumpur pada 13 Oktober 2026 oleh AirAsia, berlepas 11:10 dan tiba 13:45 waktu Malaysia. Dapatkan pautan status penerbangan serta panduan jika bagasi bermasalah.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak833-hkt-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak856-kul-cnx-20261014/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Chiang Mai · AK856 · 2026-10-14 · 13:30–15:10 | ThaiLiveNow",
+    "description": "AirAsia AK856 dari Kuala Lumpur ke Chiang Mai pada 14 Oktober 2026 berlepas 13:30 dan tiba 15:10 waktu tempatan, kira-kira 2 jam 40 minit. Semak status dan kaunter lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak856-kul-cnx-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak8568-hkt-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · AK8568 · 2026-10-13 · 20:00–22:40 | ThaiLiveNow",
+    "description": "AK8568 AirAsia Phuket ke KLIA pada 13 Oktober 2026 berlepas 20:00 dan tiba 22:40 waktu Malaysia, tempoh jadual 1 jam 40 minit. Lihat langkah jika penerbangan lewat atau dibatalkan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak8568-hkt-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak857-cnx-kul-20261014/",
+    "title": "Lapangan Terbang Antarabangsa Chiang Mai → Lapangan Terbang Antarabangsa Kuala Lumpur · AK857 · 2026-10-14 · 15:40–19:35 | ThaiLiveNow",
+    "description": "Penerbangan pulang AirAsia AK857 dari Chiang Mai ke Kuala Lumpur pada 14 Oktober 2026, berlepas 15:40 dan tiba 19:35 waktu Malaysia. Semak status hari ini dan kaunter daftar masuk.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak857-cnx-kul-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak866-kul-kbv-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Krabi · AK866 · 2026-10-13 · 10:55–11:15 | ThaiLiveNow",
+    "description": "AirAsia AK866 Kuala Lumpur ke Krabi pada 13 Oktober 2026: berlepas 10:55 dan tiba 11:15 waktu Thailand, sekitar 1 jam 20 minit. Termasuk panduan kaunter dan pampasan kelewatan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak866-kul-kbv-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak867-kbv-kul-20261013/",
+    "title": "Lapangan Terbang Krabi → Lapangan Terbang Antarabangsa Kuala Lumpur · AK867 · 2026-10-13 · 11:50–14:10 | ThaiLiveNow",
+    "description": "Dari Krabi ke KLIA dengan AirAsia AK867 pada 13 Oktober 2026, berlepas 11:50 dan mendarat 14:10 waktu Malaysia. Semak status penerbangan dan kaunter di Lapangan Terbang Krabi.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak867-kbv-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak880-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK880 · 2026-10-13 · 08:10–09:30 | ThaiLiveNow",
+    "description": "AirAsia AK880 KLIA ke Don Mueang Bangkok pada 13 Oktober 2026 berlepas 08:10 dan tiba 09:30 waktu Thailand, kira-kira 2 jam 20 minit. Semak status serta kaunter lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak880-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak881-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK881 · 2026-10-13 · 10:05–13:20 | ThaiLiveNow",
+    "description": "Penerbangan AK881 AirAsia dari Don Mueang ke Kuala Lumpur pada 13 Oktober 2026, berlepas pagi 10:05 dan tiba 13:20 waktu Malaysia. Lihat panduan jika penerbangan lewat atau dibatalkan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak881-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak882-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK882 · 2026-10-13 · 11:45–13:00 | ThaiLiveNow",
+    "description": "Jadual AirAsia AK882 Kuala Lumpur–Don Mueang pada 13 Oktober 2026: berlepas 11:45 dan tiba 13:00 waktu Bangkok, tempoh 2 jam 15 minit. Dapatkan pautan status dan maklumat kaunter.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak882-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak883-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK883 · 2026-10-13 · 13:35–16:55 | ThaiLiveNow",
+    "description": "AK883 dari Don Mueang Bangkok ke KLIA pada 13 Oktober 2026 berlepas 13:35 dan tiba 16:55 waktu Malaysia, kira-kira 2 jam 20 minit dengan AirAsia. Semak tarikh operasi yang disahkan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak883-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak884-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK884 · 2026-10-13 · 13:30–14:45 | ThaiLiveNow",
+    "description": "AirAsia AK884 berlepas dari Kuala Lumpur 13:30 dan tiba di Don Mueang 14:45 pada 13 Oktober 2026, sekitar 2 jam 15 minit. Termasuk kaunter daftar masuk dan bantuan bagasi.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak884-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak885-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK885 · 2026-10-13 · 15:15–18:35 | ThaiLiveNow",
+    "description": "Pulang ke Kuala Lumpur dari Don Mueang dengan AirAsia AK885 pada 13 Oktober 2026: 15:15 berlepas, 18:35 tiba waktu Malaysia. Semak status hari ini dan langkah jika ada gangguan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak885-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak886-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK886 · 2026-10-13 · 15:00–16:15 | ThaiLiveNow",
+    "description": "AirAsia AK886 Kuala Lumpur ke Bangkok Don Mueang pada 13 Oktober 2026, berlepas 15:00 dan tiba 16:15 waktu tempatan selepas kira-kira 2 jam 15 minit. Lihat kaunter di kedua-dua hujung.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak886-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak887-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK887 · 2026-10-13 · 16:45–20:05 | ThaiLiveNow",
+    "description": "AirAsia AK887 dari Don Mueang ke KLIA pada 13 Oktober 2026 berlepas 16:45 dan tiba 20:05 waktu Malaysia, tempoh jadual 2 jam 20 minit. Semak status serta panduan bagasi rosak atau lewat.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak887-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak888-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK888 · 2026-10-13 · 17:50–19:10 | ThaiLiveNow",
+    "description": "Penerbangan petang AK888 AirAsia dari Kuala Lumpur ke Don Mueang pada 13 Oktober 2026, 17:50 berlepas dan 19:10 tiba waktu Bangkok. Lihat maklumat kaunter dan pampasan kelewatan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak888-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak889-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK889 · 2026-10-13 · 19:40–22:55 | ThaiLiveNow",
+    "description": "AK889 AirAsia Don Mueang–Kuala Lumpur pada 13 Oktober 2026 berlepas 19:40 dan mendarat 22:55 waktu Malaysia, kira-kira 2 jam 15 minit. Semak tarikh operasi sebelum ke lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak889-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak890-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK890 · 2026-10-13 · 06:00–07:10 | ThaiLiveNow",
+    "description": "AirAsia AK890 ialah penerbangan awal pagi dari KLIA ke Don Mueang, berlepas 06:00 dan tiba 07:10 pada 13 Oktober 2026, sekitar 2 jam 10 minit. Semak kaunter daftar masuk lebih awal.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak890-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak891-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK891 · 2026-10-13 · 07:55–11:15 | ThaiLiveNow",
+    "description": "Dari Bangkok Don Mueang ke Kuala Lumpur dengan AirAsia AK891 pada 13 Oktober 2026: berlepas 07:55 dan tiba 11:15 waktu Malaysia. Termasuk pautan status dan langkah jika dibatalkan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak891-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak892-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK892 · 2026-10-13 · 16:55–18:10 | ThaiLiveNow",
+    "description": "AirAsia AK892 Kuala Lumpur ke Don Mueang pada 13 Oktober 2026 berlepas 16:55 dan tiba 18:10 waktu Thailand, tempoh 2 jam 15 minit. Semak status hari ini dan kaunter lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak892-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak893-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK893 · 2026-10-13 · 18:45–22:00 | ThaiLiveNow",
+    "description": "Jadual AK893 AirAsia dari Don Mueang ke KLIA pada 13 Oktober 2026, berlepas 18:45 dan tiba 22:00 waktu Malaysia. Panduan kaunter serta bantuan jika bagasi tidak tiba bersama anda.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak893-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak896-kul-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Don Mueang · AK896 · 2026-10-13 · 19:40–20:50 | ThaiLiveNow",
+    "description": "AK896 ialah penerbangan malam AirAsia dari Kuala Lumpur ke Don Mueang pada 13 Oktober 2026, berlepas 19:40 dan tiba 20:50 waktu Bangkok. Lihat panduan tiba lewat dan kaunter.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak896-kul-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/ak897-dmk-kul-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Kuala Lumpur · AK897 · 2026-10-13 · 21:30–00:45 | ThaiLiveNow",
+    "description": "AirAsia AK897 Don Mueang ke Kuala Lumpur pada 13 Oktober 2026 berlepas 21:30 dan tiba 00:45 keesokan hari waktu Malaysia, kira-kira 2 jam 15 minit. Semak status sebelum bertolak.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/ak897-dmk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fd308-hdy-kul-20261014/",
+    "title": "Lapangan Terbang Antarabangsa Hat Yai → Lapangan Terbang Antarabangsa Kuala Lumpur · FD308 · 2026-10-14 · 12:10–14:25 | ThaiLiveNow",
+    "description": "Thai AirAsia FD308 dari Hat Yai ke Kuala Lumpur pada 14 Oktober 2026 berlepas 12:10 dan tiba 14:25 waktu Malaysia, sekitar 1 jam 15 minit. Semak kaunter daftar masuk dan status penerbangan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fd308-hdy-kul-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fd309-kul-hdy-20261014/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Hat Yai · FD309 · 2026-10-14 · 14:55–15:05 | ThaiLiveNow",
+    "description": "Penerbangan Thai AirAsia FD309 Kuala Lumpur ke Hat Yai pada 14 Oktober 2026: berlepas 14:55 dan tiba 15:05 waktu Thailand, kira-kira 1 jam 10 minit. Termasuk panduan kaunter lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fd309-kul-hdy-20261014/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fd321-dmk-pen-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Pulau Pinang · FD321 · 2026-10-13 · 15:40–18:25 | ThaiLiveNow",
+    "description": "Thai AirAsia FD321 dari Don Mueang ke Pulau Pinang pada 13 Oktober 2026 berlepas 15:40 dan tiba 18:25 waktu Malaysia, tempoh 1 jam 45 minit. Semak status serta kaunter di Don Mueang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fd321-dmk-pen-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fd322-pen-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Pulau Pinang → Lapangan Terbang Antarabangsa Don Mueang · FD322 · 2026-10-13 · 18:55–19:40 | ThaiLiveNow",
+    "description": "FD322 Thai AirAsia Pulau Pinang ke Bangkok Don Mueang pada 13 Oktober 2026, berlepas 18:55 dan tiba 19:40 waktu Thailand. Lihat kaunter daftar masuk di terminal utama Pulau Pinang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fd322-pen-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fd323-dmk-pen-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Don Mueang → Lapangan Terbang Antarabangsa Pulau Pinang · FD323 · 2026-10-13 · 10:50–13:35 | ThaiLiveNow",
+    "description": "Jadual Thai AirAsia FD323 Don Mueang–Pulau Pinang pada 13 Oktober 2026: berlepas pagi 10:50 dan tiba 13:35 waktu Malaysia, kira-kira 1 jam 45 minit. Semak tarikh operasi yang disahkan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fd323-dmk-pen-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fd324-pen-dmk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Pulau Pinang → Lapangan Terbang Antarabangsa Don Mueang · FD324 · 2026-10-13 · 14:05–14:55 | ThaiLiveNow",
+    "description": "Thai AirAsia FD324 dari Pulau Pinang ke Don Mueang pada 13 Oktober 2026 berlepas 14:05 dan tiba 14:55 waktu Bangkok, tempoh 1 jam 50 minit. Termasuk langkah jika penerbangan lewat.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fd324-pen-dmk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fy3600-pen-hkt-20261012-week/",
+    "title": "Lapangan Terbang Antarabangsa Pulau Pinang → Lapangan Terbang Antarabangsa Phuket · FY3600 · 2026-10-12–2026-10-18 · 13:50–13:55 | ThaiLiveNow",
+    "description": "Firefly FY3600 dari Pulau Pinang ke Phuket berlepas 13:50 dan tiba 13:55 waktu Thailand, dengan tarikh disahkan 14, 16 dan 18 Oktober 2026. Semak kaunter Firefly yang berubah mengikut musim.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fy3600-pen-hkt-20261012-week/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fy3601-hkt-pen-20261012-week/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Pulau Pinang · FY3601 · 2026-10-12–2026-10-18 · 14:35–16:35 | ThaiLiveNow",
+    "description": "Penerbangan Firefly FY3601 Phuket ke Pulau Pinang, berlepas 14:35 dan tiba 16:35 waktu Malaysia pada 14, 16 dan 18 Oktober 2026. Termasuk pusat operasi Firefly di Pulau Pinang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fy3601-hkt-pen-20261012-week/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fy3610-kul-kbv-20261012-week/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Krabi · FY3610 · 2026-10-12–2026-10-18 · 11:30–12:00 | ThaiLiveNow",
+    "description": "Firefly FY3610 Kuala Lumpur ke Krabi berlepas 11:30 dan tiba 12:00 waktu Thailand, dengan tarikh disahkan antara 12 hingga 18 Oktober 2026. Semak kaunter lapangan terbang dan status.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fy3610-kul-kbv-20261012-week/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/fy3611-kbv-kul-20261012-week/",
+    "title": "Lapangan Terbang Antarabangsa Krabi → Lapangan Terbang Antarabangsa Kuala Lumpur · FY3611 · 2026-10-12–2026-10-18 · 13:00–15:30 | ThaiLiveNow",
+    "description": "Pulang dari Krabi dengan Firefly FY3611: berlepas 13:00 dan tiba di Kuala Lumpur 15:30 waktu Malaysia pada tarikh disahkan 12, 14, 15, 16 dan 18 Oktober 2026. Lihat panduan kaunter.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/fy3611-kbv-kul-20261012-week/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh772-kul-cnx-20261011-0950/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Chiang Mai · MH772 · 2026-10-11–2026-10-16 · 09:50–11:40 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH772 dari KLIA ke Chiang Mai berlepas 09:50 dan tiba 11:40 waktu tempatan, kira-kira 2 jam 50 minit, pada 11, 12, 14 dan 16 Oktober 2026. Semak kaunter dan status.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh772-kul-cnx-20261011-0950/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh773-cnx-kul-20261011-1235/",
+    "title": "Lapangan Terbang Antarabangsa Chiang Mai → Lapangan Terbang Antarabangsa Kuala Lumpur · MH773 · 2026-10-11–2026-10-16 · 12:35–16:35 | ThaiLiveNow",
+    "description": "Penerbangan Malaysia Airlines MH773 Chiang Mai ke Kuala Lumpur, berlepas 12:35 dan tiba 16:35 waktu Malaysia, tempoh 3 jam, pada 11, 12, 14 dan 16 Oktober 2026. Termasuk talian bagasi KLIA.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh773-cnx-kul-20261011-1235/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh774-kul-bkk/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · MH774 · 2026-10-10–2026-10-17 · 16:00–17:20 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH774 dari Kuala Lumpur ke Suvarnabhumi Bangkok berlepas 16:00 dan tiba 17:20 waktu Thailand, kira-kira 2 jam 20 minit. Tarikh operasi disahkan 10 hingga 17 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh774-kul-bkk/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh775-bkk-kul/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · MH775 · 2026-10-10–2026-10-24 · 18:40–21:55 | ThaiLiveNow",
+    "description": "Penerbangan Malaysia Airlines MH775 Suvarnabhumi ke KLIA berlepas 18:40 dan tiba 21:55 waktu Malaysia, tempoh 2 jam 15 minit. Tarikh operasi disahkan setiap hari dari 10 hingga 24 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh775-bkk-kul/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh780-kul-bkk/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · MH780 · 2026-10-10–2026-10-17 · 17:45–18:55 | ThaiLiveNow",
+    "description": "MH780 Malaysia Airlines Kuala Lumpur–Bangkok Suvarnabhumi: berlepas petang 17:45 dan tiba 18:55 waktu tempatan, sekitar 2 jam 10 minit. Semak tarikh 10 hingga 17 Oktober 2026 dan kaunter.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh780-kul-bkk/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh781-bkk-kul/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · MH781 · 2026-10-10–2026-10-24 · 19:45–22:55 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH781 dari Bangkok Suvarnabhumi ke Kuala Lumpur berlepas 19:45 dan tiba 22:55 waktu Malaysia. Tarikh operasi disahkan dari 10 hingga 24 Oktober 2026 kecuali 19 Oktober.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh781-bkk-kul/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh782-kul-bkk/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · MH782 · 2026-10-10–2026-10-16 · 15:05–16:20 | ThaiLiveNow",
+    "description": "Jadual MH782 Malaysia Airlines dari KLIA ke Suvarnabhumi, berlepas 15:05 dan tiba 16:20 waktu Bangkok, kira-kira 2 jam 15 minit. Disahkan beroperasi 10 hingga 16 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh782-kul-bkk/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh783-bkk-kul/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · MH783 · 2026-10-10–2026-10-24 · 17:15–20:30 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH783 Suvarnabhumi ke Kuala Lumpur berlepas 17:15 dan tiba 20:30 waktu Malaysia. Tarikh operasi disahkan 10 hingga 24 Oktober 2026 kecuali 17 Oktober, bersama panduan kaunter.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh783-bkk-kul/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh784-kul-bkk/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · MH784 · 2026-10-10–2026-10-17 · 09:00–10:15 | ThaiLiveNow",
+    "description": "Penerbangan pagi Malaysia Airlines MH784 dari Kuala Lumpur ke Bangkok Suvarnabhumi berlepas 09:00 dan tiba 10:15 waktu Thailand, tempoh 2 jam 15 minit, pada 10 hingga 17 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh784-kul-bkk/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh785-bkk-kul/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · MH785 · 2026-10-10–2026-10-24 · 11:05–14:15 | ThaiLiveNow",
+    "description": "MH785 Malaysia Airlines dari Suvarnabhumi Bangkok ke KLIA berlepas 11:05 dan tiba 14:15 waktu Malaysia, kira-kira 2 jam 10 minit. Disahkan beroperasi setiap hari 10 hingga 24 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh785-bkk-kul/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh786-kul-hkt-20261010-0910/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · MH786 · 2026-10-10–2026-10-17 · 09:10–09:45 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH786 Kuala Lumpur ke Phuket berlepas 09:10 dan tiba 09:45 waktu Thailand, kira-kira 1 jam 35 minit, dengan tarikh disahkan 10 hingga 17 Oktober 2026. Semak status dan kaunter.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh786-kul-hkt-20261010-0910/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh788-kul-bkk/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · MH788 · 2026-10-10–2026-10-17 · 12:10–13:25 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH788 dari KLIA ke Suvarnabhumi berlepas tengah hari 12:10 dan tiba 13:25 waktu Bangkok, tempoh 2 jam 15 minit. Tarikh operasi disahkan 10 hingga 17 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh788-kul-bkk/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh789-bkk-kul/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · MH789 · 2026-10-10–2026-10-24 · 14:15–17:30 | ThaiLiveNow",
+    "description": "Penerbangan MH789 Malaysia Airlines Bangkok Suvarnabhumi ke Kuala Lumpur, berlepas 14:15 dan tiba 17:30 waktu Malaysia. Beroperasi setiap hari dari 10 hingga 24 Oktober 2026 menurut jadual disemak.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh789-bkk-kul/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh790-kul-hkt-20261010-1700/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · MH790 · 2026-10-10–2026-10-17 · 17:00–17:25 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH790 dari Kuala Lumpur ke Phuket berlepas 17:00 dan tiba 17:25 waktu Thailand antara 10 hingga 17 Oktober 2026, kecuali 16 Oktober. Tempoh sekitar 1 jam 25 minit.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh790-kul-hkt-20261010-1700/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh790-kul-hkt-20261016-1815/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · MH790 · 2026-10-16 · 18:15–18:40 | ThaiLiveNow",
+    "description": "Pada 16 Oktober 2026, Malaysia Airlines MH790 Kuala Lumpur ke Phuket berlepas lebih lewat iaitu 18:15 dan tiba 18:40 waktu Thailand. Semak status penerbangan dan kaunter lapangan terbang.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh790-kul-hkt-20261016-1815/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh791-hkt-kul-20261010-1805/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · MH791 · 2026-10-10–2026-10-17 · 18:05–20:45 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH791 dari Phuket ke Kuala Lumpur berlepas 18:05 dan tiba 20:45 waktu Malaysia, kira-kira 1 jam 40 minit, pada 10 hingga 17 Oktober 2026 kecuali 16 Oktober.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh791-hkt-kul-20261010-1805/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh791-hkt-kul-20261016-1940/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · MH791 · 2026-10-16 · 19:40–22:20 | ThaiLiveNow",
+    "description": "Jadual khas MH791 Malaysia Airlines Phuket–Kuala Lumpur pada 16 Oktober 2026: berlepas 19:40 dan tiba 22:20 waktu Malaysia. Termasuk langkah jika penerbangan lewat atau dibatalkan.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh791-hkt-kul-20261016-1940/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh794-kul-hkt-20261010-1255/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Antarabangsa Phuket · MH794 · 2026-10-10–2026-10-17 · 12:55–13:20 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH794 KLIA ke Phuket berlepas 12:55 dan tiba 13:20 waktu tempatan, sekitar 1 jam 25 minit, pada 10, 11, 12, 14, 16 dan 17 Oktober 2026. Semak kaunter daftar masuk.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh794-kul-hkt-20261010-1255/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh795-hkt-kul-20261010-1405/",
+    "title": "Lapangan Terbang Antarabangsa Phuket → Lapangan Terbang Antarabangsa Kuala Lumpur · MH795 · 2026-10-10–2026-10-17 · 14:05–16:40 | ThaiLiveNow",
+    "description": "Penerbangan pulang Malaysia Airlines MH795 dari Phuket ke Kuala Lumpur berlepas 14:05 dan tiba 16:40 waktu Malaysia pada 10, 11, 12, 14, 16 dan 17 Oktober 2026. Lihat bantuan bagasi.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh795-hkt-kul-20261010-1405/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh796-kul-bkk/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · MH796 · 2026-10-10–2026-10-17 · 21:55–23:15 | ThaiLiveNow",
+    "description": "MH796 ialah penerbangan malam Malaysia Airlines dari Kuala Lumpur ke Suvarnabhumi, berlepas 21:55 dan tiba 23:15 waktu Bangkok pada 10 hingga 17 Oktober 2026. Lihat panduan tiba lewat.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh796-kul-bkk/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/mh797-bkk-kul-20261010-week/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · MH797 · 2026-10-10–2026-10-17 · 06:50–10:00 | ThaiLiveNow",
+    "description": "Malaysia Airlines MH797 dari Bangkok Suvarnabhumi ke KLIA berlepas awal pagi 06:50 dan tiba 10:00 waktu Malaysia, kira-kira 2 jam 10 minit, dengan tarikh disahkan 10 hingga 17 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/mh797-bkk-kul-20261010-week/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/tg415-bkk-kul-20261013/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · TG415 · 2026-10-13 · 09:05–12:15 | ThaiLiveNow",
+    "description": "Thai Airways TG415 dari Suvarnabhumi Bangkok ke Kuala Lumpur pada 13 Oktober 2026 berlepas 09:05 dan tiba 12:15 waktu Malaysia, tempoh 2 jam 10 minit. Semak kaunter THAI dan status.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/tg415-bkk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/tg416-kul-bkk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · TG416 · 2026-10-13 · 13:20–14:30 | ThaiLiveNow",
+    "description": "Penerbangan Thai Airways TG416 Kuala Lumpur ke Bangkok Suvarnabhumi pada 13 Oktober 2026: berlepas 13:20 dan tiba 14:30 waktu Thailand. Termasuk maklumat kaunter di KLIA dan bantuan bagasi.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/tg416-kul-bkk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/tg417-bkk-kul-20261013/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · TG417 · 2026-10-13 · 16:40–19:50 | ThaiLiveNow",
+    "description": "TG417 Thai Airways Suvarnabhumi–Kuala Lumpur pada 13 Oktober 2026 berlepas 16:40 dan tiba 19:50 waktu Malaysia, kira-kira 2 jam 10 minit. Semak tarikh operasi dan langkah jika lewat.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/tg417-bkk-kul-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/tg418-kul-bkk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · TG418 · 2026-10-13 · 20:55–22:05 | ThaiLiveNow",
+    "description": "Thai Airways TG418 dari KLIA ke Suvarnabhumi pada 13 Oktober 2026 berlepas malam 20:55 dan tiba 22:05 waktu Bangkok. Lihat panduan tiba lewat di Suvarnabhumi serta kaunter THAI.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/tg418-kul-bkk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/tg425-bkk-pen-20261013/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Pulau Pinang · TG425 · 2026-10-13 · 19:20–22:10 | ThaiLiveNow",
+    "description": "Thai Airways TG425 penerbangan terus dari Bangkok Suvarnabhumi ke Pulau Pinang berlepas 19:20 dan tiba 22:10 waktu Malaysia. Tarikh disahkan dalam carian rasmi hanya 13 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/tg425-bkk-pen-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/tg426-pen-bkk-20261013/",
+    "title": "Lapangan Terbang Antarabangsa Pulau Pinang → Lapangan Terbang Suvarnabhumi, Bangkok · TG426 · 2026-10-13 · 08:05–08:55 | ThaiLiveNow",
+    "description": "Penerbangan terus Thai Airways TG426 dari Pulau Pinang ke Suvarnabhumi pada 13 Oktober 2026 berlepas pagi 08:05 dan tiba 08:55 waktu Bangkok, tempoh 1 jam 50 minit. Semak kaunter THAI.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/tg426-pen-bkk-20261013/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/vz680/",
+    "title": "Lapangan Terbang Suvarnabhumi, Bangkok → Lapangan Terbang Antarabangsa Kuala Lumpur · VZ680 · 2026-10-09 · 11:00–14:10 | ThaiLiveNow",
+    "description": "Thai Vietjet VZ680 dari Bangkok Suvarnabhumi ke Kuala Lumpur berlepas 11:00 dan tiba 14:10 waktu tempatan, kira-kira 2 jam 10 minit. Perkhidmatan harian diumumkan bermula 9 Oktober 2026.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/vz680/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  },
+  {
+    "path": "/ms/airport-assistance/routes/vz681/",
+    "title": "Lapangan Terbang Antarabangsa Kuala Lumpur → Lapangan Terbang Suvarnabhumi, Bangkok · VZ681 · 2026-10-09 · 15:15–16:30 | ThaiLiveNow",
+    "description": "Penerbangan harian Thai Vietjet VZ681 dari KLIA ke Suvarnabhumi Bangkok tanpa transit, berlepas 15:15 dan tiba 16:30 waktu tempatan, bermula 9 Oktober 2026. Semak jadual dan kaunter.",
+    "canonical": "https://thailivenow.com/ms/airport-assistance/routes/vz681/",
+    "robots": "index,follow,max-image-preview:large",
+    "alternates": [],
+    "decision": "retain",
+    "reason": "Reviewed dated flight/airport-pair intent. Long official endpoint names, flight identity and dated validity distinguish the record; no duplicate country suffix or title. Do not remove dates or silently present dated schedules as live status."
+  }
+]

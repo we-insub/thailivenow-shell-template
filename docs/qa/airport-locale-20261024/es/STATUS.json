@@ -1,0 +1,175 @@
+{
+  "status": "locale_manuscript_and_meta_scoped_checks_pass_parent_integration_pending",
+  "owner": "airport_ms_ru_es",
+  "locale": "es",
+  "market": "ES",
+  "scope": {
+    "canonicalHub": "/es/airport-assistance/airports/",
+    "purpose": "Select a Thai airport and read arrival/departure/transit, facilities, maps and airport transport guidance in the same depth as Korean.",
+    "navigation": "Thai airports",
+    "audience": "es readers; country-specific routes/carriers/counters/contacts/insurance remain ES data.",
+    "hubCards": [
+      "BKK",
+      "DMK",
+      "HKT",
+      "CNX"
+    ],
+    "reviewedExistingManuscripts": [
+      "src/data/airport-depth/es.json",
+      "src/data/airport-depth/transport-es.json"
+    ],
+    "preservedMarketSource": "public/data/airport-markets/es.json"
+  },
+  "changedFiles": [
+    "src/data/airport-hub-locales/es.json",
+    "src/data/meta-descriptions/es.json",
+    "docs/qa/airport-locale-20261024/es/STATUS.json"
+  ],
+  "changedMetaPaths": [
+    "/es/airport-assistance/airports/"
+  ],
+  "existingContent": {
+    "airportDepth": "full text read for all four airports; unchanged",
+    "bangkokTransport": "full 10 sections, five tables, four FAQ and eight source labels read; unchanged",
+    "externalNativeSpeakerReview": false
+  },
+  "checks": {
+    "jsonParse": "pass",
+    "hubSchema": "pass",
+    "hubCardsMatchKoreanIds": "pass",
+    "airportDepthMerge": "pass",
+    "airportArraysMatchKoreanLengths": "pass",
+    "transportParagraphAndTableShape": "pass",
+    "transportSourceLinks": "preserved",
+    "targetMetaLength150to199": "pass",
+    "targetMetaCoverage": "9/9",
+    "metaOutsideChangedPaths": "unchanged",
+    "nonLocaleSharedFilesEdited": false,
+    "departureMetadata": {
+      "codes": [
+        "MAD"
+      ],
+      "total": 1,
+      "missing": []
+    },
+    "regression": {
+      "command": "node --test tests/airport-depth.test.mjs tests/airport-market-scope.test.mjs",
+      "passed": 14,
+      "failed": 0
+    },
+    "gitDiffCheck": "pass"
+  },
+  "pages": [
+    {
+      "url": "/es/airport-assistance/airports/",
+      "question": "Choose one of four Thai airports and find its practical guide.",
+      "mainKeyword": "Aeropuertos de Tailandia",
+      "keywordInFirst120": true,
+      "description": "Aeropuertos de Tailandia: elige Suvarnabhumi, Don Mueang, Phuket o Chiang Mai y consulta llegadas, salidas, conexiones, planos, instalaciones, transporte y mostradores de aerolíneas.",
+      "unicodeLength": 182,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/bkk/",
+      "question": "Arrival, departure and international transit at BKK.",
+      "mainKeyword": "Suvarnabhumi",
+      "keywordInFirst120": true,
+      "description": "Guía del aeropuerto de Suvarnabhumi (BKK): llegadas, salidas y conexiones, planos de la terminal principal y zonas A–G, Airport Rail Link en el nivel B1 y teléfono de atención de AOT 1722.",
+      "unicodeLength": 188,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/bkk/map/",
+      "question": "Choose terminal/floor and find BKK facilities.",
+      "mainKeyword": "Planos interiores",
+      "keywordInFirst120": true,
+      "description": "Planos interiores del aeropuerto de Suvarnabhumi: terminal principal, galerías A–G y terminal satélite SAT-1 por planta, con un buscador de instalaciones y tiendas por terminal y tipo.",
+      "unicodeLength": 184,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/bkk/smoking/",
+      "question": "Smoking access before/after passport control; observation provenance retained.",
+      "mainKeyword": "Zonas de fumadores",
+      "keywordInFirst120": true,
+      "description": "Zonas de fumadores del aeropuerto de Suvarnabhumi: zonas públicas exteriores junto a Door 1 y Door 10, opciones después del control de salida y condiciones en salas VIP, con planos.",
+      "unicodeLength": 181,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/bkk/transport/",
+      "question": "BKK to Bangkok by rail/taxi/app car and the appropriate boarding location.",
+      "mainKeyword": "Suvarnabhumi a Bangkok",
+      "keywordInFirst120": true,
+      "description": "Cómo ir del aeropuerto de Suvarnabhumi a Bangkok: compara Airport Rail Link, taxi público con suplemento de 50 baht y peajes, Grab, Bolt y recogidas reservadas según la zona de tu hotel.",
+      "unicodeLength": 186,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/bkk/airlines/",
+      "question": "Check-in, ticketing, offices and baggage roles for the locale market.",
+      "mainKeyword": "Mostradores de Iberojet",
+      "keywordInFirst120": true,
+      "description": "Mostradores de Iberojet en el aeropuerto de Suvarnabhumi: la facturación abre 4 horas antes y cierra 60 minutos antes de la salida del vuelo E9846 a Madrid. Contactos, oficinas y equipaje.",
+      "unicodeLength": 188,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/dmk/",
+      "question": "DMK terminal split, departure process, facilities and smoking areas.",
+      "mainKeyword": "Don Mueang",
+      "keywordInFirst120": true,
+      "description": "Aeropuerto Don Mueang (DMK) en Bangkok: Terminal 1 para vuelos internacionales y Terminal 2 para nacionales, servicio 24 horas, teléfono +66 2 535 1192, planos por planta y zonas de fumadores.",
+      "unicodeLength": 192,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/hkt/",
+      "question": "HKT terminal split, baggage reclaim, check-in, medical help and maps.",
+      "mainKeyword": "Phuket",
+      "keywordInFirst120": true,
+      "description": "Aeropuerto Internacional de Phuket (HKT): terminales internacional y nacional separadas, llegadas en la planta 1, cintas de equipaje 1–5, teléfono +66 76 351 111 y planos de cada terminal.",
+      "unicodeLength": 188,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    },
+    {
+      "url": "/es/airport-assistance/airports/cnx/",
+      "question": "CNX operating hours, check-in, city transport and services.",
+      "mainKeyword": "Chiang Mai",
+      "keywordInFirst120": true,
+      "description": "Aeropuerto de Chiang Mai (CNX): horario de 06:00 a 24:00, teléfono +66 53 922 000, centro de atención de Grab 24 horas, parada de lanzadera en Door 12, planos y zonas de fumadores.",
+      "unicodeLength": 180,
+      "semanticReview": "read against existing airport/transport manuscript and existing market-specific counter data; no new factual research",
+      "initialHtml": "pending_parent_integration"
+    }
+  ],
+  "sourceHashes": {
+    "src/data/airport-hub-locales/es.json": "770aae89f2be939a719face6606bef76f9d5a086cdf8d119f4c1a6036b2b680d",
+    "src/data/meta-descriptions/es.json": "c4f1bc24a76971ea9ed0fb600762bc5555cd8817b0e5f3d5c7865a81735f6ff8",
+    "src/data/airport-depth/es.json": "525bd64d6861f0e9f39be55dedc83f6a66f786dfb2b05c0ce40e6cdcdc0ce796",
+    "src/data/airport-depth/transport-es.json": "141532d5067e7c6a25412be66c66b6d518fc23102a1fefc3e8c03cdaecdc53a3",
+    "public/data/airport-markets/es.json": "1ae5fd844fc726415fce396a40a98861f319733fc6c3cbe87c6c4b48d5f88523",
+    "src/data/airport-detail-guides-ko.json": "083f86963de7147298dec4e350c969883ccb5e5c14dfad23ad5305b5b2186b0a",
+    "src/data/transport/airport-guides/suvarnabhumi-to-bangkok.json": "442f7d8ea5ba01ca8a169e9f6ca89dc1f72eb1b3c8e1ea8c780431e786d441f1"
+  },
+  "unfinished": [
+    "Parent must integrate shared AirportHub component into existing canonical route.",
+    "Current-run initial HTML, canonical, hreflang, sitemap, source folding, byline/image/date audits, PC/mobile and Pages local runtime need parent integration verification.",
+    "Native ARL/airport-transfer transport routes belong to separate active lane; no route changes or new copies made here."
+  ],
+  "deployment": "not_run",
+  "push": "not_run",
+  "indexingSubmission": "not_run",
+  "actualIndexing": "unverified",
+  "rankings": "unmeasured",
+  "aiCitations": "unmeasured",
+  "measurement": "If separately approved and deployed, compare search/citation metrics 14 days after verified public release; no schedule created."
+}

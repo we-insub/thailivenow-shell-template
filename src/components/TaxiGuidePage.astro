@@ -1,8 +1,11 @@
 ---
+import {transportData,transportText,transportFormat,transportPageLocale} from '../lib/transport-localization.mjs';
 import SiteFooter from './SiteFooter.astro';
 import DetailHeader from './DetailHeader.astro';
 import {getOperationalDeployDate} from '../lib/operational-date';
-const {guide}=Astro.props;
+const transportLocale=transportPageLocale(Astro.url.pathname);
+const {guide:guideSource}=Astro.props;
+const guide=transportData(guideSource,transportLocale);
 const faq=guide.tabs.flatMap(tab=>tab.faq);
 const schema={'@context':'https://schema.org','@graph':[{'@type':'Article',headline:guide.title,inLanguage:'ko',description:guide.intro},{'@type':'FAQPage',mainEntity:faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}]};
 ---

@@ -1,0 +1,3110 @@
+[
+  {
+    "suffix": "",
+    "kind": "hub",
+    "id": null,
+    "pilot": null,
+    "canonicalSuffix": ""
+  },
+  {
+    "suffix": "airports/airport-rail-link",
+    "kind": "airport",
+    "id": "airport-rail-link",
+    "pilot": null,
+    "canonicalSuffix": "airports/airport-rail-link"
+  },
+  {
+    "suffix": "airports/suvarnabhumi-don-mueang",
+    "kind": "airport",
+    "id": "suvarnabhumi-don-mueang",
+    "pilot": null,
+    "canonicalSuffix": "airports/suvarnabhumi-don-mueang"
+  },
+  {
+    "suffix": "airports/suvarnabhumi-to-bangkok",
+    "kind": "airport",
+    "id": "suvarnabhumi-to-bangkok",
+    "pilot": null,
+    "canonicalSuffix": "airports/suvarnabhumi-to-bangkok"
+  },
+  {
+    "suffix": "bangkok",
+    "kind": "city",
+    "id": null,
+    "pilot": null,
+    "canonicalSuffix": "bangkok"
+  },
+  {
+    "suffix": "bangkok/lines/arl",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/arl.html",
+    "canonicalSuffix": "bangkok/lines/arl"
+  },
+  {
+    "suffix": "bangkok/lines/bts-silom",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/bts-silom.html",
+    "canonicalSuffix": "bangkok/lines/bts-silom"
+  },
+  {
+    "suffix": "bangkok/lines/bts-sukhumvit",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/bts-sukhumvit.html",
+    "canonicalSuffix": "bangkok/lines/bts-sukhumvit"
+  },
+  {
+    "suffix": "bangkok/lines/gold",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/gold.html",
+    "canonicalSuffix": "bangkok/lines/gold"
+  },
+  {
+    "suffix": "bangkok/lines/mrt-blue",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/mrt-blue.html",
+    "canonicalSuffix": "bangkok/lines/mrt-blue"
+  },
+  {
+    "suffix": "bangkok/lines/mrt-purple",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/mrt-purple.html",
+    "canonicalSuffix": "bangkok/lines/mrt-purple"
+  },
+  {
+    "suffix": "bangkok/lines/orange-flag",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/orange-flag.html",
+    "canonicalSuffix": "bangkok/lines/orange-flag"
+  },
+  {
+    "suffix": "bangkok/lines/pink",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/pink.html",
+    "canonicalSuffix": "bangkok/lines/pink"
+  },
+  {
+    "suffix": "bangkok/lines/pink-branch",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/pink-branch.html",
+    "canonicalSuffix": "bangkok/lines/pink-branch"
+  },
+  {
+    "suffix": "bangkok/lines/srt-dark-red",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/srt-dark-red.html",
+    "canonicalSuffix": "bangkok/lines/srt-dark-red"
+  },
+  {
+    "suffix": "bangkok/lines/srt-light-red",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/srt-light-red.html",
+    "canonicalSuffix": "bangkok/lines/srt-light-red"
+  },
+  {
+    "suffix": "bangkok/lines/yellow",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/lines/yellow.html",
+    "canonicalSuffix": "bangkok/lines/yellow"
+  },
+  {
+    "suffix": "bangkok/piers/nonthaburi",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/piers/nonthaburi.html",
+    "canonicalSuffix": "bangkok/piers/nonthaburi"
+  },
+  {
+    "suffix": "bangkok/piers/sathorn",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/piers/sathorn.html",
+    "canonicalSuffix": "bangkok/piers/sathorn"
+  },
+  {
+    "suffix": "bangkok/piers/tha-tien",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/piers/tha-tien.html",
+    "canonicalSuffix": "bangkok/piers/tha-tien"
+  },
+  {
+    "suffix": "bangkok/piers/wat-arun",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/piers/wat-arun.html",
+    "canonicalSuffix": "bangkok/piers/wat-arun"
+  },
+  {
+    "suffix": "bangkok/piers/wat-rajsingkorn",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/piers/wat-rajsingkorn.html",
+    "canonicalSuffix": "bangkok/piers/wat-rajsingkorn"
+  },
+  {
+    "suffix": "bangkok/stations/itsaraphap",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "bangkok/stations/itsaraphap.html",
+    "canonicalSuffix": "bangkok/stations/itsaraphap"
+  },
+  {
+    "suffix": "bangkok/stations/node-10147872913",
+    "kind": "station",
+    "id": "node-10147872913",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-10147872913"
+  },
+  {
+    "suffix": "bangkok/stations/node-10867419311",
+    "kind": "station",
+    "id": "node-10867419311",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-10867419311"
+  },
+  {
+    "suffix": "bangkok/stations/node-10867419312",
+    "kind": "station",
+    "id": "node-10867419312",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-10867419312"
+  },
+  {
+    "suffix": "bangkok/stations/node-10867419318",
+    "kind": "station",
+    "id": "node-10867419318",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-10867419318"
+  },
+  {
+    "suffix": "bangkok/stations/node-10867419319",
+    "kind": "station",
+    "id": "node-10867419319",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-10867419319"
+  },
+  {
+    "suffix": "bangkok/stations/node-10867419320",
+    "kind": "station",
+    "id": "node-10867419320",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-10867419320"
+  },
+  {
+    "suffix": "bangkok/stations/node-10867419324",
+    "kind": "station",
+    "id": "node-10867419324",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-10867419324"
+  },
+  {
+    "suffix": "bangkok/stations/node-11012357562",
+    "kind": "station",
+    "id": "node-11012357562",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11012357562"
+  },
+  {
+    "suffix": "bangkok/stations/node-11012357573",
+    "kind": "station",
+    "id": "node-11012357573",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11012357573"
+  },
+  {
+    "suffix": "bangkok/stations/node-1113055052",
+    "kind": "station",
+    "id": "node-1113055052",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-1113055052"
+  },
+  {
+    "suffix": "bangkok/stations/node-11364308558",
+    "kind": "station",
+    "id": "node-11364308558",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11364308558"
+  },
+  {
+    "suffix": "bangkok/stations/node-11364361870",
+    "kind": "station",
+    "id": "node-11364361870",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11364361870"
+  },
+  {
+    "suffix": "bangkok/stations/node-11364361909",
+    "kind": "station",
+    "id": "node-11364361909",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11364361909"
+  },
+  {
+    "suffix": "bangkok/stations/node-11364361936",
+    "kind": "station",
+    "id": "node-11364361936",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11364361936"
+  },
+  {
+    "suffix": "bangkok/stations/node-11364361948",
+    "kind": "station",
+    "id": "node-11364361948",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11364361948"
+  },
+  {
+    "suffix": "bangkok/stations/node-11364465362",
+    "kind": "station",
+    "id": "node-11364465362",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11364465362"
+  },
+  {
+    "suffix": "bangkok/stations/node-11364501869",
+    "kind": "station",
+    "id": "node-11364501869",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-11364501869"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800326775",
+    "kind": "station",
+    "id": "node-12800326775",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800326775"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800326821",
+    "kind": "station",
+    "id": "node-12800326821",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800326821"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800326860",
+    "kind": "station",
+    "id": "node-12800326860",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800326860"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800326879",
+    "kind": "station",
+    "id": "node-12800326879",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800326879"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800326904",
+    "kind": "station",
+    "id": "node-12800326904",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800326904"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800326949",
+    "kind": "station",
+    "id": "node-12800326949",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800326949"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800399150",
+    "kind": "station",
+    "id": "node-12800399150",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800399150"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800399154",
+    "kind": "station",
+    "id": "node-12800399154",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800399154"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442507",
+    "kind": "station",
+    "id": "node-12800442507",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442507"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442510",
+    "kind": "station",
+    "id": "node-12800442510",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442510"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442536",
+    "kind": "station",
+    "id": "node-12800442536",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442536"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442590",
+    "kind": "station",
+    "id": "node-12800442590",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442590"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442598",
+    "kind": "station",
+    "id": "node-12800442598",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442598"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442665",
+    "kind": "station",
+    "id": "node-12800442665",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442665"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442678",
+    "kind": "station",
+    "id": "node-12800442678",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442678"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442805",
+    "kind": "station",
+    "id": "node-12800442805",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442805"
+  },
+  {
+    "suffix": "bangkok/stations/node-12800442843",
+    "kind": "station",
+    "id": "node-12800442843",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12800442843"
+  },
+  {
+    "suffix": "bangkok/stations/node-12803915069",
+    "kind": "station",
+    "id": "node-12803915069",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12803915069"
+  },
+  {
+    "suffix": "bangkok/stations/node-12803915070",
+    "kind": "station",
+    "id": "node-12803915070",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12803915070"
+  },
+  {
+    "suffix": "bangkok/stations/node-12803915083",
+    "kind": "station",
+    "id": "node-12803915083",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12803915083"
+  },
+  {
+    "suffix": "bangkok/stations/node-12805950166",
+    "kind": "station",
+    "id": "node-12805950166",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12805950166"
+  },
+  {
+    "suffix": "bangkok/stations/node-12848732941",
+    "kind": "station",
+    "id": "node-12848732941",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12848732941"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885876726",
+    "kind": "station",
+    "id": "node-12885876726",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885876726"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885877616",
+    "kind": "station",
+    "id": "node-12885877616",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885877616"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885877878",
+    "kind": "station",
+    "id": "node-12885877878",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885877878"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885877901",
+    "kind": "station",
+    "id": "node-12885877901",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885877901"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885877922",
+    "kind": "station",
+    "id": "node-12885877922",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885877922"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885877970",
+    "kind": "station",
+    "id": "node-12885877970",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885877970"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885877971",
+    "kind": "station",
+    "id": "node-12885877971",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885877971"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885878000",
+    "kind": "station",
+    "id": "node-12885878000",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885878000"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885893602",
+    "kind": "station",
+    "id": "node-12885893602",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885893602"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885893661",
+    "kind": "station",
+    "id": "node-12885893661",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885893661"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885893669",
+    "kind": "station",
+    "id": "node-12885893669",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885893669"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885902270",
+    "kind": "station",
+    "id": "node-12885902270",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885902270"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885902274",
+    "kind": "station",
+    "id": "node-12885902274",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885902274"
+  },
+  {
+    "suffix": "bangkok/stations/node-12885902287",
+    "kind": "station",
+    "id": "node-12885902287",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12885902287"
+  },
+  {
+    "suffix": "bangkok/stations/node-12886086387",
+    "kind": "station",
+    "id": "node-12886086387",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12886086387"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888241906",
+    "kind": "station",
+    "id": "node-12888241906",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888241906"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888241968",
+    "kind": "station",
+    "id": "node-12888241968",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888241968"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888242069",
+    "kind": "station",
+    "id": "node-12888242069",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888242069"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888242117",
+    "kind": "station",
+    "id": "node-12888242117",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888242117"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888242136",
+    "kind": "station",
+    "id": "node-12888242136",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888242136"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888242158",
+    "kind": "station",
+    "id": "node-12888242158",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888242158"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888242301",
+    "kind": "station",
+    "id": "node-12888242301",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888242301"
+  },
+  {
+    "suffix": "bangkok/stations/node-12888242344",
+    "kind": "station",
+    "id": "node-12888242344",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-12888242344"
+  },
+  {
+    "suffix": "bangkok/stations/node-13980371099",
+    "kind": "station",
+    "id": "node-13980371099",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-13980371099"
+  },
+  {
+    "suffix": "bangkok/stations/node-1672566455",
+    "kind": "station",
+    "id": "node-1672566455",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-1672566455"
+  },
+  {
+    "suffix": "bangkok/stations/node-1697004538",
+    "kind": "station",
+    "id": "node-1697004538",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-1697004538"
+  },
+  {
+    "suffix": "bangkok/stations/node-1726175401",
+    "kind": "station",
+    "id": "node-1726175401",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-1726175401"
+  },
+  {
+    "suffix": "bangkok/stations/node-1726177803",
+    "kind": "station",
+    "id": "node-1726177803",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-1726177803"
+  },
+  {
+    "suffix": "bangkok/stations/node-2039197510",
+    "kind": "station",
+    "id": "node-2039197510",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-2039197510"
+  },
+  {
+    "suffix": "bangkok/stations/node-2324802007",
+    "kind": "station",
+    "id": "node-2324802007",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-2324802007"
+  },
+  {
+    "suffix": "bangkok/stations/node-257066779",
+    "kind": "station",
+    "id": "node-257066779",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-257066779"
+  },
+  {
+    "suffix": "bangkok/stations/node-257066790",
+    "kind": "station",
+    "id": "node-257066790",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-257066790"
+  },
+  {
+    "suffix": "bangkok/stations/node-257066809",
+    "kind": "station",
+    "id": "node-257066809",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-257066809"
+  },
+  {
+    "suffix": "bangkok/stations/node-257066819",
+    "kind": "station",
+    "id": "node-257066819",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-257066819"
+  },
+  {
+    "suffix": "bangkok/stations/node-257067085",
+    "kind": "station",
+    "id": "node-257067085",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-257067085"
+  },
+  {
+    "suffix": "bangkok/stations/node-270666787",
+    "kind": "station",
+    "id": "node-270666787",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270666787"
+  },
+  {
+    "suffix": "bangkok/stations/node-270666791",
+    "kind": "station",
+    "id": "node-270666791",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270666791"
+  },
+  {
+    "suffix": "bangkok/stations/node-270666802",
+    "kind": "station",
+    "id": "node-270666802",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270666802"
+  },
+  {
+    "suffix": "bangkok/stations/node-270666804",
+    "kind": "station",
+    "id": "node-270666804",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270666804"
+  },
+  {
+    "suffix": "bangkok/stations/node-270666805",
+    "kind": "station",
+    "id": "node-270666805",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270666805"
+  },
+  {
+    "suffix": "bangkok/stations/node-270666806",
+    "kind": "station",
+    "id": "node-270666806",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270666806"
+  },
+  {
+    "suffix": "bangkok/stations/node-270668230",
+    "kind": "station",
+    "id": "node-270668230",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270668230"
+  },
+  {
+    "suffix": "bangkok/stations/node-270668232",
+    "kind": "station",
+    "id": "node-270668232",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-270668232"
+  },
+  {
+    "suffix": "bangkok/stations/node-275514306",
+    "kind": "station",
+    "id": "node-275514306",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-275514306"
+  },
+  {
+    "suffix": "bangkok/stations/node-277360712",
+    "kind": "station",
+    "id": "node-277360712",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-277360712"
+  },
+  {
+    "suffix": "bangkok/stations/node-277360862",
+    "kind": "station",
+    "id": "node-277360862",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-277360862"
+  },
+  {
+    "suffix": "bangkok/stations/node-280179427",
+    "kind": "station",
+    "id": "node-280179427",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280179427"
+  },
+  {
+    "suffix": "bangkok/stations/node-280179442",
+    "kind": "station",
+    "id": "node-280179442",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280179442"
+  },
+  {
+    "suffix": "bangkok/stations/node-280222869",
+    "kind": "station",
+    "id": "node-280222869",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280222869"
+  },
+  {
+    "suffix": "bangkok/stations/node-280239009",
+    "kind": "station",
+    "id": "node-280239009",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280239009"
+  },
+  {
+    "suffix": "bangkok/stations/node-280239362",
+    "kind": "station",
+    "id": "node-280239362",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280239362"
+  },
+  {
+    "suffix": "bangkok/stations/node-280239363",
+    "kind": "station",
+    "id": "node-280239363",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280239363"
+  },
+  {
+    "suffix": "bangkok/stations/node-280240577",
+    "kind": "station",
+    "id": "node-280240577",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280240577"
+  },
+  {
+    "suffix": "bangkok/stations/node-280240580",
+    "kind": "station",
+    "id": "node-280240580",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280240580"
+  },
+  {
+    "suffix": "bangkok/stations/node-280240585",
+    "kind": "station",
+    "id": "node-280240585",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280240585"
+  },
+  {
+    "suffix": "bangkok/stations/node-280240589",
+    "kind": "station",
+    "id": "node-280240589",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-280240589"
+  },
+  {
+    "suffix": "bangkok/stations/node-305693940",
+    "kind": "station",
+    "id": "node-305693940",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-305693940"
+  },
+  {
+    "suffix": "bangkok/stations/node-3178943413",
+    "kind": "station",
+    "id": "node-3178943413",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3178943413"
+  },
+  {
+    "suffix": "bangkok/stations/node-3178943414",
+    "kind": "station",
+    "id": "node-3178943414",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3178943414"
+  },
+  {
+    "suffix": "bangkok/stations/node-3180277903",
+    "kind": "station",
+    "id": "node-3180277903",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3180277903"
+  },
+  {
+    "suffix": "bangkok/stations/node-3180278582",
+    "kind": "station",
+    "id": "node-3180278582",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3180278582"
+  },
+  {
+    "suffix": "bangkok/stations/node-3180278583",
+    "kind": "station",
+    "id": "node-3180278583",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3180278583"
+  },
+  {
+    "suffix": "bangkok/stations/node-3180278584",
+    "kind": "station",
+    "id": "node-3180278584",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3180278584"
+  },
+  {
+    "suffix": "bangkok/stations/node-3180278585",
+    "kind": "station",
+    "id": "node-3180278585",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3180278585"
+  },
+  {
+    "suffix": "bangkok/stations/node-340133002",
+    "kind": "station",
+    "id": "node-340133002",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-340133002"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487510793",
+    "kind": "station",
+    "id": "node-3487510793",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487510793"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487510834",
+    "kind": "station",
+    "id": "node-3487510834",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487510834"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487510858",
+    "kind": "station",
+    "id": "node-3487510858",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487510858"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511003",
+    "kind": "station",
+    "id": "node-3487511003",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511003"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511061",
+    "kind": "station",
+    "id": "node-3487511061",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511061"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511084",
+    "kind": "station",
+    "id": "node-3487511084",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511084"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511212",
+    "kind": "station",
+    "id": "node-3487511212",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511212"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511268",
+    "kind": "station",
+    "id": "node-3487511268",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511268"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511288",
+    "kind": "station",
+    "id": "node-3487511288",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511288"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511435",
+    "kind": "station",
+    "id": "node-3487511435",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511435"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511444",
+    "kind": "station",
+    "id": "node-3487511444",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511444"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511468",
+    "kind": "station",
+    "id": "node-3487511468",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511468"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511701",
+    "kind": "station",
+    "id": "node-3487511701",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511701"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511734",
+    "kind": "station",
+    "id": "node-3487511734",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511734"
+  },
+  {
+    "suffix": "bangkok/stations/node-3487511748",
+    "kind": "station",
+    "id": "node-3487511748",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3487511748"
+  },
+  {
+    "suffix": "bangkok/stations/node-3641278705",
+    "kind": "station",
+    "id": "node-3641278705",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3641278705"
+  },
+  {
+    "suffix": "bangkok/stations/node-3801037854",
+    "kind": "station",
+    "id": "node-3801037854",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3801037854"
+  },
+  {
+    "suffix": "bangkok/stations/node-3801040560",
+    "kind": "station",
+    "id": "node-3801040560",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3801040560"
+  },
+  {
+    "suffix": "bangkok/stations/node-3801040562",
+    "kind": "station",
+    "id": "node-3801040562",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3801040562"
+  },
+  {
+    "suffix": "bangkok/stations/node-3801040563",
+    "kind": "station",
+    "id": "node-3801040563",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-3801040563"
+  },
+  {
+    "suffix": "bangkok/stations/node-443815142",
+    "kind": "station",
+    "id": "node-443815142",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-443815142"
+  },
+  {
+    "suffix": "bangkok/stations/node-443815144",
+    "kind": "station",
+    "id": "node-443815144",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-443815144"
+  },
+  {
+    "suffix": "bangkok/stations/node-451697335",
+    "kind": "station",
+    "id": "node-451697335",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-451697335"
+  },
+  {
+    "suffix": "bangkok/stations/node-4774928037",
+    "kind": "station",
+    "id": "node-4774928037",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-4774928037"
+  },
+  {
+    "suffix": "bangkok/stations/node-6123597368",
+    "kind": "station",
+    "id": "node-6123597368",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6123597368"
+  },
+  {
+    "suffix": "bangkok/stations/node-6123597369",
+    "kind": "station",
+    "id": "node-6123597369",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6123597369"
+  },
+  {
+    "suffix": "bangkok/stations/node-6123597370",
+    "kind": "station",
+    "id": "node-6123597370",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6123597370"
+  },
+  {
+    "suffix": "bangkok/stations/node-6123597371",
+    "kind": "station",
+    "id": "node-6123597371",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6123597371"
+  },
+  {
+    "suffix": "bangkok/stations/node-6123597372",
+    "kind": "station",
+    "id": "node-6123597372",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6123597372"
+  },
+  {
+    "suffix": "bangkok/stations/node-6123597373",
+    "kind": "station",
+    "id": "node-6123597373",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6123597373"
+  },
+  {
+    "suffix": "bangkok/stations/node-6123597374",
+    "kind": "station",
+    "id": "node-6123597374",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6123597374"
+  },
+  {
+    "suffix": "bangkok/stations/node-6563254035",
+    "kind": "station",
+    "id": "node-6563254035",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6563254035"
+  },
+  {
+    "suffix": "bangkok/stations/node-6695196331",
+    "kind": "station",
+    "id": "node-6695196331",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6695196331"
+  },
+  {
+    "suffix": "bangkok/stations/node-6695196338",
+    "kind": "station",
+    "id": "node-6695196338",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6695196338"
+  },
+  {
+    "suffix": "bangkok/stations/node-6703032843",
+    "kind": "station",
+    "id": "node-6703032843",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6703032843"
+  },
+  {
+    "suffix": "bangkok/stations/node-6703032848",
+    "kind": "station",
+    "id": "node-6703032848",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6703032848"
+  },
+  {
+    "suffix": "bangkok/stations/node-6703032849",
+    "kind": "station",
+    "id": "node-6703032849",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6703032849"
+  },
+  {
+    "suffix": "bangkok/stations/node-6703032861",
+    "kind": "station",
+    "id": "node-6703032861",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-6703032861"
+  },
+  {
+    "suffix": "bangkok/stations/node-7156540353",
+    "kind": "station",
+    "id": "node-7156540353",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7156540353"
+  },
+  {
+    "suffix": "bangkok/stations/node-7271108084",
+    "kind": "station",
+    "id": "node-7271108084",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7271108084"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314652456",
+    "kind": "station",
+    "id": "node-7314652456",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314652456"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314652468",
+    "kind": "station",
+    "id": "node-7314652468",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314652468"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656049",
+    "kind": "station",
+    "id": "node-7314656049",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656049"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656119",
+    "kind": "station",
+    "id": "node-7314656119",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656119"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656141",
+    "kind": "station",
+    "id": "node-7314656141",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656141"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656153",
+    "kind": "station",
+    "id": "node-7314656153",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656153"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656170",
+    "kind": "station",
+    "id": "node-7314656170",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656170"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656188",
+    "kind": "station",
+    "id": "node-7314656188",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656188"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656197",
+    "kind": "station",
+    "id": "node-7314656197",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656197"
+  },
+  {
+    "suffix": "bangkok/stations/node-7314656201",
+    "kind": "station",
+    "id": "node-7314656201",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7314656201"
+  },
+  {
+    "suffix": "bangkok/stations/node-7613336660",
+    "kind": "station",
+    "id": "node-7613336660",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7613336660"
+  },
+  {
+    "suffix": "bangkok/stations/node-7647114249",
+    "kind": "station",
+    "id": "node-7647114249",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7647114249"
+  },
+  {
+    "suffix": "bangkok/stations/node-7647114250",
+    "kind": "station",
+    "id": "node-7647114250",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7647114250"
+  },
+  {
+    "suffix": "bangkok/stations/node-7781133227",
+    "kind": "station",
+    "id": "node-7781133227",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7781133227"
+  },
+  {
+    "suffix": "bangkok/stations/node-7781158247",
+    "kind": "station",
+    "id": "node-7781158247",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7781158247"
+  },
+  {
+    "suffix": "bangkok/stations/node-7781234528",
+    "kind": "station",
+    "id": "node-7781234528",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7781234528"
+  },
+  {
+    "suffix": "bangkok/stations/node-7947412031",
+    "kind": "station",
+    "id": "node-7947412031",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-7947412031"
+  },
+  {
+    "suffix": "bangkok/stations/node-8067064024",
+    "kind": "station",
+    "id": "node-8067064024",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8067064024"
+  },
+  {
+    "suffix": "bangkok/stations/node-8446348865",
+    "kind": "station",
+    "id": "node-8446348865",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8446348865"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717828065",
+    "kind": "station",
+    "id": "node-8717828065",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717828065"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717828067",
+    "kind": "station",
+    "id": "node-8717828067",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717828067"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717841716",
+    "kind": "station",
+    "id": "node-8717841716",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717841716"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717841725",
+    "kind": "station",
+    "id": "node-8717841725",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717841725"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717933829",
+    "kind": "station",
+    "id": "node-8717933829",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717933829"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717933831",
+    "kind": "station",
+    "id": "node-8717933831",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717933831"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717933832",
+    "kind": "station",
+    "id": "node-8717933832",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717933832"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717933833",
+    "kind": "station",
+    "id": "node-8717933833",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717933833"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717933834",
+    "kind": "station",
+    "id": "node-8717933834",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717933834"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717933835",
+    "kind": "station",
+    "id": "node-8717933835",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717933835"
+  },
+  {
+    "suffix": "bangkok/stations/node-8717933837",
+    "kind": "station",
+    "id": "node-8717933837",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8717933837"
+  },
+  {
+    "suffix": "bangkok/stations/node-8730762308",
+    "kind": "station",
+    "id": "node-8730762308",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8730762308"
+  },
+  {
+    "suffix": "bangkok/stations/node-8730802232",
+    "kind": "station",
+    "id": "node-8730802232",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8730802232"
+  },
+  {
+    "suffix": "bangkok/stations/node-8730802242",
+    "kind": "station",
+    "id": "node-8730802242",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8730802242"
+  },
+  {
+    "suffix": "bangkok/stations/node-8730802243",
+    "kind": "station",
+    "id": "node-8730802243",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8730802243"
+  },
+  {
+    "suffix": "bangkok/stations/node-8730802246",
+    "kind": "station",
+    "id": "node-8730802246",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8730802246"
+  },
+  {
+    "suffix": "bangkok/stations/node-8986366289",
+    "kind": "station",
+    "id": "node-8986366289",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8986366289"
+  },
+  {
+    "suffix": "bangkok/stations/node-8990375565",
+    "kind": "station",
+    "id": "node-8990375565",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-8990375565"
+  },
+  {
+    "suffix": "bangkok/stations/node-9697341535",
+    "kind": "station",
+    "id": "node-9697341535",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9697341535"
+  },
+  {
+    "suffix": "bangkok/stations/node-9697341538",
+    "kind": "station",
+    "id": "node-9697341538",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9697341538"
+  },
+  {
+    "suffix": "bangkok/stations/node-9733987641",
+    "kind": "station",
+    "id": "node-9733987641",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9733987641"
+  },
+  {
+    "suffix": "bangkok/stations/node-9733987646",
+    "kind": "station",
+    "id": "node-9733987646",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9733987646"
+  },
+  {
+    "suffix": "bangkok/stations/node-9734277455",
+    "kind": "station",
+    "id": "node-9734277455",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9734277455"
+  },
+  {
+    "suffix": "bangkok/stations/node-9734277456",
+    "kind": "station",
+    "id": "node-9734277456",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9734277456"
+  },
+  {
+    "suffix": "bangkok/stations/node-9734277457",
+    "kind": "station",
+    "id": "node-9734277457",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9734277457"
+  },
+  {
+    "suffix": "bangkok/stations/node-9734277458",
+    "kind": "station",
+    "id": "node-9734277458",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9734277458"
+  },
+  {
+    "suffix": "bangkok/stations/node-9734277459",
+    "kind": "station",
+    "id": "node-9734277459",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9734277459"
+  },
+  {
+    "suffix": "bangkok/stations/node-9734277460",
+    "kind": "station",
+    "id": "node-9734277460",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9734277460"
+  },
+  {
+    "suffix": "bangkok/stations/node-9734277461",
+    "kind": "station",
+    "id": "node-9734277461",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9734277461"
+  },
+  {
+    "suffix": "bangkok/stations/node-9913078093",
+    "kind": "station",
+    "id": "node-9913078093",
+    "pilot": null,
+    "canonicalSuffix": "bangkok/stations/node-9913078093"
+  },
+  {
+    "suffix": "boat/destinations/anantara-riverside",
+    "kind": "boat-destination",
+    "id": "anantara-riverside",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/anantara-riverside"
+  },
+  {
+    "suffix": "boat/destinations/asiatique",
+    "kind": "boat-destination",
+    "id": "asiatique",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/asiatique"
+  },
+  {
+    "suffix": "boat/destinations/capella",
+    "kind": "boat-destination",
+    "id": "capella",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/capella"
+  },
+  {
+    "suffix": "boat/destinations/chinatown",
+    "kind": "boat-destination",
+    "id": "chinatown",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/chinatown"
+  },
+  {
+    "suffix": "boat/destinations/flower-market",
+    "kind": "boat-destination",
+    "id": "flower-market",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/flower-market"
+  },
+  {
+    "suffix": "boat/destinations/grand-palace",
+    "kind": "boat-destination",
+    "id": "grand-palace",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/grand-palace"
+  },
+  {
+    "suffix": "boat/destinations/iconsiam",
+    "kind": "boat-destination",
+    "id": "iconsiam",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/iconsiam"
+  },
+  {
+    "suffix": "boat/destinations/khaosan",
+    "kind": "boat-destination",
+    "id": "khaosan",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/khaosan"
+  },
+  {
+    "suffix": "boat/destinations/mandarin-oriental",
+    "kind": "boat-destination",
+    "id": "mandarin-oriental",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/mandarin-oriental"
+  },
+  {
+    "suffix": "boat/destinations/millennium-hilton",
+    "kind": "boat-destination",
+    "id": "millennium-hilton",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/millennium-hilton"
+  },
+  {
+    "suffix": "boat/destinations/peninsula",
+    "kind": "boat-destination",
+    "id": "peninsula",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/peninsula"
+  },
+  {
+    "suffix": "boat/destinations/royal-orchid-sheraton",
+    "kind": "boat-destination",
+    "id": "royal-orchid-sheraton",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/royal-orchid-sheraton"
+  },
+  {
+    "suffix": "boat/destinations/shangri-la",
+    "kind": "boat-destination",
+    "id": "shangri-la",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/shangri-la"
+  },
+  {
+    "suffix": "boat/destinations/tha-maharaj",
+    "kind": "boat-destination",
+    "id": "tha-maharaj",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/tha-maharaj"
+  },
+  {
+    "suffix": "boat/destinations/wang-lang",
+    "kind": "boat-destination",
+    "id": "wang-lang",
+    "pilot": null,
+    "canonicalSuffix": "boat/destinations/wang-lang"
+  },
+  {
+    "suffix": "boat/piers/pier-a",
+    "kind": "boat-pier",
+    "id": "pier-a",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-a"
+  },
+  {
+    "suffix": "boat/piers/pier-i",
+    "kind": "boat-pier",
+    "id": "pier-i",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-i"
+  },
+  {
+    "suffix": "boat/piers/pier-m",
+    "kind": "boat-pier",
+    "id": "pier-m",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-m"
+  },
+  {
+    "suffix": "boat/piers/pier-n10",
+    "kind": "boat-pier",
+    "id": "pier-n10",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n10"
+  },
+  {
+    "suffix": "boat/piers/pier-n11",
+    "kind": "boat-pier",
+    "id": "pier-n11",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n11"
+  },
+  {
+    "suffix": "boat/piers/pier-n12",
+    "kind": "boat-pier",
+    "id": "pier-n12",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n12"
+  },
+  {
+    "suffix": "boat/piers/pier-n13",
+    "kind": "boat-pier",
+    "id": "pier-n13",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n13"
+  },
+  {
+    "suffix": "boat/piers/pier-n15",
+    "kind": "boat-pier",
+    "id": "pier-n15",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n15"
+  },
+  {
+    "suffix": "boat/piers/pier-n16",
+    "kind": "boat-pier",
+    "id": "pier-n16",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n16"
+  },
+  {
+    "suffix": "boat/piers/pier-n18",
+    "kind": "boat-pier",
+    "id": "pier-n18",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n18"
+  },
+  {
+    "suffix": "boat/piers/pier-n19",
+    "kind": "boat-pier",
+    "id": "pier-n19",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n19"
+  },
+  {
+    "suffix": "boat/piers/pier-n20",
+    "kind": "boat-pier",
+    "id": "pier-n20",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n20"
+  },
+  {
+    "suffix": "boat/piers/pier-n21",
+    "kind": "boat-pier",
+    "id": "pier-n21",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n21"
+  },
+  {
+    "suffix": "boat/piers/pier-n22",
+    "kind": "boat-pier",
+    "id": "pier-n22",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n22"
+  },
+  {
+    "suffix": "boat/piers/pier-n23",
+    "kind": "boat-pier",
+    "id": "pier-n23",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n23"
+  },
+  {
+    "suffix": "boat/piers/pier-n24",
+    "kind": "boat-pier",
+    "id": "pier-n24",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n24"
+  },
+  {
+    "suffix": "boat/piers/pier-n26",
+    "kind": "boat-pier",
+    "id": "pier-n26",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n26"
+  },
+  {
+    "suffix": "boat/piers/pier-n27",
+    "kind": "boat-pier",
+    "id": "pier-n27",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n27"
+  },
+  {
+    "suffix": "boat/piers/pier-n28",
+    "kind": "boat-pier",
+    "id": "pier-n28",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n28"
+  },
+  {
+    "suffix": "boat/piers/pier-n29-1",
+    "kind": "boat-pier",
+    "id": "pier-n29-1",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n29-1"
+  },
+  {
+    "suffix": "boat/piers/pier-n3",
+    "kind": "boat-pier",
+    "id": "pier-n3",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n3"
+  },
+  {
+    "suffix": "boat/piers/pier-n31",
+    "kind": "boat-pier",
+    "id": "pier-n31",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n31"
+  },
+  {
+    "suffix": "boat/piers/pier-n31-1",
+    "kind": "boat-pier",
+    "id": "pier-n31-1",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n31-1"
+  },
+  {
+    "suffix": "boat/piers/pier-n32",
+    "kind": "boat-pier",
+    "id": "pier-n32",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n32"
+  },
+  {
+    "suffix": "boat/piers/pier-n4",
+    "kind": "boat-pier",
+    "id": "pier-n4",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n4"
+  },
+  {
+    "suffix": "boat/piers/pier-n5",
+    "kind": "boat-pier",
+    "id": "pier-n5",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n5"
+  },
+  {
+    "suffix": "boat/piers/pier-n6",
+    "kind": "boat-pier",
+    "id": "pier-n6",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n6"
+  },
+  {
+    "suffix": "boat/piers/pier-n7",
+    "kind": "boat-pier",
+    "id": "pier-n7",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n7"
+  },
+  {
+    "suffix": "boat/piers/pier-n9",
+    "kind": "boat-pier",
+    "id": "pier-n9",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-n9"
+  },
+  {
+    "suffix": "boat/piers/pier-nonthaburi",
+    "kind": "boat-pier",
+    "id": "pier-nonthaburi",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-nonthaburi"
+  },
+  {
+    "suffix": "boat/piers/pier-pakkret",
+    "kind": "boat-pier",
+    "id": "pier-pakkret",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-pakkret"
+  },
+  {
+    "suffix": "boat/piers/pier-phra-nang-klao-bridge",
+    "kind": "boat-pier",
+    "id": "pier-phra-nang-klao-bridge",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-phra-nang-klao-bridge"
+  },
+  {
+    "suffix": "boat/piers/pier-s1",
+    "kind": "boat-pier",
+    "id": "pier-s1",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-s1"
+  },
+  {
+    "suffix": "boat/piers/pier-sathorn",
+    "kind": "boat-pier",
+    "id": "pier-sathorn",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-sathorn"
+  },
+  {
+    "suffix": "boat/piers/pier-tha-tien",
+    "kind": "boat-pier",
+    "id": "pier-tha-tien",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-tha-tien"
+  },
+  {
+    "suffix": "boat/piers/pier-wat-arun",
+    "kind": "boat-pier",
+    "id": "pier-wat-arun",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-wat-arun"
+  },
+  {
+    "suffix": "boat/piers/pier-wat-rajsingkorn",
+    "kind": "boat-pier",
+    "id": "pier-wat-rajsingkorn",
+    "pilot": null,
+    "canonicalSuffix": "boat/piers/pier-wat-rajsingkorn"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-ban-phe",
+    "kind": "bus-route",
+    "id": "ekkamai-ban-phe",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-ban-phe"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-bo-win",
+    "kind": "bus-route",
+    "id": "ekkamai-bo-win",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-bo-win"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-chanthaburi",
+    "kind": "bus-route",
+    "id": "ekkamai-chanthaburi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-chanthaburi"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-laem-mae-phim",
+    "kind": "bus-route",
+    "id": "ekkamai-laem-mae-phim",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-laem-mae-phim"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-laemngob",
+    "kind": "bus-route",
+    "id": "ekkamai-laemngob",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-laemngob"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-pattaya",
+    "kind": "bus-route",
+    "id": "ekkamai-pattaya",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-pattaya"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-rayong",
+    "kind": "bus-route",
+    "id": "ekkamai-rayong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-rayong"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-samut-prakan",
+    "kind": "bus-route",
+    "id": "ekkamai-samut-prakan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-samut-prakan"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-trat",
+    "kind": "bus-route",
+    "id": "ekkamai-trat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-trat"
+  },
+  {
+    "suffix": "bus/routes/ekkamai-trat-koh-kood-koh-mak",
+    "kind": "bus-route",
+    "id": "ekkamai-trat-koh-kood-koh-mak",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/ekkamai-trat-koh-kood-koh-mak"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-amnat-charoen",
+    "kind": "bus-route",
+    "id": "mo-chit-2-amnat-charoen",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-amnat-charoen"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-ang-thong",
+    "kind": "bus-route",
+    "id": "mo-chit-2-ang-thong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-ang-thong"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-bhumibol-dam-tak",
+    "kind": "bus-route",
+    "id": "mo-chit-2-bhumibol-dam-tak",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-bhumibol-dam-tak"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-buengkan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-buengkan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-buengkan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-buntharik",
+    "kind": "bus-route",
+    "id": "mo-chit-2-buntharik",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-buntharik"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-buriram",
+    "kind": "bus-route",
+    "id": "mo-chit-2-buriram",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-buriram"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chai-nat",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chai-nat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chai-nat"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chaiyaphum",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chaiyaphum",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chaiyaphum"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chakkarat-sisaket",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chakkarat-sisaket",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chakkarat-sisaket"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chanthaburi",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chanthaburi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chanthaburi"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chiang-mai",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chiang-mai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chiang-mai"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chiang-rai",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chiang-rai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chiang-rai"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chiangsaen",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chiangsaen",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chiangsaen"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-chumphon",
+    "kind": "bus-route",
+    "id": "mo-chit-2-chumphon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-chumphon"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-doitao-chomthong",
+    "kind": "bus-route",
+    "id": "mo-chit-2-doitao-chomthong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-doitao-chomthong"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-don-tan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-don-tan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-don-tan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-hat-yai",
+    "kind": "bus-route",
+    "id": "mo-chit-2-hat-yai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-hat-yai"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-hatyai-dannok",
+    "kind": "bus-route",
+    "id": "mo-chit-2-hatyai-dannok",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-hatyai-dannok"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kabcheing",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kabcheing",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kabcheing"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kalasin",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kalasin",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kalasin"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kamphaengphet",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kamphaengphet",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kamphaengphet"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kanchanaburi",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kanchanaburi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kanchanaburi"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-khanom",
+    "kind": "bus-route",
+    "id": "mo-chit-2-khanom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-khanom"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-khemarat",
+    "kind": "bus-route",
+    "id": "mo-chit-2-khemarat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-khemarat"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-khlonglan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-khlonglan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-khlonglan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-khon-kaen",
+    "kind": "bus-route",
+    "id": "mo-chit-2-khon-kaen",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-khon-kaen"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-khong-chiam",
+    "kind": "bus-route",
+    "id": "mo-chit-2-khong-chiam",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-khong-chiam"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kohphangan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kohphangan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kohphangan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kohsamui",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kohsamui",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kohsamui"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-korat",
+    "kind": "bus-route",
+    "id": "mo-chit-2-korat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-korat"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-krabi",
+    "kind": "bus-route",
+    "id": "mo-chit-2-krabi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-krabi"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-krabi-lanta-island-harbor",
+    "kind": "bus-route",
+    "id": "mo-chit-2-krabi-lanta-island-harbor",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-krabi-lanta-island-harbor"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kranuan-banphaeng",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kranuan-banphaeng",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kranuan-banphaeng"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kud-chom-that-phanom",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kud-chom-that-phanom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kud-chom-that-phanom"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kumphawapi-buengkan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kumphawapi-buengkan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kumphawapi-buengkan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-kutchum-thatphanom",
+    "kind": "bus-route",
+    "id": "mo-chit-2-kutchum-thatphanom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-kud-chom-that-phanom"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-lampang",
+    "kind": "bus-route",
+    "id": "mo-chit-2-lampang",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-lampang"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-lamphun",
+    "kind": "bus-route",
+    "id": "mo-chit-2-lamphun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-lamphun"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-loei",
+    "kind": "bus-route",
+    "id": "mo-chit-2-loei",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-loei"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-lomsak",
+    "kind": "bus-route",
+    "id": "mo-chit-2-lomsak",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-lomsak"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-lop-buri",
+    "kind": "bus-route",
+    "id": "mo-chit-2-lop-buri",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-lop-buri"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-mae-sai",
+    "kind": "bus-route",
+    "id": "mo-chit-2-mae-sai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-mae-sai"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-mae-sot",
+    "kind": "bus-route",
+    "id": "mo-chit-2-mae-sot",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-mae-sot"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-mahasarakham",
+    "kind": "bus-route",
+    "id": "mo-chit-2-mahasarakham",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-mahasarakham"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-mukdahan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-mukdahan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-mukdahan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nakhon-nayok",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nakhon-nayok",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nakhon-nayok"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nakhon-pathom",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nakhon-pathom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nakhon-pathom"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nakhon-phanom",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nakhon-phanom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nakhon-phanom"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nakhon-sawan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nakhon-sawan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nakhon-sawan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nakhon-si-thammarat",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nakhon-si-thammarat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nakhon-si-thammarat"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-narathiwat",
+    "kind": "bus-route",
+    "id": "mo-chit-2-narathiwat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-narathiwat"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nong-bua-lam-phu",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nong-bua-lam-phu",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nong-bua-lam-phu"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nong-khai",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nong-khai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nong-khai"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-nonthaburi",
+    "kind": "bus-route",
+    "id": "mo-chit-2-nonthaburi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-nonthaburi"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-ongkharak-aranyaprathet",
+    "kind": "bus-route",
+    "id": "mo-chit-2-ongkharak-aranyaprathet",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-ongkharak-aranyaprathet"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-pak-phanang",
+    "kind": "bus-route",
+    "id": "mo-chit-2-pak-phanang",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-pak-phanang"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-pakse",
+    "kind": "bus-route",
+    "id": "mo-chit-2-pakse",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-pakse"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-pathum-thani",
+    "kind": "bus-route",
+    "id": "mo-chit-2-pathum-thani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-pathum-thani"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-pattani",
+    "kind": "bus-route",
+    "id": "mo-chit-2-pattani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-pattani"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-pattaya",
+    "kind": "bus-route",
+    "id": "mo-chit-2-pattaya",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-pattaya"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phangnga",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phangnga",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phangnga"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phatthalung",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phatthalung",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phatthalung"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phatthalung-satun",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phatthalung-satun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phatthalung-satun"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phayao",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phayao",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phayao"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phetchabun",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phetchabun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phetchabun"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phetchaburi",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phetchaburi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phetchaburi"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phichit",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phichit",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phichit"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phitsanulok",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phitsanulok",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phitsanulok"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phra-nakhon-si-ayutthaya",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phra-nakhon-si-ayutthaya",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phra-nakhon-si-ayutthaya"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phrae",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phrae",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phrae"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-phuket",
+    "kind": "bus-route",
+    "id": "mo-chit-2-phuket",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-phuket"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-prachin-buri",
+    "kind": "bus-route",
+    "id": "mo-chit-2-prachin-buri",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-prachin-buri"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-prachuap-khiri-khan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-prachuap-khiri-khan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-prachuap-khiri-khan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-ranong",
+    "kind": "bus-route",
+    "id": "mo-chit-2-ranong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-ranong"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-rattanaburi-ubonratchathani",
+    "kind": "bus-route",
+    "id": "mo-chit-2-rattanaburi-ubonratchathani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-rattanaburi-ubonratchathani"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-rayong",
+    "kind": "bus-route",
+    "id": "mo-chit-2-rayong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-rayong"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-renunakhon",
+    "kind": "bus-route",
+    "id": "mo-chit-2-renunakhon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-renunakhon"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-roi-et",
+    "kind": "bus-route",
+    "id": "mo-chit-2-roi-et",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-roi-et"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sa-kaeo",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sa-kaeo",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sa-kaeo"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sahatsakhan-banphaeng",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sahatsakhan-banphaeng",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sahatsakhan-banphaeng"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sakon-nakhon",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sakon-nakhon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sakon-nakhon"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sakonnakhon-taongoi",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sakonnakhon-taongoi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sakonnakhon-taongoi"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-samut-prakan",
+    "kind": "bus-route",
+    "id": "mo-chit-2-samut-prakan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-samut-prakan"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-samut-sakhon",
+    "kind": "bus-route",
+    "id": "mo-chit-2-samut-sakhon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-samut-sakhon"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-saraburi",
+    "kind": "bus-route",
+    "id": "mo-chit-2-saraburi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-saraburi"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-satun",
+    "kind": "bus-route",
+    "id": "mo-chit-2-satun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-satun"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sawankhalok",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sawankhalok",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sawankhalok"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-si-sa-ket",
+    "kind": "bus-route",
+    "id": "mo-chit-2-si-sa-ket",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-si-sa-ket"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sing-buri",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sing-buri",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sing-buri"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-songkhla",
+    "kind": "bus-route",
+    "id": "mo-chit-2-songkhla",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-songkhla"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sukhothai",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sukhothai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sukhothai"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sukhothai-historical-park",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sukhothai-historical-park",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sukhothai-historical-park"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-sukhothai-uttaradit",
+    "kind": "bus-route",
+    "id": "mo-chit-2-sukhothai-uttaradit",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-sukhothai-uttaradit"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-surat-thani",
+    "kind": "bus-route",
+    "id": "mo-chit-2-surat-thani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-surat-thani"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-surin",
+    "kind": "bus-route",
+    "id": "mo-chit-2-surin",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-surin"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-tak",
+    "kind": "bus-route",
+    "id": "mo-chit-2-tak",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-tak"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-thaton",
+    "kind": "bus-route",
+    "id": "mo-chit-2-thaton",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-thaton"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-thoeng-chiangkhong",
+    "kind": "bus-route",
+    "id": "mo-chit-2-thoeng-chiangkhong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-thoeng-chiangkhong"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-thungchang",
+    "kind": "bus-route",
+    "id": "mo-chit-2-thungchang",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-thungchang"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-trang",
+    "kind": "bus-route",
+    "id": "mo-chit-2-trang",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-trang"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-trang-satun",
+    "kind": "bus-route",
+    "id": "mo-chit-2-trang-satun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-trang-satun"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-trat",
+    "kind": "bus-route",
+    "id": "mo-chit-2-trat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-trat"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-ubon-ratchathani-muang-sam-sip",
+    "kind": "bus-route",
+    "id": "mo-chit-2-ubon-ratchathani-muang-sam-sip",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-ubon-ratchathani-muang-sam-sip"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-ubonratchathani",
+    "kind": "bus-route",
+    "id": "mo-chit-2-ubonratchathani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-ubonratchathani"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-udon-thani",
+    "kind": "bus-route",
+    "id": "mo-chit-2-udon-thani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-udon-thani"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-udon-thani-nong-khai",
+    "kind": "bus-route",
+    "id": "mo-chit-2-udon-thani-nong-khai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-udon-thani-nong-khai"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-udonthani-nakhonphanom",
+    "kind": "bus-route",
+    "id": "mo-chit-2-udonthani-nakhonphanom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-udonthani-nakhonphanom"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-uthai-thani",
+    "kind": "bus-route",
+    "id": "mo-chit-2-uthai-thani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-uthai-thani"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-uttaradit",
+    "kind": "bus-route",
+    "id": "mo-chit-2-uttaradit",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-uttaradit"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-vientiane",
+    "kind": "bus-route",
+    "id": "mo-chit-2-vientiane",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-vientiane"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-yala",
+    "kind": "bus-route",
+    "id": "mo-chit-2-yala",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-yala"
+  },
+  {
+    "suffix": "bus/routes/mo-chit-2-yasothon",
+    "kind": "bus-route",
+    "id": "mo-chit-2-yasothon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/mo-chit-2-yasothon"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-chumphon",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-chumphon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-chumphon"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-donsak-kohsamui",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-donsak-kohsamui",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-donsak-kohsamui"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-hat-yai",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-hat-yai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-hat-yai"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-hua-hin",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-hua-hin",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-hua-hin"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-khanom",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-khanom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-khanom"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-kohphangan",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-kohphangan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-kohphangan"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-krabi",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-krabi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-krabi"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-langsuan",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-langsuan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-langsuan"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-nakhon-phanom",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-nakhon-phanom",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-nakhon-phanom"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-nakhon-si-thammarat",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-nakhon-si-thammarat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-nakhon-si-thammarat"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-nakhonsithammarat-pakphanang-huasai",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-nakhonsithammarat-pakphanang-huasai",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-nakhonsithammarat-pakphanang-huasai"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-narathiwat",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-narathiwat",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-narathiwat"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-pak-phanang",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-pak-phanang",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-pak-phanang"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-pattani",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-pattani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-pattani"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-phangnga",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-phangnga",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-phangnga"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-phatthalung",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-phatthalung",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-phatthalung"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-phatthalung-satun",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-phatthalung-satun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-phatthalung-satun"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-phetchaburi",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-phetchaburi",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-phetchaburi"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-phuket",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-phuket",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-phuket"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-prachuap-khiri-khan",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-prachuap-khiri-khan",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-prachuap-khiri-khan"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-ranong",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-ranong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-ranong"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-sakon-nakhon",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-sakon-nakhon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-sakon-nakhon"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-samut-sakhon",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-samut-sakhon",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-samut-sakhon"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-satun",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-satun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-satun"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-si-sa-ket",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-si-sa-ket",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-si-sa-ket"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-songkhla",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-songkhla",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-songkhla"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-sungaikolok",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-sungaikolok",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-sungaikolok"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-surat-thani",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-surat-thani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-surat-thani"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-takuapa-kokkloy",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-takuapa-kokkloy",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-takuapa-kokkloy"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-thungsong",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-thungsong",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-thungsong"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-trang",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-trang",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-trang"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-trang-satun",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-trang-satun",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-trang-satun"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-ubon-ratchathani",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-ubon-ratchathani",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-ubon-ratchathani"
+  },
+  {
+    "suffix": "bus/routes/sai-tai-mai-yala",
+    "kind": "bus-route",
+    "id": "sai-tai-mai-yala",
+    "pilot": null,
+    "canonicalSuffix": "bus/routes/sai-tai-mai-yala"
+  },
+  {
+    "suffix": "bus/terminals/ekkamai",
+    "kind": "bus-terminal",
+    "id": "ekkamai",
+    "pilot": null,
+    "canonicalSuffix": "bus/terminals/ekkamai"
+  },
+  {
+    "suffix": "bus/terminals/mo-chit-2",
+    "kind": "bus-terminal",
+    "id": "mo-chit-2",
+    "pilot": null,
+    "canonicalSuffix": "bus/terminals/mo-chit-2"
+  },
+  {
+    "suffix": "bus/terminals/sai-tai-mai",
+    "kind": "bus-terminal",
+    "id": "sai-tai-mai",
+    "pilot": null,
+    "canonicalSuffix": "bus/terminals/sai-tai-mai"
+  },
+  {
+    "suffix": "guides/air",
+    "kind": "guide",
+    "id": "air",
+    "pilot": null,
+    "canonicalSuffix": "guides/air"
+  },
+  {
+    "suffix": "guides/boat",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "guides/boat/index.html",
+    "canonicalSuffix": "guides/boat"
+  },
+  {
+    "suffix": "guides/bus",
+    "kind": "guide",
+    "id": "bus",
+    "pilot": null,
+    "canonicalSuffix": "guides/bus"
+  },
+  {
+    "suffix": "guides/local",
+    "kind": "guide",
+    "id": "local",
+    "pilot": null,
+    "canonicalSuffix": "guides/local"
+  },
+  {
+    "suffix": "guides/motorcycle",
+    "kind": "guide",
+    "id": "motorcycle",
+    "pilot": null,
+    "canonicalSuffix": "guides/motorcycle"
+  },
+  {
+    "suffix": "guides/rail",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "guides/rail/index.html",
+    "canonicalSuffix": "guides/rail"
+  },
+  {
+    "suffix": "guides/taxi",
+    "kind": "guide",
+    "id": "taxi",
+    "pilot": null,
+    "canonicalSuffix": "guides/taxi"
+  },
+  {
+    "suffix": "guides/train",
+    "kind": "guide",
+    "id": "train",
+    "pilot": null,
+    "canonicalSuffix": "guides/train"
+  },
+  {
+    "suffix": "lines/mrt-blue",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "lines/mrt-blue.html",
+    "canonicalSuffix": "bangkok/lines/mrt-blue"
+  },
+  {
+    "suffix": "lines/orange-flag",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "lines/orange-flag.html",
+    "canonicalSuffix": "bangkok/lines/orange-flag"
+  },
+  {
+    "suffix": "piers/nonthaburi",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "piers/nonthaburi.html",
+    "canonicalSuffix": "bangkok/piers/nonthaburi"
+  },
+  {
+    "suffix": "piers/sathorn",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "piers/sathorn.html",
+    "canonicalSuffix": "bangkok/piers/sathorn"
+  },
+  {
+    "suffix": "piers/tha-tien",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "piers/tha-tien.html",
+    "canonicalSuffix": "bangkok/piers/tha-tien"
+  },
+  {
+    "suffix": "piers/wat-arun",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "piers/wat-arun.html",
+    "canonicalSuffix": "bangkok/piers/wat-arun"
+  },
+  {
+    "suffix": "piers/wat-rajsingkorn",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "piers/wat-rajsingkorn.html",
+    "canonicalSuffix": "bangkok/piers/wat-rajsingkorn"
+  },
+  {
+    "suffix": "stations/itsaraphap",
+    "kind": "pilot",
+    "id": null,
+    "pilot": "stations/itsaraphap.html",
+    "canonicalSuffix": "bangkok/stations/itsaraphap"
+  }
+]

@@ -1,0 +1,227 @@
+{
+  "locale": "zh-tw",
+  "market": "TW",
+  "status": "locale source review and scoped tests passed; shared integration/build/HTML/UI pending",
+  "scope": {
+    "question": "Which Thai airport will I use, where are facilities, how do I arrive/depart/transfer and reach my city destination?",
+    "canonicalHub": "/zh-tw/airport-assistance/airports/",
+    "navigation": "Thai airports",
+    "publication": "existing locale routes preserved; local only"
+  },
+  "changedFiles": [
+    "src/data/airport-hub-locales/zh-tw.json",
+    "src/data/meta-descriptions/zh-tw.json"
+  ],
+  "sourceHashes": {
+    "src/data/airport-depth/zh-tw.json": "97aa776a3aca03e3fb32d4ccf998c8c2f643217aa88776c62fbca4104ed4de57",
+    "src/data/airport-depth/transport-zh-tw.json": "d5c6bcaf3bcb2ce178bc489761cd6906b018481d5f9137cd30a7f6a745daee12",
+    "public/data/airport-markets/zh-tw.json": "fb2ab1f654317780eceee22939986dbc60ca7cd5ffd1b215d345bb19edc24da3",
+    "src/data/airport-detail-guides-ko.json": "083f86963de7147298dec4e350c969883ccb5e5c14dfad23ad5305b5b2186b0a",
+    "src/data/transport/airport-guides/suvarnabhumi-to-bangkok.json": "442f7d8ea5ba01ca8a169e9f6ca89dc1f72eb1b3c8e1ea8c780431e786d441f1"
+  },
+  "outputHashes": {
+    "src/data/airport-hub-locales/zh-tw.json": "ec6e874a7d9ca78d41120de4879becc3c736d2971d1372da8949f6cb64e742d7",
+    "src/data/meta-descriptions/zh-tw.json": "62fbfca297edc72b9b83773151b487c40e74b51d268b7468e71a45da2a3d922b"
+  },
+  "hub": {
+    "unicodeCharacters": 158,
+    "cards": [
+      "bkk",
+      "dmk",
+      "hkt",
+      "cnx"
+    ],
+    "koreanHubMeaningPreserved": true,
+    "descriptionOverrideMatches": true
+  },
+  "perPageReview": [
+    {
+      "url": "/zh-tw/airport-assistance/airports/bkk/",
+      "description": "曼谷蘇凡納布機場第一次使用指南，說明抵達後先入境審查、領取行李再前往市區，以及出發報到、出境審查與國際線轉機經3樓東側安檢的動線。整理機場捷運在主航廈B1、AOT禮賓車櫃檯在2樓抵達區，並提醒Door出入口和Gate登機門不同、出境審查前後設施不相通，行李問題要在離開管制區前申報，機場客服專線為1722。",
+      "unicodeCharacters": 153,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/zh-tw/airport-assistance/airports/bkk/map/",
+      "description": "蘇凡納布機場室內地圖與設施位置查詢，可切換主航廈B1到4樓、A–G登機廊廳與SAT-1衛星航廈各樓層地圖，支援滑鼠滾輪、雙指縮放與拖曳移動，原圖由泰國機場管理公司提供。輸入商店名稱或依餐廳咖啡店、換匯ATM、計程車接駁、貴賓室、航空公司櫃檯等種類尋找設施，並提醒地圖設施編號不是登機門號碼，紅色圖釘也不代表可以進入該管制區域。",
+      "unicodeCharacters": 163,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/zh-tw/airport-assistance/airports/bkk/smoking/",
+      "description": "蘇凡納布機場吸菸區在哪裡？依出境審查前後分開說明：公共區可找2樓與4樓兩端Door 1、Door 10外的空調吸菸室，出境後可到D區4樓Burger King旁洗手間附近找Smoking Room標示，另說明D區3樓Miracle商務貴賓室的入場條件與吸菸空間資訊歧異，並提醒F區也有Burger King、Door與登機門編號不同。",
+      "unicodeCharacters": 167,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/zh-tw/airport-assistance/airports/bkk/transport/",
+      "description": "蘇凡納布機場到曼谷市區怎麼走？可依阿索克、席隆、大皇宮、暹羅或考山路等住宿區域，比較機場捷運ARL轉MRT、BTS與計程車、Grab、預約接送。說明B1搭ARL、1樓Door 4–7的Public Taxi排班處，計程車除跳表外另收50泰銖機場費與高速公路通行費，以及Grab在1樓Door 4外上車與核對車牌的提醒。",
+      "unicodeCharacters": 159,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/zh-tw/airport-assistance/airports/bkk/airlines/",
+      "description": "曼谷蘇凡納布機場航空公司報到櫃檯與聯絡方式，整理台灣航線各家航空在4樓出發大廳的報到、開票、機場辦公室與行李服務窗口。提醒先在看板確認實際營運航空公司與班號，Q5–10指的是Q區報到櫃檯而非登機門，並以華航P櫃台起飛前3小時開櫃為例，附上CI832、CI834等返回桃園與高雄的班機及時刻表適用期間，櫃檯分配仍以當天電子看板為準。",
+      "unicodeCharacters": 165,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/zh-tw/airport-assistance/airports/dmk/",
+      "description": "曼谷廊曼國際機場DMK使用指南，說明第1航廈為國際線、第2航廈為國內線，國際線轉國內線前要先確認入境與行李手續。整理24小時機場服務與總機電話，第1航廈3樓Door 8外與第2航廈1樓Door 10外的室外吸菸區，並可依第1、第2航廈的1到4樓地圖查找商店、銀行與ATM，以及台灣航線各航空公司的報到與服務窗口。",
+      "unicodeCharacters": 156,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/zh-tw/airport-assistance/airports/hkt/",
+      "description": "普吉國際機場HKT使用指南，說明國際線與國內線航廈分開，國際線抵達大廳在1樓、行李轉盤為1–5號，自助報到機在3樓出發大廳。整理國內線1樓G9吸菸區與國際線3樓1號出入口外的室外吸菸處，1樓7號出入口的醫療室，行李未到須在離開抵達區前申報，並附國際線與國內線航廈各樓層地圖、機場總機電話與台灣航線航空公司窗口。",
+      "unicodeCharacters": 155,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    },
+    {
+      "url": "/zh-tw/airport-assistance/airports/cnx/",
+      "description": "清邁國際機場CNX第一次使用指南，整理機場服務時間06:00–24:00、總機電話，抵達後到國際線航廈12號出入口搭A1、A2、A3機場接駁車，或到國內線1樓24小時Grab服務中心叫車。也說明1樓9號出入口附近的室外吸菸點、自助報到與自助行李託運支援航空不同，以及樓層地圖、商店、醫療室與台灣航線的航空公司窗口。",
+      "unicodeCharacters": 157,
+      "semanticReview": "Read complete locale airport manuscript, transport manuscript, Korean common-fact baseline and actual route/component source; description matches topic. Existing market counter data retained.",
+      "renderedHTML": "pending parent integration"
+    }
+  ],
+  "commonAirportParity": [
+    {
+      "code": "BKK",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        1,
+        3,
+        3
+      ],
+      "faq": 1,
+      "smokingCaveats": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "protectedFieldsPreserved": true
+    },
+    {
+      "code": "DMK",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        1,
+        3
+      ],
+      "faq": 3,
+      "smokingCaveats": [
+        2,
+        2
+      ],
+      "protectedFieldsPreserved": true
+    },
+    {
+      "code": "HKT",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        1,
+        2
+      ],
+      "faq": 3,
+      "smokingCaveats": [
+        2,
+        2
+      ],
+      "protectedFieldsPreserved": true
+    },
+    {
+      "code": "CNX",
+      "introParagraphs": 2,
+      "factRows": 5,
+      "steps": [
+        3,
+        3
+      ],
+      "sections": [
+        2,
+        5,
+        3,
+        1
+      ],
+      "faq": 4,
+      "smokingCaveats": [
+        2
+      ],
+      "protectedFieldsPreserved": true
+    }
+  ],
+  "transport": {
+    "sections": 10,
+    "koreanSections": 10,
+    "tables": [
+      6,
+      3,
+      5,
+      5,
+      4
+    ],
+    "faq": 4,
+    "sources": 8,
+    "sourceURLsPreserved": true
+  },
+  "marketData": {
+    "routes": 51,
+    "services": 56,
+    "airlines": 7,
+    "departureAirports": [
+      "TPE",
+      "KHH"
+    ],
+    "departureMetaMissing": [],
+    "departureMetaInvalid": [],
+    "departureAirportFullSemanticReview": "outside 8 Thai-airport/topic source review; existing data retained"
+  },
+  "checks": {
+    "command": "node --test tests/airport-depth.test.mjs tests/airport-market-scope.test.mjs tests/airport-guide-navigation.test.mjs",
+    "tests": 18,
+    "passed": 18,
+    "failed": 0
+  },
+  "preservation": "Existing full localized airport/transport manuscripts, dates, sources, IDs, geometry, map rights and market data unchanged. ja three meta descriptions changed only to complete sentences.",
+  "unfinished": [
+    "Parent shared hub rendering and back-links",
+    "Fresh isolated full build with SEO/date/editorial audits",
+    "Fresh generated HTML 8 detail topics plus hub per locale",
+    "PC/mobile and Pages runtime validation",
+    "Departure-airport full semantic review if included in parent scope"
+  ],
+  "release": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "indexNow": false,
+    "indexing": "unverified",
+    "rankings": "unmeasured",
+    "aiCitation": "unmeasured",
+    "measurement": "After separately authorized production publication, compare actual impressions/clicks/citations after 14 days; no automation created."
+  }
+}

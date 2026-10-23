@@ -31,3 +31,13 @@ export function thaiAirportAlternatePaths(pathname){
  return common?thaiAirportLanguagePaths(pathname):undefined;
 }
 export const airportLanguageTags={ko:'ko-KR',ms:'ms-MY','zh-cn':'zh-Hans-CN',en:'en','en-in':'en-IN',ru:'ru-RU',ja:'ja-JP','en-gb':'en-GB','en-us':'en-US',es:'es-ES','zh-tw':'zh-Hant-TW'};
+
+// Regional versions of the disruption hub answer the same entry question.
+// The worldwide English route is a cross-country search directory, not a
+// translation of that hub. Do not extend this group to country claim details.
+export function airportAssistanceAlternatePaths(pathname){
+ const locales=airportLocales.filter(locale=>locale!=='en');
+ return locales.some(locale=>pathname===`/${locale}/airport-assistance/`)
+  ?Object.fromEntries(locales.map(locale=>[locale,`/${locale}/airport-assistance/`]))
+  :undefined;
+}

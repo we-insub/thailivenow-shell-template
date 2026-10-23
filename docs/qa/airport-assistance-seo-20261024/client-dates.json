@@ -1,0 +1,298 @@
+{
+  "checks": [
+    {
+      "locale": "ko",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/ko/airport-assistance/": {
+            "sourceCheckedOn": "2026-10-13",
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "태국 여행 중 항공편 지연·결항이나 수하물 미도착·파손이 생겼을 때 상황별 대처 순서를 정리했어요. 공항에서 항공사 직원에게 알리는 첫 단계부터 확인서·접수번호·영수증 보관, 태국 출발편 CAAT 승객 보호 규정과 여행보험 청구 준비, 항공사·공항별 문의처까지 차례로 안내해요.",
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/en/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-19",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13",
+        "2026-10-13"
+      ],
+      "description": "Search flight, airport and airline help records across ten countries: find airlines like Thai Airways by name or code, airport counters and contacts, and what to keep if a bag is missing.",
+      "overflow": false
+    },
+    {
+      "locale": "ms",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/ms/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "Penerbangan lewat, dibatalkan atau bagasi hilang di Thailand? Ketahui cara melapor kepada syarikat penerbangan, dokumen surat pengesahan, hak penumpang CAAT dan tuntutan insurans perjalanan Etiqa.",
+      "overflow": false
+    },
+    {
+      "locale": "zh-cn",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/zh-cn/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "泰国航班延误、取消或行李没到怎么办？本页按航班延误、航班取消、托运行李未到和行李箱破损四种情况分别说明：人还在机场时先找实际承运航空公司，保存原定行程、通知和申报编号，离开机场前完成行李申报。之后可按航司或机场查找证明申请方法，并了解泰国出发航班的CAAT旅客保护规定和平安旅行保险理赔需要准备的材料。",
+      "overflow": false
+    },
+    {
+      "locale": "en-in",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/en-in/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "For flight delays, cancellations or lost baggage between India and Thailand, find airport reporting steps, records to keep, Thailand’s CAAT complaint route and HDFC ERGO insurance claim guidance.",
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/ru/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "Задержка или отмена рейса, не прилетел или повреждён багаж в Таиланде? Выберите свою ситуацию и узнайте, куда обратиться в аэропорту, как получить справку у авиакомпании и какие документы сохранить.",
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/ja/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "タイ旅行で飛行機の遅延・欠航や預けた荷物のトラブルが起きたときの対応ガイドです。まだ空港にいるなら、まず実際に運航する航空会社の係員に伝えましょう。遅れている、欠航した、荷物が出てこない、スーツケースが壊れたの4つの状況から選び、航空会社ごとの申告や証明書の手続きへ進めます。書類や領収書は後の請求に備えて保管してください。",
+      "overflow": false
+    },
+    {
+      "locale": "en-gb",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/en-gb/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "Flight delayed, cancelled or bag lost on a UK–Thailand trip? Learn how to report it to the operating airline at the airport, records to keep, Thai CAAT rights and BA proof for Allianz UK claims.",
+      "overflow": false
+    },
+    {
+      "locale": "en-us",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/en-us/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19",
+            "sourceCheckedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-19"
+      ],
+      "description": "Flight delayed or canceled in Thailand, or your bag didn’t arrive? Learn what to tell the airline at the airport and which reports and receipts to keep for a later claim or certificate request.",
+      "overflow": false
+    },
+    {
+      "locale": "es",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/es/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "Si su vuelo entre España y Tailandia se retrasa, se cancela o pierde su equipaje, consulte qué hacer en el aeropuerto, cómo pedir justificantes y qué documentos y recibos conservar para reclamar.",
+      "overflow": false
+    },
+    {
+      "locale": "zh-tw",
+      "snapshot": {
+        "schemaVersion": 1,
+        "timeZone": "Asia/Bangkok",
+        "deploymentDate": "2026-10-18",
+        "release": {
+          "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+          "activation": "Cloudflare Pages successful deployment; assets are deployment-scoped"
+        },
+        "cameras": {},
+        "pages": {
+          "/zh-tw/airport-assistance/": {
+            "contentModifiedOn": "2026-10-19"
+          }
+        }
+      },
+      "dateTexts": [
+        "2026-10-13"
+      ],
+      "description": "泰國旅遊遇到班機延誤、取消，或託運行李沒到、行李箱破損怎麼辦？本頁依狀況整理第一步：先向實際承運航空公司地勤說明狀況並詢問如何取得書面證明，離開機場前完成行李申報，保留登機證、行李牌、受理編號與支出單據。也說明泰國出發航班的CAAT旅客保護規定、從台灣出發不能直接套用，以及富邦等旅平險理賠準備與台灣、泰國機場櫃檯查詢。",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

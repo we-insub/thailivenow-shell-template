@@ -1,4 +1,5 @@
-import {thaiAirportAlternatePaths,airportLanguageTags} from './airport-guide-navigation.mjs';
+import {transportRoute,transportLanguagePaths} from './transport-source-registry.mjs';
+import {thaiAirportAlternatePaths,airportAssistanceAlternatePaths,airportLanguageTags} from './airport-guide-navigation.mjs';
 import {travelGuideAlternatePaths} from './travel-guide-navigation.mjs';
 import {applyDetailEditorialPolicy,sharingImage,isDetailPath} from './detail-editorial-policy.mjs';
 import {siteBrand} from './site-brand.mjs';
@@ -93,16 +94,19 @@ export function applyPageSEO(html, pathname) {
  const homepageTitle = (home[locale] || home.en)[0] + (locale === 'en-gb' ? ' · UK' : locale === 'en-in' ? ' · India' : locale === 'en-us' ? ' · US' : '');
  // Keep the page's authored search intent; do not append generic Korean keywords.
  const marketLabel = {'en-in':'India','en-gb':'UK','en-us':'US'}[locale];
- const authoredTitle = pageOverrides[pathname]?.title || (homepage ? homepageTitle : `${core} | ThaiLiveNow${marketLabel ? ` · ${marketLabel}` : ''}`);
+ const airportMarketNamed=parts[1]==='airport-assistance'&&({'en-in':/\b(?:India|Indian)\b/,'en-gb':/\b(?:UK|United Kingdom)\b/,'en-us':/\b(?:US|USA|United States)\b/}[locale])?.test(core);
+ const authoredTitle = pageOverrides[pathname]?.title || (homepage ? homepageTitle : `${core} | ThaiLiveNow${marketLabel&&!airportMarketNamed ? ` · ${marketLabel}` : ''}`);
  const title = locale==='ko' ? authoredTitle.replaceAll('타이라이브나우',siteBrand(locale)).replaceAll('ThaiLiveNow',siteBrand(locale)) : authoredTitle;
  let description = metaDescriptions[pathname] || pageOverrides[pathname]?.description || (homepage ? (home[locale] || home.en)[1] : clean(attr(originalDescription || {},'content') || (intro ? text(intro) : '')));
  if (!description) description = `${heading || core}. ${isKo ? '위치, 이용 방법과 공식 출처를 확인하고 태국 여행을 준비하세요.' : 'Find location details, visitor information and official sources for your Thailand trip.'}`;
  // Descriptions are complete authored summaries. A character count is not a
  // Google limit and must not cut a condition or turn a sentence into a fragment.
+ const transportEntry=transportRoute(pathname);
+ const transportAlias=transportEntry&&transportEntry.suffix!==transportEntry.canonicalSuffix;
  const legacyTransport = /^\/ko\/transport\/(?:lines\/(?:mrt-blue|orange-flag)|piers\/(?:nonthaburi|sathorn|tha-tien|wat-arun|wat-rajsingkorn)|stations\/itsaraphap)\/$/.test(pathname);
  const legacyBus = pathname === '/ko/transport/bus/routes/mo-chit-2-kutchum-thatphanom/';
- const alias = pathname === '/' || parts[0] === 'cameras' || legacyTransport || legacyBus;
- const canonicalPath = legacyBus ? '/ko/transport/bus/routes/mo-chit-2-kud-chom-that-phanom/' : legacyTransport ? pathname.replace('/transport/', '/transport/bangkok/') : parts[0] === 'cameras' ? `/en/${parts.join('/')}/` : pathname === '/' ? '/en/' : pathname;
+ const alias = pathname === '/' || parts[0] === 'cameras' || legacyTransport || legacyBus || transportAlias;
+ const canonicalPath = transportAlias ? `/${locale}/transport/${transportEntry.canonicalSuffix}/` : legacyBus ? '/ko/transport/bus/routes/mo-chit-2-kud-chom-that-phanom/' : legacyTransport ? pathname.replace('/transport/', '/transport/bangkok/') : parts[0] === 'cameras' ? `/en/${parts.join('/')}/` : pathname === '/' ? '/en/' : pathname;
  const canonical = new URL(canonicalPath, origin).href;
  const personalPage = parts.length === 2 && ['saved','compare'].includes(parts[1]);
  const indexPolicy = attr(all.find(n=>n.nodeName==='meta' && attr(n,'name')==='tln:indexing') || {},'content');
@@ -114,8 +118,8 @@ export function applyPageSEO(html, pathname) {
  const imageAlt = chosenImage?.alt || existingMeta('og:image:alt') || 'ThaiLiveNow — Thailand Travel & Live Cams';
  const imageDimensions = chosenImage?.width&&chosenImage?.height ? `<meta property="og:image:width" content="${chosenImage.width}"><meta property="og:image:height" content="${chosenImage.height}">` : image === `${origin}/images/og-thailivenow.png` ? '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">' : '';
  const meta = `<title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="robots" content="${robots}"><link rel="canonical" href="${esc(canonical)}"><meta property="og:type" content="website"><meta property="og:site_name" content="${siteBrand(locale)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:locale" content="${esc(({en:'en_US','ko-KR':'ko_KR',ko:'ko_KR','zh-Hans-CN':'zh_CN','zh-Hant-TW':'zh_TW',ja:'ja_JP',ms:'ms_MY',ru:'ru_RU',es:'es_ES'}[language] || language.replaceAll('-','_')))}"><meta property="og:image" content="${esc(image)}">${imageDimensions}<meta property="og:image:alt" content="${esc(imageAlt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${esc(image)}"><meta name="twitter:image:alt" content="${esc(imageAlt)}">${chosenImage?`<meta name="tln:share-image-status" content="${chosenImage.status}">`:""}`;
- const airportAlternates=thaiAirportAlternatePaths(pathname)||travelGuideAlternatePaths(pathname);
- const alternateMeta=airportAlternates?Object.entries(airportAlternates).map(([locale,path])=>`<link rel="alternate" hreflang="${airportLanguageTags[locale]}" href="${new URL(path,origin).href}">`).join('')+`<link rel="alternate" hreflang="x-default" href="${new URL(airportAlternates.en,origin).href}">`:'';
+ const airportAlternates=transportLanguagePaths(pathname)||thaiAirportAlternatePaths(pathname)||airportAssistanceAlternatePaths(pathname)||travelGuideAlternatePaths(pathname);
+ const alternateMeta=airportAlternates?Object.entries(airportAlternates).map(([locale,path])=>`<link rel="alternate" hreflang="${airportLanguageTags[locale]}" href="${new URL(path,origin).href}">`).join('')+(airportAlternates.en?`<link rel="alternate" hreflang="x-default" href="${new URL(airportAlternates.en,origin).href}">`:''):'';
  const authorMeta=isDetailPath(pathname)?'<meta name="author" content="ThaiLiveNow">':'';
  const integrations = Object.entries(siteIntegrations.verification).map(([name,value])=>`<meta name="${esc(name)}" content="${esc(value)}">`).join('') + '<script data-tln-analytics="" type="module" src="/analytics-consent.mjs"></script>';
  const hasWebpage = all.some(n=>n.nodeName==='script' && attr(n,'type')==='application/ld+json' && /"@type"\s*:\s*"WebPage"/.test(text(n.childNodes?.[0] || {})));

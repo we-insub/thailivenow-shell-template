@@ -1,13 +1,19 @@
 ---
+import {transportTagged,transportData,transportText,transportFormat,transportPageLocale} from '../../../../../lib/transport-localization.mjs';
+import TransportSourceDates from '../../../../../components/TransportSourceDates.astro';
 import SiteFooter from '../../../../../components/SiteFooter.astro';
 import DetailHeader from '../../../../../components/DetailHeader.astro';
 import TransportPlaceMap from '../../../../../components/TransportPlaceMap.astro';
-import {getOperationalDeployDate} from '../../../../../lib/operational-date';
 import {boatRouteNames,boatDestinationPath} from '../../../../../lib/boat-guide';
-import destinations from '../../../../../data/transport/boat-destinations.json';
-import boats from '../../../../../data/transport/boats.json';
-export function getStaticPaths(){return destinations.map(destination=>({params:{id:destination.id},props:{destination}}));}
-const {destination:d}=Astro.props;
+import destinationsSource from '../../../../../data/transport/boat-destinations.json';
+import boatsSource from '../../../../../data/transport/boats.json';
+const transportLocale=transportPageLocale(Astro.url.pathname);
+const f=transportTagged(transportLocale);
+const boats=transportData(boatsSource,transportLocale);
+const destinations=transportData(destinationsSource,transportLocale);
+export function getStaticPaths(){return destinationsSource.map(destination=>({params:{id:destination.id},props:{destination}}));}
+const {destination:destinationSource}=Astro.props;
+const d=transportData(destinationSource,transportLocale);
 const pier=boats.piers.find(p=>p.id===d.pierId)!;
 const alternative=d.alternative&&boats.piers.find(p=>p.id===d.alternative.pierId);
 const routes=boats.routes.filter(r=>d.routeIds.includes(r.id));
@@ -20,9 +26,9 @@ const walkUrl=`https://www.google.com/maps/dir/?api=1&origin=${pier.coordinates.
 <section class="answer"><h2>어떤 배를 타면 되나요?</h2><p>{d.boatAdvice}</p><dl><dt>공공 보트 하선</dt><dd><a href={`/ko/transport/boat/piers/${pier.id}/`}>{pier.name_ko} {pier.code&&`(${pier.code})`} 선착장 →</a></dd><dt>하선 후 이동</dt><dd>{d.mode==='hotel-shuttle'?'호텔 셔틀로 환승 → 호텔 전용 부두':'도보로 목적지 입구 이동'}</dd></dl>{d.alternative&&<p class="alternative">다른 경로: {d.alternative.text}</p>}</section>
 <section><h2>승선부터 도착까지</h2><ol>{d.steps.map(([title,text])=><li><h3>{title}</h3><p>{text}</p></li>)}</ol>{d.mode==='walk'&&<a href={walkUrl} target="_blank" rel="noopener noreferrer">하선 후 실제 도보 길찾기 ↗</a>}{d.mode==='hotel-shuttle'&&<p>호텔 셔틀은 공공 보트 승차권으로 이용하는 노선이 아니에요. 투숙·식사 예약 등 방문 목적에 맞는 이용 조건을 호텔에 확인하세요.</p>}</section>
 <TransportPlaceMap points={points} title={d.mode==='hotel-shuttle'?'공공 보트 하선·호텔 셔틀 환승 선착장':'보트에서 내릴 선착장'} note="지도 핀은 선착장 위치예요. 호텔 건물이나 최종 목적지 입구를 뜻하지 않아요."/>
-<section><h2>{pier.name_ko}에 정차하는 공공 보트</h2><p>출발 선착장에도 정차하는 노선을 골라야 해요. <a href={`/ko/transport/guides/boat/?destination=${d.id}#boat-planner`}>출발 선착장별 배 찾기 →</a></p><div class="routes">{routes.map(r=><article><h3>{boatRouteNames[r.id]}</h3><p>{r.displayNote}</p><a href={`/ko/transport/guides/boat/?route=${r.id}#boat-map`}>이 노선 지도·대표 목적지 보기 →</a></article>)}</div></section>
+<section><h2>{f`${pier.name_ko}에 정차하는 공공 보트`}</h2><p>출발 선착장에도 정차하는 노선을 골라야 해요. <a href={`/ko/transport/guides/boat/?destination=${d.id}#boat-planner`}>출발 선착장별 배 찾기 →</a></p><div class="routes">{routes.map(r=><article><h3>{transportData(boatRouteNames[r.id],transportLocale)}</h3><p>{r.displayNote}</p><a href={`/ko/transport/guides/boat/?route=${r.id}#boat-map`}>이 노선 지도·대표 목적지 보기 →</a></article>)}</div></section>
 <section id="faq"><h2>자주 묻는 질문</h2>{d.faq.map(([q,a])=><details><summary>{q}</summary><p>{a}</p></details>)}</section>
 <section><h2>같은 선착장에서 이어갈 곳</h2><div class="routes">{destinations.filter(x=>x.id!==d.id&&(x.pierId===d.pierId||x.alternative?.pierId===d.pierId)).map(x=><article><a href={boatDestinationPath(x.id)}>{x.name} · {x.pierId===d.pierId&&x.mode==='walk'?'하선 후 도보':'호텔 셔틀 환승'} →</a></article>)}</div></section>
-<section class="sources"><h2>출처</h2><details class="source-fold"><summary>공식 출처 보기 · {d.sources.length}개</summary>{d.sources.map(([label,url])=><p><a href={url} target="_blank" rel="noopener noreferrer">{label} ↗</a></p>)}</details><p>출처 확인일: {getOperationalDeployDate()}<br/>최근 배포일: {getOperationalDeployDate()}</p></section>
+<section class="sources"><h2>출처</h2><details class="source-fold"><summary>{f`공식 출처 보기 · ${d.sources.length}개`}</summary>{d.sources.map(([label,url])=><p><a href={url} target="_blank" rel="noopener noreferrer">{label} ↗</a></p>)}</details><TransportSourceDates/></section>
 </main><SiteFooter/></body></html>
 <style>:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,"Apple SD Gothic Neo",sans-serif;line-height:1.8}main{max-width:1040px;margin:auto;padding:32px 24px 70px}a{color:#267e89}header{margin:24px 0}header>span{font-size:12px;letter-spacing:2px;color:#267e89}h1{font-size:32px;line-height:1.4}h1 small{display:block;font-size:18px;color:#61717e;margin-top:8px}header p{font-size:18px}section{margin:32px 0}h2{font-size:23px}h3{font-size:17px;margin:0}p{margin:8px 0}article,.answer,details{padding:18px;background:white;border:1px solid #dce5e8;border-radius:12px}.answer{border-left:5px solid #267e89}dl{display:grid;grid-template-columns:130px 1fr;gap:12px}dt{font-weight:700}dd{margin:0}.routes{display:grid;grid-template-columns:1fr 1fr;gap:12px}ol{padding-left:25px}li{margin:18px 0}details{margin:10px 0}summary{font-weight:700;cursor:pointer}.alternative{font-size:14px;color:#61717e}.sources{font-size:13px}@media(max-width:600px){main{padding:24px 16px}h1{font-size:26px}.routes{grid-template-columns:1fr}dl{grid-template-columns:1fr;gap:5px}}</style>

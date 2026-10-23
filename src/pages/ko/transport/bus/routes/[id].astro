@@ -1,4 +1,5 @@
 ---
+import {transportPageLocale} from '../../../../../lib/transport-localization.mjs';
 import TransportGuidePage from '../../../../../components/TransportGuidePage.astro';
 import BusRouteServices from '../../../../../components/BusRouteServices.astro';
 import {routes,terminals,routeGuide} from '../../../../../lib/bus-guides';
@@ -6,4 +7,4 @@ export function getStaticPaths(){return routes.map(route=>({params:{id:route.id}
 const {route}=Astro.props;
 const terminal=terminals.find(t=>t.id===route.terminalId)!;
 ---
-<TransportGuidePage guide={routeGuide(route)}><BusRouteServices slot="before-map" route={route} terminal={terminal}/></TransportGuidePage>
+<TransportGuidePage guide={routeGuide(route,transportPageLocale(Astro.url.pathname))}><BusRouteServices slot="before-map" route={route} terminal={terminal}/></TransportGuidePage>

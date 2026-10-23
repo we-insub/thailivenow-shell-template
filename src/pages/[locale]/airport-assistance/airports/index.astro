@@ -1,10 +1,6 @@
 ---
-import AirportMarketDetail from '../../../../components/AirportMarketDetail.astro';
-import {airportMarkets,airportMarketData} from '../../../../lib/airport-markets';
-import {assistanceCopy,airportDisplayName} from '../../../../lib/airport-assistance-layout';
-import '../../../../styles/airport-assistance-layout.css';
-export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').map(m=>({params:{locale:m.locale},props:{market:m}}));}
-const {market}=Astro.props,c=assistanceCopy(market.locale),data=airportMarketData(market.locale),base=`/${market.locale}/airport-assistance/`;
-const codes=['BKK','DMK','HKT','CNX'];
+import AirportHub from '../../../../components/AirportHub.astro';
+import {airportMarkets} from '../../../../lib/airport-markets';
+export function getStaticPaths(){return airportMarkets.filter(m=>m.locale!=='ko').map(m=>({params:{locale:m.locale},props:{locale:m.locale}}));}
 ---
-<AirportMarketDetail market={market} title={c.thaiAirports} description={c.thaiIntro}><div class="assistance-subpage"><section class="result-grid">{codes.map(code=><article><h2>{airportDisplayName(data,code)} <small>{code}</small></h2><a href={`${base}airports/${code.toLowerCase()}/`}>{c.open} →</a></article>)}</section><section class="links"><a href={base+'departure-airports/'}>{c.departures} →</a><a href={base+'airlines/'}>{c.airlines} →</a><a href={base+'flights/'}>{c.flights} →</a></section></div></AirportMarketDetail>
+<AirportHub locale={Astro.props.locale}/>

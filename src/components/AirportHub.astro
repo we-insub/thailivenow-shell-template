@@ -1,0 +1,49 @@
+---
+import DetailHeader from './DetailHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import {airportLanguageTags} from '../lib/airport-guide-navigation.mjs';
+import AirportPageMetadata from './AirportPageMetadata.astro';
+import {assistanceCopy} from '../lib/airport-assistance-layout';
+const {locale='ko'}=Astro.props;
+const manuscripts=import.meta.glob('../data/airport-hub-locales/*.json',{eager:true,import:'default'});
+const copy=manuscripts['../data/airport-hub-locales/'+locale+'.json'];
+if(!copy)throw new Error('Missing full airport hub manuscript: '+locale);
+const airports=copy.airports;
+const title=copy.title.replace(/\s*\|\s*ThaiLiveNow\s*$/,'');
+const marketLinks=!['ko','en'].includes(locale)?assistanceCopy(locale):null;
+---
+<!doctype html>
+<html lang={airportLanguageTags[locale]}><head>
+ <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+ <link rel="icon" href="/favicon.ico?v=20261013"/>
+ <title>{title} | ThaiLiveNow</title>
+ <meta name="description" content={copy.description}/><AirportPageMetadata title={title} description={copy.description} locale={locale} lang={airportLanguageTags[locale]}/>
+</head><body>
+ <DetailHeader locale={locale}/>
+ <main>
+  <a class="back" href={`/${locale}/`}>← {copy.home}</a>
+  <h1>{copy.h1}</h1>
+  <p class="intro">{copy.intro}</p>
+  <section aria-labelledby="airport-list-title">
+   <h2 id="airport-list-title">{copy.listTitle}</h2>
+   <div class="airport-grid">{airports.map(airport=><a class="airport-card" href={`/${locale}/airport-assistance/airports/${airport.id}/`}>
+    <span class="airport-code">{airport.code}</span><h3>{airport.name}</h3><span class="english" lang="en">{airport.english}</span>
+    <p>{airport.text}</p><span class="more">{copy.more}</span>
+   </a>)}</div>
+  </section>
+  <section class="related" aria-labelledby="flight-help-title">
+   <h2 id="flight-help-title">{copy.relatedTitle}</h2>
+   <p>{copy.relatedIntro}</p>
+   <a href={`/${locale}/airport-assistance/`}>{copy.relatedLink}</a>
+   {marketLinks&&<nav class="market-links" aria-label={copy.relatedTitle}>
+    <a href={`/${locale}/airport-assistance/departure-airports/`}>{marketLinks.departures} →</a>
+    <a href={`/${locale}/airport-assistance/airlines/`}>{marketLinks.airlines} →</a>
+    <a href={`/${locale}/airport-assistance/flights/`}>{marketLinks.flights} →</a>
+   </nav>}
+  </section>
+ </main><SiteFooter locale={locale}/>
+</body></html>
+<style>
+:global(*){box-sizing:border-box}:global(body){margin:0;background:#fafbfc;color:#253545;font-family:system-ui,"Apple SD Gothic Neo",sans-serif;line-height:1.8}main{max-width:1100px;margin:auto;padding:40px 24px 72px}a{color:#2e7c89}.back{font-size:14px}h1{font-size:36px;line-height:1.35;margin:20px 0}h2{font-size:24px;line-height:1.5}h3{font-size:23px;line-height:1.4;margin:9px 0 4px}.intro{max-width:780px;font-size:17px;color:#61717e}section{margin-top:40px}.airport-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.airport-card{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:26px;border:1px solid #dce5e8;border-radius:16px;background:white;text-decoration:none;color:#253545}.airport-card:hover{border-color:#2e7c89;background:#f2f8f9}.airport-card:focus-visible{outline:3px solid #2e7c89;outline-offset:4px}.airport-code{font-weight:750;letter-spacing:1px;color:#2e7c89}.english{font-size:14px;color:#61717e}.airport-card p{color:#61717e;overflow-wrap:anywhere}.more{margin-top:auto;padding-top:10px;font-weight:700;color:#2e7c89}.related p{color:#61717e}.related a{font-weight:700}@media(max-width:650px){main{padding:28px 16px 48px}h1{font-size:29px}h2{font-size:22px}.airport-grid{grid-template-columns:1fr;gap:16px}.airport-card{padding:22px}}
+</style>
+<style>.market-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px}.market-links a{overflow-wrap:anywhere}</style>

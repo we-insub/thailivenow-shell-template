@@ -1,0 +1,70 @@
+{
+  "status": "task-specific local validation passed; no deployment; other uncommitted integration work excluded",
+  "baseCommit": "b8284207bf7b68e713c198567df3ae9f40586281",
+  "workingCheckoutTests": {
+    "passed": 160,
+    "failed": 0
+  },
+  "isolatedTaskSourceTests": {
+    "passed": 153,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "pages": 4479,
+    "seoErrors": 0,
+    "seoWarnings": 190,
+    "airportLongTitleWarningsReviewed": 134,
+    "otherWarnings": 56,
+    "dateAuditErrors": 0,
+    "editorialAuditErrors": 0,
+    "representativeImageAuditErrors": 0
+  },
+  "airport": {
+    "locales": 11,
+    "countryHreflangGroup": 10,
+    "worldwideEnglish": "Separate cross-country directory, intentionally outside the regional-hub alternate group",
+    "pages": 932,
+    "errors": 0,
+    "countryDatasetsPreserved": 10,
+    "routes": 418,
+    "contacts": 399,
+    "metadataSentencesCorrected": 26,
+    "japaneseSentencesCorrected": 23,
+    "existingDescriptionsRegisteredUnchanged": 102,
+    "missingDescriptionRegistrations": 0
+  },
+  "browser": {
+    "checks": 102,
+    "errors": 0,
+    "viewports": [
+      1280,
+      390
+    ],
+    "screenshots": 22,
+    "finalClientDateSnapshots": 11
+  },
+  "pagesRuntime": {
+    "passed": true,
+    "previewNoindex": true,
+    "assetAndSnapshotChecks": true
+  },
+  "images": {
+    "newImagesAdded": 0,
+    "existingBrandFallbacksPreserved": 2517,
+    "existingAirportAssistanceBrandFallbacks": 854
+  },
+  "retainedLocalReleaseMetadata": {
+    "deploymentDate": "2026-10-18",
+    "commit": "7402659f089d36fe9d8cc05b6fc8c40b67e5a12e",
+    "newDeployment": false
+  },
+  "integrationLimit": "The first full working snapshot build stopped in unrelated in-progress transport code (transportLocale initialization in RailDestinations). Other files were not reverted. Full build above uses committed base plus this task changes; the current mixed-worktree integration is not certified by it.",
+  "liveConditionsReResearched": false,
+  "commit": false,
+  "push": false,
+  "deploy": false,
+  "indexNow": false,
+  "evidenceDirectory": "/tmp/thai-assistance-fix-20261024"
+}

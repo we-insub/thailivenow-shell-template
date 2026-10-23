@@ -1,16 +1,7 @@
-import copy from '../data/airport-assistance-hub-copy.json';
+export {assistanceCopy} from './airport-assistance-copy.mjs';
 import {guideKind} from './airport-assistance-editorial.mjs';
 
 export const assistanceIssues=['delay','cancellation','missing','damage'];
-export function assistanceCopy(locale:string):any {
- const c=structuredClone((copy as any)[locale]||(copy as any).en);
- const country:Record<string,string>={'en-us':'US','en-gb':'UK','en-in':'Indian'};
- if(country[locale]){
-  c.departures=`Check-in and contacts at ${country[locale]} airports`;
-  c.airlinesText=`Search the airlines listed for travel between ${locale==='en-us'?'the United States':locale==='en-gb'?'the United Kingdom':'India'} and Thailand by name, airline code or flight number.`;
- }
- return c;
-}
 export function departureAirportCodes(data:any):string[]{
  return [...new Set<string>(data.routes.map((r:any)=>r.originIata===r.thaiAirport?r.destinationIata:r.originIata).filter(Boolean))].sort();
 }

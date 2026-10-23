@@ -1,0 +1,41 @@
+---
+// Route identity and factual data are shared with the Korean reference. Wording
+// is projected before shared SEO runs; the source pages remain unchanged.
+import Hub from '../../ko/transport/index.astro';
+import City from '../../ko/transport/bangkok/index.astro';
+import Pilot from '../../../components/PilotPage.astro';
+import Station from '../../ko/transport/bangkok/stations/[id].astro';
+import BusRoute from '../../ko/transport/bus/routes/[id].astro';
+import BusTerminal from '../../ko/transport/bus/terminals/[id].astro';
+import BoatPier from '../../ko/transport/boat/piers/[id].astro';
+import BoatDestination from '../../ko/transport/boat/destinations/[id].astro';
+import Airport from '../../ko/transport/airports/[guide].astro';
+import Taxi from '../../ko/transport/guides/taxi/index.astro';
+import Local from '../../ko/transport/guides/local/index.astro';
+import Motorcycle from '../../ko/transport/guides/motorcycle/index.astro';
+import Air from '../../ko/transport/guides/air/index.astro';
+import Bus from '../../ko/transport/guides/bus/index.astro';
+import Train from '../../ko/transport/guides/train/index.astro';
+import stations from '../../../data/transport/bangkok-stations.json';
+import buses from '../../../data/transport/bus-terminals.json';
+import boats from '../../../data/transport/boats.json';
+import destinations from '../../../data/transport/boat-destinations.json';
+import cityAirport from '../../../data/transport/airport-guides/suvarnabhumi-to-bangkok.json';
+import railAirport from '../../../data/transport/airport-guides/airport-rail-link.json';
+import shuttleAirport from '../../../data/transport/airport-guides/suvarnabhumi-don-mueang.json';
+import {transportSourceRoutes,transportLocales} from '../../../lib/transport-source-registry.mjs';
+export function getStaticPaths(){return transportLocales.filter(locale=>locale!=='ko').flatMap(locale=>transportSourceRoutes.map(entry=>({params:{locale,path:entry.suffix||undefined},props:{entry,locale}})));}
+const {entry,locale}=Astro.props;
+const pilots=import.meta.glob('../../../data/transit-pilot/**/*.html',{query:'?raw',import:'default',eager:true});
+const guides={taxi:Taxi,local:Local,motorcycle:Motorcycle,air:Air,bus:Bus,train:Train};
+const components={hub:Hub,city:City,pilot:Pilot,station:Station,'bus-route':BusRoute,'bus-terminal':BusTerminal,'boat-pier':BoatPier,'boat-destination':BoatDestination,airport:Airport};
+const Component=entry.kind==='guide'?guides[entry.id]:components[entry.kind];
+const props=entry.kind==='pilot'?{html:pilots[`../../../data/transit-pilot/${entry.pilot}`]}:
+ entry.kind==='station'?{station:stations.find(s=>s.properties.station_id===entry.id)}:
+ entry.kind==='bus-route'?{route:buses.routes.find(r=>r.id===entry.id)}:
+ entry.kind==='bus-terminal'?{terminal:buses.terminals.find(t=>t.id===entry.id)}:
+ entry.kind==='boat-pier'?{pier:boats.piers.find(p=>p.id===entry.id)}:
+ entry.kind==='boat-destination'?{destination:destinations.find(d=>d.id===entry.id)}:
+ entry.kind==='airport'?{guide:[cityAirport,railAirport,shuttleAirport].find(g=>g.id===entry.id)}:{};
+---
+<Component {...props} locale={locale}/>
