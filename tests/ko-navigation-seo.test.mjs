@@ -20,5 +20,11 @@ test('every Korean navigation landing has unique metadata and consistent sharing
  }
 });
 test('Korean landing titles do not override another market or a detail page',()=>{
- for(const path of ['/ja/food/','/en/directory/','/en-us/transport/'])assert.ok(applyPageSEO(fixture(path.split('/')[1]),path).includes('<title>Original page | ThaiLiveNow'));
+ assert.ok(applyPageSEO(fixture('en'),'/en/directory/').includes('<title>Original page | ThaiLiveNow'));
+ // Other markets' hubs carry their own authored titles, never the Korean landing title.
+ for(const path of ['/ja/food/','/en-us/transport/']){
+  const title=applyPageSEO(fixture(path.split('/')[1]),path).match(/<title>([^<]*)<\/title>/)[1];
+  assert.equal(title,overrides[path].title,path);
+  assert.doesNotMatch(title,/[가-힣]/,path);
+ }
 });
