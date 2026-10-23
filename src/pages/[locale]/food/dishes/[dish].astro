@@ -1,0 +1,31 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FoodMarks from '../../../../components/FoodMarks.astro';
+import FoodCards from '../../../../components/FoodCards.astro';
+import FoodFilter from '../../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../../components/FoodPhoto.astro';
+import FoodText from '../../../../components/FoodText.astro';
+import FruitCards from '../../../../components/FruitCards.astro';
+import FruitPrices from '../../../../components/FruitPrices.astro';
+import {foodLocales,foodData,getFoodPack,fmt} from '../../../../lib/food-localized.mjs';
+export function getStaticPaths(){return foodLocales.flatMap(locale=>foodData(locale).dishes.map(dish=>({params:{locale,dish:dish.id},props:{locale,id:dish.id}})));}
+const {locale,id}=Astro.props;
+const pack=getFoodPack(locale),data=foodData(locale),ui=pack.ui;
+const base=`/${locale}/food/`;
+const food=data;
+const d=data.dishes.find(item=>item.id===id);
+const t=ui.dish;
+const region=data.regions.find(r=>r.id===d.region);
+const cities=data.cities.filter(c=>c.dishes.includes(d.id));
+const related=[...new Set(cities.flatMap(c=>c.dishes))].filter(x=>x!==d.id).slice(0,3).map(x=>data.dishes.find(item=>item.id===x));
+---
+<FoodLayout locale={locale} ui={ui} data={data} title={fmt(t.titleTpl,{name:d.name})} description={d.intro} breadcrumbs={[[ui.foodCrumb,base]]} sourceIds={d.sources} faq={d.faq}>
+<div class="food-detail"><header class="food-hero"><span class="food-eyebrow">{d.scope} · {ui.categories[d.category]}</span><h1>{d.name}</h1><p class="food-subtitle"><span lang="en">{d.english}</span>{d.thai&&<> · <span lang="th">{d.thai}</span></>}</p><p class="food-intro">{d.intro}</p></header>
+<FoodPhoto dish={d} ui={ui}/>
+<section><h2>{t.flavorH2}</h2><p>{d.flavor}</p><div class="food-note"><p><FoodText text={d.tip} emphasis={d.emphasis}/></p></div></section>
+<section><h2>{t.infoH2}</h2><dl><div><dt>{t.dtName}</dt><dd>{d.name} · {d.english}</dd></div>{d.thai&&<div><dt>{t.dtThai}</dt><dd lang="th">{d.thai}</dd></div>}<div><dt>{t.dtCategory}</dt><dd>{ui.categories[d.category]}</dd></div><div><dt>{t.dtRegion}</dt><dd>{region.name} · {d.scope}</dd></div><div><dt>{t.dtIngredients}</dt><dd><FoodText text={d.ingredients} emphasis={d.emphasis}/></dd></div></dl></section>
+<section><h2>{t.storyH2}</h2><p>{d.story}</p></section>
+<section><h2>{t.stepsH2}</h2><ol class="food-steps">{d.steps.map(step=><li><span><FoodText text={step} emphasis={d.emphasis}/></span></li>)}</ol></section>
+<section class="food-faq"><h2>{t.faqH2}</h2>{d.faq.map(([q,a])=><article><h3>{q}</h3><p>{a}</p></article>)}</section>
+<section><h2>{t.relatedH2}</h2><div class="food-related">{related.map(item=><a href={`${base}dishes/${item.id}/`}>{fmt(t.relatedDishLink,{name:item.name})}</a>)}{cities.map(city=><a href={`${base}cities/${city.id}/`}>{fmt(t.cityLink,{name:city.name})}</a>)}{data.streetFood.includes(d.id)&&<a href={`${base}street-food/`}>{t.streetLink}</a>}{d.id==='watermelon-shake'&&<a href={`${base}fruits/watermelon/`}>{t.watermelonLink}</a>}{d.id==='roti'&&<a href={`${base}fruits/banana/`}>{t.bananaLink}</a>}<a href={`${base}traditions/`}>{t.traditionsLink}</a><a href={base}>{t.hubLink}</a></div></section></div>
+</FoodLayout>

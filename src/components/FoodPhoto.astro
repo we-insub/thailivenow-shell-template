@@ -1,7 +1,9 @@
 ---
-const {dish,variant='detail'}=Astro.props;
+import koPack from '../data/food-localized/ko.json';
+import {fmt} from '../lib/food-text.mjs';
+const {dish,variant='detail',ui=koPack.ui}=Astro.props;
 const photo=dish?.photo;
 ---
-{photo&&<figure class:list={['food-photo',`food-photo-${variant}`]}><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading={variant==='detail'?'eager':'lazy'} decoding="async"/><figcaption><span>{photo.caption}</span><br/><a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer">{photo.title}</a> · {photo.artist} · <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a><br/><span>{variant==='card'?'표시 크기 조정·일부 잘림':'표시 크기 조정'}{photo.license.includes('BY-SA')&&` · 사진은 ${photo.license} 조건으로 제공`}</span></figcaption></figure>}
+{photo&&<figure class:list={['food-photo',`food-photo-${variant}`]}><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading={variant==='detail'?'eager':'lazy'} decoding="async"/><figcaption><span>{photo.caption}</span><br/><a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer">{photo.title}</a> · {photo.artist} · <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">{photo.license}</a><br/><span>{variant==='card'?ui.photo.cardNote:ui.photo.detailNote}{photo.license.includes('BY-SA')&&` · ${fmt(ui.photo.licenseNote,{license:photo.license})}`}</span></figcaption></figure>}
 <style>.food-photo{margin:26px 0;min-width:0}.food-photo img{display:block;width:100%;height:auto;border-radius:12px;background:#eef1ea}.food-photo-detail img{max-height:540px;object-fit:contain}.food-photo figcaption{font-size:11px!important;line-height:1.7;color:#657366;margin-top:9px;overflow-wrap:anywhere;font-weight:400}.food-photo figcaption a{color:#4d6b5b;text-decoration:underline}.food-photo-card{margin:0 0 20px}.food-photo-card img{aspect-ratio:16/10;object-fit:cover;height:auto}.food-photo-card figcaption{font-size:10px!important}@media(max-width:540px){.food-photo-detail img{max-height:420px}.food-photo figcaption{font-size:11px!important}}
 </style>

@@ -1,0 +1,24 @@
+---
+import FoodLayout from '../../../components/FoodLayout.astro';
+import FoodMarks from '../../../components/FoodMarks.astro';
+import FoodCards from '../../../components/FoodCards.astro';
+import FoodFilter from '../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../components/FoodPhoto.astro';
+import FoodText from '../../../components/FoodText.astro';
+import FruitCards from '../../../components/FruitCards.astro';
+import FruitCalendar from '../../../components/FruitCalendar.astro';
+import FruitPrices from '../../../components/FruitPrices.astro';
+import {foodLocales,foodData,getFoodPack,fmt} from '../../../lib/food-localized.mjs';
+export function getStaticPaths(){return foodLocales.map(locale=>({params:{locale},props:{locale}}));}
+const {locale}=Astro.props;
+const pack=getFoodPack(locale),data=foodData(locale),ui=pack.ui;
+const base=`/${locale}/food/`;
+const food=data;
+const p=pack.pages.fruitPrices;
+---
+<FoodLayout locale={locale} ui={ui} data={data} title={p.title} description={p.description} breadcrumbs={[[ui.foodCrumb,base],[ui.fruitCrumb,`${base}fruits/`]]} sourceIds={['fruit-prices','fruit-longan','fruit-rambutan','fruit-mangosteen','fruit-papaya']}>
+<header class="food-hero"><span class="food-eyebrow">{p.eyebrow}</span><h1><FoodMarks text={p.h1} br/></h1><p class="food-intro">{p.intro}</p></header>
+<section><h2>{p.bangkokH2}</h2><FruitPrices locale={locale} ui={ui} data={data}/></section>
+<section><h2>{p.citiesH2}</h2><p><FoodMarks text={p.citiesText}/></p><div class="food-region-grid">{food.cities.map(c=><article class="food-region"><h3>{c.name}</h3><p>{c.priceGuide}</p><div class="food-related"><a href={`${base}cities/${c.id}/`}>{fmt(p.cityLinkTpl,{name:c.name})}</a><a href={`${base}fruits/`}>{p.calendarLink}</a></div></article>)}</div></section>
+<section><h2>{p.compareH2}</h2><div class="food-detail"><dl>{p.compare.map(([dt,dd])=><div><dt>{dt}</dt><dd>{dd}</dd></div>)}</dl></div></section>
+</FoodLayout>

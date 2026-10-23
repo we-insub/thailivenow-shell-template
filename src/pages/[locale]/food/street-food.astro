@@ -1,0 +1,25 @@
+---
+import FoodLayout from '../../../components/FoodLayout.astro';
+import FoodMarks from '../../../components/FoodMarks.astro';
+import FoodCards from '../../../components/FoodCards.astro';
+import FoodFilter from '../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../components/FoodPhoto.astro';
+import FoodText from '../../../components/FoodText.astro';
+import FruitCards from '../../../components/FruitCards.astro';
+import FruitCalendar from '../../../components/FruitCalendar.astro';
+import FruitPrices from '../../../components/FruitPrices.astro';
+import {foodLocales,foodData,getFoodPack,fmt} from '../../../lib/food-localized.mjs';
+export function getStaticPaths(){return foodLocales.map(locale=>({params:{locale},props:{locale}}));}
+const {locale}=Astro.props;
+const pack=getFoodPack(locale),data=foodData(locale),ui=pack.ui;
+const base=`/${locale}/food/`;
+const food=data;
+const p=pack.pages.streetFood;
+---
+<FoodLayout locale={locale} ui={ui} data={data} title={p.title} description={p.description} breadcrumbs={[[ui.foodCrumb,base]]} sourceIds={['street-intro','street-catalog','regional','roti','hatyai-tat']}>
+<header class="food-hero"><span class="food-eyebrow">{p.eyebrow}</span><h1><FoodMarks text={p.h1} br/></h1><p class="food-intro">{p.intro}</p></header>
+<section><h2>{p.sweetH2}</h2><FoodCards ids={['roti','watermelon-shake','roti-sai-mai']} locale={locale} ui={ui} data={data}/></section>
+<section><h2>{p.savoryH2}</h2><FoodCards ids={['sai-krok-isan','hat-yai-chicken']} locale={locale} ui={ui} data={data}/></section>
+<section><h2>{p.orderH2}</h2><ol class="food-steps">{p.order.map(step=><li><span><FoodMarks text={step}/></span></li>)}</ol></section>
+<section><h2>{p.withFruitH2}</h2><div class="food-related"><a href={`${base}fruits/`}>{p.calendarLink}</a><a href={`${base}fruit-prices/`}>{p.priceLink}</a><a href={base}>{p.hubLink}</a></div></section>
+</FoodLayout>

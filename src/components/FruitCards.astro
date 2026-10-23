@@ -1,7 +1,9 @@
 ---
-import food from '../data/food.json';
+import foodBase from '../data/food.json';
+import koPack from '../data/food-localized/ko.json';
+import {fmt} from '../lib/food-text.mjs';
 import FoodPhoto from './FoodPhoto.astro';
-const {ids=food.fruits.map(f=>f.id)}=Astro.props;
-const fruits=ids.map(id=>food.fruits.find(f=>f.id===id)).filter(Boolean);
+const {ids,locale='ko',ui=koPack.ui,data=foodBase}=Astro.props;
+const fruits=(ids??data.fruits.map(f=>f.id)).map(id=>data.fruits.find(f=>f.id===id)).filter(Boolean);
 ---
-<div class="food-grid">{fruits.map(f=><article class="food-card" data-fruit-item data-months={[...new Set([...f.months,...(f.regionalMonths||[])])].join(',')}><FoodPhoto dish={f} variant="card"/><span class="food-card-meta">{f.seasonLabel}</span><h3><a href={`/ko/food/fruits/${f.id}/`}>{f.name}</a></h3><span class="food-card-name" lang="en">{f.english}</span><p>{f.taste}</p><a class="food-card-link" href={`/ko/food/fruits/${f.id}/`}>{f.name} 제철·맛·먹는 방법 →</a></article>)}</div>
+<div class="food-grid">{fruits.map(f=><article class="food-card" data-fruit-item data-months={[...new Set([...f.months,...(f.regionalMonths||[])])].join(',')}><FoodPhoto dish={f} variant="card" ui={ui}/><span class="food-card-meta">{f.seasonLabel}</span><h3><a href={`/${locale}/food/fruits/${f.id}/`}>{f.name}</a></h3><span class="food-card-name" lang="en">{f.english}</span><p>{f.taste}</p><a class="food-card-link" href={`/${locale}/food/fruits/${f.id}/`}>{fmt(ui.cards.fruitLink,{name:f.name})}</a></article>)}</div>
