@@ -13,7 +13,12 @@ const out=path.resolve(value('--output')||'artifacts/release-candidate');
 if(fs.existsSync(out))throw Error('Output exists; choose a new --output to preserve previous QA');
 if(!/^[a-f0-9]{40}$/.test(commit))throw Error('Invalid commit');
 const work=fs.mkdtempSync(path.join(os.tmpdir(),'tln-release-')),source=path.join(work,'source');fs.mkdirSync(source);
-execFileSync('tar',['-x','-C',source],{input:execFileSync('git',['archive',commit],{cwd:root,maxBuffer:128*1024*1024})});
+// Keep the committed archive on disk: growing image/localization assets can
+// exceed execFileSync's stdout buffer without changing the source contract.
+const archive=path.join(work,'source.tar');
+execFileSync('git',['archive','--output',archive,commit],{cwd:root});
+execFileSync('tar',['-xf',archive,'-C',source]);
+fs.rmSync(archive);
 fs.mkdirSync(path.join(source,'artifacts'),{recursive:true});
 // Only committed sources enter this directory; uncommitted files and unrelated QA never enter a release.
 let baseline,graph,plan={mode:'full',changed:[],patterns:[],reasons:['No trusted baseline: bootstrap full build']};
