@@ -1,0 +1,27 @@
+---
+import FoodLayout from '../../../components/FoodLayout.astro';
+import FoodMarks from '../../../components/FoodMarks.astro';
+import FoodCards from '../../../components/FoodCards.astro';
+import FoodFilter from '../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../components/FoodPhoto.astro';
+import FoodText from '../../../components/FoodText.astro';
+import FruitCards from '../../../components/FruitCards.astro';
+import FruitCalendar from '../../../components/FruitCalendar.astro';
+import FruitPrices from '../../../components/FruitPrices.astro';
+import {foodLocales,foodData,getFoodPack,fmt} from '../../../lib/food-localized.mjs';
+export function getStaticPaths(){return foodLocales.map(locale=>({params:{locale},props:{locale}}));}
+const {locale}=Astro.props;
+const pack=getFoodPack(locale),data=foodData(locale),ui=pack.ui;
+const base=`/${locale}/food/`;
+const food=data;
+const p=pack.pages.hub;
+---
+<FoodLayout locale={locale} ui={ui} data={data} title={p.title} description={p.description} sourceIds={['central','north','isan','phuket','songkhla','hidden','roti','khantoke']}>
+<header class="food-hero"><span class="food-eyebrow">{p.eyebrow}</span><h1><FoodMarks text={p.h1} br/></h1><p class="food-intro">{p.intro}</p></header>
+<section><div class="food-section-head"><div><span class="food-eyebrow">{p.traditional.eyebrow}</span><h2>{p.traditional.h2}</h2><p>{p.traditional.text}</p></div><a href={`${base}traditions/`}>{p.traditional.link}</a></div><FoodCards ids={food.traditional} locale={locale} ui={ui} data={data}/></section>
+<section><div class="food-section-head"><div><span class="food-eyebrow">{p.street.eyebrow}</span><h2>{p.street.h2}</h2><p>{p.street.text}</p></div><a href={`${base}street-food/`}>{p.street.link}</a></div><FoodCards ids={['roti','watermelon-shake','hat-yai-chicken']} locale={locale} ui={ui} data={data}/></section>
+<section><div class="food-section-head"><div><span class="food-eyebrow">{p.fruit.eyebrow}</span><h2>{p.fruit.h2}</h2><p>{p.fruit.text}</p></div><a href={`${base}fruits/`}>{p.fruit.link}</a></div><FruitCards ids={['mango','durian','mangosteen']} locale={locale} ui={ui} data={data}/><div class="food-related"><a href={`${base}fruit-prices/`}>{p.fruit.priceLink}</a></div></section>
+<section><div class="food-section-head"><div><h2>{p.regions.h2}</h2><p>{p.regions.text}</p></div></div><div class="food-region-grid">{food.regions.map(r=><article class="food-region"><span class="food-eyebrow">{r.name}</span><h3>{r.subtitle}</h3><p>{r.text}</p></article>)}</div></section>
+<section><div class="food-section-head"><div><span class="food-eyebrow">{p.cities.eyebrow}</span><h2>{p.cities.h2}</h2><p>{p.cities.text}</p></div></div><FoodFilter type="city" options={food.regions.map(r=>[r.id,r.name])} count={food.cities.length} ui={ui}/><div class="food-grid">{food.cities.map(city=><article class="food-card" data-food-item="city" data-filter-value={city.region}><FoodPhoto dish={food.dishes.find(d=>d.id===city.photoDish)} variant="card" ui={ui}/><span class="food-card-meta">{food.regions.find(r=>r.id===city.region)?.name} · {city.english}</span><h3><a href={`${base}cities/${city.id}/`}>{city.name}</a></h3><span class="food-card-name">{city.tag}</span><p>{city.intro}</p><span class="food-card-count">{fmt(ui.cards.cityDishCount,{n:city.dishes.length})}</span><a class="food-card-link" href={`${base}cities/${city.id}/`}>{fmt(ui.cards.cityLink,{name:city.name})}</a></article>)}</div></section>
+<section><h2>{p.related.h2}</h2><div class="food-related"><a href={`/${locale}/rooftops/`}>{p.related.rooftops}</a><a href={`/${locale}/food-delivery/`}>{p.related.delivery}</a><a href={`/${locale}/transport/`}>{p.related.transport}</a></div></section>
+</FoodLayout>

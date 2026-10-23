@@ -1,0 +1,5 @@
+---
+const {text='',br=false}=Astro.props;
+const lines=br?String(text).split('|'):[String(text)];
+---
+{lines.map((line,index)=><>{index>0&&<br/>}{line.split('**').map((part,i)=>i%2===1?<strong>{part}</strong>:part)}</>)}

@@ -1,0 +1,1401 @@
+{
+ "locale": "es",
+ "ui": {
+  "skip": "Saltar al contenido",
+  "home": "Inicio",
+  "foodCrumb": "Comida",
+  "fruitCrumb": "Frutas",
+  "breadcrumbLabel": "Ruta de navegación",
+  "sourcesTitle": "Fuentes oficiales y referencias",
+  "sourcesIntro": "Si te interesan la historia de los platos y de cada región, lee también estas fuentes. Los ingredientes y la forma de cocinar cambian de un local a otro.",
+  "categories": {
+   "noodles": "Arroz y fideos",
+   "soup": "Sopas y currys",
+   "side": "Acompañamientos y brasas",
+   "dessert": "Postres",
+   "drinks": "Bebidas"
+  },
+  "filter": {
+   "city": "Ciudades por zona",
+   "dish": "Tipo de plato",
+   "all": "Ver todo",
+   "reset": "Restablecer",
+   "cityCount": "{n} ciudades",
+   "dishCount": "{n} platos"
+  },
+  "photo": {
+   "cardNote": "Tamaño ajustado y recortada en parte",
+   "detailNote": "Tamaño ajustado",
+   "licenseNote": "Foto cedida con licencia {license}"
+  },
+  "calendar": {
+   "label": "Mes del viaje",
+   "all": "Enero a diciembre",
+   "reset": "Ver todo",
+   "ariaLabel": "Temporada de las frutas de enero a diciembre",
+   "statusAll": "{n} frutas",
+   "statusMonth": "{n} frutas para el mes de {month}",
+   "note": "Las frutas que se venden todo el año, como **la sandía, la papaya, el coco tierno y el plátano**, aparecen en la lista completa de abajo. El calendario muestra la temporada principal o la época de cosecha de las fuentes oficiales, y **el tamarindo de diciembre** se anuncia a partir de finales de diciembre. La cosecha real puede variar según la variedad, la zona de cultivo y el tiempo."
+  },
+  "cards": {
+   "dishLink": "{name}: sabor y cómo comerlo →",
+   "fruitLink": "{name}: temporada, sabor y cómo comerla →",
+   "cityLink": "Descubre la comida de {name} →",
+   "cityDishCount": "{n} platos en detalle"
+  },
+  "prices": {
+   "title": "Precios al por menor en Bangkok · 14 de octubre de 2026",
+   "intro": "Son precios por variedad y categoría recogidos por el Departamento de Comercio Interior de Tailandia. No todos los puestos de la calle aplican el mismo precio.",
+   "ariaLabel": "Tabla de precios al por menor de frutas en Bangkok",
+   "caption": "Precio de referencia de fruta entera al por menor · baht tailandés (THB)",
+   "colFruit": "Fruta y variedad",
+   "colPrice": "Precio",
+   "colUnit": "Unidad",
+   "range": "{min}–{max} baht",
+   "unit": {
+    "kg": "1 kg",
+    "bunch": "1 racimo"
+   },
+   "note": "Separa el precio de una bolsa o bandeja de fruta cortada del precio por kilo de la fruta entera. **En esta fuente, el plátano figura con el precio de un racimo.**"
+  },
+  "dish": {
+   "titleTpl": "{name}: sabor y cómo comerlo",
+   "flavorH2": "¿A qué sabe?",
+   "infoH2": "Datos básicos del plato",
+   "dtName": "Nombre del plato",
+   "dtThai": "Nombre en tailandés",
+   "dtCategory": "Tipo",
+   "dtRegion": "Zona asociada",
+   "dtIngredients": "Ingredientes típicos",
+   "storyH2": "La historia del plato y de su región",
+   "stepsH2": "Cómo pedirlo y comerlo",
+   "faqH2": "Preguntas frecuentes",
+   "relatedH2": "Otros platos y ciudades que te pueden interesar",
+   "cityLink": "Toda la comida de {name} →",
+   "streetLink": "Tentempiés y bebidas callejeras →",
+   "watermelonLink": "Sandía: temporada y cómo comprarla →",
+   "bananaLink": "Plátano: cómo comprarlo →",
+   "traditionsLink": "Comida tradicional tailandesa y cultura gastronómica →",
+   "hubLink": "Toda la comida tailandesa →",
+   "relatedDishLink": "{name} →"
+  },
+  "city": {
+   "titleTpl": "Comida en {name}: platos típicos y sabores de la zona",
+   "h1Tpl": "Comida de {name}",
+   "noteTitleTpl": "Al elegir qué comer en {name}",
+   "cultureH2": "La cultura gastronómica de esta ciudad",
+   "dishesH2Tpl": "Platos para probar en {name}",
+   "dishesText": "Elige el plato que te apetezca. Te contamos a qué sabe y con qué acompañarlo.",
+   "fruitH2Tpl": "En tu viaje a {name}, prueba también la fruta",
+   "fruitText": "La zona famosa por una fruta y la ciudad donde la compras ahora pueden ser distintas. Consulta la temporada y el sabor, y elige la que quieras probar.",
+   "calendarLink": "Calendario mensual de frutas →",
+   "priceLink": "Guía de compra y precios por ciudad →",
+   "streetLink": "Tentempiés y bebidas callejeras →",
+   "faqH2": "Preguntas frecuentes",
+   "faqQ1": "¿Estos platos solo se comen en esta ciudad?",
+   "faqQ2": "¿Cómo elijo qué pedir si es la primera vez?",
+   "othersH2": "Descubre también los sabores de otras ciudades",
+   "cityLink": "{name} →",
+   "traditionsLink": "Comida tradicional tailandesa y cultura gastronómica →"
+  },
+  "fruit": {
+   "titleTpl": "{name} en Tailandia: temporada y sabor",
+   "eyebrowTpl": "Frutas de Tailandia · {season}",
+   "whenH2": "¿Cuándo es mejor comerla?",
+   "whenText": "Elige guiándote por la temporada principal o por la época de cosecha de cada zona. La cosecha real puede variar según la zona de cultivo, la variedad y el tiempo.",
+   "tasteH2": "¿A qué sabe?",
+   "whyH2": "Por qué es conocida en Tailandia",
+   "infoH2": "Datos básicos antes de comprar",
+   "dtThai": "Nombre en tailandés",
+   "dtSeason": "Temporada",
+   "dtRegional": "Fruta por zona",
+   "dtBuying": "Cómo comprarla",
+   "stepsH2": "Cómo pelarla y comerla",
+   "priceH2": "Precios de referencia",
+   "faqH2": "Preguntas frecuentes",
+   "faqQ1": "¿No se puede comprar fuera de temporada?",
+   "faqA1YearRound": "Se anuncia como fruta que se vende todo el año. Aun así, la variedad y las existencias cambian de un local a otro. Distingue entre fruta entera y fruta ya preparada.",
+   "faqA1Seasonal": "Dato de temporada: {season}. {availability} El calendario no garantiza que se venda cada día.",
+   "availabilityYearRoundNote": "Es una fruta que se vende todo el año, pero la cantidad y el precio pueden variar según la temporada y la variedad.",
+   "availabilityRegionalNote": "La época de cosecha puede variar según la zona de cultivo y la variedad.",
+   "faqQ2": "¿Cómo comparo el precio por kilo con el de una bandeja?",
+   "moreH2": "Sigue explorando",
+   "calendarLink": "Calendario de frutas de enero a diciembre →",
+   "priceLink": "Guía de compra y precios por ciudad →",
+   "streetLink": "Tentempiés y bebidas callejeras →",
+   "hubLink": "Toda la comida tailandesa →"
+  }
+ },
+ "pages": {
+  "hub": {
+   "title": "Comida tailandesa: platos típicos y sabores por ciudades",
+   "description": "Descubre la comida tailandesa tradicional y los platos típicos de cada ciudad. Te explicamos los sabores y la cultura gastronómica de Bangkok, Chiang Mai, Phuket, Ayutthaya, Khon Kaen y Hat Yai, y cómo comer cada plato.",
+   "eyebrow": "THAILAND · FOOD & CULTURE",
+   "h1": "Comida tailandesa,|con un sabor distinto en cada ciudad",
+   "intro": "Si no sabes qué comer en Tailandia, empieza por los platos de la ciudad que vas a visitar. En Chiang Mai hay fideos con curry, en Phuket fideos salteados con marisco y en Ayutthaya un dulce de hilos de azúcar envueltos en roti. Empieza por el conocido pad thai y ve descubriendo, plato a plato, lo que cambia de una ciudad a otra.",
+   "traditional": {
+    "eyebrow": "Primero, la mesa tailandesa",
+    "h2": "Comida tradicional tailandesa",
+    "text": "Si es tu primer contacto con la cocina tailandesa, empieza por el pad thai y el tom yum kung. Te explicamos plato por plato qué ingredientes llevan y cómo se acompañan con arroz o fideos.",
+    "link": "Comida tradicional y cultura gastronómica →"
+   },
+   "street": {
+    "eyebrow": "Tentempiés y bebidas para ir paseando",
+    "h2": "Comida callejera",
+    "text": "Descubre el roti caliente, el batido de sandía frío y otros tentempiés tailandeses para entre horas.",
+    "link": "Toda la comida callejera →"
+   },
+   "fruit": {
+    "eyebrow": "De enero a diciembre",
+    "h2": "Frutas de Tailandia",
+    "text": "¿Qué fruta probar el mes en que viajas? Consulta la temporada, el sabor, la unidad de venta y los precios confirmados de 16 frutas representativas.",
+    "link": "Calendario mensual de frutas →",
+    "priceLink": "Guía de compra y precios de frutas por ciudad →"
+   },
+   "regions": {
+    "h2": "Cambia la región y cambia la mesa",
+    "text": "Igual que en España cada región tiene sus guisos y embutidos, en Tailandia cambian el arroz, los condimentos y los platos que se sirven al lado. Repasa por separado la comida del centro, el norte, Isan y el sur."
+   },
+   "cities": {
+    "eyebrow": "Una comida según adónde viajes",
+    "h2": "Ruta gastronómica por ciudades",
+    "text": "¿A qué ciudad vas? Elige una y verás qué platos probar allí y cómo comerlos."
+   },
+   "related": {
+    "h2": "Para consultar junto con la comida",
+    "rooftops": "Guía de rooftops y miradores →",
+    "delivery": "Guía de apps de comida a domicilio →",
+    "transport": "Guía de transporte en Tailandia →"
+   }
+  },
+  "traditions": {
+   "title": "Comida tradicional tailandesa y cocina por regiones",
+   "description": "¿En qué se diferencian el arroz y los condimentos del centro, el norte, Isan y el sur de Tailandia? Platos típicos, sabores por región y consejos para tu primer pedido.",
+   "eyebrow": "Cocina y cultura gastronómica de Tailandia",
+   "h1": "Dentro de un mismo país,|cambian la forma de comer y el sabor",
+   "intro": "Si ya probaste el pad thai y el tom yum kung, descubre el resto de la cocina tailandesa. En Chiang Mai se come arroz glutinoso con salchicha, verduras y salsas para mojar; en Isan, ensalada de papaya crujiente y fermentados ácidos. Y hay platos distintos en cada ciudad, como los fideos y los dulces de Phuket. Igual que comparas los embutidos de cada región, busca un sabor nuevo en la ciudad que vayas a visitar.",
+   "note": "Si es tu primera vez con la comida tailandesa, empieza por **un curry o un cuenco de fideos con arroz**. Si vas con amigos o familia, pide varios platos para compartir y probar sabores distintos.",
+   "basicsH2": "Lo básico de la mesa tailandesa",
+   "basics": [
+    [
+     "Alimento base",
+     "En el centro se toma arroz blanco con varios platos, y en el norte e Isan se come a menudo arroz glutinoso. Los platos de fideos también cambian según la región."
+    ],
+    [
+     "Ingredientes que dan sabor",
+     "Se combinan chile, hierbas, ingredientes ácidos, salsa de pescado y fermentados según el plato. Cada plato se condimenta de forma distinta."
+    ],
+    [
+     "División por regiones",
+     "Presentamos los rasgos principales del centro, el norte, Isan (noreste) y el sur. Incluso dentro de una misma región, la comida cambia de una ciudad y de una comunidad a otra."
+    ],
+    [
+     "Condiciones de la comida",
+     "Fíjate también en **los ingredientes de los condimentos y las salsas**. Que un plato se llame de verduras o de pollo no basta para saber si es vegetariano o halal."
+    ]
+   ],
+   "regionsH2": "Por regiones se ve mejor el sabor",
+   "cityLinkTpl": "Comida de {name} →",
+   "orderH2": "Cómo elegir en tu primer pedido",
+   "order": [
+    "Decide primero si prefieres compartir arroz y platos, o tomar un cuenco de fideos.",
+    "Elige la carne, el pescado o el marisco que quieras y, si evitas algún ingrediente, avisa también de los condimentos.",
+    "**Pide el nivel de picante antes de que lo cocinen.** Un caldo o una salsa ya hechos pueden ser difíciles de ajustar.",
+    "Cuando llegue el plato, pruébalo primero y añade condimentos y acompañamientos poco a poco."
+   ],
+   "faqH2": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿Toda la comida tailandesa pica?",
+     "Hay postres y platos que no destacan por el picante. En los currys y las salsas para mojar es difícil saber cuánto pican por el color o el nombre, así que conviene preguntar antes de pedir."
+    ],
+    [
+     "¿Los platos típicos de una región solo se comen allí?",
+     "Muchos se han extendido por otras zonas y se comen en todo el país. Esta guía explica la relación de cada plato con la cultura de su región, sin afirmar dónde nació ni que se venda solo allí."
+    ],
+    [
+     "¿Un plato con verduras es vegetariano?",
+     "A veces se usan condimentos de origen animal, como la salsa de pescado y la pasta de gambas. Si sigues una dieta vegetariana, pide que te confirmen los ingredientes reales, condimentos incluidos."
+    ]
+   ],
+   "cardsH2": "Conoce los platos más representativos, uno a uno",
+   "moreH2": "Sigue explorando",
+   "hubLink": "Toda la comida tailandesa →",
+   "deliveryLink": "Guía de comida a domicilio →"
+  },
+  "streetFood": {
+   "title": "Comida callejera en Tailandia: roti, batido de sandía y más",
+   "description": "Descubre qué probar en la calle en Tailandia: roti, batido de sandía, roti sai mai, salchicha fermentada y pollo frito de Hat Yai. Te contamos el sabor y qué tener en cuenta al pedir.",
+   "eyebrow": "STREET FOOD · SNACKS & DRINKS",
+   "h1": "Tentempiés y bebidas tailandesas|para cuando paseas por la calle",
+   "intro": "Prueba un trozo de roti recién hecho y un vaso de batido de sandía bien frío. En Tailandia, los tentempiés entre comidas y las bebidas de fruta también forman parte del viaje. De los dulces a la salchicha y el pollo frito, descubre el sabor y la forma de comer cada plato que te apetezca.",
+   "sweetH2": "Roti dulce y batido de sandía fresquito",
+   "savoryH2": "Tentempiés salados y una comida para acompañarlos",
+   "orderH2": "Cómo elegir al pedir",
+   "order": [
+    "En el roti, separa el precio del roti básico del de los que llevan ingredientes como plátano o huevo.",
+    "En las bebidas, fíjate en el tamaño del vaso y en los ingredientes añadidos, y si quieres menos azúcar, pídelo antes de que la preparen.",
+    "Mira la carta del local y los precios indicados, y pide solo la cantidad que necesites. Que dos platos tengan el mismo nombre no significa que cuesten lo mismo ni lleven los mismos ingredientes."
+   ],
+   "withFruitH2": "Descúbrelo junto con la fruta",
+   "calendarLink": "Frutas de Tailandia de enero a diciembre →",
+   "priceLink": "Unidades de venta y precios de la fruta →",
+   "hubLink": "Toda la comida tailandesa →"
+  },
+  "fruits": {
+   "title": "Frutas de Tailandia: temporada y precios de enero a diciembre",
+   "description": "Conoce la temporada, el sabor y cómo comer 16 frutas tailandesas. Incluye el calendario de frutas de enero a diciembre y los precios minoristas de Bangkok, separados por variedad y unidad de venta.",
+   "eyebrow": "THAI FRUIT · MONTH BY MONTH",
+   "h1": "Frutas de Tailandia,|elige según el mes en que viajes",
+   "intro": "En primavera, mango aromático; en verano, longan; a final de año, pomelo chino y mandarina tailandesa. En Tailandia, incluso una fruta conocida cambia de variedad y de forma de comerse. Elige el mes de tu viaje y empieza por saber a qué sabe y cómo se pela.",
+   "calendarH2": "Calendario de frutas de enero a diciembre",
+   "calendarText": "Reunimos la temporada principal y la época de cosecha de las fuentes oficiales. Una misma fruta varía según la zona de cultivo, por eso cada ficha explica también la época por zonas.",
+   "cardsH2": "Frutas representativas para probar en Tailandia",
+   "unitH2": "¿En qué unidad y a qué precio se vende la fruta?",
+   "unitText": "La fruta entera se vende a veces por kilo, el plátano por racimo y el coco por unidad. Compara por separado una bandeja de fruta ya cortada o un vaso de batido de sandía y el precio de la fruta entera.",
+   "priceLink": "Qué tener en cuenta al comprar fruta en cada ciudad →",
+   "snackH2": "Tentempiés y bebidas callejeras con fruta",
+   "rotiLink": "Roti con plátano →",
+   "shakeLink": "Batido de sandía (nam taeng mo pan) →",
+   "mangoRiceLink": "Arroz glutinoso con mango →",
+   "streetLink": "Toda la comida callejera →"
+  },
+  "fruitPrices": {
+   "title": "Precios de frutas en Tailandia: guía de compra y unidades de venta",
+   "description": "¿Qué comparar al comprar fruta tailandesa por kilo, racimo, unidad o bandeja? Guía de compra de 6 ciudades y precios oficiales confirmados de Bangkok, con variedad, categoría y unidad.",
+   "eyebrow": "FRUIT PRICES · UNITS & CITIES",
+   "h1": "Mira primero la unidad|antes de elegir por el precio",
+   "intro": "No es fácil comparar al mismo precio frutas que solo coinciden en el tipo. Distingue el kilo de fruta entera, el racimo de plátano, la unidad de coco y la bandeja de fruta ya preparada. Consulta qué tener en cuenta al comprar en cada ciudad y los precios con fecha, variedad y unidad confirmadas.",
+   "bangkokH2": "Precios minoristas confirmados de Bangkok",
+   "citiesH2": "Qué tener en cuenta al comprar fruta en cada ciudad",
+   "citiesText": "Esto es una guía para elegir fruta en el viaje a cada ciudad. **Los precios en cifras son datos minoristas de Bangkok** y no se usan como precio habitual de la calle en otras ciudades.",
+   "cityLinkTpl": "Comida de {name} →",
+   "calendarLink": "Calendario de frutas →",
+   "compareH2": "Para comparar en una misma tabla de precios",
+   "compare": [
+    [
+     "Kilo de fruta entera",
+     "Compara variedad, tamaño y categoría en las mismas condiciones. En frutas de cáscara gruesa, como el durián, pregunta si el kilo incluye la cáscara o es solo de pulpa."
+    ],
+    [
+     "Unidad o racimo",
+     "El tamaño de una pieza o el número de frutas de un racimo pueden variar. No lo conviertas por tu cuenta a precio por kilo; fíjate en la cantidad que realmente compras."
+    ],
+    [
+     "Fruta preparada",
+     "Mira cuánta pulpa te ponen en una bolsa o bandeja. No equivale al peso de la fruta entera con cáscara."
+    ],
+    [
+     "Bebidas",
+     "Cambian el tamaño del vaso, los ingredientes y el uso de hielo y sirope. No compares el precio por kilo de la sandía con un vaso de batido como si fueran el mismo producto."
+    ]
+   ]
+  }
+ },
+ "regions": {
+  "central": {
+   "name": "Centro",
+   "subtitle": "La mesa del centro: arroz con curry al lado",
+   "text": "En el centro se come arroz con curry y varios platos más. La cremosidad del coco, lo ácido, lo dulce y lo picante se combinan de forma distinta en cada plato. Si pruebas tom yum kung y curry verde en Bangkok, fíjate en esa combinación de sabores."
+  },
+  "north": {
+   "name": "Norte",
+   "subtitle": "El norte: arroz glutinoso y verduras con salsas",
+   "text": "En el norte se toma arroz glutinoso y verduras con nam prik, y también sai ua, aromática de hierbas. El khao soi de Chiang Mai es un plato que reúne fideos y caldo de curry en un solo cuenco. No toda la comida del norte es suave, así que pregunta por el picante al pedir."
+  },
+  "isan": {
+   "name": "Noreste · Isan",
+   "subtitle": "Isan: papaya crujiente y fermentados ácidos",
+   "text": "En Isan prueba la som tam y el larb con arroz glutinoso. Algunos platos usan pla ra, un condimento de pescado fermentado. Incluso dentro de Isan, el chile y los condimentos de la som tam cambian, y por eso su sabor varía según la zona."
+  },
+  "south": {
+   "name": "Sur",
+   "subtitle": "El sur: marisco, fideos y platos de varias culturas",
+   "text": "En el sur hay platos picantes, pero también fideos y tentempiés distintos en cada ciudad. En Phuket hay platos influidos por la cocina china y la malaya, y en la zona de Songkhla conviven los platos de las comunidades de origen chino y musulmana. Elige la ciudad a la que viajas y descubre sus platos más representativos."
+  }
+ },
+ "cities": {
+  "bangkok": {
+   "name": "Bangkok",
+   "tag": "La ciudad donde se reúnen los sabores de todo el país",
+   "intro": "Si buscas tu primera comida en Bangkok, empieza por el pad thai. En la siguiente puedes tomar arroz con curry o compartir un tom yum kung. Y como cierre dulce, arroz glutinoso con mango. En Bangkok no solo hay comida del centro: también se encuentran platos de muchas otras regiones de Tailandia.",
+   "culture": "Bangkok es una ciudad donde se reúnen platos de muchas regiones de Tailandia. Desde el arroz y los currys del centro hasta platos llegados de otras zonas, hay mucho donde elegir. Aquí presentamos platos representativos que también son buena opción si pruebas la comida tailandesa por primera vez en Bangkok.",
+   "note": "Los platos de abajo no son especialidades que se coman solo en Bangkok. Son platos que se encuentran en muchas ciudades de Tailandia.",
+   "pairing": "Si comes solo, elige un plato de pad thai o arroz con curry. Si vas con amigos o familia, compartid un tom yum kung y pedid de postre un plato de arroz glutinoso con mango.",
+   "priceGuide": "En Bangkok, compara por separado el precio por kilo de la fruta entera y el de una bandeja de fruta cortada. Abajo incluimos los precios oficiales minoristas por variedad y categoría recogidos el mismo día. Pueden diferir de los precios de cada puesto en zonas turísticas."
+  },
+  "chiang-mai": {
+   "name": "Chiang Mai",
+   "tag": "El aroma de Lanna y la cultura del arroz glutinoso",
+   "intro": "En Chiang Mai, empieza por un cuenco de khao soi para conocer la comida del norte. Combina fideos blandos, fideos crujientes y un caldo de curry intenso. En la siguiente comida, prueba sai ua, aromática de hierbas, y nam prik ong, una salsa de tomate, con arroz glutinoso. Descubrirás una mesa del norte muy distinta de la de los fideos.",
+   "culture": "En el norte, el arroz glutinoso se acompaña de varios platos, verduras y nam prik. La comida kantoke, servida en una mesita baja, también refleja esa cultura gastronómica. Kantoke no es el nombre de un plato, sino la mesa y la forma de comer con varias preparaciones.",
+   "note": "El khao soi, el sai ua y el nam prik ong se comen no solo en Chiang Mai, sino también en otras zonas del norte.",
+   "pairing": "Si quieres una comida sencilla, elige khao soi. Si vas a compartir, pide sai ua, nam prik ong, arroz glutinoso y verduras para comer a la manera del norte.",
+   "priceGuide": "En Chiang Mai, fíjate también en el longan y el lichi, frutas ligadas al norte. Si la fruta se vende en racimo, pregunta si se pesa con las ramitas. Compara por separado el longan seco y el fresco, según el producto y el peso del envase."
+  },
+  "phuket": {
+   "name": "Phuket",
+   "tag": "Fideos y tentempiés con influencia china y malaya",
+   "intro": "En Phuket no hace falta quedarse solo en el marisco a la parrilla. Prueba el mi hokkien, de fideos gruesos salteados, y el mi hun, de fideos finos de arroz. Después de comer, puedes hacer una pausa con un o-aew, con hielo y gelatina. Disfruta también de la comida local el día que recorras el casco antiguo.",
+   "culture": "La comida de Phuket refleja la influencia de la cocina de origen chino y de la malaya. Hay fideos gruesos salteados con marisco y fideos finos con caldo de costillas de cerdo. Si añades los postres de hielo y gelatina, la mesa de Phuket que creías solo de marisco te parecerá mucho más variada.",
+   "note": "El mi hokkien y el mi hun son platos de fideos distintos. Si los pides por su nombre, notarás la diferencia de textura y de lo que acompaña a cada uno.",
+   "pairing": "Para comer, elige mi hokkien o mi hun, y en un día de calor, pide de postre un o-aew. Si sois varios, compartid los dos platos de fideos y comparad los fideos gruesos con los finos.",
+   "priceGuide": "En Phuket, elige por separado la fruta ya cortada o las bebidas para tomar en la playa y la fruta entera. Si conviertes el precio de una bolsa o un vaso en precio por kilo de fruta entera, la cantidad que realmente comes cambia."
+  },
+  "ayutthaya": {
+   "name": "Ayutthaya",
+   "tag": "Platos de río y roti sai mai",
+   "intro": "En Ayutthaya, entre visita y visita a las ruinas, come unos fideos de barco. Si quieres compartir la comida con tu grupo, también puedes elegir los langostinos de río a la parrilla. El roti sai mai, un roti fino que se envuelve con hilos de azúcar, es un tentempié para probar en Ayutthaya. Envuélvelo tú mismo, de uno en uno, y disfruta de un rato dulce durante el viaje.",
+   "culture": "En Ayutthaya, junto al río, es conocida la ruta gastronómica de los fideos y los langostinos de río. También puedes probar el roti sai mai, que mantiene viva la comunidad musulmana. Come fideos y envuelve el roti con hilos de azúcar para probar platos muy distintos de una misma ciudad.",
+   "note": "Los fideos de barco se comen también en otras ciudades. El precio de los langostinos de río cambia según el tamaño y la unidad de venta, así que elígelos viendo los que vas a pedir.",
+   "pairing": "Para comer, unos fideos de barco; para una comida en grupo, langostinos de río a la parrilla con arroz para compartir. El roti sai mai es fácil de ir envolviendo de uno en uno, ajustando la cantidad de hilos de azúcar.",
+   "priceGuide": "Si vas a recorrer las ruinas de Ayutthaya, decide primero cuánta fruta quieres comer enseguida. Cada fruta tiene su unidad: el plátano se vende por racimo y la sandía entera, por kilo. En los productos preparados, mira a la vez la cantidad de la bolsa o la bandeja y el precio."
+  },
+  "khon-kaen": {
+   "name": "Khon Kaen",
+   "tag": "Sabores fermentados de Isan y platos de pescado de río",
+   "intro": "En Khon Kaen, disfruta de la comida de Isan con som tam y larb acompañados de arroz glutinoso. En una misma comida puedes compartir papaya crujiente, carne sabrosa y un aliño ácido. Mira también el sai krok Isan, una salchicha fermentada, y el au pla, un curry de pescado de río. Son platos que, incluso dentro de una misma región, difieren en ingredientes y forma de comerse.",
+   "culture": "En Isan se usan mucho el arroz glutinoso y los condimentos fermentados. Hay muchas formas de dar sabor: la som tam, con la papaya machacada; el larb, con hierbas y harina de arroz tostado; y una salchicha de arroz y cerdo fermentados. También presentamos el au pla, un plato local de Khon Kaen con pescado de río.",
+   "note": "La som tam, el larb y el sai krok Isan se comen en muchas zonas de Isan. El au pla es un plato que se presenta como especialidad local de Khon Kaen.",
+   "pairing": "Si pides som tam o larb, pide también arroz glutinoso. Si el aroma fermentado no te resulta familiar, pregunta antes si la som tam lleva pla ra. Los días que te apetezca pescado en vez de carne, mira el au pla.",
+   "priceGuide": "En Khon Kaen, distingue la papaya madura que se come como fruta de la papaya verde que se usa en la som tam. Si compras fruta entera, fíjate en el kilo y en el peso total; si es fruta preparada, en la cantidad de una bandeja."
+  },
+  "hat-yai": {
+   "name": "Hat Yai",
+   "tag": "Pollo frito y platos de caldo de la zona de Songkhla",
+   "intro": "En Hat Yai, prueba el pollo frito con chalota frita. Si comes el pollo junto con la chalota, disfrutas del crujiente y del aroma tostado. Si te apetece otra comida, también puedes elegir el bak kut teh, una sopa de costillas de cerdo con hierbas. Descubre, plato a plato, la variada cultura gastronómica de la zona de Songkhla.",
+   "culture": "En la zona de Songkhla, donde está Hat Yai, conviven los platos de las comunidades de origen chino y musulmana. Hay comidas con arroz glutinoso y pollo frito, y otras con bak kut teh, aromatizado con hierbas de origen chino. Cada plato usa carnes y condimentos distintos, así que elegid juntos un menú que pueda comer todo el grupo.",
+   "note": "No se presenta el bak kut teh como un plato originario de Hat Yai. Y aunque lleve pollo, no se puede saber si un plato es halal solo por su nombre.",
+   "pairing": "Acompaña el pollo frito con arroz glutinoso. Come la chalota frita junto con el pollo y añade la salsa poco a poco. Si quieres comer con un caldo caliente, elige el bak kut teh, que lleva costillas de cerdo.",
+   "priceGuide": "En Hat Yai, consulta también la época de cosecha de las frutas del sur según su zona de cultivo. Aunque sean rambután y mangostán, la cosecha varía según la zona. Si compras una bolsa, pregunta a la vez el peso que ponen y el importe total."
+  }
+ },
+ "dishes": {
+  "pad-thai": {
+   "name": "Pad thai",
+   "scope": "Plato emblemático de Tailandia",
+   "intro": "Si no sabes qué comer en tu primera comida en Tailandia, prueba el pad thai. Son fideos de arroz salteados con huevo y tofu en una salsa dulce y ácida de tamarindo. Los brotes de soja aportan frescura crujiente y los cacahuetes un toque tostado, así que en un solo plato hay varias texturas. Si te sirven lima aparte, exprímela un poco y el sabor ácido resalta más.",
+   "flavor": "A la acidez del tamarindo se suman el dulce y el salado. Al comer los fideos blandos junto con los brotes de soja y los cacahuetes, notas lo crujiente y lo tostado. En los locales que sirven chile en polvo aparte, puedes añadir la cantidad que quieras.",
+   "ingredients": "Fideos de arroz con huevo, tofu y brotes de soja, sazonados con tamarindo. A veces llevan gambas, gambas secas o cacahuetes, así que, si evitas algún ingrediente, díselo antes de pedir.",
+   "story": "El pad thai es el plato de fideos salteados más representativo de Tailandia. Es fácil de encontrar en Bangkok, pero no es una especialidad que se coma solo allí. Si es tu primer contacto con la comida tailandesa, empieza por el pad thai y, en la siguiente comida, prueba un plato de fideos con caldo como el khao soi.",
+   "tip": "Si no puedes comer gambas, pregunta si las gambas secas también van en el condimento.",
+   "steps": [
+    "Elige el ingrediente principal que quieras, como gambas, y pide. Si no puedes comer gambas, pregunta si también lleva gambas secas.",
+    "Cuando llegue el plato, pruébalo primero tal cual. Si añades poco a poco lima y cacahuetes, ajustas a tu gusto el punto ácido y el tostado.",
+    "Si te gusta el picante, añade un poco de chile en polvo. Si tienes que evitar el huevo o los cacahuetes, avísalo antes de que cocinen el plato."
+   ],
+   "faq": [
+    [
+     "¿El pad thai siempre lleva gambas?",
+     "No. El ingrediente principal depende del menú. Pero aunque no veas gambas, a veces se usan gambas secas en el condimento; si no puedes comerlas, pregunta por el ingrediente principal y por los condimentos."
+    ],
+    [
+     "¿Solo se puede comer en Bangkok?",
+     "No. Es un plato representativo que se come en muchas ciudades de Tailandia. En un viaje a Bangkok puede ser una buena primera comida para familiarizarte con la cocina tailandesa."
+    ]
+   ],
+   "emphasis": [
+    "gambas secas",
+    "antes de pedir"
+   ],
+   "photoAlt": "Foto de un plato de pad thai",
+   "photoCaption": "Pad thai · ejemplo del plato"
+  },
+  "tom-yum-kung": {
+   "name": "Tom yum kung",
+   "scope": "Plato emblemático de Tailandia",
+   "intro": "Prueba el tom yum kung, un caldo caliente del que sube el aroma de la hierba limón y las hojas de lima kaffir. Es la sopa más representativa de Tailandia: agria y picante, con gambas. Con cada cucharada se notan a la vez lo ácido, el picante y el aroma de las hierbas. Si comes con amigos o familia, pide arroz y compartid un cuenco de tom yum kung.",
+   "flavor": "El caldo, con el sabor de las gambas, se completa con acidez y picante. La hierba limón, el galanga y las hojas de lima kaffir dan al tom yum kung su aroma característico. Hay versiones de caldo claro y de caldo espeso, así que un mismo nombre puede saber algo distinto.",
+   "ingredients": "Lleva gambas y se aromatiza con hierba limón, galanga, hojas de lima kaffir y otros ingredientes. Los condimentos y el caldo cambian según la receta.",
+   "story": "El tom yum kung es un plato cuya receta han transmitido las familias y las comunidades. Los conocimientos y la cultura de este plato entraron en 2024 en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad de la UNESCO. No es una certificación para un restaurante concreto, sino el reconocimiento de la cultura que las personas han transmitido al cocinar y compartir este plato.",
+   "tip": "Si no puedes comer gambas, elige otro plato en lugar del tom yum kung.",
+   "steps": [
+    "Mira qué versión ofrece el local, de caldo claro o espeso, y elige. Si quieres menos picante, pídelo al encargar. En un caldo ya hervido puede ser difícil ajustar el picante.",
+    "Toma el caldo a cucharadas poco a poco, con arroz. Si sois varios, es fácil servirlo en cada cuenco y repartir las gambas y el caldo.",
+    "Los tallos duros de hierba limón y las especias del caldo se ponen para dar aroma. Come las gambas y los trozos que sí quieras comer."
+   ],
+   "faq": [
+    [
+     "¿Lo que figura en la UNESCO es un restaurante?",
+     "No. Lo inscrito son los conocimientos para hacer el tom yum kung y la cultura gastronómica asociada. No significa que ningún restaurante haya recibido una certificación."
+    ],
+    [
+     "¿Todos los tom yum son sopa de gambas?",
+     "No. Kung significa gambas, y también hay tom yum con otros ingredientes. Si miras qué nombre sigue a tom yum en la carta, te será más fácil elegir el ingrediente principal."
+    ]
+   ],
+   "emphasis": [
+    "Si no puedes comer gambas",
+    "al encargar"
+   ],
+   "photoAlt": "Foto de un cuenco de tom yum kung",
+   "photoCaption": "Tom yum kung · ejemplo del plato"
+  },
+  "green-curry": {
+   "name": "Curry verde",
+   "scope": "Cultura gastronómica del centro · plato que se come en todo el país",
+   "intro": "Si te apetece un curry aromático con arroz, elige el curry verde. Se hace con pasta de curry verde disuelta en leche de coco, con carne y verduras. A la cremosidad del coco se suma el aroma de hierbas como la albahaca. Su color verde claro lo hace parecer suave, pero también pica; si no toleras bien el picante, díselo al pedir.",
+   "flavor": "Tras el sabor suave y cremoso de la leche de coco, se nota el picante de la pasta de curry. El aroma de las hierbas es claro, así que es un curry distinto de los currys suaves en polvo que quizá conozcas. Ve poniendo sobre el arroz un poco de curry y de ingredientes y comiéndolo así.",
+   "ingredients": "Lleva pasta de curry verde y leche de coco, con carne y verduras cocidas en el caldo. A veces se añaden hierbas como la albahaca para dar aroma.",
+   "story": "El curry verde es uno de los platos más representativos del centro de Tailandia. En Tailandia se come no solo con arroz blanco, sino también con fideos como los kanom jeen o con roti. En un viaje a Bangkok, pide un curry con la carne que prefieras y acompáñalo de arroz para una comida completa.",
+   "tip": "Aunque lleve leche de coco, pica. Pregunta por el picante al pedir.",
+   "steps": [
+    "Elige el ingrediente principal que quieras, como pollo, y pide. Si el curry y el arroz se venden por separado, pide también arroz.",
+    "Pregunta antes de cocinarlo si se puede bajar el picante. Que lleve leche de coco no significa que no pique.",
+    "Pon sobre el arroz un poco de caldo y de ingredientes y cómelo así. Si compartís varios platos, no hace falta verter todo el curry de golpe sobre el arroz."
+   ],
+   "faq": [
+    [
+     "¿El curry verde no pica?",
+     "Sí pica. Aunque la leche de coco lo suavice, la pasta de curry lleva chile. Si no toleras bien el picante, conviene preguntar por el nivel antes de pedir."
+    ],
+    [
+     "¿Un curry solo con verduras es vegetariano?",
+     "No necesariamente. La pasta de curry o los condimentos pueden llevar ingredientes de origen animal. Si eres vegetariano, pregunta no solo por la carne, sino también por la pasta y las salsas."
+    ]
+   ],
+   "emphasis": [
+    "también pica",
+    "Pregunta por el picante"
+   ],
+   "photoAlt": "Cuenco de curry verde con roti de acompañamiento",
+   "photoCaption": "Curry verde con roti · ejemplo del plato"
+  },
+  "massaman": {
+   "name": "Curry massaman",
+   "scope": "Curry emblemático de Tailandia",
+   "intro": "Prueba el curry massaman, con aroma de canela y cardamomo. Es un curry intenso, sazonado con varias especias, ideal para comer despacio con arroz. También es una buena elección si quieres notar un aroma distinto al del curry verde. Se conoce como un curry relativamente suave, pero el picante cambia de un local a otro.",
+   "flavor": "El aroma de especias como la canela, el cardamomo y el clavo impregna el curry. Si lo pruebas junto al curry verde, de hierbas más marcadas, se aprecia bien la diferencia entre los dos. Ve acompañando el arroz con un poco de la salsa intensa.",
+   "ingredients": "Se sazona con varias especias, como canela, cardamomo y clavo. La carne, los frutos secos y los demás ingredientes dependen del plato que pidas.",
+   "story": "El massaman es uno de los currys más representativos de Tailandia y también aparece en las guías de la cultura gastronómica del centro. No se come solo en una ciudad concreta. Si es tu primer curry tailandés, empieza por el massaman y, cuando te dé curiosidad el sabor de las hierbas y el chile, prueba también el curry verde.",
+   "tip": "Que sea un curry relativamente suave no significa que no pique.",
+   "steps": [
+    "Elige un plato con la carne que quieras. Fíjate también en si incluye el arroz para acompañar el curry.",
+    "Prueba primero un poco de curry y luego acompáñalo con arroz. Se toma poniendo sobre el arroz la salsa espesa con la carne.",
+    "Si no puedes comer frutos secos o alguna especia concreta, avísalo antes de pedir. Aunque sea un curry relativamente suave, puede picar."
+   ],
+   "faq": [
+    [
+     "Es mi primer curry tailandés, ¿está bien empezar por el massaman?",
+     "Es una buena opción si prefieres empezar por un curry relativamente suave. Pero el picante y el sabor de las especias cambian de un local a otro, así que conviene preguntar por el nivel al pedir."
+    ],
+    [
+     "¿Todos los massaman son halal?",
+     "No se puede saber si un plato es halal solo por su nombre. Comprueba la carne y los condimentos que se usan y la certificación del restaurante."
+    ]
+   ],
+   "emphasis": [
+    "no significa que no pique",
+    "antes de pedir"
+   ],
+   "photoAlt": "Foto de un curry massaman",
+   "photoCaption": "Curry massaman · ejemplo del plato"
+  },
+  "mango-sticky-rice": {
+   "name": "Arroz glutinoso con mango",
+   "scope": "Postre emblemático de Tailandia",
+   "intro": "Si después de comer te apetece algo dulce, prueba el arroz glutinoso con mango. Es un postre tailandés en el que junto a un mango bien maduro se sirve arroz glutinoso con leche de coco. Al comer a la vez mango y arroz se combinan el dulzor de la fruta y la textura masticable. Si has terminado una comida abundante, compartid un plato entre varios.",
+   "flavor": "Al dulzor del mango se suma la suavidad del coco. El arroz glutinoso es masticable y ofrece una textura distinta de la de la fruta sola. Prueba el mango y el arroz por separado y después juntos en una cucharada.",
+   "ingredients": "Mango maduro acompañado de arroz glutinoso con leche de coco. La salsa y los toppings cambian según el local.",
+   "story": "En Tailandia se toma como postre el arroz glutinoso con leche de coco y distintos toppings. El arroz glutinoso con mango es la versión que se sirve con mango maduro. Aunque lleve arroz, piensa en él como un postre dulce, más que como una comida con platos salados.",
+   "tip": "Aunque lleve arroz, se toma como un postre dulce.",
+   "steps": [
+    "Si ya has comido, mira el tamaño del plato y decide si lo compartes.",
+    "Prueba el mango y el arroz por separado y luego juntos. Notarás cómo cambian el sabor y la textura cuando se encuentran los dos ingredientes.",
+    "Si te sirven la salsa aparte, ve añadiéndola poco a poco. No hace falta echarla toda desde el principio."
+   ],
+   "faq": [
+    [
+     "¿Lleva arroz, entonces es una comida?",
+     "Normalmente se disfruta como postre dulce. Se toma el mango junto con arroz glutinoso con leche de coco. Si lo pides después de comer, también puedes compartirlo."
+    ],
+    [
+     "¿El mango sabe siempre igual?",
+     "No. Depende de la variedad, del punto de madurez y de la época en que se vende. Como es un plato en el que al mango se suman el arroz glutinoso y la salsa de coco, conviene probarlo en una cucharada con todo junto."
+    ]
+   ],
+   "emphasis": [
+    "postre"
+   ],
+   "photoAlt": "Foto de arroz glutinoso con mango",
+   "photoCaption": "Arroz glutinoso con mango · ejemplo del plato"
+  },
+  "khao-soi": {
+   "name": "Khao soi",
+   "scope": "Plato emblemático del norte",
+   "intro": "Si buscas qué comer en Chiang Mai, prueba el khao soi. Es el plato más representativo del norte: fideos de huevo en un caldo de curry con coco, con fideos fritos crujientes por encima. Tiene la gracia de alternar fideos blandos y fideos crujientes. Si te traen lima de acompañamiento, prueba el caldo y exprímela un poco.",
+   "flavor": "Se distingue por el caldo de curry intenso y la textura de los dos tipos de fideos. Los fideos de arriba empiezan crujientes y poco a poco se reblandecen al tocar el caldo. Si pruebas el caldo antes y después de añadir los acompañamientos, en un mismo cuenco notarás sabores distintos.",
+   "ingredients": "Fideos de huevo en caldo de curry con coco, con fideos fritos por encima. Algunos menús permiten elegir el ingrediente principal, como pollo o ternera.",
+   "story": "El khao soi es muy conocido en los viajes a Chiang Mai, pero también se come en otras ciudades del norte. A diferencia de la comida del norte con arroz glutinoso y varios platos, aquí se disfrutan fideos y caldo en un solo cuenco. También es buena elección si comes solo o quieres un almuerzo sencillo.",
+   "tip": "Prueba los fideos crujientes de arriba antes de que se empapen en el caldo.",
+   "steps": [
+    "Elige el ingrediente principal que quieras, como pollo o ternera, y pide.",
+    "Prueba un bocado de los fideos fritos antes de que se mojen en el caldo. Alternándolos con los fideos blandos de abajo, se nota bien la diferencia de textura.",
+    "Prueba primero el caldo y luego ve añadiendo lima y los acompañamientos poco a poco. No hace falta ponerlo todo desde el principio."
+   ],
+   "faq": [
+    [
+     "¿Solo se puede comer en Chiang Mai?",
+     "No. Es un plato representativo que se come en varias ciudades del norte. Si en Chiang Mai pruebas por primera vez la comida del norte, puedes empezar con un cuenco de khao soi."
+    ],
+    [
+     "¿Qué carne lleva el khao soi?",
+     "Hay menús de pollo, de ternera y de otras carnes. Mira el ingrediente principal indicado en la carta y elige el que quieras. No todos los locales usan la misma carne."
+    ]
+   ],
+   "emphasis": [
+    "fideos crujientes",
+    "ingrediente principal"
+   ],
+   "photoAlt": "Khao soi con fideos fritos por encima y acompañamientos aparte",
+   "photoCaption": "Khao soi · ejemplo del plato"
+  },
+  "sai-ua": {
+   "name": "Sai ua",
+   "scope": "Plato emblemático del norte",
+   "intro": "Si en Chiang Mai buscas un plato de carne aromático, elige el sai ua. Es una salchicha del norte hecha con carne de cerdo mezclada con chile y hierbas, y asada. Con cada trozo se notan a la vez lo sabroso de la carne asada y el aroma de las hierbas. Con arroz glutinoso y verduras es una buena comida del norte.",
+   "flavor": "Al sabor de la carne de cerdo se suman el aroma de las hierbas y el aliño de chile. Se distingue por un aroma distinto del de las salchichas que conoces. El picante depende de la receta, así que, si es la primera vez, empieza por un trozo pequeño.",
+   "ingredients": "Carne de cerdo mezclada con chile, ajo y varias hierbas, y asada. La mezcla de hierbas y condimentos cambia según quien la hace.",
+   "story": "El sai ua aparece a menudo en la mesa de Lanna, en el norte. También se come con arroz glutinoso o con salsas para mojar como el nam prik. Si lo pides con nam prik ong, de tomate, y con verduras, puedes alternar el sabor de la carne asada y el de la salsa.",
+   "tip": "Es una salchicha asada de carne de cerdo con hierbas.",
+   "steps": [
+    "Pide la cantidad que vayas a comer. Si lo tomas con otros platos, también puedes repartirlo entre varios en pequeñas porciones.",
+    "Empieza por un trozo pequeño. Al conocer el aroma de las hierbas y el nivel de picante, es más fácil decidir cuánto arroz glutinoso o verdura pedir.",
+    "Acompáñalo con arroz glutinoso, nam prik y verduras. Será una comida distinta de la que tomas solo con la salchicha."
+   ],
+   "faq": [
+    [
+     "¿Es la misma salchicha que el sai krok Isan?",
+     "No. El sai ua es una salchicha asada del norte con hierbas. El sai krok Isan es un plato de Isan que se hace fermentando carne de cerdo y arroz, y se distingue por su acidez de fermentación."
+    ],
+    [
+     "¿Se puede pedir si no como cerdo?",
+     "El sai ua típico se hace con cerdo. Si no comes cerdo, es mejor elegir otro plato."
+    ]
+   ],
+   "emphasis": [
+    "carne de cerdo",
+    "trozo pequeño"
+   ],
+   "photoAlt": "Foto de sai ua",
+   "photoCaption": "Sai ua · ejemplo del plato"
+  },
+  "nam-prik-ong": {
+   "name": "Nam prik ong",
+   "scope": "Salsa para mojar del norte",
+   "intro": "Conoce el nam prik ong, que en las comidas del norte se toma con verduras. Es una salsa roja para mojar hecha con tomate, carne de cerdo picada y chile. Mojando un poco en verduras o acompañando el arroz glutinoso, se notan a la vez lo sabroso del cerdo y la acidez del tomate. También puedes pedirlo junto con el sai ua y montar una mesa del norte.",
+   "flavor": "Al punto ácido del tomate y lo sabroso del cerdo se suma el aliño de chile. Cuando acompañas verduras crujientes con la salsa suave, se combinan texturas distintas. El nivel de picante depende de quien lo prepara.",
+   "ingredients": "Lleva tomate, carne de cerdo picada y chile. Es una salsa que se toma en pequeñas cantidades con arroz glutinoso y verduras.",
+   "story": "El nam prik es una salsa para mojar que en Tailandia se toma con verduras o arroz. En el norte hay varios nam prik, y el nam prik ong es el que lleva tomate y cerdo. También se encuentra, junto al arroz glutinoso y las verduras, en la comida kantoke, servida en una mesita baja.",
+   "tip": "Aunque sea una salsa de tomate, lleva carne de cerdo picada.",
+   "steps": [
+    "Mira si te sirven arroz glutinoso y verduras, y pídelo junto con otros platos del norte.",
+    "Moja un poco de salsa en las verduras y pruébalo primero. Con arroz glutinoso notarás otra textura.",
+    "Aunque sea una salsa de tomate, lleva carne de cerdo. Si evitas la carne o los condimentos de origen animal, avísalo antes de pedir."
+   ],
+   "faq": [
+    [
+     "¿Si se hace con tomate es vegetariano?",
+     "No. El nam prik ong típico lleva carne de cerdo picada. Si eres vegetariano, no elijas por el color del tomate y pregunta por la carne y los condimentos."
+    ],
+    [
+     "¿Se toma la salsa sola?",
+     "Se toma en pequeñas cantidades con verduras, arroz glutinoso y otros alimentos. Pedida junto con platos a la brasa, como el sai ua, es fácil compartir y probar varios sabores."
+    ]
+   ],
+   "emphasis": [
+    "carne de cerdo picada",
+    "salsa para mojar",
+    "condimentos de origen animal"
+   ],
+   "photoAlt": "Nam prik ong, salsa de tomate y cerdo, con verduras",
+   "photoCaption": "Nam prik ong · ejemplo del plato"
+  },
+  "mi-hokkien": {
+   "name": "Mi hokkien",
+   "scope": "Plato de fideos local de Phuket",
+   "intro": "Si en Phuket te apetecen fideos, prueba el mi hokkien. Son fideos amarillos gruesos salteados a fuego fuerte con marisco y salsa. Se disfruta a la vez del sabor del marisco y de la salsa que impregna los fideos. Puede ser una buena opción para comer el día que recorres el casco antiguo de Phuket.",
+   "flavor": "El sabor de la salsa y del marisco impregna los fideos gruesos. Comparado con el mi hun, de fideos finos de arroz, la textura de los fideos se nota distinta. Según la cantidad de caldo y los ingredientes que acompañan, como el huevo, el sabor de un cuenco también cambia.",
+   "ingredients": "Fideos amarillos gruesos salteados con marisco y salsa. A veces llevan carne o huevo, así que conviene mirar en la carta qué ingredientes se añaden.",
+   "story": "La comida de Phuket refleja la cultura gastronómica transmitida por los habitantes de origen chino. El mi hokkien es un plato de fideos representativo con esa influencia. Si pensabas en Phuket solo como marisco a la parrilla, prueba esta otra comida, con marisco y fideos salteados juntos.",
+   "tip": "Es un plato de fideos distinto del mi hun, de fideos finos de arroz.",
+   "steps": [
+    "Mira qué ingredientes lleva, como marisco, carne o huevo, y elige el plato que quieras.",
+    "Cuando llegue, prueba los fideos y el marisco juntos. Notarás el sabor de la salsa en los fideos gruesos.",
+    "Si hay condimentos aparte, pruébalo primero y ve añadiendo poco a poco. Si no puedes comer marisco, pregunta si también va en el caldo y en la salsa."
+   ],
+   "faq": [
+    [
+     "¿Es el mismo plato de fideos que el mi hun?",
+     "No. El mi hokkien es el plato de fideos típico de Phuket que usa fideos amarillos gruesos, y el mi hun usa fideos finos de arroz. Al probar los dos, se nota que la textura de los fideos y lo que los acompaña es distinto."
+    ],
+    [
+     "¿Se puede pedir si no puedo comer marisco?",
+     "El mi hokkien típico lleva marisco. Si se pueden cambiar los ingredientes depende del local, así que pregunta no solo por el ingrediente principal, sino también por el caldo y la salsa."
+    ]
+   ],
+   "emphasis": [
+    "fideos amarillos gruesos",
+    "marisco",
+    "distinto del mi hun"
+   ]
+  },
+  "mi-hun": {
+   "name": "Mi hun",
+   "scope": "Plato de fideos local de Phuket",
+   "intro": "En Phuket prueba también el mi hun, de fideos finos de arroz. Se conoce como un plato que se sirve con caldo de costillas de cerdo. Si tomas un bocado de fideos y luego una cucharada de caldo caliente, notarás un sabor distinto al de comer solo los fideos. Es una buena opción si, después del mi hokkien de fideos gruesos, te da curiosidad otro plato de fideos.",
+   "flavor": "Es un plato en el que se disfruta la textura de los fideos finos de arroz junto con el sabor del caldo. Si te sirven los fideos y el caldo por separado, alterna uno y otro. Es una comida distinta de los fideos gruesos salteados.",
+   "ingredients": "Lleva fideos finos de arroz. Es conocida la versión que se sirve con caldo de costillas de cerdo.",
+   "story": "En Phuket se encuentran platos de fideos finos de arroz con nombres como mi hun o mi hun bah chang. La forma más conocida es acompañarlos con caldo de costillas de cerdo. Cada local lo sirve a su manera, así que mira en la carta si fideos y caldo van juntos.",
+   "tip": "Fíjate en si se sirve con caldo de costillas de cerdo antes de pedir.",
+   "steps": [
+    "Mira en la carta si se sirve con caldo de costillas de cerdo y pide.",
+    "Toma primero un bocado de fideos y después una cucharada de caldo caliente. Alterna fideos y caldo.",
+    "Si no puedes comer cerdo, pregunta también por los ingredientes del condimento de los fideos y del caldo. No pienses que basta con quitar el caldo para evitar el cerdo."
+   ],
+   "faq": [
+    [
+     "¿Siempre se sirven los fideos con caldo?",
+     "Depende del local y del menú. Es conocida la forma con caldo de costillas de cerdo, pero conviene mirar qué incluye el plato que pides."
+    ],
+    [
+     "Si no como cerdo, ¿basta con quitar el caldo?",
+     "El condimento o la cocción de los fideos también puede llevar cerdo. Si lo evitas, tienes que preguntar por los ingredientes de los fideos y del caldo."
+    ]
+   ],
+   "emphasis": [
+    "caldo de costillas de cerdo",
+    "condimento de los fideos y del caldo"
+   ]
+  },
+  "o-aew": {
+   "name": "O-aew",
+   "scope": "Postre local de Phuket",
+   "intro": "Si un día de calor en Phuket quieres descansar un rato mientras paseas por el casco antiguo, prueba el o-aew. Es un tentempié frío que se hace con gelatina, sirope dulce y toppings sobre hielo. Al tomar a cucharadas el hielo y la gelatina, se disfruta de lo fresco y de la textura suave. También sirve de postre después de una comida de fideos.",
+   "flavor": "Al hielo frío se suman la gelatina suave y el dulzor del sirope. Según los toppings que lleve, el sabor y la textura de cada cucharada cambian. Prueba a tomar el hielo y la gelatina juntos en la cuchara.",
+   "ingredients": "Hielo y gelatina con sirope dulce y toppings. Los ingredientes de la gelatina y de los toppings cambian según el local.",
+   "story": "El o-aew es un postre local de Phuket. En la mesa de Phuket no solo hay marisco y fideos, sino también estos tentempiés que se toman fríos. Si buscas algo dulce entre comida y comida durante el viaje, puede ser una buena opción.",
+   "tip": "Si tomas el hielo y la gelatina juntos, disfrutas de las dos texturas.",
+   "steps": [
+    "Mira qué gelatina y toppings lleva y elige. También puedes preguntar si se puede ajustar el sirope.",
+    "Toma una cucharada de hielo y gelatina juntos. Notarás una textura distinta de la de la gelatina sola.",
+    "Si evitas algún ingrediente, pregunta de qué están hechos la gelatina y los toppings. Aunque se vendan con el mismo nombre, no todos llevan lo mismo."
+   ],
+   "faq": [
+    [
+     "¿El o-aew es una comida?",
+     "Es un tentempié hecho con hielo y gelatina. Puedes tomarlo para descansar en un día de calor o de postre después de comer."
+    ],
+    [
+     "¿La gelatina y los toppings son iguales en todas partes?",
+     "No. Los toppings y el sirope pueden cambiar de un local a otro. Si hay algún ingrediente que no puedes comer, pregunta por la gelatina y los toppings."
+    ]
+   ],
+   "emphasis": [
+    "gelatina y toppings",
+    "hielo y gelatina juntos"
+   ],
+   "photoAlt": "Foto de o-aew",
+   "photoCaption": "O-aew · ejemplo del plato"
+  },
+  "boat-noodles": {
+   "name": "Fideos de barco (kuai tiao ruea)",
+   "scope": "Plato famoso de Ayutthaya",
+   "intro": "Si en Ayutthaya, mientras recorres las ruinas, te apetece un cuenco de fideos, prueba los fideos de barco. Son fideos y carne servidos en caldo, famosos en Ayutthaya junto con los langostinos de río a la parrilla. Elige en la carta los fideos y la carne y tómalos con el caldo mientras está caliente. También se comen en otras ciudades, pero en un viaje a Ayutthaya son una buena opción.",
+   "flavor": "Es un plato en el que se disfrutan juntos el caldo, los fideos y la carne. El sabor del caldo puede cambiar según la carne y los condimentos. Pruébalo primero sin añadir nada y luego ve echando poco a poco chile u otros condimentos.",
+   "ingredients": "Fideos y carne servidos en caldo. La carne, las vísceras y los condimentos que se usan cambian según el menú.",
+   "story": "En la ruta gastronómica de Ayutthaya se encuentran juntos los fideos de barco, los langostinos de río a la parrilla y el roti sai mai. Puedes comer fideos al mediodía y tomar roti sai mai de tentempié. Eso sí, los fideos de barco no se comen solo en Ayutthaya.",
+   "tip": "Pide fijándote en el tipo de fideos, la carne y el tamaño del cuenco.",
+   "steps": [
+    "Elige los fideos y la carne que quieras y pide. Si evitas la carne, las vísceras o algún condimento, pregunta también por lo que lleva el caldo.",
+    "Mira el tamaño del cuenco y decide cuántos vas a comer. No todos los locales sirven el mismo tamaño.",
+    "Prueba primero el caldo y luego añade poco a poco condimentos adicionales. No hace falta echar mucho chile desde el principio."
+   ],
+   "faq": [
+    [
+     "¿Solo se pueden comer en Ayutthaya?",
+     "No. Es un plato que se come también en otras ciudades. En Ayutthaya puedes elegirlo como comida a mitad de la visita a las ruinas."
+    ],
+    [
+     "¿Los ingredientes del caldo son siempre los mismos?",
+     "No. La carne, las vísceras, los condimentos y el caldo cambian según el menú. Si evitas algún ingrediente, en vez de pedir solo que quiten la carne, pregunta si también se usa en el caldo."
+    ]
+   ],
+   "emphasis": [
+    "tipo de fideos, la carne",
+    "tamaño del cuenco"
+   ],
+   "photoAlt": "Foto de fideos de barco",
+   "photoCaption": "Fideos de barco · ejemplo del plato"
+  },
+  "river-prawns": {
+   "name": "Langostinos de río a la parrilla",
+   "scope": "Plato famoso de Ayutthaya",
+   "intro": "Si en Ayutthaya buscas una comida para compartir, elige los langostinos de río a la parrilla. Se asan los langostinos y se come la carne pelándola, y resultan ideales para varias personas, con arroz y otros platos. El precio cambia según el tamaño del langostino y la unidad de venta, así que mira antes los que vas a pedir y elige.",
+   "flavor": "Es un plato en el que se disfrutan el aroma del langostino asado y la textura de su carne. Prueba primero solo la carne y luego acompáñala con un poco de la salsa que sirven aparte. Con arroz, también se aprecia el sabor de la salsa.",
+   "ingredients": "Langostinos de río a la parrilla. El tamaño, la salsa de acompañamiento y la unidad de venta cambian según el restaurante.",
+   "story": "El langostino de río es un ingrediente muy conocido en los viajes a Ayutthaya. Si los fideos de barco son una comida de un solo cuenco, los langostinos de río a la parrilla son un plato para compartir con quien viaja contigo. No hace falta pensar que, por llamarse langostino de río, sea silvestre o pescado en los ríos de Ayutthaya.",
+   "tip": "Pregunta si se vende por pieza o por peso.",
+   "steps": [
+    "Pregunta antes si el precio es por pieza o por peso. Aunque sean langostinos a la parrilla, el importe cambia según el tamaño y la forma de venta.",
+    "Decide el tamaño y la cantidad y pide que te informen del importe del pedido. También conviene mirar si incluye arroz y otros platos.",
+    "Pela los langostinos y prueba primero la carne sola. Luego acompáñala con un poco de salsa y compártelos con quien te acompañe."
+   ],
+   "faq": [
+    [
+     "¿Son todos langostinos pescados en los ríos de Ayutthaya?",
+     "No se puede saber solo por el nombre del plato. Si te interesa el origen real y si son de cultivo, pregunta con los langostinos que vas a pedir delante."
+    ],
+    [
+     "¿Cuánto hay que pagar, más o menos?",
+     "Depende del tamaño del langostino y de la forma de venta, por pieza o por peso. Si antes de pedir te indican el importe del tamaño y la cantidad elegidos, es más fácil calcular el gasto de la comida."
+    ]
+   ],
+   "emphasis": [
+    "unidad de venta",
+    "por pieza o por peso"
+   ],
+   "photoAlt": "Langostinos de río abiertos y asados con salsa",
+   "photoCaption": "Langostinos de río a la parrilla · ejemplo del plato"
+  },
+  "roti-sai-mai": {
+   "name": "Roti sai mai",
+   "scope": "Tentempié emblemático de Ayutthaya",
+   "intro": "En Ayutthaya prueba el roti sai mai, en el que se envuelven hilos de azúcar en un roti fino. Es un tentempié que se hace colocando hilos finísimos de azúcar sobre el roti y enrollándolo. Si lo envuelves tú mismo, puedes ir poniendo poco a poco los hilos de azúcar y tomarlo con el dulzor que prefieras. Puedes ir abriendo los rotis de uno en uno y compartirlos con quien te acompañe.",
+   "flavor": "Se combinan la textura del roti, fino y suave, y la de los hilos finos de azúcar. El dulzor depende de cuántos hilos de azúcar pongas. Al principio pon pocos y, con el siguiente roti, añade más a tu gusto.",
+   "ingredients": "Roti fino con hilos finos de azúcar para envolver. También hay versiones con aroma de pandan o con sésamo en el roti.",
+   "story": "El roti sai mai está unido a la cultura de tentempiés que mantiene viva la comunidad musulmana de Ayutthaya. Hay rotis con aroma de pandan, que les da un tono verde, y otros llevan sésamo. A diferencia de los menús de roti habituales, lo que caracteriza a este tentempié es envolver los hilos de azúcar.",
+   "tip": "Si pones poco a poco los hilos de azúcar, puedes tomarlo con el dulzor que quieras.",
+   "steps": [
+    "Prepara juntos el roti y los hilos de azúcar. Si te los sirven por separado, abre un roti.",
+    "Pon un poco de hilos de azúcar y enrolla o dobla el roti antes de comerlo.",
+    "Si quieres más dulce, pon un poco más de hilos de azúcar en el siguiente roti. No hace falta poner mucho de una vez."
+   ],
+   "faq": [
+    [
+     "¿En qué se diferencia del roti normal?",
+     "Es un roti fino en el que se envuelven hilos finos de azúcar. La forma de comerlo y la textura son distintas de las del roti con plátano u otros toppings."
+    ],
+    [
+     "¿El roti verde es el mismo tentempié?",
+     "También hay una versión con roti de aroma de pandan en el que se envuelven hilos de azúcar. El aroma y los ingredientes reales pueden cambiar según el puesto."
+    ]
+   ],
+   "emphasis": [
+    "hilos de azúcar",
+    "poco a poco"
+   ],
+   "photoAlt": "Hilos finos de azúcar sobre un roti fino",
+   "photoCaption": "Roti sai mai · ejemplo del plato"
+  },
+  "som-tam": {
+   "name": "Som tam",
+   "scope": "Plato emblemático de Isan · plato que se come en todo el país",
+   "intro": "Si te apetece algo crujiente y ácido, prueba la som tam. Es una ensalada hecha con papaya verde cortada en tiras finas y machacada en un mortero con el aliño. La papaya se impregna de acidez y picante, y va bien con arroz glutinoso o con platos a la brasa. En Isan hay versiones con un condimento de pescado fermentado; si el aroma fermentado no te resulta familiar, pregunta al pedir qué tipo de som tam es.",
+   "flavor": "Al crujiente de la papaya se suma un aliño ácido y picante. En las versiones con pla ra, un condimento de pescado fermentado, también se nota el aroma de la fermentación. Aunque se llame som tam, el sabor cambia según el condimento y la forma de usar el chile.",
+   "ingredients": "Papaya verde aliñada con chile y un ingrediente ácido. Los cacahuetes, las gambas y el condimento de pescado fermentado dependen del tipo de som tam.",
+   "story": "La som tam es un plato representativo de Isan y se come en muchas ciudades de Tailandia. Incluso dentro de Isan hay versiones distintas según la zona, de modo que puedes comparar su sabor igual que se comparan los quesos de cada región. En un viaje a Khon Kaen, pruébala con arroz glutinoso y otros platos de Isan.",
+   "tip": "Si quieres menos picante, pídelo antes de que la preparen.",
+   "steps": [
+    "Elige el tipo de som tam y pregunta si lleva un condimento de pescado fermentado como el pla ra.",
+    "Si quieres menos picante, pídelo antes de que la preparen. Una vez machacada la papaya con el aliño, es difícil quitar solo el chile.",
+    "Pide arroz glutinoso y otros platos y ve acompañándolos con un poco. Será una comida distinta de la que tomas solo con papaya."
+   ],
+   "faq": [
+    [
+     "¿La som tam sabe igual en todas partes?",
+     "No. Cambian el chile, los condimentos y la forma de dar el punto dulce. Si el aroma fermentado no te resulta familiar, pregunta primero si lleva pla ra."
+    ],
+    [
+     "Como es una ensalada de papaya, ¿es vegetariana?",
+     "No necesariamente. Hay versiones con condimento de pescado, gambas y otros ingredientes. Si eres vegetariano, pregunta también por el aliño y los toppings, además de la papaya."
+    ]
+   ],
+   "emphasis": [
+    "condimento de pescado fermentado",
+    "antes de que la preparen"
+   ],
+   "photoAlt": "Foto de som tam",
+   "photoCaption": "Som tam · ejemplo del plato"
+  },
+  "larb": {
+   "name": "Larb",
+   "scope": "Ensalada de carne de Isan",
+   "intro": "Si buscas un plato de carne para tomar con arroz glutinoso, prueba el larb al estilo de Isan. Es carne picada aliñada con hierbas, lima y harina de arroz tostado. Al sabor de la carne se suman la acidez y un aroma tostado, y va bien con verduras. Hay menús con carne cruda, así que al pedir pregunta si el larb está hecho con carne cocinada.",
+   "flavor": "Al sabor ácido de la lima y al aroma de las hierbas se suma lo tostado de la harina de arroz. El aliño se mezcla bien con la carne picada y va bien para comerlo en pequeñas cantidades con arroz glutinoso. El sabor cambia según la carne, ya sea cerdo, ternera o pato.",
+   "ingredients": "Carne picada aliñada con harina de arroz tostado, hierbas, lima y otros ingredientes. El tipo de carne cambia: cerdo, ternera, pato.",
+   "story": "El larb es una ensalada de carne que se encuentra en la mesa de Isan. También hay larb en el norte, pero el aliño y la forma de cocinarlo no son los mismos. El plato que presentamos aquí es el larb al estilo de Isan, con harina de arroz tostado, lima y hierbas.",
+   "tip": "Hay versiones con carne cruda. Pide un larb de carne cocinada.",
+   "steps": [
+    "Elige la carne que quieras y pide el menú de carne cocinada. También hay larb con carne cruda.",
+    "Si quieres menos picante, pídelo antes de que lo preparen.",
+    "Acompáñalo con arroz glutinoso y verduras. Toma el larb en pequeñas cantidades y disfruta del sabor de la carne y de las hierbas."
+   ],
+   "faq": [
+    [
+     "¿Todo el larb se hace con carne cocinada?",
+     "No. Hay versiones que usan carne cruda. La Autoridad de Turismo de Tailandia recomienda pedir el larb de carne cocinada, así que dilo al pedir."
+    ],
+    [
+     "¿El larb del norte sabe igual?",
+     "El aliño y la forma de cocinarlo son distintos. Aquí presentamos el larb al estilo de Isan, con harina de arroz tostado, lima y hierbas. Aunque veas el mismo nombre en el norte, puede parecer otro plato."
+    ]
+   ],
+   "emphasis": [
+    "carne cocinada",
+    "al pedir"
+   ],
+   "photoAlt": "Larb de pato con verduras",
+   "photoCaption": "Larb de pato al estilo de Isan · ejemplo del plato"
+  },
+  "sai-krok-isan": {
+   "name": "Sai krok Isan",
+   "scope": "Salchicha fermentada de Isan",
+   "intro": "Si quieres probar los fermentados ácidos de Isan, prueba el sai krok Isan. Es una salchicha fermentada hecha con carne de cerdo, arroz, ajo y otros ingredientes. Al sabor sabroso de la carne se suma la acidez de la fermentación. Si ya has probado el sai ua, la salchicha del norte, puedes comparar el sabor de ambas.",
+   "flavor": "Se caracteriza por lo sabroso del cerdo y la acidez que da la fermentación. La intensidad del punto ácido varía según el grado de fermentación y la forma de cocinarla. El chile fresco que la acompaña puede picar, así que tómalo aparte y en pequeñas cantidades.",
+   "ingredients": "Se hace fermentando carne de cerdo, arroz, ajo y otros ingredientes. La acidez puede variar según la fermentación y la cocción.",
+   "story": "El sai krok Isan es un plato de Isan hecho fermentando carne de cerdo y arroz. No se come solo en Khon Kaen. Si lo comparas con el sai ua del norte, de aroma a hierbas, se nota cómo cambian los ingredientes y el sabor de la salchicha según la región.",
+   "tip": "Toma el chile fresco que lo acompaña aparte y en pequeñas cantidades.",
+   "steps": [
+    "Distingue y pide por separado el sai ua, que lleva hierbas, y el sai krok Isan, la salchicha fermentada.",
+    "Prueba poco a poco la salchicha ya cocinada. Si la pruebas primero, sabrás cuánta acidez de fermentación tiene.",
+    "Si te sirven chile fresco, en vez de comerlo todo de una vez, tómalo aparte y en pequeñas cantidades."
+   ],
+   "faq": [
+    [
+     "¿Por qué sabe ácida una salchicha?",
+     "Porque es un plato que se hace fermentando carne de cerdo y arroz. Es una salchicha de la que se disfruta la acidez de la fermentación, y la intensidad real depende del producto y de la forma de cocinarla."
+    ],
+    [
+     "¿En qué se diferencia del sai ua?",
+     "El sai ua es una salchicha asada del norte con hierbas, y el sai krok Isan es una salchicha de Isan hecha fermentando carne de cerdo y arroz. Probando las dos puedes comparar el aroma de las hierbas y la acidez de la fermentación."
+    ]
+   ],
+   "emphasis": [
+    "salchicha fermentada",
+    "chile fresco"
+   ],
+   "photoAlt": "Foto de sai krok Isan",
+   "photoCaption": "Sai krok Isan · ejemplo del plato"
+  },
+  "au-pla": {
+   "name": "Au pla",
+   "scope": "Plato local de Khon Kaen",
+   "intro": "Si en Khon Kaen quieres probar un plato local distinto de la som tam, busca el au pla. Es un curry con pescado de río, picante y salado. Si te gusta el pescado, es una opción para comer con arroz. El pescado y los condimentos pueden cambiar de un local a otro.",
+   "flavor": "Es un curry que añade picante y sal al pescado de río. Ofrece una comida distinta de la som tam, con verduras crujientes, o del larb, un plato de carne. Tómalo en pequeñas cantidades junto con el arroz.",
+   "ingredients": "Es un curry hecho con pescado de río. El pescado y los condimentos que se usan dependen del plato que pidas.",
+   "story": "En Isan existe la cultura de cocinar con pescado de río. El au pla se presenta como un plato local de Khon Kaen. Es una buena opción si, después de probar la som tam y el larb, conocidos en toda Isan, quieres descubrir otros platos de Khon Kaen.",
+   "tip": "Come despacio, atento a las espinas del pescado.",
+   "steps": [
+    "Busca el au pla en la carta y pregunta qué pescado usan. Conviene preguntar también si se puede ajustar el picante.",
+    "Pide arroz para acompañar y ve tomando un poco de pescado y de caldo con él.",
+    "Come despacio, atento a las espinas del pescado. El tipo de pescado y el detalle de los condimentos dependen del plato que pidas."
+   ],
+   "faq": [
+    [
+     "¿En qué se diferencia de la som tam o del larb?",
+     "El au pla es un curry con pescado de río. A diferencia de la som tam, de papaya machacada, o del larb, de carne picada aliñada, se puede tomar con arroz acompañado de pescado y caldo."
+    ],
+    [
+     "¿Es un plato relacionado con Khon Kaen?",
+     "Sí. Es un plato que la Autoridad de Turismo de Tailandia presenta como especialidad local de Khon Kaen. Merece la pena mirarlo si en un viaje por Isan quieres probar un plato de pescado de río."
+    ]
+   ],
+   "emphasis": [
+    "qué pescado",
+    "espinas del pescado"
+   ]
+  },
+  "hat-yai-chicken": {
+   "name": "Pollo frito de Hat Yai",
+   "scope": "Plato emblemático de Hat Yai",
+   "intro": "En Hat Yai, prueba el pollo frito crujiente acompañado de chalota frita. Es el pollo frito de Hat Yai, conocido por el nombre de la ciudad. A lo crujiente del pollo se suman lo sabroso y el aroma de la chalota, y va bien con arroz glutinoso. Pon un poco de la chalota que lo acompaña sobre el pollo y pruébalo de un bocado.",
+   "flavor": "Es un plato en el que se disfrutan juntos lo crujiente del pollo frito y el sabor tostado de la chalota. También lo caracteriza el adobo con ingredientes aromáticos como el ajo, la raíz de cilantro y la pimienta blanca. Antes de añadir la salsa, también puedes probar solo el pollo con la chalota.",
+   "ingredients": "Pollo frito con chalota frita. Se conoce como un plato que se adoba con ajo, raíz de cilantro y pimienta blanca, y se toma con arroz glutinoso.",
+   "story": "Hat Yai es una ciudad de la zona de Songkhla, donde conviven la cultura gastronómica de las comunidades de origen chino y musulmana. El pollo frito de Hat Yai se conoce como plato emblemático de esta zona. También se vende en otras ciudades, pero si estás en Hat Yai, tómalo como comida con arroz glutinoso.",
+   "tip": "Si comes la chalota frita junto con el pollo, notas más lo sabroso.",
+   "steps": [
+    "Elige las piezas y la cantidad que quieras. Si vais varios, también podéis pedir por separado las piezas que prefiera cada uno.",
+    "Mira si el arroz glutinoso y la salsa vienen incluidos y pide más de lo que necesites.",
+    "Prueba primero el pollo junto con la chalota frita. La siguiente vez, acompáñalo con un poco de salsa y disfruta de otro sabor."
+   ],
+   "faq": [
+    [
+     "¿Solo se puede comer en Hat Yai?",
+     "No. También venden pollo frito al estilo de Hat Yai en otras zonas. Si estás en Hat Yai, puedes probar con arroz glutinoso el plato conocido por el nombre de la ciudad."
+    ],
+    [
+     "¿Todo plato de pollo es halal?",
+     "No. No se puede saber si un plato es halal solo por el tipo de carne. Si necesitas comida halal, comprueba la certificación del restaurante y los ingredientes y condiciones de cocción reales."
+    ]
+   ],
+   "emphasis": [
+    "chalota frita",
+    "arroz glutinoso"
+   ],
+   "photoAlt": "Pollo frito al estilo de Hat Yai con abundante chalota frita",
+   "photoCaption": "Pollo frito al estilo de Hat Yai · ejemplo del plato"
+  },
+  "bak-kut-teh": {
+   "name": "Bak kut teh",
+   "scope": "Plato de origen chino que se toma en la zona de Songkhla",
+   "intro": "Si en un viaje a Hat Yai quieres una comida con caldo caliente, elige el bak kut teh. Es un plato en el que se hierven costillas de cerdo con hierbas y especias. En la zona de Songkhla se presenta como un plato de caldo con aroma de hierbas de origen chino. Si comes cerdo, tómalo despacio con arroz.",
+   "flavor": "Al caldo de costillas de cerdo se suma el aroma de las hierbas y las especias. El color y la intensidad del caldo cambian según la receta. Alterna costillas y caldo para notar el aroma.",
+   "ingredients": "Costillas de cerdo hervidas con hierbas y especias. Los demás ingredientes y los acompañamientos cambian según el menú.",
+   "story": "El bak kut teh es uno de los platos de origen chino que se encuentran en la zona de Songkhla. No quiere decir que se creara por primera vez en Hat Yai. Un día en que te apetezca una comida distinta del pollo frito crujiente, puedes tomar un caldo de costillas de cerdo con arroz.",
+   "tip": "El caldo también lleva cerdo. Si evitas el cerdo, elige otro plato.",
+   "steps": [
+    "Piensa antes si es un menú para elegir con acompañantes que coman cerdo. El bak kut teh típico lleva costillas de cerdo.",
+    "Mira si el arroz y los acompañamientos vienen incluidos y pide.",
+    "Come las costillas y toma el caldo poco a poco. Disfruta del aroma de las hierbas y las especias junto con el arroz."
+   ],
+   "faq": [
+    [
+     "¿El bak kut teh es un plato que nació en Hat Yai?",
+     "No lo presentamos como un plato originario de Hat Yai. Es un plato de origen chino que se encuentra en la zona de Songkhla y sirve para conocer la variada cultura gastronómica de la región."
+    ],
+    [
+     "¿Puede comerlo alguien que no come cerdo?",
+     "El bak kut teh típico lleva costillas de cerdo. Si evitas el cerdo, es mejor elegir otro plato. Ten en cuenta que, aunque solo tomes el caldo, es un plato que se hace con cerdo."
+    ]
+   ],
+   "emphasis": [
+    "cerdo",
+    "costillas de cerdo"
+   ],
+   "photoAlt": "Foto de bak kut teh",
+   "photoCaption": "Bak kut teh · ejemplo del plato"
+  },
+  "roti": {
+   "name": "Roti",
+   "scope": "Tentempié callejero de Tailandia",
+   "intro": "Si en la calle te apetece algo dulce, prueba el roti. Se hace asando una masa extendida muy fina, que se acompaña con salsas dulces como leche condensada o chocolate. Hay menús con plátano, una buena opción cuando quieres tomar fruta y tentempié a la vez. Si te lo cortan en trozos, tómalo de uno en uno mientras está caliente.",
+   "flavor": "Se disfrutan juntos la masa asada fina y el sabor de las salsas dulces. Según los ingredientes y el modo de asarlo, cambian lo crujiente de los bordes y lo suave del centro. En los menús con plátano también se nota el dulzor de la fruta.",
+   "ingredients": "Se asa la masa y se acompaña con salsas como leche condensada o chocolate. Si lleva plátano o huevo depende del menú.",
+   "story": "El roti de Tailandia es también un tentempié dulce callejero. El roti sai mai de Ayutthaya es un roti fino en el que se envuelven hilos de azúcar, y se come de forma distinta del roti asado que presentamos aquí. Si pruebas los dos, verás que bajo el mismo nombre de roti hay tentempiés distintos.",
+   "tip": "El plátano y la salsa cambian según el menú. Elige primero los toppings que quieras.",
+   "steps": [
+    "Elige entre roti básico o con plátano u otros ingredientes, y di qué salsa quieres.",
+    "Si quieres poca leche condensada o salsa, pídelo antes de asarlo. Una vez echada la salsa, es difícil reducir la cantidad.",
+    "Toma el roti cortado de trozo en trozo mientras está caliente."
+   ],
+   "faq": [
+    [
+     "¿Es el mismo tentempié que el roti sai mai?",
+     "No. El roti sai mai es un tentempié de Ayutthaya en el que se envuelven hilos de azúcar en un roti fino. Aquí presentamos el roti callejero, de masa asada con salsas dulces."
+    ],
+    [
+     "¿Se puede pedir si no puedo comer huevo o leche?",
+     "Hay que preguntar por los ingredientes de la masa, los toppings y las salsas. Aunque el menú no lleve huevo, la masa o la leche condensada pueden contener un ingrediente que evitas."
+    ]
+   ],
+   "emphasis": [
+    "plátano",
+    "antes de asarlo",
+    "toppings que quieras"
+   ],
+   "photoAlt": "Foto de un roti",
+   "photoCaption": "Roti tailandés fotografiado en la mezquita de Bang Luang. Los toppings y la forma cambian según el puesto."
+  },
+  "watermelon-shake": {
+   "name": "Batido de sandía (nam taeng mo pan)",
+   "scope": "Bebida de fruta de Tailandia",
+   "intro": "Si en un día de calor, paseando por Tailandia, te apetece una bebida fría, prueba el nam taeng mo pan. Es un batido de sandía hecho triturando sandía con agua y hielo. A diferencia del zumo de sandía, se tritura con hielo y se toma bien frío. Si quieres menos dulce, pide al encargarlo menos sirope o azúcar.",
+   "flavor": "Al sabor de la sandía se suma la textura fría del hielo muy triturado. La proporción de sandía y hielo y el dulce añadido pueden cambiar el sabor de un vaso.",
+   "ingredients": "Se tritura sandía con agua y hielo. Los ingredientes añadidos, como azúcar o sirope, dependen del puesto.",
+   "story": "La Autoridad de Turismo de Tailandia presenta el nam taeng mo pan como una bebida de fruta típica, hecha triturando sandía con agua y hielo. En un viaje a Tailandia, la sandía que ya conoces se toma como bebida callejera. La sandía se vende todo el año, pero si hay o no bebida a la venta depende del local.",
+   "tip": "Si quieres reducir el azúcar o el sirope añadido, pídelo antes de que lo preparen.",
+   "steps": [
+    "Elige el menú de nam taeng mo pan o batido de sandía y mira el tamaño del vaso y el precio.",
+    "Antes de que preparen la bebida, pregunta si se puede reducir el dulce. Aunque quiten el sirope, la sandía ya es dulce de por sí.",
+    "Cuando te den la bebida triturada con hielo, tómala bien fría."
+   ],
+   "faq": [
+    [
+     "¿El nam taeng mo pan es zumo de sandía?",
+     "Es un batido hecho triturando sandía con agua y hielo. Como el hielo se tritura junto con la fruta, la textura es distinta de la de una bebida de solo zumo de sandía."
+    ],
+    [
+     "Si quito el azúcar, ¿deja de ser dulce?",
+     "El dulzor propio de la sandía permanece. El azúcar o el sirope que se añade depende del local, así que pide antes de prepararlo que pongan menos o que lo quiten."
+    ]
+   ],
+   "emphasis": [
+    "agua y hielo",
+    "al encargarlo",
+    "tamaño del vaso y el precio"
+   ]
+  }
+ },
+ "fruits": {
+  "mango": {
+   "name": "Mango",
+   "seasonLabel": "Temporada principal: marzo–mayo",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Si en Tailandia te apetece una fruta dulce, prueba un mango bien maduro. Se conocen variedades como la nam dok mai, de pulpa amarilla, suave y aromática. Si has probado el arroz glutinoso con mango, come también la fruta sola y fíjate en el sabor del mango. Hay mangos verdes que se comen crujientes y ácidos.",
+   "taste": "El mango maduro tiene un sabor dulce y una pulpa suave. Hay variedades de mango verde que se comen con una textura distinta de la del maduro, así que no hace falta pensar que todo mango verde está inmaduro.",
+   "why": "En Tailandia hay muchas variedades de mango, como la nam dok mai o la maha chanok, y existe una cultura gastronómica en la que se disfruta de forma distinta la fruta madura y la verde. También es familiar como postre sobre arroz glutinoso, por eso es una fruta que merece la pena probar en un viaje a Tailandia.",
+   "buying": "Si quieres un mango dulce y suave, pide un mango maduro. También pueden venderte aparte mango crujiente. La unidad de precio es distinta si compras la fruta entera por kilo o una bandeja de mango cortado.",
+   "steps": [
+    "Lava la fruta entera y corta la pulpa a ambos lados del hueso.",
+    "Corta la pulpa en trozos fáciles de comer y tómala sola o con arroz glutinoso con mango.",
+    "Si quieres comprar por separado fruta para comer enseguida y fruta para llevar, elige con el vendedor el punto de madurez."
+   ],
+   "regional": "Nam dok mai si thong de Phitsanulok: cosecha anunciada de marzo a junio",
+   "photoAlt": "Mangos",
+   "photoCaption": "Foto de referencia del mango. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "durian": {
+   "name": "Durián",
+   "seasonLabel": "Temporada principal: abril–agosto",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Si su fuerte olor te hacía dudar, prueba solo un poco de durián. Bajo la cáscara con espinas hay una pulpa amarilla e intensa. Se prueba un bocado de pulpa suave y dulce notando a la vez el aroma y el sabor. Si es tu primera vez, empieza por un puesto que venda pulpa en poca cantidad en vez de comprarlo entero.",
+   "taste": "Se distingue por un sabor dulce e intenso y una pulpa cremosa. La firmeza y el olor de la pulpa cambian según variedades como la monthong o la chanee y según el punto de madurez.",
+   "why": "Se conocen variedades tailandesas de durián como la monthong, la chanee y la kan yao. Es también una fruta que divide mucho los gustos, por su olor fuerte y su pulpa dulce e intensa. Se puede comer tal cual o en helados y postres.",
+   "buying": "Pregunta primero si el precio por kilo del cartel es de la fruta entera con cáscara o de la pulpa ya preparada. Si quieres llevarlo al hotel o en transporte, conviene mirar antes las normas que lo permiten o no.",
+   "steps": [
+    "Si lo pruebas por primera vez, compra una pequeña cantidad de pulpa.",
+    "Si eliges una fruta entera, pide que te informen de la variedad, el punto de madurez y el precio con cáscara, y que te la abran. Es más cómodo.",
+    "Quita el hueso grande y come la pulpa. Antes de llevarlo al alojamiento, comprueba si se admite durián."
+   ],
+   "regional": "Durián de la zona volcánica de Si Sa Ket: cosecha anunciada de mayo a junio",
+   "photoAlt": "Durián",
+   "photoCaption": "Foto de referencia del durián. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "mangosteen": {
+   "name": "Mangostán",
+   "seasonLabel": "Temporada principal: abril–agosto",
+   "availability": "Cosecha anunciada: abril–diciembre",
+   "intro": "Prueba el mangostán: al abrir su cáscara morada salen los gajos de pulpa blanca. Se notan a la vez lo dulce y lo ácido, y tiene mucho jugo. Aunque lleve mango en el nombre, es una fruta distinta del mango. Después de comer, también es buena para compartir unas cuantas piezas con quien te acompañe.",
+   "taste": "La pulpa blanca es suave y agridulce. Los gajos grandes pueden tener hueso, así que come con calma.",
+   "why": "Su encanto está en la cáscara morada, la pulpa blanca y un sabor dulce y fresco. En Tailandia se cosecha en distintas zonas y épocas, así que conviene buscarlo según la estación de tu viaje.",
+   "buying": "Mira si la cáscara tiene daños y elige fruta para comer enseguida. Como es una fruta de cáscara gruesa, el precio por kilo no corresponde solo al peso de la pulpa que se come.",
+   "steps": [
+    "Presiona la cáscara para abrirla o haz un corte superficial solo en la cáscara.",
+    "Saca la pulpa blanca y fíjate en el hueso de los gajos grandes.",
+    "Ten cuidado de que el jugo rojo de la cáscara no manche la ropa."
+   ],
+   "regional": "Mangostán de Khao Khiriwong, en el sur: cosecha anunciada de julio a diciembre",
+   "photoAlt": "Mangostán",
+   "photoCaption": "Foto de referencia del mangostán. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "rambutan": {
+   "name": "Rambután",
+   "seasonLabel": "Cosecha anunciada: abril–agosto",
+   "availability": "La época de cosecha varía según la zona",
+   "intro": "Descubre el rambután, de cáscara roja con pelos blandos. Al pelarlo sale una pulpa blanca con un jugo dulce. Aunque su aspecto sea extraño, quitar la cáscara y el hueso es sencillo. Puedes comprar solo unas cuantas piezas en el mercado y probarlas.",
+   "taste": "La pulpa blanca es dulce y jugosa. Hay variedades, como la rong rian tailandesa, que difieren en textura y en lo que se despega del hueso.",
+   "why": "Destaca por su cáscara con aspecto de pelo y por la pulpa blanca que esconde. La Autoridad de Turismo de Tailandia presenta el rambután rong rian de Na San, en Surat Thani, como fruta GI de la zona.",
+   "buying": "Pregunta si se vende por kilo o en una bolsa de cantidad fija. Elige solo lo que vayas a comer, pela la cáscara y quita el hueso.",
+   "steps": [
+    "Haz un corte superficial en la cáscara, ábrela y pélala.",
+    "Come la pulpa blanca y quita el hueso del centro.",
+    "Si se vende en bolsa, mira a la vez el peso y el precio antes de comprar."
+   ],
+   "regional": "Rambután rong rian de Na San: cosecha anunciada de julio a agosto"
+  },
+  "longan": {
+   "name": "Longan",
+   "seasonLabel": "Temporada principal: junio–agosto",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Si te interesa la fruta de Chiang Mai y del norte, prueba el longan. Es una fruta pequeña con una fina cáscara marrón y, dentro, una pulpa translúcida con un hueso negro. Se pela y se come de uno en uno, con su sabor dulce. El longan seco y el fresco tienen texturas distintas, así que puedes empezar por el fresco.",
+   "taste": "La pulpa es dulce y el aroma varía según la variedad. Dentro de la pulpa blanca hay un hueso negro, que se quita al comer.",
+   "why": "Es una fruta fácil de conocer a través del norte de Tailandia. El longan biao kiao de Lamphun se presenta como fruta GI de la zona, y es una fruta que se toma tanto fresca como seca.",
+   "buying": "Fíjate en si se vende en racimo, con las ramitas, o ya desgranada. Si miras la variedad y el peso del cartel, será más fácil comparar.",
+   "steps": [
+    "Haz un corte en la cáscara y pélala con la mano.",
+    "Al comer la pulpa, quita el hueso negro.",
+    "Si también quieres comprar producto seco, mira por separado el precio y el peso del envase frente a la fruta fresca."
+   ],
+   "regional": "Longan biao kiao de Lamphun: cosecha anunciada de julio a septiembre",
+   "photoAlt": "Longan",
+   "photoCaption": "Foto de referencia del longan. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "lychee": {
+   "name": "Lichi",
+   "seasonLabel": "Cosecha anunciada: abril–junio",
+   "availability": "La época varía según la zona y la variedad",
+   "intro": "Si te apetece una fruta aromática y jugosa, prueba el lichi. Al pelar su cáscara roja sale una pulpa blanca, y de un bocado se disfrutan a la vez el dulzor y el aroma. Si lo has tomado en bebidas o postres, prueba también la fruta fresca en temporada.",
+   "taste": "La pulpa blanca es dulce y, según la variedad, también se nota algo de acidez. Se pela y se quita el hueso del centro antes de comer.",
+   "why": "En Tailandia se conocen variedades de lichi como la hong huai y la chakkraphat. El lichi kom de Samut Songkhram también se presenta como fruta GI de la zona, lo que permite comparar frutas según su procedencia.",
+   "buying": "Separa la unidad de venta de la fruta entera por kilo de la de una bandeja de cantidad fija. La época de la bebida de lichi de la carta y la de la fruta fresca pueden no coincidir.",
+   "steps": [
+    "Pela la cáscara y saca la pulpa.",
+    "Quita el hueso del centro y come la pulpa.",
+    "Si quieres comprar por separado un envase para llevar y fruta para comer enseguida, di la cantidad que necesitas."
+   ],
+   "regional": "Lichi kom de Samut Songkhram: cosecha anunciada de abril a mayo",
+   "photoAlt": "Lichi",
+   "photoCaption": "Foto de referencia del lichi. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "longkong": {
+   "name": "Longkong",
+   "seasonLabel": "Cosecha anunciada: mayo–septiembre",
+   "availability": "La época de cosecha varía según la zona",
+   "intro": "Descubre el longkong, un fruto pequeño de color marrón claro que crece en racimos. Al pelar su fina cáscara sale una pulpa translúcida dividida en gajos. Aunque el nombre se parezca al del longan, la forma y la sensación al comerlo son distintas. Si has visto las dos frutas juntas en el mercado, puedes comprar un poco de cada y compararlas.",
+   "taste": "En la pulpa translúcida se notan el dulzor y la acidez. Los gajos con hueso se comen quitando el hueso, sin masticarlo.",
+   "why": "Tiene la gracia de pelar y comer de uno en uno los frutos pequeños del racimo. El longkong de Tanyongmat, en Narathiwat, en el sur, se conoce como fruta GI de la zona, y es interesante descubrirlo junto con su procedencia.",
+   "buying": "El longan y el longkong son frutas distintas. Si pides mirando a la vez el nombre y el aspecto del racimo, es más fácil elegir la fruta que quieres.",
+   "steps": [
+    "Separa del racimo un fruto para comer.",
+    "Pela la cáscara y saca la pulpa para comerla.",
+    "El hueso puede amargar, así que quita los que veas y come despacio."
+   ],
+   "regional": "Longkong de Tanyongmat: cosecha anunciada de agosto a septiembre"
+  },
+  "pomelo": {
+   "name": "Pomelo chino",
+   "seasonLabel": "Temporada principal: octubre–diciembre",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Prueba el pomelo chino (pampelmusa), que parece un pomelo enorme. Se quita la cáscara gruesa, se retira la membrana de los gajos y quedan al descubierto los granos de pulpa. El dulzor y la acidez cambian según la variedad. Si en el alojamiento no es fácil usar un cuchillo, puedes elegir pomelo ya preparado y envasado.",
+   "taste": "Es un cítrico en el que se notan los granos de la pulpa. El color, el dulzor y la acidez varían según la variedad, con pulpas amarillentas o rosadas.",
+   "why": "En Tailandia hay muchas variedades de pomelo chino, como la khao nam phueng y la thong di. A veces se vende la fruta entera ya preparada, solo con la pulpa en una bandeja, así que es una fruta cómoda de probar durante el viaje.",
+   "buying": "Distingue el precio por unidad, por kilo y por bandeja preparada. La fruta entera con cáscara y una bandeja con solo la pulpa no se pueden comparar directamente con el mismo peso.",
+   "steps": [
+    "Si es fruta entera, quita primero la cáscara gruesa.",
+    "Separa los gajos y retira la membrana para sacar la pulpa.",
+    "Quita las pepitas y come la pulpa. Si compras una bandeja preparada, es cómodo comerla enseguida y compartirla."
+   ],
+   "regional": null,
+   "photoAlt": "Pomelo chino",
+   "photoCaption": "Foto de referencia del pomelo chino. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "pineapple": {
+   "name": "Piña",
+   "seasonLabel": "Temporada principal: abril–julio",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Si en un día de calor te apetece una fruta agridulce, prueba la piña. Puedes cortar la pulpa amarilla y comerla a bocados o tomarla en zumo. En Tailandia hay piñas con distinto crujiente y dulzor según la variedad y la zona. En vez de comprarla entera, también está bien una bolsa de piña ya preparada.",
+   "taste": "Se notan el dulzor y la acidez, y la firmeza de la pulpa cambia según la variedad. Si te dan aparte un condimento para acompañar, prueba primero la fruta y luego acompáñala.",
+   "why": "Se produce en muchas zonas de Tailandia, y hay incluso fruta local presentada como GI, como la piña sithong de Trat. Es familiar tomarla entera, ya preparada o en bebida.",
+   "buying": "Mira primero si el precio es por kilo de fruta entera, por pieza o por bolsa de piña cortada. Cambian el coste de prepararla y la cantidad que comes.",
+   "steps": [
+    "Si es fruta entera, quita la cáscara y las partes duras antes de comerla.",
+    "Córtala en trozos fáciles de comer y compártela, o elige una bolsa ya preparada.",
+    "Si te dan un condimento aparte, ve acompañando con un poco y come al gusto."
+   ],
+   "regional": "Piña sithong de Trat: cosecha anunciada todo el año",
+   "photoAlt": "Piña",
+   "photoCaption": "Foto de referencia de la piña. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "banana": {
+   "name": "Plátano",
+   "seasonLabel": "Fruta para todo el año",
+   "availability": "Hay diferencias según la variedad y la zona",
+   "intro": "En Tailandia se encuentran desde plátanos pequeños hasta plátanos de formas muy distintas. No solo se comen como fruta fresca: también hay menús en los que se meten en el roti o se asan. Si buscas un tentempié sencillo para la calle, mira también el roti con plátano.",
+   "taste": "El dulzor y la firmeza de la pulpa cambian según la variedad y el punto de madurez. Conviene distinguir entre los plátanos que se comen maduros y amarillos y los que se usan para cocinar.",
+   "why": "Es una fruta familiar que se usa en muchos platos y tentempiés de Tailandia. El plátano kluai khai de Kamphaeng Phet se presenta como fruta GI de la zona. Si solo conocías un tipo de plátano, busca en el mercado variedades de otras formas y tamaños.",
+   "buying": "El plátano a veces se vende por racimo en lugar de por kilo. Mira cuántas piezas lleva el racimo y, si lo vas a comer enseguida, elige plátanos maduros.",
+   "steps": [
+    "Pregunta si el precio es por racimo o por unas cuantas piezas.",
+    "Elige plátanos maduros para comer enseguida, pélalos y cómelos.",
+    "El roti de plátano o el plátano asado son menús distintos de la fruta entera, así que mira su precio por separado."
+   ],
+   "regional": "Plátano kluai khai de Kamphaeng Phet: cosecha anunciada todo el año",
+   "photoAlt": "Plátanos",
+   "photoCaption": "Foto de referencia del plátano. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "coconut": {
+   "name": "Coco tierno",
+   "seasonLabel": "Todo el año",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Si en un día de calor te apetece agua de coco fría, elige un coco tierno. Se abre la parte de arriba para beber el agua de dentro y también se puede comer con cuchara la pulpa blanda. El coco nam hom, de aroma agradable, es una variedad conocida en Tailandia. Si tienes sed, puedes compartir uno con quien te acompañe.",
+   "taste": "En el coco tierno se disfrutan juntos el agua y la pulpa blanda. El nam hom se presenta como una variedad cuyo rasgo es el aroma.",
+   "why": "El coco tierno aromático de Tailandia es una fruta de la que se bebe el agua y también se come la pulpa. El coco aromático de Ban Phaeo, en Samut Sakhon, también se presenta como fruta GI de la zona.",
+   "buying": "A veces se vende por unidad. El agua envasada en botella y el coco entero que te abren no son el mismo producto, así que mira sus menús por separado.",
+   "steps": [
+    "Elige un coco para beber enseguida y pide que te abran la parte de arriba.",
+    "Después de beber el agua de coco, si tienes cuchara, prueba también la pulpa blanda.",
+    "Pide distinguiendo el precio de una unidad del de la bebida envasada en botella."
+   ],
+   "regional": "Coco nam hom de Ban Phaeo: cosecha anunciada todo el año",
+   "photoAlt": "Coco tierno",
+   "photoCaption": "Foto de referencia del coco tierno. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "watermelon": {
+   "name": "Sandía",
+   "seasonLabel": "Todo el año",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "En Tailandia, prueba la sandía también como bebida. Además de la sandía fresca cortada, hay un batido de sandía que se tritura con hielo, el nam taeng mo pan. Es una buena opción cuando paseas por la calle y te apetece algo frío. Si solo quieres fruta, compra sandía ya cortada y compártela con quien te acompañe.",
+   "taste": "Es una fruta crujiente y jugosa. El nam taeng mo pan, triturado con fruta fresca y hielo, ofrece una textura distinta.",
+   "why": "La Autoridad de Turismo de Tailandia presenta el batido de sandía como una bebida de fruta típica. Aunque la fruta te resulte familiar, en el viaje puedes conocerla de otra forma, como en el nam taeng mo pan.",
+   "buying": "Distingue el precio por kilo de la sandía entera, el de una bolsa de sandía cortada y el de un vaso de nam taeng mo pan. Aunque se use la misma sandía, cambian la preparación y la cantidad de la bebida.",
+   "steps": [
+    "Corta la sandía entera en trozos fáciles de comer y quita las pepitas al comer.",
+    "Si quieres comerla enseguida durante el viaje, también puedes elegir sandía ya cortada.",
+    "Si pides un nam taeng mo pan, antes de que preparen la bebida pregunta si se puede reducir el dulce."
+   ],
+   "regional": null,
+   "photoAlt": "Sandía",
+   "photoCaption": "Foto de referencia de la sandía. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "papaya": {
+   "name": "Papaya",
+   "seasonLabel": "Todo el año",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Si en Tailandia has probado la som tam, prueba también la papaya madura. A diferencia de la papaya verde de la som tam, la pulpa madura se come suave y dulce. Se corta por la mitad, se quitan las semillas negras y se come la pulpa. Si eliges fruta ya cortada, busca también papaya madura.",
+   "taste": "La papaya madura es una fruta de pulpa suave. La papaya verde también se usa como ingrediente de platos, y su textura es distinta de la de la fruta que se come cruda.",
+   "why": "Es una fruta familiar también por la som tam, la ensalada de papaya verde. En Tailandia se pueden conocer a la vez la forma de comer la fruta madura y la de usar la fruta verde en los platos.",
+   "buying": "Elige distinguiendo entre papaya madura para comer como fruta enseguida y papaya verde para cocinar. La fruta entera y una bandeja preparada también pueden tener distinta unidad de precio.",
+   "steps": [
+    "Lava una papaya bien madura y córtala por la mitad.",
+    "Saca las semillas negras del centro, pela la cáscara y come la pulpa.",
+    "La papaya verde y la madura se comen de forma distinta, así que elige la que quieras comer enseguida."
+   ],
+   "regional": null,
+   "photoAlt": "Papaya",
+   "photoCaption": "Foto de referencia de la papaya. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "tamarind": {
+   "name": "Tamarindo dulce",
+   "seasonLabel": "Temporada principal anunciada: finales de diciembre–febrero",
+   "availability": "La época varía según la zona y la variedad",
+   "intro": "Prueba el tamarindo dulce, que viene dentro de una vaina marrón. Se abre la cáscara, se quitan las fibras pegadas a la pulpa y se come la parte blanda de dentro. Si solo conocías el tamarindo como ingrediente de la salsa ácida del pad thai, descubre también el tamarindo dulce que se come como fruta.",
+   "taste": "El tamarindo dulce es una fruta que se come blanda y dulce. Quita el hueso duro del centro y las fibras, y come la pulpa.",
+   "why": "Aparte del tamarindo que da acidez a los platos, hay variedades que se disfrutan como fruta dulce. El tamarindo dulce de Phetchabun se presenta como fruta GI de la zona.",
+   "buying": "Distingue entre la vaina de fruta fresca y el producto envasado ya sin hueso o procesado. Aunque sea tamarindo, el producto y el peso del envase cambian.",
+   "steps": [
+    "Rompe la cáscara de la vaina y saca la pulpa.",
+    "Quita las fibras pegadas y el hueso duro, y come la pulpa.",
+    "Los productos procesados tienen una unidad de precio distinta de la de la fruta fresca, así que elige mirando el peso del envase."
+   ],
+   "regional": "Tamarindo dulce de Phetchabun: cosecha anunciada de noviembre a abril",
+   "photoAlt": "Tamarindo dulce",
+   "photoCaption": "Foto de referencia del tamarindo dulce. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "mandarin": {
+   "name": "Mandarina tailandesa",
+   "seasonLabel": "Temporada principal: octubre–febrero",
+   "availability": "Se anuncia como fruta de todo el año",
+   "intro": "Si en Tailandia has visto un cítrico de cáscara verde, no hace falta pensar que esté inmaduro solo por el color. La mandarina tailandesa cambia de cáscara y de sabor según la variedad. Se pela con la mano y se come gajo a gajo, así que es una buena fruta para compartir durante el viaje.",
+   "taste": "Se disfrutan juntos el dulzor y la acidez de los cítricos. El sabor cambia según la variedad y el punto de madurez, y la pulpa puede tener pepitas.",
+   "why": "En Tailandia hay varias variedades de mandarina. La naranja dorada de Nan se presenta como fruta GI de la zona, con cáscara verdosa y un sabor agridulce.",
+   "buying": "Compara los precios por kilo con variedad y categoría de tamaño entre frutas de la misma categoría. Además del color de la cáscara, también puedes elegir con el vendedor una fruta para comer enseguida.",
+   "steps": [
+    "Pela la cáscara, separa los gajos y come.",
+    "Si la variedad tiene pepitas, quítalas al comer.",
+    "Mira por separado los zumos envasados y el precio por kilo de la fruta entera."
+   ],
+   "regional": "Naranja dorada de Nan: cosecha anunciada de noviembre a diciembre",
+   "photoAlt": "Mandarinas tailandesas",
+   "photoCaption": "Foto de referencia de la mandarina tailandesa. No se limita a las zonas de cultivo ni a las variedades de Tailandia descritas en el texto."
+  },
+  "marian-plum": {
+   "name": "Mayongchid · ciruela mariana",
+   "seasonLabel": "Cosecha anunciada en Nakhon Nayok: enero–marzo",
+   "availability": "Época de cosecha de la fruta local",
+   "intro": "Si en Tailandia ves una fruta amarillenta que parece un mango pequeño, pregunta si es mayongchid. Es una fruta de la familia de la ciruela mariana, y el mayongchid de Nakhon Nayok se presenta como fruta GI de la zona. Si quieres probar una fruta distinta del mango grande, búscala en invierno y a principios de primavera.",
+   "taste": "El mayongchid de Nakhon Nayok se presenta con una pulpa crujiente en la que se combinan el dulzor y la acidez. Quita el hueso del centro y come la pulpa.",
+   "why": "La Autoridad de Turismo de Tailandia presenta el mayongchid de Nakhon Nayok como fruta GI de la zona. Permite conocer, junto con su procedencia, una fruta pequeña de aspecto parecido al del mango.",
+   "buying": "Aunque sean de la familia de la ciruela mariana, la variedad y el nombre son distintos. Di que buscas mayongchid y pide que te informen de la variedad real y del precio.",
+   "steps": [
+    "Lava la fruta que has comprado y córtala en trozos fáciles de comer.",
+    "Quita el hueso del centro y come la pulpa.",
+    "Puede haber otras variedades con un nombre parecido al del mayongchid, así que enseña el nombre de la fruta que quieres comprar."
+   ],
+   "regional": null
+  }
+ },
+ "fruitPriceLabels": [
+  "Mangostán · categoría de piel lisa",
+  "Rambután · Rong Rian (โรงเรียน)",
+  "Longan · E-daw (อีดอ)",
+  "Longkong",
+  "Piña · Sriracha (ศรีราชา), categoría 2",
+  "Sandía · Kinnaree (กินรี)",
+  "Papaya · Holland (ฮอลแลนด์)",
+  "Plátano · Nam Wa (น้ำว้า)",
+  "Mandarina · Sai Nam Phueng (สายน้ำผึ้ง), categoría 5"
+ ],
+ "sources": {
+  "regional": "Autoridad de Turismo de Tailandia · platos representativos por región",
+  "north": "Thailand Foundation · cultura gastronómica del norte",
+  "central": "Autoridad de Turismo de Tailandia · cultura gastronómica del centro",
+  "isan": "Autoridad de Turismo de Tailandia · cultura gastronómica de Isan",
+  "phuket": "Autoridad de Turismo de Tailandia · cultura gastronómica de Phuket",
+  "roti": "Autoridad de Turismo de Tailandia · roti sai mai de Ayutthaya",
+  "ayutthaya": "Guía turística de la provincia de Ayutthaya · fideos de barco y comida local",
+  "ayutthaya-tat": "Autoridad de Turismo de Tailandia · guía de viaje de Ayutthaya",
+  "songkhla": "Gobierno de Tailandia · qué comer en Songkhla",
+  "hidden": "Autoridad de Turismo de Tailandia · el au pla de Khon Kaen",
+  "padthai": "Thailand Foundation · pad thai",
+  "unesco": "UNESCO · conocimientos y cultura del tom yum kung",
+  "green": "Autoridad de Turismo de Tailandia · cómo se cocina el curry verde",
+  "mango": "Autoridad de Turismo de Tailandia · cultura de los postres de arroz glutinoso con coco",
+  "ong": "Autoridad de Turismo de Tailandia · el nam prik ong del norte",
+  "saiua": "Universidad de Chiang Mai · ingredientes y cocción del sai ua",
+  "khantoke": "Thailand Foundation · kantoke y cultura gastronómica del norte",
+  "phuket-prd": "Departamento de Relaciones Públicas del Gobierno de Tailandia · fideos y postres de Phuket",
+  "hatyai-tat": "Autoridad de Turismo de Tailandia · pollo frito de Hat Yai y cultura gastronómica de Songkhla",
+  "bak-general": "Gobierno de Singapur · ingredientes básicos del bak kut teh",
+  "mango-recipe": "Autoridad de Turismo de Tailandia · ingredientes del arroz glutinoso con mango",
+  "fruit-gi": "Autoridad de Turismo de Tailandia · frutas con indicación geográfica (GI) y temporada por región",
+  "fruit-mango": "Departamento de Extensión Agrícola de Tailandia · variedades y temporada principal del mango",
+  "fruit-durian": "Departamento de Extensión Agrícola de Tailandia · variedades y temporada principal del durián",
+  "fruit-mangosteen": "Departamento de Extensión Agrícola de Tailandia · mangostán",
+  "fruit-rambutan": "Departamento de Extensión Agrícola de Tailandia · rambután",
+  "fruit-longan": "Departamento de Extensión Agrícola de Tailandia · longan",
+  "fruit-lychee": "Departamento de Extensión Agrícola de Tailandia · lichi",
+  "fruit-longkong": "Departamento de Extensión Agrícola de Tailandia · longkong",
+  "fruit-pomelo": "Departamento de Extensión Agrícola de Tailandia · pomelo",
+  "fruit-pineapple": "Departamento de Extensión Agrícola de Tailandia · piña",
+  "fruit-coconut": "Departamento de Extensión Agrícola de Tailandia · coco tierno",
+  "fruit-watermelon": "Departamento de Extensión Agrícola de Tailandia · sandía",
+  "fruit-papaya": "Departamento de Extensión Agrícola de Tailandia · papaya",
+  "fruit-tamarind": "Departamento de Extensión Agrícola de Tailandia · tamarindo dulce",
+  "fruit-mandarin": "Departamento de Extensión Agrícola de Tailandia · mandarina tailandesa",
+  "fruit-prices": "Departamento de Comercio Interior de Tailandia · precios minoristas de frutas en Bangkok",
+  "street-catalog": "Autoridad de Turismo de Tailandia · catálogo de comidas y bebidas",
+  "street-intro": "Autoridad de Turismo de Tailandia · introducción al roti y a otros platos tailandeses"
+ },
+ "meta": {
+  "/es/food/": "Guía de comida tailandesa con los platos más típicos: pad thai, tom yum kung, curry verde, som tam y arroz glutinoso con mango. Sabores de cada ciudad, comida callejera y frutas de temporada.",
+  "/es/food/traditions/": "Comida tradicional tailandesa por regiones: arroz con curry en el centro, sai ua en el norte, som tam y larb en Isan y cocina china y musulmana en el sur. Con consejos para tu primer pedido.",
+  "/es/food/street-food/": "Comida callejera en Tailandia: roti con plátano o huevo, batido de sandía, roti sai mai, salchicha fermentada y pollo frito de Hat Yai. Qué sabor tiene cada uno y qué mirar al pedir.",
+  "/es/food/fruit-prices/": "Precios de frutas en Tailandia con datos minoristas de Bangkok del 14 de octubre de 2026, como mangostán a 40–60 baht el kilo. Cómo comparar por kilo, racimo, unidad y bandeja en seis ciudades.",
+  "/es/food/fruits/": "Frutas de Tailandia mes a mes: calendario de 16 frutas, con mango de marzo a mayo, durián y mangostán de abril a agosto y pomelo de octubre a diciembre. Sabor, cómo pelarlas y precios en Bangkok.",
+  "/es/food/cities/bangkok/": "Qué comer en Bangkok: pad thai, tom yum kung, curry verde, curry massaman y arroz glutinoso con mango. Cómo pedirlos solo o en grupo y cómo comparar la fruta, entera por kilo o cortada en bandeja.",
+  "/es/food/cities/chiang-mai/": "Qué comer en Chiang Mai: khao soi, sai ua y nam prik ong con arroz glutinoso, y la mesa kantoke del norte. Comida sencilla o para compartir y cómo se vende el longan, en racimo o seco, y el lichi.",
+  "/es/food/cities/phuket/": "Qué comer en Phuket además de marisco a la parrilla: mi hokkien de fideos gruesos, mi hun de fideos finos con caldo y el postre o-aew. Influencia china y malaya, y consejos para comprar fruta.",
+  "/es/food/cities/ayutthaya/": "Qué comer en Ayutthaya: fideos de barco, langostinos de río a la parrilla para compartir y roti sai mai con hilos de azúcar. Cómo elegir el tamaño del langostino y comprar fruta entre las ruinas.",
+  "/es/food/cities/khon-kaen/": "Qué comer en Khon Kaen: som tam y larb con arroz glutinoso, sai krok Isan (salchicha fermentada) y au pla, curry de pescado de río. Cómo funcionan los fermentados de Isan y la papaya madura o verde.",
+  "/es/food/cities/hat-yai/": "Qué comer en Hat Yai: pollo frito con chalota frita y arroz glutinoso, y bak kut teh de costillas de cerdo. Cocina china y musulmana de Songkhla y por qué el nombre de un plato no dice si es halal.",
+  "/es/food/dishes/pad-thai/": "El pad thai son fideos de arroz salteados con huevo, tofu y salsa de tamarindo, con brotes de soja y cacahuetes. Cómo comerlo con lima y chile y qué avisar si no comes gambas secas o cacahuetes.",
+  "/es/food/dishes/tom-yum-kung/": "El tom yum kung es la sopa agria y picante de gambas con hierba limón, galanga y lima kaffir. Caldo claro o espeso, cómo pedir menos picante y qué significa su inscripción de 2024 en la UNESCO.",
+  "/es/food/dishes/green-curry/": "El curry verde lleva pasta verde, leche de coco, carne y verduras, y aunque parezca suave, pica. Cómo pedir el picante, comerlo con arroz y por qué las verduras no bastan para ser vegetariano.",
+  "/es/food/dishes/massaman/": "El curry massaman es un curry intenso con canela, cardamomo y clavo que se come despacio con arroz. Es relativamente suave, pero el picante cambia según el local. Avisa si no comes frutos secos.",
+  "/es/food/dishes/mango-sticky-rice/": "El arroz glutinoso con mango es el postre tailandés de mango maduro y arroz glutinoso con leche de coco. Su sabor, cómo comerlo a cucharadas con todo junto y cómo compartirlo tras comer.",
+  "/es/food/dishes/khao-soi/": "El khao soi son fideos de huevo en caldo de curry con coco y fideos fritos por encima, plato típico del norte. Cómo elegir pollo o ternera, comer lo crujiente antes de que se empape y añadir lima.",
+  "/es/food/dishes/sai-ua/": "El sai ua es una salchicha asada del norte con cerdo, chile, ajo y hierbas. Cómo probar primero un trozo pequeño, tomarla con arroz glutinoso, nam prik ong y verduras, y qué avisar si no comes cerdo.",
+  "/es/food/dishes/nam-prik-ong/": "El nam prik ong es la salsa roja del norte con tomate, cerdo picado y chile, para mojar verduras y arroz glutinoso. Por qué no es vegetariana, cómo combinarla con sai ua y cómo evitar el cerdo.",
+  "/es/food/dishes/mi-hokkien/": "El mi hokkien son fideos amarillos gruesos salteados con marisco y salsa, plato de Phuket con influencia china. En qué se diferencia del mi hun y qué preguntar si no puedes comer marisco.",
+  "/es/food/dishes/mi-hun/": "El mi hun son fideos finos de arroz de Phuket, conocidos por servirse con caldo de costillas de cerdo. Cómo alternar fideos y caldo, y por qué quitar el caldo no basta para evitar el cerdo.",
+  "/es/food/dishes/o-aew/": "El o-aew es un postre frío de Phuket con gelatina, sirope y toppings sobre hielo, ideal para un día de calor en el casco antiguo. Cómo tomar hielo y gelatina juntos y qué preguntar sobre ellos.",
+  "/es/food/dishes/boat-noodles/": "Los fideos de barco son fideos y carne en caldo, famosos en Ayutthaya. Cómo elegir fideos, carne y tamaño del cuenco, probar el caldo antes de añadir chile y qué preguntar si evitas vísceras.",
+  "/es/food/dishes/river-prawns/": "Los langostinos de río a la parrilla son un plato famoso de Ayutthaya para compartir con arroz. Por qué preguntar si el precio es por pieza o por peso y por qué el nombre no asegura que sean de río.",
+  "/es/food/dishes/roti-sai-mai/": "El roti sai mai es un roti fino con hilos de azúcar para envolver, tentempié de Ayutthaya ligado a la comunidad musulmana. Hay versión verde con pandan o con sésamo y se enrolla ajustando el dulzor.",
+  "/es/food/dishes/som-tam/": "La som tam es la ensalada de papaya verde machacada con chile y acidez, plato emblemático de Isan. Cómo pedir menos picante, preguntar por el pla ra y por qué no siempre es vegetariana.",
+  "/es/food/dishes/larb/": "El larb es la ensalada de carne picada de Isan con harina de arroz tostado, lima y hierbas, para comer con arroz glutinoso. Por qué pedirlo de carne cocinada y en qué difiere del larb del norte.",
+  "/es/food/dishes/sai-krok-isan/": "El sai krok Isan es la salchicha fermentada de Isan, de cerdo, arroz y ajo, con un punto ácido. Cómo distinguirla del sai ua del norte, probarla poco a poco y tomar el chile fresco aparte.",
+  "/es/food/dishes/au-pla/": "El au pla es un curry picante y salado de pescado de río, plato local de Khon Kaen. Cómo pedirlo con arroz, qué pescado usan, si se ajusta el picante y por qué comer despacio por las espinas.",
+  "/es/food/dishes/hat-yai-chicken/": "El pollo frito de Hat Yai se adoba con ajo, raíz de cilantro y pimienta blanca y se sirve con chalota frita y arroz glutinoso. Cómo probarlo antes de la salsa y por qué la carne no dice si es halal.",
+  "/es/food/dishes/bak-kut-teh/": "El bak kut teh es un caldo de costillas de cerdo con hierbas, plato chino de Songkhla que no se presenta como originario de Hat Yai. Cómo comerlo con arroz y por qué no es para quien evita el cerdo.",
+  "/es/food/dishes/roti/": "El roti tailandés es un tentempié callejero de masa fina asada con leche condensada, chocolate y a veces plátano o huevo. En qué se diferencia del roti sai mai y cómo pedir menos salsa.",
+  "/es/food/dishes/watermelon-shake/": "El batido de sandía, nam taeng mo pan, se hace triturando sandía con agua y hielo. Cómo pedir menos sirope antes de prepararlo, mirar el tamaño del vaso y el precio y por qué no es solo zumo.",
+  "/es/food/fruits/mango/": "El mango de Tailandia tiene su temporada principal de marzo a mayo, con variedades como nam dok mai y maha chanok. Cómo elegir mango maduro o crujiente, cortarlo y tomarlo con arroz glutinoso.",
+  "/es/food/fruits/durian/": "El durián de Tailandia tiene su temporada principal de abril a agosto, con variedades como monthong y chanee. Cómo empezar con poca pulpa, preguntar si el kilo incluye cáscara y llevarlo al hotel.",
+  "/es/food/fruits/mangosteen/": "El mangostán de Tailandia tiene su temporada principal de abril a agosto y una pulpa blanca y agridulce bajo la cáscara. Cómo abrirlo sin manchar la ropa y su precio de 40–60 baht el kilo en Bangkok.",
+  "/es/food/fruits/rambutan/": "El rambután de Tailandia se anuncia de abril a agosto y tiene pulpa blanca y jugosa bajo una cáscara roja con pelos. Cómo pelarlo, el rong rian de Na San y su precio de 50–60 baht el kilo en Bangkok.",
+  "/es/food/fruits/longan/": "El longan de Tailandia, fruta del norte con temporada principal de junio a agosto, tiene pulpa translúcida y hueso negro. El biao kiao de Lamphun, cómo comprarlo en racimo y su precio de 50–60 baht.",
+  "/es/food/fruits/longkong/": "El longkong de Tailandia se anuncia de mayo a septiembre y se come pelando los frutos del racimo uno a uno. El de Tanyongmat, cómo distinguirlo del longan y su precio de 40–50 baht el kilo.",
+  "/es/food/fruits/lychee/": "El lichi de Tailandia se anuncia de abril a junio y tiene pulpa blanca aromática y jugosa. Variedades hong huai y chakkraphat, el lichi kom de Samut Songkhram y cómo comparar kilo y bandeja.",
+  "/es/food/fruits/mandarin/": "La mandarina tailandesa tiene su temporada principal de octubre a febrero, y una cáscara verde no significa que esté inmadura. La naranja dorada de Nan y su precio de 60–65 baht el kilo en Bangkok.",
+  "/es/food/fruits/marian-plum/": "El mayongchid es una fruta amarillenta de la familia de la ciruela mariana, parecida a un mango pequeño. El de Nakhon Nayok es fruta GI con cosecha de enero a marzo. Cómo distinguirlo de otros.",
+  "/es/food/fruits/papaya/": "La papaya de Tailandia se vende todo el año y la madura se come suave y dulce, a diferencia de la verde de la som tam. Cómo cortarla y quitar las semillas y su precio de 40–60 baht el kilo.",
+  "/es/food/fruits/pineapple/": "La piña de Tailandia tiene su temporada principal de abril a julio, con dulzor y firmeza que cambian según la variedad. La sithong de Trat, cómo comparar kilo, pieza y bolsa, y 30–32 baht el kilo.",
+  "/es/food/fruits/pomelo/": "El pomelo chino de Tailandia tiene su temporada principal de octubre a diciembre y es un cítrico grande de pulpa amarilla o rosada. Cómo pelarlo, qué variedades hay y cuándo elegirlo en bandeja.",
+  "/es/food/fruits/tamarind/": "El tamarindo dulce de Tailandia tiene su temporada principal desde finales de diciembre hasta febrero y no es el ácido del pad thai. El de Phetchabun y cómo comparar fruta fresca y envasada.",
+  "/es/food/fruits/watermelon/": "La sandía de Tailandia se vende todo el año, cortada o en nam taeng mo pan, el batido con hielo. Cómo comparar kilo, bolsa y vaso, pedir menos dulce y su precio de 25–30 baht el kilo en Bangkok.",
+  "/es/food/fruits/banana/": "El plátano de Tailandia se vende todo el año en variedades de distinta forma, y el kluai khai de Kamphaeng Phet se presenta como fruta GI. Cuántas piezas lleva un racimo y su precio de 40–50 baht.",
+  "/es/food/fruits/coconut/": "El coco tierno de Tailandia se vende todo el año: se abre por arriba para beber el agua y comer la pulpa con cuchara. La variedad aromática nam hom y cómo distinguir coco entero y bebida envasada."
+ }
+}

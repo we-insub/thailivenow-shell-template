@@ -1,0 +1,31 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FoodMarks from '../../../../components/FoodMarks.astro';
+import FoodCards from '../../../../components/FoodCards.astro';
+import FoodFilter from '../../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../../components/FoodPhoto.astro';
+import FoodText from '../../../../components/FoodText.astro';
+import FruitCards from '../../../../components/FruitCards.astro';
+import FruitPrices from '../../../../components/FruitPrices.astro';
+import {foodLocales,foodData,getFoodPack,fmt} from '../../../../lib/food-localized.mjs';
+export function getStaticPaths(){return foodLocales.flatMap(locale=>foodData(locale).fruits.map(fruit=>({params:{locale,fruit:fruit.id},props:{locale,id:fruit.id}})));}
+const {locale,id}=Astro.props;
+const pack=getFoodPack(locale),data=foodData(locale),ui=pack.ui;
+const base=`/${locale}/food/`;
+const food=data;
+const f=data.fruits.find(item=>item.id===id);
+const t=ui.fruit;
+const yearRound=f.availabilityKey==='연중 출하 안내';
+const faq=[[t.faqQ1,f.months.length===12?t.faqA1YearRound:fmt(t.faqA1Seasonal,{season:f.seasonLabel,availability:yearRound?t.availabilityYearRoundNote:t.availabilityRegionalNote})],[t.faqQ2,f.buying]];
+const hasPrice=data.fruitPrices.some(p=>p.fruit===f.id);
+---
+<FoodLayout locale={locale} ui={ui} data={data} title={fmt(t.titleTpl,{name:f.name})} description={f.intro} breadcrumbs={[[ui.foodCrumb,base],[ui.fruitCrumb,`${base}fruits/`]]} sourceIds={[...f.sources,...(hasPrice?['fruit-prices']:[])]} faq={faq}>
+<div class="food-detail"><header class="food-hero"><span class="food-eyebrow">{fmt(t.eyebrowTpl,{season:f.seasonLabel})}</span><h1>{f.name}</h1><p class="food-subtitle"><span lang="en">{f.english}</span> · <span lang="th">{f.thai}</span></p><p class="food-intro">{f.intro}</p></header><FoodPhoto dish={f} ui={ui}/>
+<section><h2>{t.whenH2}</h2><div class="food-note"><p><strong>{f.seasonLabel}</strong><br/>{f.availability}{f.regional&&<><br/>{f.regional}</>}</p></div><p>{t.whenText}</p></section>
+<section><h2>{t.tasteH2}</h2><p>{f.taste}</p></section><section><h2>{t.whyH2}</h2><p>{f.why}</p></section>
+<section><h2>{t.infoH2}</h2><dl><div><dt>{t.dtThai}</dt><dd lang="th">{f.thai}</dd></div><div><dt>{t.dtSeason}</dt><dd>{f.seasonLabel}</dd></div>{f.regional&&<div><dt>{t.dtRegional}</dt><dd>{f.regional}</dd></div>}<div><dt>{t.dtBuying}</dt><dd>{f.buying}</dd></div></dl></section>
+<section><h2>{t.stepsH2}</h2><ol class="food-steps">{f.steps.map(step=><li><span>{step}</span></li>)}</ol></section>
+{hasPrice&&<section><h2>{t.priceH2}</h2><FruitPrices fruitId={f.id} locale={locale} ui={ui} data={data}/></section>}
+<section class="food-faq"><h2>{t.faqH2}</h2>{faq.map(([q,a])=><article><h3>{q}</h3><p>{a}</p></article>)}</section>
+<section><h2>{t.moreH2}</h2><div class="food-related"><a href={`${base}fruits/`}>{t.calendarLink}</a><a href={`${base}fruit-prices/`}>{t.priceLink}</a><a href={`${base}street-food/`}>{t.streetLink}</a><a href={base}>{t.hubLink}</a></div></section></div>
+</FoodLayout>

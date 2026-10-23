@@ -19,7 +19,7 @@ test('all eleven markets follow Korean topic order while coupons stay on owner h
 test('only published equivalent delivery and pilot beach routes switch to all markets',()=>{
  const suffixes=['beaches/','food-delivery/',...['grabfood','line-man','shopeefood','robinhood'].map(id=>`food-delivery/${id}/`),...beaches.filter(b=>b.pilot).map(b=>`beaches/${b.id}/`),...cities.filter(c=>beaches.some(b=>b.pilot&&b.cityId===c.id)).map(c=>`beaches/cities/${c.id}/`)];
  for(const locale of navigationLocales)for(const suffix of suffixes){const paths=travelGuideAlternatePaths(`/${locale}/${suffix}`);assert.deepEqual(paths,Object.fromEntries(navigationLocales.map(code=>[code,`/${code}/${suffix}`])));}
- for(const path of ['/en/beaches/unknown/','/ja/beaches/cities/unknown/','/ru/food-delivery/unknown/','/fr/beaches/','/en/food/'])assert.equal(travelGuideAlternatePaths(path),undefined);
+ for(const path of ['/en/beaches/unknown/','/ja/beaches/cities/unknown/','/ru/food-delivery/unknown/','/fr/beaches/','/en/food/unknown/','/ko/food/dishes/unknown/'])assert.equal(travelGuideAlternatePaths(path),undefined);
 });
 test('new details receive byline, genuine source/date preservation and equivalent hreflang; hubs stay hubs',()=>{
  const beach=beaches.find(b=>b.pilot&&b.photos?.length);

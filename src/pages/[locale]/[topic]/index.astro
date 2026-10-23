@@ -1,9 +1,10 @@
 ---
 import SitePage from '../../../components/SitePage.astro';
 import {locales} from '../../../i18n/locales';
+// The food hub has its own pages (ko: src/pages/ko/food, other markets: src/pages/[locale]/food).
 export function getStaticPaths() {
   return locales.flatMap(item => ['destinations','coupons','food','transport']
-    .filter(topic => item.code !== 'ko' || !['food','transport'].includes(topic))
+    .filter(topic => topic !== 'food' && (item.code !== 'ko' || topic !== 'transport'))
     .map(topic => ({params:{locale:item.code,topic},props:{locale:item.code,section:topic}})));
 }
 const {locale,section}=Astro.props;

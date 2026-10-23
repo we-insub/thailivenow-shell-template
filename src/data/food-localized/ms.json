@@ -1,0 +1,1401 @@
+{
+ "locale": "ms",
+ "ui": {
+  "skip": "Terus ke kandungan utama",
+  "home": "Laman utama",
+  "foodCrumb": "Makanan",
+  "fruitCrumb": "Buah-buahan",
+  "breadcrumbLabel": "Anda berada di sini",
+  "sourcesTitle": "Sumber rasmi dan rujukan",
+  "sourcesIntro": "Kalau anda ingin tahu lebih lanjut tentang kisah makanan dan wilayahnya, baca juga sumber di bawah. Bahan dan cara masakan boleh berbeza mengikut kedai.",
+  "categories": {
+   "noodles": "Nasi dan mi",
+   "soup": "Sup dan kari",
+   "side": "Lauk dan bakar",
+   "dessert": "Pencuci mulut",
+   "drinks": "Minuman"
+  },
+  "filter": {
+   "city": "Bandar mengikut wilayah",
+   "dish": "Jenis hidangan",
+   "all": "Papar semua",
+   "reset": "Set semula",
+   "cityCount": "{n} bandar",
+   "dishCount": "{n} hidangan"
+  },
+  "photo": {
+   "cardNote": "Saiz paparan diubah suai dan sebahagian dipotong",
+   "detailNote": "Saiz paparan diubah suai",
+   "licenseNote": "Foto disediakan di bawah syarat {license}"
+  },
+  "calendar": {
+   "label": "Bulan anda melancong",
+   "all": "Semua bulan 1–12",
+   "reset": "Papar semua",
+   "ariaLabel": "Kalendar musim buah dari bulan 1 hingga bulan 12",
+   "statusAll": "{n} jenis buah",
+   "statusMonth": "{n} buah untuk dilihat pada {month}",
+   "note": "Buah yang boleh didapati sepanjang tahun seperti **tembikai, betik, kelapa muda dan pisang** ada dalam senarai penuh di bawah. Kalendar menunjukkan musim utama atau musim keluar mengikut sumber rasmi, dan **asam jawa manis dinyatakan bermula hujung Disember**. Bekalan sebenar boleh berbeza mengikut baka, kawasan penanaman dan cuaca."
+  },
+  "cards": {
+   "dishLink": "Rasa dan cara makan {name} →",
+   "fruitLink": "Musim, rasa dan cara makan {name} →",
+   "cityLink": "Lihat makanan di {name} →",
+   "cityDishCount": "{n} hidangan terperinci"
+  },
+  "prices": {
+   "title": "Harga runcit di kawasan Bangkok · 14 Oktober 2026",
+   "intro": "Harga mengikut baka dan gred yang ditinjau oleh Jabatan Perdagangan Dalam Negeri Thailand. Harga yang sama tidak semestinya dikenakan di setiap kedai tepi jalan.",
+   "ariaLabel": "Jadual harga runcit buah di Bangkok",
+   "caption": "Rujukan harga runcit buah utuh · baht Thailand (THB)",
+   "colFruit": "Buah dan baka",
+   "colPrice": "Harga",
+   "colUnit": "Unit",
+   "range": "{min}–{max} baht",
+   "unit": {
+    "kg": "1 kg",
+    "bunch": "1 sikat"
+   },
+   "note": "Asingkan harga sebungkus atau sekotak buah yang sudah dipotong daripada harga buah utuh sekilogram. **Dalam data ini, harga pisang ialah harga untuk satu sikat.**"
+  },
+  "dish": {
+   "titleTpl": "{name} · Rasa dan cara makan",
+   "flavorH2": "Bagaimana rasanya?",
+   "infoH2": "Maklumat asas hidangan",
+   "dtName": "Nama hidangan",
+   "dtThai": "Nama dalam bahasa Thai",
+   "dtCategory": "Jenis",
+   "dtRegion": "Kaitan wilayah",
+   "dtIngredients": "Bahan utama",
+   "storyH2": "Kisah hidangan dan wilayahnya",
+   "stepsH2": "Cara memesan dan menikmatinya",
+   "faqH2": "Soalan lazim",
+   "relatedH2": "Hidangan dan bandar lain untuk dilihat",
+   "cityLink": "Semua makanan di {name} →",
+   "streetLink": "Snek dan minuman jalanan →",
+   "watermelonLink": "Musim dan panduan membeli tembikai →",
+   "bananaLink": "Panduan membeli pisang →",
+   "traditionsLink": "Makanan tradisional dan budaya makan Thailand →",
+   "hubLink": "Semua makanan Thailand →",
+   "relatedDishLink": "{name} →"
+  },
+  "city": {
+   "titleTpl": "Makanan di {name} · Hidangan terkenal dan citarasa setempat",
+   "noteTitleTpl": "Apabila memilih makanan di {name}",
+   "cultureH2": "Budaya makan yang boleh anda temui di bandar ini",
+   "dishesH2Tpl": "Hidangan untuk dicuba di {name}",
+   "dishesText": "Pilih hidangan yang anda mahu makan. Kami terangkan rasanya dan apa yang sesuai dimakan bersamanya.",
+   "fruitH2Tpl": "Cuba juga buah-buahan semasa melancong di {name}",
+   "fruitText": "Kawasan terkenal sesuatu buah mungkin berbeza daripada bandar tempat anda membelinya sekarang. Ketahui musim dan rasanya, kemudian pilih buah yang anda mahu makan.",
+   "calendarLink": "Kalendar buah mengikut bulan →",
+   "priceLink": "Panduan membeli dan harga mengikut bandar →",
+   "streetLink": "Snek dan minuman jalanan →",
+   "faqH2": "Soalan lazim",
+   "faqQ1": "Adakah hidangan ini hanya boleh dimakan di bandar ini?",
+   "faqQ2": "Bagaimana memilih hidangan yang belum pernah dimakan?",
+   "othersH2": "Kenali juga citarasa bandar lain",
+   "cityLink": "{name} →",
+   "traditionsLink": "Makanan tradisional dan budaya makan Thailand →",
+   "h1Tpl": "Makanan di {name}"
+  },
+  "fruit": {
+   "titleTpl": "{name} · Musim dan rasa di Thailand",
+   "eyebrowTpl": "Buah Thailand · {season}",
+   "whenH2": "Bila waktu terbaik untuk memakannya?",
+   "whenText": "Pilih berpandukan musim utama atau musim keluar buah tempatan. Bekalan sebenar boleh berbeza mengikut kawasan penanaman, baka dan cuaca.",
+   "tasteH2": "Bagaimana rasanya?",
+   "whyH2": "Mengapa buah ini dikenali di Thailand",
+   "infoH2": "Maklumat asas sebelum membeli",
+   "dtThai": "Nama dalam bahasa Thai",
+   "dtSeason": "Musim keluar",
+   "dtRegional": "Buah mengikut kawasan",
+   "dtBuying": "Cara membeli",
+   "stepsH2": "Cara mengupas dan memakannya",
+   "priceH2": "Rujukan harga",
+   "faqH2": "Soalan lazim",
+   "faqQ1": "Adakah buah ini tidak boleh dibeli di luar musim?",
+   "faqA1YearRound": "Buah ini dinyatakan boleh didapati sepanjang tahun. Namun, baka dan stok yang benar-benar dijual berbeza mengikut kedai. Asingkan buah utuh daripada produk yang sudah dipotong.",
+   "faqA1Seasonal": "Musim keluar yang dinyatakan: {season}. {availability} Kalendar ini bukan jaminan buah dijual pada setiap tarikh.",
+   "availabilityYearRoundNote": "Buah ini ada sepanjang tahun, tetapi kuantiti dan harga boleh berubah mengikut musim dan baka.",
+   "availabilityRegionalNote": "Musim keluar boleh berbeza mengikut kawasan penanaman dan baka.",
+   "faqQ2": "Bagaimana membandingkan harga sekilogram dengan harga sekotak?",
+   "moreH2": "Teruskan membaca",
+   "calendarLink": "Kalendar buah bulan 1–12 →",
+   "priceLink": "Panduan membeli dan harga mengikut bandar →",
+   "streetLink": "Snek dan minuman jalanan →",
+   "hubLink": "Semua makanan Thailand →"
+  }
+ },
+ "pages": {
+  "hub": {
+   "title": "Makanan Thailand · Hidangan tradisional dan citarasa setiap bandar",
+   "description": "Terokai makanan tradisional Thailand dan hidangan terkenal setiap bandar. Kenali citarasa, budaya makan dan cara menikmati hidangan di Bangkok, Chiang Mai, Phuket, Ayutthaya, Khon Kaen dan Hat Yai.",
+   "eyebrow": "THAILAND · FOOD & CULTURE",
+   "h1": "Makanan Thailand,|citarasa berbeza di setiap bandar",
+   "intro": "Kalau anda masih memikirkan apa yang hendak dimakan semasa bercuti di Thailand, mulakan dengan hidangan di bandar yang anda lawati. Di Chiang Mai ada mi kari, di Phuket ada mi goreng dengan makanan laut, dan di Ayutthaya ada snek roti yang digulung dengan benang gula. Daripada Pad Thai yang sudah dikenali hingga hidangan yang berbeza di setiap bandar, cubalah satu demi satu.",
+   "traditional": {
+    "eyebrow": "Kenali dahulu hidangan di meja makan Thailand",
+    "h2": "Makanan tradisional Thailand",
+    "text": "Kalau Thailand pertama kali bagi anda, mulakan dengan Pad Thai dan Tom Yam Kung. Kami terangkan bahan yang digunakan dan cara hidangan dimakan bersama nasi atau mi, satu demi satu.",
+    "link": "Kenali makanan tradisional dan budaya makan →"
+   },
+   "street": {
+    "eyebrow": "Snek dan minuman sambil berjalan",
+    "h2": "Makanan jalanan",
+    "text": "Kenali roti yang hangat, Nam Taeng Mo Pan yang sejuk dan snek Thailand untuk dinikmati di antara waktu makan.",
+    "link": "Semua makanan jalanan →"
+   },
+   "fruit": {
+    "eyebrow": "Dari bulan 1 hingga bulan 12",
+    "h2": "Buah-buahan Thailand",
+    "text": "Buah apa yang patut dimakan pada bulan anda melancong? Ketahui musim, rasa, unit jualan dan harga yang telah disahkan bagi 16 jenis buah utama.",
+    "link": "Kalendar buah mengikut bulan →",
+    "priceLink": "Panduan membeli buah dan harga mengikut bandar →"
+   },
+   "regions": {
+    "h2": "Bila wilayah berubah, meja makan pun berubah",
+    "text": "Seperti laksa yang rasanya berbeza mengikut negeri, nasi, perencah dan lauk pendamping di Thailand juga berbeza mengikut wilayah. Lihat makanan di tengah, utara, Isan dan selatan secara berasingan."
+   },
+   "cities": {
+    "eyebrow": "Pilih hidangan mengikut destinasi anda",
+    "h2": "Pengembaraan makanan mengikut bandar",
+    "text": "Bandar mana yang anda lawati? Pilih bandar untuk melihat hidangan yang boleh dicuba di sana dan cara menikmatinya."
+   },
+   "related": {
+    "h2": "Lihat bersama waktu makan",
+    "rooftops": "Panduan melawat rooftop dan tempat tinjauan →",
+    "delivery": "Panduan menggunakan aplikasi penghantaran makanan →",
+    "transport": "Panduan pengangkutan di Thailand →"
+   }
+  },
+  "traditions": {
+   "title": "Makanan tradisional Thailand dan budaya makan mengikut wilayah",
+   "description": "Apakah perbezaan makanan ruji dan perencah di tengah, utara, Isan dan selatan? Kenali hidangan terkenal Thailand, citarasa setiap wilayah dan perkara yang perlu diketahui semasa memesan buat kali pertama.",
+   "eyebrow": "Makanan tradisional dan budaya makan Thailand",
+   "h1": "Dalam satu negara pun,|cara makan dan rasanya berbeza",
+   "intro": "Kalau anda sudah mencuba Pad Thai dan Tom Yam Kung, kenali pula hidangan Thailand yang lain. Di Chiang Mai, pulut dimakan bersama sosej, sayur dan sos cicah, manakala di Isan orang menikmati salad betik yang rangup dan makanan fermentasi yang masam. Ada juga hidangan yang berbeza mengikut bandar, seperti mi dan snek Phuket. Seperti membandingkan rasa laksa mengikut negeri, anda boleh mencari rasa baharu di bandar yang anda lawati.",
+   "note": "Kalau anda baru mengenali makanan Thailand, mulakan dengan **semangkuk kari atau mi yang dimakan bersama nasi**. Kalau bersama rakan atau keluarga, kongsi beberapa hidangan supaya dapat mencuba rasa yang berbeza.",
+   "basicsH2": "Asas meja makan Thailand",
+   "basics": [
+    [
+     "Makanan ruji",
+     "Di tengah, nasi putih dimakan bersama pelbagai lauk, manakala di utara dan Isan pulut kerap dimakan. Hidangan mi juga berbeza mengikut wilayah."
+    ],
+    [
+     "Bahan perasa",
+     "Cili, herba, bahan masam, perencah ikan dan bahan fermentasi digabungkan mengikut hidangan. Bahan perasa berbeza bagi setiap hidangan."
+    ],
+    [
+     "Pembahagian wilayah",
+     "Kami perkenalkan ciri utama tengah, utara, timur laut Isan dan selatan. Dalam satu wilayah pun, hidangan bandar dan komuniti berbeza-beza."
+    ],
+    [
+     "Syarat pemakanan",
+     "Periksa juga **bahan dalam perisa dan sos**. Anda tidak boleh menentukan hidangan itu vegetarian atau halal hanya berdasarkan nama seperti hidangan sayur atau hidangan ayam."
+    ]
+   ],
+   "regionsH2": "Rasa lebih jelas apabila dilihat mengikut wilayah",
+   "cityLinkTpl": "Makanan di {name} →",
+   "orderH2": "Cara memilih semasa memesan buat kali pertama",
+   "order": [
+    "Putuskan dahulu sama ada anda mahu berkongsi nasi dan lauk atau makan semangkuk mi.",
+    "Pilih bahan yang anda mahu seperti daging, ikan atau udang. Kalau ada bahan yang anda elakkan, beritahu termasuk bahan dalam perisa.",
+    "**Minta tahap pedas dilaraskan sebelum memesan.** Kuah atau sos yang sudah siap mungkin sukar diubah.",
+    "Apabila makanan sampai, rasa dahulu, kemudian tambah perisa dan pelengkap sedikit demi sedikit."
+   ],
+   "faqH2": "Soalan lazim",
+   "faq": [
+    [
+     "Adakah semua makanan Thailand pedas?",
+     "Ada pencuci mulut dan hidangan yang tidak menonjolkan rasa pedas. Namun, tahap pedas kari dan sos cicah sukar diagak daripada warna atau nama sahaja, jadi lebih baik bertanya sebelum memesan."
+    ],
+    [
+     "Adakah hidangan terkenal sesuatu wilayah hanya dimakan di wilayah itu?",
+     "Banyak hidangan telah merebak ke wilayah lain dan dimakan di seluruh negara. Panduan ini menerangkan kaitan dengan budaya makan wilayah dan tidak memutuskan tempat asal atau kawasan jualan eksklusif."
+    ],
+    [
+     "Adakah hidangan yang mengandungi sayur itu vegetarian?",
+     "Perencah haiwan seperti sos ikan dan belacan udang kadangkala digunakan. Kalau anda mempunyai syarat vegetarian, minta penjual memberitahu bahan sebenar termasuk perisa."
+    ]
+   ],
+   "cardsH2": "Kenali hidangan terkenal satu demi satu",
+   "moreH2": "Teruskan membaca",
+   "hubLink": "Semua makanan Thailand →",
+   "deliveryLink": "Panduan penghantaran makanan →"
+  },
+  "streetFood": {
+   "title": "Makanan jalanan Thailand · Roti, Nam Taeng Mo Pan, snek dan minuman",
+   "description": "Kenali makanan jalanan Thailand seperti roti, Nam Taeng Mo Pan, Roti Sai Mai, sosej fermentasi dan ayam goreng Hat Yai. Ketahui rasa serta perkara yang perlu diketahui semasa memesan.",
+   "eyebrow": "STREET FOOD · SNACKS & DRINKS",
+   "h1": "Snek dan minuman Thailand|yang terkenang semasa berjalan",
+   "intro": "Nikmati sepotong roti yang dibakar hangat dan secawan Nam Taeng Mo Pan yang sejuk. Di Thailand, snek dan minuman buah di antara waktu makan juga menjadi keseronokan melancong. Daripada snek manis hingga sosej dan ayam goreng, ketahui rasa dan cara makan hidangan yang anda mahu cuba.",
+   "sweetH2": "Roti manis dan Nam Taeng Mo Pan yang menyegarkan",
+   "savoryH2": "Snek masin dan hidangan untuk dimakan bersama",
+   "orderH2": "Cara memilih semasa memesan",
+   "order": [
+    "Bandingkan harga roti biasa dengan roti yang ditambah topping seperti pisang atau telur.",
+    "Untuk minuman, lihat saiz cawan dan bahan tambahan. Kalau mahu kurangkan manis, beritahu sebelum minuman dibuat.",
+    "Lihat menu dan harga yang dipaparkan di kedai, kemudian pesan jumlah yang anda perlukan sahaja. Anda tidak perlu menjangka harga atau bahan yang sama hanya kerana nama makanan yang sama."
+   ],
+   "withFruitH2": "Kenali bersama buah-buahan",
+   "calendarLink": "Buah Thailand bulan 1–12 →",
+   "priceLink": "Unit jualan dan harga buah →",
+   "hubLink": "Semua makanan Thailand →"
+  },
+  "fruits": {
+   "title": "Buah-buahan Thailand · Musim dan harga dari bulan 1 hingga bulan 12",
+   "description": "Ketahui musim, rasa dan cara makan 16 buah utama Thailand. Lihat juga kalendar buah bulan 1–12 serta harga runcit Bangkok yang diasingkan mengikut baka dan unit jualan.",
+   "eyebrow": "THAI FRUIT · MONTH BY MONTH",
+   "h1": "Buah-buahan Thailand,|pilih mengikut bulan anda melancong",
+   "intro": "Lihat mangga yang harum pada musim bunga, longan pada musim panas, dan limau bali serta oren mandarin pada penghujung tahun. Di Thailand, buah yang biasa anda kenali pun berbeza baka dan cara makannya. Pilih bulan anda melancong, kemudian ketahui rasanya dan cara mengupas kulitnya.",
+   "calendarH2": "Kalendar buah dari bulan 1 hingga bulan 12",
+   "calendarText": "Kami kumpulkan musim utama dan musim keluar daripada sumber rasmi. Buah yang sama berbeza mengikut kawasan penanaman, jadi halaman terperinci menerangkan musim mengikut kawasan secara berasingan.",
+   "cardsH2": "Buah utama untuk dicuba di Thailand",
+   "unitH2": "Buah dijual dalam unit apa dan berapa harganya?",
+   "unitText": "Buah utuh kadangkala dijual sekilogram, pisang dijual sesikat dan kelapa dijual sebiji. Bandingkan harga sekotak buah yang sudah dipotong atau secawan Nam Taeng Mo Pan secara berasingan daripada harga buah utuh.",
+   "priceLink": "Perkara yang perlu diketahui semasa membeli buah mengikut bandar →",
+   "snackH2": "Snek dan minuman jalanan daripada buah",
+   "rotiLink": "Roti dengan pisang →",
+   "shakeLink": "Nam Taeng Mo Pan · Shake tembikai →",
+   "mangoRiceLink": "Pulut mangga →",
+   "streetLink": "Semua makanan jalanan →"
+  },
+  "fruitPrices": {
+   "title": "Harga buah Thailand · Panduan membeli mengikut bandar dan unit jualan",
+   "description": "Apa yang perlu dibandingkan apabila membeli buah Thailand sekilogram, sesikat, sebiji atau sekotak? Lihat panduan membeli di 6 bandar dan harga runcit rasmi Bangkok yang telah disahkan.",
+   "eyebrow": "FRUIT PRICES · UNITS & CITIES",
+   "h1": "Lihat unit dahulu,|kemudian pilih buah mengikut harga",
+   "intro": "Buah berjenis sama tidak semestinya boleh dibandingkan pada harga yang sama. Asingkan sekilogram buah utuh, sesikat pisang, sebiji kelapa dan sekotak buah yang sudah dipotong. Lihat juga perkara yang perlu diketahui semasa membeli di setiap bandar, serta harga yang tarikh, baka dan unitnya telah disahkan.",
+   "bangkokH2": "Harga runcit Bangkok yang telah disahkan",
+   "citiesH2": "Perkara yang perlu diketahui semasa membeli buah mengikut bandar",
+   "citiesText": "Di bawah ialah panduan memilih buah semasa melancong di setiap bandar. **Harga yang dipaparkan dalam nombor ialah nilai tinjauan runcit Bangkok** dan tidak digunakan sebagai harga biasa tepi jalan di bandar lain.",
+   "cityLinkTpl": "Makanan di {name} →",
+   "calendarLink": "Kalendar buah →",
+   "compareH2": "Untuk membandingkan pada senarai harga yang sama",
+   "compare": [
+    [
+     "Buah utuh sekilogram",
+     "Lihat baka, saiz dan gred pada syarat yang sama. Bagi buah berkulit tebal seperti durian, tanya sama ada harga sekilogram termasuk kulit atau hanya isi."
+    ],
+    [
+     "Sebiji dan sesikat",
+     "Saiz sebiji atau bilangan buah dalam sesikat boleh berbeza. Jangan tukar sewenang-wenangnya kepada harga sekilogram; lihat kuantiti yang sebenarnya anda beli."
+    ],
+    [
+     "Buah dipotong",
+     "Lihat kuantiti isi yang dimasukkan dalam sebungkus atau sekotak. Ia berbeza daripada berat buah utuh yang termasuk kulit."
+    ],
+    [
+     "Minuman",
+     "Saiz cawan, bahan dan cara penggunaan ais serta sirap berbeza. Jangan bandingkan harga sekilogram tembikai dengan secawan Nam Taeng Mo Pan seolah-olah ia produk yang sama."
+    ]
+   ]
+  }
+ },
+ "regions": {
+  "central": {
+   "name": "Tengah",
+   "subtitle": "Meja makan tengah dengan nasi dan kari",
+   "text": "Di tengah, nasi putih dimakan bersama kari dan pelbagai lauk. Kelemakan santan, rasa masam, manis dan pedas bergabung secara berbeza dalam setiap hidangan. Kalau anda menikmati Tom Yam Kung dan kari hijau di Bangkok, anda boleh merasai gabungan rasa ini."
+  },
+  "north": {
+   "name": "Utara",
+   "subtitle": "Utara dengan pulut, sayur dan sos pencicah",
+   "text": "Di utara, pulut dan sayur dimakan bersama nam prik, dan sai ua yang berbau herba juga dimakan. Khao Soi di Chiang Mai ialah hidangan yang menggabungkan mi dan kuah kari dalam satu mangkuk. Tidak semua makanan utara itu lembut, jadi tanya tahap pedas semasa memesan."
+  },
+  "isan": {
+   "name": "Timur laut · Isan",
+   "subtitle": "Isan dengan betik yang rangup dan makanan fermentasi yang masam",
+   "text": "Di Isan, cuba som tam dan larb bersama pulut. Ada juga hidangan yang menggunakan pla ra, perencah ikan fermentasi. Som tam berbeza cili dan perencahnya walaupun dalam kawasan Isan yang sama, jadi anda boleh menikmati rasa yang berbeza mengikut kawasan."
+  },
+  "south": {
+   "name": "Selatan",
+   "subtitle": "Selatan dengan makanan laut, mi dan hidangan pelbagai budaya",
+   "text": "Di selatan, bukan sahaja makanan pedas, malah mi dan snek yang berbeza mengikut bandar juga boleh dinikmati. Di Phuket ada hidangan yang dipengaruhi budaya makan Cina dan Melayu, manakala di kawasan Songkhla hidangan komuniti Cina dan Muslim wujud bersama. Pilih bandar yang anda lawati dan lihat hidangan terkenalnya."
+  }
+ },
+ "cities": {
+  "bangkok": {
+   "name": "Bangkok",
+   "tag": "Bandar yang menghimpunkan citarasa seluruh negara",
+   "intro": "Kalau anda sedang memilih hidangan pertama di Bangkok, mulakan dengan Pad Thai. Untuk waktu makan seterusnya, cuba nasi dengan kari atau kongsi Tom Yam Kung. Selepas makan, tutup dengan pulut mangga yang manis. Di Bangkok, bukan sahaja hidangan tengah, malah makanan dari pelbagai wilayah Thailand boleh ditemui.",
+   "culture": "Bangkok ialah bandar yang menghimpunkan makanan dari pelbagai wilayah Thailand. Pilihannya luas, daripada nasi dan kari tengah hingga hidangan yang datang dari wilayah lain. Di sini kami perkenalkan hidangan terkenal yang sesuai dipilih oleh mereka yang pertama kali mencuba makanan Thailand di Bangkok.",
+   "note": "Hidangan di bawah bukan makanan tempatan yang hanya dimakan di Bangkok. Ia boleh ditemui di banyak bandar di Thailand.",
+   "pairing": "Kalau makan seorang diri, pilih sepinggan Pad Thai atau nasi dengan kari. Kalau bersama rakan atau keluarga, kongsi Tom Yam Kung dan jadikan sepinggan pulut mangga sebagai pencuci mulut.",
+   "priceGuide": "Di Bangkok, asingkan harga buah utuh sekilogram daripada harga sekotak buah yang sudah dipotong. Di bawah kami sertakan harga runcit rasmi mengikut baka dan gred yang ditinjau pada hari yang sama. Harga di kedai tertentu di kawasan pelancongan mungkin berbeza."
+  },
+  "chiang-mai": {
+   "name": "Chiang Mai",
+   "tag": "Aroma Lanna dan budaya pulut",
+   "intro": "Di Chiang Mai, mulakan makanan utara dengan semangkuk Khao Soi. Anda boleh menikmati mi yang lembut, mi yang rangup dan kuah kari yang pekat sekali gus. Untuk waktu makan seterusnya, cuba Sai Ua yang berbau herba dan Nam Prik Ong yang berasaskan tomato bersama pulut. Anda akan mengenali meja makan utara yang berbeza daripada hidangan mi.",
+   "culture": "Di utara, pulut dimakan bersama pelbagai lauk, sayur dan nam prik. Hidangan khantoke, iaitu makanan yang disusun di atas dulang kecil, juga mencerminkan budaya makan ini. Khantoke bukan nama satu hidangan, tetapi dulang dan cara makan yang menyajikan pelbagai makanan.",
+   "note": "Khao Soi, Sai Ua dan Nam Prik Ong bukan sahaja dimakan di Chiang Mai, malah juga di kawasan lain di utara.",
+   "pairing": "Kalau mahu makan tengah hari yang ringkas, pilih Khao Soi. Pada hari anda berkongsi beberapa hidangan, pesan Sai Ua dan Nam Prik Ong bersama pulut dan sayur untuk menikmati satu hidangan penuh gaya utara.",
+   "priceGuide": "Di Chiang Mai, lihat juga longan dan laici yang berkait dengan utara. Untuk buah yang dijual sesikat, tanya sama ada berat ditimbang bersama tangkai. Asingkan produk dan berat bungkusan longan kering daripada buah segar."
+  },
+  "phuket": {
+   "tag": "Mi dan snek dengan sentuhan budaya Cina dan Melayu",
+   "name": "Phuket",
+   "intro": "Di Phuket, anda tidak perlu makan makanan laut bakar sahaja. Cuba Mi Hokkien, iaitu mi tebal yang digoreng, dan Mi Hun, iaitu bihun halus. Selepas makan, anda boleh berehat dengan O-Aew yang berisi ais dan jeli. Semasa menjelajah bandar lama, nikmati juga hidangan tempatan.",
+   "culture": "Makanan Phuket mengandungi pengaruh budaya makan Cina dan Melayu. Mi tebal kadangkala digoreng dengan makanan laut, dan mi halus pula dimakan bersama kuah tulang rusuk babi. Apabila anda turut melihat snek ais dan jeli, meja makan Phuket yang anda sangka hanya makanan laut akan kelihatan lebih pelbagai.",
+   "note": "Mi Hokkien dan Mi Hun ialah dua hidangan mi yang berbeza. Kalau anda memesan dengan menyebut namanya dengan jelas, anda dapat merasai perbezaan tekstur dan lauk yang dihidangkan bersama.",
+   "pairing": "Makan Mi Hokkien atau Mi Hun sebagai hidangan utama, dan pada hari yang panas pilih O-Aew sebagai pencuci mulut. Kalau beramai-ramai, kongsi kedua-dua hidangan mi dan bandingkan mi tebal dengan mi halus.",
+   "priceGuide": "Di Phuket, asingkan buah yang sudah dipotong atau minuman yang anda makan terus di pantai daripada buah utuh. Kalau harga sebungkus atau secawan ditukar kepada harga sekilogram buah utuh untuk dibandingkan, kuantiti yang sebenarnya anda makan boleh berbeza."
+  },
+  "ayutthaya": {
+   "name": "Ayutthaya",
+   "tag": "Makanan sungai dan Roti Sai Mai",
+   "intro": "Di Ayutthaya, cuba makan tengah hari dengan mi bot semasa menjelajah tapak bersejarah. Kalau mahu berkongsi hidangan bersama rakan, pilih udang galah bakar. Roti Sai Mai, iaitu roti nipis yang digulung dengan benang gula, ialah snek yang boleh dinikmati di Ayutthaya. Gulung sendiri helaian demi helaian dan nikmati saat manis semasa melancong.",
+   "culture": "Ayutthaya yang dekat dengan sungai terkenal dengan pengembaraan makanan yang menikmati mi dan udang galah. Roti Sai Mai yang diteruskan oleh komuniti Muslim juga boleh ditemui. Makan mi sebagai hidangan utama, gulung roti dengan benang gula, dan nikmati hidangan yang berbeza di bandar yang sama.",
+   "note": "Mi bot juga dimakan di bandar lain. Harga udang galah berbeza mengikut saiz dan unit jualan, jadi pilih berdasarkan udang yang anda pesan.",
+   "pairing": "Makan mi bot pada waktu tengah hari, dan untuk hidangan beramai-ramai, kongsi udang galah bakar dengan nasi. Roti Sai Mai sesuai digulung helaian demi helaian sambil melaraskan jumlah benang gula.",
+   "priceGuide": "Pada hari anda menjelajah tapak bersejarah di Ayutthaya, tentukan dahulu kuantiti buah yang mahu dimakan terus. Unit jualan berbeza mengikut buah, misalnya pisang dijual sesikat dan tembikai utuh dijual sekilogram. Bagi produk yang sudah dipotong, lihat kuantiti dalam bungkusan atau kotak bersama harganya."
+  },
+  "khon-kaen": {
+   "name": "Khon Kaen",
+   "tag": "Rasa fermentasi Isan dan hidangan ikan air tawar",
+   "intro": "Di Khon Kaen, nikmati makanan Isan dengan som tam dan larb bersama pulut. Betik yang rangup, daging yang berperisa dan sos masam boleh dikongsi dalam satu hidangan. Lihat juga Sai Krok Isan, iaitu sosej fermentasi, dan Au Pla, iaitu kari ikan air tawar. Kedua-duanya hidangan yang bahan dan cara makannya berbeza walaupun dalam kawasan yang sama.",
+   "culture": "Di Isan, pulut dan perencah fermentasi banyak digunakan dalam masakan. Cara memberi rasa juga pelbagai, seperti som tam yang betiknya ditumbuk, larb yang dicampur herba dan serbuk beras goreng, serta sosej daripada beras dan daging babi yang difermentasi. Kami juga perkenalkan Au Pla, hidangan tempatan Khon Kaen yang menggunakan ikan air tawar.",
+   "note": "Som tam, larb dan Sai Krok Isan dimakan di banyak kawasan Isan. Au Pla ialah menu yang diperkenalkan sebagai hidangan tempatan Khon Kaen.",
+   "pairing": "Apabila makan som tam atau larb, pesan juga pulut. Kalau anda belum biasa dengan bau fermentasi, tanya dahulu sama ada som tam dimasukkan pla ra. Pada hari anda teringat ikan berbanding daging, lihat Au Pla.",
+   "priceGuide": "Di Khon Kaen, bezakan betik masak yang dimakan sebagai buah daripada betik hijau yang digunakan untuk som tam. Semasa membeli buah utuh, lihat harga sekilogram dan jumlah berat; untuk buah yang sudah dipotong, lihat kuantiti dalam sekotak."
+  },
+  "hat-yai": {
+   "name": "Hat Yai",
+   "tag": "Ayam goreng dan hidangan berkuah dari kawasan Songkhla",
+   "intro": "Di Hat Yai, cuba ayam goreng yang dimakan bersama bawang merah goreng. Apabila ayam dan bawang merah dimakan bersama, anda boleh menikmati kerangupan dan aroma yang berlemak. Kalau teringat hidangan lain, pilih juga Bak Kut Teh, iaitu sup tulang rusuk babi yang berbau herba. Kenali pelbagai budaya makan kawasan Songkhla satu hidangan demi satu hidangan.",
+   "culture": "Di kawasan Songkhla tempat Hat Yai terletak, hidangan komuniti Cina dan Muslim wujud bersama. Ada hidangan yang menggabungkan pulut dengan ayam goreng, dan ada juga yang menikmati Bak Kut Teh yang berbau herba gaya Cina. Daging dan perencah berbeza mengikut hidangan, jadi pilih menu yang boleh dimakan oleh rakan seperjalanan anda bersama-sama.",
+   "note": "Bak Kut Teh tidak diperkenalkan sebagai hidangan yang berasal dari Hat Yai. Walaupun menu itu menggunakan ayam, anda tidak boleh menentukan sama ada ia halal hanya berdasarkan nama hidangan.",
+   "pairing": "Hidangkan ayam goreng bersama pulut. Makan bawang merah goreng bersama ayam, dan tambah sos sedikit demi sedikit. Pada hari anda mahu makanan berkuah yang panas, pilih Bak Kut Teh yang menggunakan tulang rusuk babi.",
+   "priceGuide": "Di Hat Yai, lihat juga musim keluar buah selatan mengikut kawasan penanaman. Rambutan dan manggis yang sama pun berbeza musim keluarnya mengikut kawasan. Semasa membeli sebungkus, tanya berat yang dimasukkan dan jumlah harganya sekali."
+  }
+ },
+ "dishes": {
+  "pad-thai": {
+   "name": "Pad Thai",
+   "scope": "Hidangan wakil Thailand",
+   "intro": "Kalau anda masih memikirkan apa yang hendak dimakan buat hidangan pertama di Thailand, cuba Pad Thai. Kuey teow beras digoreng dengan telur dan tauhu bersama sos asam jawa yang manis dan masam. Taugeh yang rangup dan kacang tanah yang berlemak menambah pelbagai tekstur dalam sepinggan. Perah sedikit limau nipis yang dihidangkan bersama dan rasa masamnya akan lebih terasa.",
+   "flavor": "Rasa masam asam jawa bergabung dengan rasa manis dan masin. Apabila anda mengunyah taugeh dan kacang tanah bersama mi yang lembut, rasa rangup dan berlemak akan terasa. Di kedai yang menghidangkan serbuk cili secara berasingan, anda boleh menambahnya mengikut kesukaan.",
+   "ingredients": "Kuey teow beras digoreng dengan telur, tauhu dan taugeh, dan diberi rasa dengan asam jawa. Udang atau udang kering dan kacang tanah kadangkala digunakan, jadi beritahu sebelum memesan kalau ada bahan yang anda elakkan.",
+   "story": "Pad Thai ialah mi goreng yang mewakili Thailand. Ia mudah ditemui di Bangkok, tetapi bukan makanan tempatan yang hanya dimakan di Bangkok. Kalau anda baru mengenali makanan Thailand, mulakan dengan Pad Thai, dan pada waktu makan seterusnya cuba hidangan mi berkuah seperti Khao Soi.",
+   "tip": "Kalau anda tidak boleh makan udang, tanya sama ada udang kering dan perisa juga mengandunginya.",
+   "steps": [
+    "Pilih bahan utama seperti udang dan buat pesanan. Kalau anda tidak boleh makan udang, tanya sama ada udang kering turut dimasukkan.",
+    "Apabila hidangan sampai, rasa dahulu seadanya. Tambah limau nipis dan kacang tanah sedikit demi sedikit untuk melaraskan rasa masam dan berlemak mengikut citarasa anda.",
+    "Kalau suka pedas, tambah sedikit serbuk cili. Kalau telur atau kacang tanah perlu dielakkan, beritahu sebelum hidangan dimasak."
+   ],
+   "faq": [
+    [
+     "Adakah Pad Thai sentiasa mengandungi udang?",
+     "Tidak. Bahan utama berbeza mengikut menu. Walau bagaimanapun, udang kering kadangkala digunakan dalam perisa walaupun udang tidak kelihatan, jadi kalau anda tidak boleh makan udang, tanya tentang bahan utama dan perisa."
+    ],
+    [
+     "Adakah hanya boleh dimakan di Bangkok?",
+     "Tidak. Ia hidangan wakil yang dimakan di banyak bandar di Thailand. Semasa melancong di Bangkok, ia sesuai dipilih sebagai hidangan pertama untuk membiasakan diri dengan makanan Thailand."
+    ]
+   ],
+   "emphasis": [
+    "kacang tanah",
+    "sebelum memesan"
+   ],
+   "photoAlt": "Foto hidangan Pad Thai",
+   "photoCaption": "Pad Thai · Contoh hidangan"
+  },
+  "tom-yum-kung": {
+   "name": "Tom Yam Kung",
+   "scope": "Hidangan wakil Thailand",
+   "intro": "Cuba Tom Yam Kung yang kuahnya panas dengan aroma serai dan daun limau purut. Ini sup wakil Thailand yang dimasak dengan udang, rasanya masam dan pedas. Sesudu kuah membawa rasa masam, pedas dan aroma herba sekali gus. Kalau makan bersama rakan atau keluarga, pesan nasi dan kongsi semangkuk Tom Yam Kung.",
+   "flavor": "Kuah yang meresap rasa udang ditambah rasa masam dan pedas. Serai, lengkuas dan daun limau purut ialah bahan yang memberi aroma khas Tom Yam Kung. Ada yang berkuah jernih dan ada yang pekat, jadi hidangan dengan nama yang sama boleh terasa sedikit berbeza.",
+   "ingredients": "Udang dimasak dengan serai, lengkuas, daun limau purut dan sebagainya untuk aroma. Perisa dan kuah berbeza mengikut cara memasak.",
+   "story": "Tom Yam Kung ialah hidangan yang cara memasaknya diwarisi dalam keluarga dan komuniti. Pengetahuan memasak dan budaya hidangan ini disenaraikan dalam Senarai Wakil Warisan Budaya Tidak Ketara Kemanusiaan UNESCO pada 2024. Ia bukan pensijilan untuk restoran tertentu, tetapi pengiktirafan terhadap budaya yang diwarisi melalui memasak dan berkongsi makanan.",
+   "tip": "Kalau anda tidak boleh makan udang, pilih hidangan lain dan bukan Tom Yam Kung.",
+   "steps": [
+    "Lihat sama ada menu itu berkuah jernih atau pekat, kemudian pilih. Kalau mahu kurangkan pedas, beritahu semasa memesan. Kuah yang sudah dimasak lama mungkin sukar dilaraskan tahap pedasnya.",
+    "Hirup kuah sedikit demi sedikit bersama nasi. Kalau beramai-ramai, senduk ke dalam mangkuk masing-masing supaya udang dan kuah dapat dikongsi.",
+    "Batang serai yang keras atau bahan beraroma dalam kuah dimasukkan untuk memberi aroma. Pilih udang dan bahan yang boleh dimakan sahaja."
+   ],
+   "faq": [
+    [
+     "Adakah UNESCO menyenaraikan restoran?",
+     "Tidak. Yang disenaraikan ialah pengetahuan membuat Tom Yam Kung dan budaya makanan yang berkaitan. Ini tidak bermakna mana-mana restoran telah diiktiraf."
+    ],
+    [
+     "Adakah semua tom yam sup udang?",
+     "Tidak. Kung bermaksud udang, dan ada tom yam yang menggunakan bahan lain. Lihat nama yang mengikuti tom yam pada menu untuk memilih bahan utama."
+    ]
+   ],
+   "emphasis": [
+    "tidak boleh makan udang",
+    "semasa memesan"
+   ],
+   "photoAlt": "Foto hidangan Tom Yam Kung",
+   "photoCaption": "Tom Yam Kung · Contoh hidangan"
+  },
+  "green-curry": {
+   "name": "Kari Hijau",
+   "scope": "Budaya makan tengah · Hidangan yang dinikmati di seluruh negara",
+   "intro": "Kalau mahu kari yang harum untuk dimakan bersama nasi, pilih kari hijau. Pes kari hijau dilarutkan dalam santan, kemudian dimasak dengan daging dan sayur. Lemak santan bergabung dengan aroma herba seperti selasih. Warna hijau mudanya nampak lembut, tetapi ada rasa pedas, jadi kalau anda tidak tahan pedas, beritahu semasa memesan.",
+   "flavor": "Di sebalik kelemakan santan yang lembut, rasa pedas pes kari terasa. Aroma herbanya jelas, jadi anda boleh menikmati rasa yang berbeza daripada kari yang biasa dimakan di Malaysia. Letakkan sedikit kari dan bahan di atas nasi sambil makan.",
+   "ingredients": "Pes kari hijau dan santan digunakan, dimasak dengan daging dan sayur. Herba seperti selasih kadangkala ditambah untuk aroma.",
+   "story": "Kari hijau ialah salah satu hidangan wakil Thailand tengah. Di Thailand, ia dimakan bukan sahaja dengan nasi putih, malah dengan mi seperti khanom jin atau roti. Semasa melancong di Bangkok, makan kari dengan daging pilihan anda bersama nasi.",
+   "tip": "Walaupun ada santan, kari ini tetap pedas. Tanya tahap pedas semasa memesan.",
+   "steps": [
+    "Pilih bahan utama seperti ayam dan buat pesanan. Kalau kari dan nasi dijual berasingan, pesan nasi sekali.",
+    "Tanya sama ada tahap pedas boleh dikurangkan sebelum hidangan dimasak. Walaupun ada santan, ia bukan hidangan yang tidak pedas.",
+    "Letakkan sedikit kuah kari dan bahan di atas nasi. Kalau berkongsi beberapa hidangan, anda tidak perlu menuang semua kari ke atas nasi sekali gus."
+   ],
+   "faq": [
+    [
+     "Adakah kari hijau tidak pedas?",
+     "Ia pedas. Walaupun terasa lembut kerana santan, pes kari menggunakan cili. Kalau anda tidak tahan pedas, lebih baik tanya tahap pedas sebelum memesan."
+    ],
+    [
+     "Adakah kari yang hanya berisi sayur itu vegetarian?",
+     "Belum tentu. Pes kari atau perisa mungkin mengandungi bahan haiwan. Kalau anda vegetarian, tanya bukan sahaja tentang daging, tetapi juga sama ada pes dan sos boleh dimakan."
+    ]
+   ],
+   "emphasis": [
+    "tetap pedas",
+    "tahap pedas"
+   ],
+   "photoAlt": "Kari hijau dalam mangkuk dengan roti sebagai pelengkap",
+   "photoCaption": "Kari hijau dengan roti · Contoh hidangan"
+  },
+  "massaman": {
+   "name": "Kari Massaman",
+   "scope": "Kari wakil Thailand",
+   "intro": "Cuba kari Massaman yang berbau kayu manis dan buah pelaga. Ia kari pekat yang diberi rasa dengan pelbagai rempah, sesuai dimakan perlahan-lahan bersama nasi. Ia juga sesuai bagi anda yang mahu merasai aroma yang berbeza daripada kari hijau. Ia dikenali sebagai kari yang agak lembut, tetapi tahap pedasnya berbeza mengikut kedai.",
+   "flavor": "Aroma rempah seperti kayu manis, buah pelaga dan bunga cengkih meresap ke dalam kari. Kalau dimakan bersebelahan dengan kari hijau yang aroma herbanya menonjol, perbezaan kedua-dua kari mudah dirasai. Makan sos yang pekat sedikit demi sedikit bersama nasi.",
+   "ingredients": "Diberi rasa dengan pelbagai rempah seperti kayu manis, buah pelaga dan bunga cengkih. Daging dan kacang sebenar bergantung pada menu yang dipesan.",
+   "story": "Massaman ialah salah satu kari wakil Thailand dan turut diperkenalkan dalam panduan budaya makan tengah. Ia bukan hidangan yang hanya dimakan di bandar tertentu. Kalau anda baru mencuba kari Thailand, mulakan dengan Massaman, dan apabila ingin tahu rasa herba dan cili, cuba juga kari hijau.",
+   "tip": "Walaupun kari ini agak lembut, ia tidak bermakna tiada rasa pedas.",
+   "steps": [
+    "Pilih menu yang mengandungi daging pilihan anda. Lihat juga sama ada nasi untuk dimakan bersama kari termasuk dalam hidangan.",
+    "Rasa sedikit kari dahulu, kemudian makan bersama nasi. Letakkan sos yang pekat dan daging bersama di atas nasi.",
+    "Kalau anda tidak boleh makan kacang atau rempah tertentu, beritahu sebelum memesan. Walaupun agak lembut, kari ini mungkin ada rasa pedas."
+   ],
+   "faq": [
+    [
+     "Saya baru mencuba kari Thailand. Boleh pilih Massaman?",
+     "Ia sesuai dipilih oleh anda yang mahu mulakan dengan kari yang agak lembut. Namun, tahap pedas dan rasa rempah berbeza mengikut kedai, jadi lebih baik tanya tahap pedas semasa memesan."
+    ],
+    [
+     "Adakah semua Massaman halal?",
+     "Anda tidak boleh menentukan halal atau tidak berdasarkan nama hidangan sahaja. Periksa jenis daging, perisa dan pensijilan restoran bersama-sama."
+    ]
+   ],
+   "emphasis": [
+    "tidak bermakna tiada rasa pedas",
+    "sebelum memesan"
+   ],
+   "photoAlt": "Foto hidangan kari Massaman",
+   "photoCaption": "Kari Massaman · Contoh hidangan"
+  },
+  "mango-sticky-rice": {
+   "name": "Pulut Mangga",
+   "scope": "Pencuci mulut wakil Thailand",
+   "intro": "Kalau teringin makanan manis selepas makan, cuba pulut mangga. Pulut yang diberi rasa santan dihidangkan di sebelah mangga yang masak ranum, dan inilah pencuci mulut Thailand. Apabila mangga dan pulut disuap sekali, rasa manis buah bergabung dengan tekstur pulut yang kenyal. Kalau sudah kenyang selepas makan, kongsi sepinggan dengan rakan seperjalanan.",
+   "flavor": "Kemanisan mangga ditambah kelemakan kelapa. Pulut yang kenyal memberi tekstur yang berbeza daripada memakan buah sahaja. Rasa mangga dan pulut secara berasingan dahulu, kemudian cuba suap sekali dalam satu sudu.",
+   "ingredients": "Mangga masak dihidangkan bersama pulut yang diberi rasa santan. Sos dan topping berbeza mengikut tempat jualan.",
+   "story": "Di Thailand, pulut yang diberi rasa santan dimakan dengan pelbagai topping sebagai pencuci mulut. Pulut mangga ialah salah satunya, dihidangkan bersama mangga masak. Walaupun ada nasi, anggaplah ia pencuci mulut yang manis dan bukan hidangan makan bersama lauk.",
+   "tip": "Walaupun ada nasi pulut, ia dinikmati sebagai pencuci mulut yang manis.",
+   "steps": [
+    "Kalau anda sudah selesai makan, lihat saiz pinggan dan tentukan sama ada mahu berkongsi.",
+    "Makan mangga dan pulut secara berasingan, kemudian makan bersama. Anda akan merasai bagaimana rasa dan tekstur berubah apabila kedua-duanya bertemu.",
+    "Kalau sos dihidangkan berasingan, tambah sedikit demi sedikit. Anda tidak perlu menuang semuanya dari awal."
+   ],
+   "faq": [
+    [
+     "Ada nasi di dalamnya. Adakah ia dimakan sebagai hidangan utama?",
+     "Biasanya ia dinikmati sebagai pencuci mulut yang manis. Mangga dimakan bersama pulut yang diberi rasa santan. Kalau anda memakannya selepas makan, boleh juga berkongsi dengan rakan seperjalanan."
+    ],
+    [
+     "Adakah rasa mangga sentiasa sama?",
+     "Tidak. Ia berbeza mengikut baka, tahap kematangan dan waktu dijual. Hidangan ini ialah mangga yang ditambah pulut dan sos santan, jadi cuba suap bersama sekali gus."
+    ]
+   ],
+   "emphasis": [
+    "pencuci mulut"
+   ],
+   "photoAlt": "Foto hidangan pulut mangga",
+   "photoCaption": "Pulut mangga · Contoh hidangan"
+  },
+  "khao-soi": {
+   "name": "Khao Soi",
+   "scope": "Hidangan wakil utara",
+   "intro": "Kalau anda memilih makanan di Chiang Mai, cuba Khao Soi. Mi telur dihidangkan dalam kuah kari santan dan ditabur mi goreng rangup di atasnya, iaitu hidangan wakil utara. Keseronokannya ialah memakan mi lembut dan mi rangup secara bergilir-gilir. Kalau limau nipis dihidangkan sebagai pelengkap, rasa kuah dahulu, kemudian perah sedikit.",
+   "flavor": "Ciri utamanya ialah kuah kari yang pekat dan tekstur dua jenis mi. Mi di atas pada mulanya rangup dan perlahan-lahan menjadi lembut apabila terkena kuah. Rasa kuah sebelum dan selepas menambah pelengkap, dan anda akan menikmati rasa yang berbeza dalam satu mangkuk.",
+   "ingredients": "Mi telur diletakkan dalam kuah kari santan dan ditabur mi goreng. Ada menu yang membolehkan anda memilih bahan utama seperti ayam atau daging lembu.",
+   "story": "Khao Soi terkenal semasa melancong di Chiang Mai, tetapi juga dimakan di bandar lain di utara. Berbeza daripada hidangan utara yang menyusun pulut dan lauk, mi dan kuah dihidangkan dalam satu mangkuk. Ia sesuai dipilih apabila anda makan seorang diri atau mahu makan tengah hari yang ringkas.",
+   "tip": "Makan dahulu mi rangup di atas sebelum ia lembap oleh kuah.",
+   "steps": [
+    "Pilih bahan utama seperti ayam atau daging lembu dan buat pesanan.",
+    "Cuba sesuap mi goreng sebelum ia lembap oleh kuah. Makan bersilih ganti dengan mi lembut di bawah untuk merasai perbezaan tekstur.",
+    "Rasa kuah dahulu, kemudian tambah limau nipis dan pelengkap sedikit demi sedikit. Anda tidak perlu memasukkan semuanya dari awal."
+   ],
+   "faq": [
+    [
+     "Adakah hanya boleh dimakan di Chiang Mai?",
+     "Tidak. Ia hidangan wakil yang dimakan di banyak bandar di utara. Kalau anda mencuba makanan utara buat kali pertama di Chiang Mai, mulakan dengan semangkuk Khao Soi."
+    ],
+    [
+     "Daging apa yang digunakan dalam Khao Soi?",
+     "Ada pelbagai menu seperti ayam atau daging lembu. Lihat bahan utama yang tertera pada menu dan pilih yang anda mahu. Tidak semua kedai menggunakan daging yang sama."
+    ]
+   ],
+   "emphasis": [
+    "mi rangup",
+    "bahan utama"
+   ],
+   "photoAlt": "Khao Soi dengan mi goreng di atas dan pelengkap dalam mangkuk berasingan",
+   "photoCaption": "Khao Soi · Contoh hidangan"
+  },
+  "sai-ua": {
+   "name": "Sai Ua",
+   "scope": "Hidangan wakil utara",
+   "intro": "Kalau teringin hidangan daging yang harum di Chiang Mai, pilih Sai Ua. Ini sosej utara yang dibakar daripada daging babi yang dicampur cili dan herba. Sepotong sahaja membolehkan anda merasai kelemakan daging bakar dan aroma herba sekali gus. Dimakan bersama pulut dan sayur, ia sesuai sebagai satu hidangan utara.",
+   "flavor": "Rasa daging babi yang berlemak ditambah aroma herba dan perisa cili. Cirinya ialah aroma yang berbeza daripada sosej yang biasa anda kenali. Tahap pedas berbeza mengikut cara memasak, jadi kalau baru mencuba, rasa dahulu sepotong kecil.",
+   "ingredients": "Daging babi dicampur cili, bawang putih dan pelbagai herba, kemudian dibakar. Campuran herba dan perisa berbeza mengikut tempat membuatnya.",
+   "story": "Sai Ua kerap hadir di meja makan Lanna di utara. Ia juga dimakan bersama pulut atau sos cicah seperti nam prik. Kalau dipesan bersama Nam Prik Ong yang berperisa tomato dan sayur, anda boleh bergilir-gilir menikmati daging bakar dan sos.",
+   "tip": "Ia sosej daging babi yang dicampur herba dan dibakar.",
+   "steps": [
+    "Pilih kuantiti yang mahu dimakan dan buat pesanan. Kalau makan beberapa hidangan, anda boleh berkongsi sedikit demi sedikit dengan rakan.",
+    "Mulakan dengan sepotong kecil. Apabila anda tahu aroma herba dan tahap pedasnya, lebih mudah menentukan jumlah pulut atau sayur untuk dimakan bersama.",
+    "Makan bersama pulut, nam prik dan sayur. Anda akan menikmati hidangan yang berbeza daripada memakan sosej sahaja."
+   ],
+   "faq": [
+    [
+     "Adakah ia sosej yang sama dengan Sai Krok Isan?",
+     "Tidak. Sai Ua ialah sosej utara yang dibakar dengan herba. Sai Krok Isan ialah hidangan Isan yang daging babi dan berasnya difermentasi, dan cirinya ialah rasa masam daripada fermentasi."
+    ],
+    [
+     "Boleh pesan kalau tidak makan daging babi?",
+     "Sai Ua yang biasa dibuat daripada daging babi. Kalau anda tidak makan daging babi, lebih baik pilih hidangan lain."
+    ]
+   ],
+   "emphasis": [
+    "daging babi",
+    "sepotong kecil"
+   ],
+   "photoAlt": "Foto hidangan Sai Ua",
+   "photoCaption": "Sai Ua · Contoh hidangan"
+  },
+  "nam-prik-ong": {
+   "name": "Nam Prik Ong",
+   "scope": "Sos cicah utara",
+   "intro": "Kenali Nam Prik Ong yang dimakan bersama sayur dalam hidangan utara. Ini sos cicah merah yang dibuat daripada tomato, daging babi cincang dan cili. Calit sedikit pada sayur atau makan bersama pulut, dan anda dapat menikmati rasa umami daging babi serta kemasaman tomato sekali gus. Pesan bersama Sai Ua dan susun meja makan gaya utara.",
+   "flavor": "Kemasaman tomato dan rasa umami daging babi ditambah perisa cili. Apabila sos yang lembut dimakan bersama sayur yang rangup, tekstur yang berbeza saling melengkapi. Tahap pedas berbeza mengikut tempat membuatnya.",
+   "ingredients": "Tomato, daging babi cincang dan cili digunakan. Ia sos yang dimakan sedikit demi sedikit bersama pulut dan sayur.",
+   "story": "Nam prik ialah sos cicah yang dimakan bersama sayur atau nasi di Thailand. Di utara ada pelbagai nam prik, dan Nam Prik Ong ialah jenis yang menggunakan tomato dan daging babi. Anda juga boleh menemuinya bersama pulut dan sayur dalam hidangan khantoke, iaitu makanan yang disusun di atas dulang kecil.",
+   "tip": "Sos tomato ini juga mengandungi daging babi cincang.",
+   "steps": [
+    "Lihat sama ada pulut dan sayur turut dihidangkan, dan cuba pesan bersama hidangan utara yang lain.",
+    "Calit sedikit sos pada sayur dan cuba dahulu. Apabila dimakan bersama pulut, anda akan merasai tekstur yang berbeza.",
+    "Walaupun berupa sos tomato, hidangan ini menggunakan daging babi. Kalau anda mengelakkan daging atau perencah haiwan, beritahu sebelum memesan."
+   ],
+   "faq": [
+    [
+     "Adakah sos yang dibuat daripada tomato itu vegetarian?",
+     "Tidak. Nam Prik Ong yang biasa mengandungi daging babi cincang. Kalau anda vegetarian, jangan pilih hanya kerana warna tomato; tanya juga tentang daging dan perisa."
+    ],
+    [
+     "Adakah sos ini dimakan seorang diri?",
+     "Ia dimakan sedikit demi sedikit bersama sayur dan pulut. Kalau dipesan bersama hidangan bakar seperti Sai Ua, mudah untuk berkongsi pelbagai rasa."
+    ]
+   ],
+   "emphasis": [
+    "daging babi cincang",
+    "sos cicah",
+    "perencah haiwan"
+   ],
+   "photoAlt": "Nam Prik Ong, sos tomato dan daging babi, bersama sayur",
+   "photoCaption": "Nam Prik Ong · Contoh hidangan"
+  },
+  "mi-hokkien": {
+   "name": "Mi Hokkien Phuket",
+   "scope": "Hidangan mi tempatan Phuket",
+   "intro": "Kalau teringin hidangan mi di Phuket, cuba Mi Hokkien. Mi kuning yang tebal digoreng bersama makanan laut dan sos di atas api yang kuat. Anda dapat menikmati rasa sos yang meresap ke dalam mi serta makanan laut sekali gus. Pilih ia untuk makan tengah hari semasa menjelajah bandar lama Phuket.",
+   "flavor": "Rasa sos dan makanan laut meresap ke dalam mi yang tebal. Berbanding Mi Hun yang menggunakan bihun halus, tekstur mi terasa berbeza. Rasa satu mangkuk juga boleh berubah mengikut jumlah kuah serta bahan tambahan seperti telur.",
+   "ingredients": "Mi kuning yang tebal digoreng dengan makanan laut dan sos. Daging atau telur kadangkala digunakan, jadi lihat bahan yang dimasukkan bersama pada menu.",
+   "story": "Makanan Phuket mengandungi budaya makan yang diteruskan oleh penduduk berketurunan Cina. Mi Hokkien juga ialah hidangan mi wakil yang dipengaruhi oleh budaya itu. Kalau anda hanya memikirkan makanan laut bakar semasa melancong di Phuket, nikmati hidangan lain ini, iaitu mi yang digoreng bersama makanan laut.",
+   "tip": "Ia hidangan mi yang berbeza daripada Mi Hun yang menggunakan bihun halus.",
+   "steps": [
+    "Lihat bahan seperti makanan laut, daging atau telur, kemudian pilih menu yang anda mahu.",
+    "Apabila hidangan sampai, makan mi dan makanan laut bersama. Anda dapat merasai rasa sos yang meresap ke dalam mi tebal.",
+    "Kalau ada perisa tambahan, rasa dahulu dan tambah sedikit demi sedikit. Kalau anda tidak boleh makan makanan laut, tanya sama ada kuah dan sos turut mengandunginya."
+   ],
+   "faq": [
+    [
+     "Adakah ia hidangan mi yang sama dengan Mi Hun?",
+     "Tidak. Mi Hokkien ialah hidangan mi Phuket yang menggunakan mi kuning tebal, manakala Mi Hun menggunakan bihun halus. Kalau anda mencuba kedua-duanya, anda akan merasai perbezaan tekstur mi dan hidangan yang dihidangkan bersama."
+    ],
+    [
+     "Boleh pesan kalau tidak boleh makan makanan laut?",
+     "Mi Hokkien yang biasa dimasak dengan makanan laut. Sama ada bahan boleh ditukar bergantung pada kedai, jadi tanya bukan sahaja bahan utama tetapi juga kuah dan sos."
+    ]
+   ],
+   "emphasis": [
+    "Mi kuning",
+    "makanan laut",
+    "Mi Hun"
+   ]
+  },
+  "mi-hun": {
+   "name": "Mi Hun",
+   "scope": "Hidangan mi tempatan Phuket",
+   "intro": "Di Phuket, cuba juga Mi Hun yang menggunakan bihun halus. Ia dikenali sebagai hidangan yang dihidangkan bersama kuah tulang rusuk babi. Makan sesuap mi, kemudian hirup kuah yang panas, dan anda akan menikmati rasa yang berbeza daripada makan mi sahaja. Pilih ia apabila anda ingin tahu hidangan mi lain selepas mencuba Mi Hokkien yang bermi tebal.",
+   "flavor": "Hidangan ini dinikmati melalui tekstur bihun halus dan rasa kuah yang dihidangkan bersama. Kalau mi dan kuah dihidangkan berasingan, makan secara bergilir-gilir. Anda dapat menikmati hidangan yang berbeza daripada mi goreng yang tebal.",
+   "ingredients": "Bihun halus digunakan. Bentuk yang dihidangkan bersama kuah tulang rusuk babi dikenali ramai.",
+   "story": "Di Phuket, anda boleh menemui hidangan bihun halus dengan nama seperti Mi Hun dan Mi Hun Ba Chang. Dihidangkan bersama kuah tulang rusuk babi ialah bentuk yang dikenali ramai. Cara penghidangan boleh berbeza mengikut kedai, jadi lihat pada menu sama ada mi dan kuah dihidangkan bersama.",
+   "tip": "Lihat sama ada kuah tulang rusuk babi dihidangkan bersama sebelum memesan.",
+   "steps": [
+    "Lihat pada menu sama ada kuah tulang rusuk babi dihidangkan bersama, kemudian buat pesanan.",
+    "Makan sesuap mi dahulu, kemudian hirup kuah yang panas. Nikmati mi dan kuah secara bergilir-gilir.",
+    "Kalau anda tidak boleh makan daging babi, tanya bahan dalam perisa mi dan kuah sekali. Jangan menganggap anda boleh mengelakkan daging babi hanya dengan tidak mengambil kuah."
+   ],
+   "faq": [
+    [
+     "Adakah mi dan kuah mesti dihidangkan bersama?",
+     "Bergantung pada kedai dan menu. Bentuk yang dihidangkan bersama kuah tulang rusuk babi dikenali ramai, tetapi pilih berdasarkan apa yang termasuk dalam menu yang anda pesan."
+    ],
+    [
+     "Kalau tidak makan daging babi, adakah cukup tidak mengambil kuah?",
+     "Perisa atau cara memasak mi juga mungkin menggunakan daging babi. Kalau anda mengelakkan daging babi, tanya bahan mi dan kuah kedua-duanya."
+    ]
+   ],
+   "emphasis": [
+    "kuah tulang rusuk babi",
+    "perisa mi dan kuah"
+   ]
+  },
+  "o-aew": {
+   "name": "O-Aew",
+   "scope": "Pencuci mulut tempatan Phuket",
+   "intro": "Kalau anda ingin berehat sebentar semasa berjalan di bandar lama Phuket pada hari yang panas, cuba O-Aew. Ini snek sejuk yang dibuat dengan menaburkan jeli, sirap manis dan topping di atas ais. Apabila ais dan jeli disuap bersama, anda dapat menikmati rasa dingin dan tekstur yang lembut. Ia juga sesuai sebagai pencuci mulut selepas makan hidangan mi.",
+   "flavor": "Ais yang sejuk ditambah jeli yang lembut dan kemanisan sirap. Rasa dan tekstur setiap suapan berbeza mengikut topping yang diletakkan. Suap ais dan jeli bersama.",
+   "ingredients": "Sirap manis dan topping ditambah pada ais dan jeli. Bahan jeli dan topping berbeza mengikut kedai.",
+   "story": "O-Aew ialah pencuci mulut tempatan Phuket. Di meja makan Phuket, bukan sahaja ada hidangan makanan laut dan mi, malah snek sejuk seperti ini juga. Ia patut dipilih apabila anda mencari sesuatu yang manis di antara waktu makan semasa melancong.",
+   "tip": "Suap ais dan jeli bersama untuk menikmati dua tekstur.",
+   "steps": [
+    "Lihat jeli dan topping yang diletakkan, kemudian pilih. Anda juga boleh bertanya sama ada sirap boleh dilaraskan.",
+    "Suap ais dan jeli bersama dalam satu sudu. Anda akan merasai tekstur yang berbeza daripada makan jeli sahaja.",
+    "Kalau ada bahan yang anda elakkan, tanya bahan jeli dan topping. Walaupun dijual dengan nama yang sama, komposisinya tidak semestinya sama."
+   ],
+   "faq": [
+    [
+     "Adakah O-Aew dimakan sebagai hidangan utama?",
+     "Ia snek yang dibuat daripada ais dan jeli. Makan semasa berehat pada hari yang panas atau sebagai pencuci mulut selepas makan."
+    ],
+    [
+     "Adakah jeli dan topping sama di mana-mana?",
+     "Tidak. Topping dan sirap yang diletakkan boleh berbeza mengikut kedai. Kalau ada bahan yang tidak boleh anda makan, tanya jeli dan topping sekali."
+    ]
+   ],
+   "emphasis": [
+    "jeli dan topping",
+    "ais dan jeli"
+   ],
+   "photoAlt": "Foto hidangan O-Aew",
+   "photoCaption": "O-Aew · Contoh hidangan"
+  },
+  "boat-noodles": {
+   "name": "Mi Bot (Kuey Teow Kapal)",
+   "scope": "Hidangan terkenal di Ayutthaya",
+   "intro": "Kalau teringin semangkuk mi semasa menjelajah tapak bersejarah di Ayutthaya, cuba mi bot. Mi dan daging dihidangkan dalam kuah, dan bersama udang galah bakar, ia terkenal di Ayutthaya. Pilih mi dan daging pada menu, kemudian nikmati bersama kuah ketika masih panas. Ia juga dimakan di bandar lain, tetapi ia hidangan yang sesuai dipilih semasa melancong di Ayutthaya.",
+   "flavor": "Kuah, mi dan daging dinikmati bersama. Rasa kuah boleh berbeza mengikut daging dan perisa. Mula-mula makan tanpa menambah perisa, kemudian tambah cili atau perisa lain sedikit demi sedikit.",
+   "ingredients": "Mi dan daging dihidangkan dalam kuah. Cara menggunakan daging, jeroan dan perisa berbeza mengikut menu.",
+   "story": "Dalam pengembaraan makanan di Ayutthaya, anda boleh menemui mi bot, udang galah bakar dan Roti Sai Mai sekali gus. Makan mi pada waktu tengah hari dan Roti Sai Mai sebagai snek juga satu rancangan yang baik. Namun, mi bot bukan hidangan yang hanya boleh dimakan di Ayutthaya.",
+   "tip": "Lihat jenis mi, daging dan saiz mangkuk sebelum memesan.",
+   "steps": [
+    "Pilih mi dan daging yang anda mahu, kemudian buat pesanan. Kalau anda mengelakkan daging, jeroan atau perisa tertentu, tanya bahan dalam kuah juga.",
+    "Lihat saiz mangkuk dan tentukan berapa mangkuk yang mahu dimakan. Tidak semua kedai menghidangkan saiz yang sama.",
+    "Rasa kuah dahulu, kemudian tambah perisa tambahan sedikit demi sedikit. Anda tidak perlu memasukkan banyak cili dari awal."
+   ],
+   "faq": [
+    [
+     "Adakah hanya boleh dimakan di Ayutthaya?",
+     "Tidak. Ia hidangan yang juga dimakan di bandar lain. Di Ayutthaya, ia sesuai dipilih sebagai makan tengah hari di tengah-tengah menjelajah tapak bersejarah."
+    ],
+    [
+     "Adakah semua bahan dalam kuah sama?",
+     "Tidak. Daging, jeroan, perisa dan kuah berbeza mengikut menu. Kalau ada bahan yang anda elakkan, tanya sama ada kuah turut menggunakannya, bukan sekadar meminta daging dikeluarkan."
+    ]
+   ],
+   "emphasis": [
+    "jenis mi, daging",
+    "saiz mangkuk"
+   ],
+   "photoAlt": "Foto hidangan mi bot",
+   "photoCaption": "Mi bot · Contoh hidangan"
+  },
+  "river-prawns": {
+   "name": "Udang Galah Bakar",
+   "scope": "Hidangan terkenal di Ayutthaya",
+   "intro": "Kalau anda mencari hidangan untuk dikongsi di Ayutthaya, pilih udang galah bakar. Udang dibakar dan isinya dikopek untuk dimakan, sesuai dinikmati beramai-ramai bersama nasi dan hidangan lain. Harga berbeza mengikut saiz udang dan unit jualan, jadi lihat dahulu udang yang anda mahu pesan.",
+   "flavor": "Hidangan ini dinikmati melalui aroma udang bakar dan tekstur isi udang. Rasa isinya sahaja dahulu, kemudian calit sedikit sos yang dihidangkan bersama. Kalau dimakan bersama nasi, rasa sos juga boleh dinikmati.",
+   "ingredients": "Udang galah dibakar. Saiz udang, sos pelengkap dan unit jualan berbeza mengikut restoran.",
+   "story": "Udang galah ialah bahan makanan yang terkenal semasa melancong di Ayutthaya. Kalau mi bot ialah hidangan satu mangkuk, udang galah bakar boleh dipilih sebagai menu untuk dikongsi bersama rakan seperjalanan. Anda tidak perlu menganggap udang galah itu liar atau ditangkap dari sungai di Ayutthaya hanya kerana namanya.",
+   "tip": "Tanya sama ada unit jualan ialah seekor atau mengikut berat.",
+   "steps": [
+    "Tanya dahulu sama ada harga dikira seekor atau mengikut berat. Walaupun udang bakar yang sama, harga berbeza mengikut saiz dan cara jualan.",
+    "Tentukan saiz dan bilangan udang, dan minta jumlah harga pesanan. Lihat juga sama ada nasi dan hidangan lain termasuk.",
+    "Kopek isi udang dan makan dahulu seadanya. Calit sedikit sos sambil berkongsi dengan rakan seperjalanan."
+   ],
+   "faq": [
+    [
+     "Adakah semua udang ditangkap dari sungai di Ayutthaya?",
+     "Anda tidak boleh mengetahuinya daripada nama hidangan sahaja. Kalau ingin tahu asal sebenar dan sama ada ia diternak, tanya sambil menunjuk udang yang akan dipesan."
+    ],
+    [
+     "Berapa harga yang perlu dibayar?",
+     "Ia berbeza mengikut saiz udang dan cara jualan seperti seekor atau mengikut berat. Minta jumlah harga untuk saiz dan kuantiti yang dipilih sebelum memesan supaya mudah menentukan belanja makan."
+    ]
+   ],
+   "emphasis": [
+    "unit jualan",
+    "seekor atau mengikut berat"
+   ],
+   "photoAlt": "Udang galah yang dibelah dan dibakar bersama sos",
+   "photoCaption": "Udang galah bakar · Contoh hidangan"
+  },
+  "roti-sai-mai": {
+   "name": "Roti Sai Mai",
+   "scope": "Snek wakil Ayutthaya",
+   "intro": "Di Ayutthaya, cuba Roti Sai Mai, iaitu roti nipis yang dimakan dengan benang gula. Ini snek yang dimakan dengan meletakkan benang gula halus di atas roti dan menggulungnya. Apabila anda menggulung sendiri, masukkan benang gula sedikit demi sedikit untuk mendapat kemanisan yang anda suka. Anda juga boleh membuka roti helaian demi helaian dan berkongsi bersama rakan seperjalanan.",
+   "flavor": "Tekstur roti yang nipis dan lembut bergabung dengan benang gula yang halus. Kemanisan berubah mengikut jumlah benang gula yang dimasukkan. Mula-mula masukkan sedikit, dan pada roti seterusnya tambah mengikut citarasa.",
+   "ingredients": "Roti nipis digulung dengan benang gula yang halus. Ada juga bentuk yang menambah aroma pandan atau bijan pada roti.",
+   "story": "Roti Sai Mai berkait dengan budaya snek yang diteruskan oleh komuniti Muslim di Ayutthaya. Ada roti yang diberi warna hijau dengan aroma pandan, dan ada juga yang menggunakan bijan. Berbeza daripada menu roti biasa, cirinya ialah benang gula yang digulung bersama.",
+   "tip": "Masukkan benang gula sedikit demi sedikit untuk mendapat kemanisan yang anda suka.",
+   "steps": [
+    "Sediakan roti dan benang gula bersama. Kalau dihidangkan berasingan, buka satu helaian roti.",
+    "Letakkan sedikit benang gula, kemudian gulung atau lipat roti untuk dimakan.",
+    "Kalau perlukan lebih manis, tambah lebih banyak benang gula pada roti seterusnya. Anda tidak perlu memasukkan banyak sekali gus."
+   ],
+   "faq": [
+    [
+     "Apakah perbezaannya daripada roti biasa?",
+     "Ia hidangan yang menggulung benang gula halus dalam roti nipis. Cara makan dan teksturnya berbeza daripada roti yang menggunakan pisang atau topping lain."
+    ],
+    [
+     "Adakah roti hijau juga snek yang sama?",
+     "Ada juga bentuk yang menggunakan roti beraroma pandan dan digulung dengan benang gula. Aroma dan bahan sebenar boleh berbeza mengikut tempat jualan."
+    ]
+   ],
+   "emphasis": [
+    "benang gula",
+    "sedikit"
+   ],
+   "photoAlt": "Benang gula halus di atas roti nipis",
+   "photoCaption": "Roti Sai Mai · Contoh hidangan"
+  },
+  "som-tam": {
+   "name": "Som Tam",
+   "scope": "Hidangan wakil Isan · Hidangan yang dinikmati di seluruh negara",
+   "intro": "Kalau teringin hidangan yang rangup dan masam, cuba Som Tam. Ini salad yang dibuat dengan memotong betik muda halus-halus lalu menumbuknya dalam lesung bersama perisa. Rasa masam dan pedas meresap ke dalam betik, jadi sesuai dimakan bersama pulut atau hidangan bakar. Di Isan ada juga jenis yang menggunakan perencah ikan fermentasi, jadi kalau bau fermentasi terasa asing, tanya jenis som tam semasa memesan.",
+   "flavor": "Kerangupan betik bergabung dengan perisa masam dan pedas. Pada jenis yang menggunakan pla ra, iaitu perencah ikan fermentasi, bau fermentasi juga terasa. Walaupun som tam yang sama, rasanya berbeza mengikut cara menggunakan perencah dan cili.",
+   "ingredients": "Betik muda diperisakan dengan cili dan bahan masam. Kacang tanah, udang dan perencah ikan fermentasi berbeza mengikut jenis som tam.",
+   "story": "Som Tam ialah hidangan wakil Isan dan dimakan di banyak bandar di Thailand. Dalam Isan pun ada jenis yang berbeza mengikut kawasan, jadi seperti membandingkan rasa laksa mengikut negeri, anda boleh membandingkan rasa som tam. Semasa melancong di Khon Kaen, makan bersama pulut dan hidangan Isan yang lain.",
+   "tip": "Kalau mahu kurangkan pedas, beritahu sebelum hidangan dibuat.",
+   "steps": [
+    "Pilih jenis som tam dan tanya sama ada pla ra atau perencah ikan fermentasi lain digunakan.",
+    "Kalau mahu kurangkan pedas, beritahu sebelum hidangan dibuat. Selepas betik ditumbuk bersama perisa, sukar untuk mengeluarkan cili sahaja.",
+    "Pesan pulut dan hidangan lain, kemudian makan sedikit demi sedikit bersama. Anda akan menikmati hidangan yang berbeza daripada makan betik sahaja."
+   ],
+   "faq": [
+    [
+     "Adakah som tam sama rasanya di mana-mana?",
+     "Tidak. Cili, perencah dan cara memberi rasa manis berbeza. Kalau anda belum biasa dengan bau fermentasi, lebih baik tanya dahulu sama ada pla ra digunakan."
+    ],
+    [
+     "Ia salad betik. Adakah ia vegetarian?",
+     "Belum tentu. Ada jenis yang menggunakan perencah ikan atau udang. Kalau anda vegetarian, tanya sama ada perisa dan topping selain betik juga boleh dimakan."
+    ]
+   ],
+   "emphasis": [
+    "perencah ikan fermentasi",
+    "sebelum hidangan dibuat"
+   ],
+   "photoAlt": "Foto hidangan Som Tam",
+   "photoCaption": "Som Tam · Contoh hidangan"
+  },
+  "larb": {
+   "name": "Larb",
+   "scope": "Salad daging Isan",
+   "intro": "Kalau anda mencari hidangan daging untuk dimakan bersama pulut, cuba larb gaya Isan. Daging cincang diperisakan dengan herba, limau nipis dan serbuk beras goreng. Rasa masam dan aroma berlemak ditambah pada daging, jadi sesuai dimakan bersama sayur. Ada menu yang menggunakan daging mentah, jadi semasa memesan, tanya sama ada larb itu dimasak.",
+   "flavor": "Rasa masam limau nipis dan aroma herba ditambah kelemakan serbuk beras goreng. Daging cincang bercampur sekata dengan perisa, jadi sesuai dimakan sedikit demi sedikit bersama pulut. Rasanya juga berbeza mengikut daging yang digunakan, seperti daging babi, daging lembu atau itik.",
+   "ingredients": "Daging cincang diperisakan dengan serbuk beras goreng, herba dan limau nipis. Jenis daging berbeza, seperti daging babi, daging lembu atau itik.",
+   "story": "Larb ialah salad daging yang ditemui di meja makan Isan. Di utara pun ada larb, tetapi perisa dan cara memasaknya tidak sama. Hidangan yang diperkenalkan di sini ialah larb gaya Isan yang menambah serbuk beras goreng, limau nipis dan herba.",
+   "tip": "Ada jenis yang menggunakan daging mentah. Pesan larb yang dimasak.",
+   "steps": [
+    "Pilih daging yang anda mahu, kemudian pesan menu yang dimasak. Ada larb yang menggunakan daging mentah.",
+    "Kalau mahu kurangkan pedas, beritahu sebelum hidangan dibuat.",
+    "Makan bersama pulut dan sayur. Nikmati rasa daging dan herba dengan menyuap larb sedikit demi sedikit."
+   ],
+   "faq": [
+    [
+     "Adakah larb semuanya dibuat daripada daging yang dimasak?",
+     "Tidak. Ada jenis yang menggunakan daging mentah. Pihak Berkuasa Pelancongan Thailand menasihati agar memesan larb yang dimasak, jadi beritahu semasa memesan."
+    ],
+    [
+     "Adakah larb utara rasanya sama?",
+     "Perisa dan cara memasaknya berbeza. Di sini kami perkenalkan larb gaya Isan yang menggunakan serbuk beras goreng, limau nipis dan herba. Walaupun anda melihat nama yang sama di utara, ia boleh terasa seperti hidangan lain."
+    ]
+   ],
+   "emphasis": [
+    "yang dimasak",
+    "semasa memesan"
+   ],
+   "photoAlt": "Larb daging itik bersama sayur",
+   "photoCaption": "Larb gaya Isan daripada daging itik · Contoh hidangan"
+  },
+  "sai-krok-isan": {
+   "name": "Sai Krok Isan",
+   "scope": "Sosej fermentasi Isan",
+   "intro": "Kalau anda ingin merasai makanan fermentasi Isan yang masam, cuba Sai Krok Isan. Ini sosej yang dibuat dengan mencampurkan daging babi, beras, bawang putih dan sebagainya lalu memfermentasinya. Kelemakan daging ditambah rasa masam daripada fermentasi. Kalau anda sudah mencuba Sai Ua, sosej utara, bandingkan juga rasa kedua-dua hidangan ini.",
+   "flavor": "Cirinya ialah kelemakan daging babi dan rasa masam daripada fermentasi. Kekuatan rasa masam berbeza mengikut tahap fermentasi dan cara memasak. Cili segar yang dihidangkan bersama mungkin pedas, jadi makan secara berasingan sedikit demi sedikit.",
+   "ingredients": "Daging babi, beras, bawang putih dan sebagainya dicampur dan difermentasi. Rasa masam boleh berubah mengikut cara fermentasi dan memasak.",
+   "story": "Sai Krok Isan ialah hidangan Isan yang dibuat daripada daging babi dan beras yang difermentasi. Ia bukan hidangan yang hanya dimakan di Khon Kaen. Apabila dibandingkan dengan Sai Ua utara yang menikmati aroma herba, mudah untuk merasai bagaimana bahan dan rasa sosej berbeza mengikut wilayah.",
+   "tip": "Makan cili segar yang dihidangkan bersama secara berasingan sedikit demi sedikit.",
+   "steps": [
+    "Pesan dengan membezakan Sai Ua yang menggunakan herba daripada Sai Krok Isan, sosej fermentasi.",
+    "Cuba sedikit demi sedikit sosej yang dimasak. Dengan merasa dahulu, anda tahu setakat mana rasa masam fermentasi.",
+    "Kalau cili segar dihidangkan bersama, jangan makan sekali gus; makan secara berasingan sedikit demi sedikit."
+   ],
+   "faq": [
+    [
+     "Mengapa sosej ini terasa masam?",
+     "Kerana ia dibuat dengan memfermentasi daging babi dan beras. Ia sosej yang dinikmati kerana kemasaman daripada fermentasi, dan kekuatan rasa masam sebenar berbeza mengikut produk dan cara memasak."
+    ],
+    [
+     "Apakah perbezaannya daripada Sai Ua?",
+     "Sai Ua ialah sosej utara yang dibakar dengan herba, manakala Sai Krok Isan ialah sosej Isan yang daging babi dan berasnya difermentasi. Kalau mencuba kedua-duanya, anda boleh membandingkan aroma herba dengan kemasaman fermentasi."
+    ]
+   ],
+   "emphasis": [
+    "sosej fermentasi",
+    "cili segar"
+   ],
+   "photoAlt": "Foto hidangan Sai Krok Isan",
+   "photoCaption": "Sai Krok Isan · Contoh hidangan"
+  },
+  "au-pla": {
+   "name": "Au Pla",
+   "scope": "Hidangan tempatan Khon Kaen",
+   "intro": "Kalau anda ingin mencuba hidangan tempatan yang berbeza daripada som tam di Khon Kaen, cari Au Pla. Ini kari yang dibuat dengan ikan air tawar, rasanya pedas dan masin. Kalau anda suka hidangan ikan, ia patut dipilih untuk dimakan bersama nasi. Ikan dan perisa yang digunakan boleh berbeza mengikut kedai.",
+   "flavor": "Kari yang menambah rasa pedas dan masin pada ikan air tawar. Anda boleh menikmati hidangan yang berbeza daripada som tam yang menggunakan sayur rangup atau hidangan daging seperti larb. Makan sedikit demi sedikit bersama nasi.",
+   "ingredients": "Kari yang dibuat daripada ikan air tawar. Ikan dan perisa yang digunakan berbeza mengikut menu yang dipesan.",
+   "story": "Di Isan ada budaya menggunakan ikan air tawar sungai dalam makanan. Au Pla ialah menu yang diperkenalkan sebagai hidangan tempatan Khon Kaen. Ia sesuai bagi anda yang ingin tahu hidangan lain di Khon Kaen selepas mencuba som tam dan larb yang dikenali di seluruh Isan.",
+   "tip": "Makan perlahan-lahan sambil memeriksa tulang ikan.",
+   "steps": [
+    "Cari Au Pla pada menu dan tanya ikan apa yang digunakan. Eloklah juga tanya sama ada tahap pedas boleh dilaraskan.",
+    "Pesan nasi untuk dimakan bersama, kemudian makan ikan dan kuah sedikit demi sedikit.",
+    "Makan perlahan-lahan sambil memeriksa tulang ikan. Jenis ikan dan perisa terperinci bergantung pada menu yang dipesan."
+   ],
+   "faq": [
+    [
+     "Apakah perbezaannya daripada som tam atau larb?",
+     "Au Pla ialah kari yang menggunakan ikan air tawar. Berbeza daripada som tam yang menumbuk betik atau larb yang memperisakan daging cincang, ikan dan kuah dimakan bersama nasi."
+    ],
+    [
+     "Adakah ia hidangan yang berkait dengan Khon Kaen?",
+     "Ya. Ia menu yang diperkenalkan oleh Pihak Berkuasa Pelancongan Thailand sebagai hidangan tempatan Khon Kaen. Ia patut dilihat oleh anda yang ingin merasai hidangan ikan air tawar semasa melancong di Isan."
+    ]
+   ],
+   "emphasis": [
+    "ikan apa",
+    "tulang ikan"
+   ]
+  },
+  "hat-yai-chicken": {
+   "name": "Ayam Goreng Hat Yai",
+   "scope": "Hidangan wakil Hat Yai",
+   "intro": "Di Hat Yai, cuba ayam goreng yang rangup bersama bawang merah goreng. Ini ayam goreng Hat Yai yang dikenali dengan nama bandarnya. Kerangupan ayam ditambah kelemakan dan aroma bawang merah, jadi sesuai dimakan bersama pulut. Letakkan sedikit bawang merah yang dihidangkan bersama di atas ayam dan cuba sesuap.",
+   "flavor": "Hidangan ini dinikmati melalui kerangupan ayam goreng dan kelemakan bawang merah. Ciri lainnya ialah ia diperisakan dengan bahan beraroma seperti bawang putih, akar ketumbar dan lada putih. Sebelum menambah sos, anda boleh juga makan ayam dan bawang merah sahaja bersama-sama.",
+   "ingredients": "Ayam goreng dihidangkan bersama bawang merah goreng. Bawang putih, akar ketumbar, lada putih dan sebagainya digunakan sebagai perisa, dan ia dikenali sebagai hidangan yang dimakan bersama pulut.",
+   "story": "Hat Yai ialah bandar di kawasan Songkhla yang mempunyai budaya makan komuniti Cina dan Muslim sekali gus. Ayam goreng Hat Yai dikenali sebagai hidangan yang mewakili kawasan ini. Ia juga dijual di bandar lain, tetapi kalau anda tiba di Hat Yai, makan bersama pulut sebagai satu hidangan.",
+   "tip": "Makan bawang merah goreng bersama ayam untuk menikmati lebih banyak kelemakan.",
+   "steps": [
+    "Pilih bahagian dan kuantiti yang anda mahu. Kalau beramai-ramai, pesan bahagian pilihan masing-masing untuk dikongsi.",
+    "Lihat sama ada pulut dan sos dihidangkan bersama, dan pesan tambahan yang perlu.",
+    "Mula-mula makan ayam dan bawang merah goreng bersama. Seterusnya, calit sedikit sos untuk menikmati rasa yang berbeza."
+   ],
+   "faq": [
+    [
+     "Adakah hanya boleh dimakan di Hat Yai?",
+     "Tidak. Ayam goreng gaya Hat Yai juga dijual di kawasan lain. Kalau anda tiba di Hat Yai, makan bersama pulut hidangan yang dikenali dengan nama bandar itu."
+    ],
+    [
+     "Adakah semua hidangan ayam halal?",
+     "Tidak. Anda tidak boleh menentukan halal atau tidak berdasarkan jenis daging sahaja. Kalau anda memerlukan makanan halal, periksa pensijilan restoran serta bahan dan syarat memasak sebenar bersama-sama."
+    ]
+   ],
+   "emphasis": [
+    "pulut dan sos",
+    "bawang merah goreng"
+   ],
+   "photoAlt": "Ayam goreng gaya Hat Yai dengan banyak bawang merah goreng",
+   "photoCaption": "Ayam goreng gaya Hat Yai · Contoh hidangan"
+  },
+  "bak-kut-teh": {
+   "name": "Bak Kut Teh",
+   "scope": "Hidangan Cina yang dinikmati di kawasan Songkhla",
+   "intro": "Kalau anda mahu makan hidangan berkuah yang panas semasa melancong di Hat Yai, pilih Bak Kut Teh. Tulang rusuk babi direbus bersama herba dan rempah. Di kawasan Songkhla, ia diperkenalkan sebagai hidangan berkuah beraroma herba gaya Cina. Kalau anda makan daging babi, nikmati perlahan-lahan bersama nasi.",
+   "flavor": "Aroma herba dan rempah ditambah pada kuah yang merebus tulang rusuk babi. Warna dan kepekatan kuah berbeza mengikut cara memasak. Makan tulang rusuk dan kuah secara bergilir-gilir sambil menghayati aromanya.",
+   "ingredients": "Tulang rusuk babi direbus bersama herba dan rempah. Bahan tambahan dan pelengkap berbeza mengikut menu.",
+   "story": "Bak Kut Teh ialah salah satu hidangan Cina yang ditemui di kawasan Songkhla. Ini tidak bermakna ia mula dibuat di Hat Yai. Pada hari anda teringin makan lain daripada ayam goreng yang rangup, makan tulang rusuk babi dalam kuah bersama nasi.",
+   "tip": "Kuahnya juga menggunakan daging babi. Kalau anda mengelakkan daging babi, pilih hidangan lain.",
+   "steps": [
+    "Fikir dahulu sama ada menu ini sesuai dipilih bersama rakan yang makan daging babi. Bak Kut Teh yang biasa menggunakan tulang rusuk babi.",
+    "Lihat sama ada nasi dan pelengkap dihidangkan bersama, kemudian buat pesanan.",
+    "Makan tulang rusuk, kemudian hirup kuah sedikit demi sedikit. Makan bersama nasi sambil menghayati aroma herba dan rempah."
+   ],
+   "faq": [
+    [
+     "Adakah Bak Kut Teh bermula di Hat Yai?",
+     "Ia tidak diperkenalkan sebagai hidangan yang berasal dari Hat Yai. Ia hidangan Cina yang ditemui di kawasan Songkhla, dan menu yang membolehkan anda mengenali pelbagai budaya makan kawasan ini."
+    ],
+    [
+     "Boleh orang yang tidak makan daging babi memakannya?",
+     "Bak Kut Teh yang biasa mengandungi tulang rusuk babi. Kalau anda mengelakkan daging babi, lebih baik pilih hidangan lain. Ambil perhatian bahawa walaupun anda hanya minum kuahnya, ia tetap hidangan yang menggunakan daging babi."
+    ]
+   ],
+   "emphasis": [
+    "daging babi",
+    "tulang rusuk babi"
+   ],
+   "photoAlt": "Foto hidangan Bak Kut Teh",
+   "photoCaption": "Bak Kut Teh · Contoh hidangan"
+  },
+  "roti": {
+   "name": "Roti Thai",
+   "scope": "Snek jalanan Thailand",
+   "intro": "Kalau teringin snek manis di tepi jalan, cuba roti. Doh yang dibentang nipis dibakar dan dihidangkan dengan sos manis seperti susu pekat atau coklat. Ada juga menu yang memasukkan pisang, jadi ia sesuai dipilih apabila anda mahu makan buah dan snek sekali gus. Kalau roti dipotong untuk anda, makan sepotong demi sepotong ketika masih panas.",
+   "flavor": "Rasa doh yang dibakar nipis dan sos manis dinikmati bersama. Kerangupan di tepi dan kelembutan di dalam berbeza mengikut bahan yang dimasukkan dan cara membakar. Pada menu yang memasukkan pisang, kemanisan buah juga dapat dirasai.",
+   "ingredients": "Doh dibakar dan dihidangkan dengan sos seperti susu pekat atau coklat. Sama ada pisang atau telur dimasukkan berbeza mengikut menu.",
+   "story": "Roti Thailand juga boleh ditemui sebagai snek jalanan yang manis. Roti Sai Mai Ayutthaya ialah roti nipis yang digulung dengan benang gula, dan cara makannya berbeza daripada roti bakar yang diperkenalkan di sini. Kalau anda mencuba kedua-duanya, anda dapat menikmati snek yang berbeza walaupun dalam nama roti yang sama.",
+   "tip": "Pisang dan sos berbeza mengikut menu yang dipesan. Pilih topping yang anda mahu dahulu.",
+   "steps": [
+    "Pilih roti biasa atau roti yang dimasukkan pisang dan sebagainya, kemudian beritahu sos yang anda mahu.",
+    "Kalau mahu kurangkan susu pekat atau sos, minta sebelum dibakar. Selepas sos dicurah, sukar untuk mengurangkannya.",
+    "Makan roti yang dipotong sepotong demi sepotong ketika masih panas."
+   ],
+   "faq": [
+    [
+     "Adakah ia snek yang sama dengan Roti Sai Mai?",
+     "Tidak. Roti Sai Mai ialah snek Ayutthaya yang menggulung benang gula dalam roti nipis. Di sini kami perkenalkan roti jalanan yang doh bakarnya dihidangkan dengan sos manis."
+    ],
+    [
+     "Boleh pesan kalau tidak boleh makan telur atau susu?",
+     "Tanya bahan dalam doh, topping dan sos sekali. Walaupun menu itu tidak memasukkan telur, doh atau susu pekat mungkin mengandungi bahan yang anda elakkan."
+    ]
+   ],
+   "emphasis": [
+    "pisang",
+    "sebelum dibakar",
+    "sos manis"
+   ],
+   "photoAlt": "Foto roti",
+   "photoCaption": "Roti Thailand yang difoto di Masjid Bang Luang. Topping dan bentuk berbeza mengikut kedai."
+  },
+  "watermelon-shake": {
+   "name": "Nam Taeng Mo Pan · Shake tembikai",
+   "scope": "Minuman buah Thailand",
+   "intro": "Kalau teringin minuman sejuk semasa berjalan di tepi jalan pada hari yang panas di Thailand, cuba Nam Taeng Mo Pan. Ini shake tembikai yang dibuat dengan mengisar tembikai bersama air dan ais. Berbeza daripada jus tembikai yang diminum seperti air biasa, ais turut dikisar supaya ia dinikmati sejuk. Kalau mahu kurangkan manis, minta sirap atau gula dikurangkan semasa memesan.",
+   "flavor": "Rasa tembikai ditambah tekstur sejuk ais yang dikisar halus. Rasa secawan boleh berubah mengikut nisbah tembikai dan ais serta kemanisan tambahan.",
+   "ingredients": "Tembikai, air dan ais dikisar bersama. Bahan tambahan seperti gula atau sirap berbeza mengikut tempat jualan.",
+   "story": "Pihak Berkuasa Pelancongan Thailand memperkenalkan Nam Taeng Mo Pan sebagai minuman buah wakil yang dibuat dengan mengisar tembikai bersama air dan ais. Tembikai yang biasa anda kenali boleh dinikmati sebagai minuman jalanan semasa melancong di Thailand. Tembikai ialah buah yang ada sepanjang tahun, tetapi sama ada minuman itu benar-benar dijual berbeza mengikut kedai.",
+   "tip": "Kalau mahu kurangkan gula atau sirap tambahan, beritahu sebelum minuman dibuat.",
+   "steps": [
+    "Pilih menu Nam Taeng Mo Pan atau shake tembikai, dan lihat saiz cawan serta harga.",
+    "Tanya sama ada kemanisan boleh dikurangkan sebelum minuman dibuat. Walaupun sirap dibuang, kemanisan tembikai itu sendiri tetap ada.",
+    "Apabila minuman yang dikisar bersama ais sampai, nikmati ketika masih sejuk."
+   ],
+   "faq": [
+    [
+     "Adakah Nam Taeng Mo Pan jus tembikai?",
+     "Ia shake yang dibuat dengan mengisar tembikai bersama air dan ais. Oleh kerana ais turut dikisar, teksturnya berbeza daripada minuman yang hanya memerah jus tembikai."
+    ],
+    [
+     "Adakah minuman ini tidak manis kalau gula dibuang?",
+     "Kemanisan tembikai itu sendiri kekal. Gula atau sirap yang menambah kemanisan berbeza mengikut kedai, jadi minta dikurangkan atau dibuang sebelum minuman dibuat."
+    ]
+   ],
+   "emphasis": [
+    "air dan ais",
+    "sebelum minuman dibuat",
+    "saiz cawan serta harga"
+   ]
+  }
+ },
+ "fruits": {
+  "mango": {
+   "name": "Mangga",
+   "seasonLabel": "Musim utama Mac–Mei",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Kalau teringin buah yang manis di Thailand, cuba mangga yang masak ranum. Baka seperti Nam Dok Mai yang isinya kuning, lembut dan harum sudah dikenali. Kalau anda sudah mencuba pulut mangga, makan buahnya sahaja untuk merasai rasa mangga. Ada juga jenis mangga muda yang dimakan rangup dan masam.",
+   "taste": "Mangga masak boleh dinikmati dengan rasa yang lembut dan manis. Ada baka mangga hijau yang dimakan dengan tekstur berbeza daripada mangga masak, jadi anda tidak perlu menganggap semuanya belum masak hanya berdasarkan warna.",
+   "why": "Thailand mempunyai pelbagai baka mangga seperti Nam Dok Mai dan Maha Chanok, dan ada budaya makan yang menikmati buah masak dan buah hijau dengan cara berbeza. Ia juga biasa sebagai pencuci mulut yang diletakkan di atas pulut, jadi ia buah yang sesuai dicuba semasa melancong di Thailand.",
+   "buying": "Kalau mahu mangga yang manis dan lembut, beritahu anda mencari mangga masak. Mangga yang rangup juga mungkin dijual berasingan. Unit harga berbeza antara membeli buah utuh sekilogram dengan membeli sekotak yang sudah dihiris.",
+   "steps": [
+    "Basuh buah utuh, kemudian potong isi di kedua-dua sisi biji.",
+    "Potong isi mengikut saiz yang mudah dimakan dan makan begitu sahaja atau bersama pulut mangga.",
+    "Kalau mahu membeli buah untuk dimakan terus dan buah untuk dibawa pulang secara berasingan, pilih tahap kematangan bersama penjual."
+   ],
+   "regional": "Mangga Nam Dok Mai Si Thong dari Phitsanulok: musim keluar Mac–Jun",
+   "photoAlt": "Gambar mangga",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa mangga. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "durian": {
+   "name": "Durian",
+   "seasonLabel": "Musim utama April–Ogos",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Kalau anda teragak-agak kerana baunya yang kuat, rasa sedikit sahaja durian pun tidak mengapa. Di dalam kulit yang berduri ada isi kuning yang pekat. Ini buah yang dinikmati bau dan rasanya bersama apabila isi yang lembut dan manis disuap. Kalau baru mencuba, mulakan di kedai yang menjual sedikit isi dan bukannya membeli buah utuh.",
+   "taste": "Cirinya ialah rasa yang manis dan pekat serta isi yang berkrim. Kekerasan isi dan baunya berbeza mengikut baka seperti Monthong dan Chanee serta tahap kematangan.",
+   "why": "Baka durian Thailand seperti Monthong, Chanee dan Kan Yao sudah dikenali. Bau yang kuat serta isi yang manis dan pekat menjadikan citarasa orang ramai jelas berbeza. Ia boleh dimakan begitu sahaja atau dinikmati sebagai aiskrim dan pencuci mulut.",
+   "buying": "Tanya dahulu sama ada tanda harga ialah sekilogram buah utuh bersama kulit atau sekilogram isi yang sudah dikupas. Kalau mahu membawanya ke hotel atau kenderaan, lebih baik lihat peraturan membawa durian terlebih dahulu.",
+   "steps": [
+    "Kalau baru mencuba, beli sedikit isi untuk dirasa.",
+    "Kalau memilih buah utuh, minta maklumat baka, tahap kematangan dan harga bersama kulit, kemudian minta penjual mengupasnya untuk memudahkan anda.",
+    "Buang biji besar dan makan isinya. Sebelum membawanya ke penginapan, periksa sama ada durian dibenarkan masuk."
+   ],
+   "regional": "Durian kawasan gunung berapi Sisaket: musim keluar Mei–Jun",
+   "photoAlt": "Gambar durian",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa durian. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "mangosteen": {
+   "name": "Manggis",
+   "seasonLabel": "Musim utama April–Ogos",
+   "availability": "Dinyatakan musim keluar April–Disember",
+   "intro": "Cuba manggis yang apabila kulit ungunya dibuka, keluar isi putih yang berulas-ulas. Rasa manis dan masamnya terasa bersama dan airnya banyak. Walaupun ada nama mangga, ia buah yang berbeza daripada mangga. Ia juga sesuai dikongsi beberapa biji bersama rakan selepas makan.",
+   "taste": "Isi putihnya lembut dan masam manis. Ulas yang besar mungkin ada biji, jadi makan perlahan-lahan.",
+   "why": "Daya tarikannya ialah kulit ungu dan isi putih, serta rasa yang manis tetapi segar. Di Thailand, musim keluarnya berbeza mengikut kawasan dan waktu, jadi baik dicari mengikut musim anda melancong.",
+   "buying": "Periksa sama ada kulitnya rosak, kemudian pilih buah untuk dimakan terus. Kulitnya tebal, jadi harga sekilogram bukan berat isi yang dimakan sahaja.",
+   "steps": [
+    "Tekan kulit untuk membukanya, atau potong kulit sedikit sahaja untuk membuka bahagian dalam.",
+    "Keluarkan isi putih dan periksa biji dalam ulas yang besar.",
+    "Berhati-hati supaya getah merah pada kulit tidak mengenai baju semasa makan."
+   ],
+   "regional": "Manggis Khao Khiriwong, selatan: musim keluar Julai–Disember",
+   "photoAlt": "Gambar manggis",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa manggis. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "rambutan": {
+   "name": "Rambutan",
+   "seasonLabel": "Musim keluar April–Ogos",
+   "availability": "Musim keluar berbeza mengikut kawasan penanaman",
+   "intro": "Kenali rambutan yang berkulit merah dengan tonjolan seperti bulu. Apabila kulitnya dikupas, keluar isi putih dan anda boleh menikmati air yang manis. Rupanya mungkin asing, tetapi cara mengupas kulit dan membuang biji mudah. Beli beberapa biji di pasar untuk dirasa pun tidak mengapa.",
+   "taste": "Isi putihnya manis dan berair. Ada juga baka seperti Rong Rian Thailand yang tekstur dan tahap isinya terpisah daripada biji berbeza.",
+   "why": "Kulit yang seperti berbulu menarik perhatian, dan di dalamnya ada isi putih. Pihak Berkuasa Pelancongan Thailand memperkenalkan rambutan Rong Rian Nasan di Surat Thani sebagai buah GI kawasan itu.",
+   "buying": "Tanya sama ada ia dijual sekilogram atau sebungkus yang telah ditetapkan. Pilih sekadar yang mahu dimakan terus, kupas kulit dan buang biji sebelum makan.",
+   "steps": [
+    "Toreh kulit sedikit, kemudian buka dan kupas.",
+    "Makan isi putihnya dan buang biji di tengah.",
+    "Kalau dijual dalam bungkusan, beli selepas melihat berat dan harga bersama."
+   ],
+   "regional": "Rambutan Rong Rian Nasan: musim keluar Julai–Ogos"
+  },
+  "longan": {
+   "name": "Longan",
+   "seasonLabel": "Musim utama Jun–Ogos",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Kalau anda ingin tahu buah Chiang Mai dan utara, cuba longan. Ini buah kecil yang di dalam kulit perang nipisnya ada isi lutsinar dan biji hitam. Kupas dan makan satu demi satu untuk menikmati rasa manis. Rasa longan kering dan buah segar berbeza, jadi mulakan dengan buah segar.",
+   "taste": "Isinya manis dan aromanya berbeza mengikut baka. Ada biji hitam di dalam isi putih, jadi buang biji semasa makan.",
+   "why": "Ini buah yang mudah dikenali bersama kawasan utara Thailand. Longan Biao Kiao Lamphun diperkenalkan sebagai buah GI kawasan itu, dan ia dinikmati bukan sahaja segar malah dikeringkan.",
+   "buying": "Lihat sama ada ia dijual sesikat bersama tangkai atau sebiji sebiji tanpa tangkai. Memilih berdasarkan baka dan berat pada tanda harga memudahkan perbandingan.",
+   "steps": [
+    "Toreh kulit dan kupas dengan tangan.",
+    "Semasa memakan isi, buang biji hitam.",
+    "Kalau mahu membeli produk kering juga, lihat harga dan berat bungkusan secara berasingan daripada buah segar."
+   ],
+   "regional": "Longan Biao Kiao Lamphun: musim keluar Julai–September",
+   "photoAlt": "Gambar longan",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa longan. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "lychee": {
+   "name": "Laici",
+   "seasonLabel": "Musim keluar April–Jun",
+   "availability": "Musim berbeza mengikut kawasan penanaman dan baka",
+   "intro": "Kalau teringin buah yang harum dan berair, cuba laici. Apabila kulit merahnya dikupas, keluar isi putih, dan sesuap sahaja membolehkan anda menikmati rasa manis dan aromanya. Kalau anda sudah mencubanya dalam minuman atau pencuci mulut, cuba juga buah segar pada musimnya.",
+   "taste": "Isi putihnya manis dan ada rasa masam bergantung pada baka. Kupas kulit dan buang biji di tengah sebelum makan.",
+   "why": "Baka laici Thailand seperti Hong Huai dan Chakkraphat sudah dikenali. Laici Khom Samut Songkhram juga diperkenalkan sebagai buah GI kawasan itu, jadi mudah untuk membandingkan buah mengikut kawasan penanaman.",
+   "buying": "Asingkan unit apabila dijual sekilogram dengan apabila dijual dalam kotak tertentu. Minuman laici pada menu dan jualan buah segar mungkin tidak mempunyai musim keluar yang sama.",
+   "steps": [
+    "Kupas kulit dan keluarkan isi.",
+    "Buang biji di tengah dan makan isinya.",
+    "Kalau mahu membeli bungkusan untuk dibawa pulang dan buah untuk dimakan terus secara berasingan, beritahu kuantiti yang anda perlukan."
+   ],
+   "regional": "Laici Khom Samut Songkhram: musim keluar April–Mei",
+   "photoAlt": "Gambar laici",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa laici. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "longkong": {
+   "name": "Longkong",
+   "seasonLabel": "Musim keluar Mei–September",
+   "availability": "Musim keluar berbeza mengikut kawasan penanaman",
+   "intro": "Kenali longkong, buah kecil keperangan yang bergantung dalam sesikat. Apabila kulit nipisnya dikupas, isi lutsinar keluar dalam ulas. Walaupun namanya hampir sama dengan longan, rupa dan rasa ketika dimakan berbeza. Kalau anda melihat kedua-dua buah ini bersebelahan di pasar, beli sedikit setiap satu untuk dibandingkan.",
+   "taste": "Isi lutsinarnya terasa manis dan masam. Pada ulas yang ada biji, jangan kunyah biji, buang sahaja.",
+   "why": "Keseronokannya ialah mengupas buah kecil yang bergantung dalam sesikat satu demi satu. Longkong Tanyongmat di Narathiwat, selatan, dikenali sebagai buah GI kawasan itu, jadi baik untuk diketahui bersama kawasan penanamannya.",
+   "buying": "Longan dan longkong ialah buah yang berbeza. Kalau anda memesan dengan melihat nama dan rupa sesikat bersama-sama, mudah untuk memilih buah yang anda mahu.",
+   "steps": [
+    "Petik satu buah yang mahu dimakan daripada sesikat.",
+    "Kupas kulit dan keluarkan isi untuk dimakan.",
+    "Biji boleh berasa pahit, jadi buang biji yang kelihatan dan makan perlahan-lahan."
+   ],
+   "regional": "Longkong Tanyongmat: musim keluar Ogos–September"
+  },
+  "pomelo": {
+   "name": "Limau bali",
+   "seasonLabel": "Musim utama Oktober–Disember",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Cuba limau bali yang kelihatan seperti limau gedang besar. Apabila kulit tebalnya dikupas dan selaput dalam dibuang, butir-butir isinya kelihatan. Rasa manis dan masamnya terasa berbeza mengikut baka. Kalau susah menggunakan pisau di penginapan, pilih yang sudah dikupas dan dibungkus untuk dijual.",
+   "taste": "Ini buah sitrus yang butir isinya terasa. Warna, kemanisan dan kemasaman berbeza mengikut baka, seperti isi yang kekuningan atau kemerahan.",
+   "why": "Thailand mempunyai pelbagai baka limau bali seperti Khao Nam Phueng dan Thong Di. Buah utuh yang besar kadangkala dikupas dan hanya isi dijual dalam bekas, jadi ia buah yang mudah dinikmati semasa melancong.",
+   "buying": "Asingkan harga sebiji, harga sekilogram dan harga sekotak yang sudah dikupas. Buah utuh bersama kulit dan kotak yang hanya berisi isi sukar dibandingkan terus pada berat yang sama.",
+   "steps": [
+    "Kupas kulit luar yang tebal bagi buah utuh.",
+    "Asingkan ulas dan buang selaput dalam untuk mengeluarkan isi.",
+    "Buang biji dan makan isinya. Kalau membeli kotak yang sudah dikupas, mudah untuk dikongsi terus."
+   ],
+   "regional": null,
+   "photoAlt": "Gambar limau bali",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa limau bali. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "pineapple": {
+   "name": "Nanas",
+   "seasonLabel": "Musim utama April–Julai",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Kalau teringin buah yang masam manis pada hari yang panas, cuba nanas. Isi kuningnya boleh dipotong dan dimakan satu demi satu atau dinikmati sebagai jus. Di Thailand ada nanas yang kerangupan dan kemanisannya berbeza mengikut baka dan kawasan penanaman. Daripada membeli buah utuh, sebungkus yang sudah dipotong pun mudah dimakan.",
+   "taste": "Rasa manis dan masam terasa bersama, dan kekerasan isi berbeza mengikut baka. Rasa buahnya dahulu sebelum menambah perisa yang dihidangkan berasingan.",
+   "why": "Ia dihasilkan di banyak kawasan Thailand, dan ada juga buah tempatan yang diperkenalkan sebagai GI seperti nanas Si Thong di Trat. Rupa buah utuh, buah yang dipotong dan minuman semuanya biasa dilihat.",
+   "buying": "Lihat dahulu sama ada harganya sekilogram buah utuh, sebiji, atau sebungkus yang dihiris. Kos mengupas dan jumlah yang dimakan berbeza.",
+   "steps": [
+    "Kupas kulit dan bahagian yang keras bagi buah utuh sebelum makan.",
+    "Potong mengikut saiz yang mudah dimakan dan kongsi, atau pilih bungkusan yang sudah dipotong.",
+    "Kalau perisa dihidangkan bersama, calit sedikit demi sedikit dan makan mengikut citarasa."
+   ],
+   "regional": "Nanas Si Thong Trat: musim keluar sepanjang tahun",
+   "photoAlt": "Gambar nanas",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa nanas. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "banana": {
+   "name": "Pisang",
+   "seasonLabel": "Ada sepanjang tahun",
+   "availability": "Berbeza mengikut baka dan kawasan penanaman",
+   "intro": "Di Thailand, anda boleh menemui pisang yang kecil hingga pisang dengan pelbagai bentuk. Selain dimakan sebagai buah segar, ada juga menu yang memasukkannya ke dalam roti atau membakarnya. Kalau anda mencari snek ringkas di tepi jalan, lihat juga roti yang dimasukkan pisang.",
+   "taste": "Kemanisan dan kekerasan isi berbeza mengikut baka dan tahap kematangan. Eloklah membezakan pisang yang dimakan setelah masak kuning daripada pisang yang digunakan untuk memasak.",
+   "why": "Ini buah yang biasa digunakan dalam banyak hidangan dan snek Thailand. Pisang Kluai Khai Kamphaeng Phet diperkenalkan sebagai buah GI kawasan itu. Kalau anda hanya terfikir satu jenis pisang, cari juga baka yang berbeza bentuk dan saiz di pasar.",
+   "buying": "Pisang kadangkala dijual sesikat dan bukannya sekilogram. Lihat berapa biji dalam satu sikat, dan kalau mahu makan terus, pilih pisang yang masak.",
+   "steps": [
+    "Tanya sama ada harganya sesikat atau untuk beberapa biji.",
+    "Pilih pisang yang masak untuk dimakan terus, kemudian kupas kulit dan makan.",
+    "Roti pisang atau pisang bakar ialah menu yang berbeza daripada buah utuh, jadi lihat harganya secara berasingan."
+   ],
+   "regional": "Pisang Kluai Khai Kamphaeng Phet: musim keluar sepanjang tahun",
+   "photoAlt": "Gambar pisang",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa pisang. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "coconut": {
+   "name": "Kelapa muda",
+   "seasonLabel": "Sepanjang tahun",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Kalau teringin air kelapa yang sejuk pada hari yang panas, pilih kelapa muda. Buka bahagian atasnya untuk meminum air di dalam, dan isinya yang lembut juga boleh disudu. Kelapa Nam Hom yang harum ialah baka yang dikenali di Thailand. Apabila dahaga, kongsi sebiji dengan rakan seperjalanan pun baik.",
+   "taste": "Kelapa muda dinikmati bersama air dan isi putih yang lembut. Nam Hom diperkenalkan sebagai baka yang cirinya ialah aroma.",
+   "why": "Kelapa muda Thailand yang harum ialah buah yang airnya diminum dan isinya dimakan. Kelapa harum Ban Phaeo di Samut Sakhon juga diperkenalkan sebagai buah GI kawasan itu.",
+   "buying": "Kelapa kadangkala dijual sebiji. Air yang dibotolkan dengan kelapa utuh yang dibukakan untuk anda bukan produk yang sama, jadi bandingkan menu secara berasingan.",
+   "steps": [
+    "Pilih kelapa untuk diminum terus dan minta penjual membuka bahagian atasnya.",
+    "Selepas minum air kelapa, kalau ada sudu, sudu juga isinya yang lembut.",
+    "Pesan dengan membezakan harga sebiji daripada harga minuman yang dibotolkan."
+   ],
+   "regional": "Kelapa Nam Hom Ban Phaeo: musim keluar sepanjang tahun",
+   "photoAlt": "Gambar kelapa muda",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa kelapa muda. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "watermelon": {
+   "name": "Tembikai",
+   "seasonLabel": "Sepanjang tahun",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Nikmati tembikai juga sebagai minuman di Thailand. Selain tembikai yang dipotong dan dimakan sejuk, ada Nam Taeng Mo Pan yang dikisar bersama ais. Ia patut dicuba pada hari anda berjalan di tepi jalan dan teringin minuman sejuk. Kalau mahu makan buahnya sahaja, beli tembikai yang dipotong dan dibungkus untuk dikongsi bersama rakan.",
+   "taste": "Ia buah yang rangup dan berair. Buah segar dan Nam Taeng Mo Pan yang dikisar bersama ais boleh dinikmati dengan tekstur yang berbeza.",
+   "why": "Pihak Berkuasa Pelancongan Thailand memperkenalkan shake tembikai sebagai minuman buah wakil. Walaupun buah yang biasa dikenali, semasa melancong ia boleh ditemui dengan cara makan yang berbeza seperti Nam Taeng Mo Pan.",
+   "buying": "Asingkan harga sekilogram tembikai utuh, sebungkus tembikai yang dipotong dan secawan Nam Taeng Mo Pan. Walaupun tembikai yang sama digunakan, hasil kupasan dan kuantiti minuman berbeza.",
+   "steps": [
+    "Potong tembikai utuh mengikut saiz yang mudah dimakan dan makan sambil memilih bijinya.",
+    "Semasa melancong dan mahu makan terus, anda juga boleh memilih tembikai yang dipotong dan dibungkus.",
+    "Kalau memesan Nam Taeng Mo Pan, tanya sama ada kemanisan boleh dikurangkan sebelum minuman dibuat."
+   ],
+   "regional": null,
+   "photoAlt": "Gambar tembikai",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa tembikai. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "papaya": {
+   "name": "Betik",
+   "seasonLabel": "Sepanjang tahun",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Kalau anda sudah mencuba som tam di Thailand, rasa juga betik masak. Berbeza daripada betik hijau yang digunakan dalam som tam, isi yang masak dimakan lembut dan manis. Belah dua, buang biji hitam dan makan isinya. Apabila memilih buah yang sudah dipotong, cari juga betik masak.",
+   "taste": "Betik masak ialah buah yang dinikmati dengan isinya yang lembut. Betik muda juga digunakan sebagai bahan masakan, jadi tekstur berbeza daripada yang dimakan sebagai buah segar.",
+   "why": "Ia buah yang biasa dikenali melalui som tam, salad betik hijau. Di Thailand, anda boleh mengetahui cara makan buah masak dan cara menggunakan buah muda dalam hidangan sekali gus.",
+   "buying": "Bezakan sama ada ia betik masak untuk dimakan terus sebagai buah atau betik hijau untuk digunakan dalam masakan. Unit harga buah utuh dan kotak yang sudah dipotong juga mungkin berbeza.",
+   "steps": [
+    "Basuh betik yang masak dan belah dua.",
+    "Buang biji hitam di tengah, kupas kulit dan makan isinya.",
+    "Betik hijau dan betik masak dimakan dengan cara berbeza, jadi pilih yang anda mahu makan terus."
+   ],
+   "regional": null,
+   "photoAlt": "Gambar betik",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa betik. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "tamarind": {
+   "name": "Asam jawa manis",
+   "seasonLabel": "Musim utama hujung Disember–Februari",
+   "availability": "Musim berbeza mengikut kawasan penanaman dan baka",
+   "intro": "Cuba asam jawa manis dalam polong perang. Buka kulitnya dan buang serat yang melekat pada isi, kemudian anda boleh makan bahagian dalamnya yang lembut. Kalau anda hanya tahu ia bahan untuk sos masam Pad Thai, kenali juga asam jawa manis yang dimakan sebagai buah.",
+   "taste": "Asam jawa manis ialah buah yang dimakan lembut dan manis. Buang biji keras di tengah dan serat, kemudian makan isinya.",
+   "why": "Selain asam jawa yang memberi rasa masam dalam masakan, ada baka yang dinikmati sebagai buah manis. Asam jawa manis Phetchabun diperkenalkan sebagai buah GI kawasan itu.",
+   "buying": "Bezakan sama ada ia polong buah segar atau produk berbungkus yang bijinya telah dibuang atau diproses. Walaupun asam jawa yang sama, produk dan berat bungkusan berbeza.",
+   "steps": [
+    "Pecahkan kulit polong dan keluarkan isinya.",
+    "Buang serat yang melekat dan biji yang keras, kemudian makan isinya.",
+    "Unit harga produk yang diproses berbeza daripada buah segar, jadi pilih dengan melihat berat bungkusan."
+   ],
+   "regional": "Asam jawa manis Phetchabun: musim keluar November–April",
+   "photoAlt": "Gambar asam jawa manis",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa asam jawa manis. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "mandarin": {
+   "name": "Oren mandarin Thailand",
+   "seasonLabel": "Musim utama Oktober–Februari",
+   "availability": "Dinyatakan ada sepanjang tahun",
+   "intro": "Kalau anda melihat sitrus berkulit hijau di Thailand, jangan menganggap ia belum masak hanya kerana warnanya. Kulit dan rasa oren mandarin berbeza mengikut baka. Ia mudah dikupas dengan tangan dan dimakan seulas demi seulas, jadi ia buah yang sesuai dikongsi semasa melancong.",
+   "taste": "Rasa manis dan masam sitrus dinikmati bersama. Rasanya berubah mengikut baka dan tahap kematangan, dan isinya mungkin ada biji.",
+   "why": "Thailand mempunyai pelbagai baka oren mandarin. Oren Emas Nan diperkenalkan sebagai buah GI dengan kulit hijau dan rasa masam manis.",
+   "buying": "Bandingkan harga sekilogram yang bertanda baka dan gred saiz pada gred yang sama. Selain warna kulit, pilih juga bersama penjual sama ada buah itu sesuai dimakan terus.",
+   "steps": [
+    "Kupas kulit dan asingkan ulas sebelum makan.",
+    "Kalau baka itu ada biji, buang biji semasa makan.",
+    "Bandingkan harga produk jus dan harga sekilogram buah utuh secara berasingan."
+   ],
+   "regional": "Oren Emas Nan: musim keluar November–Disember",
+   "photoAlt": "Gambar oren mandarin Thailand",
+   "photoCaption": "Foto rujukan yang menunjukkan rupa oren mandarin Thailand. Ia tidak terhad kepada foto kawasan penanaman atau baka di Thailand yang diperkenalkan dalam teks."
+  },
+  "marian-plum": {
+   "name": "Mayongchid · Plum mangga",
+   "seasonLabel": "Musim keluar Nakhon Nayok Januari–Mac",
+   "availability": "Maklumat musim keluar buah tempatan",
+   "intro": "Kalau anda melihat buah kekuningan yang seperti mangga kecil di Thailand, tanya sama ada ia mayongchid. Ia tergolong dalam keluarga plum mangga, dan mayongchid Nakhon Nayok diperkenalkan sebagai buah GI kawasan itu. Kalau anda mahu mencuba buah yang berbeza daripada mangga besar, cari ia pada musim sejuk dan awal musim bunga.",
+   "taste": "Mayongchid Nakhon Nayok diperkenalkan dengan rasa manis dan masam yang bergabung serta isi yang rangup. Buang biji di tengah sebelum makan.",
+   "why": "Pihak Berkuasa Pelancongan Thailand memperkenalkan mayongchid Nakhon Nayok sebagai buah GI kawasan itu. Anda boleh mengenali buah kecil yang kelihatan seperti mangga bersama kawasan penanamannya.",
+   "buying": "Walaupun tergolong dalam plum mangga yang serupa, baka dan namanya berbeza. Beritahu anda mencari mayongchid dan minta maklumat baka serta harga yang sebenar.",
+   "steps": [
+    "Basuh buah yang dibeli dan potong mengikut saiz yang mudah dimakan.",
+    "Buang biji di tengah dan makan isinya.",
+    "Mungkin ada baka lain dengan nama yang serupa dengan mayongchid, jadi tunjukkan nama buah yang anda mahu beli."
+   ],
+   "regional": null
+  }
+ },
+ "fruitPriceLabels": [
+  "Manggis · Gred kulit licin",
+  "Rambutan · Rong Rian (โรงเรียน)",
+  "Longan · E-daw (อีดอ)",
+  "Longkong",
+  "Nanas · Sriracha (ศรีราชา), gred 2",
+  "Tembikai · Kinnaree (กินรี)",
+  "Betik · Holland (ฮอลแลนด์)",
+  "Pisang · Nam Wa (น้ำว้า)",
+  "Mandarin · Sai Nam Phueng (สายน้ำผึ้ง), gred 5"
+ ],
+ "sources": {
+  "regional": "Pihak Berkuasa Pelancongan Thailand · Hidangan utama mengikut wilayah",
+  "north": "Thailand Foundation · Budaya makan utara",
+  "central": "Pihak Berkuasa Pelancongan Thailand · Budaya makan tengah",
+  "isan": "Pihak Berkuasa Pelancongan Thailand · Budaya makan Isan",
+  "phuket": "Pihak Berkuasa Pelancongan Thailand · Budaya makanan Phuket",
+  "roti": "Pihak Berkuasa Pelancongan Thailand · Roti Sai Mai Ayutthaya",
+  "ayutthaya": "Panduan pelancongan wilayah Ayutthaya · Mi bot dan makanan setempat",
+  "ayutthaya-tat": "Pihak Berkuasa Pelancongan Thailand · Panduan melancong ke Ayutthaya",
+  "songkhla": "Kerajaan Thailand · Makanan untuk dicuba di Songkhla",
+  "hidden": "Pihak Berkuasa Pelancongan Thailand · Au Pla di Khon Kaen",
+  "padthai": "Thailand Foundation · Pad Thai",
+  "unesco": "UNESCO · Pengetahuan memasak dan budaya Tom Yam Kung",
+  "green": "Pihak Berkuasa Pelancongan Thailand · Panduan memasak kari hijau",
+  "mango": "Pihak Berkuasa Pelancongan Thailand · Budaya pencuci mulut pulut santan",
+  "ong": "Pihak Berkuasa Pelancongan Thailand · Nam Prik Ong utara",
+  "saiua": "Universiti Chiang Mai · Bahan dan cara memasak Sai Ua",
+  "khantoke": "Thailand Foundation · Khantoke dan budaya makan utara",
+  "phuket-prd": "Jabatan Perhubungan Awam Kerajaan Thailand · Mi dan pencuci mulut Phuket",
+  "hatyai-tat": "Pihak Berkuasa Pelancongan Thailand · Ayam goreng Hat Yai dan budaya makan Songkhla",
+  "bak-general": "Kerajaan Singapura · Bahan asas Bak Kut Teh",
+  "mango-recipe": "Pihak Berkuasa Pelancongan Thailand · Bahan pulut mangga",
+  "fruit-gi": "Pihak Berkuasa Pelancongan Thailand · Buah GI mengikut wilayah dan musim keluar",
+  "fruit-mango": "Jabatan Pengembangan Pertanian Thailand · Baka dan musim utama mangga",
+  "fruit-durian": "Jabatan Pengembangan Pertanian Thailand · Baka dan musim utama durian",
+  "fruit-mangosteen": "Jabatan Pengembangan Pertanian Thailand · Manggis",
+  "fruit-rambutan": "Jabatan Pengembangan Pertanian Thailand · Rambutan",
+  "fruit-longan": "Jabatan Pengembangan Pertanian Thailand · Longan",
+  "fruit-lychee": "Jabatan Pengembangan Pertanian Thailand · Laici",
+  "fruit-longkong": "Jabatan Pengembangan Pertanian Thailand · Longkong",
+  "fruit-pomelo": "Jabatan Pengembangan Pertanian Thailand · Limau bali",
+  "fruit-pineapple": "Jabatan Pengembangan Pertanian Thailand · Nanas",
+  "fruit-coconut": "Jabatan Pengembangan Pertanian Thailand · Kelapa muda",
+  "fruit-watermelon": "Jabatan Pengembangan Pertanian Thailand · Tembikai",
+  "fruit-papaya": "Jabatan Pengembangan Pertanian Thailand · Betik",
+  "fruit-tamarind": "Jabatan Pengembangan Pertanian Thailand · Asam jawa manis",
+  "fruit-mandarin": "Jabatan Pengembangan Pertanian Thailand · Oren mandarin",
+  "fruit-prices": "Jabatan Perdagangan Dalam Negeri Thailand · Harga runcit buah di Bangkok",
+  "street-catalog": "Pihak Berkuasa Pelancongan Thailand · Katalog makanan dan minuman",
+  "street-intro": "Pihak Berkuasa Pelancongan Thailand · Pengenalan makanan Thailand seperti roti"
+ },
+ "meta": {
+  "/ms/food/": "Makanan Thailand merangkumi hidangan tradisional dan hidangan terkenal di Bangkok, Chiang Mai, Phuket, Ayutthaya, Khon Kaen dan Hat Yai. Untuk kali pertama, mulakan dengan Pad Thai dan Tom Yam Kung.",
+  "/ms/food/traditions/": "Makanan tradisional Thailand berbeza di tengah, utara, Isan dan selatan, dari nasi, pulut hingga perencah. Kenali hidangan terkenal setiap wilayah dan cara memilih apabila memesan buat kali pertama.",
+  "/ms/food/street-food/": "Makanan jalanan Thailand termasuk roti, Nam Taeng Mo Pan, Roti Sai Mai, sosej fermentasi dan ayam goreng Hat Yai. Ketahui rasanya serta cara meminta minuman dikurangkan manisnya sebelum dibuat.",
+  "/ms/food/fruit-prices/": "Harga buah Thailand sukar dibandingkan jika unit jualannya berbeza. Ketahui cara membandingkan sekilogram, sesikat, sebiji dan sekotak, serta harga runcit rasmi Bangkok bertarikh 14 Oktober 2026.",
+  "/ms/food/fruits/": "Buah-buahan Thailand dari bulan 1 hingga bulan 12 dalam kalendar musim. Ketahui rasa, cara makan dan unit jualan 16 buah utama, serta harga runcit Bangkok yang diasingkan mengikut baka.",
+  "/ms/food/cities/bangkok/": "Makanan di Bangkok untuk pengunjung baharu: Pad Thai, Tom Yam Kung, kari dan pulut mangga. Ketahui rasa setiap hidangan dan harga runcit rasmi buah Bangkok mengikut baka dan gred.",
+  "/ms/food/cities/chiang-mai/": "Makanan di Chiang Mai merangkumi Khao Soi, Sai Ua dan Nam Prik Ong bersama pulut. Kenali budaya makan utara dan khantoke, serta panduan membeli longan dan laici semasa melancong.",
+  "/ms/food/cities/phuket/": "Makanan di Phuket bukan sekadar makanan laut bakar. Cuba Mi Hokkien, Mi Hun dan pencuci mulut ais O-Aew yang dipengaruhi budaya Cina dan Melayu, serta panduan membeli buah di pantai.",
+  "/ms/food/cities/ayutthaya/": "Makanan di Ayutthaya yang sesuai dimakan semasa menjelajah tapak bersejarah: mi bot, udang galah bakar dan Roti Sai Mai. Ketahui cara memesan udang mengikut saiz dan unit jualan.",
+  "/ms/food/cities/khon-kaen/": "Makanan di Khon Kaen termasuk som tam, larb, Sai Krok Isan dan Au Pla, kari ikan air tawar. Kenali budaya pulut dan perencah fermentasi Isan, serta cara memilih betik masak dan betik hijau.",
+  "/ms/food/cities/hat-yai/": "Makanan di Hat Yai terkenal dengan ayam goreng bersama bawang merah goreng dan Bak Kut Teh. Ketahui budaya makan kawasan Songkhla dan sebab nama hidangan sahaja tidak menentukan status halal.",
+  "/ms/food/dishes/pad-thai/": "Pad Thai ialah kuey teow beras goreng dengan telur, tauhu dan sos asam jawa. Ketahui rasanya, cara memperisakan dengan limau nipis dan kacang, serta cara memesan jika anda tidak boleh makan udang.",
+  "/ms/food/dishes/tom-yum-kung/": "Tom Yam Kung ialah sup udang yang masam dan pedas dengan aroma serai dan daun limau purut. Ketahui rasa kuah jernih dan pekat, cara makannya serta maksud pengiktirafan UNESCO pada 2024.",
+  "/ms/food/dishes/green-curry/": "Kari hijau Thailand ialah kari santan dengan pes hijau dan herba seperti selasih. Ketahui rasa, sebab ia tetap pedas walaupun nampak lembut dan cara bertanya tentang tahap pedas semasa memesan.",
+  "/ms/food/dishes/massaman/": "Kari Massaman Thailand berbau kayu manis dan buah pelaga serta agak lembut. Ketahui rasanya berbanding kari hijau, cara makan bersama nasi dan sebab nama hidangan tidak menentukan status halal.",
+  "/ms/food/dishes/mango-sticky-rice/": "Pulut mangga ialah pencuci mulut Thailand yang menghidangkan pulut santan bersama mangga masak. Ketahui rasa dan teksturnya, cara menyuap bersama dan sebab ia dimakan selepas makan.",
+  "/ms/food/dishes/khao-soi/": "Khao Soi ialah mi telur dalam kuah kari santan dengan mi goreng rangup di atasnya, hidangan wakil Chiang Mai dan utara. Ketahui rasa, pilihan ayam atau daging lembu dan cara memakannya.",
+  "/ms/food/dishes/sai-ua/": "Sai Ua ialah sosej daging babi bakar utara dengan cili dan herba. Ketahui rasanya, cara makan bersama pulut dan Nam Prik Ong, serta perbezaannya daripada Sai Krok Isan yang difermentasi.",
+  "/ms/food/dishes/nam-prik-ong/": "Nam Prik Ong ialah sos cicah utara yang dibuat daripada tomato, daging babi cincang dan cili. Ketahui cara makannya bersama sayur dan pulut, serta sebab ia bukan hidangan vegetarian.",
+  "/ms/food/dishes/mi-hokkien/": "Mi Hokkien Phuket ialah mi kuning tebal yang digoreng dengan makanan laut dan sos. Ketahui rasanya, perbezaan daripada Mi Hun dan cara bertanya tentang makanan laut dalam kuah serta sos.",
+  "/ms/food/dishes/mi-hun/": "Mi Hun Phuket menggunakan bihun halus dan dikenali dengan kuah tulang rusuk babi. Ketahui rasanya, perbezaan daripada Mi Hokkien dan sebab membuang kuah sahaja tidak cukup jika anda mengelakkan babi.",
+  "/ms/food/dishes/o-aew/": "O-Aew ialah pencuci mulut sejuk tempatan Phuket yang menggabungkan ais, jeli, sirap manis dan topping. Ketahui rasanya, cara menyuap ais bersama jeli dan perkara yang perlu ditanya tentang bahan.",
+  "/ms/food/dishes/boat-noodles/": "Mi bot atau kuey teow kapal ialah mi berkuah yang terkenal di Ayutthaya. Ketahui rasa kuah, cara memilih mi, daging dan saiz mangkuk, serta perkara yang perlu ditanya jika anda mengelakkan jeroan.",
+  "/ms/food/dishes/river-prawns/": "Udang galah bakar di Ayutthaya sesuai dikongsi bersama rakan. Ketahui cara menikmati isi udang dan sos, serta sebab anda patut bertanya sama ada harga seekor atau mengikut berat sebelum memesan.",
+  "/ms/food/dishes/roti-sai-mai/": "Roti Sai Mai ialah snek Ayutthaya yang menggulung benang gula halus dalam roti nipis. Ketahui rasanya, cara menggulung sendiri sedikit demi sedikit dan perbezaannya daripada roti jalanan biasa.",
+  "/ms/food/dishes/som-tam/": "Som Tam ialah salad betik muda ditumbuk dengan cili dan perisa masam, hidangan wakil Isan. Ketahui rasanya, sebab pla ra perlu ditanya dan cara memesan jika anda ingin mengurangkan pedas.",
+  "/ms/food/dishes/larb/": "Larb gaya Isan ialah daging cincang dengan serbuk beras goreng, limau nipis dan herba. Ketahui rasanya, cara makan bersama pulut dan sebab anda patut memesan larb yang dimasak.",
+  "/ms/food/dishes/sai-krok-isan/": "Sai Krok Isan ialah sosej fermentasi daging babi dan beras dari Isan yang terasa masam. Ketahui rasanya, perbezaan daripada Sai Ua dan cara menikmati cili segar yang dihidangkan bersama.",
+  "/ms/food/dishes/au-pla/": "Au Pla ialah kari ikan air tawar yang pedas dan masin, hidangan tempatan Khon Kaen. Ketahui rasanya, perbezaan daripada som tam dan larb, serta perkara yang perlu ditanya tentang ikan dan perisa.",
+  "/ms/food/dishes/hat-yai-chicken/": "Ayam goreng Hat Yai dihidangkan dengan bawang merah goreng dan sesuai dimakan bersama pulut. Ketahui rasanya, perisa yang digunakan dan sebab jenis daging sahaja tidak menentukan status halal.",
+  "/ms/food/dishes/bak-kut-teh/": "Bak Kut Teh ialah sup tulang rusuk babi yang direbus dengan herba dan rempah, hidangan Cina di kawasan Songkhla. Ketahui rasanya, cara makan bersama nasi dan bahawa kuahnya juga menggunakan babi.",
+  "/ms/food/dishes/roti/": "Roti Thai ialah snek jalanan yang doh nipisnya dibakar dan dihidangkan dengan susu pekat atau coklat, dengan pilihan pisang. Ketahui rasanya, cara memesan dan perbezaannya daripada Roti Sai Mai.",
+  "/ms/food/dishes/watermelon-shake/": "Nam Taeng Mo Pan ialah shake tembikai yang dikisar bersama air dan ais, minuman jalanan Thailand. Ketahui rasanya, cara meminta kemanisan dikurangkan dan perbezaannya daripada jus tembikai.",
+  "/ms/food/fruits/mango/": "Mangga Thailand ada musim utama Mac hingga Mei dan baka seperti Nam Dok Mai. Ketahui rasa mangga masak dan mangga muda, cara memotong dan perbezaan harga buah utuh dengan buah yang sudah dihiris.",
+  "/ms/food/fruits/durian/": "Durian Thailand ada musim utama April hingga Ogos dengan baka seperti Monthong dan Chanee. Ketahui rasa, cara mencubanya buat kali pertama, harga bersama kulit dan peraturan membawanya ke hotel.",
+  "/ms/food/fruits/mangosteen/": "Manggis Thailand ada musim utama April hingga Ogos dan isi putih yang masam manis. Ketahui cara membuka kulitnya, cara memilih buah dan sebab harga sekilogram bukan berat isi sahaja.",
+  "/ms/food/fruits/rambutan/": "Rambutan Thailand ada musim keluar April hingga Ogos, termasuk Rong Rian Nasan. Ketahui rasa isi putih yang manis, cara mengupas dan membuang biji, serta cara membeli sekilogram atau sebungkus.",
+  "/ms/food/fruits/longan/": "Longan Thailand ada musim utama Jun hingga Ogos dan dikaitkan dengan Chiang Mai serta utara. Ketahui rasa, cara mengupas dan membuang biji, serta perbezaan longan segar dengan yang dikeringkan.",
+  "/ms/food/fruits/lychee/": "Laici Thailand ada musim keluar April hingga Jun, termasuk laici Khom Samut Songkhram. Ketahui rasanya, cara mengupas dan membuang biji, serta cara membandingkan harga sekilogram dan sekotak.",
+  "/ms/food/fruits/longkong/": "Longkong Thailand ada musim keluar Mei hingga September dan berbeza daripada longan. Ketahui rasa manis masamnya, cara mengupas ulas lutsinar dan sebab biji dibuang, termasuk longkong Tanyongmat.",
+  "/ms/food/fruits/pomelo/": "Limau bali Thailand ada musim utama Oktober hingga Disember. Ketahui rasa isi berbutir, cara mengupas kulit tebal dan selaput dalam, serta cara membandingkan harga sebiji, sekilogram dan sekotak.",
+  "/ms/food/fruits/pineapple/": "Nanas Thailand ada musim utama April hingga Julai, termasuk nanas Si Thong dari Trat. Ketahui rasa masam manis, cara memotong dan cara membandingkan harga buah utuh dengan sebungkus yang dihiris.",
+  "/ms/food/fruits/banana/": "Pisang Thailand ada sepanjang tahun dan kadangkala dijual sesikat, bukan sekilogram. Ketahui rasa pelbagai baka, cara memilih pisang masak, pisang Kluai Khai dan perbezaan harga roti pisang.",
+  "/ms/food/fruits/coconut/": "Kelapa muda Thailand ada sepanjang tahun, termasuk kelapa Nam Hom yang harum. Ketahui cara minum air dan makan isinya yang lembut, serta cara membezakan harga sebiji daripada air kelapa dalam botol.",
+  "/ms/food/fruits/watermelon/": "Tembikai Thailand ada sepanjang tahun dan dimakan segar atau sebagai Nam Taeng Mo Pan. Ketahui rasanya, cara memilih tembikai dipotong dan cara membandingkan harga sekilogram, sebungkus dan secawan.",
+  "/ms/food/fruits/papaya/": "Betik Thailand ada sepanjang tahun, dan betik masak berbeza daripada betik hijau untuk som tam. Ketahui rasa isinya yang lembut, cara membelah dan membuang biji, serta cara memilih betik masak.",
+  "/ms/food/fruits/tamarind/": "Asam jawa manis Thailand ada musim utama hujung Disember hingga Februari, termasuk dari Phetchabun. Ketahui rasanya, cara membuang serat dan biji, serta beza polong segar dengan produk berbungkus.",
+  "/ms/food/fruits/mandarin/": "Oren mandarin Thailand ada musim utama Oktober hingga Februari, dan kulit hijau tidak bermakna belum masak. Ketahui rasa masam manis, cara makan dan cara membandingkan harga sekilogram mengikut gred.",
+  "/ms/food/fruits/marian-plum/": "Mayongchid atau plum mangga dikenali dari Nakhon Nayok dengan musim keluar Januari hingga Mac. Ketahui rasa manis dan masam yang rangup, cara memakannya dan cara bertanya tentang baka serta harga."
+ }
+}

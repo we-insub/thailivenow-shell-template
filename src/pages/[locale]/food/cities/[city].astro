@@ -1,0 +1,30 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FoodMarks from '../../../../components/FoodMarks.astro';
+import FoodCards from '../../../../components/FoodCards.astro';
+import FoodFilter from '../../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../../components/FoodPhoto.astro';
+import FoodText from '../../../../components/FoodText.astro';
+import FruitCards from '../../../../components/FruitCards.astro';
+import FruitPrices from '../../../../components/FruitPrices.astro';
+import {foodLocales,foodData,getFoodPack,fmt} from '../../../../lib/food-localized.mjs';
+export function getStaticPaths(){return foodLocales.flatMap(locale=>foodData(locale).cities.map(city=>({params:{locale,city:city.id},props:{locale,id:city.id}})));}
+const {locale,id}=Astro.props;
+const pack=getFoodPack(locale),data=foodData(locale),ui=pack.ui;
+const base=`/${locale}/food/`;
+const food=data;
+const city=data.cities.find(item=>item.id===id);
+const t=ui.city;
+const region=data.regions.find(r=>r.id===city.region);
+const categories=[...new Set(city.dishes.map(x=>data.dishes.find(d=>d.id===x)?.category).filter(Boolean))];
+const faq=[[t.faqQ1,city.note],[t.faqQ2,city.pairing]];
+---
+<FoodLayout locale={locale} ui={ui} data={data} title={fmt(t.titleTpl,{name:city.name})} description={city.intro} breadcrumbs={[[ui.foodCrumb,base]]} sourceIds={[...city.sources,...(city.id==='bangkok'?['fruit-prices']:[])]} faq={faq}>
+<header class="food-hero"><span class="food-eyebrow">{region.name} · {city.english}</span><h1>{fmt(t.h1Tpl,{name:city.name})}</h1><p class="food-subtitle">{city.tag}</p><p class="food-intro">{city.intro}</p></header>
+<div class="food-note"><p><strong>{fmt(t.noteTitleTpl,{name:city.name})}</strong><br/>{city.pairing}</p></div>
+<section><h2>{t.cultureH2}</h2><p>{city.culture}</p><p>{city.note}</p></section>
+<section><div class="food-section-head"><div><h2>{fmt(t.dishesH2Tpl,{name:city.name})}</h2><p>{t.dishesText}</p></div></div><FoodFilter type="dish" options={categories.map(x=>[x,ui.categories[x]])} count={city.dishes.length} ui={ui}/><FoodCards ids={city.dishes} filterable locale={locale} ui={ui} data={data}/></section>
+<section><div class="food-section-head"><div><h2>{fmt(t.fruitH2Tpl,{name:city.name})}</h2><p>{t.fruitText}</p></div><a href={`${base}fruits/`}>{t.calendarLink}</a></div><FruitCards ids={city.fruitGuide} locale={locale} ui={ui} data={data}/>{city.id==='bangkok'&&<FruitPrices city="bangkok" locale={locale} ui={ui} data={data}/>}<div class="food-related"><a href={`${base}fruit-prices/`}>{t.priceLink}</a><a href={`${base}street-food/`}>{t.streetLink}</a></div></section>
+<section class="food-faq"><h2>{t.faqH2}</h2>{faq.map(([q,a])=><article><h3>{q}</h3><p>{a}</p></article>)}</section>
+<section><h2>{t.othersH2}</h2><div class="food-related">{data.cities.filter(c=>c.id!==city.id).map(c=><a href={`${base}cities/${c.id}/`}>{fmt(t.cityLink,{name:c.name})}</a>)}<a href={`${base}traditions/`}>{t.traditionsLink}</a></div></section>
+</FoodLayout>

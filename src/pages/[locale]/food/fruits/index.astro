@@ -1,0 +1,25 @@
+---
+import FoodLayout from '../../../../components/FoodLayout.astro';
+import FoodMarks from '../../../../components/FoodMarks.astro';
+import FoodCards from '../../../../components/FoodCards.astro';
+import FoodFilter from '../../../../components/FoodFilter.astro';
+import FoodPhoto from '../../../../components/FoodPhoto.astro';
+import FoodText from '../../../../components/FoodText.astro';
+import FruitCards from '../../../../components/FruitCards.astro';
+import FruitCalendar from '../../../../components/FruitCalendar.astro';
+import FruitPrices from '../../../../components/FruitPrices.astro';
+import {foodLocales,foodData,getFoodPack,fmt} from '../../../../lib/food-localized.mjs';
+export function getStaticPaths(){return foodLocales.map(locale=>({params:{locale},props:{locale}}));}
+const {locale}=Astro.props;
+const pack=getFoodPack(locale),data=foodData(locale),ui=pack.ui;
+const base=`/${locale}/food/`;
+const food=data;
+const p=pack.pages.fruits;
+---
+<FoodLayout locale={locale} ui={ui} data={data} title={p.title} description={p.description} breadcrumbs={[[ui.foodCrumb,base]]} sourceIds={['fruit-gi','fruit-mango','fruit-durian','fruit-mangosteen','fruit-rambutan','fruit-longan','fruit-lychee','fruit-longkong','fruit-pomelo','fruit-pineapple','fruit-tamarind','fruit-mandarin','fruit-prices']}>
+<header class="food-hero"><span class="food-eyebrow">{p.eyebrow}</span><h1><FoodMarks text={p.h1} br/></h1><p class="food-intro">{p.intro}</p></header>
+<section><div class="food-section-head"><div><h2>{p.calendarH2}</h2><p>{p.calendarText}</p></div></div><FruitCalendar locale={locale} ui={ui} data={data}/></section>
+<section><h2>{p.cardsH2}</h2><FruitCards locale={locale} ui={ui} data={data}/></section>
+<section><h2>{p.unitH2}</h2><p>{p.unitText}</p><FruitPrices locale={locale} ui={ui} data={data}/><div class="food-related"><a href={`${base}fruit-prices/`}>{p.priceLink}</a></div></section>
+<section><h2>{p.snackH2}</h2><div class="food-related"><a href={`${base}dishes/roti/`}>{p.rotiLink}</a><a href={`${base}dishes/watermelon-shake/`}>{p.shakeLink}</a><a href={`${base}dishes/mango-sticky-rice/`}>{p.mangoRiceLink}</a><a href={`${base}street-food/`}>{p.streetLink}</a></div></section>
+</FoodLayout>

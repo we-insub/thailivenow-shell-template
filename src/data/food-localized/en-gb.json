@@ -1,0 +1,1401 @@
+{
+  "locale": "en-gb",
+  "ui": {
+    "skip": "Skip to main content",
+    "home": "Home",
+    "foodCrumb": "Food",
+    "fruitCrumb": "Fruit",
+    "breadcrumbLabel": "You are here",
+    "sourcesTitle": "Official sources and references",
+    "sourcesIntro": "If you would like to read more about the food and the regions behind it, these sources are worth a look. Ingredients and cooking methods can vary from one cook to the next.",
+    "categories": {
+      "noodles": "Rice and noodles",
+      "soup": "Soups and curries",
+      "side": "Sides and grills",
+      "dessert": "Desserts",
+      "drinks": "Drinks"
+    },
+    "filter": {
+      "city": "Cities by region",
+      "dish": "Type of dish",
+      "all": "Show all",
+      "reset": "Reset",
+      "cityCount": "{n} cities",
+      "dishCount": "{n} dishes"
+    },
+    "photo": {
+      "cardNote": "Resized for display; may be cropped",
+      "detailNote": "Resized for display",
+      "licenseNote": "Photo used under {license}"
+    },
+    "calendar": {
+      "label": "Month of travel",
+      "all": "All months, Jan–Dec",
+      "reset": "Show all",
+      "ariaLabel": "Fruit seasons from January to December",
+      "statusAll": "{n} fruits",
+      "statusMonth": "{n} fruits to look for in {month}",
+      "note": "Fruits sold all year, such as **watermelon, papaya, young coconut and banana**, are in the full list below. The calendar shows the main season or the harvest period given in official sources, and **sweet tamarind in December is listed from late December**. Actual availability can vary with the variety, the growing area and the weather."
+    },
+    "cards": {
+      "dishLink": "{name}: flavour and how to eat it →",
+      "fruitLink": "{name}: season, flavour and how to eat it →",
+      "cityLink": "Explore food in {name} →",
+      "cityDishCount": "{n} dish guides"
+    },
+    "prices": {
+      "title": "Bangkok retail prices · 14 October 2026",
+      "intro": "These are prices by variety and grade, surveyed by Thailand’s Department of Internal Trade. They do not apply to every stall on the street.",
+      "ariaLabel": "Table of Bangkok fruit retail prices",
+      "caption": "Whole-fruit retail prices for reference · Thai baht (THB)",
+      "colFruit": "Fruit and variety",
+      "colPrice": "Price",
+      "colUnit": "Unit",
+      "range": "{min}–{max} baht",
+      "unit": {
+        "kg": "1 kg",
+        "bunch": "1 bunch"
+      },
+      "note": "Keep the price of a bag or tub of cut fruit separate from the per-kilo price of whole fruit. **Bananas are priced per bunch in this survey.**"
+    },
+    "dish": {
+      "titleTpl": "{name} · Flavour and how to eat it",
+      "flavorH2": "What does it taste like?",
+      "infoH2": "The basics",
+      "dtName": "Dish",
+      "dtThai": "Thai name",
+      "dtCategory": "Type",
+      "dtRegion": "Region",
+      "dtIngredients": "Main ingredients",
+      "storyH2": "The dish and where it comes from",
+      "stepsH2": "How to order and eat it",
+      "faqH2": "Frequently asked questions",
+      "relatedH2": "More dishes and cities to explore",
+      "cityLink": "All food in {name} →",
+      "streetLink": "Street snacks and drinks →",
+      "watermelonLink": "Watermelon: season and buying guide →",
+      "bananaLink": "Banana buying guide →",
+      "traditionsLink": "Traditional Thai food and food culture →",
+      "hubLink": "All Thai food →",
+      "relatedDishLink": "{name} →"
+    },
+    "city": {
+      "titleTpl": "{name} food · Signature dishes and local flavours",
+      "h1Tpl": "{name} food",
+      "noteTitleTpl": "Choosing a meal in {name}",
+      "cultureH2": "The food culture you will meet here",
+      "dishesH2Tpl": "What to eat in {name}",
+      "dishesText": "Pick a dish you fancy. Each guide explains the flavour and what to eat it with.",
+      "fruitH2Tpl": "Try the fruit on your {name} trip",
+      "fruitText": "The place a fruit is famous for may not be the city where you buy it today. Check the season and flavour, then choose what you would like to try.",
+      "calendarLink": "Month-by-month fruit calendar →",
+      "priceLink": "City buying guide and prices →",
+      "streetLink": "Street snacks and drinks →",
+      "faqH2": "Frequently asked questions",
+      "faqQ1": "Can I only eat these dishes in this city?",
+      "faqQ2": "How should I choose something I have never tried?",
+      "othersH2": "Explore the flavours of other cities",
+      "cityLink": "{name} →",
+      "traditionsLink": "Traditional Thai food and food culture →"
+    },
+    "fruit": {
+      "titleTpl": "{name} · Season and flavour in Thailand",
+      "eyebrowTpl": "Thai fruit · {season}",
+      "whenH2": "When is the best time to eat it?",
+      "whenText": "Use the main season, or the harvest period for regional fruit, as a guide. Actual availability can vary with the growing area, the variety and the weather.",
+      "tasteH2": "What does it taste like?",
+      "whyH2": "Why this fruit is well known in Thailand",
+      "infoH2": "Good to know before you buy",
+      "dtThai": "Thai name",
+      "dtSeason": "Harvest period",
+      "dtRegional": "Regional fruit",
+      "dtBuying": "How it is sold",
+      "stepsH2": "How to prepare and eat it",
+      "priceH2": "A guide to prices",
+      "faqH2": "Frequently asked questions",
+      "faqQ1": "Can I only buy it in season?",
+      "faqA1YearRound": "It is listed as available all year round. However, the varieties and stock on sale differ from stall to stall, so look at whole fruit and prepared fruit separately.",
+      "faqA1Seasonal": "The guide gives its timing as: {season}. {availability} The calendar does not guarantee that it is on sale on any particular date.",
+      "availabilityYearRoundNote": "It is available all year, but volumes and prices can change with the season and the variety.",
+      "availabilityRegionalNote": "The harvest period can vary with the growing area and the variety.",
+      "faqQ2": "How do I compare a per-kilo price with the price of a tub?",
+      "moreH2": "Keep exploring",
+      "calendarLink": "Fruit calendar, Jan–Dec →",
+      "priceLink": "City buying guide and prices →",
+      "streetLink": "Street snacks and drinks →",
+      "hubLink": "All Thai food →"
+    }
+  },
+  "pages": {
+    "hub": {
+      "title": "Thai food · Traditional dishes and flavours by city",
+      "description": "Explore traditional Thai food and the signature dishes of each city. Read about the flavours and food culture of Bangkok, Chiang Mai, Phuket, Ayutthaya, Khon Kaen and Hat Yai, and how to eat each dish.",
+      "eyebrow": "THAILAND · FOOD & CULTURE",
+      "h1": "Thai food,|a different flavour in every city",
+      "intro": "If you are wondering what to eat in Thailand, start with the city you are visiting. In Chiang Mai you can try curried noodles, in Phuket stir-fried noodles with seafood, and in Ayutthaya a snack of roti wrapped around spun sugar. From the familiar pad Thai to dishes that change from city to city, take them one at a time.",
+      "traditional": {
+        "eyebrow": "Start at the Thai table",
+        "h2": "Traditional Thai food",
+        "text": "If Thai food is new to you, begin with pad Thai and tom yum kung. Each guide explains the ingredients and how the dish is eaten with rice or noodles.",
+        "link": "Traditional food and food culture →"
+      },
+      "street": {
+        "eyebrow": "Snacks and drinks on the go",
+        "h2": "Thai street food",
+        "text": "Look at warm roti, an ice-cold watermelon shake and the snacks to eat between meals.",
+        "link": "All street food →"
+      },
+      "fruit": {
+        "eyebrow": "January to December",
+        "h2": "Thai fruit",
+        "text": "Which fruit should you eat in the month you travel? Read about the season and flavour of 16 popular fruits, how they are sold and the prices that have been confirmed.",
+        "link": "Month-by-month fruit calendar →",
+        "priceLink": "City fruit buying guide and prices →"
+      },
+      "regions": {
+        "h2": "Change region, and the table changes too",
+        "text": "Just as Britain’s cooking changes from Cornwall to Cumbria, the rice, seasonings and side dishes in Thailand change from region to region. Look at the food of the central, northern, Isan and southern regions in turn."
+      },
+      "cities": {
+        "eyebrow": "Pick a meal by where you are going",
+        "h2": "Food by city",
+        "text": "Which city are you visiting? Choose one to see what to eat there and how to eat it."
+      },
+      "related": {
+        "h2": "Read alongside your meal plans",
+        "rooftops": "Rooftop bars and viewpoints: visiting guide →",
+        "delivery": "Food delivery apps: how to use them →",
+        "transport": "Getting around Thailand →"
+      }
+    },
+    "traditions": {
+      "title": "Traditional Thai food and regional food culture",
+      "description": "How do the staples and seasonings of the central, northern, Isan and southern regions differ? Read about signature Thai dishes, regional flavours and what to know before you order for the first time.",
+      "eyebrow": "Traditional Thai food and food culture",
+      "h1": "Even within one country,|how people eat and what it tastes like varies",
+      "intro": "If you have already tried pad Thai and tom yum kung, there is plenty more to find. In Chiang Mai, sticky rice comes with sausage, vegetables and a dipping sauce, while in Isan people enjoy a crunchy papaya salad and sour fermented dishes. Some foods, like the noodles and snacks of Phuket, change from city to city. Just as you might compare regional specialities at home, try finding a new flavour in the city you visit.",
+      "note": "If Thai food is new to you, start with **a curry or a bowl of noodles to eat with rice**. If you are with friends or family, order several dishes to share and enjoy the different flavours together.",
+      "basicsH2": "The basics of the Thai table",
+      "basics": [
+        [
+          "Staples",
+          "In the central region, rice is served with a range of dishes, while in the north and Isan sticky rice is eaten often. Noodle dishes differ from region to region."
+        ],
+        [
+          "Flavourings",
+          "Chilli, herbs, sour ingredients, fish sauce and fermented ingredients are combined according to the dish. What gives each dish its flavour differs."
+        ],
+        [
+          "Regions",
+          "This guide covers the main features of the central, northern, north-eastern Isan and southern regions. Even within one region, the food of each city and community differs."
+        ],
+        [
+          "Dietary needs",
+          "Look at **the ingredients in the seasonings and sauces** too. You cannot tell whether a dish is vegetarian or halal from a name such as a vegetable dish or a chicken dish."
+        ]
+      ],
+      "regionsH2": "Splitting Thailand into regions shows the flavours more clearly",
+      "cityLinkTpl": "Food in {name} →",
+      "orderH2": "How to choose when you order for the first time",
+      "order": [
+        "First decide whether you want to share rice with a few dishes or have a single bowl of noodles.",
+        "Choose the meat, fish or prawns you like, and if there is anything you avoid, mention it including the seasonings.",
+        "**Ask about spice level before you order.** Broth or sauce that has already been made can be hard to adjust.",
+        "When the food arrives, taste it first, then add extra seasoning and side dishes little by little."
+      ],
+      "faqH2": "Frequently asked questions",
+      "faq": [
+        [
+          "Is all Thai food spicy?",
+          "Some dishes, such as desserts, are not spicy, and others do not stress heat. You cannot tell how hot a curry or dipping sauce is from its colour or name alone, so it helps to ask before you order."
+        ],
+        [
+          "Do regional dishes only get eaten in their own region?",
+          "Many have spread and are eaten across the country. This guide explains how a dish connects with regional food culture. It does not claim where a dish began or that it is sold only in one area."
+        ],
+        [
+          "If a dish has vegetables in it, is it vegetarian?",
+          "Not necessarily. Animal-based seasonings such as fish sauce and shrimp paste are sometimes used. If you have dietary requirements, ask for the actual ingredients, including the seasonings."
+        ]
+      ],
+      "cardsH2": "Start with the signature dishes, one by one",
+      "moreH2": "Keep exploring",
+      "hubLink": "All Thai food →",
+      "deliveryLink": "Food delivery: how to use it →"
+    },
+    "streetFood": {
+      "title": "Thai street food · Roti, watermelon shakes, snacks and drinks",
+      "description": "Find out about Thai street food, from roti and watermelon shakes to roti sai mai, fermented sausage and Hat Yai fried chicken. Read about the flavours and what to know before you order from a stall.",
+      "eyebrow": "STREET FOOD · SNACKS & DRINKS",
+      "h1": "A snack or a drink to try|as you wander the street",
+      "intro": "Try a warm piece of roti or a cup of ice-cold watermelon shake. In Thailand, snacks and fruit drinks between meals are part of the fun of travelling. From sweet snacks to sausage and fried chicken, read about the flavour of whatever you fancy and how to eat it.",
+      "sweetH2": "Sweet roti and a cooling watermelon shake",
+      "savoryH2": "Savoury snacks and a meal to go with them",
+      "orderH2": "How to choose when you order",
+      "order": [
+        "For roti, compare the price of the plain version with versions that add toppings such as banana or egg.",
+        "For drinks, look at the cup size and any added ingredients, and if you want less sweetness, say so before it is made.",
+        "Check the stall’s menu and the prices shown, and order only the amount you need. A dish name does not guarantee the same price or ingredients everywhere."
+      ],
+      "withFruitH2": "Read about it alongside the fruit",
+      "calendarLink": "Thai fruit, Jan–Dec →",
+      "priceLink": "Fruit selling units and prices →",
+      "hubLink": "All Thai food →"
+    },
+    "fruits": {
+      "title": "Thai fruit · Seasons and prices from January to December",
+      "description": "Read about the season, flavour and how to eat 16 popular Thai fruits. Includes a fruit calendar from January to December and Bangkok retail prices that separate variety and selling unit.",
+      "eyebrow": "THAI FRUIT · MONTH BY MONTH",
+      "h1": "Thai fruit,|chosen to match the month you travel",
+      "intro": "Look for fragrant mango in the spring, longan in the summer, and pomelo and mandarin oranges at the end of the year. Even familiar fruit can differ in variety and in how it is eaten in Thailand. Pick the month you travel, then read about the flavour and how to peel it.",
+      "calendarH2": "Fruit calendar from January to December",
+      "calendarText": "This gathers the main seasons and the harvest periods from official sources. The same fruit can ripen at different times depending on where it is grown, so each fruit page also explains the regional timing separately.",
+      "cardsH2": "Popular fruit to try in Thailand",
+      "unitH2": "How is fruit sold, and for how much?",
+      "unitText": "Whole fruit is sometimes sold by the kilo, bananas by the bunch and coconuts one at a time. A tub of prepared fruit or a cup of watermelon shake is best kept separate from the price of whole fruit.",
+      "priceLink": "What to know when buying fruit in each city →",
+      "snackH2": "Street snacks and drinks made with fruit",
+      "rotiLink": "Roti with banana →",
+      "shakeLink": "Watermelon shake (nam taeng mo pan) →",
+      "mangoRiceLink": "Mango sticky rice →",
+      "streetLink": "All street food →"
+    },
+    "fruitPrices": {
+      "title": "Thai fruit prices · City buying guide and selling units",
+      "description": "What should you compare when buying Thai fruit by the kilo, bunch, piece or tub? Read the buying guide for six cities and the confirmed official retail prices for Bangkok.",
+      "eyebrow": "FRUIT PRICES · UNITS & CITIES",
+      "h1": "Look at the unit first,|then pick your fruit by price",
+      "intro": "Two prices for the same kind of fruit are hard to compare. Keep the kilo price of whole fruit, a bunch of bananas, a single coconut and a tub of prepared fruit apart. Read what to know when buying in each city, alongside the prices whose date, variety and unit have been confirmed.",
+      "bangkokH2": "Confirmed Bangkok retail prices",
+      "citiesH2": "What to know when buying fruit in each city",
+      "citiesText": "The notes below are guides to choosing fruit on a trip to each city. **The prices shown as numbers are Bangkok retail survey figures** and are not used as typical street prices for other cities.",
+      "cityLinkTpl": "Food in {name} →",
+      "calendarLink": "Fruit calendar →",
+      "compareH2": "To compare on the same price list",
+      "compare": [
+        [
+          "Whole fruit by the kilo",
+          "Compare the same variety, size and grade. For a thick-skinned fruit such as durian, ask whether the kilo price includes the shell or is for the flesh only."
+        ],
+        [
+          "Per piece or per bunch",
+          "The size of a piece or the number of fruit in a bunch can vary. Do not convert to a kilo price on your own; look at the amount you actually buy."
+        ],
+        [
+          "Prepared fruit",
+          "Look at how much flesh goes into a bag or tub. It is different from the weight of whole fruit with its skin."
+        ],
+        [
+          "Drinks",
+          "Cup size, ingredients, and how ice and syrup are used all differ. Do not compare the kilo price of watermelon with a cup of watermelon shake as if they were the same product."
+        ]
+      ]
+    }
+  },
+  "regions": {
+    "central": {
+      "name": "Central",
+      "subtitle": "The central table: curries served with rice",
+      "text": "In the central region, rice is served with curries and a range of other dishes. The richness of coconut milk, sourness, sweetness and heat come together differently in each dish. If you eat tom yum kung and green curry in Bangkok, you will taste that mix of flavours."
+    },
+    "north": {
+      "name": "North",
+      "subtitle": "The north: sticky rice and vegetables with dipping sauces",
+      "text": "In the north, sticky rice and vegetables are eaten with nam prik, and there is sai ua, a herby sausage. Chiang Mai’s khao soi puts noodles and curry broth in one bowl. Not all northern food is mild, so ask about spice when you order."
+    },
+    "isan": {
+      "name": "North-east · Isan",
+      "subtitle": "Isan: crunchy papaya and sour fermented flavours",
+      "text": "In Isan, try som tam and larb with sticky rice. Some dishes use pla ra, a fermented fish seasoning. Even within Isan, som tam differs in the chillies and seasonings used, so the flavour changes from place to place."
+    },
+    "south": {
+      "name": "South",
+      "subtitle": "The south: seafood, noodles and many cultures on one table",
+      "text": "In the south you will find spicy food, and also noodles and snacks that differ from city to city. Phuket has dishes shaped by Chinese and Malay food culture, and the Songkhla area has the food of its Chinese and Muslim communities side by side. Choose the city you are visiting and look at its signature dishes."
+    }
+  },
+  "cities": {
+    "bangkok": {
+      "name": "Bangkok",
+      "tag": "A city that gathers flavours from across Thailand",
+      "intro": "If you are choosing a first meal in Bangkok, start with pad Thai. For the next meal, try a curry with rice, or share a tom yum kung. Finish with mango sticky rice for something sweet. In Bangkok you can eat central Thai food, and dishes from many other regions too.",
+      "culture": "Bangkok is a city where the food of many Thai regions comes together. The choice runs from central rice and curries to dishes brought from other parts of the country. Here we introduce signature dishes that are easy to choose even if Bangkok is your first taste of Thai food.",
+      "note": "The dishes below are not local specialities that you can only eat in Bangkok. They can be found in many Thai cities.",
+      "pairing": "If you are eating alone, choose a plate of pad Thai or a curry with rice. With friends or family, share a tom yum kung and finish with a plate of mango sticky rice for pudding.",
+      "priceGuide": "In Bangkok, keep the kilo price of whole fruit apart from the price of a tub of cut fruit. Below are the official retail prices by variety and grade, surveyed on the same day. They can differ from prices at individual stalls in tourist areas."
+    },
+    "chiang-mai": {
+      "name": "Chiang Mai",
+      "tag": "Lanna flavours and sticky rice culture",
+      "intro": "In Chiang Mai, start your northern food with a bowl of khao soi. You get soft noodles, crispy noodles and a rich curry broth together. For the next meal, try herby sai ua and nam prik ong, a tomato dipping sauce, with sticky rice. It is a northern table that is quite different from a noodle dish.",
+      "culture": "In the north, sticky rice is eaten with a range of side dishes, vegetables and nam prik. The khantoke meal, where food is laid out on a small table, shows this food culture too. Khantoke is not the name of one dish; it describes the table where many dishes are set out and the way of eating them.",
+      "note": "Khao soi, sai ua and nam prik ong are eaten not only in Chiang Mai but in other parts of the north too.",
+      "pairing": "If you want a light lunch, choose khao soi. On a day when you are sharing several dishes, order sai ua and nam prik ong with sticky rice and vegetables for a meal of northern food.",
+      "priceGuide": "In Chiang Mai, look at longan and lychee too, which are linked with the north. For fruit sold by the bunch, ask whether the weight includes the stalk. Treat dried longan and fresh fruit as separate products, with their own pack weights."
+    },
+    "phuket": {
+      "name": "Phuket",
+      "tag": "Noodles and snacks shaped by Chinese and Malay culture",
+      "intro": "In Phuket you do not have to stop at grilled seafood. Try mi hokkien, thick noodles stir-fried, and mi hun, thin rice noodles. After a meal, take a break with o-aew, made with ice and jelly. Eat the local food on the day you explore the old town.",
+      "culture": "The food of Phuket carries the influence of Chinese and Malay food culture. Thick noodles may be stir-fried with seafood, while thin noodles may come with a pork rib broth. Add the iced jelly snack and Phuket’s table looks more varied than seafood alone.",
+      "note": "Mi hokkien and mi hun are different noodle dishes. If you order them by name, you can enjoy the difference in texture and in what is served with them.",
+      "pairing": "Have mi hokkien or mi hun as a meal, and on a hot day choose o-aew for pudding. If you are with a group, share both noodle dishes and compare the thick and thin noodles.",
+      "priceGuide": "In Phuket, keep prepared fruit or drinks to have straight away on the beach separate from whole fruit. If you convert the price of a bag or a cup into a kilo price to compare, the amount you actually eat will differ."
+    },
+    "ayutthaya": {
+      "name": "Ayutthaya",
+      "tag": "River food and roti sai mai",
+      "intro": "In Ayutthaya, try boat noodles for lunch between the ruins. If you want to share a meal with your group, choose grilled river prawns. Roti sai mai, thin roti wrapped around spun sugar, is a snack to try in Ayutthaya. Wrap each one yourself and enjoy a sweet moment on your trip.",
+      "culture": "Ayutthaya sits close to the river, and food trips built around noodles and river prawns are well known there. You can also find roti sai mai, which has been kept going by the Muslim community. Eat noodles as a meal, wrap spun sugar in roti, and enjoy the different foods of one city.",
+      "note": "Boat noodles are eaten in other cities too. The price of river prawns depends on size and selling unit, so look at the prawns you will order before you choose.",
+      "pairing": "Have boat noodles at lunch, and for a shared meal split grilled river prawns and rice. With roti sai mai, you can adjust how much spun sugar you use and wrap one sheet at a time.",
+      "priceGuide": "On a day exploring the ruins in Ayutthaya, first decide how much fruit you want to eat right away. Each fruit has its own unit: bananas by the bunch, whole watermelon by the kilo. For prepared fruit, look at the amount in the bag or tub together with the price."
+    },
+    "khon-kaen": {
+      "name": "Khon Kaen",
+      "tag": "Isan’s fermented flavours and freshwater fish",
+      "intro": "In Khon Kaen, enjoy Isan food with som tam and larb alongside sticky rice. You can share crunchy papaya, savoury meat and a sour dressing in one meal. Also look at sai krok Isan, a fermented sausage, and au pla, a freshwater fish curry. They are dishes whose ingredients and eating style differ, even within the same region.",
+      "culture": "In Isan, sticky rice and fermented seasonings are used widely. The ways of building flavour vary too: som tam is made by pounding papaya, larb contains herbs and toasted rice powder, and the sausage is fermented rice and pork. We also introduce au pla, a local dish of Khon Kaen that uses freshwater fish.",
+      "note": "Som tam, larb and sai krok Isan are eaten in many parts of Isan. Au pla is a dish presented as a local dish of Khon Kaen.",
+      "pairing": "When you eat som tam or larb, order sticky rice too. If you are not used to fermented flavours, first ask whether the som tam contains pla ra. On a day when you fancy fish rather than meat, look at au pla.",
+      "priceGuide": "In Khon Kaen, tell apart the ripe papaya eaten as fruit and the green papaya used in som tam. When you buy whole fruit, look at the kilo price and the total weight; for prepared fruit, look at how much is in a tub."
+    },
+    "hat-yai": {
+      "name": "Hat Yai",
+      "tag": "Fried chicken and soups of the Songkhla area",
+      "intro": "In Hat Yai, try fried chicken served with fried shallots. Eating the chicken and shallots together gives you crunch and a rich aroma. If you fancy a different meal, you could choose bak kut teh, a herbal pork rib soup. Take in the varied food culture of the Songkhla area, one dish at a time.",
+      "culture": "The Songkhla area, where Hat Yai is, has the food of its Chinese and Muslim communities side by side. There are meals of sticky rice and fried chicken, and meals built around bak kut teh with its Chinese herbal aroma. The meat and seasonings differ from dish to dish, so choose a menu that everyone you are with can eat.",
+      "note": "Bak kut teh is not presented as a dish that began in Hat Yai. You cannot tell whether a dish is halal from the name alone, even if it uses chicken.",
+      "pairing": "Have the fried chicken with sticky rice. Eat the fried shallots together with the chicken, and add the sauce little by little. On a day when you want a warm broth for your meal, choose bak kut teh, which uses pork ribs.",
+      "priceGuide": "In Hat Yai, also look at when southern fruit is harvested in each growing area. Even the same rambutan or mangosteen can ripen at different times depending on the area. When you buy a bag, ask about the weight in the bag and the total price together."
+    }
+  },
+  "dishes": {
+    "pad-thai": {
+      "name": "Pad Thai",
+      "scope": "Thailand’s signature dish",
+      "intro": "If you cannot decide what to eat on your first night in Thailand, try pad Thai. It is rice noodles stir-fried with egg and tofu in a sweet and sour tamarind sauce. Crunchy beansprouts and nutty peanuts add several textures to a single plate. Squeeze over the lime that comes on the side and the sourness really lifts.",
+      "flavor": "Sour tamarind meets sweet and salty notes. Soft noodles, then the crunch of beansprouts and the richness of peanuts as you chew. Where dried chilli flakes are served on the side, you can add as much as you like.",
+      "ingredients": "Rice noodles with egg, tofu and beansprouts, flavoured with tamarind. Prawns, dried shrimp or peanuts may also be used, so if there is anything you avoid, tell them before you order.",
+      "story": "Pad Thai is Thailand’s best-known stir-fried noodle dish. It is easy to find in Bangkok, but it is not a local speciality eaten only there. If Thai food is new to you, start with pad Thai, then try a noodle dish with broth, such as khao soi, for your next meal.",
+      "tip": "If you cannot eat prawns, ask whether dried shrimp is also in the dish and the sauce.",
+      "steps": [
+        "Choose your main ingredient, such as prawns, and place your order. If you cannot eat prawns, ask whether dried shrimp goes in too.",
+        "When it arrives, try it as it comes first. Add the lime and peanuts a little at a time to adjust the sourness and richness to your taste.",
+        "If you like it hot, add a little dried chilli. If you need to leave out egg or peanuts, say so before the dish is cooked."
+      ],
+      "faq": [
+        [
+          "Does pad Thai always have prawns in it?",
+          "No. The main ingredient depends on the menu. But even when you cannot see any prawns, dried shrimp is sometimes used in the seasoning, so if you cannot eat prawns, ask about both the main ingredient and the seasonings."
+        ],
+        [
+          "Can I only eat it in Bangkok?",
+          "No. It is a signature dish eaten in many Thai cities. On a trip to Bangkok it makes a good first meal for getting used to Thai food."
+        ]
+      ],
+      "emphasis": [
+        "peanuts",
+        "before you order"
+      ],
+      "photoAlt": "Photo of pad Thai",
+      "photoCaption": "Pad Thai · example of the dish"
+    },
+    "tom-yum-kung": {
+      "name": "Tom Yum Kung",
+      "scope": "Thailand’s signature dish",
+      "intro": "Try tom yum kung, a hot broth where the scent of lemongrass and kaffir lime leaves rises from the bowl. It is Thailand’s signature soup, made hot and sour with prawns. A spoonful gives you sourness, heat and herbs all at once. If you are eating with friends or family, order rice and share a bowl of tom yum kung.",
+      "flavor": "The broth carries the flavour of prawns, with sourness and heat on top. Lemongrass, galangal and kaffir lime leaves give tom yum its distinctive aroma. It can be made with a clear broth or a rich one, so dishes with the same name can taste a little different.",
+      "ingredients": "Prawns, with lemongrass, galangal and kaffir lime leaves for aroma. The seasonings and broth vary with the recipe.",
+      "story": "Tom yum kung is a dish whose preparation has been passed down in homes and communities. The knowledge and culture around it were inscribed on UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity in 2024. It is not a certification given to a particular restaurant but recognition of the culture that people have passed on by making and sharing the dish.",
+      "tip": "If you cannot eat prawns, choose another dish instead of tom yum kung.",
+      "steps": [
+        "Look at whether the menu offers a clear or a rich broth, and choose. If you would like it less spicy, say so when you order. Broth that is already simmering can be hard to adjust.",
+        "Take the broth a spoonful at a time with rice. If you are with others, ladle it into individual bowls to share the prawns and broth.",
+        "The tough lemongrass stalks and aromatics in the broth are there for flavour. Pick out the prawns and the pieces you want to eat."
+      ],
+      "faq": [
+        [
+          "Did UNESCO list a restaurant?",
+          "No. What was inscribed is the knowledge of making tom yum kung and the related food culture. It does not mean that any restaurant has been certified."
+        ],
+        [
+          "Is every tom yum a prawn soup?",
+          "No. Kung means prawn, and there are tom yums made with other ingredients. Looking at the name that follows tom yum on the menu helps you choose the main ingredient."
+        ]
+      ],
+      "emphasis": [
+        "If you cannot eat prawns",
+        "when you order"
+      ],
+      "photoAlt": "Photo of tom yum kung",
+      "photoCaption": "Tom yum kung · example of the dish"
+    },
+    "green-curry": {
+      "name": "Green Curry",
+      "scope": "Central Thai food culture · eaten across the country",
+      "intro": "If you fancy a fragrant curry with rice, choose green curry. Green curry paste is stirred into coconut milk, then meat and vegetables are added and simmered. The richness of coconut gets herb notes such as basil. The pale green colour looks mild, but it has heat, so if you do not cope well with spicy food, say so when you order.",
+      "flavor": "Behind the rich, smooth coconut milk you can feel the heat of the curry paste. The herb aroma is clear too, so it tastes quite different from a typical curry-house curry. Spoon a little curry and its pieces over your rice at a time.",
+      "ingredients": "Green curry paste and coconut milk, with meat and vegetables simmered in. Herbs such as basil may add aroma.",
+      "story": "Green curry is one of the signature dishes of central Thailand. In Thailand it is eaten not only with steamed rice but also with rice noodles known as khanom chin, and with roti. On a trip to Bangkok, have a curry with the meat you like and a portion of rice for a meal.",
+      "tip": "Even with coconut milk it can be hot. Ask about the spice level when you order.",
+      "steps": [
+        "Choose a main ingredient such as chicken and order. If curry and rice are sold separately on the menu, order rice too.",
+        "Ask before it is cooked whether the spice can be reduced. Coconut milk does not make a dish free of heat.",
+        "Spoon a little of the curry sauce and pieces over your rice as you eat. If you are sharing several dishes, you do not have to pour all the curry over the rice at once."
+      ],
+      "faq": [
+        [
+          "Is green curry not spicy?",
+          "It has heat. The curry paste uses chilli, even if the coconut milk makes it feel gentle. If you do not cope well with spicy food, ask about the spice level before you order."
+        ],
+        [
+          "Is a curry with only vegetables vegetarian?",
+          "Not necessarily. The curry paste or seasonings may contain animal ingredients. If you are vegetarian, ask whether the paste and sauce are suitable as well as the meat."
+        ]
+      ],
+      "emphasis": [
+        "heat",
+        "Ask about the spice level"
+      ],
+      "photoAlt": "Green curry in a bowl, served with roti",
+      "photoCaption": "Green curry served with roti · example of the dish"
+    },
+    "massaman": {
+      "name": "Massaman Curry",
+      "scope": "A signature Thai curry",
+      "intro": "Try massaman curry, with the scent of cinnamon and cardamom. It is a rich curry flavoured with several spices, good to eat slowly with rice. It also suits anyone who wants to taste a different aroma from green curry. It is known as a relatively mild curry, but the heat differs from place to place.",
+      "flavor": "The aroma of spices such as cinnamon, cardamom and cloves runs through the curry. Eating it beside a green curry, where herbs stand out, makes the difference between the two easy to taste. Have the rich sauce with your rice a little at a time.",
+      "ingredients": "Flavoured with several spices, including cinnamon, cardamom and cloves. The meat, nuts and other ingredients depend on the dish you order.",
+      "story": "Massaman is one of Thailand’s signature curries and is also introduced in the guide to central Thai food culture. It is not eaten only in one city. If you are new to Thai curry, start with massaman, then try green curry when you become curious about the taste of herbs and chilli.",
+      "tip": "A relatively mild curry does not mean it has no heat.",
+      "steps": [
+        "Choose a dish with the meat you like. It also helps to check whether rice to eat with the curry is included.",
+        "Taste a little of the curry first, then have it with rice. Spoon the rich sauce and meat over the rice together.",
+        "If you cannot eat nuts or particular spices, say so before you order. Even a relatively mild curry may have some heat."
+      ],
+      "faq": [
+        [
+          "I have never had Thai curry. Is massaman a good choice?",
+          "It is worth considering if you would like to begin with a relatively mild curry. But the heat and the taste of the spices differ from place to place, so it helps to ask about the spice level when you order."
+        ],
+        [
+          "Is every massaman halal?",
+          "You cannot decide whether a dish is halal from its name. Check the meat and seasonings used, and the restaurant’s certification."
+        ]
+      ],
+      "emphasis": [
+        "does not mean it has no heat",
+        "before you order"
+      ],
+      "photoAlt": "Photo of massaman curry",
+      "photoCaption": "Massaman curry · example of the dish"
+    },
+    "mango-sticky-rice": {
+      "name": "Mango Sticky Rice",
+      "scope": "A signature Thai dessert",
+      "intro": "If you want something sweet after a meal, try mango sticky rice. It is a Thai dessert of ripe mango served beside sticky rice flavoured with coconut milk. Take mango and sticky rice in one mouthful and the sweetness of the fruit meets the chewy rice. If you have finished a big meal, share one plate with your companion.",
+      "flavor": "The sweetness of mango is joined by the richness of coconut. The sticky rice is chewy, so the texture is different from eating the fruit alone. Taste the mango and the rice separately, then bring them together on one spoon.",
+      "ingredients": "Ripe mango served with sticky rice flavoured with coconut milk. The sauce and toppings vary from seller to seller.",
+      "story": "In Thailand, sticky rice flavoured with coconut milk is eaten as a dessert with a variety of toppings. Mango sticky rice is the one served with ripe mango. It contains rice, but think of it as a sweet pudding rather than a meal eaten with savoury dishes.",
+      "tip": "It contains rice, but it is enjoyed as a sweet dessert.",
+      "steps": [
+        "If you have already finished a meal, look at the size of the plate and decide whether to share.",
+        "Try the mango and the sticky rice one mouthful each, then together. You can feel how the flavour and texture change when the two meet.",
+        "If the sauce comes separately, add it a little at a time. You do not need to pour it all on at the start."
+      ],
+      "faq": [
+        [
+          "It has rice in it. Is it a meal?",
+          "It is usually enjoyed as a sweet dessert. You eat mango together with sticky rice flavoured with coconut milk. If you have it after a meal, it is fine to share it with your companion."
+        ],
+        [
+          "Does the mango always taste the same?",
+          "No. It depends on the variety, how ripe it is and when it is sold. Since the sticky rice and coconut sauce are added to the flavour of the mango, try them together in each mouthful."
+        ]
+      ],
+      "emphasis": [
+        "dessert"
+      ],
+      "photoAlt": "Photo of mango sticky rice",
+      "photoCaption": "Mango sticky rice · example of the dish"
+    },
+    "khao-soi": {
+      "name": "Khao Soi",
+      "scope": "A signature dish of the north",
+      "intro": "If you are choosing a meal in Chiang Mai, try khao soi. Egg noodles sit in a coconut curry broth, topped with noodles fried until crisp, and it is a signature dish of the north. There is fun in alternating soft noodles and crispy noodles. If lime comes on the side, taste the broth first, then squeeze in a little.",
+      "flavor": "A rich curry broth and two kinds of noodle define it. The topping noodles are crisp at first and soften little by little as they touch the broth. Taste the broth before and after you add the side dishes, and you get different flavours in one bowl.",
+      "ingredients": "Egg noodles in coconut curry broth, topped with fried noodles. Some menus let you choose the main ingredient, such as chicken or beef.",
+      "story": "Khao soi is well known on trips to Chiang Mai, but it is eaten in other northern cities too. Unlike a northern meal laid out with sticky rice and side dishes, it puts noodles and broth in one bowl. It is also a good choice when you are eating alone or want a light lunch.",
+      "tip": "Try the crispy noodles on top before they get soaked in the broth.",
+      "steps": [
+        "Choose the main ingredient you like, such as chicken or beef, and order.",
+        "Try a mouthful of the fried noodles before they get soaked in the broth. Alternating them with the soft noodles underneath shows the difference in texture.",
+        "Taste the broth first, then add lime and the side dishes a little at a time. You do not need to put everything in at the start."
+      ],
+      "faq": [
+        [
+          "Can I only eat it in Chiang Mai?",
+          "No. It is a signature dish eaten in many northern cities. If you are meeting northern food for the first time in Chiang Mai, a bowl of khao soi is a good place to start."
+        ],
+        [
+          "What meat goes in khao soi?",
+          "There are menus with chicken, beef and others. Look at the main ingredient written on the menu and choose what you want. Not every shop uses the same meat."
+        ]
+      ],
+      "emphasis": [
+        "crispy noodles",
+        "main ingredient"
+      ],
+      "photoAlt": "Khao soi topped with fried noodles, with side dishes served separately",
+      "photoCaption": "Khao soi · example of the dish"
+    },
+    "sai-ua": {
+      "name": "Sai Ua",
+      "scope": "A signature dish of the north",
+      "intro": "If you fancy a fragrant meat dish in Chiang Mai, choose sai ua. It is a northern sausage of pork mixed with chilli and herbs, then grilled. A slice gives you the richness of grilled meat and the scent of herbs together. With sticky rice and vegetables it makes a good meal of northern food.",
+      "flavor": "The richness of pork is joined by herb aroma and chilli seasoning. The distinctive scent is different from a familiar sausage. How hot it is depends on how it is made, so if it is your first time, you could start with a small piece.",
+      "ingredients": "Pork mixed with chilli, garlic and several herbs, then grilled. The blend of herbs and seasoning differs from maker to maker.",
+      "story": "Sai ua often appears on the Lanna table of the north. It is sometimes eaten with sticky rice or a dipping sauce such as nam prik. Order it with nam prik ong, which is flavoured with tomato, and vegetables, and you can alternate between the grilled meat and the sauce.",
+      "tip": "It is a sausage of pork mixed with herbs and grilled.",
+      "steps": [
+        "Choose how much you want and order. If you are eating several dishes together, it is fine to share a little with your companion.",
+        "Start with a small piece. Once you know the herb aroma and the heat, it is easier to decide how much sticky rice or vegetables to have with it.",
+        "Eat it with sticky rice, nam prik and vegetables. You get a different meal from eating the sausage alone."
+      ],
+      "faq": [
+        [
+          "Is it the same sausage as sai krok Isan?",
+          "No. Sai ua is a northern sausage with herbs, grilled. Sai krok Isan is an Isan dish made by fermenting pork and rice, and its sour taste comes from the fermentation."
+        ],
+        [
+          "Can I order it if I do not eat pork?",
+          "The standard sai ua is made with pork. If you do not eat pork, it is better to choose another dish for your meal."
+        ]
+      ],
+      "emphasis": [
+        "pork",
+        "small piece"
+      ],
+      "photoAlt": "Photo of sai ua",
+      "photoCaption": "Sai ua · example of the dish"
+    },
+    "nam-prik-ong": {
+      "name": "Nam Prik Ong",
+      "scope": "A dipping sauce of the north",
+      "intro": "Meet nam prik ong, the sauce eaten with vegetables at a northern meal. It is a red dipping sauce made from tomatoes, minced pork and chilli. Dab a little on vegetables or have it with sticky rice and you get the savoury depth of pork and the acidity of tomato together. You could order it with sai ua and lay a northern table.",
+      "flavor": "The acidity of tomato and the savoury depth of pork are joined by chilli seasoning. A soft sauce on crunchy vegetables brings different textures together. The heat varies from maker to maker.",
+      "ingredients": "It uses tomatoes, minced pork and chilli. It is a sauce to have a little at a time with sticky rice and vegetables.",
+      "story": "Nam prik is a dipping sauce eaten in Thailand with vegetables or rice. The north has many nam prik, and nam prik ong is the kind that uses tomato and pork. You can also meet it with sticky rice and vegetables at a khantoke meal, where food is laid out on a small table.",
+      "tip": "Even a tomato sauce has minced pork in it.",
+      "steps": [
+        "Check whether sticky rice and vegetables come with it, and order it with other northern dishes.",
+        "Dab a little sauce on a vegetable and try it first. With sticky rice you get yet another texture.",
+        "Even though it is a tomato sauce, it contains pork. If you avoid meat or animal-based seasonings, say so before you order."
+      ],
+      "faq": [
+        [
+          "If it is made with tomato, is it vegetarian?",
+          "No. The standard nam prik ong contains minced pork. If you are vegetarian, do not choose by the tomato colour; ask about the meat and seasonings too."
+        ],
+        [
+          "Do you eat the sauce on its own?",
+          "You have it a little at a time with vegetables and sticky rice. Order it with grilled food such as sai ua and you can share several flavours."
+        ]
+      ],
+      "emphasis": [
+        "minced pork",
+        "dipping sauce",
+        "seasonings"
+      ],
+      "photoAlt": "Nam prik ong, a tomato and pork sauce, with vegetables",
+      "photoCaption": "Nam prik ong · example of the dish"
+    },
+    "mi-hokkien": {
+      "name": "Mi Hokkien",
+      "scope": "A noodle dish of Phuket",
+      "intro": "If you want a noodle dish in Phuket, try mi hokkien. Thick yellow noodles are stir-fried over a fierce heat with seafood and sauce. You get the flavour of the sauce in the noodles and the seafood together. It also makes a good lunch on the day you explore Phuket’s old town.",
+      "flavor": "The sauce and the seafood soak into the thick noodles. Compared with mi hun, which uses thin rice noodles, the texture of the noodles feels different. The flavour of a bowl can also change with the amount of broth and the extras, such as egg.",
+      "ingredients": "Thick yellow noodles stir-fried with seafood and sauce. Meat or egg may also be used, so look at the menu for what else goes in.",
+      "story": "The food of Phuket carries the food culture that Chinese residents have kept alive. Mi hokkien is a signature noodle dish shaped by that influence. If you have only thought of grilled seafood on a Phuket trip, try this dish, where seafood and noodles are stir-fried together, for a different meal.",
+      "tip": "It is a different noodle dish from mi hun, which uses thin rice noodles.",
+      "steps": [
+        "Look at which ingredients go in, such as seafood, meat or egg, and choose the dish you want.",
+        "When it arrives, eat the noodles and seafood together. You can taste the sauce soaked into the thick noodles.",
+        "If extra seasoning is provided, taste first, then add a little at a time. If you cannot eat seafood, ask whether it is also in the stock and the sauce."
+      ],
+      "faq": [
+        [
+          "Is it the same noodle dish as mi hun?",
+          "No. Mi hokkien is a signature Phuket noodle dish that uses thick yellow noodles, while mi hun uses thin rice noodles. If you try both, you will notice the difference in noodle texture and in what is served with them."
+        ],
+        [
+          "Can I order it if I cannot eat seafood?",
+          "The standard mi hokkien has seafood in it. Whether the ingredients can be changed differs from shop to shop, so ask not only about the main ingredient but also about the stock and sauce."
+        ]
+      ],
+      "emphasis": [
+        "Thick yellow noodles",
+        "seafood",
+        "different noodle dish from mi hun"
+      ]
+    },
+    "mi-hun": {
+      "name": "Mi Hun",
+      "scope": "A noodle dish of Phuket",
+      "intro": "In Phuket, try mi hun, thin rice noodles, too. It is known as a dish served with a pork rib broth. Take a mouthful of noodles and then a spoonful of warm broth, and it tastes different from eating the noodles alone. If you have had the thick noodles of mi hokkien and wonder about another noodle dish, you could choose this.",
+      "flavor": "It is a dish where you enjoy the texture of thin rice noodles together with the flavour of the broth served with them. If the noodles and broth come separately, alternate between them. It gives you a different kind of meal from thick stir-fried noodles.",
+      "ingredients": "It uses thin rice noodles. The version served with a pork rib broth is the best known.",
+      "story": "In Phuket you can find thin rice noodle dishes under names such as mi hun and mi hun ba chang. Serving them with a pork rib broth is the best-known form. How it is served can differ from shop to shop, so look at whether noodles and broth come together on the menu.",
+      "tip": "Check whether the pork rib broth comes with it before you order.",
+      "steps": [
+        "Look at the menu to see whether a pork rib broth comes with it, then order.",
+        "Take a mouthful of noodles first, then a spoonful of warm broth. Alternate between noodles and broth.",
+        "If you cannot eat pork, also ask what goes into the noodle seasoning and the broth. Do not assume you can avoid pork just by leaving out the broth."
+      ],
+      "faq": [
+        [
+          "Do the noodles and broth always come together?",
+          "It depends on the shop and the menu. Serving it with a pork rib broth is well known, but look at what is included in the dish you order and choose accordingly."
+        ],
+        [
+          "If I do not eat pork, can I just leave out the broth?",
+          "Pork may also be used in the noodle seasoning or the cooking. If you avoid pork, you need to ask about the ingredients in both the noodles and the broth."
+        ]
+      ],
+      "emphasis": [
+        "pork rib broth",
+        "seasoning and the broth"
+      ]
+    },
+    "o-aew": {
+      "name": "O-Aew",
+      "scope": "A dessert of Phuket",
+      "intro": "If you want a break while walking Phuket’s old town on a hot day, try o-aew. It is a cold snack of jelly, sweet syrup and toppings on ice. Take ice and jelly together on a spoon and you get coolness and a soft texture. It also works as a pudding after a meal of noodles.",
+      "flavor": "The cold ice is joined by soft jelly and the sweetness of syrup. The taste and texture of each spoonful change with the toppings you choose. Scoop up the ice and jelly together.",
+      "ingredients": "Jelly with sweet syrup and toppings on ice. What the jelly and toppings are made from differs from shop to shop.",
+      "story": "O-aew is a local dessert of Phuket. Phuket’s table has not only seafood and noodle dishes but also cold snacks like this. It is worth choosing if you want something sweet between meals on a trip.",
+      "tip": "Eating ice and jelly together gives you both textures.",
+      "steps": [
+        "Look at which jelly and toppings go on it and choose. It is also fine to ask whether the syrup can be adjusted.",
+        "Take a spoonful of ice and jelly together. It has a different texture from eating the jelly alone.",
+        "If there is anything you avoid, ask what the jelly and toppings are made from. Even under the same name, the make-up is not always the same."
+      ],
+      "faq": [
+        [
+          "Is o-aew a meal?",
+          "It is a snack made with ice and jelly. Have it as a rest on a hot day, or as a pudding after a meal."
+        ],
+        [
+          "Are the jelly and toppings the same everywhere?",
+          "No. The toppings and syrup can differ from shop to shop. If there is an ingredient you cannot eat, ask about the jelly and toppings together."
+        ]
+      ],
+      "emphasis": [
+        "jelly and toppings",
+        "ice and jelly together"
+      ],
+      "photoAlt": "Photo of o-aew",
+      "photoCaption": "O-aew · example of the dish"
+    },
+    "boat-noodles": {
+      "name": "Boat Noodles",
+      "scope": "A famous dish of Ayutthaya",
+      "intro": "If you fancy a bowl of noodles while exploring the ruins in Ayutthaya, try boat noodles. They are noodles and meat served in broth, and together with grilled river prawns they are famous in Ayutthaya. Choose the noodles and meat from the menu and enjoy them with the broth while hot. They are eaten in other cities too, but they make a good meal to pick on an Ayutthaya trip.",
+      "flavor": "It is a dish where you enjoy the broth, noodles and meat together. The flavour of the broth can change with the meat and seasonings. Try it first without adding anything, then add chilli or other seasonings a little at a time.",
+      "ingredients": "Noodles and meat served in broth. How meat, offal and seasonings are used varies from menu to menu.",
+      "story": "On a food trip to Ayutthaya you can meet boat noodles, grilled river prawns and roti sai mai together. A plan of noodles for lunch and roti sai mai as a snack would be a good one. Even so, boat noodles are not something you can eat only in Ayutthaya.",
+      "tip": "Order by looking at the noodle type, the meat and the bowl size.",
+      "steps": [
+        "Choose the noodles and meat you want and order. If you avoid meat, offal or particular seasonings, ask about what goes into the broth as well.",
+        "Look at the bowl size and decide how many bowls to have. Not every shop serves the same size.",
+        "Taste the broth first, then add extra seasoning a little at a time. You do not need to put a lot of chilli in from the start."
+      ],
+      "faq": [
+        [
+          "Can I only eat them in Ayutthaya?",
+          "No. They are eaten in other cities too. In Ayutthaya you could pick them as a meal during a break from sightseeing the ruins."
+        ],
+        [
+          "Are the ingredients in the broth always the same?",
+          "No. Meat, offal, seasonings and broth differ from menu to menu. If there is something you avoid, rather than asking them to leave out the meat, ask whether the broth uses it too."
+        ]
+      ],
+      "emphasis": [
+        "noodle type, the meat",
+        "bowl size"
+      ],
+      "photoAlt": "Photo of boat noodles",
+      "photoCaption": "Boat noodles · example of the dish"
+    },
+    "river-prawns": {
+      "name": "Grilled River Prawns",
+      "scope": "A famous dish of Ayutthaya",
+      "intro": "If you are looking for a meal to share in Ayutthaya, choose grilled river prawns. The prawns are grilled and the meat picked out to eat, and they go well with rice and other dishes for a group. The price depends on the size of the prawns and the selling unit, so look at the prawns you will order before you choose.",
+      "flavor": "It is a dish where you enjoy the aroma of grilled prawns and the texture of the meat. Try the meat on its own first, then add a little of the sauce served with it. With rice you can enjoy the sauce too.",
+      "ingredients": "River prawns, grilled. The size of the prawns, the sauce served with them and the selling unit differ from restaurant to restaurant.",
+      "story": "River prawns are a well-known ingredient on trips to Ayutthaya. If boat noodles are a single-bowl meal, grilled river prawns are a dish to choose for sharing with your companions. You do not need to assume from the name river prawns that they are wild or caught in the rivers of Ayutthaya.",
+      "tip": "Ask whether the selling unit is per prawn or by weight.",
+      "steps": [
+        "First ask whether the price is per prawn or by weight. Even for the same grilled prawns, the amount differs with size and how they are sold.",
+        "Decide the size and number of prawns and get the price of the order. It also helps to check whether rice and other dishes are included.",
+        "Peel the prawns and try them as they are first. Share them with your companions, adding the sauce a little at a time."
+      ],
+      "faq": [
+        [
+          "Are they all prawns caught in the rivers of Ayutthaya?",
+          "You cannot tell from the dish name alone. If you want to know the actual origin and whether they are farmed, ask while pointing at the prawns you will order."
+        ],
+        [
+          "How much should I expect to pay?",
+          "It depends on the size of the prawns and how they are sold, such as per prawn or by weight. If you get the price of the size and number you choose before you order, it is easier to set the cost of the meal."
+        ]
+      ],
+      "emphasis": [
+        "selling unit",
+        "per prawn or by weight"
+      ],
+      "photoAlt": "River prawns split and grilled, with sauce",
+      "photoCaption": "Grilled river prawns · example of the dish"
+    },
+    "roti-sai-mai": {
+      "name": "Roti Sai Mai",
+      "scope": "A signature snack of Ayutthaya",
+      "intro": "In Ayutthaya, try roti sai mai, thin roti wrapped around spun sugar. It is a snack where fine threads of sugar are laid on roti and rolled up. When you wrap it yourself, you can add the sugar a little at a time and enjoy the sweetness you like. Open the roti one sheet at a time and share them with your companion.",
+      "flavor": "The texture of thin, soft roti and fine sugar threads come together. The sweetness depends on how much sugar you put in. Add only a little at first, then more to your taste on the next roti.",
+      "ingredients": "Thin roti with fine sugar threads wrapped inside. There are also versions where pandan scent or sesame seeds are added to the roti.",
+      "story": "Roti sai mai is linked with the snack culture kept up by Ayutthaya’s Muslim community. Some roti are given a green colour with a pandan scent, and sesame is sometimes used. Unlike an ordinary roti menu, wrapping spun sugar is what marks this snack.",
+      "tip": "Add the sugar a little at a time and you can eat it at the sweetness you want.",
+      "steps": [
+        "Get the roti and the sugar threads together. If they come on separate dishes, open out a sheet of roti.",
+        "Lay a little sugar on it, then roll or fold the roti and eat.",
+        "If you want more sweetness, add a little more sugar to the next roti. You do not need to put a lot in at once."
+      ],
+      "faq": [
+        [
+          "How is it different from ordinary roti?",
+          "It is thin roti wrapped around fine sugar threads. The way of eating and the texture differ from roti with banana or other toppings."
+        ],
+        [
+          "Is green roti the same snack?",
+          "There is also a form where pandan-scented roti is wrapped around spun sugar. The actual scent and ingredients may differ from place to place."
+        ]
+      ],
+      "emphasis": [
+        "sugar threads",
+        "a little"
+      ],
+      "photoAlt": "Fine sugar threads laid on thin roti",
+      "photoCaption": "Roti sai mai · example of the dish"
+    },
+    "som-tam": {
+      "name": "Som Tam",
+      "scope": "A signature Isan dish · eaten across the country",
+      "intro": "If you fancy something crunchy and sour, try som tam. It is a salad made by shredding unripe papaya and pounding it with seasonings in a mortar. The papaya takes on sourness and heat, and goes well with sticky rice or grilled food. In Isan, some versions include a fermented fish seasoning, so if the fermented smell is unfamiliar, ask which kind of som tam it is when you order.",
+      "flavor": "The crunch of papaya meets a sour and spicy dressing. Versions that use pla ra, a fermented fish seasoning, also bring a fermented aroma. Even the same som tam changes in flavour with the seasonings and chillies used.",
+      "ingredients": "Unripe papaya dressed with chilli and sour ingredients. Peanuts, dried shrimp and fermented fish seasoning depend on the type of som tam.",
+      "story": "Som tam is a signature Isan dish eaten in many Thai cities. Even within Isan there are different kinds by area, so you can compare som tam much as you might compare regional specialities at home. On a trip to Khon Kaen, have it with sticky rice and other Isan dishes.",
+      "tip": "If you want less heat, say so before it is made.",
+      "steps": [
+        "Choose the type of som tam and ask whether it uses a fermented fish seasoning such as pla ra.",
+        "If you would like it less spicy, say so before it is made. Once the papaya has been pounded with the dressing, it is hard to take the chilli out.",
+        "Order sticky rice and other dishes too, and eat a little of each with it. It makes a different meal from eating papaya alone."
+      ],
+      "faq": [
+        [
+          "Does som tam taste the same wherever you eat it?",
+          "No. The chillies, seasonings and the way sweetness is added differ. If you are not used to fermented smells, ask first whether it uses pla ra."
+        ],
+        [
+          "It is a papaya salad, so is it vegetarian?",
+          "Not necessarily. Some kinds use fish seasoning or shrimp. If you are vegetarian, ask whether the dressing and toppings are suitable as well as the papaya."
+        ]
+      ],
+      "emphasis": [
+        "fermented",
+        "before it is made"
+      ],
+      "photoAlt": "Photo of som tam",
+      "photoCaption": "Som tam · example of the dish"
+    },
+    "larb": {
+      "name": "Larb",
+      "scope": "A meat salad of Isan",
+      "intro": "If you want a meat dish to eat with sticky rice, try Isan-style larb. It is minced meat seasoned with herbs, lime and toasted rice powder. The savoury meat gets sourness and a nutty aroma, and it goes well with vegetables. Some menus use raw meat, so when you order, ask whether it is larb made with cooked meat.",
+      "flavor": "The sourness of lime and the aroma of herbs are joined by the richness of toasted rice powder. The seasoning is mixed evenly through the minced meat, so it is good to have a little at a time with sticky rice. The flavour also changes with the meat, whether pork, beef or duck.",
+      "ingredients": "Minced meat seasoned with toasted rice powder, herbs and lime. The type of meat varies: pork, beef, duck and others.",
+      "story": "Larb is a meat salad you meet at an Isan table. There is larb in the north too, but the seasoning and the way it is made are not the same. The dish introduced here is Isan-style larb, with toasted rice powder, lime and herbs added.",
+      "tip": "Some kinds use raw meat. Order larb made with cooked meat.",
+      "steps": [
+        "Choose the meat you want and order it as a cooked dish. There is also larb made with raw meat.",
+        "If you would like it less spicy, say so before it is made.",
+        "Have sticky rice and vegetables with it. Share the larb a little at a time and enjoy the flavour of the meat and herbs."
+      ],
+      "faq": [
+        [
+          "Is larb always made with cooked meat?",
+          "No. Some kinds use raw meat. The Tourism Authority of Thailand advises ordering larb made with cooked meat, so say so when you order."
+        ],
+        [
+          "Does northern larb taste the same?",
+          "The seasoning and method differ. Here we introduce Isan-style larb, which uses toasted rice powder, lime and herbs. Even if you see the same name in the north, it can seem like a different dish."
+        ]
+      ],
+      "emphasis": [
+        "cooked meat",
+        "when you order"
+      ],
+      "photoAlt": "Duck larb served with vegetables",
+      "photoCaption": "Isan-style larb made with duck · example of the dish"
+    },
+    "sai-krok-isan": {
+      "name": "Sai Krok Isan",
+      "scope": "A fermented sausage of Isan",
+      "intro": "If you would like to taste Isan’s sour fermented food, try sai krok Isan. It is a sausage of pork, rice, garlic and other ingredients that has been fermented. The richness of the meat is joined by a sourness that comes from fermentation. If you have tried sai ua, the northern sausage, you could compare the two.",
+      "flavor": "It is defined by the richness of pork and a sourness from fermentation. How sour it is depends on the degree of fermentation and how it is cooked. The raw chillies served with it can be hot, so try them separately, a little at a time.",
+      "ingredients": "Pork, rice, garlic and other ingredients mixed and fermented. The sourness can vary with the fermentation and the cooking method.",
+      "story": "Sai krok Isan is an Isan dish made by fermenting pork and rice. It is not food eaten only in Khon Kaen. Compared with the herby northern sai ua, it shows how the ingredients and flavour of a sausage differ from region to region.",
+      "tip": "Try the raw chillies served with it separately, a little at a time.",
+      "steps": [
+        "Order sai ua, which has herbs, and sai krok Isan, the fermented sausage, as separate dishes.",
+        "Try the cooked sausage a little at a time. Tasting it first tells you how sour the fermentation is.",
+        "If raw chillies come with it, have them separately a little at a time rather than eating them all at once."
+      ],
+      "faq": [
+        [
+          "Why is the sausage sour?",
+          "Because it is made by fermenting pork and rice. It is a sausage enjoyed for the sourness that comes from fermentation, and how sour it is depends on the product and the cooking."
+        ],
+        [
+          "How is it different from sai ua?",
+          "Sai ua is a northern sausage with herbs, grilled, while sai krok Isan is an Isan sausage of fermented pork and rice. Trying both lets you compare the herb aroma and the fermented sourness."
+        ]
+      ],
+      "emphasis": [
+        "fermented sausage",
+        "raw chillies"
+      ],
+      "photoAlt": "Photo of sai krok Isan",
+      "photoCaption": "Sai krok Isan · example of the dish"
+    },
+    "au-pla": {
+      "name": "Au Pla",
+      "scope": "A local dish of Khon Kaen",
+      "intro": "If you would like to try a local dish other than som tam in Khon Kaen, look for au pla. It is a curry made spicy and salty with freshwater fish. It is worth choosing as a dish to eat with rice if you like fish. The fish and seasonings used can differ from shop to shop.",
+      "flavor": "It is a curry that adds heat and saltiness to freshwater fish. It gives you a different meal from a dish of crunchy vegetables such as som tam or a meat dish such as larb. Have it a little at a time with rice.",
+      "ingredients": "A curry made with freshwater fish. The fish and seasonings used depend on the dish you order.",
+      "story": "In Isan there is a culture of using freshwater fish from the rivers in food. Au pla is the one presented as a local dish of Khon Kaen. It suits anyone who has had som tam and larb, known across Isan, and wants to find out about another dish of Khon Kaen.",
+      "tip": "Eat slowly, watching for fish bones.",
+      "steps": [
+        "Find au pla on the menu and ask which fish is used. It also helps to ask whether the spice can be adjusted.",
+        "Order rice to go with it and have the fish and sauce a little at a time.",
+        "Eat slowly, watching for fish bones. The kind of fish and the detailed seasonings depend on the dish you order."
+      ],
+      "faq": [
+        [
+          "How is it different from som tam or larb?",
+          "Au pla is a curry made with freshwater fish. Unlike som tam, where papaya is pounded, or larb, where minced meat is seasoned, you can have fish and sauce with rice."
+        ],
+        [
+          "Is it linked with Khon Kaen?",
+          "Yes. It is a dish the Tourism Authority of Thailand presents as a local dish of Khon Kaen. It is worth looking at if you want to try a freshwater fish dish on a trip in Isan."
+        ]
+      ],
+      "emphasis": [
+        "which fish",
+        "fish bones"
+      ]
+    },
+    "hat-yai-chicken": {
+      "name": "Hat Yai Fried Chicken",
+      "scope": "A signature dish of Hat Yai",
+      "intro": "In Hat Yai, try crispy fried chicken served with fried shallots. It is Hat Yai fried chicken, known by the name of the city. The crispy chicken gets the richness and aroma of the shallots, and it goes well with sticky rice. Put some of the shallots served with it on a piece of chicken and try a mouthful.",
+      "flavor": "It is a dish where you enjoy the crunch of fried chicken together with the rich flavour of shallots. Another feature is that it is seasoned with aromatics such as garlic, coriander root and white pepper. You could also try the chicken and shallots together before adding any sauce.",
+      "ingredients": "Fried chicken served with fried shallots. It is known as a dish seasoned with garlic, coriander root, white pepper and the like, and eaten with sticky rice.",
+      "story": "Hat Yai is a city in the Songkhla area, where the food cultures of the Chinese and Muslim communities sit together. Hat Yai fried chicken is known as a signature dish of the area. It is sold in other cities too, but if you have come to Hat Yai, have it as a meal with sticky rice.",
+      "tip": "Eating fried shallots with the chicken brings out more richness.",
+      "steps": [
+        "Choose the pieces and the number you want. If you are with others, you can order the pieces you want to share.",
+        "Look at whether sticky rice and sauce come with it and order more of what you need.",
+        "Try the chicken and fried shallots together first. Next, add a little sauce for a different flavour."
+      ],
+      "faq": [
+        [
+          "Can I only eat it in Hat Yai?",
+          "No. Hat Yai-style fried chicken is sold in other areas too. If you have come to Hat Yai, you could have the dish known by the city’s name with sticky rice."
+        ],
+        [
+          "Is every chicken dish halal?",
+          "No. You cannot decide whether something is halal from the type of meat. If you need a halal meal, check the restaurant’s certification and the actual ingredients and cooking conditions."
+        ]
+      ],
+      "emphasis": [
+        "rice and sauce",
+        "fried shallots"
+      ],
+      "photoAlt": "Hat Yai-style fried chicken with plenty of fried shallots",
+      "photoCaption": "Hat Yai-style fried chicken · example of the dish"
+    },
+    "bak-kut-teh": {
+      "name": "Bak Kut Teh",
+      "scope": "A Chinese dish enjoyed in the Songkhla area",
+      "intro": "If you want a warm bowl of broth for a meal on a trip to Hat Yai, choose bak kut teh. Pork ribs are simmered with herbs and aromatics. In the Songkhla area it is presented as a soup with a Chinese herbal aroma. If you eat pork, have it slowly with rice.",
+      "flavor": "The aroma of herbs and aromatics joins the broth in which the pork ribs were simmered. The colour and richness of the broth vary with the recipe. Alternate between ribs and broth and enjoy the scent.",
+      "ingredients": "Pork ribs simmered with herbs and aromatics. Other ingredients and sides differ from menu to menu.",
+      "story": "Bak kut teh is one of the Chinese dishes you meet in the Songkhla area. It does not mean it was first made in Hat Yai. On a day when you want a meal different from crispy fried chicken, you could have pork rib broth with rice.",
+      "tip": "The broth also uses pork. If you avoid pork, choose another dish.",
+      "steps": [
+        "First think about whether it is a dish to choose with companions who eat pork. The standard bak kut teh uses pork ribs.",
+        "Look at whether rice and side dishes come with it, and order.",
+        "Eat the ribs, then take the broth a spoonful at a time. Have it with rice, enjoying the aroma of herbs and aromatics."
+      ],
+      "faq": [
+        [
+          "Is bak kut teh a dish that started in Hat Yai?",
+          "It is not presented as a dish that originated in Hat Yai. It is a Chinese dish you meet in the Songkhla area, and a way to learn about the area’s varied food culture."
+        ],
+        [
+          "Can someone who does not eat pork have it?",
+          "The standard bak kut teh contains pork ribs. If you avoid pork, it is better to choose another dish. Please note that even the broth alone is a dish made with pork."
+        ]
+      ],
+      "emphasis": [
+        "pork",
+        "pork ribs"
+      ],
+      "photoAlt": "Photo of bak kut teh",
+      "photoCaption": "Bak kut teh · example of the dish"
+    },
+    "roti": {
+      "name": "Roti",
+      "scope": "A Thai street snack",
+      "intro": "If you want something sweet from a street stall, try roti. A thinly stretched dough is cooked on a griddle and served with sweet sauces such as condensed milk or chocolate. Some menus add banana, so it is a good pick when you want fruit and a snack together. If the roti is cut up for you, share it piece by piece while it is warm.",
+      "flavor": "You enjoy the thinly cooked dough together with the sweet sauce. The crispness at the edges and the softness inside change with the filling and how it is cooked. In versions with banana you can taste the sweetness of the fruit too.",
+      "ingredients": "The dough is cooked and served with sauces such as condensed milk or chocolate. Whether banana or egg goes in differs from menu to menu.",
+      "story": "Roti in Thailand is also met as a sweet street snack. Ayutthaya’s roti sai mai is thin roti wrapped around spun sugar, and it is eaten differently from the griddled roti introduced here. Try both and you find different snacks under the one name, roti.",
+      "tip": "Banana and sauce differ with the menu you order. Choose the topping you want first.",
+      "steps": [
+        "Choose plain roti or one with banana and the like, and say which sauce you want.",
+        "If you want less condensed milk or sauce, ask before it is cooked. Once the sauce has been poured on, it is hard to reduce.",
+        "Share the cut roti piece by piece while it is warm."
+      ],
+      "faq": [
+        [
+          "Is it the same snack as roti sai mai?",
+          "No. Roti sai mai is an Ayutthaya snack of thin roti wrapped around spun sugar. Here we introduce street roti, griddled dough with sweet sauce."
+        ],
+        [
+          "Can I order it if I cannot eat egg or milk?",
+          "You need to ask about the ingredients in the dough, the toppings and the sauce. Even on a menu without egg, there may be an ingredient you avoid in the dough or the condensed milk."
+        ]
+      ],
+      "emphasis": [
+        "banana",
+        "before it is cooked",
+        "Choose the topping you want first"
+      ],
+      "photoAlt": "Photo of roti",
+      "photoCaption": "Thai roti photographed at Bang Luang Mosque. Toppings and shape vary from shop to shop."
+    },
+    "watermelon-shake": {
+      "name": "Nam Taeng Mo Pan (Watermelon Shake)",
+      "scope": "A Thai fruit drink",
+      "intro": "If you are walking in the heat in Thailand and want something cold to drink, try nam taeng mo pan. It is a watermelon shake made by blending watermelon with water and ice. Unlike watermelon juice, which is drunk like water, the ice is blended in too, so it is enjoyed cold. If you want less sweetness, ask for less syrup or sugar when you order.",
+      "flavor": "The flavour of watermelon is joined by the cold texture of finely blended ice. The taste of a cup changes with the ratio of watermelon to ice and the sweetness added.",
+      "ingredients": "Watermelon, water and ice are blended together. Extras such as sugar or syrup differ from seller to seller.",
+      "story": "The Tourism Authority of Thailand presents nam taeng mo pan as a signature fruit drink made by blending watermelon with water and ice. On a trip to Thailand you can enjoy familiar watermelon as a street drink. Watermelon is sold all year, but whether the drink is actually on sale differs from shop to shop.",
+      "tip": "If you want less added sugar or syrup, say so before it is made.",
+      "steps": [
+        "Choose nam taeng mo pan or a watermelon shake from the menu and look at the cup size and price.",
+        "Before the drink is made, ask whether the sweetness can be reduced. Even without syrup, the watermelon has its own sweetness.",
+        "When the drink blended with ice arrives, enjoy it while it is cold."
+      ],
+      "faq": [
+        [
+          "Is it watermelon juice?",
+          "It is a shake made by blending watermelon with water and ice. Because the ice is blended in, the texture differs from a drink where only the watermelon juice is squeezed out."
+        ],
+        [
+          "If I leave out the sugar, will it lose its sweetness?",
+          "The watermelon’s own sweetness remains. Whether sugar or syrup is added depends on the shop, so ask for less or none before the drink is made."
+        ]
+      ],
+      "emphasis": [
+        "water and ice",
+        "before it is made",
+        "cup size and price"
+      ]
+    }
+  },
+  "fruits": {
+    "mango": {
+      "name": "Mango",
+      "seasonLabel": "Main season March–May",
+      "availability": "Listed as available all year",
+      "intro": "If you want something sweet in Thailand, try a ripe mango. Varieties such as nam dok mai, with soft, fragrant yellow flesh, are well known. If you have had mango sticky rice, try the fruit on its own too and taste the mango itself. Some kinds of unripe mango are eaten crunchy and sour.",
+      "taste": "Ripe mango is soft and sweet. Some varieties of green mango are eaten for a texture different from ripe mango, so you do not need to assume that every green one is unripe.",
+      "why": "Thailand has many mango varieties, such as nam dok mai and maha chanok, and a food culture that enjoys ripe and green fruit in different ways. It is also familiar as a dessert served on sticky rice, which makes it a good fruit to try on a Thai trip.",
+      "buying": "If you want sweet, soft mango, say you are looking for ripe mango. Crunchy mango may be sold separately. The price unit differs between buying whole fruit by the kilo and buying a tub of sliced fruit.",
+      "steps": [
+        "Wash whole mango, then cut the flesh away from either side of the stone.",
+        "Cut the flesh into bite-sized pieces and eat it as it is, or have it with mango sticky rice.",
+        "If you want to buy some to eat now and some to take away, choose the ripeness together with the seller."
+      ],
+      "regional": "Nam dok mai si thong from Phitsanulok: harvest period listed as March–June",
+      "photoAlt": "Mangoes",
+      "photoCaption": "A reference photo showing mango. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "durian": {
+      "name": "Durian",
+      "seasonLabel": "Main season April–August",
+      "availability": "Listed as available all year",
+      "intro": "If the strong smell has put you off, you could taste just a little durian. Inside the spiky shell is rich yellow flesh. It is a fruit where you take a mouthful of soft, sweet flesh and notice the aroma and flavour together. If it is your first time, start at a place that sells a small amount of flesh rather than buying a whole one.",
+      "taste": "It is sweet and rich, with creamy flesh. The firmness and aroma of the flesh vary with the variety, such as monthong or chanee, and how ripe it is.",
+      "why": "Thai durian varieties such as monthong, chanee and kan yao are well known. The strong smell and the sweet, rich flesh also make it a fruit that divides opinion sharply. You can eat it as fruit, or enjoy it in ice cream and desserts.",
+      "buying": "First ask whether the price on the label is per kilo of whole fruit with its shell or per kilo of prepared flesh. If you plan to take it to a hotel or on transport, it is better to check the rules about bringing it in first.",
+      "steps": [
+        "If you are trying it for the first time, buy a small amount of flesh and taste it.",
+        "If you pick a whole fruit, ask about the variety, ripeness and the price including the shell, and ask for it to be prepared.",
+        "Take out the large stone and eat the flesh. Before taking it back to your accommodation, check whether you may bring durian in."
+      ],
+      "regional": "Durian from the Sisaket volcanic soil area: harvest period listed as May–June",
+      "photoAlt": "Durian",
+      "photoCaption": "A reference photo showing durian. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "mangosteen": {
+      "name": "Mangosteen",
+      "seasonLabel": "Main season April–August",
+      "availability": "Harvest listed as April–December",
+      "intro": "Try mangosteen, where opening the purple shell reveals white flesh in segments. It is sweet and sharp together, and very juicy. Despite having mango in its name, it is a different fruit from mango. It is also nice to share a few after a meal with your companion.",
+      "taste": "The white flesh is soft, sweet and tangy. The larger segments may have a stone, so eat slowly.",
+      "why": "The purple shell with white flesh inside and the sweet but fresh flavour are its charm. In Thailand it is harvested in different areas and at different times, so look for it to match the season you travel in.",
+      "buying": "Look for damage to the shell and choose fruit to eat straight away. Because it is a thick-skinned whole fruit, the kilo price is not the weight of the flesh you eat.",
+      "steps": [
+        "Press the shell open, or make a shallow cut around the shell only, and open it.",
+        "Take out the white flesh and check the large segments for a stone.",
+        "Take care that the red juice from the shell does not stain your clothes as you eat."
+      ],
+      "regional": "Khao Khiriwong mangosteen from the south: harvest period listed as July–December",
+      "photoAlt": "Mangosteen",
+      "photoCaption": "A reference photo showing mangosteen. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "rambutan": {
+      "name": "Rambutan",
+      "seasonLabel": "Harvest listed as April–August",
+      "availability": "Harvest period varies by growing area",
+      "intro": "Meet rambutan, with its red skin covered in hair-like spines. Peel it and white flesh appears, with sweet juice. The outside may look unfamiliar, but removing the skin and stone is simple. Buying just a few at a market and tasting them is a good idea.",
+      "taste": "The white flesh is sweet and juicy. Some varieties, such as Thailand’s rong rian, differ in texture and in how easily the flesh comes away from the stone.",
+      "why": "The hairy-looking skin stands out, and inside is white flesh. The Tourism Authority of Thailand presents rong rian rambutan from Na San in Surat Thani as a regional GI fruit.",
+      "buying": "Ask whether it is sold by the kilo or in a set bag. Choose only the amount you will eat straight away, peel it and remove the stone.",
+      "steps": [
+        "Make a shallow split in the skin, open it and peel it off.",
+        "Eat the white flesh, but take out the stone in the middle.",
+        "If it is sold in a bag, look at the weight and the price together before you buy."
+      ],
+      "regional": "Rong rian rambutan from Na San: harvest period listed as July–August"
+    },
+    "longan": {
+      "name": "Longan",
+      "seasonLabel": "Main season June–August",
+      "availability": "Listed as available all year",
+      "intro": "If you are curious about the fruit of Chiang Mai and the north, try longan. It is a small fruit with a thin brown skin, translucent flesh and a black stone inside. Peel and eat them one at a time and you get a sweet taste. Dried longan and fresh fruit differ in texture, so you could taste the fresh fruit first.",
+      "taste": "The flesh is sweet, and the aroma varies with the variety. There is a black stone inside the white flesh, so you take it out as you eat.",
+      "why": "It is a good fruit to learn about in connection with northern Thailand. Biao Kiao longan from Lamphun is presented as a regional GI fruit, and it is enjoyed dried as well as fresh.",
+      "buying": "Look at whether it is sold in bunches with the stalk or as loose fruit. Choosing by the variety and weight on the price label makes it easier to compare.",
+      "steps": [
+        "Split the skin and peel it off with your hands.",
+        "Take out the black stone when you eat the flesh.",
+        "If you also want to buy a dried product, look at the price and pack weight separately from fresh fruit."
+      ],
+      "regional": "Biao Kiao longan from Lamphun: harvest period listed as July–September",
+      "photoAlt": "Longan",
+      "photoCaption": "A reference photo showing longan. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "lychee": {
+      "name": "Lychee",
+      "seasonLabel": "Harvest listed as April–June",
+      "availability": "Timing varies with the growing area and variety",
+      "intro": "If you fancy a fragrant, juicy fruit, try lychee. Peel the red skin and white flesh appears, and one mouthful gives you sweetness and aroma together. If you have had it in drinks or desserts, try the fresh fruit in season as well.",
+      "taste": "The white flesh is sweet, and some varieties also have some sharpness. You peel it and remove the stone in the middle to eat.",
+      "why": "Thai lychee varieties such as hong huai and chakkraphat are well known. Kom lychee from Samut Songkhram is also presented as a regional GI fruit, which makes it a good fruit for comparing growing areas.",
+      "buying": "Keep the unit separate for whole fruit sold by the kilo and fruit sold in set packs. Lychee drinks on a menu and fresh fruit may not be in season at the same time.",
+      "steps": [
+        "Peel the skin and take out the flesh.",
+        "Remove the stone in the middle and eat the flesh.",
+        "If you want some to take away and some to eat now, say how much you need."
+      ],
+      "regional": "Kom lychee from Samut Songkhram: harvest period listed as April–May",
+      "photoAlt": "Lychee",
+      "photoCaption": "A reference photo showing lychee. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "longkong": {
+      "name": "Longkong",
+      "seasonLabel": "Harvest listed as May–September",
+      "availability": "Harvest period varies by growing area",
+      "intro": "Meet longkong, small brownish fruit that hang in bunches. Peel the thin skin and the translucent flesh comes out in segments. Although the name is similar to longan, the shape and the way it eats are different. If you see the two fruits side by side at a market, you could buy a few of each and compare.",
+      "taste": "You can taste both sweetness and sharpness in the translucent flesh. Do not bite the stone in a segment that has one; take it out.",
+      "why": "There is fun in peeling small fruit from the bunch one at a time. Thung Yong Mat longkong from Narathiwat in the south is known as a regional GI fruit, so it is good to learn about it together with where it grows.",
+      "buying": "Longan and longkong are different fruits. If you order by looking at the name and the shape of the bunch together, it is easier to get the fruit you want.",
+      "steps": [
+        "Pick one fruit to eat from the bunch.",
+        "Peel the skin and eat the flesh.",
+        "The stone can taste bitter, so take out any you can see and eat slowly."
+      ],
+      "regional": "Tan Yong Mat longkong: harvest period listed as August–September"
+    },
+    "pomelo": {
+      "name": "Pomelo",
+      "seasonLabel": "Main season October–December",
+      "availability": "Listed as available all year",
+      "intro": "Try pomelo, which looks like an enormous grapefruit. Peel off the thick skin and remove the inner membrane, and the grains of flesh show. Depending on the variety, the sweetness and sharpness feel different. If it is hard to use a knife where you are staying, you could choose pomelo that has been prepared and packed.",
+      "taste": "It is a citrus fruit in which you can feel the grains of the flesh. Colour, sweetness and sharpness differ with each variety, from yellowish to pinkish flesh.",
+      "why": "Thailand has several pomelo varieties, such as khao nam phueng and thong dee. Big whole fruit is also sold as prepared flesh in a tub, which makes it an easy fruit to try on a trip.",
+      "buying": "Keep the price per fruit, the price per kilo and the price of a prepared tub apart. Whole fruit with its thick skin and a tub of flesh only are hard to compare directly by the same weight.",
+      "steps": [
+        "For whole fruit, peel off the thick outer skin first.",
+        "Split it into segments and take off the inner membrane to get out the flesh.",
+        "Take out the seeds and eat the flesh. If you buy a prepared tub, it is easy to share straight away."
+      ],
+      "regional": null,
+      "photoAlt": "Pomelo",
+      "photoCaption": "A reference photo showing pomelo. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "pineapple": {
+      "name": "Pineapple",
+      "seasonLabel": "Main season April–July",
+      "availability": "Listed as available all year",
+      "intro": "If you want a sweet and sharp fruit on a hot day, try pineapple. You can cut the yellow flesh and eat it piece by piece, or have it as juice. Thailand has pineapples whose crunch and sweetness differ with the variety and growing area. Instead of buying a whole one, a bag of prepared fruit is a simple way to enjoy it.",
+      "taste": "You get sweetness and sharpness together, and the firmness of the flesh varies with the variety. If a seasoning is served separately, try the fruit first and then add it.",
+      "why": "It is grown in many parts of Thailand, and there are also regional fruits presented as GI, such as Trat’s si thong pineapple. Whole fruit, prepared fruit and drinks are all familiar ways to enjoy it.",
+      "buying": "First look at whether the price is per kilo of whole fruit, per fruit or per bag of sliced fruit. The cost of preparation and the amount you eat differ.",
+      "steps": [
+        "For whole fruit, trim off the skin and the tough parts before eating.",
+        "Cut it into bite-sized pieces to share, or choose a bag of prepared fruit.",
+        "If a seasoning comes with it, add a little at a time to the taste you like."
+      ],
+      "regional": "Si thong pineapple from Trat: harvest period listed as all year",
+      "photoAlt": "Pineapple",
+      "photoCaption": "A reference photo showing pineapple. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "banana": {
+      "name": "Banana",
+      "seasonLabel": "A fruit to enjoy all year",
+      "availability": "Differs by variety and growing area",
+      "intro": "In Thailand you can find everything from small bananas to bananas of several shapes. As well as eating them as fresh fruit, there are menus where they go into roti or are grilled. If you are looking for a simple snack on the street, also look at roti with banana.",
+      "taste": "The sweetness and the firmness of the flesh differ with the variety and how ripe it is. It helps to tell apart bananas eaten when they ripen to yellow and bananas used in cooking.",
+      "why": "It is a familiar fruit used in many Thai dishes and snacks. Kluai khai bananas from Kamphaeng Phet are presented as a regional GI fruit. If you have only thought of one kind of banana, look for varieties of different shapes and sizes at the market.",
+      "buying": "Bananas are sometimes sold by the bunch instead of by the kilo. Look at how many are in a bunch, and if you want to eat them straight away, choose ripe bananas.",
+      "steps": [
+        "Ask whether the price is for a bunch or for a set number of bananas.",
+        "Choose ripe bananas to eat straight away, then peel and eat.",
+        "Banana roti and grilled bananas are different menus from whole fruit, so look at their prices separately."
+      ],
+      "regional": "Kluai khai bananas from Kamphaeng Phet: harvest period listed as all year",
+      "photoAlt": "Bananas",
+      "photoCaption": "A reference photo showing banana. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "coconut": {
+      "name": "Young Coconut",
+      "seasonLabel": "On sale all year",
+      "availability": "Listed as available all year",
+      "intro": "If you want cold coconut water on a hot day, choose a young coconut. Have the top opened, drink the water inside, then spoon out the soft flesh too. The fragrant nam hom coconut is a variety well known in Thailand. When you are thirsty, you could share one with your companion.",
+      "taste": "With a young coconut you enjoy the water and the soft white flesh together. Nam hom is presented as a variety whose scent is its feature.",
+      "why": "Thailand’s fragrant young coconut is a fruit in which you drink the water and eat the flesh too. The fragrant coconut of Ban Phaeo in Samut Sakhon is also presented as a regional GI fruit.",
+      "buying": "Coconuts are sometimes sold one at a time. Coconut water sold bottled and a coconut opened whole for you are not the same product, so look at the menus separately.",
+      "steps": [
+        "Choose a coconut to drink straight away and ask for the top to be opened.",
+        "After drinking the coconut water, if you have a spoon, scoop out the soft flesh too.",
+        "Order with the price of one coconut and the price of a bottled drink kept separate."
+      ],
+      "regional": "Nam hom coconut from Ban Phaeo: harvest period listed as all year",
+      "photoAlt": "Young coconut",
+      "photoCaption": "A reference photo showing young coconut. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "watermelon": {
+      "name": "Watermelon",
+      "seasonLabel": "On sale all year",
+      "availability": "Listed as available all year",
+      "intro": "Try watermelon as a drink in Thailand too. As well as chilled slices, there is nam taeng mo pan, blended with ice. It is worth choosing on a day when you are walking and want something cold. If you only want the fruit, buy cut watermelon and share it with your companion.",
+      "taste": "It is a crunchy, juicy fruit. The fresh fruit and nam taeng mo pan, blended with ice, are enjoyed for their different textures.",
+      "why": "The Tourism Authority of Thailand presents the watermelon shake as a signature fruit drink. Even a familiar fruit can be met in a different way on a trip, as in nam taeng mo pan.",
+      "buying": "Keep the kilo price of whole watermelon apart from a bag of sliced watermelon and a cup of nam taeng mo pan. Even with the same watermelon, the preparation and the amount of the drink differ.",
+      "steps": [
+        "Cut whole watermelon to a size that is easy to eat and pick out the seeds.",
+        "While travelling, you can also choose cut watermelon in a bag to eat straight away.",
+        "If you order nam taeng mo pan, ask before the drink is made whether the sweetness can be reduced."
+      ],
+      "regional": null,
+      "photoAlt": "Watermelon",
+      "photoCaption": "A reference photo showing watermelon. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "papaya": {
+      "name": "Papaya",
+      "seasonLabel": "On sale all year",
+      "availability": "Listed as available all year",
+      "intro": "If you have had som tam in Thailand, try ripe papaya too. Unlike the green papaya in som tam, ripe flesh is eaten soft and sweet. Cut it in half, scoop out the black seeds and eat the flesh. When you choose cut fruit, you could look for ripe papaya.",
+      "taste": "Ripe papaya is a fruit in which you enjoy soft flesh. Unripe papaya is also used as an ingredient in dishes, so the texture differs from eating it as fresh fruit.",
+      "why": "It is also a familiar fruit through som tam, the green papaya salad. In Thailand you can learn about both ways of using it: eating ripe fruit and cooking with unripe fruit.",
+      "buying": "Choose by telling apart ripe papaya to eat straight away as fruit and green papaya to use in cooking. The price unit may also differ between whole fruit and prepared tubs.",
+      "steps": [
+        "Wash a ripe papaya and cut it in half.",
+        "Scoop out the black seeds in the middle, peel it and eat the flesh.",
+        "Green and ripe papaya are eaten differently, so choose the one you want to eat straight away."
+      ],
+      "regional": null,
+      "photoAlt": "Papaya",
+      "photoCaption": "A reference photo showing papaya. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "tamarind": {
+      "name": "Sweet Tamarind",
+      "seasonLabel": "Main harvest listed as late December–February",
+      "availability": "Timing varies with the growing area and variety",
+      "intro": "Try sweet tamarind from inside its brown pod. Crack the shell, take off the fibres clinging to the flesh and you can eat the soft inside. If you have only known tamarind as the ingredient for the sour sauce in pad Thai, meet the sweet tamarind that is eaten as a fruit too.",
+      "taste": "Sweet tamarind is a fruit eaten soft and sweet. Take out the hard stone and the fibres in the middle and eat the flesh.",
+      "why": "Apart from the tamarind that adds sourness to cooking, there are varieties enjoyed as a sweet fruit. Sweet tamarind from Phetchabun is presented as a regional GI fruit.",
+      "buying": "Tell apart fresh fruit in the pod from packed products with the stones removed or processed. Even the same tamarind differs in product and pack weight.",
+      "steps": [
+        "Crack the pod shell and take out the flesh.",
+        "Eat the flesh, removing the fibres and hard stones attached to it.",
+        "Processed products use a different price unit from fresh fruit, so look at the weight on the pack when you choose."
+      ],
+      "regional": "Sweet tamarind from Phetchabun: harvest period listed as November–April",
+      "photoAlt": "Sweet tamarind",
+      "photoCaption": "A reference photo showing sweet tamarind. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "mandarin": {
+      "name": "Thai Mandarin Orange",
+      "seasonLabel": "Main season October–February",
+      "availability": "Listed as available all year",
+      "intro": "If you see a citrus fruit with green skin in Thailand, you do not have to assume it is unripe from the colour. The skin and flavour of a mandarin orange differ with the variety. You can peel it by hand and eat it segment by segment, so it is a good fruit to share on a trip.",
+      "taste": "You enjoy the sweetness and the sharpness of citrus together. The flavour changes with the variety and how ripe it is, and the flesh may have seeds.",
+      "why": "Thailand has several mandarin orange varieties. The golden orange from Nan is presented as a regional GI fruit, known for its green skin and sweet and sharp flavour.",
+      "buying": "Compare per-kilo prices with variety and size grade only against the same grade. Go by more than the colour of the skin, and choose fruit that is ready to eat straight away together with the seller.",
+      "steps": [
+        "Peel off the skin, split it into segments and eat.",
+        "For varieties with seeds, take out the seeds as you eat.",
+        "Look separately at the prices of bottled juice and whole fruit by the kilo."
+      ],
+      "regional": "Golden orange from Nan: harvest period listed as November–December",
+      "photoAlt": "Thai mandarin orange",
+      "photoCaption": "A reference photo showing Thai mandarin orange. It is not limited to photos of the Thai growing areas or varieties described in the text."
+    },
+    "marian-plum": {
+      "name": "Mayongchid (Marian Plum)",
+      "seasonLabel": "Nakhon Nayok harvest listed as January–March",
+      "availability": "Harvest period listed for the regional fruit",
+      "intro": "If you see a small yellowish fruit that looks like a mango in Thailand, ask whether it is mayongchid. It belongs to the plum mango group, and Nakhon Nayok’s mayongchid is presented as a regional GI fruit. If you would like to try a fruit different from big mangoes, look for it in winter and early spring.",
+      "taste": "Nakhon Nayok mayongchid is presented as having sweetness and sharpness together, with crunchy flesh. Take out the stone in the middle and eat.",
+      "why": "The Tourism Authority of Thailand presents Nakhon Nayok’s mayongchid as a regional GI fruit. You can learn about small fruit that look like mango, together with where they are grown.",
+      "buying": "Even within the plum mango group, varieties and names differ. Say you are looking for mayongchid, and ask them to tell you the actual variety and price.",
+      "steps": [
+        "Wash the fruit you bought and cut it to a size that is easy to eat.",
+        "Take out the stone in the middle and eat the flesh.",
+        "There may be other varieties with similar names to mayongchid, so show the name of the fruit you want to buy."
+      ],
+      "regional": null
+    }
+  },
+  "fruitPriceLabels": [
+    "Mangosteen · smooth-skin grade",
+    "Rambutan · Rong Rian (โรงเรียน)",
+    "Longan · E-daw (อีดอ)",
+    "Longkong",
+    "Pineapple · Sriracha (ศรีราชา), grade 2",
+    "Watermelon · Kinnaree (กินรี)",
+    "Papaya · Holland (ฮอลแลนด์)",
+    "Banana · Nam Wa (น้ำว้า)",
+    "Mandarin · Sai Nam Phueng (สายน้ำผึ้ง), grade 5"
+  ],
+  "sources": {
+    "regional": "Tourism Authority of Thailand · Signature regional dishes",
+    "north": "Thailand Foundation · Northern food culture",
+    "central": "Tourism Authority of Thailand · Central Thai food culture",
+    "isan": "Tourism Authority of Thailand · Isan food culture",
+    "phuket": "Tourism Authority of Thailand · Phuket food culture",
+    "roti": "Tourism Authority of Thailand · Roti sai mai in Ayutthaya",
+    "ayutthaya": "Ayutthaya Province tourism guide · Boat noodles and local food",
+    "ayutthaya-tat": "Tourism Authority of Thailand · Ayutthaya travel guide",
+    "songkhla": "Royal Thai Government · Food to try in Songkhla",
+    "hidden": "Tourism Authority of Thailand · Au pla in Khon Kaen",
+    "padthai": "Thailand Foundation · Pad Thai",
+    "unesco": "UNESCO · Tom yum kung: knowledge and culture of its preparation",
+    "green": "Tourism Authority of Thailand · How to make green curry",
+    "mango": "Tourism Authority of Thailand · Coconut sticky rice dessert culture",
+    "ong": "Tourism Authority of Thailand · Nam prik ong of the north",
+    "saiua": "Chiang Mai University · Ingredients and preparation of sai ua",
+    "khantoke": "Thailand Foundation · Khantoke and northern dining culture",
+    "phuket-prd": "Public Relations Department of Thailand · Noodles and desserts of Phuket",
+    "hatyai-tat": "Tourism Authority of Thailand · Hat Yai fried chicken and Songkhla food culture",
+    "bak-general": "Government of Singapore · Basic ingredients of bak kut teh",
+    "mango-recipe": "Tourism Authority of Thailand · Ingredients for mango sticky rice",
+    "fruit-gi": "Tourism Authority of Thailand · Regional GI fruit and harvest periods",
+    "fruit-mango": "Department of Agricultural Extension, Thailand · Mango varieties and main season",
+    "fruit-durian": "Department of Agricultural Extension, Thailand · Durian varieties and main season",
+    "fruit-mangosteen": "Department of Agricultural Extension, Thailand · Mangosteen",
+    "fruit-rambutan": "Department of Agricultural Extension, Thailand · Rambutan",
+    "fruit-longan": "Department of Agricultural Extension, Thailand · Longan",
+    "fruit-lychee": "Department of Agricultural Extension, Thailand · Lychee",
+    "fruit-longkong": "Department of Agricultural Extension, Thailand · Longkong",
+    "fruit-pomelo": "Department of Agricultural Extension, Thailand · Pomelo",
+    "fruit-pineapple": "Department of Agricultural Extension, Thailand · Pineapple",
+    "fruit-coconut": "Department of Agricultural Extension, Thailand · Young coconut",
+    "fruit-watermelon": "Department of Agricultural Extension, Thailand · Watermelon",
+    "fruit-papaya": "Department of Agricultural Extension, Thailand · Papaya",
+    "fruit-tamarind": "Department of Agricultural Extension, Thailand · Sweet tamarind",
+    "fruit-mandarin": "Department of Agricultural Extension, Thailand · Mandarin orange",
+    "fruit-prices": "Department of Internal Trade, Thailand · Bangkok retail fruit prices",
+    "street-catalog": "Tourism Authority of Thailand · Food and drink catalogue",
+    "street-intro": "Tourism Authority of Thailand · Introduction to Thai food including roti"
+  },
+  "meta": {
+    "/en-gb/food/": "Thai food by city and region: read about traditional dishes and what to eat in Bangkok, Chiang Mai, Phuket, Ayutthaya, Khon Kaen and Hat Yai, with how to order each dish, plus street food and fruit.",
+    "/en-gb/food/traditions/": "Traditional Thai food explained by region: how staples and seasonings differ across the central, northern, Isan and southern regions, plus signature dishes and what to know before your first order.",
+    "/en-gb/food/street-food/": "Thai street food covering roti, watermelon shakes, roti sai mai, fermented sausage and Hat Yai fried chicken, with how each tastes and what to check on prices, cup size and sweetness when you order.",
+    "/en-gb/food/fruit-prices/": "Thai fruit prices: what to compare when buying by the kilo, bunch, piece or tub, with a buying guide for six cities and the confirmed Bangkok retail prices from the Department of Internal Trade.",
+    "/en-gb/food/fruits/": "Thai fruit by season: the flavour and how to eat 16 popular fruits, with a January to December fruit calendar and Bangkok retail prices that keep variety and selling unit apart.",
+    "/en-gb/food/cities/bangkok/": "Bangkok food guide: pad Thai, tom yum kung, green curry, massaman curry and mango sticky rice, with how to choose a meal, what to share and how to read the official Bangkok fruit price survey.",
+    "/en-gb/food/cities/chiang-mai/": "Chiang Mai food guide to northern Thai dishes: khao soi, sai ua and nam prik ong with sticky rice, how khantoke dining works, plus tips on buying longan and lychee in the north.",
+    "/en-gb/food/cities/phuket/": "Phuket food guide to local dishes: mi hokkien, mi hun and o-aew, shaped by Chinese and Malay food culture, with how to tell the noodles apart and why beach fruit and drinks differ from whole fruit.",
+    "/en-gb/food/cities/ayutthaya/": "Ayutthaya food guide: boat noodles, grilled river prawns and roti sai mai, with ideas for lunch between the ruins, how river prawns are priced and how to compare fruit sold by the bunch or kilo.",
+    "/en-gb/food/cities/khon-kaen/": "Khon Kaen food guide to Isan dishes: som tam and larb with sticky rice, sai krok Isan and the fish curry au pla, what pla ra is, and how ripe papaya differs from the green papaya used in som tam.",
+    "/en-gb/food/cities/hat-yai/": "Hat Yai food guide to Songkhla dishes: fried chicken with fried shallots, bak kut teh, and why a dish name alone does not tell you whether it is halal, plus tips on buying southern fruit.",
+    "/en-gb/food/dishes/pad-thai/": "Pad Thai explained: rice noodles stir-fried with egg and tofu in tamarind sauce, what peanuts, lime and dried chilli add, and what to ask about prawns and dried shrimp before you order in Thailand.",
+    "/en-gb/food/dishes/tom-yum-kung/": "Tom yum kung is Thailand’s hot and sour prawn soup with lemongrass and kaffir lime. Learn how clear and rich versions differ, what its 2024 UNESCO listing means and how to order it less spicy.",
+    "/en-gb/food/dishes/green-curry/": "Green curry in Thailand: a coconut milk curry with green paste, basil and meat or vegetables. Learn how hot it can be, how to order it milder, and why a vegetable curry may not be vegetarian.",
+    "/en-gb/food/dishes/massaman/": "Massaman curry is a rich Thai curry flavoured with cinnamon, cardamom and cloves. Find out how it differs from green curry, why mild does not mean no heat, and what to check for nuts and halal needs.",
+    "/en-gb/food/dishes/mango-sticky-rice/": "Mango sticky rice is a Thai dessert of ripe mango with coconut milk sticky rice. Read what it tastes like, how to eat mango and rice together, why it is a pudding, not a meal, and why mango varies.",
+    "/en-gb/food/dishes/khao-soi/": "Khao soi is the Chiang Mai curry noodle dish with egg noodles in coconut broth and a crispy noodle topping. Learn how to eat it, which meats are offered and how to add lime and side dishes.",
+    "/en-gb/food/dishes/sai-ua/": "Sai ua is a grilled northern Thai pork sausage with chilli and herbs. Find out how it tastes, how it differs from sai krok Isan and why it is not suitable if you do not eat pork.",
+    "/en-gb/food/dishes/nam-prik-ong/": "Nam prik ong is a northern Thai dipping sauce of tomato, minced pork and chilli, eaten with vegetables and sticky rice. See how to eat it and why a tomato sauce is not automatically vegetarian.",
+    "/en-gb/food/dishes/mi-hokkien/": "Mi hokkien is a Phuket noodle dish of thick yellow noodles stir-fried with seafood and sauce. Learn how it differs from mi hun, what else may go in and what to ask if you cannot eat seafood.",
+    "/en-gb/food/dishes/mi-hun/": "Mi hun is a Phuket dish of thin rice noodles known for its pork rib broth. Read how it differs from mi hokkien, how noodles and broth are served and what to ask if you avoid pork.",
+    "/en-gb/food/dishes/o-aew/": "O-aew is a cold Phuket dessert of jelly, sweet syrup and toppings on ice. Learn how to eat it, why it suits a hot day in the old town and what to ask about jelly and toppings you avoid.",
+    "/en-gb/food/dishes/boat-noodles/": "Boat noodles in Ayutthaya are noodles and meat served in broth, a famous meal between the ruins. Learn how to choose noodles, meat and bowl size, and what to ask if you avoid offal.",
+    "/en-gb/food/dishes/river-prawns/": "Grilled river prawns are a famous Ayutthaya dish to share with rice. Find out why the price depends on prawn size and selling unit, how to ask per prawn or by weight, and how to eat them.",
+    "/en-gb/food/dishes/roti-sai-mai/": "Roti sai mai is the Ayutthaya snack of thin roti wrapped around spun sugar. Learn how to wrap it yourself and adjust the sweetness, how it differs from ordinary roti and what green pandan roti is.",
+    "/en-gb/food/dishes/som-tam/": "Som tam is the Isan papaya salad pounded in a mortar with chilli and a sour dressing. Learn how it tastes, what pla ra is, how to order it less spicy and why it may not be vegetarian.",
+    "/en-gb/food/dishes/larb/": "Larb is the Isan minced meat salad with lime, herbs and toasted rice powder, eaten with sticky rice. Learn how it tastes, why you should ask for cooked meat and how it differs from northern larb.",
+    "/en-gb/food/dishes/sai-krok-isan/": "Sai krok Isan is a sour fermented sausage of pork and rice from Isan. Find out how it tastes, how it differs from northern sai ua and how to eat the raw chillies served with it.",
+    "/en-gb/food/dishes/au-pla/": "Au pla is a spicy, salty freshwater fish curry presented as a local dish of Khon Kaen. Learn how it differs from som tam and larb, what to ask about the fish and how to eat it with rice.",
+    "/en-gb/food/dishes/hat-yai-chicken/": "Hat Yai fried chicken comes with fried shallots and sticky rice. Find out how it tastes, how to eat the chicken and shallots together and why chicken alone does not mean a dish is halal.",
+    "/en-gb/food/dishes/bak-kut-teh/": "Bak kut teh is a pork rib soup with herbs and aromatics, a Chinese dish found in the Songkhla area and Hat Yai. Learn how it tastes and why it is not suitable if you avoid pork.",
+    "/en-gb/food/dishes/roti/": "Thai roti is a street snack of griddled dough with condensed milk or chocolate, sometimes with banana. Learn how to order it, how it differs from roti sai mai and what to ask about egg and milk.",
+    "/en-gb/food/dishes/watermelon-shake/": "Nam taeng mo pan is the Thai watermelon shake blended with water and ice. Learn how it differs from watermelon juice, how to ask for less sugar or syrup and how to compare cup size and price.",
+    "/en-gb/food/fruits/mango/": "Mango in Thailand: ripe and green varieties such as nam dok mai, the main season from March to May, how to cut and eat it, and how kilo prices differ from a tub of sliced fruit.",
+    "/en-gb/food/fruits/durian/": "Durian in Thailand: the main season from April to August, how monthong and chanee taste, how to start with a small amount, what the kilo price means and whether you can take it to your hotel.",
+    "/en-gb/food/fruits/mangosteen/": "Mangosteen in Thailand: the main season from April to August, how to open the purple shell, how the white flesh tastes and why the kilo price is not the weight of the flesh you eat.",
+    "/en-gb/food/fruits/rambutan/": "Rambutan in Thailand: harvest listed from April to August, how to peel it and take out the stone, how rong rian varieties differ and what to ask about kilo and bag prices at the market.",
+    "/en-gb/food/fruits/longan/": "Longan in Thailand: the main season from June to August, how to peel it and take out the stone, Lamphun’s Biao Kiao variety and why fresh and dried longan should be bought as separate products.",
+    "/en-gb/food/fruits/lychee/": "Lychee in Thailand: harvest listed from April to June, how to peel and eat it, the hong huai and chakkraphat varieties, and how kilo prices differ from set packs of lychee.",
+    "/en-gb/food/fruits/longkong/": "Longkong in Thailand: harvest listed from May to September, how it differs from longan, how to peel the segments and why a fruit name and bunch shape matter when you order.",
+    "/en-gb/food/fruits/pomelo/": "Pomelo in Thailand: the main season from October to December, how to peel the thick skin and remove the membrane, and how per fruit, per kilo and prepared tub prices differ.",
+    "/en-gb/food/fruits/pineapple/": "Pineapple in Thailand: the main season from April to July, how to cut and eat it, Trat’s si thong variety, and how whole fruit by the kilo differs from a bag of prepared fruit.",
+    "/en-gb/food/fruits/banana/": "Banana in Thailand: varieties of different shapes and sizes, why bananas are sold by the bunch, how to choose ripe fruit to eat straight away and where roti with banana fits in as a street snack.",
+    "/en-gb/food/fruits/coconut/": "Young coconut in Thailand: available all year, how to drink the water and scoop out the soft flesh, the fragrant nam hom variety and how a whole coconut differs from bottled coconut water.",
+    "/en-gb/food/fruits/watermelon/": "Watermelon in Thailand: available all year, how to eat it cut or as nam taeng mo pan, and how the kilo price of whole fruit differs from a bag of slices or a cup of the shake.",
+    "/en-gb/food/fruits/papaya/": "Papaya in Thailand: available all year, how to cut and eat ripe papaya, how it differs from the green papaya in som tam and how to choose between whole fruit and a prepared tub.",
+    "/en-gb/food/fruits/tamarind/": "Sweet tamarind in Thailand: the main harvest from late December to February, how to crack the pod and remove the fibres, Phetchabun’s variety and how fresh pods differ from packed tamarind.",
+    "/en-gb/food/fruits/mandarin/": "Thai mandarin oranges: the main season from October to February, why green skin does not mean unripe, how to peel and eat them and how to compare per-kilo prices by variety and grade.",
+    "/en-gb/food/fruits/marian-plum/": "Mayongchid in Thailand: Nakhon Nayok’s plum mango listed for January to March, how it tastes, how to eat it and how to ask for the right variety, name and price when you buy."
+  }
+}
