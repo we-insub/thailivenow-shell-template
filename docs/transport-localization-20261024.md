@@ -40,7 +40,7 @@
 - `scripts/audit-transport-localization.mjs <출력 폴더>`: 전체 경로의 언어·메타 길이·정본·hreflang·초기 HTML 잔여 한국어·실제 내부 링크·FAQ 본문/스키마 정합성 검사.
 - 전체 테스트·전체 build/SEO·날짜·공유 이미지/저자 감사·Pages 로컬 런타임·각 언어 PC/모바일은 통합 결과에 대해 마지막에 실행하고 결과를 구분해 기록한다.
 
-현재 최종 통합 검수가 진행 중이다. 로컬 검수 전부 통과나 배포 완료로 해석하면 안 된다. 운영 배포 및 IndexNow 전송은 실행하지 않았다.
+The following sections retain intermediate validation history. Final production and submission evidence is recorded in the completion section below.
 
 ## 후속 통합·공개 승인
 
@@ -68,3 +68,14 @@ Source metadata check completed: all 11 locales have 435 canonical descriptions,
 The first committed integration rendered 8,909 pages, but the complete SEO gate rejected 21 duplicate-title groups. The transport HTML audit found 690 metadata tag failures from 230 routes: 150 boat-destination composed titles and 80 noindex aliases whose old source descriptions remained Korean. Visible body, FAQ, canonical, language switching and internal-target checks passed across all 4,884 emitted transport routes. No failed tree was deployed.
 
 Boat destination titles now use an explicit whole authored template. Russian generated pier titles retain their boat-route/boarding scope, distinct from the separate Bangkok pier guides. Transport aliases inherit the corresponding canonical market description while keeping noindex and canonical targeting. Regressions cover both failures. A metadata-only preflight across the prior 8,909-page inventory reports zero corrected-title collisions or foreign Korean metadata; this is diagnostic evidence, not a replacement for the new committed full build.
+
+
+## Completion and production evidence
+
+- Selected source commit: `0d508fc21404268b5965220f36545af505d8cc2e`; unrelated working-tree changes were preserved.
+- Full isolated release: 8,909 HTML pages, 168 tests passed, SEO errors/duplicate titles/duplicate descriptions zero, and all 4,884 transport route checks passed. Canonical descriptions: 435 per market, 11 markets, 150-199 Unicode characters.
+- Whole-site date, author/publisher, photo-rights and representative-image gates passed. Existing unavailable-photo brand fallbacks remain recorded. The 1,884 SEO warnings were reviewed: 1,840 long authored titles and 44 existing noindex camera aliases or personal pages with short descriptions; no indexed short-description warning remains.
+- Actual Pages local runtime passed. Local desktop 1440px/mobile 390px, same-language hub-to-detail navigation, native train diagrams, airport comparison, boat planner and FAQ/source keyboard controls were checked.
+- Production upload: `https://d4160475.thai-live-now.pages.dev`; the immutable preview remains noindex. Production `https://thailivenow.com` was verified against the same source commit. Live page checks: 66; exact train-diagram/locale-pack asset hashes: 46. Production desktop and mobile screenshots are retained with QA records.
+- Source was pushed to `origin/main`. IndexNow accepted 4,456 changed URLs with HTTP 200. All 8,758 sitemap URLs were read successfully. No Korean metadata/H1/canonical changed, so the Naver-only Korean endpoint had no URLs to resend. Accepted state is saved in `data/indexnow-state.json` for inclusion with this QA record. Acceptance does not establish indexing or search visibility.
+- Final evidence: `docs/qa/transport-localization-20261024/STATUS.json` and the retained release artifact `artifacts/release-transport-airports-20261024-v3/`. Historical temporary paths are evidence locations, not setup requirements for another computer.

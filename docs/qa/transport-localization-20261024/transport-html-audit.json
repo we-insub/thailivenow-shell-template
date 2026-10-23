@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "output": "dist",
+  "counts": {
+    "ko": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "ms": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "zh-cn": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "en": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "en-in": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "ru": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "ja": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "en-gb": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "en-us": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "es": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    },
+    "zh-tw": {
+      "routes": 444,
+      "faqPages": 414,
+      "faqAnswers": 877
+    }
+  },
+  "failures": []
+}

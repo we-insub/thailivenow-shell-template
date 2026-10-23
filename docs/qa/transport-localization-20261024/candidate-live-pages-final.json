@@ -1,0 +1,603 @@
+{
+  "base": "http://127.0.0.1:4429",
+  "commit": "0d508fc21404268b5965220f36545af505d8cc2e",
+  "passed": true,
+  "checks": [
+    {
+      "path": "/ko/transport/",
+      "status": 200,
+      "title": "태국 교통 안내 | 공항 이동·전철·버스·보트 | 태국라이브나우",
+      "h1": "태국, 어떻게 이동할까요?",
+      "descriptionLength": 163,
+      "canonical": "https://thailivenow.com/ko/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ko/transport/guides/train/",
+      "status": 200,
+      "title": "태국 기차 예매 방법 | SRT D-Ticket 예매·결제·변경·취소 순서 | 태국라이브나우",
+      "h1": "태국 기차 이용 안내 (Thailand Train Guide)",
+      "descriptionLength": 163,
+      "canonical": "https://thailivenow.com/ko/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ko/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "아이콘시암 가는 배·하선 선착장·FAQ | 태국라이브나우",
+      "h1": "아이콘시암ICONSIAM",
+      "descriptionLength": 183,
+      "canonical": "https://thailivenow.com/ko/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ko/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "수완나품 공항에서 방콕 시내 가는 법 | 공항철도·택시·Grab·픽업 | 태국라이브나우",
+      "h1": "수완나품 공항에서 방콕 시내로(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 167,
+      "canonical": "https://thailivenow.com/ko/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ko/airport-assistance/",
+      "status": 200,
+      "title": "태국 항공편 지연·결항·수하물 | 신고·확인서·보험 서류 | 태국라이브나우",
+      "h1": "태국 여행 중 비행기나 짐에 문제가 생겼나요?",
+      "descriptionLength": 155,
+      "canonical": "https://thailivenow.com/ko/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ms/transport/",
+      "status": 200,
+      "title": "Panduan Pengangkutan di Thailand | ThaiLiveNow",
+      "h1": "Panduan pengangkutan di Thailand",
+      "descriptionLength": 172,
+      "canonical": "https://thailivenow.com/ms/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ms/transport/guides/train/",
+      "status": 200,
+      "title": "Cara menempah tren Thailand | Tempahan, pembayaran, perubahan dan pembatalan SRT D-Ticket | ThaiLiveNow",
+      "h1": "Panduan kereta api Thailand (Thailand Train Guide)",
+      "descriptionLength": 174,
+      "canonical": "https://thailivenow.com/ms/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ms/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "Ke ICONSIAM dengan bot: jeti turun dan soalan lazim | ThaiLiveNow",
+      "h1": "ICONSIAM",
+      "descriptionLength": 170,
+      "canonical": "https://thailivenow.com/ms/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ms/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "Cara ke pusat Bangkok dari Suvarnabhumi | Kereta api lapangan terbang·teksi·Grab·pengambilan | ThaiLiveNow",
+      "h1": "Dari lapangan terbang Suvarnabhumi ke pusat Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 168,
+      "canonical": "https://thailivenow.com/ms/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ms/airport-assistance/airports/",
+      "status": 200,
+      "title": "Panduan lapangan terbang Thailand · Suvarnabhumi, Don Mueang, Phuket dan Chiang Mai | ThaiLiveNow",
+      "h1": "Lapangan terbang Thailand",
+      "descriptionLength": 179,
+      "canonical": "https://thailivenow.com/ms/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ms/airport-assistance/",
+      "status": 200,
+      "title": "Penerbangan lewat, dibatalkan dan masalah bagasi di Thailand · Malaysia | ThaiLiveNow",
+      "h1": "Ada masalah dengan penerbangan atau bagasi anda?",
+      "descriptionLength": 196,
+      "canonical": "https://thailivenow.com/ms/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-cn/transport/",
+      "status": 200,
+      "title": "泰国交通出行指南：轨道、巴士、船、出租车 | ThaiLiveNow",
+      "h1": "泰国怎么出行？",
+      "descriptionLength": 153,
+      "canonical": "https://thailivenow.com/zh-cn/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-cn/transport/guides/train/",
+      "status": 200,
+      "title": "泰国火车购票方法 | SRT D-Ticket预约、付款、改签及退票步骤 | ThaiLiveNow",
+      "h1": "泰国火车乘车指南 (Thailand Train Guide)",
+      "descriptionLength": 182,
+      "canonical": "https://thailivenow.com/zh-cn/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-cn/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "乘船前往ICONSIAM：下船码头与常见问题 | ThaiLiveNow",
+      "h1": "ICONSIAM",
+      "descriptionLength": 186,
+      "canonical": "https://thailivenow.com/zh-cn/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-cn/airport-assistance/airports/",
+      "status": 200,
+      "title": "泰国机场指南：素万那普、廊曼、普吉与清迈机场 | ThaiLiveNow",
+      "h1": "泰国机场",
+      "descriptionLength": 155,
+      "canonical": "https://thailivenow.com/zh-cn/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-cn/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "素万那普机场到曼谷：机场快线、出租车、Grab及接送 | ThaiLiveNow",
+      "h1": "Suvarnabhumi Airport to Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 175,
+      "canonical": "https://thailivenow.com/zh-cn/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-cn/airport-assistance/",
+      "status": 200,
+      "title": "泰国旅行航班延误、取消与行李问题处理 · 中国大陆 | ThaiLiveNow",
+      "h1": "航班或行李出了问题，先做什么？",
+      "descriptionLength": 151,
+      "canonical": "https://thailivenow.com/zh-cn/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en/transport/",
+      "status": 200,
+      "title": "Getting Around Thailand: Transport Guide | ThaiLiveNow",
+      "h1": "How will you travel around Thailand?",
+      "descriptionLength": 196,
+      "canonical": "https://thailivenow.com/en/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en/transport/guides/train/",
+      "status": 200,
+      "title": "How to book Thai trains | SRT D-Ticket booking, payment, changes and cancellation | ThaiLiveNow",
+      "h1": "Thailand Train Guide ",
+      "descriptionLength": 194,
+      "canonical": "https://thailivenow.com/en/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "Getting to ICONSIAM by boat: arrival piers and FAQs | ThaiLiveNow",
+      "h1": "ICONSIAM",
+      "descriptionLength": 161,
+      "canonical": "https://thailivenow.com/en/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "Suvarnabhumi to Bangkok: Airport Rail Link, taxis, Grab and pickups | ThaiLiveNow",
+      "h1": "Suvarnabhumi Airport to central Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 195,
+      "canonical": "https://thailivenow.com/en/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en/airport-assistance/airports/",
+      "status": 200,
+      "title": "Thailand airport guides: Suvarnabhumi, Don Mueang, Phuket and Chiang Mai | ThaiLiveNow",
+      "h1": "Thailand airports",
+      "descriptionLength": 169,
+      "canonical": "https://thailivenow.com/en/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en/airport-assistance/",
+      "status": 200,
+      "title": "Search country flight, airport and airline help records | ThaiLiveNow",
+      "h1": "Search flight, airport and airline help across countries",
+      "descriptionLength": 187,
+      "canonical": "https://thailivenow.com/en/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-in/transport/",
+      "status": 200,
+      "title": "How to Travel Within Thailand: Transport Guide | ThaiLiveNow · India",
+      "h1": "How will you travel around Thailand?",
+      "descriptionLength": 196,
+      "canonical": "https://thailivenow.com/en-in/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-in/transport/guides/train/",
+      "status": 200,
+      "title": "How to book Thai trains | SRT D-Ticket booking, payment, changes and cancellation | ThaiLiveNow · India",
+      "h1": "Thailand Train Guide ",
+      "descriptionLength": 194,
+      "canonical": "https://thailivenow.com/en-in/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-in/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "Getting to ICONSIAM by boat: arrival piers and FAQs | ThaiLiveNow · India",
+      "h1": "ICONSIAM",
+      "descriptionLength": 161,
+      "canonical": "https://thailivenow.com/en-in/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-in/airport-assistance/airports/",
+      "status": 200,
+      "title": "Thailand airport guides: Suvarnabhumi, Don Mueang, Phuket and Chiang Mai | ThaiLiveNow · India",
+      "h1": "Thailand airports",
+      "descriptionLength": 169,
+      "canonical": "https://thailivenow.com/en-in/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-in/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "Suvarnabhumi to Bangkok: Airport Rail Link, taxis, Grab and pickups | ThaiLiveNow · India",
+      "h1": "Suvarnabhumi Airport to central Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 195,
+      "canonical": "https://thailivenow.com/en-in/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-in/airport-assistance/",
+      "status": 200,
+      "title": "Flight delays, cancellations and baggage problems in Thailand · India | ThaiLiveNow",
+      "h1": "Has something gone wrong with your flight or bag?",
+      "descriptionLength": 195,
+      "canonical": "https://thailivenow.com/en-in/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ru/transport/",
+      "status": 200,
+      "title": "Транспорт в Таиланде: как передвигаться | ThaiLiveNow",
+      "h1": "Как передвигаться по Таиланду?",
+      "descriptionLength": 159,
+      "canonical": "https://thailivenow.com/ru/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ru/transport/guides/train/",
+      "status": 200,
+      "title": "Как купить билет на поезд в Таиланде | SRT D-Ticket: бронирование, оплата, изменение и отмена | ThaiLiveNow",
+      "h1": "Поезда Таиланда: как пользоваться (Thailand Train Guide)",
+      "descriptionLength": 164,
+      "canonical": "https://thailivenow.com/ru/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ru/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "Как добраться до ICONSIAM на лодке: причалы и частые вопросы | ThaiLiveNow",
+      "h1": "ICONSIAM",
+      "descriptionLength": 180,
+      "canonical": "https://thailivenow.com/ru/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ru/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "Из Суварнабхуми в центр Бангкока | ARL, такси, Grab и трансфер | ThaiLiveNow",
+      "h1": "Из аэропорта Суварнабхуми в центр Бангкока(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 165,
+      "canonical": "https://thailivenow.com/ru/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ru/airport-assistance/airports/",
+      "status": 200,
+      "title": "Аэропорты Таиланда · Суварнабхуми, Донмыанг, Пхукет и Чиангмай | ThaiLiveNow",
+      "h1": "Аэропорты Таиланда",
+      "descriptionLength": 174,
+      "canonical": "https://thailivenow.com/ru/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ru/airport-assistance/",
+      "status": 200,
+      "title": "Задержка, отмена рейса и проблемы с багажом в Таиланде · Россия | ThaiLiveNow",
+      "h1": "Что делать, если возникла проблема с рейсом или багажом?",
+      "descriptionLength": 198,
+      "canonical": "https://thailivenow.com/ru/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ja/transport/",
+      "status": 200,
+      "title": "タイの交通ガイド｜鉄道・バス・ボート・タクシー | ThaiLiveNow",
+      "h1": "タイの交通・移動ガイド",
+      "descriptionLength": 163,
+      "canonical": "https://thailivenow.com/ja/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ja/transport/guides/train/",
+      "status": 200,
+      "title": "タイ鉄道の予約方法 | SRT D-Ticketの予約・支払い・変更・取消手順 | ThaiLiveNow",
+      "h1": "タイの列車利用ガイド (Thailand Train Guide)",
+      "descriptionLength": 194,
+      "canonical": "https://thailivenow.com/ja/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ja/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "ICONSIAMへのボート・降船する船着場・よくある質問 | ThaiLiveNow",
+      "h1": "ICONSIAM",
+      "descriptionLength": 186,
+      "canonical": "https://thailivenow.com/ja/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ja/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "スワンナプーム空港からバンコク市内：空港鉄道・タクシー・Grab・送迎 | ThaiLiveNow",
+      "h1": "Suvarnabhumi Airport to Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 170,
+      "canonical": "https://thailivenow.com/ja/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ja/airport-assistance/airports/",
+      "status": 200,
+      "title": "タイの空港案内：スワンナプーム・ドンムアン・プーケット・チェンマイ | ThaiLiveNow",
+      "h1": "タイの空港",
+      "descriptionLength": 150,
+      "canonical": "https://thailivenow.com/ja/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ja/airport-assistance/",
+      "status": 200,
+      "title": "タイ旅行の遅延・欠航・手荷物トラブル対応 · 日本 | ThaiLiveNow",
+      "h1": "飛行機や預けた荷物にトラブルが起きたら",
+      "descriptionLength": 162,
+      "canonical": "https://thailivenow.com/ja/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-gb/transport/",
+      "status": 200,
+      "title": "Getting Around Thailand: Transport Guide | ThaiLiveNow · UK",
+      "h1": "How will you travel around Thailand?",
+      "descriptionLength": 196,
+      "canonical": "https://thailivenow.com/en-gb/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-gb/transport/guides/train/",
+      "status": 200,
+      "title": "How to book Thai trains | SRT D-Ticket booking, payment, changes and cancellation | ThaiLiveNow · UK",
+      "h1": "Thailand Train Guide ",
+      "descriptionLength": 194,
+      "canonical": "https://thailivenow.com/en-gb/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-gb/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "Getting to ICONSIAM by boat: arrival piers and FAQs | ThaiLiveNow · UK",
+      "h1": "ICONSIAM",
+      "descriptionLength": 161,
+      "canonical": "https://thailivenow.com/en-gb/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-gb/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "Suvarnabhumi to Bangkok: Airport Rail Link, taxis, Grab and pickups | ThaiLiveNow · UK",
+      "h1": "Suvarnabhumi Airport to central Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 195,
+      "canonical": "https://thailivenow.com/en-gb/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-gb/airport-assistance/airports/",
+      "status": 200,
+      "title": "Thailand airport guides: Suvarnabhumi, Don Mueang, Phuket and Chiang Mai | ThaiLiveNow · UK",
+      "h1": "Thailand airports",
+      "descriptionLength": 169,
+      "canonical": "https://thailivenow.com/en-gb/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-gb/airport-assistance/",
+      "status": 200,
+      "title": "Flight delays, cancellations and baggage problems in Thailand · United Kingdom | ThaiLiveNow",
+      "h1": "Has something gone wrong with your flight or bag?",
+      "descriptionLength": 194,
+      "canonical": "https://thailivenow.com/en-gb/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-us/transport/",
+      "status": 200,
+      "title": "Thailand Transportation Guide: Getting Around | ThaiLiveNow · US",
+      "h1": "How will you travel around Thailand?",
+      "descriptionLength": 196,
+      "canonical": "https://thailivenow.com/en-us/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-us/transport/guides/train/",
+      "status": 200,
+      "title": "How to book Thai trains | SRT D-Ticket booking, payment, changes and cancellation | ThaiLiveNow · US",
+      "h1": "Thailand Train Guide ",
+      "descriptionLength": 194,
+      "canonical": "https://thailivenow.com/en-us/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-us/airport-assistance/airports/",
+      "status": 200,
+      "title": "Thailand airport guides: Suvarnabhumi, Don Mueang, Phuket and Chiang Mai | ThaiLiveNow · US",
+      "h1": "Thailand airports",
+      "descriptionLength": 169,
+      "canonical": "https://thailivenow.com/en-us/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-us/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "Getting to ICONSIAM by boat: arrival piers and FAQs | ThaiLiveNow · US",
+      "h1": "ICONSIAM",
+      "descriptionLength": 161,
+      "canonical": "https://thailivenow.com/en-us/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-us/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "Suvarnabhumi to Bangkok: Airport Rail Link, taxis, Grab and pickups | ThaiLiveNow · US",
+      "h1": "Suvarnabhumi Airport to central Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 195,
+      "canonical": "https://thailivenow.com/en-us/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/en-us/airport-assistance/",
+      "status": 200,
+      "title": "Flight delays, cancellations and baggage problems in Thailand · United States | ThaiLiveNow",
+      "h1": "Has something gone wrong with your flight or bag?",
+      "descriptionLength": 193,
+      "canonical": "https://thailivenow.com/en-us/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/es/transport/",
+      "status": 200,
+      "title": "Cómo moverse por Tailandia: guía de transporte | ThaiLiveNow",
+      "h1": "¿Cómo moverse por Tailandia?",
+      "descriptionLength": 166,
+      "canonical": "https://thailivenow.com/es/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/es/transport/guides/train/",
+      "status": 200,
+      "title": "Reservar tren en Tailandia | SRT D-Ticket: reserva, pago, cambio y cancelación | ThaiLiveNow",
+      "h1": "Guía de trenes de Tailandia (Thailand Train Guide)",
+      "descriptionLength": 161,
+      "canonical": "https://thailivenow.com/es/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/es/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "Cómo llegar a ICONSIAM en barco: muelles y preguntas frecuentes | ThaiLiveNow",
+      "h1": "ICONSIAM",
+      "descriptionLength": 163,
+      "canonical": "https://thailivenow.com/es/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/es/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "De Suvarnabhumi al centro | ARL, taxi, Grab y recogida | ThaiLiveNow",
+      "h1": "Del aeropuerto de Suvarnabhumi al centro de Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 164,
+      "canonical": "https://thailivenow.com/es/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/es/airport-assistance/airports/",
+      "status": 200,
+      "title": "Aeropuertos de Tailandia · Suvarnabhumi, Don Mueang, Phuket y Chiang Mai | ThaiLiveNow",
+      "h1": "Aeropuertos de Tailandia",
+      "descriptionLength": 182,
+      "canonical": "https://thailivenow.com/es/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/es/airport-assistance/",
+      "status": 200,
+      "title": "Retrasos, cancelaciones y problemas de equipaje en Tailandia · España | ThaiLiveNow",
+      "h1": "¿Ha surgido un problema con su vuelo o equipaje?",
+      "descriptionLength": 195,
+      "canonical": "https://thailivenow.com/es/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-tw/transport/",
+      "status": 200,
+      "title": "泰國交通指南：捷運、巴士、船、計程車 | ThaiLiveNow",
+      "h1": "泰國交通怎麼搭？",
+      "descriptionLength": 160,
+      "canonical": "https://thailivenow.com/zh-tw/transport/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-tw/transport/guides/train/",
+      "status": 200,
+      "title": "泰國火車購票方法 | SRT D-Ticket預約、付款、改簽及退票步驟 | ThaiLiveNow",
+      "h1": "泰國火車搭乘指南 (Thailand Train Guide)",
+      "descriptionLength": 166,
+      "canonical": "https://thailivenow.com/zh-tw/transport/guides/train/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-tw/transport/boat/destinations/iconsiam/",
+      "status": 200,
+      "title": "搭船前往ICONSIAM：下船碼頭與常見問題 | ThaiLiveNow",
+      "h1": "ICONSIAM",
+      "descriptionLength": 162,
+      "canonical": "https://thailivenow.com/zh-tw/transport/boat/destinations/iconsiam/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-tw/transport/airports/suvarnabhumi-to-bangkok/",
+      "status": 200,
+      "title": "蘇凡納布機場到曼谷：機場快線、計程車、Grab與接送 | ThaiLiveNow",
+      "h1": "Suvarnabhumi Airport to Bangkok(Suvarnabhumi Airport to Bangkok)",
+      "descriptionLength": 159,
+      "canonical": "https://thailivenow.com/zh-tw/transport/airports/suvarnabhumi-to-bangkok/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-tw/airport-assistance/airports/",
+      "status": 200,
+      "title": "泰國機場指南：蘇凡納布、廊曼、普吉與清邁機場 | ThaiLiveNow",
+      "h1": "泰國機場",
+      "descriptionLength": 158,
+      "canonical": "https://thailivenow.com/zh-tw/airport-assistance/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/zh-tw/airport-assistance/",
+      "status": 200,
+      "title": "泰國旅遊航班延誤、取消與行李問題處理 · 台灣 | ThaiLiveNow",
+      "h1": "航班或行李出了狀況，先做什麼？",
+      "descriptionLength": 160,
+      "canonical": "https://thailivenow.com/zh-tw/airport-assistance/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    },
+    {
+      "path": "/ko/airports/",
+      "status": 200,
+      "title": "태국 공항 안내 | 수완나폼·돈므앙·푸껫·치앙마이 | 태국라이브나우",
+      "h1": "태국 공항",
+      "descriptionLength": 153,
+      "canonical": "https://thailivenow.com/ko/airports/",
+      "releaseCommit": "0d508fc21404268b5965220f36545af505d8cc2e"
+    }
+  ],
+  "errors": [],
+  "correctedTestAssumption": "Korean airport hub canonical is /ko/airports/; its airport-assistance path redirects there. The original failed test record is retained."
+}

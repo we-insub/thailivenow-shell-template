@@ -1,0 +1,79 @@
+{
+  "ko": {
+    "count": 435,
+    "min": 150,
+    "max": 183,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "ms": {
+    "count": 435,
+    "min": 157,
+    "max": 176,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "zh-cn": {
+    "count": 435,
+    "min": 153,
+    "max": 199,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "en": {
+    "count": 435,
+    "min": 158,
+    "max": 199,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "en-in": {
+    "count": 435,
+    "min": 158,
+    "max": 199,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "ru": {
+    "count": 435,
+    "min": 157,
+    "max": 197,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "ja": {
+    "count": 435,
+    "min": 163,
+    "max": 199,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "en-gb": {
+    "count": 435,
+    "min": 158,
+    "max": 199,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "en-us": {
+    "count": 435,
+    "min": 158,
+    "max": 199,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "es": {
+    "count": 435,
+    "min": 155,
+    "max": 177,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  },
+  "zh-tw": {
+    "count": 435,
+    "min": 153,
+    "max": 199,
+    "duplicateValues": 0,
+    "invalidLength": 0
+  }
+}

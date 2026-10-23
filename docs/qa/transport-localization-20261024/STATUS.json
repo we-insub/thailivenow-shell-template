@@ -1,0 +1,94 @@
+{
+  "state": "production_verified_indexnow_accepted",
+  "sourceCommit": "0d508fc21404268b5965220f36545af505d8cc2e",
+  "deploymentURL": "https://d4160475.thai-live-now.pages.dev",
+  "verifiedProduction": true,
+  "productionChecks": [
+    "data/site-dates.json",
+    "sitemap.xml",
+    "sitemap-ko.xml",
+    "robots.txt",
+    "analytics-consent.mjs",
+    "data/cameras.json",
+    "/ko/",
+    "/ms/",
+    "/zh-cn/",
+    "/en/",
+    "/en-in/",
+    "/ru/",
+    "/ja/",
+    "/en-gb/",
+    "/en-us/",
+    "/es/",
+    "/zh-tw/",
+    "/ko/privacy/",
+    "/ko/food/street-food/"
+  ],
+  "tests": {
+    "passed": 168,
+    "failed": 0
+  },
+  "pages": 8909,
+  "canonicalTransportPerMarket": 435,
+  "transportMarkets": 11,
+  "emittedTransportRoutesPerMarket": 444,
+  "transportHTMLAuditFailures": 0,
+  "seo": {
+    "errors": 0,
+    "duplicateTitles": 0,
+    "duplicateDescriptions": 0,
+    "warningsReviewed": 1884
+  },
+  "localUI": {
+    "allMarketsHubToTrain": true,
+    "desktopWidth": 1440,
+    "mobileWidth": 390,
+    "overflow": 0,
+    "candidateRuntimePages": 66,
+    "airportChooser": true,
+    "boatPlanner": true,
+    "faqAndSourcesKeyboard": true
+  },
+  "trainDiagrams": {
+    "files": 32,
+    "measuredLabels": 480,
+    "frameGeometryPreserved": true,
+    "overflow": 0,
+    "missingGlyphs": 0
+  },
+  "production": {
+    "pageChecks": 66,
+    "assetHashes": 46,
+    "desktopWidth": 1440,
+    "mobileWidth": 390
+  },
+  "indexNow": {
+    "acceptedURLs": 4456,
+    "httpStatus": 200,
+    "sitemapURLs": 8758,
+    "indexableURLs": 8758,
+    "byMarket": {
+      "en-gb": 453,
+      "en-in": 457,
+      "en-us": 455,
+      "en": 444,
+      "es": 437,
+      "ja": 462,
+      "ms": 438,
+      "ru": 438,
+      "zh-cn": 436,
+      "zh-tw": 436
+    },
+    "naverDirectURLs": 0,
+    "naverReason": "No Korean title, meta description, canonical or H1 changed; unchanged URLs were not resent.",
+    "storedStateEntries": 8758,
+    "indexingConfirmed": false
+  },
+  "gitPush": {
+    "sourcePushed": true,
+    "branch": "main",
+    "sourceCommit": "0d508fc21404268b5965220f36545af505d8cc2e",
+    "submissionState": "data/indexnow-state.json included with this QA record"
+  },
+  "scope": "Transport localization plus the two explicitly authorized airport tasks. Existing unrelated attraction and language-picker changes remain in the working tree."
+}
