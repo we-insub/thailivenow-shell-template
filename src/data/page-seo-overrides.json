@@ -162,7 +162,7 @@
     "description": "태국에서 가볼 사원과 루프탑, 동물원·아쿠아리움, 야시장·수상시장, 박물관·역사유적과 워터파크를 지역별로 찾아보세요. 명소의 볼거리와 주소, 확인된 운영시간·입장료·가는 방법을 함께 소개해요."
   },
   "/en/food/": {
-    "title": "Thailand Rooftop Restaurants & Bars with a View | ThaiLiveNow"
+    "title": "Thai Food · Traditional Dishes and Local Flavors by City | ThaiLiveNow"
   },
   "/en/transport/": {
     "title": "Getting Around Thailand: Transport Guide | ThaiLiveNow"
@@ -171,7 +171,7 @@
     "title": "Thailand Food Delivery Deals · Official App Links | ThaiLiveNow"
   },
   "/en-gb/food/": {
-    "title": "Thailand Rooftop Restaurants & Bars with a View | ThaiLiveNow · UK"
+    "title": "Thai food · Traditional dishes and flavours by city | ThaiLiveNow · UK"
   },
   "/en-gb/transport/": {
     "title": "Getting Around Thailand: Transport Guide | ThaiLiveNow · UK"
@@ -180,7 +180,7 @@
     "title": "Thailand Food Delivery Deals · Official App Links | ThaiLiveNow · UK"
   },
   "/en-in/food/": {
-    "title": "Thailand Rooftop Restaurants & Bars with a View | ThaiLiveNow · India"
+    "title": "Thai food guide: traditional dishes and city flavours | ThaiLiveNow · India"
   },
   "/en-in/transport/": {
     "title": "How to Travel Within Thailand: Transport Guide | ThaiLiveNow · India"
@@ -189,7 +189,7 @@
     "title": "Thailand Food Delivery Deals · Official App Links | ThaiLiveNow · India"
   },
   "/en-us/food/": {
-    "title": "Thailand Rooftop Restaurants & Bars with a View | ThaiLiveNow · US"
+    "title": "Thai Food Guide · Traditional Dishes by City | ThaiLiveNow · US"
   },
   "/en-us/transport/": {
     "title": "Thailand Transportation Guide: Getting Around | ThaiLiveNow · US"
@@ -198,7 +198,7 @@
     "title": "Thailand Food Delivery Deals · Official App Links | ThaiLiveNow · US"
   },
   "/es/food/": {
-    "title": "Restaurantes y bares en azotea con vistas en Tailandia | ThaiLiveNow"
+    "title": "Comida tailandesa: platos típicos y sabores por ciudades | ThaiLiveNow"
   },
   "/es/transport/": {
     "title": "Cómo moverse por Tailandia: guía de transporte | ThaiLiveNow"
@@ -207,7 +207,7 @@
     "title": "Ofertas de comida a domicilio en Tailandia: enlaces oficiales | ThaiLiveNow"
   },
   "/ja/food/": {
-    "title": "タイの眺望レストラン・ルーフトップバー | ThaiLiveNow"
+    "title": "タイ料理ガイド｜伝統料理と都市別の味 | ThaiLiveNow"
   },
   "/ja/transport/": {
     "title": "タイの交通ガイド｜鉄道・バス・ボート・タクシー | ThaiLiveNow"
@@ -216,7 +216,7 @@
     "title": "タイのフードデリバリー・配車アプリのお得情報 | ThaiLiveNow"
   },
   "/ms/food/": {
-    "title": "Restoran & Bar Rooftop Berpemandangan di Thailand | ThaiLiveNow"
+    "title": "Makanan Thailand · Hidangan tradisional dan citarasa setiap bandar | ThaiLiveNow"
   },
   "/ms/transport/": {
     "title": "Panduan Pengangkutan di Thailand | ThaiLiveNow"
@@ -225,7 +225,7 @@
     "title": "Tawaran Aplikasi Penghantaran Makanan di Thailand | ThaiLiveNow"
   },
   "/ru/food/": {
-    "title": "Рестораны и бары на крышах Таиланда с видом | ThaiLiveNow"
+    "title": "Тайская кухня: традиционные блюда и вкусы городов | ThaiLiveNow"
   },
   "/ru/transport/": {
     "title": "Транспорт в Таиланде: как передвигаться | ThaiLiveNow"
@@ -234,7 +234,7 @@
     "title": "Скидки на доставку еды в Таиланде: GrabFood и LINE MAN | ThaiLiveNow"
   },
   "/zh-cn/food/": {
-    "title": "泰国景观餐厅与屋顶酒吧推荐 | ThaiLiveNow"
+    "title": "泰国美食 · 传统美食与各城市风味 | ThaiLiveNow"
   },
   "/zh-cn/transport/": {
     "title": "泰国交通出行指南：轨道、巴士、船、出租车 | ThaiLiveNow"
@@ -243,7 +243,7 @@
     "title": "泰国外卖优惠：GrabFood与LINE MAN官方入口 | ThaiLiveNow"
   },
   "/zh-tw/food/": {
-    "title": "泰國景觀餐廳與高空酒吧推薦 | ThaiLiveNow"
+    "title": "泰國美食・傳統料理與各城市風味 | ThaiLiveNow"
   },
   "/zh-tw/transport/": {
     "title": "泰國交通指南：捷運、巴士、船、計程車 | ThaiLiveNow"
